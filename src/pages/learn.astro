@@ -1,0 +1,12 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { learningPaths } from '../data/paths';
+import { url } from '../lib/paths';
+const bySlug = Object.fromEntries((await getCollection('concepts')).map(c=>[c.data.slug,c]));
+---
+<BaseLayout title="Learn · 学习路径">
+  <div class="container"><div class="page-intro"><div class="eyebrow">Learn together</div><h1>顺着一个问题，逐步深入。</h1><p>每条路径都连接已有词条。新成员可按顺序阅读，也可以从当前论文里遇到的概念开始。</p></div>
+    <section class="section">{learningPaths.map(path=><article class="path-full" id={path.id}><div class="eyebrow">{path.english}</div><h2>{path.title}</h2><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={url(`concepts/${slug}`)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></article>)}</section>
+  </div>
+</BaseLayout>

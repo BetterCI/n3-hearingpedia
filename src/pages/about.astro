@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../lib/paths';
+---
+<BaseLayout title="About · 关于项目"><div class="container reading-page"><div class="page-intro"><div class="eyebrow">About n³ Hearingpedia</div><h1>从共同问题出发，<br />建立可持续的知识网络。</h1><p>An AI-native Knowledge System for Hearing Science</p></div><div class="prose">
+  <h2>先服务课题组成员</h2><p>听觉科学连接声学、生理、感知、工程与临床。项目先帮助新成员补齐前置知识，帮助跨专业成员建立共同语言，并为文献阅读和实验设计提供入口。</p><p>首批建设围绕实际学习路径展开。随着内容和维护流程成熟，逐渐服务更广泛的学生、研究者及专业读者。</p>
+  <h2>每个概念都应有连接</h2><p>一个词条从一句话理解和直觉开始，逐步进入理论、变量、实验与应用。领域目录提供分类，学习路径组织顺序，关联记录连接前置知识、机制与方法。</p>
+  <h2>AI 协助整理，人负责科学判断</h2><p>首批内容为 AI 辅助初稿，均标记 Draft。引用可访问不意味着词条已获专家认可。Reviewed 和 Stable 状态必须对应实际审阅者与日期。</p><p>参考文献注明引用用途，并区分全文、摘要、书目及方法文档。我们不将有限检索表述为覆盖全部最新文献。</p>
+  <h2>基础知识与研究进展分别维护</h2><p>经典研究和可靠综述支持基础解释。新论文用于补充适用条件、研究方法与争议；改变重要论断前，由成员检查证据并审阅更新版本。</p>
+  <h2>当前版本</h2><p>v0.1 提供 8 个实质词条、12 个领域入口、2 条学习路径、知识地图及本地搜索。未收录词条的领域明确显示 0。互动实验与自动文献跟踪列入后续路线图。</p><p><a href={url('contribute')}>了解贡献与审阅流程</a> · <a href={url('lab')}>查看互动实验路线图</a> · <a href="https://github.com/BetterCI/n3-hearingpedia">GitHub 源码</a></p>
+</div></div></BaseLayout>

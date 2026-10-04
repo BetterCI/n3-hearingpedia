@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../lib/paths';
+---
+<BaseLayout title="页面未找到"><div class="container"><div class="page-intro"><div class="eyebrow">404</div><h1>这条连接还没有找到。</h1><p>请检查链接，或从已有词条重新开始。</p></div><section class="section"><div class="hero-actions"><a class="button primary" href={url('explore')}>浏览概念 ↗</a><a class="button" href={url('search')}>搜索词条</a></div></section></div></BaseLayout>

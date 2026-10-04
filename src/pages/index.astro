@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ConceptCard from '../components/ConceptCard.astro';
+import NetworkArt from '../components/NetworkArt.astro';
+import { url } from '../lib/paths';
+import { learningPaths } from '../data/paths';
+const concepts = (await getCollection('concepts')).sort((a,b) => a.data.order - b.data.order);
+const bySlug = Object.fromEntries(concepts.map(c => [c.data.slug, c]));
+---
+<BaseLayout>
+  <div class="container">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">A living knowledge network</div>
+        <h1><span class="hero-n">n³</span>Hearingpedia</h1>
+        <p class="hero-subtitle">An AI-native Knowledge System for Hearing Science</p>
+        <p class="hero-description">从声音到听觉。<br />连接机制、感知与工程，<br />让每一个概念都有迹可循。</p>
+        <form class="hero-search" action={url('search')} method="get" role="search">
+          <span class="search-symbol" aria-hidden="true">⌕</span>
+          <label class="sr-only" for="hero-query">搜索听觉科学词条</label>
+          <input id="hero-query" type="search" name="q" placeholder="搜索概念、英文术语或研究方法…" required />
+          <button type="submit">搜索 ↗</button>
+        </form>
+        <div class="hero-actions"><a class="button primary" href={url('explore')}>Explore Concepts <span>↗</span></a><a class="button" href={url('map')}>Explore the Map</a><a class="button" href={url('learn')}>Start Learning</a></div>
+        <p class="hero-note">面向课题组成员 · 从共同问题出发，逐步扩展知识</p>
+      </div>
+      <NetworkArt />
+    </section>
+    <div class="project-strip">
+      <div class="strip-intro"><strong>一个概念，一页清晰的解释。</strong>沿着关联，找到理解下一个问题的入口。</div>
+      <div class="strip-stats"><span><strong>{concepts.length}</strong>首批词条</span><span><strong>12</strong>知识领域</span><span><strong>2</strong>学习路径</span></div>
+    </div>
+    <section class="section">
+      <div class="section-heading"><div><div class="eyebrow">Start with an idea</div><h2>从这些概念开始</h2><p>组内学习、文献阅读与实验设计的共同语言。</p></div><a class="text-link" href={url('explore')}>浏览全部领域 ↗</a></div>
+      <div class="concept-grid">{concepts.map(concept => <ConceptCard concept={concept} />)}</div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><div><div class="eyebrow">Follow the connections</div><h2>把概念连成一条路径</h2><p>先补齐前置知识，再进入研究问题。</p></div><a class="text-link" href={url('learn')}>进入学习路径 ↗</a></div>
+      <div class="path-grid">{learningPaths.map(path => <div class="path-card"><div class="eyebrow">{path.english}</div><h3>{path.title}</h3><p>{path.description}</p><div class="path-chips">{path.slugs.map((slug,i) => <>{i>0 && <span aria-hidden="true">→</span>}<a href={url(`concepts/${slug}`)}>{bySlug[slug].data.title}</a></>)}</div></div>)}</div>
+    </section>
+    <section class="section"><div class="note-panel"><div><h3>有来源，也有状态。</h3><p>首批内容均为 Draft。AI 协助整理，科学判断由成员审阅；每次更新保留引用和变更记录。</p></div><a class="text-link" href={url('contribute')}>了解贡献流程 ↗</a></div></section>
+  </div>
+</BaseLayout>

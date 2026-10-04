@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ConceptCard from '../components/ConceptCard.astro';
+import { domains } from '../data/domains';
+import { url } from '../lib/paths';
+const concepts = (await getCollection('concepts')).sort((a,b) => a.data.order - b.data.order);
+---
+<BaseLayout title="Explore · 探索概念">
+  <div class="container">
+    <div class="page-intro"><div class="eyebrow">Explore</div><h1>在领域之间，找到连接。</h1><p>12 个领域构成知识框架。首批内容围绕课题组共同问题展开，领域数量与已有词条数量分别显示。</p></div>
+    <section class="section"><div class="domain-grid">{domains.map(d => {const count=concepts.filter(c=>c.data.categories.includes(d.id)).length;return <a class="domain-card" href={url(`domains/${d.id}`)}><span class="symbol" aria-hidden="true">{d.symbol}</span><h2>{d.zh}</h2><span class="en-label">{d.name}</span><p>{d.note}</p><span class="domain-count">{count} 个已有词条 <span aria-hidden="true">↗</span></span></a>})}</div></section>
+    <section class="section"><div class="section-heading"><div><div class="eyebrow">First collection</div><h2>首批 8 个词条</h2></div></div><div class="concept-grid">{concepts.map(concept=><ConceptCard concept={concept} />)}</div></section>
+  </div>
+</BaseLayout>

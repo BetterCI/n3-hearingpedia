@@ -1,0 +1,9 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { url } from '../lib/paths';
+const concepts = await getCollection('concepts');
+const bySlug = Object.fromEntries(concepts.map(c=>[c.data.slug,c]));
+const topics=[{title:'理解频率分析',note:'从耳蜗中的位置组织，到行为实验中的滤波器估计。',slugs:['cochlea','tonotopy','auditory-filter','masking']},{title:'阅读声码器论文',note:'区分保留的信号线索、模拟参数与语音评价任务。',slugs:['temporal-envelope','vocoder','speech-intelligibility','tonotopy']},{title:'进入人工耳蜗研究',note:'把系统框图与声音编码、频位映射关系和感知结果连接起来。',slugs:['cochlear-implant','temporal-envelope','tonotopy','speech-intelligibility']}];
+---
+<BaseLayout title="Topics · 研究专题"><div class="container"><div class="page-intro"><div class="eyebrow">Topics</div><h1>从研究任务组织知识。</h1><p>领域回答“属于哪里”，专题回答“为了解决这个问题，我需要读什么”。</p></div><section class="section">{topics.map(topic=><article class="topic-section"><h2>{topic.title}</h2><p>{topic.note}</p><div class="topic-links">{topic.slugs.map(slug=><a href={url(`concepts/${slug}`)}>{bySlug[slug].data.title} ↗</a>)}</div></article>)}</section></div></BaseLayout>

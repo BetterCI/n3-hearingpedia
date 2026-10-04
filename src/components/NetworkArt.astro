@@ -1,0 +1,18 @@
+---
+import { url } from '../lib/paths';
+---
+<div class="network-art" aria-label="从听觉机制连接到语音感知与工程应用">
+  <div class="art-label">THE CONNECTED EAR <span>01—08</span></div>
+  <svg viewBox="0 0 520 360" aria-hidden="true">
+    <defs><linearGradient id="network-gradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ba4f8"/><stop offset="1" stop-color="#7860c8"/></linearGradient></defs>
+    <circle cx="260" cy="175" r="66"/><circle cx="260" cy="175" r="112"/><circle cx="260" cy="175" r="159"/>
+    <g class="network-lines"><path d="M90 102 Q162 135 260 175 T430 245"/><path d="M140 280 Q195 195 260 175 T387 68"/><path d="M260 175 Q302 105 285 38"/><path d="M260 175 Q215 243 240 321"/><path d="M260 175 Q339 180 446 137"/></g>
+    <g fill="url(#network-gradient)" class="network-dots"><circle cx="90" cy="102" r="5"/><circle cx="140" cy="280" r="5"/><circle cx="387" cy="68" r="5"/><circle cx="430" cy="245" r="5"/><circle cx="285" cy="38" r="4"/><circle cx="240" cy="321" r="4"/><circle cx="446" cy="137" r="4"/></g>
+  </svg>
+  <a class="art-core" href={url('map')}><strong>n³</strong><span>Hearing Science</span></a>
+  <a class="art-node node-cochlea" href={url('concepts/cochlea')}>Cochlea <span>耳蜗</span></a>
+  <a class="art-node node-filter" href={url('concepts/auditory-filter')}>Auditory Filter <span>听觉滤波器</span></a>
+  <a class="art-node node-speech" href={url('concepts/speech-intelligibility')}>Speech <span>语音可懂度</span></a>
+  <a class="art-node node-vocoder" href={url('concepts/vocoder')}>Vocoder <span>声码器</span></a>
+  <div class="art-bottom">机制 <span>↔</span> 感知 <span>↔</span> 工程</div>
+</div>

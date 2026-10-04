@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+import 'katex/dist/katex.min.css';
+import { url, asset } from '../lib/paths';
+interface Props { title?: string; description?: string; }
+const { title = '连接听觉科学的知识', description = '面向课题组成员的听觉科学知识网络：概念、学习路径与可追溯文献。' } = Astro.props;
+const nav = [{path:'explore',label:'Explore',zh:'概念'}, {path:'map',label:'Map',zh:'地图'}, {path:'learn',label:'Learn',zh:'学习'}, {path:'topics',label:'Topics',zh:'专题'}, {path:'about',label:'About',zh:'关于'}];
+const current = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f8f9fc" />
+    <title>{title} · n³ Hearingpedia</title>
+    <link rel="icon" type="image/svg+xml" href={asset('favicon.svg')} />
+    {Astro.site && <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />}
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href={url()} aria-label="n³ Hearingpedia 首页"><span class="brand-mark">n³</span><span>Hearingpedia</span></a>
+        <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="打开导航">☰</button>
+        <nav id="primary-nav" aria-label="主导航">
+          {nav.map(item => <a href={url(item.path)} class:list={{active:current.startsWith(url(item.path))}} aria-current={current.startsWith(url(item.path)) ? 'page' : undefined}>{item.label}<span>{item.zh}</span></a>)}
+        </nav>
+        <a class="header-search" href={url('search')} aria-label="搜索词条"><span aria-hidden="true">⌕</span> <span>Search</span></a>
+      </div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div><a class="brand" href={url()}><span class="brand-mark">n³</span><span>Hearingpedia</span></a><p>An AI-native Knowledge System for Hearing Science</p></div>
+        <div class="footer-links"><a href={url('contribute')}>参与贡献</a><a href={url('about')}>内容与审阅</a><a href="https://github.com/BetterCI/n3-hearingpedia" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+      </div>
+      <div class="footer-bottom"><span>AI-assisted · Evidence-linked · Human review</span><span>v0.1 / 课题组起步版</span></div>
+    </footer>
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const nav = document.querySelector<HTMLElement>('#primary-nav');
+      toggle?.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') !== 'true';
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.setAttribute('aria-label', open ? '关闭导航' : '打开导航');
+        nav?.classList.toggle('is-open', open);
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') { toggle?.setAttribute('aria-expanded', 'false'); nav?.classList.remove('is-open'); }
+      });
+    </script>
+  </body>
+</html>

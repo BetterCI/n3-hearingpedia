@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { url, asset } from '../lib/paths';
+---
+<BaseLayout title="Search · 搜索词条"><link slot="head" rel="stylesheet" href={asset('pagefind/pagefind-ui.css')} />
+  <div class="container"><div class="page-intro"><div class="eyebrow">Search hearing science</div><h1>找到你正在理解的概念。</h1><p>搜索中文名称、英文术语、缩写或正文内容，也可按领域筛选。</p></div><section class="section"><div class="search-shell"><div id="search"></div><noscript><p>搜索需要启用 JavaScript。你也可以<a href={url('explore')}>浏览全部词条</a>。</p></noscript><p id="search-error" class="search-error" hidden>搜索暂时未能加载，请刷新页面，或通过下方入口浏览词条。</p></div><div class="search-hints"><span>试试：</span>{['频位映射关系','包络','ERB','Vocoder','CI'].map(q=><a href={`${url('search')}?q=${encodeURIComponent(q)}`}>{q}</a>)}<a href={url('explore')}>浏览词条 ↗</a></div></section></div>
+  <script is:inline src={asset('pagefind/pagefind-ui.js')} defer></script>
+  <script is:inline define:vars={{ bundlePath: asset('pagefind/') }}>
+    window.addEventListener('DOMContentLoaded', () => {
+      try {
+        if (!window.PagefindUI) throw new Error('Search library unavailable');
+        const search = new window.PagefindUI({ element: '#search', bundlePath, showSubResults: true, showImages: false, resetStyles: false, translations: {placeholder:'搜索中文概念、英文术语或缩写…', zero_results:'没有找到相关词条', clear_search:'清除', search_label:'搜索词条', filters_label:'筛选', load_more:'更多结果', many_results:'找到 [COUNT] 条结果', one_result:'找到 [COUNT] 条结果', searching:'正在搜索…'} });
+        const query = new URLSearchParams(window.location.search).get('q');
+        if (query) search.triggerSearch(query);
+      } catch (error) { document.getElementById('search-error').hidden = false; }
+    });
+  </script>
+</BaseLayout>

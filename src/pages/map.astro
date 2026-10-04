@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { domains, relationLabels } from '../data/domains';
+import { url } from '../lib/paths';
+const concepts=(await getCollection('concepts')).sort((a,b)=>a.data.order-b.data.order);
+const positions: Record<string,{x:number,y:number}>={cochlea:{x:80,y:50},tonotopy:{x:420,y:50},'auditory-filter':{x:80,y:205},masking:{x:420,y:205},'temporal-envelope':{x:760,y:50},vocoder:{x:760,y:205},'speech-intelligibility':{x:420,y:365},'cochlear-implant':{x:760,y:365}};
+let additionalNodes = 0;
+for (const concept of concepts) {
+  if (!positions[concept.data.slug]) {
+    positions[concept.data.slug] = { x: 80 + (additionalNodes % 3) * 340, y: 530 + Math.floor(additionalNodes / 3) * 160 };
+    additionalNodes++;
+  }
+}
+const mapHeight = Math.max(510, ...Object.values(positions).map(p => p.y + 125));
+const drawn = new Set<string>();
+const edges=concepts.flatMap(c=>c.data.related.map(r=>({from:c.data.slug,to:r.slug,relation:r.relation}))).filter(edge=>{const key=[edge.from,edge.to].sort().join(':');if(drawn.has(key))return false;drawn.add(key);return true;});
+---
+<BaseLayout title="Map · 知识地图"><div class="container"><div class="page-intro"><div class="eyebrow">Knowledge map</div><h1>理解，发生在连接之间。</h1><p>这张地图连接首批概念。线条来自词条的关联记录；点击节点进入解释，前置知识与应用关系可在词条末尾查看。</p></div>
+  <section class="section"><div class="map-legend"><span><i></i>机制与相关概念</span><span><i class="engineering"></i>方法与应用连接</span><span>{concepts.length} 个节点 · {edges.length} 条关联</span></div>
+    <svg class="concept-map" viewBox={`0 0 1050 ${mapHeight}`} role="img" aria-labelledby="map-title map-desc"><title id="map-title">听觉科学概念的关联地图</title><desc id="map-desc">{concepts.map(c=>c.data.title).join('、')}。每个节点均可点击，下方也提供文字入口。</desc>
+      {edges.map(edge=>{const a=positions[edge.from],b=positions[edge.to];return <path class:list={['edge',{'edge-method':['method','application'].includes(edge.relation)}]} d={`M ${a.x+100} ${a.y+40} C ${a.x+100} ${(a.y+b.y)/2+40}, ${b.x+100} ${(a.y+b.y)/2+40}, ${b.x+100} ${b.y+40}`} />})}
+      {concepts.map(c=>{const p=positions[c.data.slug];return <a class="node-group" href={url(`concepts/${c.data.slug}`)} aria-label={`${c.data.title}，进入词条`}><g transform={`translate(${p.x},${p.y})`}><rect class="node-bg" width="210" height="82" rx="11"/><text class="map-number" x="17" y="20">{String(c.data.order).padStart(2,'0')}</text><text class="map-zh" x="17" y="43">{c.data.title}</text><text class="map-en" x="17" y="65">{c.data.english}</text></g></a>})}
+    </svg>
+    <p class="map-caption">关联用于辅助导航，不表示因果关系、证据强度或严格的先后层级。</p>
+    <div class="map-mobile-list">{concepts.map(c=><a class="related-link" href={url(`concepts/${c.data.slug}`)}><strong>{c.data.title}</strong><span>↗</span></a>)}</div>
+    <details class="map-relations"><summary>查看全部关联及关系类型</summary><ul>{concepts.flatMap(c=>c.data.related.map(r=><li><a href={url(`concepts/${c.data.slug}`)}>{c.data.title}</a> → <a href={url(`concepts/${r.slug}`)}>{concepts.find(x=>x.data.slug===r.slug)?.data.title}</a>：{relationLabels[r.relation]}</li>))}</ul></details>
+  </section>
+  <section class="section"><div class="section-heading"><div><div class="eyebrow">The wider framework</div><h2>12 个领域，一个知识框架</h2><p>领域分类与词条网络互补；首批未覆盖的领域仍显示实际收录数量。</p></div></div><div class="domain-grid">{domains.map(d=><a class="domain-card" href={url(`domains/${d.id}`)}><span class="symbol" aria-hidden="true">{d.symbol}</span><h2>{d.zh}</h2><span class="en-label">{d.name}</span><p>{d.note}</p><span class="domain-count">{concepts.filter(c=>c.data.categories.includes(d.id)).length} 个已有词条 ↗</span></a>)}</div></section>
+</div></BaseLayout>
+<style>.map-relations{font-size:12px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:8px;padding:15px 20px}.map-relations summary{cursor:pointer;color:var(--accent)}.map-relations ul{padding-left:18px;line-height:2.2}.map-relations a{color:var(--accent)}</style>
