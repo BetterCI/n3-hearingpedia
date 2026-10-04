@@ -90,7 +90,7 @@ Friesen 等比较通道数与语音任务时发现，正常听力声码器听者
 | 研究问题 | 主要操纵 | 必须额外检查 |
 | --- | --- | --- |
 | 频谱分辨率 | 通道数、带宽 | 总频率范围与载波类型 |
-| 时间线索 | 包络低通、事件时序 | 调制谱、侧带与输出延迟 |
+| 时域线索 | 包络低通、事件时序 | 调制谱、侧带与输出延迟 |
 | 位置不匹配 | 合成频率映射 | 偏移方向和边缘频带 |
 | 双耳线索 | 跨耳同步或分配 | 共同采样时钟与两耳声级 |
 
@@ -112,4 +112,4 @@ Friesen 等比较通道数与语音任务时发现，正常听力声码器听者
 
 ## 研究沿革
 
-听觉科学中的包络声码器由经典时间线索研究形成重要实验路线，随后用于通道数和频率—位置不匹配等问题。2023 年 GET 方法将合成单元与编码事件更直接联系。新模型扩展了可操纵因素，仍需要相应信号检查和行为验证。[1](#ref-shannon-1995 "Speech recognition with primarily temporal cues") [2](#ref-dorman-1997 "Simulating the effect of cochlear-implant electrode insertion depth on speech understanding") [3](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation")
+听觉科学中的包络声码器由经典时域线索研究形成重要实验路线，随后用于通道数和频率—位置不匹配等问题。2023 年 GET 方法将合成单元与编码事件更直接联系。新模型扩展了可操纵因素，仍需要相应信号检查和行为验证。[1](#ref-shannon-1995 "Speech recognition with primarily temporal cues") [2](#ref-dorman-1997 "Simulating the effect of cochlear-implant electrode insertion depth on speech understanding") [3](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation")

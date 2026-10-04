@@ -15,10 +15,10 @@ references: ["zhou-f0intfs-2023","wang-ditone-2022"]
 order: 24
 knowledge_area: "technology"
 kind: "strategy"
-key_facts: [{"label":"缩写","value":"F0inTFS"},{"label":"信息源","value":"原配置最低频带的时间信息"},{"label":"原验证","value":"正常听力声码器声调实验"}]
+key_facts: [{"label":"缩写","value":"F0inTFS"},{"label":"信息源","value":"原配置最低频带的时域信息"},{"label":"原验证","value":"正常听力声码器声调实验"}]
 ---
 
-**F0inTFS 周期性增强策略**（F0inTFS）是在 ACE 相关框架中利用最低频带时间信息增强选中通道周期性的编码方法。原论文保留增强前包络的谱峰选择，并以正常听力[声码器](../vocoder/)声调实验评价；这不等同于真实植入者临床验证。[1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+**F0inTFS 周期性增强策略**（F0inTFS）是在 ACE 相关框架中利用最低频带时域信息增强选中通道周期性的编码方法。原论文保留增强前包络的谱峰选择，并以正常听力[声码器](../vocoder/)声调实验评价；这不等同于真实植入者临床验证。[1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
 
 ## 定义与分类
 
@@ -26,7 +26,7 @@ F0inTFS 不先依赖显式[基频](../fundamental-frequency/)估计轨迹，其�
 
 ### 与 TLE 怎样区分
 
-TLE 以频带时间信息转换为主要机制入口；F0inTFS 利用低频带信息增强周期性。二者都涉及精细结构，却有不同的算法、刺激和验证路径。名称相近或共享前置概念，不代表已实现等价编码。
+TLE 以频带时域信息转换为主要机制入口；F0inTFS 利用低频带信息增强周期性。二者都涉及精细结构，却有不同的算法、刺激和验证路径。名称相近或共享前置概念，不代表已实现等价编码。
 
 ## 原理与表征
 
@@ -48,7 +48,7 @@ $$
 
 ### 为什么称为轻量周期性增强
 
-方法不先计算一条独立 $F_0$ 轨迹，而是利用低频带中的时间结构同步调制较高带包络。因此应把它与显式基频估计后再合成的算法区分。低频带能否提供稳定周期性，受到输入基频、谱结构和噪声影响。
+方法不先计算一条独立 $F_0$ 轨迹，而是利用低频带中的时域结构同步调制较高带包络。因此应把它与显式基频估计后再合成的算法区分。低频带能否提供稳定周期性，受到输入基频、谱结构和噪声影响。
 
 谱峰选择仍依据增强前包络，避免把调制后的瞬时变化直接作为另一套选择逻辑。这一点对复现很关键：若先调制所有带再选最大值，已经改变了原方法。
 

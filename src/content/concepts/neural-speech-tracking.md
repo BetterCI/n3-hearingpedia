@@ -5,7 +5,7 @@ slug: "neural-speech-tracking"
 summary: "量化神经记录与连续语音特征之间时序关系的分析框架，用于研究编码、注意和交流功能。"
 categories: ["neuroscience","research-methods","speech"]
 tags: ["neural-speech-tracking"]
-aliases: ["cortical speech tracking","speech tracking","cortical tracking","皮层语音跟踪","神经语音跟踪","时间响应函数","TRF"]
+aliases: ["cortical speech tracking","speech tracking","cortical tracking","皮层语音跟踪","神经语音跟踪","时域响应函数","TRF"]
 status: draft
 last_updated: "2026-10-04"
 authors: ["AI 辅助初稿"]
@@ -32,7 +32,7 @@ key_facts: [{"label":"输入对象","value":"语音特征与神经时间序列"}
 
 ### 特征与响应指标
 
-[时间包络](../temporal-envelope/)是常用特征，但频谱、声学起点和词语层面变量也可进入模型。相关系数、解释方差和解码准确率回答不同问题。频段、特征定义和时间窗会改变数值，跨研究不能仅凭相关系数大小排序听觉能力。
+[时域包络](../temporal-envelope/)是常用特征，但频谱、声学起点和词语层面变量也可进入模型。相关系数、解释方差和解码准确率回答不同问题。频段、特征定义和时间窗会改变数值，跨研究不能仅凭相关系数大小排序听觉能力。
 
 ## 核心原理
 
@@ -42,7 +42,7 @@ $$
 r(t)=\sum_{\tau=\tau_{\min}}^{\tau_{\max}}h(\tau)s(t-\tau)+\varepsilon(t)
 $$
 
-$s$ 表示声音特征，$r$ 表示指定神经通道记录，$h$ 是时间响应函数，$\tau$ 为离散延迟，$\varepsilon$ 是未解释项。多特征、多通道模型在相应维度上扩展。模型是对关系的近似，并不宣称整个听觉系统线性。[1](#ref-lalor-speech-2010 "Neural responses to uninterrupted natural speech can be extracted with precise temporal resolution")
+$s$ 表示声音特征，$r$ 表示指定神经通道记录，$h$ 是时域响应函数，$\tau$ 为离散延迟，$\varepsilon$ 是未解释项。多特征、多通道模型在相应维度上扩展。模型是对关系的近似，并不宣称整个听觉系统线性。[1](#ref-lalor-speech-2010 "Neural responses to uninterrupted natural speech can be extracted with precise temporal resolution")
 
 连续语音具有强时间相关性，特征间也常高度相关。因此训练时需要正则化和独立验证，并在训练部分选择超参数。若同时纳入包络与起点，某项权重变化可能受共线性影响；“加入特征后预测提升”比单看权重更适合讨论额外解释价值。
 

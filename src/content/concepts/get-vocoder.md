@@ -41,7 +41,7 @@ $$
 g(t)=A\exp\left[-\frac{(t-t_0)^2}{2\sigma_t^2}\right]\cos[2\pi f_c(t-t_0)+\phi].
 $$
 
-$t_0$ 是中心时间、$f_c$ 是载波频率、$\phi$ 是相位、$\sigma_t$ 以秒表示。对高斯幅度包络，其傅里叶幅度的宽度参数 $\sigma_f=1/(2\pi\sigma_t)$。缩短[时间包络](../temporal-envelope/)会拓宽频谱；这是数学关系，图中的曲线是教学示意，非受试者实测。
+$t_0$ 是中心时间、$f_c$ 是载波频率、$\phi$ 是相位、$\sigma_t$ 以秒表示。对高斯幅度包络，其傅里叶幅度的宽度参数 $\sigma_f=1/(2\pi\sigma_t)$。缩短[时域包络](../temporal-envelope/)会拓宽频谱；这是数学关系，图中的曲线是教学示意，非受试者实测。
 
 对上述高斯包络（不含实值载波的双边总谱），若改用能量加权标准差，则 $\Delta t=\sigma_t/\sqrt2$、$\Delta f=\sigma_f/\sqrt2$，有 $\Delta t\Delta f=1/(4\pi)$。原 GET 论文用另一种幅度下降界限定义有效时长与带宽，并得到相应的乘积关系。比较论文参数时必须先统一宽度定义，不能把这些不同常数当作矛盾。[1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation")；[3](#ref-gabor-1946 "Theory of communication. Part 1: The analysis of information")
 
@@ -55,7 +55,7 @@ $t_0$ 是中心时间、$f_c$ 是载波频率、$\phi$ 是相位、$\sigma_t$ �
 
 噪声载波带有随机起伏，连续正弦载波有稳定频率，GET 以局部事件形式组织载波。比较三者时，应控制分析滤波、包络、选择规则与响度，同时检查它们保留的实际周期性。载波名称相同或通道数相同，都不足以保证线索一致。
 
-GET 原研究探讨用此类声学单元模拟电刺激时间和频谱特性，并进行声学行为评价。[1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation") 声学[耳蜗](../cochlea/)仍会再次滤波，不能把合成波形等同电场或神经响应。
+GET 原研究探讨用此类声学单元模拟电刺激时域和频谱特性，并进行声学行为评价。[1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation") 声学[耳蜗](../cochlea/)仍会再次滤波，不能把合成波形等同电场或神经响应。
 
 ### 可复现参数表
 

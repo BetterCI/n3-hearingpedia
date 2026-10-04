@@ -1,8 +1,8 @@
 ---
-title: "时间精细结构"
+title: "时域精细结构"
 english: "Temporal fine structure"
 slug: "temporal-fine-structure"
-summary: "分清频带信号的精细结构、时间包络与周期性线索。"
+summary: "分清频带信号的精细结构、时域包络与周期性线索。"
 categories: ["signal-processing","neuroscience"]
 tags: ["TFS"]
 aliases: ["TFS"]
@@ -19,11 +19,11 @@ kind: "representation"
 key_facts: [{"label":"缩写","value":"TFS"},{"label":"常用表示","value":"指定频带解析信号的相位变化"},{"label":"重要区分","value":"数学相位、神经响应与任务用途"}]
 ---
 
-**时间精细结构**（temporal fine structure，TFS）是指定频带信号在较慢幅度起伏内部的快速振荡结构，常以解析信号相位描述。其研究涉及音高、语音和双耳时间信息；解释依赖频带、重建方式及其他可用线索。[3](#ref-smith-2002 "Chimaeric sounds reveal dichotomies in auditory perception")
+**时域精细结构**（temporal fine structure，TFS）是指定频带信号在较慢幅度起伏内部的快速振荡结构，常以解析信号相位描述。其研究涉及音高、语音和双耳时域信息；解释依赖频带、重建方式及其他可用线索。[3](#ref-smith-2002 "Chimaeric sounds reveal dichotomies in auditory perception")
 
 ## 定义与分类
 
-TFS 不是一个固定的声学器官或独立能量通道，而是一种信号描述。[时间包络](../temporal-envelope/)与它由同一带内信号形成；[基频](../fundamental-frequency/)是周期对应的物理频率。神经相位锁定属于生理过程，声学相位保留与行为使用之间仍需要实验连接。
+TFS 不是一个固定的声学器官或独立能量通道，而是一种信号描述。[时域包络](../temporal-envelope/)与它由同一带内信号形成；[基频](../fundamental-frequency/)是周期对应的物理频率。神经相位锁定属于生理过程，声学相位保留与行为使用之间仍需要实验连接。
 
 ### 从波形走向定义
 
@@ -51,10 +51,10 @@ $$
 
 ### 三类任务不要合成一个能力分数
 
-| 任务 | 常见时间线索 | 需要控制的混淆 |
+| 任务 | 常见时域线索 | 需要控制的混淆 |
 | --- | --- | --- |
 | 复合音音高 | 周期性与谐波结构 | 可分辨谐波、频谱边界与响度 |
-| 竞争语音理解 | 各带时间信息 | 再生包络、可听度与分组 |
+| 竞争语音理解 | 各带时域信息 | 再生包络、可听度与分组 |
 | 双耳侧化 | 跨耳相位与时间关系 | 单耳包络、声级差及设备延迟 |
 
 Hopkins 等的语音结果限定于所用听者、材料与处理；复杂音高的移置刺激研究则说明，时间变化在不匹配的频率位置呈现时可能不能提供原有音高功能。[7](#ref-hopkins-2008 "Effects of moderate cochlear hearing loss on the ability to benefit from temporal fine structure information in speech")；[8](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception")
@@ -75,13 +75,13 @@ Swaminathan 等以辅音识别比较 TFS 和再生包络条件，提示训练及
 
 ### 人工耳蜗研究中的证据
 
-TLE 研究尝试把频带中的快速时间信息转换到电听觉能够利用的范围，并用音高任务评价结果；F0inTFS 则利用低频带信息增强周期性。二者的目标和转换规则不同。[1](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")；[2](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+TLE 研究尝试把频带中的快速时域信息转换到电听觉能够利用的范围，并用音高任务评价结果；F0inTFS 则利用低频带信息增强周期性。二者的目标和转换规则不同。[1](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")；[2](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
 
 阅读时逐项问：处理对象是声波、频带输出还是电刺激序列？实验对象是真实植入者还是正常听力[声码器](../vocoder/)受试者？结果是识别、音高排序还是侧化？这些问题决定了证据能够支持哪一层解释。
 
 ### 解释边界
 
-信号保留了某种相位结构，不等于恢复了完整的神经时间编码。
+信号保留了某种相位结构，不等于恢复了完整的神经时域编码。
 
 ## 分析示例
 
@@ -95,4 +95,4 @@ TLE 研究尝试把频带中的快速时间信息转换到电听觉能够利用�
 
 ## 研究沿革
 
-2002 年嵌合声工作提供交换包络和精细结构的实验框架。其后竞争语音和再生包络研究进一步检验处理方式、听力与训练的影响。[人工耳蜗](../cochlear-implant/)时间编码研究沿另一条路线重构信息，不能将声学 TFS 实验与电刺激效应直接视为同类验证。[3](#ref-smith-2002 "Chimaeric sounds reveal dichotomies in auditory perception") [7](#ref-hopkins-2008 "Effects of moderate cochlear hearing loss on the ability to benefit from temporal fine structure information in speech") [6](#ref-swaminathan-2014 "Consonant identification using temporal fine structure and recovered envelope cues")
+2002 年嵌合声工作提供交换包络和精细结构的实验框架。其后竞争语音和再生包络研究进一步检验处理方式、听力与训练的影响。[人工耳蜗](../cochlear-implant/)时域编码研究沿另一条路线重构信息，不能将声学 TFS 实验与电刺激效应直接视为同类验证。[3](#ref-smith-2002 "Chimaeric sounds reveal dichotomies in auditory perception") [7](#ref-hopkins-2008 "Effects of moderate cochlear hearing loss on the ability to benefit from temporal fine structure information in speech") [6](#ref-swaminathan-2014 "Consonant identification using temporal fine structure and recovered envelope cues")

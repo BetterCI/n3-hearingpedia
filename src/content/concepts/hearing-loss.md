@@ -36,7 +36,7 @@ key_facts: [{"label":"描述维度","value":"类型、程度、频率与双耳�
 
 ## 生理与功能基础
 
-[耳蜗](../cochlea/)不同环节的损伤不能被同一功能指标完全区分。[外毛细胞](../outer-hair-cell/)参与主动机械响应，内毛细胞与传入神经之间的连接则参与神经传递。声级升高可以提高部分声音的可听性，却未必恢复频率选择性、时间信息利用或噪声下的目标选择。
+[耳蜗](../cochlea/)不同环节的损伤不能被同一功能指标完全区分。[外毛细胞](../outer-hair-cell/)参与主动机械响应，内毛细胞与传入神经之间的连接则参与神经传递。声级升高可以提高部分声音的可听性，却未必恢复频率选择性、时域信息利用或噪声下的目标选择。
 
 因此，“听得到”和“听得清”应分别测量。在复杂场景中，语音材料、[听觉注意](../auditory-attention/)、语言能力和[聆听努力](../listening-effort/)也会影响报告的困难。正常听力图者仍可能存在噪声语音困难，但这一现象不能直接确诊为[耳蜗突触病变](../cochlear-synaptopathy/)。人类研究中也存在未观察到相关生理或暴露关联的结果。[3](#ref-guest-synaptopathy-2018 "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure")
 

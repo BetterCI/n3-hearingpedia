@@ -67,7 +67,7 @@ $$
 
 ### 频位关系怎样参与音高与双耳任务
 
-正常听力的移置刺激研究显示，在特定复合音任务中，仅把低频时间变化移到高频位置，并不能保证保留原来的复杂[音高感知](../pitch-perception/)。这支持位置与时间线索需要共同考虑；它不意味着所有音高都只由位置决定。[4](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception")
+正常听力的移置刺激研究显示，在特定复合音任务中，仅把低频时间变化移到高频位置，并不能保证保留原来的复杂[音高感知](../pitch-perception/)。这支持位置与时域线索需要共同考虑；它不意味着所有音高都只由位置决定。[4](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception")
 
 双侧人工耳蜗还涉及两耳之间的匹配。两边电极编号相同并不保证激活自然特征频率相同的区域。研究设计可将影像位置、跨耳音高匹配与侧化表现结合，分别报告各测量的不确定性。[5](#ref-kan-2013 "Effect of mismatched place-of-stimulation on binaural fusion and lateralization in bilateral cochlear-implant users")
 

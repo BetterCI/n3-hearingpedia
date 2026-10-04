@@ -54,7 +54,7 @@ F0inTFS 的设计利用低频带中的周期性信息，而不是简单把一条
 
 ### 为什么估计方法会改变结果
 
-时间域估计寻找重复间隔，频域估计寻找谐波间距；实际分析还需要窗长、帧移、有声判断及范围约束。把周期误判为两倍会产生半频错误，把半周期当成完整周期会产生倍频错误。噪声、气声和不规则发声会增加困难。
+时域估计寻找重复间隔，频域估计寻找谐波间距；实际分析还需要窗长、帧移、有声判断及范围约束。把周期误判为两倍会产生半频错误，把半周期当成完整周期会产生倍频错误。噪声、气声和不规则发声会增加困难。
 
 绘制 $F_0(t)$ 轮廓时，应说明未检测到基频的帧如何处理。插值曲线可能便于展示，却不应让读者误以为每个时刻都有可靠测量。
 
@@ -98,4 +98,4 @@ $\tau$ 为样本延迟、$\mathcal W$ 为分析窗；候选周期对应较小差
 
 ## 研究沿革
 
-语音研究使用周期差分等方法从有限片段估计基频，2002 年 YIN 论文系统描述了相关算法路线。普通话声调研究将轨迹与频谱、包络及辅助线索联系；F0inTFS 则采用低频时间信息增强周期性，不需要先得到显式基频轨迹。[3](#ref-yin-2002 "YIN, a fundamental frequency estimator for speech and music") [4](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition") [1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+语音研究使用周期差分等方法从有限片段估计基频，2002 年 YIN 论文系统描述了相关算法路线。普通话声调研究将轨迹与频谱、包络及辅助线索联系；F0inTFS 则采用低频时域信息增强周期性，不需要先得到显式基频轨迹。[3](#ref-yin-2002 "YIN, a fundamental frequency estimator for speech and music") [4](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition") [1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")

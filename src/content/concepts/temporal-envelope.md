@@ -1,5 +1,5 @@
 ---
-title: 时间包络
+title: 时域包络
 english: Temporal Envelope
 slug: temporal-envelope
 summary: 描述频带信号的幅度随时间如何变化，明确它是怎样提取的。
@@ -18,11 +18,11 @@ kind: "representation"
 key_facts: [{"label":"含义","value":"幅度随时间的变化"},{"label":"常用表示","value":"解析信号幅度、整流低通、短窗 RMS"},{"label":"依赖条件","value":"频带、滤波与时间尺度"}]
 ---
 
-**时间包络**（temporal envelope）是信号幅度随时间变化的一种表征。听觉研究通常在指定频带中提取包络，以分析调制、语音线索或构造编码与[声码器](../vocoder/)输出。包络取决于提取方法和频带，宽带信号没有一个适用于全部任务的唯一包络。[1](#ref-scipy-hilbert "scipy.signal.hilbert")
+**时域包络**（temporal envelope）是信号幅度随时间变化的一种表征。听觉研究通常在指定频带中提取包络，以分析调制、语音线索或构造编码与[声码器](../vocoder/)输出。包络取决于提取方法和频带，宽带信号没有一个适用于全部任务的唯一包络。[1](#ref-scipy-hilbert "scipy.signal.hilbert")
 
 ## 定义与分类
 
-包络与[振幅调制](../amplitude-modulation/)分别是表示与信号变化方式；调制谱描述起伏的频率成分。[时间精细结构](../temporal-fine-structure/)描述同带较快相位变化。采用不同提取方法时，应注明平滑尺度及归一化；数字包络采样率还不同于[人工耳蜗](../cochlear-implant/)的脉冲重复率。
+包络与[振幅调制](../amplitude-modulation/)分别是表示与信号变化方式；调制谱描述起伏的频率成分。[时域精细结构](../temporal-fine-structure/)描述同带较快相位变化。采用不同提取方法时，应注明平滑尺度及归一化；数字包络采样率还不同于[人工耳蜗](../cochlear-implant/)的脉冲重复率。
 
 ### 数学定义
 
@@ -64,7 +64,7 @@ $f_c$ 是载波频率，$f_m$ 是调制频率，均以 Hz 为单位；$m$ 为无
 
 对平均幅度 $\bar a>0$ 的包络，可构造无量纲相对起伏 $u(t)=[a(t)-\bar a]/\bar a$，再考察其调制频谱。有限语音片段还需注明加窗和频谱归一化。对于理想正弦调幅，深度 $m$ 与调制频率 $f_m$ 共同决定包络；自然语音一般不能用单个 $m$ 概括。
 
-行为上的时间调制传递函数测量听者检测不同 $f_m$ 的能力，其结果依赖载波、呈现时长和声级。这一行为曲线不是对某一个神经元低通截止频率的直接测量。[4](#ref-viemeister-1979 "Temporal modulation transfer functions based upon modulation thresholds")
+行为上的时域调制传递函数测量听者检测不同 $f_m$ 的能力，其结果依赖载波、呈现时长和声级。这一行为曲线不是对某一个神经元低通截止频率的直接测量。[4](#ref-viemeister-1979 "Temporal modulation transfer functions based upon modulation thresholds")
 
 ## 测量与研究方法
 
@@ -102,4 +102,4 @@ Hilbert 幅度、全波整流后低通以及短窗 RMS 都能生成“幅度随�
 
 ## 研究沿革
 
-1995 年分带时间线索的声码器研究显示，受控包络信息可支持一定语音识别。2002 年嵌合声研究进一步通过交换包络和精细结构考察不同感知任务。两者是研究信息利用的实验路线，并不建立“包络独立解释全部听觉”的结论。[3](#ref-shannon-1995 "Speech recognition with primarily temporal cues") [2](#ref-smith-2002 "Chimaeric sounds reveal dichotomies in auditory perception")
+1995 年分带时域线索的声码器研究显示，受控包络信息可支持一定语音识别。2002 年嵌合声研究进一步通过交换包络和精细结构考察不同感知任务。两者是研究信息利用的实验路线，并不建立“包络独立解释全部听觉”的结论。[3](#ref-shannon-1995 "Speech recognition with primarily temporal cues") [2](#ref-smith-2002 "Chimaeric sounds reveal dichotomies in auditory perception")

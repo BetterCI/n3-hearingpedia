@@ -2,7 +2,7 @@
 title: "双耳整合"
 english: "Binaural integration"
 slug: "binaural-integration"
-summary: "解释两耳互补的频谱时间信息能否合并支持识别。"
+summary: "解释两耳互补的频谱时域信息能否合并支持识别。"
 categories: ["binaural","neuroscience"]
 tags: ["Binaural integration"]
 aliases: []

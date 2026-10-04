@@ -1,5 +1,5 @@
 ---
-title: "普通话词汇声调"
+title: "普通话汉语声调"
 english: "Mandarin lexical tone"
 slug: "mandarin-lexical-tone"
 summary: "解释基频轮廓、时长和幅度等声调识别线索。"
@@ -11,14 +11,14 @@ status: "draft"
 last_updated: "2026-10-04"
 literature_checked_at: "2026-10-04"
 authors: ["AI 辅助初稿"]
-references: ["wang-ditone-2022","zhou-f0intfs-2023","kong-tones-2006"]
+references: ["wang-ditone-2022","zhou-f0intfs-2023","kong-tones-2006","peng-mandarin-2018"]
 order: 19
 knowledge_area: "perception"
 kind: "linguistic"
 key_facts: [{"label":"语言功能","value":"参与词汇意义区分"},{"label":"主要线索","value":"F₀ 高度、轮廓与时序"},{"label":"辅助线索","value":"时长、强度与发声方式"}]
 ---
 
-**普通话词汇声调**（Mandarin lexical tone）是参与词汇意义区分的声调系统，其感知涉及[基频](../fundamental-frequency/)高度、变化轮廓和时间组织，也可利用时长、强度及发声方式。孤立音节和连续语流的轨迹不同，变调与协同发音需要按语境理解。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition")
+**普通话汉语声调**（Mandarin lexical tone）是参与词汇意义区分的声调系统，其感知涉及[基频](../fundamental-frequency/)高度、变化轮廓和时间组织，也可利用时长、强度及发声方式。孤立音节和连续语流的轨迹不同，变调与协同发音需要按语境理解。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition")
 
 ## 定义与分类
 
@@ -27,6 +27,22 @@ key_facts: [{"label":"语言功能","value":"参与词汇意义区分"},{"label"
 ### 声调类别与轮廓的区别
 
 教材常以高平、上升、低或降升、下降描述四个基本声调。实际轮廓受语境、相邻声调、说话人和语速影响，第三声尤其不能机械理解为每次都完整“先降后升”。声调类别属于语言层面，测出的 $F_0(t)$ 曲线属于刺激层面。
+
+### 妈、麻、马、骂：文字、拼音与基频曲线
+
+四个字都使用音节 **ma**，但声调不同，对应 **妈 mā、麻 má、马 mǎ、骂 mà**。这一组例子说明声调能够参与词义区分；拼音上的调号标记语言类别，图中的基频曲线则帮助理解该类别的典型声学形态。[4](#ref-peng-mandarin-2018 "Auditory Brainstem Representation of the Voice Pitch Contours in the Resolved and Unresolved Components of Mandarin Tones")
+
+<figure class="teaching-figure" style="clear:both">
+  <a href="../../figures/mandarin-four-tones.svg" target="_blank" rel="noopener" aria-label="打开妈麻马骂的完整基频曲线图"><img src="../../figures/mandarin-four-tones.svg" alt="普通话汉语声调四图：妈 mā 高平、麻 má 上升、马 mǎ 降升、骂 mà 下降；横轴为音节归一化时间，纵轴为基频 Hz" width="900" height="720" loading="lazy" /></a>
+  <figcaption>图：妈、麻、马、骂的文字、带调拼音与基频轮廓。点击可查看完整矢量图。曲线由教学函数生成，四图使用相同坐标尺度，并非说话人的实测结果，也不规定每个声调必须使用相同的 Hz 数值。横轴归一化用于比较形状，不表示四声真实时长相同。第三声采用孤立音节的完整降升示意；连续语流中可出现低降形式或变调，不能将此图视为所有语境的固定模板。</figcaption>
+</figure>
+
+| 文字 | 拼音 | 声调类别 | 本图中的轮廓 |
+|---|---|---|---|
+| 妈 | mā | 第一声，阴平 | 高平 |
+| 麻 | má | 第二声，阳平 | 上升 |
+| 马 | mǎ | 第三声，上声 | 先降后升的教学示意 |
+| 骂 | mà | 第四声，去声 | 下降 |
 
 相对基频变化可用教学尺度表示：
 
@@ -50,7 +66,7 @@ $q(t)$ 单位为半音，$F_{\mathrm{ref}}$ 是明确指定的正参考频率。
 
 ### 调制与频谱分别保留什么
 
-低阶谐波的位置可提示基频；较宽频带中的谐波相互作用可提供包络周期性；时长和能量分布也可能提示类别。Kong 与 Zeng 比较不同形式的时间和频谱信息，说明声调线索应依据具体信号处理理解。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition")
+低阶谐波的位置可提示基频；较宽频带中的谐波相互作用可提供包络周期性；时长和能量分布也可能提示类别。Kong 与 Zeng 比较不同形式的时域和频谱信息，说明声调线索应依据具体信号处理理解。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition")
 
 噪声[声码器](../vocoder/)可能削弱精细频谱与部分周期性，但结果还依赖通道数、包络低通和载波。不能把声码器声调识别简单当作真实[人工耳蜗](../cochlear-implant/)表现，或把一次低分解释为“没有任何基频信息”。
 
@@ -98,4 +114,4 @@ DiTone 通过控制基频轮廓与响度，研究听者如何使用声调相关�
 
 ## 研究沿革
 
-2006 年时间与频谱线索研究探讨受控信号中声调识别。2022 年 DiTone 工作通过基频和响度轮廓操纵研究线索利用，2023 年 F0inTFS 在声学模拟中评价增强周期性。各路线从材料控制到技术评价，需分别说明真实植入者或模拟听者。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition") [1](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus") [2](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+2006 年时域与频谱线索研究探讨受控信号中声调识别。2022 年 DiTone 工作通过基频和响度轮廓操纵研究线索利用，2023 年 F0inTFS 在声学模拟中评价增强周期性。各路线从材料控制到技术评价，需分别说明真实植入者或模拟听者。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition") [1](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus") [2](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")

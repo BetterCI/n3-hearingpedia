@@ -1,5 +1,5 @@
 export const knowledgeAreas = [
-  { id: 'sound', title: '声学与信号表征', english: 'Sound & representation', color: '#71d7f6', note: '描述声音的物理量、谱结构与时间表示。' },
+  { id: 'sound', title: '声学与信号表征', english: 'Sound & representation', color: '#71d7f6', note: '描述声音的物理量、谱结构与时域表示。' },
   { id: 'biology', title: '结构与听觉机制', english: 'Structure & mechanisms', color: '#a3abff', note: '连接听觉器官、功能机制、损伤与适应。' },
   { id: 'perception', title: '听觉与语言感知', english: 'Auditory perception', color: '#65e1bb', note: '研究听者如何检测、分组和理解声音。' },
   { id: 'measurement', title: '听力与功能测量', english: 'Hearing assessment', color: '#f3c777', note: '定义测试、标度、指标与结果解释。' },

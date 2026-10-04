@@ -36,7 +36,7 @@ key_facts: [{"label":"定义前提","value":"指定对象、下界与上界"},{"
 
 ## 原理与映射
 
-声学输入变化范围通常比某些受损听者的可用范围更宽。[助听器](../hearing-aid/)可通过压缩改变输入—输出关系；人工耳蜗处理器则把声音特征映射为设备允许的电刺激参数。这些映射需要兼顾可听性、[响度](../loudness/)增长、最大输出及时间结构。[2](#ref-keidser-nalnl2-2011 "The NAL-NL2 Prescription Procedure")[3](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation")
+声学输入变化范围通常比某些受损听者的可用范围更宽。[助听器](../hearing-aid/)可通过压缩改变输入—输出关系；人工耳蜗处理器则把声音特征映射为设备允许的电刺激参数。这些映射需要兼顾可听性、[响度](../loudness/)增长、最大输出及时域结构。[2](#ref-keidser-nalnl2-2011 "The NAL-NL2 Prescription Procedure")[3](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation")
 
 在两个声级端点之间，可用教学式描述压缩比：
 
@@ -56,7 +56,7 @@ $$
 
 ## 应用与局限
 
-动态范围有助于设计放大、压缩和电映射，但不能单独评价自然度、舒适度或识别能力。[时间包络](../temporal-envelope/)的压缩变化、跨通道的响度合并与输入噪声可能共同影响结果。对[噪声下语音识别](../speech-intelligibility/)的判断应另有行为证据。既有真实人工耳蜗研究将电范围与谱峰数量一起操纵，提示解释参数效果必须保留具体设备和任务条件。[4](#ref-mo-maxima-2023 "Effects of number of maxima and electrical dynamic range on speech-in-noise perception with an “n-of-m” cochlear-implant strategy")
+动态范围有助于设计放大、压缩和电映射，但不能单独评价自然度、舒适度或识别能力。[时域包络](../temporal-envelope/)的压缩变化、跨通道的响度合并与输入噪声可能共同影响结果。对[噪声下语音识别](../speech-intelligibility/)的判断应另有行为证据。既有真实人工耳蜗研究将电范围与谱峰数量一起操纵，提示解释参数效果必须保留具体设备和任务条件。[4](#ref-mo-maxima-2023 "Effects of number of maxima and electrical dynamic range on speech-in-noise perception with an “n-of-m” cochlear-implant strategy")
 
 ## 分析示例
 

@@ -2,7 +2,7 @@
 title: "响度"
 english: "Loudness"
 slug: "loudness"
-summary: "声音被感知为强弱的知觉属性，受声级、频谱、时间结构、双耳输入及听觉状态共同影响。"
+summary: "声音被感知为强弱的知觉属性，受声级、频谱、时域结构、双耳输入及听觉状态共同影响。"
 categories: ["psychoacoustics","acoustics"]
 tags: ["loudness"]
 aliases: ["loudness perception","响度感知","响度重振"]

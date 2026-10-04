@@ -2,7 +2,7 @@
 title: "音高感知"
 english: "Pitch perception"
 slug: "pitch-perception"
-summary: "连接时间音高、位置音高和音高辨别任务。"
+summary: "连接时域音高、位置音高和音高辨别任务。"
 categories: ["psychoacoustics","neuroscience"]
 tags: ["Pitch perception"]
 aliases: []
@@ -15,10 +15,10 @@ references: ["zhou-tle-2022","wang-ditone-2022","zeng-2008","glasberg-1990","oxe
 order: 10
 knowledge_area: "perception"
 kind: "function"
-key_facts: [{"label":"性质","value":"知觉属性"},{"label":"相关线索","value":"谐波位置、时间周期性与跨带信息"},{"label":"任务","value":"辨别、排序、匹配、音程与旋律"}]
+key_facts: [{"label":"性质","value":"知觉属性"},{"label":"相关线索","value":"谐波位置、时域周期性与跨带信息"},{"label":"任务","value":"辨别、排序、匹配、音程与旋律"}]
 ---
 
-**音高感知**（pitch perception）是听者把声音组织在较高或较低等维度上的知觉过程。对于周期复合音，音高常与[基频](../fundamental-frequency/)相关，却不要求声音包含实际基频分量。频谱位置、谐波可分辨性和时间信息共同约束不同任务。[5](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception")
+**音高感知**（pitch perception）是听者把声音组织在较高或较低等维度上的知觉过程。对于周期复合音，音高常与[基频](../fundamental-frequency/)相关，却不要求声音包含实际基频分量。频谱位置、谐波可分辨性和时域信息共同约束不同任务。[5](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception")
 
 ## 定义与分类
 
@@ -26,9 +26,9 @@ key_facts: [{"label":"性质","value":"知觉属性"},{"label":"相关线索","v
 
 ## 原理与表征
 
-### 时间线索与位置线索
+### 时域线索与位置线索
 
-周期性声刺激提供重复间隔，听觉系统也能利用不同频率激活[耳蜗](../cochlea/)位置的差别。前者常称时间音高线索，后者联系[频位映射关系](../tonotopy/)。[人工耳蜗](../cochlear-implant/)中，刺激电极的位置、脉冲的时间安排以及它们的相互作用都会影响音高判断。[3](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation")
+周期性声刺激提供重复间隔，听觉系统也能利用不同频率激活[耳蜗](../cochlea/)位置的差别。前者常称时域音高线索，后者联系[频位映射关系](../tonotopy/)。[人工耳蜗](../cochlear-implant/)中，刺激电极的位置、脉冲的时间安排以及它们的相互作用都会影响音高判断。[3](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation")
 
 一个谐波复合音即使没有基频分量，也可能产生接近其共同周期对应频率的音高。这个例子说明，音高并不总由频谱中最低的实际分量决定。
 
@@ -46,15 +46,15 @@ $d$ 的单位为半音，$f_1,f_2$ 为正频率，单位相同。这是刺激差
 
 ### 相关研究提供的线索
 
-TLE 论文用音高辨别与排序考察时间信息转换，并显示效果依赖刺激频率与任务；不能把某个实验的优势推广到全部音高或音乐感知。[1](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")
+TLE 论文用音高辨别与排序考察时域信息转换，并显示效果依赖刺激频率与任务；不能把某个实验的优势推广到全部音高或音乐感知。[1](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")
 
 DiTone 研究分别操纵基频与响度轮廓，提示普通话声调识别中需要检查线索依赖。识别出正确声调，并不足以证明植入者获得了准确的基频音高。[2](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus")
 
 ### 可分辨与不可分辨谐波
 
-复合音中的谐波间距为 $F_0$。当[听觉滤波器](../auditory-filter/)足够窄时，较低阶谐波可分别形成响应峰；当多个谐波落入同一通道，其相互作用会产生以 $F_0$ 为周期的包络。前者提供较明确的频谱结构，后者提供通道内的时间周期性。二者的相对作用随频率、带宽和声级变化。[4](#ref-glasberg-1990 "Derivation of auditory filter shapes from notched-noise data")
+复合音中的谐波间距为 $F_0$。当[听觉滤波器](../auditory-filter/)足够窄时，较低阶谐波可分别形成响应峰；当多个谐波落入同一通道，其相互作用会产生以 $F_0$ 为周期的包络。前者提供较明确的频谱结构，后者提供通道内的时域周期性。二者的相对作用随频率、带宽和声级变化。[4](#ref-glasberg-1990 "Derivation of auditory filter shapes from notched-noise data")
 
-“缺失基频”复合音没有实际 $F_0$ 分量，却仍可能引发对应音高。它说明感知可从多个分量推断共同周期，并不要求听觉系统在低频处找到一个真实谱峰。它也不能单独证明唯一的空间模型或时间模型。
+“缺失基频”复合音没有实际 $F_0$ 分量，却仍可能引发对应音高。它说明感知可从多个分量推断共同周期，并不要求听觉系统在低频处找到一个真实谱峰。它也不能单独证明唯一的空间模型或时域模型。
 
 ### 人工耳蜗结果的层次
 
@@ -94,8 +94,8 @@ $$
 
 若把三个分量统一上移 50 Hz，得到的关系不再是原来 200 Hz 的严格整数倍。音高是否及如何变化可用于研究谱结构与时间规律，但不能简单宣布增加的 50 Hz 就是感知音高变化。
 
-对于人工耳蜗，应分别考察频谱位置和脉冲时间线索。两声音可被辨别但无法稳定排序时，说明存在可察觉差异，尚不证明形成了可靠的高低音高维度。[5](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception")
+对于人工耳蜗，应分别考察频谱位置和脉冲时域线索。两声音可被辨别但无法稳定排序时，说明存在可察觉差异，尚不证明形成了可靠的高低音高维度。[5](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception")
 
 ## 研究沿革
 
-复杂音高研究通过缺失基频、移置时间线索与失谐谐波等刺激约束候选机制。2004 年位置相关研究支持时间与位置共同考虑；人工耳蜗研究进一步检验特定编码在辨别和排序任务中的作用。这里的发展线索不意味着已经确立单一、普适的音高模型。[5](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception") [6](#ref-hartmann-1990 "Hearing a mistuned harmonic in an otherwise periodic complex tone") [1](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")
+复杂音高研究通过缺失基频、移置时域线索与失谐谐波等刺激约束候选机制。2004 年位置相关研究支持时间与位置共同考虑；人工耳蜗研究进一步检验特定编码在辨别和排序任务中的作用。这里的发展线索不意味着已经确立单一、普适的音高模型。[5](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception") [6](#ref-hartmann-1990 "Hearing a mistuned harmonic in an otherwise periodic complex tone") [1](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")

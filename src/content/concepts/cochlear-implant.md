@@ -21,7 +21,7 @@ key_facts: [{"label":"输入输出","value":"声学输入转为电刺激"},{"lab
 
 ## 定义与分类
 
-人工耳蜗、声音编码策略与声学模拟属于技术、算法和研究模型三个层次。[n-of-m](../n-of-m-coding/)描述谱峰选择，[TLE](../temporal-limits-encoder/)与[F0inTFS](../f0-in-tfs/)描述特定时间信息处理，[声码器](../vocoder/)则生成可播放的声学模拟。不能把算法的输出规律与真实植入者效果混为同一证据。
+人工耳蜗、声音编码策略与声学模拟属于技术、算法和研究模型三个层次。[n-of-m](../n-of-m-coding/)描述谱峰选择，[TLE](../temporal-limits-encoder/)与[F0inTFS](../f0-in-tfs/)描述特定时域信息处理，[声码器](../vocoder/)则生成可播放的声学模拟。不能把算法的输出规律与真实植入者效果混为同一证据。
 
 ### 一个简单的电荷定义
 
@@ -106,4 +106,4 @@ CIS 强调不同通道脉冲在时间上顺序安排，以减少同时刺激相�
 
 ## 研究沿革
 
-1991 年 CIS 相关研究提出并比较顺序脉冲声音处理，2008 年系统综述连接处理器、植入接口及评价问题。之后的时间信息策略扩展音高和双耳研究。特定年代的设备结果提供发展背景，不应作为当前所有系统的统一性能或参数。[2](#ref-wilson-1991 "Better speech recognition with cochlear implants") [1](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation") [4](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")
+1991 年 CIS 相关研究提出并比较顺序脉冲声音处理，2008 年系统综述连接处理器、植入接口及评价问题。之后的时域信息策略扩展音高和双耳研究。特定年代的设备结果提供发展背景，不应作为当前所有系统的统一性能或参数。[2](#ref-wilson-1991 "Better speech recognition with cochlear implants") [1](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation") [4](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")

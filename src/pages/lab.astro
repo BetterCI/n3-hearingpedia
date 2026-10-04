@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { url } from '../lib/paths';
-const plans=[{title:'听觉滤波器',note:'比较频率窗口与带宽，连接凹口噪声实验的直觉。',slug:'auditory-filter'},{title:'时间包络',note:'观察调制深度与频率如何改变波形和幅度轮廓。',slug:'temporal-envelope'},{title:'声码器',note:'逐项查看分析、包络、载波和合成参数的作用。',slug:'vocoder'}];
+const plans=[{title:'听觉滤波器',note:'比较频率窗口与带宽，连接凹口噪声实验的直觉。',slug:'auditory-filter'},{title:'时域包络',note:'观察调制深度与频率如何改变波形和幅度轮廓。',slug:'temporal-envelope'},{title:'声码器',note:'逐项查看分析、包络、载波和合成参数的作用。',slug:'vocoder'}];
 ---
 <BaseLayout title="Lab · 互动实验路线图"><div class="container"><div class="page-intro"><div class="eyebrow">Interactive lab / Roadmap</div><h1>从理解概念，到观察变化。</h1><p>互动实验是后续建设方向，当前尚未上线。先完成对应词条的科学审阅，再围绕明确的教学问题开发与核验。</p></div><section class="section"><div class="roadmap-list">{plans.map((p,i)=><div><span class="phase-label">PLANNED / {String(i+1).padStart(2,'0')}</span><h2>{p.title}</h2><p>{p.note}</p><p style="margin-top:18px"><a class="text-link" href={url(`concepts/${p.slug}`)}>先阅读相关词条 ↗</a></p></div>)}</div></section></div></BaseLayout>

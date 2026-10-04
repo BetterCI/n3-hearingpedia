@@ -50,7 +50,7 @@ key_facts: [{"label":"测量对象","value":"刺激相关电位变化"},{"label"
 
 ## 应用与边界
 
-AEP 用于研究感官输入、时间编码、任务与适应，也可支持特定听力评估。不同成分回答不同问题；早期反应的存在不能证明句子理解或日常交流正常，较晚响应变化也未必唯一反映认知改善。[听觉注意](../auditory-attention/)相关实验还需要控制目标难度和行为表现。[3](#ref-osullivan-aad-2015 "Attentional Selection in a Cocktail Party Environment Can Be Decoded from Single-Trial EEG")
+AEP 用于研究感官输入、时域编码、任务与适应，也可支持特定听力评估。不同成分回答不同问题；早期反应的存在不能证明句子理解或日常交流正常，较晚响应变化也未必唯一反映认知改善。[听觉注意](../auditory-attention/)相关实验还需要控制目标难度和行为表现。[3](#ref-osullivan-aad-2015 "Attentional Selection in a Cocktail Party Environment Can Be Decoded from Single-Trial EEG")
 
 真实人工耳蜗记录还受到电刺激伪迹影响。伪迹处理需要独立检查；与声音时间相关的电信号可能包含设备成分，不能仅以其锁时性证明神经来源。
 

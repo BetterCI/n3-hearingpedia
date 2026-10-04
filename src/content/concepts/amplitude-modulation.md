@@ -19,11 +19,11 @@ kind: "quantity"
 key_facts: [{"label":"缩写","value":"AM"},{"label":"频率","value":"调制频率与载波频率分别报告"},{"label":"深度","value":"无量纲 m，或 20 log₁₀m dB"}]
 ---
 
-**振幅调制**（amplitude modulation，AM）是信号幅度按一定规律随时间变化的方式。其描述包括载波、调制频率、深度和波形；听觉研究用它考察时间起伏检测、时间音高及编码。电刺激中的幅度调制与脉冲率必须分别说明。[3](#ref-viemeister-1979 "Temporal modulation transfer functions based upon modulation thresholds")
+**振幅调制**（amplitude modulation，AM）是信号幅度按一定规律随时间变化的方式。其描述包括载波、调制频率、深度和波形；听觉研究用它考察时间起伏检测、时域音高及编码。电刺激中的幅度调制与脉冲率必须分别说明。[3](#ref-viemeister-1979 "Temporal modulation transfer functions based upon modulation thresholds")
 
 ## 定义与分类
 
-规则正弦调幅、随机包络起伏和自然语音调制具有不同谱结构。调制检测主要询问是否察觉起伏，调制速率辨别询问起伏快慢，利用调制识别语言又是不同任务。[时间包络](../temporal-envelope/)是幅度变化的表示；调制深度的 dB 标度不是声压级。
+规则正弦调幅、随机包络起伏和自然语音调制具有不同谱结构。调制检测主要询问是否察觉起伏，调制速率辨别询问起伏快慢，利用调制识别语言又是不同任务。[时域包络](../temporal-envelope/)是幅度变化的表示；调制深度的 dB 标度不是声压级。
 
 ### 电刺激中要区分两种速率
 
@@ -47,9 +47,9 @@ $A$ 为幅度，$m$ 为无量纲调制深度，通常取 $0\leq m\leq1$；$f_m$ 
 
 ### 相关研究中的两条线索
 
-TLE 关注把频带时间信息转换为可利用的刺激变化，其效果需要通过具体音高任务检验。[1](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")
+TLE 关注把频带时域信息转换为可利用的刺激变化，其效果需要通过具体音高任务检验。[1](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")
 
-2025 年协变振幅调制与脉冲率的研究探索组合时间线索对音高辨别的影响。本词条引用的是 **medRxiv 预印本，尚未同行评审**；结果依刺激范围和受试者条件而定，不能视为已确立的通用编码方案。后续同组版本应按同一研究线索追踪，不能重复计算为独立证据。[2](#ref-li-covarying-2025 "Covarying Amplitude Modulation and Pulse Rate Enhances Pitch Discrimination in Cochlear Implant Users")
+2025 年协变振幅调制与脉冲率的研究探索组合时域线索对音高辨别的影响。本词条引用的是 **medRxiv 预印本，尚未同行评审**；结果依刺激范围和受试者条件而定，不能视为已确立的通用编码方案。后续同组版本应按同一研究线索追踪，不能重复计算为独立证据。[2](#ref-li-covarying-2025 "Covarying Amplitude Modulation and Pulse Rate Enhances Pitch Discrimination in Cochlear Implant Users")
 
 ### 侧带说明调制会改变频谱
 
@@ -71,11 +71,11 @@ $f_c$ 是载波频率，$f_m$ 是调制频率，$m$ 是无量纲调制度。当 
 
 ## 测量与研究方法
 
-### 时间调制传递函数怎样测量
+### 时域调制传递函数怎样测量
 
 在不同 $f_m$ 下寻找刚能区分调幅与未调幅声音的深度。采用噪声载波可以减少特定纯音侧带线索，但噪声本身有随机起伏，载波带宽、时长和声级仍会改变阈值。Viemeister 的经典研究说明这些因素必须进入解释。[3](#ref-viemeister-1979 "Temporal modulation transfer functions based upon modulation thresholds")
 
-行为上的低通趋势可以用时间处理限制解释，但不是对单一神经截止频率的直接定位。调制滤波器组模型还考虑不同调制频率间的检测与[掩蔽](../masking/)关系，是功能模型的一条路线。[4](#ref-dau-1997 "Modeling auditory processing of amplitude modulation. I. Detection and masking with narrow-band carriers")
+行为上的低通趋势可以用时域处理限制解释，但不是对单一神经截止频率的直接定位。调制滤波器组模型还考虑不同调制频率间的检测与[掩蔽](../masking/)关系，是功能模型的一条路线。[4](#ref-dau-1997 "Modeling auditory processing of amplitude modulation. I. Detection and masking with narrow-band carriers")
 
 ### 一次可解释的实验比较
 
@@ -93,4 +93,4 @@ $f_c$ 是载波频率，$f_m$ 是调制频率，$m$ 是无量纲调制度。当 
 
 ## 研究沿革
 
-Viemeister 1979 年时间调制传递函数研究考察不同条件下的调制检测。Dau 等 1997 年提出调制处理的功能建模路线。电刺激组合时间线索的较新工作应按发表状态与样本限定，未同行评审的共变研究不能视为已经确立的策略收益。[3](#ref-viemeister-1979 "Temporal modulation transfer functions based upon modulation thresholds") [4](#ref-dau-1997 "Modeling auditory processing of amplitude modulation. I. Detection and masking with narrow-band carriers") [2](#ref-li-covarying-2025 "Covarying Amplitude Modulation and Pulse Rate Enhances Pitch Discrimination in Cochlear Implant Users")
+Viemeister 1979 年时域调制传递函数研究考察不同条件下的调制检测。Dau 等 1997 年提出调制处理的功能建模路线。电刺激组合时域线索的较新工作应按发表状态与样本限定，未同行评审的共变研究不能视为已经确立的策略收益。[3](#ref-viemeister-1979 "Temporal modulation transfer functions based upon modulation thresholds") [4](#ref-dau-1997 "Modeling auditory processing of amplitude modulation. I. Detection and masking with narrow-band carriers") [2](#ref-li-covarying-2025 "Covarying Amplitude Modulation and Pulse Rate Enhances Pitch Discrimination in Cochlear Implant Users")

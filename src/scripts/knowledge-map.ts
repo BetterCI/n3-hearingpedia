@@ -22,6 +22,37 @@ export function initKnowledgeMap() {
   const relationSelect=document.querySelector<HTMLSelectElement>('#atlas-relation')!;
   const motionButton=document.querySelector<HTMLButtonElement>('#atlas-motion')!;
   const labelButton=document.querySelector<HTMLButtonElement>('#atlas-label-toggle')!;
+  const atlas=document.querySelector<HTMLElement>('.atlas')!;
+  const fullscreenButton=document.querySelector<HTMLButtonElement>('#atlas-fullscreen')!;
+  let pageFullscreen=false, wasFullscreen=false;
+  function syncFullscreen(){
+    const active=document.fullscreenElement===atlas||pageFullscreen;
+    atlas.classList.toggle('is-expanded',pageFullscreen);
+    document.documentElement.classList.toggle('atlas-fullscreen-open',pageFullscreen);
+    fullscreenButton.textContent=active?'退出全屏':'⛶ 全屏';
+    fullscreenButton.setAttribute('aria-label',active?'退出地图全屏':'进入地图全屏');
+    fullscreenButton.setAttribute('aria-pressed',String(active));
+    if(wasFullscreen&&!active)fullscreenButton.focus({preventScroll:true});
+    wasFullscreen=active;
+  }
+  async function toggleFullscreen(){
+    fullscreenButton.disabled=true;
+    try{
+      if(document.fullscreenElement===atlas)await document.exitFullscreen();
+      else if(pageFullscreen)pageFullscreen=false;
+      else if(document.fullscreenEnabled&&atlas.requestFullscreen){
+        try{await atlas.requestFullscreen();}catch{pageFullscreen=true;}
+      }else pageFullscreen=true;
+    }catch{status.textContent='未能切换全屏，请重试或按 Esc 返回。';}
+    finally{fullscreenButton.disabled=false;syncFullscreen();}
+  }
+  function fullscreenEscape(event:KeyboardEvent){
+    if(event.key==='Escape'&&pageFullscreen){event.preventDefault();pageFullscreen=false;syncFullscreen();}
+    else if(event.key==='Escape'&&document.fullscreenElement===atlas){event.preventDefault();void toggleFullscreen();}
+  }
+  fullscreenButton.addEventListener('click',toggleFullscreen);
+  document.addEventListener('fullscreenchange',syncFullscreen);
+  document.addEventListener('keydown',fullscreenEscape);
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
   let motion=!reduced.matches, showLabels=true, selected:string|null=null;
   let width=1,height=1,visible=true,frame=0,lastTime=0,elapsed=0;
@@ -135,5 +166,5 @@ export function initKnowledgeMap() {
   const intersection=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;});intersection.observe(stage);
   setMotion(motion);select(new URLSearchParams(location.search).get('concept')&&byId[new URLSearchParams(location.search).get('concept')!] ? new URLSearchParams(location.search).get('concept'):null);
   frame=requestAnimationFrame(tick);
-  window.addEventListener('pagehide',(event)=>{if(event.persisted)return;cancelAnimationFrame(frame);observer.disconnect();intersection.disconnect();controls.dispose();scene.traverse(object=>{const obj=object as THREE.Mesh;if(obj.geometry)obj.geometry.dispose();if(obj.material){for(const material of Array.isArray(obj.material)?obj.material:[obj.material])material.dispose();}});glow.dispose();renderer?.dispose();});
+  window.addEventListener('pagehide',(event)=>{if(event.persisted)return;document.removeEventListener('fullscreenchange',syncFullscreen);document.removeEventListener('keydown',fullscreenEscape);document.documentElement.classList.remove('atlas-fullscreen-open');cancelAnimationFrame(frame);observer.disconnect();intersection.disconnect();controls.dispose();scene.traverse(object=>{const obj=object as THREE.Mesh;if(obj.geometry)obj.geometry.dispose();if(obj.material){for(const material of Array.isArray(obj.material)?obj.material:[obj.material])material.dispose();}});glow.dispose();renderer?.dispose();});
 }

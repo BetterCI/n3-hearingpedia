@@ -66,7 +66,7 @@ $n$ 较小时，输入较稀疏，可能减少同时需要表达的邻近信息�
 
 ### 与新策略的关系
 
-F0inTFS 在原有谱峰选择之后增强选中高频带的周期性，因此“是否选中该通道”与“选中后如何调制”属于两个环节。[4](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants") TLE 则改变时间信息的表示。阅读策略比较时，应按分析、选择、时序和映射逐层对照，避免仅把所有参数统称为编码策略。
+F0inTFS 在原有谱峰选择之后增强选中高频带的周期性，因此“是否选中该通道”与“选中后如何调制”属于两个环节。[4](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants") TLE 则改变时域信息的表示。阅读策略比较时，应按分析、选择、时序和映射逐层对照，避免仅把所有参数统称为编码策略。
 
 ## 测量与研究方法
 
