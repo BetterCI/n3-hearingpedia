@@ -11,7 +11,7 @@ status: "draft"
 last_updated: "2026-10-04"
 literature_checked_at: "2026-10-04"
 authors: ["AI 辅助初稿"]
-references: ["meng-get-2023","kong-comparable-2023","gabor-1946"]
+references: ["meng-get-2023","kong-comparable-2023","gabor-1946","get-vocoder-code"]
 illustration: {"src":"figures/gaussian-width.svg","alt":"两种高斯时间宽度及对应的频谱宽度","caption":"教学示意：高斯幅度包络及其归一化傅里叶幅度；频轴为相对中心的偏移。时间宽度变小，频谱变宽。幅度标准差定义见正文，图非电刺激或听者实测。"}
 order: 25
 knowledge_area: "methods"
@@ -60,6 +60,25 @@ GET 原研究探讨用此类声学单元模拟电刺激时域和频谱特性，�
 ### 可复现参数表
 
 至少保存分析带边界、单元宽度定义、载波频率、相位规则、事件率、通道选择、压缩与归一化。对双耳实验，还需记录事件是否同步与随机成分是否共享。先用单事件和短序列验证时域及频域，再测试完整语音，可以避免参数命名正确而输出错误。
+
+## 代码仓库与使用入口
+
+### 作者提供的 MATLAB 实现
+
+作者代码仓库：[**BetterCI/GETVocoder**](https://github.com/BetterCI/GETVocoder)。原 GET 论文提供此代码入口；仓库包含 GET 与高斯包络噪声（Gaussian-enveloped noise，GEN）的声学合成实现，以及 ACE 电极刺激图的研究实现。[1](#ref-meng-get-2023)[4](#ref-get-vocoder-code)
+
+| 文件 | 用途 |
+| --- | --- |
+| [GETvoc.m](https://github.com/BetterCI/GETVocoder/blob/main/GETvoc.m) | 核心合成函数，将电极刺激图转换为 GET／GEN 声码器输出 |
+| [VocMain.m](https://github.com/BetterCI/GETVocoder/blob/main/VocMain.m) | 单音频演示入口，显示波形、频谱及刺激图并播放合成声音 |
+| [VocMain_Batch.m](https://github.com/BetterCI/GETVocoder/blob/main/VocMain_Batch.m) | 批量读取 WAV 文件并保存输出；默认载波为 GEN |
+| [ACEStrategy.m](https://github.com/BetterCI/GETVocoder/blob/main/ACEStrategy.m) 与 [ACE/](https://github.com/BetterCI/GETVocoder/tree/main/ACE) | 演示中用于生成 ACE 电极刺激图的处理链 |
+
+### 使用条件与复现记录
+
+README 指定 **MATLAB R2020a 或更新版本**。下载仓库后，以仓库根目录为工作目录运行 `VocMain.m`；批处理时修改 `VocMain_Batch.m` 的音频目录。`vocoderCarrier = 1` 表示 GET，`vocoderCarrier = 2` 表示 GEN，批处理脚本默认值为 `2`。实验应记录载波类型、通道数、maxima、高斯时长参数、叠加规则、载波频移和归一化方式，不能仅记录“使用 GETVocoder”。[4](#ref-get-vocoder-code)
+
+仓库 README 将用途限定为学术研究，并说明 ACE 部分改编自 CCi-MOBILE。此次核验未检出独立许可文件，也未运行 MATLAB 程序；这里提供的是作者研究代码入口，不将其标为商用处理器的等价实现。[4](#ref-get-vocoder-code)
 
 ## 应用与解释边界
 
