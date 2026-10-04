@@ -13,6 +13,18 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // not causal effect estimates or evidence weights. Learning order is maintained separately.
 const link = (source: string, target: string, type: RelationType, note: string): KnowledgeRelation => ({ source, target, type, note });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('cochlear-implant-coding-strategies','cochlear-implant','application','将声音特征组织为植入电极刺激；兼容性取决于处理器、植入体与软件。'),
+  link('temporal-limits-encoder','cochlear-implant-coding-strategies','subtype','一种以时域组织和感知限制为目标的研究编码策略。'),
+  link('f0-in-tfs','cochlear-implant-coding-strategies','subtype','一种利用低频信息增强时域周期性的研究策略。'),
+  link('cochlear-implant-coding-strategies','n-of-m-coding','related','部分策略使用谱峰选择；通道选择不是完整编码链。'),
+  link('cochlear-implant-coding-strategies','temporal-envelope','related','包络提取及映射是多个临床策略的基础环节。'),
+  link('cochlear-implant-coding-strategies','temporal-fine-structure','related','事件触发及周期性研究改变时域信息的传递。'),
+  link('cochlear-implant-coding-strategies','channel-interaction','related','交错、导向与聚焦安排受到电极间兴奋扩散约束。'),
+  link('cochlear-implant-coding-strategies','dynamic-range','related','声学特征需经个体电刺激范围映射。'),
+  link('cochlear-implant-coding-strategies','tonotopy','related','频率分配、电极位置及功能音高对应共同影响结果。'),
+  link('cochlear-implant-coding-strategies','vocoder','related','声码器可再合成模型输出；不自动等价于商用算法或电听觉。'),
+  link('cochlear-implant-coding-strategies','speech-reception-threshold','measured-by','指定语言与噪声任务的阈值用于评价策略，需控制适应和响度。'),
+  link('cochlear-implant-coding-strategies','interaural-time-difference','related','双耳策略需检验输出时间线索及听者利用。'),
   link('noise-induced-hearing-loss','hearing-loss','subtype','以噪声暴露相关病因为特征的一类听力损失。'),
   link('auditory-brainstem-response','auditory-evoked-potential','subtype','脑干反应属于较早期的听觉诱发电位。'),
   link('hearing-loss','pure-tone-audiometry','measured-by','听力图描述频率相关敏感性，不穷尽阈上功能或病因。'),

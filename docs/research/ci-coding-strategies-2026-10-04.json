@@ -1,0 +1,1364 @@
+{
+  "date": "2026-10-04",
+  "article": "cochlear-implant-coding-strategies",
+  "scope": "Publicly documented clinical coding catalogs for six manufacturer/system lineages; historical compatibility separated. Not a global regulator-certified list for every region or historical model.",
+  "manufacturers": [
+    "Cochlear",
+    "MED-EL",
+    "Advanced Bionics",
+    "Neurelec / Oticon Medical (CIOM)",
+    "Nurotron",
+    "Listent"
+  ],
+  "counts": {
+    "article_references": 35,
+    "new_reference_records": 30,
+    "verified_repositories": 6,
+    "frontier_directions": 13,
+    "openalex_topic_hits": 15,
+    "deepace_backward_hits": 44,
+    "deepace_forward_hits": 30,
+    "unique_openalex_candidates": 87
+  },
+  "citation_network": {
+    "seed": "https://openalex.org/W4361767319",
+    "backward_requested": 100,
+    "backward_returned": 44,
+    "forward_requested": 60,
+    "forward_returned": 30,
+    "notes": "DeepACE seed backward/forward network, supplemented by original 2025-2026 studies and manufacturer documentation. This is a scoped evidence map, not a systematic review."
+  },
+  "sources": [
+    {
+      "id": "zeng-2008",
+      "title": "Cochlear Implants: System Design, Integration and Evaluation",
+      "authors": "Zeng, F.-G. et al.",
+      "year": "2008",
+      "publication": "IEEE Reviews in Biomedical Engineering, 1, 115–142",
+      "doi": "10.1109/RBME.2008.2008250",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2782849/",
+      "access": "fulltext",
+      "supports": "系统框图、处理器、电极与评价问题；参照系统设计和子系统章节，不引用历史数量为现状。"
+    },
+    {
+      "id": "ci-cochlear-cs61",
+      "title": "Custom Sound software Version 6.1 User Guide",
+      "authors": "Cochlear Limited",
+      "year": "2021",
+      "publication": "厂商用户指南，页 51–53、71",
+      "url": "https://assets.cochlear.com/api/public/content/4b2f503b6edf48ff9dfdadcbd9beb205?v=7476e383",
+      "access": "documentation",
+      "supports": "已下载并读取全文对应章节：maxima、ACE/SPEAK/MP3000 与 CIS 通道选择、增益和设备限制；旧版软件文档不能单独证明 2026 年所有设备兼容。",
+      "download_status": 200,
+      "pdf_sha256": "bc94af02f62cfa5bd687a9eb0ad5c32f6bac4ab60bb7b09d285da68a4881308a",
+      "bytes": 2048666
+    },
+    {
+      "id": "ci-cochlear-guidance",
+      "title": "Clinical Guidance Document: Sound Coding Strategies",
+      "authors": "Cochlear Limited",
+      "year": "旧版（文档含 CP810／Freedom）",
+      "publication": "厂商临床指南，分销商托管；1.9 节，印刷页 27–31",
+      "url": "https://www.gaesmedica.com/es-es/uploads/imgen/372-guia-clinica-de-programacion.pdf?1600874874=",
+      "access": "documentation",
+      "supports": "已读取原厂指南的 ACE/ACE(RE)、SPEAK、CIS/CIS(RE) 原理、顺序刺激与 maxima；其中通道数和速率限于该版设备，不作为当代统一默认参数。",
+      "download_status": 200,
+      "pdf_sha256": "c17a688fb1c7c6075fea9df771fef07c79609108f0ae633dcd60df394ce64fbc",
+      "bytes": 3857636
+    },
+    {
+      "id": "ci-has-nexa-2026",
+      "title": "NUCLEUS 8 NEXA (modèle CP1110): Avis de la CNEDIMTS du 20 janvier 2026",
+      "authors": "Haute Autorité de Santé (HAS)",
+      "year": "2026",
+      "publication": "法国官方器械评估，印刷页 8 的分列对照表",
+      "url": "https://www.has-sante.fr/jcms/p_3858771/fr/nucleus-8-nexa-modele-cp1110-avis-de-la-cnedimts-du-20-janvier-2026",
+      "access": "documentation",
+      "supports": "已核对官方索引可读表格：Nexa 植入体一列为 ACE，CI24M、CI24R/RE、CI500、CI600 兼容组合一列为 ACE/CIS/SPEAK/MP3000；不能把右列策略扩展到 Nexa 植入体。直接下载 PDF 时遇到访问限制。"
+    },
+    {
+      "id": "ci-mp3000-2011",
+      "title": "Clinical evaluation of cochlear implant sound coding taking into account conjectural masking functions, MP3000™",
+      "authors": "Buechner, A. et al.",
+      "year": "2011",
+      "publication": "Cochlear Implants International, 12(4), 194–204",
+      "doi": "10.1179/1754762811Y0000000009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22251806/",
+      "access": "abstract",
+      "supports": "已核对原始临床论文摘要、题名及 DOI：基于假设掩蔽函数的通道选择及研究范围；不据此声称优于所有策略或代表当前默认配置。"
+    },
+    {
+      "id": "ci-medel-maestro11",
+      "title": "MAESTRO 11 User Manual",
+      "authors": "MED-EL",
+      "year": "2024（PDF 元数据）",
+      "publication": "AW44981_10；24.5.2–24.5.3，印刷页 345–346／PDF 页 347–348",
+      "url": "https://download.cdn.medel.com/assets/AW44981_10_User-Manual-MAESTRO-11-EN-English_web.pdf",
+      "access": "documentation",
+      "supports": "已读取厂商完整手册相关表格：HDCIS、FSP、FS4、FS4-p、TEMPO+ 专用 CIS+；CSSS、并行刺激及植入体兼容限制。",
+      "download_status": 200,
+      "pdf_sha256": "87b259693cfb92e08c421c21d08c3b18ffc1749591fa00f9d76bde62d7dd8684",
+      "bytes": 2959203
+    },
+    {
+      "id": "ci-ab-target",
+      "title": "Target CI Fitting Guide",
+      "authors": "Advanced Bionics",
+      "year": "2021（©；Rev D 2020-11-02）",
+      "publication": "029-M826-02；印刷页 24–28；厂商归档版本",
+      "url": "https://www.advancedbionics.com/content/dam/advancedbionics/ifus/in/archived/029-M826-02_TargetCI_FittingGuide_TUV_Rev-D_EN.pdf",
+      "access": "documentation",
+      "supports": "已下载并读取 MAP 和 RF 章节：HiRes S/P、Fidelity 120 S/P、Optima S/P；ClearVoice/SoftVoice 属于 MAP 处理选项。该版文档不是所有现售型号的统一兼容清单。",
+      "download_status": 200,
+      "pdf_sha256": "a2614bb1922d2b94bbae4f811f6e26b2fec7bc799250ee385a04212b24d1f93a",
+      "bytes": 1975701
+    },
+    {
+      "id": "ci-ab-legacy-specs",
+      "title": "Naída CI Q90 Technical Specifications（旧规格；现提供 eIFU 入口）",
+      "authors": "Advanced Bionics",
+      "year": "旧版产品资料（日期未明确）",
+      "publication": "厂商 Q90 技术规格；原下载路径已不可用",
+      "url": "https://www.advancedbionics.com/ifu/us/en",
+      "access": "documentation",
+      "supports": "官方搜索索引仍可核对旧规格 Supported Strategies 一栏：Optima S/P、Fidelity120 S/P、HiRes S/P、CIS、MPS；直接下载旧地址返回 404，来源核验记录保留原地址，此处链接为可访问的原厂 eIFU 入口，不以此证明新一代处理器支持 CIS/MPS。"
+    },
+    {
+      "id": "ci-ab-ifu",
+      "title": "Advanced Bionics electronic Instructions for Use: United States",
+      "authors": "Advanced Bionics",
+      "year": "2026-10-04 核验",
+      "publication": "原厂 eIFU 文档目录，须按国家与版本选择",
+      "url": "https://www.advancedbionics.com/ifu/us/en",
+      "access": "documentation",
+      "supports": "已读取现行文档入口与嵌入的文档索引；提供旧产品与 Target CI 文档的迁移入口，不将地区目录等同于全球许可。"
+    },
+    {
+      "id": "ci-gpyt-code",
+      "title": "Generic Python Toolbox (GPyT)",
+      "authors": "jabeim and contributors",
+      "year": "2021（仓库最后推送）",
+      "publication": "AB Generic MATLAB Toolbox 的研究 Python 移植；GPL-3.0",
+      "url": "https://github.com/jabeim/AB-Generic-Python-Toolbox",
+      "access": "documentation",
+      "supports": "已核对 README、f120Mapping.py、f120Electrodogram.py 及许可：HiRes120 仿真、elGram 与声码器输出；未核实 Optima S/P 全套等价实现，老版本依赖未执行。"
+    },
+    {
+      "id": "ci-ab-optima-fda",
+      "title": "HiResolution Bionic Ear System: PMA Supplement P960058/S100",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2013",
+      "publication": "FDA PMA 补充批准，2013-03-12",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma_template.cfm?id=p960058s100",
+      "access": "documentation",
+      "supports": "核对 HiRes Optima 为 Fidelity120 的功耗优化修改及批准时间；不外推其他型号、年龄或地区的适用范围。"
+    },
+    {
+      "id": "ci-neuro2-specs",
+      "title": "Neuro 2 Product Information, Version C",
+      "authors": "Oticon Medical",
+      "year": "2019-09",
+      "publication": "原厂产品资料，PDF 页 7",
+      "url": "https://assets-we.cas.dgs.com/uk/-/media/medical/main/files/ci/products/neuro-2/pi/eng/183342uk_pi_neuro-2_version-c_2019-09_low.pdf?la=en",
+      "access": "documentation",
+      "supports": "已读取四个正式名称 CRYSTALIS CAP/XDP、MPIS CAP/XDP；刺激方式为时长调制伪单相脉冲并被动放电；增益控制、降噪与编码字段分列。",
+      "download_status": 200,
+      "pdf_sha256": "64b81168c9f0112ce28f4ae9c62fe52931475ceb9f435e8aa5eba5424c5dfab1",
+      "bytes": 2264619
+    },
+    {
+      "id": "ci-cochlear-ciom",
+      "title": "Cochlear Limited Annual Report 2024",
+      "authors": "Cochlear Limited",
+      "year": "2024",
+      "publication": "年度报告；Oticon Medical CI 业务收购及既有用户支持",
+      "url": "https://assets.cochlear.com/api/public/content/85ed5fe549814d91abddf0a975162644?v=771b1a7d",
+      "access": "documentation",
+      "supports": "核对 2024 年 5 月完成 Oticon Medical 人工耳蜗业务收购及既有用户支持背景；不把旧 Neuro 产品资料表述为新上市系统。"
+    },
+    {
+      "id": "ci-neuro-music-2022",
+      "title": "Effect of Sound Coding Strategies on Music Perception with a Cochlear Implant",
+      "authors": "Leterme, G., Guigou, C., Guenser, G., Bigand, E. & Bozorg Grayeli, A.",
+      "year": "2022",
+      "publication": "Journal of Clinical Medicine, 11(15), 4425",
+      "doi": "10.3390/jcm11154425",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35956042/",
+      "access": "abstract",
+      "supports": "已阅读摘要和图注：MPIS 与 CrystalisXDP、谱对比与多频带压缩；脉宽编码 electrodogram 及厂内 MATLAB 仿真。该厂内仿真程序未发现公开仓库，效果限于该音乐任务。"
+    },
+    {
+      "id": "ci-nurotron-enduro",
+      "title": "高歌 Enduro 人工耳蜗产品画册",
+      "authors": "浙江诺尔康神经电子科技股份有限公司",
+      "year": "2023（原厂上传目录）",
+      "publication": "原厂画册，PDF 页 9／跨页印刷页 13–14",
+      "url": "https://www.nurotron.com/uploads/20230530/64759ae167fce.pdf",
+      "access": "documentation",
+      "supports": "已读取产品参数：编码策略 APS、CIS、C-Tone、Symphony；降噪 eVoice 单独列明。未取得 C-Tone 的完整算法说明，不外推到全部 3.0 产品。",
+      "download_status": 200,
+      "pdf_sha256": "9f3f4ca8c544dc5fb14146a4b051981ab8f26d095a4bd1960edd15fd837f814d",
+      "bytes": 4553008
+    },
+    {
+      "id": "ci-nurotron-design-2015",
+      "title": "诺尔康26电极人工耳蜗植入系统的开发及评估",
+      "authors": "曾凡钢、Stephen J. Rebscher、付前杰等",
+      "year": "2015",
+      "publication": "中国听力语言康复科学杂志；原厂托管全文，2.1 节",
+      "doi": "10.3969/j.issn.1672-4933.2015.02.003",
+      "url": "https://www.nurotron.com/uploads/20230524/646d5afb315d8.pdf",
+      "access": "fulltext",
+      "supports": "已读取全文方法：CIS 固定通道、APS 能量相关峰值选择、Symphony 虚拟通道与峰值结合。该论文的临床随访来自 APS，不能据此认定三种策略效果均相同。",
+      "download_status": 200,
+      "pdf_sha256": "c843a10d005ac959a1f4d0e90aeeada38403bb515c2c4f34da3df9e7231e8ea7",
+      "bytes": 2396428
+    },
+    {
+      "id": "ci-listent-catalog",
+      "title": "“臻听”系列人工耳蜗：展商产品介绍",
+      "authors": "上海力声特医学科技有限公司",
+      "year": "2026-10-04 核验（发布日未标）",
+      "publication": "福祉展网上展厅；厂商署名资料，非算法手册",
+      "url": "https://www.crexpo.cn/exhibition/product/2306",
+      "access": "documentation",
+      "supports": "网页下载后的正文列明 L-CIS 与 MTone 汉语四声编码策略。仅核对名称和厂商声调设计目标，不采用营销效果表述；未披露可复现的算法细节或型号兼容矩阵。"
+    },
+    {
+      "id": "ci-pulsatile-code",
+      "title": "Pulsatile Vocoder",
+      "authors": "Williges, B., Jürgens, T. and contributors (mohead)",
+      "year": "2019",
+      "publication": "MATLAB 研究代码；MIT；仓库核验 2026-10-04",
+      "doi": "10.5281/zenodo.3233518",
+      "url": "https://github.com/mohead/pulsatile-vocoder",
+      "access": "documentation",
+      "supports": "已读取 README、许可及文件树：ACE/CIS 概念实现、electrodogram 与声学再合成；作者明确不保证与商用处理器完全一致。未执行第三方程序。"
+    },
+    {
+      "id": "ci-ccimobile-code",
+      "title": "CCi-MOBILE software suite, version 2.2s",
+      "authors": "CILab, University of Texas at Dallas",
+      "year": "2022（仓库最后推送）",
+      "publication": "MATLAB／Java 研究接口；核验 2026-10-04",
+      "url": "https://github.com/CILabUTD/CCi-MOBILE",
+      "access": "documentation",
+      "supports": "已核对 MATLAB ACE_Process.m、initialize_ACE.m 与 Android ACE.java。README 指出安全校验为受保护 .p 文件；仓库未检出顶层统一许可，不能宣称所有组件完全开源，也未确认特定 BACE／混合速率研究补丁在此发布。"
+    },
+    {
+      "id": "ci-deepace-code",
+      "title": "Deep ACE 1.0 and 2.0: author repositories",
+      "authors": "APGDHZ",
+      "year": "2022（仓库最后推送）",
+      "publication": "Python／TensorFlow；版本 1.0 为 GPL-3.0；2.0 未检出许可文件",
+      "url": "https://github.com/APGDHZ/DeepACE2.0",
+      "access": "documentation",
+      "supports": "已读取两个仓库 README、文件树、requirements 与许可状态；原始音频到去噪 electrodogram。2.0 所附 PDF 为学位论文，不冒充 2023 年期刊全文；本次未训练或运行模型。"
+    },
+    {
+      "id": "ci-mixed-itd-2025",
+      "title": "Localization performance of cochlear implant users with a real-time bilaterally-synchronized sound coding strategy that provides explicit interaural timing cues with mixed rates of stimulation",
+      "authors": "Borjigin, A., Dennison, S. R., Kan, A. & Litovsky, R. Y.",
+      "year": "2025",
+      "publication": "Frontiers in Neuroscience, 19, 1682452；2025-10-28",
+      "doi": "10.3389/fnins.2025.1682452",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1682452/full",
+      "access": "fulltext",
+      "supports": "已阅读全文摘要、方法及讨论：CCi-MOBILE 同步、混合速率和 ITD 输出；较准确传递 ITD 未转化为短期自由场定位改善，AGC、通道选择、训练等需考虑。"
+    },
+    {
+      "id": "zhou-tle-2022",
+      "title": "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants",
+      "authors": "Huali Zhou, Alan Kan, Guangzheng Yu, Zhenyu Guo, Nengheng Zheng, Qinglin Meng",
+      "year": "2022",
+      "publication": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "doi": "10.1109/tnsre.2022.3203079",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36044501/",
+      "access": "abstract",
+      "supports": "真实人工耳蜗的音高辨别与排序；效果按频率和任务限定，具体方法待全文审阅。"
+    },
+    {
+      "id": "zhou-f0intfs-2023",
+      "title": "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants",
+      "authors": "Huali Zhou, Fanhui Kong, Nengheng Zheng, Qinglin Meng",
+      "year": "2023",
+      "publication": "INTERSPEECH 2023",
+      "doi": "10.21437/interspeech.2023-652",
+      "url": "https://www.isca-archive.org/interspeech_2023/zhou23c_interspeech.html",
+      "access": "fulltext",
+      "supports": "参照方法 2.1–2.2 与实验；最低频带信息、谱峰选择及声码器模拟验证，不能写成真实植入者实验。"
+    },
+    {
+      "id": "ci-deepace-2023",
+      "title": "A Deep Denoising Sound Coding Strategy for Cochlear Implants",
+      "authors": "Gajecki, T., Zhang, Y. & Nogueira, W.",
+      "year": "2023",
+      "publication": "IEEE Transactions on Biomedical Engineering, 70(9), 2700–2709",
+      "doi": "10.1109/TBME.2023.3262677",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37030808/",
+      "access": "abstract",
+      "supports": "已核对原始论文摘要及 DOI、作者仓库：端到端 ACE 表征与去噪、8 名 CI 使用者的实验收益；长期部署、场景推广和商业获批不能由该实验推出。"
+    },
+    {
+      "id": "ci-fused-deepace-2024",
+      "title": "A Fused Deep Denoising Sound Coding Strategy for Bilateral Cochlear Implants",
+      "authors": "Gajecki, T. & Nogueira, W.",
+      "year": "2024",
+      "publication": "IEEE Transactions on Biomedical Engineering, 71(7), 2232–2242",
+      "doi": "10.1109/TBME.2024.3367530",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38376983/",
+      "access": "abstract",
+      "supports": "已阅读原始论文摘要：双侧单耳模型通过 latent fusion 共享信息，具有客观指标及双侧 CI 使用者语音实验；未确认公开仓库包含期刊论文完整双耳实现。"
+    },
+    {
+      "id": "ci-electrodenet-2024",
+      "title": "ElectrodeNet—A Deep-Learning-Based Sound Coding Strategy for Cochlear Implants",
+      "authors": "Huang, E. H.-H., Chao, R., Tsao, Y. & Wu, C.-M.",
+      "year": "2024（2023 在线／作者稿）",
+      "publication": "IEEE Transactions on Cognitive and Developmental Systems；Crossref 期次 2024-02",
+      "doi": "10.1109/TCDS.2023.3275587",
+      "url": "https://arxiv.org/abs/2305.16753",
+      "access": "abstract",
+      "supports": "已核对作者稿摘要与正式期刊 DOI：学习包络及 maxima 选择，客观指标和正常听力者声码器普通话句子实验；不表述为真实 CI 使用者试验。"
+    },
+    {
+      "id": "ci-avse-ecs-2026",
+      "title": "End-to-end audio-visual learning for cochlear implant sound coding simulations in noisy environments",
+      "authors": "Lin, M.-P., Huang, E. H.-H., Chien, S.-Y. & Tsao, Y.",
+      "year": "2026",
+      "publication": "JASA Express Letters, 6, 015202；作者稿 arXiv v2",
+      "doi": "10.1121/10.0042198",
+      "url": "https://arxiv.org/abs/2508.13576",
+      "access": "abstract",
+      "supports": "已核对期刊 DOI、Crossref 与 2026-01-29 作者稿 v2 摘要；视觉辅助 AVSE 与 ElectrodeNet-CS 联合训练的仿真及客观指标，不是 CI 临床感知证据。"
+    },
+    {
+      "id": "ci-bace-motion-2026",
+      "title": "Auditory Motion Perception by Bilateral Cochlear Implant Users With a Sound Coding Strategy that Synchronizes Peak-Picking Across the Ears",
+      "authors": "Dennison, S. R., Zhao, L. H., Kan, A. & Litovsky, R. Y.",
+      "year": "2026",
+      "publication": "Trends in Hearing, 30；2026-07-09",
+      "doi": "10.1177/23312165261465510",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42422910/",
+      "access": "abstract",
+      "supports": "已核对原始摘要：9 名双侧 CI 使用者的声音运动任务；同步谱峰选择本身无效应，同步硬件有小范围收益，不概括为总体定位改善。"
+    },
+    {
+      "id": "ci-moc-2016",
+      "title": "A Binaural Cochlear Implant Sound Coding Strategy Inspired by the Contralateral Medial Olivocochlear Reflex",
+      "authors": "Lopez-Poveda, E. A. et al.",
+      "year": "2016",
+      "publication": "Ear and Hearing, 37(3), e138–e148",
+      "doi": "10.1097/AUD.0000000000000273",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26862711/",
+      "access": "abstract",
+      "supports": "已核对原始摘要与 DOI 书目：双侧动态压缩耦合，3 名双侧及 2 名单侧聋植入者的特定空间噪声任务；小样本研究不能外推所有环境。"
+    },
+    {
+      "id": "guerit-focusing-2026",
+      "title": "On Balancing Sharpness of Excitation Patterns, Loudness, and Potential Effects on Speech Perception with Cochlear-Implant Current-Focussing Strategies",
+      "authors": "François Guérit, Robert P. Carlyon",
+      "year": "2026",
+      "publication": "Journal of the Association for Research in Otolaryngology；在线 2026-10-02",
+      "doi": "10.1007/s10162-026-01076-6",
+      "url": "https://doi.org/10.1007/s10162-026-01076-6",
+      "access": "abstract",
+      "supports": "已核对正式摘要：16 名人工耳蜗使用者及计算模型，讨论电流聚焦的兴奋范围与响度权衡；不据此宣称已改善语音识别。"
+    },
+    {
+      "id": "wilson-1991",
+      "title": "Better speech recognition with cochlear implants",
+      "authors": "Wilson, B. S. et al.",
+      "year": "1991",
+      "publication": "Nature, 352, 236–238",
+      "doi": "10.1038/352236a0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1857418/",
+      "access": "abstract",
+      "supports": "CIS 的非重叠脉冲序列与早期比较研究；不作为当前所有设备效果的依据。"
+    },
+    {
+      "id": "ci-spiking-code",
+      "title": "Spiking Deep ACE: author code",
+      "authors": "NECOTIS, University of Sherbrooke",
+      "year": "2026",
+      "publication": "PyTorch 研究仓库；核验 2026-10-04",
+      "url": "https://github.com/NECOTIS/spiking-deep-ace",
+      "access": "documentation",
+      "supports": "由作者论文的源码链接发现；已核对 README、models/spiking_deep_ace.py、ACE 子模块、train.py、evaluate.py 与 requirements；未检出许可文件，未执行或训练，不声称能直接驱动临床设备。"
+    },
+    {
+      "id": "ci-spiking-deepace-2026",
+      "title": "Low-Power End-to-End Cochlear Implant Speech Denoising with Spiking Neural Networks",
+      "authors": "Boulanger, L. & Wood, S. U. N.",
+      "year": "2026",
+      "publication": "ICASSP 2026；作者稿 arXiv:2608.28493v1，2026-08-28",
+      "doi": "10.1109/ICASSP55912.2026.11464775",
+      "url": "https://arxiv.org/html/2608.28493v1",
+      "access": "fulltext",
+      "supports": "已读取作者全文方法、客观评价与能耗估计：Spiking Deep ACE；能耗按运算数及 CMOS 45 nm 成本建模，不是临床处理器电池寿命实测；没有植入者行为结果。正式会议 DOI 在作者稿及会议目录可核对。"
+    },
+    {
+      "id": "ci-brain-separation-2026",
+      "title": "Brain-Informed Speech Separation for Cochlear Implants",
+      "authors": "Gajecki, T., Althoff, J. & Nogueira, W.",
+      "year": "2026",
+      "publication": "ICASSP 2026；作者稿 arXiv:2601.22260v1",
+      "doi": "10.1109/ICASSP55912.2026.11462713",
+      "url": "https://arxiv.org/html/2601.22260v1",
+      "access": "fulltext",
+      "supports": "已读取作者稿 2.4 节和局限：由目标语音计算并劣化的代理注意包络，不是真实 EEG—AAD 闭环，也没有 CI 使用者行为试验；IEEE 会议 DOI 与摘要已核对。"
+    },
+    {
+      "id": "ci-speech-music-2026",
+      "title": "Speech and music source separation for cochlear implant users: front-end and end-to-end approach",
+      "authors": "Tahmasebi, S. & Nogueira, W.",
+      "year": "2026",
+      "publication": "Frontiers in Neuroscience, 19, 1696669；在线 2026-01-13，期次集合 2025",
+      "doi": "10.3389/fnins.2025.1696669",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1696669/full",
+      "access": "fulltext",
+      "supports": "已读取摘要、参与者方法及结果：9 名双侧 Nucleus CI 使用者，端到端在语音任务更好，前端在音乐欣赏问卷更好；不把语音网络概括为改善所有音乐任务。"
+    }
+  ],
+  "repositories": [
+    {
+      "name": "mohead/pulsatile-vocoder",
+      "url": "https://github.com/mohead/pulsatile-vocoder",
+      "default_branch": "master",
+      "api_tree_sha": "102ae4473360ba0b3d99010782e972f4e9262d7f",
+      "license": "MIT",
+      "archived": false,
+      "last_pushed_at": "2019-05-29T09:08:34Z",
+      "covers": [
+        "ACE research simulation",
+        "CIS research simulation"
+      ],
+      "entry_files": [
+        "CI_Sim.m",
+        "CI_CODING_STRAT/CIStrat.m",
+        "CI_CODING_STRAT/SelectCh.m"
+      ],
+      "limits": "Author explicitly disclaims commercial equivalence; electrodogram and acoustic auralization are distinct.",
+      "executed": false
+    },
+    {
+      "name": "CILabUTD/CCi-MOBILE",
+      "url": "https://github.com/CILabUTD/CCi-MOBILE",
+      "default_branch": "master",
+      "api_tree_sha": "ccc86ca854851f19a548d7f0f5138aa052bfb8b9",
+      "license": null,
+      "archived": false,
+      "last_pushed_at": "2022-03-28T14:28:31Z",
+      "covers": [
+        "ACE MATLAB pipeline",
+        "ACE Java pipeline",
+        "Research hardware interface"
+      ],
+      "entry_files": [
+        "MATLAB/Electric only/AudioFileProcessor/ACE_Process.m",
+        "Android/CCiMOBILE/app/src/main/java/cilab/utdallas/edu/ccimobile/ACE.java"
+      ],
+      "limits": "Protected .p safety functions; no top-level license verified; BACE/mixed-rate paper-specific patch not confirmed.",
+      "executed": false
+    },
+    {
+      "name": "jabeim/AB-Generic-Python-Toolbox",
+      "url": "https://github.com/jabeim/AB-Generic-Python-Toolbox",
+      "default_branch": "master",
+      "api_tree_sha": "56b980eed8babeb54aca1358b5d5c9df1e4bec2f",
+      "license": "GPL-3.0",
+      "archived": false,
+      "last_pushed_at": "2021-01-26T16:03:43Z",
+      "covers": [
+        "HiRes120 research emulation"
+      ],
+      "entry_files": [
+        "RunDemos.py",
+        "pipelineTemplate.py",
+        "GpyT/Mapping/f120Mapping.py",
+        "GpyT/Electrodogram/f120Electrodogram.py"
+      ],
+      "limits": "Not confirmed as full Optima S/P or commercial HiRes120 equivalence. Legacy dependencies not executed.",
+      "executed": false
+    },
+    {
+      "name": "APGDHZ/DeepACE",
+      "url": "https://github.com/APGDHZ/DeepACE",
+      "default_branch": "main",
+      "api_tree_sha": "089db4cb08fee30b47954b73b64497873d7b89a2",
+      "license": "GPL-3.0",
+      "archived": false,
+      "last_pushed_at": "2022-09-22T11:27:02Z",
+      "covers": [
+        "DeepACE 1.0 research model"
+      ],
+      "entry_files": [
+        "main.py",
+        "model.py",
+        "requirements.txt"
+      ],
+      "limits": "Separate model version from DeepACE2.0; not deployed clinical software.",
+      "executed": false
+    },
+    {
+      "name": "APGDHZ/DeepACE2.0",
+      "url": "https://github.com/APGDHZ/DeepACE2.0",
+      "default_branch": "main",
+      "api_tree_sha": "8daa0f1849a2ebdfb46595662c772ae950a0a935",
+      "license": null,
+      "archived": false,
+      "last_pushed_at": "2022-11-15T13:31:33Z",
+      "covers": [
+        "DeepACE2.0 research model"
+      ],
+      "entry_files": [
+        "main.py",
+        "model.py",
+        "requirements.txt"
+      ],
+      "limits": "No license file verified. Attached PDF is a thesis, not the 2023 journal full text.",
+      "executed": false
+    },
+    {
+      "name": "NECOTIS/spiking-deep-ace",
+      "url": "https://github.com/NECOTIS/spiking-deep-ace",
+      "default_branch": "main",
+      "api_tree_sha": "f994435ad60cba03a98f6c644b4675dd05d59354",
+      "commit_sha": "f994435ad60cba03a98f6c644b4675dd05d59354",
+      "license": null,
+      "archived": false,
+      "last_pushed_at": "2026-01-27T13:11:04Z",
+      "covers": [
+        "Spiking Deep ACE research model",
+        "ACE reference modules"
+      ],
+      "entry_files": [
+        "models/spiking_deep_ace.py",
+        "ace/ace_processor.py",
+        "train.py",
+        "evaluate.py"
+      ],
+      "limits": "No license or pretrained release verified; energy-model result, not battery-life measurement.",
+      "executed": false
+    }
+  ],
+  "screened_candidates": [
+    {
+      "openalex_id": "https://openalex.org/W2240412069",
+      "title": "Cochlear implant sound coding with across-frequency delays",
+      "year": 2009,
+      "doi": null,
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2312399799",
+      "title": "A Binaural Cochlear Implant Sound Coding Strategy Inspired by the Contralateral Medial Olivocochlear Reflex",
+      "year": 2016,
+      "doi": "https://doi.org/10.1097/aud.0000000000000273",
+      "abstract_available": true,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4414992145",
+      "title": "End-to-end audio-visual learning for cochlear implant sound coding simulations in noisy environments",
+      "year": 2026,
+      "doi": "https://doi.org/10.1121/10.0042198",
+      "abstract_available": true,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2946502996",
+      "title": "Lateralization of virtual sound sources with a binaural cochlear-implant sound coding strategy inspired by the medial olivocochlear reflex",
+      "year": 2019,
+      "doi": "https://doi.org/10.1016/j.heares.2019.05.004",
+      "abstract_available": false,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2161712415",
+      "title": "Clinical evaluation of cochlear implant sound coding taking into account conjectural masking functions, MP3000™",
+      "year": 2011,
+      "doi": "https://doi.org/10.1179/1754762811y0000000009",
+      "abstract_available": true,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W3185146568",
+      "title": "A state-of-the-art implementation of a binaural cochlear-implant sound coding strategy inspired by the medial olivocochlear reflex",
+      "year": 2021,
+      "doi": "https://doi.org/10.1016/j.heares.2021.108320",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2799662020",
+      "title": "Objective speech transmission improvements with a binaural cochlear implant sound-coding strategy inspired by the contralateral medial olivocochlear reflex",
+      "year": 2018,
+      "doi": "https://doi.org/10.1121/1.5031028",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2586059468",
+      "title": "Intelligibility in speech maskers with a binaural cochlear implant sound coding strategy inspired by the contralateral medial olivocochlear reflex",
+      "year": 2017,
+      "doi": "https://doi.org/10.1016/j.heares.2017.02.003",
+      "abstract_available": false,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2155227925",
+      "title": "Sound Coding in Cochlear Implants: From electric pulses to hearing",
+      "year": 2015,
+      "doi": "https://doi.org/10.1109/msp.2014.2371671",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W3023395313",
+      "title": "Speech-in-Noise Recognition With More Realistic Implementations of a Binaural Cochlear-Implant Sound Coding Strategy Inspired by the Medial Olivocochlear Reflex",
+      "year": 2020,
+      "doi": "https://doi.org/10.1097/aud.0000000000000880",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2021079676",
+      "title": "Deep electrode insertion and sound coding in cochlear implants",
+      "year": 2014,
+      "doi": "https://doi.org/10.1016/j.heares.2014.10.006",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W1979703177",
+      "title": "Coding of Sounds in the Auditory System and Its Relevance to Signal Processing and Coding in Cochlear Implants",
+      "year": 2003,
+      "doi": "https://doi.org/10.1097/00129492-200303000-00019",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2417527556",
+      "title": "Sound code for cochlear implants.",
+      "year": 1987,
+      "doi": null,
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4361767319",
+      "title": "A Deep Denoising Sound Coding Strategy for Cochlear Implants",
+      "year": 2023,
+      "doi": "https://doi.org/10.1109/tbme.2023.3262677",
+      "abstract_available": true,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4281395131",
+      "title": "Neural model based sound coding for cochlear implants",
+      "year": 2022,
+      "doi": "https://doi.org/10.5281/zenodo.6576913",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4252684946",
+      "title": "Individual Comparisons by Ranking Methods",
+      "year": 1945,
+      "doi": "https://doi.org/10.2307/3001968",
+      "abstract_available": false,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W1991139021",
+      "title": "Some Experiments on the Recognition of Speech, with One and with Two Ears",
+      "year": 1953,
+      "doi": "https://doi.org/10.1121/1.1907229",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2061554433",
+      "title": "Multiple Comparisons among Means",
+      "year": 1961,
+      "doi": "https://doi.org/10.1080/01621459.1961.10482090",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2952218014",
+      "title": "Conv-TasNet: Surpassing Ideal Time–Frequency Magnitude Masking for Speech Separation",
+      "year": 2019,
+      "doi": "https://doi.org/10.1109/taslp.2019.2915167",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2221409856",
+      "title": "Deep clustering: Discriminative embeddings for segmentation and separation",
+      "year": 2016,
+      "doi": "https://doi.org/10.1109/icassp.2016.7471631",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2058319502",
+      "title": "Better speech recognition with cochlear implants",
+      "year": 1991,
+      "doi": "https://doi.org/10.1038/352236a0",
+      "abstract_available": false,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2900368655",
+      "title": "SDR – Half-baked or Well Done?",
+      "year": 2019,
+      "doi": "https://doi.org/10.1109/icassp.2019.8683855",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2067295501",
+      "title": "A short-time objective intelligibility measure for time-frequency weighted noisy speech",
+      "year": 2010,
+      "doi": "https://doi.org/10.1109/icassp.2010.5495701",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2153894152",
+      "title": "Speech enhancement based on a priori signal to noise estimation",
+      "year": 2002,
+      "doi": "https://doi.org/10.1109/icassp.1996.543199",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W1897240248",
+      "title": "Speech Enhancement with LSTM Recurrent Neural Networks and its Application to Noise-Robust ASR",
+      "year": 2015,
+      "doi": "https://doi.org/10.1007/978-3-319-22482-4_11",
+      "abstract_available": false,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2045956438",
+      "title": "Speech database development at MIT: Timit and beyond",
+      "year": 1990,
+      "doi": "https://doi.org/10.1016/0167-6393(90)90010-7",
+      "abstract_available": false,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2045529234",
+      "title": "ANOVA: Repeated Measures",
+      "year": 1993,
+      "doi": "https://doi.org/10.1080/00401706.1993.10485382",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4205974199",
+      "title": "Psychoacoustics",
+      "year": 2007,
+      "doi": "https://doi.org/10.1007/978-3-540-68888-4",
+      "abstract_available": false,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2199505332",
+      "title": "ICRA Noises: Artificial Noise Signals with Speech-like Spectral and Temporal Properties for Hearing Instrument Assessment: Ruidos ICRA: Señates de ruido artificial con espectro similar al habla y propiedades temporales para pruebas de instrumentos auditivos",
+      "year": 2001,
+      "doi": "https://doi.org/10.3109/00206090109073110",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2558539285",
+      "title": "Speech enhancement based on neural networks improves speech intelligibility in noise for cochlear implant users",
+      "year": 2016,
+      "doi": "https://doi.org/10.1016/j.heares.2016.11.012",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2527611302",
+      "title": "A Deep Denoising Autoencoder Approach to Improving the Intelligibility of Vocoded Speech in Cochlear Implant Simulation",
+      "year": 2016,
+      "doi": "https://doi.org/10.1109/tbme.2016.2613960",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2042407743",
+      "title": "Spectral subtraction-based speech enhancement for cochlear implant patients in background noise",
+      "year": 2005,
+      "doi": "https://doi.org/10.1121/1.1852873",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2793389773",
+      "title": "Deep Learning–Based Noise Reduction Approach to Improve Speech Intelligibility for Cochlear Implant Recipients",
+      "year": 2018,
+      "doi": "https://doi.org/10.1097/aud.0000000000000537",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W278560147",
+      "title": "Spectral contrast enhancement of speech in noise for listeners with sensorineural hearing impairment: effects on intelligibility, quality, and response times.",
+      "year": 1993,
+      "doi": null,
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2109730593",
+      "title": "A Psychoacoustic \"NofM\"-Type Speech Coding Strategy for Cochlear Implants",
+      "year": 2005,
+      "doi": "https://doi.org/10.1155/asp.2005.3044",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W1998532815",
+      "title": "Effects of Noise and Noise Suppression on Speech Perception by Cochlear Implant Users",
+      "year": 1992,
+      "doi": "https://doi.org/10.1097/00003446-199208000-00008",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2060008873",
+      "title": "Similarity of Traveling-Wave Delays in the Hearing Organs of Humans and Other Tetrapods",
+      "year": 2007,
+      "doi": "https://doi.org/10.1007/s10162-007-0081-z",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W1971749493",
+      "title": "Environment-specific noise suppression for improved speech intelligibility by cochlear implant users",
+      "year": 2010,
+      "doi": "https://doi.org/10.1121/1.3365256",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2005551156",
+      "title": "Cochlear implant optimized noise reduction",
+      "year": 2012,
+      "doi": "https://doi.org/10.1088/1741-2560/9/6/065007",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2316888609",
+      "title": "Results of a Pilot Study With a Signal Enhancement Algorithm for HiRes 120 Cochlear Implant Users",
+      "year": 2010,
+      "doi": "https://doi.org/10.1097/mao.0b013e3181f1cdc6",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2942385673",
+      "title": "Reducing the Device Delay Mismatch Can Improve Sound Localization in Bimodal Cochlear Implant/Hearing-Aid Users",
+      "year": 2019,
+      "doi": "https://doi.org/10.1177/2331216519843876",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2270649225",
+      "title": "Spectral contrast enhancement improves speech intelligibility in noise for cochlear implants",
+      "year": 2016,
+      "doi": "https://doi.org/10.1121/1.4939896",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2045937310",
+      "title": "Understanding the effect of noise on electrical stimulation sequences in cochlear implants and its impact on speech intelligibility",
+      "year": 2013,
+      "doi": "https://doi.org/10.1016/j.heares.2013.01.018",
+      "abstract_available": false,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2065115983",
+      "title": "Ideal Time–Frequency Masking Algorithms Lead to Different Speech Intelligibility and Quality in Normal-Hearing and Cochlear Implant Listeners",
+      "year": 2014,
+      "doi": "https://doi.org/10.1109/tbme.2014.2351854",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2403117493",
+      "title": "Speech enhancement based on neural networks applied to cochlear implant coding strategies",
+      "year": 2016,
+      "doi": "https://doi.org/10.1109/icassp.2016.7472933",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2956157738",
+      "title": "Convolutional Neural Network-Based Speech Enhancement for Cochlear Implant Recipients",
+      "year": 2019,
+      "doi": "https://doi.org/10.21437/interspeech.2019-1850",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4224919439",
+      "title": "An End-to-End Deep Learning Speech Coding and Denoising Strategy for Cochlear Implants",
+      "year": 2022,
+      "doi": "https://doi.org/10.1109/icassp43922.2022.9746963",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2282506697",
+      "title": "Architecture of the Spectra 22 speech processor.",
+      "year": 1995,
+      "doi": null,
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2801180380",
+      "title": "An Evaluation of Output Signal to Noise Ratio as a Predictor of Cochlear Implant Speech Intelligibility",
+      "year": 2018,
+      "doi": "https://doi.org/10.1097/aud.0000000000000556",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W3133049840",
+      "title": "A subjective and objective evaluation of a codec for the electrical stimulation patterns of cochlear implants",
+      "year": 2021,
+      "doi": "https://doi.org/10.1121/10.0003571",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2343411208",
+      "title": "The Voice Track multiband single-channel modified Wiener-filter noise reduction system for cochlear implants: patients' outcomes and subjective appraisal",
+      "year": 2016,
+      "doi": "https://doi.org/10.3109/14992027.2016.1172267",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2561922473",
+      "title": "Development of a Sound Coding Strategy based on a Deep Recurrent Neural Network for Monaural Source Separation in Cochlear Implants",
+      "year": 2016,
+      "doi": null,
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W3161273782",
+      "title": "A Noise-Robust Signal Processing Strategy for Cochlear Implants Using Neural Networks",
+      "year": 2021,
+      "doi": "https://doi.org/10.1109/icassp39728.2021.9413452",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W1522301498",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "year": 2014,
+      "doi": "https://doi.org/10.48550/arxiv.1412.6980",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2193413348",
+      "title": "Deep Speech 2: End-to-End Speech Recognition in English and Mandarin",
+      "year": 2015,
+      "doi": "https://doi.org/10.48550/arxiv.1512.02595",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W2242873814",
+      "title": "The HSM sentence test as a tool for evaluating the speech understanding in noise of cochlear implant users.",
+      "year": 1997,
+      "doi": null,
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W3209141406",
+      "title": "Demand: A Collection Of Multi-Channel Recordings Of Acoustic Noise In Diverse Environments",
+      "year": 2013,
+      "doi": "https://doi.org/10.5281/zenodo.1227121",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W3029944303",
+      "title": "LibriVoxDeEn - A Corpus for German-to-English Speech Translation and Speech Recognition",
+      "year": 2019,
+      "doi": "https://doi.org/10.11588/data/tmedtx",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4406253786",
+      "title": "Artificial intelligence‐enabled innovations in cochlear implant technology: Advancing auditory prosthetics for hearing restoration",
+      "year": 2025,
+      "doi": "https://doi.org/10.1002/btm2.10752",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4400726802",
+      "title": "Artificial Intelligence for Cochlear Implants: Review of Strategies, Challenges, and Perspectives",
+      "year": 2024,
+      "doi": "https://doi.org/10.1109/access.2024.3429524",
+      "abstract_available": true,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4410220514",
+      "title": "Scoping review of deep learning research illuminates artificial intelligence chasm in otolaryngology-head and neck surgery",
+      "year": 2025,
+      "doi": "https://doi.org/10.1038/s41746-025-01693-0",
+      "abstract_available": true,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4391974548",
+      "title": "A Fused Deep Denoising Sound Coding Strategy for Bilateral Cochlear Implants",
+      "year": 2024,
+      "doi": "https://doi.org/10.1109/tbme.2024.3367530",
+      "abstract_available": true,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4399740320",
+      "title": "Recovering speech intelligibility with deep learning and multiple microphones in noisy-reverberant situations for people using cochlear implants",
+      "year": 2024,
+      "doi": "https://doi.org/10.1121/10.0026218",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4407638022",
+      "title": "Deep Learning-Based Coding Strategy for Improved Cochlear Implant Speech Perception in Noisy Environments",
+      "year": 2025,
+      "doi": "https://doi.org/10.1109/access.2025.3542953",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4409990832",
+      "title": "A Hundred Ways to Encode Sound Signals for Cochlear Implants",
+      "year": 2025,
+      "doi": "https://doi.org/10.1146/annurev-bioeng-102623-121249",
+      "abstract_available": true,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4410205527",
+      "title": "Prediction of Auditory Performance in Cochlear Implants Using Machine Learning Methods: A Systematic Review",
+      "year": 2025,
+      "doi": "https://doi.org/10.3390/audiolres15030056",
+      "abstract_available": true,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4407901644",
+      "title": "Enhancing Cochlear Implant Signal Coding with Scaled Dot-Product Attention",
+      "year": 2024,
+      "doi": "https://doi.org/10.1109/ictis62692.2024.10894163",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4408352964",
+      "title": "Adversarial Learning For End-To-End Cochlear Speech Denoising Using Lightweight Deep Learning Models",
+      "year": 2025,
+      "doi": "https://doi.org/10.1109/icassp49660.2025.10889865",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4416228375",
+      "title": "OS-Denseformer: A Lightweight End-to-End Noise-Robust Method for Chinese Speech Recognition",
+      "year": 2025,
+      "doi": "https://doi.org/10.3390/app152212096",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4416373884",
+      "title": "Impact of auditory attention decoding accuracy on noise reduction systems for hearing aids",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.bspc.2025.109162",
+      "abstract_available": false,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W7124322112",
+      "title": "Multi-Level Perception Systems in Fusion of Lifeforms: Classification, Challenges and Future Conceptions",
+      "year": 2026,
+      "doi": "https://doi.org/10.3390/s26020576",
+      "abstract_available": true,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4405633885",
+      "title": "Using Automatic Speech Recognition for Speech Comprehension Evaluation in the Cochlear Implant",
+      "year": 2024,
+      "doi": "https://doi.org/10.1109/o-cocosda64382.2024.10800249",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4390422360",
+      "title": "ML-ASPA: A Contemplation of Machine Learning-based Acoustic Signal Processing Analysis for Sounds, & Strains Emerging Technology",
+      "year": 2023,
+      "doi": "https://doi.org/10.2139/ssrn.4676291",
+      "abstract_available": false,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4389235583",
+      "title": "2023 Index IEEE Transactions on Biomedical Engineering Vol. 70",
+      "year": 2023,
+      "doi": "https://doi.org/10.1109/tbme.2023.3336267",
+      "abstract_available": true,
+      "decision": "background-or-out-of-scope",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4390056927",
+      "title": "Recovering speech intelligibility with deep learning and multiple microphones in noisy-reverberant situations for people using cochlear implants",
+      "year": 2023,
+      "doi": "https://doi.org/10.31234/osf.io/5e2mu",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4404026772",
+      "title": "A Hundred Ways to Encode Sound Signals for Cochlear Implants",
+      "year": 2024,
+      "doi": "https://doi.org/10.2139/ssrn.5006589",
+      "abstract_available": false,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4405584850",
+      "title": "Deep learning-based prediction of electrodograms for cochlear implants using the ACE strategy",
+      "year": 2024,
+      "doi": "https://doi.org/10.54021/seesv5n3-018",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4405743083",
+      "title": "Cochlear Implants: Future Directions",
+      "year": 2024,
+      "doi": "https://doi.org/10.1007/978-3-031-77370-9_28",
+      "abstract_available": false,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4405827660",
+      "title": "Design and Best Uses of Cochlear Implants",
+      "year": 2024,
+      "doi": "https://doi.org/10.1007/978-3-031-67188-3_1",
+      "abstract_available": false,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4408712163",
+      "title": "Adversarial Learning For End-To-End Cochlear Speech Denoising Using Lightweight Deep Learning Models",
+      "year": 2025,
+      "doi": "https://doi.org/10.1101/2025.03.19.644108",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4413278412",
+      "title": "A Theoretical Framework for Envelope-Based Time-Frequency Masks in Cochlear Implant Noise Reduction Applications",
+      "year": 2025,
+      "doi": "https://doi.org/10.1109/taslpro.2025.3599773",
+      "abstract_available": true,
+      "decision": "related-not-selected",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W4414516813",
+      "title": "Exploring the intersection of cochlear implants and artificial intelligence: A mixed-method systematic and scoping review",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.ibmed.2025.100296",
+      "abstract_available": true,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W7123351634",
+      "title": "Speech and music source separation for cochlear implant users: front-end and end-to-end approach",
+      "year": 2026,
+      "doi": "https://doi.org/10.3389/fnins.2025.1696669",
+      "abstract_available": true,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W7133333903",
+      "title": "Advancements and Challenges in Signal Processing and Sound Coding for Cochlear Implants",
+      "year": 2026,
+      "doi": "https://doi.org/10.1007/978-3-032-15719-5_2",
+      "abstract_available": false,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W7134933197",
+      "title": "From Physical Replacement to Biological Symbiosis: Evolutionary Paradigms and Future Prospects of Auditory Reconstruction Brain–Computer Interfaces",
+      "year": 2026,
+      "doi": "https://doi.org/10.3390/mi17030343",
+      "abstract_available": true,
+      "decision": "context-discovery-only",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W7155067205",
+      "title": "Low-Power End-to-End Cochlear Implant Speech Denoising with Spiking Neural Networks",
+      "year": 2026,
+      "doi": "https://doi.org/10.1109/icassp55912.2026.11464775",
+      "abstract_available": true,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    },
+    {
+      "openalex_id": "https://openalex.org/W7155099460",
+      "title": "Brain-Informed Speech Separation for Cochlear Implants",
+      "year": 2026,
+      "doi": "https://doi.org/10.1109/icassp55912.2026.11462713",
+      "abstract_available": true,
+      "decision": "selected-primary-source",
+      "reason": "Bounded manual title/abstract screening; select primary studies that substantiate comparison dimensions, retain evidence stage, avoid duplicate variants and generic front-end-only claims."
+    }
+  ],
+  "disclosure_gaps": [
+    "No dedicated public implementation verified for SPEAK, MP3000, commercial MED-EL FSP/FS4/FS4-p/HDCIS/CIS+, AB Optima variants and MPS, MPIS/Crystalis variants, Nurotron APS/C-Tone/Symphony, Listent L-CIS/MTone.",
+    "Listent manufacturer-attributed exhibition copy confirms names, not algorithm or current model matrix.",
+    "No sufficiently verifiable current official coding catalog retrieved for AIC.",
+    "Proprietary commercial equivalence and regional approvals are not established by public research repositories."
+  ],
+  "access_issues": [
+    {
+      "source": "ci-ab-legacy-specs",
+      "original_url": "https://www.advancedbionics.com/content/dam/advancedbionics/Documents/Regional/ES-ES/Products/processors/Naida/028-Q019-02%20Naida%20CI%20Q90%20tech%20specs%20EN.pdf",
+      "direct_download_status": 404,
+      "evidence": "Manufacturer search-index Supported Strategies text; accessible eIFU directory and archived Target CI guide provided."
+    },
+    {
+      "source": "ci-has-nexa-2026",
+      "direct_download_status": 403,
+      "evidence": "Official indexed table contains separate Nexa ACE and legacy implant ACE/CIS/SPEAK/MP3000 columns; indexed assessment page linked."
+    }
+  ],
+  "exclusions": [
+    {
+      "item": "APGDHZ/clarity_CC_SAMII",
+      "reason": "Clarity hearing-aid support/metric code; not a verified CI coding strategy implementation."
+    },
+    {
+      "item": "Other projects named DeepACE",
+      "reason": "Causal inference/DNA projects are unrelated to cochlear sound coding."
+    },
+    {
+      "item": "Generic speech enhancement repositories",
+      "reason": "No evidence that they implement the named full CI strategy."
+    }
+  ],
+  "status": "AI-assisted draft, not professionally reviewed"
+}

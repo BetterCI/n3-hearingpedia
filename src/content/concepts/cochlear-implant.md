@@ -51,6 +51,8 @@ $$
 
 ### 经典编码入口
 
+临床策略及其仿真入口见[人工耳蜗信号处理策略](../cochlear-implant-coding-strategies/)。该词条按厂商和设备文档比较 CIS、ACE、SPEAK、MP3000、精细结构及电流导向系列，同时区分旧设备兼容、研究代码和实验编码。
+
 Wilson 等的早期研究比较了连续交错采样（CIS）与压缩模拟策略，CIS 使用非重叠顺序呈现的短脉冲。引用这一结果时，应保留早期研究的受试者和策略范围。[2](#ref-wilson-1991 "Better speech recognition with cochlear implants")
 
 ### 从声波到电刺激的完整链条

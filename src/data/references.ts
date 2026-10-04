@@ -1,8 +1,10 @@
 import { monitorReferences } from './monitor-references.ts';
+import { codingReferences } from './coding-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
   ...monitorReferences,
+  ...codingReferences,
   'peng-mandarin-2018': { title: 'Auditory Brainstem Representation of the Voice Pitch Contours in the Resolved and Unresolved Components of Mandarin Tones', authors: 'Peng, F., McKay, C. M., Mao, D., Hou, W. & Innes-Brown, H.', year: '2018', publication: 'Frontiers in Neuroscience, 12, 820', doi: '10.3389/fnins.2018.00820', url: 'https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2018.00820/full', access: 'fulltext', supports: '已阅读公开全文的引言及刺激方法：四声的 ma 拼音与词义例子、基频轮廓和可分辨／不可分辨谐波。本网站四声图另用教学函数生成，不复制论文数据或图形。' },
   'robles-2001': { title: 'Mechanics of the Mammalian Cochlea', authors: 'Robles, L. & Ruggero, M. A.', year: '2001', publication: 'Physiological Reviews, 81(3), 1305–1352', doi: '10.1152/physrev.2001.81.3.1305', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3590856/', access: 'fulltext', supports: '耳蜗行波、频率选择性与非线性力学背景；重点参照行波及微力学章节。' },
   'greenwood-1990': { title: 'A cochlear frequency-position function for several species—29 years later', authors: 'Greenwood, D. D.', year: '1990', publication: 'Journal of the Acoustical Society of America, 87(6), 2592–2605', doi: '10.1121/1.399052', url: 'https://pubmed.ncbi.nlm.nih.gov/2373794/', access: 'abstract', supports: '耳蜗频率与位置函数的来源及跨物种参数问题；原文细节仍需全文复核。' },
