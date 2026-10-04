@@ -15,15 +15,31 @@ assert(htmlFiles.length>=expectedConcepts+22,'Expected core pages, 12 domains, a
 const cache=new Map(await Promise.all(htmlFiles.map(async p=>[p,await readFile(p,'utf8')])));
 for(const file of conceptFiles)assert(cache.has(join(root,'concepts',file.slice(0,-3),'index.html')),'Missing concept route: '+file);
 const batch=JSON.parse(await readFile('docs/research/second-batch-catalog.json','utf8'));
+const depth=JSON.parse(await readFile('docs/research/depth-evidence-map.json','utf8'));
+assert(depth.entries.length===expectedConcepts,'Depth evidence record must cover every concept');
+for(const e of depth.entries){
+  const source=(await readFile('src/content/concepts/'+e.slug+'.md','utf8')).replaceAll('\r\n','\n');
+  const body=source.split(/\n---\n/).slice(1).join('\n---\n');
+  const chineseCharacters=(body.match(/[\u3400-\u9fff]/g)||[]).length;
+  assert(chineseCharacters===e.chinese_characters,'Evidence record out of date: '+e.slug);
+  assert(chineseCharacters>=1000,'Expected substantive mechanism, method, and example coverage: '+e.slug);
+  assert((body.match(/^## /gm)||[]).length>=8,'Expected layered explanation: '+e.slug);
+  assert(!/课题组|组内|成员/.test(source),'Public concept should use general professional wording: '+e.slug);
+  assert(!/\n## [^\n]+\n\s*(?=## |$)/.test(body),'Empty article section: '+e.slug);
+  const html=cache.get(join(root,'concepts',e.slug,'index.html'));
+  for(const id of e.reference_ids)assert(html.includes('id="ref-'+id+'"'),'Missing depth reference: '+e.slug+' / '+id);
+  if(e.illustration)assert(html.includes(base+'/'+e.illustration),'Teaching illustration missing: '+e.slug);
+}
 for(const e of batch.entries){
   assert(conceptFiles.includes(e.slug+'.md'),'Selected concept not written: '+e.slug);
   const html=cache.get(join(root,'concepts',e.slug,'index.html'));
-  assert(html.includes('Draft · 待审阅') && html.includes('尚未经过成员科学审阅'),'Incorrect review status: '+e.slug);
+  assert(html.includes('Draft · 待审阅') && html.includes('尚未完成专业审阅'),'Incorrect review status: '+e.slug);
   for(const id of e.reference_ids)assert(html.includes('id="ref-'+id+'"'),'Missing selected reference: '+e.slug+' / '+id);
 }
 const errors=[];
 let checkedLinks=0, equations=0;
 for(const [file,html] of cache) {
+  assert(!/课题组|组内|尚未经过成员/.test(html),'Public site positioning: '+relative(root,file));
   assert(!html.includes('class="katex-error"'),'KaTeX render error in '+relative(root,file));
   for(const match of html.matchAll(/\b(?:href|src|action)=["']([^"']+)["']/g)) {
     const link=match[1].replaceAll('&amp;','&');
@@ -58,4 +74,4 @@ assert(entry.languages['zh-cn']?.page_count===expectedConcepts,'Search index mus
 assert(cache.get(join(root,'concepts/amplitude-modulation/index.html')).includes('预印本 · 未同行评审'),'Preprint evidence must be labelled');
 assert(equations>=8,'Expected rendered concept equations');
 if(errors.length) { console.error(errors.join('\n'));process.exit(1); }
-console.log(JSON.stringify({pages:htmlFiles.length,checkedInternalLinks:checkedLinks,equations,searchableConcepts:entry.languages['zh-cn'].page_count,batch2Concepts:batch.entries.length,brokenLinks:0},null,2));
+console.log(JSON.stringify({pages:htmlFiles.length,checkedInternalLinks:checkedLinks,equations,searchableConcepts:entry.languages['zh-cn'].page_count,deepenedConcepts:depth.entries.length,chineseCharacters:depth.entries.reduce((s,e)=>s+e.chinese_characters,0),brokenLinks:0},null,2));

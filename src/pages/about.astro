@@ -1,14 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import { learningPaths } from '../data/paths';
-const concepts = await getCollection('concepts');
+import { references } from '../data/references';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { url } from '../lib/paths';
+const concepts = await getCollection('concepts');
 ---
-<BaseLayout title="About · 关于项目"><div class="container reading-page"><div class="page-intro"><div class="eyebrow">About n³ Hearingpedia</div><h1>从共同问题出发，<br />建立可持续的知识网络。</h1><p>An AI-native Knowledge System for Hearing Science</p></div><div class="prose">
-  <h2>先服务课题组成员</h2><p>听觉科学连接声学、生理、感知、工程与临床。项目先帮助新成员补齐前置知识，帮助跨专业成员建立共同语言，并为文献阅读和实验设计提供入口。</p><p>首批建设围绕实际学习路径展开。随着内容和维护流程成熟，逐渐服务更广泛的学生、研究者及专业读者。</p>
-  <h2>每个概念都应有连接</h2><p>一个词条从一句话理解和直觉开始，逐步进入理论、变量、实验与应用。领域目录提供分类，学习路径组织顺序，关联记录连接前置知识、机制与方法。</p>
-  <h2>AI 协助整理，人负责科学判断</h2><p>当前内容为 AI 辅助初稿，均标记 Draft。引用可访问不意味着词条已获专家认可。Reviewed 和 Stable 状态必须对应实际审阅者与日期。</p><p>参考文献注明引用用途，并区分全文、摘要、书目及方法文档。我们不将有限检索表述为覆盖全部最新文献。</p>
-  <h2>基础知识与研究进展分别维护</h2><p>经典研究和可靠综述支持基础解释。新论文用于补充适用条件、研究方法与争议；改变重要论断前，由成员检查证据并审阅更新版本。</p>
-  <h2>沿组内文献扩展</h2><p>第二批 20 个词条以 Qinglin Meng 与 Huali Zhou 的共同听觉科学论文为线索，另用机制文献和测听指南补齐基础解释。真实植入者、声码器模拟与预印本证据分别注明。检索与筛选记录保存在 GitHub 的 docs/research 目录。</p><h2>当前版本</h2><p>v0.2 提供 {concepts.length} 个实质词条、12 个领域入口、{learningPaths.length} 条学习路径、知识地图及本地搜索。未收录词条的领域明确显示 0。互动实验与自动文献跟踪列入后续路线图。</p><p><a href={url('contribute')}>了解贡献与审阅流程</a> · <a href={url('lab')}>查看互动实验路线图</a> · <a href="https://github.com/BetterCI/n3-hearingpedia">GitHub 源码</a></p>
+<BaseLayout title="About · 关于项目"><div class="container reading-page"><div class="page-intro"><div class="eyebrow">About n³ Hearingpedia</div><h1>连接听觉科学，<br />让理解有迹可循。</h1><p>面向学生、研究者与专业读者的听觉科学知识网络。</p></div><div class="prose">
+  <h2>从基础概念进入研究问题</h2><p>听觉科学连接声学、生理、感知、工程与临床。本百科通过分层解释、数学关系、实验方法和可追溯文献，帮助读者建立跨领域理解，并为教学、文献阅读与实验设计提供入口。</p>
+  <h2>每个概念都应有连接</h2><p>词条从定义和直觉开始，逐步进入机制、变量、实验与应用。领域目录提供分类，学习路径组织阅读顺序，知识地图连接前置概念与相关方法。读者可以从基础开始，也可以直接进入当前研究中遇到的问题。</p>
+  <h2>科学依据与解释边界</h2><p>经典研究支持基础解释，新论文补充具体方法和适用条件。真实听者实验、声码器模拟、计算模型与预印本分别说明；信号处理结果不自动等同于生理机制或临床收益。</p><p>参考文献区分可访问全文、摘要、书目及官方方法文档，并注明引用用途。公开标准目录不代替标准全文。定向检索与筛选记录保存在 <a href="https://github.com/BetterCI/n3-hearingpedia/tree/main/docs/research">研究记录</a>中。</p>
+  <h2>AI 协助整理，专业审阅完善内容</h2><p>当前词条均为待审阅版本。文献核验与扩充不等于专家认可；Reviewed 和 Stable 状态必须对应实际审阅者和日期。重要论断修改后，应重新检查证据与审阅记录。</p>
+  <h2>当前版本</h2><p>v0.3 深化 {concepts.length} 个词条，提供 {Object.keys(references).length} 项参考来源、12 个领域入口、{learningPaths.length} 条学习路径、知识地图和本地搜索。互动实验与自动文献跟踪尚在路线图中。</p><p><a href={url('contribute')}>参与贡献与审阅</a> · <a href={url('learn')}>选择学习路径</a> · <a href="https://github.com/BetterCI/n3-hearingpedia">GitHub 源码</a></p>
 </div></div></BaseLayout>

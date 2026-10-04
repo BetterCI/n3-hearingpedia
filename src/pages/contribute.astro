@@ -2,11 +2,11 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { url } from '../lib/paths';
 ---
-<BaseLayout title="Contribute · 参与贡献"><div class="container reading-page"><div class="page-intro"><div class="eyebrow">Build knowledge together</div><h1>把一次阅读，变成共同知识。</h1><p>从成员遇到的问题和组会论文开始，以可追溯的更新逐渐扩展。</p></div><div class="prose">
+<BaseLayout title="Contribute · 参与贡献"><div class="container reading-page"><div class="page-intro"><div class="eyebrow">Build knowledge together</div><h1>把一次阅读，变成共同知识。</h1><p>从阅读、教学和实验中的具体问题开始，用可追溯的证据完善解释。</p></div><div class="prose">
   <h2>提出一个词条或修正</h2><p>描述你在阅读或实验中遇到的具体问题，附上相关词条和论文 DOI／链接。优先补齐现有学习路径的缺口，再逐步增加领域覆盖。</p>
-  <h2>贡献流程</h2><ol><li>Fork <a href="https://github.com/BetterCI/n3-hearingpedia">项目仓库</a>，或在组内安排作者与审阅者。</li><li>在 Markdown 词条中新增或修改内容，登记作者与参考文献。</li><li>检查公式变量、适用条件、关联词条与引用用途。</li><li>提交 Pull Request，说明改变了什么论断以及为什么。</li><li>成员审阅科学内容；通过后更新状态与审阅记录。</li><li>合并发布，保留版本历史。</li></ol>
+  <h2>贡献流程</h2><ol><li>Fork <a href="https://github.com/BetterCI/n3-hearingpedia">项目仓库</a>，或通过 Issue 提出修改建议。</li><li>在 Markdown 词条中新增或修改内容，登记作者与参考文献。</li><li>检查公式变量、适用条件、关联词条与引用用途。</li><li>提交 Pull Request，说明改变了什么论断以及为什么。</li><li>审阅者检查科学内容；通过后更新状态与审阅记录。</li><li>合并发布，保留版本历史。</li></ol>
   <h2>一份更新说明至少包含</h2><ul><li>目标词条与需要修改的具体论断。</li><li>相关论文及支持论断的证据位置。</li><li>研究对象、任务和适用条件。</li><li>与既有证据是否一致，还有哪些问题待核实。</li></ul>
-  <h2>词条状态</h2><table><thead><tr><th>状态</th><th>含义</th></tr></thead><tbody><tr><td>Draft</td><td>内容初稿，尚未完成成员科学审阅。</td></tr><tr><td>Reviewed</td><td>当前版本已有审阅者和日期记录。</td></tr><tr><td>Stable</td><td>已审阅且基础解释较稳定，仍允许更新。</td></tr><tr><td>Needs Update</td><td>已有内容需要复核或补充。</td></tr></tbody></table><p>修改实质论断后，旧审阅记录不能直接作为新版本已审阅的依据。</p>
-  <h2>逐渐加入 AI 更新</h2><p>当前可在成员发起的任务中，以论文为输入让 AI 提取概念、整理证据并提出草稿。后续再接入主题检索和文献跟踪；自动跟踪尚未启用。</p><p>AI 的草稿需要保留来源、原论断、新论断和待核实项。基础机制不因单篇新论文自动替换。</p>
+  <h2>词条状态</h2><table><thead><tr><th>状态</th><th>含义</th></tr></thead><tbody><tr><td>Draft</td><td>内容初稿，尚未完成专业审阅。</td></tr><tr><td>Reviewed</td><td>当前版本已有审阅者和日期记录。</td></tr><tr><td>Stable</td><td>已审阅且基础解释较稳定，仍允许更新。</td></tr><tr><td>Needs Update</td><td>已有内容需要复核或补充。</td></tr></tbody></table><p>修改实质论断后，旧审阅记录不能直接作为新版本已审阅的依据。</p>
+  <h2>逐渐加入 AI 更新</h2><p>当前可在读者提出的研究问题中，以论文为输入让 AI 提取概念、整理证据并提出草稿。后续再接入主题检索和文献跟踪；自动跟踪尚未启用。</p><p>AI 的草稿需要保留来源、原论断、新论断和待核实项。基础机制不因单篇新论文自动替换。</p>
   <p><a href={url('explore')}>从已有词条开始</a> · <a href="https://github.com/BetterCI/n3-hearingpedia/blob/main/README.md">查看本地运行与编写说明</a></p>
 </div></div></BaseLayout>

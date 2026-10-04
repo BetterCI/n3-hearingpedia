@@ -1,0 +1,415 @@
+{
+  "version": "0.3",
+  "date": "2026-10-04",
+  "scope": "All 28 existing concepts; targeted literature expansion, not an exhaustive systematic review",
+  "entries": [
+    {
+      "slug": "cochlea",
+      "chinese_characters": 1600,
+      "body_characters": 2391,
+      "sections": 11,
+      "reference_ids": [
+        "robles-2001",
+        "zeng-2008",
+        "dallos-2008"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "tonotopy",
+      "chinese_characters": 1341,
+      "body_characters": 2451,
+      "sections": 10,
+      "reference_ids": [
+        "greenwood-1990",
+        "sridhar-2006",
+        "stakhovskaya-2007",
+        "oxenham-2004",
+        "kan-2013"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/frequency-place.svg"
+    },
+    {
+      "slug": "auditory-filter",
+      "chinese_characters": 1492,
+      "body_characters": 2457,
+      "sections": 12,
+      "reference_ids": [
+        "glasberg-1990",
+        "patterson-1976",
+        "oxenham-2006"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/auditory-filter.svg"
+    },
+    {
+      "slug": "masking",
+      "chinese_characters": 1460,
+      "body_characters": 2168,
+      "sections": 11,
+      "reference_ids": [
+        "glasberg-1990",
+        "oxenham-2006",
+        "stone-2014",
+        "hopkins-2008"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "temporal-envelope",
+      "chinese_characters": 1424,
+      "body_characters": 2348,
+      "sections": 12,
+      "reference_ids": [
+        "scipy-hilbert",
+        "smith-2002",
+        "shannon-1995",
+        "viemeister-1979"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/envelope-tfs.svg"
+    },
+    {
+      "slug": "vocoder",
+      "chinese_characters": 1470,
+      "body_characters": 2335,
+      "sections": 11,
+      "reference_ids": [
+        "shannon-1995",
+        "dorman-1997",
+        "meng-get-2023",
+        "friesen-2001",
+        "swaminathan-2014"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "speech-intelligibility",
+      "chinese_characters": 1459,
+      "body_characters": 2394,
+      "sections": 11,
+      "reference_ids": [
+        "plomp-1979",
+        "shannon-1995",
+        "smith-2002",
+        "wichmann-2001",
+        "steeneken-1980"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/psychometric-function.svg"
+    },
+    {
+      "slug": "cochlear-implant",
+      "chinese_characters": 1545,
+      "body_characters": 2385,
+      "sections": 13,
+      "reference_ids": [
+        "zeng-2008",
+        "wilson-1991",
+        "friesen-2001",
+        "zhou-tle-2022",
+        "zhou-f0intfs-2023"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "temporal-fine-structure",
+      "chinese_characters": 1375,
+      "body_characters": 2211,
+      "sections": 10,
+      "reference_ids": [
+        "zhou-tle-2022",
+        "zhou-f0intfs-2023",
+        "smith-2002",
+        "scipy-hilbert",
+        "robles-2001",
+        "swaminathan-2014",
+        "hopkins-2008",
+        "oxenham-2004"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/envelope-tfs.svg"
+    },
+    {
+      "slug": "pitch-perception",
+      "chinese_characters": 1400,
+      "body_characters": 2152,
+      "sections": 10,
+      "reference_ids": [
+        "zhou-tle-2022",
+        "wang-ditone-2022",
+        "zeng-2008",
+        "glasberg-1990",
+        "oxenham-2004",
+        "hartmann-1990",
+        "zhou-f0intfs-2023"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "fundamental-frequency",
+      "chinese_characters": 1358,
+      "body_characters": 2186,
+      "sections": 10,
+      "reference_ids": [
+        "zhou-f0intfs-2023",
+        "shi-harmonicity-2025",
+        "yin-2002",
+        "kong-tones-2006"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "harmonicity",
+      "chinese_characters": 1436,
+      "body_characters": 2082,
+      "sections": 10,
+      "reference_ids": [
+        "shi-harmonicity-2025",
+        "hartmann-1990",
+        "glasberg-1990"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "amplitude-modulation",
+      "chinese_characters": 1273,
+      "body_characters": 2012,
+      "sections": 9,
+      "reference_ids": [
+        "zhou-tle-2022",
+        "li-covarying-2025",
+        "viemeister-1979",
+        "dau-1997"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/envelope-tfs.svg"
+    },
+    {
+      "slug": "channel-interaction",
+      "chinese_characters": 1430,
+      "body_characters": 2023,
+      "sections": 10,
+      "reference_ids": [
+        "meng-get-2023",
+        "shi-dbd-2024",
+        "zeng-2008",
+        "friesen-2001",
+        "galvin-2012",
+        "mo-maxima-2023"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "interaural-time-difference",
+      "chinese_characters": 1328,
+      "body_characters": 2059,
+      "sections": 10,
+      "reference_ids": [
+        "wan-itd-2020",
+        "kan-tle-2021",
+        "mcalpine-2001",
+        "goupell-2013",
+        "kan-2013"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "speech-reception-threshold",
+      "chinese_characters": 1358,
+      "body_characters": 2260,
+      "sections": 11,
+      "reference_ids": [
+        "zhou-zin-2024",
+        "kong-atomic-2025",
+        "plomp-1979",
+        "wichmann-2001",
+        "levitt-1971",
+        "smits-2004"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/psychometric-function.svg"
+    },
+    {
+      "slug": "pure-tone-audiometry",
+      "chinese_characters": 1337,
+      "body_characters": 2211,
+      "sections": 11,
+      "reference_ids": [
+        "guo-audiometry-2021",
+        "zhou-anc-audiometry-2024",
+        "asha-audiometry-2005",
+        "iso-389-1-2017",
+        "iso-8253-1-2010",
+        "swanepoel-2014"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "audiometric-calibration",
+      "chinese_characters": 1426,
+      "body_characters": 2210,
+      "sections": 10,
+      "reference_ids": [
+        "guo-audiometry-2021",
+        "zhou-anc-audiometry-2024",
+        "asha-audiometry-2005",
+        "iso-389-1-2017"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "mandarin-lexical-tone",
+      "chinese_characters": 1492,
+      "body_characters": 2124,
+      "sections": 12,
+      "reference_ids": [
+        "wang-ditone-2022",
+        "zhou-f0intfs-2023",
+        "kong-tones-2006"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "confusion-matrix",
+      "chinese_characters": 1344,
+      "body_characters": 2129,
+      "sections": 10,
+      "reference_ids": [
+        "zhou-consonants-2026",
+        "zhou-consonants-2023",
+        "shannon-1948",
+        "miller-1955"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "binaural-integration",
+      "chinese_characters": 1447,
+      "body_characters": 2066,
+      "sections": 11,
+      "reference_ids": [
+        "kong-atomic-2025",
+        "shi-dbd-2024",
+        "kan-2013",
+        "goupell-2013"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "n-of-m-coding",
+      "chinese_characters": 1317,
+      "body_characters": 2073,
+      "sections": 10,
+      "reference_ids": [
+        "mo-maxima-2023",
+        "meng-get-2023",
+        "zeng-2008",
+        "zhou-f0intfs-2023"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "temporal-limits-encoder",
+      "chinese_characters": 1291,
+      "body_characters": 2063,
+      "sections": 11,
+      "reference_ids": [
+        "kan-tle-2021",
+        "zhou-tle-2022",
+        "wan-itd-2020"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "f0-in-tfs",
+      "chinese_characters": 1409,
+      "body_characters": 1997,
+      "sections": 10,
+      "reference_ids": [
+        "zhou-f0intfs-2023",
+        "wang-ditone-2022"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "get-vocoder",
+      "chinese_characters": 1283,
+      "body_characters": 2093,
+      "sections": 10,
+      "reference_ids": [
+        "meng-get-2023",
+        "kong-comparable-2023",
+        "gabor-1946"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/gaussian-width.svg"
+    },
+    {
+      "slug": "atomic-speech-model",
+      "chinese_characters": 1350,
+      "body_characters": 1946,
+      "sections": 10,
+      "reference_ids": [
+        "kong-atomic-2025",
+        "meng-get-2023",
+        "mallat-1993"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "zodiac-in-noise",
+      "chinese_characters": 1489,
+      "body_characters": 2016,
+      "sections": 10,
+      "reference_ids": [
+        "zhou-zin-2024",
+        "he-antiphasic-zin-2026",
+        "smits-2004",
+        "de-sousa-2020"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04"
+    },
+    {
+      "slug": "binaural-intelligibility-level-difference",
+      "chinese_characters": 1361,
+      "body_characters": 2119,
+      "sections": 11,
+      "reference_ids": [
+        "he-antiphasic-zin-2026",
+        "de-sousa-2020"
+      ],
+      "status": "draft",
+      "literature_checked_at": "2026-10-04",
+      "illustration": "figures/binaural-phase.svg"
+    }
+  ]
+}

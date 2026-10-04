@@ -38,7 +38,7 @@ if (action === 'identity') {
   const existing=await api(repoPath);
   if(existing.status===200) { console.log(JSON.stringify({created:false,existing:true,url:existing.data.html_url}));process.exit(0); }
   if(existing.status!==404) { console.log(JSON.stringify({created:false,status:existing.status}));process.exit(4); }
-  const result=await api('/user/repos','POST',{name:repo,description:'An AI-native Knowledge System for Hearing Science — 课题组成员共建的听觉科学知识网络',private:false,auto_init:false,homepage:'https://betterci.github.io/n3-hearingpedia/'});
+  const result=await api('/user/repos','POST',{name:repo,description:'连接听觉机制、感知与工程的专业百科 | An evidence-linked knowledge network for hearing science',private:false,auto_init:false,homepage:'https://betterci.github.io/n3-hearingpedia/'});
   console.log(JSON.stringify({created:result.status===201,status:result.status,url:result.data.html_url,message:result.data.message}));
   if(result.status!==201)process.exit(4);
 } else if (action === 'pages') {
@@ -47,6 +47,10 @@ if (action === 'identity') {
   else if(result.status===200&&result.data.build_type!=='workflow')result=await api(repoPath+'/pages','PUT',{build_type:'workflow'});
   console.log(JSON.stringify({status:result.status,url:result.data.html_url,buildType:result.data.build_type,message:result.data.message}));
   if(![200,201,204].includes(result.status))process.exit(4);
+} else if (action === 'metadata') {
+  const result=await api(repoPath,'PATCH',{description:'连接听觉机制、感知与工程的专业百科 | An evidence-linked knowledge network for hearing science',homepage:'https://betterci.github.io/n3-hearingpedia/'});
+  console.log(JSON.stringify({status:result.status,description:result.data.description,homepage:result.data.homepage}));
+  if(result.status!==200)process.exit(4);
 } else if (action === 'status') {
   const result=await api(repoPath+'/actions/runs?per_page=3');
   console.log(JSON.stringify({status:result.status,runs:result.data.workflow_runs?.map(r=>({id:r.id,status:r.status,conclusion:r.conclusion,url:r.html_url,sha:r.head_sha}))}));

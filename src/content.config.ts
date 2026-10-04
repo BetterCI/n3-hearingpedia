@@ -19,6 +19,7 @@ const concepts = defineCollection({
     reviewer: z.string().nullable().default(null),
     reviewed_at: z.string().nullable().default(null),
     literature_checked_at: z.string().nullable().default(null),
+    illustration: z.object({ src: z.string(), alt: z.string(), caption: z.string() }).optional(),
     related: z.array(z.object({ slug: z.string(), relation: z.enum(['prerequisite', 'mechanism', 'application', 'method', 'related']) })),
     references: z.array(z.string()).min(1),
     batch: z.number().int().positive().default(1),

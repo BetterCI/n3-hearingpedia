@@ -14,7 +14,7 @@ const context = all.filter(c=>['cochlear-implant','speech-intelligibility','voco
   <div class="container"><div class="breadcrumb"><a href={url('explore')}>Explore</a><span>/</span><span>{domain.zh}</span></div>
     <div class="page-intro" style="padding-top:0"><div class="eyebrow">{domain.name}</div><h1>{domain.zh}</h1><p>{domain.note} 当前收录 {concepts.length} 个词条。</p></div>
     <section class="section">
-      {concepts.length ? <div class="concept-grid">{concepts.map(concept=><ConceptCard concept={concept} />)}</div> : <div class="empty-domain"><p>本领域已列入知识框架，尚无独立词条。首批建设优先完成课题组学习路径；下面的已有词条提供研究背景入口。</p><a class="button" href={url('contribute')}>根据组内需求提出词条</a></div>}
+      {concepts.length ? <div class="concept-grid">{concepts.map(concept=><ConceptCard concept={concept} />)}</div> : <div class="empty-domain"><p>本领域已列入知识框架，尚无独立词条。内容正在逐步完善；下面的已有词条提供研究背景入口。</p><a class="button" href={url('contribute')}>提出相关词条</a></div>}
       {!concepts.length && <div class="domain-neighbors"><div class="section-heading"><h2>已有研究背景入口</h2></div><div class="concept-grid">{context.map(concept=><ConceptCard concept={concept} />)}</div></div>}
     </section>
   </div>
