@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="360" viewBox="0 0 780 360" role="img" aria-labelledby="title desc">
+  <title id="title">人工耳蜗：从声音到电听觉</title>
+  <desc id="desc">麦克风获取声音，处理器分析和编码，无线链路传送电能和指令，植入刺激器生成电脉冲，经电极—神经接口招募神经，再由中枢处理和学习形成感知。框图不表示实际解剖位置。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#627387"/></marker>
+  </defs>
+  <rect width="780" height="360" rx="18" fill="#f7f9fc"/>
+  <g font-family="'Microsoft YaHei','Noto Sans SC',sans-serif">
+    <text x="26" y="35" font-size="23" font-weight="700" fill="#1e3148">从声音到电听觉</text>
+    <text x="26" y="59" font-size="14" fill="#5b6c80">编码信息 → 神经招募 → 感知利用</text>
+    <text x="27" y="85" font-size="13" fill="#68548a">外部声音处理</text>
+    <g stroke="#d3c8e9" fill="#eee8f7">
+      <rect x="26" y="97" width="215" height="76" rx="12"/>
+      <rect x="282" y="97" width="215" height="76" rx="12"/>
+      <rect x="538" y="97" width="215" height="76" rx="12"/>
+    </g>
+    <g fill="#48345f" font-size="20" font-weight="700">
+      <text x="42" y="127">① 麦克风与输入</text>
+      <text x="298" y="127">② 声音处理器</text>
+      <text x="554" y="127">③ 无线传输</text>
+    </g>
+    <g fill="#675979" font-size="14">
+      <text x="42" y="152">声学信号与外部音频</text>
+      <text x="298" y="152">分频、特征提取与映射</text>
+      <text x="554" y="152">电能与刺激指令</text>
+    </g>
+    <path d="M26 195H753" stroke="#d1dae5" stroke-dasharray="5 5"/>
+    <text x="27" y="216" font-size="13" fill="#286b78">植入刺激与听觉系统</text>
+    <g stroke="#b8d9df" fill="#e1f1f3">
+      <rect x="538" y="227" width="215" height="76" rx="12"/>
+      <rect x="282" y="227" width="215" height="76" rx="12"/>
+      <rect x="26" y="227" width="215" height="76" rx="12"/>
+    </g>
+    <g fill="#20515f" font-size="19" font-weight="700">
+      <text x="554" y="257">④ 接收／刺激器</text>
+      <text x="298" y="257">⑤ 电极—神经接口</text>
+      <text x="42" y="257">⑥ 中枢处理与学习</text>
+    </g>
+    <g fill="#456a75" font-size="14">
+      <text x="554" y="282">产生电刺激事件</text>
+      <text x="298" y="282">招募神经群体</text>
+      <text x="42" y="282">利用输入形成感知</text>
+    </g>
+    <g fill="none" stroke="#627387" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M246 135H274"/><path d="M502 135H530"/>
+      <path d="M646 179V219"/>
+      <path d="M533 265H505"/><path d="M277 265H249"/>
+    </g>
+    <text x="26" y="334" font-size="13" fill="#627387">教学框图 · 各环节共同影响结果 · 不表示实际解剖位置、刺激参数或临床效果</text>
+  </g>
+</svg>
