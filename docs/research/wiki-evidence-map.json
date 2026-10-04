@@ -1,15 +1,15 @@
 {
-  "version": "0.4",
+  "version": "0.5",
   "date": "2026-10-04",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 71,
+  "relations": 133,
   "entries": [
     {
       "slug": "cochlea",
       "knowledge_area": "biology",
       "kind": "anatomy",
       "chinese_characters": 1807,
-      "body_characters": 3374,
+      "body_characters": 3372,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -30,7 +30,7 @@
       "knowledge_area": "biology",
       "kind": "organization",
       "chinese_characters": 1305,
-      "body_characters": 3147,
+      "body_characters": 3145,
       "sections": 5,
       "subsections": 6,
       "reference_ids": [
@@ -52,7 +52,7 @@
       "knowledge_area": "perception",
       "kind": "model",
       "chinese_characters": 1528,
-      "body_characters": 3281,
+      "body_characters": 3279,
       "sections": 5,
       "subsections": 9,
       "reference_ids": [
@@ -73,7 +73,7 @@
       "knowledge_area": "perception",
       "kind": "phenomenon",
       "chinese_characters": 1642,
-      "body_characters": 3141,
+      "body_characters": 3139,
       "sections": 5,
       "subsections": 9,
       "reference_ids": [
@@ -93,7 +93,7 @@
       "knowledge_area": "sound",
       "kind": "representation",
       "chinese_characters": 1600,
-      "body_characters": 3217,
+      "body_characters": 3215,
       "sections": 5,
       "subsections": 10,
       "reference_ids": [
@@ -115,7 +115,7 @@
       "knowledge_area": "methods",
       "kind": "model",
       "chinese_characters": 1662,
-      "body_characters": 3635,
+      "body_characters": 3633,
       "sections": 5,
       "subsections": 9,
       "reference_ids": [
@@ -137,7 +137,7 @@
       "knowledge_area": "perception",
       "kind": "function",
       "chinese_characters": 1642,
-      "body_characters": 3475,
+      "body_characters": 3473,
       "sections": 5,
       "subsections": 9,
       "reference_ids": [
@@ -161,7 +161,7 @@
       "knowledge_area": "technology",
       "kind": "technology",
       "chinese_characters": 1705,
-      "body_characters": 3689,
+      "body_characters": 3687,
       "sections": 6,
       "subsections": 11,
       "reference_ids": [
@@ -185,7 +185,7 @@
       "knowledge_area": "sound",
       "kind": "representation",
       "chinese_characters": 1582,
-      "body_characters": 3653,
+      "body_characters": 3651,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -212,7 +212,7 @@
       "knowledge_area": "perception",
       "kind": "function",
       "chinese_characters": 1622,
-      "body_characters": 3559,
+      "body_characters": 3557,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -238,7 +238,7 @@
       "knowledge_area": "sound",
       "kind": "quantity",
       "chinese_characters": 1577,
-      "body_characters": 3289,
+      "body_characters": 3287,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -259,7 +259,7 @@
       "knowledge_area": "sound",
       "kind": "quantity",
       "chinese_characters": 1654,
-      "body_characters": 3091,
+      "body_characters": 3089,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -279,7 +279,7 @@
       "knowledge_area": "sound",
       "kind": "quantity",
       "chinese_characters": 1495,
-      "body_characters": 3323,
+      "body_characters": 3321,
       "sections": 5,
       "subsections": 8,
       "reference_ids": [
@@ -299,7 +299,7 @@
       "knowledge_area": "technology",
       "kind": "mechanism",
       "chinese_characters": 1644,
-      "body_characters": 3462,
+      "body_characters": 3460,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -325,7 +325,7 @@
       "knowledge_area": "sound",
       "kind": "quantity",
       "chinese_characters": 1527,
-      "body_characters": 3740,
+      "body_characters": 3738,
       "sections": 5,
       "subsections": 9,
       "reference_ids": [
@@ -347,7 +347,7 @@
       "knowledge_area": "measurement",
       "kind": "metric",
       "chinese_characters": 1553,
-      "body_characters": 3728,
+      "body_characters": 3726,
       "sections": 6,
       "subsections": 10,
       "reference_ids": [
@@ -371,7 +371,7 @@
       "knowledge_area": "measurement",
       "kind": "test",
       "chinese_characters": 1517,
-      "body_characters": 3708,
+      "body_characters": 3706,
       "sections": 6,
       "subsections": 10,
       "reference_ids": [
@@ -394,7 +394,7 @@
       "knowledge_area": "measurement",
       "kind": "calibration",
       "chinese_characters": 1652,
-      "body_characters": 3795,
+      "body_characters": 3793,
       "sections": 4,
       "subsections": 9,
       "reference_ids": [
@@ -413,7 +413,7 @@
       "knowledge_area": "perception",
       "kind": "linguistic",
       "chinese_characters": 1704,
-      "body_characters": 3338,
+      "body_characters": 3336,
       "sections": 6,
       "subsections": 11,
       "reference_ids": [
@@ -434,7 +434,7 @@
       "knowledge_area": "methods",
       "kind": "analysis",
       "chinese_characters": 1572,
-      "body_characters": 3168,
+      "body_characters": 3166,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -453,7 +453,7 @@
       "knowledge_area": "perception",
       "kind": "function",
       "chinese_characters": 1661,
-      "body_characters": 3472,
+      "body_characters": 3470,
       "sections": 5,
       "subsections": 10,
       "reference_ids": [
@@ -475,7 +475,7 @@
       "knowledge_area": "technology",
       "kind": "strategy",
       "chinese_characters": 1514,
-      "body_characters": 3502,
+      "body_characters": 3500,
       "sections": 5,
       "subsections": 9,
       "reference_ids": [
@@ -497,7 +497,7 @@
       "knowledge_area": "technology",
       "kind": "strategy",
       "chinese_characters": 1171,
-      "body_characters": 2732,
+      "body_characters": 2730,
       "sections": 5,
       "subsections": 7,
       "reference_ids": [
@@ -518,7 +518,7 @@
       "knowledge_area": "technology",
       "kind": "strategy",
       "chinese_characters": 1611,
-      "body_characters": 3159,
+      "body_characters": 3157,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -540,7 +540,7 @@
       "knowledge_area": "methods",
       "kind": "model",
       "chinese_characters": 1355,
-      "body_characters": 3051,
+      "body_characters": 3049,
       "sections": 6,
       "subsections": 8,
       "reference_ids": [
@@ -562,7 +562,7 @@
       "knowledge_area": "methods",
       "kind": "model",
       "chinese_characters": 1530,
-      "body_characters": 3099,
+      "body_characters": 3097,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -584,7 +584,7 @@
       "knowledge_area": "measurement",
       "kind": "test",
       "chinese_characters": 1684,
-      "body_characters": 3553,
+      "body_characters": 3551,
       "sections": 6,
       "subsections": 9,
       "reference_ids": [
@@ -604,7 +604,7 @@
       "knowledge_area": "measurement",
       "kind": "metric",
       "chinese_characters": 1555,
-      "body_characters": 3261,
+      "body_characters": 3259,
       "sections": 6,
       "subsections": 10,
       "reference_ids": [
@@ -616,6 +616,395 @@
         "speech-reception-threshold",
         "binaural-integration",
         "speech-intelligibility"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "hearing-loss",
+      "knowledge_area": "biology",
+      "kind": "condition",
+      "chinese_characters": 1332,
+      "body_characters": 2469,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "who-hearing-loss",
+        "asha-hearing-loss",
+        "guest-synaptopathy-2018",
+        "hahn-asymmetry-2026"
+      ],
+      "wiki_links": [
+        "pure-tone-audiometry",
+        "spatial-hearing",
+        "cochlea",
+        "outer-hair-cell",
+        "auditory-attention",
+        "listening-effort",
+        "cochlear-synaptopathy",
+        "speech-reception-threshold",
+        "auditory-brainstem-response",
+        "hearing-aid",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "hearing-aid",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 1417,
+      "body_characters": 2176,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "nidcd-hearing-aids",
+        "keidser-nalnl2-2011",
+        "kuk-irrt-2026"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "dynamic-range",
+        "temporal-envelope",
+        "loudness",
+        "speech-intelligibility",
+        "listening-effort"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "loudness",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "chinese_characters": 1321,
+      "body_characters": 2676,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "moore-loudness-2014",
+        "robles-2001",
+        "guerit-focusing-2026"
+      ],
+      "wiki_links": [
+        "pitch-perception",
+        "speech-intelligibility",
+        "auditory-filter",
+        "hearing-loss",
+        "dynamic-range",
+        "hearing-aid",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "dynamic-range",
+      "knowledge_area": "sound",
+      "kind": "quantity",
+      "chinese_characters": 1304,
+      "body_characters": 2802,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "moore-loudness-2014",
+        "keidser-nalnl2-2011",
+        "zeng-2008",
+        "mo-maxima-2023",
+        "liu-ci-range-2026"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "hearing-aid",
+        "loudness",
+        "channel-interaction",
+        "auditory-brainstem-response",
+        "temporal-envelope",
+        "speech-intelligibility"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "outer-hair-cell",
+      "knowledge_area": "biology",
+      "kind": "anatomy",
+      "chinese_characters": 1410,
+      "body_characters": 2477,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "robles-2001",
+        "dallos-2008",
+        "su-nihl-2026"
+      ],
+      "wiki_links": [
+        "cochlea",
+        "tonotopy",
+        "cochlear-synaptopathy",
+        "auditory-filter",
+        "masking",
+        "loudness",
+        "noise-induced-hearing-loss",
+        "hearing-aid"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-brainstem-response",
+      "knowledge_area": "measurement",
+      "kind": "physiological-response",
+      "chinese_characters": 1248,
+      "body_characters": 2660,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "asha-abr",
+        "picton-aep-1974",
+        "jewett-abr-1971",
+        "jennings-chirp-2026",
+        "guest-synaptopathy-2018"
+      ],
+      "wiki_links": [
+        "auditory-evoked-potential",
+        "cochlear-implant",
+        "speech-intelligibility",
+        "auditory-attention",
+        "cochlear-synaptopathy"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-evoked-potential",
+      "knowledge_area": "measurement",
+      "kind": "physiological-response",
+      "chinese_characters": 1288,
+      "body_characters": 2579,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "picton-aep-1974",
+        "itoh-aep-2026",
+        "osullivan-aad-2015",
+        "lalor-speech-2010"
+      ],
+      "wiki_links": [
+        "auditory-brainstem-response",
+        "electroencephalography",
+        "neural-speech-tracking",
+        "auditory-attention"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "electroencephalography",
+      "knowledge_area": "methods",
+      "kind": "test",
+      "chinese_characters": 1269,
+      "body_characters": 2523,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "osullivan-aad-2015",
+        "picton-aep-1974",
+        "mo-ci-adaptation-2026",
+        "guo-tracking-2026"
+      ],
+      "wiki_links": [
+        "auditory-evoked-potential",
+        "neural-speech-tracking",
+        "cochlear-implant",
+        "auditory-attention",
+        "auditory-plasticity"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-attention",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "chinese_characters": 1375,
+      "body_characters": 2686,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "mesgarani-attention-2012",
+        "osullivan-aad-2015",
+        "fuel-2016",
+        "mo-ci-adaptation-2026"
+      ],
+      "wiki_links": [
+        "speech-intelligibility",
+        "spatial-hearing",
+        "electroencephalography",
+        "listening-effort",
+        "neural-speech-tracking",
+        "hearing-aid",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "neural-speech-tracking",
+      "knowledge_area": "methods",
+      "kind": "analysis",
+      "chinese_characters": 1215,
+      "body_characters": 3091,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "lalor-speech-2010",
+        "osullivan-aad-2015",
+        "guo-tracking-2026",
+        "mo-ci-adaptation-2026"
+      ],
+      "wiki_links": [
+        "electroencephalography",
+        "auditory-attention",
+        "temporal-envelope",
+        "cochlear-implant",
+        "auditory-plasticity",
+        "speech-intelligibility",
+        "speech-reception-threshold"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-plasticity",
+      "knowledge_area": "biology",
+      "kind": "mechanism",
+      "chinese_characters": 1321,
+      "body_characters": 2348,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "fu-plasticity-2005",
+        "mo-ci-adaptation-2026",
+        "osullivan-aad-2015"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "tonotopy",
+        "vocoder",
+        "auditory-evoked-potential",
+        "neural-speech-tracking",
+        "speech-intelligibility",
+        "spatial-hearing",
+        "listening-effort"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "listening-effort",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "chinese_characters": 1330,
+      "body_characters": 2489,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "fuel-2016",
+        "kuk-irrt-2026",
+        "guo-tracking-2026"
+      ],
+      "wiki_links": [
+        "speech-intelligibility",
+        "auditory-attention",
+        "electroencephalography",
+        "hearing-aid",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "noise-induced-hearing-loss",
+      "knowledge_area": "biology",
+      "kind": "condition",
+      "chinese_characters": 1328,
+      "body_characters": 2751,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "nidcd-nihl",
+        "kujawa-synaptopathy-2009",
+        "su-nihl-2026",
+        "guest-synaptopathy-2018"
+      ],
+      "wiki_links": [
+        "hearing-loss",
+        "outer-hair-cell",
+        "cochlea",
+        "cochlear-synaptopathy",
+        "pure-tone-audiometry",
+        "auditory-brainstem-response",
+        "speech-intelligibility"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "cochlear-synaptopathy",
+      "knowledge_area": "biology",
+      "kind": "condition",
+      "chinese_characters": 1315,
+      "body_characters": 2960,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "kujawa-synaptopathy-2009",
+        "guest-synaptopathy-2018",
+        "cheema-synaptopathy-2026"
+      ],
+      "wiki_links": [
+        "cochlea",
+        "outer-hair-cell",
+        "auditory-brainstem-response",
+        "pure-tone-audiometry",
+        "speech-intelligibility",
+        "noise-induced-hearing-loss"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "formant",
+      "knowledge_area": "sound",
+      "kind": "quantity",
+      "chinese_characters": 1277,
+      "body_characters": 2404,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "yun-formant-2026",
+        "zebe-formants-2026",
+        "yin-2002"
+      ],
+      "wiki_links": [
+        "fundamental-frequency",
+        "harmonicity",
+        "pitch-perception",
+        "vocoder",
+        "speech-intelligibility"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "spatial-hearing",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "chinese_characters": 1297,
+      "body_characters": 2606,
+      "sections": 6,
+      "subsections": 3,
+      "reference_ids": [
+        "wightman-spatial-1992",
+        "kan-2013",
+        "goupell-2013",
+        "mo-ci-adaptation-2026"
+      ],
+      "wiki_links": [
+        "binaural-integration",
+        "binaural-intelligibility-level-difference",
+        "interaural-time-difference",
+        "cochlear-implant",
+        "tonotopy",
+        "speech-reception-threshold",
+        "hearing-aid",
+        "hearing-loss"
       ],
       "status": "draft"
     }

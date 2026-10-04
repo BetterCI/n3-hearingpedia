@@ -1,0 +1,540 @@
+{
+  "version": "0.5",
+  "date": "2026-10-04",
+  "monitor": "https://betterci.github.io/hearing-paper-monitor/",
+  "data_url": "https://betterci.github.io/hearing-paper-monitor/data/papers.json",
+  "monitor_generated_at": "2026-10-04T13:35:49Z",
+  "retrieved_at": "2026-10-04T14:30:40.916Z",
+  "sha256": "1bcb28c1eabdfaa5fc0cb1a3b2e444b14a9a9530dcd54af52967ace81a57bb2f",
+  "window": {
+    "start": "2026-09-25",
+    "end": "2026-10-04",
+    "timezone": "Asia/Shanghai",
+    "selection": "first_seen_at, separate publication dates"
+  },
+  "counts": {
+    "all_monitor_records": 2892,
+    "newly_added_records": 1025,
+    "recent_date_candidates": 59,
+    "month_precision_without_online_date": 6,
+    "selected_sources": 12,
+    "new_terms": 16
+  },
+  "selection": "以近十天首次入库为更新口径；将在线发表、期次日期与月份精度分开。排除旧会议摘要批量补收、编委名单、机械／海洋声学等偏离听觉主题记录。优先跨论文复用的通用概念，不为单篇算法另建小词条。",
+  "verification": "用 DOI、PubMed、出版社／arXiv 和 OpenAlex 核对题名、作者、日期及可访问摘要；基础资料另列全文或官方资料状态。不把监测摘要的 AI 分析作为科学证据。监测中的部分 PMC 全文链接与 DOI 不匹配，未纳入引用。",
+  "citation_network": {
+    "seed": "https://openalex.org/W7214648820",
+    "backward_references": 84,
+    "forward_citations": 0,
+    "scope": "由人工耳蜗纵向研究向连续语音、注意和可塑性经典文献扩展，再根据各概念补充原始研究及权威资料。"
+  },
+  "sources": [
+    {
+      "id": "hahn-asymmetry-2026",
+      "title": "Clinical characteristics of asymmetric hearing loss in children from a large pediatric cohort",
+      "authors": "Laura E Hahn, Mario Fleischer, Friederike Wohlfarth, Jonas Althaus, Dirk Mürbe, Claudia Männel, Anke Hirschfelder",
+      "url": "https://doi.org/10.1038/s43856-026-01923-w",
+      "doi": "10.1038/s43856-026-01923-w",
+      "publication": "Communications Medicine；在线 2026-09-25",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-09-29T08:39:37Z",
+      "monitor_publication_date": "2026-09-25",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-09-25",
+      "verified_online_date": "2026-09-25",
+      "evidence_scope": "已核对 PubMed 摘要及 DOI：大型儿科队列中双耳不对称的临床异质性；不据此建立成年人的统一分类界值。",
+      "openalex_id": "https://openalex.org/W7214402036"
+    },
+    {
+      "id": "kuk-irrt-2026",
+      "title": "The Intelligibility-Based Repeat-Recall Test: II. Performance of Listeners With Normal Hearing and Hearing Impairment (Aided)",
+      "authors": "Francis Kuk, Christopher Slugocki, Petri Korhonen, Heidi Peeters",
+      "url": "https://doi.org/10.1097/AUD.0000000000001904",
+      "doi": "10.1097/AUD.0000000000001904",
+      "publication": "Ear & Hearing；在线 2026-10-01",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-10-02T08:37:33Z",
+      "monitor_publication_date": "2026-10-01",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-10-01",
+      "verified_online_date": "2026-10-01",
+      "evidence_scope": "已核对 PubMed 摘要：20 名正常听力者及 19 名佩戴助听器的听力损失者；语境、努力与记忆指标不能由相同识别阈值概括。",
+      "openalex_id": "https://openalex.org/W7215076178"
+    },
+    {
+      "id": "guerit-focusing-2026",
+      "title": "On Balancing Sharpness of Excitation Patterns, Loudness, and Potential Effects on Speech Perception with Cochlear-Implant Current-Focussing Strategies",
+      "authors": "François Guérit, Robert P. Carlyon",
+      "url": "https://doi.org/10.1007/s10162-026-01076-6",
+      "doi": "10.1007/s10162-026-01076-6",
+      "publication": "Journal of the Association for Research in Otolaryngology；在线 2026-10-02",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-10-03T08:14:14Z",
+      "monitor_publication_date": "2026-10-02",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-10-02",
+      "verified_online_date": "2026-10-02",
+      "evidence_scope": "已核对正式摘要：16 名人工耳蜗使用者及计算模型，讨论电流聚焦的兴奋范围与响度权衡；不据此宣称已改善语音识别。",
+      "openalex_id": "https://openalex.org/W7216390883"
+    },
+    {
+      "id": "liu-ci-range-2026",
+      "title": "A dual-data-driven approach for predicting cochlear implant dynamic range parameters using neural response telemetry and electrically evoked auditory brainstem response thresholds",
+      "authors": "Yao Liu, Yijing Yang, Yue Wang, Yu Chen, Wei Wang",
+      "url": "https://doi.org/10.1016/j.heares.2026.109832",
+      "doi": "10.1016/j.heares.2026.109832",
+      "publication": "Hearing Research；2026 年 10 月（仅有月份精度）",
+      "publication_type": "journal-article",
+      "access": "metadata",
+      "first_seen_at": "2026-10-04T08:30:51Z",
+      "monitor_publication_date": "2026-10-01",
+      "monitor_publication_date_precision": "month",
+      "monitor_available_online_date": null,
+      "verified_online_date": null,
+      "evidence_scope": "仅核对书目与题名：神经反应遥测、电诱发脑干反应阈值与电动态范围参数预测；未获得摘要或全文，不报告样本、精度或临床有效性。",
+      "openalex_id": "https://openalex.org/W7218767319"
+    },
+    {
+      "id": "su-nihl-2026",
+      "title": "FK506-mediated prevention of noise-induced hearing loss is associated with attenuated ER stress responses",
+      "authors": "Hongguo Su, Fan Wu, Khujista Haque, Su-Hua Sha",
+      "url": "https://doi.org/10.1016/j.heares.2026.109824",
+      "doi": "10.1016/j.heares.2026.109824",
+      "publication": "Hearing Research；在线 2026-09-26",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-10-01T09:02:42Z",
+      "monitor_publication_date": "2026-09-26",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-09-26",
+      "verified_online_date": "2026-09-26",
+      "evidence_scope": "已核对 PubMed 摘要：FVB/NJ 小鼠及细胞模型中的 FK506、外毛细胞保护与内质网应激标志；关联证据，未构成人类用药依据。",
+      "openalex_id": "https://openalex.org/W7214431750"
+    },
+    {
+      "id": "jennings-chirp-2026",
+      "title": "Evaluating Human Auditory Nerve (AN) and Brainstem Function Through Level-Dependent Chirps and Predicted AN Firing Distributions",
+      "authors": "Skyler G. Jennings, Tabitha Pickard, Jessica Chen, Shawn S. Goodman",
+      "url": "https://doi.org/10.1007/s10162-026-01075-7",
+      "doi": "10.1007/s10162-026-01075-7",
+      "publication": "Journal of the Association for Research in Otolaryngology；在线 2026-09-30",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-10-01T09:02:30Z",
+      "monitor_publication_date": "2026-09-30",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-09-30",
+      "verified_online_date": "2026-09-30",
+      "evidence_scope": "已核对 PubMed 摘要：12 名正常听力者的 chirp、复合动作电位和脑干反应；同步性变化不能直接等同神经纤维数量。",
+      "openalex_id": "https://openalex.org/W7214962765"
+    },
+    {
+      "id": "itoh-aep-2026",
+      "title": "Frequency, intensity, and reference dependence of scalp-recorded auditory evoked potentials in the common marmoset",
+      "authors": "Kosuke Itoh, Naho Konoike, Kumiko Mashita, Katsuki Nakamura",
+      "url": "https://doi.org/10.1016/j.heares.2026.109827",
+      "doi": "10.1016/j.heares.2026.109827",
+      "publication": "Hearing Research；在线 2026-09-29",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-10-04T08:30:51Z",
+      "monitor_publication_date": "2026-09-29",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-09-29",
+      "verified_online_date": "2026-09-29",
+      "evidence_scope": "已核对 PubMed 摘要：两只清醒普通狨猴中刺激频率、强度和参考电极对头皮诱发电位的影响；不转作人类常模。",
+      "openalex_id": "https://openalex.org/W7214779510"
+    },
+    {
+      "id": "mo-ci-adaptation-2026",
+      "title": "Longitudinal adaptations in neural and behavioral systems following hearing restoration using cochlear implants",
+      "authors": "Shimin Mo, Claude Alain, Andrew Dimitrijevic",
+      "url": "https://doi.org/10.1073/pnas.2613077123",
+      "doi": "10.1073/pnas.2613077123",
+      "publication": "PNAS；在线 2026-09-28，期次日期 2026-10-06",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-09-29T08:39:37Z",
+      "monitor_publication_date": "2026-10-06",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-09-28",
+      "verified_online_date": "2026-09-28",
+      "evidence_scope": "已核对 PubMed 摘要及 DOI 书目：19 名新植入成人的纵向研究；神经跟踪、空间聆听与行为适应的相关性，不推断个体恢复期限。",
+      "openalex_id": "https://openalex.org/W7214648820"
+    },
+    {
+      "id": "guo-tracking-2026",
+      "title": "Boundary conditions for cortical speech tracking as an objective speech-in-noise marker: a three-dataset MEG/EEG benchmark",
+      "authors": "Li Guo, Yang Li, Junli Wang, Yuqi Feng, Baojun Wu, Yinglong Xu",
+      "url": "https://doi.org/10.1016/j.heares.2026.109816",
+      "doi": "10.1016/j.heares.2026.109816",
+      "publication": "Hearing Research；在线 2026-09-27",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-09-29T08:39:35Z",
+      "monitor_publication_date": "2026-09-27",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-09-27",
+      "verified_online_date": "2026-09-27",
+      "evidence_scope": "已核对 PubMed 摘要：三个公开 MEG/EEG 数据集；群体条件区分与个体噪声语音阈值预测的有效性及边界。",
+      "openalex_id": "https://openalex.org/W7214562302"
+    },
+    {
+      "id": "cheema-synaptopathy-2026",
+      "title": "Model-Guided Design of Low-Context Speech Probes for Cochlear Synaptopathy",
+      "authors": "Ahsan J. Cheema, David Meng, Jorge Mejia, Sanna Hou, Sunil Puria",
+      "url": "https://arxiv.org/abs/2609.36272v1",
+      "publication": "arXiv:2609.36272v1；提交 2026-09-28",
+      "publication_type": "preprint",
+      "access": "abstract",
+      "first_seen_at": "2026-09-30T08:39:53Z",
+      "monitor_publication_date": "2026-09-28",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-09-28",
+      "verified_online_date": null,
+      "evidence_scope": "已核对预印本摘要：36 名正常听力图受试者的模型引导语音探针；组间表现差异不等于病理性突触损失确诊，未同行评审。",
+      "openalex_id": null
+    },
+    {
+      "id": "yun-formant-2026",
+      "title": "Effects of glottal and velopharyngeal port openings on the first formant frequency in natural speech",
+      "authors": "Jihyeon Yun, Timothee Pascal Felicio, Marie-Anne Kainz, Arne-Lukas Fietkau, Dominik Schäfer, Jonas Kirsch, Marie Köberlein, Matthias Echternach, Peter Birkholz",
+      "url": "https://doi.org/10.1121/10.0046531",
+      "doi": "10.1121/10.0046531",
+      "publication": "Journal of the Acoustical Society of America；在线 2026-09-25",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-09-26T07:48:30Z",
+      "monitor_publication_date": "2026-09-25",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-09-25",
+      "verified_online_date": "2026-09-25",
+      "evidence_scope": "已核对 PubMed 摘要：21 名说话者的德语元音、声门和腭咽端口测量；F1 变化涉及耦合与边界条件，部分方向与模型预测不同。",
+      "openalex_id": "https://openalex.org/W7214294520"
+    },
+    {
+      "id": "zebe-formants-2026",
+      "title": "Acoustic analyses on German vowels in read speech, recited speech, and singing",
+      "authors": "Franka Zebe-Sheng, Anna Immerz",
+      "url": "https://doi.org/10.1121/10.0046810",
+      "doi": "10.1121/10.0046810",
+      "publication": "JASA Express Letters；在线 2026-10-02",
+      "publication_type": "journal-article",
+      "access": "abstract",
+      "first_seen_at": "2026-10-03T08:14:10Z",
+      "monitor_publication_date": "2026-10-02",
+      "monitor_publication_date_precision": "day",
+      "monitor_available_online_date": "2026-10-02",
+      "verified_online_date": "2026-10-02",
+      "evidence_scope": "已核对 PubMed 摘要：16 名专业女歌者的德语元音在朗读、吟诵和歌唱中的 F1/F2 差异；不直接外推中文或所有说话者。",
+      "openalex_id": "https://openalex.org/W7168440134"
+    }
+  ],
+  "entries": [
+    {
+      "slug": "hearing-loss",
+      "title": "听力损失",
+      "english": "Hearing loss",
+      "knowledge_area": "biology",
+      "kind": "condition",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "who-hearing-loss",
+        "asha-hearing-loss",
+        "guest-synaptopathy-2018",
+        "hahn-asymmetry-2026"
+      ],
+      "monitor_source_ids": [
+        "hahn-asymmetry-2026"
+      ],
+      "selection_reason": "听觉敏感性或功能的降低；解释时需分别描述程度、类型、频率形状与双耳状况。",
+      "status": "draft"
+    },
+    {
+      "slug": "hearing-aid",
+      "title": "助听器",
+      "english": "Hearing aid",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "nidcd-hearing-aids",
+        "keidser-nalnl2-2011",
+        "kuk-irrt-2026"
+      ],
+      "monitor_source_ids": [
+        "kuk-irrt-2026"
+      ],
+      "selection_reason": "通过接收、处理和声学输出改善听觉输入的设备，其效果取决于验配、听觉能力与场景。",
+      "status": "draft"
+    },
+    {
+      "slug": "loudness",
+      "title": "响度",
+      "english": "Loudness",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "moore-loudness-2014",
+        "robles-2001",
+        "guerit-focusing-2026"
+      ],
+      "monitor_source_ids": [
+        "guerit-focusing-2026"
+      ],
+      "selection_reason": "声音被感知为强弱的知觉属性，受声级、频谱、时间结构、双耳输入及听觉状态共同影响。",
+      "status": "draft"
+    },
+    {
+      "slug": "dynamic-range",
+      "title": "动态范围",
+      "english": "Dynamic range",
+      "knowledge_area": "sound",
+      "kind": "quantity",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "moore-loudness-2014",
+        "keidser-nalnl2-2011",
+        "zeng-2008",
+        "mo-maxima-2023",
+        "liu-ci-range-2026"
+      ],
+      "monitor_source_ids": [
+        "liu-ci-range-2026"
+      ],
+      "selection_reason": "系统、信号或听者可处理水平的上下界之差；声学、听觉与电刺激的定义和单位须分别注明。",
+      "status": "draft"
+    },
+    {
+      "slug": "outer-hair-cell",
+      "title": "外毛细胞",
+      "english": "Outer hair cell",
+      "knowledge_area": "biology",
+      "kind": "anatomy",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "robles-2001",
+        "dallos-2008",
+        "su-nihl-2026"
+      ],
+      "monitor_source_ids": [
+        "su-nihl-2026"
+      ],
+      "selection_reason": "参与耳蜗主动机械过程的感觉细胞，通过机械电转导与电动性影响灵敏度、频率选择性和非线性。",
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-brainstem-response",
+      "title": "听觉脑干反应",
+      "english": "Auditory brainstem response",
+      "knowledge_area": "measurement",
+      "kind": "physiological-response",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "asha-abr",
+        "picton-aep-1974",
+        "jewett-abr-1971",
+        "jennings-chirp-2026",
+        "guest-synaptopathy-2018"
+      ],
+      "monitor_source_ids": [
+        "jennings-chirp-2026"
+      ],
+      "selection_reason": "短潜伏期听觉诱发电位的一类，可用于研究听觉通路活动及开展特定听力评估。",
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-evoked-potential",
+      "title": "听觉诱发电位",
+      "english": "Auditory evoked potential",
+      "knowledge_area": "measurement",
+      "kind": "physiological-response",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "picton-aep-1974",
+        "itoh-aep-2026",
+        "osullivan-aad-2015",
+        "lalor-speech-2010"
+      ],
+      "monitor_source_ids": [
+        "itoh-aep-2026"
+      ],
+      "selection_reason": "听觉刺激相关电位变化的统称，涵盖多个潜伏期和任务条件下的神经生理响应。",
+      "status": "draft"
+    },
+    {
+      "slug": "electroencephalography",
+      "title": "脑电图",
+      "english": "Electroencephalography",
+      "knowledge_area": "methods",
+      "kind": "test",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "osullivan-aad-2015",
+        "picton-aep-1974",
+        "mo-ci-adaptation-2026",
+        "guo-tracking-2026"
+      ],
+      "monitor_source_ids": [
+        "mo-ci-adaptation-2026",
+        "guo-tracking-2026"
+      ],
+      "selection_reason": "记录电极间脑活动相关电位差的方法；听觉研究用其观察诱发电位、振荡与连续语音响应。",
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-attention",
+      "title": "听觉注意",
+      "english": "Auditory attention",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "mesgarani-attention-2012",
+        "osullivan-aad-2015",
+        "fuel-2016",
+        "mo-ci-adaptation-2026"
+      ],
+      "monitor_source_ids": [
+        "mo-ci-adaptation-2026"
+      ],
+      "selection_reason": "对声音目标进行选择、维持和转换的功能，连接目标任务、竞争声源与资源分配。",
+      "status": "draft"
+    },
+    {
+      "slug": "neural-speech-tracking",
+      "title": "语音神经跟踪",
+      "english": "Neural speech tracking",
+      "knowledge_area": "methods",
+      "kind": "analysis",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "lalor-speech-2010",
+        "osullivan-aad-2015",
+        "guo-tracking-2026",
+        "mo-ci-adaptation-2026"
+      ],
+      "monitor_source_ids": [
+        "guo-tracking-2026",
+        "mo-ci-adaptation-2026"
+      ],
+      "selection_reason": "量化神经记录与连续语音特征之间时序关系的分析框架，用于研究编码、注意和交流功能。",
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-plasticity",
+      "title": "听觉可塑性",
+      "english": "Auditory plasticity",
+      "knowledge_area": "biology",
+      "kind": "mechanism",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "fu-plasticity-2005",
+        "mo-ci-adaptation-2026",
+        "osullivan-aad-2015"
+      ],
+      "monitor_source_ids": [
+        "mo-ci-adaptation-2026"
+      ],
+      "selection_reason": "听觉系统随经验、输入变化或损伤而改变的能力，需区分神经变化、学习和功能收益。",
+      "status": "draft"
+    },
+    {
+      "slug": "listening-effort",
+      "title": "聆听努力",
+      "english": "Listening effort",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "fuel-2016",
+        "kuk-irrt-2026",
+        "guo-tracking-2026"
+      ],
+      "monitor_source_ids": [
+        "kuk-irrt-2026"
+      ],
+      "selection_reason": "为完成聆听目标而有目的投入的心理资源，受任务要求、可用资源、动机和环境影响。",
+      "status": "draft"
+    },
+    {
+      "slug": "noise-induced-hearing-loss",
+      "title": "噪声性听力损失",
+      "english": "Noise-induced hearing loss",
+      "knowledge_area": "biology",
+      "kind": "condition",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "nidcd-nihl",
+        "kujawa-synaptopathy-2009",
+        "su-nihl-2026",
+        "guest-synaptopathy-2018"
+      ],
+      "monitor_source_ids": [
+        "su-nihl-2026"
+      ],
+      "selection_reason": "噪声暴露相关的听觉损伤，可涉及毛细胞、突触及其他结构；暴露与功能需分别测量。",
+      "status": "draft"
+    },
+    {
+      "slug": "cochlear-synaptopathy",
+      "title": "耳蜗突触病变",
+      "english": "Cochlear synaptopathy",
+      "knowledge_area": "biology",
+      "kind": "condition",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "kujawa-synaptopathy-2009",
+        "guest-synaptopathy-2018",
+        "cheema-synaptopathy-2026"
+      ],
+      "monitor_source_ids": [
+        "cheema-synaptopathy-2026"
+      ],
+      "selection_reason": "内毛细胞与传入听神经之间突触连接的损伤或丢失；动物组织证据与人类代理指标应分别解释。",
+      "status": "draft"
+    },
+    {
+      "slug": "formant",
+      "title": "共振峰",
+      "english": "Formant",
+      "knowledge_area": "sound",
+      "kind": "quantity",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "yun-formant-2026",
+        "zebe-formants-2026",
+        "yin-2002"
+      ],
+      "monitor_source_ids": [
+        "yun-formant-2026",
+        "zebe-formants-2026"
+      ],
+      "selection_reason": "声道共振相关的谱特征，是元音等语音分析的重要概念，不能与基频、谐波或任意谱峰混同。",
+      "status": "draft"
+    },
+    {
+      "slug": "spatial-hearing",
+      "title": "空间听觉",
+      "english": "Spatial hearing",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "priority": "通用核心概念",
+      "reference_ids": [
+        "wightman-spatial-1992",
+        "kan-2013",
+        "goupell-2013",
+        "mo-ci-adaptation-2026"
+      ],
+      "monitor_source_ids": [
+        "mo-ci-adaptation-2026"
+      ],
+      "selection_reason": "感知声音方位、距离、运动及空间分离的功能，综合双耳、单耳谱形和动态线索。",
+      "status": "draft"
+    }
+  ]
+}

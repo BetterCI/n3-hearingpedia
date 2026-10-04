@@ -1,6 +1,8 @@
+import { monitorReferences } from './monitor-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...monitorReferences,
   'robles-2001': { title: 'Mechanics of the Mammalian Cochlea', authors: 'Robles, L. & Ruggero, M. A.', year: '2001', publication: 'Physiological Reviews, 81(3), 1305–1352', doi: '10.1152/physrev.2001.81.3.1305', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3590856/', access: 'fulltext', supports: '耳蜗行波、频率选择性与非线性力学背景；重点参照行波及微力学章节。' },
   'greenwood-1990': { title: 'A cochlear frequency-position function for several species—29 years later', authors: 'Greenwood, D. D.', year: '1990', publication: 'Journal of the Acoustical Society of America, 87(6), 2592–2605', doi: '10.1121/1.399052', url: 'https://pubmed.ncbi.nlm.nih.gov/2373794/', access: 'abstract', supports: '耳蜗频率与位置函数的来源及跨物种参数问题；原文细节仍需全文复核。' },
   'sridhar-2006': { title: 'A Frequency-Position Function for the Human Cochlear Spiral Ganglion', authors: 'Sridhar, D., Stakhovskaya, O. & Leake, P. A.', year: '2006', publication: 'Audiology and Neurotology, 11(Suppl. 1), 16–20', doi: '10.1159/000095609', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2432090/', access: 'fulltext', supports: 'Greenwood 公式、位置定义，以及柯蒂器与螺旋神经节映射的区别；参照引言及方法。' },
@@ -63,4 +65,4 @@ export const references: Record<string, Reference> = {
   "iso-389-1-2017": {"title":"Acoustics — Reference zero for the calibration of audiometric equipment — Part 1: Reference equivalent threshold sound pressure levels for pure tones and supra-aural earphones","authors":"International Organization for Standardization","year":"2017","publication":"ISO 389-1:2017","url":"https://www.iso.org/standard/69855.html","access":"metadata","supports":"已核对压耳式耳机参考零点的公开范围；未引用付费表格，不将参考数据转用于任意 TWS 耳机。"},
 };
 
-export const accessLabels = { fulltext: '可访问全文', abstract: '已核对摘要与书目', metadata: '仅核对书目', documentation: '官方方法文档' };
+export const accessLabels = { fulltext: '可访问全文', abstract: '已核对摘要与书目', metadata: '仅核对书目', documentation: '官方资料／方法文档' };

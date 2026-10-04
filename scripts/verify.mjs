@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { knowledgeRelations, relationTypes, relationshipsFor } from '../src/data/relations.ts';
 import { knowledgeAreas, kindLabels } from '../src/data/knowledge.ts';
 import { learningPaths } from '../src/data/paths.ts';
+import { references } from '../src/data/references.ts';
 
 const root = resolve('dist');
 const base = (process.env.BASE_PATH || '/n3-hearingpedia').replace(/\/$/, '');
@@ -19,6 +20,26 @@ const cache=new Map(await Promise.all(htmlFiles.map(async p=>[p,await readFile(p
 for(const file of conceptFiles)assert(cache.has(join(root,'concepts',file.slice(0,-3),'index.html')),'Missing concept route: '+file);
 const batch=JSON.parse(await readFile('docs/research/second-batch-catalog.json','utf8'));
 const wiki=JSON.parse(await readFile('docs/research/wiki-evidence-map.json','utf8'));
+const monitor=JSON.parse(await readFile('docs/research/monitor-expansion-2026-10-04.json','utf8'));
+assert(monitor.entries.length>=11&&monitor.entries.length===monitor.counts.new_terms,'Expected more than ten monitor-derived concepts');
+assert(new Set(monitor.entries.map(e=>e.slug)).size===monitor.entries.length,'Duplicate monitor concept');
+assert(monitor.sources.length===monitor.counts.selected_sources,'Monitor source count differs');
+const windowStart=new Date(monitor.window.start+'T00:00:00+08:00');
+const windowEnd=new Date(new Date(monitor.window.end+'T00:00:00+08:00').getTime()+24*60*60*1000);
+for(const s of monitor.sources){
+  assert(new Date(s.first_seen_at)>=windowStart&&new Date(s.first_seen_at)<windowEnd,'Source outside update window: '+s.id);
+  assert(references[s.id]?.title===s.title&&references[s.id]?.access===s.access,'Source verification record differs: '+s.id);
+  assert((references[s.id]?.publicationType||'journal-article')===s.publication_type,'Publication status differs: '+s.id);
+}
+for(const e of monitor.entries){
+  assert(conceptFiles.includes(e.slug+'.md'),'Monitor concept not published: '+e.slug);
+  const w=wiki.entries.find(w=>w.slug===e.slug);
+  assert.deepEqual(w?.reference_ids,e.reference_ids,'Monitor bibliography differs: '+e.slug);
+  for(const id of e.monitor_source_ids)assert(monitor.sources.some(s=>s.id===id)&&e.reference_ids.includes(id),'Missing monitor seed or direct citation: '+id);
+  const html=cache.get(join(root,'concepts',e.slug,'index.html'));
+  assert(html.includes('Draft · 待审阅')&&html.includes('尚未完成专业审阅'),'Monitor review status: '+e.slug);
+  for(const id of e.reference_ids)if(references[id].publicationType==='preprint')assert(html.includes('预印本 · 未同行评审'),'Unlabelled preprint: '+e.slug);
+}
 assert(wiki.entries.length===expectedConcepts,'Wiki evidence record must cover every concept');
 assert(new Set(wiki.entries.map(e=>e.slug)).size===expectedConcepts,'Duplicate concept evidence record');
 for(const e of wiki.entries){
