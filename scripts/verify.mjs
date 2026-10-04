@@ -1,6 +1,9 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import { resolve, relative, join, sep } from 'node:path';
 import assert from 'node:assert/strict';
+import { knowledgeRelations, relationTypes, relationshipsFor } from '../src/data/relations.ts';
+import { knowledgeAreas, kindLabels } from '../src/data/knowledge.ts';
+import { learningPaths } from '../src/data/paths.ts';
 
 const root = resolve('dist');
 const base = (process.env.BASE_PATH || '/n3-hearingpedia').replace(/\/$/, '');
@@ -11,25 +14,68 @@ async function walk(folder) {
 const htmlFiles=(await walk(root)).filter(p=>p.endsWith('.html'));
 const conceptFiles=(await readdir('src/content/concepts')).filter(p=>p.endsWith('.md'));
 const expectedConcepts=conceptFiles.length;
-assert(htmlFiles.length>=expectedConcepts+22,'Expected core pages, 12 domains, and all concepts');
+assert(htmlFiles.length>=expectedConcepts+23,'Expected core pages, 13 domains, and all concepts');
 const cache=new Map(await Promise.all(htmlFiles.map(async p=>[p,await readFile(p,'utf8')])));
 for(const file of conceptFiles)assert(cache.has(join(root,'concepts',file.slice(0,-3),'index.html')),'Missing concept route: '+file);
 const batch=JSON.parse(await readFile('docs/research/second-batch-catalog.json','utf8'));
-const depth=JSON.parse(await readFile('docs/research/depth-evidence-map.json','utf8'));
-assert(depth.entries.length===expectedConcepts,'Depth evidence record must cover every concept');
-for(const e of depth.entries){
+const wiki=JSON.parse(await readFile('docs/research/wiki-evidence-map.json','utf8'));
+assert(wiki.entries.length===expectedConcepts,'Wiki evidence record must cover every concept');
+assert(new Set(wiki.entries.map(e=>e.slug)).size===expectedConcepts,'Duplicate concept evidence record');
+for(const e of wiki.entries){
   const source=(await readFile('src/content/concepts/'+e.slug+'.md','utf8')).replaceAll('\r\n','\n');
   const body=source.split(/\n---\n/).slice(1).join('\n---\n');
   const chineseCharacters=(body.match(/[\u3400-\u9fff]/g)||[]).length;
   assert(chineseCharacters===e.chinese_characters,'Evidence record out of date: '+e.slug);
   assert(chineseCharacters>=1000,'Expected substantive mechanism, method, and example coverage: '+e.slug);
-  assert((body.match(/^## /gm)||[]).length>=8,'Expected layered explanation: '+e.slug);
+  assert(body.trimStart().startsWith('**'),'Expected unheaded encyclopedia lead: '+e.slug);
+  assert((body.match(/^## /gm)||[]).length===e.sections&&e.sections>=4,'Expected encyclopedia sections: '+e.slug);
+  assert((body.match(/^### /gm)||[]).length===e.subsections&&e.subsections>=3,'Expected explanatory subsections: '+e.slug);
+  assert(knowledgeAreas.some(a=>a.id===e.knowledge_area)&&e.kind in kindLabels,'Invalid knowledge classification: '+e.slug);
+  assert(source.includes('knowledge_area: "'+e.knowledge_area+'"')&&source.includes('kind: "'+e.kind+'"'),'Classification manifest out of date: '+e.slug);
   assert(!/课题组|组内|成员/.test(source),'Public concept should use general professional wording: '+e.slug);
   assert(!/\n## [^\n]+\n\s*(?=## |$)/.test(body),'Empty article section: '+e.slug);
   const html=cache.get(join(root,'concepts',e.slug,'index.html'));
+  assert(html.includes('wiki-infobox')&&html.includes('参见与关联概念'),'Missing wiki navigation: '+e.slug);
+  const citations=[...body.matchAll(/\[([^\]]+)\]\(#ref-([^\s)]+)/g)];
+  assert(citations.length,'Missing inline sources: '+e.slug);
+  for(const citation of citations)assert(/^\d+$/.test(citation[1])&&e.reference_ids[Number(citation[1])-1]===citation[2],'Incorrect numbered reference: '+e.slug+' / '+citation[2]);
+  assert.deepEqual([...html.matchAll(/id="ref-([^"]+)"/g)].map(m=>m[1]),e.reference_ids,'Bibliography order and citation numbering differ: '+e.slug);
   for(const id of e.reference_ids)assert(html.includes('id="ref-'+id+'"'),'Missing depth reference: '+e.slug+' / '+id);
-  if(e.illustration)assert(html.includes(base+'/'+e.illustration),'Teaching illustration missing: '+e.slug);
+  for(const slug of e.wiki_links)assert(conceptFiles.includes(slug+'.md')&&body.includes('../'+slug+'/'),'Broken wiki cross-link: '+e.slug+' / '+slug);
+  const illustration=source.match(/illustration:.*?"src":"([^"]+)"/);
+  if(illustration)assert(html.includes(base+'/'+illustration[1]),'Teaching illustration missing: '+e.slug);
 }
+const ids=new Set(wiki.entries.map(e=>e.slug)),edgeKeys=new Set();
+assert(wiki.relations===knowledgeRelations.length,'Relationship manifest out of date');
+for(const r of knowledgeRelations){
+  assert(ids.has(r.source)&&ids.has(r.target)&&r.source!==r.target,'Invalid relationship endpoint');
+  assert(r.type in relationTypes&&r.note.trim(),'Missing relationship semantics');
+  const pair=relationTypes[r.type].directional?[r.source,r.target]:[r.source,r.target].sort();
+  const key=[...pair,r.type].join('|');assert(!edgeKeys.has(key),'Duplicate relationship: '+key);edgeKeys.add(key);
+  if(r.type==='measured-by')assert(['test','metric'].includes(wiki.entries.find(e=>e.slug===r.target).kind),'Measurement target must be a test or metric');
+  if(r.type==='analyzed-by')assert(wiki.entries.find(e=>e.slug===r.target).kind==='analysis','Analysis target must be an analysis method');
+  for(const slug of [r.source,r.target]){
+    const relation=relationshipsFor(slug).find(e=>e.source===r.source&&e.target===r.target&&e.type===r.type);
+    assert(relation&&relation.neighbor!==slug,'Relationship must be traversable from both ends');
+    const html=cache.get(join(root,'concepts',slug,'index.html'));
+    assert(html.includes(base+'/concepts/'+relation.neighbor+'/')&&html.includes(relation.label),'Related concept missing from article: '+slug);
+  }
+}
+for(const slug of ids)assert(relationshipsFor(slug).length,'Orphan concept: '+slug);
+function checkTypes(slug,ancestors=new Set()){
+  assert(!ancestors.has(slug),'Cycle in subtype hierarchy: '+slug);
+  const next=new Set([...ancestors,slug]);
+  for(const r of knowledgeRelations.filter(r=>r.source===slug&&r.type==='subtype'))checkTypes(r.target,next);
+}
+for(const slug of ids)checkTypes(slug);
+const pathIds=new Set(learningPaths.flatMap(p=>p.slugs));
+for(const slug of pathIds)assert(ids.has(slug),'Broken learning path: '+slug);
+for(const slug of ids)assert(pathIds.has(slug),'Concept absent from learning paths: '+slug);
+const map=cache.get(join(root,'map','index.html'));
+const payload=JSON.parse(map.match(/<script[^>]+id="atlas-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
+assert.deepEqual(new Set(payload.nodes.map(n=>n.id)),ids,'Map must contain all concepts');
+assert.deepEqual(payload.edges,knowledgeRelations,'Map must use canonical relationship records');
+assert(payload.areas.length===knowledgeAreas.length&&map.includes('atlas-canvas-host'),'Missing 3D map interface');
 for(const e of batch.entries){
   assert(conceptFiles.includes(e.slug+'.md'),'Selected concept not written: '+e.slug);
   const html=cache.get(join(root,'concepts',e.slug,'index.html'));
@@ -74,4 +120,4 @@ assert(entry.languages['zh-cn']?.page_count===expectedConcepts,'Search index mus
 assert(cache.get(join(root,'concepts/amplitude-modulation/index.html')).includes('预印本 · 未同行评审'),'Preprint evidence must be labelled');
 assert(equations>=8,'Expected rendered concept equations');
 if(errors.length) { console.error(errors.join('\n'));process.exit(1); }
-console.log(JSON.stringify({pages:htmlFiles.length,checkedInternalLinks:checkedLinks,equations,searchableConcepts:entry.languages['zh-cn'].page_count,deepenedConcepts:depth.entries.length,chineseCharacters:depth.entries.reduce((s,e)=>s+e.chinese_characters,0),brokenLinks:0},null,2));
+console.log(JSON.stringify({pages:htmlFiles.length,checkedInternalLinks:checkedLinks,equations,searchableConcepts:entry.languages['zh-cn'].page_count,wikiConcepts:wiki.entries.length,knowledgeAreas:knowledgeAreas.length,typedRelationships:knowledgeRelations.length,wikiCrossLinks:wiki.entries.reduce((s,e)=>s+e.wiki_links.length,0),chineseCharacters:wiki.entries.reduce((s,e)=>s+e.chinese_characters,0),brokenLinks:0},null,2));

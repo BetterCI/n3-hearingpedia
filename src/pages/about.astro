@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import { learningPaths } from '../data/paths';
+import { domains } from '../data/domains';
+import { knowledgeAreas } from '../data/knowledge';
 import { references } from '../data/references';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { url } from '../lib/paths';
@@ -11,5 +13,5 @@ const concepts = await getCollection('concepts');
   <h2>每个概念都应有连接</h2><p>词条从定义和直觉开始，逐步进入机制、变量、实验与应用。领域目录提供分类，学习路径组织阅读顺序，知识地图连接前置概念与相关方法。读者可以从基础开始，也可以直接进入当前研究中遇到的问题。</p>
   <h2>科学依据与解释边界</h2><p>经典研究支持基础解释，新论文补充具体方法和适用条件。真实听者实验、声码器模拟、计算模型与预印本分别说明；信号处理结果不自动等同于生理机制或临床收益。</p><p>参考文献区分可访问全文、摘要、书目及官方方法文档，并注明引用用途。公开标准目录不代替标准全文。定向检索与筛选记录保存在 <a href="https://github.com/BetterCI/n3-hearingpedia/tree/main/docs/research">研究记录</a>中。</p>
   <h2>AI 协助整理，专业审阅完善内容</h2><p>当前词条均为待审阅版本。文献核验与扩充不等于专家认可；Reviewed 和 Stable 状态必须对应实际审阅者和日期。重要论断修改后，应重新检查证据与审阅记录。</p>
-  <h2>当前版本</h2><p>v0.3 深化 {concepts.length} 个词条，提供 {Object.keys(references).length} 项参考来源、12 个领域入口、{learningPaths.length} 条学习路径、知识地图和本地搜索。互动实验与自动文献跟踪尚在路线图中。</p><p><a href={url('contribute')}>参与贡献与审阅</a> · <a href={url('learn')}>选择学习路径</a> · <a href="https://github.com/BetterCI/n3-hearingpedia">GitHub 源码</a></p>
+  <h2>当前版本</h2><p>v0.4 按百科结构扩充 {concepts.length} 个词条，提供 {Object.keys(references).length} 项参考来源、{domains.length} 个学科入口、{knowledgeAreas.length} 个知识层面、{learningPaths.length} 条学习路径、动态三维知识地图和本地搜索。互动实验与自动文献跟踪尚在路线图中。</p><p><a href={url('contribute')}>参与贡献与审阅</a> · <a href={url('learn')}>选择学习路径</a> · <a href="https://github.com/BetterCI/n3-hearingpedia">GitHub 源码</a></p>
 </div></div></BaseLayout>

@@ -6,11 +6,11 @@ const concepts = await getCollection('concepts');
 const bySlug = Object.fromEntries(concepts.map(c=>[c.data.slug,c]));
 const topics=[
  {title:'理解频率分析',note:'从耳蜗中的位置组织，到行为实验中的滤波器估计。',slugs:['cochlea','tonotopy','auditory-filter','masking']},
- {title:'音高与周期性编码',note:'围绕 TLE 与 F0inTFS，区分基频、音高、调制和不同实验人群。',slugs:['fundamental-frequency','pitch-perception','temporal-fine-structure','amplitude-modulation','temporal-limits-encoder','f0-in-tfs']},
- {title:'声码器与稀疏语音',note:'围绕 GET 和 ASM，检查编码规则、时频权衡及原子率阈值。',slugs:['vocoder','n-of-m-coding','channel-interaction','get-vocoder','atomic-speech-model','speech-reception-threshold']},
- {title:'普通话的声调与辅音',note:'围绕 DiTone、谐波性及辅音感知组织，分清线索操纵和行为分析。',slugs:['mandarin-lexical-tone','harmonicity','speech-intelligibility','confusion-matrix']},
+ {title:'音高与周期性编码',note:'区分周期性、物理基频与知觉音高，再进入时间信息编码的实例。',slugs:['fundamental-frequency','pitch-perception','temporal-fine-structure','amplitude-modulation','temporal-limits-encoder','f0-in-tfs']},
+ {title:'声码器与稀疏语音',note:'从一般模拟框架进入局部事件与稀疏模型，检查时频权衡和量纲。',slugs:['vocoder','n-of-m-coding','channel-interaction','get-vocoder','atomic-speech-model','speech-reception-threshold']},
+ {title:'普通话的声调与辅音',note:'区分语言类别、声学线索和行为分析，比较受控实验与自然语音。',slugs:['mandarin-lexical-tone','harmonicity','speech-intelligibility','confusion-matrix']},
  {title:'双耳信息利用',note:'连接时间线索、跨耳频带分配与反相测试；整合和去掩蔽分别解释。',slugs:['interaural-time-difference','binaural-integration','channel-interaction','binaural-intelligibility-level-difference']},
- {title:'可校准的远程听力筛查',note:'围绕真无线耳机测听与 ZIN，理解参考零点、测试版本和筛查边界。',slugs:['pure-tone-audiometry','audiometric-calibration','speech-reception-threshold','zodiac-in-noise']},
+ {title:'可校准的远程听力筛查',note:'从标准测量与参考零点进入便携测试，区分校准、验证和筛查。',slugs:['pure-tone-audiometry','audiometric-calibration','speech-reception-threshold','zodiac-in-noise']},
 ];
 ---
 <BaseLayout title="Topics · 研究专题"><div class="container"><div class="page-intro"><div class="eyebrow">Topics</div><h1>从研究任务组织知识。</h1><p>领域回答“属于哪里”，专题回答“为了解决这个问题，我需要读什么”。</p></div><section class="section">{topics.map(topic=><article class="topic-section"><h2>{topic.title}</h2><p>{topic.note}</p><div class="topic-links">{topic.slugs.map(slug=><a href={url(`concepts/${slug}`)}>{bySlug[slug].data.title} ↗</a>)}</div></article>)}</section></div></BaseLayout>

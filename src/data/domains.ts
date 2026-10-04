@@ -11,7 +11,7 @@ export const domains = [
   { id: 'cochlear-implants', name: 'Cochlear Implants', zh: '人工耳蜗', note: '连接声音编码、电刺激与感知表现。', symbol: '⋮' },
   { id: 'signal-processing', name: 'Auditory Signal Processing', zh: '听觉信号处理', note: '以滤波、包络和声码器拆解研究方法。', symbol: '⌘' },
   { id: 'ai-hearing', name: 'AI for Hearing', zh: 'AI 与听觉', note: '探索数据、模型与听觉研究的交叉问题。', symbol: '✳' },
+  { id: 'research-methods', name: 'Research Methods & Statistics', zh: '研究方法与统计', note: '连接实验设计、心理测量、统计分析与模型验证。', symbol: '∑' },
 ] as const;
 
 export const domainById = Object.fromEntries(domains.map(d => [d.id, d]));
-export const relationLabels = { prerequisite: '前置知识', mechanism: '机制连接', application: '应用连接', method: '研究方法', related: '相关概念' };

@@ -1,15 +1,15 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { url } from '../lib/paths';
-import { domainById } from '../data/domains';
+import { kindLabels } from '../data/knowledge';
 interface Props { concept: CollectionEntry<'concepts'>; }
 const { concept } = Astro.props;
 const { data } = concept;
 const statusLabel = { draft: 'Draft', reviewed: 'Reviewed', stable: 'Stable', 'needs-update': 'Needs Update' }[data.status];
 ---
 <a class="concept-card" href={url(`concepts/${data.slug}`)}>
-  <div class="card-meta"><span>{domainById[data.categories[0]]?.zh}</span><span class="draft-dot">{statusLabel}</span></div>
+  <div class="card-meta"><span>{kindLabels[data.kind]}</span><span class="draft-dot">{statusLabel}</span></div>
   <h3>{data.title}</h3><p class="english">{data.english}</p>
   <p class="card-description">{data.summary}</p>
-  <div class="card-bottom"><span>{data.references.length} 篇参考文献</span><span aria-hidden="true">↗</span></div>
+  <div class="card-bottom"><span>{data.references.length} 项参考来源</span><span aria-hidden="true">↗</span></div>
 </a>

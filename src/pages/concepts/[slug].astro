@@ -2,7 +2,9 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { references, accessLabels } from '../../data/references';
-import { domainById, relationLabels } from '../../data/domains';
+import { domainById } from '../../data/domains';
+import { knowledgeAreaById, kindLabels } from '../../data/knowledge';
+import { relationshipsFor } from '../../data/relations';
 import { url, asset } from '../../lib/paths';
 export async function getStaticPaths() {
   return (await getCollection('concepts')).map(concept=>({params:{slug:concept.data.slug},props:{concept}}));
@@ -17,8 +19,11 @@ const current = all.findIndex(c=>c.data.slug===data.slug);
 const prev = all[current-1], next = all[current+1];
 const statusLabels = {draft:'Draft · 待审阅',reviewed:'Reviewed · 已审阅',stable:'Stable · 稳定', 'needs-update':'Needs Update · 待更新'};
 const readingMinutes = Math.max(1, Math.ceil((concept.body?.match(/[\u3400-\u9fff]/g)?.length || 0) / 300));
+const links = relationshipsFor(data.slug);
+const area = knowledgeAreaById[data.knowledge_area];
+const sections = headings.filter(h=>h.depth===2).map(h=>({ ...h, children: headings.slice(headings.indexOf(h)+1,headings.findIndex((n,j)=>j>headings.indexOf(h)&&n.depth===2)<0?headings.length:headings.findIndex((n,j)=>j>headings.indexOf(h)&&n.depth===2)).filter(n=>n.depth===3) }));
 for (const id of data.references) { if (!references[id]) throw new Error(`Unknown reference ${id} in ${data.slug}`); }
-for (const item of data.related) { if (!bySlug[item.slug]) throw new Error(`Unknown related concept ${item.slug} in ${data.slug}`); }
+for (const item of links) { if (!bySlug[item.neighbor]) throw new Error(`Unknown related concept ${item.neighbor} in ${data.slug}`); }
 if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.reviewed_at)) throw new Error(`Review record missing in ${data.slug}`);
 ---
 <BaseLayout title={`${data.title} · ${data.english}`} description={data.summary}>
@@ -38,16 +43,33 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
           <div class="article-tags">{data.categories.map(id=><span data-pagefind-filter={`领域:${domainById[id].zh}`}>{domainById[id].zh}</span>)}{data.tags.map(tag=><span>{tag}</span>)}</div>
         </header>
         {data.status==='draft' && <div class="draft-notice" data-pagefind-ignore>本词条为 AI 辅助编写的待审阅版本。参考文献列明引用用途与核验范围；检索记录可追溯，内容将随证据与专业审阅继续完善。</div>}
-        {data.illustration && <figure class="teaching-figure" data-pagefind-ignore><img src={asset(data.illustration.src)} alt={data.illustration.alt} width="780" height="360" loading="lazy" /><figcaption>{data.illustration.caption}</figcaption></figure>}
-        <div class="prose"><Content /></div>
+        <div class="wiki-content">
+          <details class="wiki-infobox" aria-label="术语信息" data-pagefind-ignore open>
+            <summary class="infobox-heading">{data.title}<small>{data.english} · 术语信息与图示</small></summary>
+            {data.illustration && <figure class="infobox-figure"><a href={asset(data.illustration.src)} target="_blank" rel="noopener" aria-label="打开完整教学图"><img src={asset(data.illustration.src)} alt={data.illustration.alt} width="780" height="360" loading="lazy" /></a><figcaption>{data.illustration.caption}</figcaption></figure>}
+            <dl><div><dt>词条类型</dt><dd>{kindLabels[data.kind]}</dd></div><div><dt>知识层面</dt><dd>{area.title}</dd></div>{data.key_facts.map(f=><div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>
+            <a class="infobox-map-link" href={url('map')+'?concept='+data.slug}>在三维知识地图中定位 ↗</a>
+          </details>
+          <div class="prose wiki-prose"><Content /></div>
+        </div>
         <section class="references" id="references" data-pagefind-ignore>
           <h2>参考文献与证据范围</h2>
           <ol class="reference-list">{data.references.map(id=>{const ref=references[id];return <li id={`ref-${id}`}><a class="reference-title" href={ref.url} target="_blank" rel="noopener noreferrer">{ref.title} ↗</a><p class="reference-detail">{ref.publicationType==='preprint' && <strong class="preprint-label">预印本 · 未同行评审 · </strong>}{ref.authors} ({ref.year}). {ref.publication}.</p><div class="reference-links">{ref.doi && <a href={`https://doi.org/${ref.doi}`} target="_blank" rel="noopener noreferrer">DOI: {ref.doi}</a>}<a href={ref.url} target="_blank" rel="noopener noreferrer">{accessLabels[ref.access]} ↗</a></div><p class="source-scope">引用用途：{ref.supports}</p></li>})}</ol>
         </section>
-        <section class="related-section" id="related" data-pagefind-ignore><h2>关联概念</h2><div class="related-list">{data.related.map(item=><a class="related-link" href={url(`concepts/${item.slug}`)}><div><strong>{bySlug[item.slug].data.title}</strong><span>{bySlug[item.slug].data.english} · {relationLabels[item.relation]}</span></div><span aria-hidden="true">↗</span></a>)}</div></section>
+        <section class="related-section" id="related" data-pagefind-ignore><h2>参见与关联概念</h2><p class="relation-note">关系说明区分类型、表征、机制、测量与应用；学习顺序见学习路径。</p><div class="related-list">{links.map(item=><a class="related-link" href={url(`concepts/${item.neighbor}`)}><div><strong>{bySlug[item.neighbor].data.title}</strong><span>{item.label}</span><small>{item.note}</small></div><span aria-hidden="true">↗</span></a>)}</div></section>
         <nav class="article-next" aria-label="按词条目录继续阅读" data-pagefind-ignore>{prev ? <a href={url(`concepts/${prev.data.slug}`)}>← {prev.data.title}</a> : <a href={url('learn')}>← 学习路径</a>}{next ? <a href={url(`concepts/${next.data.slug}`)}>{next.data.title} →</a> : <a href={url('learn')}>返回学习路径 →</a>}</nav>
       </article>
-      <aside class="article-sidebar" aria-label="词条目录"><div class="toc-label">ON THIS PAGE / 本页导航</div><nav>{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}<a href="#references">参考文献与证据范围</a><a href="#related">关联概念</a></nav><div class="sidebar-info">从概念到研究<br />理解概念 → 阅读文献 → 提出问题<br /><a class="text-link" href={url('contribute')}>参与审阅 ↗</a></div></aside>
+      <aside class="article-sidebar" aria-label="词条目录"><div class="toc-label">CONTENTS / 目录</div><nav>{sections.map((h,i)=><div class="wiki-toc-section"><a href={`#${h.slug}`}>{i+1}. {h.text}</a><div>{h.children.map(n=><a class="wiki-toc-sub" href={`#${n.slug}`}>{n.text}</a>)}</div></div>)}<a href="#references">参考文献与证据范围</a><a href="#related">参见与关联概念</a></nav><div class="sidebar-info">{area.title}<br />{kindLabels[data.kind]}<br /><a class="text-link" href={url('contribute')}>参与审阅 ↗</a></div></aside>
     </div>
   </div>
 </BaseLayout>
+<script>
+const box=document.querySelector<HTMLDetailsElement>('.wiki-infobox');
+const wide=matchMedia('(min-width:761px)');
+if(box){box.open=wide.matches;wide.addEventListener('change',e=>{box.open=e.matches;});}
+</script>
+<style>
+.wiki-content{display:flow-root}.wiki-infobox{float:right;width:290px;max-width:42%;margin:5px 0 24px 25px;border:1px solid #d8e0ea;border-radius:8px;background:#f3f6fb;font-size:12px;overflow:hidden}.infobox-heading{text-align:center;background:#e7edf5;padding:16px;font-weight:650;font-size:17px}.infobox-heading small{display:block;font-size:11px;font-weight:400;margin-top:6px;color:var(--muted)}.wiki-infobox dl{padding:0 13px;margin:0}.wiki-infobox dl>div{display:grid;grid-template-columns:80px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}.wiki-infobox dt{font-weight:600}.wiki-infobox dd{margin:0;line-height:1.8}.infobox-map-link{display:block;padding:14px;color:var(--accent);font-size:11px}.infobox-figure{margin:0;padding:10px}.infobox-figure img{width:100%;height:auto;background:white}.infobox-figure figcaption{font-size:10px;line-height:1.7;margin-top:8px;color:var(--muted)}.wiki-prose :global(>p:first-child){font-size:16px;line-height:2}.wiki-prose :global(a[href^="#ref-"]){font-size:.72em;vertical-align:super;white-space:nowrap;text-decoration:none;padding:0 2px}.wiki-prose :global(a[href^="#ref-"]::before){content:'['}.wiki-prose :global(a[href^="#ref-"]::after){content:']'}.wiki-prose :global(h2){border-bottom:1px solid var(--line);padding-bottom:9px;margin-top:38px}.wiki-prose :global(h3){font-size:17px;line-height:1.7;margin:25px 0 10px}.related-link small{display:block;font-size:11px;font-weight:400;line-height:1.8;margin-top:6px;color:var(--muted)}.relation-note{font-size:12px;color:var(--muted);margin-bottom:20px}.wiki-toc-section>div{padding-left:13px}.article-sidebar .wiki-toc-sub{font-size:10px;margin-top:7px}.wiki-toc-section{margin-bottom:9px}
+@media(max-width:1000px){.wiki-infobox{max-width:48%;width:265px}}
+@media(max-width:760px){.wiki-infobox{float:none;max-width:none;width:100%;margin:0 0 26px}.wiki-infobox dl{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.wiki-infobox dl>div{grid-template-columns:1fr}.infobox-figure{max-width:480px;margin:auto}.wiki-toc-section>div{display:none}.wiki-toc-section{margin:0}.wiki-prose :global(>p:first-child){font-size:15px}}
+</style>

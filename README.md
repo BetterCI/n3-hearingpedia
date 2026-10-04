@@ -10,16 +10,18 @@
 
 听觉科学的概念跨越机制、感知与工程。项目以一个概念一页解释、每个概念连接其他概念的方式，组织前置知识、研究方法及可追溯文献。
 
-## v0.3 内容
+## v0.4 内容
 
-深化记录与逐词条证据表见 [深度扩写记录](docs/research/depth-expansion-2026-10-04.md)和[证据映射](docs/research/depth-evidence-map.json)。
+本轮百科重构见 [编辑与验证记录](docs/research/wiki-restructure-2026-10-04.md)和[逐词条证据映射](docs/research/wiki-evidence-map.json)。[v0.3 深度扩写记录](docs/research/depth-expansion-2026-10-04.md)保留为历史版本。
 
-- 28 个深化词条：机制、数学定义、实验方法、对照设计、应用与证据边界。
+- 28 个百科式词条：无标题导言、术语信息框、定义与分类、原理、方法、应用边界、分析示例及研究沿革。
+- 6 个知识层面和 15 种概念类型，区分物理量、语言类别、知觉功能、测试、指标、技术和模型；71 条带说明的知识关系，双向可遍历。
+- 正文约 4.4 万中文字符，104 处不同正文交叉链接；分级目录、编号引文、参见与相关概念。
 - 60 项参考来源与 6 张可复现教学图；文献使用范围逐项标注，图示明确区分理想模型与实测。
 - 主题覆盖时间精细结构、音高、基频、谐波性、振幅调制、通道相互作用、ITD、SRT、纯音测听、校准、普通话声调、混淆矩阵、双耳整合、n-of-m、TLE、F0inTFS、GET、ASM、ZIN、BILD。
 - [调研与证据记录](docs/research/meng-zhou-literature-and-batch-2.md)及[第二批目录](docs/research/second-batch-catalog.json)保留来源、选词理由与审阅状态。
-- 12 个领域入口，实际数量按词条元数据统计；无独立词条的领域如实显示 0。
-- 6 条节点完整的学习路径、研究专题和可点击知识地图。
+- 13 个学科入口作为交叉索引；无独立词条的领域如实显示 0。
+- 6 条节点完整的学习路径、研究专题和 Three.js 动态三维知识地图。支持旋转、缩放、暂停、概念定位、层面与关系筛选，以及从词条进入所选节点。
 - KaTeX 公式、Pagefind 中文／英文搜索、移动端导航。
 - 文献 DOI、引用用途与核验范围。当前全部词条为 Draft；预印本单独标注未同行评审，尚未完成专业审阅。
 - 互动实验及自动文献跟踪为后续建设方向，尚未启用。
@@ -47,16 +49,16 @@ Tonotopy 的中文统一使用 **频位映射关系**。
 ## 新增词条
 
 1. 在 src/content/concepts/ 新建 Markdown 文件，可以复制一个已有词条。
-2. 填写 batch（批次，默认 1）、title、english、slug、summary、categories、tags、status、日期、作者、related、references 和 order。
-3. categories 使用 [领域定义](src/data/domains.ts) 中的领域 ID；slug 与文件名保持一致。
+2. 填写 title、english、slug、summary、categories、tags、status、日期、作者、references 和 order；添加 knowledge_area、kind 与至少两项 key_facts。batch 仅保留来源批次，不用于公众导航。
+3. categories 使用 [学科定义](src/data/domains.ts) 的 ID；knowledge_area 和 kind 使用 [知识体系](src/data/knowledge.ts) 的定义；slug 与文件名保持一致。
 4. 在 [文献定义](src/data/references.ts) 中登记文献，并在 references 中填写对应 ID。
-5. 正文引用使用 Markdown 链接，目标格式为 #ref-文献ID，其锚点由页面生成。
-6. related 使用已有词条 slug，并注明关系类型。
+5. 正文引用使用 `[1](#ref-文献ID "来源标题")`，编号与 references 的顺序一致。正文概念链接使用 `../词条slug/`。
+6. 在 [关系定义](src/data/relations.ts) 登记关联，每条包含 source、target、type 与 note；同一条关系只登记一次，页面自动显示正向与反向描述。
 7. 运行 check、build、verify，检查页面后提交 PR。
 
-验收检查从源文件动态统计词条数量，校验各页面、索引与第二批目录；实际领域和词条卡片自动生成。学习路径定义在 [paths.ts](src/data/paths.ts)。
+更新 [证据映射](docs/research/wiki-evidence-map.json) 的字符数、章节数、文献与交叉链接。验收检查校验关系端点、重复关系、类型循环、测量与分析对象、学习路径、编号引文、页面资源与搜索索引。学习路径定义在 [paths.ts](src/data/paths.ts)。
 
-关系类型包括 prerequisite（前置知识）、mechanism（机制）、application（应用）、method（研究方法）和 related（相关概念）。关联是从当前词条指向所列词条的阅读提示；地图不把连线解释为因果关系。
+关系类型包括 subtype（属于类型）、describes（表征）、mechanism（机制联系）、measured-by（测量）、analyzed-by（分析）、application（应用）和 related（概念联系）。方向由定义决定；机制联系与概念联系为对称关系。学习顺序单独组织。知识分类是本网站的编辑框架，不宣称为统一学科本体；地图位置、连线动画不编码因果效应、证据强弱或解剖距离。
 
 ## 内容与科学审阅
 
@@ -66,7 +68,7 @@ last_updated 是词条修改日期；literature_checked_at 是记录过检索范
 
 参考文献中 access 区分全文、摘要、书目和官方方法文档，supports 说明引用用途。书目信息已核验不代表科学论断已核验。AI 生成文字不能作为引用来源。
 
-正文建议包含一句话理解、直觉、核心概念、公式与变量、实验／方法入口、阅读研究论文时的检查点、解释边界与研究问题。公式和临床／工程栏目按相关性使用。
+写作以百科导言为入口，随后分层解释定义、机制、测量和应用。章节按概念性质调整，避免为了统一模板制造空栏目。术语信息框记录稳定事实；方法参数注明版本和条件。研究沿革是有来源的发展线索，不是完整历史。公式定义变量与单位，分析示例明确区分推导、教学假设和实测数据。
 
 ## AI 辅助文献更新
 
@@ -90,12 +92,15 @@ last_updated 是词条修改日期；literature_checked_at 是记录过检索范
 
     src/content/concepts/    Markdown 词条
     src/content.config.ts   元数据校验
-    src/data/domains.ts     12 个领域
+    src/data/domains.ts     13 个学科索引
+    src/data/knowledge.ts   知识层面与概念类型
+    src/data/relations.ts   单一关系数据源
     src/data/paths.ts       学习路径
     src/data/references.ts  文献与核验范围
     src/pages/              页面与动态词条路由
     src/layouts/            统一网站布局
     src/styles/             响应式样式
+    src/scripts/            三维地图与浏览器交互
     docs/                   编辑及更新记录
     scripts/verify.mjs      构建产物的链接、公式与索引检查
 

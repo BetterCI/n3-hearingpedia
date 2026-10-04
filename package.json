@@ -1,6 +1,6 @@
 {
   "name": "n3-hearingpedia",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -16,10 +16,12 @@
     "katex": "^0.19.0",
     "pagefind": "^1.5.2",
     "rehype-katex": "^7.0.1",
-    "remark-math": "^6.0.0"
+    "remark-math": "^6.0.0",
+    "three": "0.186.1"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "@types/three": "^0.186.0",
     "typescript": "^5.9.3"
   }
 }

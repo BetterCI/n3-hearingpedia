@@ -1,0 +1,623 @@
+{
+  "version": "0.4",
+  "date": "2026-10-04",
+  "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
+  "relations": 71,
+  "entries": [
+    {
+      "slug": "cochlea",
+      "knowledge_area": "biology",
+      "kind": "anatomy",
+      "chinese_characters": 1807,
+      "body_characters": 3374,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "robles-2001",
+        "zeng-2008",
+        "dallos-2008"
+      ],
+      "wiki_links": [
+        "masking",
+        "tonotopy",
+        "auditory-filter",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "tonotopy",
+      "knowledge_area": "biology",
+      "kind": "organization",
+      "chinese_characters": 1305,
+      "body_characters": 3147,
+      "sections": 5,
+      "subsections": 6,
+      "reference_ids": [
+        "greenwood-1990",
+        "sridhar-2006",
+        "stakhovskaya-2007",
+        "oxenham-2004",
+        "kan-2013"
+      ],
+      "wiki_links": [
+        "cochlea",
+        "pitch-perception",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "auditory-filter",
+      "knowledge_area": "perception",
+      "kind": "model",
+      "chinese_characters": 1528,
+      "body_characters": 3281,
+      "sections": 5,
+      "subsections": 9,
+      "reference_ids": [
+        "glasberg-1990",
+        "patterson-1976",
+        "oxenham-2006"
+      ],
+      "wiki_links": [
+        "masking",
+        "cochlea",
+        "vocoder",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "masking",
+      "knowledge_area": "perception",
+      "kind": "phenomenon",
+      "chinese_characters": 1642,
+      "body_characters": 3141,
+      "sections": 5,
+      "subsections": 9,
+      "reference_ids": [
+        "glasberg-1990",
+        "oxenham-2006",
+        "stone-2014",
+        "hopkins-2008"
+      ],
+      "wiki_links": [
+        "speech-reception-threshold",
+        "auditory-filter"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "temporal-envelope",
+      "knowledge_area": "sound",
+      "kind": "representation",
+      "chinese_characters": 1600,
+      "body_characters": 3217,
+      "sections": 5,
+      "subsections": 10,
+      "reference_ids": [
+        "scipy-hilbert",
+        "smith-2002",
+        "shannon-1995",
+        "viemeister-1979"
+      ],
+      "wiki_links": [
+        "vocoder",
+        "amplitude-modulation",
+        "temporal-fine-structure",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "vocoder",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 1662,
+      "body_characters": 3635,
+      "sections": 5,
+      "subsections": 9,
+      "reference_ids": [
+        "shannon-1995",
+        "dorman-1997",
+        "meng-get-2023",
+        "friesen-2001",
+        "swaminathan-2014"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "get-vocoder",
+        "cochlea"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "speech-intelligibility",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "chinese_characters": 1642,
+      "body_characters": 3475,
+      "sections": 5,
+      "subsections": 9,
+      "reference_ids": [
+        "plomp-1979",
+        "shannon-1995",
+        "smith-2002",
+        "wichmann-2001",
+        "steeneken-1980"
+      ],
+      "wiki_links": [
+        "masking",
+        "speech-reception-threshold",
+        "confusion-matrix",
+        "cochlear-implant",
+        "vocoder"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "cochlear-implant",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 1705,
+      "body_characters": 3689,
+      "sections": 6,
+      "subsections": 11,
+      "reference_ids": [
+        "zeng-2008",
+        "wilson-1991",
+        "friesen-2001",
+        "zhou-tle-2022",
+        "zhou-f0intfs-2023"
+      ],
+      "wiki_links": [
+        "cochlea",
+        "n-of-m-coding",
+        "temporal-limits-encoder",
+        "f0-in-tfs",
+        "vocoder"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "temporal-fine-structure",
+      "knowledge_area": "sound",
+      "kind": "representation",
+      "chinese_characters": 1582,
+      "body_characters": 3653,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "zhou-tle-2022",
+        "zhou-f0intfs-2023",
+        "smith-2002",
+        "scipy-hilbert",
+        "robles-2001",
+        "swaminathan-2014",
+        "hopkins-2008",
+        "oxenham-2004"
+      ],
+      "wiki_links": [
+        "temporal-envelope",
+        "fundamental-frequency",
+        "auditory-filter",
+        "vocoder",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "pitch-perception",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "chinese_characters": 1622,
+      "body_characters": 3559,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "zhou-tle-2022",
+        "wang-ditone-2022",
+        "zeng-2008",
+        "glasberg-1990",
+        "oxenham-2004",
+        "hartmann-1990",
+        "zhou-f0intfs-2023"
+      ],
+      "wiki_links": [
+        "fundamental-frequency",
+        "cochlea",
+        "tonotopy",
+        "cochlear-implant",
+        "auditory-filter"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "fundamental-frequency",
+      "knowledge_area": "sound",
+      "kind": "quantity",
+      "chinese_characters": 1577,
+      "body_characters": 3289,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "zhou-f0intfs-2023",
+        "shi-harmonicity-2025",
+        "yin-2002",
+        "kong-tones-2006"
+      ],
+      "wiki_links": [
+        "pitch-perception",
+        "harmonicity",
+        "vocoder"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "harmonicity",
+      "knowledge_area": "sound",
+      "kind": "quantity",
+      "chinese_characters": 1654,
+      "body_characters": 3091,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "shi-harmonicity-2025",
+        "hartmann-1990",
+        "glasberg-1990"
+      ],
+      "wiki_links": [
+        "fundamental-frequency",
+        "auditory-filter",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "amplitude-modulation",
+      "knowledge_area": "sound",
+      "kind": "quantity",
+      "chinese_characters": 1495,
+      "body_characters": 3323,
+      "sections": 5,
+      "subsections": 8,
+      "reference_ids": [
+        "zhou-tle-2022",
+        "li-covarying-2025",
+        "viemeister-1979",
+        "dau-1997"
+      ],
+      "wiki_links": [
+        "temporal-envelope",
+        "masking"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "channel-interaction",
+      "knowledge_area": "technology",
+      "kind": "mechanism",
+      "chinese_characters": 1644,
+      "body_characters": 3462,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "meng-get-2023",
+        "shi-dbd-2024",
+        "zeng-2008",
+        "friesen-2001",
+        "galvin-2012",
+        "mo-maxima-2023"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "auditory-filter",
+        "n-of-m-coding",
+        "binaural-integration",
+        "vocoder",
+        "masking"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "interaural-time-difference",
+      "knowledge_area": "sound",
+      "kind": "quantity",
+      "chinese_characters": 1527,
+      "body_characters": 3740,
+      "sections": 5,
+      "subsections": 9,
+      "reference_ids": [
+        "wan-itd-2020",
+        "kan-tle-2021",
+        "mcalpine-2001",
+        "goupell-2013",
+        "kan-2013"
+      ],
+      "wiki_links": [
+        "binaural-intelligibility-level-difference",
+        "vocoder",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "speech-reception-threshold",
+      "knowledge_area": "measurement",
+      "kind": "metric",
+      "chinese_characters": 1553,
+      "body_characters": 3728,
+      "sections": 6,
+      "subsections": 10,
+      "reference_ids": [
+        "zhou-zin-2024",
+        "kong-atomic-2025",
+        "plomp-1979",
+        "wichmann-2001",
+        "levitt-1971",
+        "smits-2004"
+      ],
+      "wiki_links": [
+        "zodiac-in-noise",
+        "speech-intelligibility",
+        "masking",
+        "atomic-speech-model"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "pure-tone-audiometry",
+      "knowledge_area": "measurement",
+      "kind": "test",
+      "chinese_characters": 1517,
+      "body_characters": 3708,
+      "sections": 6,
+      "subsections": 10,
+      "reference_ids": [
+        "guo-audiometry-2021",
+        "zhou-anc-audiometry-2024",
+        "asha-audiometry-2005",
+        "iso-389-1-2017",
+        "iso-8253-1-2010",
+        "swanepoel-2014"
+      ],
+      "wiki_links": [
+        "audiometric-calibration",
+        "speech-reception-threshold",
+        "masking"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "audiometric-calibration",
+      "knowledge_area": "measurement",
+      "kind": "calibration",
+      "chinese_characters": 1652,
+      "body_characters": 3795,
+      "sections": 4,
+      "subsections": 9,
+      "reference_ids": [
+        "guo-audiometry-2021",
+        "zhou-anc-audiometry-2024",
+        "asha-audiometry-2005",
+        "iso-389-1-2017"
+      ],
+      "wiki_links": [
+        "pure-tone-audiometry"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "mandarin-lexical-tone",
+      "knowledge_area": "perception",
+      "kind": "linguistic",
+      "chinese_characters": 1704,
+      "body_characters": 3338,
+      "sections": 6,
+      "subsections": 11,
+      "reference_ids": [
+        "wang-ditone-2022",
+        "zhou-f0intfs-2023",
+        "kong-tones-2006"
+      ],
+      "wiki_links": [
+        "fundamental-frequency",
+        "pitch-perception",
+        "vocoder",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "confusion-matrix",
+      "knowledge_area": "methods",
+      "kind": "analysis",
+      "chinese_characters": 1572,
+      "body_characters": 3168,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "zhou-consonants-2026",
+        "zhou-consonants-2023",
+        "shannon-1948",
+        "miller-1955"
+      ],
+      "wiki_links": [
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "binaural-integration",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "chinese_characters": 1661,
+      "body_characters": 3472,
+      "sections": 5,
+      "subsections": 10,
+      "reference_ids": [
+        "kong-atomic-2025",
+        "shi-dbd-2024",
+        "kan-2013",
+        "goupell-2013"
+      ],
+      "wiki_links": [
+        "masking",
+        "interaural-time-difference",
+        "binaural-intelligibility-level-difference",
+        "vocoder"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "n-of-m-coding",
+      "knowledge_area": "technology",
+      "kind": "strategy",
+      "chinese_characters": 1514,
+      "body_characters": 3502,
+      "sections": 5,
+      "subsections": 9,
+      "reference_ids": [
+        "mo-maxima-2023",
+        "meng-get-2023",
+        "zeng-2008",
+        "zhou-f0intfs-2023"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "channel-interaction",
+        "vocoder",
+        "masking"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "temporal-limits-encoder",
+      "knowledge_area": "technology",
+      "kind": "strategy",
+      "chinese_characters": 1171,
+      "body_characters": 2732,
+      "sections": 5,
+      "subsections": 7,
+      "reference_ids": [
+        "kan-tle-2021",
+        "zhou-tle-2022",
+        "wan-itd-2020"
+      ],
+      "wiki_links": [
+        "temporal-fine-structure",
+        "pitch-perception",
+        "f0-in-tfs",
+        "vocoder"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "f0-in-tfs",
+      "knowledge_area": "technology",
+      "kind": "strategy",
+      "chinese_characters": 1611,
+      "body_characters": 3159,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "zhou-f0intfs-2023",
+        "wang-ditone-2022"
+      ],
+      "wiki_links": [
+        "vocoder",
+        "fundamental-frequency",
+        "n-of-m-coding",
+        "temporal-limits-encoder",
+        "speech-intelligibility",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "get-vocoder",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 1355,
+      "body_characters": 3051,
+      "sections": 6,
+      "subsections": 8,
+      "reference_ids": [
+        "meng-get-2023",
+        "kong-comparable-2023",
+        "gabor-1946"
+      ],
+      "wiki_links": [
+        "vocoder",
+        "atomic-speech-model",
+        "temporal-envelope",
+        "cochlea",
+        "cochlear-implant"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "atomic-speech-model",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 1530,
+      "body_characters": 3099,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "kong-atomic-2025",
+        "meng-get-2023",
+        "mallat-1993"
+      ],
+      "wiki_links": [
+        "speech-reception-threshold",
+        "get-vocoder",
+        "vocoder",
+        "binaural-integration",
+        "masking"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "zodiac-in-noise",
+      "knowledge_area": "measurement",
+      "kind": "test",
+      "chinese_characters": 1684,
+      "body_characters": 3553,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "zhou-zin-2024",
+        "he-antiphasic-zin-2026",
+        "smits-2004",
+        "de-sousa-2020"
+      ],
+      "wiki_links": [
+        "speech-reception-threshold",
+        "binaural-intelligibility-level-difference"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "binaural-intelligibility-level-difference",
+      "knowledge_area": "measurement",
+      "kind": "metric",
+      "chinese_characters": 1555,
+      "body_characters": 3261,
+      "sections": 6,
+      "subsections": 10,
+      "reference_ids": [
+        "he-antiphasic-zin-2026",
+        "de-sousa-2020"
+      ],
+      "wiki_links": [
+        "masking",
+        "speech-reception-threshold",
+        "binaural-integration",
+        "speech-intelligibility"
+      ],
+      "status": "draft"
+    }
+  ]
+}
