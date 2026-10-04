@@ -10,6 +10,7 @@ status: draft
 last_updated: "2026-10-04"
 authors: ["AI 辅助初稿"]
 related:
+  - { slug: channel-interaction, relation: related }
   - { slug: cochlea, relation: prerequisite }
   - { slug: tonotopy, relation: related }
   - { slug: masking, relation: method }

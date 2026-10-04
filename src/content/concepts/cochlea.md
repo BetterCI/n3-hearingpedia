@@ -10,6 +10,7 @@ status: draft
 last_updated: "2026-10-04"
 authors: ["AI 辅助初稿"]
 related:
+  - { slug: pure-tone-audiometry, relation: related }
   - { slug: tonotopy, relation: mechanism }
   - { slug: auditory-filter, relation: mechanism }
   - { slug: cochlear-implant, relation: application }

@@ -1,11 +1,11 @@
 {
   "name": "n3-hearingpedia",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist --exclude-selectors .katex",
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check",
     "verify": "node scripts/verify.mjs"

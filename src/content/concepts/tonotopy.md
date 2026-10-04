@@ -10,6 +10,7 @@ status: draft
 last_updated: "2026-10-04"
 authors: ["AI 辅助初稿"]
 related:
+  - { slug: pitch-perception, relation: related }
   - { slug: cochlea, relation: prerequisite }
   - { slug: auditory-filter, relation: related }
   - { slug: vocoder, relation: application }

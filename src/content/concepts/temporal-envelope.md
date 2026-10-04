@@ -10,6 +10,8 @@ status: draft
 last_updated: "2026-10-04"
 authors: ["AI 辅助初稿"]
 related:
+  - { slug: temporal-fine-structure, relation: related }
+  - { slug: amplitude-modulation, relation: related }
   - { slug: auditory-filter, relation: prerequisite }
   - { slug: vocoder, relation: application }
   - { slug: speech-intelligibility, relation: application }

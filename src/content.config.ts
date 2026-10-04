@@ -21,6 +21,7 @@ const concepts = defineCollection({
     literature_checked_at: z.string().nullable().default(null),
     related: z.array(z.object({ slug: z.string(), relation: z.enum(['prerequisite', 'mechanism', 'application', 'method', 'related']) })),
     references: z.array(z.string()).min(1),
+    batch: z.number().int().positive().default(1),
     order: z.number(),
   }),
 });

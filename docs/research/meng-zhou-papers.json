@@ -1,0 +1,1405 @@
+{
+  "research_date": "2026-10-04",
+  "authors": [
+    {
+      "name": "Qinglin Meng",
+      "orcid": "0000-0003-0544-1967",
+      "openalex_id": "A5100684276"
+    },
+    {
+      "name": "Huali Zhou",
+      "orcid": "0000-0002-5710-5271",
+      "openalex_id": "A5032602574"
+    }
+  ],
+  "scope": "Rapid evidence map, not exhaustive; all publication years searched up to 2026-10-04; verified pool spans 2020-2026",
+  "formal_publications": 23,
+  "supplementary_records": 6,
+  "papers": [
+    {
+      "doi": "10.1121/10.0044108",
+      "title": "Perceptual organization of Mandarin consonants in cochlear implant users",
+      "authors": [
+        {
+          "name": "Huali Zhou",
+          "orcid": "https://orcid.org/0000-0002-5710-5271"
+        },
+        {
+          "name": "Xianming Bei",
+          "orcid": "https://orcid.org/0000-0002-7184-9111"
+        },
+        {
+          "name": "Zhenyu Guo",
+          "orcid": "https://orcid.org/0000-0003-0946-3899"
+        },
+        {
+          "name": "Xianhai Zeng",
+          "orcid": null
+        },
+        {
+          "name": "Chaogang Wei",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Juanjuan Li",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": "https://orcid.org/0000-0003-0544-1967"
+        }
+      ],
+      "venue": "The Journal of the Acoustical Society of America",
+      "crossref_published_parts": [
+        2026,
+        6,
+        1
+      ],
+      "crossref_online_parts": [
+        2026,
+        6,
+        17
+      ],
+      "crossref_print_parts": [
+        2026,
+        6,
+        1
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "用辅音识别、聚类、多维尺度分析及信息传递描述 CI 的普通话辅音感知组织。",
+      "evidence_location": "AIP、PubMed 42307486 与 Crossref 的摘要；未完成全文审阅。",
+      "source_url": "https://doi.org/10.1121/10.0044108"
+    },
+    {
+      "doi": "10.2139/ssrn.6714210",
+      "title": "Covarying Amplitude Modulation and Pulse Rate Improves Pitch-Related Discrimination in Cochlear Implant Users",
+      "authors": [
+        {
+          "name": "Hongxin Li",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": "https://orcid.org/0000-0002-5710-5271"
+        },
+        {
+          "name": "Limin Pang",
+          "orcid": null
+        },
+        {
+          "name": "Juanjuan Li",
+          "orcid": null
+        },
+        {
+          "name": "Chaogang Wei",
+          "orcid": null
+        },
+        {
+          "name": "Peina Wu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": "https://orcid.org/0000-0003-0544-1967"
+        },
+        {
+          "name": "Xianhai Zeng",
+          "orcid": null
+        }
+      ],
+      "crossref_published_parts": [
+        2026
+      ],
+      "type": "preprint",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "supplementary",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.2139/ssrn.6714210"
+    },
+    {
+      "doi": "10.64898/2025.12.03.25341217",
+      "title": "Covarying Amplitude Modulation and Pulse Rate Enhances Pitch Discrimination in Cochlear Implant Users",
+      "authors": [
+        {
+          "name": "Hongxin Li",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Limin Pang",
+          "orcid": null
+        },
+        {
+          "name": "Juanjuan Li",
+          "orcid": null
+        },
+        {
+          "name": "Chaogang Wei",
+          "orcid": null
+        },
+        {
+          "name": "Peina Wu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": "https://orcid.org/0000-0003-0544-1967"
+        },
+        {
+          "name": "Xianhai Zeng",
+          "orcid": null
+        }
+      ],
+      "crossref_published_parts": [
+        2025,
+        12,
+        4
+      ],
+      "type": "preprint",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "supplementary",
+      "reading_basis": "abstract",
+      "relevance_grade": "Important",
+      "studies_and_relevance": "探索 AM 频率与脉冲率协变的音高辨别刺激；作为 AM 条目的新进展材料。",
+      "evidence_location": "medRxiv 预印本摘要；SSRN 版本为同一作者组和实验规模的高度重合稿，暂按同一研究线索处理。",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2025.12.03.25341217v1"
+    },
+    {
+      "doi": "10.1121/10.0036144",
+      "title": "Sparse representation of speech using an atomic speech model",
+      "authors": [
+        {
+          "name": "Fanhui Kong",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": "https://orcid.org/0000-0003-0544-1967"
+        }
+      ],
+      "venue": "The Journal of the Acoustical Society of America",
+      "crossref_published_parts": [
+        2025,
+        3,
+        1
+      ],
+      "crossref_online_parts": [
+        2025,
+        3,
+        19
+      ],
+      "crossref_print_parts": [
+        2025,
+        3,
+        1
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "用稀疏 Gabor 原子语音操控原子率，考察谱峰选择、跨耳整合和单次回声条件。",
+      "evidence_location": "PubMed 40106275 摘要；这里的适应性阈值调整变量为原子率。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40106275/"
+    },
+    {
+      "doi": "10.1016/j.specom.2025.103199",
+      "title": "Effects of harmonicity on Mandarin speech perception in cochlear implant users",
+      "authors": [
+        {
+          "name": "Mingyue Shi",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Jiawen Li",
+          "orcid": null
+        },
+        {
+          "name": "Yefei Mo",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        }
+      ],
+      "venue": "Speech Communication",
+      "crossref_published_parts": [
+        2025,
+        4
+      ],
+      "crossref_print_parts": [
+        2025,
+        4
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract_and_introduction",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "比较谐波与非谐波普通话在安静和竞争语音条件下的感知，区分真实 CI 与模拟条件。",
+      "evidence_location": "ScienceDirect 摘要和 Introduction；其结果不直接确证 CI 的谐波性去掩蔽机制。",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0167639325000147"
+    },
+    {
+      "doi": "10.21437/interspeech.2024-1505",
+      "title": "DBD-CI: Doubling the Band Density for Bilateral Cochlear Implants",
+      "authors": [
+        {
+          "name": "Mingyue Shi",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        }
+      ],
+      "venue": "Interspeech 2024",
+      "crossref_published_parts": [
+        2024,
+        9,
+        1
+      ],
+      "crossref_online_parts": [
+        2024,
+        9,
+        1
+      ],
+      "type": "conference_paper",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Important",
+      "studies_and_relevance": "提出跨两耳分配频带的 DBD-CI，并报告初步声码器实验；用于连接通道相互作用和双耳整合。",
+      "evidence_location": "ISCA Archive 摘要；暂不据此声称真实 BiCI 获益。",
+      "source_url": "https://www.isca-archive.org/interspeech_2024/shi24c_interspeech.html"
+    },
+    {
+      "doi": "10.1097/aud.0000000000001441",
+      "title": "The Chinese Zodiac-in-Noise Test: An Internet-Based Speech-in-Noise Test for Large-Scale Hearing Screening",
+      "authors": [
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Xiaohong Liu",
+          "orcid": null
+        },
+        {
+          "name": "Peina Wu",
+          "orcid": null
+        },
+        {
+          "name": "Shidong Shang",
+          "orcid": null
+        },
+        {
+          "name": "Wei Xiao",
+          "orcid": null
+        },
+        {
+          "name": "Yuyong Kang",
+          "orcid": null
+        },
+        {
+          "name": "Jiawen Li",
+          "orcid": null
+        },
+        {
+          "name": "Yamin Wang",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        }
+      ],
+      "venue": "Ear &amp; Hearing",
+      "crossref_published_parts": [
+        2023,
+        12,
+        8
+      ],
+      "crossref_online_parts": [
+        2023,
+        12,
+        8
+      ],
+      "crossref_print_parts": [
+        2024,
+        3
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "开发 ZIN 并将其与纯音测听比较，构成 SRT、筛查评价及组内测试专题的入口。",
+      "evidence_location": "PubMed 和出版元数据摘要；2023 在线发表，2024 卷期。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38062570/"
+    },
+    {
+      "doi": "10.21437/interspeech.2023-536",
+      "title": "Effects of hearing loss and amplification on Mandarin consonant perception",
+      "authors": [
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Xianming Bei",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "INTERSPEECH 2023",
+      "crossref_published_parts": [
+        2023,
+        8,
+        20
+      ],
+      "crossref_online_parts": [
+        2023,
+        8,
+        20
+      ],
+      "type": "conference_paper",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "考察听力损失和助听器放大下的普通话辅音识别及混淆模式。",
+      "evidence_location": "ISCA Archive 摘要。",
+      "source_url": "https://www.isca-archive.org/interspeech_2023/zhou23b_interspeech.html"
+    },
+    {
+      "doi": "10.21437/interspeech.2023-652",
+      "title": "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants",
+      "authors": [
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Fanhui Kong",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "INTERSPEECH 2023",
+      "crossref_published_parts": [
+        2023,
+        8,
+        20
+      ],
+      "crossref_online_parts": [
+        2023,
+        8,
+        20
+      ],
+      "type": "conference_paper",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "提出无需显式基频检测的 F0inTFS 算法，并用模拟 CI 的词汇声调实验评价。",
+      "evidence_location": "ISCA Archive 摘要和论文第 1 页；未据此声称真实 CI 已验证。",
+      "source_url": "https://www.isca-archive.org/interspeech_2023/zhou23c_interspeech.html"
+    },
+    {
+      "doi": "10.1109/icsp58490.2023.10248809",
+      "title": "Effects of Hearing Loss on Interaural Time Difference Discrimination in an Oddball Paradigm",
+      "authors": [
+        {
+          "name": "Wenfeng Liu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        }
+      ],
+      "venue": "2023 8th International Conference on Intelligent Computing and Signal Processing (ICSP)",
+      "crossref_published_parts": [
+        2023,
+        4,
+        21
+      ],
+      "crossref_print_parts": [
+        2023,
+        4,
+        21
+      ],
+      "type": "conference_paper",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1109/icsp58490.2023.10248809"
+    },
+    {
+      "doi": "10.1016/j.apacoust.2023.109386",
+      "title": "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation",
+      "authors": [
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Thomas Lu",
+          "orcid": null
+        },
+        {
+          "name": "Fan-Gang Zeng",
+          "orcid": null
+        }
+      ],
+      "venue": "Applied Acoustics",
+      "crossref_published_parts": [
+        2023,
+        6
+      ],
+      "crossref_print_parts": [
+        2023,
+        6
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "selected_full_text",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "提出逐脉冲 GET 声码器并讨论高斯刺激的时频约束，用于连接模型和电听觉参数。",
+      "evidence_location": "UCI 作者公开正式稿第 1 节和第 2 节 GET Theory。",
+      "source_url": "https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/6/480/files/2024/12/2023-Zeng-AppliedAcoustics.pdf"
+    },
+    {
+      "doi": "10.1109/tnsre.2023.3274604",
+      "title": "Comparable Encoding, Comparable Perceptual Pattern: Acoustic and Electric Hearing",
+      "authors": [
+        {
+          "name": "Fanhui Kong",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": "https://orcid.org/0000-0002-5710-5271"
+        },
+        {
+          "name": "Yefei Mo",
+          "orcid": null
+        },
+        {
+          "name": "Mingyue Shi",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": "https://orcid.org/0000-0003-0544-1967"
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": "https://orcid.org/0000-0002-4493-1160"
+        }
+      ],
+      "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "crossref_published_parts": [
+        2023
+      ],
+      "crossref_print_parts": [
+        2023
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Important",
+      "studies_and_relevance": "比较声学模拟与真实电听觉中的感知模式，支撑模型评价需要多个感知任务。",
+      "evidence_location": "PubMed 37159306 摘要。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37159306/"
+    },
+    {
+      "doi": "10.3389/fpsyg.2022.1026116",
+      "title": "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus",
+      "authors": [
+        {
+          "name": "Xiaoya Wang",
+          "orcid": null
+        },
+        {
+          "name": "Yefei Mo",
+          "orcid": null
+        },
+        {
+          "name": "Fanhui Kong",
+          "orcid": null
+        },
+        {
+          "name": "Weiyan Guo",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Jan W. H. Schnupp",
+          "orcid": null
+        },
+        {
+          "name": "Yiqing Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "Frontiers in Psychology",
+      "crossref_published_parts": [
+        2022,
+        10,
+        17
+      ],
+      "crossref_online_parts": [
+        2022,
+        10,
+        17
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "selected_full_text",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "用双音节语料独立操控音高与幅度线索，说明声调识别任务需要分辨所用线索。",
+      "evidence_location": "Frontiers 原文 Abstract、2.2 Stimuli、5 Conclusion。",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1026116/full"
+    },
+    {
+      "doi": "10.1016/j.bspc.2022.104169",
+      "title": "Effects of number of maxima and electrical dynamic range on speech-in-noise perception with an “n-of-m” cochlear-implant strategy",
+      "authors": [
+        {
+          "name": "Yefei Mo",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Fanhui Kong",
+          "orcid": null
+        },
+        {
+          "name": "Zhifeng Liu",
+          "orcid": null
+        },
+        {
+          "name": "Xiaohong Liu",
+          "orcid": null
+        },
+        {
+          "name": "Hongming Huang",
+          "orcid": null
+        },
+        {
+          "name": "Yan Huang",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Peina Wu",
+          "orcid": null
+        }
+      ],
+      "venue": "Biomedical Signal Processing and Control",
+      "crossref_published_parts": [
+        2023,
+        1
+      ],
+      "crossref_print_parts": [
+        2023,
+        1
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "在 CI 及声码器条件下考察谱峰选择数和电动态范围与噪声下语音接收阈的关系。",
+      "evidence_location": "ScienceDirect 摘要，卷期为 2023 年，DOI 含 2022。",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1746809422006231"
+    },
+    {
+      "doi": "10.1007/978-981-19-4703-2_11",
+      "title": "Channel-Vocoder-Centric Modelling of Cochlear Implants: Strengths and Limitations",
+      "authors": [
+        {
+          "name": "Fanhui Kong",
+          "orcid": null
+        },
+        {
+          "name": "Yefei Mo",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        }
+      ],
+      "venue": "Lecture Notes in Electrical Engineering",
+      "crossref_published_parts": [
+        2022,
+        9,
+        1
+      ],
+      "crossref_online_parts": [
+        2022,
+        9,
+        1
+      ],
+      "crossref_print_parts": [
+        2023
+      ],
+      "type": "book_chapter",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1007/978-981-19-4703-2_11"
+    },
+    {
+      "doi": "10.1145/3543081.3543082",
+      "title": "The Relationship Between Pulse Rate and Mandarin Tone Recognition: A Preliminary Study with CCi-Mobile Cochlear Implant Research Processor",
+      "authors": [
+        {
+          "name": "Yefei Mo",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Peina Wu",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 6th International Conference on Biomedical Engineering and Applications (ICBEA)",
+      "crossref_published_parts": [
+        2022,
+        5,
+        13
+      ],
+      "crossref_online_parts": [
+        2022,
+        7,
+        25
+      ],
+      "crossref_print_parts": [
+        2022,
+        5,
+        13
+      ],
+      "type": "conference_paper",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1145/3543081.3543082"
+    },
+    {
+      "doi": "10.1109/icassp43922.2022.9747404",
+      "title": "Internet Streaming Audio Based Speech Reception Threshold Measurement in Cochlear Implant Users",
+      "authors": [
+        {
+          "name": "Xi Chen",
+          "orcid": null
+        },
+        {
+          "name": "Yefei Mo",
+          "orcid": null
+        },
+        {
+          "name": "Kang Ouyang",
+          "orcid": null
+        },
+        {
+          "name": "Mingyue Shi",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Yupeng Shi",
+          "orcid": null
+        },
+        {
+          "name": "Wei Xiao",
+          "orcid": null
+        },
+        {
+          "name": "Shidong Shang",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        }
+      ],
+      "venue": "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "crossref_published_parts": [
+        2022,
+        5,
+        23
+      ],
+      "crossref_print_parts": [
+        2022,
+        5,
+        23
+      ],
+      "type": "conference_paper",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1109/icassp43922.2022.9747404"
+    },
+    {
+      "doi": "10.1016/j.apacoust.2022.108782",
+      "title": "Effect of listener head orientation on speech reception threshold in an automotive environment",
+      "authors": [
+        {
+          "name": "Linda Liang",
+          "orcid": null
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "Applied Acoustics",
+      "crossref_published_parts": [
+        2022,
+        5
+      ],
+      "crossref_print_parts": [
+        2022,
+        5
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1016/j.apacoust.2022.108782"
+    },
+    {
+      "doi": "10.1101/2022.02.21.22270929",
+      "title": "Pulsatile Gaussian-Enveloped Tones (GET) Vocoders for Cochlear-Implant Simulation",
+      "authors": [
+        {
+          "name": "Qinglin Meng",
+          "orcid": "https://orcid.org/0000-0003-0544-1967"
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Thomas Lu",
+          "orcid": null
+        },
+        {
+          "name": "Fan-Gang Zeng",
+          "orcid": "https://orcid.org/0000-0002-4325-2780"
+        }
+      ],
+      "crossref_published_parts": [
+        2022,
+        3,
+        3
+      ],
+      "type": "preprint",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "supplementary",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1101/2022.02.21.22270929"
+    },
+    {
+      "doi": "10.1109/tnsre.2022.3203079",
+      "title": "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants",
+      "authors": [
+        {
+          "name": "Huali Zhou",
+          "orcid": "https://orcid.org/0000-0002-5710-5271"
+        },
+        {
+          "name": "Alan Kan",
+          "orcid": "https://orcid.org/0000-0001-6033-0958"
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": "https://orcid.org/0000-0002-8521-0474"
+        },
+        {
+          "name": "Zhenyu Guo",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": "https://orcid.org/0000-0002-4493-1160"
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": "https://orcid.org/0000-0003-0544-1967"
+        }
+      ],
+      "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "crossref_published_parts": [
+        2022
+      ],
+      "crossref_print_parts": [
+        2022
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "在 CI 听者中比较 TLE 与 ACE 的音高辨别和音高排序，连接 TFS、AM、F0 与音高任务。",
+      "evidence_location": "PubMed 36044501 摘要。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36044501/"
+    },
+    {
+      "doi": "10.1177/23312165211057367",
+      "title": "Utilizing True Wireless Stereo Earbuds in Automated Pure-Tone Audiometry",
+      "authors": [
+        {
+          "name": "Zhenyu Guo",
+          "orcid": "https://orcid.org/0000-0003-0946-3899"
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Xianren Wang",
+          "orcid": "https://orcid.org/0000-0002-6760-3258"
+        },
+        {
+          "name": "Yigang Lu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "Trends in Hearing",
+      "crossref_published_parts": [
+        2021,
+        1
+      ],
+      "crossref_online_parts": [
+        2021,
+        11,
+        19
+      ],
+      "crossref_print_parts": [
+        2021,
+        1
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "报告 TWS 自动纯音测听的校准和临床对照流程，支撑 PTA 与听力测量校准。",
+      "evidence_location": "SAGE 作者名单和摘要。",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/23312165211057367"
+    },
+    {
+      "doi": "10.21437/interspeech.2020-2507",
+      "title": "Enhancing the Interaural Time Difference of Bilateral Cochlear Implants with the Temporal Limits Encoder",
+      "authors": [
+        {
+          "name": "Yangyang Wan",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        }
+      ],
+      "venue": "Interspeech 2020",
+      "crossref_published_parts": [
+        2020,
+        10,
+        25
+      ],
+      "crossref_online_parts": [
+        2020,
+        10,
+        25
+      ],
+      "type": "conference_paper",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "使用声码器语音比较双耳 TLE 与 CIS 的 ITD 识别，构成 ITD 和编码策略的入口。",
+      "evidence_location": "ISCA Archive 摘要；其验证材料为 vocoded speech。",
+      "source_url": "https://www.isca-archive.org/interspeech_2020/wan20b_interspeech.html"
+    },
+    {
+      "doi": "10.1121/1.5147512",
+      "title": "Enhancing the temporal fine structure with the temporal limits encoder for cochlear implants: Effects on pitch discrimination",
+      "authors": [
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "The Journal of the Acoustical Society of America",
+      "crossref_published_parts": [
+        2020,
+        10,
+        1
+      ],
+      "crossref_print_parts": [
+        2020,
+        10,
+        1
+      ],
+      "type": "conference_abstract",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "supplementary",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1121/1.5147512"
+    },
+    {
+      "doi": "10.1121/1.5147525",
+      "title": "Automated pure tone audiometry with true wireless stereos earbuds",
+      "authors": [
+        {
+          "name": "Zhenyu Guo",
+          "orcid": null
+        },
+        {
+          "name": "Xianren Wang",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Yigang Lu",
+          "orcid": null
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "The Journal of the Acoustical Society of America",
+      "crossref_published_parts": [
+        2020,
+        10,
+        1
+      ],
+      "crossref_print_parts": [
+        2020,
+        10,
+        1
+      ],
+      "type": "conference_abstract",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "supplementary",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1121/1.5147525"
+    },
+    {
+      "doi": "10.3389/fnins.2020.00301",
+      "title": "A New Approach for Noise Suppression in Cochlear Implants: A Single-Channel Noise Reduction Algorithm",
+      "authors": [
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Ningyuan Wang",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "Frontiers in Neuroscience",
+      "crossref_published_parts": [
+        2020,
+        4,
+        21
+      ],
+      "crossref_online_parts": [
+        2020,
+        4,
+        21
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "selected_full_text",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "在真实 CI 听者中评价单通道噪声抑制 eVoice；支持语音增强和 SRT 的方法背景。",
+      "evidence_location": "Frontiers 原文 Abstract、eVoice of Nurotron、Experiment 2。",
+      "source_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.00301/full"
+    },
+    {
+      "doi": "10.1121/10.0004661",
+      "title": "Enhancing the temporal fine structure with the temporal limits encoder for cochlear implants: Effects on pitch ranking",
+      "authors": [
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "The Journal of the Acoustical Society of America",
+      "crossref_published_parts": [
+        2021,
+        4,
+        1
+      ],
+      "crossref_print_parts": [
+        2021,
+        4,
+        1
+      ],
+      "type": "conference_abstract",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "supplementary",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1121/10.0004661"
+    },
+    {
+      "doi": "10.1080/14992027.2024.2428854",
+      "title": "Automated pure-tone audiometry using true wireless stereo earbuds with active noise control",
+      "authors": [
+        {
+          "name": "Hengzhi Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Zhenyu Guo",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "International Journal of Audiology",
+      "crossref_published_parts": [
+        2024,
+        12,
+        13
+      ],
+      "crossref_online_parts": [
+        2024,
+        12,
+        13
+      ],
+      "crossref_print_parts": [
+        2026,
+        7,
+        3
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "selected_full_text",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "在 TWS 自动测听中加入 ANC，评价声学性能并进行校准和行为对照。",
+      "evidence_location": "作者公开稿第 2 页 Objective measurement、Method；2024 在线发表。",
+      "source_url": "https://www.acousticsguo.com/publications/2024_Zhou%20%E7%AD%89_Automated%20pure-tone%20audiometry%20using%20true%20wireless%20stereo%20earbuds%20with%20active%20noise%20control.pdf"
+    },
+    {
+      "doi": "10.1097/aud.0000000000001791",
+      "title": "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection",
+      "authors": [
+        {
+          "name": "Yanqing He",
+          "orcid": null
+        },
+        {
+          "name": "Nengheng Zheng",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "Ear &amp; Hearing",
+      "crossref_published_parts": [
+        2026,
+        2,
+        13
+      ],
+      "crossref_online_parts": [
+        2026,
+        2,
+        13
+      ],
+      "crossref_print_parts": [
+        2026,
+        7
+      ],
+      "type": "journal_article",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "abstract",
+      "relevance_grade": "Core",
+      "studies_and_relevance": "评价反相 ZIN 的听力筛查和 BILD 与听阈的关系，支撑双耳去掩蔽指标专题。",
+      "evidence_location": "PubMed 41680979 正式论文摘要；采用正式稿而非 2024 会议摘要数值。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41680979/"
+    },
+    {
+      "doi": "10.1109/icsp54964.2022.9778684",
+      "title": "Interaural time difference based spatial release from masking with asymmetric hearing over a video conference app",
+      "authors": [
+        {
+          "name": "Jiachen Chen",
+          "orcid": null
+        },
+        {
+          "name": "Huali Zhou",
+          "orcid": null
+        },
+        {
+          "name": "Guangzheng Yu",
+          "orcid": null
+        },
+        {
+          "name": "Qinglin Meng",
+          "orcid": null
+        }
+      ],
+      "venue": "2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP)",
+      "crossref_published_parts": [
+        2022,
+        4,
+        15
+      ],
+      "crossref_print_parts": [
+        2022,
+        4,
+        15
+      ],
+      "type": "conference_paper",
+      "joint_authorship_verified": true,
+      "authorship_basis": "Crossref publisher-deposited author list, with OpenAlex or primary-source cross-check on core papers",
+      "corpus_role": "formal_publication",
+      "reading_basis": "metadata_only",
+      "relevance_grade": "Background",
+      "studies_and_relevance": "仅核实书目信息和共同署名，未据题名推断研究结论。",
+      "source_url": "https://doi.org/10.1109/icsp54964.2022.9778684"
+    }
+  ]
+}

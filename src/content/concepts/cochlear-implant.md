@@ -10,6 +10,8 @@ status: draft
 last_updated: "2026-10-04"
 authors: ["AI 辅助初稿"]
 related:
+  - { slug: n-of-m-coding, relation: related }
+  - { slug: temporal-limits-encoder, relation: related }
   - { slug: cochlea, relation: prerequisite }
   - { slug: tonotopy, relation: prerequisite }
   - { slug: temporal-envelope, relation: mechanism }

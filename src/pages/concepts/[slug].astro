@@ -30,7 +30,8 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
           <h1 data-pagefind-meta="title">{data.title}</h1>
           <p class="article-english" data-pagefind-weight="5">{data.english}</p>
           <p class="lead">{data.summary}</p>
-          <span class="sr-only" data-pagefind-weight="3">{data.aliases.join(' ')} {data.tags.join(' ')}</span>
+          <span class="sr-only" data-pagefind-weight="15">{data.aliases.join(' ')}</span>
+          <span class="sr-only" data-pagefind-weight="3">{data.tags.join(' ')}</span>
           <div class="article-metadata"><span>更新 {data.last_updated.replaceAll('-','.')}</span><span>{data.authors.join(' / ') || '作者待登记'}</span><span>{data.reviewer ? `审阅：${data.reviewer} · ${data.reviewed_at}` : '尚未经过成员科学审阅'}</span></div>
           <div class="article-tags">{data.categories.map(id=><span data-pagefind-filter={`领域:${domainById[id].zh}`}>{domainById[id].zh}</span>)}{data.tags.map(tag=><span>{tag}</span>)}</div>
         </header>
@@ -38,7 +39,7 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
         <div class="prose"><Content /></div>
         <section class="references" id="references" data-pagefind-ignore>
           <h2>参考文献与证据范围</h2>
-          <ol class="reference-list">{data.references.map(id=>{const ref=references[id];return <li id={`ref-${id}`}><a class="reference-title" href={ref.url} target="_blank" rel="noopener noreferrer">{ref.title} ↗</a><p class="reference-detail">{ref.authors} ({ref.year}). {ref.publication}.</p><div class="reference-links">{ref.doi && <a href={`https://doi.org/${ref.doi}`} target="_blank" rel="noopener noreferrer">DOI: {ref.doi}</a>}<a href={ref.url} target="_blank" rel="noopener noreferrer">{accessLabels[ref.access]} ↗</a></div><p class="source-scope">引用用途：{ref.supports}</p></li>})}</ol>
+          <ol class="reference-list">{data.references.map(id=>{const ref=references[id];return <li id={`ref-${id}`}><a class="reference-title" href={ref.url} target="_blank" rel="noopener noreferrer">{ref.title} ↗</a><p class="reference-detail">{ref.publicationType==='preprint' && <strong class="preprint-label">预印本 · 未同行评审 · </strong>}{ref.authors} ({ref.year}). {ref.publication}.</p><div class="reference-links">{ref.doi && <a href={`https://doi.org/${ref.doi}`} target="_blank" rel="noopener noreferrer">DOI: {ref.doi}</a>}<a href={ref.url} target="_blank" rel="noopener noreferrer">{accessLabels[ref.access]} ↗</a></div><p class="source-scope">引用用途：{ref.supports}</p></li>})}</ol>
         </section>
         <section class="related-section" id="related" data-pagefind-ignore><h2>关联概念</h2><div class="related-list">{data.related.map(item=><a class="related-link" href={url(`concepts/${item.slug}`)}><div><strong>{bySlug[item.slug].data.title}</strong><span>{bySlug[item.slug].data.english} · {relationLabels[item.relation]}</span></div><span aria-hidden="true">↗</span></a>)}</div></section>
         <nav class="article-next" aria-label="按词条目录继续阅读" data-pagefind-ignore>{prev ? <a href={url(`concepts/${prev.data.slug}`)}>← {prev.data.title}</a> : <a href={url('learn')}>← 学习路径</a>}{next ? <a href={url(`concepts/${next.data.slug}`)}>{next.data.title} →</a> : <a href={url('learn')}>返回学习路径 →</a>}</nav>

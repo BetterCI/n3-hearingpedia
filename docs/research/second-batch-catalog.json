@@ -1,0 +1,515 @@
+{
+  "project": "n³ Hearingpedia",
+  "research_date": "2026-10-04",
+  "scope": "Based on jointly authored hearing-science publications of Qinglin Meng and Huali Zhou; selection is editorial inference, not an exhaustive bibliography.",
+  "existing_concepts": 8,
+  "proposed_additional_concepts": 20,
+  "proposed_total": 28,
+  "entries": [
+    {
+      "order": 1,
+      "slug": "temporal-fine-structure",
+      "chinese": "时间精细结构",
+      "english": "Temporal fine structure",
+      "abbreviation": "TFS",
+      "domain": "neuroscience",
+      "purpose": "分清频带信号的精细结构、时间包络与周期性线索。",
+      "prerequisites": [
+        "temporal-envelope"
+      ],
+      "reference_dois": [
+        "10.1109/tnsre.2022.3203079",
+        "10.21437/interspeech.2023-652"
+      ],
+      "boundary": "改变信号表示不等于已经恢复神经系统中的全部精细结构。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/temporal-fine-structure.md",
+      "reference_ids": [
+        "zhou-tle-2022",
+        "zhou-f0intfs-2023",
+        "smith-2002",
+        "scipy-hilbert"
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "pitch-perception",
+      "chinese": "音高感知",
+      "english": "Pitch perception",
+      "abbreviation": null,
+      "domain": "psychoacoustics",
+      "purpose": "连接时间音高、位置音高和音高辨别任务。",
+      "prerequisites": [
+        "fundamental-frequency",
+        "tonotopy",
+        "temporal-fine-structure"
+      ],
+      "reference_dois": [
+        "10.1109/tnsre.2022.3203079",
+        "10.3389/fpsyg.2022.1026116"
+      ],
+      "boundary": "主观音高、物理基频和声调识别成绩分别定义。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/pitch-perception.md",
+      "reference_ids": [
+        "zhou-tle-2022",
+        "wang-ditone-2022",
+        "zeng-2008"
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "fundamental-frequency",
+      "chinese": "基频",
+      "english": "Fundamental frequency",
+      "abbreviation": "F0",
+      "domain": "acoustics",
+      "purpose": "解释基频、周期、谐波及在语音中的变化。",
+      "prerequisites": [],
+      "reference_dois": [
+        "10.21437/interspeech.2023-652",
+        "10.1016/j.specom.2025.103199"
+      ],
+      "boundary": "基频与感知音高相关，但不是可互换的量。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/fundamental-frequency.md",
+      "reference_ids": [
+        "zhou-f0intfs-2023",
+        "shi-harmonicity-2025"
+      ]
+    },
+    {
+      "order": 4,
+      "slug": "harmonicity",
+      "chinese": "谐波性",
+      "english": "Harmonicity",
+      "abbreviation": null,
+      "domain": "speech",
+      "purpose": "解释谐波关系及其在安静与竞争语音中的作用。",
+      "prerequisites": [
+        "fundamental-frequency",
+        "speech-intelligibility"
+      ],
+      "reference_dois": [
+        "10.1016/j.specom.2025.103199"
+      ],
+      "boundary": "不能把正常听力、声码器模拟和真实人工耳蜗的结果混写。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/harmonicity.md",
+      "reference_ids": [
+        "shi-harmonicity-2025"
+      ]
+    },
+    {
+      "order": 5,
+      "slug": "amplitude-modulation",
+      "chinese": "振幅调制",
+      "english": "Amplitude modulation",
+      "abbreviation": "AM",
+      "domain": "signal-processing",
+      "purpose": "解释调制频率、调制深度以及电刺激包络调制。",
+      "prerequisites": [
+        "temporal-envelope"
+      ],
+      "reference_dois": [
+        "10.1109/tnsre.2022.3203079",
+        "10.64898/2025.12.03.25341217"
+      ],
+      "boundary": "调制频率与脉冲率分别记录；协变刺激的新证据单列为预印本。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/amplitude-modulation.md",
+      "reference_ids": [
+        "zhou-tle-2022",
+        "li-covarying-2025"
+      ]
+    },
+    {
+      "order": 6,
+      "slug": "channel-interaction",
+      "chinese": "通道相互作用",
+      "english": "Channel interaction",
+      "abbreviation": null,
+      "domain": "cochlear-implants",
+      "purpose": "说明电流扩散、通道重叠与有效频谱分辨率的关系。",
+      "prerequisites": [
+        "cochlear-implant",
+        "auditory-filter"
+      ],
+      "reference_dois": [
+        "10.1016/j.apacoust.2023.109386",
+        "10.21437/interspeech.2024-1505"
+      ],
+      "boundary": "电极数量与可独立利用的通道数量不能直接画等号。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/channel-interaction.md",
+      "reference_ids": [
+        "meng-get-2023",
+        "shi-dbd-2024",
+        "zeng-2008"
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "interaural-time-difference",
+      "chinese": "双耳时间差",
+      "english": "Interaural time difference",
+      "abbreviation": "ITD",
+      "domain": "binaural",
+      "purpose": "区分波形与包络的双耳时间差，连接空间听觉任务。",
+      "prerequisites": [
+        "temporal-envelope",
+        "temporal-fine-structure"
+      ],
+      "reference_dois": [
+        "10.21437/interspeech.2020-2507",
+        "10.1109/icsp58490.2023.10248809"
+      ],
+      "boundary": "定位、侧化和时间差辨别是不同实验任务。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/interaural-time-difference.md",
+      "reference_ids": [
+        "wan-itd-2020",
+        "kan-tle-2021"
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "speech-reception-threshold",
+      "chinese": "语音接收阈",
+      "english": "Speech reception threshold",
+      "abbreviation": "SRT",
+      "domain": "audiology",
+      "purpose": "介绍达到规定识别正确率时所需的测量条件、阈值和适应程序。",
+      "prerequisites": [
+        "speech-intelligibility",
+        "masking"
+      ],
+      "reference_dois": [
+        "10.1097/aud.0000000000001441",
+        "10.1121/10.0036144"
+      ],
+      "boundary": "在噪声中通常报告阈值信噪比；安静条件的呈现级阈值另行说明。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/speech-reception-threshold.md",
+      "reference_ids": [
+        "zhou-zin-2024",
+        "kong-atomic-2025",
+        "plomp-1979"
+      ]
+    },
+    {
+      "order": 9,
+      "slug": "pure-tone-audiometry",
+      "chinese": "纯音测听",
+      "english": "Pure-tone audiometry",
+      "abbreviation": "PTA",
+      "domain": "audiology",
+      "purpose": "介绍听阈、频率、气导测听与自动测听流程。",
+      "prerequisites": [
+        "cochlea"
+      ],
+      "reference_dois": [
+        "10.1177/23312165211057367",
+        "10.1080/14992027.2024.2428854"
+      ],
+      "boundary": "PTA 在部分文献也指 pure-tone average，检索和正文须区分。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/pure-tone-audiometry.md",
+      "reference_ids": [
+        "guo-audiometry-2021",
+        "zhou-anc-audiometry-2024",
+        "asha-audiometry-2005"
+      ]
+    },
+    {
+      "order": 10,
+      "slug": "audiometric-calibration",
+      "chinese": "听力测量校准",
+      "english": "Audiometric calibration",
+      "abbreviation": null,
+      "domain": "audiology",
+      "purpose": "解释数字输出、声压级、听力级和参考等效阈声压级的转换。",
+      "prerequisites": [
+        "pure-tone-audiometry"
+      ],
+      "reference_dois": [
+        "10.1177/23312165211057367",
+        "10.1080/14992027.2024.2428854"
+      ],
+      "boundary": "校准依赖设备、佩戴和测量系统；ANC 开启不替代校准。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/audiometric-calibration.md",
+      "reference_ids": [
+        "guo-audiometry-2021",
+        "zhou-anc-audiometry-2024",
+        "asha-audiometry-2005"
+      ]
+    },
+    {
+      "order": 11,
+      "slug": "mandarin-lexical-tone",
+      "chinese": "普通话词汇声调",
+      "english": "Mandarin lexical tone",
+      "abbreviation": null,
+      "domain": "speech",
+      "purpose": "解释基频轮廓、时长和幅度等声调识别线索。",
+      "prerequisites": [
+        "fundamental-frequency",
+        "pitch-perception",
+        "amplitude-modulation"
+      ],
+      "reference_dois": [
+        "10.3389/fpsyg.2022.1026116",
+        "10.21437/interspeech.2023-652"
+      ],
+      "boundary": "DiTone 作为语料案例；识别成绩不能单独证明基频线索被正确编码。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/mandarin-lexical-tone.md",
+      "reference_ids": [
+        "wang-ditone-2022",
+        "zhou-f0intfs-2023"
+      ]
+    },
+    {
+      "order": 12,
+      "slug": "confusion-matrix",
+      "chinese": "混淆矩阵",
+      "english": "Confusion matrix",
+      "abbreviation": null,
+      "domain": "speech",
+      "purpose": "用普通话辅音识别解释刺激和反应之间的系统混淆。",
+      "prerequisites": [
+        "speech-intelligibility"
+      ],
+      "reference_dois": [
+        "10.1121/10.0044108",
+        "10.21437/interspeech.2023-536"
+      ],
+      "boundary": "报告行列方向和归一化方式；MDS、聚类与信息传递作为后续方法入口。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/confusion-matrix.md",
+      "reference_ids": [
+        "zhou-consonants-2026",
+        "zhou-consonants-2023"
+      ]
+    },
+    {
+      "order": 13,
+      "slug": "binaural-integration",
+      "chinese": "双耳整合",
+      "english": "Binaural integration",
+      "abbreviation": null,
+      "domain": "binaural",
+      "purpose": "解释两耳互补的频谱时间信息能否合并支持识别。",
+      "prerequisites": [
+        "interaural-time-difference",
+        "speech-intelligibility"
+      ],
+      "reference_dois": [
+        "10.1121/10.0036144",
+        "10.21437/interspeech.2024-1505"
+      ],
+      "boundary": "两耳同时呈现不保证整合获益；整合与双耳去掩蔽分别解释。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/binaural-integration.md",
+      "reference_ids": [
+        "kong-atomic-2025",
+        "shi-dbd-2024"
+      ]
+    },
+    {
+      "order": 14,
+      "slug": "n-of-m-coding",
+      "chinese": "n-of-m 编码策略",
+      "english": "n-of-m coding strategy",
+      "abbreviation": null,
+      "domain": "cochlear-implants",
+      "purpose": "解释分析频带、谱峰选择、刺激通道及 ACE 实现。",
+      "prerequisites": [
+        "cochlear-implant",
+        "temporal-envelope"
+      ],
+      "reference_dois": [
+        "10.1016/j.bspc.2022.104169",
+        "10.1016/j.apacoust.2023.109386"
+      ],
+      "boundary": "ACE 为具体实现，不作为所有 n-of-m 策略的同义词；电动态范围作为参数小节。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/n-of-m-coding.md",
+      "reference_ids": [
+        "mo-maxima-2023",
+        "meng-get-2023",
+        "zeng-2008"
+      ]
+    },
+    {
+      "order": 15,
+      "slug": "temporal-limits-encoder",
+      "chinese": "时间限度编码器",
+      "english": "Temporal Limits Encoder",
+      "abbreviation": "TLE",
+      "domain": "cochlear-implants",
+      "purpose": "解释将频带时间信息转换到电听觉时间音高范围的策略。",
+      "prerequisites": [
+        "temporal-fine-structure",
+        "pitch-perception",
+        "n-of-m-coding"
+      ],
+      "reference_dois": [
+        "10.1109/tnsre.2022.3203079",
+        "10.21437/interspeech.2020-2507"
+      ],
+      "boundary": "中文暂用时间限度编码器，保留英文和缩写；不同版本与任务的证据分别列出。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/temporal-limits-encoder.md",
+      "reference_ids": [
+        "kan-tle-2021",
+        "zhou-tle-2022",
+        "wan-itd-2020"
+      ]
+    },
+    {
+      "order": 16,
+      "slug": "f0-in-tfs",
+      "chinese": "F0inTFS 周期性增强策略",
+      "english": "F0inTFS",
+      "abbreviation": null,
+      "domain": "cochlear-implants",
+      "purpose": "介绍利用最低频带精细结构向高频带包络引入周期性信息的方法。",
+      "prerequisites": [
+        "fundamental-frequency",
+        "temporal-fine-structure",
+        "n-of-m-coding"
+      ],
+      "reference_dois": [
+        "10.21437/interspeech.2023-652"
+      ],
+      "boundary": "2023 年该论文的行为验证为声码器模拟实验，不写成真实植入者验证。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/f0-in-tfs.md",
+      "reference_ids": [
+        "zhou-f0intfs-2023",
+        "wang-ditone-2022"
+      ]
+    },
+    {
+      "order": 17,
+      "slug": "get-vocoder",
+      "chinese": "脉冲式高斯包络音声码器",
+      "english": "Pulsatile Gaussian-enveloped-tone vocoder",
+      "abbreviation": "GET vocoder",
+      "domain": "signal-processing",
+      "purpose": "解释高斯包络音、逐脉冲模拟和时频权衡。",
+      "prerequisites": [
+        "vocoder",
+        "channel-interaction",
+        "n-of-m-coding"
+      ],
+      "reference_dois": [
+        "10.1016/j.apacoust.2023.109386",
+        "10.1109/tnsre.2023.3274604"
+      ],
+      "boundary": "GET 是刺激单元，GET vocoder 是模型；声学模拟的限制需要独立小节。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/get-vocoder.md",
+      "reference_ids": [
+        "meng-get-2023",
+        "kong-comparable-2023"
+      ]
+    },
+    {
+      "order": 18,
+      "slug": "atomic-speech-model",
+      "chinese": "原子语音模型",
+      "english": "Atomic speech model",
+      "abbreviation": "ASM",
+      "domain": "signal-processing",
+      "purpose": "解释基于 Gabor 原子的稀疏语音表示和原子率。",
+      "prerequisites": [
+        "get-vocoder",
+        "speech-reception-threshold",
+        "binaural-integration"
+      ],
+      "reference_dois": [
+        "10.1121/10.0036144"
+      ],
+      "boundary": "该文的 SRT 调整变量为原子率，不应套用所有 SRT 都是信噪比的说法。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/atomic-speech-model.md",
+      "reference_ids": [
+        "kong-atomic-2025",
+        "meng-get-2023"
+      ]
+    },
+    {
+      "order": 19,
+      "slug": "zodiac-in-noise",
+      "chinese": "生肖噪声测试",
+      "english": "Chinese Zodiac-in-Noise test",
+      "abbreviation": "ZIN",
+      "domain": "audiology",
+      "purpose": "解释基于生肖三元组材料的远程噪声下语音筛查。",
+      "prerequisites": [
+        "speech-reception-threshold",
+        "pure-tone-audiometry",
+        "audiometric-calibration"
+      ],
+      "reference_dois": [
+        "10.1097/aud.0000000000001441",
+        "10.1097/aud.0000000000001791"
+      ],
+      "boundary": "双耳同相与反相版本分别描述；筛查阈值和目标耳依验证条件限定。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/zodiac-in-noise.md",
+      "reference_ids": [
+        "zhou-zin-2024",
+        "he-antiphasic-zin-2026"
+      ]
+    },
+    {
+      "order": 20,
+      "slug": "binaural-intelligibility-level-difference",
+      "chinese": "双耳可懂度级差",
+      "english": "Binaural intelligibility level difference",
+      "abbreviation": "BILD",
+      "domain": "binaural",
+      "purpose": "连接双耳同相与反相语音测试及双耳去掩蔽评价。",
+      "prerequisites": [
+        "zodiac-in-noise",
+        "interaural-time-difference",
+        "masking"
+      ],
+      "reference_dois": [
+        "10.1097/aud.0000000000001791"
+      ],
+      "boundary": "明确差值方向和刺激配置，不能与纯音的双耳掩蔽级差直接互换。",
+      "status": "drafted",
+      "scientific_review": "pending",
+      "content_path": "src/content/concepts/binaural-intelligibility-level-difference.md",
+      "reference_ids": [
+        "he-antiphasic-zin-2026"
+      ]
+    }
+  ],
+  "drafted_additional_concepts": 20,
+  "current_total": 28
+}

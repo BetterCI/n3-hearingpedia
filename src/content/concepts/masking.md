@@ -10,6 +10,8 @@ status: draft
 last_updated: "2026-10-04"
 authors: ["AI 辅助初稿"]
 related:
+  - { slug: speech-reception-threshold, relation: related }
+  - { slug: binaural-intelligibility-level-difference, relation: related }
   - { slug: auditory-filter, relation: mechanism }
   - { slug: speech-intelligibility, relation: application }
   - { slug: temporal-envelope, relation: related }

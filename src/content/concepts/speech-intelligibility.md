@@ -5,11 +5,13 @@ slug: speech-intelligibility
 summary: 在明确材料、听者和任务的条件下，测量语音被正确理解的程度。
 categories: [speech, audiology]
 tags: [word-recognition, srt, speech-in-noise]
-aliases: [语音清晰度, 语音识别率, SRT, speech reception threshold, 语音接收阈值, 正确率]
+aliases: [语音清晰度, 语音识别率, 正确率]
 status: draft
 last_updated: "2026-10-04"
 authors: ["AI 辅助初稿"]
 related:
+  - { slug: speech-reception-threshold, relation: method }
+  - { slug: confusion-matrix, relation: method }
   - { slug: masking, relation: prerequisite }
   - { slug: temporal-envelope, relation: mechanism }
   - { slug: vocoder, relation: method }
@@ -41,6 +43,8 @@ $$
 评分单元可以是词、关键词或句子，但必须声明。开放式回答与固定选项选择的机会水平也不同。
 
 ## 从固定条件到阈值
+
+[语音接收阈（SRT）](../speech-reception-threshold/)现在有独立词条，解释不同阈值任务的变量、单位与适应程序。
 
 固定信噪比下可以测正确率；适应性程序则可估计达到规定正确率所需的信噪比。在噪声中报告 SRT 时，应说明目标正确率、调整规则和材料。
 

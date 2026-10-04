@@ -10,13 +10,15 @@
 
 听觉科学的概念跨越机制、感知与工程。项目以一个概念一页解释、每个概念连接其他概念的方式，组织前置知识、研究方法及可追溯文献。
 
-## v0.1 内容
+## v0.2 内容
 
-- 8 个实质词条：耳蜗、频位映射关系、听觉滤波器、掩蔽、时间包络、声码器、语音可懂度、人工耳蜗。
+- 28 个实质词条：首批 8 个基础概念，加上沿 Meng 与 Zhou 共同论文编写的 20 个词条。
+- 第二批覆盖时间精细结构、音高、基频、谐波性、振幅调制、通道相互作用、ITD、SRT、纯音测听、校准、普通话声调、混淆矩阵、双耳整合、n-of-m、TLE、F0inTFS、GET、ASM、ZIN、BILD。
+- [调研与证据记录](docs/research/meng-zhou-literature-and-batch-2.md)及[第二批目录](docs/research/second-batch-catalog.json)保留来源、选词理由与审阅状态。
 - 12 个领域入口，实际数量按词条元数据统计；无独立词条的领域如实显示 0。
-- 2 条节点完整的学习路径、研究专题和可点击知识地图。
+- 6 条节点完整的学习路径、研究专题和可点击知识地图。
 - KaTeX 公式、Pagefind 中文／英文搜索、移动端导航。
-- 文献 DOI、引用用途与核验范围。全部首批词条为 Draft，未获成员科学审阅。
+- 文献 DOI、引用用途与核验范围。当前全部词条为 Draft；预印本单独标注未同行评审，未获成员科学审阅。
 - 互动实验及自动文献跟踪为后续建设方向，尚未启用。
 
 Tonotopy 的中文统一使用 **频位映射关系**。
@@ -42,14 +44,14 @@ Tonotopy 的中文统一使用 **频位映射关系**。
 ## 新增词条
 
 1. 在 src/content/concepts/ 新建 Markdown 文件，可以复制一个已有词条。
-2. 填写 title、english、slug、summary、categories、tags、status、日期、作者、related、references 和 order。
+2. 填写 batch（批次，默认 1）、title、english、slug、summary、categories、tags、status、日期、作者、related、references 和 order。
 3. categories 使用 [领域定义](src/data/domains.ts) 中的领域 ID；slug 与文件名保持一致。
 4. 在 [文献定义](src/data/references.ts) 中登记文献，并在 references 中填写对应 ID。
 5. 正文引用使用 Markdown 链接，目标格式为 #ref-文献ID，其锚点由页面生成。
 6. related 使用已有词条 slug，并注明关系类型。
 7. 运行 check、build、verify，检查页面后提交 PR。
 
-首批固定数量的验收检查可在后续扩容时相应调整，实际领域和词条卡片自动生成。学习路径定义在 [paths.ts](src/data/paths.ts)。
+验收检查从源文件动态统计词条数量，校验各页面、索引与第二批目录；实际领域和词条卡片自动生成。学习路径定义在 [paths.ts](src/data/paths.ts)。
 
 关系类型包括 prerequisite（前置知识）、mechanism（机制）、application（应用）、method（研究方法）和 related（相关概念）。关联是从当前词条指向所列词条的阅读提示；地图不把连线解释为因果关系。
 
