@@ -405,4 +405,74 @@ export const monitorReferences: Record<string, Reference> = {
     "supports": "规定听力学应用中的 categorical loudness scaling 基本方法；2025 年系统审查后确认该版本继续有效。"
   },
 
+  "oxenham-pitch-2023": {
+    "title": "Questions and controversies surrounding the perception and neural coding of pitch",
+    "authors": "Oxenham, A. J.",
+    "year": "2023",
+    "publication": "Frontiers in Neuroscience, 16, 1074752",
+    "doi": "10.3389/fnins.2022.1074752",
+    "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.1074752/full",
+    "access": "fulltext",
+    "supports": "综述音高编码中 place、temporal/phase-locking 与组合模型的核心争议；强调尚无单一机制获得决定性支持，并讨论人工耳蜗等临床意义。"
+  },
+  "abrams-pitch-cortex-2025": {
+    "title": "Dynamics of Pitch Perception in the Auditory Cortex",
+    "authors": "Abrams, E. B., Marantz, A., Krementsov, I. & Gwilliams, L.",
+    "year": "2025",
+    "publication": "Journal of Neuroscience, 45(12), e1111242025",
+    "doi": "10.1523/JNEUROSCI.1111-24.2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39909567/",
+    "access": "abstract",
+    "supports": "MEG 研究显示纯音、缺失基频复合音和歧义刺激可形成跨线索泛化的皮层音高表征；编码位于双侧低至中级听觉皮层和感觉运动皮层，右侧优势，且上下文可改变形成时间。"
+  },
+  "fung-pitch-development-2025": {
+    "title": "Pitch perception in school-aged children: Pure tones, resolved and unresolved harmonics",
+    "authors": "Fung, J., Whiteford, K. L., Mehta, A. H. & Lau, B. K.",
+    "year": "2025",
+    "publication": "JASA Express Letters, 5(1), 014403",
+    "doi": "10.1121/10.0034894",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11789513/",
+    "access": "fulltext",
+    "supports": "8–11 岁儿童与成人的纯音、resolved 和 unresolved harmonic 音高辨别；resolved 条件优于 unresolved，8–9 岁整体阈值较高，10–11 岁在所测 400 Hz 条件下接近成人。"
+  },
+  "reiss-ci-pitch-2019": {
+    "title": "Place and Temporal Cues in Cochlear Implant Pitch and Melody Perception",
+    "authors": "Reiss, L. A. J., Turner, C. W., Erenberg, S. R. & Gantz, B. J.",
+    "year": "2019",
+    "publication": "Frontiers in Neuroscience, 13, 1266",
+    "doi": "10.3389/fnins.2019.01266",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6888014/",
+    "access": "fulltext",
+    "supports": "系统讨论 CI 的 place、pulse-rate 与 envelope/temporal cues，以及二者对 pitch 与 melody 的相对贡献；用于强调 CI 音高不是单一轴线。"
+  },
+  "carlyon-ci-temporal-2025": {
+    "title": "Limitations on Temporal Processing by Cochlear Implant Users: A Compilation of Viewpoints",
+    "authors": "Carlyon, R. P. et al.",
+    "year": "2025",
+    "publication": "Trends in Hearing, 29",
+    "doi": "10.1177/23312165251317006",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12076235/",
+    "access": "fulltext",
+    "supports": "多作者观点综述整合 CI temporal pitch 与 ITD 的心理物理、生理和可塑性证据；低至中等脉冲率下 rate pitch 可用，高率下表现明显下降，机制与可训练性仍有争议。"
+  },
+  "degroote-ci-pitch-2025": {
+    "title": "Temporal Pitch Perception of Multi-Channel Stimuli by Cochlear-Implant Users",
+    "authors": "de Groote, E., Macherey, O., Deeks, J. M. et al.",
+    "year": "2025",
+    "publication": "Journal of the Association for Research in Otolaryngology, 26(3), 301–315",
+    "doi": "10.1007/s10162-025-00983-4",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12133670/",
+    "access": "fulltext",
+    "supports": "8 名 MED-EL CI 用户的多通道脉冲实验；四个顶端电极使用相同速率时，音高排序随速率上升到约 200–300 pps，探索在低频多通道刺激中恢复 temporal pitch 的可行性。"
+  },
+  "berg-ci-music-2025": {
+    "title": "Cochlear Implant Electrode Placement and Music Perception",
+    "authors": "Berg, K. A., Noble, J. H., Dawant, B. M. et al.",
+    "year": "2025",
+    "publication": "JAMA Otolaryngology–Head & Neck Surgery, 151(3), 220–227",
+    "doi": "10.1001/jamaoto.2024.4761",
+    "url": "https://jamanetwork.com/journals/jamaotolaryngology/fullarticle/2829094",
+    "access": "fulltext",
+    "supports": "50 名成人 CI 的电极位置与音乐感知关联，以及 34 人 image-guided programming 实验；支持 electrode placement 与个体化编程可能影响 pitch/melody/timbre，但不作为普遍疗效结论。"
+  }
 };
