@@ -6,7 +6,7 @@ summary: "通过声学输入、个体化实时信号处理与耳道输出改善�
 categories: ["hearing-aids","audiology","signal-processing"]
 tags: ["hearing-aid","WDRC","real-ear-measurement","directional-microphone","self-fitting","personalization"]
 aliases: ["hearing aids","声学助听器","数字助听器","HA"]
-status: reviewed
+status: draft
 last_updated: "2026-10-05"
 authors: ["AI 辅助重构"]
 reviewer: null
