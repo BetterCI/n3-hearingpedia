@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<title>不同听觉状态的动态范围示意</title>
+<rect width="1200" height="640" fill="white"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111">
+<text x="60" y="48" font-size="28" font-weight="700">不同听觉状态的动态范围：下界、上界与映射并不相同</text>
+<text x="60" y="82" font-size="18">教学示意：位置与长度用于表达概念，不代表统一临床常模。</text>
+<text x="220" y="130" font-size="18">低声级</text><text x="1000" y="130" font-size="18">高声级</text>
+</g>
+<line x1="220" y1="150" x2="1030" y2="150" stroke="#222" stroke-width="2" marker-end="url(#a)"/>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">
+<text x="65" y="220">正常听力 NH</text>
+<text x="65" y="320">耳蜗性听损 / recruitment</text>
+<text x="65" y="420">Hyperacusis</text>
+<text x="65" y="520">Cochlear implant</text>
+</g>
+<g stroke="#222" stroke-width="12" stroke-linecap="round">
+<line x1="240" y1="210" x2="1000" y2="210"/>
+<line x1="560" y1="310" x2="1000" y2="310"/>
+<line x1="240" y1="410" x2="760" y2="410"/>
+<line x1="620" y1="510" x2="790" y2="510"/>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" font-size="18" fill="#111">
+<text x="225" y="188">Threshold</text><text x="955" y="188">UCL/LDL</text>
+<text x="530" y="288">Threshold ↑</text><text x="940" y="288">UCL 相对稳定</text>
+<text x="225" y="388">Threshold 近正常</text><text x="705" y="388">UCL ↓</text>
+<text x="585" y="488">T / THR</text><text x="770" y="488">C / M</text>
+<text x="620" y="552">Electrical DR：通常远窄于声学世界</text>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" font-size="17" fill="#111">
+<text x="60" y="602">Hearingpedia 原创教学图。关键概念：动态范围缩窄既可能来自下界升高，也可能来自上界下降；CI 还涉及声学输入范围到电刺激范围的非线性映射。</text>
+</g>
+</svg>
