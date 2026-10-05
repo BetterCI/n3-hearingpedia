@@ -354,5 +354,55 @@ export const monitorReferences: Record<string, Reference> = {
     "url": "https://www.nidcd.nih.gov/health/adult-hearing-health-care",
     "access": "documentation",
     "supports": "成人听力健康服务路径、听力测试、助听技术与预防资源；用于区分筛查、评估、设备和长期听力健康管理。"
-  }
+  },
+  "sherlock-formby-2005": {
+    "title": "Estimates of loudness, loudness discomfort, and the auditory dynamic range: normative estimates, comparison of procedures, and test-retest reliability",
+    "authors": "Sherlock, L. P. & Formby, C.",
+    "year": "2005",
+    "publication": "Journal of the American Academy of Audiology, 16(2), 85–100",
+    "doi": "10.3766/jaaa.16.2.4",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15807048/",
+    "access": "abstract",
+    "supports": "59 名正常听力成人的规范性研究：LDL 约 100 dB HL，threshold-to-LDL 动态范围约 95 dB；用于说明临床听觉动态范围的典型数量级与测试重复性。"
+  },
+  "wen-dynamic-range-2009": {
+    "title": "Dynamic Range Adaptation to Sound Level Statistics in the Auditory Nerve",
+    "authors": "Wen, B., Wang, G. I., Dean, I. & Delgutte, B.",
+    "year": "2009",
+    "publication": "Journal of Neuroscience, 29(44), 13797–13808",
+    "doi": "10.1523/JNEUROSCI.5610-08.2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2774902/",
+    "access": "fulltext",
+    "supports": "动物听神经研究显示 rate–level function 可随声级统计分布移动；用于解释 100–120 dB 行为范围与单神经元 20–40 dB 范围之间的 dynamic-range problem 及适应性编码。"
+  },
+  "zeng-speech-dr-2002": {
+    "title": "Speech dynamic range and its effect on cochlear implant performance",
+    "authors": "Zeng, F.-G., Grant, G., Niparko, J., Galvin, J., Shannon, R., Opie, J. & Segel, P.",
+    "year": "2002",
+    "publication": "Journal of the Acoustical Society of America, 111(1 Pt 1), 377–386",
+    "doi": "10.1121/1.1423926",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11831811/",
+    "access": "abstract",
+    "supports": "语音包络声级分布约 50 dB；在 10 名 CLARION 用户中，50–60 dB input dynamic range 产生最佳语音识别，用于区分 speech dynamic range、CI IDR 与 EDR。"
+  },
+  "nunn-ci-idr-2019": {
+    "title": "A systematic review of the impact of adjusting input dynamic range (IDR), electrical threshold (T) level and rate of stimulation on speech perception ability in cochlear implant users",
+    "authors": "Nunn, T. B., Jiang, D., Green, T., Boyle, P. J. & Vickers, D. A.",
+    "year": "2019",
+    "publication": "International Journal of Audiology, 58(6), 317–325",
+    "doi": "10.1080/14992027.2018.1564844",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30939068/",
+    "access": "abstract",
+    "supports": "32 项研究的系统综述；T level、IDR 和 rate 对语音结果存在交互且证据异质，支持个体化 CI fitting，而非单一统一最优参数。"
+  },
+  "iso-16832-2006": {
+    "title": "ISO 16832:2006 Acoustics — Loudness scaling by means of categories",
+    "authors": "International Organization for Standardization",
+    "year": "2006（2025 年确认继续有效）",
+    "publication": "International Standard ISO 16832:2006",
+    "url": "https://www.iso.org/standard/32442.html",
+    "access": "documentation",
+    "supports": "规定听力学应用中的 categorical loudness scaling 基本方法；2025 年系统审查后确认该版本继续有效。"
+  },
+
 };
