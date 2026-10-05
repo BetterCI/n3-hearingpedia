@@ -263,12 +263,17 @@
       "reference_ids": [
         "nidcd-hearing-aids",
         "keidser-nalnl2-2011",
+        "asha-hearing-aids-adults",
+        "fda-otc-hearing-aids",
+        "de-sousa-self-fitting-2023",
+        "knoetze-self-fitting-2024",
+        "tasnim-ml-hearingaid-2024",
         "kuk-irrt-2026"
       ],
       "monitor_source_ids": [
         "kuk-irrt-2026"
       ],
-      "selection_reason": "通过接收、处理和声学输出改善听觉输入的设备，其效果取决于验配、听觉能力与场景。",
+      "selection_reason": "助听器是从声学输入、处方和实时信号处理到 REM 验证、双耳空间处理、self-fitting 与 AI 个体化的完整听觉接口；效果应同时评价输出、行为、聆听努力和真实生活参与。",
       "status": "draft"
     },
     {
