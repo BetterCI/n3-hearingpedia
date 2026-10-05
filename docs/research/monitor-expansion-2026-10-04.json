@@ -300,20 +300,25 @@
       "slug": "dynamic-range",
       "title": "动态范围",
       "english": "Dynamic range",
-      "knowledge_area": "sound",
+      "knowledge_area": "perception",
       "kind": "quantity",
       "priority": "通用核心概念",
       "reference_ids": [
         "moore-loudness-2014",
+        "sherlock-formby-2005",
+        "wen-dynamic-range-2009",
         "keidser-nalnl2-2011",
         "zeng-2008",
+        "zeng-speech-dr-2002",
+        "nunn-ci-idr-2019",
         "mo-maxima-2023",
+        "iso-16832-2006",
         "liu-ci-range-2026"
       ],
       "monitor_source_ids": [
         "liu-ci-range-2026"
       ],
-      "selection_reason": "系统、信号或听者可处理水平的上下界之差；声学、听觉与电刺激的定义和单位须分别注明。",
+      "selection_reason": "动态范围是连接物理声级、耳蜗非线性、神经强度编码、响度增长、助听器压缩和人工耳蜗 IDR/EDR 映射的核心变量；应同时关注范围宽度、范围内分辨率及不同层级间的信息映射。",
       "status": "draft"
     },
     {
