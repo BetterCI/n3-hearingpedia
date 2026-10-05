@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660">
+<title>正常听觉中的音高线索与神经层级</title>
+<rect width="1200" height="660" fill="white"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111">
+<text x="55" y="48" font-size="28" font-weight="700">音高不是单一声学变量：多个线索在不同神经层级被整合</text>
+<text x="55" y="82" font-size="18">Place、phase locking、harmonic pattern 与 context 共同约束 pitch percept；当前尚无单一模型解释全部现象。</text>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" stroke="#222" stroke-width="2">
+<g fill="white">
+<rect x="55" y="145" width="250" height="95" rx="14"/>
+<rect x="350" y="145" width="250" height="95" rx="14"/>
+<rect x="645" y="145" width="250" height="95" rx="14"/>
+<rect x="940" y="145" width="200" height="95" rx="14"/>
+<rect x="205" y="360" width="250" height="95" rx="14"/>
+<rect x="515" y="360" width="250" height="95" rx="14"/>
+<rect x="825" y="360" width="250" height="95" rx="14"/>
+</g>
+<g fill="#111" stroke="none" font-size="20" text-anchor="middle">
+<text x="180" y="177">声学结构</text><text x="180" y="205">F0 / harmonics</text><text x="180" y="229">missing fundamental</text>
+<text x="475" y="177">耳蜗滤波</text><text x="475" y="205">resolved vs</text><text x="475" y="229">unresolved harmonics</text>
+<text x="770" y="177">听神经</text><text x="770" y="205">place + phase locking</text><text x="770" y="229">population timing</text>
+<text x="1040" y="177">脑干/中脑</text><text x="1040" y="205">periodicity 与</text><text x="1040" y="229">跨通道组合</text>
+<text x="330" y="392">听觉皮层</text><text x="330" y="420">跨线索泛化</text><text x="330" y="444">right-biased representation</text>
+<text x="640" y="392">上下文与预测</text><text x="640" y="420">expectation</text><text x="640" y="444">ambiguity resolution</text>
+<text x="950" y="392">Pitch percept</text><text x="950" y="420">height / salience</text><text x="950" y="444">melody / voice / grouping</text>
+</g>
+<g fill="none" marker-end="url(#a)">
+<line x1="305" y1="192" x2="350" y2="192"/>
+<line x1="600" y1="192" x2="645" y2="192"/>
+<line x1="895" y1="192" x2="940" y2="192"/>
+<line x1="1040" y1="240" x2="420" y2="360"/>
+<line x1="455" y1="408" x2="515" y2="408"/>
+<line x1="765" y1="408" x2="825" y2="408"/>
+<line x1="640" y1="360" x2="640" y2="285"/>
+</g>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111" font-size="17">
+<text x="55" y="548">关键现象：resolved harmonics 通常产生更显著、更精确的 F0 pitch；unresolved harmonics 主要保留 envelope periodicity，音高通常较弱。</text>
+<text x="55" y="582">2025 年 MEG 结果进一步支持：不同声学线索可汇聚成跨线索的统一皮层 pitch representation，且可预测上下文会改变音高形成的时间进程。</text>
+<text x="55" y="620">Hearingpedia 原创教学图。</text>
+</g>
+</svg>
