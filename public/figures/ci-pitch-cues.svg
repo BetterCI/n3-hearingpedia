@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<title>人工耳蜗中的音高线索</title>
+<rect width="1200" height="700" fill="white"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111">
+<text x="55" y="48" font-size="28" font-weight="700">人工耳蜗中的音高：Place、Rate、AM 与长期映射共同决定</text>
+<text x="55" y="82" font-size="18">“能分辨刺激不同”不等于形成了稳定、自然、可用于音乐或声调的音高维度。</text>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" stroke="#222" stroke-width="2">
+<g fill="white">
+<rect x="55" y="145" width="240" height="95" rx="14"/>
+<rect x="345" y="145" width="240" height="95" rx="14"/>
+<rect x="635" y="145" width="240" height="95" rx="14"/>
+<rect x="925" y="145" width="220" height="95" rx="14"/>
+<rect x="145" y="355" width="260" height="100" rx="14"/>
+<rect x="470" y="355" width="260" height="100" rx="14"/>
+<rect x="795" y="355" width="260" height="100" rx="14"/>
+</g>
+<g fill="#111" stroke="none" font-size="20" text-anchor="middle">
+<text x="175" y="178">Place pitch</text><text x="175" y="206">电极位置 / 插入深度</text><text x="175" y="230">frequency-place mismatch</text>
+<text x="465" y="178">Rate pitch</text><text x="465" y="206">pulse rate</text><text x="465" y="230">~低至中等速率可用</text>
+<text x="755" y="178">AM pitch</text><text x="755" y="206">envelope / modulation</text><text x="755" y="230">与 pulse rate 可交互</text>
+<text x="1035" y="178">Neural interface</text><text x="1035" y="206">current spread</text><text x="1035" y="230">neural survival</text>
+<text x="275" y="388">中枢整合与可塑性</text><text x="275" y="418">长期 map adaptation</text><text x="275" y="445">place-rate cue weighting</text>
+<text x="600" y="388">行为音高</text><text x="600" y="418">辨别 / 排序 / 匹配</text><text x="600" y="445">稳定性与 salience</text>
+<text x="925" y="388">功能结果</text><text x="925" y="418">lexical tone / music</text><text x="925" y="445">voice / prosody</text>
+</g>
+<g fill="none" marker-end="url(#a)">
+<line x1="175" y1="240" x2="275" y2="355"/>
+<line x1="465" y1="240" x2="350" y2="355"/>
+<line x1="755" y1="240" x2="650" y2="355"/>
+<line x1="1035" y1="240" x2="720" y2="355"/>
+<line x1="405" y1="405" x2="470" y2="405"/>
+<line x1="730" y1="405" x2="795" y2="405"/>
+</g>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111" font-size="17">
+<text x="55" y="545">心理物理共识：CI temporal pitch 在低至中等脉冲率下可用，但多数听者在约 200–300 pps 以上出现明显饱和或不稳定；个体差异很大。</text>
+<text x="55" y="579">Place cue 通常更稳定，却受到电极位置、电流扩散、frequency-place mismatch 与长期适应影响；多通道和真实处理器条件比单电极实验更复杂。</text>
+<text x="55" y="613">前沿方向：apical/low-frequency stimulation、place–rate coordinated coding、image-guided fitting、EAS/bimodal integration 与长期训练。</text>
+<text x="55" y="652">Hearingpedia 原创教学图。</text>
+</g>
+</svg>
