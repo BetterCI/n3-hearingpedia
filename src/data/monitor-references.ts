@@ -286,5 +286,55 @@ export const monitorReferences: Record<string, Reference> = {
     "url": "https://pubmed.ncbi.nlm.nih.gov/1564201/",
     "access": "abstract",
     "supports": "已核对摘要：冲突线索虚拟声源中低频 ITD 的作用；结论依赖频谱和刺激条件，不称其对所有定位均占主导。"
-  }
+  },
+
+  "fda-otc-hearing-aids": {
+    "title": "OTC Hearing Aids: What You Should Know",
+    "authors": "U.S. Food and Drug Administration",
+    "year": "2026（页面持续更新）",
+    "publication": "FDA Medical Devices",
+    "url": "https://www.fda.gov/medical-devices/hearing-aids/otc-hearing-aids-what-you-should-know",
+    "access": "documentation",
+    "supports": "OTC hearing aids 面向 18 岁及以上、自觉轻至中度听力损失成人；可包含 self-fitting 工具，不适用于儿童或重度至极重度听力损失。"
+  },
+  "de-sousa-self-fitting-2023": {
+    "title": "Effectiveness of an Over-the-Counter Self-fitting Hearing Aid Compared With an Audiologist-Fitted Hearing Aid: A Randomized Clinical Trial",
+    "authors": "De Sousa, K. C., Manchaiah, V., Moore, D. R., Graham, M. A. & Swanepoel, D. W.",
+    "year": "2023",
+    "publication": "JAMA Otolaryngology–Head & Neck Surgery, 149(6), 522–530",
+    "doi": "10.1001/jamaoto.2023.0376",
+    "url": "https://jamanetwork.com/journals/jamaotolaryngology/fullarticle/2803832",
+    "access": "fulltext",
+    "supports": "随机临床试验比较特定 OTC self-fitting 与 audiologist-fitted hearing aid；用于说明自验配在特定成人群体中的有效性证据和适用边界。"
+  },
+  "knoetze-self-fitting-2024": {
+    "title": "Comparing Self-Fitting Strategies for Over-the-Counter Hearing Aids: A Crossover Clinical Trial",
+    "authors": "Knoetze, M., Manchaiah, V., De Sousa, K., Moore, D. R. & Swanepoel, D. W.",
+    "year": "2024",
+    "publication": "JAMA Otolaryngology–Head & Neck Surgery, 150(9), 784–791",
+    "doi": "10.1001/jamaoto.2024.2007",
+    "url": "https://jamanetwork.com/journals/jamaotolaryngology/fullarticle/2821570",
+    "access": "fulltext",
+    "supports": "交叉临床试验比较 self-adjustment 与 in-situ audiometry 两类 OTC self-fitting；总体 APHAB、IOI-HA、噪声语音和 REM 结果相近，部分满意度/使用维度存在差异。"
+  },
+  "tasnim-ml-hearingaid-2024": {
+    "title": "A Review of Machine Learning Approaches for the Personalization of Amplification in Hearing Aids",
+    "authors": "Tasnim, N. Z., Ni, A. & Lobarinas, E.",
+    "year": "2024",
+    "publication": "Sensors, 24(5), 1546",
+    "doi": "10.3390/s24051546",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10934527/",
+    "access": "fulltext",
+    "supports": "综述机器学习用于助听器放大个体化，包括偏好学习、主动学习、强化学习等；用于讨论个体化 fitting 的潜力与证据边界。"
+  },
+  "asha-hearing-aids-adults": {
+    "title": "Hearing Aids For Adults",
+    "authors": "American Speech-Language-Hearing Association",
+    "year": "2026（在线实践门户）",
+    "publication": "ASHA Practice Portal",
+    "url": "https://www.asha.org/practice-portal/professional-issues/hearing-aids-for-adults/",
+    "access": "documentation",
+    "supports": "成人助听器处方、验配、验证和结果评价框架；明确 REM/探管麦克风测量是处方目标客观验证的重要方法。"
+  },
+
 };
