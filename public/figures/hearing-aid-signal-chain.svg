@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+<title>助听器实时信号处理与验配闭环</title>
+<rect width="1200" height="470" fill="white"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" stroke="#222" stroke-width="2">
+<g fill="white">
+<rect x="35" y="140" width="145" height="80" rx="14"/><rect x="225" y="140" width="165" height="80" rx="14"/>
+<rect x="435" y="140" width="180" height="80" rx="14"/><rect x="660" y="140" width="175" height="80" rx="14"/>
+<rect x="880" y="140" width="175" height="80" rx="14"/>
+<rect x="435" y="305" width="180" height="78" rx="14"/><rect x="660" y="305" width="175" height="78" rx="14"/>
+</g>
+<g fill="#111" stroke="none" font-size="22" text-anchor="middle">
+<text x="108" y="174">麦克风阵列</text><text x="108" y="202">ADC / 无线输入</text>
+<text x="307" y="174">场景与空间分析</text><text x="307" y="202">方向性 / 波束形成</text>
+<text x="525" y="174">多频带处理</text><text x="525" y="202">WDRC / 降噪</text>
+<text x="748" y="174">输出管理</text><text x="748" y="202">反馈 / MPO</text>
+<text x="968" y="174">受话器 + 耳道</text><text x="968" y="202">声学耦合</text>
+<text x="525" y="338">个体化处方</text><text x="525" y="366">NAL / DSL / 偏好</text>
+<text x="748" y="338">验证与长期闭环</text><text x="748" y="366">REM / 行为 / EMA / 日志</text>
+</g>
+<g fill="none" marker-end="url(#a)">
+<line x1="180" y1="180" x2="225" y2="180"/><line x1="390" y1="180" x2="435" y2="180"/>
+<line x1="615" y1="180" x2="660" y2="180"/><line x1="835" y1="180" x2="880" y2="180"/>
+<line x1="525" y1="305" x2="525" y2="222"/><line x1="748" y1="305" x2="748" y2="222"/>
+</g>
+<g fill="#111" stroke="none" font-size="20">
+<text x="35" y="55">助听器不是“把声音整体放大”，而是一个由残余听觉、声景、处方目标与真实使用反馈共同约束的实时声学处理系统。</text>
+<text x="35" y="425">Hearingpedia 原创教学图。信号指标改善、处方目标匹配、实验室行为收益与真实生活获益应分别验证。</text>
+</g>
+</g></svg>
