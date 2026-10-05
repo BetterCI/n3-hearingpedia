@@ -1,0 +1,32 @@
+[
+  {
+    "file": "published-source.html",
+    "url": "https://betterci.github.io/n3-hearingpedia/concepts/auditory-filter/",
+    "ok": true,
+    "bytes": 32744
+  },
+  {
+    "file": "PMC1752201.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1752201/fullTextXML",
+    "ok": false,
+    "error": "HTTP 500"
+  },
+  {
+    "file": "PMC2825387.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2825387/fullTextXML",
+    "ok": false,
+    "error": "HTTP 500"
+  },
+  {
+    "file": "PMC2606789.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2606789/fullTextXML",
+    "ok": false,
+    "error": "HTTP 500"
+  },
+  {
+    "file": "recent-records.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:%22auditory%20filter%22%20AND%20FIRST_PDATE:[2022-01-01%20TO%202026-10-05]&format=json&pageSize=25&resultType=core",
+    "ok": true,
+    "bytes": 11992
+  }
+]

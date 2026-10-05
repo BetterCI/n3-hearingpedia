@@ -1,0 +1,28 @@
+{
+  "erb_N_Hz": {
+    "500": 78.6695,
+    "1000": 132.639,
+    "2000": 240.578,
+    "4000": 456.456
+  },
+  "erb_number_1000": 15.621449713970488,
+  "gaussian_sigma_Hz": 60.0,
+  "gaussian_ERB_Hz": 150.39769647786002,
+  "gaussian_half_power_bandwidth_Hz": 141.28920270185696,
+  "gaussian_area_numerical_Hz": 150.39769566072323,
+  "notch_halfwidths_Hz": [
+    20,
+    120
+  ],
+  "passed_noise_integrals_Hz": [
+    95.1709126139191,
+    10.206795376698993
+  ],
+  "wide_notch_passes_less_noise": true,
+  "threshold_nonincreasing": true,
+  "roex_p": 30,
+  "roex_whole_line_ERB_Hz": 133.33333333333334,
+  "internal_floor_fraction_of_zero_notch_noise": 0.01,
+  "frequency_grid_step_Hz": 0.05000000000001137,
+  "source": "Original teaching figures; no measured data copied."
+}
