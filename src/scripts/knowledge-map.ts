@@ -60,9 +60,9 @@ export function initKnowledgeMap() {
   let renderer:THREE.WebGLRenderer|null=null, ctx:CanvasRenderingContext2D|null=null;
   let canvas=document.createElement('canvas');
   canvas.setAttribute('aria-label','可旋转与缩放的三维知识网络');
-  canvas.style.cssText='width:100%;height:100%;display:block;touch-action:none';
+  canvas.style.cssText='width:100%;height:100%;display:block;touch-action:none;cursor:grab';
   try { renderer=new THREE.WebGLRenderer({canvas,alpha:true,antialias:true,powerPreference:'low-power'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.7)); }
-  catch { canvas=document.createElement('canvas');canvas.style.cssText='width:100%;height:100%;display:block;touch-action:none';canvas.setAttribute('aria-label','兼容模式的三维知识网络');ctx=canvas.getContext('2d'); }
+  catch { canvas=document.createElement('canvas');canvas.style.cssText='width:100%;height:100%;display:block;touch-action:none;cursor:grab';canvas.setAttribute('aria-label','兼容模式的三维知识网络');ctx=canvas.getContext('2d'); }
   host.append(canvas);
   if(!renderer&&!ctx){stage.dataset.state='unavailable';status.textContent='当前浏览器未能显示地图；下方目录和关系清单仍可阅读。';return;}
   stage.dataset.state=renderer?'webgl':'compatible';
@@ -84,6 +84,7 @@ export function initKnowledgeMap() {
   gradient.addColorStop(0,'rgba(255,255,255,1)');gradient.addColorStop(.17,'rgba(255,255,255,.5)');gradient.addColorStop(.45,'rgba(255,255,255,.12)');gradient.addColorStop(1,'rgba(255,255,255,0)');gc.fillStyle=gradient;gc.fillRect(0,0,128,128);
   const glow=new THREE.CanvasTexture(glowCanvas);
   const positions=brainNodePositions(data.nodes.length);
+  const initialPositions=positions.map(position=>position.clone());
   const layoutNodes=data.areas.flatMap(area=>data.nodes.filter(n=>n.area===area.id));
   const positionById=Object.fromEntries(layoutNodes.map((n,i)=>[n.id,positions[i]]));
   const nodeViews:NodeView[]=data.nodes.map(n=>{
@@ -106,7 +107,9 @@ export function initKnowledgeMap() {
   const stars=Array.from({length:300},(_,i)=>{const a=i*2.399963,b=Math.acos(1-2*(i+.5)/300),r=350+(i%7)*38;return new THREE.Vector3(r*Math.sin(b)*Math.cos(a),r*Math.cos(b),r*Math.sin(b)*Math.sin(a));});
   const starsGeometry=new THREE.BufferGeometry().setFromPoints(stars);
   const starPoints=new THREE.Points(starsGeometry,new THREE.PointsMaterial({color:'#82b0d0',size:1.15,transparent:true,opacity:.32,sizeAttenuation:false}));scene.add(starPoints);
-  const raycaster=new THREE.Raycaster(),pointer=new THREE.Vector2();let pointerDown:[number,number]|null=null;
+  const raycaster=new THREE.Raycaster(),pointer=new THREE.Vector2();
+  const resetLayoutButton=document.querySelector<HTMLButtonElement>('#atlas-layout-reset')!;
+  let nodeDrag:{node:NodeView;pointerId:number;start:THREE.Vector3;plane:THREE.Plane;offset:THREE.Vector3;x:number;y:number;moved:boolean;autoRotate:boolean}|null=null;
   const matches=(n:AtlasNode)=>!areaSelect.value||n.area===areaSelect.value;
   const relevantEdges=()=>data.edges.filter(e=>(!relationSelect.value||e.type===relationSelect.value)&&(!areaSelect.value||matches(byId[e.source])||matches(byId[e.target])));
   const neighbors=()=>new Set(relevantEdges().filter(e=>e.source===selected||e.target===selected).flatMap(e=>[e.source,e.target]));
@@ -142,9 +145,78 @@ export function initKnowledgeMap() {
   function setMotion(value:boolean){motion=value;controls.autoRotate=value;motionButton.textContent=value?'暂停动效':'开启动效';motionButton.setAttribute('aria-pressed',String(value));applyStyles();}
   motionButton.addEventListener('click',()=>setMotion(!motion));reduced.addEventListener('change',()=>{if(reduced.matches)setMotion(false);});
   labelButton.addEventListener('click',()=>{showLabels=!showLabels;labelButton.setAttribute('aria-pressed',String(showLabels));});
-  canvas.addEventListener('pointerdown',e=>{pointerDown=[e.clientX,e.clientY];});
-  canvas.addEventListener('pointerup',e=>{if(!pointerDown||Math.hypot(e.clientX-pointerDown[0],e.clientY-pointerDown[1])>6){pointerDown=null;return;}pointerDown=null;const rect=canvas.getBoundingClientRect();pointer.set((e.clientX-rect.left)/rect.width*2-1,-(e.clientY-rect.top)/rect.height*2+1);raycaster.setFromCamera(pointer,camera);const hit=raycaster.intersectObjects(nodeViews.map(n=>n.mesh))[0];if(hit)select(hit.object.userData.id);});
-  canvas.addEventListener('pointermove',e=>{const rect=canvas.getBoundingClientRect();pointer.set((e.clientX-rect.left)/rect.width*2-1,-(e.clientY-rect.top)/rect.height*2+1);raycaster.setFromCamera(pointer,camera);canvas.style.cursor=raycaster.intersectObjects(nodeViews.map(n=>n.mesh)).length?'pointer':'grab';});
+  function pointerRay(event:PointerEvent){
+    const rect=canvas.getBoundingClientRect();
+    pointer.set((event.clientX-rect.left)/rect.width*2-1,-(event.clientY-rect.top)/rect.height*2+1);
+    camera.updateMatrixWorld();scene.updateMatrixWorld();raycaster.setFromCamera(pointer,camera);
+  }
+  function updateNodeEdges(id:string){
+    edgeViews.forEach((edge,i)=>{
+      if(edge.data.source!==id&&edge.data.target!==id)return;
+      edge.curve.v0.copy(viewById[edge.data.source].position);
+      edge.curve.v2.copy(viewById[edge.data.target].position);
+      edge.curve.v1.copy(edge.curve.v0).add(edge.curve.v2).multiplyScalar(.5);
+      edge.curve.v1.z-=15+Math.sin(i*1.91)*17;
+      const attribute=edge.line.geometry.getAttribute('position');
+      edge.curve.getPoints(32).forEach((p,j)=>attribute.setXYZ(j,p.x,p.y,p.z));
+      attribute.needsUpdate=true;edge.line.geometry.computeBoundingSphere();
+    });
+  }
+  function moveNode(node:NodeView,position:THREE.Vector3){
+    node.position.copy(position);node.mesh.position.copy(position);node.halo.position.copy(position);
+    updateNodeEdges(node.data.id);
+  }
+  function finishNodeDrag(cancel=false){
+    if(!nodeDrag)return;
+    const drag=nodeDrag;nodeDrag=null;
+    if(cancel)moveNode(drag.node,drag.start);
+    controls.enabled=true;controls.autoRotate=drag.autoRotate&&motion;
+    canvas.style.cursor='grab';stage!.classList.remove('is-dragging-node');
+    if(canvas.hasPointerCapture(drag.pointerId))canvas.releasePointerCapture(drag.pointerId);
+    resetLayoutButton.hidden=nodeViews.every(n=>n.position.equals(initialPositions[layoutNodes.findIndex(item=>item.id===n.data.id)]));
+    applyStyles();
+  }
+  // Capture before OrbitControls: a node moves, while empty-space gestures rotate.
+  stage.addEventListener('pointerdown',event=>{
+    if(nodeDrag){event.preventDefault();event.stopPropagation();return;}
+    if(event.button!==0||!event.isPrimary)return;
+    const target=event.target as HTMLElement;
+    const label=target.closest<HTMLButtonElement>('.atlas-node-label');
+    if(target!==canvas&&!label)return;
+    pointerRay(event);
+    const hit=label?nodeViews.find(n=>n.label===label):viewById[raycaster.intersectObjects(nodeViews.map(n=>n.mesh))[0]?.object.userData.id];
+    if(!hit)return;
+    const plane=new THREE.Plane().setFromNormalAndCoplanarPoint(camera.getWorldDirection(new THREE.Vector3()),hit.position);
+    const intersection=raycaster.ray.intersectPlane(plane,new THREE.Vector3());
+    if(!intersection)return;
+    nodeDrag={node:hit,pointerId:event.pointerId,start:hit.position.clone(),plane,offset:hit.position.clone().sub(intersection),x:event.clientX,y:event.clientY,moved:false,autoRotate:controls.autoRotate};
+    controls.enabled=false;controls.autoRotate=false;canvas.setPointerCapture(event.pointerId);
+    canvas.style.cursor='grabbing';stage!.classList.add('is-dragging-node');select(hit.data.id);
+    event.preventDefault();event.stopPropagation();
+  },true);
+  stage.addEventListener('pointermove',event=>{
+    if(nodeDrag){
+      event.preventDefault();event.stopPropagation();
+      if(event.pointerId!==nodeDrag.pointerId)return;
+      if(!nodeDrag.moved&&Math.hypot(event.clientX-nodeDrag.x,event.clientY-nodeDrag.y)<6)return;
+      nodeDrag.moved=true;pointerRay(event);
+      const intersection=raycaster.ray.intersectPlane(nodeDrag.plane,new THREE.Vector3());
+      if(intersection)moveNode(nodeDrag.node,intersection.add(nodeDrag.offset));
+    }
+  },true);
+  stage.addEventListener('pointerup',event=>{
+    if(!nodeDrag||event.pointerId!==nodeDrag.pointerId)return;
+    event.preventDefault();event.stopPropagation();finishNodeDrag();
+  },true);
+  stage.addEventListener('pointercancel',event=>{if(event.pointerId===nodeDrag?.pointerId)finishNodeDrag(true);},true);
+  canvas.addEventListener('lostpointercapture',event=>{if(event.pointerId===nodeDrag?.pointerId)finishNodeDrag(true);});
+  const cancelNodeDrag=(event:KeyboardEvent)=>{if(event.key==='Escape'&&nodeDrag){event.preventDefault();event.stopImmediatePropagation();finishNodeDrag(true);}};
+  document.addEventListener('keydown',cancelNodeDrag,true);
+  resetLayoutButton.addEventListener('click',()=>{
+    finishNodeDrag(true);
+    nodeViews.forEach(n=>moveNode(n,initialPositions[layoutNodes.findIndex(item=>item.id===n.data.id)]));
+    resetLayoutButton.hidden=true;applyStyles();
+  });
   function resize(){width=stage!.clientWidth;height=stage!.clientHeight;camera.aspect=width/height;camera.updateProjectionMatrix();if(renderer)renderer.setSize(width,height,false);else{const ratio=Math.min(devicePixelRatio,1.7);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);ctx!.setTransform(ratio,0,0,ratio,0,0);}const fit=Math.min(1050,Math.max(470,400/(2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2))*camera.aspect)));if(width<500&&controls.getDistance()<fit){camera.position.set(10,45,fit);controls.update();}}
   const observer=new ResizeObserver(resize);observer.observe(stage);resize();
   const projector=new THREE.Vector3();
@@ -156,9 +228,9 @@ export function initKnowledgeMap() {
     c.fillStyle='#89bdd4';c.globalAlpha=.24;
     for(const point of brain.points){const p=project(point);if(p.z>0&&p.z<1)c.fillRect(p.x,p.y,1.1,1.1);}
     c.globalAlpha=1;for(const star of stars){const p=project(star);if(p.z>0&&p.z<1){c.fillStyle='rgba(138,183,216,.3)';c.fillRect(p.x,p.y,1.2,1.2);}}for(const edge of edgeViews){if(edge.line.material.opacity<.04)continue;c.strokeStyle=areaById[byId[edge.data.source].area].color;c.globalAlpha=edge.line.material.opacity;c.lineWidth=selected?1.2:.7;c.beginPath();edge.curve.getPoints(24).forEach((p,i)=>{const q=project(p);if(i===0)c.moveTo(q.x,q.y);else c.lineTo(q.x,q.y);});c.stroke();if(edge.particle.visible){const p=project(edge.particle.position);c.globalAlpha=.85;c.fillStyle='#c6eaff';c.beginPath();c.arc(p.x,p.y,1.3,0,Math.PI*2);c.fill();}}for(const n of [...nodeViews].sort((a,b)=>project(b.position).z-project(a.position).z)){const p=project(n.position);if(p.z<0||p.z>1)continue;const r=4.4*(470/controls.getDistance()),color=areaById[n.data.area].color;c.globalAlpha=n.mesh.material.opacity;c.shadowBlur=n.data.id===selected?24:14;c.shadowColor=color;c.fillStyle=color;c.beginPath();c.arc(p.x,p.y,r,0,Math.PI*2);c.fill();c.shadowBlur=0;}c.globalAlpha=1;}
-  function tick(time:number){frame=requestAnimationFrame(tick);if(!visible||document.hidden)return;if(time-lastTime<30)return;const delta=Math.min((time-lastTime)/1000,.08);lastTime=time;if(motion)elapsed+=delta;controls.update(delta);scene.updateMatrixWorld();camera.updateMatrixWorld();edgeViews.forEach((e,i)=>e.particle.position.copy(e.curve.getPoint((elapsed*.065+i*.137)%1)));nodeViews.forEach((n,i)=>{if(motion)n.halo.scale.setScalar((n.data.id===selected?39:24)+Math.sin(elapsed*1.1+i)*1.6);});if(renderer)renderer.render(scene,camera);else drawCompatible();layoutLabels();}
+  function tick(time:number){frame=requestAnimationFrame(tick);if(!visible||document.hidden)return;if(time-lastTime<30)return;const delta=Math.min((time-lastTime)/1000,.08);lastTime=time;if(motion)elapsed+=delta;if(!nodeDrag)controls.update(delta);scene.updateMatrixWorld();camera.updateMatrixWorld();edgeViews.forEach((e,i)=>e.particle.position.copy(e.curve.getPoint((elapsed*.065+i*.137)%1)));nodeViews.forEach((n,i)=>{if(motion)n.halo.scale.setScalar((n.data.id===selected?39:24)+Math.sin(elapsed*1.1+i)*1.6);});if(renderer)renderer.render(scene,camera);else drawCompatible();layoutLabels();}
   const intersection=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;});intersection.observe(stage);
   setMotion(motion);select(new URLSearchParams(location.search).get('concept')&&byId[new URLSearchParams(location.search).get('concept')!] ? new URLSearchParams(location.search).get('concept'):null);
   frame=requestAnimationFrame(tick);
-  window.addEventListener('pagehide',(event)=>{if(event.persisted)return;document.removeEventListener('fullscreenchange',syncFullscreen);document.removeEventListener('keydown',fullscreenEscape);document.documentElement.classList.remove('atlas-fullscreen-open');cancelAnimationFrame(frame);observer.disconnect();intersection.disconnect();controls.dispose();scene.traverse(object=>{const obj=object as THREE.Mesh;if(obj.geometry)obj.geometry.dispose();if(obj.material){for(const material of Array.isArray(obj.material)?obj.material:[obj.material])material.dispose();}});glow.dispose();renderer?.dispose();});
+  window.addEventListener('pagehide',(event)=>{if(event.persisted)return;document.removeEventListener('keydown',cancelNodeDrag,true);document.removeEventListener('fullscreenchange',syncFullscreen);document.removeEventListener('keydown',fullscreenEscape);document.documentElement.classList.remove('atlas-fullscreen-open');cancelAnimationFrame(frame);observer.disconnect();intersection.disconnect();controls.dispose();scene.traverse(object=>{const obj=object as THREE.Mesh;if(obj.geometry)obj.geometry.dispose();if(obj.material){for(const material of Array.isArray(obj.material)?obj.material:[obj.material])material.dispose();}});glow.dispose();renderer?.dispose();});
 }

@@ -24,8 +24,8 @@ const payload={nodes:concepts.map(c=>({id:c.data.slug,title:c.data.title,english
         <div id="atlas-canvas-host" class="atlas-canvas-host"></div>
         <div id="atlas-labels" class="atlas-labels"></div>
         <p id="atlas-status" class="atlas-status" role="status">正在加载三维网络…</p>
-        <div class="atlas-camera-controls" aria-label="地图视角操作"><button type="button" id="atlas-rotate-left" aria-label="向左旋转地图">↶</button><button type="button" id="atlas-zoom-in" aria-label="放大地图">＋</button><button type="button" id="atlas-zoom-out" aria-label="缩小地图">−</button><button type="button" id="atlas-reset">全景</button><button type="button" id="atlas-motion" aria-pressed="true">暂停动效</button><button type="button" id="atlas-label-toggle" aria-pressed="true">标签</button></div>
-        <p class="atlas-gesture">拖动旋转 · 滚轮缩放 · 触屏双指缩放</p>
+        <div class="atlas-camera-controls" aria-label="地图视角操作"><button type="button" id="atlas-rotate-left" aria-label="向左旋转地图">↶</button><button type="button" id="atlas-zoom-in" aria-label="放大地图">＋</button><button type="button" id="atlas-zoom-out" aria-label="缩小地图">−</button><button type="button" id="atlas-reset">全景</button><button type="button" id="atlas-layout-reset" hidden>重置布局</button><button type="button" id="atlas-motion" aria-pressed="true">暂停动效</button><button type="button" id="atlas-label-toggle" aria-pressed="true">标签</button></div>
+        <p class="atlas-gesture">拖动节点调整位置 · 空白处拖动旋转 · 滚轮 / 双指缩放</p>
       </div>
       <aside class="atlas-detail" aria-label="所选概念详情">
         <div class="detail-eyebrow" id="atlas-detail-area">从一个概念开始</div>
