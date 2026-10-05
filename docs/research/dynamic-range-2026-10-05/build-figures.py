@@ -21,6 +21,8 @@ BLUE, ORANGE, GREEN, GREY = '#0072b2', '#d55e00', '#00846b', '#666666'
 
 def save(fig, name, description):
     fig.savefig(OUT/(name+'.svg'), metadata={'Date': None, 'Description': description})
+    svg_path = OUT/(name+'.svg')
+    svg_path.write_text('\n'.join(line.rstrip() for line in svg_path.read_text(encoding='utf8').splitlines())+'\n', encoding='utf8')
     fig.savefig(OUT/(name+'.png'), dpi=180)
     plt.close(fig)
 
