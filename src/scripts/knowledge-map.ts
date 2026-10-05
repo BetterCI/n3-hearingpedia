@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { brainNodePosition, createBrainScaffold } from './brain-layout';
+import { brainNodePositions, createBrainScaffold } from './brain-layout';
 
 interface AtlasNode { id:string; title:string; english:string; aliases:string[]; summary:string; kind:string; area:string; url:string; }
 interface AtlasEdge { source:string; target:string; type:string; note:string; }
@@ -83,10 +83,11 @@ export function initKnowledgeMap() {
   const gc=glowCanvas.getContext('2d')!;const gradient=gc.createRadialGradient(64,64,1,64,64,64);
   gradient.addColorStop(0,'rgba(255,255,255,1)');gradient.addColorStop(.17,'rgba(255,255,255,.5)');gradient.addColorStop(.45,'rgba(255,255,255,.12)');gradient.addColorStop(1,'rgba(255,255,255,0)');gc.fillStyle=gradient;gc.fillRect(0,0,128,128);
   const glow=new THREE.CanvasTexture(glowCanvas);
+  const positions=brainNodePositions(data.nodes.length);
+  const layoutNodes=data.areas.flatMap(area=>data.nodes.filter(n=>n.area===area.id));
+  const positionById=Object.fromEntries(layoutNodes.map((n,i)=>[n.id,positions[i]]));
   const nodeViews:NodeView[]=data.nodes.map(n=>{
-    const group=data.nodes.filter(x=>x.area===n.area), i=group.findIndex(x=>x.id===n.id);
-    const areaIndex=data.areas.findIndex(a=>a.id===n.area);
-    const position=brainNodePosition(areaIndex,i,group.length);
+    const position=positionById[n.id];
     const material=new THREE.MeshBasicMaterial({color:areaById[n.area].color,transparent:true,opacity:.96});
     const mesh=new THREE.Mesh(new THREE.SphereGeometry(3+Math.sqrt(degree[n.id])*.35,16,12),material);mesh.position.copy(position);mesh.userData.id=n.id;scene.add(mesh);
     const halo=new THREE.Sprite(new THREE.SpriteMaterial({map:glow,color:areaById[n.area].color,transparent:true,opacity:.57,blending:THREE.AdditiveBlending,depthWrite:false}));halo.position.copy(position);halo.scale.setScalar(24);scene.add(halo);

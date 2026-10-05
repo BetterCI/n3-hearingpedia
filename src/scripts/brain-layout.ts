@@ -12,13 +12,31 @@ export function brainSurface(theta:number, phi:number, side=1) {
   );
 }
 
-export function brainNodePosition(areaIndex:number, index:number, count:number) {
-  const column=areaIndex%3, row=Math.floor(areaIndex/3);
-  // Golden-ratio sampling keeps new concepts distributed within their color group.
-  const u=(index+.5)/count, v=(index*.61803398875+.23)%1;
-  const theta=.32+column*.83+u*.83;
-  const phi=(row===0?.3:1.62)+v*1.12;
-  return brainSurface(theta,phi,index%4===3?-1:1);
+export function brainNodePositions(count:number) {
+  const positions:THREE.Vector3[]=[];
+  const candidates=Array.from({length:49*33},(_,i)=>brainSurface(
+    .1+Math.floor(i/33)*(Math.PI-.2)/48,
+    .12+(i%33)*(Math.PI-.24)/32,
+  ));
+  const scores=[candidates.map(()=>Infinity),candidates.map(()=>Infinity)];
+  // Alternate hemispheres globally; contiguous color groups also balance.
+  // Farthest-point sampling follows the actual curved surface rather than a flat grid.
+  for(let i=0;i<count;i++) {
+    const sideIndex=i%2, side=sideIndex===0?1:-1;
+    let best=0;
+    if(i===0)best=16*33+12;
+    else for(let j=1;j<candidates.length;j++)if(scores[sideIndex][j]>scores[sideIndex][best])best=j;
+    const position=candidates[best].clone();position.z*=side;positions.push(position);
+    for(let hemisphere=0;hemisphere<2;hemisphere++)for(let j=0;j<candidates.length;j++) {
+      const candidate=candidates[j], z=candidate.z*(hemisphere===0?1:-1);
+      const projectedDistance=(candidate.x-position.x)**2+(candidate.y-position.y)**2;
+      const distance=projectedDistance+(z-position.z)**2;
+      // Offset rear nodes too, keeping the transparent side view from stacking pairs.
+      const separation=hemisphere===sideIndex?distance:Math.min(distance,projectedDistance*1.44+28**2);
+      scores[hemisphere][j]=Math.min(scores[hemisphere][j],separation);
+    }
+  }
+  return positions;
 }
 
 export function createBrainScaffold() {
