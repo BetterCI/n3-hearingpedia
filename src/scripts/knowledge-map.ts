@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { brainNodePosition, createBrainScaffold } from './brain-layout';
 
 interface AtlasNode { id:string; title:string; english:string; aliases:string[]; summary:string; kind:string; area:string; url:string; }
 interface AtlasEdge { source:string; target:string; type:string; note:string; }
@@ -72,7 +73,9 @@ export function initKnowledgeMap() {
   controls.enableDamping=true;controls.dampingFactor=.075;controls.autoRotate=motion;controls.autoRotateSpeed=.42;
   controls.minDistance=150;controls.maxDistance=1100;controls.enablePan=false;controls.rotateSpeed=.55;controls.zoomSpeed=.7;
   controls.saveState();
-  const anchors=[[-112,60,34],[0,117,-42],[116,59,24],[-110,-73,-35],[0,-101,60],[116,-60,-39]].map(p=>new THREE.Vector3(...p as [number,number,number]));
+  const brain=createBrainScaffold();
+  for(const trace of brain.lines)scene.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(trace.points),new THREE.LineBasicMaterial({color:'#89bdd4',transparent:true,opacity:trace.opacity,depthWrite:false})));
+  scene.add(new THREE.Points(new THREE.BufferGeometry().setFromPoints(brain.points),new THREE.PointsMaterial({color:'#89bdd4',size:1.1,transparent:true,opacity:.24,sizeAttenuation:false,depthWrite:false})));
   const areaById=Object.fromEntries(data.areas.map(a=>[a.id,a]));
   const byId=Object.fromEntries(data.nodes.map(n=>[n.id,n]));
   const degree=Object.fromEntries(data.nodes.map(n=>[n.id,data.edges.filter(e=>e.source===n.id||e.target===n.id).length]));
@@ -83,8 +86,7 @@ export function initKnowledgeMap() {
   const nodeViews:NodeView[]=data.nodes.map(n=>{
     const group=data.nodes.filter(x=>x.area===n.area), i=group.findIndex(x=>x.id===n.id);
     const areaIndex=data.areas.findIndex(a=>a.id===n.area);
-    const angle=i*2.399963, spread=25+Math.sqrt(i)*12;
-    const position=anchors[areaIndex].clone().add(new THREE.Vector3(Math.cos(angle)*spread,Math.sin(angle)*spread*.85,Math.sin(angle*1.7+areaIndex)*27));
+    const position=brainNodePosition(areaIndex,i,group.length);
     const material=new THREE.MeshBasicMaterial({color:areaById[n.area].color,transparent:true,opacity:.96});
     const mesh=new THREE.Mesh(new THREE.SphereGeometry(3+Math.sqrt(degree[n.id])*.35,16,12),material);mesh.position.copy(position);mesh.userData.id=n.id;scene.add(mesh);
     const halo=new THREE.Sprite(new THREE.SpriteMaterial({map:glow,color:areaById[n.area].color,transparent:true,opacity:.57,blending:THREE.AdditiveBlending,depthWrite:false}));halo.position.copy(position);halo.scale.setScalar(24);scene.add(halo);
@@ -92,15 +94,6 @@ export function initKnowledgeMap() {
     return {data:n,mesh,halo,label,position};
   });
   const viewById=Object.fromEntries(nodeViews.map(n=>[n.data.id,n]));
-  // Deterministic cluster layout. No inferred scientific distance or weight is encoded.
-  for(let iteration=0;iteration<70;iteration++){
-    const forces=nodeViews.map(()=>new THREE.Vector3());
-    for(let i=0;i<nodeViews.length;i++)for(let j=i+1;j<nodeViews.length;j++){
-      const delta=nodeViews[i].position.clone().sub(nodeViews[j].position),distance=Math.max(delta.length(),1);
-      if(distance<55){const force=delta.normalize().multiplyScalar((55-distance)*.035);forces[i].add(force);forces[j].sub(force);}
-    }
-    nodeViews.forEach((n,i)=>{const anchor=anchors[data.areas.findIndex(a=>a.id===n.data.area)];forces[i].add(anchor.clone().sub(n.position).multiplyScalar(.001));n.position.add(forces[i]);n.mesh.position.copy(n.position);n.halo.position.copy(n.position);});
-  }
   const edgeViews:EdgeView[]=data.edges.map((e,i)=>{
     const a=viewById[e.source].position,b=viewById[e.target].position;
     const mid=a.clone().add(b).multiplyScalar(.5);mid.z-=15+Math.sin(i*1.91)*17;
@@ -109,11 +102,6 @@ export function initKnowledgeMap() {
     const particle=new THREE.Sprite(new THREE.SpriteMaterial({map:glow,color:'#d9f2ff',transparent:true,opacity:.72,blending:THREE.AdditiveBlending,depthWrite:false}));particle.scale.setScalar(6);scene.add(particle);
     return {data:e,curve,line,particle};
   });
-  const rings:THREE.Line[]=[];
-  for(let i=0;i<3;i++){
-    const points=Array.from({length:181},(_,j)=>{const theta=j/180*Math.PI*2;return new THREE.Vector3(Math.cos(theta)*209,Math.sin(theta)*209,0);});
-    const ring=new THREE.Line(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineBasicMaterial({color:'#537998',transparent:true,opacity:.1}));ring.rotation.set(i*.83,.5+i*.73,.3);scene.add(ring);rings.push(ring);
-  }
   const stars=Array.from({length:300},(_,i)=>{const a=i*2.399963,b=Math.acos(1-2*(i+.5)/300),r=350+(i%7)*38;return new THREE.Vector3(r*Math.sin(b)*Math.cos(a),r*Math.cos(b),r*Math.sin(b)*Math.sin(a));});
   const starsGeometry=new THREE.BufferGeometry().setFromPoints(stars);
   const starPoints=new THREE.Points(starsGeometry,new THREE.PointsMaterial({color:'#82b0d0',size:1.15,transparent:true,opacity:.32,sizeAttenuation:false}));scene.add(starPoints);
@@ -124,7 +112,7 @@ export function initKnowledgeMap() {
   function applyStyles(){
     const linked=neighbors();
     nodeViews.forEach(n=>{const active=matches(n.data)&&(!selected||linked.has(n.data.id)||n.data.id===selected);n.mesh.material.opacity=active?.96:.1;(n.halo.material as THREE.SpriteMaterial).opacity=active?.55:.06;n.halo.scale.setScalar(n.data.id===selected?39:24);n.label.classList.toggle('is-selected',n.data.id===selected);n.label.classList.toggle('is-dimmed',!active);});
-    edgeViews.forEach(e=>{const active=(!relationSelect.value||e.data.type===relationSelect.value)&&(!areaSelect.value||matches(byId[e.data.source])||matches(byId[e.data.target]))&&(!selected||e.data.source===selected||e.data.target===selected);e.line.material.opacity=active?(selected?.58:.2):.018;e.particle.visible=motion&&active;});
+    edgeViews.forEach(e=>{const active=(!relationSelect.value||e.data.type===relationSelect.value)&&(!areaSelect.value||matches(byId[e.data.source])||matches(byId[e.data.target]))&&(!selected||e.data.source===selected||e.data.target===selected);e.line.material.opacity=active?(selected?.58:.12):.018;e.particle.visible=motion&&active;});
     document.querySelectorAll<HTMLButtonElement>('[data-area-chip]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.areaChip===areaSelect.value)));
     status.textContent=(renderer?'':'兼容模式 · ')+(selected?byId[selected].title+' · ':'')+data.nodes.filter(matches).length+' 个概念 · '+relevantEdges().length+' 条关联';
   }
@@ -161,7 +149,12 @@ export function initKnowledgeMap() {
   const projector=new THREE.Vector3();
   const project=(p:THREE.Vector3)=>{projector.copy(p).project(camera);return {x:(projector.x*.5+.5)*width,y:(-projector.y*.5+.5)*height,z:projector.z};};
   function layoutLabels(){const occupied:{x:number;y:number;w:number;h:number}[]=[];const linked=neighbors();const ordered=[...nodeViews].sort((a,b)=>(b.data.id===selected?1000:linked.has(b.data.id)?100:degree[b.data.id])-(a.data.id===selected?1000:linked.has(a.data.id)?100:degree[a.data.id]));for(const n of ordered){const p=project(n.position);const w=Math.min(n.label.textContent!.length*12+18,width<500?150:195),h=25,x=p.x+9+w<width-6?p.x+9:p.x-w-9,y=p.y-12;const valid=p.z<1&&p.z>0&&p.x>5&&p.x<width-5&&x>5&&x+w<width-6&&y>45&&y+h<height-100;const collision=occupied.some(b=>x<b.x+b.w+5&&x+w+5>b.x&&y<b.y+b.h+3&&y+h+3>b.y);const active=matches(n.data)&&(!selected||linked.has(n.data.id)||n.data.id===selected);const show=showLabels&&valid&&active&&(!collision||n.data.id===selected);n.label.hidden=!show;if(show){n.label.style.transform='translate('+x+'px,'+y+'px)';occupied.push({x,y,w,h});}}}
-  function drawCompatible(){const c=ctx!;c.clearRect(0,0,width,height);for(const star of stars){const p=project(star);if(p.z>0&&p.z<1){c.fillStyle='rgba(138,183,216,.3)';c.fillRect(p.x,p.y,1.2,1.2);}}for(const edge of edgeViews){if(edge.line.material.opacity<.04)continue;c.strokeStyle=areaById[byId[edge.data.source].area].color;c.globalAlpha=edge.line.material.opacity;c.lineWidth=selected?1.2:.7;c.beginPath();edge.curve.getPoints(24).forEach((p,i)=>{const q=project(p);if(i===0)c.moveTo(q.x,q.y);else c.lineTo(q.x,q.y);});c.stroke();if(edge.particle.visible){const p=project(edge.particle.position);c.globalAlpha=.85;c.fillStyle='#c6eaff';c.beginPath();c.arc(p.x,p.y,1.3,0,Math.PI*2);c.fill();}}for(const n of [...nodeViews].sort((a,b)=>project(b.position).z-project(a.position).z)){const p=project(n.position);if(p.z<0||p.z>1)continue;const r=4.4*(470/controls.getDistance()),color=areaById[n.data.area].color;c.globalAlpha=n.mesh.material.opacity;c.shadowBlur=n.data.id===selected?24:14;c.shadowColor=color;c.fillStyle=color;c.beginPath();c.arc(p.x,p.y,r,0,Math.PI*2);c.fill();c.shadowBlur=0;}c.globalAlpha=1;}
+  function drawCompatible(){const c=ctx!;c.clearRect(0,0,width,height);
+    c.strokeStyle='#89bdd4';c.lineWidth=.8;
+    for(const trace of brain.lines){c.globalAlpha=trace.opacity;c.beginPath();trace.points.forEach((point,i)=>{const p=project(point);if(i===0)c.moveTo(p.x,p.y);else c.lineTo(p.x,p.y);});c.stroke();}
+    c.fillStyle='#89bdd4';c.globalAlpha=.24;
+    for(const point of brain.points){const p=project(point);if(p.z>0&&p.z<1)c.fillRect(p.x,p.y,1.1,1.1);}
+    c.globalAlpha=1;for(const star of stars){const p=project(star);if(p.z>0&&p.z<1){c.fillStyle='rgba(138,183,216,.3)';c.fillRect(p.x,p.y,1.2,1.2);}}for(const edge of edgeViews){if(edge.line.material.opacity<.04)continue;c.strokeStyle=areaById[byId[edge.data.source].area].color;c.globalAlpha=edge.line.material.opacity;c.lineWidth=selected?1.2:.7;c.beginPath();edge.curve.getPoints(24).forEach((p,i)=>{const q=project(p);if(i===0)c.moveTo(q.x,q.y);else c.lineTo(q.x,q.y);});c.stroke();if(edge.particle.visible){const p=project(edge.particle.position);c.globalAlpha=.85;c.fillStyle='#c6eaff';c.beginPath();c.arc(p.x,p.y,1.3,0,Math.PI*2);c.fill();}}for(const n of [...nodeViews].sort((a,b)=>project(b.position).z-project(a.position).z)){const p=project(n.position);if(p.z<0||p.z>1)continue;const r=4.4*(470/controls.getDistance()),color=areaById[n.data.area].color;c.globalAlpha=n.mesh.material.opacity;c.shadowBlur=n.data.id===selected?24:14;c.shadowColor=color;c.fillStyle=color;c.beginPath();c.arc(p.x,p.y,r,0,Math.PI*2);c.fill();c.shadowBlur=0;}c.globalAlpha=1;}
   function tick(time:number){frame=requestAnimationFrame(tick);if(!visible||document.hidden)return;if(time-lastTime<30)return;const delta=Math.min((time-lastTime)/1000,.08);lastTime=time;if(motion)elapsed+=delta;controls.update(delta);scene.updateMatrixWorld();camera.updateMatrixWorld();edgeViews.forEach((e,i)=>e.particle.position.copy(e.curve.getPoint((elapsed*.065+i*.137)%1)));nodeViews.forEach((n,i)=>{if(motion)n.halo.scale.setScalar((n.data.id===selected?39:24)+Math.sin(elapsed*1.1+i)*1.6);});if(renderer)renderer.render(scene,camera);else drawCompatible();layoutLabels();}
   const intersection=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;});intersection.observe(stage);
   setMotion(motion);select(new URLSearchParams(location.search).get('concept')&&byId[new URLSearchParams(location.search).get('concept')!] ? new URLSearchParams(location.search).get('concept'):null);

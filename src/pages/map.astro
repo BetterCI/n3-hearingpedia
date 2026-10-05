@@ -41,7 +41,7 @@ const payload={nodes:concepts.map(c=>({id:c.data.slug,title:c.data.title,english
     </div>
     <div class="atlas-legend">{knowledgeAreas.map(a=><button type="button" data-area-chip={a.id} style={'--area-color:'+a.color} aria-pressed="false"><i aria-hidden="true"></i>{a.title}</button>)}</div>
   </section>
-  <p class="map-caption">颜色表示知识层面；节点位置与动效用于导航，不表示解剖位置、因果方向、证据强弱或真实信号流。</p>
+  <p class="map-caption">大脑轮廓是知识导航的视觉意象，颜色表示知识层面；节点位置与动效用于导航，不表示解剖位置、因果方向、证据强弱或真实信号流。</p>
   <section class="section"><div class="section-heading"><div><div class="eyebrow">Browse the knowledge system</div><h2>六个层面，通向同一知识网络</h2><p>物理量、感知现象、测试指标与研究方法分别归类，跨领域联系保留在网络中。</p></div></div><div class="atlas-directory">{knowledgeAreas.map(a=><article style={'--area-color:'+a.color}><h3>{a.title}</h3><p>{a.note}</p><ul>{concepts.filter(c=>c.data.knowledge_area===a.id).map(c=><li><a href={url('concepts/'+c.data.slug)}>{c.data.title}<small>{kindLabels[c.data.kind]}</small></a></li>)}</ul></article>)}</div></section>
   <details class="map-relations"><summary>查看全部 {knowledgeRelations.length} 条关联及其定义</summary><p>类型关系有方向；机制与概念联系只说明知识关联，不能据此推导因果或强度。学习顺序由独立学习路径提供。</p><ul>{knowledgeRelations.map(r=><li><a href={url('concepts/'+r.source)}>{bySlug[r.source].data.title}</a> {relationTypes[r.type].directional?'→':'↔'} <a href={url('concepts/'+r.target)}>{bySlug[r.target].data.title}</a><strong>{relationTypes[r.type].label}</strong><span>{r.note}</span></li>)}</ul></details>
   <script id="atlas-data" type="application/json" set:html={JSON.stringify(payload).replaceAll('<','\u003c')} />
