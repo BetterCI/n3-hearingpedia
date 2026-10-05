@@ -336,7 +336,6 @@ export const monitorReferences: Record<string, Reference> = {
     "access": "documentation",
     "supports": "成人助听器处方、验配、验证和结果评价框架；明确 REM/探管麦克风测量是处方目标客观验证的重要方法。"
   },
-,
 
   "who-world-report-hearing-2021": {
     "title": "World report on hearing",
@@ -355,6 +354,5 @@ export const monitorReferences: Record<string, Reference> = {
     "url": "https://www.nidcd.nih.gov/health/adult-hearing-health-care",
     "access": "documentation",
     "supports": "成人听力健康服务路径、听力测试、助听技术与预防资源；用于区分筛查、评估、设备和长期听力健康管理。"
-  },
-
+  }
 };
