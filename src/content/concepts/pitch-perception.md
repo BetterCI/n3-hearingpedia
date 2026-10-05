@@ -65,7 +65,7 @@ key_facts:
 若成分满足：
 
 $$
-f_n=nF_0,qquad n=1,2,3,ldots
+f_n=nF_0,\\qquad n=1,2,3,\\ldots
 $$
 
 听者通常会形成接近 $F_0$ 的整体音高。
@@ -75,7 +75,7 @@ $$
 即使删除实际 $F_0$ 分量，只保留：
 
 $$
-2F_0, 3F_0, 4F_0,ldots
+2F_0,\\ 3F_0,\\ 4F_0,\\ldots
 $$
 
 听者仍可感到接近 $F_0$ 的 pitch。
@@ -174,13 +174,13 @@ Hartmann 等的 mistuned-harmonic 实验说明，pitch judgement 与 auditory gr
 可报告：
 
 $$
-rac{Delta f}{f}
+\\frac{\\Delta f}{f}
 $$
 
 或：
 
 $$
-rac{Delta F_0}{F_0}
+\\frac{\\Delta F_0}{F_0}
 $$
 
 但阈值好不保证形成自然 pitch。
@@ -198,10 +198,10 @@ $$
 若两个频率为 $f_1$、$f_2$：
 
 $$
-Delta s=12log_2left(rac{f_2}{f_1}ight)
+\\Delta s=12\\log_2\\left(\\frac{f_2}{f_1}\\right)
 $$
 
-$Delta s$ 是物理半音差，不等于主观 pitch distance。
+$\\Delta s$ 是物理半音差，不等于主观 pitch distance。
 
 ### Pitch salience
 
