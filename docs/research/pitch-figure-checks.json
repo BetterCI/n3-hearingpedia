@@ -1,0 +1,71 @@
+{
+  "files": [
+    {
+      "name": "01-everyday-scenes",
+      "title": "日常聆听中的音高",
+      "width": 1400,
+      "height": 730
+    },
+    {
+      "name": "02-missing-fundamental",
+      "title": "缺失基频与共同周期",
+      "width": 1400,
+      "height": 707
+    },
+    {
+      "name": "03-harmonic-resolvability",
+      "title": "谐波可分辨性示意",
+      "width": 1400,
+      "height": 784
+    },
+    {
+      "name": "04-place-time-candidates",
+      "title": "位置与时域的候选解释",
+      "width": 1400,
+      "height": 667
+    },
+    {
+      "name": "05-pitch-tasks",
+      "title": "音高任务示意",
+      "width": 1400,
+      "height": 638
+    },
+    {
+      "name": "06-ci-pitch-parameters",
+      "title": "人工耳蜗刺激参数示意",
+      "width": 1400,
+      "height": 891
+    },
+    {
+      "name": "07-pitch-helix",
+      "title": "音高螺旋与音级圆环",
+      "width": 1400,
+      "height": 849
+    }
+  ],
+  "checks": {
+    "fullPeriod5ms": 6.106226635438361e-15,
+    "missingPeriod5ms": 6.994405055138486e-15,
+    "lowHarmonicSpacing": [
+      200,
+      200
+    ],
+    "highHarmonicSpacing": [
+      200,
+      200
+    ],
+    "ciEventCounts100ms": [
+      10,
+      20,
+      100
+    ],
+    "gaussianFwhmHz": [
+      100,
+      650
+    ],
+    "helixOctaveSemitones": 12,
+    "helixCAlignmentError": 0,
+    "figureCount": 7,
+    "style": "White background; lettered panels; no decorative headers, cards, or prose banners."
+  }
+}

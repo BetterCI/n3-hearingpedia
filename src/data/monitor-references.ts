@@ -413,7 +413,7 @@ export const monitorReferences: Record<string, Reference> = {
     "doi": "10.3389/fnins.2022.1074752",
     "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.1074752/full",
     "access": "fulltext",
-    "supports": "综述音高编码中 place、temporal/phase-locking 与组合模型的核心争议；强调尚无单一机制获得决定性支持，并讨论人工耳蜗等临床意义。"
+    "supports": "已核对公开全文相关段落：位置、时域与相位锁定及联合模型的争议、缺失基频和谐波结构；尚无单一机制获得决定性支持，不把可用神经信息等同于可感知音高。"
   },
   "abrams-pitch-cortex-2025": {
     "title": "Dynamics of Pitch Perception in the Auditory Cortex",
@@ -431,19 +431,19 @@ export const monitorReferences: Record<string, Reference> = {
     "year": "2025",
     "publication": "JASA Express Letters, 5(1), 014403",
     "doi": "10.1121/10.0034894",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11789513/",
-    "access": "fulltext",
-    "supports": "8–11 岁儿童与成人的纯音、resolved 和 unresolved harmonic 音高辨别；resolved 条件优于 unresolved，8–9 岁整体阈值较高，10–11 岁在所测 400 Hz 条件下接近成人。"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39878580/",
+    "access": "abstract",
+    "supports": "已核对原始摘要及公开方法线索：8–11 岁儿童与成人的纯音、可分辨与不可分辨谐波辨别；可分辨条件较好，8–9 岁阈值较高，10–11 岁在所测 400 Hz 条件下接近成人，不作为所有听觉能力成熟的年龄界线。"
   },
-  "reiss-ci-pitch-2019": {
+  "swanson-ci-pitch-2019": {
     "title": "Place and Temporal Cues in Cochlear Implant Pitch and Melody Perception",
-    "authors": "Reiss, L. A. J., Turner, C. W., Erenberg, S. R. & Gantz, B. J.",
+    "authors": "Swanson, B. A., Marimuthu, V. M. R. & Mannell, R. H.",
     "year": "2019",
     "publication": "Frontiers in Neuroscience, 13, 1266",
     "doi": "10.3389/fnins.2019.01266",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6888014/",
+    "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2019.01266/full",
     "access": "fulltext",
-    "supports": "系统讨论 CI 的 place、pulse-rate 与 envelope/temporal cues，以及二者对 pitch 与 melody 的相对贡献；用于强调 CI 音高不是单一轴线。"
+    "supports": "已读原始全文摘要、引言及方法：6 名成人 Nucleus 使用者经自身 ACE 处理器完成辨别、排序及旋律任务；部分混合线索条件较差且出现排序反转，位置变化亦可能涉及亮度。为原始研究，校正旧版作者误列及综述描述。"
   },
   "carlyon-ci-temporal-2025": {
     "title": "Limitations on Temporal Processing by Cochlear Implant Users: A Compilation of Viewpoints",
@@ -457,13 +457,13 @@ export const monitorReferences: Record<string, Reference> = {
   },
   "degroote-ci-pitch-2025": {
     "title": "Temporal Pitch Perception of Multi-Channel Stimuli by Cochlear-Implant Users",
-    "authors": "de Groote, E., Macherey, O., Deeks, J. M. et al.",
+    "authors": "de Groote, E., Macherey, O., Deeks, J. M., Roman, S. & Carlyon, R. P.",
     "year": "2025",
     "publication": "Journal of the Association for Research in Otolaryngology, 26(3), 301–315",
     "doi": "10.1007/s10162-025-00983-4",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12133670/",
+    "url": "https://link.springer.com/article/10.1007/s10162-025-00983-4",
     "access": "fulltext",
-    "supports": "8 名 MED-EL CI 用户的多通道脉冲实验；四个顶端电极使用相同速率时，音高排序随速率上升到约 200–300 pps，探索在低频多通道刺激中恢复 temporal pitch 的可行性。"
+    "supports": "已读出版社全文摘要、相关引言及方法：8 名 MED-EL 使用者四个顶端电极的多通道刺激，同速率下音高排序随速率增加至约 200–300 脉冲/秒；混合速率未形成预期基频整合，改变电极间延迟亦影响判断。保留负结果，不等同临床完整策略验证。"
   },
   "berg-ci-music-2025": {
     "title": "Cochlear Implant Electrode Placement and Music Perception",
@@ -471,8 +471,8 @@ export const monitorReferences: Record<string, Reference> = {
     "year": "2025",
     "publication": "JAMA Otolaryngology–Head & Neck Surgery, 151(3), 220–227",
     "doi": "10.1001/jamaoto.2024.4761",
-    "url": "https://jamanetwork.com/journals/jamaotolaryngology/fullarticle/2829094",
-    "access": "fulltext",
-    "supports": "50 名成人 CI 的电极位置与音乐感知关联，以及 34 人 image-guided programming 实验；支持 electrode placement 与个体化编程可能影响 pitch/melody/timbre，但不作为普遍疗效结论。"
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39786766/",
+    "access": "abstract",
+    "supports": "已核对原始摘要的设计与结果：50 名成人的位置关联及其中 34 人的影像引导编程比较；旋律识别改善与部分音高阈值收益按任务、配置限定，不推出统一最佳电极位置或普遍停用顶端电极的建议。"
   }
 };

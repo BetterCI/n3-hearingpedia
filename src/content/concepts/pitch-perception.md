@@ -2,402 +2,260 @@
 title: "音高感知"
 english: "Pitch Perception"
 slug: "pitch-perception"
-summary: "听觉系统从频谱位置、谐波结构、神经时间信息和上下文中形成高低、周期性与旋律相关知觉的过程；音高不是频率或基频本身。"
+summary: "声音高低的知觉及其在旋律、声调、语调与声音分组中的作用；介绍声学基础、位置与时域表征、测量方法及人工耳蜗中的音高问题。"
 categories: ["psychoacoustics","neuroscience"]
-tags: ["pitch","fundamental-frequency","resolved-harmonics","temporal-coding","place-coding","phase-locking","cochlear-implant"]
+tags: ["音高","基频","谐波可分辨性","位置编码","时域编码","相位锁定","人工耳蜗"]
 aliases: ["pitch","音调感知","音高知觉","F0 pitch","periodicity pitch"]
 batch: 2
 status: "draft"
 last_updated: "2026-10-05"
 literature_checked_at: "2026-10-05"
-authors: ["AI 辅助重构"]
-illustration: {"src":"figures/pitch-coding-hierarchy.svg","alt":"从声学结构、耳蜗滤波、听神经 place 和 phase locking 到听觉皮层与音高知觉的层级示意","caption":"音高并非由单一声学变量或单一神经机制直接读取，而是在多个层级整合 place、timing、harmonic pattern 与上下文后形成。"}
-references: ["oxenham-pitch-2023","glasberg-1990","oxenham-2004","hartmann-1990","abrams-pitch-cortex-2025","fung-pitch-development-2025","reiss-ci-pitch-2019","carlyon-ci-temporal-2025","degroote-ci-pitch-2025","berg-ci-music-2025","zeng-2008","zhou-tle-2022","wang-ditone-2022","zhou-f0intfs-2023","li-covarying-2025"]
+authors: ["AI 辅助编写"]
+references: ["oxenham-pitch-2023","glasberg-1990","oxenham-2004","hartmann-1990","abrams-pitch-cortex-2025","fung-pitch-development-2025","swanson-ci-pitch-2019","carlyon-temporal-2025","degroote-ci-pitch-2025","berg-ci-music-2025","zeng-2008","zhou-tle-2022","wang-ditone-2022","zhou-f0intfs-2023","li-covarying-2025","shackleton-1994","shepard-1964","shepard-1982"]
 order: 10
 knowledge_area: "perception"
 kind: "function"
 key_facts:
-  - {label: "本质", value: "知觉属性，不等于 frequency 或 F0"}
-  - {label: "主要线索", value: "cochlear place、harmonic pattern、phase locking 与 envelope periodicity"}
-  - {label: "经典现象", value: "missing fundamental、resolved / unresolved harmonics"}
-  - {label: "神经前沿", value: "多线索在皮层形成可泛化表征，并受上下文与预测调节"}
-  - {label: "CI 难点", value: "place、rate、AM 和 neural interface 提供不完整且有时相互冲突的音高线索"}
+  - {label: "性质", value: "声音高低的知觉，需与频率及基频区分"}
+  - {label: "主要线索", value: "频谱位置、谐波结构、时域周期性及上下文"}
+  - {label: "经典现象", value: "缺失基频、谐波可分辨性与八度相似性"}
+  - {label: "测量", value: "辨别、高低判断、排序、匹配及旋律任务"}
+  - {label: "人工耳蜗", value: "刺激位置、脉冲率与振幅调制线索及其相互作用"}
 ---
 
-**音高感知**（pitch perception）是听觉系统把声音组织为“高—低”、周期性、旋律与声源身份等知觉维度的过程。对周期复合音而言，音高常与[基频](../fundamental-frequency/)（fundamental frequency, $F_0$）密切相关，但 **pitch 是知觉，frequency 和 $F_0$ 是物理描述**，三者不能互换。[1](#ref-oxenham-pitch-2023 "Questions and controversies surrounding the perception and neural coding of pitch")
+**音高感知**（pitch perception）是听者感到声音高低，并据此比较、排列或匹配声音的知觉过程。对于周期性声音，音高通常与[基频](../fundamental-frequency/)有关，但基频是声学参数，音高是听觉体验，两者不能直接等同。相同基频的声音可以具有不同的音色和音高清晰程度；声谱中没有基频分量的复合音，也可能产生与该基频对应的音高。[1](#ref-oxenham-pitch-2023)
 
-现代心理声学和神经科学越来越支持一种更谨慎的观点：音高不是由耳蜗位置、神经时间间隔或某一个“pitch center”单独决定，而是由**频谱位置、谐波结构、神经 phase locking、跨通道关系和上下文预测共同约束的多层表征**。[1](#ref-oxenham-pitch-2023 "Questions and controversies surrounding the perception and neural coding of pitch")
+音高参与旋律和音程感知，也为[普通话汉语声调](../mandarin-lexical-tone/)、语调和声源分组提供线索。研究音高既需要说明声音的频谱与时域结构，也需要明确听者完成的任务。声学参数被准确提取、神经活动包含周期性信息，以及听者形成清晰音高，属于不同层面的结果。[1](#ref-oxenham-pitch-2023)[7](#ref-swanson-ci-pitch-2019)
 
-![音高编码层级](/n3-hearingpedia/figures/pitch-coding-hierarchy.svg)
+<figure class="pitch-figure">
+<a href="/n3-hearingpedia/figures/pitch/01-everyday-scenes.svg" target="_blank" rel="noopener" aria-label="查看完整矢量图"><img src="/n3-hearingpedia/figures/pitch/01-everyday-scenes.svg" alt="音乐旋律、普通话汉语声调、语音语调与鸡尾酒会中的音高线索" width="1400" height="730" loading="lazy" /></a>
+<figcaption><strong>图 1　日常聆听中的音高。</strong> 音高关系参与旋律与音程感知，音高走势参与声调和语调表达，并为多声源环境中的声音分组和说话者追踪提供线索。实际聆听还结合音色、空间位置、语义及注意。场景和曲线均为教学示意，声调与语调会随说话人和语境变化。<a href="#ref-oxenham-pitch-2023">1</a></figcaption>
+</figure>
 
-## 音高到底是什么
+## 定义与知觉维度
 
-### Pitch height
+### 音高高低与音高显著性
 
-表示音高在低到高轴上的位置。
+音高高低描述声音在较低到较高维度上的位置。例如两个纯音的频率不同时，在合适的声级和频率范围内，听者通常能够判断哪个更高。对于复合音，这种判断还取决于谐波结构和可用线索，不能仅凭最强或最低的一个频谱分量作出预测。
 
-### Pitch salience
+音高显著性（pitch salience）描述音高是否突出、明确并容易判断。一个声音可能具有可报告的音高，却难以与其他声音进行稳定比较；另一个声音的基频相同，音高却更清楚。显著性、重复判断的一致性和辨别阈值彼此相关，但并不是同一个指标。不可分辨谐波的音高也可能受分量相位影响，说明相同基频并不保证相同的音高体验。[16](#ref-shackleton-1994)
 
-表示音高是否清晰、稳定、容易判断。两个刺激即使 nominal $F_0$ 相同，也可能具有完全不同的 pitch salience。
+### 音级、音程与旋律
 
-### Pitch chroma 与音程
+<figure class="pitch-figure">
+<a href="/n3-hearingpedia/figures/pitch/07-pitch-helix.svg" target="_blank" rel="noopener" aria-label="查看完整矢量图"><img src="/n3-hearingpedia/figures/pitch/07-pitch-helix.svg" alt="每圈一个八度的音高螺旋以及十二平均律音级圆环" width="1400" height="849" loading="lazy" /></a>
+<figcaption><strong>图 2　音高螺旋与音级圆环。</strong> （a）以十二平均律为示意条件，轴向高度对应半音级数，每圈对应一个八度；C4（中央 C）、C5 和 C6 高低不同，却具有同一个 C 音级，因而落在平行于螺旋轴的同一直线上。图中的音符符号仅标记位置，不指定时值。（b）沿螺旋轴投影后，不同八度的同一音级重合为圆环上的一点。圆周按十二个音级等分，以升号标记半音位置。几何距离和螺距为绘图设定，不是测得的主观音高距离或神经解剖结构，也不表示声音可以在绝对音高上无限上升。<a href="#ref-shepard-1982">18</a></figcaption>
+</figure>
 
-音乐中还涉及 octave equivalence、音级类别和相对音程等更高层结构，不能由一次简单的 frequency discrimination 代表。
 
-### 可辨别不等于“真的听到音高”
+音乐中的音高关系还包括八度相似性和音级。相隔八度的两个声音在高低上不同，却可以属于相同的音级；音级描述这种随八度重复的音乐类别，不能与音色混为一谈。经典谢泼德音实验利用特殊复合音产生循环高低判断，说明某些刺激的音高关系无法仅用一条直线表示。[17](#ref-shepard-1964)
 
-两个刺激可以被区分，并不代表听者一定使用 pitch。频谱重心、响度、粗糙度或起止包络也可能支持正确反应。
+音程描述两个音之间的关系，旋律则进一步涉及连续音程、升降轮廓、节奏和记忆。同样的旋律移到另一音区后，绝对音高改变，音程关系仍可保持。听者能判断两声不同，或正确报告升降方向，并不自动意味着能够准确识别音程和旋律。[7](#ref-swanson-ci-pitch-2019)
 
-因此需要区分：
+### 音高与频率、响度和音色
 
-**difference detection → high/low ordering → pitch matching → interval/melody → naturalness**
+纯音频率和音高通常密切相关，因此频率辨别常用来研究音高敏感性。复合音的整体音高与各个分量频率之间的关系更复杂。改变频谱重心、分量强度或起止包络，还可能改变亮度、响度和粗糙感；听者可能利用这些差异完成任务。
 
-这些是不同层级的任务。
+因此，“能够区分两个声音”“能够稳定判断高低”和“能够匹配出相同音高”应分别报告。这些任务没有对所有听者都成立的固定难度阶梯。主观自然程度也应独立评价，不能作为音高辨别正确率的另一种名称。[7](#ref-swanson-ci-pitch-2019)
 
-## 从纯音到复杂音：为什么音高不是“最低频率”
+## 声学基础与经典现象
 
-### 纯音
+### 纯音、谐波复合音与缺失基频
 
-对于单一正弦波，物理 frequency 与 pitch 通常高度相关，因此纯音是 frequency discrimination 的经典刺激。
+<figure class="pitch-figure">
+<a href="/n3-hearingpedia/figures/pitch/02-missing-fundamental.svg" target="_blank" rel="noopener" aria-label="查看完整矢量图"><img src="/n3-hearingpedia/figures/pitch/02-missing-fundamental.svg" alt="200 Hz 谐波复合音保留与移除基频分量的波形及频谱对照" width="1400" height="707" loading="lazy" /></a>
+<figcaption><strong>图 3　缺失基频与共同周期。</strong> （a、b）保留 200、400、600、800 Hz；（c、d）仅保留 400、600、800 Hz。两组数学信号的最短周期均为 5 ms；（d）中 200 Hz 处的虚线只标出缺失位置，不是实际频谱分量。在合适条件下，缺失组也可能产生接近 200 Hz 的整体音高。波形按分量数独立归一化，频谱将各等幅分量记为 1；此展示未进行响度匹配。<a href="#ref-oxenham-pitch-2023">1</a></figcaption>
+</figure>
 
-### 谐波复合音
 
-若成分满足：
-
-$$
-f_n=nF_0,\\qquad n=1,2,3,\\ldots
-$$
-
-听者通常会形成接近 $F_0$ 的整体音高。
-
-### Missing fundamental
-
-即使删除实际 $F_0$ 分量，只保留：
+纯音只有一个正弦频率分量，适合在控制其他参数后测量频率变化的可察觉程度。谐波复合音包含某个基频的整数倍分量，可写成：
 
 $$
-2F_0,\\ 3F_0,\\ 4F_0,\\ldots
+f_n=nF_0,\qquad n=1,2,3,\ldots
 $$
 
-听者仍可感到接近 $F_0$ 的 pitch。
+其中 $F_0$ 为基频，$f_n$ 为第 $n$ 个谐波的频率，两者单位均为 Hz，$n$ 为正整数。许多谐波复合音产生接近 $F_0$ 的整体音高，听者也可能在特定任务中注意到某个单独分量。讨论结果时，应区分整体音高和分量音高。[1](#ref-oxenham-pitch-2023)
 
-因此：
+缺失基频指声音没有实际的 $F_0$ 频谱分量，却包含其较高阶谐波。例如 400、600 和 800 Hz 是 200 Hz 的第 2、3、4 谐波；在合适条件下，这组分量能够产生接近 200 Hz 的整体音高。这个现象说明，听觉系统可以利用分量之间的共同结构，音高不必对应声谱中的最低实际频率。[1](#ref-oxenham-pitch-2023)
 
-> **音高不是在频谱中寻找最低实际分量。**
+上述例子是教学说明，不是对所有听者的结果保证。实际实验还应检查播放系统及耳蜗非线性是否产生低频失真分量，必要时用掩蔽声限制这类线索。仅展示缺失基频现象，尚不能决定音高究竟由位置、时域还是联合机制形成。
 
-听觉系统可以从多个成分之间的共同结构推断一个共同周期。[1](#ref-oxenham-pitch-2023 "Questions and controversies surrounding the perception and neural coding of pitch")
+### 可分辨与不可分辨谐波
 
-## Resolved 与 unresolved harmonics
+<figure class="pitch-figure">
+<a href="/n3-hearingpedia/figures/pitch/03-harmonic-resolvability.svg" target="_blank" rel="noopener" aria-label="查看完整矢量图"><img src="/n3-hearingpedia/figures/pitch/03-harmonic-resolvability.svg" alt="相同200 Hz谐波间距下，宽窄示意滤波器及输出包络的对照" width="1400" height="784" loading="lazy" /></a>
+<figcaption><strong>图 4　谐波间距与滤波器带宽。</strong> 两组谐波间距均为 200 Hz。（a、c）高斯幅度滤波器说明较窄滤波器分别表征分量、较宽滤波器接收多个分量的区别，黑色竖线为谐波，实线为所选中心滤波器增益。（b、d）相应中心通道的数学输出，绿色虚线为解析信号幅值。示意带宽为半高全宽 100 和 650 Hz，未拟合真实听觉滤波器，也不是等效矩形带宽。输出分别归一化；图中的具体参数不构成谐波可分辨性的通用界线。<a href="#ref-glasberg-1990">2</a><a href="#ref-shackleton-1994">16</a></figcaption>
+</figure>
 
-这是现代 pitch psychophysics 最关键的区分之一。
 
-### Resolved harmonics
+谐波是否可分辨，取决于谐波间距与[听觉滤波器](../auditory-filter/)带宽的关系。对给定基频，相邻谐波的绝对频率间距都是 $F_0$，低阶谐波并不是因为间距更大而更容易分辨。正常听觉中，滤波器的绝对带宽通常随中心频率增加；较低阶谐波因此较容易分别形成响应峰，高阶谐波则更容易在同一滤波器内重叠。[2](#ref-glasberg-1990)
 
-低阶谐波间隔相对较大，经过[听觉滤波器](../auditory-filter/)后可在耳蜗形成相对独立的响应峰，因此每个谐波保留较清晰的 place 与 timing information。[2](#ref-glasberg-1990 "Derivation of auditory filter shapes from notched-noise data")
+可分辨谐波保留相对明确的分量位置及其时域信息。不可分辨谐波的单独响应峰不清楚，但多个分量在滤波器内相互作用，仍可形成与基频相关的包络起伏。二者描述外周表征条件，不能简单等同于“只有位置信息”和“只有时域信息”。[16](#ref-shackleton-1994)
 
-通常它们产生更精确的 $F_0$ discrimination 和更强的 pitch salience。
+心理物理实验表明，可分辨谐波通常支持更精细的基频辨别。不可分辨谐波也能提供音高，但其显著性、匹配结果和辨别表现可能更依赖分量相位及频谱范围。可分辨性还随声级、听力状况和刺激带宽变化，应依据具体条件判断，而不宜为所有声音规定统一的谐波阶数分界。[16](#ref-shackleton-1994)
 
-### Unresolved harmonics
+### 失谐与声音分组
 
-当多个高阶谐波落入同一耳蜗滤波器时，单独谐波的 place pattern 变得模糊，但通道输出会产生与 $F_0$ 相关的 **temporal-envelope periodicity**。
+某个分量轻微偏离整数倍关系时，称为失谐。失谐既可能影响整体音高，也可能使该分量更容易被听成独立声音。听者此时的判断，可能涉及复合音整体、突出分量或两者之间的关系，因而需要明确任务所指的对象。
 
-因此 unresolved harmonics 并不是“没有 pitch information”，而是依赖不同的线索组合。
+Hartmann 等的失谐谐波研究通过音高匹配和声音分离任务考察这类变化。它为区分音高判断与听觉分组提供了实验方法，也提醒研究者：相同分量在不同组合和聆听任务中，并不一定具有完全相同的知觉作用。[4](#ref-hartmann-1990)
 
-2025 年儿童研究在 400 Hz $F_0$ 条件下发现：儿童和成人都表现出 resolved 条件优于 unresolved 条件；8–9 岁儿童整体阈值较高，而 10–11 岁组在所测条件下接近成人。[6](#ref-fung-pitch-development-2025 "Pitch perception in school-aged children: Pure tones, resolved and unresolved harmonics")
+## 音高的外周与中枢表征
 
-这提示 pitch 还具有明显的**发育维度**。
+<figure class="pitch-figure">
+<a href="/n3-hearingpedia/figures/pitch/04-place-time-candidates.svg" target="_blank" rel="noopener" aria-label="查看完整矢量图"><img src="/n3-hearingpedia/figures/pitch/04-place-time-candidates.svg" alt="同一谐波复合音的位置及时域线索与候选音高计算" width="1400" height="667" loading="lazy" /></a>
+<figcaption><strong>图 5　线索、候选计算与音高判断。</strong> （a）位置相关响应分布；（b）时域放电规律。候选模型可能分别或联合利用这些信息。放电序列允许跳过周期，用以说明相位锁定并不要求每个周期都放电。响应峰和放电事件均为人工合成，未使用实验记录；箭头表示解释路径，不是已确立的神经因果关系。<a href="#ref-oxenham-pitch-2023">1</a></figcaption>
+</figure>
 
-## Place code、temporal code 还是两者结合
 
-### Place / place-pattern coding
+### 位置编码
 
-[耳蜗](../cochlea/)具有明确的[频位映射关系](../tonotopy/)。不同频率产生不同空间激活模式，因此 place code 是 pitch 的天然候选机制。
+[耳蜗](../cochlea/)的不同位置对不同频率较敏感，形成[频位映射关系](../tonotopy/)。位置编码利用这种频率相关的活动分布描述声音。对于可分辨谐波，候选机制还可以利用多个响应峰之间的关系，估计共同基频。
 
-对于 resolved harmonics，多个低阶谐波还可形成稳定的 harmonic place pattern。
+位置表征包含频率信息，但声学频率的外周分布并不等于已经形成的感知音高。刺激声级、滤波器带宽和频谱组成都会影响活动分布；研究模型时，还要说明它怎样从这些变化中得到较稳定的音高判断。[1](#ref-oxenham-pitch-2023)
 
-### Temporal / phase-locking coding
+### 时域编码与相位锁定
 
-听神经放电在一定频率范围内会随刺激周期出现 phase locking，使 interspike interval 和群体时间结构包含周期信息。
+相位锁定指神经放电倾向于出现在刺激周期的某些相位附近，并不要求每个周期都产生一个动作电位。放电间隔和群体活动因此可以包含重复规律。候选时域模型利用这些规律估计周期性，包括可分辨分量的[时域精细结构](../temporal-fine-structure/)信息，以及不可分辨分量形成的[时域包络](../temporal-envelope/)信息。[1](#ref-oxenham-pitch-2023)
 
-但人类 perceptual pitch 所需要的 phase-locking 上限到底在哪里、哪些 timing information 真正被中枢读取，以及 place 与 timing 各自的必要性，仍没有完全解决。[1](#ref-oxenham-pitch-2023 "Questions and controversies surrounding the perception and neural coding of pitch")
+神经活动包含周期信息，不等于听者一定能有效利用这些信息。相位锁定的有效范围、人类和动物之间的差异，以及周期信息在各级神经结构中的转换仍存在争议。人体频率跟随反应、动物单神经元记录和行为辨别测量不同对象，不能直接合并为同一个音高编码上限。[1](#ref-oxenham-pitch-2023)
 
-### Place–time / spectrotemporal coding
+### 位置与时域信息的联合利用
 
-越来越多模型不再把 place 与 time 当成非此即彼，而认为自然 pitch 很可能使用**跨通道的时空联合结构**。
+联合模型同时考虑神经活动发生的位置和时序，关注不同频带之间是否存在可供整合的规律。位置模型、时域模型和联合模型在部分刺激上可能作出相似预测；只有设计能够区分预测的实验，才能更有力地约束机制。
 
-Oxenham 等的移置刺激研究尤其重要：如果把 temporal pitch information 放到不符合自然 tonotopy 的位置，复杂音高明显受损，说明 timing 不能完全脱离 place 来解释。[3](#ref-oxenham-2004 "Correct tonotopic representation is necessary for complex pitch perception")
+Oxenham 等在 2004 年用移置刺激把低频时域信息呈现到较高频率区域，发现听者难以获得原先预期的复杂音高。这表明，在该实验条件下，保存时域规律本身并不充分，信息所处的位置也很重要。结果不能被扩大为对所有时域机制的否定，也没有单独确立适用于全部音高的联合模型。[3](#ref-oxenham-2004)
 
-因此目前最稳妥的表述是：
+### 皮层表征与上下文
 
-> **正常音高依赖 place、timing 与 harmonic relationship 的条件性整合，而不是单一万能代码。**
+形成音高感知需要把外周输入转化为可用于判断、记忆和行为的表征。若不同频谱或不同线索的声音能产生相似音高，研究者就可以考察神经表征能否跨刺激类型泛化。这种泛化有助于区分对单一声学参数的响应与更接近感知结果的表征。
 
-## 从外周到皮层：音高表征越来越抽象
+Abrams 等在 2025 年对 28 名参与者进行脑磁图研究，比较纯音、缺失基频复合音及线索存在歧义的声音。解码结果发现，在所测条件下，双侧低至中级听觉皮层及感觉运动皮层的活动能够跨线索类型表征音高，并呈现右侧优势。对于歧义声音，可预测上下文使相应表征更早出现。[5](#ref-abrams-pitch-cortex-2025)
 
-耳蜗和听神经首先把声音展开成频率相关的群体活动与时间结构，但 pitch percept 最终必须具有一定 **cue invariance**：
+这项研究支持考察线索整合和上下文对音高形成的影响。脑磁图解码能够揭示与任务有关的神经信息，但不能仅凭可解码性确定唯一的“音高中枢”，或证明某个区域对音高感知具有必要的因果作用。[5](#ref-abrams-pitch-cortex-2025)
 
-- 有实际 $F_0$ 和 missing fundamental 可以产生相似 pitch；
-- 不同 timbre 可以具有同样的 pitch；
-- 不同声学实现可以落到相同的音高类别。
+## 音高在语音、音乐和听觉分组中的作用
 
-2025 年 Abrams 等用 MEG 比较纯音、missing-fundamental complex 和 cue-ambiguous stimuli，发现不同刺激类型可以在双侧 low-to-mid auditory cortex 与 sensorimotor cortex 中形成能够**跨 cue type 泛化**的 pitch representation，并表现出右侧优势。[5](#ref-abrams-pitch-cortex-2025 "Dynamics of Pitch Perception in the Auditory Cortex")
+声音中共同的谐波结构和周期性可以帮助听者将分量组织为同一声源，也有助于区分和跟踪某些同时出现的声音。多声源聆听还利用空间位置、共同起止、语义及注意等线索，音高只是其中一部分。音高相关任务的表现不能直接代替复杂环境中的语音理解或[听觉注意](../auditory-attention/)能力。[1](#ref-oxenham-pitch-2023)[4](#ref-hartmann-1990)
 
-更重要的是，可预测上下文会使歧义刺激的 pitch representation 更早出现。[5](#ref-abrams-pitch-cortex-2025 "Dynamics of Pitch Perception in the Auditory Cortex")
+在普通话中，基频轮廓为词汇声调提供重要线索，听者也可能利用时长、强度及语言上下文。DiTone 研究分别操纵基频和响度轮廓，为考察人工耳蜗使用者的线索利用提供了方法。因此，正确识别声调不一定表示基频音高已经恢复到正常听觉水平，需要通过独立音高任务进一步验证。[13](#ref-wang-ditone-2022)
 
-这意味着现代 pitch neuroscience 已经不只是“place vs timing”，还要考虑：
+音乐中的升降轮廓、精细音程、旋律识别和音乐欣赏也应分开。某种线索可能足以帮助识别熟悉旋律，却不足以支持精确音程判断。熟悉材料还涉及记忆和预期，所以判断编码策略能否改善音乐功能时，应说明具体任务与材料。[7](#ref-swanson-ci-pitch-2019)
 
-**bottom-up evidence + cortical integration + expectation**
+## 测量与实验控制
 
-共同决定音高何时形成。
+<figure class="pitch-figure">
+<a href="/n3-hearingpedia/figures/pitch/05-pitch-tasks.svg" target="_blank" rel="noopener" aria-label="查看完整矢量图"><img src="/n3-hearingpedia/figures/pitch/05-pitch-tasks.svg" alt="差异辨别、高低判断、排序、匹配及旋律任务并列示意" width="1400" height="638" loading="lazy" /></a>
+<figcaption><strong>图 6　不同音高任务测量不同能力。</strong> （a）从成对呈现的三组声音中辨别差异；（b）判断两声的高低方向；（c）按高低排序；（d）调整比较音，匹配参照音；（e）考察音程和旋律关系。实际实验需要明确参照、反应形式与评分方法。各任务并列呈现，不表示固定难度阶梯；共同需要检查响度、音色等非音高线索。曲线、音符和相对高度均为示意。<a href="#ref-swanson-ci-pitch-2019">7</a></figcaption>
+</figure>
 
-## Pitch 与 auditory object formation
 
-音高不仅用于判断高低，还参与复杂声景中的对象形成和跟踪。
+### 辨别、排序与匹配
 
-不同 $F_0$ 可以帮助：
-- 分离同时说话的人；
-- 跟踪目标 voice；
-- 形成 harmonic auditory object；
-- 维持旋律线；
-- 识别语调和情绪。
+辨别任务可以要求听者报告两声是否不同，也可以要求判断哪一声更高。这两种要求并不相同：前者允许使用任何可靠差异，后者需要形成与高低有关的判断。测量纯音频率或复合音基频的差别阈时，应说明任务指令、自适应程序、正确率标准及刺激参数。
 
-因此 pitch deficit 可能进一步影响[听觉注意](../auditory-attention/)和多声源 scene segregation。
+音高排序要求把多个声音组织为高低次序，可以检查顺序是否稳定、是否出现反转，以及重复测量的一致性。音高匹配则要求调整或选择比较声音，使其与参考声的音高尽可能相同；它可以用于不同音色、两耳或声学与电刺激之间的比较，但仍受比较范围和任务规则影响。[7](#ref-swanson-ci-pitch-2019)
 
-## 轻微失谐为什么重要
+匹配得到一个数值，不意味着两个声音在所有知觉维度上相同。特别是声学—电音高匹配，结果还可能受电听觉经历、可选比较声和判断策略影响，应同时记录听者配置和重复测量结果。[11](#ref-zeng-2008)
 
-如果一个谐波偏离严格整数倍关系，它可能同时改变整体 pitch，并逐渐从原来的 harmonic object 中“跳出”。
+### 相对频率差与音程尺度
 
-Hartmann 等的 mistuned-harmonic 实验说明，pitch judgement 与 auditory grouping 可以被系统操纵。[4](#ref-hartmann-1990 "Hearing a mistuned harmonic in an otherwise periodic complex tone")
+纯音频率差可表示为 $\Delta f/f$，复合音基频差可表示为 $\Delta F_0/F_0$；两者均为无量纲相对量，可以转换为百分比，但应保留各自的刺激定义。阈值比较还需要相同或明确可比的任务条件。
 
-## 怎样测量音高
-
-### Frequency / F0 discrimination
-
-可报告：
+两个正频率之间的半音差为：
 
 $$
-\\frac{\\Delta f}{f}
+\Delta s=12\log_2\left(\frac{f_2}{f_1}\right).
 $$
 
-或：
+其中 $f_1$ 和 $f_2$ 使用相同频率单位，$\Delta s$ 的单位为半音。若 $f_2=2f_1$，物理频率关系为一个八度，即 12 半音；若 $f_2<f_1$，有符号的半音差为负。报告阈值时可取其绝对值，但应说明约定。该公式描述刺激频率比例，不是主观音高距离的直接测量，人工耳蜗脉冲率的倍增也不保证产生准确的八度感。[7](#ref-swanson-ci-pitch-2019)
 
-$$
-\\frac{\\Delta F_0}{F_0}
-$$
+### 音高显著性与音乐任务
 
-但阈值好不保证形成自然 pitch。
+研究音高显著性时，应明确问的是清晰程度、判断把握、重复稳定性，还是与其他声音的音高相似程度。主观评分的量表含义和锚点需要说明；只凭正确率变化，不能确定究竟是音高更清楚，还是听者学会利用了另一种差异。
 
-### Pitch ranking
+旋律任务应分别控制升降轮廓、音程大小、节奏和熟悉程度。只改变音符顺序与只改变音程结构，会产生不同的任务要求。将辨别、排序、匹配及旋律任务结合，可以更完整地描述可用信息和感知能力，但不应把这些结果压缩成一个没有定义的“音高总分”。[7](#ref-swanson-ci-pitch-2019)
 
-要求多个刺激形成稳定高低次序。对人工耳蜗尤其重要，因为有些刺激“可分辨”，却不能稳定排列在单一高低轴上。
+### 非音高线索与实验条件
 
-### Pitch matching
+声级随机变化、响度平衡、频谱范围控制和刺激时长匹配，可减少听者利用与研究目标无关的差异。复合音实验若仅改变基频，还可能同时改变最低分量、谐波数量或频谱边缘；因此应根据任务随机改变谐波阶数范围，或采用能够检查分量线索的对照。Fung 等的儿童研究就对最低谐波阶数进行了变化，以减少直接依赖单个频率分量的可能。[6](#ref-fung-pitch-development-2025)
 
-用于跨耳、跨电极或 acoustic–electric comparison。
+不同控制措施并非可以任意互换。改变分量相位会改变不可分辨谐波的包络，而随机声级也可能影响可分辨性。低频掩蔽声可以限制失真产物线索，却也改变聆听背景。研究者应说明每项控制的目的及对目标线索的影响，而不是把所有控制操作列为对每个音高实验都必需的固定清单。[16](#ref-shackleton-1994)
 
-### Interval 与 melody
+## 发育、听力损失与适应
 
-若两个频率为 $f_1$、$f_2$：
+儿童音高能力的发展既涉及感觉表征，也涉及注意、记忆和任务理解。Fung 等在 2025 年比较 8–11 岁儿童和成人，研究纯音以及基频为 400 Hz 的可分辨与不可分辨谐波复合音。儿童和成人均在可分辨条件下表现较好；8–9 岁组整体阈值较高，10–11 岁组在所测条件下接近成人。这是特定刺激和任务下的发育结果，不能直接作为所有语音和音乐能力成熟的年龄界线。[6](#ref-fung-pitch-development-2025)
 
-$$
-\\Delta s=12\\log_2\\left(\\frac{f_2}{f_1}\\right)
-$$
+[听力损失](../hearing-loss/)可能通过可听频谱范围、听觉滤波器选择性及可用线索变化影响音高任务。若目标谐波听不到，与能听到但不能充分分辨是不同情况。解释听损者的音高困难时，应先检查可听性、声级和刺激条件，再讨论可能的频谱或时域加工限制，不能仅凭音高阈值判断具体病理。[1](#ref-oxenham-pitch-2023)
 
-$\\Delta s$ 是物理半音差，不等于主观 pitch distance。
-
-### Pitch salience
-
-越来越值得直接测量“这个 pitch 有多清晰、稳定”，而不只是正确率。
-
-## 怎样排除非音高线索
-
-严谨实验常需要：
-- level roving 或 loudness balancing；
-- harmonic-number roving；
-- random starting phase；
-- masking distortion products；
-- 控制 spectral centroid；
-- 控制 duration 与 onset；
-- 使用多种任务交叉验证。
-
-例如 resolved/unresolved harmonic 实验若不 rove lowest harmonic number，受试者可能依赖单独频率成分，而不是 $F_0$ pitch。[6](#ref-fung-pitch-development-2025 "Pitch perception in school-aged children: Pure tones, resolved and unresolved harmonics")
-
-## 听力损失怎样改变音高
-
-[听力损失](../hearing-loss/)可通过多个途径改变 pitch：
-- auditory filter 变宽，降低 harmonic resolvability；
-- 高低频可听性变化；
-- cochlear dead region；
-- cochlear nonlinearity 改变；
-- neural temporal fidelity 改变；
-- 长期 cue reweighting。
-
-所以 pitch deficit 不只是“frequency discrimination 变差”。
+听觉经历和设备使用还可能影响音高匹配与线索权重。[听觉可塑性](../auditory-plasticity/)研究应区分短期熟悉任务、长期接受新输入和改变处理器映射。某项任务随练习改善，并不足以证明全部音高能力恢复；同样，上下文影响即时判断，也不能直接代表长期神经重组。[5](#ref-abrams-pitch-cortex-2025)[8](#ref-carlyon-temporal-2025)
 
 ## 人工耳蜗中的音高感知
 
-人工耳蜗是检验 pitch mechanism 最有价值的“自然实验”之一，因为它可以在一定程度上独立操纵**刺激位置**与**刺激时间**。[7](#ref-reiss-ci-pitch-2019 "Place and Temporal Cues in Cochlear Implant Pitch and Melody Perception")
+<figure class="pitch-figure">
+<a href="/n3-hearingpedia/figures/pitch/06-ci-pitch-parameters.svg" target="_blank" rel="noopener" aria-label="查看完整矢量图"><img src="/n3-hearingpedia/figures/pitch/06-ci-pitch-parameters.svg" alt="分别改变通道位置、脉冲率与振幅调制频率的电刺激事件图" width="1400" height="891" loading="lazy" /></a>
+<figcaption><strong>图 7　区分三种电刺激操作。</strong> （a）改变刺激通道；（b）改变单位时间内的脉冲数；（c）在固定载体脉冲率下改变振幅调制频率，黑色虚线标记调制包络。竖线表示一次事件及相对幅度，未画出实际的双相电流波形；通道序号为任意编号，参数仅用于说明操作。相同单脉冲幅度不保证等响度，真实实验还需控制通道交互等因素。改变参数是否产生预期音高，需要行为测量验证。<a href="#ref-carlyon-temporal-2025">8</a><a href="#ref-zeng-2008">11</a></figcaption>
+</figure>
 
-![人工耳蜗中的音高线索](/n3-hearingpedia/figures/ci-pitch-cues.svg)
 
-### Place pitch
+### 位置音高与电极—神经接口
 
-一般而言，更 basal 的电极往往产生更高 pitch，更 apical 的电极往往产生更低 pitch。
+[人工耳蜗](../cochlear-implant/)可以改变电极位置和刺激时序，因此为研究位置及时域线索提供了特殊条件。通常，较基底侧电极倾向产生较高的位置音高，较顶端电极倾向产生较低的位置音高；实际次序和差异仍受电极—神经接口及个体情况影响。[11](#ref-zeng-2008)
 
-但 electric place pitch 不等于自然 cochlear frequency，因为它同时受到：
-- 电极数量有限；
-- current spread；
-- electrode-to-modiolus distance；
-- scalar location；
-- neural survival；
-- spiral-ganglion map；
-- frequency–place mismatch
+电极位置不能直接换算为自然声学音高。电流扩散、[通道相互作用](../channel-interaction/)、电极与神经的相对位置，以及频率分配与刺激位置失配，都会影响电输入。开机初期和长期使用后的声学—电匹配也可能不同。因此应区分解剖位置、处理器频带和行为匹配结果，而不是把电极编号作为统一音高尺度。[11](#ref-zeng-2008)
 
-影响。[11](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation")
+### 脉冲率音高与振幅调制音高
 
-长期使用还可能产生 perceptual adaptation，所以开机初期的 acoustic–electric match 不一定是最终稳定 mapping。
+在固定电极上改变脉冲重复率，可以改变时域刺激规律；在较高载波脉冲率下改变电流振幅的调制频率，则改变另一种周期线索。两者都可能产生音高相关判断，但脉冲间隔、调制深度和神经招募不同，不应仅用“提高频率”概括操作。[8](#ref-carlyon-temporal-2025)
 
-### Temporal / rate pitch
+不少使用者在低至中等脉冲率下能判断随速率增加而上升的音高，而到较高速率后，判断可能变弱、饱和或不稳定。每秒数百脉冲是常见研究范围，但具体转折点有明显个体和条件差异。Carlyon 等在 2025 年汇集的专家观点指出，即使绕过临床处理器直接电刺激，时域音高限制仍可存在；处理器、外周响应、中枢加工和经验的相对贡献尚未完全确定。[8](#ref-carlyon-temporal-2025)
 
-在固定电极上提高 pulse rate，许多 CI 用户在低至中等速率下会报告 pitch 上升。
+### 多通道时域线索能否形成整体音高
 
-但最突出的限制是：
+de Groote 等在 2025 年让 8 名 MED-EL 使用者对四个最顶端电极的多通道刺激进行音高排序。各电极采用相同速率时，音高排序随速率增加至约每秒 200–300 个脉冲。这个结果描述该实验的同速率条件，既不是全部使用者的硬上限，也不是完整临床策略的效果。[9](#ref-degroote-ci-pitch-2025)
 
-> **随着 pulse rate 升高，pitch growth 往往减弱、饱和或变得不稳定。**
+当不同电极采用不同速率时，研究未发现听者能将这些速率整合成预期的基频估计；改变电极间脉冲延迟还会影响音高判断。因此，向多个通道提供时域精细结构，不能自动保证形成清晰的整体音高，跨通道相互作用和事件时序需要共同评价。[9](#ref-degroote-ci-pitch-2025)
 
-2025 年 Carlyon 等的多作者综述指出，这种 temporal pitch deficit 即使在绕过临床处理器、直接电刺激时仍存在，因此不能简单归因于 coding strategy；auditory-nerve adaptation、神经群体同步、中枢 readout 和可塑性都可能参与。[8](#ref-carlyon-ci-temporal-2025 "Limitations on Temporal Processing by Cochlear Implant Users: A Compilation of Viewpoints")
+### 位置与时域线索的融合
 
-### 为什么 200–300 pps 是重要范围
+Swanson 等在 2019 年对 6 名成人 Nucleus 使用者开展辨别、排序及旋律任务，声音通过听者自己的 ACE 处理器呈现。刺激分别突出时域线索、位置线索或二者组合。部分混合线索条件出现较差表现和排序反转，说明更多种线索不必然产生更稳定的音高关系。[7](#ref-swanson-ci-pitch-2019)
 
-它不是每个人的硬上限，但很多 CI rate-pitch 实验发现：
-- 低至中等 rate 下，pitch 随 rate 增加；
-- 到数百 pps 后，增长明显变弱；
-- 个体差异很大。
+该研究还讨论了位置线索可能被感为频谱亮度的解释。能够利用位置变化完成任务，并不能单独决定这种感知与正常音乐音高是否相同。对人工耳蜗结果的解释，应同时考察音高高低、音色差异和旋律表现，并注明处理器及刺激条件。[7](#ref-swanson-ci-pitch-2019)
 
-2025 年 de Groote 等在 8 名 MED-EL 用户中同时刺激四个最 apical 电极；当所有电极使用相同速率时，pitch ranking 随 rate 增加到约 **200–300 pps**，把单电极结果推进到了更接近真实策略的 multi-channel 情境。[9](#ref-degroote-ci-pitch-2025 "Temporal Pitch Perception of Multi-Channel Stimuli by Cochlear-Implant Users")
+### 个体化编程与音乐评价
 
-### AM pitch 与 pulse-rate pitch
+Berg 等在 2025 年的单中心前瞻性研究中，分析了 50 名成人的电极位置与音乐感知结果；其中 34 人还接受影像引导的电极选择编程。结果提示部分位置及个体因素与音乐表现有关，影像引导配置下的旋律识别有所改善，并观察到顶端电极停用与部分音高阈值收益的关联。[10](#ref-berg-ci-music-2025)
 
-CI 中 temporal information 至少可以通过两条路径变化：
+这些结果支持把影像、行为任务和个体使用情况结合起来，但不能由关联分析推出统一最佳电极位置，也不能推广为所有使用者都应停用顶端电极。调机需要比较具体配置对音高、旋律、音色及语音的影响，并考虑适应时间和个体轨迹。[10](#ref-berg-ci-music-2025)
 
-1. 改变 pulse rate；
-2. 在较高 carrier rate 上改变 amplitude-modulation rate。
+### 编码研究与证据层级
 
-两者都可能产生 pitch-related percept，但神经同步、幅度波动和 loudness interaction 并不相同，因此不应都笼统称为同一个“temporal pitch”。
+[时域限制编码器](../temporal-limits-encoder/)尝试把部分时域信息转换到听者更可能利用的范围。Zhou 等的真实植入者研究用音高辨别与排序评价这种编码，结果依赖刺激频率和任务。它支持对特定编码假设进行验证，尚不能直接推导全部声调或音乐能力改善。[12](#ref-zhou-tle-2022)
 
-### Place 与 temporal cues 并不总能合成一条统一音高轴
+[F0inTFS 周期性增强策略](../f0-in-tfs/)的所引研究通过正常听力者声码器实验考察算法效果。声学模拟保留了听者的声学听觉系统，与真实电极—神经接口不同，不能与植入者研究视为同一层级的证据。[14](#ref-zhou-f0intfs-2023)
 
-如果同时改变 electrode place 与 pulse rate，听者未必能把所有刺激无缝排成一个单一高低次序。
+振幅调制频率与脉冲率协变的研究提出同时改变多种时域线索的方案，并报告探索性音高辨别结果。此处所引工作仍为未同行评审的预印本，应与正式论文区分。判断一种策略的实际价值，还需检查独立重复、个体变化、长期适应及其他任务。完整策略目录见[人工耳蜗信号处理策略](../cochlear-implant-coding-strategies/)。[15](#ref-li-covarying-2025)
 
-这提示 CI 的 place cue 和 temporal cue 可能只是部分融合。[7](#ref-reiss-ci-pitch-2019 "Place and Temporal Cues in Cochlear Implant Pitch and Melody Perception")
+## 研究前沿与尚未解决的问题
 
-### 电极位置与个体化编程
+### 不同线索在何处、以何种方式整合
 
-2025 年 Berg 等研究 50 名成人 CI 用户，发现 electrode placement variables 与 pitch、melody 和 timbre outcome 存在关联；其中 34 人进一步接受 image-guided programming，部分音乐感知指标改善。[10](#ref-berg-ci-music-2025 "Cochlear Implant Electrode Placement and Music Perception")
+当前机制研究需要区分各级神经结构中的频率表征、周期表征和感知相关表征，并检验它们如何连接。跨线索解码提供了有价值的证据，但还需要能够区分竞争模型、检查任务依赖并考察因果作用的研究。问题不仅是“在哪个区域能读出音高”，还包括这种信息何时形成，以及改变相关活动是否会改变音高判断。[5](#ref-abrams-pitch-cortex-2025)
 
-这支持一个重要方向：
+### 时域加工的限制及跨通道作用
 
-> **未来 pitch fitting 可能需要把 CT electrode position、channel interaction 与 psychophysics 联合起来。**
+人工耳蜗的时域音高限制可能涉及神经适应、兴奋分布、中枢利用及听觉经历。研究应尽量分别操纵速率、振幅调制、电极配置和电极间时序，避免多个因素同时变化后将结果归因于单一原因。顶端刺激或同步刺激是否能在特定使用者中扩大有效范围，也需要通过明确的任务和对照检验。[8](#ref-carlyon-temporal-2025)[9](#ref-degroote-ci-pitch-2025)
 
-但现有证据仍不足以证明一种 image-guided map 对所有用户都优于标准 map。
+### 从实验指标到真实语言和音乐功能
 
-### 新编码策略怎样增强 temporal pitch
+更低的辨别阈值不一定意味着更好的普通话汉语声调识别、旋律欣赏或复杂场景交流。后续研究需要说明实验改善如何迁移到实际任务，并比较精细音程、升降轮廓、语音正确率及主观体验。不同任务所依赖的线索并不完全相同，最佳配置也可能随目标改变。[7](#ref-swanson-ci-pitch-2019)[13](#ref-wang-ditone-2022)
 
-研究方向包括：
-- rate coding；
-- low-frequency synchronized stimulation；
-- pulse-rate modulation；
-- AM–rate covariation；
-- apical/low-frequency emphasis；
-- place–time coordinated coding。
+### 发育、上下文与长期个体化
 
-TLE 的真实植入者研究显示，特定时域编码可以改变 pitch discrimination 与 ranking，但效果依赖刺激频率和任务。[12](#ref-zhou-tle-2022 "Pitch Perception With the Temporal Limits Encoder for Cochlear Implants")
+儿童发育、语言和音乐经历、处理器映射及长期使用，为研究线索权重变化提供了不同情境。纵向研究需要区分自然成熟、任务练习、设备调整和长期适应，并保留个体结果。将影像和电生理指标用于个体化方案时，还应证明这些指标能改善有意义的听觉功能，而不仅是更好地描述装置状态。[6](#ref-fung-pitch-development-2025)[10](#ref-berg-ci-music-2025)
 
-F0inTFS 通过声学模拟增强 periodicity information，提供算法可行性证据，但不能直接等同于真实 CI 用户获益。[14](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+## 研究沿革与相关概念
 
-协变 AM frequency 与 pulse rate 的探索性研究提示，多 temporal dimension 联合变化可能优于单一 rate cue；目前该结果仍属于预印本证据，应等待同行评审和独立重复。[15](#ref-li-covarying-2025 "Covarying Amplitude Modulation and Pulse Rate Enhances Pitch Discrimination in Cochlear Implant Users")
+经典音高研究通过缺失基频、谐波失谐和循环音高等现象，逐步揭示刺激频率与感知音高之间的复杂关系。听觉滤波和谐波可分辨性研究使外周表征成为关键约束；移置刺激则进一步检验位置与时域信息的配合。近期研究将发育、上下文和皮层表征纳入同一问题框架，但不同模型的适用范围仍需实验区分。[2](#ref-glasberg-1990)[3](#ref-oxenham-2004)[4](#ref-hartmann-1990)[5](#ref-abrams-pitch-cortex-2025)[17](#ref-shepard-1964)
 
-### 声调语言与音乐
-
-普通话 lexical tone 高度利用 $F_0$ contour，但同时可利用 duration、intensity、voice quality 与 lexical context。
-
-DiTone 等研究通过分离 $F_0$ 和 loudness contour 显示，CI 用户可能重新分配线索权重。[13](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus")
-
-因此：
-
-> **tone recognition 正确不等于正常 F0 pitch 已恢复。**
-
-音乐则要求更精细的 interval、stable ordering、melody contour 与 harmonic relation，所以即使安静语音表现很好，CI music pitch 仍可能明显受限。
-
-## 音高感知中的可塑性与上下文
-
-pitch representation 会受到：
-- developmental maturation；
-- musical experience；
-- hearing loss；
-- CI map；
-- acoustic–electric mismatch；
-- long-term device use；
-- context and expectation
-
-影响。
-
-2025 年皮层研究进一步显示，predictable context 可改变 ambiguous pitch representation 出现的时间，这提示 pitch generation 包含动态预测加工，而不是完全 feedforward。[5](#ref-abrams-pitch-cortex-2025 "Dynamics of Pitch Perception in the Auditory Cortex")
-
-## 当前前沿研究问题
-
-### 1. Place 与 temporal information 最终在哪里整合？
-听神经、脑干、中脑和皮层分别承担什么计算？
-
-### 2. 人类 phase locking 的功能上限在哪里？
-动物神经生理、人体 FFR 与行为结果怎样统一？
-
-### 3. 为什么 resolved harmonics 的 pitch 更显著？
-是 place pattern 更可靠，还是跨通道 temporal structure 更容易被读取？
-
-### 4. 是否存在真正 cue-invariant 的 cortical pitch representation？
-2025 年 MEG 支持跨线索泛化，但其精确解剖位置和因果作用仍待确定。[5](#ref-abrams-pitch-cortex-2025 "Dynamics of Pitch Perception in the Auditory Cortex")
-
-### 5. Context 与 prediction 在 pitch 形成中扮演什么角色？
-音高多大程度是“读出”，多大程度是“推断”？
-
-### 6. 听力损失后 cue weighting 怎样改变？
-harmonic resolvability、TFS、envelope 与 place 会不会发生系统性重权重？
-
-### 7. CI temporal pitch 的上限由什么决定？
-auditory-nerve adaptation、neural survival、current spread、中枢 readout 与经验分别贡献多少？
-
-### 8. Apical stimulation 是否具有 temporal advantage？
-更顶端、更低频的电刺激能否扩大可用 rate-pitch range？
-
-### 9. Place–rate coordinated coding 能否建立更自然的单一 pitch axis？
-未来策略可能需要让“刺激哪里”和“刺激多快”遵循一致的自然耳蜗规律。
-
-### 10. 个体化影像与神经指标能否真正改善 pitch fitting？
-CT、ECAP、pitch match 与长期 adaptation 应怎样联合？
-
-### 11. Speech、tone language 与 music 是否需要不同 pitch optimization？
-最适合普通话声调的 map 未必最适合旋律。
-
-## 与其他词条的关系
-
-建议继续阅读：
-
-- [基频](../fundamental-frequency/)：$F_0$ 是物理参数，pitch 是知觉；
-- [谐波性](../harmonicity/)：谐波结构怎样支持 pitch 与 auditory object；
-- [听觉滤波器](../auditory-filter/)：resolved / unresolved harmonics 的基础；
-- [耳蜗](../cochlea/) 与 [频位映射](../tonotopy/)：place code 的外周来源；
-- [时域精细结构](../temporal-fine-structure/) 与 [时域包络](../temporal-envelope/)：不同 temporal cues；
-- [人工耳蜗](../cochlear-implant/)：electric place 与 temporal coding 的接口；
-- [时间限度编码](../temporal-limits-encoder/)：增强 temporal pitch 的策略之一；
-- [普通话声调](../mandarin-lexical-tone/)：pitch information 的语言功能；
-- [听觉可塑性](../auditory-plasticity/)：长期 map 与 cue weighting；
-- [听觉注意](../auditory-attention/)：pitch 如何参与声源选择与分组。
-
-## 研究沿革
-
-Pitch science 已从早期的 frequency/place 与 periodicity/time 之争，逐渐发展为一个**多层、跨线索、动态整合问题**。
-
-今天更准确的问题不是“pitch 到底由 place 还是 time 编码”，而是：
-
-> **在什么刺激条件、神经层级和行为任务下，哪些线索最可靠；大脑又如何把这些不完全相同的线索整合成一个稳定的 pitch percept？**
-
-人工耳蜗进一步把自然耳蜗中紧密耦合的 place、timing 与 harmonic structure 部分拆开，因此 CI pitch 不只是康复难题，也是检验人类音高机制最有价值的实验窗口之一。
+理解本词条时，可由基频和[谐波性](../harmonicity/)进入声学结构，再结合听觉滤波器、耳蜗和频位映射关系理解外周表征；时域包络与时域精细结构解释不同周期线索。人工耳蜗和编码策略词条进一步讨论电刺激的实现条件，普通话汉语声调、听觉注意和听觉可塑性则连接语言功能、声音选择与长期学习。它们彼此相关，但物理参数、神经响应和行为能力应分别描述。
