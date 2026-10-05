@@ -1,0 +1,33 @@
+{
+  "empiricalData": false,
+  "crossSystemWidthsComparable": false,
+  "figures": 2,
+  "deviceMappingPanels": 3,
+  "compressionRatio": 2,
+  "inputKneepointDbSpl": 50,
+  "gainAtKneepointDb": 30,
+  "outputLimitDbSpl": 100,
+  "ciTeachingInputWindowDbSpl": [
+    35,
+    85
+  ],
+  "ciMapping": "logarithmic acoustic amplitude to linear current",
+  "minimumRelativeAcousticAmplitude": 0.0031622776601683794,
+  "matchedLevelsDbSpl": [
+    35.0,
+    60.0,
+    85.0
+  ],
+  "matchedRelativeAmplitudes": [
+    0.0031622776601683794,
+    0.05623413251903491,
+    1.0
+  ],
+  "matchedNormalizedCurrents": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "coordinateEquivalenceMaxError": 1.1102230246251565e-16,
+  "source": "Zeng 2004 section 5.2, equations 5.2.1–5.2.3"
+}

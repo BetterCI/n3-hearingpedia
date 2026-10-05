@@ -1,0 +1,562 @@
+{
+  "title": "动态范围",
+  "references": 15,
+  "citations": [
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 10,
+      "target": "ref-nunn-ci-idr-2019",
+      "referenceNumber": 10,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 2,
+      "target": "ref-sherlock-formby-2005",
+      "referenceNumber": 2,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 3,
+      "target": "ref-iso-16832-2006",
+      "referenceNumber": 3,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 2,
+      "target": "ref-sherlock-formby-2005",
+      "referenceNumber": 2,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 4,
+      "target": "ref-robles-2001",
+      "referenceNumber": 4,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 4,
+      "target": "ref-robles-2001",
+      "referenceNumber": 4,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 5,
+      "target": "ref-wen-dynamic-range-2009",
+      "referenceNumber": 5,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 5,
+      "target": "ref-wen-dynamic-range-2009",
+      "referenceNumber": 5,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 5,
+      "target": "ref-wen-dynamic-range-2009",
+      "referenceNumber": 5,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 6,
+      "target": "ref-moore-softness-2004",
+      "referenceNumber": 6,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 2,
+      "target": "ref-sherlock-formby-2005",
+      "referenceNumber": 2,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 13,
+      "target": "ref-croghan-music-2014",
+      "referenceNumber": 13,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 13,
+      "target": "ref-croghan-music-2014",
+      "referenceNumber": 13,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 10,
+      "target": "ref-nunn-ci-idr-2019",
+      "referenceNumber": 10,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 15,
+      "target": "ref-zeng-compression-2004",
+      "referenceNumber": 15,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 15,
+      "target": "ref-zeng-compression-2004",
+      "referenceNumber": 15,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 15,
+      "target": "ref-zeng-compression-2004",
+      "referenceNumber": 15,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 9,
+      "target": "ref-zeng-speech-dr-2002",
+      "referenceNumber": 9,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 11,
+      "target": "ref-mo-maxima-2023",
+      "referenceNumber": 11,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 11,
+      "target": "ref-mo-maxima-2023",
+      "referenceNumber": 11,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 10,
+      "target": "ref-nunn-ci-idr-2019",
+      "referenceNumber": 10,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 11,
+      "target": "ref-mo-maxima-2023",
+      "referenceNumber": 11,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 9,
+      "target": "ref-zeng-speech-dr-2002",
+      "referenceNumber": 9,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 13,
+      "target": "ref-croghan-music-2014",
+      "referenceNumber": 13,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 12,
+      "target": "ref-wiggins-seeber-2011",
+      "referenceNumber": 12,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 2,
+      "target": "ref-sherlock-formby-2005",
+      "referenceNumber": 2,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 3,
+      "target": "ref-iso-16832-2006",
+      "referenceNumber": 3,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 8,
+      "target": "ref-zeng-2008",
+      "referenceNumber": 8,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 4,
+      "target": "ref-robles-2001",
+      "referenceNumber": 4,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 1,
+      "target": "ref-moore-loudness-2014",
+      "referenceNumber": 1,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 3,
+      "target": "ref-iso-16832-2006",
+      "referenceNumber": 3,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 7,
+      "target": "ref-keidser-nalnl2-2011",
+      "referenceNumber": 7,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 9,
+      "target": "ref-zeng-speech-dr-2002",
+      "referenceNumber": 9,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 10,
+      "target": "ref-nunn-ci-idr-2019",
+      "referenceNumber": 10,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 11,
+      "target": "ref-mo-maxima-2023",
+      "referenceNumber": 11,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    },
+    {
+      "number": 14,
+      "target": "ref-liu-ci-range-2026",
+      "referenceNumber": 14,
+      "verticalAlign": "super",
+      "before": "\"[\"",
+      "after": "\"]\""
+    }
+  ],
+  "figures": [
+    {
+      "loaded": true,
+      "caption": "图1　不同听觉状态的动态范围。 （a）保留正常听力、耳蜗性听损及上端耐受下降的概念比较：下界升高或上界降低都可能使声学端点跨度缩小。三行只示意可能的端点关系，不表示所有听力损失者或声音耐受问题都具有这一模式，也不用于诊断。（b）人工耳蜗以独立的电刺激坐标表示行为阈值T与程序规定的上端舒适水平C／M，后者的命名与任务随厂商而异。两个面板均无数值刻度；条带的位置和长度不代表测量数据或人群常模，不能据此比较声学范围与电刺激范围的大小，也不表示范围内响度增长或可辨水平的数量。128",
+      "link": "/n3-hearingpedia/figures/dynamic-range/01-listening-states.svg"
+    },
+    {
+      "loaded": true,
+      "caption": "图2　设备范围映射与坐标尺度。 （a）助听器教学示例：输入拐点为50 dB SPL、拐点增益为30 dB，压缩段比例为2∶1，并在100 dB SPL处设置示意输出上限。（b）人工耳蜗基础对数幅度压缩：横轴为相对于窗口上端的线性声学包络幅度A/Amax⁡A/A_{\\max}A/Amax​，纵轴为归一化电流位置；曲线的斜率随幅度增加而减小。下端幅度为10−50/20≈0.0031610^{-50/20}\\approx0.0031610−50/20≈0.00316，并非零幅度。（c）将同一函数的横轴改为分贝声级，在35—85 dB SPL教学窗口内表现为直线。两面板中的三个蓝点对应相同输入：35、60和85 dB SPL，其归一化电流位置分别为0、0.5和1。中点输入60 dB SPL的相对幅度约为0.0562，而非0.5。所有窗口和设备参数均为教学设定；对数映射形式参考Zeng（2004）第5.2节，不代表完整厂商算法，也不是个体响度函数。（a）与（b、c）的纵轴代表不同物理量，不能直接比较跨度。715",
+      "link": "/n3-hearingpedia/figures/dynamic-range/02-device-mapping.svg"
+    }
+  ],
+  "math": 8,
+  "errors": 0,
+  "captionMath": 2,
+  "rawCaptionMath": false,
+  "obsoleteCurve": false,
+  "overflow": false,
+  "staleNotice": false,
+  "mobileOverflow": false
+}
