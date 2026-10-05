@@ -58,7 +58,7 @@ NIDCD 官方资料提供了典型 BTE、mini-BTE、ITE、ITC 和 CIC 外形图�
 这就是现代助听器广泛采用**宽动态范围压缩（wide dynamic range compression, WDRC）**的重要原因。某一频带内，压缩比可写为：
 
 $$
-CR=rac{\Delta L_{\mathrm{in}}}{\Delta L_{\mathrm{out}}}
+CR=\frac{\Delta L_{\mathrm{in}}}{\Delta L_{\mathrm{out}}}
 $$
 
 - $\Delta L_{\mathrm{in}}$：输入声级变化；
