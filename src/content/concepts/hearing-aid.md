@@ -49,7 +49,7 @@ NIDCD 官方资料提供了典型 BTE、mini-BTE、ITE、ITC 和 CIC 外形图�
 
 现代数字助听器的实际处理链远比“麦克风—放大器—扬声器”复杂：
 
-![助听器信号链](../figures/hearing-aid-signal-chain.svg)
+![助听器信号链](/n3-hearingpedia/figures/hearing-aid-signal-chain.svg)
 
 ## 助听器真正补偿的是什么
 
