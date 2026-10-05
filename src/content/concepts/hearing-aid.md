@@ -79,7 +79,7 @@ $$
 
 ### 数字降噪
 
-数字降噪根据时频统计特征估计哪些成分更可能属于噪声并进行抑制。改善舒适度并不一定同步改善[语音可懂度](../speech-intelligibility/)；强处理还可能产生失真。
+数字降噪根据时频统计特征估计哪些成分更可能属于噪声并进行抑制。改善舒适度并不一定同步改善[言语可懂度](../speech-intelligibility/)；强处理还可能产生失真。
 
 ### 反馈管理
 
@@ -220,7 +220,7 @@ speech score、listening effort 和 participation 是否应成为同等重要终
 - [听力损失](../hearing-loss/)：助听器究竟在补偿什么；
 - [耳蜗](../cochlea/)：为什么单纯增加声压不能恢复所有信息；
 - [动态范围](../dynamic-range/) 与 [响度](../loudness/)：压缩的感知基础；
-- [语音可懂度](../speech-intelligibility/) 与 [聆听努力](../listening-effort/)：设备效果的不同层次；
+- [言语可懂度](../speech-intelligibility/) 与 [聆听努力](../listening-effort/)：设备效果的不同层次；
 - [空间听觉](../spatial-hearing/)：方向性和双耳处理的收益与代价；
 - [人工耳蜗](../cochlear-implant/)：当声学放大不足时的另一种听觉接口。
 

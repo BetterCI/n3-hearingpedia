@@ -18,7 +18,7 @@ kind: "function"
 key_facts: [{"label":"理论对象","value":"有目的的心理资源投入"},{"label":"常用方法","value":"主观报告、双任务及生理指标"},{"label":"主要区别","value":"不等同于识别成绩或疲劳"}]
 ---
 
-**聆听努力**（listening effort）指为了完成聆听目标而有目的地分配心理资源。它涉及输入与任务要求，也涉及听者可用资源和动机。两个听者或两个条件的[语音可懂度](../speech-intelligibility/)相近，完成任务时的投入仍可能不同；因此努力提供了识别成绩之外的研究维度。[1](#ref-fuel-2016 "Hearing Impairment and Cognitive Energy: The Framework for Understanding Effortful Listening (FUEL)")
+**聆听努力**（listening effort）指为了完成聆听目标而有目的地分配心理资源。它涉及输入与任务要求，也涉及听者可用资源和动机。两个听者或两个条件的[言语可懂度](../speech-intelligibility/)相近，完成任务时的投入仍可能不同；因此努力提供了识别成绩之外的研究维度。[1](#ref-fuel-2016 "Hearing Impairment and Cognitive Energy: The Framework for Understanding Effortful Listening (FUEL)")
 
 ## 定义与相关概念
 

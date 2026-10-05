@@ -54,7 +54,7 @@ $s$ 表示声音特征，$r$ 表示指定神经通道记录，$h$ 是时域响�
 
 ## 应用与边界
 
-跟踪可帮助研究选择性注意、[听觉可塑性](../auditory-plasticity/)和感觉恢复，但较强跟踪不自动表示[语音可懂度](../speech-intelligibility/)更好。声音本身更清晰、注意不同、噪声较小或模型条件变化，都可能影响数值。相关也不能单独证明响应变化导致行为改善。
+跟踪可帮助研究选择性注意、[听觉可塑性](../auditory-plasticity/)和感觉恢复，但较强跟踪不自动表示[言语可懂度](../speech-intelligibility/)更好。声音本身更清晰、注意不同、噪声较小或模型条件变化，都可能影响数值。相关也不能单独证明响应变化导致行为改善。
 
 尤其需要区分群体条件标记与个体[语音接收阈](../speech-reception-threshold/)预测。一个模型能够区分安静和噪声条件，并不意味着它能准确估计新个体的阈值。实际预测还应报告误差、基线比较、协议依赖和外部验证，而不仅是统计显著性。[3](#ref-guo-tracking-2026 "Boundary conditions for cortical speech tracking as an objective speech-in-noise marker: a three-dataset MEG/EEG benchmark")
 

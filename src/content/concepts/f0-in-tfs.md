@@ -54,7 +54,7 @@ $$
 
 ### 论文证明到哪一步
 
-原研究用正常听力受试者和修改的正弦声码器评价声调线索，不能写成真实植入者临床试验。论文还指出[语音可懂度](../speech-intelligibility/)并未在该实验中得到验证；声调任务的改善不保证安静或噪声语音同步改善。[1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+原研究用正常听力受试者和修改的正弦声码器评价声调线索，不能写成真实植入者临床试验。论文还指出[言语可懂度](../speech-intelligibility/)并未在该实验中得到验证；声调任务的改善不保证安静或噪声语音同步改善。[1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
 
 ### 验证框架
 
@@ -86,8 +86,8 @@ DiTone 提供独立操纵基频和响度轮廓的方法背景，有助于判断�
 
 因此可以比较安静、低频噪声及不同基频范围，并检查调制与目标周期的一致性。无声段和接近零的低频幅度也是必须检查的边界。仅在一段有声材料上展示漂亮波形，会遗漏这些情况。[1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
 
-下一步研究应问：声调收益是否在多说话人和噪声中保持？增强是否影响语音可懂度或舒适度？这些问题需要新的任务证据，不能从算法计算量低或周期性更明显直接回答。
+下一步研究应问：声调收益是否在多说话人和噪声中保持？增强是否影响言语可懂度或舒适度？这些问题需要新的任务证据，不能从算法计算量低或周期性更明显直接回答。
 
 ## 研究沿革
 
-2023 年会议论文描述轻量周期性增强及对应声学模拟，DiTone 提供声调线索控制背景。已列研究支持所测条件的机制探索；原实验未验证全部语音可懂度或真实植入者使用效果，后续新证据应单独登记其人群、任务与适应时间。[1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants") [2](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus")
+2023 年会议论文描述轻量周期性增强及对应声学模拟，DiTone 提供声调线索控制背景。已列研究支持所测条件的机制探索；原实验未验证全部言语可懂度或真实植入者使用效果，后续新证据应单独登记其人群、任务与适应时间。[1](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants") [2](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus")

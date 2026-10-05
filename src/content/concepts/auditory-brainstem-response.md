@@ -50,7 +50,7 @@ ABR 记录的是参考电极之间微弱电位差中与刺激时间相关的部�
 
 ## 应用与局限
 
-ABR 可在缺乏稳定行为反应时辅助评估，也用于通路与刺激设计研究。它不测量[语音可懂度](../speech-intelligibility/)、[听觉注意](../auditory-attention/)或日常沟通本身。“客观测量”表示不要求相同的主动反应方式，并不表示结果不受条件影响。
+ABR 可在缺乏稳定行为反应时辅助评估，也用于通路与刺激设计研究。它不测量[言语可懂度](../speech-intelligibility/)、[听觉注意](../auditory-attention/)或日常沟通本身。“客观测量”表示不要求相同的主动反应方式，并不表示结果不受条件影响。
 
 以 I 波幅度作为[耳蜗突触病变](../cochlear-synaptopathy/)候选代理时尤其需要谨慎。动物组织学与人类表面电极结果之间存在测量层次差异；人类正常听力图且噪声语音困难的研究也出现过未支持该代理关联的结果。单个低波幅不能确诊突触损失。[5](#ref-guest-synaptopathy-2018 "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure")
 

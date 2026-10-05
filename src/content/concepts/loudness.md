@@ -32,7 +32,7 @@ key_facts: [{"label":"概念层次","value":"强弱的知觉属性"},{"label":"�
 
 ### 部分响度
 
-目标声音与背景共同呈现时，目标的部分响度描述其在混合物中的知觉强度。它不同于混合声音的总响度，也不同于目标是否可检测。背景声能量增大时，总响度可能增加而目标更难辨认，因此响度不能直接代表[语音可懂度](../speech-intelligibility/)。[1](#ref-moore-loudness-2014 "Development and Current Status of the “Cambridge” Loudness Models")
+目标声音与背景共同呈现时，目标的部分响度描述其在混合物中的知觉强度。它不同于混合声音的总响度，也不同于目标是否可检测。背景声能量增大时，总响度可能增加而目标更难辨认，因此响度不能直接代表[言语可懂度](../speech-intelligibility/)。[1](#ref-moore-loudness-2014 "Development and Current Status of the “Cambridge” Loudness Models")
 
 ## 原理与模型
 

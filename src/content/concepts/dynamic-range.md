@@ -191,7 +191,7 @@ $$
 
 ## 语音本身也有动态范围
 
-传统语音可懂度模型常用一个有限声级窗口描述每个频带中对识别最重要的语音能量，但这不应被误解为“自然语音的物理动态范围只有几十 dB”。
+传统言语可懂度模型常用一个有限声级窗口描述每个频带中对识别最重要的语音能量，但这不应被误解为“自然语音的物理动态范围只有几十 dB”。
 
 Zeng 等直接分析语音包络并研究 CI 的 input dynamic range，报告语音包络声级分布约 **50 dB**；在 10 名 CLARION 用户中，约 **50–60 dB IDR** 对语音识别最有利。[6](#ref-zeng-speech-dr-2002 "Speech dynamic range and its effect on cochlear implant performance")
 
@@ -365,7 +365,7 @@ overall level、speech envelope、consonant–vowel contrast、prosody、music d
 - [时域包络](../temporal-envelope/)：压缩如何改变强度随时间的结构；
 - [通道相互作用](../channel-interaction/)：相同 EDR 为什么不等于相同有效信息；
 - [空间听觉](../spatial-hearing/)：动态范围处理怎样影响 ILD；
-- [语音可懂度](../speech-intelligibility/)：范围映射是否真正转化为交流收益；
+- [言语可懂度](../speech-intelligibility/)：范围映射是否真正转化为交流收益；
 - [听觉脑干反应](../auditory-brainstem-response/)：客观指标预测行为动态范围的边界。
 
 ## 研究沿革与近期方向

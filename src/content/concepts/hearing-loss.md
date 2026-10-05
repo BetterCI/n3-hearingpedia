@@ -247,7 +247,7 @@ SSD/AHL 的分类应如何与空间听觉和生活需求结合？
 - [耳蜗](../cochlea/) 与 [外毛细胞](../outer-hair-cell/)：不同外周病理为什么不能只靠听阈区分；
 - [耳蜗突触病变](../cochlear-synaptopathy/)：正常听力图与神经输入异常之间的证据边界；
 - [空间听觉](../spatial-hearing/)：单侧和不对称听损为什么影响真实声场；
-- [语音可懂度](../speech-intelligibility/) 与 [语音接收阈](../speech-reception-threshold/)：阈上交流能力；
+- [言语可懂度](../speech-intelligibility/) 与 [语音接收阈](../speech-reception-threshold/)：阈上交流能力；
 - [聆听努力](../listening-effort/)：相同正确率背后的认知代价；
 - [助听器](../hearing-aid/) 与 [人工耳蜗](../cochlear-implant/)：不同听觉接口的适用边界。
 

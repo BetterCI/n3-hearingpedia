@@ -1,0 +1,79 @@
+{
+  "samplingRateHz": 16000,
+  "durationSeconds": 0.9,
+  "fundamentalFrequencyHz": 130,
+  "envelopeBandsHz": [
+    [
+      250,
+      550
+    ],
+    [
+      1200,
+      1800
+    ],
+    [
+      2400,
+      3200
+    ]
+  ],
+  "envelopeLowpassHz": 20,
+  "rmsWindowMilliseconds": 20,
+  "waveformPeak": 0.9576347416946146,
+  "waveformPlotLimit": 1.0,
+  "backgroundPeaks": [
+    0.6036588227420343,
+    1.0,
+    0.75314305167622
+  ],
+  "backgroundPlotLimit": 1.0,
+  "commonPeakNormalizationFactor": 6.803591634624965,
+  "commonRms": 0.14698119077441119,
+  "backgroundSnrDb": [
+    0.0,
+    1.928654933106574e-15,
+    1.928654933106574e-15
+  ],
+  "psychometricMidpointPercent": 54.0,
+  "wordCorrectPercent": [
+    80.0,
+    80.0
+  ],
+  "sentenceCorrectPercent": [
+    80.0,
+    0.0
+  ],
+  "finiteSignals": true,
+  "files": [
+    {
+      "name": "01-listening-scenes",
+      "title": "不同环境中的言语聆听",
+      "width": 864.0,
+      "height": 262.8
+    },
+    {
+      "name": "02-acoustic-cues",
+      "title": "合成信号的频谱与时域线索",
+      "width": 864.0,
+      "height": 576.0
+    },
+    {
+      "name": "03-background-conditions",
+      "title": "相同总体信噪比下的背景时间结构",
+      "width": 864.0,
+      "height": 460.8
+    },
+    {
+      "name": "04-psychometric-functions",
+      "title": "正确率、阈值、斜率与上下限",
+      "width": 864.0,
+      "height": 576.0
+    },
+    {
+      "name": "05-scoring-units",
+      "title": "相同词正确率与不同整句正确率",
+      "width": 792.0,
+      "height": 475.2
+    }
+  ],
+  "style": "White background, Chinese labels, lettered panels; captions and evidence in article."
+}
