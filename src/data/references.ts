@@ -1,3 +1,4 @@
+import { temporalCuesReferences } from './temporal-cues-references.ts';
 import { auditoryFilterReferences } from './auditory-filter-references.ts';
 import { cochleaReferences } from './cochlea-references.ts';
 import { dynamicRangeReferences } from './dynamic-range-references.ts';
@@ -9,6 +10,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...temporalCuesReferences,
   ...monitorReferences,
   ...codingReferences,
   ...ciSystemReferences,

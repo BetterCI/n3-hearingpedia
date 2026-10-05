@@ -1,0 +1,33 @@
+{
+  "sample_rate_Hz": 48000,
+  "duration_s": 1,
+  "am_fc_Hz": 400,
+  "am_fm_Hz": 20,
+  "am_depth": 0.7,
+  "am_envelope_error_max": 4.0956127378422025e-13,
+  "am_reconstruction_error_max": 9.992007221626409e-16,
+  "all_waveform_peaks": {
+    "am": 1.0,
+    "carrier": 1.0,
+    "two_tone": 1.0,
+    "tone_900": 0.5,
+    "tone_1000": 0.5,
+    "fm_input": 1.0,
+    "fm_output": 0.9677530868509542,
+    "left_carrier": 1.0,
+    "right_carrier": 1.0
+  },
+  "two_tone_envelope_error_max": 8.347766922156552e-13,
+  "fm_input_envelope_ripple_max": 1.2947420913178576e-12,
+  "fm_output_envelope_range": [
+    0.005223749386193043,
+    0.967753086850954
+  ],
+  "filter_magnitude_center_Hz": 1100,
+  "filter_magnitude_sigma_Hz": 80,
+  "filter_phase": "zero phase; periodic FFT demonstration",
+  "binaural_carrier_Hz": 500,
+  "carrier_delay_s": 0.00025,
+  "binaural_phase_difference_deg": 45.0,
+  "data_status": "Original analytic teaching signals; no human/animal measurements or fitted perception outcomes."
+}
