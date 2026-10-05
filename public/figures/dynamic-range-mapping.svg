@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<title>正常耳、助听器和人工耳蜗的动态范围映射</title>
+<rect width="1200" height="720" fill="white"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111">
+<text x="55" y="48" font-size="28" font-weight="700">动态范围映射：同一个声学世界，三种不同“压缩路径”</text>
+<text x="55" y="82" font-size="18">环境声音的宽物理范围，必须被耳蜗或设备重新映射到有限的神经/知觉范围。</text>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" stroke="#222" stroke-width="2">
+<g fill="white">
+<rect x="70" y="140" width="250" height="85" rx="14"/>
+<rect x="475" y="120" width="250" height="85" rx="14"/>
+<rect x="860" y="140" width="250" height="85" rx="14"/>
+<rect x="475" y="310" width="250" height="85" rx="14"/>
+<rect x="70" y="500" width="250" height="85" rx="14"/>
+<rect x="475" y="500" width="250" height="85" rx="14"/>
+<rect x="860" y="500" width="250" height="85" rx="14"/>
+</g>
+<g fill="#111" stroke="none" font-size="21" text-anchor="middle">
+<text x="195" y="172">正常耳</text><text x="195" y="201">cochlear compression</text>
+<text x="600" y="152">环境声级分布</text><text x="600" y="181">wide physical DR</text>
+<text x="985" y="172">助听器</text><text x="985" y="201">WDRC / MPO</text>
+<text x="600" y="342">人工耳蜗</text><text x="600" y="371">IDR + amplitude mapping</text>
+<text x="195" y="532">normal neural /</text><text x="195" y="561">perceptual range</text>
+<text x="600" y="532">electrical T–C/M</text><text x="600" y="561">narrow EDR</text>
+<text x="985" y="532">residual auditory DR</text><text x="985" y="561">narrower acoustic range</text>
+</g>
+<g fill="none" marker-end="url(#a)">
+<line x1="475" y1="180" x2="320" y2="180"/>
+<line x1="725" y1="180" x2="860" y2="180"/>
+<line x1="600" y1="205" x2="600" y2="310"/>
+<line x1="195" y1="225" x2="195" y2="500"/>
+<line x1="600" y1="395" x2="600" y2="500"/>
+<line x1="985" y1="225" x2="985" y2="500"/>
+</g>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111" font-size="18">
+<text x="70" y="640">核心：HA 与 CI 都是在做信息重映射，但它们面对的残余接口完全不同。压缩的目标不是“让所有声音都听到”，而是在有限动态范围中保留最有价值的强度结构。</text>
+<text x="70" y="676">Hearingpedia 原创教学图。</text>
+</g>
+</svg>
