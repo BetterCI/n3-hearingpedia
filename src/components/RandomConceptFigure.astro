@@ -1,0 +1,107 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import DepthBadge from './DepthBadge.astro';
+import { asset, url } from '../lib/paths';
+
+interface Props { concepts: CollectionEntry<'concepts'>[]; }
+const { concepts } = Astro.props;
+const decodeAttribute = (value: string) => value.replace(/&(?:amp|quot|apos|lt|gt);/g, entity =>
+  ({ '&amp;': '&', '&quot;': '"', '&apos;': "'", '&lt;': '<', '&gt;': '>' }[entity] || entity));
+const catalog = concepts.filter(concept => concept.data.depth === 'in-depth').map(concept => {
+  // Use the article's actual figures so later article updates join the pool automatically.
+  const figures = [...(concept.body || '').matchAll(/<figure\b[^>]*>[\s\S]*?<\/figure>/gi)].flatMap(match => {
+    const image = match[0].match(/<img\b[^>]*>/i)?.[0];
+    const src = image?.match(/\bsrc=["']([^"']+)["']/i)?.[1];
+    const alt = image?.match(/\balt=["']([^"']+)["']/i)?.[1];
+    if (!src || !alt || !src.startsWith('/n3-hearingpedia/figures/')) return [];
+    return [{ src: asset(src.slice('/n3-hearingpedia/'.length)), alt: decodeAttribute(alt) }];
+  });
+  const illustration = concept.data.illustration;
+  if (!figures.length && illustration) figures.push({ src: asset(illustration.src), alt: illustration.alt });
+  return { title: concept.data.title, href: url(`concepts/${concept.data.slug}`), summary: concept.data.summary, figures };
+}).filter(concept => concept.figures.length > 0);
+const first = catalog[0];
+const firstFigure = first?.figures[0];
+---
+{first && firstFigure && <section class="section figure-discovery" aria-labelledby="figure-discovery-title" data-random-figure>
+  <div class="section-heading">
+    <div><div class="eyebrow">Discover through figures</div><h2 id="figure-discovery-title">从一幅图开始</h2><p>随机浏览深度词条配图，发现一个值得深入理解的概念。</p></div>
+    <button class="button" type="button" data-shuffle hidden>换一张 <span aria-hidden="true">↻</span></button>
+  </div>
+  <div class="discovery-card">
+    <figure>
+      <a class="figure-link" data-image-link href={firstFigure.src} target="_blank" rel="noopener" aria-label="查看完整图片（新窗口）">
+        <img data-image src={firstFigure.src} alt={firstFigure.alt} loading="lazy" decoding="async" />
+      </a>
+      <figcaption data-caption>{firstFigure.alt}</figcaption>
+    </figure>
+    <div class="discovery-copy" aria-live="polite" aria-atomic="true">
+      <DepthBadge />
+      <h3><a data-title href={first.href}>{first.title}</a></h3>
+      <p data-summary>{first.summary}</p>
+      <a class="text-link" data-article-link href={first.href}>阅读词条与完整图注 <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <script is:inline type="application/json" data-figure-catalog set:html={JSON.stringify(catalog).replace(/</g, '\\u003c')} />
+</section>}
+
+<script>
+  type Figure = { src: string; alt: string };
+  type Article = { title: string; href: string; summary: string; figures: Figure[] };
+  const panel = document.querySelector<HTMLElement>('[data-random-figure]');
+  if (panel) {
+    const catalog: Article[] = JSON.parse(panel.querySelector('[data-figure-catalog]')?.textContent || '[]');
+    const image = panel.querySelector<HTMLImageElement>('[data-image]')!;
+    const imageLink = panel.querySelector<HTMLAnchorElement>('[data-image-link]')!;
+    const title = panel.querySelector<HTMLAnchorElement>('[data-title]')!;
+    const summary = panel.querySelector<HTMLElement>('[data-summary]')!;
+    const caption = panel.querySelector<HTMLElement>('[data-caption]')!;
+    const articleLink = panel.querySelector<HTMLAnchorElement>('[data-article-link]')!;
+    const button = panel.querySelector<HTMLButtonElement>('[data-shuffle]')!;
+    let currentArticle = -1;
+    let currentFigure = -1;
+    const pick = (count: number, previous: number) => {
+      if (count < 2) return 0;
+      if (previous < 0) return Math.floor(Math.random() * count);
+      const candidate = Math.floor(Math.random() * (count - 1));
+      return candidate >= previous ? candidate + 1 : candidate;
+    };
+    const shuffle = () => {
+      // Equal chance per article, irrespective of the number of its figures.
+      const articleIndex = pick(catalog.length, currentArticle);
+      const article = catalog[articleIndex];
+      const figureIndex = pick(article.figures.length, articleIndex === currentArticle ? currentFigure : -1);
+      const figure = article.figures[figureIndex];
+      image.src = figure.src;
+      image.alt = figure.alt;
+      imageLink.href = figure.src;
+      caption.textContent = figure.alt;
+      title.textContent = article.title;
+      title.href = article.href;
+      summary.textContent = article.summary;
+      articleLink.href = article.href;
+      currentArticle = articleIndex;
+      currentFigure = figureIndex;
+    };
+    if (catalog.length) {
+      shuffle();
+      button.hidden = catalog.length === 1 && catalog[0].figures.length === 1;
+      button.addEventListener('click', shuffle);
+    }
+  }
+</script>
+
+<style>
+  [hidden]{display:none!important}
+  .discovery-card{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:32px;align-items:center;padding:24px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+  figure{margin:0;min-width:0}
+  .figure-link{display:flex;align-items:center;justify-content:center;height:350px;background:#fff;border-radius:6px}
+  img{display:block;width:100%;height:100%;object-fit:contain}
+  figcaption{margin-top:12px;font-size:12px;line-height:1.8;color:var(--muted)}
+  .discovery-copy{padding:12px 8px;min-width:0}
+  h3{font-size:28px;line-height:1.4;margin:18px 0 14px}
+  h3 a:hover{color:var(--accent)}
+  .discovery-copy p{font-size:14px;line-height:1.95;color:var(--muted);margin-bottom:24px}
+  .discovery-copy .text-link{white-space:normal}
+  @media(max-width:760px){.section-heading{flex-wrap:wrap}.discovery-card{grid-template-columns:1fr;gap:18px;padding:18px}.figure-link{height:300px}.discovery-copy{padding:0 2px 4px}h3{font-size:24px;margin:12px 0}.discovery-copy p{margin-bottom:16px}}
+</style>

@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ConceptCard from '../components/ConceptCard.astro';
 import NetworkArt from '../components/NetworkArt.astro';
+import RandomConceptFigure from '../components/RandomConceptFigure.astro';
 import DepthBadge from '../components/DepthBadge.astro';
 import FeedbackPanel from '../components/FeedbackPanel.astro';
 import { url } from '../lib/paths';
@@ -16,6 +17,11 @@ const moreInDepth = inDepth.slice(8);
 ---
 <BaseLayout>
   <div class="container">
+    <aside class="partner-site" aria-label="合作网站">
+      <span class="partner-label">合作网站</span>
+      <a href="https://betterci.github.io/hearing-paper-monitor/" target="_blank" rel="noopener noreferrer">听觉研究论文追踪 <span aria-hidden="true">↗</span></a>
+      <span class="partner-description">关注听觉科学的新近研究</span>
+    </aside>
     <section class="hero">
       <div>
         <div class="eyebrow">A living knowledge network</div>
@@ -37,6 +43,7 @@ const moreInDepth = inDepth.slice(8);
       <div class="strip-intro"><strong>一个概念，一页清晰的解释。</strong>沿着关联，找到理解下一个问题的入口。</div>
       <div class="strip-stats"><span><strong>{concepts.length}</strong>百科词条</span><span><strong>{knowledgeAreas.length}</strong>知识层面</span><span><strong>{learningPaths.length}</strong>学习路径</span></div>
     </div>
+    <RandomConceptFigure concepts={inDepth} />
     {inDepth.length>0 && <section class="section featured-section" aria-labelledby="in-depth-title">
       <div class="section-heading"><div><div class="eyebrow">Read in depth</div><h2 id="in-depth-title">从深度词条开始</h2><p>从定义、机制到研究方法，结合文献深入理解听觉科学。</p></div><span class="featured-count">{inDepth.length} 篇深度词条</span></div>
       <div class="concept-grid">{featured.map(concept=><ConceptCard concept={concept}/>)}</div>
@@ -52,6 +59,12 @@ const moreInDepth = inDepth.slice(8);
   </div>
 </BaseLayout>
 <style>
+  .partner-site{display:flex;align-items:center;flex-wrap:wrap;gap:8px 20px;margin-top:22px;padding:12px 18px;border:1px solid #e3deef;border-radius:8px;background:#f2f0f8;font-size:12px}
+  .partner-label{color:var(--muted);font-size:11px}
+  .partner-site a{color:var(--accent);font-weight:600}
+  .partner-site a:hover{text-decoration:underline}
+  .partner-description{color:var(--muted);margin-left:auto;font-size:11px}
+  @media(max-width:760px){.partner-site{gap:6px 14px;padding:11px 14px;margin-top:16px}.partner-description{flex-basis:100%;margin-left:0}}
   .featured-count{color:#216658;white-space:nowrap;font-size:12px;padding-bottom:3px}
   .more-in-depth{display:flex;gap:20px;margin-top:20px;padding:18px 0;border-bottom:1px solid var(--line);font-size:12px;line-height:1.8}
   .more-in-depth>span{color:var(--muted);white-space:nowrap}
