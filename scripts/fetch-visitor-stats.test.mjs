@@ -30,3 +30,12 @@ test('rejects untrusted endpoints before transmitting token', async () => {
   await assert.rejects(collectVisitorStats({ ...options, site: 'https://example.goatcounter.com.attacker.test', fetcher: async () => { called = true; } }), /Invalid GoatCounter site URL/);
   assert.equal(called, false);
 });
+test('reports API errors while redacting the configured secret', async () => {
+  await assert.rejects(collectVisitorStats({ ...options, fetcher: async () => ({
+    ok: false, status: 404, json: async () => ({ error: `Rejected ${options.token}` }),
+  }) }), error => {
+    assert.match(error.message, /HTTP 404: Rejected \[redacted\]/);
+    assert(!error.message.includes(options.token));
+    return true;
+  });
+});

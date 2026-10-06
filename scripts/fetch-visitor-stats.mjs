@@ -22,7 +22,14 @@ export async function collectVisitorStats({ site, token, now = new Date(), fetch
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
       signal: AbortSignal.timeout(20000), redirect: 'error',
     });
-    if (!response.ok) throw new Error(`GoatCounter ${path} returned HTTP ${response.status}`);
+    if (!response.ok) {
+      let reason = '';
+      try {
+        const body = await response.json();
+        if (typeof body.error === 'string') reason = body.error.replaceAll(token, '[redacted]').slice(0, 240);
+      } catch { /* Non-JSON failures are identified by their HTTP status. */ }
+      throw new Error(`GoatCounter ${path} returned HTTP ${response.status}${reason ? `: ${reason}` : ''}`);
+    }
     return response.json();
   }
   const total = await request('total');
