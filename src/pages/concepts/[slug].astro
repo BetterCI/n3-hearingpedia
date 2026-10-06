@@ -1,6 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import DepthBadge from '../../components/DepthBadge.astro';
 import { references, accessLabels } from '../../data/references';
 import { domainById } from '../../data/domains';
 import { knowledgeAreaById, kindLabels } from '../../data/knowledge';
@@ -32,7 +33,7 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
     <div class="article-shell">
       <article data-pagefind-body>
         <header class="article-header">
-          <span class:list={['status-pill',data.status]}>{statusLabels[data.status]}</span>
+          <div class="article-badges">{data.depth==='in-depth' && <DepthBadge />}<span class:list={['status-pill',data.status]}>{statusLabels[data.status]}</span></div>
           <h1 data-pagefind-meta="title">{data.title}</h1>
           <p class="article-english" data-pagefind-weight="5">{data.english}</p>
           <p class="lead">{data.summary}</p>
@@ -74,6 +75,7 @@ if(box){box.open=wide.matches;wide.addEventListener('change',e=>{box.open=e.matc
 @media(max-width:760px){.wiki-infobox{float:none;max-width:none;width:100%;margin:0 0 26px}.wiki-infobox dl{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.wiki-infobox dl>div{grid-template-columns:1fr}.infobox-figure{max-width:480px;margin:auto}.wiki-toc-section>div{display:none}.wiki-toc-section{margin:0}.wiki-prose :global(>p:first-child){font-size:15px}}
 </style>
 <style>
+.article-badges{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
 .wiki-prose :global(.pitch-figure),.wiki-prose :global(.encyclopedia-figure){clear:both;margin:28px 0;width:100%;background:#fff}
 .wiki-prose :global(.pitch-figure img),.wiki-prose :global(.encyclopedia-figure img){display:block;width:100%;height:auto;margin:0;border-radius:0}
 .wiki-prose :global(.pitch-figure figcaption),.wiki-prose :global(.encyclopedia-figure figcaption){font-size:12px;line-height:1.9;margin-top:12px;color:var(--muted)}

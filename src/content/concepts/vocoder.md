@@ -7,6 +7,7 @@ categories: ["signal-processing","research-methods","cochlear-implants"]
 tags: [noise-vocoder, sine-vocoder, acoustic-simulation]
 aliases: [噪声声码器, 正弦声码器, noise vocoder, sine vocoder, vocoding]
 status: draft
+depth: in-depth
 last_updated: "2026-10-06"
 authors: ["AI 辅助编写"]
 references: ["how-vocode-2024","swaminathan-2014","meng-get-2023","get-vocoder-code","shannon-1995","friesen-2001","kong-tones-2006","dorman-1997","kopsch-2025","listenlab-repository"]

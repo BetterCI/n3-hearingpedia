@@ -7,6 +7,7 @@ categories: ["cochlear-implants","hearing-loss"]
 tags: [electric-hearing, speech-processor, electrode-array, electrode-neural-interface, bilateral-ci, bimodal-hearing, electro-acoustic-stimulation, hearing-preservation, temporal-coding, frequency-place-mismatch]
 aliases: [CI, cochlear implants, 电听觉, 耳蜗植入, 人工耳蜗系统]
 status: draft
+depth: in-depth
 last_updated: "2026-10-05"
 literature_checked_at: "2026-10-05"
 authors: ["AI 辅助初稿"]

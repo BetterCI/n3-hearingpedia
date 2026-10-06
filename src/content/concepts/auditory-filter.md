@@ -7,6 +7,7 @@ categories: ["psychoacoustics","ear-cochlea"]
 tags: ["频率选择性","等效矩形带宽","凹口噪声","激励模式","听觉滤波器组"]
 aliases: ["听觉滤波","频率选择性","ERB","等效矩形带宽","auditory filtering"]
 status: draft
+depth: in-depth
 last_updated: "2026-10-05"
 authors: ["AI 辅助编写"]
 reviewer: null

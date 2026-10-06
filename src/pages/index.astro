@@ -3,11 +3,15 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ConceptCard from '../components/ConceptCard.astro';
 import NetworkArt from '../components/NetworkArt.astro';
+import DepthBadge from '../components/DepthBadge.astro';
 import { url } from '../lib/paths';
 import { learningPaths } from '../data/paths';
 import { knowledgeAreas } from '../data/knowledge';
 const concepts = (await getCollection('concepts')).sort((a,b) => a.data.order - b.data.order);
 const bySlug = Object.fromEntries(concepts.map(c => [c.data.slug, c]));
+const inDepth = concepts.filter(c=>c.data.depth==='in-depth').sort((a,b)=>b.data.last_updated.localeCompare(a.data.last_updated)||a.data.order-b.data.order);
+const featured = inDepth.slice(0,8);
+const moreInDepth = inDepth.slice(8);
 ---
 <BaseLayout>
   <div class="container">
@@ -32,11 +36,25 @@ const bySlug = Object.fromEntries(concepts.map(c => [c.data.slug, c]));
       <div class="strip-intro"><strong>一个概念，一页清晰的解释。</strong>沿着关联，找到理解下一个问题的入口。</div>
       <div class="strip-stats"><span><strong>{concepts.length}</strong>百科词条</span><span><strong>{knowledgeAreas.length}</strong>知识层面</span><span><strong>{learningPaths.length}</strong>学习路径</span></div>
     </div>
-    {knowledgeAreas.map(area=><section class="section"><div class="section-heading"><div><div class="eyebrow">{area.english}</div><h2>{area.title}</h2><p>{area.note}</p></div><a class="text-link" href={url('map')}>探索三维关系 ↗</a></div><div class="concept-grid">{concepts.filter(c=>c.data.knowledge_area===area.id).map(concept=><ConceptCard concept={concept}/>)}</div></section>)}
+    {inDepth.length>0 && <section class="section featured-section" aria-labelledby="in-depth-title">
+      <div class="section-heading"><div><div class="eyebrow">Read in depth</div><h2 id="in-depth-title">从深度词条开始</h2><p>从定义、机制到研究方法，结合文献深入理解听觉科学。</p></div><span class="featured-count">{inDepth.length} 篇深度词条</span></div>
+      <div class="concept-grid">{featured.map(concept=><ConceptCard concept={concept}/>)}</div>
+      {moreInDepth.length>0 && <nav class="more-in-depth" aria-label="更多深度词条"><span>继续深入</span><div>{moreInDepth.map(concept=><a href={url(`concepts/${concept.data.slug}`)}>{concept.data.title}<span aria-hidden="true"> ↗</span></a>)}</div></nav>}
+    </section>}
+    {knowledgeAreas.map(area=><section class="section"><div class="section-heading"><div><div class="eyebrow">{area.english}</div><h2>{area.title}</h2><p>{area.note}</p></div><a class="text-link" href={url('map')}>探索三维关系 ↗</a></div><div class="concept-grid">{concepts.filter(c=>c.data.knowledge_area===area.id).sort((a,b)=>Number(b.data.depth==='in-depth')-Number(a.data.depth==='in-depth')||a.data.order-b.data.order).map(concept=><ConceptCard concept={concept}/>)}</div></section>)}
     <section class="section">
       <div class="section-heading"><div><div class="eyebrow">Follow the connections</div><h2>把概念连成一条路径</h2><p>先补齐前置知识，再进入研究问题。</p></div><a class="text-link" href={url('learn')}>进入学习路径 ↗</a></div>
       <div class="path-grid">{learningPaths.map(path => <div class="path-card"><div class="eyebrow">{path.english}</div><h3>{path.title}</h3><p>{path.description}</p><div class="path-chips">{path.slugs.map((slug,i) => <>{i>0 && <span aria-hidden="true">→</span>}<a href={url(`concepts/${slug}`)}>{bySlug[slug].data.title}</a></>)}</div></div>)}</div>
     </section>
-    <section class="section"><div class="note-panel"><div><h3>有来源，也有状态。</h3><p>当前内容均为 Draft。AI 协助整理，科学内容需经专业审阅；每次更新保留引用和变更记录。</p></div><a class="text-link" href={url('contribute')}>了解贡献流程 ↗</a></div></section>
+    <section class="section"><div class="note-panel"><div><h3>有来源，也有状态。</h3><p><DepthBadge /> 表示已完成系统扩写。专业审阅进度在各词条中单独标注；每次更新保留引用和变更记录。</p></div><a class="text-link" href={url('contribute')}>了解贡献流程 ↗</a></div></section>
   </div>
 </BaseLayout>
+<style>
+  .featured-count{color:#216658;white-space:nowrap;font-size:12px;padding-bottom:3px}
+  .more-in-depth{display:flex;gap:20px;margin-top:20px;padding:18px 0;border-bottom:1px solid var(--line);font-size:12px;line-height:1.8}
+  .more-in-depth>span{color:var(--muted);white-space:nowrap}
+  .more-in-depth>div{display:flex;flex-wrap:wrap;gap:10px 22px}
+  .more-in-depth a{color:#216658}
+  .more-in-depth a:hover{text-decoration:underline}
+  @media(max-width:760px){.featured-section .section-heading{flex-wrap:wrap;gap:12px}.more-in-depth{flex-direction:column;gap:10px}}
+</style>

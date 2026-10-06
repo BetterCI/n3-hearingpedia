@@ -7,6 +7,7 @@ categories: ["psychoacoustics","acoustics"]
 tags: ["loudness"]
 aliases: ["loudness perception","响度感知","响度重振"]
 status: draft
+depth: in-depth
 last_updated: "2026-10-06"
 authors: ["AI 辅助编写"]
 references: ["moore-loudness-2014","moore-recruitment-2004","iso-226-2023","iso226-revision-2024","brand-2002","robles-2001","iso-532-3","asha-hearing-loss","guerit-focusing-2026","mosqito-model","amt-moore2016","iso-532-1","iso-532-2"]

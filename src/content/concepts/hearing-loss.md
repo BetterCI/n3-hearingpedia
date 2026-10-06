@@ -7,6 +7,7 @@ categories: ["hearing-loss","audiology"]
 tags: ["hearing-loss","auditory-phenotype","speech-in-noise","rehabilitation","single-sided-deafness","asymmetric-hearing-loss"]
 aliases: ["听力障碍","听觉损失","hearing impairment","hearing difficulty"]
 status: draft
+depth: in-depth
 last_updated: "2026-10-06"
 authors: ["AI 辅助重构"]
 reviewer: null

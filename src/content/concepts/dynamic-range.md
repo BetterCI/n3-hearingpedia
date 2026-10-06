@@ -7,6 +7,7 @@ categories: ["psychoacoustics","hearing-loss","hearing-aids","cochlear-implants"
 tags: ["动态范围","响度","响度重振","宽动态范围压缩","电动态范围","输入动态范围"]
 aliases: ["auditory dynamic range","perceptual dynamic range","residual dynamic range","electrical dynamic range","input dynamic range","听觉动态范围","电动态范围","残余动态范围"]
 status: draft
+depth: in-depth
 last_updated: "2026-10-05"
 authors: ["AI 辅助编写"]
 reviewer: null

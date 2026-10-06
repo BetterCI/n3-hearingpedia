@@ -7,6 +7,7 @@ categories: ["ear-cochlea","neuroscience"]
 tags: ["耳蜗解剖","耳蜗力学","毛细胞","机械电转导","频位映射关系","听神经编码"]
 aliases: ["耳蜗力学","cochlear mechanics"]
 status: draft
+depth: in-depth
 last_updated: "2026-10-05"
 authors: ["AI 辅助编写"]
 reviewer: null

@@ -7,6 +7,7 @@ categories: ["neuroscience","audiology"]
 tags: ["auditory-evoked-potential"]
 aliases: ["AEP","AEPs","听觉事件相关电位","auditory ERP"]
 status: draft
+depth: in-depth
 last_updated: "2026-10-06"
 authors: ["AI 辅助编写"]
 references: ["picton-aep-1974","coffey-2019","skoe-2010","asha-hearing-loss","picton-assr-2003","naatanen-2007","polich-2007","widmann-2015","itoh-aep-2026","maris-2007","lalor-speech-2010","osullivan-aad-2015","mo-ci-adaptation-2026","verhulst-model-2018","verhulst-code","amt-verhulst2018","mtrf-toolbox"]

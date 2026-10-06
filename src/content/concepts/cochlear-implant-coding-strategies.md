@@ -7,6 +7,7 @@ categories: ["cochlear-implants","signal-processing","ai-hearing"]
 tags: [sound-coding, cis, ace, speak, mp3000, fsp, fs4, hires, current-steering, electrodogram, deepace]
 aliases: [人工耳蜗编码策略, 人工耳蜗声音编码策略, CI coding strategies, speech coding strategies, 声音编码, ACE, SPEAK, MP3000, FSP, FS4, HiRes120]
 status: draft
+depth: in-depth
 last_updated: "2026-10-04"
 literature_checked_at: "2026-10-04"
 authors: ["AI 辅助初稿"]

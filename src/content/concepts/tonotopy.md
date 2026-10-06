@@ -7,6 +7,7 @@ categories: ["ear-cochlea","neuroscience"]
 tags: [frequency-place, greenwood, cochlear-map]
 aliases: [频位映射, 频率位置关系, frequency-place mapping, Greenwood]
 status: draft
+depth: in-depth
 last_updated: "2026-10-06"
 authors: ["AI 辅助编写"]
 references: ["greenwood-1990","moerel-2014","robles-2001","stakhovskaya-2007","sridhar-2006","dick-2012","kan-2013","oxenham-2004","amt-verhulst2018"]

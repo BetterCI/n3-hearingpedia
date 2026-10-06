@@ -7,6 +7,7 @@ categories: ["signal-processing","acoustics"]
 tags: [hilbert, envelope-extraction, modulation]
 aliases: [包络, 时域包络, ENV, Hilbert, 希尔伯特变换, amplitude envelope]
 status: draft
+depth: in-depth
 last_updated: "2026-10-06"
 authors: ["AI 辅助编写"]
 references: ["scipy-hilbert","rosen-1992","smith-2002","shamma-2013","drullman-1994","shannon-1995","zhou-tle-2022","peng-mandarin-2018","gilbert-2006","apoux-2011","swaminathan-2014","viemeister-1979","dau-1997","ananthakrishnan-2022","regev-2025","kubanek-2013","mcclaskey-2024","fuglsang-2024","zhou-f0intfs-2023","tamura-2024"]

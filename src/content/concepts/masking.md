@@ -7,6 +7,7 @@ categories: ["psychoacoustics","speech"]
 tags: [detection, threshold, simultaneous-masking, forward-masking]
 aliases: [听觉掩蔽, masking threshold, 同时掩蔽, 前向掩蔽, 非同时掩蔽]
 status: draft
+depth: in-depth
 last_updated: "2026-10-06"
 authors: ["AI 辅助编写"]
 references: ["glasberg-1990","brungart-2001","stone-2014","oxenham-2006","freyman-1999","robles-2001","hall-cmr-1984","hopkins-2008","amt-dau1997","amt-breebaart2001","asha-hearing-loss"]

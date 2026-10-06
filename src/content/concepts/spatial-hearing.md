@@ -7,6 +7,7 @@ categories: ["binaural","psychoacoustics"]
 tags: ["spatial-hearing"]
 aliases: ["auditory spatial perception","sound localization","声音定位","空间聆听","声源定位"]
 status: draft
+depth: in-depth
 last_updated: "2026-10-06"
 authors: ["AI 辅助编写"]
 references: ["middlebrooks-1991","distance-2016","freyman-1999","hofman-1998","wightman-spatial-1992","litovsky-precedence-2001","pastore-precedence-2019","tolnai-precedence-2014","brown-precedence-2013","xia-precedence-2010","borjigin-2025","kan-2013","goupell-2013","mo-ci-adaptation-2026","amt-lindemann1986","amt-baumgartner2014"]

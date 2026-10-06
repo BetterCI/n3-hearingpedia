@@ -14,6 +14,7 @@ const concepts = defineCollection({
     aliases: z.array(z.string()).default([]),
     level: z.array(z.string()).default(['graduate']),
     status: z.enum(['draft', 'reviewed', 'stable', 'needs-update']),
+    depth: z.enum(['standard', 'in-depth']).default('standard'),
     last_updated: z.string(),
     authors: z.array(z.string()).default([]),
     reviewer: z.string().nullable().default(null),

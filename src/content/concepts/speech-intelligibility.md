@@ -7,6 +7,7 @@ categories: ["speech","psychoacoustics"]
 tags: ["言语识别","信噪比","语音接收阈","心理测量函数","SII","STI","STOI","ESTOI","HASPI"]
 aliases: ["语音可懂度","语音清晰度","言语清晰度","语音识别率","正确率"]
 status: "draft"
+depth: in-depth
 last_updated: "2026-10-05"
 literature_checked_at: "2026-10-05"
 authors: ["AI 辅助编写"]

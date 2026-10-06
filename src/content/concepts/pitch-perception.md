@@ -8,6 +8,7 @@ tags: ["音高","基频","谐波可分辨性","位置编码","时域编码","相
 aliases: ["pitch","音调感知","音高知觉","F0 pitch","periodicity pitch"]
 batch: 2
 status: "draft"
+depth: in-depth
 last_updated: "2026-10-05"
 literature_checked_at: "2026-10-05"
 authors: ["AI 辅助编写"]

@@ -8,6 +8,7 @@ tags: ["F0"]
 aliases: ["F0"]
 batch: 2
 status: "draft"
+depth: in-depth
 last_updated: "2026-10-06"
 literature_checked_at: "2026-10-06"
 authors: ["AI 辅助编写"]
