@@ -319,7 +319,7 @@ export const monitorReferences: Record<string, Reference> = {
   },
   "tasnim-ml-hearingaid-2024": {
     "title": "A Review of Machine Learning Approaches for the Personalization of Amplification in Hearing Aids",
-    "authors": "Tasnim, N. Z., Ni, A. & Lobarinas, E.",
+    "authors": "Tasnim, N. Z., Ni, A., Lobarinas, E. & Kehtarnavaz, N.",
     "year": "2024",
     "publication": "Sensors, 24(5), 1546",
     "doi": "10.3390/s24051546",

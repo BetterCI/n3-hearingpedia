@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-06",
+  "slug": "hearing-aid",
+  "chinese_characters": 8552,
+  "body_characters": 20624,
+  "sections": 12,
+  "subsections": 9,
+  "reference_ids": [
+    "nidcd-hearing-aids",
+    "keidser-nalnl2-2011",
+    "kayser-openmha-2022",
+    "winkler-open-fitting-2016",
+    "asha-hearing-aids-adults",
+    "moore-compression-speed-2008",
+    "brons-noise-reduction-2014",
+    "kuk-irrt-2026",
+    "kates-haspi-hasqi-2022",
+    "wu-hearing-aid-features-2019",
+    "clarity-toolkit",
+    "simpson-frequency-lowering-2018",
+    "scollie-dsl5-2005",
+    "almufarrij-real-ear-2021",
+    "boystown-recd",
+    "fda-otc-hearing-aids",
+    "knoetze-self-fitting-2024",
+    "de-sousa-self-fitting-2023",
+    "humes-self-fit-2025",
+    "wu-hearing-aid-service-2025",
+    "tasnim-ml-hearingaid-2024"
+  ],
+  "wiki_links": [
+    "cochlea",
+    "cochlear-implant",
+    "hearing-loss",
+    "speech-intelligibility",
+    "dynamic-range",
+    "temporal-envelope",
+    "temporal-fine-structure",
+    "spatial-hearing",
+    "mandarin-lexical-tone",
+    "loudness",
+    "auditory-filter"
+  ],
+  "figures": [
+    "01-signal-and-acoustic-paths.svg",
+    "02-compression-level-and-time.svg",
+    "03-directional-principle.svg",
+    "04-open-fitting-delay.svg",
+    "05-real-ear-verification.svg"
+  ],
+  "reference_mapping": {
+    "nidcd": "nidcd-hearing-aids",
+    "nal": "keidser-nalnl2-2011",
+    "openmha": "kayser-openmha-2022",
+    "open-fit": "winkler-open-fitting-2016",
+    "asha": "asha-hearing-aids-adults",
+    "compression": "moore-compression-speed-2008",
+    "brons": "brons-noise-reduction-2014",
+    "kuk": "kuk-irrt-2026",
+    "haspi": "kates-haspi-hasqi-2022",
+    "wu2019": "wu-hearing-aid-features-2019",
+    "clarity": "clarity-toolkit",
+    "frequency-lowering": "simpson-frequency-lowering-2018",
+    "dsl": "scollie-dsl5-2005",
+    "rem": "almufarrij-real-ear-2021",
+    "recd": "boystown-recd",
+    "fda": "fda-otc-hearing-aids",
+    "knoetze": "knoetze-self-fitting-2024",
+    "desousa": "de-sousa-self-fitting-2023",
+    "humes2025": "humes-self-fit-2025",
+    "wu2025": "wu-hearing-aid-service-2025",
+    "personalization": "tasnim-ml-hearingaid-2024"
+  },
+  "source_access": [
+    {
+      "id": "nidcd-hearing-aids",
+      "scope": "官方基础资料，支持装置组成、形式与功能边界。访问日期：2026-10-06。"
+    },
+    {
+      "id": "keidser-nalnl2-2011",
+      "scope": "全文：处方目标、响度约束与个体修正。"
+    },
+    {
+      "id": "kayser-openmha-2022",
+      "scope": "全文与官方仓库：研究平台结构、校准及可配置处理模块。"
+    },
+    {
+      "id": "winkler-open-fitting-2016",
+      "scope": "全文相关段落：开放／封闭耦合、堵耳、延迟与泄漏的声学关系。"
+    },
+    {
+      "id": "asha-hearing-aids-adults",
+      "scope": "专业实践资料，支持装置选择、真耳测量、辅助设备和随访。访问日期：2026-10-06。"
+    },
+    {
+      "id": "moore-compression-speed-2008",
+      "scope": "摘要与综述结论：快慢压缩的权衡及个体差异；图 2 为自建模型。"
+    },
+    {
+      "id": "brons-noise-reduction-2014",
+      "scope": "原始研究摘要：20 名听损者、三种被测降噪的可懂度与偏好结果。"
+    },
+    {
+      "id": "kuk-irrt-2026",
+      "scope": "截至 2026-10-06 的在线发表摘要：20 名正常听力者和 19 名助听状态听损者；研究性评价工具。"
+    },
+    {
+      "id": "kates-haspi-hasqi-2022",
+      "scope": "摘要：听觉外周模型、可懂度与音质预测的不同目标和限制。"
+    },
+    {
+      "id": "wu-hearing-aid-features-2019",
+      "scope": "原始研究摘要：54 人交叉研究的实验室结果与真实生活结果。"
+    },
+    {
+      "id": "clarity-toolkit",
+      "scope": "官方代码与文档，支持公开实现的用途和版本区分，不作为商业产品疗效证据。访问日期：2026-10-06。"
+    },
+    {
+      "id": "simpson-frequency-lowering-2018",
+      "scope": "系统综述摘要：频率降低在不同言语指标上的获益差别。"
+    },
+    {
+      "id": "scollie-dsl5-2005",
+      "scope": "摘要：DSL v5 的目标、适用人群与多阶段输入输出安排。"
+    },
+    {
+      "id": "almufarrij-real-ear-2021",
+      "scope": "系统综述摘要：六项纳入研究、五项合并分析及证据限制。"
+    },
+    {
+      "id": "boystown-recd",
+      "scope": "医院专业资料，支持儿童耳道差异、RECD 和测试箱验证。访问日期：2026-10-06。"
+    },
+    {
+      "id": "fda-otc-hearing-aids",
+      "scope": "美国非处方助听器适用人群及产品类别；不作为其他司法辖区的法规。访问日期：2026-10-06。"
+    },
+    {
+      "id": "knoetze-self-fitting-2024",
+      "scope": "试验摘要：28 人交叉比较自我调整与原位测听。"
+    },
+    {
+      "id": "de-sousa-self-fitting-2023",
+      "scope": "试验摘要：64 人分析样本，六周、含远程支持的特定自助方案。"
+    },
+    {
+      "id": "humes-self-fit-2025",
+      "scope": "试验摘要：584 人随机分配、六周与六个月问卷结局；不劣效结论限于预定设计。"
+    },
+    {
+      "id": "wu-hearing-aid-service-2025",
+      "scope": "试验摘要：245 人完成，三种服务模式及日常即时获益评分；非处方模式为模拟。"
+    },
+    {
+      "id": "tasnim-ml-hearingaid-2024",
+      "scope": "综述摘要：机器学习辅助放大个体化的研究范围与挑战。"
+    }
+  ]
+}
