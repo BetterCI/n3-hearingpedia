@@ -2,13 +2,13 @@
 title: "时域精细结构"
 english: "Temporal fine structure"
 slug: "temporal-fine-structure"
-summary: "声音在指定频带内的相位与振荡结构。联系时域包络、神经相位锁定、音高和双耳线索，说明再生包络及实验解释的边界。"
+summary: "声音波形在较细时间尺度上的振荡细节，涉及振荡的时序与相位变化。介绍它与时域包络的关系、相位锁定、听觉作用及测量解释。"
 categories: ["signal-processing","neuroscience"]
 tags: ["TFS"]
 aliases: ["TFS"]
 batch: 2
 status: "draft"
-last_updated: "2026-10-05"
+last_updated: "2026-10-06"
 literature_checked_at: "2026-10-05"
 authors: ["AI 辅助编写"]
 references: ["smith-2002","scipy-hilbert","shamma-2013","borjigin-2025","hopkins-2008","zhou-tle-2022","peng-mandarin-2018","verschooten-human-cochlea-2018","shannon-1995","apoux-2011","rosen-1992","verschooten-2019","macherey-2024","hopkins-lf-2010","swaminathan-2014","gilbert-2006","moore-sek-2009","fullgrabe-af-2017","ananthakrishnan-2022","zhou-f0intfs-2023","gaudrain-2025"]
@@ -18,7 +18,7 @@ kind: "representation"
 key_facts: [{"label":"缩写","value":"TFS"},{"label":"常用表示","value":"指定频带解析信号的相位变化"},{"label":"重要区分","value":"数学相位、神经响应与任务用途"}]
 ---
 
-**时域精细结构**是声音在指定频带内的振荡及其相位随时间变化的结构，常用解析信号的相位或由该相位构成的归一化实信号表示。英文名称为 temporal fine structure，通常缩写为 TFS。观察窄带波形时，它对应幅度轮廓内部较快的振荡；与之配对的[时域包络](../temporal-envelope/)则描述振荡的幅度怎样变化。[1](#ref-smith-2002)[2](#ref-scipy-hilbert)
+**时域精细结构**是声音波形在较细时间尺度上的振荡细节，涉及振荡的时序与相位变化，通常相对于时域包络所描述的幅度轮廓而言。研究中常用解析信号的相位或由该相位构成的归一化波形来表征。英文名称为 temporal fine structure，通常缩写为 TFS。观察窄带波形时，它对应幅度轮廓内部较快的振荡；与之配对的[时域包络](../temporal-envelope/)则描述振荡的幅度怎样变化。[1](#ref-smith-2002)[2](#ref-scipy-hilbert)
 
 精细结构研究涉及纯音和复合音的音高、耳间相位差、复杂背景中的言语理解，以及听觉设备如何传递时间信息。但“信号具有某种精细结构”“神经能够表征这种变化”和“听者利用它完成某个任务”是三个需要分别验证的命题。对声学信号保留相位，不等于已经证明相应的神经编码得到保留；改变相位，也可能同时改变听觉通道中的包络和频谱线索。[3](#ref-shamma-2013)[4](#ref-borjigin-2025)
 
@@ -28,15 +28,21 @@ key_facts: [{"label":"缩写","value":"TFS"},{"label":"常用表示","value":"�
 
 ### 精细结构与包络、基频及频谱
 
-包络和精细结构是同一个频带信号的两种互补描述。[基频](../fundamental-frequency/)则是周期性声音的基本重复频率。低阶谐波被较充分分辨时，其频率和带内振荡可提供基频相关线索；多个谐波落在同一通道时，相互作用又能在包络中产生周期性。因此，基频既不是精细结构的同义词，也不专属于包络。[7](#ref-peng-mandarin-2018)
+包络和精细结构是同一声音信号的两种互补描述；该信号既可以是整体声音，也可以是某个滤波通道的输出。[基频](../fundamental-frequency/)则是周期性声音的基本重复频率。低阶谐波被较充分分辨时，其频率和带内振荡可提供基频相关线索；多个谐波落在同一通道时，相互作用又能在包络中产生周期性。因此，基频既不是精细结构的同义词，也不专属于包络。[7](#ref-peng-mandarin-2018)
 
 “精细”描述的是信号在时间轴上的振荡结构，不能与“精细频谱”混用。频率分辨率描述区分频率成分的能力；相位锁定描述神经放电对刺激周期的同步。二者可共同影响感知，却不是相同机制。对人类耳蜗的生理研究也将频率调谐和时间同步作为不同性质加以评估。[8](#ref-verschooten-human-cochlea-2018)
+
+### 为什么听觉研究常在频带内讨论
+
+分频并不是定义声学精细结构的必要前提。对整体实信号也可以构造解析信号，求取幅度和相位；不过，对包含多个成分的宽带声音，这条整体相位轨迹未必对应一个可独立识别的物理载波，也不能直接视为耳蜗某个位置接收到的振荡。数学上能够分解，与分解结果具有何种听觉意义，是两个层次的问题。[2](#ref-scipy-hilbert)[3](#ref-shamma-2013)
+
+耳蜗具有频率选择性，因此在讨论神经时间编码或模拟听觉加工时，研究者常考察听觉滤波器输出中的包络与精细结构。窄带条件下，“较慢的幅度轮廓”和“内部较快的振荡”通常也更容易区分。这是特定分析层面及其解释条件，不是把精细结构限制为只有预先指定频带后才存在的属性。
 
 ### 三个需要区分的层次
 
 | 层次 | 研究对象 | 常见表示或测量 |
 | --- | --- | --- |
-| 声学精细结构 | 分频后的声压或数字波形 | 解析相位、归一化载波、瞬时频率 |
+| 声学精细结构 | 整体声音或滤波输出的声压／数字波形 | 解析相位、归一化载波、瞬时频率 |
 | 神经时间编码 | 刺激引起的神经活动 | 相位锁定、周期同步、群体响应指标 |
 | 行为上的精细结构敏感度 | 听者在特定线索条件下的判断 | 耳间相位差辨别、移频复合音辨别、处理言语的识别 |
 
@@ -46,19 +52,21 @@ key_facts: [{"label":"缩写","value":"TFS"},{"label":"常用表示","value":"�
 
 ### 与包络词条一致的分解
 
-对第 $k$ 个频带信号 $x_k(t)$，解析信号和实信号重建关系为：
+对所分析的实信号 $x(t)$，无论取整体声音还是某个滤波输出，解析信号和实信号重建关系为：
 
 $$
-z_k(t)=x_k(t)+j\mathcal H\{x_k(t)\}
-      =a_k(t)e^{j\phi_k(t)},\qquad
-x_k(t)=a_k(t)\cos\phi_k(t).
+z(t)=x(t)+j\mathcal H\{x(t)\}
+      =a(t)e^{j\phi(t)},\qquad
+x(t)=a(t)\cos\phi(t).
 $$
 
-其中 $a_k(t)$ 为非负幅度包络，$\phi_k(t)$ 为相位，$\mathcal H$ 为希尔伯特变换，$t$ 的单位为秒。常用的精细结构实信号是 $c_k(t)=\cos\phi_k(t)$；也可以使用复数相位因子 $e^{j\phi_k(t)}$。前者的数值在−1和1之间，后者的模为1。两者是不同的数学对象，不应把“复相位因子的模为1”直接等同于“任意重建声波再经希尔伯特变换的包络都严格为1”。[2](#ref-scipy-hilbert)[10](#ref-apoux-2011)
+其中 $a(t)$ 为非负幅度包络，$\phi(t)$ 为相位，$\mathcal H$ 为希尔伯特变换，$t$ 的单位为秒。常用的精细结构实信号是 $c(t)=\cos\phi(t)$；也可以使用复数相位因子 $e^{j\phi(t)}$。前者的数值在−1和1之间，后者的模为1。两者是不同的数学对象，不应把“复相位因子的模为1”直接等同于“任意重建声波再经希尔伯特变换的包络都严格为1”。[2](#ref-scipy-hilbert)[10](#ref-apoux-2011)
+
+若研究采用滤波器组，可将第 $k$ 个通道记为 $x_k(t)$，并对该通道使用 $a_k(t)$、$\phi_k(t)$ 和 $c_k(t)$ 等符号；下标用于区分通道。这里先给出一般信号的表示，再在具体听觉问题中明确频带。
 
 <figure class="encyclopedia-figure">
 <a href="/n3-hearingpedia/figures/temporal-cues/01-envelope-tfs-decomposition.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/temporal-cues/01-envelope-tfs-decomposition.svg" alt="时域包络与时域精细结构对同一理想调幅波形的描述" width="728" height="493" loading="lazy" /></a>
-<figcaption><p><strong>图1｜精细结构是同一频带信号的相位表示。</strong> 信号、参数和包络词条图1完全相同：载波400赫兹，调制频率20赫兹，调制深度0.7，峰值归一化到1。A为原波形及正、负包络轮廓；B为非负幅度包络；C为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>cos</mi><mo>⁡</mo><mi>ϕ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\cos\phi(t)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop">cos</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">ϕ</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span>。本例中的精细结构是纯正弦，便于观察；自然言语的带内相位通常更复杂。本图为数学示意，不是神经记录。</p></figcaption>
+<figcaption><p><strong>图1｜同一信号的幅度轮廓与精细振荡。</strong> 信号、参数和包络词条图1完全相同：载波400赫兹，调制频率20赫兹，调制深度0.7，峰值归一化到1。A为原波形及正、负包络轮廓；B为非负幅度包络；C为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>cos</mi><mo>⁡</mo><mi>ϕ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\cos\phi(t)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop">cos</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">ϕ</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span>。本例中的精细结构是纯正弦，便于观察；自然言语的带内相位通常更复杂。本图为数学示意，不是神经记录。</p></figcaption>
 </figure>
 
 ### 相位与瞬时频率
@@ -66,12 +74,12 @@ $$
 相位记录振荡进行到周期中的哪个位置。将相位展开为连续变化的量，在相位可微且包络非零的区间内，可定义瞬时频率：
 
 $$
-f_{\mathrm{inst},k}(t)=\frac{1}{2\pi}\frac{d\phi_k(t)}{dt}.
+f_{\mathrm{inst}}(t)=\frac{1}{2\pi}\frac{d\phi(t)}{dt}.
 $$
 
-瞬时频率的单位为赫兹。对稳态正弦，它等于正弦频率；对调频信号，它随时间变化。对于复杂多分量信号，瞬时频率可能出现很大的波动，不一定对应某一个实际谱线，也不能直接作为基频或感知音高的估计。计算与解释都应联系所用频带。[2](#ref-scipy-hilbert)
+瞬时频率的单位为赫兹。对稳态正弦，它等于正弦频率；对调频信号，它随时间变化。对于复杂多分量信号，瞬时频率可能出现很大的波动，不一定对应某一个实际谱线，也不能直接作为基频或感知音高的估计。计算与解释都应联系所分析的信号，以及是否采用分频处理。[2](#ref-scipy-hilbert)
 
-当解析包络接近零时，相位容易受到很小的信号变化或数值误差影响。直接对相位差分，会放大这些局部不稳定。实际分析应记录低幅度区间的处理方式，可以将其标记为不可靠或从特定统计中排除。若用 $x_k(t)/a_k(t)$ 提取归一化波形，在分母加入保护量会改变低幅度处的信号；保护阈值也应报告。
+当解析包络接近零时，相位容易受到很小的信号变化或数值误差影响。直接对相位差分，会放大这些局部不稳定。实际分析应记录低幅度区间的处理方式，可以将其标记为不可靠或从特定统计中排除。若用 $x(t)/a(t)$ 提取归一化波形，在分母加入保护量会改变低幅度处的信号；保护阈值也应报告。
 
 ### “快”不等于固定频率区间
 

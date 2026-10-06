@@ -242,12 +242,22 @@
       "kind": "condition",
       "priority": "通用核心概念",
       "reference_ids": [
-        "who-hearing-loss",
-        "who-world-report-hearing-2021",
         "asha-hearing-loss",
-        "nidcd-adult-hearing-health-care",
+        "who-world-report-hearing-2021",
+        "moore-recruitment-2004",
+        "hopkins-2008",
+        "who-hearing-loss",
+        "nidcd-sudden",
+        "hahn-asymmetry-2026",
+        "robles-2001",
         "guest-synaptopathy-2018",
-        "hahn-asymmetry-2026"
+        "skoe-2010",
+        "nidcd-adult-hearing-health-care",
+        "achieve-2023",
+        "achieve-communication-2024",
+        "amt-zilany2014",
+        "verhulst-model-2018",
+        "verhulst-code"
       ],
       "monitor_source_ids": [
         "hahn-asymmetry-2026"
@@ -287,8 +297,18 @@
       "priority": "通用核心概念",
       "reference_ids": [
         "moore-loudness-2014",
+        "moore-recruitment-2004",
+        "iso-226-2023",
+        "iso226-revision-2024",
+        "brand-2002",
         "robles-2001",
-        "guerit-focusing-2026"
+        "iso-532-3",
+        "asha-hearing-loss",
+        "guerit-focusing-2026",
+        "mosqito-model",
+        "amt-moore2016",
+        "iso-532-1",
+        "iso-532-2"
       ],
       "monitor_source_ids": [
         "guerit-focusing-2026"
@@ -373,9 +393,22 @@
       "priority": "通用核心概念",
       "reference_ids": [
         "picton-aep-1974",
+        "coffey-2019",
+        "skoe-2010",
+        "asha-hearing-loss",
+        "picton-assr-2003",
+        "naatanen-2007",
+        "polich-2007",
+        "widmann-2015",
         "itoh-aep-2026",
+        "maris-2007",
+        "lalor-speech-2010",
         "osullivan-aad-2015",
-        "lalor-speech-2010"
+        "mo-ci-adaptation-2026",
+        "verhulst-model-2018",
+        "verhulst-code",
+        "amt-verhulst2018",
+        "mtrf-toolbox"
       ],
       "monitor_source_ids": [
         "itoh-aep-2026"
@@ -542,10 +575,22 @@
       "kind": "function",
       "priority": "通用核心概念",
       "reference_ids": [
+        "middlebrooks-1991",
+        "distance-2016",
+        "freyman-1999",
+        "hofman-1998",
         "wightman-spatial-1992",
+        "litovsky-precedence-2001",
+        "pastore-precedence-2019",
+        "tolnai-precedence-2014",
+        "brown-precedence-2013",
+        "xia-precedence-2010",
+        "borjigin-2025",
         "kan-2013",
         "goupell-2013",
-        "mo-ci-adaptation-2026"
+        "mo-ci-adaptation-2026",
+        "amt-lindemann1986",
+        "amt-baumgartner2014"
       ],
       "monitor_source_ids": [
         "mo-ci-adaptation-2026"

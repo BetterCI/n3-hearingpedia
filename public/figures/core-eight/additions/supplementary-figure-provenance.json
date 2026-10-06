@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-06",
+  "equal_loudness": {
+    "source": "https://www.iso.org/standard/83117.html",
+    "public_preview": "https://cdn.standards.iteh.ai/samples/83117/6afa5bd94e0e4f32812c28c3b0a7b8ac/ISO-226-2023.pdf",
+    "scope": "Formula (1), Table 1, published pages 2–4; visually checked. Preview, not full standard.",
+    "phon": [
+      20,
+      40,
+      60,
+      80
+    ],
+    "at100Hz40phon_dBSPL": 64.23968784605395,
+    "one_kHz_error_max": 0.0,
+    "lines": "PCHIP on log10 frequency, visual interpolation only"
+  },
+  "speech": {
+    "source_url": "https://raw.githubusercontent.com/librosa/data/main/audio/5703-47212-0000.ogg",
+    "source_sha256": "a284612b46af0535f7e1873758c4387bb8369f6dbbe192ffdec1f171108f98dd",
+    "recording_id": "5703-47212-0000",
+    "work": "The Ashiel Mystery",
+    "reader": "Garth Comira",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_sample_rate": 22050,
+    "excerpt_seconds": [
+      3.3,
+      4.8
+    ],
+    "peak": 0.98,
+    "spectrogram": {
+      "window": "Hann",
+      "window_ms": 80,
+      "hop_samples": 110,
+      "hop_ms": 4.988662131519274,
+      "nfft": 8192,
+      "preemphasis": false,
+      "dynamic_range_dB": 55
+    },
+    "pitch": {
+      "algorithm": "Praat raw autocorrelation via Parselmouth Sound.to_pitch_ac",
+      "parselmouth": "0.4.7",
+      "praat": "6.1.38",
+      "step_ms": 5,
+      "floor_Hz": 60,
+      "ceiling_Hz": 350,
+      "voicing_threshold": 0.6,
+      "silence_threshold": 0.03,
+      "selected_frame_start_s": 0.39,
+      "selected_frame_end_s": 0.47,
+      "selected_median_f0_Hz": 109.68071131474001,
+      "observed_spectral_peaks_Hz": [
+        108.33892822265625,
+        222.73406982421875,
+        331.74591064453125,
+        438.06610107421875,
+        541.6946411132812,
+        652.0523071289062,
+        759.04541015625,
+        980.4336547851562
+      ],
+      "mean_first_four_peak_spacing_Hz": 109.9090576171875
+    }
+  },
+  "outputs": [
+    {
+      "svg": "loudness-equal-contours.svg",
+      "sha256": "ddaf2237d8ade19cc0ae3e63941ce3eeeb73229a0c8a79b85261dc26480836bf"
+    },
+    {
+      "svg": "fundamental-frequency-speech-spectrogram.svg",
+      "sha256": "35e35e7f12ab7c7043409d0aad469ad5d63e868996fe4d7b0cd1666073686a3e"
+    }
+  ]
+}

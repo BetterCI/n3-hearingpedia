@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="710.7pt" height="477.577894pt" viewBox="0 0 710.7 477.577894" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 477.577894 
+L 710.7 477.577894 
+L 710.7 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 47.2 119.14375 
+L 703.5 119.14375 
+L 703.5 29.75175 
+L 47.2 29.75175 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="PolyCollection_1">
+    <path d="M 97.684615 108.41671 
+L 97.684615 83.38695 
+L 552.046154 83.38695 
+L 552.046154 108.41671 
+z
+" clip-path="url(#pc7e33eb097)" style="fill: #196b91"/>
+   </g>
+   <g id="PolyCollection_2">
+    <path d="M 274.380769 67.29639 
+L 274.380769 42.26663 
+L 375.35 42.26663 
+L 375.35 67.29639 
+z
+" clip-path="url(#pc7e33eb097)" style="fill: #bf5d32"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mb59f4b9b9c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="47.2" y="119.14375" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="148.169231" y="119.14375" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="249.138462" y="119.14375" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="350.107692" y="119.14375" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="451.076923" y="119.14375" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="552.046154" y="119.14375" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="653.015385" y="119.14375" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <defs>
+       <path id="m28812720e4" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m28812720e4" x="47.2" y="95.90183" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: end" x="40.2" y="100.298392" transform="rotate(-0 40.2 100.298392)">掩蔽声</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m28812720e4" x="47.2" y="54.78151" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: end" x="40.2" y="59.178072" transform="rotate(-0 40.2 59.178072)">目标声</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 47.2 119.14375 
+L 47.2 29.75175 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 47.2 119.14375 
+L 703.5 119.14375 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_3">
+    <text style="font: 700 13.2px 'Microsoft YaHei'; text-anchor: start" x="47.2" y="17.75175" transform="rotate(-0 47.2 17.75175)">A  同时掩蔽</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 47.2 259.41575 
+L 703.5 259.41575 
+L 703.5 170.02375 
+L 47.2 170.02375 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="PolyCollection_3">
+    <path d="M 97.684615 248.68871 
+L 97.684615 223.65895 
+L 400.592308 223.65895 
+L 400.592308 248.68871 
+z
+" clip-path="url(#pa6b56ba462)" style="fill: #196b91"/>
+   </g>
+   <g id="PolyCollection_4">
+    <path d="M 501.561538 207.56839 
+L 501.561538 182.53863 
+L 602.530769 182.53863 
+L 602.530769 207.56839 
+z
+" clip-path="url(#pa6b56ba462)" style="fill: #bf5d32"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_8">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="47.2" y="259.41575" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="148.169231" y="259.41575" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="249.138462" y="259.41575" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="350.107692" y="259.41575" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="451.076923" y="259.41575" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="552.046154" y="259.41575" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="653.015385" y="259.41575" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_3">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m28812720e4" x="47.2" y="236.17383" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: end" x="40.2" y="240.570392" transform="rotate(-0 40.2 240.570392)">掩蔽声</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m28812720e4" x="47.2" y="195.05351" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: end" x="40.2" y="199.450072" transform="rotate(-0 40.2 199.450072)">目标声</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 47.2 259.41575 
+L 47.2 170.02375 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 47.2 259.41575 
+L 703.5 259.41575 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_6">
+    <text style="font: 700 13.2px 'Microsoft YaHei'; text-anchor: start" x="47.2" y="158.02375" transform="rotate(-0 47.2 158.02375)">B  前向掩蔽</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_8">
+    <path d="M 47.2 399.68775 
+L 703.5 399.68775 
+L 703.5 310.29575 
+L 47.2 310.29575 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="PolyCollection_5">
+    <path d="M 299.623077 388.96071 
+L 299.623077 363.93095 
+L 602.530769 363.93095 
+L 602.530769 388.96071 
+z
+" clip-path="url(#pd3ca9680ca)" style="fill: #196b91"/>
+   </g>
+   <g id="PolyCollection_6">
+    <path d="M 97.684615 347.84039 
+L 97.684615 322.81063 
+L 198.653846 322.81063 
+L 198.653846 347.84039 
+z
+" clip-path="url(#pd3ca9680ca)" style="fill: #bf5d32"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_15">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="47.2" y="399.68775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: middle" x="47.2" y="415.480875" transform="rotate(-0 47.2 415.480875)">0</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="148.169231" y="399.68775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: middle" x="148.169231" y="415.480875" transform="rotate(-0 148.169231 415.480875)">20</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="249.138462" y="399.68775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: middle" x="249.138462" y="415.480875" transform="rotate(-0 249.138462 415.480875)">40</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="350.107692" y="399.68775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: middle" x="350.107692" y="415.480875" transform="rotate(-0 350.107692 415.480875)">60</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="451.076923" y="399.68775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: middle" x="451.076923" y="415.480875" transform="rotate(-0 451.076923 415.480875)">80</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="552.046154" y="399.68775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: middle" x="552.046154" y="415.480875" transform="rotate(-0 552.046154 415.480875)">100</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#mb59f4b9b9c" x="653.015385" y="399.68775" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: middle" x="653.015385" y="415.480875" transform="rotate(-0 653.015385 415.480875)">120</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font: 11px 'Microsoft YaHei'; text-anchor: middle" x="375.35" y="435.008531" transform="rotate(-0 375.35 435.008531)">时间（毫秒；任意安排）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_5">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m28812720e4" x="47.2" y="376.44583" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: end" x="40.2" y="380.842392" transform="rotate(-0 40.2 380.842392)">掩蔽声</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m28812720e4" x="47.2" y="335.32551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font: 11px 'Microsoft YaHei'; text-anchor: end" x="40.2" y="339.722072" transform="rotate(-0 40.2 339.722072)">目标声</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 47.2 399.68775 
+L 47.2 310.29575 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 47.2 399.68775 
+L 703.5 399.68775 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_17">
+    <text style="font: 700 13.2px 'Microsoft YaHei'; text-anchor: start" x="47.2" y="298.29575" transform="rotate(-0 47.2 298.29575)">C  后向掩蔽</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="fill: #555555; font: 9px 'Microsoft YaHei'; text-anchor: middle" x="355.38" y="468.14055" transform="rotate(-0 355.38 468.14055)">教学绘图 · 刺激时序示意；矩形表示呈现时段，不是声压波形</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc7e33eb097">
+   <rect x="47.2" y="29.75175" width="656.3" height="89.392"/>
+  </clipPath>
+  <clipPath id="pa6b56ba462">
+   <rect x="47.2" y="170.02375" width="656.3" height="89.392"/>
+  </clipPath>
+  <clipPath id="pd3ca9680ca">
+   <rect x="47.2" y="310.29575" width="656.3" height="89.392"/>
+  </clipPath>
+ </defs>
+</svg>
