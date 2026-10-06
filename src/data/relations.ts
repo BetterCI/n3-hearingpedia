@@ -162,6 +162,14 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('atomic-speech-model','binaural-integration','application','跨耳分配和延迟用于研究信息整合。'),
   link('vocoder','mandarin-lexical-tone','application','研究处理后声调线索的可用性。'),
   link('confusion-matrix','zodiac-in-noise','related','类别错误与评分单位可补充总阈值解释。'),
+  link('inner-hair-cell','cochlea','related','内毛细胞位于柯蒂器，是耳蜗把机械运动转换为主要传入神经输出的感觉受体。'),
+  link('inner-hair-cell','outer-hair-cell','related','两类毛细胞共享机械电转导基础，但 IHC 主要负责传入感觉输出，OHC 主要参与主动机械反馈。'),
+  link('inner-hair-cell','cochlear-synaptopathy','mechanism','IHC ribbon synapse 与 type I SGN 接口是耳蜗突触病变的关键病理位置。'),
+  link('inner-hair-cell','dynamic-range','mechanism','IHC 多个异质 active zones 与 SGN 亚型共同参与声强动态范围的群体分解编码。'),
+  link('inner-hair-cell','temporal-fine-structure','mechanism','低频 IHC 受体电位及突触释放可保留周期同步，为听神经相位锁定提供外周基础。'),
+  link('inner-hair-cell','pitch-perception','mechanism','IHC 将耳蜗 place 信息与低频 timing 信息传入 SGN，是 place–time 音高编码的外周接口。'),
+  link('inner-hair-cell','hearing-aid','related','声学放大仍依赖残余 IHC 机械电转导和突触传输才能形成有效神经输入。'),
+  link('inner-hair-cell','cochlear-implant','related','人工耳蜗绕过 IHC 的机械电转导和 ribbon synapse，直接刺激耳蜗神经元。'),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({
