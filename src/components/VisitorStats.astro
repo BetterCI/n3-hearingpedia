@@ -1,0 +1,29 @@
+---
+import { asset } from '../lib/paths';
+import analytics from '../data/analytics.json';
+const site = (import.meta.env.PUBLIC_GOATCOUNTER_SITE || analytics.site).trim().replace(/\/$/, '');
+const configured = /^https:\/\/[a-z0-9-]+\.goatcounter\.com$/.test(site);
+const statsUrl = asset('visitor-stats.json');
+---
+{configured && <section class="visitor-stats" aria-label="网站访问统计" data-stats-url={statsUrl} data-counter-site={site} hidden>
+  <div class="visitor-stats-heading"><span>世界各地的读者</span><span data-stats-period></span></div>
+  <div class="visitor-stats-summary"><span>访问人次 <strong data-stats-visits></strong></span><span>来源国家 / 地区 <strong data-stats-countries></strong></span></div>
+  <ul class="visitor-stats-locations" aria-label="主要来源国家与地区"></ul>
+  <p class="visitor-stats-note">按 GoatCounter 口径统计访问人次，跨页面可重复计数；国家 / 地区为网络地址估计。<span data-stats-updated></span></p>
+</section>}
+<script>
+  import { initVisitorStats } from '../scripts/visitor-stats';
+  initVisitorStats();
+</script>
+<style>
+  .visitor-stats{max-width:1116px;margin:24px auto 0;padding:19px 0 0;border-top:1px solid var(--line);color:var(--muted);font-size:11px}
+  .visitor-stats[hidden]{display:none}
+  .visitor-stats-heading{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .visitor-stats-heading>span:first-child{font-size:12px;color:var(--text);font-weight:600}
+  .visitor-stats-heading>span:last-child{font-size:10px}
+  .visitor-stats-summary{display:flex;gap:26px;flex-wrap:wrap;margin-top:12px}
+  .visitor-stats-summary strong{font-size:17px;font-weight:600;color:var(--accent);margin-left:7px;font-variant-numeric:tabular-nums}
+  .visitor-stats-locations{display:flex;flex-wrap:wrap;gap:8px 18px;list-style:none;padding:0;margin:12px 0}
+  .visitor-stats-note{font-size:10px;line-height:1.7;margin:0;color:var(--muted)}
+  @media(max-width:760px){.visitor-stats-summary{gap:12px 22px}.visitor-stats-heading{gap:8px}}
+</style>

@@ -5,6 +5,8 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 1,7,13,19 * * *'
 
 permissions:
   contents: read
@@ -20,6 +22,7 @@ jobs:
       SITE_URL: https://betterci.github.io
       BASE_PATH: /n3-hearingpedia
       ASTRO_TELEMETRY_DISABLED: "1"
+      PUBLIC_GOATCOUNTER_SITE: ${{ github.event_name != 'pull_request' && vars.GOATCOUNTER_SITE || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -31,6 +34,12 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
+      - run: node --test scripts/fetch-visitor-stats.test.mjs
+      - name: Fetch public visitor summary
+        if: github.event_name != 'pull_request'
+        env:
+          GOATCOUNTER_API_TOKEN: ${{ secrets.GOATCOUNTER_API_TOKEN }}
+        run: node scripts/fetch-visitor-stats.mjs
       - run: pnpm build
       - run: pnpm verify
       - uses: actions/upload-pages-artifact@v3

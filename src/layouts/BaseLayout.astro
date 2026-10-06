@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import 'katex/dist/katex.min.css';
 import { url, asset } from '../lib/paths';
+import VisitorStats from '../components/VisitorStats.astro';
 interface Props { title?: string; description?: string; }
 const { title = '连接听觉科学的知识', description = '连接听觉机制、感知与工程的专业百科：概念、学习路径与可追溯文献。' } = Astro.props;
 const nav = [{path:'explore',label:'Explore',zh:'概念'}, {path:'map',label:'Map',zh:'地图'}, {path:'learn',label:'Learn',zh:'学习'}, {path:'topics',label:'Topics',zh:'专题'}, {path:'about',label:'About',zh:'关于'}];
@@ -37,6 +38,7 @@ const current = Astro.url.pathname;
         <div><a class="brand" href={url()}><span class="brand-mark">n³</span><span>Hearingpedia</span></a><p>An AI-native Knowledge System for Hearing Science</p></div>
         <div class="footer-links"><a href={url('contribute')}>参与贡献</a><a href={url('about')}>内容与审阅</a><a href="https://github.com/BetterCI/n3-hearingpedia" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
       </div>
+      <VisitorStats />
       <div class="footer-bottom"><span>AI-assisted · Evidence-linked · Human review</span><span>v0.5 / 听觉科学专业百科</span></div>
     </footer>
     <script>
