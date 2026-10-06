@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<title>内毛细胞从机械刺激到听神经放电的功能链</title>
+<rect width="1200" height="720" fill="white"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111">
+<text x="55" y="48" font-size="28" font-weight="700">Inner Hair Cell：从微米以下机械位移到神经编码</text>
+<text x="55" y="82" font-size="18">IHC 是耳蜗主要传入感觉受体：机械电转导、受体电位和 ribbon synapse 串联形成听神经输入。</text>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" stroke="#222" stroke-width="2">
+<g fill="white">
+<rect x="55" y="150" width="185" height="100" rx="14"/>
+<rect x="285" y="150" width="185" height="100" rx="14"/>
+<rect x="515" y="150" width="185" height="100" rx="14"/>
+<rect x="745" y="150" width="185" height="100" rx="14"/>
+<rect x="975" y="150" width="170" height="100" rx="14"/>
+<rect x="170" y="385" width="230" height="105" rx="14"/>
+<rect x="485" y="385" width="230" height="105" rx="14"/>
+<rect x="800" y="385" width="230" height="105" rx="14"/>
+</g>
+<g fill="#111" stroke="none" font-size="20" text-anchor="middle">
+<text x="148" y="184">柯蒂器运动</text><text x="148" y="213">endolymph flow</text><text x="148" y="238">stereocilia deflection</text>
+<text x="378" y="184">MET channel</text><text x="378" y="213">tip-link tension</text><text x="378" y="238">K+ / Ca2+ influx</text>
+<text x="608" y="184">受体电位</text><text x="608" y="213">AC + DC</text><text x="608" y="238">frequency dependent</text>
+<text x="838" y="184">CaV1.3</text><text x="838" y="213">active zone</text><text x="838" y="238">Ca2+ nanodomain</text>
+<text x="1060" y="184">Otoferlin</text><text x="1060" y="213">vesicle fusion</text><text x="1060" y="238">glutamate release</text>
+<text x="285" y="420">Ribbon synapse</text><text x="285" y="450">continuous high-rate</text><text x="285" y="476">vesicle supply</text>
+<text x="600" y="420">Type I SGN</text><text x="600" y="450">threshold / SR /</text><text x="600" y="476">dynamic range diversity</text>
+<text x="915" y="420">Auditory nerve code</text><text x="915" y="450">rate + timing +</text><text x="915" y="476">population pattern</text>
+</g>
+<g fill="none" marker-end="url(#a)">
+<line x1="240" y1="200" x2="285" y2="200"/>
+<line x1="470" y1="200" x2="515" y2="200"/>
+<line x1="700" y1="200" x2="745" y2="200"/>
+<line x1="930" y1="200" x2="975" y2="200"/>
+<line x1="1060" y1="250" x2="350" y2="385"/>
+<line x1="400" y1="438" x2="485" y2="438"/>
+<line x1="715" y1="438" x2="800" y2="438"/>
+</g>
+</g>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#111" font-size="17">
+<text x="55" y="590">低频时，IHC 受体电位和听神经放电可保留更强的周期同步；随频率升高，膜时间常数使 AC 成分衰减，平均去极化与群体放电率的重要性增加。</text>
+<text x="55" y="625">不同 ribbon synapse 的 Ca2+ 门控与 SGN 亚型并不相同，可能把同一 IHC 的宽声强输入“分配”给不同阈值和工作范围的神经纤维。</text>
+<text x="55" y="664">Hearingpedia 原创教学图。</text>
+</g>
+</svg>
