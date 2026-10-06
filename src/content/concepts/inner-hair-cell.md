@@ -7,7 +7,7 @@ categories: ["ear-cochlea","neuroscience","hearing-loss"]
 tags: ["inner-hair-cell","mechanotransduction","ribbon-synapse","otoferlin","CaV1.3","spiral-ganglion","auditory-nerve"]
 aliases: ["IHC","cochlear inner hair cell","内毛细胞受体"]
 status: draft
-depth: in-depth
+depth: standard
 last_updated: "2026-10-06"
 authors: ["AI 辅助重构"]
 reviewer: null
