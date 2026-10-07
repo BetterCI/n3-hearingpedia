@@ -1,0 +1,65 @@
+{
+  "figures": 5,
+  "type": "synthetic teaching data",
+  "sampleRate": 16000,
+  "waveformPeak": 0.9,
+  "spectrogramWindowSeconds": [
+    0.008,
+    0.04
+  ],
+  "spectrogramF0": 130,
+  "spectrogramVowels": {
+    "i": [
+      [
+        330,
+        2300,
+        3000
+      ],
+      [
+        70,
+        110,
+        150
+      ]
+    ],
+    "a": [
+      [
+        750,
+        1200,
+        2600
+      ],
+      [
+        90,
+        120,
+        160
+      ]
+    ],
+    "u": [
+      [
+        350,
+        800,
+        2400
+      ],
+      [
+        70,
+        100,
+        140
+      ]
+    ]
+  },
+  "fixedFilterPoleFrequencies": [
+    700,
+    1200,
+    2500
+  ],
+  "fixedFilterBandwidthParameters": [
+    80,
+    100,
+    140
+  ],
+  "harmonicSamplingF0": [
+    120,
+    400
+  ],
+  "allFiltersStable": true,
+  "waveformWithinUnitRange": true
+}
