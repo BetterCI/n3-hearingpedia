@@ -205,7 +205,7 @@ $$
 
 鸡尾酒会问题包含多个层面：目标成分能否被听到、能否与竞争对象区分、能否持续跟随，以及最终能否辨认内容。[掩蔽](../masking/)中的能量掩蔽与信息掩蔽可以从不同角度解释困难，但场景分析并不只等同于其中某一类掩蔽。更清楚的声源组织可能减轻竞争，也可能仍受到目标本身可听性的限制。[2](#ref-auditory-scene-analysis-darwin)[5](#ref-auditory-scene-analysis-mesgarani)
 
-一个实验可以同时报告声流组织、目标正确率和[聆听努力](../listening-effort/)，但应保留它们各自的意义。正确率相近时，听者投入可能不同；两声流报告增多时，理解成绩也可能没有改善。多维评价有助于避免把某个实验指标当成整个复杂环境聆听能力的替代物。[17](#ref-auditory-scene-analysis-automatic)[29](#ref-auditory-scene-analysis-neural2026)
+一个实验可以同时报告声流组织、目标正确率和[听觉努力](../listening-effort/)，但应保留它们各自的意义。正确率相近时，听者投入可能不同；两声流报告增多时，理解成绩也可能没有改善。多维评价有助于避免把某个实验指标当成整个复杂环境聆听能力的替代物。[17](#ref-auditory-scene-analysis-automatic)[29](#ref-auditory-scene-analysis-neural2026)
 
 ## 听力损失与听觉设备
 

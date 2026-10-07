@@ -23,7 +23,7 @@ key_facts: [{"label": "功能维度", "value": "选择、维持、切换与干�
 
 听觉注意与[听觉场景分析](../auditory-scene-analysis/)相互影响。场景分析关心混合声音如何被组织成可区分的声源或知觉流；注意关心哪些对象被优先选择、哪些信息需要持续加工。稳定的声源表征可帮助注意选择，注意又可能强化目标的表征。因此，两者具有联系，但不能用“能分开两个人的声音”替代“能持续听懂其中一个人”。[1](#ref-auditory-attention-object)[3](#ref-auditory-attention-continuity)
 
-听觉注意也是理解[言语可懂度](../speech-intelligibility/)、[聆听努力](../listening-effort/)、[听力损失](../hearing-loss/)和听觉辅助设备的重要环节。听者可能正确选择了目标，却因信号不清楚而无法理解；也可能投入较大努力维持目标，最终取得与较容易条件相近的成绩。注意对象、资源投入和任务成绩应分别测量。[4](#ref-auditory-attention-hearing)[5](#ref-auditory-attention-fuel)
+听觉注意也是理解[言语可懂度](../speech-intelligibility/)、[听觉努力](../listening-effort/)、[听力损失](../hearing-loss/)和听觉辅助设备的重要环节。听者可能正确选择了目标，却因信号不清楚而无法理解；也可能投入较大努力维持目标，最终取得与较容易条件相近的成绩。注意对象、资源投入和任务成绩应分别测量。[4](#ref-auditory-attention-hearing)[5](#ref-auditory-attention-fuel)
 
 ## 概念范围与主要维度
 
@@ -76,9 +76,9 @@ Best 等人的目标数字序列研究发现，目标位置连续时识别表现
 
 因此，在噪声中复述成绩下降时，可能同时存在能量掩蔽、声源混淆、注意切换和记忆负荷等因素。明确目标、优化空间线索或提高目标声级，可能通过不同环节改善表现。实验应尽量识别具体机制，不能把所有困难都归为“注意力不集中”。[4](#ref-auditory-attention-hearing)[1](#ref-auditory-attention-object)
 
-### 注意与聆听努力、工作记忆
+### 注意与听觉努力、工作记忆
 
-注意与聆听努力都涉及任务控制，但侧重点不同。注意强调选择与优先加工，聆听努力强调为了克服障碍而有目的地投入心理资源。困难增加时，听者可能投入更多努力维持目标，也可能因任务过难或动机不足而减少投入。FUEL 框架将任务需求、可用容量和动机放在一起讨论，提醒我们不要把困难程度直接换算成努力。[5](#ref-auditory-attention-fuel)
+注意与听觉努力都涉及任务控制，但侧重点不同。注意强调选择与优先加工，听觉努力强调为了克服障碍而有目的地投入心理资源。困难增加时，听者可能投入更多努力维持目标，也可能因任务过难或动机不足而减少投入。FUEL 框架将任务需求、可用容量和动机放在一起讨论，提醒我们不要把困难程度直接换算成努力。[5](#ref-auditory-attention-fuel)
 
 工作记忆涉及暂时保留与使用信息，可帮助维持目标规则、整合句子或恢复漏掉的片段，但不是听觉注意的同义词。Conway 等人的姓名干扰研究发现，工作记忆指标与发现非目标通道中自己姓名的概率相关。这种关联来自特定任务，不能由一次姓名检测判断一个人的一般注意能力或工作记忆水平。[12](#ref-auditory-attention-ownname)
 
@@ -88,7 +88,7 @@ Best 等人的目标数字序列研究发现，目标位置连续时识别表现
 
 经典短声研究发现，相同或可比较的声音在被关注与被忽略条件下，诱发电位成分可以不同。Hillyard 等人的双耳分听研究观察到被关注短声的早期负向成分增强，后期成分又与稀有目标识别有关。这里的不同潜伏期反映特定任务与成分，不能把某个时间点当作听觉注意唯一启动时刻。[13](#ref-auditory-attention-hillyard)
 
-连续言语研究则关注神经活动如何随正在进行的声音变化。在[语音神经跟踪](../neural-speech-tracking/)研究中，常用[时域包络](../temporal-envelope/)等特征与神经信号建立统计关系，比较目标与非目标声音的对应程度。神经跟踪是研究表征的方法，不等于神经系统只处理包络，也不等于每个跟踪峰都对应一个独立认知步骤。[14](#ref-auditory-attention-kerlin)[15](#ref-auditory-attention-methods)
+连续言语研究则关注神经活动如何随正在进行的声音变化。在[言语神经跟踪](../neural-speech-tracking/)研究中，常用[时域包络](../temporal-envelope/)等特征与神经信号建立统计关系，比较目标与非目标声音的对应程度。神经跟踪是研究表征的方法，不等于神经系统只处理包络，也不等于每个跟踪峰都对应一个独立认知步骤。[14](#ref-auditory-attention-kerlin)[15](#ref-auditory-attention-methods)
 
 ### 皮层表征具有任务选择性
 
@@ -272,4 +272,4 @@ Mo、Alain 与 Dimitrijevic 的 2026 年纵向研究在开机及其后 3、6、1
 
 [听觉场景分析](../auditory-scene-analysis/)解释声音如何成为可选择的对象，[掩蔽](../masking/)解释竞争声音带来的声学与知觉干扰，[空间听觉](../spatial-hearing/)与[双耳听觉](../binaural-hearing/)介绍可用于目标区分的空间线索。[时域分辨率](../temporal-resolution/)讨论短时变化的辨别能力，它既可为选择提供线索，也可能受任务要求影响，不能把检测成绩当作注意的直接量表。
 
-[聆听努力](../listening-effort/)讨论为完成任务投入的资源，[言语可懂度](../speech-intelligibility/)和[言语接收阈](../speech-reception-threshold/)讨论言语任务表现。[脑电图](../electroencephalography/)与[语音神经跟踪](../neural-speech-tracking/)介绍测量方法；听觉注意解码则是把这些测量与预先定义的目标推断任务结合起来。将这些概念分别说明，有助于避免用一个神经指标概括全部听觉体验。
+[听觉努力](../listening-effort/)讨论为完成任务投入的资源，[言语可懂度](../speech-intelligibility/)和[言语接收阈](../speech-reception-threshold/)讨论言语任务表现。[脑电图](../electroencephalography/)与[言语神经跟踪](../neural-speech-tracking/)介绍测量方法；听觉注意解码则是把这些测量与预先定义的目标推断任务结合起来。将这些概念分别说明，有助于避免用一个神经指标概括全部听觉体验。

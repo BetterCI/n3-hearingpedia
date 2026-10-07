@@ -40,7 +40,7 @@ key_facts: [{"label":"变化来源","value":"经验、输入改变、发育或�
 
 [声码器](../vocoder/)训练研究允许控制频谱移位或通道信息，因此可以检验学习与迁移，但正常听力者的模拟不包含真实植入者全部神经和临床特征。Fu 等的频谱移位语音训练提供了经验依赖学习的证据，同时提示训练收益的迁移应按刺激和任务验证。[1](#ref-fu-plasticity-2005 "Auditory Training with Spectrally Shifted Speech: Implications for Cochlear Implant Patient Auditory Rehabilitation")
 
-神经观察可以包括[听觉诱发电位](../auditory-evoked-potential/)、[语音神经跟踪](../neural-speech-tracking/)或其他指标。响应变大、变早或头皮分布改变都需要解释，但并无单一方向可对所有任务表示“更好”。变化也可能反映注意、输入、记录条件或不同策略。
+神经观察可以包括[听觉诱发电位](../auditory-evoked-potential/)、[言语神经跟踪](../neural-speech-tracking/)或其他指标。响应变大、变早或头皮分布改变都需要解释，但并无单一方向可对所有任务表示“更好”。变化也可能反映注意、输入、记录条件或不同策略。
 
 ## 研究设计与测量
 
@@ -52,7 +52,7 @@ key_facts: [{"label":"变化来源","value":"经验、输入改变、发育或�
 
 可塑性研究可帮助设计训练和康复评估，但群体平均学习曲线不能用于规定每个人的收益期限。初始能力、输入状态、病史与使用环境不同，个体轨迹可能差异很大。早期群体平台期也不表示之后每个人都不再变化。
 
-同时考察[言语可懂度](../speech-intelligibility/)、[空间听觉](../spatial-hearing/)、生活质量和[聆听努力](../listening-effort/)，可以得到更全面的结果。这些指标不必同步改善；某一实验室任务的变化不能自动推广到其他功能。
+同时考察[言语可懂度](../speech-intelligibility/)、[空间听觉](../spatial-hearing/)、生活质量和[听觉努力](../listening-effort/)，可以得到更全面的结果。这些指标不必同步改善；某一实验室任务的变化不能自动推广到其他功能。
 
 ## 分析示例
 

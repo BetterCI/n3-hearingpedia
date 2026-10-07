@@ -18,7 +18,7 @@ kind: "condition"
 key_facts:
   - {label: "不是单一疾病", value: "应同时描述病因、病变部位、程度、耳间差和时间过程"}
   - {label: "听力图的作用", value: "主要刻画频率相关检测阈，不能代表全部阈上功能"}
-  - {label: "功能评价", value: "应扩展到语音、时间、空间、聆听努力与现实参与"}
+  - {label: "功能评价", value: "应扩展到语音、时间、空间、听觉努力与现实参与"}
   - {label: "关键表型", value: "双侧、单侧、不对称、稳定、进行和波动性听损"}
   - {label: "康复原则", value: "医学处理、助听技术和沟通支持需按个体功能目标组合"}
 references: ["asha-hearing-loss","who-world-report-hearing-2021","moore-recruitment-2004","hopkins-2008","who-hearing-loss","nidcd-sudden","hahn-asymmetry-2026","robles-2001","guest-synaptopathy-2018","skoe-2010","nidcd-adult-hearing-health-care","achieve-2023","achieve-communication-2024","amt-zilany2014","verhulst-model-2018","verhulst-code"]

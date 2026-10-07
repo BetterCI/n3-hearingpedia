@@ -1,0 +1,58 @@
+{
+  "waveform": {
+    "synthetic_not_speech_recording": true,
+    "max_abs": 0.8,
+    "known_envelope_max": 0.8,
+    "simulated_delay_s": 0.12
+  },
+  "directions": {
+    "schematic": true,
+    "backward_weights_not_generators": true
+  },
+  "ridge": {
+    "synthetic": true,
+    "fs_Hz": 50,
+    "lags_s": [
+      0,
+      0.5
+    ],
+    "train_max_s": 59.480000000000004,
+    "test_min_s": 60.5,
+    "inner_validation": "three contiguous folds with 0.5 s guard",
+    "lambda_candidates": [
+      0.0001,
+      0.00031622776601683794,
+      0.001,
+      0.0031622776601683794,
+      0.01,
+      0.03162277660168379,
+      0.1,
+      0.31622776601683794,
+      1.0,
+      3.1622776601683795,
+      10.0,
+      31.622776601683793,
+      100.0
+    ],
+    "selected_lambda": 3.1622776601683795,
+    "test_correlation": 0.8375794434300617,
+    "coefficient_rmse": 0.06616287248330571,
+    "test_display_s": [
+      65,
+      69
+    ],
+    "full_test_duration_s": 29.5
+  },
+  "attention": {
+    "synthetic_linear_mixture_not_EEG_decoding": true,
+    "r_A": 0.9386067270707417,
+    "r_B": 0.1613568564365601,
+    "duration_s": 30,
+    "standardized_not_waveform": true
+  },
+  "validation": {
+    "schematic": true,
+    "held_out_trial_not_held_out_person": true,
+    "nonoverlap_not_independence": true
+  }
+}
