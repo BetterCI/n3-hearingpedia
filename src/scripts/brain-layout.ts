@@ -40,8 +40,24 @@ function hemisphereGeometry(side:number) {
   return geometry;
 }
 
-export function brainNodePositions(count:number) {
+export function brainNodePositions(count:number, cortexCandidates?:THREE.Vector3[]) {
   const positions:THREE.Vector3[]=[];
+  if(cortexCandidates?.length) {
+    const candidates=[cortexCandidates.filter(p=>p.z>0),cortexCandidates.filter(p=>p.z<0)];
+    const scores=candidates.map(hemisphere=>hemisphere.map(()=>Infinity));
+    for(let i=0;i<count;i++) {
+      const side=i%2, pool=candidates[side];let best=0;
+      if(i===0)best=pool.reduce((winner,p,j)=>p.x<pool[winner].x?j:winner,0);
+      else for(let j=1;j<pool.length;j++)if(scores[side][j]>scores[side][best])best=j;
+      const p=pool[best].clone();positions.push(p);
+      candidates.forEach((hemisphere,s)=>hemisphere.forEach((q,j)=>{
+        const projected=(q.x-p.x)**2+(q.y-p.y)**2;
+        const distance=p.distanceToSquared(q);
+        scores[s][j]=Math.min(scores[s][j],s===side?distance:Math.min(distance,projected*1.44+28**2));
+      }));
+    }
+    return positions;
+  }
   const candidates=Array.from({length:49*33},(_,i)=>brainSurface(
     .1+Math.floor(i/33)*(Math.PI-.2)/48,
     .12+(i%33)*(Math.PI-.24)/32,
@@ -67,56 +83,50 @@ export function brainNodePositions(count:number) {
   return positions;
 }
 
+interface CortexAsset {version:number;positionScale:number;sulcScale:number;hemispheres:{side:string;positions:number[];triangles:number[];sulc:number[]}[];}
+
+/** Load from this website, with the procedural silhouette available offline. */
+export async function loadBrainScaffold(source:string) {
+  try {
+    const response=await fetch(source,{signal:AbortSignal.timeout(6000)});
+    if(!response.ok)throw new Error('Cortex unavailable');
+    const asset:CortexAsset=await response.json();
+    if(asset.version!==1||asset.hemispheres.length!==2)throw new Error('Invalid cortex');
+    const all=asset.hemispheres.flatMap(h=>h.positions);
+    const min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];
+    for(let i=0;i<all.length;i++){min[i%3]=Math.min(min[i%3],all[i]);max[i%3]=Math.max(max[i%3],all[i]);}
+    const scale=310/(max[1]-min[1]),center=min.map((v,i)=>(v+max[i])/2);
+    const surfaces:THREE.BufferGeometry[]=[],candidates:THREE.Vector3[]=[],points:THREE.Vector3[]=[];
+    for(const hemi of asset.hemispheres) {
+      const positions:number[]=[],colors:number[]=[];
+      const side=hemi.side==='left'?-1:1;
+      for(let i=0;i<hemi.positions.length;i+=3) {
+        const p=new THREE.Vector3(-(hemi.positions[i+1]-center[1])*scale,(hemi.positions[i+2]-center[2])*scale+18,(hemi.positions[i]-center[0])*scale+side*3);
+        positions.push(p.x,p.y,p.z);
+        const light=THREE.MathUtils.clamp(.5-hemi.sulc[i/3]*asset.sulcScale*.25,0,1);
+        colors.push(.025+light*.035,.045+light*.045,.07+light*.06);
+        if(i%18===0)points.push(p.clone());
+        if(i%9===0&&Math.abs(p.z)>17&&light>.35)candidates.push(new THREE.Vector3(p.x*1.055,(p.y-18)*1.055+18,p.z*1.055));
+      }
+      const indices:number[]=[];
+      // Swapping the display axes reverses handedness.
+      for(let i=0;i<hemi.triangles.length;i+=3)indices.push(hemi.triangles[i],hemi.triangles[i+2],hemi.triangles[i+1]);
+      const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));geometry.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geometry.setIndex(indices);geometry.computeVertexNormals();surfaces.push(geometry);
+    }
+    return {surfaces,points,candidates,lines:[] as {points:THREE.Vector3[];opacity:number}[],anatomical:true};
+  } catch {
+    // The same graph remains usable when the extra shape asset cannot load.
+    const fallback=createBrainScaffold();
+    return {...fallback,candidates:undefined,anatomical:false};
+  }
+}
+
 export function createBrainScaffold() {
+  // Lightweight local fallback when the cortical mesh is unavailable.
   const lines:{points:THREE.Vector3[];opacity:number}[]=[];
-  const trace=(sample:(t:number)=>THREE.Vector3,opacity:number,steps=100)=>{
-    lines.push({points:Array.from({length:steps+1},(_,i)=>sample(i/steps)),opacity});
-  };
-  for(const side of [-1,1]) {
-    // Hemisphere cleft and lateral silhouette stay legible from different views.
-    for(const phi of [0,Math.PI/2,Math.PI])trace(t=>brainSurface(t*Math.PI,phi,side),phi===Math.PI/2?.28:.46);
-    // Prominent central and lateral grooves break up the rounded lobes.
-    trace(t=>{const phi=.09+t*1.86;return brainSurface(1.46+.09*Math.cos(phi*3),phi,side);},.58);
-    trace(t=>{const theta=.24+t*2.37;return brainSurface(theta,1.87-.13*(theta-1.5)+.085*Math.sin(theta*3),side);},.55);
-    // Short, branching sulci follow different orientations rather than a wire grid.
-    for(let fold=0;fold<17;fold++) {
-      const column=fold%6,row=Math.floor(fold/6);
-      trace(t=>{
-        const theta=.22+column*.45+.19*Math.sin(t*Math.PI)+.055*Math.sin(t*9+fold);
-        const phi=.17+row*.56+t*.63+.09*Math.sin(t*8+fold*1.8);
-        return brainSurface(theta,phi,side);
-      },.32,48);
-    }
-    for(let fold=0;fold<11;fold++) {
-      trace(t=>{
-        const theta=.24+(fold%4)*.62+t*.47;
-        const phi=2.09+Math.floor(fold/4)*.29+.07*Math.sin(t*8+fold);
-        return brainSurface(theta,phi,side);
-      },.27,42);
-    }
-    for(let branch=0;branch<16;branch++) {
-      trace(t=>brainSurface(.35+(branch%6)*.44+t*.23,.36+Math.floor(branch/6)*.62+.1*Math.sin(t*Math.PI+branch),side),.23,26);
-    }
-    // Compact folia in the posterior, inferior cerebellum.
-    trace(t=>new THREE.Vector3(100+55*Math.cos(t*Math.PI*2),-65+35*Math.sin(t*Math.PI*2),side*6),.44);
-    for(let band=0;band<15;band++) {
-      const latitude=-Math.PI/2+.13+band*(Math.PI-.26)/14;
-      trace(t=>{const angle=t*Math.PI,r=Math.cos(latitude);return new THREE.Vector3(100+55*r*Math.cos(angle),-65+35*Math.sin(latitude)+1.2*Math.sin(angle*7+band),side*(6+49*r*Math.sin(angle)));},.3,64);
-    }
+  for(const side of [-1,1])for(const phi of [0,Math.PI*.3,Math.PI*.65,Math.PI]) {
+    lines.push({points:Array.from({length:81},(_,i)=>brainSurface(i/80*Math.PI,phi,side)),opacity:.14});
   }
-  const stem=new THREE.CatmullRomCurve3([new THREE.Vector3(18,-43,0),new THREE.Vector3(25,-66,0),new THREE.Vector3(23,-88,0),new THREE.Vector3(31,-119,0),new THREE.Vector3(34,-137,0)]);
-  const stemPositions:number[]=[],stemIndices:number[]=[];
-  for(let i=0;i<=40;i++) {
-    const t=i/40,p=stem.getPoint(t),radius=13-6*t+5*Math.exp(-Math.pow((t-.28)/.17,2));
-    for(let j=0;j<=16;j++){const a=j/16*Math.PI*2;stemPositions.push(p.x+radius*Math.cos(a),p.y,p.z+radius*Math.sin(a));}
-  }
-  for(let i=0;i<40;i++)for(let j=0;j<16;j++){const a=i*17+j,b=a+17;stemIndices.push(a,b,a+1,b,b+1,a+1);}
-  const stemGeometry=new THREE.BufferGeometry();stemGeometry.setAttribute('position',new THREE.Float32BufferAttribute(stemPositions,3));stemGeometry.setIndex(stemIndices);stemGeometry.computeVertexNormals();
-  for(const angle of [0,Math.PI/2,Math.PI,Math.PI*1.5])trace(t=>{const p=stem.getPoint(t),r=13-6*t+5*Math.exp(-Math.pow((t-.28)/.17,2));return p.add(new THREE.Vector3(r*Math.cos(angle),0,r*Math.sin(angle)));},.4,48);
-  const cerebellum=new THREE.SphereGeometry(1,48,32);cerebellum.scale(55,35,55);cerebellum.translate(100,-65,0);
-  const points=Array.from({length:850},(_,i)=>{
-    const theta=Math.acos(1-2*(i+.5)/850), phi=(i*2.3999632297)%Math.PI;
-    return brainSurface(theta,phi,i%2?1:-1);
-  });
-  return {lines,points,surfaces:[hemisphereGeometry(1),hemisphereGeometry(-1),cerebellum,stemGeometry]};
+  const points=Array.from({length:850},(_,i)=>brainSurface(Math.acos(1-2*(i+.5)/850),(i*2.3999632297)%Math.PI,i%2?1:-1));
+  return {lines,points,surfaces:[hemisphereGeometry(1),hemisphereGeometry(-1)]};
 }

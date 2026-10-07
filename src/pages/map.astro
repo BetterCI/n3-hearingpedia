@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import '../styles/atlas-labels.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { url } from '../lib/paths';
+import { url, asset } from '../lib/paths';
 import { knowledgeAreas, kindLabels } from '../data/knowledge';
 import { knowledgeRelations, relationTypes } from '../data/relations';
 const concepts=(await getCollection('concepts')).sort((a,b)=>a.data.order-b.data.order);
@@ -19,7 +19,7 @@ const payload={nodes:concepts.map(c=>({id:c.data.slug,title:c.data.title,english
       <button type="button" id="atlas-fullscreen" class="atlas-fullscreen" aria-label="进入地图全屏" aria-pressed="false">⛶ 全屏</button>
     </div>
     <div class="atlas-main">
-      <div class="atlas-stage" id="atlas-stage" data-state="loading">
+      <div class="atlas-stage" id="atlas-stage" data-state="loading" data-brain-src={asset('models/brain/fsaverage5.json')}>
         <div class="atlas-stage-heading"><span class="atlas-live-dot" aria-hidden="true"></span><span>HEARING SCIENCE / 3D ATLAS</span></div>
         <div id="atlas-canvas-host" class="atlas-canvas-host"></div>
         <div id="atlas-labels" class="atlas-labels"></div>
@@ -42,7 +42,7 @@ const payload={nodes:concepts.map(c=>({id:c.data.slug,title:c.data.title,english
     <div class="atlas-legend">{knowledgeAreas.map(a=><button type="button" data-area-chip={a.id} style={'--area-color:'+a.color} aria-pressed="false"><i aria-hidden="true"></i>{a.title}</button>)}</div>
     <div class="atlas-line-legend" aria-label="连线粗细图例"><span>概念联系</span><span><i style="--line-width:2.8px" aria-hidden="true"></i>3 档 · 核心</span><span><i style="--line-width:1.6px" aria-hidden="true"></i>2 档 · 直接</span><span><i style="--line-width:.7px" aria-hidden="true"></i>1 档 · 扩展</span></div>
   </section>
-  <p class="map-caption">大脑外形参考半球、脑沟、小脑与脑干的科普形态，作为知识导航的视觉意象。颜色表示知识层面，线越粗表示概念联系越紧密；节点位置不代表真实脑区，线粗与动效不表示因果效应、证据强弱或真实信号流。</p>
+  <p class="map-caption">颜色区分知识层面，线粗表示概念联系。节点位置用于导航，不代表真实脑功能定位；线粗不表示因果效应或证据强弱。皮层外形来自 <a href={asset('models/brain/NOTICE.txt')} target="_blank" rel="noopener">Nilearn fsaverage5</a>。</p>
   <section class="section"><div class="section-heading"><div><div class="eyebrow">Browse the knowledge system</div><h2>六个层面，通向同一知识网络</h2><p>物理量、感知现象、测试指标与研究方法分别归类，跨领域联系保留在网络中。</p></div></div><div class="atlas-directory">{knowledgeAreas.map(a=><article style={'--area-color:'+a.color}><h3>{a.title}</h3><p>{a.note}</p><ul>{concepts.filter(c=>c.data.knowledge_area===a.id).map(c=><li><a href={url('concepts/'+c.data.slug)}>{c.data.title}<small>{kindLabels[c.data.kind]}</small></a></li>)}</ul></article>)}</div></section>
   <details class="map-relations"><summary>查看全部 {knowledgeRelations.length} 条关联及其定义</summary><p>类型关系有方向；线粗按概念联系的紧密程度人工分为三档，不表示因果效应或证据强弱。学习顺序由独立学习路径提供。</p><ul>{knowledgeRelations.map(r=><li><a href={url('concepts/'+r.source)}>{bySlug[r.source].data.title}</a> {relationTypes[r.type].directional?'→':'↔'} <a href={url('concepts/'+r.target)}>{bySlug[r.target].data.title}</a><strong>{relationTypes[r.type].label} · {r.strength} 档</strong><span>{r.note}</span></li>)}</ul></details>
   <script id="atlas-data" type="application/json" set:html={JSON.stringify(payload).replaceAll('<','\u003c')} />

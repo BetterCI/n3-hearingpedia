@@ -1,0 +1,17 @@
+Brain surface: fsaverage5 pial cortex, distributed with Nilearn.
+Copyright (c) The nilearn developers. All rights reserved.
+Redistribution terms: see LICENSE-NILEARN.txt in this directory.
+
+Sources (retrieved 2026-10-07):
+https://github.com/nilearn/nilearn/tree/main/nilearn/datasets/data/fsaverage5
+https://nilearn.github.io/stable/modules/description/fsaverage5.html
+Files: pial_left.gii.gz, pial_right.gii.gz, sulc_left.gii.gz, sulc_right.gii.gz
+
+Changes made for Hearingpedia:
+- Converted GIFTI arrays to JSON; rounded coordinates to 0.1 mm and sulcal values to 0.01.
+- Display rotates and uniformly scales both hemispheres, with a small medial gap.
+- Sulcal values provide subtle shading; nodes are distributed for navigation.
+- This is a cortical surface template; it does not include cerebellum or brainstem.
+- Knowledge node positions are not functional or anatomical localizations.
+
+Conversion script: scripts/prepare-brain-model.py
