@@ -37,6 +37,7 @@ jobs:
       - run: node --test scripts/fetch-visitor-stats.test.mjs
       - name: Fetch public visitor summary
         if: github.event_name != 'pull_request'
+        continue-on-error: true
         env:
           GOATCOUNTER_API_TOKEN: ${{ secrets.GOATCOUNTER_API_TOKEN }}
         run: node scripts/fetch-visitor-stats.mjs
