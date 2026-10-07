@@ -1,0 +1,29 @@
+{
+  "figures": [
+    "01-audiogram-coordinates-and-symbols",
+    "02-threshold-probability-and-search",
+    "03-air-bone-patterns",
+    "04-cross-hearing-and-masking",
+    "05-equal-average-different-audiograms"
+  ],
+  "source": "synthetic educational data",
+  "no_audio_output": true,
+  "audiogram_axis": "log2 frequency; hearing level increases downward",
+  "masked_pattern_symbols": {
+    "right_air": "triangle",
+    "right_bone": "["
+  },
+  "ascending_positive_trials": [
+    6,
+    9
+  ],
+  "ascending_threshold_dB_HL": 30,
+  "average_frequencies_Hz": [
+    500,
+    1000,
+    2000,
+    4000
+  ],
+  "both_average_dB_HL": 40,
+  "figure_1_arrow": "separate no-response example, not an additional threshold"
+}

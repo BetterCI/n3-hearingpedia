@@ -1,3 +1,4 @@
+import { measurementSceneReferences } from './measurement-scene-references.ts';
 import { formantReferences } from './formant-references.ts';
 import { hearingAidReferences } from './hearing-aid-references.ts';
 import { coreEightReferences } from './core-eight-references.ts';
@@ -14,6 +15,7 @@ export interface Reference { title: string; authors: string; year: string; publi
 
 export const references: Record<string, Reference> = {
   ...hearingAidReferences,
+  ...measurementSceneReferences,
   ...formantReferences,
   ...coreEightReferences,
   ...temporalCuesReferences,

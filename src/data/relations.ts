@@ -13,6 +13,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // not causal effect estimates or evidence weights. Learning order is maintained separately.
 const link = (source: string, target: string, type: RelationType, note: string): KnowledgeRelation => ({ source, target, type, note });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('auditory-scene-analysis','auditory-attention','mechanism','分组和声流维持与注意选择相互作用，实验应区分两类过程。'),
+  link('auditory-scene-analysis','masking','related','知觉组织会影响竞争声音的掩蔽与分离。'),
+  link('auditory-scene-analysis','harmonicity','related','谐波结构提供同时分组线索，不能单独保证形成同一对象。'),
+  link('auditory-scene-analysis','spatial-hearing','related','空间线索参与声源组织及目标分离。'),
+  link('auditory-scene-analysis','speech-intelligibility','related','目标言语识别依赖场景组织，但不是同一个测量指标。'),
+  link('auditory-scene-analysis','hearing-loss','related','听力损失对分组的影响取决于任务、线索及个体状态。'),
+  link('auditory-scene-analysis','temporal-envelope','related','跨频率包络关系可以提供共同变化的组织线索。'),
+  link('auditory-scene-analysis','pitch-perception','related','音高与频率差异参与声流分离和身份维持。'),
+
   link('cochlear-implant-coding-strategies','cochlear-implant','application','将声音特征组织为植入电极刺激；兼容性取决于处理器、植入体与软件。'),
   link('temporal-limits-encoder','cochlear-implant-coding-strategies','subtype','一种以时域组织和感知限制为目标的研究编码策略。'),
   link('f0-in-tfs','cochlear-implant-coding-strategies','subtype','一种利用低频信息增强时域周期性的研究策略。'),

@@ -1,0 +1,26 @@
+{
+  "type": "original synthetic teaching figures",
+  "figureCount": 5,
+  "abaExampleHz": [
+    600,
+    900
+  ],
+  "correlationExamples": [
+    1.0,
+    -8.887841691772884e-17
+  ],
+  "SFG": {
+    "seed": 42,
+    "frames": 40,
+    "frameSeconds": 0.05,
+    "frequencyComponents": 24,
+    "componentsPerFrameBothConditions": 8,
+    "repeatedComponentIndicesOneBased": [
+      5,
+      11,
+      17
+    ],
+    "onsetSeconds": 1
+  },
+  "notClinicalData": true
+}

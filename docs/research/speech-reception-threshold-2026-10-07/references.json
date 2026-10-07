@@ -1,0 +1,269 @@
+[
+  {
+    "id": "asha",
+    "authors": "American Speech-Language-Hearing Association",
+    "year": "1988",
+    "title": "Determining Threshold Level for Speech",
+    "publication": "ASHA Guidelines",
+    "url": "https://www.asha.org/policy/GL1988-00008/",
+    "access": "官方指南全文",
+    "scope": "SRT／SDT 名称、任务、传统临床流程、耳别及相互核对；不把历史指南中设备相关数值推广为任意换能器标准。"
+  },
+  {
+    "id": "iso",
+    "authors": "International Organization for Standardization",
+    "year": "2022",
+    "title": "ISO 8253-3:2022: Acoustics—Audiometric test methods—Part 3: Speech audiometry",
+    "publication": "ISO 8253-3:2022",
+    "url": "https://www.iso.org/standard/74049.html",
+    "access": "官方目录、范围及公开术语预览",
+    "scope": "材料验证、计分单位、言语声级及识别／检测定义；未取得全部付费正文，不声称符合全部条款。"
+  },
+  {
+    "id": "gb",
+    "authors": "国家质量监督检验检疫总局／国家标准化管理委员会",
+    "year": "2017",
+    "title": "GB/T 16296.3-2017：声学 测听方法 第3部分：言语测听",
+    "publication": "国家标准",
+    "url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=D2E8C47E28E5BA7271FBCFA30489B1AF",
+    "access": "官方目录",
+    "scope": "核对标准名称与现行状态；未以目录推断全部测量步骤。"
+  },
+  {
+    "id": "manual",
+    "authors": "Interacoustics",
+    "year": "2022",
+    "title": "AA222 使用说明书（中文版）",
+    "publication": "厂商官方手册，D-0113176-F，2022/12",
+    "url": "https://www.interacoustics.com/images/files/manuals/zh/D-0113176-F_2022_12_Instructions_for_use_AA222_ZH.pdf",
+    "access": "官方手册",
+    "scope": "仅用于核对“言语接受阈”这一中文译法确有使用，不作为所有设备的操作依据。"
+  },
+  {
+    "id": "adult",
+    "authors": "American Speech-Language-Hearing Association",
+    "year": "网页资料",
+    "title": "Hearing Loss in Adults",
+    "publication": "ASHA Practice Portal",
+    "url": "https://www.asha.org/practice-portal/clinical-topics/hearing-loss/",
+    "access": "官方临床资料",
+    "scope": "综合评价、反应能力与言语测听指标；核查日期 2026-10-07。"
+  },
+  {
+    "id": "zhu",
+    "authors": "Zhu, M., Wang, X., & Fu, Q.-J.",
+    "year": "2012",
+    "title": "Development and validation of the Mandarin disyllable recognition test",
+    "publication": "Acta Otolaryngologica, 132(8), 855–861",
+    "doi": "10.3109/00016489.2011.653668",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5847333/",
+    "access": "公开全文",
+    "scope": "普通话材料、声调与语音成分平衡、声码器条件下的词表检验；该文固定水平实验不是临床 SRT 常模。"
+  },
+  {
+    "id": "hint",
+    "authors": "Nilsson, M., Soli, S. D., & Sullivan, J. A.",
+    "year": "1994",
+    "title": "Development of the Hearing In Noise Test for the measurement of speech reception thresholds in quiet and in noise",
+    "publication": "The Journal of the Acoustical Society of America, 95(2), 1085–1099",
+    "doi": "10.1121/1.408469",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8132902/",
+    "access": "摘要、书目及作者论文的公开可见内容",
+    "scope": "句子材料、整体计分、校准与自适应测量路线；未把其列表误差当作所有测试精度。"
+  },
+  {
+    "id": "mhint",
+    "authors": "Wong, L. L. N., Soli, S. D., Liu, S., Han, N., & Huang, M.-W.",
+    "year": "2007",
+    "title": "Development of the Mandarin Hearing in Noise Test (MHINT)",
+    "publication": "Ear and Hearing, 28(2 Suppl), 70S–74S",
+    "doi": "10.1097/AUD.0b013e31803154d0",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17496652/",
+    "access": "摘要及书目",
+    "scope": "两种普通话版本、安静／噪声条件、句子识别和空间呈现；不转用跨版本常模。"
+  },
+  {
+    "id": "levitt",
+    "authors": "Levitt, H.",
+    "year": "1971",
+    "title": "Transformed Up-Down Methods in Psychoacoustics",
+    "publication": "The Journal of the Acoustical Society of America, 49(2B), 467–477",
+    "doi": "10.1121/1.1912375",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/5541744/",
+    "access": "摘要及书目",
+    "scope": "特定升降规则与目标概率的经典方法入口；不把所有自适应算法视为同一规则。"
+  },
+  {
+    "id": "atomic",
+    "authors": "Kong, F., Zhou, H., Zheng, N., & Meng, Q.",
+    "year": "2025",
+    "title": "Sparse representation of speech using an atomic speech model",
+    "publication": "The Journal of the Acoustical Society of America, 157(3), 1899–1911",
+    "doi": "10.1121/10.0036144",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40106275/",
+    "access": "摘要及书目",
+    "scope": "仅用于说明原子率阈值采用另一自变量与量纲，不与临床分贝数值互换。"
+  },
+  {
+    "id": "wichmann",
+    "authors": "Wichmann, F. A., & Hill, N. J.",
+    "year": "2001",
+    "title": "The psychometric function: I. Fitting, sampling, and goodness of fit",
+    "publication": "Perception & Psychophysics, 63, 1293–1313",
+    "doi": "10.3758/BF03194544",
+    "url": "https://courses.washington.edu/matlab1/pdf/Wichmann_Hill_2001a.pdf",
+    "access": "作者全文（此前词条已核对）",
+    "scope": "模型渐近线、失误、拟合与采样；本文逻辑斯蒂反解由给定公式自行推导。"
+  },
+  {
+    "id": "thornton",
+    "authors": "Thornton, A. R., & Raffin, M. J. M.",
+    "year": "1978",
+    "title": "Speech-Discrimination Scores Modeled as a Binomial Variable",
+    "publication": "Journal of Speech and Hearing Research, 21(3), 507–518",
+    "doi": "10.1044/jshr.2103.507",
+    "url": "https://pubs.asha.org/doi/abs/10.1044/jshr.2103.507",
+    "access": "出版方摘要及书目",
+    "scope": "词语识别分数的抽样变异；不把百分比区间直接转为自适应阈值的分贝区间。"
+  },
+  {
+    "id": "bilger",
+    "authors": "Bilger, R. C., Matthies, M. L., Meyer, T. A., & Griffiths, S. K.",
+    "year": "1998",
+    "title": "Psychometric Equivalence of Recorded Spondaic Words as Test Items",
+    "publication": "Journal of Speech, Language, and Hearing Research, 41(3), 516–526",
+    "doi": "10.1044/jslhr.4103.516",
+    "url": "https://pubs.asha.org/doi/10.1044/jslhr.4103.516",
+    "access": "出版方摘要及书目",
+    "scope": "识别难度与斜率、词集大小和声学归一化的区别；不据摘要重建临床词表。"
+  },
+  {
+    "id": "psignifit",
+    "authors": "Wichmann Lab",
+    "year": "代码仓库",
+    "title": "python-psignifit: Python implementation of psignifit, for psychometric function estimation",
+    "publication": "作者公开代码与文档",
+    "url": "https://github.com/wichmann-lab/python-psignifit",
+    "access": "仓库说明",
+    "scope": "拟合工具与阈值参数解释；未运行真实 SRT 评估系统。"
+  },
+  {
+    "id": "nissen",
+    "authors": "Nissen, S. L., Harris, R. W., Jennings, L.-J., Eggett, D. L., & Buck, H.",
+    "year": "2005",
+    "title": "Psychometrically equivalent trisyllabic words for speech reception threshold testing in Mandarin",
+    "publication": "International Journal of Audiology, 44(7), 391–399",
+    "doi": "10.1080/14992020500147672",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16136789/",
+    "access": "摘要及书目",
+    "scope": "普通话三音节词的函数测量、选择和水平调整；不宣称覆盖所有人群与地区。"
+  },
+  {
+    "id": "chen",
+    "authors": "Chen, Y., & Wong, L. L. N.",
+    "year": "2020",
+    "title": "Development of the mandarin hearing in noise test for children",
+    "publication": "International Journal of Audiology, 59(9), 707–712",
+    "doi": "10.1080/14992027.2020.1750717",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/14992027.2020.1750717",
+    "access": "公开出版全文及摘要",
+    "scope": "儿童材料、词表及年龄相关参考；作者署名依出版方 PDF 的两位作者，检索库重复 Chen 项不照录。"
+  },
+  {
+    "id": "vermiglio",
+    "authors": "Vermiglio, A. J., Soli, S. D., Freed, D. J., & Fisher, L. M.",
+    "year": "2012",
+    "title": "The relationship between high-frequency pure-tone hearing loss, hearing in noise test (HINT) thresholds, and the articulation index",
+    "publication": "Journal of the American Academy of Audiology, 23(10)",
+    "doi": "10.3766/jaaa.23.10.4",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23169195/",
+    "access": "摘要及书目",
+    "scope": "该样本中纯音平均值与安静／稳态噪声识别的不同关系；不推断所有噪声任务均不受听力图影响。"
+  },
+  {
+    "id": "plomp",
+    "authors": "Plomp, R.",
+    "year": "1986",
+    "title": "A Signal-to-Noise Ratio Model for the Speech-Reception Threshold of the Hearing Impaired",
+    "publication": "Journal of Speech and Hearing Research, 29(2), 146–154",
+    "doi": "10.1044/jshr.2902.146",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3724108/",
+    "access": "原论文摘要及书目",
+    "scope": "安静阈值、额外信噪比及助听模型的功能区分；不把模型失真参数解释为单一病变。"
+  },
+  {
+    "id": "fade-paper",
+    "authors": "Schädler, M. R., Warzybok, A., Ewert, S. D., & Kollmeier, B.",
+    "year": "2016",
+    "title": "A simulation framework for auditory discrimination experiments: Revealing the importance of across-frequency processing in speech perception",
+    "publication": "The Journal of the Acoustical Society of America, 139(5), 2708–2722",
+    "doi": "10.1121/1.4948772",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27250164/",
+    "access": "摘要及书目",
+    "scope": "FADE、不同特征与稳态／调制噪声阈值预测；不将模型预测视为临床实测。"
+  },
+  {
+    "id": "bsa",
+    "authors": "British Society of Audiology",
+    "year": "2019",
+    "title": "Assessment of speech understanding in noise in adults with hearing difficulties",
+    "publication": "BSA Practice Guidance",
+    "url": "https://www.thebsa.org.uk/wp-content/uploads/2023/10/OD104-80-BSA-Practice-Guidance-Speech-in-Noise-FINAL.Feb-2019.pdf",
+    "access": "官方指南全文",
+    "scope": "噪声测试、参考结果和信噪比损失、助听评价应用；不沿用旧文所列产品销售状态作为当前信息。"
+  },
+  {
+    "id": "fade-code",
+    "authors": "Schädler, M. R.",
+    "year": "代码仓库",
+    "title": "FADE: A Simulation Framework for Auditory Discrimination Experiments",
+    "publication": "作者代码与 README",
+    "url": "https://github.com/m-r-s/fade",
+    "access": "仓库说明",
+    "scope": "输入标度、Linux／HTK 依赖、示例及语料授权要求；未安装执行第三方测量软件。"
+  },
+  {
+    "id": "plomp-reliability",
+    "authors": "Plomp, R., & Mimpen, A. M.",
+    "year": "1979",
+    "title": "Improving the reliability of testing the speech reception threshold for sentences",
+    "publication": "Audiology, 18(1), 43–52",
+    "doi": "10.3109/00206097909072618",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/760724/",
+    "access": "摘要及书目",
+    "scope": "通过材料筛选建立可靠的句子阈值测试；本文不转用其误差为一般精度。"
+  },
+  {
+    "id": "smits",
+    "authors": "Smits, C., Kapteyn, T. S., & Houtgast, T.",
+    "year": "2004",
+    "title": "Development and validation of an automatic speech-in-noise screening test by telephone",
+    "publication": "International Journal of Audiology",
+    "doi": "10.1080/14992020400050004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14974624/",
+    "access": "摘要及书目",
+    "scope": "数字噪声电话筛查的开发与验证；参考值限于对应语言与版本。"
+  },
+  {
+    "id": "zin",
+    "authors": "Zhou, H., Meng, Q., Liu, X., Wu, P., Shang, S., Xiao, W., Kang, Y., Li, J., Wang, Y., & Zheng, N.",
+    "year": "2024（在线 2023）",
+    "title": "The Chinese Zodiac-in-Noise Test: An Internet-Based Speech-in-Noise Test for Large-Scale Hearing Screening",
+    "publication": "Ear and Hearing, 45(2)",
+    "doi": "10.1097/AUD.0000000000001441",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38062570/",
+    "access": "摘要及书目",
+    "scope": "生肖三元组、噪声阈值和筛查验证；不把线上参与样本解释为总体患病率。"
+  },
+  {
+    "id": "aladdin",
+    "authors": "Polspoel, S., Moore, D. R., Swanepoel, D. W., Kramer, S. E., & Smits, C.",
+    "year": "2025",
+    "title": "Automatic development of speech-in-noise hearing tests using machine learning",
+    "publication": "Scientific Reports, 15, 12878",
+    "doi": "10.1038/s41598-025-96312-z",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12000381/",
+    "access": "公开全文",
+    "scope": "合成数字、自动识别辅助材料调整与荷兰语／英语真人验证；不声称中文版本已验证。"
+  }
+]
