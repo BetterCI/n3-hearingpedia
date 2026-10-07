@@ -1,0 +1,22 @@
+{
+  "samplingRate": 24000,
+  "waveformAmplitudeLimit": [
+    -1,
+    1
+  ],
+  "periodMs": 5,
+  "phaseRmsEqual": true,
+  "mistunedCommonPeriodMs": 50,
+  "stftWindowMs": 80,
+  "stftHopMs": 10,
+  "illustrativeGaussianFwhmHz": [
+    89.4634,
+    348.517
+  ],
+  "cancellationRelativeDb": [
+    -100.0,
+    -8.154587999681373
+  ],
+  "figures": 5,
+  "note": "理想合成例；简化高斯权重不是实测听觉滤波器。"
+}

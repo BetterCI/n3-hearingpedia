@@ -1,3 +1,4 @@
+import { harmonicityReferences } from './harmonicity-references.ts';
 import { effortTrackingReferences } from './effort-tracking-references.ts';
 import { audiometricCalibrationReferences } from './audiometric-calibration-references.ts';
 import { attentionBinauralTemporalReferences } from './attention-binaural-temporal-references.ts';
@@ -17,6 +18,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...harmonicityReferences,
   ...effortTrackingReferences,
   ...audiometricCalibrationReferences,
   ...hearingAidReferences,
