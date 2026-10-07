@@ -13,6 +13,26 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // not causal effect estimates or evidence weights. Learning order is maintained separately.
 const link = (source: string, target: string, type: RelationType, note: string): KnowledgeRelation => ({ source, target, type, note });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('binaural-hearing','spatial-hearing','related','两耳信息利用与空间任务交叉，空间听觉还利用单耳频谱及运动线索。'),
+  link('binaural-hearing','binaural-integration','related','跨耳互补信息的组合属于双耳利用的一类现象。'),
+  link('binaural-hearing','interaural-time-difference','related','两耳相对时序提供线索，其利用依赖刺激和任务。'),
+  link('binaural-hearing','binaural-intelligibility-level-difference','measured-by','规定条件的识别阈值差评价特定双耳收益。'),
+  link('binaural-hearing','loudness','related','双耳响度总和与言语阈值收益采用不同指标。'),
+  link('binaural-hearing','masking','mechanism','双耳比较可提供超出单耳功率比的解掩蔽信息。'),
+  link('binaural-hearing','cochlear-implant','related','双侧电刺激需评价频位匹配、同步及实际线索利用。'),
+  link('binaural-hearing','hearing-aid','related','两耳增益和延迟的差异可能改变双耳线索。'),
+  link('temporal-resolution','temporal-envelope','related','幅度起伏与中断提供检测线索，信号特征不等于行为能力。'),
+  link('temporal-resolution','temporal-fine-structure','related','间隙阈正常不能单独证明精细结构敏感性正常。'),
+  link('temporal-resolution','amplitude-modulation','related','不同调制频率的检测深度用于刻画起伏敏感性。'),
+  link('temporal-resolution','auditory-filter','mechanism','外围滤波、载波带宽和自身起伏影响短时表征。'),
+  link('temporal-resolution','hearing-loss','related','检测表现需控制声级、可听带宽及年龄。'),
+  link('temporal-resolution','auditory-evoked-potential','related','变化诱发响应提供互补证据，不直接等同全部行为阈。'),
+  link('temporal-resolution','cochlear-implant','related','直接电刺激与日常处理器输出的时间结构需分别评价。'),
+  link('temporal-resolution','speech-intelligibility','related','短时敏感性与综合言语表现相关但不可互相替代。'),
+  link('auditory-attention','temporal-resolution','related','短时线索支持目标选择，检测任务表现不直接作为注意量表。'),
+  link('auditory-attention','binaural-hearing','related','双耳线索帮助区分目标，注意维持还依赖任务与对象组织。'),
+  link('auditory-attention','masking','related','声学掩蔽与目标选择干扰应分层解释。'),
+
   link('auditory-scene-analysis','auditory-attention','mechanism','分组和声流维持与注意选择相互作用，实验应区分两类过程。'),
   link('auditory-scene-analysis','masking','related','知觉组织会影响竞争声音的掩蔽与分离。'),
   link('auditory-scene-analysis','harmonicity','related','谐波结构提供同时分组线索，不能单独保证形成同一对象。'),

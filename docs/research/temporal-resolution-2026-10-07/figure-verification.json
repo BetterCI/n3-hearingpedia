@@ -1,0 +1,42 @@
+{
+  "gap": {
+    "silent_ms": 8.0,
+    "ramp_ms": 2,
+    "peak": 0.85
+  },
+  "smoothing": {
+    "tau_ms": [
+      2,
+      8
+    ],
+    "model": "first-order causal low-pass; not threshold data"
+  },
+  "modulation": {
+    "carrier_Hz": 700,
+    "peak_normalized": true,
+    "conditions": [
+      [
+        0.2,
+        10
+      ],
+      [
+        0.8,
+        10
+      ],
+      [
+        0.8,
+        40
+      ]
+    ]
+  },
+  "psychometric": {
+    "chance": 0.5,
+    "lapse": 0.02,
+    "criterion": 0.75,
+    "simulated": true
+  },
+  "task_boundaries": {
+    "schematic": true,
+    "binaural_gap": "interaural correlation change, no silence"
+  }
+}

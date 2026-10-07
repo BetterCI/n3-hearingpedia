@@ -1,0 +1,34 @@
+{
+  "mixture": {
+    "fs": 16000,
+    "mix": "(A+B)/2",
+    "max_amplitude": 0.8198183341260409,
+    "synthetic_not_speech": true
+  },
+  "switch": {
+    "schematic": true,
+    "same_sounds_different_instruction": true
+  },
+  "reconstruction": {
+    "synthetic": true,
+    "r_A": 0.9100115209172484,
+    "r_B": 0.23594901202734672,
+    "standardized_features_not_pressure": true
+  },
+  "window": {
+    "switch_s": 10,
+    "window_s": [
+      2,
+      8
+    ],
+    "decision_delay_at_half_s": [
+      1,
+      4
+    ],
+    "not_neural_latency": true
+  },
+  "validation": {
+    "schematic": true,
+    "nonoverlap_is_not_independence": true
+  }
+}
