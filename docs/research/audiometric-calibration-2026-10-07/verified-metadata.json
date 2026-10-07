@@ -1,0 +1,4111 @@
+{
+  "guo": {
+    "query": "DOI:10.1177/23312165211057367",
+    "results": [
+      {
+        "id": "34796771",
+        "source": "MED",
+        "pmid": "34796771",
+        "pmcid": "PMC8606721",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8606721"
+          ]
+        },
+        "doi": "10.1177/23312165211057367",
+        "title": "Utilizing True Wireless Stereo Earbuds in Automated Pure-Tone Audiometry.",
+        "authorString": "Guo Z, Yu G, Zhou H, Wang X, Lu Y, Meng Q.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Guo Z",
+              "lastName": "Guo",
+              "firstName": "Zhenyu",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0946-3899"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Architecture, 26467South China University of Technology, Guangzhou, China."
+                  },
+                  {
+                    "affiliation": "School of Physics and Optoelectronics, 26467South China University of Technology, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu G",
+              "lastName": "Yu",
+              "firstName": "Guangzheng",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Physics and Optoelectronics, 26467South China University of Technology, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou H",
+              "lastName": "Zhou",
+              "firstName": "Huali",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5710-5271"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Physics and Optoelectronics, 26467South China University of Technology, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang X",
+              "lastName": "Wang",
+              "firstName": "Xianren",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6760-3258"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otorhinolaryngology, the First Affiliated Hospital, 71068Sun Yat-sen University, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lu Y",
+              "lastName": "Lu",
+              "firstName": "Yigang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Physics and Optoelectronics, 26467South China University of Technology, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meng Q",
+              "lastName": "Meng",
+              "firstName": "Qinglin",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Physics and Optoelectronics, 26467South China University of Technology, Guangzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5710-5271"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6760-3258"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0946-3899"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "25",
+          "journalIssueId": 3098940,
+          "dateOfPublication": "2021 Jan-Dec",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Trends Hear",
+            "title": "Trends in hearing",
+            "essn": "2331-2165",
+            "issn": "2331-2165",
+            "isoabbreviation": "Trends Hear",
+            "nlmid": "101635698"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "23312165211057367",
+        "abstractText": "True wireless stereo (TWS) earbuds have become popular and widespread in recent years, and numerous automated pure-tone audiometer applications have been developed for portable devices. However, most of these applications require specifically designed earphones to which the public may not have access. Therefore, the present study investigates the accuracy of automated pure-tone audiometry based on TWS earbuds (Honor FlyPods). The procedure for developing an automated pure-tone audiometer is reported. Calibration of the TWS earbuds was accomplished by electroacoustic measurements and establishing corrected reference equivalent threshold sound pressure levels. The developed audiometer was then compared with a clinical audiometer using 20 hearing-impaired participants. The average signed and absolute deviations between hearing thresholds measured using the two audiometers were 3.1 dB and 6.7 dB, respectively. The overall accuracy rate in determining the presence/absence of hearing loss was 81%. The results show that the proposed procedure for an automated air-conduction audiometer based on TWS earbuds is feasible, and the system gives accurate hearing level estimation using the reported calibration framework.",
+        "affiliation": "School of Architecture, 26467South China University of Technology, Guangzhou, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Huawei Technologies",
+              "orderIn": 0
+            },
+            {
+              "agency": "Science and Technology Program of Guangzhou",
+              "grantId": "202102020944",
+              "orderIn": 0
+            },
+            {
+              "agency": "Guangdong Basic and Applied Basic Research Foundation",
+              "grantId": "2020A151 5010386",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Loss",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry, Pure-Tone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Threshold"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hearing loss",
+            "calibration",
+            "Automated Audiometry"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1177/23312165211057367"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8606721"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8606721?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2022-04-06",
+        "dateOfCreation": "2021-11-19",
+        "dateOfRevision": "2022-04-06",
+        "firstPublicationDate": "2021-01-01",
+        "firstIndexDate": "2021-11-30",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "zhou": {
+    "query": "DOI:10.1080/14992027.2024.2428854",
+    "results": [
+      {
+        "id": "39668755",
+        "source": "MED",
+        "pmid": "39668755",
+        "doi": "10.1080/14992027.2024.2428854",
+        "title": "Automated pure-tone audiometry using true wireless stereo earbuds with active noise control.",
+        "authorString": "Zhou H, Zhou H, Guo Z, Meng Q.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhou H",
+              "lastName": "Zhou",
+              "firstName": "Hengzhi",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Acoustics Laboratory, School of Physics and Optoelectronics, South China University of Technology, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou H",
+              "lastName": "Zhou",
+              "firstName": "Huali",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Electronics and Information Engineering, Heyuan Polytechnic, Heyuan, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo Z",
+              "lastName": "Guo",
+              "firstName": "Zhenyu",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Subtropical Building and Urban Science, School of Architecture, South China University of Technology, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meng Q",
+              "lastName": "Meng",
+              "firstName": "Qinglin",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Acoustics Laboratory, School of Physics and Optoelectronics, South China University of Technology, Guangzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0001-3986-3183"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "65",
+          "journalIssueId": 4228230,
+          "dateOfPublication": "2026 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Int J Audiol",
+            "title": "International journal of audiology",
+            "essn": "1708-8186",
+            "issn": "1499-2027",
+            "nlmid": "101140017",
+            "isoabbreviation": "Int J Audiol"
+          },
+          "printPublicationDate": "2026-07-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "818-826",
+        "abstractText": "<h4>Objective</h4>Automated pure-tone audiometry (PTA) conducted outside a sound booth is heavily affected by environmental noise. This study aims to evaluate the performance of an automated PTA system, employing commercially available true wireless stereo earbuds with active noise cancellation (ANC) in noisy environments.<h4>Design</h4>The electroacoustic characteristics of earbuds are thoroughly evaluated. Hearing thresholds were measured by ANC earbuds and TDH-39 in three noise levels and two types of noise.<h4>Study sample</h4>21 normal-hearing participants for calibration and 22 participants below mild hearing loss for evaluation experiments.<h4>Results</h4>The average absolute differences between hearing thresholds measured via the standard manual audiometer in quiet and the automated PTA in various noise conditions, across octave frequencies ranging from 125 to 8000 Hz, were as follows: 5.2 (quiet environment without ANC), 5.4 (40 dBA pink noise with ANC), and 9.3 dB (55 dBA pink noise with ANC).<h4>Conclusion</h4>ANC can mitigate the impact of low-frequency noise (below 1000 Hz) on the accuracy of hearing level measurements, aligning with trends observed in objective experimental results. However, the influence of ANC on output levels warrants serious consideration in further practices.",
+        "affiliation": "Acoustics Laboratory, School of Physics and Optoelectronics, South China University of Technology, Guangzhou, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "China Disabled Persons’ Federation Hearing and Speech Program",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Audiometry, Pure-Tone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IS",
+                    "qualifierName": "instrumentation"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acoustic Stimulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Predictive Value of Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Equipment Design"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Threshold"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Noise",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Automation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Wireless Technology",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IS",
+                    "qualifierName": "instrumentation"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Acuity"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "hearing screening",
+            "Active Noise Control",
+            "Automated Audiometry",
+            "Hearing Healthcare",
+            "Tws Earbuds"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/14992027.2024.2428854"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-07-08",
+        "dateOfCreation": "2024-12-13",
+        "dateOfRevision": "2026-07-08",
+        "electronicPublicationDate": "2024-12-13",
+        "firstPublicationDate": "2024-12-13",
+        "firstIndexDate": "2024-12-13",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "mobile": {
+    "query": "TITLE:\"Calibration of mobile devices for hearing testing\"",
+    "results": []
+  },
+  "home": {
+    "query": "TITLE:\"Accuracy of smartphone-based hearing screening tests\"",
+    "results": [
+      {
+        "id": "35239828",
+        "source": "MED",
+        "pmid": "35239828",
+        "pmcid": "PMC9769434",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9769434"
+          ]
+        },
+        "doi": "10.1590/2317-1782/20212020380",
+        "title": "Accuracy of smartphone-based hearing screening tests: a systematic review.",
+        "authorString": "Melo IMM, Silva ARX, Camargo R, Cavalcanti HG, Ferrari DV, Taveira KVM, Balen SA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Melo IMM",
+              "lastName": "Melo",
+              "firstName": "Inara Maria Monteiro",
+              "initials": "IMM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8290-6679"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal do Rio Grande do Norte - UFRN, Natal (RN), Brasil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Silva ARX",
+              "lastName": "Silva",
+              "firstName": "Aline Roberta Xavier",
+              "initials": "ARX",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6709-7415"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal do Rio Grande do Norte - UFRN, Natal (RN), Brasil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Camargo R",
+              "lastName": "Camargo",
+              "firstName": "Rodolpho",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7721-6243"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculdade de Odontologia de Bauru, Universidade de São Paulo - FOB/USP, Bauru (SP), Brasil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cavalcanti HG",
+              "lastName": "Cavalcanti",
+              "firstName": "Hannalice Gottschalk",
+              "initials": "HG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2327-8040"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal da Paraíba - UFPB, João Pessoa (PB), Brasil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ferrari DV",
+              "lastName": "Ferrari",
+              "firstName": "Deborah Viviane",
+              "initials": "DV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6582-2115"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculdade de Odontologia de Bauru, Universidade de São Paulo - FOB/USP, Bauru (SP), Brasil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Taveira KVM",
+              "lastName": "Taveira",
+              "firstName": "Karinna Veríssimo Meira",
+              "initials": "KVM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6978-4083"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal do Rio Grande do Norte - UFRN, Natal (RN), Brasil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Balen SA",
+              "lastName": "Balen",
+              "firstName": "Sheila Andreoli",
+              "initials": "SA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1353-4362"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal do Rio Grande do Norte - UFRN, Natal (RN), Brasil."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6709-7415"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6978-4083"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6582-2115"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7721-6243"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8290-6679"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1353-4362"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2327-8040"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "34",
+          "journalIssueId": 3293676,
+          "dateOfPublication": "2022 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Codas",
+            "title": "CoDAS",
+            "essn": "2317-1782",
+            "issn": "2317-1782",
+            "nlmid": "101623246",
+            "isoabbreviation": "Codas"
+          },
+          "printPublicationDate": "2022-01-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "e20200380",
+        "abstractText": "<h4>Purpose</h4>To verify the accuracy of smartphone apps to identify hearing loss.<h4>Research strategies</h4>A systematic review followed the PRISMA-DATA checklist. The search strategies were applied across four databases (Lilacs, PubMed, Scopus and Web of Science) and grey literature (Google Scholar, OpenGrey, and ProQuest Dissertations and Thesis).<h4>Selection criteria</h4>The acronym PIRD was used in review. This included populations of any gender and all age groups. The Index test is the smartphone-based hearing screening test; the Reference test is the pure-tone audiometry, which is considered the gold reference for hearing diagnostics; the diagnosis was performed via validity data (sensitivity and specificity) to identify hearing loss and diagnostic studies.<h4>Data analysis</h4>Two reviewers selected the studies in a two-step process. The risk of bias was assessed according to the criteria of the QUADAS-2.<h4>Results</h4>Of 1395 articles, 104 articles were eligible for full-text reading and 17 were included. Only four met all criteria for methodological quality. All of the included studies were published in English between 2015 and 2020. The applications Digits-in noise Test (5 articles), uHear (4 articles), HearScreen (2 articles), hearTest (2 articles) and Hearing Test (2 articles) were the most studied. All this application showed sensitivity and specificity values between 75 and 100%. The other applications were EarScale, uHearing Test, Free field hearing (FFH) and Free Hearing Test.<h4>Conclusion</h4>uHear, Digit-in-Noise Test, HearTest and HearScreen have shown significant values of sensitivity and specificity and can be considered as the most accurate methods for screening of hearing impairment.",
+        "affiliation": "Universidade Federal do Rio Grande do Norte - UFRN, Natal (RN), Brasil.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Systematic Review",
+            "review-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Loss",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry, Pure-Tone"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sensitivity and Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Noise"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Smartphone"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1590/2317-1782/20212020380"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9769434"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9769434?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2022-03-07",
+        "dateOfCreation": "2022-03-03",
+        "dateOfRevision": "2023-02-02",
+        "electronicPublicationDate": "2022-02-23",
+        "firstPublicationDate": "2022-02-23",
+        "firstIndexDate": "2022-03-04",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "recd": {
+    "query": "TITLE:\"Real-ear to coupler differences\"",
+    "results": [
+      {
+        "id": "36752672",
+        "source": "MED",
+        "pmid": "36752672",
+        "pmcid": "PMC10159987",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10159987"
+          ]
+        },
+        "doi": "10.1080/14992027.2023.2169200",
+        "title": "Predicting children's real-ear-to-coupler differences based on tympanometric data.",
+        "authorString": "McCreery RW, Crukley J, Grindle A, Merchant GR, Walker E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "McCreery RW",
+              "lastName": "McCreery",
+              "firstName": "Ryan W",
+              "initials": "RW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0733-7269"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Audibility, Perception, and Cognition Laboratory, Boys Town National Research Hospital, Omaha, NE, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Crukley J",
+              "lastName": "Crukley",
+              "firstName": "Jeffery",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1323-0695"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Speech-Language Pathology, University of Toronto, Toronto, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Grindle A",
+              "lastName": "Grindle",
+              "firstName": "Anastasia",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pediatric Audiology, UW Health American Family Children's Hospital, Madison, WI, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Merchant GR",
+              "lastName": "Merchant",
+              "firstName": "Gabrielle R",
+              "initials": "GR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Translational Auditory Physiology and Perception Laboratory, Boys Town National Research Hospital, Omaha, NE, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Walker E",
+              "lastName": "Walker",
+              "firstName": "Elizabeth",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Communication Sciences and Disorders, University of Iowa, Iowa City, IA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0733-7269"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1323-0695"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "62",
+          "journalIssueId": 3555351,
+          "dateOfPublication": "2023 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Int J Audiol",
+            "title": "International journal of audiology",
+            "essn": "1708-8186",
+            "issn": "1499-2027",
+            "isoabbreviation": "Int J Audiol",
+            "nlmid": "101140017"
+          },
+          "printPublicationDate": "2023-05-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "462-471",
+        "abstractText": "<h4>Objective</h4>Paediatric hearing-aid verification relies on measures of output obtained from the ear canal or in a coupler with the child's real-ear-to-coupler difference (RECD). Measured RECD cannot always be completed in children, leading to fitting inaccuracies. Audiologists often have tympanometry data that characterises the child's ear-canal acoustics. The goal of this study was to determine if tympanometry can be used to improve predictions of measured RECD.<h4>Design</h4>A retrospective analysis of RECD and admittance, tympanometric peak pressure, and equivalent ear-canal volume from 226 Hz tympanometry collected as part of a longitudinal study of children with hearing loss were modelled with Bayesian hierarchical regression.<h4>Study sample</h4>Two-hundred sixty-six children with mild-to-severe hearing loss contributed data.<h4>Results</h4>Age-based average RECD models were within 3 dB of measured RECD values in 54% of cases with normal middle ear status and 50.6% of cases with abnormal middle ear status. Immittance-predicted RECD were within 3 dB in 69.6% of cases with normal middle ear status and 74.4% of cases with abnormal middle ear status.<h4>Conclusion</h4>Immittance-predicted RECD was more accurate than age-based average RECD, particularly in children with abnormal middle ear status. The findings suggest that 226 Hz tympanometry could be used clinically to improve predictions of measured RECD when it cannot be measured.",
+        "affiliation": "Audibility, Perception, and Cognition Laboratory, Boys Town National Research Hospital, Omaha, NE, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "the National Institute on Deafness and Other Communication Disorders",
+              "grantId": "R01 DC018330",
+              "orderIn": 0
+            },
+            {
+              "agency": "the National Institute on Deafness and Other Communication Disorders",
+              "grantId": "R01 DC013591",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "P20 GM109023",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC013591",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC018330",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Loss"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acoustic Impedance Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bayes Theorem"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Retrospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Longitudinal Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hearing loss",
+            "verification",
+            "Acoustics",
+            "Paediatric",
+            "Hearing-aid",
+            "Real-ear-to-coupler Difference"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10159987"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/14992027.2023.2169200"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10159987"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10159987?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1080/14992027.2023.2169200"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1881049",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2023-05-03",
+        "dateOfCreation": "2023-02-08",
+        "dateOfRevision": "2026-03-05",
+        "electronicPublicationDate": "2023-02-08",
+        "firstPublicationDate": "2023-02-08",
+        "firstIndexDate": "2023-02-09",
+        "fullTextReceivedDate": "2025-02-03",
+        "embargoDate": "2024-05-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37581511",
+        "source": "MED",
+        "pmid": "37581511",
+        "pmcid": "PMC10431946",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10431946"
+          ]
+        },
+        "doi": "10.1121/10.0020660",
+        "title": "Predicting wideband real-ear-to-coupler differences in children using wideband acoustic immittance.",
+        "authorString": "McCreery RW, Grindle A, Merchant GR, Crukley J, Walker EA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "McCreery RW",
+              "lastName": "McCreery",
+              "firstName": "Ryan W",
+              "initials": "RW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0733-7269"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Audibility, Perception, and Cognition Laboratory, Boys Town National Research Hospital, Omaha, Nebraska 68131, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Grindle A",
+              "lastName": "Grindle",
+              "firstName": "Anastasia",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pediatric Audiology, UW Health American Family Children's Hospital, Madison, Wisconsin 53792, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Merchant GR",
+              "lastName": "Merchant",
+              "firstName": "Gabrielle R",
+              "initials": "GR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7251-1879"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Translational Auditory Physiology and Perception Laboratory, Boys Town National Research Hospital, Omaha, Nebraska 68131, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Crukley J",
+              "lastName": "Crukley",
+              "firstName": "Jeffery",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Medicine, Department of Speech-Language Pathology, University of Toronto, Toronto, Ontario M5G 1V7, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Walker EA",
+              "lastName": "Walker",
+              "firstName": "Elizabeth A",
+              "initials": "EA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9717-8424"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Communication Sciences and Disorders, University of Iowa, Iowa City, Iowa 52242, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7251-1879"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0733-7269"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9717-8424"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "154",
+          "journalIssueId": 3608596,
+          "dateOfPublication": "2023 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "J Acoust Soc Am",
+            "title": "The Journal of the Acoustical Society of America",
+            "essn": "1520-8524",
+            "issn": "0001-4966",
+            "isoabbreviation": "J Acoust Soc Am",
+            "nlmid": "7503051"
+          },
+          "printPublicationDate": "2023-08-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "991-1002",
+        "abstractText": "Individual differences in ear-canal acoustics introduce variability into hearing aid output that can affect speech audibility. Measuring ear-canal acoustics in young children can be challenging, and relying on normative real-ear-to-coupler difference (RECD) transforms can lead to large fitting errors. Acoustic immittance measures characterize the impedance of the ear and are more easily measured than RECD. Using 226 Hz tympanometry to predict the RECD is more accurate than using age-based average RECD values. The current study sought to determine whether wideband acoustic immittance measurements could improve predictions of wideband real-ear-to-coupler difference (wRECD). 150 children ages 2-10 years with intact tympanic membranes underwent wRECD and wideband acoustic immittance measures in each ear. Three models were constructed to predict each child's measured wRECD: the age-based average wRECD, 226 Hz admittance wRECD, and wideband absorbance wRECD. The average age-based wRECD model predicted the child's measured wRECD within 3 dB in 62% of cases, but both the 226 Hz admittance and wideband absorbance wRECD were within 3 dB in 90% of cases. Using individual 226 Hz or wideband absorbance to predict wRECD improved the accuracy and precision of transforms used for pediatric hearing aid fitting.",
+        "affiliation": "Audibility, Perception, and Cognition Laboratory, Boys Town National Research Hospital, Omaha, Nebraska 68131, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "T35 DC008757",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "P20 GM109023",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC018330",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC013591",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ear Canal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ear, Middle"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Tympanic Membrane"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acoustic Impedance Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acoustics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1121/10.0020660"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10431946"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10431946?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1121/10.0020660"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 3,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2023-08-16",
+        "dateOfCreation": "2023-08-15",
+        "dateOfRevision": "2024-08-02",
+        "firstPublicationDate": "2023-08-01",
+        "firstIndexDate": "2023-08-19",
+        "fullTextReceivedDate": "2024-08-03",
+        "embargoDate": "2024-08-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "25822646",
+        "source": "MED",
+        "pmid": "25822646",
+        "doi": "10.1097/aud.0000000000000159",
+        "title": "Comparison of Psychophysical and Physical Measurements of Real Ear to Coupler Differences.",
+        "authorString": "Koning R, Wouters J, Francart T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Koning R",
+              "lastName": "Koning",
+              "firstName": "Raphael",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research Group Experimental Oto-Rhino-Laryngology, Department Neurosciences, University of Leuven, Leuven, Belgium."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wouters J",
+              "lastName": "Wouters",
+              "firstName": "Jan",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0093-698X"
+              }
+            },
+            {
+              "fullName": "Francart T",
+              "lastName": "Francart",
+              "firstName": "Tom",
+              "initials": "T"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0093-698X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "36",
+          "journalIssueId": 2316993,
+          "dateOfPublication": "2015 Sep-Oct",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Ear Hear",
+            "title": "Ear and hearing",
+            "essn": "1538-4667",
+            "issn": "0196-0202",
+            "isoabbreviation": "Ear Hear",
+            "nlmid": "8005585"
+          },
+          "printPublicationDate": "2015-09-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "543-549",
+        "abstractText": "<h4>Objectives</h4>The purpose of the study is to compare real ear to coupler difference (RECD) curves based on physical and psychophysical measures. For the physically measured RECD, the RECD was measured with real ear and coupler measurements for the ear simulator and HA1- and HA2 2-cc couplers. The psychophysically measured RECDs were derived from audiogram measures.<h4>Design</h4>RECDs were measured in 19 normally hearing subjects. The coupler measurement was done with the probe microphone and the coupler microphone itself. Psychophysically measured RECDs were derived for all subjects by measuring the audiogram in sound field and with an ER-3A insert phone.<h4>Results</h4>Reference data were obtained for the three coupler types. It was possible to derive the RECD curve with psychophysical methods. There was no overall statistical difference between the physically and psychophysically measured RECD curves for the HA2 2-cc coupler and the ear simulator. The standard deviation was, however, much higher for the psychophysically derived RECD, indicating that physically measured RECDs are more precise than psychophysically derived RECDs.<h4>Conclusions</h4>For the physical RECD measurements, the coupler microphone should be used for the coupler measurement. Physically measured RECDs were validated on group level by the reliable derivation of the RECD curve from audiogram measures.",
+        "affiliation": "Research Group Experimental Oto-Rhino-Laryngology, Department Neurosciences, University of Leuven, Leuven, Belgium.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ear",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prosthesis Fitting",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing Aids"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Psychophysics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psychoacoustics"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Acoustics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Correction of Hearing Impairment"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/AUD.0000000000000159"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-06-20",
+        "dateOfCreation": "2015-03-31",
+        "dateOfRevision": "2015-08-25",
+        "firstPublicationDate": "2015-09-01",
+        "firstIndexDate": "2015-04-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "9056044",
+        "source": "MED",
+        "pmid": "9056044",
+        "doi": "10.3109/03005364000000009",
+        "title": "Real-ear to coupler differences in children with grommets.",
+        "authorString": "Martin HC, Munro KJ, Langer DH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Martin HC",
+              "lastName": "Martin",
+              "firstName": "H C",
+              "initials": "HC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5609-3248"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hearing & Balance Centre, ISVR, University of Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Munro KJ",
+              "lastName": "Munro",
+              "firstName": "K J",
+              "initials": "KJ"
+            },
+            {
+              "fullName": "Langer DH",
+              "lastName": "Langer",
+              "firstName": "D H",
+              "initials": "DH"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5609-3248"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "31",
+          "journalIssueId": 1032252,
+          "dateOfPublication": "1997 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 1997,
+          "journal": {
+            "medlineAbbreviation": "Br J Audiol",
+            "title": "British journal of audiology",
+            "issn": "0300-5364",
+            "isoabbreviation": "Br J Audiol",
+            "nlmid": "0357321"
+          },
+          "printPublicationDate": "1997-02-01"
+        },
+        "pubYear": "1997",
+        "pageInfo": "63-69",
+        "abstractText": "Real-ear to coupler differences (RECDs) are important for the selection of appropriate amplification characteristics for hearing impaired children. The aim of this study was to investigate the effects of patent grommets on RECDs in children. Subjects were 32 children aged between 4 and 7 years, 16 had a patent grommet in one or both ears as confirmed by otoscopy and large equivalent ear canal volumes on tympanometry. There was no evidence of middle ear pathology in the remaining 16 who comprised the control group. All real-ear and coupler measures showed good test-retest repeatability across the whole frequency range. The mean difference in RECDs between the two groups in the frequency range 0.125-0.75 kHz was 15 dB. The differences in RECDs were statistically significant (P < 0.01) for all frequencies below 0.75 kHz. There was a strong correlation between the mean RECD and equivalent ear canal volume at all frequencies between 0.125 and 0.5 kHz, and a moderate correlation at 0.75 kHz. Large inter-subject variability was found, with a maximum standard deviation of 6.6 dB at 4.0 kHz. Therefore, this study supports the need for individual RECD measures to be made, particularly for subjects with grommets, rather than using averaged transformation figures. It suggests that more low frequency gain should be given to hearing aid users with patent grommets to overcome the reduced SPL in the ear canal, due to leakage through the vented tympanic membrane.",
+        "affiliation": "Hearing & Balance Centre, ISVR, University of Southampton, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Middle Ear Ventilation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Aids"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Correction of Hearing Impairment"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3109/03005364000000009"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 10,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1997-05-19",
+        "dateOfCreation": "1997-02-01",
+        "dateOfRevision": "2019-11-01",
+        "firstPublicationDate": "1997-02-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "8733786",
+        "source": "MED",
+        "pmid": "8733786",
+        "doi": "10.3109/03005369609077934",
+        "title": "Real ear to coupler differences in children having otitis media with effusion.",
+        "authorString": "Martin HC, Westwood GF, Bamford JM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Martin HC",
+              "lastName": "Martin",
+              "firstName": "H C",
+              "initials": "HC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5609-3248"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hearing & Balance Centre, ISVR, University of Southampton, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Westwood GF",
+              "lastName": "Westwood",
+              "firstName": "G F",
+              "initials": "GF"
+            },
+            {
+              "fullName": "Bamford JM",
+              "lastName": "Bamford",
+              "firstName": "J M",
+              "initials": "JM"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5609-3248"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "30",
+          "journalIssueId": 949239,
+          "dateOfPublication": "1996 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 1996,
+          "journal": {
+            "medlineAbbreviation": "Br J Audiol",
+            "title": "British journal of audiology",
+            "issn": "0300-5364",
+            "isoabbreviation": "Br J Audiol",
+            "nlmid": "0357321"
+          },
+          "printPublicationDate": "1996-04-01"
+        },
+        "pubYear": "1996",
+        "pageInfo": "71-78",
+        "abstractText": "The aim of this study was to investigate the effects of otitis media with effusion (OME) on the 'real ear to coupler difference' (RECD) in children. RECDs are important in the procedures used for selection of appropriate amplification characteristics for children with permanent (usually sensorineural) hearing impairment. Subjects were 28 children aged between 4.6 and 7.6 years, 14 of whom had OME. There was no evidence of middle ear pathology in the remaining 14 who comprised the control group. All real-ear and coupler measures showed good test-retest repeatability at 4.0 kHz and below. The mean RECDs in frequency range 0.2-3.0 kHz were found to be up to 3.5 dB greater for the children having OME than for those without OME, although when statistically analysed only the differences in RECD at 1.0 kHz and 1.5 kHz were significant. Due to low correlation between the root mean square (RMS) sound pressure level (SPL) in the ear canal and ear canal volume, and low correlation between the subject's maximum RECD and ear canal volume, neither of these other variables could be used to predict an individual's RECD in this study. Large inter-subject variability was found, with a maximum standard deviation of 5.6 dB at 0.2 kHz, so this study greatly supports the need for individual RECD measurements to be made whenever possible, rather than using averaged transformation figures, particularly if the individual has OME.",
+        "affiliation": "Hearing & Balance Centre, ISVR, University of Southampton, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ear, Middle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing Loss, Sensorineural",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "RH",
+                    "qualifierName": "rehabilitation"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Otitis Media with Effusion",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Equipment Design"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Aids"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3109/03005369609077934"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1996-10-28",
+        "dateOfCreation": "1996-04-01",
+        "dateOfRevision": "2019-11-01",
+        "firstPublicationDate": "1996-04-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "insert": {
+    "query": "TITLE:\"Effect of insertion depth on\" AND audiometry",
+    "results": []
+  },
+  "review": {
+    "query": "TITLE:\"Mobile audiometry\"",
+    "results": [
+      {
+        "id": "40739933",
+        "source": "MED",
+        "pmid": "40739933",
+        "pmcid": "PMC12313441",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12313441"
+          ]
+        },
+        "doi": "10.7874/jao.2024.00815",
+        "title": "Mobile Audiometry for Use in Ototoxicity Monitoring Programs: A Scoping Review.",
+        "authorString": "Yim PWC, Lim ZH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yim PWC",
+              "lastName": "Yim",
+              "firstName": "Pierre W C",
+              "initials": "PWC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Duke-NUS Medical School, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lim ZH",
+              "lastName": "Lim",
+              "firstName": "Zee Hui",
+              "initials": "ZH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head & Neck Surgery, National University Hospital, Singapore."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "29",
+          "journalIssueId": 3985264,
+          "dateOfPublication": "2025 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "J Audiol Otol",
+            "title": "Journal of audiology & otology",
+            "essn": "2384-1710",
+            "issn": "2384-1621",
+            "nlmid": "101657815",
+            "isoabbreviation": "J Audiol Otol"
+          },
+          "printPublicationDate": "2025-07-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "166-180",
+        "abstractText": "Ototoxicity monitoring programs (OMPs) for cisplatin-induced hearing loss have not been widely adopted in clinical practice for various reasons. Mobile audiometry (MA) offers cost and convenience advantages over conventional pure-tone audiometry (CA) and it is currently used in hearing screening. However, there is no consensus on whether MA can replace CA for measuring hearing thresholds in OMPs. This scoping review examines the challenges of OMPs and evaluates the diagnostic accuracy of MA for hearing thresholds. A comprehensive search was conducted in four databases from their inception to December 2024. Data on study characteristics, reported OMP challenges, MA specifications, test settings, and performance measures were extracted. Nine studies on OMP challenges were reviewed. Identified barriers were inconsistent referrals, resource constraints, low awareness of ototoxicity monitoring, and patient-related factors. Twenty-three studies reporting on three portable audiometers, and 14 app-based hearing tests were evaluated for the diagnostic accuracy of MA for hearing thresholds. Only two studies involved testing at extended high frequencies. Studies used measures including MA-CA threshold differences, sensitivity/specificity, and test-retest reliability. App-based MA represents an accessible and scalable solution to the resource constraints faced by OMPs. However, its diagnostic accuracy remains uncertain given the substantial methodological variability across studies. OMPs using MAs should consider clinically validated modalities.",
+        "affiliation": "Duke-NUS Medical School, Singapore.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "review-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hearing loss",
+            "Ototoxicity",
+            "Hearing Tests",
+            "Mobile Applications",
+            "Otoxicity Monitoring"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.7874/jao.2024.00815"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12313441"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12313441?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2025-07-31",
+        "dateOfRevision": "2025-08-03",
+        "electronicPublicationDate": "2025-07-18",
+        "firstPublicationDate": "2025-07-18",
+        "firstIndexDate": "2025-08-01",
+        "fullTextReceivedDate": "2025-11-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "40140004",
+        "source": "MED",
+        "pmid": "40140004",
+        "doi": "10.1007/s00405-025-09321-z",
+        "title": "Evaluating the diagnostic accuracy and reliability of mobile audiometry for screening hearing loss in adults in comparison to pure tone audiometry.",
+        "authorString": "Sundararaju U, Subramanian S, Ashok Siva S, Prateep A, Lavanya BT, Rajakumar HK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sundararaju U",
+              "lastName": "Sundararaju",
+              "firstName": "Umashri",
+              "initials": "U",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-6488-4172"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Government Medical College, Omandurar Government Estate, Chennai, Tamilnadu, 600 002, India. umashriutgml@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Subramanian S",
+              "lastName": "Subramanian",
+              "firstName": "Shanmathi",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-0260-7801"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Government Medical College, Omandurar Government Estate, Chennai, Tamilnadu, 600 002, India. shanmathi2k1@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ashok Siva S",
+              "lastName": "Ashok Siva",
+              "firstName": "Shanmuga",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-6773-164X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Government Medical College, Omandurar Government Estate, Chennai, Tamilnadu, 600 002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Prateep A",
+              "lastName": "Prateep",
+              "firstName": "Aishwarya",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4800-9445"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Government Medical College, Omandurar Government Estate, Chennai, Tamilnadu, 600 002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lavanya BT",
+              "lastName": "Lavanya",
+              "firstName": "Bhoobli Thulasiram",
+              "initials": "BT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Government Medical College, Omandurar Government Estate, Chennai, Tamilnadu, 600 002, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rajakumar HK",
+              "lastName": "Rajakumar",
+              "firstName": "Hamrish Kumar",
+              "initials": "HK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-9642-9915"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Government Medical College, Omandurar Government Estate, Chennai, Tamilnadu, 600 002, India. hamrishkumar2003@gmail.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4800-9445"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-6773-164X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-6488-4172"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-0260-7801"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-9642-9915"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "282",
+          "journalIssueId": 3953152,
+          "dateOfPublication": "2025 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Eur Arch Otorhinolaryngol",
+            "title": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "essn": "1434-4726",
+            "issn": "0937-4477",
+            "nlmid": "9002937",
+            "isoabbreviation": "Eur Arch Otorhinolaryngol"
+          },
+          "printPublicationDate": "2025-06-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "3283-3291",
+        "abstractText": "<h4>Background</h4>Hearing loss affects approximately 1.5 billion people globally, with a significant proportion unaware of their condition due to inadequate screening. The current standard for diagnosing hearing loss, pure tone audiometry (PTA), faces limitations in accessibility and cost, especially in low-resource settings. Our study aimed to evaluate mobile audiometry (MA) as a self-assessment screening tool for the general public.<h4>Methods</h4>The study compared audiograms obtained via PTA in a sound-proof room and MA using a smartphone in a physician's office with ambient noise using relatively inexpensive, readily available generic headsets and earphones. MA was a self-assessment test where patients followed instructions from investigators but conducted the test independently under supervision. Each ear was tested separately without masking. Spearman's correlation assessed the association between MA and PTA, and Bland-Altman's analysis evaluated agreement. Diagnostic accuracy, sensitivity, and specificity were calculated using contingency tables. Kappa statistic measured reliability and test-retest reliability was assessed with Intraclass Correlation Coefficient (ICC).<h4>Results</h4>The study consisting of 250 participants (110 males and 140 females), with an average age of 43.5 years revealed strong agreement and correlation between audiograms obtained from PTA and MA. The diagnostic accuracy for classifying the degree of hearing loss was moderate, at 70%. MA exhibited high sensitivity (94.51%) and good specificity (70.96%) for screening hearing loss. The reliability of MA is good with a kappa statistic value of 0.659. The test-retest reliability of MA was assessed using ICC which was found to be 0.843.<h4>Conclusions</h4>MA could serve as an effective screening tool for hearing loss. Individuals identified with hearing loss through MA could be referred to a physician's office for further evaluation and timely management. However, limitations such as environmental noise and variability in headset quality may affect the accuracy of the results. Further research is needed to address these challenges and improve the reliability of MA.",
+        "affiliation": "Government Medical College, Omandurar Government Estate, Chennai, Tamilnadu, 600 002, India. umashriutgml@gmail.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Loss",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Audiometry, Pure-Tone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Mass Screening",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sensitivity and Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Smartphone"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Sensitivity and specificity",
+            "Cost-effectiveness",
+            "Diagnostic Accuracy",
+            "Self-assessment",
+            "Hearing Loss Screening",
+            "Mobile Audiometry"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00405-025-09321-z"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-05-30",
+        "dateOfCreation": "2025-03-27",
+        "dateOfRevision": "2025-05-30",
+        "electronicPublicationDate": "2025-03-26",
+        "firstPublicationDate": "2025-03-26",
+        "firstIndexDate": "2025-04-01",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38942612",
+        "source": "MED",
+        "pmid": "38942612",
+        "doi": "10.1097/mao.0000000000004229",
+        "title": "The Emerging Future of Mobile Audiometry: A Prospective Validation Study of the Mimi Hearing Test Application.",
+        "authorString": "Moazzami C, Gagnon C, Bertrand L, Saliba I, Saliba J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Moazzami C",
+              "lastName": "Moazzami",
+              "firstName": "Chloé",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gagnon C",
+              "lastName": "Gagnon",
+              "firstName": "Carolanne",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9909-9765"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Otolaryngology-Head and Neck Surgery, Department of Surgery."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bertrand L",
+              "lastName": "Bertrand",
+              "firstName": "Léo",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Faculty of Pharmacy, Université de Montréal, Montreal, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Saliba I",
+              "lastName": "Saliba",
+              "firstName": "Issam",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Otolaryngology-Head and Neck Surgery, Department of Surgery."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Saliba J",
+              "lastName": "Saliba",
+              "firstName": "Joe",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Otolaryngology-Head and Neck Surgery, Department of Surgery."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9909-9765"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "45",
+          "journalIssueId": 3799481,
+          "dateOfPublication": "2024 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Otol Neurotol",
+            "title": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
+            "essn": "1537-4505",
+            "issn": "1531-7129",
+            "nlmid": "100961504",
+            "isoabbreviation": "Otol Neurotol"
+          },
+          "printPublicationDate": "2024-08-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "740-744",
+        "abstractText": "<h4>Objective</h4>The objective of this study is to assess the accuracy of the Mimi Hearing Test (MHT) mobile application in the detection of air conduction (AC) thresholds and in screening for moderate hearing loss.<h4>Study design</h4>Prospective clinical study.<h4>Setting</h4>Tertiary care center.<h4>Patients</h4>Participants with or without a varying degree of hearing loss, aged 18 years and over, without cognitive impairment and without active otorrhea or earwax impaction at the time of the hearing assessment were included.<h4>Intervention</h4>Subjects with a ranging severity of hearing loss underwent a conventional in-booth audiogram as well as mobile-based screening with MHT in a quiet room (45.5 dB background noise) on the same day. Both regular over-the-ear and noise-canceling headphones were tested with MHT.<h4>Main outcome measures</h4>Comparisons of AC thresholds between conventional audiometry and mobile-based audiometry at discrete frequencies and with pure-tone averages (PTA) were performed.<h4>Results</h4>A total of 75 adults (mean age: 56.2 yr, 54.7% male) were recruited and 63 used for analysis. Of the thresholds measured with MHT using regular headphones, 44.0% were within 10 dB of the conventional audiogram, compared to 39.3% using noise-canceling headphones. MHT demonstrated best accuracy at high frequencies (4-8 kHz). When screening for moderate hearing loss (PTA >40 dB HL), MHT demonstrated a sensitivity and specificity of 100.0% and 80.2%, respectively.<h4>Conclusions</h4>MHT is reliable for identifying moderate hearing loss but lacks precision in detecting thresholds at low frequencies. Noise canceling headphones seem to improve its precision at 4,000 Hz only.",
+        "affiliation": "Department of Internal Medicine.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Validation Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Loss",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IS",
+                    "qualifierName": "instrumentation"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry, Pure-Tone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IS",
+                    "qualifierName": "instrumentation"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sensitivity and Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Threshold",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Mobile Applications"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/MAO.0000000000004229"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-07-12",
+        "dateOfCreation": "2024-06-28",
+        "dateOfRevision": "2026-05-19",
+        "electronicPublicationDate": "2024-06-26",
+        "firstPublicationDate": "2024-06-26",
+        "firstIndexDate": "2024-06-29",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "41736187",
+        "source": "MED",
+        "pmid": "41736187",
+        "pmcid": "PMC12970545",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12970545"
+          ]
+        },
+        "doi": "10.1097/mao.0000000000004856",
+        "title": "Early Detection of Ototoxicity Using Serial Mobile Audiometry, Otoacoustic Emissions Testing, and Inner Ear Biomarker Measurement in Patients Receiving Platinum-Based Chemotherapy Treatment: It is Feasible to Implement in a National Health Service (NHS) Cancer Ambulatory Care Setting.",
+        "authorString": "Mehta N, Awad A, Forbes M, Iliadou E, Katiri R, Ferdous T, Lowe H, Ensell L, Alifrangis C, Schilder AGM, Windsor R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mehta N",
+              "lastName": "Mehta",
+              "firstName": "Nishchay",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9317-3055"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute for Health Research, University College London Hospitals Biomedical Research Centre, London, UK."
+                  },
+                  {
+                    "affiliation": "Ear Institute, University College London."
+                  },
+                  {
+                    "affiliation": "Royal National ENT & Eastman Dental Hospitals, University College London Hospitals NHS Foundation Trust."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Awad A",
+              "lastName": "Awad",
+              "firstName": "Asma",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute for Health Research, University College London Hospitals Biomedical Research Centre, London, UK."
+                  },
+                  {
+                    "affiliation": "Ear Institute, University College London."
+                  },
+                  {
+                    "affiliation": "Royal National ENT & Eastman Dental Hospitals, University College London Hospitals NHS Foundation Trust."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Forbes M",
+              "lastName": "Forbes",
+              "firstName": "Marina",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute for Health Research, University College London Hospitals Biomedical Research Centre, London, UK."
+                  },
+                  {
+                    "affiliation": "Royal National ENT & Eastman Dental Hospitals, University College London Hospitals NHS Foundation Trust."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Iliadou E",
+              "lastName": "Iliadou",
+              "firstName": "Eleftheria",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2586-7551"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Royal National ENT & Eastman Dental Hospitals, University College London Hospitals NHS Foundation Trust."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Katiri R",
+              "lastName": "Katiri",
+              "firstName": "Roulla",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7098-8024"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Royal National ENT & Eastman Dental Hospitals, University College London Hospitals NHS Foundation Trust."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ferdous T",
+              "lastName": "Ferdous",
+              "firstName": "Tanjinah",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Royal National ENT & Eastman Dental Hospitals, University College London Hospitals NHS Foundation Trust."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lowe H",
+              "lastName": "Lowe",
+              "firstName": "Helen",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8630-378X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Experimental Cancer Medicine Centre Good Clinical Laboratory Practice Facility, Cancer Institute, University College London."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ensell L",
+              "lastName": "Ensell",
+              "firstName": "Leah",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Experimental Cancer Medicine Centre Good Clinical Laboratory Practice Facility, Cancer Institute, University College London."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alifrangis C",
+              "lastName": "Alifrangis",
+              "firstName": "Constantine",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cancer."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schilder AGM",
+              "lastName": "Schilder",
+              "firstName": "Anne G M",
+              "initials": "AGM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5496-4580"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Institute for Health Research, University College London Hospitals Biomedical Research Centre, London, UK."
+                  },
+                  {
+                    "affiliation": "Ear Institute, University College London."
+                  },
+                  {
+                    "affiliation": "Royal National ENT & Eastman Dental Hospitals, University College London Hospitals NHS Foundation Trust."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Windsor R",
+              "lastName": "Windsor",
+              "firstName": "Rachael",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Children and Young People's Cancer Service, University College London Hospitals NHS Foundation Trust, London, UK."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7098-8024"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8630-378X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9317-3055"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5496-4580"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2586-7551"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "47",
+          "journalIssueId": 4147719,
+          "dateOfPublication": "2026 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Otol Neurotol",
+            "title": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
+            "essn": "1537-4505",
+            "issn": "1531-7129",
+            "nlmid": "100961504",
+            "isoabbreviation": "Otol Neurotol"
+          },
+          "printPublicationDate": "2026-04-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "539-548",
+        "abstractText": "<h4>Importance</h4>Platinum-based chemotherapy is widely used in the management of solid tumors, and up to 60% of patients will experience ototoxic side effects, including hearing loss and tinnitus. The advent of novel otoprotective drugs generates a need for more flexible and innovative real-time approaches to drug-induced ototoxicity monitoring in cancer patients.<h4>Objective</h4>To assess the feasibility of recruitment and compliance to monitoring of ototoxicity with mobile out-of-booth audiometry, Distortion Product Otoacoustic Emission (DPOAE) testing, and serum biomarker measurements.<h4>Design</h4>Prospective observational study.<h4>Setting</h4>Cancer ambulatory care.<h4>Participants</h4>Patients undergoing platinum-based chemotherapy for bone or testicular cancer.<h4>Results</h4>Twenty-three patients were enrolled between February 2021 and June 2023. The mean age was 17.5 years (range: 13 to 36 y). Average compliance to monitoring assessments was 86.5% for audiometry, 84.8% for DPOAEs, and 84.3% for serum biomarker measurements. End-of-treatment audiometric changes indicative of ototoxicity were found in 18 (78.2%) of the participants.<h4>Conclusions and relevance</h4>High compliance with serial mobile audiometry and otoacoustic emissions testing, and serum biomarker measurement suggests that ototoxicity monitoring can be successfully performed in cancer ambulatory care rather than in an audiology department setting. Further investigation is required to understand the role of serum prestin and otolin-1 in monitoring ototoxicity.",
+        "affiliation": "National Institute for Health Research, University College London Hospitals Biomedical Research Centre, London, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Observational Study"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "ECMC Funder Award",
+              "grantId": "C12125/A25143; CRUK City of London Application, reference CTRQQR-2021/100004",
+              "orderIn": 0
+            },
+            {
+              "agency": "Action on Hearing Loss, now known as the Royal National Institute for the Deaf (RNID)",
+              "grantId": "F96_Schilder",
+              "orderIn": 0
+            },
+            {
+              "agency": "Libyan Ministry of Higher Education and Scientific Research",
+              "grantId": "501720",
+              "orderIn": 0
+            },
+            {
+              "agency": "RNID",
+              "grantId": "F96",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bone Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Testicular Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cisplatin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Audiometry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Early Diagnosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ambulatory Care"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Feasibility Studies"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Otoacoustic Emissions, Spontaneous",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ear, Inner",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Ototoxicity",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Otoacoustic emissions",
+            "Ototoxicity",
+            "Serum Biomarkers",
+            "Prestin",
+            "Platinum-based Chemotherapy",
+            "High-frequency Audiometry",
+            "Otolin",
+            "Audiological Monitoring"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cisplatin",
+              "registryNumber": "Q20Q21Q62J"
+            },
+            {
+              "name": "Biomarkers",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/MAO.0000000000004856"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12970545"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12970545?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2026-03-11",
+        "dateOfCreation": "2026-02-25",
+        "dateOfRevision": "2026-08-13",
+        "electronicPublicationDate": "2026-02-25",
+        "firstPublicationDate": "2026-02-25",
+        "firstIndexDate": "2026-02-25",
+        "fullTextReceivedDate": "2026-03-10",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "37828806",
+        "source": "MED",
+        "pmid": "37828806",
+        "doi": "10.1111/coa.14107",
+        "title": "Mobile audiometry for hearing threshold assessment: A systematic review and meta-analysis.",
+        "authorString": "Oremule B, Abbas J, Saunders G, Kluk K, Isba R, Bate S, Bruce I.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Oremule B",
+              "lastName": "Oremule",
+              "firstName": "Babatunde",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3908-323X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Infection, Immunity and Respiratory Medicine, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK."
+                  },
+                  {
+                    "affiliation": "Paediatric ENT Department, Royal Manchester Children's Hospital, Manchester University Hospitals NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abbas J",
+              "lastName": "Abbas",
+              "firstName": "Jonathan",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7870-2980"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Infection, Immunity and Respiratory Medicine, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK."
+                  },
+                  {
+                    "affiliation": "Paediatric ENT Department, Royal Manchester Children's Hospital, Manchester University Hospitals NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Saunders G",
+              "lastName": "Saunders",
+              "firstName": "Gabrielle",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9997-0845"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Psychology Communication and Human Neuroscience, Faculty of Biology, Medicine and Health, Manchester Centre for Audiology and Deafness (ManCAD), School of Health Sciences, University of Manchester, Manchester, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kluk K",
+              "lastName": "Kluk",
+              "firstName": "Karolina",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3638-2787"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Psychology Communication and Human Neuroscience, Faculty of Biology, Medicine and Health, Manchester Centre for Audiology and Deafness (ManCAD), School of Health Sciences, University of Manchester, Manchester, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Isba R",
+              "lastName": "Isba",
+              "firstName": "Rachel",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2896-4309"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lancaster Medical School, Lancaster University, Lancaster, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bate S",
+              "lastName": "Bate",
+              "firstName": "Sebastian",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2218-503X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research and Innovation, Manchester University NHS Foundation Trust, Manchester, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bruce I",
+              "lastName": "Bruce",
+              "firstName": "Iain",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0831-4760"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Infection, Immunity and Respiratory Medicine, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK."
+                  },
+                  {
+                    "affiliation": "Paediatric ENT Department, Royal Manchester Children's Hospital, Manchester University Hospitals NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2218-503X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2896-4309"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7870-2980"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9997-0845"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0831-4760"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3638-2787"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3908-323X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "49",
+          "journalIssueId": 3683539,
+          "dateOfPublication": "2024 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Clin Otolaryngol",
+            "title": "Clinical otolaryngology : official journal of ENT-UK ; official journal of Netherlands Society for Oto-Rhino-Laryngology & Cervico-Facial Surgery",
+            "essn": "1749-4486",
+            "issn": "1749-4478",
+            "nlmid": "101247023",
+            "isoabbreviation": "Clin Otolaryngol"
+          },
+          "printPublicationDate": "2024-01-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "74-86",
+        "abstractText": "<h4>Objectives</h4>Technological advancements in mobile audiometry (MA) have enabled hearing assessment using tablets and smartphones. This systematic review (PROSPERO ID: CRD42021274761) aimed to identify MA options available to health providers, assess their accuracy in measuring hearing thresholds, and explore factors that might influence their accuracy.<h4>Design and setting</h4>A systematic search of online databases including PubMed, Embase, Cochrane, Evidence Search and Dynamed was conducted on 13th December 2021, and repeated on 30th October 2022, using appropriate Medical Subject Headings (MeSH) terms. Eligible studies reported the use of MA to determine hearing thresholds and compared results to conventional pure-tone audiometry (CA). Studies investigating MA for hearing screening (i.e. reporting just pass/fail) were ineligible for inclusion. Two authors independently reviewed studies, extracted data, and assessed methodological quality and risk of bias using the Quality Assessment of Diagnostic Accuracy Studies-2 (QUADAS-2) tool.<h4>Participants</h4>Adults and children, with and without diagnosis of hearing impairment.<h4>Main outcome measures</h4>A meta-analysis was performed to obtain the mean difference between thresholds measured using MA and CA in dB HL.<h4>Results</h4>Searches returned 858 articles. After systematic review, 17 articles including 1032 participants were analysed. The most used software application was Shoebox<sup>TM</sup> (6/17) followed by Hearing Test<sup>TM</sup> (3/17), then HearTest<sup>TM</sup> (2/17). Tablet computers were used in ten studies, smartphones in six, and a computer in one. The mean difference between MA and CA thresholds was 1.36 dB (95% CI, 0.07-2.66, p = 0.04). Significant differences between mobile audiometry (MA) and conventional audiometry (CA) thresholds were observed in thresholds measured at 500Hz, in children, when MA was conducted in a sound booth, and when MA was self-administered. However, these differences did not exceed the clinically significant threshold of 10 decibels (dB). Included studies exhibited high levels of heterogeneity, high risk of bias and low concerns about applicability.<h4>Conclusions</h4>MA compares favourably to CA in measuring hearing thresholds and has role in providing access to hearing assessment in situations where CA is not available or feasible. Future studies should prioritize the integration of pure-tone threshold assessment with additional tests, such as Speech Recognition and Digits-in-Noise, for a more rounded evaluation of hearing ability, assesses acceptability and feasibility, and the cost-effectiveness of MA in non-specialist settings.",
+        "affiliation": "Division of Infection, Immunity and Respiratory Medicine, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Research Support, Non-U.S. Gov't",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Manchester Biomedical Research Centre",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIHR Manchester Biomedical Research Centre",
+              "orderIn": 0
+            },
+            {
+              "agency": "Research and Innovation, Manchester University NHS Foundation Trust",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Loss",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry, Pure-Tone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Threshold"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Smartphone"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hearing loss",
+            "Meta-analysis",
+            "Audiometry",
+            "Mobile Devices",
+            "Mobile Application",
+            "Tablet Computer",
+            "Hearing Test"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/coa.14107"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-12-18",
+        "dateOfCreation": "2023-10-13",
+        "dateOfRevision": "2026-07-05",
+        "electronicPublicationDate": "2023-10-12",
+        "firstPublicationDate": "2023-10-12",
+        "firstIndexDate": "2023-10-13",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "recd2022": {
+    "query": "DOI:10.1044/2022_AJA-21-00264",
+    "results": [
+      {
+        "id": "36037483",
+        "source": "MED",
+        "pmid": "36037483",
+        "doi": "10.1044/2022_aja-21-00264",
+        "title": "Real-Ear-to-Coupler Difference: Physical and Perceptual Differences.",
+        "authorString": "Jorgensen L, Barrett R, Jedlicka D, Messersmith J, Pratt S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Jorgensen L",
+              "lastName": "Jorgensen",
+              "firstName": "Lindsey",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Communication Sciences and Disorders, University of South Dakota, Vermillion."
+                  },
+                  {
+                    "affiliation": "VA Sioux Falls Healthcare System, SD."
+                  },
+                  {
+                    "affiliation": "VA Pittsburgh Healthcare System, PA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barrett R",
+              "lastName": "Barrett",
+              "firstName": "Rachel",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Communication Sciences and Disorders, University of South Dakota, Vermillion."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jedlicka D",
+              "lastName": "Jedlicka",
+              "firstName": "David",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "VA Pittsburgh Healthcare System, PA."
+                  },
+                  {
+                    "affiliation": "Department of Communication Sciences and Disorders, University of Pittsburgh, PA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Messersmith J",
+              "lastName": "Messersmith",
+              "firstName": "Jessica",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Communication Sciences and Disorders, University of South Dakota, Vermillion."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pratt S",
+              "lastName": "Pratt",
+              "firstName": "Sheila",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "VA Pittsburgh Healthcare System, PA."
+                  },
+                  {
+                    "affiliation": "Department of Communication Sciences and Disorders, University of Pittsburgh, PA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "31",
+          "journalIssueId": 3468915,
+          "dateOfPublication": "2022 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Am J Audiol",
+            "title": "American journal of audiology",
+            "essn": "1558-9137",
+            "issn": "1059-0889",
+            "isoabbreviation": "Am J Audiol",
+            "nlmid": "9114917"
+          },
+          "printPublicationDate": "2022-12-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "1088-1097",
+        "abstractText": "<h4>Purpose</h4>The real-ear-to-coupler difference (RECD) is a recommended measure for accurate hearing aid fittings, especially for pediatric populations. However, for adults, many clinicians question whether it is necessary.<h4>Method</h4>Hearing aids were fit on two groups of 85 older adults seen at a Veterans Administration audiology clinic. One group was fit using RECD measurements, whereas the second group was fit with population-based average RECD values. The two groups had similar pure-tone hearing thresholds.<h4>Results</h4>Like previous studies, there was little difference between the measured RECD for the right and left ears among the participants. Although the majority of the measured RECDs were within 1 <i>SD</i> of the mean, approximately 20% of those measured were outside of the normal range. It also was found that all participants produced lower (improved) Hearing Handicap Inventory for Elderly-Screening (HHIE-S) scores from pre- to postfitting, thus suggesting a reduction in self-perceived hearing handicap.<h4>Conclusions</h4>Despite having similar prefitting HHIE-S scores, those participants who had their hearing aids fit using measured RECD values had lower postfitting scores than the group that was fit with average RECD values. Furthermore, there was a significant difference between the groups on several questions of the International Outcome Inventory-Hearing Aids, suggesting that there was higher satisfaction with the fittings based on the custom RECD rather than the fittings based on the average RECD. This study demonstrated that, in addition to performing verification using real-ear measurements, accurate conversion of dB HL to dB SPL using personalized RECD likely improved hearing aid satisfaction.",
+        "affiliation": "Department of Communication Sciences and Disorders, University of South Dakota, Vermillion.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ear"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing Tests"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Aids"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reference Values"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1044/2022_AJA-21-00264"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 3,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-12-07",
+        "dateOfCreation": "2022-08-29",
+        "dateOfRevision": "2022-12-07",
+        "electronicPublicationDate": "2022-08-29",
+        "firstPublicationDate": "2022-08-29",
+        "firstIndexDate": "2022-08-30",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "tubing": {
+    "query": "DOI:10.1044/1059-0889(2012/12-0046)",
+    "results": []
+  },
+  "wideband": {
+    "query": "EXT_ID:29863466 AND SRC:MED",
+    "results": [
+      {
+        "id": "29863466",
+        "source": "MED",
+        "pmid": "29863466",
+        "doi": "10.3766/jaaa.17007",
+        "title": "Evaluation of the Repeatability and Accuracy of the Wideband Real-Ear-to-Coupler Difference.",
+        "authorString": "Vaisberg JM, Folkeard P, Pumford J, Narten P, Scollie S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Vaisberg JM",
+              "lastName": "Vaisberg",
+              "firstName": "Jonathan M",
+              "initials": "JM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, London, ON, Canada."
+                  },
+                  {
+                    "affiliation": "Graduate Program in Health & Rehabilitation Sciences (Hearing Science), Faculty of Health Sciences, University of Western Ontario, London, ON, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Folkeard P",
+              "lastName": "Folkeard",
+              "firstName": "Paula",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3109-6730"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, London, ON, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pumford J",
+              "lastName": "Pumford",
+              "firstName": "John",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Audioscan, a Division of Etymonic Design Incorporated, Dorchester, ON, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Narten P",
+              "lastName": "Narten",
+              "firstName": "Philipp",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, London, ON, Canada."
+                  },
+                  {
+                    "affiliation": "Lübeck University of Applied Sciences, Lübeck, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Scollie S",
+              "lastName": "Scollie",
+              "firstName": "Susan",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2207-5279"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, London, ON, Canada."
+                  },
+                  {
+                    "affiliation": "School of Communication Sciences and Disorders, Faculty of Health Sciences, University of Western Ontario, London, ON, Canada."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2207-5279"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3109-6730"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "29",
+          "journalIssueId": 2692074,
+          "dateOfPublication": "2018 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "J Am Acad Audiol",
+            "title": "Journal of the American Academy of Audiology",
+            "essn": "2157-3107",
+            "issn": "1050-0545",
+            "isoabbreviation": "J Am Acad Audiol",
+            "nlmid": "9114646"
+          },
+          "printPublicationDate": "2018-06-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "520-532",
+        "abstractText": "<h4>Background</h4>The real-ear-to-coupler difference (RECD) is an ANSI standardized method for estimating ear canal sound pressure level (SPL) thresholds and assisting in the prediction of real-ear aided responses. It measures the difference in dB between the SPL produced in the ear canal and the SPL produced in an HA-1 2-cc coupler by the same sound source. Recent evidence demonstrates that extended high-frequency bandwidth, beyond the hearing aid bandwidth typically measured, is capable of providing additional clinical benefit. The industry has, in turn, moved toward developing hearing aids and verification equipment capable of producing and measuring extended high-frequency audible output. As a result, a revised RECD procedure conducted using a smaller, 0.4-cc coupler, known as the wideband-RECD (wRECD), has been introduced to facilitate extended high-frequency coupler-based measurements up to 12.5 kHz.<h4>Purpose</h4>This study aimed to (1) compare test-retest repeatability between the RECD and wRECD and (2) measure absolute agreement between the RECD and wRECD when both are referenced to a common coupler.<h4>Research design</h4>RECDs and wRECDs were measured bilaterally in adult ears by calculating the dB difference in SPL between the ear canal and coupler responses. Real-ear probe microphone measures were completed twice per ear per participant for both foam-tip and customized earmold couplings using the Audioscan Verifit 1 and Verifit 2 fitting systems, followed by measurements in the respective couplers.<h4>Study sample</h4>Twenty-one adults (mean age = 67 yr, range = 19-78) with typical aural anatomy (as determined by measures of impedance and otoscopy) participated in this study, leading to a sample size of 42 ears.<h4>Data collection and analysis</h4>Repeatability within RECD and wRECD was assessed for each coupling configuration using a repeated-measures analysis of variance (ANOVA) with test-retest and frequency as within-participants factors. Repeatability between the RECD and wRECD was assessed within each configuration using a repeated-measures ANOVA with test-retest, frequency, and coupler type as within-participants factors. Agreement between the RECD and wRECD was assessed for each coupling configuration using a repeated-measures ANOVA with RECD value, coupler type, and frequency as within-participants factors. Post hoc comparisons with Bonferroni corrections were used when appropriate to locate the frequencies at which differences occurred. A 3-dB criterion was defined to locate differences of clinical significance.<h4>Results</h4>Average absolute test-retest differences were within ±3 dB within each coupler and coupling configuration, and between the RECD and wRECD. The RECD and wRECD were in absolute agreement following HA-1-referenced transforms, with most frequencies agreeing within ±1 dB, except at 0.2 kHz for the earmold, and 0.2-0.25 kHz for the foam tip, where the average RECD exceeded the average wRECD by slightly >3 dB.<h4>Conclusions</h4>Test-retest repeatability of the RECD (up to 8 kHz) and wRECD (up to 12.5 kHz) is acceptable and similar to previously reported data. The RECD and wRECD are referenced to different couplers, but can be rendered comparable with a simple transform, producing values that are in accordance with the ANSI S3.46-2013 standard.",
+        "affiliation": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, London, ON, Canada.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing Loss, Sensorineural",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reproducibility of Results"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Equipment Design"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Aids"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Threshold",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3766/jaaa.17007"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-10-03",
+        "dateOfCreation": "2018-06-05",
+        "dateOfRevision": "2020-06-02",
+        "firstPublicationDate": "2018-06-01",
+        "firstIndexDate": "2018-06-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}
