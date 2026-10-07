@@ -1,15 +1,43 @@
 import * as THREE from 'three';
 
-// A stylized navigation surface, not an anatomical or functional brain atlas.
+// Educational silhouette inspired by cerebral lobes, sulci, cerebellum and stem.
+// Procedural navigation geometry, not patient anatomy or a functional brain atlas.
 export function brainSurface(theta:number, phi:number, side=1) {
-  const length=Math.sin(theta), x=-158*Math.cos(theta);
-  const fold=Math.sin(theta*19+Math.sin(phi*7))*Math.sin(phi*13+theta*3);
-  const lowerNotch=18*Math.exp(-(((x-48)/37)**2))*Math.max(0,-Math.cos(phi));
+  const length=Math.max(0,Math.sin(theta)), x=-158*Math.cos(theta);
+  const upper=103*Math.pow(length,.64)*(1+.055*Math.exp(-Math.pow((x+25)/78,2)));
+  const temporal=19*Math.exp(-Math.pow((x+35)/67,2));
+  const lower=(62+temporal)*Math.pow(length,.68);
+  const center=26+13*Math.exp(-Math.pow((x-105)/58,2));
+  const phase=theta*22+phi*3+1.8*Math.sin(phi*5)+.75*Math.sin(theta*9+phi*4);
+  const folds=(2.8*Math.cos(phase)+1.1*Math.sin(phi*25+theta*5))*length*Math.sin(phi);
+  const central=4.5*Math.exp(-Math.pow((theta-(1.46+.09*Math.cos(phi*3)))/.032,2))*Math.sin(phi);
+  const lateralPhi=1.87-.13*(theta-1.5)+.085*Math.sin(theta*3);
+  const lateral=5.8*Math.exp(-Math.pow((phi-lateralPhi)/.035,2))*Math.sin(theta)**2;
+  const relief=folds-central-lateral;
+  const radius=83*Math.pow(length,.73)*(1+.07*Math.exp(-Math.pow((x+70)/68,2)));
   return new THREE.Vector3(
     x,
-    24+(Math.cos(phi)>0?104:78)*Math.pow(length,.72)*Math.cos(phi)+lowerNotch+fold*2.4*length,
-    side*(5+83*Math.pow(length,.8)*Math.sin(phi)+fold*3.2*length*Math.sin(phi)),
+    center+((Math.cos(phi)>0?upper:lower)+relief)*Math.cos(phi),
+    side*(4.8+(radius+relief)*Math.sin(phi)),
   );
+}
+
+function hemisphereGeometry(side:number) {
+  const positions:number[]=[],indices:number[]=[];
+  const rows=104,columns=76;
+  for(let i=0;i<=rows;i++)for(let j=0;j<=columns;j++) {
+    const p=brainSurface(i/rows*Math.PI,j/columns*Math.PI,side);
+    positions.push(p.x,p.y,p.z);
+  }
+  for(let i=0;i<rows;i++)for(let j=0;j<columns;j++) {
+    const a=i*(columns+1)+j,b=a+columns+1;
+    if(side>0)indices.push(a,a+1,b,b,a+1,b+1);
+    else indices.push(a,b,a+1,b,b+1,a+1);
+  }
+  const geometry=new THREE.BufferGeometry();
+  geometry.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geometry.setIndex(indices);geometry.computeVertexNormals();
+  return geometry;
 }
 
 export function brainNodePositions(count:number) {
@@ -45,39 +73,50 @@ export function createBrainScaffold() {
     lines.push({points:Array.from({length:steps+1},(_,i)=>sample(i/steps)),opacity});
   };
   for(const side of [-1,1]) {
-    // Dorsal/ventral silhouettes and the split between the hemispheres.
-    for(const phi of [0,Math.PI])trace(t=>brainSurface(t*Math.PI,phi,side),.42);
-    // Meandering cortical folds, with shorter branches instead of a wire grid.
-    for(let band=0;band<8;band++) {
+    // Hemisphere cleft and lateral silhouette stay legible from different views.
+    for(const phi of [0,Math.PI/2,Math.PI])trace(t=>brainSurface(t*Math.PI,phi,side),phi===Math.PI/2?.28:.46);
+    // Prominent central and lateral grooves break up the rounded lobes.
+    trace(t=>{const phi=.09+t*1.86;return brainSurface(1.46+.09*Math.cos(phi*3),phi,side);},.58);
+    trace(t=>{const theta=.24+t*2.37;return brainSurface(theta,1.87-.13*(theta-1.5)+.085*Math.sin(theta*3),side);},.55);
+    // Short, branching sulci follow different orientations rather than a wire grid.
+    for(let fold=0;fold<17;fold++) {
+      const column=fold%6,row=Math.floor(fold/6);
       trace(t=>{
-        const theta=.08+t*(Math.PI-.16);
-        const phi=.18+band*.39+Math.sin(theta*12+band*1.7)*.095+Math.sin(theta*5-band)*.065;
+        const theta=.22+column*.45+.19*Math.sin(t*Math.PI)+.055*Math.sin(t*9+fold);
+        const phi=.17+row*.56+t*.63+.09*Math.sin(t*8+fold*1.8);
         return brainSurface(theta,phi,side);
-      },.22);
+      },.32,48);
     }
-    for(let branch=0;branch<19;branch++) {
+    for(let fold=0;fold<11;fold++) {
       trace(t=>{
-        const phi=.32+(branch%6)*.43+t*.3;
-        const theta=.35+Math.floor(branch/6)*.82+Math.sin(t*Math.PI)*.14+(branch%3)*.12;
+        const theta=.24+(fold%4)*.62+t*.47;
+        const phi=2.09+Math.floor(fold/4)*.29+.07*Math.sin(t*8+fold);
         return brainSurface(theta,phi,side);
-      },.16,25);
+      },.27,42);
     }
-    // The lower rear outline and compact folds suggest the cerebellum.
-    trace(t=>new THREE.Vector3(92+51*Math.cos(t*Math.PI*2),-72+32*Math.sin(t*Math.PI*2),side*7),.38,100);
-    for(let band=0;band<9;band++) {
-      const latitude=-Math.PI/2+.12+band*(Math.PI-.24)/8;
-      trace(t=>{
-        const angle=t*Math.PI*2, radius=Math.cos(latitude);
-        return new THREE.Vector3(92+51*radius*Math.cos(angle),-72+32*Math.sin(latitude),side*(7+43*radius*Math.sin(angle/2)));
-      },band===4?.25:.16,72);
+    for(let branch=0;branch<16;branch++) {
+      trace(t=>brainSurface(.35+(branch%6)*.44+t*.23,.36+Math.floor(branch/6)*.62+.1*Math.sin(t*Math.PI+branch),side),.23,26);
     }
-    // A tapered stem completes the familiar side silhouette.
-    for(const edge of [-1,1])trace(t=>new THREE.Vector3(26+t*20+edge*(13-t*5),-58-t*71,side*(8+12*Math.sin(t*Math.PI))),.23,32);
-    trace(t=>new THREE.Vector3(38+t*16,-129+Math.sin(t*Math.PI)*-3,side*8),.23,24);
+    // Compact folia in the posterior, inferior cerebellum.
+    trace(t=>new THREE.Vector3(100+55*Math.cos(t*Math.PI*2),-65+35*Math.sin(t*Math.PI*2),side*6),.44);
+    for(let band=0;band<15;band++) {
+      const latitude=-Math.PI/2+.13+band*(Math.PI-.26)/14;
+      trace(t=>{const angle=t*Math.PI,r=Math.cos(latitude);return new THREE.Vector3(100+55*r*Math.cos(angle),-65+35*Math.sin(latitude)+1.2*Math.sin(angle*7+band),side*(6+49*r*Math.sin(angle)));},.3,64);
+    }
   }
-  const points=Array.from({length:1100},(_,i)=>{
-    const theta=Math.acos(1-2*(i+.5)/1100), phi=(i*2.3999632297)%Math.PI;
+  const stem=new THREE.CatmullRomCurve3([new THREE.Vector3(18,-43,0),new THREE.Vector3(25,-66,0),new THREE.Vector3(23,-88,0),new THREE.Vector3(31,-119,0),new THREE.Vector3(34,-137,0)]);
+  const stemPositions:number[]=[],stemIndices:number[]=[];
+  for(let i=0;i<=40;i++) {
+    const t=i/40,p=stem.getPoint(t),radius=13-6*t+5*Math.exp(-Math.pow((t-.28)/.17,2));
+    for(let j=0;j<=16;j++){const a=j/16*Math.PI*2;stemPositions.push(p.x+radius*Math.cos(a),p.y,p.z+radius*Math.sin(a));}
+  }
+  for(let i=0;i<40;i++)for(let j=0;j<16;j++){const a=i*17+j,b=a+17;stemIndices.push(a,b,a+1,b,b+1,a+1);}
+  const stemGeometry=new THREE.BufferGeometry();stemGeometry.setAttribute('position',new THREE.Float32BufferAttribute(stemPositions,3));stemGeometry.setIndex(stemIndices);stemGeometry.computeVertexNormals();
+  for(const angle of [0,Math.PI/2,Math.PI,Math.PI*1.5])trace(t=>{const p=stem.getPoint(t),r=13-6*t+5*Math.exp(-Math.pow((t-.28)/.17,2));return p.add(new THREE.Vector3(r*Math.cos(angle),0,r*Math.sin(angle)));},.4,48);
+  const cerebellum=new THREE.SphereGeometry(1,48,32);cerebellum.scale(55,35,55);cerebellum.translate(100,-65,0);
+  const points=Array.from({length:850},(_,i)=>{
+    const theta=Math.acos(1-2*(i+.5)/850), phi=(i*2.3999632297)%Math.PI;
     return brainSurface(theta,phi,i%2?1:-1);
   });
-  return {lines,points};
+  return {lines,points,surfaces:[hemisphereGeometry(1),hemisphereGeometry(-1),cerebellum,stemGeometry]};
 }

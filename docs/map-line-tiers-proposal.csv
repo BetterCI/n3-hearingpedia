@@ -1,0 +1,185 @@
+﻿编号,词条一,词条二,建议档位,默认线宽_px,导航等级,原关系类型,原关联说明,source,target
+1,双耳听觉,空间听觉,2,1.6,直接联系,概念联系,两耳信息利用与空间任务交叉，空间听觉还利用单耳频谱及运动线索。,binaural-hearing,spatial-hearing
+2,双耳听觉,双耳整合,3,2.8,核心联系,概念联系,跨耳互补信息的组合属于双耳利用的一类现象。,binaural-hearing,binaural-integration
+3,双耳听觉,双耳时间差,3,2.8,核心联系,概念联系,两耳相对时序提供线索，其利用依赖刺激和任务。,binaural-hearing,interaural-time-difference
+4,双耳听觉,双耳可懂度级差,2,1.6,直接联系,测量关系,规定条件的识别阈值差评价特定双耳收益。,binaural-hearing,binaural-intelligibility-level-difference
+5,双耳听觉,响度,2,1.6,直接联系,概念联系,双耳响度总和与言语阈值收益采用不同指标。,binaural-hearing,loudness
+6,双耳听觉,掩蔽,2,1.6,直接联系,机制联系,双耳比较可提供超出单耳功率比的解掩蔽信息。,binaural-hearing,masking
+7,双耳听觉,人工耳蜗,2,1.6,直接联系,概念联系,双侧电刺激需评价频位匹配、同步及实际线索利用。,binaural-hearing,cochlear-implant
+8,双耳听觉,助听器,2,1.6,直接联系,概念联系,两耳增益和延迟的差异可能改变双耳线索。,binaural-hearing,hearing-aid
+9,时域分辨率,时域包络,2,1.6,直接联系,概念联系,幅度起伏与中断提供检测线索，信号特征不等于行为能力。,temporal-resolution,temporal-envelope
+10,时域分辨率,时域精细结构,2,1.6,直接联系,概念联系,间隙阈正常不能单独证明精细结构敏感性正常。,temporal-resolution,temporal-fine-structure
+11,时域分辨率,振幅调制,3,2.8,核心联系,概念联系,不同调制频率的检测深度用于刻画起伏敏感性。,temporal-resolution,amplitude-modulation
+12,时域分辨率,听觉滤波器,2,1.6,直接联系,机制联系,外围滤波、载波带宽和自身起伏影响短时表征。,temporal-resolution,auditory-filter
+13,时域分辨率,听力损失,2,1.6,直接联系,概念联系,检测表现需控制声级、可听带宽及年龄。,temporal-resolution,hearing-loss
+14,时域分辨率,听觉诱发电位,1,0.7,扩展联系,概念联系,变化诱发响应提供互补证据，不直接等同全部行为阈。,temporal-resolution,auditory-evoked-potential
+15,时域分辨率,人工耳蜗,2,1.6,直接联系,概念联系,直接电刺激与日常处理器输出的时间结构需分别评价。,temporal-resolution,cochlear-implant
+16,时域分辨率,言语可懂度,2,1.6,直接联系,概念联系,短时敏感性与综合言语表现相关但不可互相替代。,temporal-resolution,speech-intelligibility
+17,听觉注意,时域分辨率,1,0.7,扩展联系,概念联系,短时线索支持目标选择，检测任务表现不直接作为注意量表。,auditory-attention,temporal-resolution
+18,听觉注意,双耳听觉,2,1.6,直接联系,概念联系,双耳线索帮助区分目标，注意维持还依赖任务与对象组织。,auditory-attention,binaural-hearing
+19,听觉注意,掩蔽,2,1.6,直接联系,概念联系,声学掩蔽与目标选择干扰应分层解释。,auditory-attention,masking
+20,听觉场景分析,听觉注意,2,1.6,直接联系,机制联系,分组和声流维持与注意选择相互作用，实验应区分两类过程。,auditory-scene-analysis,auditory-attention
+21,听觉场景分析,掩蔽,2,1.6,直接联系,概念联系,知觉组织会影响竞争声音的掩蔽与分离。,auditory-scene-analysis,masking
+22,听觉场景分析,谐波性,2,1.6,直接联系,概念联系,谐波结构提供同时分组线索，不能单独保证形成同一对象。,auditory-scene-analysis,harmonicity
+23,听觉场景分析,空间听觉,2,1.6,直接联系,概念联系,空间线索参与声源组织及目标分离。,auditory-scene-analysis,spatial-hearing
+24,听觉场景分析,言语可懂度,2,1.6,直接联系,概念联系,目标言语识别依赖场景组织，但不是同一个测量指标。,auditory-scene-analysis,speech-intelligibility
+25,听觉场景分析,听力损失,2,1.6,直接联系,概念联系,听力损失对分组的影响取决于任务、线索及个体状态。,auditory-scene-analysis,hearing-loss
+26,听觉场景分析,时域包络,2,1.6,直接联系,概念联系,跨频率包络关系可以提供共同变化的组织线索。,auditory-scene-analysis,temporal-envelope
+27,听觉场景分析,音高感知,2,1.6,直接联系,概念联系,音高与频率差异参与声流分离和身份维持。,auditory-scene-analysis,pitch-perception
+28,人工耳蜗信号处理策略,人工耳蜗,3,2.8,核心联系,应用关系,将声音特征组织为植入电极刺激；兼容性取决于处理器、植入体与软件。,cochlear-implant-coding-strategies,cochlear-implant
+29,时域限制编码器,人工耳蜗信号处理策略,3,2.8,核心联系,类型关系,一种以时域组织和感知限制为目标的研究编码策略。,temporal-limits-encoder,cochlear-implant-coding-strategies
+30,F0inTFS 周期性增强策略,人工耳蜗信号处理策略,3,2.8,核心联系,类型关系,一种利用低频信息增强时域周期性的研究策略。,f0-in-tfs,cochlear-implant-coding-strategies
+31,人工耳蜗信号处理策略,n-of-m 编码策略,3,2.8,核心联系,概念联系,部分策略使用谱峰选择；通道选择不是完整编码链。,cochlear-implant-coding-strategies,n-of-m-coding
+32,人工耳蜗信号处理策略,时域包络,3,2.8,核心联系,概念联系,包络提取及映射是多个临床策略的基础环节。,cochlear-implant-coding-strategies,temporal-envelope
+33,人工耳蜗信号处理策略,时域精细结构,2,1.6,直接联系,概念联系,事件触发及周期性研究改变时域信息的传递。,cochlear-implant-coding-strategies,temporal-fine-structure
+34,人工耳蜗信号处理策略,通道相互作用,2,1.6,直接联系,概念联系,交错、导向与聚焦安排受到电极间兴奋扩散约束。,cochlear-implant-coding-strategies,channel-interaction
+35,人工耳蜗信号处理策略,动态范围,2,1.6,直接联系,概念联系,声学特征需经个体电刺激范围映射。,cochlear-implant-coding-strategies,dynamic-range
+36,人工耳蜗信号处理策略,频位映射关系,2,1.6,直接联系,概念联系,频率分配、电极位置及功能音高对应共同影响结果。,cochlear-implant-coding-strategies,tonotopy
+37,人工耳蜗信号处理策略,声码器,2,1.6,直接联系,概念联系,声码器可再合成模型输出；不自动等价于商用算法或电听觉。,cochlear-implant-coding-strategies,vocoder
+38,人工耳蜗信号处理策略,言语接收阈,2,1.6,直接联系,测量关系,指定语言与噪声任务的阈值用于评价策略，需控制适应和响度。,cochlear-implant-coding-strategies,speech-reception-threshold
+39,人工耳蜗信号处理策略,双耳时间差,2,1.6,直接联系,概念联系,双耳策略需检验输出时间线索及听者利用。,cochlear-implant-coding-strategies,interaural-time-difference
+40,噪声性听力损失,听力损失,3,2.8,核心联系,类型关系,以噪声暴露相关病因为特征的一类听力损失。,noise-induced-hearing-loss,hearing-loss
+41,听觉脑干反应,听觉诱发电位,3,2.8,核心联系,类型关系,脑干反应属于较早期的听觉诱发电位。,auditory-brainstem-response,auditory-evoked-potential
+42,听力损失,纯音测听,3,2.8,核心联系,测量关系,听力图描述频率相关敏感性，不穷尽阈上功能或病因。,hearing-loss,pure-tone-audiometry
+43,听力损失,言语接收阈,2,1.6,直接联系,测量关系,指定语音任务的阈值补充交流功能信息。,hearing-loss,speech-reception-threshold
+44,听力损失,耳蜗突触病变,2,1.6,直接联系,概念联系,突触病理与临床困难的关系需另外验证，不能按听力图直接确诊。,hearing-loss,cochlear-synaptopathy
+45,听力损失,空间听觉,2,1.6,直接联系,概念联系,双耳损失及不对称可能影响空间任务。,hearing-loss,spatial-hearing
+46,听力损失,聆听努力,2,1.6,直接联系,概念联系,阈值与任务投入是不同维度，应分别测量。,hearing-loss,listening-effort
+47,助听器,听力损失,3,2.8,核心联系,应用关系,通过声学处理改善输入；收益按验配与功能目标评价。,hearing-aid,hearing-loss
+48,助听器,人工耳蜗,1,0.7,扩展联系,概念联系,声学与电刺激接口不同，参数不能直接等同。,hearing-aid,cochlear-implant
+49,助听器,言语可懂度,2,1.6,直接联系,应用关系,语音表现是设备评价的一个维度。,hearing-aid,speech-intelligibility
+50,助听器,听力测量校准,2,1.6,直接联系,概念联系,设备与耳内输出需明确声级参考和验证条件。,hearing-aid,audiometric-calibration
+51,助听器,时域包络,2,1.6,直接联系,概念联系,时变增益和压缩可能改变输出包络。,hearing-aid,temporal-envelope
+52,助听器,空间听觉,2,1.6,直接联系,概念联系,双耳处理与方向性设计涉及空间线索。,hearing-aid,spatial-hearing
+53,动态范围,助听器,2,1.6,直接联系,表征关系,描述指定输入／输出上下界及其压缩映射。,dynamic-range,hearing-aid
+54,动态范围,人工耳蜗,3,2.8,核心联系,表征关系,电范围须注明设备标度、脉宽、速率与电极。,dynamic-range,cochlear-implant
+55,动态范围,响度,2,1.6,直接联系,概念联系,可用水平跨度与响度增长有关，但二者不是同一个量。,dynamic-range,loudness
+56,动态范围,n-of-m 编码策略,1,0.7,扩展联系,概念联系,电映射范围与谱峰选择是不同处理维度。,dynamic-range,n-of-m-coding
+57,外毛细胞,耳蜗,3,2.8,核心联系,概念联系,外毛细胞位于柯蒂器；细胞与器官不是类型包含关系。,outer-hair-cell,cochlea
+58,外毛细胞,听觉滤波器,3,2.8,核心联系,机制联系,主动机械过程参与灵敏度和频率选择性。,outer-hair-cell,auditory-filter
+59,外毛细胞,响度,2,1.6,直接联系,机制联系,耳蜗非线性与响度增长相关，行为结果不能唯一定位细胞损伤。,outer-hair-cell,loudness
+60,外毛细胞,噪声性听力损失,2,1.6,直接联系,概念联系,噪声损伤可能涉及外毛细胞及其他耳蜗结构。,outer-hair-cell,noise-induced-hearing-loss
+61,外毛细胞,耳蜗突触病变,1,0.7,扩展联系,概念联系,外毛细胞功能与内毛细胞传入突触病理是不同环节。,outer-hair-cell,cochlear-synaptopathy
+62,响度,音高感知,1,0.7,扩展联系,概念联系,强弱与高低属于不同知觉属性。,loudness,pitch-perception
+63,响度,助听器,2,1.6,直接联系,概念联系,增益处方需要兼顾可听性、响度与舒适度。,loudness,hearing-aid
+64,响度,人工耳蜗,2,1.6,直接联系,概念联系,电刺激响度由多个参数共同影响，等响不等于等信息。,loudness,cochlear-implant
+65,响度,言语可懂度,1,0.7,扩展联系,概念联系,目标响度、混合物响度与理解成绩需要分别描述。,loudness,speech-intelligibility
+66,听觉诱发电位,脑电图,3,2.8,核心联系,测量关系,表面电极 EEG 可记录多个潜伏期的听觉响应。,auditory-evoked-potential,electroencephalography
+67,听觉脑干反应,脑电图,2,1.6,直接联系,测量关系,表面电位记录需使用适合早期响应的刺激与记录配置。,auditory-brainstem-response,electroencephalography
+68,听觉脑干反应,听力损失,2,1.6,直接联系,应用关系,特定诊断程序可辅助敏感性评估，不直接测量语言理解。,auditory-brainstem-response,hearing-loss
+69,听觉脑干反应,人工耳蜗,2,1.6,直接联系,应用关系,电诱发脑干反应采用电输入，伪迹和阈值标度另行处理。,auditory-brainstem-response,cochlear-implant
+70,听觉脑干反应,耳蜗突触病变,2,1.6,直接联系,概念联系,人类波幅是候选代理，不等同于突触数量或病理确诊。,auditory-brainstem-response,cochlear-synaptopathy
+71,听觉诱发电位,语音神经跟踪,1,0.7,扩展联系,概念联系,离散事件响应与连续语音建模采用不同分析框架。,auditory-evoked-potential,neural-speech-tracking
+72,脑电图,语音神经跟踪,3,2.8,核心联系,概念联系,EEG 是常用数据来源，跟踪是声音与神经时序的分析。,electroencephalography,neural-speech-tracking
+73,脑电图,听觉注意,2,1.6,直接联系,应用关系,连续语音任务可研究目标选择；需控制伪迹和声学混淆。,electroencephalography,auditory-attention
+74,脑电图,听觉可塑性,2,1.6,直接联系,应用关系,纵向神经记录可观察变化，不能单独确定其原因或收益。,electroencephalography,auditory-plasticity
+75,听觉注意,语音神经跟踪,2,1.6,直接联系,分析关系,比较目标与非目标响应，验证注意选择信息。,auditory-attention,neural-speech-tracking
+76,听觉可塑性,语音神经跟踪,2,1.6,直接联系,分析关系,在输入与记录条件可比时研究纵向时序关系变化。,auditory-plasticity,neural-speech-tracking
+77,言语可懂度,语音神经跟踪,2,1.6,直接联系,分析关系,可研究神经—行为联系；跟踪不直接替代个体理解或阈值测试。,speech-intelligibility,neural-speech-tracking
+78,语音神经跟踪,时域包络,2,1.6,直接联系,概念联系,包络是常用特征之一，不代表全部语言处理。,neural-speech-tracking,temporal-envelope
+79,语音神经跟踪,言语接收阈,1,0.7,扩展联系,概念联系,群体跟踪效应与个体阈值预测是不同验证目标。,neural-speech-tracking,speech-reception-threshold
+80,听觉注意,言语可懂度,2,1.6,直接联系,概念联系,正确选择目标与正确理解目标需分别测量。,auditory-attention,speech-intelligibility
+81,听觉注意,空间听觉,2,1.6,直接联系,概念联系,空间线索帮助组织声源，目标选择还受任务影响。,auditory-attention,spatial-hearing
+82,听觉注意,聆听努力,2,1.6,直接联系,概念联系,注意选择与资源投入相关，但不是同一构念。,auditory-attention,listening-effort
+83,听觉可塑性,人工耳蜗,2,1.6,直接联系,概念联系,感觉恢复研究需区分设备调整、学习和神经变化。,auditory-plasticity,cochlear-implant
+84,听觉可塑性,声码器,2,1.6,直接联系,概念联系,模拟训练可研究学习；不能直接替代真实植入者证据。,auditory-plasticity,vocoder
+85,听觉可塑性,频位映射关系,2,1.6,直接联系,概念联系,新输入的频率与位置匹配构成适应背景。,auditory-plasticity,tonotopy
+86,聆听努力,言语可懂度,2,1.6,直接联系,概念联系,相同正确率仍可能伴随不同投入。,listening-effort,speech-intelligibility
+87,聆听努力,助听器,2,1.6,直接联系,概念联系,设备评价可同时保留识别和努力结果。,listening-effort,hearing-aid
+88,聆听努力,脑电图,2,1.6,直接联系,概念联系,EEG 可提供候选指标，不能作为无条件的努力计量器。,listening-effort,electroencephalography
+89,噪声性听力损失,耳蜗突触病变,2,1.6,直接联系,概念联系,特定动物暴露后可见突触损伤，向人类推广需另外证据。,noise-induced-hearing-loss,cochlear-synaptopathy
+90,噪声性听力损失,纯音测听,2,1.6,直接联系,测量关系,阈值变化与恢复需注明复测时间，不能代表所有组织恢复。,noise-induced-hearing-loss,pure-tone-audiometry
+91,耳蜗突触病变,言语可懂度,2,1.6,直接联系,概念联系,噪声困难与病理关联需验证，症状本身不能确诊。,cochlear-synaptopathy,speech-intelligibility
+92,共振峰,基频,2,1.6,直接联系,概念联系,共振与声源周期性不同，谐波采样可影响估计。,formant,fundamental-frequency
+93,共振峰,谐波性,1,0.7,扩展联系,概念联系,声道谱包络与声源谐波整数倍结构分开描述。,formant,harmonicity
+94,共振峰,言语可懂度,2,1.6,直接联系,概念联系,共振峰提供语音线索，但保留它不保证全部理解。,formant,speech-intelligibility
+95,共振峰,声码器,2,1.6,直接联系,概念联系,频谱处理可能改变元音共振峰线索。,formant,vocoder
+96,共振峰,听觉滤波器,1,0.7,扩展联系,概念联系,声学共振与听觉频率选择性属于不同层次。,formant,auditory-filter
+97,空间听觉,双耳时间差,3,2.8,核心联系,机制联系,时间关系是空间线索之一，其权重依赖频谱与任务。,spatial-hearing,interaural-time-difference
+98,空间听觉,双耳整合,2,1.6,直接联系,机制联系,双耳信息利用参与空间感知及分离收益。,spatial-hearing,binaural-integration
+99,空间听觉,双耳可懂度级差,1,0.7,扩展联系,概念联系,特定双耳阈值差不等同于完整定位能力。,spatial-hearing,binaural-intelligibility-level-difference
+100,空间听觉,人工耳蜗,2,1.6,直接联系,概念联系,跨耳刺激匹配、侧化和真实空间任务须分别评价。,spatial-hearing,cochlear-implant
+101,空间听觉,听觉可塑性,2,1.6,直接联系,概念联系,空间分离收益的纵向变化不等于所有定位功能恢复。,spatial-hearing,auditory-plasticity
+102,频位映射关系,耳蜗,3,2.8,核心联系,表征关系,描述耳蜗中频率与位置的有序对应。,tonotopy,cochlea
+103,耳蜗,听觉滤波器,3,2.8,核心联系,机制联系,耳蜗频率选择性是听觉滤波器功能解释的基础之一。,cochlea,auditory-filter
+104,频位映射关系,听觉滤波器,2,1.6,直接联系,概念联系,位置组织和滤波带宽分别描述不同方面。,tonotopy,auditory-filter
+105,频位映射关系,音高感知,2,1.6,直接联系,机制联系,复杂音高的解释需要考虑频率位置与时域信息。,tonotopy,pitch-perception
+106,频位映射关系,人工耳蜗,2,1.6,直接联系,应用关系,用于讨论声学分配与刺激位置的匹配。,tonotopy,cochlear-implant
+107,频位映射关系,双耳时间差,2,1.6,直接联系,概念联系,跨耳频位匹配影响时域线索研究的解释。,tonotopy,interaural-time-difference
+108,听觉滤波器,掩蔽,3,2.8,核心联系,机制联系,通道内目标与噪声的重叠影响检测。,auditory-filter,masking
+109,听觉滤波器,音高感知,2,1.6,直接联系,机制联系,滤波带宽影响谐波可分辨性。,auditory-filter,pitch-perception
+110,听觉滤波器,时域包络,2,1.6,直接联系,机制联系,分频方式影响通道内包络。,auditory-filter,temporal-envelope
+111,听觉滤波器,时域精细结构,2,1.6,直接联系,概念联系,精细结构的定义和解释依赖频带。,auditory-filter,temporal-fine-structure
+112,听觉滤波器,谐波性,2,1.6,直接联系,概念联系,谐波可分辨性依赖听觉频率选择性。,auditory-filter,harmonicity
+113,基频,谐波性,3,2.8,核心联系,表征关系,基频给出理想谐波序列的间距与整数倍基准。,fundamental-frequency,harmonicity
+114,基频,音高感知,3,2.8,核心联系,概念联系,基频为物理量，音高为知觉属性，二者不等同。,fundamental-frequency,pitch-perception
+115,基频,普通话汉语声调,3,2.8,核心联系,表征关系,基频轨迹提供声调的重要声学线索。,fundamental-frequency,mandarin-lexical-tone
+116,基频,时域精细结构,2,1.6,直接联系,概念联系,某些频带的快速振荡包含周期性信息。,fundamental-frequency,temporal-fine-structure
+117,基频,时域包络,2,1.6,直接联系,概念联系,不可分辨谐波可产生基频相关包络。,fundamental-frequency,temporal-envelope
+118,谐波性,音高感知,3,2.8,核心联系,机制联系,整数倍关系与共同周期参与复杂音高解释。,harmonicity,pitch-perception
+119,谐波性,言语可懂度,2,1.6,直接联系,概念联系,语音谐波性的作用须按聆听条件评价。,harmonicity,speech-intelligibility
+120,时域包络,振幅调制,3,2.8,核心联系,表征关系,包络表示振幅随时间的起伏。,temporal-envelope,amplitude-modulation
+121,时域包络,时域精细结构,3,2.8,核心联系,概念联系,同一分频带信号的两种互补描述。,temporal-envelope,temporal-fine-structure
+122,时域包络,言语可懂度,3,2.8,核心联系,机制联系,分带时域包络可支持一定语音识别。,temporal-envelope,speech-intelligibility
+123,时域精细结构,音高感知,2,1.6,直接联系,机制联系,时域周期性与位置线索共同约束音高任务。,temporal-fine-structure,pitch-perception
+124,时域精细结构,言语可懂度,2,1.6,直接联系,概念联系,语音实验需控制再生包络与其他线索。,temporal-fine-structure,speech-intelligibility
+125,振幅调制,音高感知,2,1.6,直接联系,概念联系,起伏速率可在特定条件下提供时域音高线索。,amplitude-modulation,pitch-perception
+126,振幅调制,掩蔽,2,1.6,直接联系,概念联系,掩蔽声调制可以改变目标信息的利用。,amplitude-modulation,masking
+127,掩蔽,言语可懂度,3,2.8,核心联系,机制联系,掩蔽使语音线索难以利用，但损失机制不唯一。,masking,speech-intelligibility
+128,掩蔽,言语接收阈,2,1.6,直接联系,概念联系,噪声 SRT 是掩蔽任务中的识别指标之一。,masking,speech-reception-threshold
+129,音高感知,普通话汉语声调,3,2.8,核心联系,概念联系,声调识别包含音高轮廓及辅助线索。,pitch-perception,mandarin-lexical-tone
+130,普通话汉语声调,言语可懂度,2,1.6,直接联系,概念联系,词汇声调识别是语言感知的特定任务。,mandarin-lexical-tone,speech-intelligibility
+131,言语可懂度,言语接收阈,3,2.8,核心联系,测量关系,SRT 报告达到规定识别水平所需条件。,speech-intelligibility,speech-reception-threshold
+132,言语可懂度,生肖噪声测试,2,1.6,直接联系,测量关系,ZIN 评价特定材料与噪声下的识别阈值。,speech-intelligibility,zodiac-in-noise
+133,言语可懂度,混淆矩阵,2,1.6,直接联系,分析关系,以刺激—反应分布分析识别模式。,speech-intelligibility,confusion-matrix
+134,普通话汉语声调,混淆矩阵,2,1.6,直接联系,分析关系,逐类混淆显示声调识别的错误结构。,mandarin-lexical-tone,confusion-matrix
+135,双耳时间差,双耳整合,2,1.6,直接联系,概念联系,跨耳时序是双耳信息利用的一部分。,interaural-time-difference,binaural-integration
+136,双耳整合,言语可懂度,2,1.6,直接联系,机制联系,双耳可通过冗余、互补和解掩蔽等方式影响任务。,binaural-integration,speech-intelligibility
+137,双耳整合,双耳可懂度级差,2,1.6,直接联系,概念联系,BILD 评价特定双耳解掩蔽，非全部整合能力。,binaural-integration,binaural-intelligibility-level-difference
+138,双耳时间差,双耳可懂度级差,2,1.6,直接联系,概念联系,时间延迟与反相不同，需要区分刺激关系。,interaural-time-difference,binaural-intelligibility-level-difference
+139,听力测量校准,纯音测听,3,2.8,核心联系,应用关系,建立测听输出与参考标度的对应。,audiometric-calibration,pure-tone-audiometry
+140,纯音测听,言语接收阈,2,1.6,直接联系,概念联系,检测敏感度与语音识别阈值是不同测量。,pure-tone-audiometry,speech-reception-threshold
+141,纯音测听,生肖噪声测试,1,0.7,扩展联系,概念联系,听力图可为筛查验证提供定义清楚的参照。,pure-tone-audiometry,zodiac-in-noise
+142,言语接收阈,生肖噪声测试,3,2.8,核心联系,表征关系,特定版本 ZIN 使用 SRT 作为测试结果。,speech-reception-threshold,zodiac-in-noise
+143,双耳可懂度级差,生肖噪声测试,2,1.6,直接联系,表征关系,用于描述对应双耳测试版本的阈值级差。,binaural-intelligibility-level-difference,zodiac-in-noise
+144,言语接收阈,双耳可懂度级差,2,1.6,直接联系,概念联系,BILD 是可比条件下 SRT 的配对差值。,speech-reception-threshold,binaural-intelligibility-level-difference
+145,听力测量校准,生肖噪声测试,2,1.6,直接联系,概念联系,设备输出与环境控制影响远程测试质量。,audiometric-calibration,zodiac-in-noise
+146,耳蜗,人工耳蜗,2,1.6,直接联系,概念联系,自然机械转导与电刺激接口是不同过程。,cochlea,cochlear-implant
+147,人工耳蜗,听力损失,3,2.8,核心联系,应用关系,为符合适应证且助听器获益不足者提供电听觉输入。,cochlear-implant,hearing-loss
+148,人工耳蜗,双耳整合,2,1.6,直接联系,概念联系,双侧、双模与单侧聋配置需要分别评价两耳信息利用。,cochlear-implant,binaural-integration
+149,人工耳蜗,双耳时间差,2,1.6,直接联系,概念联系,跨耳时序、频位匹配与实际线索利用共同影响双耳电听觉。,cochlear-implant,interaural-time-difference
+150,人工耳蜗,聆听努力,2,1.6,直接联系,概念联系,语音正确率改善仍需同时考察聆听代价与日常体验。,cochlear-implant,listening-effort
+151,通道相互作用,人工耳蜗,3,2.8,核心联系,机制联系,电极—神经接口的重叠影响信息表达。,channel-interaction,cochlear-implant
+152,通道相互作用,听觉滤波器,1,0.7,扩展联系,概念联系,电刺激相互作用与声学频率选择性不能直接等同。,channel-interaction,auditory-filter
+153,n-of-m 编码策略,人工耳蜗,2,1.6,直接联系,应用关系,声音处理中的逐帧谱峰选择方法。,n-of-m-coding,cochlear-implant
+154,n-of-m 编码策略,通道相互作用,2,1.6,直接联系,概念联系,选择数量与空间重叠、冗余需要共同评价。,n-of-m-coding,channel-interaction
+155,时域限制编码器,人工耳蜗,2,1.6,直接联系,应用关系,研究将部分时域信息重编码到可利用范围。,temporal-limits-encoder,cochlear-implant
+156,F0inTFS 周期性增强策略,人工耳蜗,2,1.6,直接联系,应用关系,利用低频时域信息增强选中通道的周期性。,f0-in-tfs,cochlear-implant
+157,时域精细结构,时域限制编码器,3,2.8,核心联系,应用关系,TLE 处理频带内的时域结构。,temporal-fine-structure,temporal-limits-encoder
+158,时域精细结构,F0inTFS 周期性增强策略,3,2.8,核心联系,应用关系,最低带时域信息是周期性增强的来源。,temporal-fine-structure,f0-in-tfs
+159,振幅调制,F0inTFS 周期性增强策略,2,1.6,直接联系,概念联系,增强后的通道包络包含附加调制。,amplitude-modulation,f0-in-tfs
+160,n-of-m 编码策略,F0inTFS 周期性增强策略,2,1.6,直接联系,概念联系,原方法保留增强前包络的谱峰选择。,n-of-m-coding,f0-in-tfs
+161,时域限制编码器,音高感知,2,1.6,直接联系,应用关系,以辨别和排序等任务评价时域音高。,temporal-limits-encoder,pitch-perception
+162,时域限制编码器,双耳时间差,2,1.6,直接联系,应用关系,声学模拟用于研究双耳时域线索。,temporal-limits-encoder,interaural-time-difference
+163,F0inTFS 周期性增强策略,普通话汉语声调,2,1.6,直接联系,应用关系,原声学模拟实验使用声调任务。,f0-in-tfs,mandarin-lexical-tone
+164,时域限制编码器,F0inTFS 周期性增强策略,1,0.7,扩展联系,概念联系,目标和变换规则不同的时域信息策略。,temporal-limits-encoder,f0-in-tfs
+165,声码器,人工耳蜗,2,1.6,直接联系,应用关系,声学模拟用于研究部分信息限制，不复制全部接口。,vocoder,cochlear-implant
+166,时域包络,声码器,3,2.8,核心联系,应用关系,分带包络用于调制合成载波。,temporal-envelope,vocoder
+167,声码器,言语可懂度,2,1.6,直接联系,应用关系,用受控合成信号检验信息利用。,vocoder,speech-intelligibility
+168,脉冲式高斯包络音声码器,声码器,3,2.8,核心联系,类型关系,采用脉冲式高斯包络音的声码器类型。,get-vocoder,vocoder
+169,脉冲式高斯包络音声码器,n-of-m 编码策略,2,1.6,直接联系,概念联系,可结合谱峰选择组织声学事件。,get-vocoder,n-of-m-coding
+170,脉冲式高斯包络音声码器,通道相互作用,2,1.6,直接联系,概念联系,单元宽度影响声学模拟中的跨带重叠。,get-vocoder,channel-interaction
+171,脉冲式高斯包络音声码器,原子语音模型,1,0.7,扩展联系,概念联系,两者都使用局部化高斯振荡单元，但方法不同。,get-vocoder,atomic-speech-model
+172,原子语音模型,言语可懂度,2,1.6,直接联系,应用关系,以稀疏语音检验识别需要的信息。,atomic-speech-model,speech-intelligibility
+173,言语接收阈,原子语音模型,2,1.6,直接联系,表征关系,对应任务可报告原子率阈值，单位非 dB SNR。,speech-reception-threshold,atomic-speech-model
+174,原子语音模型,双耳整合,2,1.6,直接联系,应用关系,跨耳分配和延迟用于研究信息整合。,atomic-speech-model,binaural-integration
+175,声码器,普通话汉语声调,2,1.6,直接联系,应用关系,研究处理后声调线索的可用性。,vocoder,mandarin-lexical-tone
+176,混淆矩阵,生肖噪声测试,1,0.7,扩展联系,概念联系,类别错误与评分单位可补充总阈值解释。,confusion-matrix,zodiac-in-noise
+177,内毛细胞,耳蜗,3,2.8,核心联系,概念联系,内毛细胞位于柯蒂器，是耳蜗把机械运动转换为主要传入神经输出的感觉受体。,inner-hair-cell,cochlea
+178,内毛细胞,外毛细胞,2,1.6,直接联系,概念联系,两类毛细胞共享机械电转导基础，但 IHC 主要负责传入感觉输出，OHC 主要参与主动机械反馈。,inner-hair-cell,outer-hair-cell
+179,内毛细胞,耳蜗突触病变,3,2.8,核心联系,机制联系,IHC ribbon synapse 与 type I SGN 接口是耳蜗突触病变的关键病理位置。,inner-hair-cell,cochlear-synaptopathy
+180,内毛细胞,动态范围,2,1.6,直接联系,机制联系,IHC 多个异质 active zones 与 SGN 亚型共同参与声强动态范围的群体分解编码。,inner-hair-cell,dynamic-range
+181,内毛细胞,时域精细结构,2,1.6,直接联系,机制联系,低频 IHC 受体电位及突触释放可保留周期同步，为听神经相位锁定提供外周基础。,inner-hair-cell,temporal-fine-structure
+182,内毛细胞,音高感知,2,1.6,直接联系,机制联系,IHC 将耳蜗 place 信息与低频 timing 信息传入 SGN，是 place–time 音高编码的外周接口。,inner-hair-cell,pitch-perception
+183,内毛细胞,助听器,2,1.6,直接联系,概念联系,声学放大仍依赖残余 IHC 机械电转导和突触传输才能形成有效神经输入。,inner-hair-cell,hearing-aid
+184,内毛细胞,人工耳蜗,2,1.6,直接联系,概念联系,人工耳蜗绕过 IHC 的机械电转导和 ribbon synapse，直接刺激耳蜗神经元。,inner-hair-cell,cochlear-implant
