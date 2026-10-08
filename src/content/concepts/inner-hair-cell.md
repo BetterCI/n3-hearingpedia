@@ -2,7 +2,7 @@
 title: "内毛细胞"
 english: "Inner Hair Cell"
 slug: "inner-hair-cell"
-summary: "耳蜗主要的传入感觉受体，将柯蒂器的机械运动转换为受体电位，并经 CaV1.3、otoferlin 和带状突触驱动Ⅰ型螺旋神经节神经元。"
+summary: "耳蜗主要的传入感觉受体，将螺旋器的机械运动转换为受体电位，并经 CaV1.3、otoferlin 和带状突触驱动Ⅰ型螺旋神经节神经元。"
 categories: ["ear-cochlea","neuroscience","hearing-loss"]
 tags: ["inner-hair-cell","mechanotransduction","ribbon-synapse","otoferlin","CaV1.3","spiral-ganglion","auditory-nerve"]
 aliases: ["IHC","cochlear inner hair cell","内毛细胞受体"]
@@ -13,12 +13,12 @@ authors: ["AI 辅助重构"]
 reviewer: null
 reviewed_at: null
 literature_checked_at: "2026-10-06"
-illustration: {"src":"figures/inner-hair-cell-transduction.svg","alt":"内毛细胞从 stereocilia 偏转、MET 通道、受体电位、CaV1.3、otoferlin 和 ribbon synapse 到听神经放电的功能链","caption":"内毛细胞把柯蒂器中的机械运动转换为受体电位，再通过带状突触驱动Ⅰ型螺旋神经节神经元。图为教学示意。"}
+illustration: {"src":"figures/inner-hair-cell-transduction.svg","alt":"内毛细胞从 stereocilia 偏转、MET 通道、受体电位、CaV1.3、otoferlin 和 ribbon synapse 到听神经放电的功能链","caption":"内毛细胞把螺旋器中的机械运动转换为受体电位，再通过带状突触驱动Ⅰ型螺旋神经节神经元。图为教学示意。"}
 knowledge_area: "biology"
 kind: "anatomy"
 key_facts:
   - {label: "核心角色", value: "耳蜗主要传入感觉受体，把机械运动转换为听神经输入"}
-  - {label: "解剖位置", value: "沿柯蒂器内侧形成单行，与三行外毛细胞具有不同功能分工"}
+  - {label: "解剖位置", value: "沿螺旋器内侧形成单行，与三行外毛细胞具有不同功能分工"}
   - {label: "主要传入通路", value: "绝大多数耳蜗传入神经纤维属于连接 IHC 的Ⅰ型 SGN"}
   - {label: "突触机制", value: "CaV1.3 触发 Ca²⁺ 进入，otoferlin 参与囊泡融合，谷氨酸激活 SGN"}
   - {label: "编码意义", value: "多个异质带状突触共同参与声强与时序信息的群体编码"}
@@ -30,16 +30,16 @@ order: 46
 
 **内毛细胞**（inner hair cell，IHC）是哺乳动物耳蜗中最主要的传入感觉受体。声音经过外耳、中耳和[耳蜗](../cochlea/)机械处理后，IHC 将局部机械运动转换为连续的受体电位，再通过带状突触释放谷氨酸，驱动Ⅰ型螺旋神经节神经元产生动作电位。绝大多数进入中枢听觉系统的外周声学信息都经过这一接口。[1](#ref-fettiplace-2017)
 
-IHC 与[外毛细胞](../outer-hair-cell/)承担不同任务。OHC 主要参与耳蜗主动机械过程、频率选择性和压缩性非线性；IHC 则主要负责把已经经过这些机械处理的信息送入听神经。理解 IHC，需要把**柯蒂器微力学、机械电转导、受体电位、带状突触和螺旋神经节编码**作为一条连续链路来考察。[1](#ref-fettiplace-2017)[8](#ref-robles-2001)
+IHC 与[外毛细胞](../outer-hair-cell/)承担不同任务。OHC 主要参与耳蜗主动机械过程、频率选择性和压缩性非线性；IHC 则主要负责把已经经过这些机械处理的信息送入听神经。理解 IHC，需要把**螺旋器微力学、机械电转导、受体电位、带状突触和螺旋神经节编码**作为一条连续链路来考察。[1](#ref-fettiplace-2017)[8](#ref-robles-2001)
 
 <figure class="encyclopedia-figure">
 <a href="/n3-hearingpedia/figures/inner-hair-cell-transduction.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/inner-hair-cell-transduction.svg" alt="内毛细胞从毛束偏转到听神经放电的功能链" width="1200" height="720" loading="lazy" /></a>
-<figcaption><p><strong>图1｜内毛细胞的机械—电—突触—神经转换链。</strong> 柯蒂器运动使毛束偏转，机械电转导通道改变开放概率，引起受体电位；基底侧 CaV1.3 通道和 otoferlin 参与突触囊泡释放，谷氨酸随后驱动Ⅰ型螺旋神经节神经元。图中箭头表示功能顺序，不表示各过程只有单一分子或单一路径。<a href="#ref-fettiplace-2017">1</a><a href="#ref-jia-met-2025">2</a></p></figcaption>
+<figcaption><p><strong>图1｜内毛细胞的机械—电—突触—神经转换链。</strong> 螺旋器运动使毛束偏转，机械电转导通道改变开放概率，引起受体电位；基底侧 CaV1.3 通道和 otoferlin 参与突触囊泡释放，谷氨酸随后驱动Ⅰ型螺旋神经节神经元。图中箭头表示功能顺序，不表示各过程只有单一分子或单一路径。<a href="#ref-fettiplace-2017">1</a><a href="#ref-jia-met-2025">2</a></p></figcaption>
 </figure>
 
 ## 解剖位置与 IHC／OHC 分工
 
-哺乳动物柯蒂器通常具有一行 IHC 和三行 OHC。IHC 位于 Corti 隧道内侧、靠近蜗轴；OHC 位于外侧。两类细胞都具有 stereocilia 毛束和机械电转导装置，但它们在成熟耳蜗中的系统功能明显不同。[1](#ref-fettiplace-2017)
+哺乳动物螺旋器通常具有一行 IHC 和三行 OHC。IHC 位于 Corti 隧道内侧、靠近蜗轴；OHC 位于外侧。两类细胞都具有 stereocilia 毛束和机械电转导装置，但它们在成熟耳蜗中的系统功能明显不同。[1](#ref-fettiplace-2017)
 
 成熟耳蜗绝大多数传入螺旋神经节神经元属于Ⅰ型 SGN，并与 IHC 形成突触。单条Ⅰ型 SGN 通常只接受一个 IHC 的输入，而一个 IHC 可与多条Ⅰ型 SGN 建立独立突触。因此，一个频率位置上的 IHC 输出并不是一条单一神经通道，而是由多个并行传入单元共同承载。[1](#ref-fettiplace-2017)
 
@@ -48,11 +48,11 @@ IHC 与[外毛细胞](../outer-hair-cell/)承担不同任务。OHC 主要参与�
 <figcaption><p><strong>图2｜IHC 与 OHC 的主要功能分工。</strong> OHC 主要影响耳蜗机械输入，IHC 主要形成传入神经输出。两类细胞共享部分机械电转导机制，但其下游功能、神经连接和病理后果不同。图中数量和位置为教学示意，不代替组织学比例测量。<a href="#ref-fettiplace-2017">1</a></p></figcaption>
 </figure>
 
-## 毛束运动与柯蒂器微力学
+## 毛束运动与螺旋器微力学
 
 IHC 顶端具有阶梯状排列的 stereocilia。相邻 stereocilia 之间由 tip link 等结构连接，毛束朝兴奋方向偏转时，tip-link 张力增大并提高机械电转导通道的开放概率。
 
-IHC 毛束的实际位移并不能由基底膜位移直接推出。成熟哺乳动物 IHC 的毛束并非简单固定插入盖膜；reticular lamina、tectorial membrane、subtectorial fluid 以及局部柯蒂器形变共同决定 IHC 毛束受到的力学刺激。因此，“某处基底膜振动多少”与“该处 IHC 毛束偏转多少”属于不同层面的量。[8](#ref-robles-2001)
+IHC 毛束的实际位移并不能由基底膜位移直接推出。成熟哺乳动物 IHC 的毛束并非简单固定插入盖膜；reticular lamina、tectorial membrane、subtectorial fluid 以及局部螺旋器形变共同决定 IHC 毛束受到的力学刺激。因此，“某处基底膜振动多少”与“该处 IHC 毛束偏转多少”属于不同层面的量。[8](#ref-robles-2001)
 
 ## 机械电转导：从毛束偏转到受体电流
 

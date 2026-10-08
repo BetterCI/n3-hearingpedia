@@ -52,14 +52,14 @@ order: 1
 | 蜗轴与螺旋神经节 | 耳蜗中央骨性区域及其中的神经结构 | 容纳与听神经输出相关的神经元及纤维 |
 
 <figure class="encyclopedia-figure">
-<a href="/n3-hearingpedia/figures/cochlea/01-openstax-cochlea.webp" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/cochlea/01-openstax-cochlea.webp" alt="OpenStax教材耳蜗横断面图，显示前庭阶、蜗管、鼓阶、盖膜、基底膜、柯蒂器和螺旋神经节。" width="2063" height="996" loading="lazy" /></a>
-<figcaption><p><strong>图1｜耳蜗横断面与柯蒂器的位置。</strong> 左上显示截面在螺旋耳蜗中的位置，右侧放大显示三大腔室、膜结构、感觉上皮与神经组织。前庭阶和鼓阶位于蜗管两侧，柯蒂器位于基底膜上；这是解剖示意，不能把整个蜗管中的毛细胞胞体理解为直接浸在内淋巴中。来源：<a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception">OpenStax《Anatomy and Physiology》耳蜗横断面图</a>，作者／权利人OpenStax；<a href="https://commons.wikimedia.org/wiki/File:1406_Cochlea.jpg">许可记录</a>，<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>。采用OpenStax提供的WebP版本，未改动构图和英文标注。<a href="#ref-openstax-cochlea-2016">5</a></p>
-<p>图中主要标注对应：前庭阶（Scala vestibuli）、蜗管／中阶（Cochlear duct）、鼓阶（Scala tympani）、盖膜（Tectorial membrane）、基底膜（Basilar membrane）、柯蒂器（Organ of Corti）、螺旋神经节（Spiral ganglion）；“N VIII”表示第Ⅷ脑神经，图示为其耳蜗支。</p></figcaption>
+<a href="/n3-hearingpedia/figures/cochlea/01-openstax-cochlea.webp" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/cochlea/01-openstax-cochlea.webp" alt="OpenStax教材耳蜗横断面图，显示前庭阶、蜗管、鼓阶、盖膜、基底膜、螺旋器和螺旋神经节。" width="2063" height="996" loading="lazy" /></a>
+<figcaption><p><strong>图1｜耳蜗横断面与螺旋器的位置。</strong> 左上显示截面在螺旋耳蜗中的位置，右侧放大显示三大腔室、膜结构、感觉上皮与神经组织。前庭阶和鼓阶位于蜗管两侧，螺旋器位于基底膜上；这是解剖示意，不能把整个蜗管中的毛细胞胞体理解为直接浸在内淋巴中。来源：<a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception">OpenStax《Anatomy and Physiology》耳蜗横断面图</a>，作者／权利人OpenStax；<a href="https://commons.wikimedia.org/wiki/File:1406_Cochlea.jpg">许可记录</a>，<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>。采用OpenStax提供的WebP版本，未改动构图和英文标注。<a href="#ref-openstax-cochlea-2016">5</a></p>
+<p>图中主要标注对应：前庭阶（Scala vestibuli）、蜗管／中阶（Cochlear duct）、鼓阶（Scala tympani）、盖膜（Tectorial membrane）、基底膜（Basilar membrane）、螺旋器（Organ of Corti）、螺旋神经节（Spiral ganglion）；“N VIII”表示第Ⅷ脑神经，图示为其耳蜗支。</p></figcaption>
 </figure>
 
-### 柯蒂器与支持细胞
+### 螺旋器与支持细胞
 
-**柯蒂器**是耳蜗内的听觉感觉上皮，由毛细胞和多类支持细胞组成，并沿基底膜延伸。典型哺乳动物的柯蒂器具有一排内毛细胞和通常三排外毛细胞。内外柱细胞形成柯蒂隧道，戴特斯细胞等支持细胞参与维持细胞排列与机械连接。细胞顶端和支持细胞共同构成的网状板，是区分顶端与基底外侧液体环境的重要屏障。
+**螺旋器**是耳蜗中的声波感受器，又称柯蒂氏器（organ of Corti）；其感觉上皮由毛细胞和多类支持细胞组成，并沿基底膜延伸。典型哺乳动物的螺旋器具有一排内毛细胞和通常三排外毛细胞。内外柱细胞形成柯蒂隧道，戴特斯细胞等支持细胞参与维持细胞排列与机械连接。细胞顶端和支持细胞共同构成的网状板，是区分顶端与基底外侧液体环境的重要屏障。
 
 **盖膜**位于感觉上皮上方，与感觉细胞毛束及周围液体的相对运动有关。它不是覆盖所有毛细胞、把声波直接“压入”神经的刚性盖板。不同部位的位移和相位可以不同；理解毛束受到的刺激，需要考虑基底膜、网状板、盖膜和局部液体运动之间的关系。活体小鼠干涉测量显示，网状板与基底膜并不始终同幅同相运动，这也是现代耳蜗力学研究从单一膜位移走向内部微观运动的重要原因。[6](#ref-ren-cochlear-vibration-2016)
 
@@ -99,7 +99,7 @@ $$
 
 这里$x$是**从蜗顶起算的归一化纵向距离**：蜗顶为0，蜗底为1。若图的横轴采用更直观的“蜗底到蜗顶”方向，则应使用$d=1-x$，不能只改坐标标签而沿用原来方向的函数。该经验函数提供总体位置与频率的近似关系，不是每个人的精确活体标定，也不表示函数两端的频率恰好等于某位听者的行为可听上下限。[11](#ref-greenwood-1990)
 
-耳蜗长度、测量轨迹和神经纤维走向还会影响频率位置的解释。柯蒂器沿耳蜗的分布与螺旋神经节沿蜗轴的分布并不简单一一等距，尤其在两端存在几何差异。人颞骨研究将两种位置联系起来，是人工耳蜗电极位置与神经频率图研究的重要依据。因此，用基底膜或柯蒂器长度计算出的频率，不能不经说明就作为电极实际激活神经的精确频率。[12](#ref-sridhar-2006)
+耳蜗长度、测量轨迹和神经纤维走向还会影响频率位置的解释。螺旋器沿耳蜗的分布与螺旋神经节沿蜗轴的分布并不简单一一等距，尤其在两端存在几何差异。人颞骨研究将两种位置联系起来，是人工耳蜗电极位置与神经频率图研究的重要依据。因此，用基底膜或螺旋器长度计算出的频率，不能不经说明就作为电极实际激活神经的精确频率。[12](#ref-sridhar-2006)
 
 <figure class="encyclopedia-figure">
 <a href="/n3-hearingpedia/figures/cochlea/02-place-and-wave.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/cochlea/02-place-and-wave.svg" alt="人耳频位映射关系及三个频率的行波包络示意，横轴均从蜗底向蜗顶。" width="826.807625" height="412.553781" loading="lazy" /></a>

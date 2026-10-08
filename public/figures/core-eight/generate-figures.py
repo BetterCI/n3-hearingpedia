@@ -177,7 +177,7 @@ axs[0].set_ylabel('频率（赫兹；对数轴）')
 save(fig,'tonotopy',1,'格林伍德函数 A=165.4、a=2.1、k=0.88；同一关系的两种坐标方向')
 fig,ax=plt.subplots(figsize=(9.5,4.8));d=np.linspace(0,28,300)
 for length,c in zip([30,35,40],C):ax.plot(d,165.4*(10**(2.1*(1-d/length))-.88),color=c,label=f'假设总长 {length} 毫米')
-ax.set_yscale('log');ax.set_ylim(30,25000);ax.set_xlabel('沿柯蒂器路径从基底端计的距离（毫米）');ax.set_ylabel('模型对应频率（赫兹）');ax.legend();ax.grid(alpha=.2);title(ax,'相同毫米距离在不同总长模型中对应不同频率')
+ax.set_yscale('log');ax.set_ylim(30,25000);ax.set_xlabel('沿螺旋器路径从基底端计的距离（毫米）');ax.set_ylabel('模型对应频率（赫兹）');ax.legend();ax.grid(alpha=.2);title(ax,'相同毫米距离在不同总长模型中对应不同频率')
 save(fig,'tonotopy',2,'参数敏感性示例；三种总长不是人群分布，也不能把电极长度直接代入')
 fig,axs=plt.subplots(1,2,figsize=(11,4.7));p=np.array([250,500,1000,2000,4000,8000]);assigned=.5*p
 axs[0].plot(p,p,'o-',color=C[0],label='频率分配 = 位置模型频率');axs[0].plot(p,assigned,'s-',color=C[1],label='频率分配 = 位置模型频率 / 2');axs[0].set_xscale('log');axs[0].set_yscale('log');axs[0].set_xlabel('位置模型频率（赫兹）');axs[0].set_ylabel('分配频率（赫兹）');axs[0].legend(fontsize=9);title(axs[0],'A  两种频率分配关系')
