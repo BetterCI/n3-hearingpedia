@@ -34,7 +34,7 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
     <div class="article-shell">
       <article data-pagefind-body>
         <header class="article-header">
-          <div class="article-badges">{data.depth==='in-depth' && <DepthBadge />}<span class:list={['status-pill',data.status]}>{statusLabels[data.status]}</span></div>
+          <div class="article-badges"><DepthBadge depth={data.depth} /><span class:list={['status-pill',data.status]}>{statusLabels[data.status]}</span></div>
           <h1 data-pagefind-meta="title">{data.title}</h1>
           <p class="article-english" data-pagefind-weight="5">{data.english}</p>
           <p class="lead">{data.summary}</p>
