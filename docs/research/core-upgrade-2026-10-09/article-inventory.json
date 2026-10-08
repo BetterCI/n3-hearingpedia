@@ -1,0 +1,481 @@
+[
+  {
+    "slug": "amplitude-modulation",
+    "title": "振幅调制",
+    "depth": "standard",
+    "chinese_characters": 2829,
+    "body_characters": 4460,
+    "sections": 8,
+    "subsections": 11,
+    "reference_ids": [
+      "viemeister-1979",
+      "zhou-tle-2022",
+      "li-covarying-2025",
+      "dau-1997"
+    ],
+    "wiki_links": [
+      "temporal-envelope",
+      "masking",
+      "temporal-resolution"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\amplitude-modulation-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\amplitude-modulation.md"
+  },
+  {
+    "slug": "atomic-speech-model",
+    "title": "原子语音模型",
+    "depth": "standard",
+    "chinese_characters": 2959,
+    "body_characters": 4629,
+    "sections": 8,
+    "subsections": 12,
+    "reference_ids": [
+      "kong-atomic-2025",
+      "meng-get-2023",
+      "mallat-1993"
+    ],
+    "wiki_links": [
+      "speech-reception-threshold",
+      "get-vocoder",
+      "vocoder",
+      "binaural-integration",
+      "masking"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\atomic-speech-model-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\atomic-speech-model.md"
+  },
+  {
+    "slug": "auditory-brainstem-response",
+    "title": "听觉脑干反应",
+    "depth": "in-depth",
+    "chinese_characters": 8042,
+    "body_characters": 13081,
+    "sections": 13,
+    "subsections": 33,
+    "reference_ids": [
+      "jewett-abr-1971",
+      "picton-aep-1974",
+      "asha-abr",
+      "core-upgrade-abr-gorga",
+      "core-upgrade-jcih-2019",
+      "verhulst-model-2018",
+      "core-upgrade-abr-don",
+      "core-upgrade-stapells",
+      "core-upgrade-dau-chirp",
+      "core-upgrade-bsa-newborn",
+      "core-upgrade-jcih-faq",
+      "core-upgrade-bsa-current",
+      "core-upgrade-bsa-abr-adult",
+      "core-upgrade-abr-starr",
+      "core-upgrade-abr-human",
+      "kujawa-synaptopathy-2009",
+      "guest-synaptopathy-2018",
+      "widmann-2015",
+      "jennings-chirp-2026"
+    ],
+    "wiki_links": [
+      "auditory-evoked-potential"
+    ],
+    "figures": 5,
+    "draft": "docs\\drafts\\auditory-brainstem-response-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\auditory-brainstem-response.md"
+  },
+  {
+    "slug": "auditory-plasticity",
+    "title": "听觉可塑性",
+    "depth": "standard",
+    "chinese_characters": 2958,
+    "body_characters": 4396,
+    "sections": 9,
+    "subsections": 8,
+    "reference_ids": [
+      "fu-plasticity-2005",
+      "mo-ci-adaptation-2026",
+      "osullivan-aad-2015"
+    ],
+    "wiki_links": [
+      "cochlear-implant",
+      "tonotopy",
+      "vocoder",
+      "auditory-evoked-potential",
+      "neural-speech-tracking",
+      "speech-intelligibility",
+      "spatial-hearing",
+      "listening-effort"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\auditory-plasticity-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\auditory-plasticity.md"
+  },
+  {
+    "slug": "binaural-integration",
+    "title": "双耳整合",
+    "depth": "standard",
+    "chinese_characters": 3234,
+    "body_characters": 4964,
+    "sections": 8,
+    "subsections": 15,
+    "reference_ids": [
+      "kan-2013",
+      "kong-atomic-2025",
+      "shi-dbd-2024",
+      "goupell-2013",
+      "amt-lindemann1986",
+      "amt-breebaart2001"
+    ],
+    "wiki_links": [
+      "masking",
+      "interaural-time-difference",
+      "binaural-intelligibility-level-difference",
+      "vocoder"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\binaural-integration-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\binaural-integration.md"
+  },
+  {
+    "slug": "binaural-intelligibility-level-difference",
+    "title": "双耳可懂度级差",
+    "depth": "standard",
+    "chinese_characters": 2845,
+    "body_characters": 4693,
+    "sections": 9,
+    "subsections": 13,
+    "reference_ids": [
+      "de-sousa-2020",
+      "he-antiphasic-zin-2026",
+      "amt-breebaart2001",
+      "amt-lindemann1986"
+    ],
+    "wiki_links": [
+      "masking",
+      "speech-reception-threshold",
+      "binaural-integration",
+      "speech-intelligibility"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\binaural-intelligibility-level-difference-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\binaural-intelligibility-level-difference.md"
+  },
+  {
+    "slug": "channel-interaction",
+    "title": "通道相互作用",
+    "depth": "standard",
+    "chinese_characters": 2923,
+    "body_characters": 4347,
+    "sections": 9,
+    "subsections": 11,
+    "reference_ids": [
+      "zeng-2008",
+      "friesen-2001",
+      "mo-maxima-2023",
+      "meng-get-2023",
+      "shi-dbd-2024",
+      "galvin-2012"
+    ],
+    "wiki_links": [
+      "cochlear-implant",
+      "auditory-filter",
+      "n-of-m-coding",
+      "binaural-integration",
+      "vocoder",
+      "masking"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\channel-interaction-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\channel-interaction.md"
+  },
+  {
+    "slug": "cochlear-synaptopathy",
+    "title": "耳蜗突触病变",
+    "depth": "standard",
+    "chinese_characters": 2884,
+    "body_characters": 4491,
+    "sections": 10,
+    "subsections": 7,
+    "reference_ids": [
+      "kujawa-synaptopathy-2009",
+      "guest-synaptopathy-2018",
+      "core-upgrade-abr-human",
+      "verhulst-model-2018",
+      "cheema-synaptopathy-2026"
+    ],
+    "wiki_links": [
+      "cochlea",
+      "outer-hair-cell",
+      "auditory-brainstem-response",
+      "pure-tone-audiometry",
+      "speech-intelligibility",
+      "noise-induced-hearing-loss",
+      "inner-hair-cell"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\cochlear-synaptopathy-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\cochlear-synaptopathy.md"
+  },
+  {
+    "slug": "confusion-matrix",
+    "title": "混淆矩阵",
+    "depth": "standard",
+    "chinese_characters": 2841,
+    "body_characters": 4317,
+    "sections": 8,
+    "subsections": 13,
+    "reference_ids": [
+      "miller-1955",
+      "shannon-1948",
+      "zhou-consonants-2026",
+      "zhou-consonants-2023"
+    ],
+    "wiki_links": [
+      "cochlear-implant"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\confusion-matrix-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\confusion-matrix.md"
+  },
+  {
+    "slug": "electroencephalography",
+    "title": "脑电图",
+    "depth": "in-depth",
+    "chinese_characters": 8041,
+    "body_characters": 12355,
+    "sections": 14,
+    "subsections": 32,
+    "reference_ids": [
+      "picton-aep-1974",
+      "core-upgrade-eeg-keil",
+      "core-upgrade-gramfort",
+      "core-upgrade-mne-implementation",
+      "widmann-2015",
+      "core-upgrade-tanner",
+      "core-upgrade-delorme",
+      "core-upgrade-eeglab-ica",
+      "core-upgrade-mne-preprocessing",
+      "osullivan-aad-2015",
+      "guo-tracking-2026",
+      "mo-ci-adaptation-2026",
+      "core-upgrade-fieldtrip",
+      "core-upgrade-eeg-bids",
+      "maris-2007",
+      "core-upgrade-nolte"
+    ],
+    "wiki_links": [
+      "auditory-evoked-potential",
+      "neural-speech-tracking"
+    ],
+    "figures": 5,
+    "draft": "docs\\drafts\\electroencephalography-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\electroencephalography.md"
+  },
+  {
+    "slug": "f0-in-tfs",
+    "title": "F0inTFS 周期性增强策略",
+    "depth": "standard",
+    "chinese_characters": 2998,
+    "body_characters": 4702,
+    "sections": 8,
+    "subsections": 13,
+    "reference_ids": [
+      "zhou-f0intfs-2023",
+      "wang-ditone-2022",
+      "get-vocoder-code"
+    ],
+    "wiki_links": [
+      "vocoder",
+      "fundamental-frequency",
+      "n-of-m-coding",
+      "temporal-limits-encoder",
+      "speech-intelligibility",
+      "cochlear-implant"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\f0-in-tfs-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\f0-in-tfs.md"
+  },
+  {
+    "slug": "get-vocoder",
+    "title": "脉冲式高斯包络音声码器",
+    "depth": "standard",
+    "chinese_characters": 3105,
+    "body_characters": 5694,
+    "sections": 10,
+    "subsections": 16,
+    "reference_ids": [
+      "meng-get-2023",
+      "gabor-1946",
+      "get-vocoder-code",
+      "kong-comparable-2023"
+    ],
+    "wiki_links": [
+      "vocoder",
+      "atomic-speech-model",
+      "temporal-envelope",
+      "cochlea",
+      "cochlear-implant"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\get-vocoder-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\get-vocoder.md"
+  },
+  {
+    "slug": "interaural-time-difference",
+    "title": "双耳时间差",
+    "depth": "in-depth",
+    "chinese_characters": 8139,
+    "body_characters": 12761,
+    "sections": 13,
+    "subsections": 30,
+    "reference_ids": [
+      "mcalpine-2001",
+      "binaural-hearing-grothe",
+      "core-upgrade-kuhn",
+      "core-upgrade-itd-hrtf",
+      "core-upgrade-joris",
+      "binaural-hearing-jeffress",
+      "amt-lindemann1986",
+      "kan-tle-2021",
+      "kan-2013",
+      "goupell-2013",
+      "wan-itd-2020",
+      "amt-breebaart2001",
+      "core-upgrade-itd-threshold",
+      "core-upgrade-itd-recent"
+    ],
+    "wiki_links": [
+      "spatial-hearing",
+      "temporal-envelope",
+      "temporal-fine-structure",
+      "binaural-intelligibility-level-difference"
+    ],
+    "figures": 5,
+    "draft": "docs\\drafts\\interaural-time-difference-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\interaural-time-difference.md"
+  },
+  {
+    "slug": "mandarin-lexical-tone",
+    "title": "普通话汉语声调",
+    "depth": "standard",
+    "chinese_characters": 3403,
+    "body_characters": 5640,
+    "sections": 9,
+    "subsections": 17,
+    "reference_ids": [
+      "kong-tones-2006",
+      "peng-mandarin-2018",
+      "wang-ditone-2022",
+      "zhou-f0intfs-2023"
+    ],
+    "wiki_links": [
+      "fundamental-frequency",
+      "pitch-perception",
+      "vocoder",
+      "cochlear-implant"
+    ],
+    "figures": 2,
+    "draft": "docs\\drafts\\mandarin-lexical-tone-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\mandarin-lexical-tone.md"
+  },
+  {
+    "slug": "n-of-m-coding",
+    "title": "n-of-m 编码策略",
+    "depth": "standard",
+    "chinese_characters": 2965,
+    "body_characters": 4795,
+    "sections": 8,
+    "subsections": 14,
+    "reference_ids": [
+      "zeng-2008",
+      "mo-maxima-2023",
+      "meng-get-2023",
+      "zhou-f0intfs-2023",
+      "get-vocoder-code"
+    ],
+    "wiki_links": [
+      "cochlear-implant",
+      "channel-interaction",
+      "vocoder",
+      "masking",
+      "cochlear-implant-coding-strategies"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\n-of-m-coding-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\n-of-m-coding.md"
+  },
+  {
+    "slug": "noise-induced-hearing-loss",
+    "title": "噪声性听力损失",
+    "depth": "standard",
+    "chinese_characters": 2783,
+    "body_characters": 4493,
+    "sections": 10,
+    "subsections": 9,
+    "reference_ids": [
+      "nidcd-nihl",
+      "kujawa-synaptopathy-2009",
+      "guest-synaptopathy-2018",
+      "core-upgrade-niosh-noise",
+      "su-nihl-2026",
+      "verhulst-model-2018"
+    ],
+    "wiki_links": [
+      "hearing-loss",
+      "outer-hair-cell",
+      "cochlea",
+      "cochlear-synaptopathy",
+      "pure-tone-audiometry",
+      "auditory-brainstem-response",
+      "speech-intelligibility"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\noise-induced-hearing-loss-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\noise-induced-hearing-loss.md"
+  },
+  {
+    "slug": "temporal-limits-encoder",
+    "title": "时域限制编码器",
+    "depth": "standard",
+    "chinese_characters": 2833,
+    "body_characters": 4546,
+    "sections": 9,
+    "subsections": 10,
+    "reference_ids": [
+      "kan-tle-2021",
+      "wan-itd-2020",
+      "zhou-tle-2022"
+    ],
+    "wiki_links": [
+      "temporal-fine-structure",
+      "pitch-perception",
+      "f0-in-tfs",
+      "vocoder"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\temporal-limits-encoder-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\temporal-limits-encoder.md"
+  },
+  {
+    "slug": "zodiac-in-noise",
+    "title": "生肖噪声测试",
+    "depth": "standard",
+    "chinese_characters": 3192,
+    "body_characters": 4828,
+    "sections": 10,
+    "subsections": 13,
+    "reference_ids": [
+      "zhou-zin-2024",
+      "he-antiphasic-zin-2026",
+      "smits-2004",
+      "de-sousa-2020"
+    ],
+    "wiki_links": [
+      "speech-reception-threshold",
+      "binaural-intelligibility-level-difference"
+    ],
+    "figures": 1,
+    "draft": "docs\\drafts\\zodiac-in-noise-review-2026-10-09.md",
+    "source": "src\\content\\concepts\\zodiac-in-noise.md"
+  }
+]

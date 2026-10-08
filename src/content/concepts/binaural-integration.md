@@ -8,17 +8,18 @@ tags: ["Binaural integration"]
 aliases: []
 batch: 2
 status: "draft"
-last_updated: "2026-10-04"
-literature_checked_at: "2026-10-04"
-authors: ["AI 辅助初稿"]
-references: ["kong-atomic-2025","shi-dbd-2024","kan-2013","goupell-2013"]
+last_updated: "2026-10-09"
+literature_checked_at: "2026-10-09"
+authors: ["AI 辅助编写"]
+references: ["kan-2013","kong-atomic-2025","shi-dbd-2024","goupell-2013","amt-lindemann1986","amt-breebaart2001"]
 order: 21
 knowledge_area: "perception"
 kind: "function"
 key_facts: [{"label":"对象","value":"两耳输入的信息利用"},{"label":"相关现象","value":"冗余、互补、融合与解掩蔽"},{"label":"主要对照","value":"左右单耳、较好单耳与双耳"}]
+depth: standard
 ---
 
-**双耳整合**（binaural integration）是听觉系统组合或利用两耳输入信息的过程。它可涉及声音融合、互补信息组合及任务中的双耳收益。头影、更好耳优势、冗余和解[掩蔽](../masking/)应分别评价，双耳成绩提高并不自动证明同一种整合机制。[3](#ref-kan-2013 "Effect of mismatched place-of-stimulation on binaural fusion and lateralization in bilateral cochlear-implant users")
+**双耳整合**（binaural integration）是听觉系统组合或利用两耳输入信息的过程。它可涉及声音融合、互补信息组合及任务中的双耳收益。头影、更好耳优势、冗余和解[掩蔽](../masking/)应分别评价，双耳成绩提高并不自动证明同一种整合机制。[1](#ref-kan-2013)
 
 ## 定义与分类
 
@@ -44,7 +45,7 @@ $A$ 为同一任务的正确率，若以百分数记录，$G$ 的单位是百分
 
 ### 原子语音模型的线索
 
-ASM 将稀疏语音单元分配到两耳，考察跨耳组合是否支持识别。论文报告跨耳分配的表现具有条件和个体差异，并非所有双耳条件都优于单耳呈现。[1](#ref-kong-atomic-2025 "Sparse representation of speech using an atomic speech model")
+ASM 将稀疏语音单元分配到两耳，考察跨耳组合是否支持识别。论文报告跨耳分配的表现具有条件和个体差异，并非所有双耳条件都优于单耳呈现。[2](#ref-kong-atomic-2025)
 
 因此应同时检查每耳的信息量、两耳的互补程度、时间对齐及总能量。否则“两耳更差”可能混入刺激变化，不能仅凭组平均值断言某一整合机制不存在。
 
@@ -63,11 +64,11 @@ ASM 将稀疏语音单元分配到两耳，考察跨耳组合是否支持识别�
 
 将奇数频带送一耳、偶数频带送另一耳，可检验互补信息是否能被组合。必须保持总体覆盖、声级与时间基准，并设置所有频带送同耳的对照。两耳各自缺少一半频带，因此跨耳条件变差，可能反映整合代价，也可能包含单耳可听度和位置不匹配的变化。
 
-DBD-CI 的[声码器](../vocoder/)研究属于正常听力模拟，不能写成真实双侧植入者的既定收益。[2](#ref-shi-dbd-2024 "DBD-CI: Doubling the Band Density for Bilateral Cochlear Implants") ASM 的跨耳分配也显示任务与个体差异，提示“分到两耳”并不自动带来高效整合。[1](#ref-kong-atomic-2025 "Sparse representation of speech using an atomic speech model")
+DBD-CI 的[声码器](../vocoder/)研究属于正常听力模拟，不能写成真实双侧植入者的既定收益。[3](#ref-shi-dbd-2024) ASM 的跨耳分配也显示任务与个体差异，提示“分到两耳”并不自动带来高效整合。[2](#ref-kong-atomic-2025)
 
 ### 同步与频位匹配
 
-两耳信号对应同一声源时，需要在时间和频率上有可联系的结构。延迟、采样时钟漂移或两耳频位不匹配可能改变融合。真实双侧植入者与声学模拟研究提示，位置不匹配可影响声像和侧化，但应区分接口和任务。[3](#ref-kan-2013 "Effect of mismatched place-of-stimulation on binaural fusion and lateralization in bilateral cochlear-implant users")；[4](#ref-goupell-2013 "Effect of mismatched place-of-stimulation on the salience of binaural cues in conditions that simulate bilateral cochlear-implant listening")
+两耳信号对应同一声源时，需要在时间和频率上有可联系的结构。延迟、采样时钟漂移或两耳频位不匹配可能改变融合。真实双侧植入者与声学模拟研究提示，位置不匹配可影响声像和侧化，但应区分接口和任务。[1](#ref-kan-2013)；[4](#ref-goupell-2013)
 
 把一耳额外延迟，不只是“增加 ITD”：较大延迟还可能使对应片段在时间上失去重合，甚至产生回声感。延迟条件应同时记录语音识别与声像现象，避免把不同时间尺度归为同一机制。
 
@@ -81,11 +82,7 @@ DBD-CI 的[声码器](../vocoder/)研究属于正常听力模拟，不能写成�
 
 ### DBD-CI 的工程问题
 
-DBD-CI 把更密集的分析频带交错分配到两耳，探索每耳承担较少拥挤信息、两耳共同提供较密频谱的可能性。2024 年结果来自初步声码器模拟；真实双侧植入还存在电极、听力及处理器匹配问题。[2](#ref-shi-dbd-2024 "DBD-CI: Doubling the Band Density for Bilateral Cochlear Implants")
-
-### 解释边界
-
-把两耳同步、耳间匹配、学习效应和个体差异分别记录。
+DBD-CI 把更密集的分析频带交错分配到两耳，探索每耳承担较少拥挤信息、两耳共同提供较密频谱的可能性。2024 年结果来自初步声码器模拟；真实双侧植入还存在电极、听力及处理器匹配问题。[3](#ref-shi-dbd-2024)
 
 ## 分析示例
 
@@ -95,8 +92,57 @@ DBD-CI 把更密集的分析频带交错分配到两耳，探索每耳承担较�
 
 另一个情形中左右单耳都较低而双耳明显提高，支持额外信息被利用，但仍需排除声级和材料差异。数据中的个体模式可能不同，组均值不能替代配对基线。
 
-双耳时间、频位和信息分配应分开操纵。ASM 的跨耳稀疏语音实验提供了研究整合的一种材料路线，而不是所有双耳输入均可无损融合的保证。[1](#ref-kong-atomic-2025 "Sparse representation of speech using an atomic speech model")
+双耳时间、频位和信息分配应分开操纵。ASM 的跨耳稀疏语音实验提供了研究整合的一种材料路线，而不是所有双耳输入均可无损融合的保证。[2](#ref-kong-atomic-2025)
+
+## 双耳整合与其他双耳收益
+
+### 信息互补和信息冗余
+
+两耳提供不同频带或不同时间片段时，听者需要组合互补信息。两耳提供基本相同的信息时，则可能借助冗余得到较稳定判断。二者都可产生双耳优势，却要求不同的实验对照。互补分配实验若缺少“全部信息进入同一耳”的基线，难以确定跨耳安排究竟促进了使用，还是仅比任何一个不完整子集更好。
+
+例如左耳听到低频部分、右耳听到高频部分，双耳识别超过左右单耳，说明两部分共同贡献了结果。若完整信号同耳呈现仍明显更好，跨耳组合依然存在代价。反之，若两耳各自都能完整识别，双耳成绩接近上限，也不适合据此估计整合能力，因为任务缺少足够区分度。
+
+### 头影、总和与双耳解掩蔽
+
+空间分开的目标和噪声可在一耳形成较好的信噪比，听者选择这只较好耳就能获益；这是物理输入和更好耳利用的重要部分。双耳总和通常关注两耳共同接收信息相对单耳的收益；双耳解掩蔽则利用目标与背景的跨耳关系。它们的名称和估计方法应与实验一致，不能把所有“双耳减单耳”的差统一解释为中枢整合。[1](#ref-kan-2013)[4](#ref-goupell-2013)
+
+互补信息整合、定位和反相语音级差还可能存在不同个体模式。一个听者在互补频带任务表现较好，不保证双耳时间差阈值同样好。用多个任务研究这些联系有价值，但不能把一个测试成绩替代完整的双耳功能评价。
+
+<figure class="encyclopedia-figure">
+<a href="/n3-hearingpedia/figures/binaural-integration/binaural-baselines.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/binaural-integration/binaural-baselines.svg" alt="两种假设数据的双耳结果及完整同耳基线" loading="lazy" /></a>
+<figcaption><p>图 1 两种假设数据的双耳结果及完整同耳基线。左侧双耳接近较好单耳，右侧双耳超过两个互补子集却仍低于完整同耳输入。纵轴为示例正确率，数据只用于说明基线选择。</p></figcaption>
+</figure>
+
+## 影响整合的匹配条件
+
+### 时间、频率与响度
+
+两耳来自同一声源的片段，需要具有足以建立对应的时间和频率结构。耳间延迟在微秒、毫秒和几十毫秒尺度上的作用不相同：前者常涉及空间线索，较大延迟可能影响片段重合、融合和回声感。实验报告应同时交代延迟作用对象与边界处理，不宜仅以一个“时间差”名称涵盖全部现象。
+
+人工耳蜗两侧相同电极编号，未必刺激相同耳蜗位置。插入深度、频率分配及神经状态可导致频位失配，进而影响融合和侧化。两侧电流编码值相同，也不保证可听度和响度相同。研究常需要分别确认左右阈值和舒适范围，并检查平衡后的双耳声像，但个体匹配方法及结果仍需按实验报告。[1](#ref-kan-2013)
+
+声学耳机条件中，相同带边界提供的是数字输入匹配，并不能完整复制真实植入者的电极接口。模拟结果可以说明某类失配具有潜在后果；从模拟中的频移量换算为患者的电极位移，则还需要耳蜗尺寸、频率分配和真实行为资料。[4](#ref-goupell-2013)
+
+### 注意与经验
+
+互补信息可能无法在低级加工中自动形成完整对象，听者还可能需要学习如何把两耳片段联系起来。注意指令、熟悉程度和语言背景会影响表现。如果要求关注一耳，再把信息均分两耳，任务规则本身可能造成干扰。评价应明确听者是整合两耳、选择较好耳，还是只报告指定耳的信息。
+
+重复训练后改善也不能直接证明跨耳神经连接增强。听者可能更熟悉稀疏材料、更善于猜测语境或采用不同决策策略。新材料和新分配规则的迁移测试可以帮助区分这些解释。个体差异应保留，而不是把少数成功整合者当作整个人群的代表。[2](#ref-kong-atomic-2025)
+
+## 计算模型与可复现实验
+
+### 不同模型回答不同问题
+
+互相关模型主要描述两耳时间关系的检测，等化—抵消模型主要描述某些双耳去掩蔽现象，二者都不是对所有跨耳语音整合的统一实现。以 [Lindemann 双耳模型文档](https://amtoolbox.org/amt-1.6.0/doc/models/lindemann1986.php) 和 [Breebaart 双耳检测模型文档](https://amtoolbox.org/amt-1.6.0/doc/models/breebaart2001.php) 为入口，可以比较它们的输入、外围处理和判决输出。[5](#ref-amt-lindemann1986)[6](#ref-amt-breebaart2001)
+
+若输入互补频带，模型中的同频跨耳比较可能缺少对应成分；这时不能仅靠提高互相关峰值解决语言信息组合。研究者可以建立对左右单耳证据加权的行为模型，但需明确假设是在感觉、特征还是决策层整合，并用新的材料检验预测。模型拟合好某一组平均成绩，并不确定整合发生的神经部位。
+
+### 记录输入与比较目标
+
+复现实验宜同时保存左、右输出以及完整基线，检查频带交界、相位、整体延迟和响度归一化。随机跨耳事件分配应保存种子和耳别表；如果两耳事件不重叠，应实际统计，而非仅信任参数设置。ASM 和双耳分带策略提供可控刺激路线，但各自的率、频带和选择规则不同，不能合并为同一种操作。[2](#ref-kong-atomic-2025)[3](#ref-shi-dbd-2024)
+
+最终结果可以展示每位听者的四条件曲线，以及双耳相对完整同耳的差值。正确率接近天花板时，可适当改变难度或使用阈值任务；解释差值时仍需说明阈值单位和目标水平。这样既能观察额外信息是否得到利用，也能估计跨耳安排的具体代价。
 
 ## 研究沿革
 
-跨耳位置失配研究将融合和侧化与接口匹配联系起来。2024 年分带双耳声码器和 2025 年 ASM 工作使用不同材料研究跨耳信息利用。它们提供条件限定的研究路线，不能以共同的“双耳”标签合并为独立重复临床证据。[3](#ref-kan-2013 "Effect of mismatched place-of-stimulation on binaural fusion and lateralization in bilateral cochlear-implant users") [2](#ref-shi-dbd-2024 "DBD-CI: Doubling the Band Density for Bilateral Cochlear Implants") [1](#ref-kong-atomic-2025 "Sparse representation of speech using an atomic speech model")
+跨耳位置失配研究将融合和侧化与接口匹配联系起来。2024 年分带双耳声码器和 2025 年 ASM 工作使用不同材料研究跨耳信息利用。它们提供条件限定的研究路线，不能以共同的“双耳”标签合并为独立重复临床证据。[1](#ref-kan-2013) [3](#ref-shi-dbd-2024) [2](#ref-kong-atomic-2025)

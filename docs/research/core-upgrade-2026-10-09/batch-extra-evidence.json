@@ -1,0 +1,1176 @@
+{
+  "kuhn": {
+    "query": "DOI:10.1121/1.381498",
+    "results": []
+  },
+  "itd-hrtf": {
+    "query": "DOI:10.1051/aacus/2022020",
+    "results": []
+  },
+  "abr-gorga": {
+    "query": "TITLE:\"Auditory brainstem responses to tone bursts in normally hearing subjects\"",
+    "results": [
+      {
+        "id": "3352259",
+        "source": "MED",
+        "pmid": "3352259",
+        "doi": "10.1044/jshr.3101.87",
+        "title": "Auditory brainstem responses to tone bursts in normally hearing subjects.",
+        "authorString": "Gorga MP, Kaminski JR, Beauchaine KA, Jesteadt W.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gorga MP",
+              "lastName": "Gorga",
+              "firstName": "M P",
+              "initials": "MP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Boys Town National Institute for Communication Disorders in Children, Omaha, Nebraska."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kaminski JR",
+              "lastName": "Kaminski",
+              "firstName": "J R",
+              "initials": "JR"
+            },
+            {
+              "fullName": "Beauchaine KA",
+              "lastName": "Beauchaine",
+              "firstName": "K A",
+              "initials": "KA"
+            },
+            {
+              "fullName": "Jesteadt W",
+              "lastName": "Jesteadt",
+              "firstName": "W",
+              "initials": "W"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "31",
+          "journalIssueId": 563420,
+          "dateOfPublication": "1988 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 1988,
+          "journal": {
+            "medlineAbbreviation": "J Speech Hear Res",
+            "title": "Journal of speech and hearing research",
+            "issn": "0022-4685",
+            "nlmid": "0376336",
+            "isoabbreviation": "J Speech Hear Res"
+          },
+          "printPublicationDate": "1988-03-01"
+        },
+        "pubYear": "1988",
+        "pageInfo": "87-97",
+        "affiliation": "Boys Town National Institute for Communication Disorders in Children, Omaha, Nebraska.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NINDS NIH HHS",
+              "acronym": "NS",
+              "grantId": "NS 19624",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain Stem",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acoustic Stimulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Threshold",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reaction Time",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Evoked Potentials, Auditory"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1044/jshr.3101.87"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 131,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1988-05-12",
+        "dateOfCreation": "1988-03-01",
+        "dateOfRevision": "2019-08-28",
+        "firstPublicationDate": "1988-03-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "abr-don": {
+    "query": "TITLE:\"Analysis of the click-evoked brainstem potentials in man\"",
+    "results": [
+      {
+        "id": "649867",
+        "source": "MED",
+        "pmid": "649867",
+        "doi": "10.1121/1.381816",
+        "title": "Analysis of the click-evoked brainstem potentials in man unsing high-pass noise masking.",
+        "authorString": "Don M, Eggermont JJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Don M",
+              "lastName": "Don",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Eggermont JJ",
+              "lastName": "Eggermont",
+              "firstName": "J J",
+              "initials": "JJ"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "63",
+          "journalIssueId": 78496,
+          "dateOfPublication": "1978 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 1978,
+          "journal": {
+            "medlineAbbreviation": "J Acoust Soc Am",
+            "title": "The Journal of the Acoustical Society of America",
+            "essn": "1520-8524",
+            "issn": "0001-4966",
+            "isoabbreviation": "J Acoust Soc Am",
+            "nlmid": "7503051"
+          },
+          "printPublicationDate": "1978-04-01"
+        },
+        "pubYear": "1978",
+        "pageInfo": "1084-1092",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain Stem",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cochlea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acoustic Stimulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Perceptual Masking"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Noise"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Evoked Potentials"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1121/1.381816"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 236,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1978-07-26",
+        "dateOfCreation": "1978-04-01",
+        "dateOfRevision": "2019-05-15",
+        "firstPublicationDate": "1978-04-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "abr-starr": {
+    "query": "TITLE:\"Auditory neuropathy\" AND AUTH_FIRST:Starr AND FIRST_PDATE:1996",
+    "results": [
+      {
+        "id": "8673487",
+        "source": "MED",
+        "pmid": "8673487",
+        "doi": "10.1093/brain/119.3.741",
+        "title": "Auditory neuropathy.",
+        "authorString": "Starr A, Picton TW, Sininger Y, Hood LJ, Berlin CI.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Starr A",
+              "lastName": "Starr",
+              "firstName": "A",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department Neurology, University of California, Irvine 92717, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Picton TW",
+              "lastName": "Picton",
+              "firstName": "T W",
+              "initials": "TW"
+            },
+            {
+              "fullName": "Sininger Y",
+              "lastName": "Sininger",
+              "firstName": "Y",
+              "initials": "Y"
+            },
+            {
+              "fullName": "Hood LJ",
+              "lastName": "Hood",
+              "firstName": "L J",
+              "initials": "LJ"
+            },
+            {
+              "fullName": "Berlin CI",
+              "lastName": "Berlin",
+              "firstName": "C I",
+              "initials": "CI"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "volume": "119 ( Pt 3)",
+          "journalIssueId": 943833,
+          "dateOfPublication": "1996 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 1996,
+          "journal": {
+            "medlineAbbreviation": "Brain",
+            "title": "Brain : a journal of neurology",
+            "essn": "1460-2156",
+            "issn": "0006-8950",
+            "nlmid": "0372537",
+            "isoabbreviation": "Brain"
+          },
+          "printPublicationDate": "1996-06-01"
+        },
+        "pubYear": "1996",
+        "pageInfo": "741-753",
+        "affiliation": "Department Neurology, University of California, Irvine 92717, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cochlear Nerve"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cochlea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing Disorders",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vestibulocochlear Nerve Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neurologic Examination"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electronystagmography"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psychoacoustics"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Evoked Potentials, Auditory, Brain Stem"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Otoacoustic Emissions, Spontaneous"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hair Cells, Auditory, Outer",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/brain/119.3.741"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 720,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "OMIM"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "1996-08-13",
+        "dateOfCreation": "1996-06-01",
+        "dateOfRevision": "2022-03-30",
+        "firstPublicationDate": "1996-06-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "abr-maturation": {
+    "query": "TITLE:\"Developmental changes in the human auditory brainstem response\"",
+    "results": []
+  },
+  "eeg-keil": {
+    "query": "TITLE:\"Publication guidelines and recommendations for studies using electroencephalography\"",
+    "results": [
+      {
+        "id": "24147581",
+        "source": "MED",
+        "pmid": "24147581",
+        "doi": "10.1111/psyp.12147",
+        "title": "Committee report: publication guidelines and recommendations for studies using electroencephalography and magnetoencephalography.",
+        "authorString": "Keil A, Debener S, Gratton G, Junghöfer M, Kappenman ES, Luck SJ, Luu P, Miller GA, Yee CM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Keil A",
+              "lastName": "Keil",
+              "firstName": "Andreas",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4064-1924"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology and Center for the Study of Emotion and Attention, University of Florida, Gainesville, Florida, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Debener S",
+              "lastName": "Debener",
+              "firstName": "Stefan",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4265-5542"
+              }
+            },
+            {
+              "fullName": "Gratton G",
+              "lastName": "Gratton",
+              "firstName": "Gabriele",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3634-7463"
+              }
+            },
+            {
+              "fullName": "Junghöfer M",
+              "lastName": "Junghöfer",
+              "firstName": "Markus",
+              "initials": "M"
+            },
+            {
+              "fullName": "Kappenman ES",
+              "lastName": "Kappenman",
+              "firstName": "Emily S",
+              "initials": "ES"
+            },
+            {
+              "fullName": "Luck SJ",
+              "lastName": "Luck",
+              "firstName": "Steven J",
+              "initials": "SJ"
+            },
+            {
+              "fullName": "Luu P",
+              "lastName": "Luu",
+              "firstName": "Phan",
+              "initials": "P"
+            },
+            {
+              "fullName": "Miller GA",
+              "lastName": "Miller",
+              "firstName": "Gregory A",
+              "initials": "GA"
+            },
+            {
+              "fullName": "Yee CM",
+              "lastName": "Yee",
+              "firstName": "Cindy M",
+              "initials": "CM"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4064-1924"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8532-2986"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3634-7463"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4265-5542"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "51",
+          "journalIssueId": 2104074,
+          "dateOfPublication": "2014 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2014,
+          "journal": {
+            "medlineAbbreviation": "Psychophysiology",
+            "title": "Psychophysiology",
+            "essn": "1540-5958",
+            "issn": "0048-5772",
+            "isoabbreviation": "Psychophysiology",
+            "nlmid": "0142657"
+          },
+          "printPublicationDate": "2014-01-01"
+        },
+        "pubYear": "2014",
+        "pageInfo": "1-21",
+        "affiliation": "Department of Psychology and Center for the Study of Emotion and Attention, University of Florida, Gainesville, Florida, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Guideline",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Electroencephalography"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Magnetoencephalography"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Psychophysiology"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Publishing",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Electrophysiology",
+            "Methods",
+            "Data analysis",
+            "Good Practices",
+            "Recording Techniques"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/psyp.12147"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 499,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2015-04-02",
+        "dateOfCreation": "2013-10-24",
+        "dateOfRevision": "2013-12-11",
+        "electronicPublicationDate": "2013-10-22",
+        "firstPublicationDate": "2013-10-22",
+        "firstIndexDate": "2013-10-28",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "eeg-pernet": {
+    "query": "TITLE:\"Best practices in data analysis and sharing in neuroimaging using MEEG\"",
+    "results": []
+  },
+  "eeg-sme": {
+    "query": "TITLE:\"A simple and standardized approach to measuring the quality of ERP data\"",
+    "results": []
+  },
+  "eeg-filter-mismatch": {
+    "query": "TITLE:\"Filtering artefacts in electrophysiological data analysis\"",
+    "results": []
+  },
+  "itd-threshold": {
+    "query": "TITLE:\"Human interaural time difference thresholds for sine tones\"",
+    "results": [
+      {
+        "id": "23654390",
+        "source": "MED",
+        "pmid": "23654390",
+        "pmcid": "PMC3663869",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3663869"
+          ]
+        },
+        "doi": "10.1121/1.4795778",
+        "title": "Human interaural time difference thresholds for sine tones: the high-frequency limit.",
+        "authorString": "Brughera A, Dunai L, Hartmann WM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Brughera A",
+              "lastName": "Brughera",
+              "firstName": "Andrew",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biomedical Engineering, Center for Hearing Research, Boston University, Boston, Massachusetts 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dunai L",
+              "lastName": "Dunai",
+              "firstName": "Larisa",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5076-0695"
+              }
+            },
+            {
+              "fullName": "Hartmann WM",
+              "lastName": "Hartmann",
+              "firstName": "William M",
+              "initials": "WM"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5076-0695"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "133",
+          "journalIssueId": 2037805,
+          "dateOfPublication": "2013 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "J Acoust Soc Am",
+            "title": "The Journal of the Acoustical Society of America",
+            "essn": "1520-8524",
+            "issn": "0001-4966",
+            "nlmid": "7503051",
+            "isoabbreviation": "J Acoust Soc Am"
+          },
+          "printPublicationDate": "2013-05-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "2839-2855",
+        "affiliation": "Department of Biomedical Engineering, Center for Hearing Research, Boston University, Boston, Massachusetts 02115, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "DC-00181",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "F32 DC000181",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "K23 DC000181",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "P30-DC04663",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC000100",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "DC-00100",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "P30 DC004663",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC000181",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Olivary Nucleus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neurons",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Audiometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acoustic Stimulation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cues"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Auditory Threshold"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Pitch Perception"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Time Perception"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psychoacoustics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Excitatory Postsynaptic Potentials"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Neurological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Computer Simulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Detection, Psychological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1121/1.4795778"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1121/1.4795778"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3663869"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3663869?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1121/1.4795778"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 147,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-12-16",
+        "dateOfCreation": "2013-05-10",
+        "dateOfRevision": "2022-03-11",
+        "firstPublicationDate": "2013-05-01",
+        "firstIndexDate": "2013-05-10",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "durlach": {
+    "query": "DOI:10.1121/1.1918675",
+    "results": []
+  }
+}

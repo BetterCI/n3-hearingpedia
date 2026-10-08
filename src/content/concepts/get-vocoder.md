@@ -8,18 +8,19 @@ tags: ["GET vocoder"]
 aliases: ["GET vocoder","GET","GET声码器","Gabor atom","高斯包络音"]
 batch: 2
 status: "draft"
-last_updated: "2026-10-04"
-literature_checked_at: "2026-10-04"
-authors: ["AI 辅助初稿"]
-references: ["meng-get-2023","kong-comparable-2023","gabor-1946","get-vocoder-code"]
+last_updated: "2026-10-09"
+literature_checked_at: "2026-10-09"
+authors: ["AI 辅助编写"]
+references: ["meng-get-2023","gabor-1946","get-vocoder-code","kong-comparable-2023"]
 illustration: {"src":"figures/gaussian-width.svg","alt":"两种高斯时间宽度及对应的频谱宽度","caption":"教学示意：高斯幅度包络及其归一化傅里叶幅度；频轴为相对中心的偏移。时间宽度变小，频谱变宽。幅度标准差定义见正文，图非电刺激或听者实测。"}
 order: 25
 knowledge_area: "methods"
 kind: "model"
 key_facts: [{"label":"缩写","value":"GET vocoder"},{"label":"合成单元","value":"脉冲式高斯包络音"},{"label":"关键权衡","value":"时间宽度与频谱宽度"}]
+depth: standard
 ---
 
-**脉冲式高斯包络音声码器**（pulsatile Gaussian-enveloped-tone vocoder，GET vocoder）以局部化高斯包络振荡单元合成声音，将编码事件与声学模拟相联系。单元宽度、载波、幅度与事件时序共同决定输出，模型仍经过正常声学听觉系统。[1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation")
+**脉冲式高斯包络音声码器**（pulsatile Gaussian-enveloped-tone vocoder，GET vocoder）以局部化高斯包络振荡单元合成声音，将编码事件与声学模拟相联系。单元宽度、载波、幅度与事件时序共同决定输出，模型仍经过正常声学听觉系统。[1](#ref-meng-get-2023)
 
 ## 定义与分类
 
@@ -27,7 +28,7 @@ GET 既可指 Gaussian-enveloped tone 单元，也可出现在[声码器](../voc
 
 ### 与传统声码器的区别
 
-传统噪声或正弦声码器常用每带包络调制持续载波。GET 模型强调由刺激事件组织声学脉冲，可纳入谱峰选择、压缩与事件时序，便于研究编码步骤和时频权衡。[1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation")
+传统噪声或正弦声码器常用每带包络调制持续载波。GET 模型强调由刺激事件组织声学脉冲，可纳入谱峰选择、压缩与事件时序，便于研究编码步骤和时频权衡。[1](#ref-meng-get-2023)
 
 改变单元带宽会同时影响跨带重叠与时间特征，因此实验应说明控制了哪些量。不能把一个“通道数”参数当作全部模拟条件。
 
@@ -43,7 +44,7 @@ $$
 
 $t_0$ 是中心时间、$f_c$ 是载波频率、$\phi$ 是相位、$\sigma_t$ 以秒表示。对高斯幅度包络，其傅里叶幅度的宽度参数 $\sigma_f=1/(2\pi\sigma_t)$。缩短[时域包络](../temporal-envelope/)会拓宽频谱；这是数学关系，图中的曲线是教学示意，非受试者实测。
 
-对上述高斯包络（不含实值载波的双边总谱），若改用能量加权标准差，则 $\Delta t=\sigma_t/\sqrt2$、$\Delta f=\sigma_f/\sqrt2$，有 $\Delta t\Delta f=1/(4\pi)$。原 GET 论文用另一种幅度下降界限定义有效时长与带宽，并得到相应的乘积关系。比较论文参数时必须先统一宽度定义，不能把这些不同常数当作矛盾。[1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation")；[3](#ref-gabor-1946 "Theory of communication. Part 1: The analysis of information")
+对上述高斯包络（不含实值载波的双边总谱），若改用能量加权标准差，则 $\Delta t=\sigma_t/\sqrt2$、$\Delta f=\sigma_f/\sqrt2$，有 $\Delta t\Delta f=1/(4\pi)$。原 GET 论文用另一种幅度下降界限定义有效时长与带宽，并得到相应的乘积关系。比较论文参数时必须先统一宽度定义，不能把这些不同常数当作矛盾。[1](#ref-meng-get-2023)；[2](#ref-gabor-1946)
 
 ## 测量与研究方法
 
@@ -55,7 +56,7 @@ $t_0$ 是中心时间、$f_c$ 是载波频率、$\phi$ 是相位、$\sigma_t$ �
 
 噪声载波带有随机起伏，连续正弦载波有稳定频率，GET 以局部事件形式组织载波。比较三者时，应控制分析滤波、包络、选择规则与响度，同时检查它们保留的实际周期性。载波名称相同或通道数相同，都不足以保证线索一致。
 
-GET 原研究探讨用此类声学单元模拟电刺激时域和频谱特性，并进行声学行为评价。[1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation") 声学[耳蜗](../cochlea/)仍会再次滤波，不能把合成波形等同电场或神经响应。
+GET 原研究探讨用此类声学单元模拟电刺激时域和频谱特性，并进行声学行为评价。[1](#ref-meng-get-2023) 声学[耳蜗](../cochlea/)仍会再次滤波，不能把合成波形等同电场或神经响应。
 
 ### 可复现参数表
 
@@ -65,7 +66,7 @@ GET 原研究探讨用此类声学单元模拟电刺激时域和频谱特性，�
 
 ### 作者提供的 MATLAB 实现
 
-作者代码仓库：[**BetterCI/GETVocoder**](https://github.com/BetterCI/GETVocoder)。原 GET 论文提供此代码入口；仓库包含 GET 与高斯包络噪声（Gaussian-enveloped noise，GEN）的声学合成实现，以及 ACE 电极刺激图的研究实现。[1](#ref-meng-get-2023)[4](#ref-get-vocoder-code)
+作者代码仓库：[**BetterCI/GETVocoder**](https://github.com/BetterCI/GETVocoder)。原 GET 论文提供此代码入口；仓库包含 GET 与高斯包络噪声（Gaussian-enveloped noise，GEN）的声学合成实现，以及 ACE 电极刺激图的研究实现。[1](#ref-meng-get-2023)[3](#ref-get-vocoder-code)
 
 | 文件 | 用途 |
 | --- | --- |
@@ -76,17 +77,17 @@ GET 原研究探讨用此类声学单元模拟电刺激时域和频谱特性，�
 
 ### 使用条件与复现记录
 
-README 指定 **MATLAB R2020a 或更新版本**。下载仓库后，以仓库根目录为工作目录运行 `VocMain.m`；批处理时修改 `VocMain_Batch.m` 的音频目录。`vocoderCarrier = 1` 表示 GET，`vocoderCarrier = 2` 表示 GEN，批处理脚本默认值为 `2`。实验应记录载波类型、通道数、maxima、高斯时长参数、叠加规则、载波频移和归一化方式，不能仅记录“使用 GETVocoder”。[4](#ref-get-vocoder-code)
+README 指定 **MATLAB R2020a 或更新版本**。下载仓库后，以仓库根目录为工作目录运行 `VocMain.m`；批处理时修改 `VocMain_Batch.m` 的音频目录。`vocoderCarrier = 1` 表示 GET，`vocoderCarrier = 2` 表示 GEN，批处理脚本默认值为 `2`。实验应记录载波类型、通道数、maxima、高斯时长参数、叠加规则、载波频移和归一化方式，不能仅记录“使用 GETVocoder”。[3](#ref-get-vocoder-code)
 
-仓库 README 将用途限定为学术研究，并说明 ACE 部分改编自 CCi-MOBILE。此次核验未检出独立许可文件，也未运行 MATLAB 程序；这里提供的是作者研究代码入口，不将其标为商用处理器的等价实现。[4](#ref-get-vocoder-code)
+仓库 README 将用途限定为学术研究，并说明 ACE 部分改编自 CCi-MOBILE。此次核验未检出独立许可文件，也未运行 MATLAB 程序；这里提供的是作者研究代码入口，不将其标为商用处理器的等价实现。[3](#ref-get-vocoder-code)
 
 ## 应用与解释边界
 
 ### 可比编码与可比感知
 
-相关研究进一步研究声学与电听觉中采用可比编码时的感知模式。这支持以编码结构为线索组织模拟与比较，而不是仅按载波名称判断模型是否合适。[2](#ref-kong-comparable-2023 "Comparable Encoding, Comparable Perceptual Pattern: Acoustic and Electric Hearing")
+相关研究进一步研究声学与电听觉中采用可比编码时的感知模式。这支持以编码结构为线索组织模拟与比较，而不是仅按载波名称判断模型是否合适。[4](#ref-kong-comparable-2023)
 
-当前该引用已核对摘要；具体编码参数和跨群体比较应在阅读全文后再扩展，不能把相似趋势说成感知完全等价。
+相似的群体感知趋势不表示声学与电听觉逐个听者完全等价；具体结论仍限定于对应编码、刺激和实验任务。
 
 ### 模拟的边界
 
@@ -98,10 +99,57 @@ GET 音经过正常耳蜗与正常听觉通路，而[人工耳蜗](../cochlear-i
 
 将高斯时间宽度减半，在相同宽度定义下频谱宽度加倍。事件在时间上更局部，却会覆盖更广频率；如果载波间距不变，谱重叠可能增强。这说明时间清晰度与谱独立性之间存在需要共同检查的关系。
 
-固定事件峰值时，缩短宽度还改变总能量。若要比较宽度效应，应说明是固定峰值、单事件能量还是整句 RMS，三种归一化可能产生不同结果。[1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation")
+固定事件峰值时，缩短宽度还改变总能量。若要比较宽度效应，应说明是固定峰值、单事件能量还是整句 RMS，三种归一化可能产生不同结果。[1](#ref-meng-get-2023)
 
 教学图只表示理想高斯关系。实际输出叠加、合成过滤和听者的听觉滤波会继续改变谱与包络，因此不能用图中一条宽度曲线直接预测语音或音高成绩。
 
+## 单元参数与整体输出
+
+### 宽度的定义必须一致
+
+高斯包络的幅度半高全宽为 $D_{\mathrm{FWHM}}=2\sqrt{2\ln2}\,\sigma_t$。如果对能量而非幅度取半高宽，会得到不同数值；原论文另用特定下降界限定义有效时长。报告“脉冲长 2 ms”时，必须说明对应哪一种宽度，否则无法复现相同的时频覆盖。载波周期数也随 $f_cD$ 改变，不能仅用时长描述振荡结构。[1](#ref-meng-get-2023)[2](#ref-gabor-1946)
+
+实值高斯包络音的频谱在正负载频附近形成两个分量。当载频相对谱宽很低时，两侧分量可能显著重叠，不能把单个基带高斯包络的谱宽直接当作完整实值波形的全部特征。比较输出时宜观察真实合成谱，而不只是根据一个带宽公式估算。
+
+<figure class="encyclopedia-figure">
+<a href="/n3-hearingpedia/figures/get-vocoder/get-overlap.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/get-vocoder/get-overlap.svg" alt="相同载频和事件时刻下，两种高斯宽度的合成序列" loading="lazy" /></a>
+<figcaption><p>图 1 相同载频和事件时刻下，两种高斯宽度的合成序列。各波形共用一个缩放因子，范围在 ±1 内；长单元具有更多时间重叠。示例固定单事件峰值，未进行等能量匹配，非真实刺激图。</p></figcaption>
+</figure>
+
+### 重叠和归一化
+
+当相邻事件间隔小于单元的有效时长，叠加会改变局部峰值和包络。相位规则决定重叠处是增强还是部分抵消；跨通道重叠还会改变宽带输出。因而每个事件单独不超过数字满幅，不保证合成整段仍不削波。应检查最终波形并保存统一增益，而非对每个片段无记录地分别归一化。
+
+固定事件峰值时，较长包络通常具有更多能量；固定事件能量则需调整峰值。整句均方根匹配又会受事件数和重叠影响。三种设置回答不同问题，论文比较时应说明选择。自动把不同参数输出全部归一化为同一峰值，可能引入不必要的平均声级差异。
+
+## 模拟能够保留什么
+
+### 编码结构与正常耳蜗的再分析
+
+GET 可以把刺激事件的时间、通道、幅度和选择规则转成可听声音，因此适合观察逐脉冲安排如何影响声学线索。声音到达正常听者后，还会经过真实耳蜗滤波、压缩和神经编码；这一步与人工耳蜗直接刺激听神经不同。载波间谱重叠可以模拟信息混合，却不等同电极周围的导电组织或个体神经存活。[1](#ref-meng-get-2023)
+
+“可比编码、可比感知模式”的研究支持在明确编码条件下比较声学与电听觉趋势，但不能将相似的群体模式扩展成逐个听者等价。若任务、训练、响度和接口不同，模型性能与植入者成绩之间仍会存在差异。合理用途是检验哪些线索可能限制任务，再用真实电听觉验证。[4](#ref-kong-comparable-2023)
+
+### GET 与高斯包络噪声
+
+GET 用局部振荡单元，GEN 用局部噪声单元；后者的随机实例可能引入额外包络和谱波动。比较时要保存载波类型及随机种子，检查不同实例结果，而不是只把函数名当作条件说明。作者仓库的批处理默认载波与单文件设置需要逐项核对；使用同一仓库并不保证使用了同一模拟类型。[3](#ref-get-vocoder-code)
+
+双耳使用时，还需要明确两耳噪声是否共享、事件是否同步、相位是否一致及处理延迟。两耳独立随机载波可能改变耳间相关性，使空间任务结果与编码策略混杂。语音识别中看似无关紧要的随机设置，在双耳任务中可能成为核心实验条件。
+
+## 计算模型与可复现记录
+
+### 从刺激表到合成声波
+
+可将每个事件记录为通道、时间、幅度、载频、宽度和相位，随后叠加为声波。事件表方便比较不同编码器是否选中相同通道、在相同时刻发出事件；合成后再检查能量、峰值和频谱。若输入是电流编码值，应依据所选模拟映射转换，不能默认代码数值就是线性声学幅度。
+
+[作者 MATLAB 代码仓库](https://github.com/BetterCI/GETVocoder) 是本模型的具体实现入口，本文保留原有文件说明。运行时还应记录提交版本、工具箱依赖、音频格式和分析参数；只报告仓库地址无法确定多年之后的实际程序。当前词条提供代码与参数核查框架，没有宣称已在本机运行作者 MATLAB 全套实验。[3](#ref-get-vocoder-code)
+
+### 模型比较的最小信息
+
+比较两种策略时，宜统一分析带、输入声级、响度控制、训练和材料，保留各自实际事件数与总速率。如果一个条件同时改变载波、单元宽度和谱峰数量，行为差异不能唯一归因于编码策略。参数灵敏度分析可以帮助判断结论是否只适用于一组偶然设置。
+
+本词条的解析图仅说明理想高斯构件和叠加关系。真实代码输出还受采样、截断、窗口边缘和整体归一化影响；正常耳蜗内的表征又是下一层。把数学单元、完整声码器和真实植入者的结果逐层记录，可以让模拟承担它能回答的具体问题。
+
 ## 研究沿革
 
-Gabor 的时频局部化理论提供数学背景；2023 年 GET 正式论文提出与刺激事件对应的声学模拟。可比编码研究进一步连接声学与电听觉感知模式。这里的理论、模型与跨人群证据分别承担不同作用，不可把数学局部化关系当作临床收益证明。[3](#ref-gabor-1946 "Theory of communication. Part 1: The analysis of information") [1](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation") [2](#ref-kong-comparable-2023 "Comparable Encoding, Comparable Perceptual Pattern: Acoustic and Electric Hearing")
+Gabor 的时频局部化理论提供数学背景；2023 年 GET 正式论文提出与刺激事件对应的声学模拟。可比编码研究进一步连接声学与电听觉感知模式。这里的理论、模型与跨人群证据分别承担不同作用，不可把数学局部化关系当作临床收益证明。[2](#ref-gabor-1946) [1](#ref-meng-get-2023) [4](#ref-kong-comparable-2023)

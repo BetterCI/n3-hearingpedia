@@ -8,17 +8,18 @@ tags: ["Mandarin lexical tone"]
 aliases: ["普通话声调","词汇声调","DiTone"]
 batch: 2
 status: "draft"
-last_updated: "2026-10-04"
-literature_checked_at: "2026-10-04"
-authors: ["AI 辅助初稿"]
-references: ["wang-ditone-2022","zhou-f0intfs-2023","kong-tones-2006","peng-mandarin-2018"]
+last_updated: "2026-10-09"
+literature_checked_at: "2026-10-09"
+authors: ["AI 辅助编写"]
+references: ["kong-tones-2006","peng-mandarin-2018","wang-ditone-2022","zhou-f0intfs-2023"]
 order: 19
 knowledge_area: "perception"
 kind: "linguistic"
 key_facts: [{"label":"语言功能","value":"参与词汇意义区分"},{"label":"主要线索","value":"F₀ 高度、轮廓与时序"},{"label":"辅助线索","value":"时长、强度与发声方式"}]
+depth: standard
 ---
 
-**普通话汉语声调**（Mandarin lexical tone）是参与词汇意义区分的声调系统，其感知涉及[基频](../fundamental-frequency/)高度、变化轮廓和时间组织，也可利用时长、强度及发声方式。孤立音节和连续语流的轨迹不同，变调与协同发音需要按语境理解。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition")
+**普通话汉语声调**（Mandarin lexical tone）是参与词汇意义区分的声调系统，其感知涉及[基频](../fundamental-frequency/)高度、变化轮廓和时间组织，也可利用时长、强度及发声方式。孤立音节和连续语流的轨迹不同，变调与协同发音需要按语境理解。[1](#ref-kong-tones-2006)
 
 ## 定义与分类
 
@@ -30,11 +31,11 @@ key_facts: [{"label":"语言功能","value":"参与词汇意义区分"},{"label"
 
 ### 妈、麻、马、骂：文字、拼音与基频曲线
 
-四个字都使用音节 **ma**，但声调不同，对应 **妈 mā、麻 má、马 mǎ、骂 mà**。这一组例子说明声调能够参与词义区分；拼音上的调号标记语言类别，图中的基频曲线则帮助理解该类别的典型声学形态。[4](#ref-peng-mandarin-2018 "Auditory Brainstem Representation of the Voice Pitch Contours in the Resolved and Unresolved Components of Mandarin Tones")
+四个字都使用音节 **ma**，但声调不同，对应 **妈 mā、麻 má、马 mǎ、骂 mà**。这一组例子说明声调能够参与词义区分；拼音上的调号标记语言类别，图中的基频曲线则帮助理解该类别的典型声学形态。[2](#ref-peng-mandarin-2018)
 
-<figure class="teaching-figure" style="clear:both">
-  <a href="../../figures/mandarin-four-tones.svg" target="_blank" rel="noopener" aria-label="打开妈麻马骂的完整基频曲线图"><img src="../../figures/mandarin-four-tones.svg" alt="普通话汉语声调四图：妈 mā 高平、麻 má 上升、马 mǎ 降升、骂 mà 下降；横轴为音节归一化时间，纵轴为基频 Hz" width="900" height="720" loading="lazy" /></a>
-  <figcaption>图：妈、麻、马、骂的文字、带调拼音与基频轮廓。点击可查看完整矢量图。曲线由教学函数生成，四图使用相同坐标尺度，并非说话人的实测结果，也不规定每个声调必须使用相同的 Hz 数值。横轴归一化用于比较形状，不表示四声真实时长相同。第三声采用孤立音节的完整降升示意；连续语流中可出现低降形式或变调，不能将此图视为所有语境的固定模板。</figcaption>
+<figure class="encyclopedia-figure" style="clear:both">
+  <a href="/n3-hearingpedia/figures/mandarin-four-tones.svg" target="_blank" rel="noopener" aria-label="打开妈麻马骂的完整基频曲线图"><img src="/n3-hearingpedia/figures/mandarin-four-tones.svg" alt="普通话汉语声调四图：妈 mā 高平、麻 má 上升、马 mǎ 降升、骂 mà 下降；横轴为音节归一化时间，纵轴为基频 Hz" width="900" height="720" loading="lazy" /></a>
+  <figcaption><p>图 1 妈、麻、马、骂的文字、带调拼音与基频轮廓。点击可查看完整矢量图。曲线由教学函数生成，四图使用相同坐标尺度，并非说话人的实测结果，也不规定每个声调必须使用相同的 Hz 数值。横轴归一化用于比较形状，不表示四声真实时长相同。第三声采用孤立音节的完整降升示意；连续语流中可出现低降形式或变调，不能将此图视为所有语境的固定模板。</p></figcaption>
 </figure>
 
 | 文字 | 拼音 | 声调类别 | 本图中的轮廓 |
@@ -66,7 +67,7 @@ $q(t)$ 单位为半音，$F_{\mathrm{ref}}$ 是明确指定的正参考频率。
 
 ### 调制与频谱分别保留什么
 
-低阶谐波的位置可提示基频；较宽频带中的谐波相互作用可提供包络周期性；时长和能量分布也可能提示类别。Kong 与 Zeng 比较不同形式的时域和频谱信息，说明声调线索应依据具体信号处理理解。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition")
+低阶谐波的位置可提示基频；较宽频带中的谐波相互作用可提供包络周期性；时长和能量分布也可能提示类别。Kong 与 Zeng 比较不同形式的时域和频谱信息，说明声调线索应依据具体信号处理理解。[1](#ref-kong-tones-2006)
 
 噪声[声码器](../vocoder/)可能削弱精细频谱与部分周期性，但结果还依赖通道数、包络低通和载波。不能把声码器声调识别简单当作真实[人工耳蜗](../cochlear-implant/)表现，或把一次低分解释为“没有任何基频信息”。
 
@@ -78,9 +79,9 @@ $q(t)$ 单位为半音，$F_{\mathrm{ref}}$ 是明确指定的正参考频率。
 
 ### DiTone 提供的方法入口
 
-Wang 等使用双音节词语料，并独立操纵基频与响度轮廓，研究人工耳蜗用户的普通话声调识别。DiTone 的相关材料以第一、第二和第四声为目标；不能把该任务写成完整覆盖四声的统一测试。[1](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus")
+Wang 等使用双音节词语料，并独立操纵基频与响度轮廓，研究人工耳蜗用户的普通话声调识别。DiTone 的相关材料以第一、第二和第四声为目标；不能把该任务写成完整覆盖四声的统一测试。[3](#ref-wang-ditone-2022)
 
-F0inTFS 论文也利用这一类声调任务评价周期性增强。2023 年行为验证属于正常听力声码器模拟，应与真实植入者的 DiTone 结果分开报告。[2](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+F0inTFS 论文也利用这一类声调任务评价周期性增强。2023 年行为验证属于正常听力声码器模拟，应与真实植入者的 DiTone 结果分开报告。[4](#ref-zhou-f0intfs-2023)
 
 ### 如何设计清晰的比较
 
@@ -88,19 +89,15 @@ F0inTFS 论文也利用这一类声调任务评价周期性增强。2023 年行�
 
 ## 应用与解释边界
 
-### 解释边界
-
-声调识别、音高辨别和连续基频跟踪是不同任务。后续增加四声语境变化与线索权重研究，按材料与人群区分结论，避免把有限语料的优势直接推广到自然对话。
-
 ### DiTone 的实验用途与限制
 
-DiTone 通过控制基频轮廓与响度，研究听者如何使用声调相关线索。原研究的目标类别包括声调 1、2、4，不能写成覆盖四个普通话声调的完整通用测试。其设计适合检验线索变化，不等于完整日常语言能力测量。[1](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus")
+DiTone 通过控制基频轮廓与响度，研究听者如何使用声调相关线索。原研究的目标类别包括声调 1、2、4，不能写成覆盖四个普通话声调的完整通用测试。其设计适合检验线索变化，不等于完整日常语言能力测量。[3](#ref-wang-ditone-2022)
 
 如果只改变合成轨迹而未平衡响度或时长，听者可能使用辅助线索。反过来，过度消除所有自然相关线索也可能使任务偏离真实语音。研究应说明自己在检验受控机制还是实际交流表现。
 
 ### 后续研究的证据链
 
-先验证合成刺激的轨迹和辅助线索，再测试受控辨别或识别，最后扩展到多说话人、噪声和连续语流。F0inTFS 的声码器声调实验是周期性增强的机制线索，真实植入者验证、训练与更广材料仍是不同阶段。[2](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+先验证合成刺激的轨迹和辅助线索，再测试受控辨别或识别，最后扩展到多说话人、噪声和连续语流。F0inTFS 的声码器声调实验是周期性增强的机制线索，真实植入者验证、训练与更广材料仍是不同阶段。[4](#ref-zhou-f0intfs-2023)
 
 ## 分析示例
 
@@ -108,10 +105,57 @@ DiTone 通过控制基频轮廓与响度，研究听者如何使用声调相关�
 
 一组刺激中某类别同时具有较长时长、较强能量和特定基频轨迹，听者识别正确可能利用其中任一或多个线索。将基频变平后仍保留部分成绩，并不证明基频无关；它说明剩余线索还可支持任务。
 
-可分别操纵基频、时长和响度，观察类别反应怎样改变，再与自然材料比较。完全受控刺激有助于机制识别，自然材料有助于外推，两者回答不同问题。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition")
+可分别操纵基频、时长和响度，观察类别反应怎样改变，再与自然材料比较。完全受控刺激有助于机制识别，自然材料有助于外推，两者回答不同问题。[1](#ref-kong-tones-2006)
 
 对于人工耳蜗策略，宜按类别报告混淆并检查不同说话人的泛化。只在训练过的单个说话人上改善，可能包含材料学习；若扩展到多说话人或噪声仍保持，才形成更广的使用证据。
 
+## 声调与基频之外的线索
+
+### 相对轮廓和说话人差异
+
+声调的识别通常依赖一段语音中的相对变化和上下文，不是只读取某一个绝对 Hz 数值。不同说话人的基频范围、语速和发声方式不同，同一声调可占据不同的绝对频率范围。以半音表示 $12\log_2[F_0(t)/F_{\mathrm{ref}}]$ 有助于显示相对轨迹，但参考频率及归一化规则必须明确，不能将归一化后曲线视为实际声压或绝对音高。
+
+妈、麻、马、骂的示意图适合建立四种常见轮廓的直觉，但自然发音受到位置、语境、强调和个体影响。第三声在许多连续语流条件下不具有完整的先降后升形态；两个第三声相邻还涉及变调。词典式孤立音节图不能直接充当连续语音每个音节的预测轨迹。
+
+### 声调、语调和发声方式
+
+声调区分词汇意义，语调组织句子层面的态度、焦点和话语功能，二者共同影响基频。问句整体升高或强调某词时，词汇声调通常仍在变化中体现，但具体实现会调整。评价处理算法时，应区分孤立音节标签任务与连续语句理解；识别四类音节不保证能完整理解语调或真实对话。
+
+时长、强度和嗓音特征也可提供辅助线索。第三声某些发音具有低基频和不规则振动，无声或不规则片段中的基频估计可能中断。把这些片段强行插值为平滑曲线，适合某些绘图目的，却可能隐藏有意义的发声方式。研究应保存原始波形和可靠性标记，说明轨迹来源。[3](#ref-wang-ditone-2022)
+
+## 听觉线索怎样支持识别
+
+### 可分辨谐波与包络周期
+
+较低谐波在一定条件下可以形成可分辨谱结构，较高谐波落在同一听觉滤波器内时，内部包络可能提供基频周期性。材料处理、分析带宽和包络低通会改变这两条路线。声调识别对谱与时域线索的利用，需要按实验操纵阅读，而不能仅用“有没有精细结构”划分全部条件。[1](#ref-kong-tones-2006)[2](#ref-peng-mandarin-2018)
+
+正常声学听觉与人工耳蜗在这些线索上存在区别。电刺激可能通过脉冲时序和幅度变化携带周期性，但可用时域音高范围、谱分辨和频位匹配不同。编码输出中含有清晰基频起伏，不保证听者能区分所有声调；语言经验、训练和其他声学线索也参与判断。
+
+<figure class="encyclopedia-figure">
+<a href="/n3-hearingpedia/figures/mandarin-lexical-tone/tone-cue-control.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/mandarin-lexical-tone/tone-cue-control.svg" alt="基频轮廓与幅度轮廓可独立操纵的教学示意" loading="lazy" /></a>
+<figcaption><p>图 2 基频轮廓与幅度轮廓可独立操纵的教学示意。左右两条件基频轨迹相同，幅度轮廓不同；幅度为 0–1 的相对包络，不是实际声压。图不复现 DiTone 原始刺激或四声常模。</p></figcaption>
+</figure>
+
+### 线索冲突与对照
+
+若一种算法同时增强周期性和改变响度，听者可能更多利用幅度变化。可以独立改变基频、强度和时长，比较线索一致与冲突条件，检验反应主要跟随哪类信息。DiTone 的研究提供这类受控材料背景；具体材料生成与评分应依据原文，而不是仅复制一条示意曲线。[3](#ref-wang-ditone-2022)
+
+新策略还需要跨说话人、语速和噪声条件验证。训练者若熟悉某个固定说话人的四种轨迹，成绩改善可能部分来自模板学习。使用未训练说话人和新词，可以更有力地检验推广。若开放词汇中的声调错误会改变词义，语境又可能帮助纠正，因此封闭集合正确率与真实交流结果不宜直接换算。
+
+## 分析工具与可复现资源
+
+### 基频轨迹和声谱观察
+
+[Praat 官方手册](https://www.fon.hum.uva.nl/praat/manual/Pitch.html) 提供基频分析的功能说明。分析范围、时间步长、清浊判据和候选选择都会影响结果；基频翻倍、减半和发声转换处的错误需要检查。曲线应与语谱图和波形共同观察，不能只凭软件输出确定声调生理实现。
+
+可采用目标参考频率进行半音转换，也可以按说话人的统计量归一化，但这些处理会改变可比较的对象。研究跨说话人绝对频率差异时，不宜先将差异完全消除；研究相对轮廓时，则应解释为何选择相应尺度。图轴需标出 Hz、半音或无量纲值，避免读者把所有声调图当作同一标度。
+
+### 与编码研究的连接
+
+F0inTFS 等周期性增强方法为声调信息传递提供具体工程路线，但原声码器实验和真实植入者试验具有不同证据地位。声调任务的收益应连同语料、评分、基线和训练报告；如果言语可懂度、音质或双耳功能未测量，不能写成这些方面也已改善。[4](#ref-zhou-f0intfs-2023)
+
+本词条保留妈麻马骂图作为入门图，并增加线索控制图帮助阅读实验。前者概括典型形态，后者说明如何区分线索，两者均不声称覆盖自然语流的全部变异。理解普通话汉语声调，需将语言功能、声学实现和听觉利用联系起来。
+
 ## 研究沿革
 
-2006 年时域与频谱线索研究探讨受控信号中声调识别。2022 年 DiTone 工作通过基频和响度轮廓操纵研究线索利用，2023 年 F0inTFS 在声学模拟中评价增强周期性。各路线从材料控制到技术评价，需分别说明真实植入者或模拟听者。[3](#ref-kong-tones-2006 "Temporal and spectral cues in Mandarin tone recognition") [1](#ref-wang-ditone-2022 "Cochlear-implant Mandarin tone recognition with a disyllabic word corpus") [2](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+2006 年时域与频谱线索研究探讨受控信号中声调识别。2022 年 DiTone 工作通过基频和响度轮廓操纵研究线索利用，2023 年 F0inTFS 在声学模拟中评价增强周期性。各路线从材料控制到技术评价，需分别说明真实植入者或模拟听者。[1](#ref-kong-tones-2006) [3](#ref-wang-ditone-2022) [4](#ref-zhou-f0intfs-2023)

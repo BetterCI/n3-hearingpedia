@@ -8,17 +8,18 @@ tags: ["ZIN"]
 aliases: ["ZIN","Chinese ZIN","生肖噪声下测试"]
 batch: 2
 status: "draft"
-last_updated: "2026-10-04"
-literature_checked_at: "2026-10-04"
-authors: ["AI 辅助初稿"]
+last_updated: "2026-10-09"
+literature_checked_at: "2026-10-09"
+authors: ["AI 辅助编写"]
 references: ["zhou-zin-2024","he-antiphasic-zin-2026","smits-2004","de-sousa-2020"]
 order: 27
 knowledge_area: "measurement"
 kind: "test"
 key_facts: [{"label":"缩写","value":"ZIN"},{"label":"材料","value":"生肖名称组成的封闭集合材料"},{"label":"结果","value":"特定版本噪声下识别阈值"}]
+depth: standard
 ---
 
-**生肖噪声测试**（Zodiac-in-noise test，ZIN）是使用生肖材料在噪声中测量语音识别阈值的测试，面向中文听者的相关研究及筛查。原始和双耳反相版本有不同配置与验证目标，成绩必须按版本、设备、评分和常模解释。[1](#ref-zhou-zin-2024 "The Chinese Zodiac-in-Noise Test: An Internet-Based Speech-in-Noise Test for Large-Scale Hearing Screening")
+**生肖噪声测试**（Zodiac-in-noise test，ZIN）是使用生肖材料在噪声中测量语音识别阈值的测试，面向中文听者的相关研究及筛查。原始和双耳反相版本有不同配置与验证目标，成绩必须按版本、设备、评分和常模解释。[1](#ref-zhou-zin-2024)
 
 ## 定义与分类
 
@@ -28,13 +29,13 @@ ZIN 是具体测试，[SRT](../speech-reception-threshold/)是结果指标，筛
 
 ### 材料与任务
 
-原始测试以生肖名称构成三元组，在规定噪声中呈现并收集识别反应。熟悉材料和受限响应选项有利于远程部署，但也使任务不同于开放式句子或自然对话；材料数量、计分与猜测机会都要说明。[1](#ref-zhou-zin-2024 "The Chinese Zodiac-in-Noise Test: An Internet-Based Speech-in-Noise Test for Large-Scale Hearing Screening")
+原始测试以生肖名称构成三元组，在规定噪声中呈现并收集识别反应。熟悉材料和受限响应选项有利于远程部署，但也使任务不同于开放式句子或自然对话；材料数量、计分与猜测机会都要说明。[1](#ref-zhou-zin-2024)
 
 同一受试者的阈值还可能受语言熟悉度、注意、训练、设备、音量和环境影响。远程便利不等于无需检查测试条件。
 
 ### 同相与反相版本分开读
 
-后续反相 ZIN 研究改变双耳刺激关系，并评价听力损失检测及[双耳可懂度级差](../binaural-intelligibility-level-difference/)。相位配置、常模和验证目标随版本变化。[2](#ref-he-antiphasic-zin-2026 "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection")
+后续反相 ZIN 研究改变双耳刺激关系，并评价听力损失检测及[双耳可懂度级差](../binaural-intelligibility-level-difference/)。相位配置、常模和验证目标随版本变化。[2](#ref-he-antiphasic-zin-2026)
 
 原始版本与后续版本对耳别和纯音参照的评价不能混写。用于较好耳或较差耳的指标及截断值，需要按各自验证条件说明；本词条不提供脱离版本的通用筛查阈值。
 
@@ -42,11 +43,11 @@ ZIN 是具体测试，[SRT](../speech-reception-threshold/)是结果指标，筛
 
 生肖名称具有有限类别，材料熟悉度和语言背景影响成绩。封闭集合可降低报告负担，但也提供猜测机会。若按单个生肖计分，等概率随机选择的理想猜测水平为 $1/12$；若按三个项目全部正确计分，在独立猜测假设下则为 $(1/12)^3$。实际评分必须按测试规则确定，不能默认三项测试都采用后一种算法。
 
-词长、发音、熟悉度和说话人可能使材料难度不等，因此常模和材料平衡是测试开发的一部分。数字噪声测试的经验可提供方法参考，但其常模不能直接转移到生肖材料。[3](#ref-smits-2004 "Development and validation of an automatic speech-in-noise screening test by telephone")
+词长、发音、熟悉度和说话人可能使材料难度不等，因此常模和材料平衡是测试开发的一部分。数字噪声测试的经验可提供方法参考，但其常模不能直接转移到生肖材料。[3](#ref-smits-2004)
 
 ### 自适应阈值与筛查验证
 
-阈值受到目标正确率、初始 SNR、步长、终止规则及训练影响。报告 ZIN 结果时至少注明版本、材料、评分单位、耳机条件与噪声。原 ZIN 研究建立了相应材料的常模及听力相关验证，网上自测样本的结果不等于总体人群患病率。[1](#ref-zhou-zin-2024 "The Chinese Zodiac-in-Noise Test: An Internet-Based Speech-in-Noise Test for Large-Scale Hearing Screening")
+阈值受到目标正确率、初始 SNR、步长、终止规则及训练影响。报告 ZIN 结果时至少注明版本、材料、评分单位、耳机条件与噪声。原 ZIN 研究建立了相应材料的常模及听力相关验证，网上自测样本的结果不等于总体人群患病率。[1](#ref-zhou-zin-2024)
 
 筛查性能可以用敏感度与特异度描述：前者是在定义的目标听力状态中检出阳性的比例，后者是在非目标状态中判为阴性的比例。判定界限改变，两者通常随之变化。阳性预测值还受被测人群的目标状态比例影响，不能只凭高敏感度保证所有阳性都代表诊断。
 
@@ -72,9 +73,9 @@ ZIN 是具体测试，[SRT](../speech-reception-threshold/)是结果指标，筛
 
 ### 同相与反相版本的证据边界
 
-双耳反相设计可改变目标与噪声的跨耳关系，从而提高对某些听力差异的敏感性。数字噪声测试已有相应研究路线。[4](#ref-de-sousa-2020 "Improving Sensitivity of the Digits-In-Noise Test Using Antiphasic Stimuli") 这为 ZIN 提供概念背景，但具体相位施加对象、常模与界限应以 ZIN 对应版本为准。
+双耳反相设计可改变目标与噪声的跨耳关系，从而提高对某些听力差异的敏感性。数字噪声测试已有相应研究路线。[4](#ref-de-sousa-2020) 这为 ZIN 提供概念背景，但具体相位施加对象、常模与界限应以 ZIN 对应版本为准。
 
-2026 年正式发表的反相 ZIN 研究提供了新版本的验证证据，不能把它与早期会议报道当作相互独立的重复验证。涉及较差耳的检出能力与 BILD 时，也应回到该版本的受试者及分析定义。[2](#ref-he-antiphasic-zin-2026 "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection")
+2026 年正式发表的反相 ZIN 研究提供了新版本的验证证据，不能把它与早期会议报道当作相互独立的重复验证。涉及较差耳的检出能力与 BILD 时，也应回到该版本的受试者及分析定义。[2](#ref-he-antiphasic-zin-2026)
 
 ## 分析示例
 
@@ -82,10 +83,59 @@ ZIN 是具体测试，[SRT](../speech-reception-threshold/)是结果指标，筛
 
 某版本 SRT 与纯音平均阈值相关，说明两个指标在样本中共同变化，但不能据此把每个 SRT 精确换算为个人听力图。相关不包含所有个体误差，也可能受样本范围影响；筛查界限需要对应目标状态的验证。
 
-若主要招募已有听力问题的人，阳性比例和预测值可能与普通学生群体不同。远程自测中设备与环境也更复杂，应把受控验证与实际部署质量分别报告。[1](#ref-zhou-zin-2024 "The Chinese Zodiac-in-Noise Test: An Internet-Based Speech-in-Noise Test for Large-Scale Hearing Screening")
+若主要招募已有听力问题的人，阳性比例和预测值可能与普通学生群体不同。远程自测中设备与环境也更复杂，应把受控验证与实际部署质量分别报告。[1](#ref-zhou-zin-2024)
 
 新的反相版本应使用自身常模和评分程序。是否改善较差耳检出，需与定义清楚的纯音参照比较，而不是把两版本平均分数直接相减后称为诊断能力提高。
 
+## 材料开发与计分
+
+### 熟悉材料仍需要难度平衡
+
+十二生肖名称属于熟悉的中文封闭集合，但不同词的声学结构、长度和噪声中可辨程度并不完全相同。开发测试时，需要通过材料录制、声级处理和实际识别资料平衡难度，而不是默认同属生肖便可以任意互换。重复使用固定词表还可能带来学习，需要练习和正式测试的规则。[1](#ref-zhou-zin-2024)
+
+三元组同时包含项目识别和顺序报告要求。如果一名听者听清词却记错顺序，计分取决于程序规则；按整组三项全对与按单项计分，目标正确率及猜测水平不同。因此自适应步长、目标阈值和评分必须作为同一版本一起报告，不能把不同规则下的 dB 数值直接比较。
+
+### 心理测量函数
+
+可用带猜测下限与失误上限的逻辑函数描述正确率随信噪比变化：$P(s)=\gamma+(1-\gamma-\lambda)/[1+e^{-\beta(s-\alpha)}]$。其中 $\gamma$ 为模型猜测水平，$\lambda$ 为失误参数，$\beta$ 控制斜率，$\alpha$ 为函数中心。它是一般分析形式，不是对 ZIN 官方程序的替代。定义 SRT 时还要说明所对应的正确率。
+
+曲线越平，少量正确率波动对应的阈值不确定性可能越大。自适应程序只采样局部信噪比，也不一定足以同时估计所有参数。若要比较阈值或练习效应，需保存逐试次信噪比、反应和计分，而不只记录最终平均值。
+
+<figure class="encyclopedia-figure">
+<a href="/n3-hearingpedia/figures/zodiac-in-noise/zin-psychometric.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/zodiac-in-noise/zin-psychometric.svg" alt="两条具有相同中心、不同斜率的示例心理测量曲线" loading="lazy" /></a>
+<figcaption><p>图 1 两条具有相同中心、不同斜率的示例心理测量曲线。猜测下限仅设为 1/12，表示单项目理想随机猜测的教学情形；不代表 ZIN 实际三元组计分或官方程序参数。</p></figcaption>
+</figure>
+
+## 在线部署的测量条件
+
+### 信噪比与绝对声级
+
+数字文件中的语音和噪声能量可以形成规定信噪比，但信噪比正确不保证信号达到合适可听度。设备音量、耳机输出、佩戴和背景环境都会改变到耳声级。若语音和噪声过低，可听度限制进入结果；若系统自动增益、均衡或通道混合改变二者关系，数字配置也可能不再正确。
+
+双耳反相版本尤其需要检查独立左右通道。单声道合并可能抵消反相目标，独立声效或蓝牙处理也可能改变跨耳关系。测试环境指导和设备检查因此属于测量方法的一部分，不能以“网页能播放声音”代替完整质量控制。在线便利还需配合清晰的版本标识与结果解释。
+
+### 重测与筛查性能
+
+练习、注意和设备变化可能使同一个人的两次阈值不同。观察小幅变化时，应与相应版本的重测误差比较；差异超过某次程序步长，不等于已经超过测量误差。研究宜报告训练安排、复测间隔、结果分布和失败测试的比例。
+
+敏感度与特异度需要一个明确参照，例如较差耳某种纯音平均指标；改变耳别、频率或听力损失定义，就改变了筛查目标。阳性预测值还受目标状态在被测人群中的比例影响。临床样本中较高阳性比例，不能直接当作一般网页访客的患病比例。
+
+## 正式反相版本的证据
+
+2026 年论文先在 117 名正常听力者中建立反相版本常模，再在 195 名不同听力状态参与者中评价表现。摘要报告，对较差耳超过 25 dB HL 的研究参照，反相版本敏感度为 0.88，同相为 0.49；相应特异度为 0.86 和 0.97。这显示提高检出伴随不同误判权衡，不能只报道敏感度提高而省略特异度。[2](#ref-he-antiphasic-zin-2026)
+
+上述数值属于论文的材料、流程、参照和样本。它们不构成任何其他生肖程序的保证，也不能直接用于解释未校准设备上的个人自测。本文没有把摘要中的截断值作为通用自行诊断界线；正式使用应按对应版本核验方法与验证资料。
+
+论文还分析级差与听阈关系，提示低频听力损失和较差耳状态的重要性。级差的计算方向需要依原方法注明；本网站教学公式采用正值表示收益的约定，引用研究具体回归或数值时则须保留原定义。相关、检出和病因诊断是不同结果。
+
+## 计算分析与开放资料
+
+原 ZIN 论文及正式反相论文是材料和验证的主要来源。数字噪声测试的开发和反相研究可提供比较背景，但不同语言材料的常模不能直接转移。本站此处提供科学介绍，不将自建页面或通用逻辑拟合标为官方临床测试实现。[1](#ref-zhou-zin-2024)[3](#ref-smits-2004)[4](#ref-de-sousa-2020)
+
+阈值拟合可参考 [SciPy 优化文档](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html)，但需要正确的猜测水平、评分单位及参数约束。筛查分析还应保存参照听力图和判定规则，在独立资料中验证截断值。根据同一批数据选界限再报告其最佳性能，可能高估推广表现。
+
+本词条配图为一般心理测量函数，不复现官方测试或真实被试。ZIN 的意义在于用适合中文听者的材料开展可规模化噪声中言语测量；它仍需与纯音、耳别、病史和其他检查共同解释，筛查结果不能替代完整听力评价。
+
 ## 研究沿革
 
-2004 年数字噪声测试提供电话筛查方法背景；ZIN 正式 2024 年论文开发生肖材料并验证相关测试，2026 年正式反相版本进一步检验不同双耳关系。早期会议和正式论文应按研究线索追踪，不重复计为独立验证。[3](#ref-smits-2004 "Development and validation of an automatic speech-in-noise screening test by telephone") [1](#ref-zhou-zin-2024 "The Chinese Zodiac-in-Noise Test: An Internet-Based Speech-in-Noise Test for Large-Scale Hearing Screening") [2](#ref-he-antiphasic-zin-2026 "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection")
+2004 年数字噪声测试提供电话筛查方法背景；ZIN 正式 2024 年论文开发生肖材料并验证相关测试，2026 年正式反相版本进一步检验不同双耳关系。早期会议和正式论文应按研究线索追踪，不重复计为独立验证。[3](#ref-smits-2004) [1](#ref-zhou-zin-2024) [2](#ref-he-antiphasic-zin-2026)

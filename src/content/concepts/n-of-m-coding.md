@@ -8,17 +8,18 @@ tags: ["n-of-m coding strategy"]
 aliases: ["谱峰选择","maxima","ACE","电动态范围","EDR"]
 batch: 2
 status: "draft"
-last_updated: "2026-10-04"
-literature_checked_at: "2026-10-04"
-authors: ["AI 辅助初稿"]
-references: ["mo-maxima-2023","meng-get-2023","zeng-2008","zhou-f0intfs-2023"]
+last_updated: "2026-10-09"
+literature_checked_at: "2026-10-09"
+authors: ["AI 辅助编写"]
+references: ["zeng-2008","mo-maxima-2023","meng-get-2023","zhou-f0intfs-2023","get-vocoder-code"]
 order: 22
 knowledge_area: "technology"
 kind: "strategy"
 key_facts: [{"label":"选择集合","value":"m 个候选分析通道"},{"label":"保留数量","value":"每帧 n 个谱峰"},{"label":"不同参数","value":"选择数量、帧率与脉冲率"}]
+depth: standard
 ---
 
-**n-of-m 编码**（n-of-m coding）是每个分析帧从 $m$ 个候选通道中选择 $n$ 个谱峰的信息选择方式，常见于[人工耳蜗](../cochlear-implant/)声音处理。其具体实现还包括特征提取、选择、压缩、映射与刺激安排，不能只由两个数字定义完整策略。[3](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation")
+**n-of-m 编码**（n-of-m coding）是每个分析帧从 $m$ 个候选通道中选择 $n$ 个谱峰的信息选择方式，常见于[人工耳蜗](../cochlear-implant/)声音处理。其具体实现还包括特征提取、选择、压缩、映射与刺激安排，不能只由两个数字定义完整策略。[1](#ref-zeng-2008)
 
 ## 定义与分类
 
@@ -34,7 +35,7 @@ $$
 \mathcal{S}[k]=\operatorname{Top}_n\{E_1[k],\ldots,E_m[k]\}.
 $$
 
-$\operatorname{Top}_n$ 返回较大的 $n$ 项对应的索引，不是返回一个新的频谱。随后还需要幅度压缩、电极映射和脉冲安排。本式只说明选择原则；滤波、平滑、选择量及刺激顺序由具体实现决定。[3](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation")
+$\operatorname{Top}_n$ 返回较大的 $n$ 项对应的索引，不是返回一个新的频谱。随后还需要幅度压缩、电极映射和脉冲安排。本式只说明选择原则；滤波、平滑、选择量及刺激顺序由具体实现决定。[1](#ref-zeng-2008)
 
 $m$ 个频带不一定对应同样多的独立感知维度；$n$ 也不等于设备安装的电极总数。改变 $n$ 会同时改变保留的谱信息和刺激拥挤程度。
 
@@ -44,9 +45,9 @@ $m$ 个频带不一定对应同样多的独立感知维度；$n$ 也不等于设
 
 ### 相关研究中的参数研究
 
-Mo 等在实际人工耳蜗条件下研究谱峰数量与电动态范围对噪声中语音表现的影响。结果提示二者都是需要明确报告的实验参数；某个样本和配置下较好的数量，不是全体用户统一的调机推荐。[1](#ref-mo-maxima-2023 "Effects of number of maxima and electrical dynamic range on speech-in-noise perception with an “n-of-m” cochlear-implant strategy")
+Mo 等在实际人工耳蜗条件下研究谱峰数量与电动态范围对噪声中语音表现的影响。结果提示二者都是需要明确报告的实验参数；某个样本和配置下较好的数量，不是全体用户统一的调机推荐。[2](#ref-mo-maxima-2023)
 
-GET [声码器](../vocoder/)将编码与刺激序列的特征纳入声学模拟，使策略比较尽可能遵循相应编码步骤。但模拟保留了选择规则，也不意味着已经复制真实电听觉。[2](#ref-meng-get-2023 "Pulsatile Gaussian-Enveloped Tones (GET) for cochlear-implant simulation")
+GET [声码器](../vocoder/)将编码与刺激序列的特征纳入声学模拟，使策略比较尽可能遵循相应编码步骤。但模拟保留了选择规则，也不意味着已经复制真实电听觉。[3](#ref-meng-get-2023)
 
 ### 谱峰选择的数学描述
 
@@ -56,7 +57,7 @@ $$
 U_k[r]=E_k[r]\,\mathbf 1\{k\in\mathcal S_r\}.
 $$
 
-$\mathbf 1$ 为指示函数，$n$ 是每帧保留的通道数，$m$ 是候选通道数。这一表达不规定包络提取、平局处理、刺激顺序或电映射；实现中的预加重和通道增益也可能影响哪一带被选中。[3](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation")
+$\mathbf 1$ 为指示函数，$n$ 是每帧保留的通道数，$m$ 是候选通道数。这一表达不规定包络提取、平局处理、刺激顺序或电映射；实现中的预加重和通道增益也可能影响哪一带被选中。[1](#ref-zeng-2008)
 
 ### 选择数量的收益与代价
 
@@ -66,13 +67,13 @@ $n$ 较小时，输入较稀疏，可能减少同时需要表达的邻近信息�
 
 ### 与新策略的关系
 
-F0inTFS 在原有谱峰选择之后增强选中高频带的周期性，因此“是否选中该通道”与“选中后如何调制”属于两个环节。[4](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants") TLE 则改变时域信息的表示。阅读策略比较时，应按分析、选择、时序和映射逐层对照，避免仅把所有参数统称为编码策略。
+F0inTFS 在原有谱峰选择之后增强选中高频带的周期性，因此“是否选中该通道”与“选中后如何调制”属于两个环节。[4](#ref-zhou-f0intfs-2023) TLE 则改变时域信息的表示。阅读策略比较时，应按分析、选择、时序和映射逐层对照，避免仅把所有参数统称为编码策略。
 
 ## 测量与研究方法
 
 ### 电动态范围影响比较
 
-电映射把包络转换为可用刺激幅度。电动态范围缩窄可能压缩通道间差异，改变信息表达。Mo 等在所测试的谱峰数量和动态范围条件下比较性能；其中较优区间只适用于该实验，不能用作所有设备和听者的调机规则。[1](#ref-mo-maxima-2023 "Effects of number of maxima and electrical dynamic range on speech-in-noise perception with an “n-of-m” cochlear-implant strategy")
+电映射把包络转换为可用刺激幅度。电动态范围缩窄可能压缩通道间差异，改变信息表达。Mo 等在所测试的谱峰数量和动态范围条件下比较性能；其中较优区间只适用于该实验，不能用作所有设备和听者的调机规则。[2](#ref-mo-maxima-2023)
 
 ### 如何检查一个实现
 
@@ -86,10 +87,57 @@ F0inTFS 在原有谱峰选择之后增强选中高频带的周期性，因此“
 
 某帧的低频噪声能量很强，谱峰选择可能优先保留它，而较弱的目标辅音线索被舍弃。这是基于能量排序与基于任务信息排序的差别。是否真的发生，应检查带内目标与噪声贡献及最终选中索引，而非只从算法名称推断。
 
-若提高 $n$ 后识别变好，可能是更多目标线索被保留；若变差，可能涉及重叠、响度或时序。设置保持其他输出条件可比的对照，有助于区分原因。[1](#ref-mo-maxima-2023 "Effects of number of maxima and electrical dynamic range on speech-in-noise perception with an “n-of-m” cochlear-implant strategy")
+若提高 $n$ 后识别变好，可能是更多目标线索被保留；若变差，可能涉及重叠、响度或时序。设置保持其他输出条件可比的对照，有助于区分原因。[2](#ref-mo-maxima-2023)
 
 研究问题可进一步涉及选择稳定性：相邻帧的快速切换是否引入额外调制？不同选择阈值是否让弱输入不稳定？这些都属于具体实现，需要信号检查与行为实验共同验证。
 
+## 从谱峰到脉冲的完整链条
+
+### 选择指标和保持映射
+
+每帧排序需要一个明确的选择量，例如各带的幅度或经平滑的能量。幅度与能量在非负且未作其他处理时排序可能相同，但跨带权重、预强调、压缩和历史平滑会改变选择。算法必须说明排序发生在何处。选出的索引还要保持对应频率和刺激位置，不能按当帧大小顺序重新赋予低高频位置。[1](#ref-zeng-2008)
+
+若输入音节中两个带的幅度接近，微小噪声可能使它们交替进入选中集合，形成通道占用变化。是否采用平滑、保持或其他规则，取决于具体实现。所谓 n 个谱峰不必是连续频谱中的 n 个局部峰，它常表示候选分析通道中较大的 n 个选择量；这一术语不能替代算法定义。
+
+<figure class="encyclopedia-figure">
+<a href="/n3-hearingpedia/figures/n-of-m-coding/maxima-selection.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/n-of-m-coding/maxima-selection.svg" alt="一个教学帧中从 12 个候选分析通道选择 4 项" loading="lazy" /></a>
+<figcaption><p>图 1 一个教学帧中从 12 个候选分析通道选择 4 项。深色柱表示入选，浅色表示未选；频率位置不随大小重新排列。纵轴为示例非负选择量，未包括压缩和真实电刺激映射。</p></figcaption>
+</figure>
+
+### 帧率、总速率和每通道速率
+
+如果简化程序每帧只对 n 个选中位置各安排一次刺激，总事件率为 $nF_{\mathrm{frame}}$。这是该简化程序的计数关系，不是所有商业策略的通用公式。某通道实际入选的比例还决定它的平均事件率；候选带数、总脉冲预算与接口时序可能进一步限制输出。
+
+若改变 n 同时保持总事件预算，帧率或其他安排可能需要变化；若保持帧率，总事件数则可能增加。两个实验分别操纵了不同因素，不能仅以“增加 maxima”概括。每通道刺激率也可能是设备规定的时隙速率或实际长期占用速率，报告时需说明口径。
+
+## 信息保留和参数代价
+
+### 更强成分与较弱成分
+
+谱峰选择优先保留较强分析成分，可能减少冗余和刺激数量，但较弱成分仍可能含有辅音或声源分离线索。强噪声也可能占据排序靠前的通道。因此选中总能量多，不等于选中目标信息多。研究需要观察选中集合在目标、噪声和混合输入中的变化，才能解释噪声中识别结果。
+
+更多谱峰可能保留较丰富的谱形，却还改变刺激拥挤、响度和[通道相互作用](../channel-interaction/)。较少谱峰则可能增加信息遗漏。个体的电极接口和电动态范围不同，权衡也不同；某研究配置的最佳数量不应被写成全体用户统一参数。[2](#ref-mo-maxima-2023)
+
+### 与压缩映射的关系
+
+声学包络进入电刺激范围前，常需压缩和阈值、舒适水平相关映射。若只提高 n，却未控制总响度或各通道动态范围，行为改变可能同时反映可听度。比较策略应保存输入范围、压缩曲线、电流单位与脉冲宽度，不能把电流差直接标成声学 dB 范围。
+
+2023 年真实植入者研究分别考察 maxima 和电动态范围，为这些因素的共同作用提供条件限定证据。它不意味着模型图中的较大柱就直接成为同比例较大的神经响应，也不证明所有现代设备采用相同压缩或选择逻辑。[2](#ref-mo-maxima-2023)
+
+## 计算实现与代码入口
+
+[GETVocoder 作者仓库中的 ACE 相关代码](https://github.com/BetterCI/GETVocoder) 提供研究用刺激图和声学模拟入口。它有助于跟踪选中通道、压缩和事件合成，但不能仅因文件名含 ACE 就视为完整复现所有商业处理器设置。临床策略背景可参见[人工耳蜗信号处理策略](../cochlear-implant-coding-strategies/)词条中的官方资料。[3](#ref-meng-get-2023)[5](#ref-get-vocoder-code)
+
+实现基本选择时，可以先对固定人工向量测试是否选出预期索引，再检查相等值的处理是否确定。若 n=m，所有候选均入选，但整个处理仍包含滤波和压缩，不能称为原声透传；若静音输入所有值为零，是否仍生成阈值级刺激，需要按具体映射规则核查。非法 n 值、禁用通道和不均匀带宽也应明确处理。
+
+### 可复现的结果记录
+
+至少保存每帧选择量、入选索引、映射后幅度、脉冲时刻和归一化。统计每通道占用率可以显示哪些带长期未入选，但不能单凭占用率推断某频率完全不可听，因为刺激扩散和跨带线索还会影响感知。比较两个程序时，逐帧记录比只比较整句总脉冲数更有区分力。
+
+F0inTFS 在原框架中保持增强前的谱峰选择，再进行周期性调制，说明选择与时域处理可以分别安排。若复现时将顺序颠倒，便同时改变了频谱保留与调制规则。研究应先验证这条处理链，再以适当控制的音高、声调和言语任务评估行为。[4](#ref-zhou-f0intfs-2023)
+
+本文配图仅展示一个帧的选择原则，不模拟患者神经激活，也未运行商业处理器。n-of-m 的价值在于清晰定义信息筛选问题；真正的编码效果需要把选择规则、刺激接口和听者利用能力共同评价。
+
 ## 研究沿革
 
-人工耳蜗系统发展形成谱峰选择与不同刺激安排的组合。2023 年谱峰数量研究在所测动态范围条件下比较性能；F0inTFS 则在保留原选择规则的基础上增强周期性。它们分别操纵选择和选后表征，不能把特定实验较优 n 当作通用调机值。[3](#ref-zeng-2008 "Cochlear Implants: System Design, Integration and Evaluation") [1](#ref-mo-maxima-2023 "Effects of number of maxima and electrical dynamic range on speech-in-noise perception with an “n-of-m” cochlear-implant strategy") [4](#ref-zhou-f0intfs-2023 "F0inTFS: A lightweight periodicity enhancement strategy for cochlear implants")
+人工耳蜗系统发展形成谱峰选择与不同刺激安排的组合。2023 年谱峰数量研究在所测动态范围条件下比较性能；F0inTFS 则在保留原选择规则的基础上增强周期性。它们分别操纵选择和选后表征，不能把特定实验较优 n 当作通用调机值。[1](#ref-zeng-2008) [2](#ref-mo-maxima-2023) [4](#ref-zhou-f0intfs-2023)

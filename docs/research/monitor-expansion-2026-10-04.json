@@ -420,11 +420,25 @@
       "kind": "physiological-response",
       "priority": "通用核心概念",
       "reference_ids": [
-        "asha-abr",
-        "picton-aep-1974",
         "jewett-abr-1971",
-        "jennings-chirp-2026",
-        "guest-synaptopathy-2018"
+        "picton-aep-1974",
+        "asha-abr",
+        "core-upgrade-abr-gorga",
+        "core-upgrade-jcih-2019",
+        "verhulst-model-2018",
+        "core-upgrade-abr-don",
+        "core-upgrade-stapells",
+        "core-upgrade-dau-chirp",
+        "core-upgrade-bsa-newborn",
+        "core-upgrade-jcih-faq",
+        "core-upgrade-bsa-current",
+        "core-upgrade-bsa-abr-adult",
+        "core-upgrade-abr-starr",
+        "core-upgrade-abr-human",
+        "kujawa-synaptopathy-2009",
+        "guest-synaptopathy-2018",
+        "widmann-2015",
+        "jennings-chirp-2026"
       ],
       "monitor_source_ids": [
         "jennings-chirp-2026"
@@ -472,10 +486,22 @@
       "kind": "test",
       "priority": "通用核心概念",
       "reference_ids": [
-        "osullivan-aad-2015",
         "picton-aep-1974",
+        "core-upgrade-eeg-keil",
+        "core-upgrade-gramfort",
+        "core-upgrade-mne-implementation",
+        "widmann-2015",
+        "core-upgrade-tanner",
+        "core-upgrade-delorme",
+        "core-upgrade-eeglab-ica",
+        "core-upgrade-mne-preprocessing",
+        "osullivan-aad-2015",
+        "guo-tracking-2026",
         "mo-ci-adaptation-2026",
-        "guo-tracking-2026"
+        "core-upgrade-fieldtrip",
+        "core-upgrade-eeg-bids",
+        "maris-2007",
+        "core-upgrade-nolte"
       ],
       "monitor_source_ids": [
         "mo-ci-adaptation-2026",
@@ -667,8 +693,10 @@
       "reference_ids": [
         "nidcd-nihl",
         "kujawa-synaptopathy-2009",
+        "guest-synaptopathy-2018",
+        "core-upgrade-niosh-noise",
         "su-nihl-2026",
-        "guest-synaptopathy-2018"
+        "verhulst-model-2018"
       ],
       "monitor_source_ids": [
         "su-nihl-2026"
@@ -686,6 +714,8 @@
       "reference_ids": [
         "kujawa-synaptopathy-2009",
         "guest-synaptopathy-2018",
+        "core-upgrade-abr-human",
+        "verhulst-model-2018",
         "cheema-synaptopathy-2026"
       ],
       "monitor_source_ids": [

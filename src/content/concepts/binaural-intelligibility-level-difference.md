@@ -8,18 +8,19 @@ tags: ["BILD"]
 aliases: ["BILD","双耳可懂度差","双耳去掩蔽"]
 batch: 2
 status: "draft"
-last_updated: "2026-10-04"
-literature_checked_at: "2026-10-04"
-authors: ["AI 辅助初稿"]
-references: ["he-antiphasic-zin-2026","de-sousa-2020"]
+last_updated: "2026-10-09"
+literature_checked_at: "2026-10-09"
+authors: ["AI 辅助编写"]
+references: ["de-sousa-2020","he-antiphasic-zin-2026","amt-breebaart2001","amt-lindemann1986"]
 illustration: {"src":"figures/binaural-phase.svg","alt":"左右耳同相和目标反相的理想纯音波形","caption":"教学示意：1000 Hz 纯音显示同相与反相；左右 RMS 不变。DIN 的 N0Sπ 例子另规定噪声同相。本图不代替 ZIN 版本的刺激配置。"}
 order: 28
 knowledge_area: "measurement"
 kind: "metric"
 key_facts: [{"label":"缩写","value":"BILD"},{"label":"单位","value":"dB（两项可比 SRT 的差）"},{"label":"关键条件","value":"双耳关系、基线、相减方向与评分"}]
+depth: standard
 ---
 
-**双耳可懂度级差**（binaural intelligibility level difference，BILD）是规定双耳关系条件之间的语音识别阈值差。它用于描述特定双耳解[掩蔽](../masking/)或测试收益，必须注明刺激配置与相减方向；纯音检测的 BMLD 和全部空间释放不是同一指标。[2](#ref-de-sousa-2020 "Improving Sensitivity of the Digits-In-Noise Test Using Antiphasic Stimuli")
+**双耳可懂度级差**（binaural intelligibility level difference，BILD）是规定双耳关系条件之间的语音识别阈值差。它用于描述特定双耳解[掩蔽](../masking/)或测试收益，必须注明刺激配置与相减方向；纯音检测的 BMLD 和全部空间释放不是同一指标。[1](#ref-de-sousa-2020)
 
 ## 定义与分类
 
@@ -43,17 +44,6 @@ $$
 
 ## 原理与表征
 
-### 先写差值方向
-
-对于在噪声中以 dB SNR 报告的阈值，本词条采用：
-
-$$
-\mathrm{BILD}=\mathrm{SRT}_{\mathrm{diotic}}-
-\mathrm{SRT}_{\mathrm{antiphasic}}.
-$$
-
-$\mathrm{diotic}$ 表示规定的双耳相同呈现条件，$\mathrm{antiphasic}$ 表示测试规定的反相配置。正值表示反相条件需要更低的 SNR，单位 dB；若论文采用反向相减，数值符号也会改变。必须同时说明究竟对语音还是噪声实施反相，以及另一信号的两耳关系。
-
 ### 为什么两耳关系会影响阈值
 
 两耳接收到的目标与掩蔽声关系不同，可能提供有助于分离的信息。BILD 用行为阈值差描述这种效果，却不单独确定某一个神经机制。它也不是“两耳比一耳好多少”，因为比较条件可以均为双耳。
@@ -74,13 +64,13 @@ $\mathrm{diotic}$ 表示规定的双耳相同呈现条件，$\mathrm{antiphasic}
 
 ### 研究应用
 
-2026 年反相 ZIN 研究比较测试配置，考察阈值和 BILD 与听力损失指标的联系。其验证提供特定版本和人群中的筛查线索，不构成所有语言和设备的通用常模。[1](#ref-he-antiphasic-zin-2026 "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection")
+2026 年反相 ZIN 研究比较测试配置，考察阈值和 BILD 与听力损失指标的联系。其验证提供特定版本和人群中的筛查线索，不构成所有语言和设备的通用常模。[2](#ref-he-antiphasic-zin-2026)
 
 ZIN 专属测试细节目前依据摘要与书目整理，DIN 示例另有来源。测试的精确反相实现、适应规则和常模分层仍需专业审阅者逐项阅读全文复核后补充。
 
 ### 在筛查中的用途与边界
 
-反相 ZIN 的正式研究将双耳级差与听力状态及较差耳检出联系起来，提供版本特定的验证。[1](#ref-he-antiphasic-zin-2026 "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection") 低频敏感度、左右不对称以及较好耳作用应分开考察。一个 BILD 指标不能取代整张听力图、病因判断或多任务听觉评价。
+反相 ZIN 的正式研究将双耳级差与听力状态及较差耳检出联系起来，提供版本特定的验证。[2](#ref-he-antiphasic-zin-2026) 低频敏感度、左右不对称以及较好耳作用应分开考察。一个 BILD 指标不能取代整张听力图、病因判断或多任务听觉评价。
 
 复现时先检验左右波形、相位及 RMS，再检查各条件阈值和个体差值；若只重现平均 BILD 而两项绝对阈值均异常，仍不能认定测试方法已经正确实现。
 
@@ -88,7 +78,7 @@ ZIN 专属测试细节目前依据摘要与书目整理，DIN 示例另有来源
 
 ### 一个明确的相位条件示例
 
-在数字噪声研究中，常用 $N_0S_0$ 表示两耳噪声及目标同相，$N_0S_\pi$ 表示噪声同相、目标跨耳反相；目标反相是一个耳信号乘以 −1，不会改变其单耳 RMS。二者因此可以在单耳能量相同的条件下改变跨耳关系。[2](#ref-de-sousa-2020 "Improving Sensitivity of the Digits-In-Noise Test Using Antiphasic Stimuli")
+在数字噪声研究中，常用 $N_0S_0$ 表示两耳噪声及目标同相，$N_0S_\pi$ 表示噪声同相、目标跨耳反相；目标反相是一个耳信号乘以 −1，不会改变其单耳 RMS。二者因此可以在单耳能量相同的条件下改变跨耳关系。[1](#ref-de-sousa-2020)
 
 这是 DIN 的明确示例，不据此替代 ZIN 各版本的实际实现。若研究延迟而非反相，对宽带信号各频率的相位差不同，也不能把两种处理统称为相同条件。
 
@@ -96,10 +86,53 @@ ZIN 专属测试细节目前依据摘要与书目整理，DIN 示例另有来源
 
 两名听者 BILD 都为 4 dB，一名两条件阈值都较好，另一名两条件都较差。差值相同不意味着绝对语音能力相同。另一个听者差值较小，也可能来自同相基线已经很好、反相收益较小或测量波动，不能自动归因于某种损伤。
 
-可同时展示两个条件的阈值散点和配对连线，再观察差值与频率相关听力指标。若要判定筛查意义，应使用对应版本的常模、参照目标和验证数据。[1](#ref-he-antiphasic-zin-2026 "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection")
+可同时展示两个条件的阈值散点和配对连线，再观察差值与频率相关听力指标。若要判定筛查意义，应使用对应版本的常模、参照目标和验证数据。[2](#ref-he-antiphasic-zin-2026)
 
 BILD 是任务中利用双耳关系的指标之一。与纯音检测、定位或互补频带整合之间的关系，是需要研究的问题，不能把一个正常差值视为所有双耳功能均正常。
 
+## 相位条件与双耳解掩蔽
+
+### 单耳能量不变，耳间关系改变
+
+目标在一耳乘以 −1 时，其各频率分量跨耳相位相差半周，单耳频谱幅度和均方根不变。噪声如果仍保持两耳相同，目标与噪声便具有不同耳间关系。在某些条件下，听者可以利用这种差异，使相同识别水平所需的信噪比降低。这一设计有助于减少单耳能量差的解释，但不排除语言和决策等环节参与。[1](#ref-de-sousa-2020)
+
+固定延迟则使相位差随频率改变：$\Delta\phi(f)=2\pi f\tau$。除特定频率外，不能让宽带目标的所有成分都恰好反相。因此 $N_0S_\pi$ 应描述反相条件，不能改写成“语音延迟固定的半个周期”。相位处理后的幅度谱相同，也不意味着它在自然声场中具有唯一对应方位。
+
+低频成分通常对这类双耳比较具有重要作用，但具体收益还依赖噪声带宽、目标频谱、声级和语言材料。高频包络关系、可听度变化及两耳不对称也可能影响任务。某人的级差小，需要先检查两个原始阈值和刺激条件，不能直接由这个差值给出中枢病变定位。
+
+<figure class="encyclopedia-figure">
+<a href="/n3-hearingpedia/figures/binaural-intelligibility-level-difference/bild-paired.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/binaural-intelligibility-level-difference/bild-paired.svg" alt="三名假设听者的同相与反相阈值" loading="lazy" /></a>
+<figcaption><p>图 1 三名假设听者的同相与反相阈值。A 与 B 的级差均为 5 dB，却具有不同绝对阈值；C 的级差较小。连线保留个体配对关系，示例不是常模或筛查界限。</p></figcaption>
+</figure>
+
+### 生肖测试的正式结果怎样引用
+
+2026 年反相生肖噪声测试论文建立了特定版本的常模，并将反相、同相结果与听阈比较。摘要报告反相条件对较差耳听力损失的检出敏感度高于同相条件，并提示级差与低频听力损失的联系更强。它提供的是具体测试版本的验证，不能直接移植为其他语料、声级或双耳设备的通用结论。[2](#ref-he-antiphasic-zin-2026)
+
+该论文摘要将 BILD 描述为反相与同相结果之差；要引用它的具体数值或回归方向，需要核对正式方法所用相减顺序。本词条的教学公式明确采用“同相阈值减反相阈值”，因此正值表示收益。不同文献的符号约定可能相反，比较时应统一方向并保留原定义，而不能仅凭英文名称推断符号。
+
+## 差值的可靠性和解释
+
+### 两个阈值共同决定误差
+
+设 $D=X-Y$，则 $\operatorname{Var}(D)=\operatorname{Var}(X)+\operatorname{Var}(Y)-2\operatorname{Cov}(X,Y)$。两项测量误差独立时，方差相加；存在相关时，差值的不确定性会改变。计算级差所需的不是将两个组平均误差棒简单相减，而是保留同一个体的配对资料。
+
+阈值任务的学习、疲劳和测试顺序也会进入差值。可以平衡条件顺序、提供一致练习并重复测试，同时展示个体的两个绝对阈值。如果一项阈值达到程序下限，另一项仍在可测范围内，差值受到截断，不能按完整连续分布处理。心理测量函数的斜率不同，也会使相同正确率变化对应不同阈值精度。
+
+### 筛查、机制与预测
+
+级差与听阈相关，意味着二者在相应样本中共同变化，不意味着级差可精确转换成某个频率的个人听阈。诊断分类还取决于参照标准、样本构成和判定界限；年轻正常听力者的分布不能直接用于老年或双侧植入人群。双耳处理器中的相位、延迟和可听度限制还可能改变刺激本身。
+
+检验一种新处理时，应同时报告同相与反相成绩。若级差增大只是同相条件变差，不能据此认定整体识别更好。若反相阈值改善而同相不变，则更支持特定双耳关系带来的收益，但仍需检查是否有响度、训练或设备变化。相对指标和绝对功能应共同呈现。
+
+## 计算模型与代码入口
+
+等化—抵消思路通过调整两耳信号的相对增益和时间关系，使相关掩蔽成分在相减时减少，目标若具有不同关系便可残留。内部时间和增益误差限制理想抵消。这个功能描述可以解释某些双耳掩蔽级差，却不等于大脑逐点实行无误差的数字减法，也不能自动解释所有语言内容和注意收益。
+
+[Breebaart 双耳检测模型](https://amtoolbox.org/amt-1.6.0/doc/models/breebaart2001.php) 提供外围处理与耳间相互作用的公开实现入口；[Lindemann 模型](https://amtoolbox.org/amt-1.6.0/doc/models/lindemann1986.php) 则以互相关活动图描述时间和声级线索。二者的模型输出与测试 SRT 之间还需要明确判决或可懂度映射。不能将某个内部响应差直接命名为已经预测的 BILD。[3](#ref-amt-breebaart2001)[4](#ref-amt-lindemann1986)
+
+复现首先应验证目标反相前后左右单耳能量相等、噪声跨耳关系正确、处理链没有单声道合并；再进行心理物理测量或模型预测。本文配对图依据定义生成，没有使用上述模型预测听者阈值，也不复现生肖测试的原始数据。
+
 ## 研究沿革
 
-2020 年正式 DIN 反相研究提供相位条件与筛查评价背景，2026 年正式反相 ZIN 研究将双耳级差与听力状态联系。它们支持对应材料、人群和版本的应用，而不建立脱离任务的普适界限或病变定位规则。[2](#ref-de-sousa-2020 "Improving Sensitivity of the Digits-In-Noise Test Using Antiphasic Stimuli") [1](#ref-he-antiphasic-zin-2026 "Optimizing the Chinese Zodiac-in-Noise Test With Antiphasic Stimuli for Better Hearing Loss Detection")
+2020 年正式 DIN 反相研究提供相位条件与筛查评价背景，2026 年正式反相 ZIN 研究将双耳级差与听力状态联系。它们支持对应材料、人群和版本的应用，而不建立脱离任务的普适界限或病变定位规则。[1](#ref-de-sousa-2020) [2](#ref-he-antiphasic-zin-2026)

@@ -7,24 +7,25 @@ categories: ["hearing-loss","ear-cochlea","audiology"]
 tags: ["noise-induced-hearing-loss"]
 aliases: ["NIHL","噪声诱发性听力损失","噪声性聋","噪声性听觉损伤"]
 status: draft
-last_updated: "2026-10-04"
-authors: ["AI 辅助初稿"]
-references: ["nidcd-nihl","kujawa-synaptopathy-2009","su-nihl-2026","guest-synaptopathy-2018"]
+last_updated: "2026-10-09"
+authors: ["AI 辅助编写"]
+references: ["nidcd-nihl","kujawa-synaptopathy-2009","guest-synaptopathy-2018","core-upgrade-niosh-noise","su-nihl-2026","verhulst-model-2018"]
 batch: 3
 order: 41
-literature_checked_at: "2026-10-04"
+literature_checked_at: "2026-10-09"
 knowledge_area: "biology"
 kind: "condition"
 key_facts: [{"label":"描述对象","value":"噪声暴露相关听觉损伤"},{"label":"时间过程","value":"可包含暂时与持久变化"},{"label":"证据层次","value":"暴露记录、功能评估与机制证据"}]
+depth: standard
 ---
 
-**噪声性听力损失**（noise-induced hearing loss，NIHL）是与噪声暴露相关的[听力损失](../hearing-loss/)。暴露既可能是短时强声，也可能是较长时间的声音累积；实际影响取决于声级、频谱、持续时间、间歇结构及个体状态。病理可能涉及[外毛细胞](../outer-hair-cell/)、内毛细胞突触与其他耳蜗环节，不能用单一结构概括全部机制。[1](#ref-nidcd-nihl "Noise-Induced Hearing Loss")[2](#ref-kujawa-synaptopathy-2009 "Adding Insult to Injury: Cochlear Nerve Degeneration after “Temporary” Noise-Induced Hearing Loss")
+**噪声性听力损失**（noise-induced hearing loss，NIHL）是与噪声暴露相关的[听力损失](../hearing-loss/)。暴露既可能是短时强声，也可能是较长时间的声音累积；实际影响取决于声级、频谱、持续时间、间歇结构及个体状态。病理可能涉及[外毛细胞](../outer-hair-cell/)、内毛细胞突触与其他耳蜗环节，不能用单一结构概括全部机制。[1](#ref-nidcd-nihl)[2](#ref-kujawa-synaptopathy-2009)
 
 ## 定义与时间过程
 
 ### 暂时与永久阈移
 
-暂时阈移指暴露后听阈升高并在后续测量中恢复，永久阈移指持续存在的变化。分类依赖测量时间和稳定性，不是只凭一次听力图就能确定。尤其要注意阈值恢复描述的是敏感性指标，不等于所有细胞、突触或阈上功能都恢复。[2](#ref-kujawa-synaptopathy-2009 "Adding Insult to Injury: Cochlear Nerve Degeneration after “Temporary” Noise-Induced Hearing Loss")
+暂时阈移指暴露后听阈升高并在后续测量中恢复，永久阈移指持续存在的变化。分类依赖测量时间和稳定性，不是只凭一次听力图就能确定。尤其要注意阈值恢复描述的是敏感性指标，不等于所有细胞、突触或阈上功能都恢复。[2](#ref-kujawa-synaptopathy-2009)
 
 ### 急性与累积暴露
 
@@ -38,7 +39,7 @@ key_facts: [{"label":"描述对象","value":"噪声暴露相关听觉损伤"},{"
 
 机械负荷、代谢变化和细胞应激可能参与噪声损伤，具体路径随模型与暴露不同。[耳蜗](../cochlea/)主动过程受影响时，阈值和频率选择性可能改变；内毛细胞—传入神经突触受损则涉及另一个输入环节。两者可能共同发生，也可能在特定模型中分离。
 
-Kujawa 与 Liberman 的小鼠研究显示，某些暴露后听阈可以恢复，而突触与神经损伤仍存在。这一组织学证据改变了只靠阈值恢复判断损伤的思路，但不能直接推出所有正常听力图人群都存在同样病变，或所有噪声语音困难都由[耳蜗突触病变](../cochlear-synaptopathy/)造成。[2](#ref-kujawa-synaptopathy-2009 "Adding Insult to Injury: Cochlear Nerve Degeneration after “Temporary” Noise-Induced Hearing Loss")[4](#ref-guest-synaptopathy-2018 "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure")
+Kujawa 与 Liberman 的小鼠研究显示，某些暴露后听阈可以恢复，而突触与神经损伤仍存在。这一组织学证据改变了只靠阈值恢复判断损伤的思路，但不能直接推出所有正常听力图人群都存在同样病变，或所有噪声语音困难都由[耳蜗突触病变](../cochlear-synaptopathy/)造成。[2](#ref-kujawa-synaptopathy-2009)[3](#ref-guest-synaptopathy-2018)
 
 ## 暴露与功能测量
 
@@ -50,7 +51,7 @@ Kujawa 与 Liberman 的小鼠研究显示，某些暴露后听阈可以恢复，
 
 ## 保护与研究边界
 
-控制声源、减少高强度暴露、调整环境和采用合适听力保护具有不同作用。具体保护方案需要考虑实际暴露和当地规则，本词条不把某一平均声级描述为对所有声音和所有人均安全的统一界线。保护器的标称衰减也不能直接代表每个人实际佩戴后的衰减。[1](#ref-nidcd-nihl "Noise-Induced Hearing Loss")
+控制声源、减少高强度暴露、调整环境和采用合适听力保护具有不同作用。具体保护方案需要考虑实际暴露和当地规则，本词条不把某一平均声级描述为对所有声音和所有人均安全的统一界线。保护器的标称衰减也不能直接代表每个人实际佩戴后的衰减。[1](#ref-nidcd-nihl)
 
 动物或细胞中的药物保护结果首先回答模型中的生理问题。剂量、给药时机、物种和不良反应限制转化解释；保存某一种细胞不等于已经证明全面恢复，更不自动构成人类用药依据。
 
@@ -60,6 +61,57 @@ Kujawa 与 Liberman 的小鼠研究显示，某些暴露后听阈可以恢复，
 
 若两组自报累计暴露相同而结果不同，还需比较峰值、保护器、暴露年代及其他风险。一个暴露总分通常不足以解释所有个体差异。
 
+## 暴露量的物理表达
+
+### 能量平均与声音峰值
+
+等效连续 A 计权声级可以写为 $L_{Aeq,T}=10\log_{10}[T^{-1}\int_0^T p_A^2(t)/p_0^2\,dt]$，其中 $p_A$ 为经过 A 计权的声压，$p_0=20\,\mu\mathrm{Pa}$，T 为观察时间。它对能量平均而不是直接平均 dB 数值。两个等长时段的 80 和 90 dB，不应按算术平均写成 85 dB 的等效声级。
+
+计权、时间平均和峰值描述不同方面。冲击声可能在很短时间具有很高峰值，即使较长观察窗口中的平均值不高，也不能据此忽略。暴露记录应同时保存时间结构和频谱背景；只记录设备音量百分比无法知道到耳声级，因为耳机、信号和佩戴均会改变输出。
+
+<figure class="encyclopedia-figure">
+<a href="/n3-hearingpedia/figures/noise-induced-hearing-loss/noise-energy.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/noise-induced-hearing-loss/noise-energy.svg" alt="等能量关系示意：声级提高 3 dB，取得相同声能的时长约减半" loading="lazy" /></a>
+<figcaption><p>图 1 等能量关系示意：声级提高 3 dB，取得相同声能的时长约减半。纵轴时间相对归一化；本图不设任何安全起点，不是个人安全时限或统一法规限值。</p></figcaption>
+</figure>
+
+### 职业建议的适用范围
+
+美国 NIOSH 的职业噪声建议以 8 小时 85 dBA 为参考，并采用 3 dB 交换率。它属于特定职业风险管理框架，不是证明低于某条线任何人都不会受损，也不覆盖全部娱乐和环境暴露。不同机构、用途和司法辖区还可能采用不同规则，应明确来源。[4](#ref-core-upgrade-niosh-noise)
+
+在等能量近似下，时间减半允许声级提高约 3 dB；这个物理关系不表示生物损伤只由能量决定。频谱、冲击性、间歇、其他风险和个体易感性仍可能使结果不同。将职业建议换算成一张个人“放心听多久”的表，会超出其证据范围。
+
+## 功能表型与测量
+
+### 听力图和阈上表现
+
+某些噪声暴露相关听力图在较高频率出现凹陷，但类似形状并不具有唯一病因，也不是所有噪声损伤都呈相同凹陷。耳道和中耳状态、年龄及其他病因会影响阈值，缺少暴露前资料时尤需谨慎。应记录耳别、频率范围、复测时间和设备校准，而非只用一张典型图代表诊断。[1](#ref-nidcd-nihl)
+
+听阈升高可减少可听度；外毛细胞受损还可能影响频率选择性和响度增长。阈上困难则可能涉及突触或更高层因素。不同测量观察不同环节，常规纯音图正常也不表示所有功能完全正常，但同样不能自动确定隐性病理。人类代理指标的限制应与动物组织证据分开。[3](#ref-guest-synaptopathy-2018)[2](#ref-kujawa-synaptopathy-2009)
+
+### 暴露史与因果解释
+
+暴露问卷可以整理场所、持续时间和保护措施，但回忆式声级估计常含较大误差。若有前瞻性剂量记录和听力基线，更有助于判断时间关系。研究仍需控制年龄、其他噪声源、耳毒性风险和选择偏差；声级总分与听阈相关，不足以单独确定个人损失全部由某次暴露造成。
+
+噪声后耳鸣、耳闷或言语困难提供需要评估的功能信息，但症状与损伤类型并非一一对应。突然明显听力改变应及时接受专业评估，不能依赖在线百科或自行等待阈值恢复。该提示针对出现急性变化的具体情形，不将所有一般声暴露都当作已经发生损伤。
+
+## 保护和研究转化
+
+### 声源控制与实际佩戴
+
+降低声源、改善设备和增加隔离，可以在声音到达听者前减少暴露；缩短时间和适当保护器是其他措施。保护器标称衰减是在特定测试条件下得到，真实衰减受密合、佩戴、维护和频率影响。不能从环境 dBA 中直接减去包装上的一个衰减数字，就认定实际到耳风险已得到准确估计。[4](#ref-core-upgrade-niosh-noise)
+
+风险管理还应兼顾交流和警示信号，避免保护措施被错误佩戴或因难以交流而频繁摘除。复测监测观察长期变化，但不能替代对声源本身的控制。用于科研的可控暴露与真实工作环境不同，实验材料不应被当作自行开展高强度声音试验的依据。
+
+### 动物药物结果与临床应用
+
+2026 年 FK506 研究在小鼠和细胞条件中将保护效应与内质网应激指标减弱联系起来。它支持在该模型中继续研究相应路径，不建立人类预防方案。给药时机、剂量、系统效应和长期功能均需独立验证；结构或阈值保护不能自动代表所有突触和阈上交流恢复。[5](#ref-su-nihl-2026)
+
+## 计算方法与资源
+
+声能积分、剂量和交换率用于描述暴露，不属于完整耳蜗损伤预测器。可参考 [NIOSH 噪声暴露说明](https://www.cdc.gov/niosh/noise/prevent/understand.html) 核对其职业用途。计算工具应明确计权、平均窗口、参考时长和阈值设置，并使用有校准依据的声级输入；未校准麦克风或音频数字幅度不能直接换成暴露 dBA。
+
+外围听觉模型可以操纵耳蜗增益或神经连接，检验可能的生理后果，例如 [Verhulst 等模型代码](https://github.com/HearingTechnology/Verhulstetal2018Model)。这些损伤参数是模型情景，不是依据一个暴露声级便能可靠推断的个人病理。暴露描述、机制模拟与临床风险预测应保持各自的验证要求。[6](#ref-verhulst-model-2018)
+
 ## 研究沿革与近期进展
 
-研究从永久听阈升高扩展到阈值恢复后的神经损伤，以及细胞应激路径。Su 等于 2026 年 9 月在线发表的研究在小鼠与细胞模型中观察 FK506 保护伴随内质网应激指标减弱。摘要支持该模型中的关联，尚不能确定它是全部噪声损伤的唯一机制，也不证明临床预防效果。人类研究中关于正常听力图下困难的阴性证据同样需要保留。[3](#ref-su-nihl-2026 "FK506-mediated prevention of noise-induced hearing loss is associated with attenuated ER stress responses")[4](#ref-guest-synaptopathy-2018 "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure")
+研究从永久听阈升高扩展到阈值恢复后的神经损伤，以及细胞应激路径。Su 等于 2026 年 9 月在线发表的研究在小鼠与细胞模型中观察 FK506 保护伴随内质网应激指标减弱。摘要支持该模型中的关联，尚不能确定它是全部噪声损伤的唯一机制，也不证明临床预防效果。人类研究中关于正常听力图下困难的阴性证据同样需要保留。[5](#ref-su-nihl-2026)[3](#ref-guest-synaptopathy-2018)

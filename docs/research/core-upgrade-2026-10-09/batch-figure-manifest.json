@@ -1,0 +1,428 @@
+[
+  {
+    "slug": "amplitude-modulation",
+    "file": "am-spectrum.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "carrier_Hz": 400,
+      "modulation_Hz": 20,
+      "depths": [
+        0.2,
+        0.8
+      ],
+      "shared_peak_scale": 1.8
+    }
+  },
+  {
+    "slug": "atomic-speech-model",
+    "file": "atomic-events.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "events_each": 30,
+      "bands": 8,
+      "not_original_ASM_stimulus": true
+    }
+  },
+  {
+    "slug": "auditory-plasticity",
+    "file": "plasticity-curves.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "synthetic_learning_curves": true,
+      "no_prescribed_training_dose": true
+    }
+  },
+  {
+    "slug": "binaural-integration",
+    "file": "binaural-baselines.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "fictional_percentages": [
+        [
+          40,
+          75,
+          76,
+          85
+        ],
+        [
+          35,
+          40,
+          65,
+          85
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "binaural-intelligibility-level-difference",
+    "file": "bild-paired.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "diotic": [
+        -4,
+        0,
+        -6
+      ],
+      "antiphasic": [
+        -9,
+        -5,
+        -7
+      ],
+      "BILD_direction": "diotic minus antiphasic"
+    }
+  },
+  {
+    "slug": "channel-interaction",
+    "file": "channel-mixing.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "channels": 8,
+      "Gaussian_widths": [
+        0.45,
+        1.3
+      ],
+      "column_normalized": true
+    }
+  },
+  {
+    "slug": "cochlear-synaptopathy",
+    "file": "synapse-evidence.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "linear_teaching_model": "response = N/100 * synchrony",
+      "not_diagnostic": true
+    }
+  },
+  {
+    "slug": "confusion-matrix",
+    "file": "confusion-patterns.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "matrix1": [
+        [
+          0.7,
+          0.3,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7,
+          0.3,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7,
+          0.3
+        ],
+        [
+          0.3,
+          0.0,
+          0.0,
+          0.7
+        ]
+      ],
+      "matrix2": [
+        [
+          0.7,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.7,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.7,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.7
+        ]
+      ],
+      "row_sums": 1
+    }
+  },
+  {
+    "slug": "f0-in-tfs",
+    "file": "f0intfs-modulation.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "ideal_factor_Hz": 110,
+      "not_full_F0inTFS_algorithm": true
+    }
+  },
+  {
+    "slug": "get-vocoder",
+    "file": "get-overlap.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "carrier_Hz": 1000,
+      "interval_ms": 5,
+      "sigmas_ms": [
+        0.5,
+        2
+      ],
+      "shared_scale": 1.0878813205537694
+    }
+  },
+  {
+    "slug": "mandarin-lexical-tone",
+    "file": "tone-cue-control.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "F0_range_Hz": [
+        140,
+        230
+      ],
+      "not_DiTone_material": true
+    }
+  },
+  {
+    "slug": "n-of-m-coding",
+    "file": "maxima-selection.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "m": 12,
+      "n": 4,
+      "selected_one_based": [
+        4,
+        10,
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "slug": "noise-induced-hearing-loss",
+    "file": "noise-energy.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "equal_energy_only": true,
+      "not_safety_limit": true,
+      "relative_levels_dB": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18
+      ]
+    }
+  },
+  {
+    "slug": "temporal-limits-encoder",
+    "file": "tle-translation.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "original_Hz": [
+        1000,
+        1200
+      ],
+      "shift_Hz": 800,
+      "time_scale": 5,
+      "not_full_TLE_algorithm": true
+    }
+  },
+  {
+    "slug": "zodiac-in-noise",
+    "file": "zin-psychometric.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "guess_floor": 0.08333333333333333,
+      "not_official_ZIN_scoring": true,
+      "center_dB": -10
+    }
+  },
+  {
+    "slug": "interaural-time-difference",
+    "file": "itd-geometry.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "sphere_radius_m": 0.0875,
+      "sound_speed_m_s": 343,
+      "high_frequency_geometry_only": true
+    }
+  },
+  {
+    "slug": "interaural-time-difference",
+    "file": "itd-phase.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "time_difference_us": 200,
+      "wave_carrier_Hz": 500,
+      "sign": "left phase minus right"
+    }
+  },
+  {
+    "slug": "interaural-time-difference",
+    "file": "itd-envelope.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "carrier_Hz": 300,
+      "envelope_Hz": 20,
+      "delay_ms": 3,
+      "teaching_low_carrier": true
+    }
+  },
+  {
+    "slug": "interaural-time-difference",
+    "file": "itd-correlation.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "fs_Hz": 48000,
+      "delay_samples": 10,
+      "actual_delay_us": 208.33333333333334,
+      "correlation": "right versus left; positive lag for delayed right"
+    }
+  },
+  {
+    "slug": "interaural-time-difference",
+    "file": "itd-sampling.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "fs_Hz": 48000,
+      "delays_us": [
+        200,
+        187.5,
+        208.333333
+      ],
+      "no_fractional_delay_model_run": true
+    }
+  },
+  {
+    "slug": "auditory-brainstem-response",
+    "file": "abr-waveform.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "synthetic_peaks_ms": [
+        1.7,
+        3.8,
+        5.5
+      ],
+      "not_normal_ranges": true
+    }
+  },
+  {
+    "slug": "auditory-brainstem-response",
+    "file": "abr-chirp.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "frequencies_kHz": [
+        0.5,
+        1.0,
+        2.0,
+        4.0,
+        8.0
+      ],
+      "assumed_travel_delays_ms": [
+        4.5,
+        3.3,
+        2.3,
+        1.5,
+        1.0
+      ],
+      "not_commercial_chirp": true
+    }
+  },
+  {
+    "slug": "auditory-brainstem-response",
+    "file": "abr-averaging.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "independent_noise_sd_uV": 0.7,
+      "trials": 256,
+      "locked_artifact_in_expected_curve": true
+    }
+  },
+  {
+    "slug": "auditory-brainstem-response",
+    "file": "abr-levels.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "levels_nHL_teaching": [
+        60,
+        40,
+        30,
+        20
+      ],
+      "amplitudes": [
+        1,
+        0.7,
+        0.4,
+        0
+      ],
+      "not_eHL_conversion": true
+    }
+  },
+  {
+    "slug": "auditory-brainstem-response",
+    "file": "abr-polarity.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "ideal_neural_invariant": true,
+      "ideal_reversing_component": true,
+      "not_diagnostic": true
+    }
+  },
+  {
+    "slug": "electroencephalography",
+    "file": "eeg-reference.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "synthetic_channels": 3,
+      "pairwise_differences_preserved": true
+    }
+  },
+  {
+    "slug": "electroencephalography",
+    "file": "eeg-jitter.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "true_peak_ms": 120,
+      "fixed_delay_ms": 20,
+      "jitter_mean_ms": 20,
+      "jitter_sd_ms": 25
+    }
+  },
+  {
+    "slug": "electroencephalography",
+    "file": "eeg-filter.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "smoothing_samples": 31,
+      "sample_interval_ms": 1,
+      "not_software_defaults": true
+    }
+  },
+  {
+    "slug": "electroencephalography",
+    "file": "eeg-phase-power.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "frequency_Hz": 10,
+      "trials": 100,
+      "equal_single_trial_amplitude": true
+    }
+  },
+  {
+    "slug": "electroencephalography",
+    "file": "eeg-validation.svg",
+    "source": "Original mathematical/synthetic illustration; no participant data",
+    "parameters": {
+      "theoretical_AR1_phi": 0.95,
+      "not_model_accuracy": true
+    }
+  }
+]

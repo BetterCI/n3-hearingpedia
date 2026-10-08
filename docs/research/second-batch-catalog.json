@@ -124,8 +124,10 @@
       "scientific_review": "pending",
       "content_path": "src/content/concepts/amplitude-modulation.md",
       "reference_ids": [
+        "viemeister-1979",
         "zhou-tle-2022",
-        "li-covarying-2025"
+        "li-covarying-2025",
+        "dau-1997"
       ]
     },
     {
@@ -149,9 +151,12 @@
       "scientific_review": "pending",
       "content_path": "src/content/concepts/channel-interaction.md",
       "reference_ids": [
+        "zeng-2008",
+        "friesen-2001",
+        "mo-maxima-2023",
         "meng-get-2023",
         "shi-dbd-2024",
-        "zeng-2008"
+        "galvin-2012"
       ]
     },
     {
@@ -175,8 +180,20 @@
       "scientific_review": "pending",
       "content_path": "src/content/concepts/interaural-time-difference.md",
       "reference_ids": [
+        "mcalpine-2001",
+        "binaural-hearing-grothe",
+        "core-upgrade-kuhn",
+        "core-upgrade-itd-hrtf",
+        "core-upgrade-joris",
+        "binaural-hearing-jeffress",
+        "amt-lindemann1986",
+        "kan-tle-2021",
+        "kan-2013",
+        "goupell-2013",
         "wan-itd-2020",
-        "kan-tle-2021"
+        "amt-breebaart2001",
+        "core-upgrade-itd-threshold",
+        "core-upgrade-itd-recent"
       ]
     },
     {
@@ -320,6 +337,8 @@
       "scientific_review": "pending",
       "content_path": "src/content/concepts/mandarin-lexical-tone.md",
       "reference_ids": [
+        "kong-tones-2006",
+        "peng-mandarin-2018",
         "wang-ditone-2022",
         "zhou-f0intfs-2023"
       ]
@@ -344,6 +363,8 @@
       "scientific_review": "pending",
       "content_path": "src/content/concepts/confusion-matrix.md",
       "reference_ids": [
+        "miller-1955",
+        "shannon-1948",
         "zhou-consonants-2026",
         "zhou-consonants-2023"
       ]
@@ -369,8 +390,12 @@
       "scientific_review": "pending",
       "content_path": "src/content/concepts/binaural-integration.md",
       "reference_ids": [
+        "kan-2013",
         "kong-atomic-2025",
-        "shi-dbd-2024"
+        "shi-dbd-2024",
+        "goupell-2013",
+        "amt-lindemann1986",
+        "amt-breebaart2001"
       ]
     },
     {
@@ -394,9 +419,11 @@
       "scientific_review": "pending",
       "content_path": "src/content/concepts/n-of-m-coding.md",
       "reference_ids": [
+        "zeng-2008",
         "mo-maxima-2023",
         "meng-get-2023",
-        "zeng-2008"
+        "zhou-f0intfs-2023",
+        "get-vocoder-code"
       ]
     },
     {
@@ -422,8 +449,8 @@
       "content_path": "src/content/concepts/temporal-limits-encoder.md",
       "reference_ids": [
         "kan-tle-2021",
-        "zhou-tle-2022",
-        "wan-itd-2020"
+        "wan-itd-2020",
+        "zhou-tle-2022"
       ]
     },
     {
@@ -448,7 +475,8 @@
       "content_path": "src/content/concepts/f0-in-tfs.md",
       "reference_ids": [
         "zhou-f0intfs-2023",
-        "wang-ditone-2022"
+        "wang-ditone-2022",
+        "get-vocoder-code"
       ]
     },
     {
@@ -474,6 +502,8 @@
       "content_path": "src/content/concepts/get-vocoder.md",
       "reference_ids": [
         "meng-get-2023",
+        "gabor-1946",
+        "get-vocoder-code",
         "kong-comparable-2023"
       ]
     },
@@ -499,7 +529,8 @@
       "content_path": "src/content/concepts/atomic-speech-model.md",
       "reference_ids": [
         "kong-atomic-2025",
-        "meng-get-2023"
+        "meng-get-2023",
+        "mallat-1993"
       ]
     },
     {
@@ -525,7 +556,9 @@
       "content_path": "src/content/concepts/zodiac-in-noise.md",
       "reference_ids": [
         "zhou-zin-2024",
-        "he-antiphasic-zin-2026"
+        "he-antiphasic-zin-2026",
+        "smits-2004",
+        "de-sousa-2020"
       ]
     },
     {
@@ -549,7 +582,10 @@
       "scientific_review": "pending",
       "content_path": "src/content/concepts/binaural-intelligibility-level-difference.md",
       "reference_ids": [
-        "he-antiphasic-zin-2026"
+        "de-sousa-2020",
+        "he-antiphasic-zin-2026",
+        "amt-breebaart2001",
+        "amt-lindemann1986"
       ]
     }
   ],

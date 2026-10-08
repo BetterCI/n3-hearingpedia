@@ -554,37 +554,39 @@
       "slug": "amplitude-modulation",
       "knowledge_area": "sound",
       "kind": "quantity",
-      "chinese_characters": 1495,
-      "body_characters": 3321,
-      "sections": 5,
-      "subsections": 8,
+      "chinese_characters": 2829,
+      "body_characters": 4460,
+      "sections": 8,
+      "subsections": 11,
       "reference_ids": [
+        "viemeister-1979",
         "zhou-tle-2022",
         "li-covarying-2025",
-        "viemeister-1979",
         "dau-1997"
       ],
       "wiki_links": [
         "temporal-envelope",
-        "masking"
+        "masking",
+        "temporal-resolution"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "channel-interaction",
       "knowledge_area": "technology",
       "kind": "mechanism",
-      "chinese_characters": 1644,
-      "body_characters": 3460,
-      "sections": 6,
-      "subsections": 9,
+      "chinese_characters": 2923,
+      "body_characters": 4347,
+      "sections": 9,
+      "subsections": 11,
       "reference_ids": [
-        "meng-get-2023",
-        "shi-dbd-2024",
         "zeng-2008",
         "friesen-2001",
-        "galvin-2012",
-        "mo-maxima-2023"
+        "mo-maxima-2023",
+        "meng-get-2023",
+        "shi-dbd-2024",
+        "galvin-2012"
       ],
       "wiki_links": [
         "cochlear-implant",
@@ -594,29 +596,41 @@
         "vocoder",
         "masking"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "interaural-time-difference",
       "knowledge_area": "sound",
       "kind": "quantity",
-      "chinese_characters": 1527,
-      "body_characters": 3738,
-      "sections": 5,
-      "subsections": 9,
+      "chinese_characters": 8139,
+      "body_characters": 12761,
+      "sections": 13,
+      "subsections": 30,
       "reference_ids": [
-        "wan-itd-2020",
-        "kan-tle-2021",
         "mcalpine-2001",
+        "binaural-hearing-grothe",
+        "core-upgrade-kuhn",
+        "core-upgrade-itd-hrtf",
+        "core-upgrade-joris",
+        "binaural-hearing-jeffress",
+        "amt-lindemann1986",
+        "kan-tle-2021",
+        "kan-2013",
         "goupell-2013",
-        "kan-2013"
+        "wan-itd-2020",
+        "amt-breebaart2001",
+        "core-upgrade-itd-threshold",
+        "core-upgrade-itd-recent"
       ],
       "wiki_links": [
-        "binaural-intelligibility-level-difference",
-        "vocoder",
-        "cochlear-implant"
+        "spatial-hearing",
+        "temporal-envelope",
+        "temporal-fine-structure",
+        "binaural-intelligibility-level-difference"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "in-depth"
     },
     {
       "slug": "speech-reception-threshold",
@@ -774,15 +788,15 @@
       "slug": "mandarin-lexical-tone",
       "knowledge_area": "perception",
       "kind": "linguistic",
-      "chinese_characters": 2032,
-      "body_characters": 4297,
-      "sections": 6,
-      "subsections": 12,
+      "chinese_characters": 3403,
+      "body_characters": 5640,
+      "sections": 9,
+      "subsections": 17,
       "reference_ids": [
-        "wang-ditone-2022",
-        "zhou-f0intfs-2023",
         "kong-tones-2006",
-        "peng-mandarin-2018"
+        "peng-mandarin-2018",
+        "wang-ditone-2022",
+        "zhou-f0intfs-2023"
       ],
       "wiki_links": [
         "fundamental-frequency",
@@ -790,40 +804,44 @@
         "vocoder",
         "cochlear-implant"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "confusion-matrix",
       "knowledge_area": "methods",
       "kind": "analysis",
-      "chinese_characters": 1572,
-      "body_characters": 3166,
-      "sections": 6,
-      "subsections": 9,
+      "chinese_characters": 2841,
+      "body_characters": 4317,
+      "sections": 8,
+      "subsections": 13,
       "reference_ids": [
-        "zhou-consonants-2026",
-        "zhou-consonants-2023",
+        "miller-1955",
         "shannon-1948",
-        "miller-1955"
+        "zhou-consonants-2026",
+        "zhou-consonants-2023"
       ],
       "wiki_links": [
         "cochlear-implant"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "binaural-integration",
       "knowledge_area": "perception",
       "kind": "function",
-      "chinese_characters": 1661,
-      "body_characters": 3470,
-      "sections": 5,
-      "subsections": 10,
+      "chinese_characters": 3234,
+      "body_characters": 4964,
+      "sections": 8,
+      "subsections": 15,
       "reference_ids": [
+        "kan-2013",
         "kong-atomic-2025",
         "shi-dbd-2024",
-        "kan-2013",
-        "goupell-2013"
+        "goupell-2013",
+        "amt-lindemann1986",
+        "amt-breebaart2001"
       ],
       "wiki_links": [
         "masking",
@@ -831,42 +849,46 @@
         "binaural-intelligibility-level-difference",
         "vocoder"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "n-of-m-coding",
       "knowledge_area": "technology",
       "kind": "strategy",
-      "chinese_characters": 1514,
-      "body_characters": 3500,
-      "sections": 5,
-      "subsections": 9,
+      "chinese_characters": 2965,
+      "body_characters": 4795,
+      "sections": 8,
+      "subsections": 14,
       "reference_ids": [
+        "zeng-2008",
         "mo-maxima-2023",
         "meng-get-2023",
-        "zeng-2008",
-        "zhou-f0intfs-2023"
+        "zhou-f0intfs-2023",
+        "get-vocoder-code"
       ],
       "wiki_links": [
         "cochlear-implant",
         "channel-interaction",
         "vocoder",
-        "masking"
+        "masking",
+        "cochlear-implant-coding-strategies"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "temporal-limits-encoder",
       "knowledge_area": "technology",
       "kind": "strategy",
-      "chinese_characters": 1164,
-      "body_characters": 2722,
-      "sections": 5,
-      "subsections": 7,
+      "chinese_characters": 2833,
+      "body_characters": 4546,
+      "sections": 9,
+      "subsections": 10,
       "reference_ids": [
         "kan-tle-2021",
-        "zhou-tle-2022",
-        "wan-itd-2020"
+        "wan-itd-2020",
+        "zhou-tle-2022"
       ],
       "wiki_links": [
         "temporal-fine-structure",
@@ -874,19 +896,21 @@
         "f0-in-tfs",
         "vocoder"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "f0-in-tfs",
       "knowledge_area": "technology",
       "kind": "strategy",
-      "chinese_characters": 1611,
-      "body_characters": 3159,
-      "sections": 6,
-      "subsections": 9,
+      "chinese_characters": 2998,
+      "body_characters": 4702,
+      "sections": 8,
+      "subsections": 13,
       "reference_ids": [
         "zhou-f0intfs-2023",
-        "wang-ditone-2022"
+        "wang-ditone-2022",
+        "get-vocoder-code"
       ],
       "wiki_links": [
         "vocoder",
@@ -896,21 +920,22 @@
         "speech-intelligibility",
         "cochlear-implant"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "get-vocoder",
       "knowledge_area": "methods",
       "kind": "model",
-      "chinese_characters": 1663,
-      "body_characters": 4232,
-      "sections": 7,
-      "subsections": 10,
+      "chinese_characters": 3105,
+      "body_characters": 5694,
+      "sections": 10,
+      "subsections": 16,
       "reference_ids": [
         "meng-get-2023",
-        "kong-comparable-2023",
         "gabor-1946",
-        "get-vocoder-code"
+        "get-vocoder-code",
+        "kong-comparable-2023"
       ],
       "wiki_links": [
         "vocoder",
@@ -919,16 +944,17 @@
         "cochlea",
         "cochlear-implant"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "atomic-speech-model",
       "knowledge_area": "methods",
       "kind": "model",
-      "chinese_characters": 1530,
-      "body_characters": 3097,
-      "sections": 6,
-      "subsections": 9,
+      "chinese_characters": 2959,
+      "body_characters": 4629,
+      "sections": 8,
+      "subsections": 12,
       "reference_ids": [
         "kong-atomic-2025",
         "meng-get-2023",
@@ -941,16 +967,17 @@
         "binaural-integration",
         "masking"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "zodiac-in-noise",
       "knowledge_area": "measurement",
       "kind": "test",
-      "chinese_characters": 1684,
-      "body_characters": 3551,
-      "sections": 6,
-      "subsections": 9,
+      "chinese_characters": 3192,
+      "body_characters": 4828,
+      "sections": 10,
+      "subsections": 13,
       "reference_ids": [
         "zhou-zin-2024",
         "he-antiphasic-zin-2026",
@@ -961,19 +988,22 @@
         "speech-reception-threshold",
         "binaural-intelligibility-level-difference"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "binaural-intelligibility-level-difference",
       "knowledge_area": "measurement",
       "kind": "metric",
-      "chinese_characters": 1555,
-      "body_characters": 3261,
-      "sections": 6,
-      "subsections": 10,
+      "chinese_characters": 2845,
+      "body_characters": 4693,
+      "sections": 9,
+      "subsections": 13,
       "reference_ids": [
+        "de-sousa-2020",
         "he-antiphasic-zin-2026",
-        "de-sousa-2020"
+        "amt-breebaart2001",
+        "amt-lindemann1986"
       ],
       "wiki_links": [
         "masking",
@@ -981,7 +1011,8 @@
         "binaural-integration",
         "speech-intelligibility"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "hearing-loss",
@@ -1209,25 +1240,36 @@
       "slug": "auditory-brainstem-response",
       "knowledge_area": "measurement",
       "kind": "physiological-response",
-      "chinese_characters": 1248,
-      "body_characters": 2662,
-      "sections": 6,
-      "subsections": 3,
+      "chinese_characters": 8042,
+      "body_characters": 13081,
+      "sections": 13,
+      "subsections": 33,
       "reference_ids": [
-        "asha-abr",
-        "picton-aep-1974",
         "jewett-abr-1971",
-        "jennings-chirp-2026",
-        "guest-synaptopathy-2018"
+        "picton-aep-1974",
+        "asha-abr",
+        "core-upgrade-abr-gorga",
+        "core-upgrade-jcih-2019",
+        "verhulst-model-2018",
+        "core-upgrade-abr-don",
+        "core-upgrade-stapells",
+        "core-upgrade-dau-chirp",
+        "core-upgrade-bsa-newborn",
+        "core-upgrade-jcih-faq",
+        "core-upgrade-bsa-current",
+        "core-upgrade-bsa-abr-adult",
+        "core-upgrade-abr-starr",
+        "core-upgrade-abr-human",
+        "kujawa-synaptopathy-2009",
+        "guest-synaptopathy-2018",
+        "widmann-2015",
+        "jennings-chirp-2026"
       ],
       "wiki_links": [
-        "auditory-evoked-potential",
-        "cochlear-implant",
-        "speech-intelligibility",
-        "auditory-attention",
-        "cochlear-synaptopathy"
+        "auditory-evoked-potential"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "in-depth"
     },
     {
       "slug": "auditory-evoked-potential",
@@ -1269,24 +1311,34 @@
       "slug": "electroencephalography",
       "knowledge_area": "methods",
       "kind": "test",
-      "chinese_characters": 1269,
-      "body_characters": 2524,
-      "sections": 6,
-      "subsections": 3,
+      "chinese_characters": 8041,
+      "body_characters": 12355,
+      "sections": 14,
+      "subsections": 32,
       "reference_ids": [
-        "osullivan-aad-2015",
         "picton-aep-1974",
+        "core-upgrade-eeg-keil",
+        "core-upgrade-gramfort",
+        "core-upgrade-mne-implementation",
+        "widmann-2015",
+        "core-upgrade-tanner",
+        "core-upgrade-delorme",
+        "core-upgrade-eeglab-ica",
+        "core-upgrade-mne-preprocessing",
+        "osullivan-aad-2015",
+        "guo-tracking-2026",
         "mo-ci-adaptation-2026",
-        "guo-tracking-2026"
+        "core-upgrade-fieldtrip",
+        "core-upgrade-eeg-bids",
+        "maris-2007",
+        "core-upgrade-nolte"
       ],
       "wiki_links": [
         "auditory-evoked-potential",
-        "neural-speech-tracking",
-        "cochlear-implant",
-        "auditory-attention",
-        "auditory-plasticity"
+        "neural-speech-tracking"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "in-depth"
     },
     {
       "slug": "auditory-attention",
@@ -1420,10 +1472,10 @@
       "slug": "auditory-plasticity",
       "knowledge_area": "biology",
       "kind": "mechanism",
-      "chinese_characters": 1321,
-      "body_characters": 2349,
-      "sections": 6,
-      "subsections": 3,
+      "chinese_characters": 2958,
+      "body_characters": 4396,
+      "sections": 9,
+      "subsections": 8,
       "reference_ids": [
         "fu-plasticity-2005",
         "mo-ci-adaptation-2026",
@@ -1439,7 +1491,8 @@
         "spatial-hearing",
         "listening-effort"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "listening-effort",
@@ -1512,15 +1565,17 @@
       "slug": "noise-induced-hearing-loss",
       "knowledge_area": "biology",
       "kind": "condition",
-      "chinese_characters": 1328,
-      "body_characters": 2753,
-      "sections": 6,
-      "subsections": 3,
+      "chinese_characters": 2783,
+      "body_characters": 4493,
+      "sections": 10,
+      "subsections": 9,
       "reference_ids": [
         "nidcd-nihl",
         "kujawa-synaptopathy-2009",
+        "guest-synaptopathy-2018",
+        "core-upgrade-niosh-noise",
         "su-nihl-2026",
-        "guest-synaptopathy-2018"
+        "verhulst-model-2018"
       ],
       "wiki_links": [
         "hearing-loss",
@@ -1531,19 +1586,22 @@
         "auditory-brainstem-response",
         "speech-intelligibility"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "cochlear-synaptopathy",
       "knowledge_area": "biology",
       "kind": "condition",
-      "chinese_characters": 1315,
-      "body_characters": 2962,
-      "sections": 6,
-      "subsections": 3,
+      "chinese_characters": 2884,
+      "body_characters": 4491,
+      "sections": 10,
+      "subsections": 7,
       "reference_ids": [
         "kujawa-synaptopathy-2009",
         "guest-synaptopathy-2018",
+        "core-upgrade-abr-human",
+        "verhulst-model-2018",
         "cheema-synaptopathy-2026"
       ],
       "wiki_links": [
@@ -1552,9 +1610,11 @@
         "auditory-brainstem-response",
         "pure-tone-audiometry",
         "speech-intelligibility",
-        "noise-induced-hearing-loss"
+        "noise-induced-hearing-loss",
+        "inner-hair-cell"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "standard"
     },
     {
       "slug": "formant",

@@ -7,28 +7,29 @@ categories: ["hearing-loss","ear-cochlea","neuroscience"]
 tags: ["cochlear-synaptopathy"]
 aliases: ["耳蜗突触损伤","cochlear synaptic loss","隐性听力损失","hidden hearing loss"]
 status: draft
-last_updated: "2026-10-04"
-authors: ["AI 辅助初稿"]
-references: ["kujawa-synaptopathy-2009","guest-synaptopathy-2018","cheema-synaptopathy-2026"]
+last_updated: "2026-10-09"
+authors: ["AI 辅助编写"]
+references: ["kujawa-synaptopathy-2009","guest-synaptopathy-2018","core-upgrade-abr-human","verhulst-model-2018","cheema-synaptopathy-2026"]
 batch: 3
 order: 42
-literature_checked_at: "2026-10-04"
+literature_checked_at: "2026-10-09"
 knowledge_area: "biology"
 kind: "condition"
 key_facts: [{"label":"主要环节","value":"内毛细胞—传入神经突触"},{"label":"直接证据","value":"组织学连接与相关结构"},{"label":"人类评估边界","value":"目前代理指标不能简单等同确诊"}]
+depth: standard
 ---
 
-**耳蜗突触病变**（cochlear synaptopathy）指内毛细胞与传入听神经之间突触连接的损伤或丢失。它描述[耳蜗](../cochlea/)中的病理环节，区别于[外毛细胞](../outer-hair-cell/)损伤及单纯的行为困难。动物组织学可以直接观察相关结构；人类非侵入性研究常用功能代理，因此证据强度和可解释范围不同。[1](#ref-kujawa-synaptopathy-2009 "Adding Insult to Injury: Cochlear Nerve Degeneration after “Temporary” Noise-Induced Hearing Loss")[2](#ref-guest-synaptopathy-2018 "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure")
+**耳蜗突触病变**（cochlear synaptopathy）指内毛细胞与传入听神经之间突触连接的损伤或丢失。它描述[耳蜗](../cochlea/)中的病理环节，区别于[外毛细胞](../outer-hair-cell/)损伤及单纯的行为困难。动物组织学可以直接观察相关结构；人类非侵入性研究常用功能代理，因此证据强度和可解释范围不同。[1](#ref-kujawa-synaptopathy-2009)[2](#ref-guest-synaptopathy-2018)
 
 ## 定义与相关概念
 
 ### 与听阈的关系
 
-部分动物模型中，突触损伤可在听阈恢复后持续存在。这说明某些阈上神经输入变化不一定由常规阈值完整呈现，但并不说明突触损伤一定不改变听阈，也不说明所有正常听阈者都存在这种病变。暴露、年龄、损伤范围和物种均影响关系。[1](#ref-kujawa-synaptopathy-2009 "Adding Insult to Injury: Cochlear Nerve Degeneration after “Temporary” Noise-Induced Hearing Loss")
+部分动物模型中，突触损伤可在听阈恢复后持续存在。这说明某些阈上神经输入变化不一定由常规阈值完整呈现，但并不说明突触损伤一定不改变听阈，也不说明所有正常听阈者都存在这种病变。暴露、年龄、损伤范围和物种均影响关系。[1](#ref-kujawa-synaptopathy-2009)
 
 ### 与隐性听力损失的区别
 
-“隐性听力损失”常用来描述常规听力图未显示明显异常却有听觉困难的情况，其使用并不完全统一。它不是与耳蜗突触病变严格一一对应的病理诊断。噪声语音困难还可能涉及频率范围、语言、注意、中枢处理和测量条件；搜索别名只是方便定位，不表示两词完全同义。[2](#ref-guest-synaptopathy-2018 "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure")
+“隐性听力损失”常用来描述常规听力图未显示明显异常却有听觉困难的情况，其使用并不完全统一。它不是与耳蜗突触病变严格一一对应的病理诊断。噪声语音困难还可能涉及频率范围、语言、注意、中枢处理和测量条件；搜索别名只是方便定位，不表示两词完全同义。[2](#ref-guest-synaptopathy-2018)
 
 ### 与其他神经异常的区别
 
@@ -38,7 +39,7 @@ key_facts: [{"label":"主要环节","value":"内毛细胞—传入神经突触"}
 
 内毛细胞通过突触连接听神经纤维，输入的时间和强度信息进入传入通路。减少连接可能改变神经群体输入，而残余功能仍可支持某些简单检测任务。因此阈值与复杂背景中的编码可能受到不同程度影响，但具体效应需要实验验证。
 
-2009 年 Kujawa 与 Liberman 的小鼠研究在特定噪声暴露后观察到阈值恢复与持久突触及神经损伤的分离，提供了重要结构证据。研究还结合生理指标，但其动物条件不是对人类暴露和临床症状的直接复制。将这一实验扩展为人群结论，必须有另外的人类证据。[1](#ref-kujawa-synaptopathy-2009 "Adding Insult to Injury: Cochlear Nerve Degeneration after “Temporary” Noise-Induced Hearing Loss")
+2009 年 Kujawa 与 Liberman 的小鼠研究在特定噪声暴露后观察到阈值恢复与持久突触及神经损伤的分离，提供了重要结构证据。研究还结合生理指标，但其动物条件不是对人类暴露和临床症状的直接复制。将这一实验扩展为人群结论，必须有另外的人类证据。[1](#ref-kujawa-synaptopathy-2009)
 
 ## 人类测量与不确定性
 
@@ -46,7 +47,7 @@ key_facts: [{"label":"主要环节","value":"内毛细胞—传入神经突触"}
 
 人类研究还需控制高频听阈、性别、年龄与暴露估计，并说明所用刺激能否有效覆盖目标功能。正常常规听力图不意味着所有频率和其他外周功能均已匹配。小样本、窄暴露范围及代理敏感性限制都可能影响结果。
 
-Guest 等对正常听力图但噪声语音困难人群的研究，没有观察到支持其突触病变假说的 ABR/EFR 或终生噪声暴露关联。这一阴性结果不否定所有动物病理证据，但限制了把症状与病变直接等同的做法。[2](#ref-guest-synaptopathy-2018 "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure")
+Guest 等对正常听力图但噪声语音困难人群的研究，没有观察到支持其突触病变假说的 ABR/EFR 或终生噪声暴露关联。这一阴性结果不否定所有动物病理证据，但限制了把症状与病变直接等同的做法。[2](#ref-guest-synaptopathy-2018)
 
 ## 应用与诊断边界
 
@@ -58,6 +59,53 @@ Guest 等对正常听力图但噪声语音困难人群的研究，没有观察�
 
 若正常听力图受试者在一种噪声条件下成绩较差，可以先确认语料、语言、注意和高频阈值，再观察多个候选生理指标。如果没有直接结构证据，应写“存在该任务下的困难，与某代理有关”，不能写“已证实突触丢失”。若模型能够区分困难组，也必须检验独立预测和特异性，而不是只看训练集分类。
 
+## 突触结构与功能的对应
+
+### 带状突触和传入连接
+
+[内毛细胞](../inner-hair-cell/)通过基底侧的带状突触向传入纤维释放递质。组织学研究可以观察突触前和突触后标记的配对，也可以结合神经纤维和细胞体指标。只统计一个标记的斑点，不一定等于完整功能连接；样本处理、成像、空间配对及计数规则都会影响估计。
+
+连接减少可能使神经群体响应变小，但响应幅度还受到放电同步、输入强度、纤维类型和记录电极影响。因此“突触数减少”与“诱发反应下降”需要分别验证。动物研究有机会在同一模型中连接组织与功能，人类非侵入研究通常无法对同一个体取得这种直接病理对照。[1](#ref-kujawa-synaptopathy-2009)[3](#ref-core-upgrade-abr-human)
+
+### 听阈恢复的具体含义
+
+2009 年小鼠研究的重要之处，是在其暴露条件中区分了可恢复的阈值变化与持续的连接损伤。它说明阈值不是所有耳蜗损伤的完整指标，却不能证明人类任意一次短期阈移都会造成同样的突触丢失。物种、暴露频谱、声级、年龄和观察时间改变后，需要新的证据。[1](#ref-kujawa-synaptopathy-2009)
+
+对于一名常规听力图正常但噪声中交流困难的人，还应考虑高频听阈、外毛细胞功能、语言和注意等因素。多种机制可以产生相近的主诉；“隐性听力损失”作为宽泛描述时尤其不能当作已经完成的病理诊断。症状真实存在与其具体病理机制已确定，是两个独立问题。
+
+<figure class="encyclopedia-figure">
+<a href="/n3-hearingpedia/figures/cochlear-synaptopathy/synapse-evidence.svg" target="_blank" rel="noopener" aria-label="查看完整图片"><img src="/n3-hearingpedia/figures/cochlear-synaptopathy/synapse-evidence.svg" alt="突触连接数量与群体响应的线性教学例子" loading="lazy" /></a>
+<figcaption><p>图 1 突触连接数量与群体响应的线性教学例子。相同连接数在不同同步条件下可产生不同响应幅度；相同幅度也可对应不同连接数。纵轴为归一化模型响应，非真实 ABR 或诊断换算表。</p></figcaption>
+</figure>
+
+## 候选指标为什么尚不等同病理确诊
+
+### 脑干反应与包络跟随反应
+
+听觉脑干反应 I 波较接近听神经群体输入，因此被用于候选评估；但头皮 I 波较小，受到解剖、性别、声级、电极和高频可听度影响。I/V 波幅比尝试降低部分个体差异，但分母本身也受中枢因素影响，不能保证消除所有混杂。波幅的正常范围与突触数量之间尚缺少可靠的个人换算。[3](#ref-core-upgrade-abr-human)
+
+包络跟随反应观察持续调制的同步响应。刺激载频、调制频率与深度、声级以及不同神经源共同影响结果，某种配置可能更敏感于外周变化，却不代表完全特异。若比较组的外毛细胞状态和可听度不同，反应差异仍可能来自这些环节，而非单独来自突触连接。
+
+### 阴性研究的价值
+
+Guest 等在人类正常听力图但噪声言语困难研究中，未发现支持该样本突触病变解释的 ABR、包络跟随反应或终生噪声暴露关联。这个结果限制了简单症状映射，却不推翻动物组织证据；同样，不能把阴性结果直接说成任何代理指标都毫无价值。应比较刺激是否针对目标功能、样本范围和测量可靠性。[2](#ref-guest-synaptopathy-2018)
+
+设计更好的研究，需要先明确要检验“存在损伤”“造成某种行为困难”还是“可用于个人筛查”。三个问题要求不同参照。群体相关能够支持联系，独立分类能够支持预测，而病理特异性还需要排除其他原因。多个相关指标同时异常，也不自动构成金标准。
+
+## 计算模型与公开代码
+
+Verhulst 等的人类外围模型连接耳蜗、内毛细胞、听神经和脑干处理，并可以改变耳蜗增益与纤维群体参数，比较 ABR 和包络跟随反应的变化。这提供了检验假设的工具：同一种输出改变究竟能否由不同损伤产生，以及候选刺激能否区分这些情况。参数中的纤维减少是模型设定，不是从患者数据直接测出的真实数量。[4](#ref-verhulst-model-2018)
+
+代码入口为 [HearingTechnology/Verhulstetal2018Model](https://github.com/HearingTechnology/Verhulstetal2018Model)。使用时应记录版本及其脑干模块、校准常数和损伤配置。本文没有运行该完整模型；配图只演示连接数量与同步程度共同影响幅度，不复现其输出。模型预测与实验一致时仍应使用新的刺激和数据验证，避免仅以同一拟合资料循环证明假设。
+
+2026 年模型引导语音探针预印本尝试利用低语境材料区分自报困难组，为测试设计提供线索。它没有提供个人组织学确诊，也尚未完成同行评审；新增行为敏感性不等于病理特异性已经确立。研究的下一步应包括可靠性、独立验证，以及对外周和中枢替代解释的比较。[5](#ref-cheema-synaptopathy-2026)
+
+## 转化研究的评价层次
+
+保存或再生突触、恢复神经响应和改善日常交流，应分别作为结果。动物中某种处理增加组织标记，不保证新连接具有正常传递和长期稳定性；神经响应增大也可能涉及同步改变。人类干预还需要安全性和临床功能证据，不能仅从动物结构结果推导治疗承诺。
+
+实际听觉评估仍应以已验证的听力和交流测量为基础。对常规听力图正常却有困难的听者，可以承认并测量任务限制，而无需先给出未经证实的突触病变标签。保留这一层次区分，有助于让新机制研究与成熟的听力评价相互补充。
+
 ## 研究沿革与近期进展
 
-动物组织学开启了阈值恢复后损伤的研究，人类结果则更加异质。2026 年 9 月 Cheema 等预印本在 36 名正常听力图受试者中，用模型引导的低语境语音探针探索组间差异；摘要报告组合条件比单一条件更能区分自报困难组。它尚未同行评审，行为分组也未提供病理确诊。因此本词条将其作为测试设计线索，并与人类阴性研究共同呈现。[3](#ref-cheema-synaptopathy-2026 "Model-Guided Design of Low-Context Speech Probes for Cochlear Synaptopathy")[2](#ref-guest-synaptopathy-2018 "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure")
+动物组织学开启了阈值恢复后损伤的研究，人类结果则更加异质。2026 年 9 月 Cheema 等预印本在 36 名正常听力图受试者中，用模型引导的低语境语音探针探索组间差异；摘要报告组合条件比单一条件更能区分自报困难组。它尚未同行评审，行为分组也未提供病理确诊。因此本词条将其作为测试设计线索，并与人类阴性研究共同呈现。[5](#ref-cheema-synaptopathy-2026)[2](#ref-guest-synaptopathy-2018)

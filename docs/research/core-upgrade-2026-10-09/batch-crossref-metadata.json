@@ -1,0 +1,1191 @@
+{
+  "kuhn": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T04:58:40Z",
+      "timestamp": 1791349120360,
+      "version": "4.3.1"
+    },
+    "reference-count": 0,
+    "publisher": "Acoustical Society of America (ASA)",
+    "issue": "1",
+    "content-domain": {
+      "domain": [
+        "pubs.aip.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1977,
+          7,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1121/1.381498",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2005,
+          10,
+          3
+        ]
+      ],
+      "date-time": "2005-10-03T18:08:42Z",
+      "timestamp": 1128362922000
+    },
+    "page": "157-167",
+    "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+    "source": "Crossref",
+    "is-referenced-by-count": 318,
+    "title": [
+      "Model for the interaural time differences in the azimuthal plane"
+    ],
+    "prefix": "10.1121",
+    "volume": "62",
+    "author": [
+      {
+        "given": "George F.",
+        "family": "Kuhn",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute for Basic Standards, National Bureau of Standards, Washington, D.C. 20234"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "231",
+    "container-title": [
+      "The Journal of the Acoustical Society of America"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.aip.org/asa/jasa/article-pdf/62/1/157/11465711/157_1_online.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/asa/jasa/article-pdf/62/1/157/11465711/157_1_online.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          24
+        ]
+      ],
+      "date-time": "2023-07-24T04:54:27Z",
+      "timestamp": 1690174467000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.aip.org/jasa/article/62/1/157/751577/Model-for-the-interaural-time-differences-in-the"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1977,
+          7,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            1977,
+            7,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1121/1.381498",
+    "relation": {},
+    "ISSN": [
+      "0001-4966",
+      "1520-8524"
+    ],
+    "issn-type": [
+      {
+        "value": "0001-4966",
+        "type": "print"
+      },
+      {
+        "value": "1520-8524",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          1977,
+          7
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          1977,
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  "itd-hrtf": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          8
+        ]
+      ],
+      "date-time": "2025-09-08T06:20:10Z",
+      "timestamp": 1757312410420,
+      "version": "3.37.3"
+    },
+    "reference-count": 90,
+    "publisher": "EDP Sciences",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              12
+            ]
+          ],
+          "date-time": "2022-08-12T00:00:00Z",
+          "timestamp": 1660262400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 223,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100011264",
+        "name": "FP7 People: Marie-Curie Actions",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ITN-FP7-607139"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ITN-FP7-607139"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100011264",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "German Research Foundation",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "DFG-402811912"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DFG-402811912"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100007601",
+        "name": "Horizon 2020",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EC-101017743"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EC-101017743"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100007601",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Acta Acust."
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          2
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.1051/aacus/2022020",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          12
+        ]
+      ],
+      "date-time": "2022-08-12T07:53:44Z",
+      "timestamp": 1660290824000
+    },
+    "page": "34",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Hybrid multi-harmonic model for the prediction of interaural time differences in individual behind-the-ear hearing-aid-related transfer functions"
+    ],
+    "prefix": "10.1051",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2728-3170",
+        "authenticated-orcid": false,
+        "given": "Florian",
+        "family": "Pausch",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0355-1639",
+        "authenticated-orcid": false,
+        "given": "Shaima’a",
+        "family": "Doma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8694-7750",
+        "authenticated-orcid": false,
+        "given": "Janina",
+        "family": "Fels",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "250",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "R1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vorländer M.: Auralization – fundamentals of acoustics, modelling, simulation, algorithms and acoustic virtual reality, Springer, 2020.",
+        "DOI": "10.1007/978-3-030-51202-6"
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Blauert J.: Spatial hearing: the psychophysics of human sound localization, MIT Press, Cambridge, MA, 1997.",
+        "DOI": "10.7551/mitpress/6391.001.0001"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "crossref",
+        "first-page": "6:1",
+        "DOI": "10.1155/2009/298605",
+        "volume": "2009",
+        "author": "Kayser",
+        "year": "2009",
+        "journal-title": "EURASIP Journal on Advances in Signal Processing"
+      },
+      {
+        "issue": "6",
+        "key": "R4",
+        "doi-asserted-by": "crossref",
+        "first-page": "4732",
+        "DOI": "10.1121/1.4705292",
+        "volume": "131",
+        "author": "Mueller",
+        "year": "2012",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2331216 518779313",
+        "DOI": "10.1177/2331216518779313",
+        "volume": "22",
+        "author": "Denk",
+        "year": "2018",
+        "journal-title": "Trends in Hearing"
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2331216518800871",
+        "DOI": "10.1177/2331216518800871",
+        "volume": "22",
+        "author": "Pausch",
+        "year": "2018",
+        "journal-title": "Trends in Hearing"
+      },
+      {
+        "issue": "2",
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "818",
+        "DOI": "10.1121/1.4883372",
+        "volume": "136",
+        "author": "Durin",
+        "year": "2014",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "4",
+        "key": "R8",
+        "doi-asserted-by": "crossref",
+        "first-page": "2072",
+        "DOI": "10.1121/1.5056173",
+        "volume": "144",
+        "author": "Denk",
+        "year": "2018",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "3",
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1732",
+        "DOI": "10.1121/1.5126521",
+        "volume": "146",
+        "author": "Denk",
+        "year": "2019",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2331216520908704",
+        "DOI": "10.1177/2331216520908704",
+        "volume": "24",
+        "author": "Pausch",
+        "year": "2020",
+        "journal-title": "Trends in Hearing"
+      },
+      {
+        "key": "R11",
+        "unstructured": "Jot J.-M., Larcher V., Warusfel O.: Digital signal processing issues in the context of binaural and transaural stereophony. Audio Engineering Society Convention 98 (1995) Feb. 1995. [Online]. Available: http://www.aes.org/e-lib/browse.cfm?elib=7786."
+      },
+      {
+        "issue": "3",
+        "key": "R12",
+        "first-page": "115",
+        "volume": "55",
+        "author": "Møller",
+        "year": "2007",
+        "journal-title": "Journal of the Audio Engineering Society"
+      },
+      {
+        "issue": "6",
+        "key": "R13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1567",
+        "DOI": "10.1121/1.381470",
+        "volume": "61",
+        "author": "Mehrgardt",
+        "year": "1977",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "3",
+        "key": "R14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1637",
+        "DOI": "10.1121/1.402444",
+        "volume": "91",
+        "author": "Kistler",
+        "year": "1992",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R15",
+        "unstructured": "Plogsties J., Minnaar P., Olesen S.K., Christensen F., Moller H.: Audibility of all-pass components in head-related transfer functions. Audio Engineering Society Convention 108 108 (2000) Feb. 2000. [Online]. Available: http://www.aes.org/e-lib/browse.cfm?elib=9206."
+      },
+      {
+        "key": "R16",
+        "unstructured": "Woodworth R.S., Schlosberg H.: Experimental psychology. Rev ed., Holt, Oxford, England, 1954."
+      },
+      {
+        "issue": "1",
+        "key": "R17",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1121/1.381498",
+        "volume": "62",
+        "author": "Kuhn",
+        "year": "1977",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "6",
+        "key": "R18",
+        "first-page": "472",
+        "volume": "49",
+        "author": "Algazi",
+        "year": "2001",
+        "journal-title": "Journal of the Audio Engineering Society"
+      },
+      {
+        "key": "R19",
+        "unstructured": "Algazi V.R., Duda R.O., Thompson D.M., Avendano C.: The CIPIC HRTF database, in Proceedings of the 2001 IEEE Workshop on the Applications of Signal Processing to Audio and Acoustics (Cat. No. 01TH8575). 2001, 99–102."
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "965",
+        "DOI": "10.1109/ICASSP.1999.759855",
+        "volume": "2",
+        "author": "Duda",
+        "year": "1999",
+        "journal-title": "1999 IEEE International Conference on Acoustics, Speech, and Signal Processing. Proceedings. ICASSP99 (Cat. No. 99CH36258)"
+      },
+      {
+        "issue": "11",
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "first-page": "882",
+        "DOI": "10.17743/jaes.2016.0041",
+        "volume": "64",
+        "author": "Bomhardt",
+        "year": "2016",
+        "journal-title": "Journal of the Audio Engineering Society"
+      },
+      {
+        "issue": "5",
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "first-page": "2440",
+        "DOI": "10.1121/1.1412440",
+        "volume": "110",
+        "author": "Katz",
+        "year": "2001",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "1",
+        "key": "R23",
+        "doi-asserted-by": "crossref",
+        "first-page": "370",
+        "DOI": "10.1121/1.3257598",
+        "volume": "127",
+        "author": "Gumerov",
+        "year": "2010",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "3",
+        "key": "R24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1278",
+        "DOI": "10.1121/1.4863196",
+        "volume": "135",
+        "author": "Ziegelwanger",
+        "year": "2014",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "1",
+        "key": "R25",
+        "doi-asserted-by": "crossref",
+        "first-page": "208222",
+        "DOI": "10.1121/1.4922518",
+        "volume": "138",
+        "author": "Ziegelwanger",
+        "year": "2015",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "2",
+        "key": "R26",
+        "doi-asserted-by": "crossref",
+        "first-page": "817",
+        "DOI": "10.1121/1.4861243",
+        "volume": "135",
+        "author": "Aaronson",
+        "year": "2014",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R27",
+        "unstructured": "Romblom D., Bahu H.: Blockhead: A simple geometric head model, in Audio Engineering Society Conference: 2019 AES International Conference on Headphone Technology, Aug. 2019 [Online]. Available: http://www.aes.org/e-lib/browse.cfm?elib=20502."
+      },
+      {
+        "key": "R28",
+        "doi-asserted-by": "crossref",
+        "first-page": "2",
+        "DOI": "10.1051/aacus/2020028",
+        "volume": "5",
+        "author": "Denk",
+        "year": "2021",
+        "journal-title": "Acta Acustica"
+      },
+      {
+        "issue": "5",
+        "key": "R29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2971",
+        "DOI": "10.1121/1.5102173",
+        "volume": "145",
+        "author": "Moore",
+        "year": "2019",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R30",
+        "unstructured": "Pausch F., Peng Z.E., Aspöck L., Fels J.: Speech perception by children in a real-time virtual acoustic environment with simulated hearing aids and room acoustics, in 22nd International Congress on Acoustics: ICA 2016, Invited paper, Buenos Aires, Catholic University of Argentina: Asociacion de Acusticos Argentinos, Sep. 5, 2016. [Online]. Available: http://www.ica2016.org.ar/ica2016proceedings/ica2016/ICA2016-0431.pdf."
+      },
+      {
+        "key": "R31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2331216516668303",
+        "DOI": "10.1177/2331216516668303",
+        "volume": "20",
+        "author": "Brown",
+        "year": "2016",
+        "journal-title": "Trends in Hearing"
+      },
+      {
+        "issue": "4",
+        "key": "R32",
+        "doi-asserted-by": "crossref",
+        "first-page": "753",
+        "DOI": "10.1109/TASLP.2019.2895973",
+        "volume": "27",
+        "author": "Itturriet",
+        "year": "2019",
+        "journal-title": "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+      },
+      {
+        "issue": "4",
+        "key": "R33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1579",
+        "DOI": "10.1109/TSP.2006.888897",
+        "volume": "55",
+        "author": "Klasen",
+        "year": "2007",
+        "journal-title": "IEEE Transactions on Signal Processing"
+      },
+      {
+        "key": "R34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Van de Bogaert T., Wouters J., Klasen T., Moonen M.: Distortion of interaural time cues by directional noise reduction systems in modern digital hearing aids, in IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, 2005, 57–60. https://doi.org/10.1109/ASPAA.2005.1540167.",
+        "DOI": "10.1109/ASPAA.2005.1540167"
+      },
+      {
+        "key": "R35",
+        "doi-asserted-by": "crossref",
+        "first-page": "2331216518803198",
+        "DOI": "10.1177/2331216518803198",
+        "volume": "22",
+        "author": "Husstedt",
+        "year": "2018",
+        "journal-title": "Trends in Hearing"
+      },
+      {
+        "issue": "7",
+        "key": "R36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1732",
+        "DOI": "10.1109/TASL.2010.2052156",
+        "volume": "18",
+        "author": "Jeub",
+        "year": "2010",
+        "journal-title": "IEEE Transactions on Audio, Speech, and Language Processing"
+      },
+      {
+        "issue": "4",
+        "key": "R37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1784",
+        "DOI": "10.1121/1.5005606",
+        "volume": "142",
+        "author": "Brinkmann",
+        "year": "2017",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "4",
+        "key": "R38",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1121/1.1909553",
+        "volume": "30",
+        "author": "Mills",
+        "year": "1958",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "6",
+        "key": "R39",
+        "doi-asserted-by": "crossref",
+        "first-page": "2669",
+        "DOI": "10.1121/1.397764",
+        "volume": "85",
+        "author": "Perrott",
+        "year": "1989",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R40",
+        "unstructured": "Schröder D.: Physically based real-time auralization of interactive virtual environments. Ph.D. dissertation, Institute of Technical Acoustics, RWTH Aachen University, Germany. 2011."
+      },
+      {
+        "issue": "5",
+        "key": "R41",
+        "doi-asserted-by": "crossref",
+        "first-page": "3498",
+        "DOI": "10.1121/1.2934364",
+        "volume": "123",
+        "author": "Lindau",
+        "year": "2008",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R42",
+        "unstructured": "Pausch F., Doma S., Fels J.: IHTA-indHARTF – database of individual behind-the-ear hearing-aid-related transfer functions with high spatial resolution, Institute for Hearing Technology and Acoustics, RWTH Aachen. 2022. https://doi.org/10.18154/RWTH-2022-04267."
+      },
+      {
+        "key": "R43",
+        "unstructured": "The AMT Team: The auditory modeling toolbox full package (version 1.x), 2022. [Online]. Available: https://sourceforge.net/projects/amtoolbox/files/AMT%201.x/amtoolbox-full-1.2.0.zip/download."
+      },
+      {
+        "key": "R44",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.3389/fnins.2014.00034",
+        "volume": "8",
+        "author": "Hartmann",
+        "year": "2014",
+        "journal-title": "Frontiers in Neuroscience"
+      },
+      {
+        "key": "R45",
+        "first-page": "1",
+        "volume": "59",
+        "author": "EU",
+        "year": "2016",
+        "journal-title": "Official Journal L110"
+      },
+      {
+        "key": "R46",
+        "unstructured": "AES69-2020: AES69-2020, AES Standard for file exchange – Spatial acoustic data file format, Audio Engineering Society, Inc., New York, NY, USA, Standard AES69-2020, Dec. 6, 2020. p. 2020."
+      },
+      {
+        "key": "R47",
+        "unstructured": "Wefers F.: OpenDAFF – Ein freies quell-offenes Software-Paket fur richtungsabhängige Audiodaten, in Fortschritte der Akustik : 36. Deutsche Jahrestagung für Akustik; 15.–18. Marz 2010, Dt. Ges. fur Akustik, Berlin. 2010. [Online]. Available: http://publications.rwth-aachen.de/record/118694."
+      },
+      {
+        "issue": "1",
+        "key": "R48",
+        "doi-asserted-by": "crossref",
+        "first-page": "140",
+        "DOI": "10.1121/1.1916351",
+        "volume": "18",
+        "author": "Beranek",
+        "year": "1946",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Richter J.-G.: Fast measurement of individual head-related transfer functions. Ph.D. Dissertation, RWTH Aachen University. 2019. https://doi.org/10.18154/RWTH-2019-04006.",
+        "DOI": "10.30819/4906"
+      },
+      {
+        "issue": "4",
+        "key": "R50",
+        "doi-asserted-by": "crossref",
+        "first-page": "730",
+        "DOI": "10.1109/TASLP.2019.2894329",
+        "volume": "27",
+        "author": "Richter",
+        "year": "2019",
+        "journal-title": "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+      },
+      {
+        "issue": "7/8",
+        "key": "R51",
+        "first-page": "623",
+        "volume": "55",
+        "author": "Majdak",
+        "year": "2007",
+        "journal-title": "Journal of the Audio Engineering Society"
+      },
+      {
+        "issue": "3",
+        "key": "R52",
+        "first-page": "113124",
+        "volume": "61",
+        "author": "Dietrich",
+        "year": "2013",
+        "journal-title": "Journal of the Audio Engineering Society"
+      },
+      {
+        "key": "R53",
+        "unstructured": "Berzborn M., Bomhardt R., Klein J., Richter J.-G., Vorländer M.: The ITA-Toolbox: An open source MATLAB toolbox for acoustic measurements and signal processing, in 43th Annual German Congress on Acoustics, 6 Mar 2016 – 9 Mar 2017, Kiel (Germany). 2019, pp. 222–225."
+      },
+      {
+        "key": "R54",
+        "unstructured": "Denk F., Heeren J., Ewert S.D., Kollmeier B., Ernst S.M.: Controlling the head position during individual HRTF measurements and its effect on accuracy, Fortschritte der Akustik-DAGA, Kiel, Germany. 2017."
+      },
+      {
+        "key": "R55",
+        "unstructured": "Begault D.R., Godfroy M., Miller J.D., Roginska A., Anderson M., Wenzel E.M.: Design and verification of HeadZap, a semi-automated HRIR measurement system, in AES 120th Convention, 2006 May 20–23, Paris, France, 2006: 1–19."
+      },
+      {
+        "issue": "2",
+        "key": "R56",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1250/ast.31.165",
+        "volume": "31",
+        "author": "Hirahara",
+        "year": "2010",
+        "journal-title": "Acoustical Science and Technology"
+      },
+      {
+        "issue": "2",
+        "key": "R57",
+        "doi-asserted-by": "crossref",
+        "first-page": "189194",
+        "DOI": "10.1109/89.661479",
+        "volume": "6",
+        "author": "Kirkeby",
+        "year": "1998",
+        "journal-title": "IEEE Transactions on Speech and Audio Processing"
+      },
+      {
+        "issue": "2",
+        "key": "R58",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1109/TVCG.2006.27",
+        "volume": "12",
+        "author": "Park",
+        "year": "2006",
+        "journal-title": "IEEE Transactions on Visualization and Computer Graphics"
+      },
+      {
+        "issue": "3 Pt 1",
+        "key": "R59",
+        "doi-asserted-by": "crossref",
+        "first-page": "1480",
+        "DOI": "10.1121/1.427176",
+        "volume": "106",
+        "author": "Middlebrooks",
+        "year": "1999",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "2",
+        "key": "R60",
+        "doi-asserted-by": "crossref",
+        "first-page": "588",
+        "DOI": "10.1121/1.4996457",
+        "volume": "142",
+        "author": "Andreopoulou",
+        "year": "2017",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R61",
+        "unstructured": "Aussal M., Alouges F., Katz B.: HRTF interpolation and ITD personalization for binaural synthesis using spherical harmonics, in Audio Engineering Society Conference: UK 25th Conference: Spatial Audio in Today’s 3D World, Mar. 2012. [Online]. Available: http://www.aes.org/e-lib/browse.cfm?elib=18111."
+      },
+      {
+        "key": "R62",
+        "unstructured": "Richter J.-G., Behler G., Fels J., Evaluation of a fast HRTF measurement system, in Audio Engineering Society Convention 140, Audio Engineering Society. 2016."
+      },
+      {
+        "issue": "4",
+        "key": "R63",
+        "doi-asserted-by": "crossref",
+        "first-page": "1583",
+        "DOI": "10.1121/1.1501901",
+        "volume": "112",
+        "author": "Langendijk",
+        "year": "2002",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "7",
+        "key": "R64",
+        "first-page": "36",
+        "volume": "11",
+        "author": "Abràmoff",
+        "year": "2004",
+        "journal-title": "Biophotonics International"
+      },
+      {
+        "key": "R65",
+        "unstructured": "Wei T., Simko V., R package “corrplot”: visualization of a correlation matrix (Version 0.84). 2017 [Online]. Available: https://github.com/taiyun/corrplot."
+      },
+      {
+        "key": "R66",
+        "unstructured": "Kling J.W., Riggs L.A.: Woodworth & Schlosberg’s experimental psychology. 1971."
+      },
+      {
+        "key": "R67",
+        "unstructured": "R Core Team: Language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. 2021 [Online]. Available: https://www.R-project.org/."
+      },
+      {
+        "key": "R68",
+        "unstructured": "RStudio Team: RStudio: integrated development environment for R, RStudio, PBC, Boston, MA. 2021 [Online]. Available: http://www.rstudio.com/."
+      },
+      {
+        "key": "R69",
+        "doi-asserted-by": "crossref",
+        "first-page": "431",
+        "DOI": "10.1103/PhysRev.18.431",
+        "volume": "18",
+        "author": "Hartley",
+        "year": "1921",
+        "journal-title": "Physical Review"
+      },
+      {
+        "issue": "3",
+        "key": "R70",
+        "doi-asserted-by": "crossref",
+        "first-page": "1465",
+        "DOI": "10.1121/1.427180",
+        "volume": "106",
+        "author": "Brungart",
+        "year": "1999",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "key": "R71",
+        "unstructured": "Nash J.C.: nlmrt: Functions for nonlinear least squares solutions. R package version 2016.3.2. 2016. [Online]. Available: https://CRAN.R-project.org/package=nlmrt."
+      },
+      {
+        "key": "R72",
+        "unstructured": "Montgomery D.C., Peck E.A., Vining G.G.: Introduction to linear regression analysis, John Wiley & Sons. 2021."
+      },
+      {
+        "key": "R73",
+        "doi-asserted-by": "crossref",
+        "first-page": "464",
+        "DOI": "10.3758/s13428-019-01246-w",
+        "volume": "52",
+        "author": "Mair",
+        "year": "2020",
+        "journal-title": "Behavior Research Methods"
+      },
+      {
+        "issue": "4",
+        "key": "R74",
+        "doi-asserted-by": "crossref",
+        "first-page": "917",
+        "DOI": "10.1080/03610918608812552",
+        "volume": "15",
+        "author": "Wilcox",
+        "year": "1986",
+        "journal-title": "Communications in Statistics – Simulation and Computation"
+      },
+      {
+        "key": "R75",
+        "unstructured": "Braren H.S., Fels J.: A high-resolution individual 3D adult head and torso model for HRTF simulation and validation: HRTF measurement, 2020. Published under Creative Commons Attribution 4.0 License. https://doi.org/10.18154/RWTH-2020-06761."
+      },
+      {
+        "key": "R76",
+        "unstructured": "Mäkivirta A., Malinen M., Johansson J., Saari V., Karjalainen A., Vosough P.: Accuracy of photogrammetric extraction of the head and torso shape for personal acoustic HRTF modeling, in Audio Engineering Society Convention 148, May 2020 [Online]. Available: http://www.aes.org/e-lib/browse.cfm?elib=20740."
+      },
+      {
+        "issue": "5",
+        "key": "R77",
+        "doi-asserted-by": "crossref",
+        "first-page": "859",
+        "DOI": "10.1121/1.1908493",
+        "volume": "28",
+        "author": "Klumpp",
+        "year": "1956",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "6",
+        "key": "R78",
+        "doi-asserted-by": "crossref",
+        "first-page": "1299",
+        "DOI": "10.1121/1.1914701",
+        "volume": "55",
+        "author": "Yost",
+        "year": "1974",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "1",
+        "key": "R79",
+        "doi-asserted-by": "crossref",
+        "first-page": "458",
+        "DOI": "10.1121/1.5087566",
+        "volume": "145",
+        "author": "Thavam",
+        "year": "2019",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "1",
+        "key": "R80",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.3813/AAA.918930",
+        "volume": "102",
+        "author": "Simon",
+        "year": "2016",
+        "journal-title": "Acta Acustica united with Acustica"
+      },
+      {
+        "issue": "4",
+        "key": "R81",
+        "doi-asserted-by": "crossref",
+        "first-page": "EL352",
+        "DOI": "10.1121/1.4964844",
+        "volume": "140",
+        "author": "Klockgether",
+        "year": "2016",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "3",
+        "key": "R82",
+        "doi-asserted-by": "crossref",
+        "first-page": "1783",
+        "DOI": "10.1121/1.4962444",
+        "volume": "140",
+        "author": "Spencer",
+        "year": "2016",
+        "journal-title": "The Journal of the Acoustical Society of America"
+      },
+      {
+        "issue": "4",
+        "key": "R83",
+        "doi-asserted-by": "crossref",
+        "first-page": "912",
+        "DOI": "10.17430/895179",
+        "volume": "5",
+        "author": "Geetha",
+        "year": "2015",
+        "journal-title": "Journal of Hearing Science"
+      },
+      {
+        "key": "R84",
+        "doi-asserted-by": "crossref",
+        "first-page": "206",
+        "DOI": "10.1055/s-0041-1735176",
+        "volume": "42",
+        "author": "Derleth",
+        "year": "2021",
+        "journal-title": "Seminars in Hearing"
+      },
+      {
+        "issue": "6",
+        "key": "R85",
+        "first-page": "758",
+        "volume": "19",
+        "author": "Lawson",
+        "year": "1998",
+        "journal-title": "American Journal of Otology"
+      },
+      {
+        "issue": "1",
+        "key": "R86",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1007/s10162-008-0145-8",
+        "volume": "10",
+        "author": "Francart",
+        "year": "2009",
+        "journal-title": "Journal of the Association for Research in Otolaryngology"
+      },
+      {
+        "key": "R87",
+        "unstructured": "Larcher V., Jot J.-M.: Techniques d’interpolation de filtres audio-numeriques, Applicationa la reproduction spatiale des sons sur ecouteurs, in Proc. CFA: Congres Francais d’Acoustique, Citeseer. 1997."
+      },
+      {
+        "issue": "9",
+        "key": "R88",
+        "first-page": "675",
+        "volume": "47",
+        "author": "Savioja",
+        "year": "1999",
+        "journal-title": "Journal of the Audio Engineering Society"
+      },
+      {
+        "key": "R89",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1051/aacus/2022011",
+        "volume": "6",
+        "author": "Majdak",
+        "year": "2022",
+        "journal-title": "Acta Acustica"
+      },
+      {
+        "key": "R90",
+        "unstructured": "Seber G.A., Lee A.J.: Linear regression analysis, John Wiley & Sons. 2012."
+      }
+    ],
+    "container-title": [
+      "Acta Acustica"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://acta-acustica.edpsciences.org/10.1051/aacus/2022020/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2024-10-01T08:33:09Z",
+      "timestamp": 1727771589000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://acta-acustica.edpsciences.org/10.1051/aacus/2022020"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "references-count": 90,
+    "alternative-id": [
+      "aacus210045"
+    ],
+    "URL": "https://doi.org/10.1051/aacus/2022020",
+    "relation": {},
+    "ISSN": [
+      "2681-4617"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2681-4617"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    }
+  }
+}

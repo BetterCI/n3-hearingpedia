@@ -1,0 +1,170 @@
+{
+  "articles": 18,
+  "deep": 3,
+  "standard": 15,
+  "reports": [
+    {
+      "slug": "amplitude-modulation",
+      "depth": "standard",
+      "bodyChineseCharacters": 2829,
+      "references": 4,
+      "figures": 1,
+      "displayEquations": 2,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "atomic-speech-model",
+      "depth": "standard",
+      "bodyChineseCharacters": 2959,
+      "references": 3,
+      "figures": 1,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "auditory-brainstem-response",
+      "depth": "in-depth",
+      "bodyChineseCharacters": 8042,
+      "references": 19,
+      "figures": 5,
+      "displayEquations": 0,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "auditory-plasticity",
+      "depth": "standard",
+      "bodyChineseCharacters": 2958,
+      "references": 3,
+      "figures": 1,
+      "displayEquations": 0,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "binaural-integration",
+      "depth": "standard",
+      "bodyChineseCharacters": 3234,
+      "references": 6,
+      "figures": 1,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "binaural-intelligibility-level-difference",
+      "depth": "standard",
+      "bodyChineseCharacters": 2845,
+      "references": 4,
+      "figures": 1,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "channel-interaction",
+      "depth": "standard",
+      "bodyChineseCharacters": 2923,
+      "references": 6,
+      "figures": 1,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "cochlear-synaptopathy",
+      "depth": "standard",
+      "bodyChineseCharacters": 2884,
+      "references": 5,
+      "figures": 1,
+      "displayEquations": 0,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "confusion-matrix",
+      "depth": "standard",
+      "bodyChineseCharacters": 2841,
+      "references": 4,
+      "figures": 1,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "electroencephalography",
+      "depth": "in-depth",
+      "bodyChineseCharacters": 8041,
+      "references": 16,
+      "figures": 5,
+      "displayEquations": 0,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "f0-in-tfs",
+      "depth": "standard",
+      "bodyChineseCharacters": 2998,
+      "references": 3,
+      "figures": 1,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "get-vocoder",
+      "depth": "standard",
+      "bodyChineseCharacters": 3105,
+      "references": 4,
+      "figures": 1,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "interaural-time-difference",
+      "depth": "in-depth",
+      "bodyChineseCharacters": 8139,
+      "references": 14,
+      "figures": 5,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "mandarin-lexical-tone",
+      "depth": "standard",
+      "bodyChineseCharacters": 3403,
+      "references": 4,
+      "figures": 2,
+      "displayEquations": 1,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "n-of-m-coding",
+      "depth": "standard",
+      "bodyChineseCharacters": 2965,
+      "references": 5,
+      "figures": 1,
+      "displayEquations": 2,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "noise-induced-hearing-loss",
+      "depth": "standard",
+      "bodyChineseCharacters": 2783,
+      "references": 6,
+      "figures": 1,
+      "displayEquations": 0,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "temporal-limits-encoder",
+      "depth": "standard",
+      "bodyChineseCharacters": 2833,
+      "references": 3,
+      "figures": 1,
+      "displayEquations": 0,
+      "sourceAndPreview": "passed"
+    },
+    {
+      "slug": "zodiac-in-noise",
+      "depth": "standard",
+      "bodyChineseCharacters": 3192,
+      "references": 4,
+      "figures": 1,
+      "displayEquations": 0,
+      "sourceAndPreview": "passed"
+    }
+  ],
+  "fullAstroBuild": "Not run locally: native compiler blocked by Windows Application Control. Markdown / KaTeX source and preview checks passed."
+}
