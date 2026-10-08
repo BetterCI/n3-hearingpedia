@@ -8,6 +8,7 @@ plt.rcParams.update({'font.family':'Microsoft YaHei','svg.fonttype':'path','font
 B='#285f83';O='#b9613b';G='#65727b';T='#347b70'
 def save(fig,name):
  fig.savefig(ROOT/(name+'.svg'),bbox_inches='tight');fig.savefig(ROOT/(name+'.png'),bbox_inches='tight',dpi=160);plt.close(fig)
+ p=ROOT/(name+'.svg');p.write_text('\n'.join(line.rstrip() for line in p.read_text(encoding='utf8').splitlines())+'\n',encoding='utf8')
 def arrow(ax,a,b,color):ax.annotate('',xy=b,xytext=a,arrowprops={'arrowstyle':'->','color':color,'lw':1.5})
 # 图 1：平面镜像路径与同一几何条件下的到达时刻。
 source=np.array([1.,1.]);receiver=np.array([6.,3.]);mirror=np.array([1.,-1.]);fraction=-mirror[1]/(receiver[1]-mirror[1]);reflection=mirror+fraction*(receiver-mirror)
@@ -32,7 +33,7 @@ save(fig,'02-impulse-decay')
 L=np.array([5.,4.,2.8]);x=np.linspace(0,L[0],201);y=np.linspace(0,L[1],161);xx,yy=np.meshgrid(x,y);modes=[(1,0,0),(0,1,0),(1,1,0)];freqs=[]
 fig,axs=plt.subplots(1,3,figsize=(10,3.8),layout='constrained')
 for ax,n in zip(axs,modes):
- f=343/2*np.linalg.norm(np.array(n)/L);freqs.append(f);p=np.cos(n[0]*np.pi*xx/L[0])*np.cos(n[1]*np.pi*yy/L[1]);im=ax.pcolormesh(xx,yy,p,cmap='RdBu_r',vmin=-1,vmax=1,shading='auto');ax.contour(xx,yy,p,levels=[0],colors=[G],linewidths=.8);ax.set(aspect='equal',xlabel='x（m）',ylabel='y（m）',title=f'模态 {n}：{f:.1f} Hz')
+ f=343/2*np.linalg.norm(np.array(n)/L);freqs.append(f);p=np.cos(n[0]*np.pi*xx/L[0])*np.cos(n[1]*np.pi*yy/L[1]);im=ax.imshow(p,origin='lower',extent=(0,L[0],0,L[1]),cmap='RdBu_r',vmin=-1,vmax=1,interpolation='nearest',aspect='equal');ax.contour(xx,yy,p,levels=[0],colors=[G],linewidths=.8);ax.set(aspect='equal',xlabel='x（m）',ylabel='y（m）',title=f'模态 {n}：{f:.1f} Hz')
 fig.colorbar(im,ax=axs,shrink=.8,label='归一化瞬时声压（有正负）');save(fig,'03-room-modes')
 # 图 4：同频不同阻尼的衰减与谐振器响应，峰值独立归一化以隔离衰减时间。
 f0=63.;tt=np.linspace(0,1.2,15000);ff=np.linspace(45,81,1500);fig,axs=plt.subplots(1,2,figsize=(10,4.1),layout='constrained')

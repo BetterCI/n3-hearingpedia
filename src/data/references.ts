@@ -1,3 +1,4 @@
+import { innerHairCellReferences } from './inner-hair-cell-references.ts';
 import { roomAcousticsReferences } from './room-acoustics-references.ts';
 import { outerHairCellReferences } from './outer-hair-cell-references.ts';
 import { harmonicityReferences } from './harmonicity-references.ts';
@@ -20,6 +21,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...innerHairCellReferences,
   ...roomAcousticsReferences,
   ...outerHairCellReferences,
   ...harmonicityReferences,
@@ -103,8 +105,8 @@ export const references: Record<string, Reference> = {
   "iso-389-1-2017": {"title":"Acoustics — Reference zero for the calibration of audiometric equipment — Part 1: Reference equivalent threshold sound pressure levels for pure tones and supra-aural earphones","authors":"International Organization for Standardization","year":"2017","publication":"ISO 389-1:2017","url":"https://www.iso.org/standard/69855.html","access":"metadata","supports":"已核对压耳式耳机参考零点的公开范围；未引用付费表格，不将参考数据转用于任意 TWS 耳机。"},
 
   "fettiplace-2017": {"title":"Hair Cell Transduction, Tuning, and Synaptic Transmission in the Mammalian Cochlea","authors":"Robert Fettiplace","year":"2017","publication":"Comprehensive Physiology, 7, 1197–1227","doi":"10.1002/cphy.c160049","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5658794/","access":"fulltext","supports":"系统综述毛细胞机械电转导、IHC/OHC 分工、IHC 受体电位、CaV1.3 触发递质释放及听神经 phase locking；用于本词条的基础生理框架。"},
-  "jia-met-2025": {"title":"Molecular identity of the mechanotransduction machinery in inner ear hair cells and mechanotransduction-linked hearing loss","authors":"Yanyan Jia & Huawei Li","year":"2025","publication":"Fundamental Research, 6(4), 2654–2669","doi":"10.1016/j.fmre.2025.01.019","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC13424396/","access":"fulltext","supports":"2025 年开放获取综述：TMC1/2、TMIE、LHFPL5、CIB2/3、CDH23、PCDH15 等 MET 复合体及相关遗传性听损；用于更新机械电转导的分子层前沿。"},
-  "holt-met-2025": {"title":"A contemporary view of mechanosensory transduction in auditory hair cells","authors":"Jeffrey R. Holt","year":"2025","publication":"Current Opinion in Neurobiology","url":"https://pubmed.ncbi.nlm.nih.gov/40528344/","access":"abstract","supports":"2025 年综述总结 TMC1/TMC2、TMIE、CIB2 等机械转导核心组分，并强调完整 MET 通道复合体的结构与门控机制仍未完全解决。"},
+  "jia-met-2025": {"title": "Molecular identity of the mechanotransduction machinery in inner ear hair cells and mechanotransduction-linked hearing loss", "authors": "Jia Y, Li H, Li W.", "year": "2026（在线 2025）", "publication": "Fundamental research, 6(4): 2654-2669", "doi": "10.1016/j.fmre.2025.01.019", "url": "https://doi.org/10.1016/j.fmre.2025.01.019", "access": "fulltext", "supports": "综述背景；核对 Europe PMC / PubMed 正式书目信息与摘要，按正文所述人群和实验条件解读。"},
+  "holt-met-2025": {"title": "A contemporary view of mechanosensory transduction in auditory hair cells", "authors": "Mun M, Holt JR.", "year": "2025", "publication": "Biophysical journal, 124(24): 4407-4423", "doi": "10.1016/j.bpj.2025.06.015", "url": "https://doi.org/10.1016/j.bpj.2025.06.015", "access": "abstract", "supports": "综述背景；核对 Europe PMC / PubMed 正式书目信息与摘要，按正文所述人群和实验条件解读。"},
   "moser-diversity-2023": {"title":"Diversity matters — extending sound intensity coding by inner hair cells via heterogeneous synapses","authors":"Tobias Moser, Nare Karagulyan, Jakob Neef & Lina María Jaime Tobón","year":"2023","publication":"The EMBO Journal, 42(23), e114587","doi":"10.15252/embj.2023114587","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10690447/","access":"fulltext","supports":"综述 IHC ribbon synapse 异质性、SGN 亚型与 dynamic-range fractionation；用于解释单个 IHC 如何通过多突触/多神经元群体覆盖宽声强范围。"},
   "jaime-moser-2024": {"title":"Bridging the gap between presynaptic hair cell function and neural sound encoding","authors":"Lina María Jaime Tobón & Tobias Moser","year":"2024","publication":"eLife, 12, RP93749","doi":"10.7554/eLife.93749","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11668530/","access":"fulltext","supports":"配对记录直接把 IHC 不同侧 active zone 的 Ca2+ 耦合与 SGN 自发率、阈值和时序响应联系起来；支持 IHC 突触异质性参与神经编码多样性。"},
   "valayannopoulos-dboto-2026": {"title":"DB-OTO Gene Therapy for Inherited Deafness","authors":"Vassili Valayannopoulos et al.; CHORD Study Group","year":"2026（在线 2025）","publication":"New England Journal of Medicine, 394(11), 1074–1083","doi":"10.1056/NEJMoa2400521","url":"https://pubmed.ncbi.nlm.nih.gov/41085057/","access":"abstract","supports":"首批 OTOF 相关遗传性耳聋的临床基因治疗证据；用于说明 IHC 保留但 otoferlin 介导突触释放失败时，恢复 IHC 突触功能可重建声学听觉。"},

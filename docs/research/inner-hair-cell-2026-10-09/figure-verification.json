@@ -1,0 +1,29 @@
+{
+  "originalMathematicalFigures": 3,
+  "publishedSourceFigures": 2,
+  "data": "数学教学参数；未拟合人体或动物细胞",
+  "gatingSlope": 0.18,
+  "exampleCutoffHz": [
+    300,
+    1000,
+    3000
+  ],
+  "resourceTauSeconds": 0.1,
+  "drivePerSecond": [
+    1,
+    20
+  ],
+  "driveIntervalSeconds": [
+    0.2,
+    0.6
+  ],
+  "initialResource": 0.9090909090909091,
+  "activeSteadyResource": 0.3333333333333333,
+  "unitHalfActivationDb": [
+    20,
+    50,
+    80
+  ],
+  "probabilitiesAndResourceWithinZeroOne": true,
+  "modelsRun": "仅原创教学模型；未运行所链接第三方生理模型"
+}
