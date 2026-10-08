@@ -14,6 +14,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('room-acoustics','masking','related','晚期反射和背景噪声改变目标声音的可利用线索。',2),
+  link('room-acoustics','temporal-resolution','related','房间输入拖尾与听者时间分辨能力属于不同层面。',2),
+  link('room-acoustics','loudness','related','反射与衰减改变声音输入，响度还受听者与刺激条件影响。',2),
+  link('room-acoustics','spatial-hearing','related','反射方向与两耳相关共同影响定位和空间分离。',2),
+  link('room-acoustics','speech-intelligibility','related','早晚反射、噪声及距离共同影响言语交流。',2),
+  link('room-acoustics','listening-effort','related','声学环境与任务要求共同影响资源投入。',2),
+
   link('binaural-hearing','spatial-hearing','related','两耳信息利用与空间任务交叉，空间听觉还利用单耳频谱及运动线索。',2),
   link('binaural-hearing','binaural-integration','related','跨耳互补信息的组合属于双耳利用的一类现象。',3),
   link('binaural-hearing','interaural-time-difference','related','两耳相对时序提供线索，其利用依赖刺激和任务。',3),

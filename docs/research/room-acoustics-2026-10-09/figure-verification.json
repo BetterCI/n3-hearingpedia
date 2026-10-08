@@ -1,0 +1,24 @@
+{
+  "figures": 5,
+  "data": "原创几何与数学演示；非实测房间或人类行为数据",
+  "soundSpeedMps": 343,
+  "pathArrivalMs": [
+    15.700188942083102,
+    18.668000692224048
+  ],
+  "reflectionExtraDelayMs": 2.967811750140946,
+  "roomDimensionsM": [
+    5.0,
+    4.0,
+    2.8
+  ],
+  "modeFrequenciesHz": [
+    34.300000000000004,
+    42.875,
+    54.90679033598668
+  ],
+  "relativeWaveformsWithinPlusMinusOne": true,
+  "decayConventions": "声压幅度 exp(-ln(1000)t/T)；能量级 -60t/T",
+  "classroomExample": "1 m 直达声60 dBA；均匀噪声45 dBA；不含反射",
+  "seed": 20261009
+}
