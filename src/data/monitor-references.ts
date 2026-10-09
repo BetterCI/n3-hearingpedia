@@ -233,9 +233,9 @@ export const monitorReferences: Record<string, Reference> = {
     "year": "2012",
     "publication": "Nature, 485, 233–236",
     "doi": "10.1038/nature11020",
-    "url": "https://www.nature.com/articles/nature11020",
-    "access": "abstract",
-    "supports": "已核对摘要：人类皮层表面电极的多说话者选择性响应；不与头皮 EEG 的空间分辨率和可用性混同。"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3870007/",
+    "access": "fulltext",
+    "supports": "已核对摘要：人类皮层表面电极的多说话者选择性响应；不与头皮 EEG 的空间分辨率和可用性混同。 2026-10-09追加核读公开正文的竞争说话者、声谱重建、正确／错误试次与解码段落；不将ECoG解码直接转为头皮EEG或语言理解结论。"
   },
   "fuel-2016": {
     "title": "Hearing Impairment and Cognitive Energy: The Framework for Understanding Effortful Listening (FUEL)",

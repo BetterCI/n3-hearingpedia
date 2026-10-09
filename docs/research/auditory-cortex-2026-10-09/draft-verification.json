@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-09",
+  "slug": "auditory-cortex",
+  "knowledge_area": "biology",
+  "kind": "anatomy",
+  "chinese_characters": 9060,
+  "body_characters": 17633,
+  "sections": 10,
+  "subsections": 31,
+  "reference_ids": [
+    "moerel-2014",
+    "dick-2012",
+    "cortex-leaver-2016",
+    "cortex-li-2015",
+    "cortex-kato-2017",
+    "cortex-phonetic-2014",
+    "cortex-music-2015",
+    "cortex-modelmatched-2018",
+    "cortex-integration-2022",
+    "cortex-integration-2025",
+    "cortex-parallel-2021",
+    "mesgarani-attention-2012",
+    "cortex-fritz-2003",
+    "cortex-motor-2014",
+    "cortex-prediction-2017",
+    "six-midbrain2024",
+    "pathway-corticocollicular-learning-2010",
+    "pathway-p1-development-2002",
+    "cortex-lomber-2010",
+    "cortex-single-neuron-2024",
+    "cortex-language-2026",
+    "six-pathway-network2026",
+    "cortex-blausen-brain-2014"
+  ],
+  "wiki_links": [
+    "auditory-pathway",
+    "tonotopy",
+    "amplitude-modulation",
+    "auditory-attention",
+    "neural-speech-tracking",
+    "auditory-plasticity",
+    "cochlear-implant",
+    "auditory-scene-analysis",
+    "electroencephalography",
+    "auditory-evoked-potential",
+    "pitch-perception",
+    "timbre-perception",
+    "speech-intelligibility"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "figures": 6,
+  "new_references": 16,
+  "reused_references": 7,
+  "professional_review": false,
+  "user_confirmation": "2026-10-09用户明确确认上传《听觉皮层》及新增大脑分区图",
+  "publication": "authorized for publication; professional review pending",
+  "checks": {
+    "citation_ids_and_numbers": true,
+    "source_content": "passed",
+    "astro_check": {
+      "files": 81,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": "passed",
+    "verify": {
+      "pages": 164,
+      "concepts": 65,
+      "brokenLinks": 0
+    },
+    "visual_review": "原有5张原创图已检查；新增Blausen原始PNG及桌面1440、手机390网页截图已检查。图片比例正常，无裁切；手机英文标签需点击原图放大，图后有中文对照。",
+    "browser": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "figures": 6,
+        "references": 23,
+        "katexErrors": 0,
+        "horizontalOverflow": false,
+        "allCitationTargets": true,
+        "pageErrors": []
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "figures": 6,
+        "references": 23,
+        "katexErrors": 0,
+        "horizontalOverflow": false,
+        "allCitationTargets": true,
+        "pageErrors": []
+      }
+    ],
+    "reproduced_image": {
+      "source_and_license_checked": true,
+      "unchanged": true,
+      "width": 1600,
+      "height": 1493,
+      "manifest": "image-sources.json"
+    }
+  },
+  "original_figures": 5,
+  "reproduced_figures": 1
+}

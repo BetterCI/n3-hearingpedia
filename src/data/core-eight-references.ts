@@ -389,9 +389,9 @@ export const coreEightReferences: Record<string, Reference> = {
     "year": "2014",
     "publication": "Frontiers in neuroscience, 8, 225",
     "doi": "10.3389/fnins.2014.00225",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/25120426/",
-    "access": "abstract",
-    "supports": "人类听觉皮层拓扑与个体差异的综述性综合；支持多指标区域划分，不提供唯一固定地图。"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4114190/",
+    "access": "fulltext",
+    "supports": "人类听觉皮层拓扑与个体差异的综述性综合；支持多指标区域划分，不提供唯一固定地图。 2026-10-09追加核读公开全文的拓扑、区域定义与MEG方法段，支持赫施尔回个体差异和多证据定位，不宣称唯一固定地图。"
   },
   "dick-2012": {
     "title": "In vivo functional and myeloarchitectonic mapping of human primary auditory areas",
@@ -399,9 +399,9 @@ export const coreEightReferences: Record<string, Reference> = {
     "year": "2012",
     "publication": "The Journal of neuroscience : the official journal of the Society for Neuroscience, 32(46), 16095-16105",
     "doi": "10.1523/jneurosci.1712-12.2012",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/23152594/",
-    "access": "abstract",
-    "supports": "结构髓鞘与功能频率映射相结合的人类研究；核心区镜像梯度不等于全皮层只有两张地图。"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3531973/",
+    "access": "fulltext",
+    "supports": "结构髓鞘与功能频率映射相结合的人类研究；核心区镜像梯度不等于全皮层只有两张地图。 2026-10-09追加核读全文Abstract、Introduction、Methods及结构／功能结果；使用实际相关段落，不以结构坐标替代功能边界。"
   },
   "amt-verhulst2018": {
     "title": "verhulst2018: Cochlear transmission-line model including a model of the brainstem",

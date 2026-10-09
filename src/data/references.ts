@@ -1,4 +1,5 @@
 import { liuBannongReferences } from './liu-bannong-references.ts';
+import { auditoryCortexReferences } from './auditory-cortex-references.ts';
 import { zouLudeReferences } from './zou-lude-references.ts';
 import { zhaoYuanrenReferences } from './zhao-yuanren-references.ts';
 import { auditoryPathwayReferences } from './auditory-pathway-references.ts';
@@ -37,6 +38,7 @@ export interface Reference { title: string; authors: string; year: string; publi
 
 export const references: Record<string, Reference> = {
   ...liuBannongReferences,
+  ...auditoryCortexReferences,
   ...zouLudeReferences,
   ...zhaoYuanrenReferences,
   ...auditoryPathwayReferences,
