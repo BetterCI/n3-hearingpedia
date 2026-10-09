@@ -1,0 +1,62 @@
+[
+  {
+    "file": "functional-measurement.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "layout": "functional path with measurement branches; EFR/ABR are aggregate and stimulus-dependent, no single-source localization"
+    },
+    "license": "Project-authored; no external figure reproduced"
+  },
+  {
+    "file": "evidence-levels.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "types": [
+        "animal structure/function",
+        "human postmortem structure",
+        "living human proxy"
+      ],
+      "arrows": "measurement relationship, not a ranking score"
+    },
+    "license": "Project-authored; no external figure reproduced"
+  },
+  {
+    "file": "response-ambiguity.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "toy_model": "A=n*q, unit recording factor g=1; all variables normalized",
+      "same_response": [
+        {
+          "n": 0.6,
+          "q": 1,
+          "A": 0.6
+        },
+        {
+          "n": 1,
+          "q": 0.6,
+          "A": 0.6
+        }
+      ],
+      "limitations": "not an ABR/connection calibration; ignores many nonlinear processes"
+    },
+    "license": "Project-authored; no external figure reproduced"
+  },
+  {
+    "file": "measurement-error.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "synthetic": true,
+      "SEM_uV": [
+        0.005,
+        0.02
+      ],
+      "MDC95_uV": [
+        0.013859292911256331,
+        0.055437171645025325
+      ],
+      "observed_difference_uV": 0.03,
+      "assumptions": "independent Gaussian errors of equal variance, no systematic drift; not diagnostic cutoffs"
+    },
+    "license": "Project-authored; no external figure reproduced"
+  }
+]

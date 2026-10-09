@@ -85,11 +85,11 @@ export const coreUpgradeReferences: Record<string, Reference> = {
     "title": "Toward a Diagnostic Test for Hidden Hearing Loss",
     "authors": "Plack CJ, Léger A, Prendergast G, Kluk K, Guest H, Munro KJ.",
     "year": "2016",
-    "publication": "Trends in hearing",
-    "url": "https://doi.org/10.1177/2331216516657466",
-    "access": "abstract",
-    "supports": "核对原始论文的正式书目信息与摘要；按正文限定的刺激、人群和任务解读，不补写摘要之外的参数。",
-    "doi": "10.1177/2331216516657466"
+    "publication": "Trends in hearing 20: 2331216516657466",
+    "doi": "10.1177/2331216516657466",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5017571/",
+    "access": "fulltext",
+    "supports": "全文诊断方法、可靠性和行为解释段落：代理指标、比值及诊断验证的局限；不作个体诊断规则。"
   },
   "core-upgrade-abr-gorga": {
     "title": "Auditory brainstem responses to tone bursts in normally hearing subjects",

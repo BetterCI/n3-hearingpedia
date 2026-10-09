@@ -269,13 +269,13 @@ export const monitorReferences: Record<string, Reference> = {
   },
   "guest-synaptopathy-2018": {
     "title": "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure",
-    "authors": "Guest, H., Munro, K. J., Prendergast, G., Millman, R. E. & Plack, C. J.",
+    "authors": "Guest H, Munro KJ, Prendergast G, Millman RE, Plack CJ.",
     "year": "2018",
-    "publication": "Hearing Research, 364, 142–151",
+    "publication": "Hearing research 364: 142-151",
     "doi": "10.1016/j.heares.2018.03.008",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/29680183/",
-    "access": "abstract",
-    "supports": "已核对摘要：正常听力图且噪声语音困难的人类研究中的 ABR/EFR 与噪声暴露阴性结果；同时讨论代理指标敏感性边界。"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5993872/",
+    "access": "fulltext",
+    "supports": "全文方法、结果和讨论：匹配至14kHz听阈的噪声言语困难研究，ABR/EFR及暴露阴性结果；不证明所有人体均无病变。"
   },
   "wightman-spatial-1992": {
     "title": "The dominant role of low-frequency interaural time differences in sound localization",

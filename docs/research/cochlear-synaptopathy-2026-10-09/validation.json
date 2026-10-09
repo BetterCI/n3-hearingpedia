@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-09",
+  "status": "user-approved-publication-professional-review-pending",
+  "professional_review": "pending",
+  "entry": {
+    "chinese_characters": 7920,
+    "sections": 12,
+    "subsections": 23,
+    "sources": 24,
+    "figures": 4,
+    "display_formulas": 2
+  },
+  "source_access_this_review": {
+    "fulltext": 12,
+    "abstract": 12
+  },
+  "checks": {
+    "astro_check": "passed: 0 errors, warnings or hints",
+    "build": "passed; existing shared-bundle size advisory",
+    "verify": "passed: 184 pages, 13612 internal links, 0 broken links",
+    "source_content": "passed",
+    "git_diff_check": "passed",
+    "figure_generation": "passed; no font glyph warnings; calculation assertions"
+  },
+  "browser_qa": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "耳蜗突触病变",
+      "overflow": false,
+      "references": 24,
+      "figures": 4,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/cochlear-synaptopathy/functional-measurement.svg",
+          "width": 689,
+          "height": 537,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/cochlear-synaptopathy/evidence-levels.svg",
+          "width": 689,
+          "height": 537,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/cochlear-synaptopathy/response-ambiguity.svg",
+          "width": 875,
+          "height": 568,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/cochlear-synaptopathy/measurement-error.svg",
+          "width": 875,
+          "height": 539,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 790,
+          "parentWidth": 790,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "耳蜗突触病变",
+      "overflow": false,
+      "references": 24,
+      "figures": 4,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/cochlear-synaptopathy/functional-measurement.svg",
+          "width": 689,
+          "height": 537,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/cochlear-synaptopathy/evidence-levels.svg",
+          "width": 689,
+          "height": 537,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/cochlear-synaptopathy/response-ambiguity.svg",
+          "width": 875,
+          "height": 568,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/cochlear-synaptopathy/measurement-error.svg",
+          "width": 875,
+          "height": 539,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 520,
+          "parentWidth": 346,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    }
+  ],
+  "auditory_plasticity_publication": {
+    "commit": "112e2861310a47909b06fd7548ae08a122b8d946",
+    "pushed_to": "origin/main",
+    "deployment": "success",
+    "workflow": "https://github.com/BetterCI/n3-hearingpedia/actions/runs/37931007805"
+  }
+}
