@@ -1,0 +1,108 @@
+{
+  "checked_at": "2026-10-09",
+  "status": "draft",
+  "professional_review_completed": false,
+  "source_content": "passed",
+  "astro_check": {
+    "files": 71,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": "passed",
+  "existing_build_warning": "Vite warns of a chunk larger than 500 kB; also present before this entry",
+  "site_verification": {
+    "pages": 158,
+    "checked_internal_links": 10868,
+    "equations": 118,
+    "concepts": 67,
+    "relationships": 263,
+    "broken_links": 0
+  },
+  "workflow_required_tests": {
+    "script": "node --test scripts/fetch-visitor-stats.test.mjs",
+    "passed": 4,
+    "failed": 0
+  },
+  "scientific_checks": "generator asserts sample count, duration, RMS, peak, steady harmonic centroid and MDS distance reconstruction; see figure-and-audio-verification.json",
+  "screenshots_inspected": [
+    "desktop figure",
+    "desktop audio",
+    "mobile header",
+    "mobile audio",
+    "mobile MDS figure"
+  ],
+  "browser": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "sections": 10,
+    "references": 20,
+    "figures": [
+      {
+        "alt": "两种同基频的谐波振幅配比具有不同频谱重心，另两种不同谐波结构则具有相同重心",
+        "width": 1920,
+        "height": 960,
+        "href": "https://betterci.github.io/n3-hearingpedia/figures/timbre-perception/01-spectral-cues.svg"
+      },
+      {
+        "alt": "声学输入、听觉加工和模型、行为任务三类证据之间需要独立检验，不能直接互相替代",
+        "width": 1920,
+        "height": 960,
+        "href": "https://betterci.github.io/n3-hearingpedia/figures/timbre-perception/04-evidence-levels.svg"
+      },
+      {
+        "alt": "20毫秒和200毫秒半余弦包络与两种频谱交叉，形成四个教学试听条件",
+        "width": 1920,
+        "height": 960,
+        "href": "https://betterci.github.io/n3-hearingpedia/figures/timbre-perception/02-attack-and-stimuli.svg"
+      },
+      {
+        "alt": "边距离1和对角线根号2的设定矩阵可恢复一个正方形，但坐标轴不具有预先确定的声学意义",
+        "width": 1920,
+        "height": 960,
+        "href": "https://betterci.github.io/n3-hearingpedia/figures/timbre-perception/03-mds-example.svg"
+      }
+    ],
+    "anchors": 128,
+    "mobileOverflow": false,
+    "katexErrors": 0,
+    "figurePopup": true,
+    "domainLink": true,
+    "learningPathLink": true,
+    "searchable": true,
+    "audio": [
+      {
+        "src": "https://betterci.github.io/n3-hearingpedia/audio/timbre-perception/a-fast.wav",
+        "duration": 1.2,
+        "autoplay": false,
+        "volume": 0.2
+      },
+      {
+        "src": "https://betterci.github.io/n3-hearingpedia/audio/timbre-perception/a-slow.wav",
+        "duration": 1.2,
+        "autoplay": false,
+        "volume": 0.2
+      },
+      {
+        "src": "https://betterci.github.io/n3-hearingpedia/audio/timbre-perception/b-fast.wav",
+        "duration": 1.2,
+        "autoplay": false,
+        "volume": 0.2
+      },
+      {
+        "src": "https://betterci.github.io/n3-hearingpedia/audio/timbre-perception/b-slow.wav",
+        "duration": 1.2,
+        "autoplay": false,
+        "volume": 0.2
+      }
+    ],
+    "audioSwitchPausesPrevious": true,
+    "pageErrors": []
+  }
+}
