@@ -11,13 +11,13 @@
     },
     "build": "passed",
     "site_verification": {
-      "pages": 88,
+      "pages": 147,
       "legacy_redirects": 9,
-      "internal_links": 8482,
-      "equations": 110,
-      "searchable_concepts": 55,
+      "internal_links": 10023,
+      "equations": 114,
+      "searchable_concepts": 57,
       "knowledge_areas": 7,
-      "relationships": 202,
+      "relationships": 226,
       "broken_links": 0
     },
     "figure_generator": "executed successfully; SVG, PNG and parameters reproduced",
@@ -80,7 +80,7 @@
       "slug": "aspiration",
       "depth": "standard",
       "status": "draft",
-      "visible_chinese_characters": 2226,
+      "visible_chinese_characters": 2230,
       "figures": 1,
       "sections": 5,
       "subsections": 6,
@@ -96,7 +96,7 @@
       "slug": "consonant-manner-of-articulation",
       "depth": "standard",
       "status": "draft",
-      "visible_chinese_characters": 3943,
+      "visible_chinese_characters": 3947,
       "figures": 1,
       "sections": 8,
       "subsections": 19,
@@ -110,7 +110,7 @@
       "slug": "consonant-place-of-articulation",
       "depth": "standard",
       "status": "draft",
-      "visible_chinese_characters": 3264,
+      "visible_chinese_characters": 3268,
       "figures": 1,
       "sections": 6,
       "subsections": 11,
@@ -141,7 +141,7 @@
       "slug": "voicing",
       "depth": "standard",
       "status": "draft",
-      "visible_chinese_characters": 2209,
+      "visible_chinese_characters": 2214,
       "figures": 1,
       "sections": 5,
       "subsections": 7,
@@ -155,5 +155,55 @@
   ],
   "professional_reviewer": null,
   "professional_reviewed_at": null,
-  "status": "draft"
+  "status": "draft",
+  "pre_integration_site_verification": {
+    "pages": 88,
+    "legacy_redirects": 9,
+    "internal_links": 8482,
+    "equations": 110,
+    "searchable_concepts": 55,
+    "knowledge_areas": 7,
+    "relationships": 202,
+    "broken_links": 0
+  },
+  "integration": {
+    "main_commit": "3827812",
+    "preserved": "New psychoacoustics and cochlear-implant sound-perception entries, sharing UI and analytics; only shared evidence manifest required semantic conflict resolution",
+    "browser": {
+      "figures": [
+        {
+          "slug": "mandarin-consonants",
+          "desktop_and_mobile": "passed"
+        },
+        {
+          "slug": "consonant-place-of-articulation",
+          "desktop_and_mobile": "passed"
+        },
+        {
+          "slug": "consonant-manner-of-articulation",
+          "desktop_and_mobile": "passed"
+        },
+        {
+          "slug": "aspiration",
+          "desktop_and_mobile": "passed"
+        },
+        {
+          "slug": "voicing",
+          "desktop_and_mobile": "passed"
+        }
+      ],
+      "legacyRedirects": 9,
+      "sharing": {
+        "desktop": "passed",
+        "mobile": "passed",
+        "imageRendered": true,
+        "saveAvailable": true,
+        "copyEnabled": true,
+        "closeRestoresScroll": true
+      },
+      "mapNodes": 57,
+      "mandarinNodes": 5,
+      "pageErrors": []
+    }
+  }
 }

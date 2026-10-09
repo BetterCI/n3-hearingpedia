@@ -1,0 +1,56 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { url } from '../../lib/paths';
+import { buildShareCardData } from '../../lib/concept-share-data';
+
+export async function getStaticPaths() {
+  return (await getCollection('concepts')).map(concept => ({ params: { slug: concept.data.slug }, props: { concept } }));
+}
+interface Props { concept: CollectionEntry<'concepts'>; }
+const { data } = Astro.props.concept;
+const articlePath = url(`concepts/${data.slug}`);
+const articleUrl = new URL(articlePath, Astro.site!).href;
+const card = await buildShareCardData(data, articleUrl);
+---
+<BaseLayout title={`${data.title} · 词条分享`} description={`复制或保存「${data.title}」词条分享图，扫码阅读完整词条。`}>
+  <meta slot="head" name="robots" content="noindex, follow" />
+  <section class="container share-page" data-pagefind-ignore>
+    <a class="share-back" href={articlePath}>← 返回{data.title}</a>
+    <div class="share-layout" id="concept-share" data-card={JSON.stringify(card)} data-filename={`hearingpedia-${data.slug}.png`}>
+      <div class="share-instructions">
+        <span class="share-eyebrow">SHARE A CONCEPT / 分享听觉知识</span>
+        <h1>把一个概念，<br />分享给更多人。</h1>
+        <p>「{data.title}」的简介与核心信息已整理成图片。二维码直达完整词条与参考文献。</p>
+        <div class="share-actions">
+          <button type="button" class="button button-primary" id="copy-share-image" disabled>复制图片</button>
+          <a class="button button-secondary" id="save-share-image" hidden download={`hearingpedia-${data.slug}.png`}>保存图片</a>
+          <button type="button" class="button button-secondary" id="native-share-image" hidden>分享图片</button>
+          <button type="button" class="button button-secondary" id="retry-share-image" hidden>重新生成</button>
+        </div>
+        <p class="share-hint">电脑上复制后，可直接粘贴到微信聊天。手机上可长按图片保存，再发给朋友或朋友圈。</p>
+        <p class="share-message" id="share-message" role="status" aria-live="polite">正在生成分享图片…</p>
+        <a class="text-link" href={articlePath}>阅读全文与参考文献 ↗</a>
+      </div>
+      <figure class="share-preview" id="share-preview" aria-label={`${data.title}分享图片`} aria-busy="true">
+        <img id="share-image" alt={`${data.title}（${data.english}）分享卡片：词条简介、核心信息和阅读全文二维码`} hidden />
+        <div class="share-fallback" id="share-fallback">
+          <span class="fallback-brand">n³ Hearingpedia</span>
+          <h2>{data.title}</h2><p>{data.english}</p><p>{data.summary}</p>
+          <dl>{card.facts.map(fact => <div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
+          <p>{card.status} · 更新 {data.last_updated}</p>
+          <a href={articlePath}><img src={card.qrDataUrl} alt="扫码阅读完整词条" width="136" height="136" /></a>
+          <noscript><p>开启 JavaScript 后可以生成和复制完整分享图片；也可直接扫描二维码阅读。</p></noscript>
+        </div>
+      </figure>
+    </div>
+  </section>
+</BaseLayout>
+<script>
+  import '../../scripts/concept-share';
+</script>
+<style>
+  .share-page{padding-top:30px;padding-bottom:60px}.share-back{font-size:13px;color:var(--muted)}.share-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);gap:70px;align-items:start;margin:36px 0 0}.share-instructions{position:sticky;top:116px;padding-top:35px}.share-eyebrow{font-size:10px;letter-spacing:.12em;color:var(--accent)}h1{font-size:40px;line-height:1.4;letter-spacing:-.03em;margin:18px 0}.share-instructions>p{font-size:14px;line-height:1.9;color:var(--muted);max-width:400px}.share-actions{display:flex;flex-wrap:wrap;gap:10px;margin:27px 0 20px}.share-actions .button{cursor:pointer;font-family:inherit}.share-actions [hidden]{display:none}.share-actions button:disabled{opacity:.55;cursor:wait}.share-actions :focus-visible{outline:2px solid var(--accent);outline-offset:3px}.share-instructions .share-hint{font-size:12px;max-width:360px}.share-instructions .share-message{font-size:12px;min-height:24px;margin:14px 0;color:var(--accent)}.share-preview{margin:0;min-width:0;border:1px solid #e1daed;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 15px 50px #40345a12}.share-preview>img{display:block;width:100%;height:auto}.share-preview>img[hidden]{display:none}.share-fallback{padding:30px;background:#f4f2fa}.share-fallback[hidden]{display:none}.fallback-brand{color:var(--accent);font-weight:600;font-size:16px}.share-fallback h2{margin:25px 0 8px;font-size:28px}.share-fallback p{font-size:13px;margin:12px 0}.share-fallback dl{margin:24px 0}.share-fallback dl>div{margin:15px 0}.share-fallback dt{font-size:12px;color:var(--muted)}.share-fallback dd{font-size:14px;margin:5px 0}.share-fallback img{display:block;width:136px;height:auto;background:white}
+  @media(max-width:900px){.share-layout{gap:32px;grid-template-columns:minmax(0,1fr) minmax(0,380px)}h1{font-size:32px}}
+  @media(max-width:760px){.share-page{padding-top:22px}.share-layout{display:flex;flex-direction:column;gap:24px;margin-top:20px}.share-instructions{position:static;padding:0;width:100%}h1{font-size:28px;margin:12px 0}h1 br{display:none}.share-actions{margin:18px 0 12px}.share-preview{width:100%;max-width:440px;align-self:center}.share-eyebrow{font-size:9px}.share-instructions>p{max-width:none}.share-instructions .share-message{margin:8px 0}.share-hint{margin:0}}
+</style>

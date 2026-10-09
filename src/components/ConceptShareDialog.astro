@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { buildShareCardData } from '../lib/concept-share-data';
+import { url } from '../lib/paths';
+interface Props { concept: CollectionEntry<'concepts'>; }
+const { concept } = Astro.props;
+const card = await buildShareCardData(concept.data, new URL(url(`concepts/${concept.data.slug}`), Astro.site!).href);
+---
+<dialog id="concept-share" class="share-dialog" aria-labelledby="share-dialog-title" data-card={JSON.stringify(card)} data-filename={`hearingpedia-${concept.data.slug}.png`} data-pagefind-ignore>
+  <div class="share-dialog-heading">
+    <h2 id="share-dialog-title">词条分享</h2>
+    <button type="button" class="share-close" id="close-share-dialog" aria-label="关闭词条分享" autofocus>×</button>
+  </div>
+  <div class="share-dialog-preview" id="share-preview" aria-busy="true">
+    <img id="share-image" alt={`${card.title}分享卡片：词条简介、核心信息和阅读全文二维码`} hidden />
+    <div id="share-fallback" class="share-placeholder"><p>正在生成分享图片…</p><img src={card.qrDataUrl} alt="扫码阅读完整词条" width="120" height="120" /></div>
+  </div>
+  <div class="share-dialog-footer">
+    <div class="share-dialog-actions">
+      <button type="button" class="button button-primary" id="copy-share-image" disabled>复制图片</button>
+      <a class="button button-secondary" id="save-share-image" hidden download={`hearingpedia-${concept.data.slug}.png`}>保存图片</a>
+      <button type="button" class="button button-secondary" id="native-share-image" hidden>分享图片</button>
+      <button type="button" class="button button-secondary" id="retry-share-image" hidden>重新生成</button>
+    </div>
+    <p id="share-message" class="share-dialog-message" role="status" aria-live="polite">手机上也可长按图片保存，再发到微信。</p>
+  </div>
+</dialog>
+<script>
+  import '../scripts/concept-share';
+</script>
+<style>
+  .share-dialog{position:fixed;inset:0;width:420px;max-width:calc(100vw - 32px);max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);margin:auto;padding:0;border:1px solid #e1daed;border-radius:14px;background:#fff;color:var(--ink);box-shadow:0 24px 80px #21152f30;overflow:hidden}.share-dialog[open]{display:flex;flex-direction:column}.share-dialog::backdrop{background:#25203770;backdrop-filter:blur(3px)}.share-dialog-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 16px;flex-shrink:0}.share-dialog-heading h2{font-size:16px;line-height:1.5;margin:0}.share-close{display:grid;place-items:center;width:32px;height:32px;border:0;border-radius:6px;background:transparent;color:var(--muted);font:26px/1 system-ui;cursor:pointer}.share-close:hover{background:#f3f0f8}.share-dialog-preview{display:flex;justify-content:center;align-items:center;min-height:100px;padding:0 16px;min-width:0;overflow:auto}.share-dialog-preview>img{display:block;max-width:100%;width:auto;max-height:min(600px,65vh);max-height:min(600px,65dvh,calc(100dvh - 225px));height:auto;border:1px solid #e6e0ed;border-radius:8px}.share-dialog [hidden]{display:none}.share-placeholder{padding:24px;text-align:center;font-size:12px;color:var(--muted)}.share-placeholder img{display:block;margin:16px auto 0}.share-dialog-footer{padding:14px 16px 16px;flex-shrink:0}.share-dialog-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:8px}.share-dialog-actions .button{padding:8px 12px;font-size:12px;font-family:inherit;cursor:pointer}.share-dialog-actions button:disabled{opacity:.55;cursor:wait}.share-dialog-message{font-size:11px;line-height:1.8;color:var(--muted);text-align:center;margin:10px 0 0;min-height:20px}.share-dialog :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>

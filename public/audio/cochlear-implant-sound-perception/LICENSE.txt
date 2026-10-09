@@ -1,0 +1,14 @@
+Audio source: The Ashiel Mystery, read by Garth Comira.
+LibriSpeech recording ID: 5703-47212-0000.
+Source dataset: https://www.openslr.org/12/
+Repository source: https://github.com/librosa/data/blob/main/audio/5703-47212-0000.ogg
+Source license: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+
+Hearingpedia modifications (2026-10-09): excerpt from 3.3 to 9.3 seconds;
+resample from 22050 to 16000 Hz; common 200–7000 Hz bandpass; fades;
+noise channel vocoding (4, 8, 16 channels) and equal-RMS normalization.
+The reference is band-limited and normalized; it is not the untouched recording.
+The derived audio is provided under CC BY 4.0, with attribution as above.
+
+These are acoustic teaching stimuli, not recordings of implant users' experience.
+See scripts/generate-ci-sound-perception.py and the accompanying provenance JSON.

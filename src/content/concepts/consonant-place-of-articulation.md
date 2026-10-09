@@ -44,7 +44,7 @@ depth: standard
 
 <figure class="encyclopedia-figure" id="figure-1" style="clear:both">
   <a href="/n3-hearingpedia/figures/consonant-place-of-articulation/articulator-pairs.svg" target="_blank" rel="noopener" aria-label="查看完整主动器官与被动目标配对图"><img src="/n3-hearingpedia/figures/consonant-place-of-articulation/articulator-pairs.svg" alt="七类普通话部位的主动发音器官、接触目标及拼音例项关系图" width="1200" height="1380" loading="lazy" /></a>
-  <figcaption><p><strong>图 1　主动器官与被动目标配对。</strong>从口腔前部向后部列出七组器官与目标；右列全部使用拼音例项，不能按同形 IPA 字母解读。双唇可以共同接近，箭头仅表示配对，不编码实测距离或接触强度。图不是按比例的口腔剖面，省略个体舌形、动态协同发音和细记音差异；部位相同不规定鼻腔或舌侧通气。本图依据教材器官分类和普通话描述原创绘制。 <a href="#ref-essentials-consonant-place-phonation">3</a> <a href="#ref-lee-zee-standard-chinese-2003">1</a></p></figcaption>
+  <figcaption><p><strong>图 1　主动器官与被动目标配对。</strong>从口腔前部向后部列出七组器官与目标；右列全部使用拼音例项，不能按同形国际音标（IPA）符号解读。双唇可以共同接近，箭头仅表示配对，不编码实测距离或接触强度。图不是按比例的口腔剖面，省略个体舌形、动态协同发音和细记音差异；部位相同不规定鼻腔或舌侧通气。本图依据教材器官分类和普通话描述原创绘制。 <a href="#ref-essentials-consonant-place-phonation">3</a> <a href="#ref-lee-zee-standard-chinese-2003">1</a></p></figcaption>
 </figure>
 
 ## 普通话七类传统部位

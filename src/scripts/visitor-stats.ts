@@ -6,17 +6,18 @@ type VisitorStats = {
 };
 
 export function initVisitorStats() {
-  // Restrict this site's public beacon to its production project path.
+  // Only production project visits enter the analytics account.
   if (location.hostname === 'betterci.github.io'
       && location.pathname.startsWith('/n3-hearingpedia/')
-      && /^[a-f0-9]{32}$/.test(analytics.cloudflareToken)
-      && !document.querySelector('#hearingpedia-cloudflare-beacon')) {
-    const beacon = document.createElement('script');
-    beacon.id = 'hearingpedia-cloudflare-beacon';
-    beacon.type = 'module';
-    beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
-    beacon.dataset.cfBeacon = JSON.stringify({ token: analytics.cloudflareToken });
-    document.head.append(beacon);
+      && /^[a-f0-9]{32}$/.test(analytics.baiduSiteId)
+      && !document.querySelector('#hearingpedia-baidu-tracker')) {
+    const trackingWindow = window as Window & { _hmt?: unknown[][] };
+    trackingWindow._hmt = trackingWindow._hmt || [];
+    const tracker = document.createElement('script');
+    tracker.id = 'hearingpedia-baidu-tracker';
+    tracker.async = true;
+    tracker.src = `https://hm.baidu.com/hm.js?${analytics.baiduSiteId}`;
+    document.head.append(tracker);
   }
 
   const section = document.querySelector<HTMLElement>('.visitor-stats');

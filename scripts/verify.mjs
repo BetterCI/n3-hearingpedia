@@ -29,6 +29,19 @@ const conceptPages=new Set(conceptFiles.map(file=>join(root,'concepts',file.slic
 assert(htmlFiles.length>=expectedConcepts+23,'Expected core pages, 13 domains, and all concepts');
 const cache=new Map(await Promise.all(htmlFiles.map(async p=>[p,await readFile(p,'utf8')])));
 for(const file of conceptFiles)assert(cache.has(join(root,'concepts',file.slice(0,-3),'index.html')),'Missing concept route: '+file);
+for (const file of conceptFiles) {
+  const slug = file.slice(0, -3);
+  const concept = cache.get(join(root, 'concepts', slug, 'index.html'));
+  const share = cache.get(join(root, 'share', slug, 'index.html'));
+  assert(concept.includes(base + '/share/' + slug + '/'), 'Missing share link: ' + slug);
+  assert(share?.includes('id="copy-share-image"') && share.includes('id="share-image"'), 'Missing share page: ' + slug);
+  const encoded = share.match(/data-card="([^"]+)"/)[1];
+  const card = JSON.parse(encoded.replaceAll('&quot;', '"').replaceAll('&#39;', "'").replaceAll('&lt;', '<').replaceAll('&gt;', '>').replaceAll('&amp;', '&'));
+  const articleUrl = new URL(base + '/concepts/' + slug + '/', process.env.SITE_URL || 'https://betterci.github.io').href;
+  assert.equal(card.articleUrl, articleUrl, 'Share QR must target the deployed article: ' + slug);
+  assert(card.qrDataUrl.startsWith('data:image/png;base64,') && card.facts.length >= 2 && card.facts.length <= 4, 'Missing share content or QR: ' + slug);
+  assert(!share.includes('data-pagefind-body'), 'Share page must not duplicate search results: ' + slug);
+}
 const batch=JSON.parse(await readFile('docs/research/second-batch-catalog.json','utf8'));
 const wiki=JSON.parse(await readFile('docs/research/wiki-evidence-map.json','utf8'));
 const monitor=JSON.parse(await readFile('docs/research/monitor-expansion-2026-10-04.json','utf8'));

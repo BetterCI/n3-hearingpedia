@@ -1,0 +1,958 @@
+{
+  "scope": "Targeted one-layer discovery, limited API batches; not a systematic or exhaustive review.",
+  "candidate_count": 78,
+  "candidates": [
+    {
+      "id": "https://openalex.org/W7170137589",
+      "doi": "https://doi.org/10.3389/fnhum.2026.1818601",
+      "title": "Ten years of research on the sound quality of cochlear implants",
+      "year": 2026,
+      "pools": [
+        "openalex-dorman"
+      ],
+      "grade": "core",
+      "study_and_relevance": "十余年电听觉声音质量项目综述，区分发表状态与 SSD 人群；用于范围和证据边界。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4393855000",
+      "doi": "https://doi.org/10.1121/10.0025274",
+      "title": "How to vocode: Using channel vocoders for cochlear-implant research",
+      "year": 2024,
+      "pools": [
+        "openalex-vocode"
+      ],
+      "grade": "core",
+      "study_and_relevance": "通道声码器参数及常见混杂的方法论文；用于演示条件及模拟边界。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1974932989",
+      "doi": "https://doi.org/10.1126/science.270.5234.303",
+      "title": "Speech Recognition with Primarily Temporal Cues",
+      "year": 1995,
+      "pools": [
+        "openalex-dorman-back",
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "噪声包络降维后的言语识别；支持信息利用背景，不能验证植入者音质。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2056133372",
+      "doi": "https://doi.org/10.1121/1.1906875",
+      "title": "Control Methods Used in a Study of the Vowels",
+      "year": 1952,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "元音识别、语言背景与声学测量的控制方法；本稿无需再展开元音测量史。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1536990986",
+      "doi": "https://doi.org/10.1007/978-3-662-01562-9",
+      "title": "Speech Analysis Synthesis and Perception",
+      "year": 1972,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "语音分析合成专著，仅有书目，未取得摘要或章节；不用其推断具体电听觉体验。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1982976845",
+      "doi": "https://doi.org/10.1121/1.427148",
+      "title": "Morphology and development of the human vocal tract: A study using magnetic resonance imaging",
+      "year": 1999,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "MRI 测量正常人声道形态发展；与共振峰背景有关，不提供 CI 音质证据。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2084747841",
+      "doi": "https://doi.org/10.1016/j.neuroimage.2004.02.020",
+      "title": "Distinct functional substrates along the right superior temporal sulcus for the processing of voices",
+      "year": 2004,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "声音加工脑区论文，无可用摘要；具体结论未核验，不采用其解释熟悉感机制。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1978721968",
+      "doi": "https://doi.org/10.1007/s10162-007-0076-9",
+      "title": "Frequency Map for the Human Cochlear Spiral Ganglion: Implications for Cochlear Implants",
+      "year": 2007,
+      "pools": [
+        "openalex-dorman-back",
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "人耳螺旋神经节频率映射，复用站点相关解剖背景；不据此预测主观音高。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1994657361",
+      "doi": "https://doi.org/10.1121/1.419603",
+      "title": "Speech intelligibility as a function of the number of channels of stimulation for signal processors using sine-wave and noise-band outputs",
+      "year": 1997,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "正常听力正弦与噪声载波的通道数识别实验；不直接研究真实声音质量。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2104220500",
+      "doi": "https://doi.org/10.1109/79.708543",
+      "title": "Mimicking the human ear",
+      "year": 1998,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "早期人工耳蜗设计与信号处理概述；系统机制已由 Zeng 2008 覆盖。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2040809669",
+      "doi": "https://doi.org/10.1016/s0378-5955(02)00644-5",
+      "title": "Temporal pitch in electric hearing",
+      "year": 2002,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "电听觉时域音高论文，仅有书目；本稿以已核验的 2025 专家观点覆盖限制。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2170637665",
+      "doi": "https://doi.org/10.1121/1.2047107",
+      "title": "The interaction of glottal-pulse rate and vocal-tract length in judgements of speaker size, sex, and age",
+      "year": 2005,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "操纵声源脉冲率和声道长度评价说话人属性；可分离线索，但非 CI 体验研究。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1971432264",
+      "doi": "https://doi.org/10.1121/1.427954",
+      "title": "On the number of channels needed to understand speech",
+      "year": 1999,
+      "pools": [
+        "openalex-dorman-back",
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "多说话人材料中的通道数与言语识别；与材料依赖有关，不评价自然度。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2018545827",
+      "doi": "https://doi.org/10.1121/1.408176",
+      "title": "Effects of spectral smearing on the intelligibility of sentences in noise",
+      "year": 1993,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "以频谱展宽模拟选择性下降并测噪声言语；不能把声学操作直接当作电流扩散。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2433966735",
+      "doi": "https://doi.org/10.1097/mao.0000000000000904",
+      "title": "Cortical Plasticity and Reorganization in Pediatric Single-sided Deafness Pre- and Postcochlear Implantation",
+      "year": 2016,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "一名 SSD 儿童的多模态皮层诱发电位植入前后比较；不代表主观自然度随访。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2064154965",
+      "doi": "https://doi.org/10.1523/jneurosci.2742-09.2010",
+      "title": "How the Human Brain Recognizes Speech in the Context of Changing Speakers",
+      "year": 2010,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "操纵语音与说话人任务研究人脑声源处理；对 CI 熟悉感是间接背景。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2402811972",
+      "doi": "https://doi.org/10.1177/00034894780870s602",
+      "title": "Auditory Prostheses Research with Multiple Channel Intracochlear Stimulation in Man",
+      "year": 1978,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "早期四名志愿者的多通道电刺激研究；技术沿革，不用于现代体验分布。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2076277475",
+      "doi": "https://doi.org/10.1007/s10162-007-0077-8",
+      "title": "Changes in Pitch with a Cochlear Implant Over Time",
+      "year": 2007,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "短电极混合型使用者的纵向电—声音高匹配，另查正式摘要后引用其条件限制。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1971470494",
+      "doi": "https://doi.org/10.1007/s10162-007-0071-1",
+      "title": "An Electric Frequency-to-place Map for a Cochlear Implant Patient with Hearing in the Nonimplanted Ear",
+      "year": 2007,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "单例电频位图研究，无可用摘要；不从标题推断其映射或匹配结果。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1987428619",
+      "doi": "https://doi.org/10.1159/000206489",
+      "title": "Electro-Acoustic Stimulation",
+      "year": 2009,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "14 名有残余听力使用者的声学与电刺激音高估计；说明配置重要，范围已覆盖。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2014011816",
+      "doi": "https://doi.org/10.1097/aud.0b013e3181e1d15e",
+      "title": "Use of “Phantom Electrode” Technique to Extend the Range of Pitches Available Through a Cochlear Implant",
+      "year": 2010,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "部分双极与单极电刺激比较最低音高的幻影电极研究；提供位置线索，不测整体自然度。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2071086438",
+      "doi": "https://doi.org/10.1121/1.417949",
+      "title": "Intensity discrimination as a function of stimulus level with electric stimulation",
+      "year": 1996,
+      "pools": [
+        "openalex-dorman-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "八名植入者的电流强度差阈与水平函数；区分电流、动态范围与行为，未增补数值。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1975675577",
+      "doi": "https://doi.org/10.1121/1.408469",
+      "title": "Development of the Hearing In Noise Test for the measurement of speech reception thresholds in quiet and in noise",
+      "year": 1994,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "HINT 句子材料与噪声阈的开发；是言语指标而非主观质量量表。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1969235132",
+      "doi": "https://doi.org/10.1007/s10162-004-5024-3",
+      "title": "Noise Susceptibility of Cochlear Implant Users: The Role of Spectral Resolution and Smearing",
+      "year": 2005,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "频谱分辨与噪声易感性研究，没有可用摘要，未读取具体结果。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1986407679",
+      "doi": "https://doi.org/10.1121/1.428656",
+      "title": "Speech recognition with reduced spectral cues as a function of age",
+      "year": 2000,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "儿童与成人的降维语音识别比较；年龄/任务背景，不测电听觉质感。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1963640710",
+      "doi": "https://doi.org/10.3109/00206098509081545",
+      "title": "Temporal Modulation Transfer Functions in Normal-Hearing and Hearing-Impaired Listeners",
+      "year": 1985,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "正常与感音损失者的调制检测函数及声级效应；声学时间处理背景。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1966249240",
+      "doi": "https://doi.org/10.1121/1.4792936",
+      "title": "Effect of mismatched place-of-stimulation on the salience of binaural cues in conditions that simulate bilateral cochlear-implant listening",
+      "year": 2013,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "正常听力脉冲模拟中的跨耳频位失配、融合和侧化；与真实 CI 研究分开。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1976332190",
+      "doi": "https://doi.org/10.1121/1.423774",
+      "title": "Speech recognition with altered spectral distribution of envelope cues",
+      "year": 1998,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "四通道包络频谱分配改变与音素句子识别；测线索利用，非匹配音质。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1977021851",
+      "doi": "https://doi.org/10.1121/1.426725",
+      "title": "Recognition of spectrally degraded and frequency-shifted vowels in acoustic and electric hearing",
+      "year": 1999,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "真实电听觉与声学降维、移频元音识别对照；可用于机制，未覆盖全体验。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1976169414",
+      "doi": "https://doi.org/10.1121/1.1856273",
+      "title": "Interactions between cochlear implant electrode insertion depth and frequency-place mapping",
+      "year": 2005,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "四名 CI 使用者的模拟浅插入与频位分配对言语识别；与短期位置改变相关。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1968509067",
+      "doi": "https://doi.org/10.1121/1.1287711",
+      "title": "The relationship between speech perception and electrode discrimination in cochlear implantees",
+      "year": 2000,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "15 名早期 CI 使用者的频带言语信息和电极辨别；结构数与信息利用不同。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1984184040",
+      "doi": "https://doi.org/10.1121/1.1928892",
+      "title": "Gender and speaker identification as a function of the number of channels in spectrally reduced speech",
+      "year": 2005,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "正常听力模拟通道数与说话人身份/性别识别；补充内容和声源属性的任务区别。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1968148141",
+      "doi": "https://doi.org/10.1121/1.2997434",
+      "title": "Recognition of spectrally degraded phonemes by younger, middle-aged, and older normal-hearing listeners",
+      "year": 2008,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "不同年龄正常听力者的降维与移频音素识别；年龄与认知混杂背景。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1982549382",
+      "doi": "https://doi.org/10.1121/1.1804627",
+      "title": "Frequency-place compression and expansion in cochlear implant listeners",
+      "year": 2004,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "真实 CI 的频位压缩扩展；编码/映射机制相关，本稿不新增调机建议。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1974570767",
+      "doi": "https://doi.org/10.1121/1.4758770",
+      "title": "Channel interaction limits melodic pitch perception in simulated cochlear implants",
+      "year": 2012,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "正常听力正弦声码器的交互操纵与旋律轮廓识别；保持模拟证据层次。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1930552899",
+      "doi": "https://doi.org/10.1121/1.4929731",
+      "title": "Toddlers' comprehension of degraded signals: Noise-vocoded versus sine-wave analogs",
+      "year": 2015,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "background",
+      "study_and_relevance": "幼儿降维语音理解、噪声与正弦类比；儿童材料适用性背景。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1974354191",
+      "doi": "https://doi.org/10.1121/1.3518760",
+      "title": "The performance of different synthesis signals in acoustic models of cochlear implants",
+      "year": 2011,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "多种声学模型载波与真实 CI 音素识别特征的对应；验证识别而非声音体验等价。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1900979944",
+      "doi": "https://doi.org/10.1121/1.4929618",
+      "title": "Spectral density affects the intelligibility of tone-vocoded speech: Implications for cochlear implant simulations",
+      "year": 2015,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "important",
+      "study_and_relevance": "正弦载波频谱密度与可懂度；支持同一通道标签不保证刺激相同。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1982562202",
+      "doi": "https://doi.org/10.1007/s10162-014-0502-8",
+      "title": "Spectral and Temporal Analysis of Simulated Dead Regions in Cochlear Implants",
+      "year": 2015,
+      "pools": [
+        "openalex-vocode-back"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "模拟死区的频谱时域分析，摘要不可用，未据标题推断结果。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4412473825",
+      "doi": "https://doi.org/10.1121/10.0037182",
+      "title": "Context effects for degraded speech: Effects of age, preceding or subsequent contextual cues, and signal-to-noise ratio",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "background",
+      "study_and_relevance": "正常听力不同年龄者的语境、位置、噪声与降维语音分类；不直接测 CI 音质。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4400088811",
+      "doi": "https://doi.org/10.1121/10.0026434",
+      "title": "Spectral degradation and carrier sentences increase age-related temporal processing deficits in a cue-specific manner",
+      "year": 2024,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "background",
+      "study_and_relevance": "正常听力年龄与降维下特定时间线索分类；时域与材料混杂背景。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4401893156",
+      "doi": "https://doi.org/10.1177/23312165241266316",
+      "title": "Neural Decoding of the Speech Envelope: Effects of Intelligibility and Spectral Degradation",
+      "year": 2024,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "background",
+      "study_and_relevance": "EEG 语音包络解码与可懂度/降维；神经相关指标不等同声音质量。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4400290762",
+      "doi": "https://doi.org/10.1121/10.0026450",
+      "title": "Attenuation and distortion components of age-related hearing loss: Contributions to recognizing temporal-envelope filtered speech in modulated noise",
+      "year": 2024,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "background",
+      "study_and_relevance": "年龄相关听损、可听性与调制分离的语音实验；不是植入者匹配研究。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4403463575",
+      "doi": "https://doi.org/10.3390/s24206614",
+      "title": "Impact of Mask Type as Training Target for Speech Intelligibility and Quality in Cochlear-Implant Noise Reduction",
+      "year": 2024,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "important",
+      "study_and_relevance": "人工耳蜗降噪网络目标掩膜与可懂度/质量比较；多目标处理相关，未做工具推荐。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4401611103",
+      "doi": "https://doi.org/10.1080/14992027.2024.2385552",
+      "title": "Cochlear-implant simulated spectral degradation attenuates emotional responses to environmental sounds",
+      "year": 2024,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "important",
+      "study_and_relevance": "正常听力噪声声码器的环境声音情绪效价/唤醒评分；与声音识别和质量应分开。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4411398738",
+      "doi": "https://doi.org/10.1097/aud.0000000000001687",
+      "title": "The Roles of Selective Attention and Asymmetric Experience in Bilateral Speech Interference for Single-Sided Deafness Cochlear Implant and Vocoder Listeners",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "important",
+      "study_and_relevance": "SSD-CI 与模拟听者的跨耳言语干扰、注意和经验；不直接定位主观音色机制。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4415986607",
+      "doi": "https://doi.org/10.1038/s41598-025-25711-z",
+      "title": "Acoustic simulation of cochlear implant sound to approximate the perceptual experience of electric hearing",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "core",
+      "study_and_relevance": "15 名成人 SSD-CI 德语个体匹配与新句泛化，阅读全文并采用已发表汇总数据。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4416166927",
+      "doi": "https://doi.org/10.1016/j.heares.2025.109469",
+      "title": "From spikes to speech: NeuroVoc — A biologically plausible vocoder framework for auditory perception and cochlear implant simulation",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "important",
+      "study_and_relevance": "从模拟神经活动重建声波的模块化 NeuroVoc；模型创新不证明真实体验相似。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W7130609481",
+      "doi": "https://doi.org/10.1044/2025_aja-25-00190",
+      "title": "Spectral Degradation and Speaking Style Effects on Emotional Prosody Perception Are Largely Independent of Cross-Modal Dual-Tasking",
+      "year": 2026,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "background",
+      "study_and_relevance": "正常听力的降维情感韵律和跨模态双任务；不直接测植入者感知。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4408471915",
+      "doi": "https://doi.org/10.1080/14992027.2025.2473050",
+      "title": "Right ear advantage in cochlear implant simulation: short- and long-term effects",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "background",
+      "study_and_relevance": "正常听力双听词识别的模拟经验与右耳优势；是模拟侧优势而非 CI 自然度。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4411550096",
+      "doi": "https://doi.org/10.3758/s13421-025-01748-3",
+      "title": "A drift–diffusion decomposition of conditions that influence shallow (“good enough”) processing of heard sentences",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "background",
+      "study_and_relevance": "句子理解深度的漂移扩散分解；一般决策背景，超出电听觉体验的核心范围。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4406859717",
+      "doi": "https://doi.org/10.1109/apsipaasc63619.2025.10849206",
+      "title": "Incorporating Auditory Processing into Undergraduate Signal Processing Courses to Enhance Student Learning",
+      "year": 2024,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "本科信号处理课程实验与教学评价，不提供植入者感知科学证据。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4409544804",
+      "doi": "https://doi.org/10.1121/10.0036440",
+      "title": "Cochlear-implant dichotic listening performance and effort are disrupted with functional ear asymmetry",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "important",
+      "study_and_relevance": "20 名双侧 CI 的两耳功能不对称、数字回忆与瞳孔努力；相关但不直接测音色。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4409913047",
+      "doi": "https://doi.org/10.1101/2025.04.28.25326599",
+      "title": "From Spectral Resolution to Speech Perception: A Review of Findings in Postlingually Deafened Adult Cochlear Implant Listeners",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "频谱分辨与言语综述的预印本；已发现同题正式版本，不能作为独立重复证据。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4413927029",
+      "doi": "https://doi.org/10.1121/10.0039099",
+      "title": "Simulation of unilateral and bilateral cochlear implants on spatial speech-in-noise tasks",
+      "year": 2025,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "important",
+      "study_and_relevance": "13 名正常听力的单侧/双侧空间降维言语模拟；多声景指标背景，非真实质量验证。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W7125837690",
+      "doi": "https://doi.org/10.1044/2025_aja-25-00131",
+      "title": "From Spectral Resolution to Speech Perception: A Review of Findings in Postlingually Deafened Adult Cochlear Implant Listeners",
+      "year": 2026,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "important",
+      "study_and_relevance": "正式版本综述频谱心理物理与语后聋成人言语关联；推断边界相关，现有来源已覆盖。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W7126065303",
+      "doi": "https://doi.org/10.1016/j.heares.2026.109548",
+      "title": "Using vocoders to the implanted ear to investigate the binaural benefit for music sound quality in single-sided deaf cochlear implant users",
+      "year": 2026,
+      "pools": [
+        "openalex-vocode-forward",
+        "openalex-quality"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "植入耳声码器与音乐质量研究，摘要不可用；保留后续核验线索，不从标题引用结果。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W7128534418",
+      "doi": "https://doi.org/10.5604/01.3001.0055.5226",
+      "title": "Predictive impact of the behavior of the Carhart's notch after stapedotomy on speech audiometry parameters",
+      "year": 2026,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "镫骨手术后 Carhart 切迹与言语测听，非 CI 电听觉体验研究。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W7133333903",
+      "doi": "https://doi.org/10.1007/978-3-032-15719-5_2",
+      "title": "Advancements and Challenges in Signal Processing and Sound Coding for Cochlear Implants",
+      "year": 2026,
+      "pools": [
+        "openalex-vocode-forward"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "人工耳蜗编码章节仅有书目；本稿不以未访问章节补充论断。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2744779057",
+      "doi": "https://doi.org/10.1097/mao.0000000000001449",
+      "title": "The Sound Quality of Cochlear Implants: Studies With Single-sided Deaf Patients",
+      "year": 2017,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "core",
+      "study_and_relevance": "成人 SSD-CI 比较具体声码器与滤波自然语音的相似性，核对正式摘要后采用。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4413299169",
+      "doi": "https://doi.org/10.3389/fauot.2025.1648716",
+      "title": "The importance of frequency–place mismatch in the quality of sound perceived in single-sided deafness among cochlear implant recipients",
+      "year": 2025,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "important",
+      "study_and_relevance": "SSD 电极频率位置失配与感知质量相关的临床研究；需进一步全文确认混杂，不用于产品排名。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W7125968003",
+      "doi": "https://doi.org/10.17605/osf.io/dpezf",
+      "title": "Sound Samples From Matching the Sound Quality of Speech and Music for Single-sided Deaf Patients Fit With Cochlear Implants",
+      "year": 2026,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "background",
+      "study_and_relevance": "语音与音乐声音匹配研究的音频数据集，与正式论文同项目，不计独立实验。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W7152689461",
+      "doi": "https://doi.org/10.3389/fnins.2026.1798569",
+      "title": "A digital audio workstation approach for matching the sound quality of speech and music for single-sided deaf patients fit with cochlear implants",
+      "year": 2026,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "core",
+      "study_and_relevance": "11 名成人 SSD-CI 的工作站语音与音乐匹配，另查正式摘要后介绍方法扩展。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W3095265362",
+      "doi": "https://doi.org/10.1001/jamaoto.2020.3852",
+      "title": "Cochlear Implantation in Children With Single-Sided Deafness",
+      "year": 2020,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "background",
+      "study_and_relevance": "儿童 SSD 植入临床与自评结局综述；主要是适应证/获益范围，已由 CI 总词条承担。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2025237900",
+      "doi": "https://doi.org/10.1007/s40137-014-0075-9",
+      "title": "Cochlear Implants in Single-Sided Deafness",
+      "year": 2014,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "SSD 植入综述仅有书目，不从标题推断疗效或声音体验。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2334174877",
+      "doi": "https://doi.org/10.1097/moo.0b013e328357a613",
+      "title": "Cochlear implantation in single-sided deafness for enhancement of sound localization and speech perception",
+      "year": 2012,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "background",
+      "study_and_relevance": "SSD 植入定位与噪声言语文献综述；临床背景，非声音质感匹配。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2331689148",
+      "doi": "https://doi.org/10.1097/mao.0000000000000681",
+      "title": "Cochlear Implantation for Patients With Single-Sided Deafness or Asymmetrical Hearing Loss",
+      "year": 2014,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "background",
+      "study_and_relevance": "SSD/AHL 植入结局系统综述，包括定位、言语、QOL与耳鸣；非音色机制直接证据。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2913067565",
+      "doi": "https://doi.org/10.1055/s-0038-1677482",
+      "title": "Cochlear Implantation for Single-Sided Deafness: A New Treatment Paradigm",
+      "year": 2019,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "background",
+      "study_and_relevance": "SSD 植入治疗范式综述，涉及双耳与生活质量；系统背景已覆盖。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1990205515",
+      "doi": "https://doi.org/10.1007/s00405-013-2746-z",
+      "title": "Cochlear implantation for single-sided deafness: the outcomes. An evidence-based approach",
+      "year": 2013,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "SSD 结局证据综述仅有书目，未核验其具体体验结论。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4286728464",
+      "doi": "https://doi.org/10.1007/978-981-19-0452-3_14",
+      "title": "Cochlear Implants for Single-Sided Deafness",
+      "year": 2022,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "exclude",
+      "study_and_relevance": "SSD 植入书章节仅有书目，未访问正文或摘要。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2154956322",
+      "doi": "https://doi.org/10.1159/000439176",
+      "title": "Single-Sided Deafness: The Effect of Cochlear Implantation on Quality of Life, Quality of Hearing, and Working Performance",
+      "year": 2015,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "important",
+      "study_and_relevance": "七名 SSD 成人植入前及 6/12 月定位、言语、听觉/QOL问卷；纵向综合指标非纯自然度。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2105166471",
+      "doi": "https://doi.org/10.1097/mao.0000000000000437",
+      "title": "Investigating Long-Term Effects of Cochlear Implantation in Single-Sided Deafness",
+      "year": 2014,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "important",
+      "study_and_relevance": "一名 SSD 成人 6—18 月空间听觉与耳鸣自评；可说明纵向设计，单例不代表分布。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W4214599307",
+      "doi": "https://doi.org/10.1177/01945998221083283",
+      "title": "Cochlear Implantation in Adults With Single‐Sided Deafness: A Systematic Review and Meta‐analysis",
+      "year": 2022,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "background",
+      "study_and_relevance": "成人 SSD 植入临床结局系统综述/荟萃；定位和言语获益并非匹配体验本身。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W3203076754",
+      "doi": null,
+      "title": "[Treatment of single-sided deafness by cochlear implantation].",
+      "year": 2021,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "background",
+      "study_and_relevance": "SSD 听力障碍与治疗选项概述；不提供体验细节的新验证。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2946413931",
+      "doi": "https://doi.org/10.1097/mao.0000000000002235",
+      "title": "Evaluating the Long-Term Hearing Outcomes of Cochlear Implant Users With Single-Sided Deafness",
+      "year": 2019,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "important",
+      "study_and_relevance": "34 名 SSD 使用者 4—10 年的言语、SSQ与定位；长期综合评价不等于开机自然度追踪。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2891375693",
+      "doi": "https://doi.org/10.1371/journal.pone.0204402",
+      "title": "Cortical reorganization after cochlear implantation for adults with single-sided deafness",
+      "year": 2018,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "important",
+      "study_and_relevance": "SSD 成人植入前后 CAEP与行为的前瞻研究；神经变化不能直接作为音质自评。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W2592862089",
+      "doi": "https://doi.org/10.1080/14992027.2017.1296595",
+      "title": "Cochlear implant effectiveness in postlingual single-sided deaf individuals: what’s the point?",
+      "year": 2017,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "important",
+      "study_and_relevance": "19 名语后聋 SSD 的开放问卷和体验质性研究；支持情境方法，暂未获取全文而不增补细节。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    },
+    {
+      "id": "https://openalex.org/W1586629059",
+      "doi": "https://doi.org/10.1159/000380744",
+      "title": "Cochlear Implantation in Children with Single-Sided Deafness: Does Aetiology and Duration of Deafness Matter?",
+      "year": 2015,
+      "pools": [
+        "openalex-quality"
+      ],
+      "grade": "background",
+      "study_and_relevance": "儿童 SSD 病因/聋时长与纵向植入获益；主要临床范围，非本条成人匹配核心。",
+      "screening_material": "title plus available abstract; unavailable abstracts explicitly limited"
+    }
+  ],
+  "version_pairs": [
+    {
+      "preprint": "10.1101/2025.04.28.25326599",
+      "published": "10.1044/2025_aja-25-00131"
+    }
+  ],
+  "other_exclusions": [
+    {
+      "doi": "10.3390/ani14233445",
+      "reason": "Surname Dorman and sound query also returned canine anxiety review; inspected and excluded as outside human electric hearing."
+    }
+  ]
+}

@@ -52,7 +52,7 @@ key_facts: [{"label":"主要对立","value":"普通话清塞音和清塞擦音�
 
 同一行突出送气差别，跨行比较还改变了[发音部位](../consonant-place-of-articulation/)。例词具有相同韵母拼写和声调，实际语音仍有协同发音，不保证除送气之外的声学性质完全相同。音类对应以普通话语音描述为依据。[1](#ref-lee-zee-standard-chinese-2003)
 
-IPA 用上标 **ʰ** 标记送气，例如 [pʰ]；这个附加符号不表示另加一个独立 /h/ 音位。[pʰ] 与两个音段的 [ph] 不能混写。完整音值及转写约定集中见[普通话辅音综合表](../mandarin-consonants/#ipa)。[2](#ref-ipa-chart-official)
+国际音标（IPA）用上标 **ʰ** 标记送气，例如 [pʰ]；这个附加符号不表示另加一个独立 /h/ 音位。[pʰ] 与两个音段的 [ph] 不能混写。完整音值及转写约定集中见[普通话辅音综合表](../mandarin-consonants/#ipa)。[2](#ref-ipa-chart-official)
 
 ## 代表性录音观察方法
 
