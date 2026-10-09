@@ -1,9 +1,24 @@
+import analytics from '../data/analytics.json';
+
 type VisitorStats = {
   start: string; end: string; updatedAt: string; visits: number;
   countries: { name: string; visits: number }[];
 };
 
 export function initVisitorStats() {
+  // Restrict this site's public beacon to its production project path.
+  if (location.hostname === 'betterci.github.io'
+      && location.pathname.startsWith('/n3-hearingpedia/')
+      && /^[a-f0-9]{32}$/.test(analytics.cloudflareToken)
+      && !document.querySelector('#hearingpedia-cloudflare-beacon')) {
+    const beacon = document.createElement('script');
+    beacon.id = 'hearingpedia-cloudflare-beacon';
+    beacon.type = 'module';
+    beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    beacon.dataset.cfBeacon = JSON.stringify({ token: analytics.cloudflareToken });
+    document.head.append(beacon);
+  }
+
   const section = document.querySelector<HTMLElement>('.visitor-stats');
   if (!section) return;
   const site = section.dataset.counterSite!;
