@@ -1,0 +1,155 @@
+{
+  "checked_at": "2026-10-09",
+  "figures": {
+    "01-perceptual-levels": {
+      "svg_viewbox": [
+        1440,
+        720
+      ],
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "02-separate-outcomes": {
+      "svg_viewbox": [
+        1440,
+        720
+      ],
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "03-interaural-matching": {
+      "svg_viewbox": [
+        1440,
+        720
+      ],
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "04-match-generalization": {
+      "svg_viewbox": [
+        1440,
+        720
+      ],
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    }
+  },
+  "published_data": {
+    "source_doi": "10.1038/s41598-025-25711-z",
+    "location": "Results; similarity scores after optimization and on two further sentences",
+    "n": 15,
+    "means": [
+      9.7,
+      8.4,
+      8.9
+    ],
+    "SD": [
+      0.5,
+      1.5,
+      1.3
+    ],
+    "paired_tests": "Use published paired tests; not inferable from summary SDs."
+  },
+  "audio": {
+    "source_url": "https://raw.githubusercontent.com/librosa/data/main/audio/5703-47212-0000.ogg",
+    "source_sha256": "a284612b46af0535f7e1873758c4387bb8369f6dbbe192ffdec1f171108f98dd",
+    "work": "The Ashiel Mystery",
+    "reader": "Garth Comira",
+    "recording_id": "5703-47212-0000",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "excerpt_seconds": [
+      3.3,
+      9.3
+    ],
+    "modifications": "Excerpt, resampling, common bandpass, fades, RMS normalization; noise channel vocoding for 4/8/16 outputs.",
+    "sample_rate_Hz": 16000,
+    "duration_seconds": 6,
+    "band_Hz": [
+      200.0,
+      7000.0
+    ],
+    "band_spacing": "logarithmic",
+    "boundaries_Hz": {
+      "4": [
+        200.0,
+        486.45985581955756,
+        1183.2159566199234,
+        2877.9353183036387,
+        7000.0
+      ],
+      "8": [
+        200.0,
+        311.9166093107443,
+        486.45985581955756,
+        758.6745439651496,
+        1183.2159566199234,
+        1845.3235463562762,
+        2877.9353183036387,
+        4488.379131504543,
+        7000.0
+      ],
+      "16": [
+        200.0,
+        249.76653471221655,
+        311.9166093107443,
+        389.5316531336445,
+        486.45985581955756,
+        607.5069623232769,
+        758.6745439651496,
+        947.457559102733,
+        1183.2159566199234,
+        1477.6387465057928,
+        1845.3235463562762,
+        2304.5003379813265,
+        2877.9353183036387,
+        3594.059657892998,
+        4488.379131504543,
+        5605.234510752588,
+        7000.0
+      ]
+    },
+    "filters": "4th-order Butterworth analysis/synthesis; 2nd-order envelope LP; offline SOS forward-backward filtering (effective responses differ from single pass).",
+    "envelope": "full-wave rectification, 160 Hz lowpass, negative values clipped to zero",
+    "noise_seed_base": 20261009,
+    "noise_seed_rule": "base + channel count",
+    "fades_ms": 10,
+    "normalization": "equal RMS over complete 6 s after common preprocessing; not perceptual equal loudness or SPL calibration",
+    "files": {
+      "reference": {
+        "file": "reference.wav",
+        "rms": 0.06000006494464512,
+        "peak": 0.514984130859375,
+        "sha256": "11e833ca28b0dd8d9360f5d21f7877ec965fb58f86b05e076678feb88f12ab23"
+      },
+      "4": {
+        "file": "noise-4.wav",
+        "rms": 0.060000057618086654,
+        "peak": 0.563232421875,
+        "sha256": "82b27c044763422e5bd14893d3582b8353daa0aa9d9828975994f36d88adb557"
+      },
+      "8": {
+        "file": "noise-8.wav",
+        "rms": 0.05999998666798651,
+        "peak": 0.541656494140625,
+        "sha256": "f130ce9f264bcc0cc99e9b1eb820af5b2878cd0531805dbad0bef64e57d16925"
+      },
+      "16": {
+        "file": "noise-16.wav",
+        "rms": 0.05999998187620126,
+        "peak": 0.515533447265625,
+        "sha256": "61e3b52e1b0b7a260d958c3d2c37306002d132d59507f4de3a39dbb038d870bb"
+      }
+    },
+    "target_rms": 0.06,
+    "claims": "Teaching example only; no implant user, clinical processor, frequency mismatch or current-spread model."
+  }
+}

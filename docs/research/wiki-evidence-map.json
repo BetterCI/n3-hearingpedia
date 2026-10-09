@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 238,
+  "relations": 250,
   "entries": [
     {
       "slug": "cochlea",
@@ -2445,6 +2445,54 @@
         "cochlear-implant",
         "hearing-aid",
         "confusion-matrix"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "cochlear-implant-sound-perception",
+      "knowledge_area": "perception",
+      "kind": "phenomenon",
+      "chinese_characters": 8351,
+      "body_characters": 15343,
+      "sections": 10,
+      "subsections": 26,
+      "reference_ids": [
+        "ci-sound-dorman-2026",
+        "ci-sound-dorman-2025",
+        "ci-sound-berg-2025",
+        "zeng-2008",
+        "friesen-2001",
+        "ci-sound-place-2019",
+        "carlyon-temporal-2025",
+        "ci-sound-music-2004",
+        "ci-sound-environment-2022",
+        "ci-sound-reiss-2007",
+        "ci-sound-training-2024",
+        "how-vocode-2024",
+        "ci-sound-dorman-2017",
+        "kopsch-2025",
+        "ci-sound-close-2024",
+        "ci-sound-mismatch-2026",
+        "ci-sound-hisqui-2014",
+        "meng-get-2023",
+        "kan-2013",
+        "ci-sound-daw-2026"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "cochlear-implant-coding-strategies",
+        "pitch-perception",
+        "speech-intelligibility",
+        "listening-effort",
+        "channel-interaction",
+        "temporal-envelope",
+        "dynamic-range",
+        "formant",
+        "spatial-hearing",
+        "auditory-plasticity",
+        "psychoacoustics",
+        "vocoder",
+        "get-vocoder"
       ],
       "status": "draft"
     }
