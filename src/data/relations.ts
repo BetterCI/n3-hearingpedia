@@ -14,6 +14,19 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('timbre-perception','pitch-perception','related','固定基频不保证所有音高判断都不受明亮度影响，两类任务需要分开。',3),
+  link('timbre-perception','loudness','related','等 RMS 不能代替等响匹配，响度是音色任务的重要控制条件。',3),
+  link('timbre-perception','fundamental-frequency','related','固定谐波位置而改变振幅配比可操纵频谱线索。',2),
+  link('timbre-perception','harmonicity','related','谐波结构、分音关系与局部频谱形状提供不同音色线索。',2),
+  link('timbre-perception','formant','related','共振峰和频谱包络参与人声品质及类别区分。',2),
+  link('timbre-perception','temporal-envelope','related','起音、持续和释放描写声音事件的动态，但声学参数不等于感知指标。',3),
+  link('timbre-perception','amplitude-modulation','related','调制频率、深度及载波共同约束波动与粗糙感的研究。',2),
+  link('timbre-perception','auditory-filter','mechanism','外周频率选择性影响可用的谐波与频谱线索。',2),
+  link('timbre-perception','auditory-scene-analysis','related','融合事件的音色与多个独立声部的场景组织需要区分。',3),
+  link('timbre-perception','psychoacoustics','related','辨别、相异性、匹配和命名任务分别测量不同感知问题。',3),
+  link('timbre-perception','cochlear-implant-sound-perception','related','音色线索利用、跨耳相似性和音乐愉悦度分别评价电听觉。',3),
+  link('timbre-perception','channel-interaction','related','电极兴奋重叠可限制独立信息，不能用主观音色直接反推扩散范围。',2),
+  link('timbre-perception','hearing-aid','related','助听增益与动态处理可能改变包络线索和感知关系。',2),
   link('cochlear-implant-sound-perception','cochlear-implant','related','电听觉的主观体验与系统输入、神经接口和使用经验相联系。',3),
   link('cochlear-implant-sound-perception','cochlear-implant-coding-strategies','related','编码改变需要分别评价识别、声音质量和其他聆听目标。',2),
   link('cochlear-implant-sound-perception','pitch-perception','related','单电极音高匹配与整体语音音色的相似性采用不同任务。',3),

@@ -11,13 +11,13 @@
     },
     "build": "passed",
     "site_verification": {
-      "pages": 147,
+      "pages": 149,
       "legacy_redirects": 9,
-      "internal_links": 10023,
-      "equations": 114,
-      "searchable_concepts": 57,
+      "internal_links": 10281,
+      "equations": 119,
+      "searchable_concepts": 58,
       "knowledge_areas": 7,
-      "relationships": 226,
+      "relationships": 239,
       "broken_links": 0
     },
     "figure_generator": "executed successfully; SVG, PNG and parameters reproduced",
@@ -205,5 +205,29 @@
       "mandarinNodes": 5,
       "pageErrors": []
     }
+  },
+  "previous_integration_site_verification": {
+    "pages": 147,
+    "legacy_redirects": 9,
+    "internal_links": 10023,
+    "equations": 114,
+    "searchable_concepts": 57,
+    "knowledge_areas": 7,
+    "relationships": 226,
+    "broken_links": 0
+  },
+  "final_integration": {
+    "main_commit": "435cfb6",
+    "prior_pr": 11,
+    "prior_pr_state": "merged",
+    "additional_preserved_entry": "timbre-perception",
+    "source_content": "passed",
+    "astro_check": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": "passed",
+    "verify": "passed"
   }
 }

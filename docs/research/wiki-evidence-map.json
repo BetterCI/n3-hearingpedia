@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 226,
+  "relations": 239,
   "entries": [
     {
       "slug": "cochlea",
@@ -2297,6 +2297,55 @@
         "psychoacoustics",
         "vocoder",
         "get-vocoder"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "timbre-perception",
+      "knowledge_area": "perception",
+      "kind": "function",
+      "chinese_characters": 7892,
+      "body_characters": 15869,
+      "sections": 10,
+      "subsections": 26,
+      "reference_ids": [
+        "timbre-definition-2017",
+        "timbre-grey-1977",
+        "timbre-mcadams-1995",
+        "timbre-caclin-2005",
+        "timbre-toolbox-2011",
+        "timbre-elliott-2013",
+        "timbre-town-2013",
+        "timbre-patil-2012",
+        "timbre-caclin-2006",
+        "timbre-allen-2017",
+        "timbre-ogg-2019",
+        "timbre-tpt-2020",
+        "timbre-brightness-2024",
+        "timbre-consonance-2024",
+        "timbre-kong-2012",
+        "zeng-2008",
+        "ci-sound-close-2024",
+        "ci-sound-daw-2026",
+        "ci-sound-berg-2025",
+        "timbre-aided-2026"
+      ],
+      "wiki_links": [
+        "psychoacoustics",
+        "pitch-perception",
+        "loudness",
+        "auditory-scene-analysis",
+        "fundamental-frequency",
+        "formant",
+        "temporal-fine-structure",
+        "amplitude-modulation",
+        "cochlea",
+        "auditory-filter",
+        "masking",
+        "cochlear-implant",
+        "channel-interaction",
+        "tonotopy",
+        "cochlear-implant-sound-perception"
       ],
       "status": "draft"
     }
