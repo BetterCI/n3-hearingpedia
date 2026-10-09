@@ -11,7 +11,8 @@ import { learningPaths } from '../data/paths';
 import { knowledgeAreas } from '../data/knowledge';
 const concepts = (await getCollection('concepts')).sort((a,b) => a.data.order - b.data.order);
 const bySlug = Object.fromEntries(concepts.map(c => [c.data.slug, c]));
-const inDepth = concepts.filter(c=>c.data.depth==='in-depth').sort((a,b)=>b.data.last_updated.localeCompare(a.data.last_updated)||a.data.order-b.data.order);
+const people = concepts.filter(c=>c.data.kind==='person');
+const inDepth = concepts.filter(c=>c.data.depth==='in-depth' && c.data.kind!=='person').sort((a,b)=>b.data.last_updated.localeCompare(a.data.last_updated)||a.data.order-b.data.order);
 const featured = inDepth.slice(0,8);
 const moreInDepth = inDepth.slice(8);
 ---
@@ -46,11 +47,11 @@ const moreInDepth = inDepth.slice(8);
     <RandomConceptFigure concepts={inDepth} />
     {inDepth.length>0 && <section class="section featured-section" aria-labelledby="in-depth-title">
       <div class="section-heading"><div><div class="eyebrow">Read in depth</div><h2 id="in-depth-title">从深度词条开始</h2><p>从定义、机制到研究方法，结合文献深入理解听觉科学。</p></div><span class="featured-count">{inDepth.length} 篇深度词条</span></div>
-      <template id="in-depth-pool">{inDepth.map(concept=><ConceptCard concept={concept}/>)}</template>
       <div class="concept-grid" id="in-depth-featured">{featured.map(concept=><ConceptCard concept={concept}/>)}</div>
       {moreInDepth.length>0 && <nav id="in-depth-more" class="more-in-depth" aria-label="更多深度词条"><span>继续深入</span><div>{moreInDepth.map(concept=><a href={url(`concepts/${concept.data.slug}`)}>{concept.data.title}<span aria-hidden="true"> ↗</span></a>)}</div></nav>}
     </section>}
-    {knowledgeAreas.map(area=><section class="section"><div class="section-heading"><div><div class="eyebrow">{area.english}</div><h2>{area.title}</h2><p>{area.note}</p></div><a class="text-link" href={url('map')}>探索三维关系 ↗</a></div><div class="concept-grid">{concepts.filter(c=>c.data.knowledge_area===area.id).sort((a,b)=>Number(b.data.depth==='in-depth')-Number(a.data.depth==='in-depth')||a.data.order-b.data.order).map(concept=><ConceptCard concept={concept}/>)}</div></section>)}
+    {people.length>0 && <section class="section" aria-labelledby="people-home-title"><div class="section-heading"><div><div class="eyebrow">People &amp; research history</div><h2 id="people-home-title">听觉研究人物</h2><p>从中国研究者的代表工作出发，回顾问题、方法与学术传承。</p></div><a class="text-link" href={url('people')}>认识研究者 ↗</a></div><div class="concept-grid">{people.map(concept=><ConceptCard concept={concept}/>)}</div></section>}
+    {knowledgeAreas.map(area=><section class="section"><div class="section-heading"><div><div class="eyebrow">{area.english}</div><h2>{area.title}</h2><p>{area.note}</p></div><a class="text-link" href={url('map')}>探索三维关系 ↗</a></div><div class="concept-grid">{concepts.filter(c=>c.data.knowledge_area===area.id && c.data.kind!=='person').sort((a,b)=>Number(b.data.depth==='in-depth')-Number(a.data.depth==='in-depth')||a.data.order-b.data.order).map(concept=><ConceptCard concept={concept}/>)}</div></section>)}
     <section class="section">
       <div class="section-heading"><div><div class="eyebrow">Follow the connections</div><h2>把概念连成一条路径</h2><p>先补齐前置知识，再进入研究问题。</p></div><a class="text-link" href={url('learn')}>进入学习路径 ↗</a></div>
       <div class="path-grid">{learningPaths.map(path => <div class="path-card"><div class="eyebrow">{path.english}</div><h3>{path.title}</h3><p>{path.description}</p><div class="path-chips">{path.slugs.map((slug,i) => <>{i>0 && <span aria-hidden="true">→</span>}<a href={url(`concepts/${slug}`)}>{bySlug[slug].data.title}</a></>)}</div></div>)}</div>
@@ -59,33 +60,6 @@ const moreInDepth = inDepth.slice(8);
     <FeedbackPanel />
   </div>
 </BaseLayout>
-<script>
-  const pool = document.querySelector<HTMLTemplateElement>('#in-depth-pool');
-  const grid = document.querySelector<HTMLElement>('#in-depth-featured');
-  if (pool && grid) {
-    const cards = Array.from(pool.content.querySelectorAll<HTMLAnchorElement>('.concept-card'));
-    // Shuffle in the browser so static hosting still gets a fresh selection per visit.
-    for (let i = cards.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [cards[i], cards[j]] = [cards[j], cards[i]];
-    }
-    grid.replaceChildren(...cards.slice(0, 8).map(card => card.cloneNode(true)));
-    const more = document.querySelector('#in-depth-more > div');
-    if (more) {
-      const prototype = more.querySelector('a');
-      more.replaceChildren(...cards.slice(8).map(card => {
-        const link = prototype?.cloneNode(false) as HTMLAnchorElement ?? document.createElement('a');
-        link.href = card.href;
-        link.textContent = card.querySelector('h3')?.textContent ?? '';
-        const arrow = document.createElement('span');
-        arrow.setAttribute('aria-hidden', 'true');
-        arrow.textContent = ' ↗';
-        link.append(arrow);
-        return link;
-      }));
-    }
-  }
-</script>
 <style>
   .partner-site{display:flex;align-items:center;flex-wrap:wrap;gap:8px 20px;margin-top:22px;padding:12px 18px;border:1px solid #e3deef;border-radius:8px;background:#f2f0f8;font-size:12px}
   .partner-label{color:var(--muted);font-size:11px}

@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 266,
+  "relations": 276,
   "entries": [
     {
       "slug": "cochlea",
@@ -2401,6 +2401,65 @@
         "temporal-fine-structure",
         "cochlear-implant-sound-perception",
         "psychoacoustics"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "liang-zhian",
+      "knowledge_area": "biology",
+      "kind": "person",
+      "chinese_characters": 2301,
+      "body_characters": 3845,
+      "sections": 6,
+      "subsections": 10,
+      "reference_ids": [
+        "liang-obituary-2000",
+        "liang-stimulus-spectrum-1986",
+        "liang-tvf-1990",
+        "liang-discrimination-1997",
+        "liang-neurobiology-chapter",
+        "zeng-recollections-2013",
+        "xu-ci-review-2006",
+        "liang-auditory-book-1999",
+        "liang-book-speech-citation"
+      ],
+      "wiki_links": [
+        "psychoacoustics",
+        "auditory-evoked-potential",
+        "pure-tone-audiometry",
+        "audiometric-calibration",
+        "auditory-brainstem-response",
+        "mandarin-lexical-tone",
+        "pitch-perception",
+        "speech-intelligibility"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "li-liang",
+      "knowledge_area": "biology",
+      "kind": "person",
+      "chinese_characters": 2117,
+      "body_characters": 4077,
+      "sections": 6,
+      "subsections": 10,
+      "reference_ids": [
+        "li-liang-profile",
+        "li-liang-obituary-report",
+        "li-liang-spatial-2005",
+        "li-liang-pam-2013",
+        "li-liang-ppi-2011",
+        "li-liang-unmasking-review-2017",
+        "li-liang-cambridge-2012"
+      ],
+      "wiki_links": [
+        "masking",
+        "spatial-hearing",
+        "auditory-attention",
+        "temporal-fine-structure",
+        "auditory-scene-analysis",
+        "psychoacoustics",
+        "liang-zhian"
       ],
       "status": "draft"
     },

@@ -61,8 +61,8 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
         </header>
         {data.status==='draft' && <div class="draft-notice" data-pagefind-ignore>本词条为 AI 辅助编写的待审阅版本。参考文献列明引用用途与核验范围；检索记录可追溯，内容将随证据与专业审阅继续完善。</div>}
         <div class="wiki-content">
-          <details class="wiki-infobox" aria-label="术语信息" data-pagefind-ignore open>
-            <summary class="infobox-heading">{data.title}<small>{data.english} · 术语信息与图示</small></summary>
+          <details class="wiki-infobox" aria-label={data.kind==='person'?'人物信息':'术语信息'} data-pagefind-ignore open>
+            <summary class="infobox-heading">{data.title}<small>{data.english} · {data.kind==='person'?'人物与研究信息':'术语信息与图示'}</small></summary>
             {data.illustration && <figure class="infobox-figure"><a href={asset(data.illustration.src)} target="_blank" rel="noopener" aria-label="打开完整教学图"><img src={asset(data.illustration.src)} alt={data.illustration.alt} width="780" height="360" loading="lazy" /></a><figcaption>{data.illustration.caption}</figcaption></figure>}
             <dl><div><dt>词条类型</dt><dd>{kindLabels[data.kind]}</dd></div><div><dt>知识层面</dt><dd>{area.title}</dd></div>{data.key_facts.map(f=><div><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>
             <a class="infobox-map-link" href={url('map')+'?concept='+data.slug}>在三维知识地图中定位 ↗</a>

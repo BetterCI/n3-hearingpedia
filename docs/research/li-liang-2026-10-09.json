@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-09",
+  "entry": {
+    "slug": "li-liang",
+    "knowledge_area": "biology",
+    "kind": "person",
+    "chinese_characters": 2117,
+    "body_characters": 4077,
+    "sections": 6,
+    "subsections": 10,
+    "reference_ids": [
+      "li-liang-profile",
+      "li-liang-obituary-report",
+      "li-liang-spatial-2005",
+      "li-liang-pam-2013",
+      "li-liang-ppi-2011",
+      "li-liang-unmasking-review-2017",
+      "li-liang-cambridge-2012"
+    ],
+    "wiki_links": [
+      "masking",
+      "spatial-hearing",
+      "auditory-attention",
+      "temporal-fine-structure",
+      "auditory-scene-analysis",
+      "psychoacoustics",
+      "liang-zhian"
+    ],
+    "status": "draft"
+  },
+  "scope": "人物回顾，选择三个代表实验、一篇综述与教学/交流记录；尚待专业审阅",
+  "biography": {
+    "profile": "official historical faculty page",
+    "death": "2024-03-29 The Paper report quoting the school obituary; original obituary not retrieved",
+    "excluded": "stale current roles, citation totals and priority claims"
+  },
+  "photos": [
+    {
+      "file": "people/li-liang/portrait.jpg",
+      "identity": "official named faculty profile",
+      "source": "https://psy.pku.edu.cn/szdw/qzjy/jsyjy/ll/index.htm",
+      "date": "unknown"
+    },
+    {
+      "file": "people/li-liang/cambridge-visit-2012.jpg",
+      "identity": "academic event reported as organized by Li Liang; individual positions not assigned",
+      "source": "https://www.psy.pku.edu.cn/xwzx/xyxw/50132psy264739.htm",
+      "event_date": "2012-09",
+      "copyright": "third-party; public visibility is not an open license"
+    }
+  ],
+  "access_notes": {
+    "2005": "PubMed abstract",
+    "2011": "author-hosted paper and indexed discussion",
+    "2013": "publisher full text",
+    "2017": "searchable abstract",
+    "book_chapter": "official bibliography, not full chapter"
+  },
+  "photo_search_notes": "广州大学2016讲座页面可核对活动，但当前HTML无现场照片；排除同名非听觉研究者照片。"
+}
