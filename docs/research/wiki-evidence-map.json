@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 356,
+  "relations": 367,
   "entries": [
     {
       "slug": "cochlea",
@@ -2950,6 +2950,56 @@
         "wu-zongji"
       ],
       "status": "draft"
+    },
+    {
+      "slug": "speech-audiometry",
+      "knowledge_area": "measurement",
+      "kind": "test",
+      "chinese_characters": 8975,
+      "body_characters": 14847,
+      "sections": 12,
+      "subsections": 34,
+      "reference_ids": [
+        "speech-reception-threshold-adult",
+        "speech-reception-threshold-asha",
+        "hint-1994",
+        "speech-audiometry-quicksin",
+        "speech-audiometry-fitzgerald-2024",
+        "speech-reception-threshold-nissen",
+        "speech-reception-threshold-zhu",
+        "boothroyd-1988",
+        "speech-reception-threshold-bilger",
+        "mhint-2007",
+        "cmnmatrix-2018",
+        "speech-audiometry-cmnbio-2022",
+        "speech-reception-threshold-iso",
+        "speech-reception-threshold-gb",
+        "audiometric-calibration-mha-manual",
+        "speech-reception-threshold-thornton",
+        "speech-audiometry-carney-2007",
+        "speech-audiometry-nist",
+        "speech-audiometry-azbio-2012",
+        "speech-reception-threshold-bsa",
+        "festen-1990",
+        "brungart-2001",
+        "fuel-2016",
+        "speech-reception-threshold-chen",
+        "speech-audiometry-din-2025"
+      ],
+      "wiki_links": [
+        "pure-tone-audiometry",
+        "speech-reception-threshold",
+        "speech-intelligibility",
+        "speech-redundancy",
+        "audiometric-calibration",
+        "hearing-aid",
+        "cochlear-implant",
+        "audiology",
+        "confusion-matrix",
+        "listening-effort"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
     }
   ]
 }

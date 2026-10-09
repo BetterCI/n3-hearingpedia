@@ -1,0 +1,154 @@
+[
+  {
+    "name": "01-tasks",
+    "files": [
+      "01-tasks.svg",
+      "01-tasks.png"
+    ],
+    "svg_viewbox": [
+      0.0,
+      0.0,
+      1200.0,
+      850.0
+    ],
+    "description": "四类任务的输出；非严重度分级。",
+    "parameters": {
+      "four_tasks": [
+        "detection",
+        "quiet_threshold",
+        "fixed_level_recognition",
+        "speech_in_noise"
+      ],
+      "data": null
+    },
+    "empirical_data": false,
+    "generator": "scripts/generate-speech-audiometry.py",
+    "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+    "copyright": "原创教学图；未转载论文图片或受试者数据",
+    "usage": "本站展示与教学复现；对外开放许可证尚待维护者确定"
+  },
+  {
+    "name": "02-noise-roles",
+    "files": [
+      "02-noise-roles.svg",
+      "02-noise-roles.png"
+    ],
+    "svg_viewbox": [
+      0.0,
+      0.0,
+      1200.0,
+      800.0
+    ],
+    "description": "两种噪声功能；箭头只表示指定呈现路径，省略跨耳传递与声场传播。",
+    "parameters": {
+      "geometry": "schematic, not to scale",
+      "masking_levels": null,
+      "data": null
+    },
+    "empirical_data": false,
+    "generator": "scripts/generate-speech-audiometry.py",
+    "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+    "copyright": "原创教学图；未转载论文图片或受试者数据",
+    "usage": "本站展示与教学复现；对外开放许可证尚待维护者确定"
+  },
+  {
+    "name": "03-functions",
+    "files": [
+      "03-functions.svg",
+      "03-functions.png"
+    ],
+    "svg_viewbox": [
+      0.0,
+      0.0,
+      1200.0,
+      950.0
+    ],
+    "description": "逻辑函数教学计算；无受试者数据。",
+    "parameters": {
+      "formula": "p=u/(1+exp(-b*(x-m)))",
+      "quiet": {
+        "caps": [
+          0.98,
+          0.7
+        ],
+        "b_per_dB": 0.2,
+        "m_dB": [
+          -0.2041099726012758,
+          -4.581453659370776
+        ],
+        "threshold_at_50_percent_dB": 0
+      },
+      "noise": {
+        "cap": 1,
+        "b_per_dB": 0.45,
+        "thresholds_dB_SNR": [
+          -3,
+          1
+        ],
+        "difference_dB": 4
+      },
+      "gamma": 0
+    },
+    "empirical_data": false,
+    "generator": "scripts/generate-speech-audiometry.py",
+    "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+    "copyright": "原创教学图；未转载论文图片或受试者数据",
+    "usage": "本站展示与教学复现；对外开放许可证尚待维护者确定"
+  },
+  {
+    "name": "04-uncertainty",
+    "files": [
+      "04-uncertainty.svg",
+      "04-uncertainty.png"
+    ],
+    "svg_viewbox": [
+      0.0,
+      0.0,
+      1200.0,
+      780.0
+    ],
+    "description": "二项模型下的Wilson95%区间；非患者数据、非差异检验。",
+    "parameters": {
+      "z": 1.96,
+      "assumptions": [
+        "independent",
+        "common correct probability"
+      ],
+      "intervals": [
+        {
+          "correct": 20,
+          "N": 25,
+          "p": 0.8,
+          "wilson_95_percent": [
+            60.868664463461776,
+            91.13954589934752
+          ]
+        },
+        {
+          "correct": 40,
+          "N": 50,
+          "p": 0.8,
+          "wilson_95_percent": [
+            66.96262789551477,
+            88.75637005402612
+          ]
+        },
+        {
+          "correct": 80,
+          "N": 100,
+          "p": 0.8,
+          "wilson_95_percent": [
+            71.11690380734977,
+            86.66340774409012
+          ]
+        }
+      ],
+      "source": "https://itl.nist.gov/div898/handbook/prc/section2/prc241.htm"
+    },
+    "empirical_data": false,
+    "generator": "scripts/generate-speech-audiometry.py",
+    "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+    "copyright": "原创教学图；未转载论文图片或受试者数据",
+    "usage": "本站展示与教学复现；对外开放许可证尚待维护者确定"
+  }
+]

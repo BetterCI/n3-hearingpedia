@@ -377,6 +377,19 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('consonant-place-of-articulation','formant','related','部位研究可结合后续元音过渡观察，共振峰不是固定部位标签。',1),
   link('voicing','fundamental-frequency','related','周期振动可形成基频，清浊类别不能等同声调或音高。',2),
   link('mandarin-consonants','confusion-matrix','analyzed-by','后续识别实验可用刺激—反应矩阵组织普通话辅音混淆。',2),
+  // Speech audiometry overview connects task selection and interpretable results.
+  link('audiology','speech-audiometry','related','言语测听把言语敏感度、识别及噪声任务纳入听力学评估。',3),
+  link('speech-audiometry','pure-tone-audiometry','related','纯音敏感度与言语任务互相核查，不能以一种结果替代另一种。',3),
+  link('speech-audiometry','speech-reception-threshold','related','总览区分任务，阈值词条展开材料、目标比例及估计算法。',3),
+  link('speech-audiometry','audiometric-calibration','related','呈现链、声级参考和换能器校准决定比较条件。',3),
+  link('speech-audiometry','speech-intelligibility','related','行为识别结果需要带材料、语境和评分单位。',3),
+  link('speech-audiometry','speech-redundancy','related','语境和分布线索影响孤立词与句子成绩。',2),
+  link('speech-audiometry','masking','related','非测试耳掩蔽与竞争背景分别用于控制耳别和改变识别条件。',3),
+  link('speech-audiometry','hearing-aid','related','助听获益需在明确的设备配置和输入条件中直接评价。',3),
+  link('speech-audiometry','cochlear-implant','related','植入者随访需要适用材料、配置及列表变异信息。',3),
+  link('speech-audiometry','listening-effort','related','正确率与努力是相关但不同的结果，不能互相替代。',2),
+  link('speech-audiometry','confusion-matrix','analyzed-by','项目反应可用于组织语音识别中的错误分布。',2),
+
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

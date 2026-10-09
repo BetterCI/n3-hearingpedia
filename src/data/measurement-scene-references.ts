@@ -244,7 +244,7 @@ export const measurementSceneReferences: Record<string, Reference> = {
     "publication": "ISO 8253-3:2022",
     "url": "https://www.iso.org/standard/74049.html",
     "access": "metadata",
-    "supports": "材料验证、计分单位、言语声级及识别／检测定义；未取得全部付费正文，不声称符合全部条款。"
+    "supports": "2026-10-09核对官方公开范围：录音材料经测听仪与换能器呈现，包括非测试耳掩蔽与竞争声。未取得付费正文，仅支持范围；不据目录转录定义、校准数值或声称符合全部条款。"
   },
   "speech-reception-threshold-gb": {
     "title": "GB/T 16296.3-2017：声学 测听方法 第3部分：言语测听",
@@ -270,8 +270,8 @@ export const measurementSceneReferences: Record<string, Reference> = {
     "year": "网页资料",
     "publication": "ASHA Practice Portal",
     "url": "https://www.asha.org/practice-portal/clinical-topics/hearing-loss/",
-    "access": "metadata",
-    "supports": "综合评价、反应能力与言语测听指标；核查日期 2026-10-07。"
+    "access": "fulltext",
+    "supports": "2026-10-09阅读ASHA Practice Portal中Speech Audiometry（SDT/SRT、WRS、SIN）、语言适配、耳别掩蔽及环境校准段落；支持综合评价和任务区别。不将所引换能器相关掩蔽数值推广为通用规则。"
   },
   "speech-reception-threshold-zhu": {
     "title": "Development and validation of the Mandarin disyllable recognition test",

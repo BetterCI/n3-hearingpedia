@@ -1,0 +1,414 @@
+{
+  "question": "成人言语测听的任务与条件及成绩比较",
+  "recent_range": [
+    "2023-01-01",
+    "2026-10-09"
+  ],
+  "query": "speech audiometry word recognition speech in noise",
+  "bounded_network": {
+    "seed": "W1984562101",
+    "backward_limit": 12,
+    "forward_limit": 12,
+    "second_layer": false
+  },
+  "unique_candidates": 33,
+  "candidates": [
+    {
+      "id": "https://openalex.org/W1989314007",
+      "doi": "https://doi.org/10.1044/jshd.1703.321",
+      "title": "Development Of Materials For Speech Audiometry",
+      "year": 1952,
+      "routes": [
+        "openalex-search.json"
+      ],
+      "grade": "Background",
+      "rationale": "历史材料来源；索引abstract实际混入导航，未据此判断研究结果，正文采用可核实的后续材料研究。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W626405604",
+      "doi": null,
+      "title": "Norwegian Speech Audiometry",
+      "year": 2009,
+      "routes": [
+        "openalex-search.json"
+      ],
+      "grade": "Background",
+      "rationale": "摘要介绍挪威语矩阵、词及儿童材料开发，可作跨语言背景；本篇聚焦普通话与成人任务，不引用其常模。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2040066539",
+      "doi": "https://doi.org/10.1044/jshd.3304.318",
+      "title": "A New Approach to Speech Audiometry",
+      "year": 1968,
+      "routes": [
+        "openalex-search.json"
+      ],
+      "grade": "Background",
+      "rationale": "方法史线索；索引abstract含导航而非科学摘要，未支持操作细节。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2299291773",
+      "doi": "https://doi.org/10.1044/2016_aja-15-0068",
+      "title": "Phoneme and Word Scoring in Speech-in-Noise Audiometry",
+      "year": 2016,
+      "routes": [
+        "openalex-search.json"
+      ],
+      "grade": "Important",
+      "rationale": "直接比较音素与词评分及听力状态；全文未复核，当前计分教学用语境原始来源已足够，保留为后续深化候选。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W4225121003",
+      "doi": "https://doi.org/10.1016/j.joto.2022.04.004",
+      "title": "Effect of face masks on speech understanding: A clinical perspective during speech audiometry",
+      "year": 2022,
+      "routes": [
+        "openalex-search.json"
+      ],
+      "grade": "Important",
+      "rationale": "正常听力成人的口罩与背景条件研究，说明实现方式是变量；本稿不展开特定口罩效果。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2801280022",
+      "doi": "https://doi.org/10.1080/14992027.2018.1463465",
+      "title": "Modernising speech audiometry: using a smartphone application to test word recognition",
+      "year": 2018,
+      "routes": [
+        "openalex-search.json"
+      ],
+      "grade": "Important",
+      "rationale": "南非英语和Afrikaans手机接测听仪的实现验证，不等于居家普通话筛查；本篇选择更直接的普通话DIN证据。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W823411902",
+      "doi": null,
+      "title": "Samoan Speech Audiometry: Developing Word Recognition Materials for Native Speakers of Samoan",
+      "year": 2010,
+      "routes": [
+        "openalex-search.json"
+      ],
+      "grade": "Background",
+      "rationale": "萨摩亚语词语识别材料开发，提供语言适配背景；未以它支持普通话结果。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W7127267945",
+      "doi": "https://doi.org/10.7759/cureus.102925",
+      "title": "Initial Development and Preliminary Validation of Khasi Word Lists for Speech Audiometry in Adults",
+      "year": 2026,
+      "routes": [
+        "openalex-search.json"
+      ],
+      "grade": "Important",
+      "rationale": "摘要介绍Khasi正常听力成人词表开发；研究人群和语言与本文目标不同，尚未核对原始出版信息，未入选。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1969761972",
+      "doi": "https://doi.org/10.1080/10618600.1996.10474713",
+      "title": "R: A Language for Data Analysis and Graphics",
+      "year": 1996,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Exclude",
+      "rationale": "讨论统计计算语言设计，不提供言语测试或成绩解释的直接证据。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1996009245",
+      "doi": "https://doi.org/10.1044/jshr.2103.507",
+      "title": "Speech-Discrimination Scores Modeled as a Binomial Variable",
+      "year": 1978,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Core",
+      "rationale": "用临床词语成绩检验二项变异及差异解释；复用既有Thornton ID。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1991552246",
+      "doi": "https://doi.org/10.1288/00005537-194809000-00002",
+      "title": "Articulation testing methods",
+      "year": 1948,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Background",
+      "rationale": "只有索引书目、没有科学摘要，暂留统计或方法史线索；不据题名推断结果，也不作为正文论断来源。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1974970338",
+      "doi": "https://doi.org/10.1007/978-0-387-44956-2_20",
+      "title": "Tables of the Freeman-Tukey Transformations for the Binomial and Poisson Distributions",
+      "year": 2007,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Background",
+      "rationale": "只有索引书目、没有科学摘要，暂留统计或方法史线索；不据题名推断结果，也不作为正文论断来源。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1976365819",
+      "doi": "https://doi.org/10.1121/1.384463",
+      "title": "Speech intelligibility in noise-induced hearing loss: Effects of high-frequency compensation",
+      "year": 1980,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Important",
+      "rationale": "六名噪声损伤听者的频响与多声级识词比较；属于具体放大研究，本篇未展开频响处方。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W573761714",
+      "doi": null,
+      "title": "Audiologic Evaluation and Management and Speech Perception Assessment",
+      "year": 1997,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Background",
+      "rationale": "只有索引书目、没有科学摘要，暂留统计或方法史线索；不据题名推断结果，也不作为正文论断来源。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1965364187",
+      "doi": "https://doi.org/10.1044/jslhr.4105.1088",
+      "title": "Optimizing the Reliability of Speech Recognition Scores",
+      "year": 1998,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Important",
+      "rationale": "通过增加音素计分信息提高可靠性；分母问题相关，但具体方案需要全文与任务独立性审查，暂不引入其项目数建议。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1970492254",
+      "doi": "https://doi.org/10.3109/01050397609044991",
+      "title": "Reliability in the Determination of Speech Discrimination",
+      "year": 1976,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Important",
+      "rationale": "统计与临床比较列表长度及材料对变异的影响；与已选二项源重复，未另引用。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2007277525",
+      "doi": "https://doi.org/10.1044/jshr.2303.570",
+      "title": "Application of a Probability Model Based on the Binomial Distribution to Speech-Discrimination Scores",
+      "year": 1980,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Important",
+      "rationale": "用NU-6数据检验二项模型应用；补充重复证据，但总览已有经典及更新源，未扩展。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2010849110",
+      "doi": "https://doi.org/10.1159/000076002",
+      "title": "Ménière’s Disease: Effects of Glycerol on Tasks Involving Temporal Processing",
+      "year": 2004,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Exclude",
+      "rationale": "甘油干预与梅尼埃病时域任务是主要问题，本篇不涉及药物或疾病干预。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2002709024",
+      "doi": "https://doi.org/10.1044/jshr.3202.265",
+      "title": "Evaluation of Stopping Rules for Audiological Ascending Test Procedures Using Computer Simulations",
+      "year": 1989,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Background",
+      "rationale": "模拟上升阈值停止规则，方法相关；详细算法由既有SRT词条展开。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W577732691",
+      "doi": null,
+      "title": "Tables of d",
+      "year": 1959,
+      "routes": [
+        "openalex-backward.json"
+      ],
+      "grade": "Background",
+      "rationale": "只有索引书目、没有科学摘要，暂留统计或方法史线索；不据题名推断结果，也不作为正文论断来源。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2011800206",
+      "doi": "https://doi.org/10.1097/mao.0b013e318268d52d",
+      "title": "Auditory Abilities After Cochlear Implantation in Adults With Unilateral Deafness",
+      "year": 2012,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Important",
+      "rationale": "三名成人单侧聋的CI、正常耳及双耳任务比较；配置控制相关，但不推广小样本效果。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2056725696",
+      "doi": "https://doi.org/10.1097/aud.0b013e31824b9dfc",
+      "title": "Cochlear Implantation in Adults With Asymmetric Hearing Loss",
+      "year": 2012,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Important",
+      "rationale": "不对称听力成人植入配置及获益问题；本文只介绍配置记录，不评价候选指征。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2976222803",
+      "doi": "https://doi.org/10.3171/2019.4.jns19347",
+      "title": "Phase I trial of caudate deep brain stimulation for treatment-resistant tinnitus",
+      "year": 2019,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Exclude",
+      "rationale": "主要结局为耳鸣与DBS安全／效果，超出言语测听方法总览。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W4386726265",
+      "doi": "https://doi.org/10.1097/aud.0000000000001409",
+      "title": "Preliminary Guidelines for Replacing Word-Recognition in Quiet With Speech in Noise Assessment in the Routine Audiologic Test Battery",
+      "year": 2023,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Important",
+      "rationale": "5808患者的QuickSIN与安静识词分类预测，直接关联测试组合；本稿选择后续自评研究，不把单机构预测作通用替代规则。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W4392235351",
+      "doi": "https://doi.org/10.1097/aud.0000000000001472",
+      "title": "Speech-in-Noise Assessment in the Routine Audiologic Test Battery: Relationship to Perceived Auditory Disability",
+      "year": 2024,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Core",
+      "rationale": "1633成人临床测试与自评关系，支持噪声测试的增量信息及未解释变异；已读全文相关部分。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2012613898",
+      "doi": "https://doi.org/10.1097/mao.0b013e31827850b8",
+      "title": "Cochlear Implantation in Nontraditional Candidates",
+      "year": 2012,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Important",
+      "rationale": "五名青少年不对称听力植入个案，超出本篇成人总览，不引用候选规则。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2009492245",
+      "doi": "https://doi.org/10.1016/j.heares.2014.09.010",
+      "title": "Factors constraining the benefit to speech understanding of combining information from low-frequency hearing and a cochlear implant",
+      "year": 2014,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Background",
+      "rationale": "只有索引书目、没有科学摘要，暂留统计或方法史线索；不据题名推断结果，也不作为正文论断来源。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2033199139",
+      "doi": "https://doi.org/10.1097/aud.0000000000000040",
+      "title": "Effects of Frequency Compression and Frequency Transposition on Fricative and Affricate Perception in Listeners With Normal Hearing and Mild to Moderate Hearing Loss",
+      "year": 2014,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Important",
+      "rationale": "比较频率降低算法的摩擦及塞擦识别，属于特定辅音与设备处理，留给技术词条。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1995624185",
+      "doi": "https://doi.org/10.3766/jaaa.23.5.2",
+      "title": "Optimization of Programming Parameters in Children with the Advanced Bionics Cochlear Implant",
+      "year": 2012,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Important",
+      "rationale": "儿童特定处理器参数与敏感度／识别，不能成为本文通用设备参数，未入选。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2145558999",
+      "doi": "https://doi.org/10.1044/1059-0889(2013/11-0031)",
+      "title": "Transitioning From Bimodal to Bilateral Cochlear Implant Listening: Speech Recognition and Localization in Four Individuals",
+      "year": 2014,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Important",
+      "rationale": "四名用户配置转换随访，提示配置与任务区别；本稿不评价该转换效果。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2330049412",
+      "doi": "https://doi.org/10.1097/aud.0000000000000261",
+      "title": "Nonlinguistic Outcome Measures in Adult Cochlear Implant Users Over the First Year of Implantation",
+      "year": 2015,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Background",
+      "rationale": "比较非语言能力与植入后学习，补充不同指标边界；本篇不展开非语言纵向测量。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W2899833528",
+      "doi": "https://doi.org/10.1002/lary.27504",
+      "title": "What defines asymmetric sensorineural hearing loss?",
+      "year": 2018,
+      "routes": [
+        "openalex-forward.json"
+      ],
+      "grade": "Exclude",
+      "rationale": "讨论不对称听力与影像进一步评估问题，非本篇测试材料与成绩解释范围。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    },
+    {
+      "id": "https://openalex.org/W1984562101",
+      "doi": "https://doi.org/10.1044/1092-4388(2007/084)",
+      "title": "Critical Difference Table for Word Recognition Testing Derived Using Computer Simulation",
+      "year": 2007,
+      "routes": [
+        "seed"
+      ],
+      "grade": "Core",
+      "rationale": "模拟连续两次成绩的临界范围；强种子，出版社摘要已读，未复制付费表。",
+      "screening_access": "OpenAlex索引摘要／前800字符；种子及重点候选另读完整摘要；无摘要或混入导航者仅书目"
+    }
+  ],
+  "stop_reason": "已覆盖经典统计、材料、协议与近期应用；新增网络多数转向特定设备、疾病或重复主题。"
+}
