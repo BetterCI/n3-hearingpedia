@@ -2,6 +2,21 @@
 
 以下照片为公开机构页面中的第三方图片，用于相应研究人物和学术活动的介绍；公开可见不等于开放授权，本站开放内容许可不涵盖这些图片。原发布页面未注明摄影者或开放许可证，著作权归原权利人。保留原图、原始比例、完整画面与出处，不生成或推测人物身份。
 
+## 赵元任
+
+
+- `zhao-yuanren/portrait.jpg`：清华大学心理与认知科学系纪念页的姓名对应肖像，115 × 115。
+  - 页面：https://www.pcs.tsinghua.edu.cn/info/1013/1714.htm
+  - 原图：https://www.pcs.tsinghua.edu.cn/__local/F/88/72/6975515420348F0D911D314F191_ECE3BFB5_D98.jpg
+  - 未注明拍摄年代、摄影者与开放许可证，按原图大小呈现，不推测年代。
+- `zhao-yuanren/tsinghua-faculty.png`：清华国学研究院学者合影，315 × 165，图注明确赵元任为前排右一，未写具体拍摄年。
+  - 原图：https://lib.tsinghua.edu.cn/__local/1/4D/67/0582C1BCBEE1EC04F334E1ECF82_1C2905C2_32E64.png
+- `zhao-yuanren/wu-survey-1927.png`：1927年秋吴语调查时期的站台照片，317 × 229，图注明确赵元任为左二；保留手写年代和完整画面。
+  - 原图：https://lib.tsinghua.edu.cn/__local/9/5B/9F/068C0F395D7434B18B0BA9EC384_C8AC0EB2_4714E.png
+- 后两图页面：https://lib.tsinghua.edu.cn/info/1056/7999.htm 。展览以馆藏与家人捐赠档案为背景，但未逐图标摄影者或开放许可；本站许可不覆盖第三方照片。未裁剪、生成或修复人物形象。核验日期：2026-10-09。
+
+
+
 ## 李量
 
 - `li-liang/portrait.jpg`：北京大学心理与认知科学学院官方个人主页中的李量肖像，260 × 227。
@@ -25,3 +40,13 @@
   - 原图：https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202304/Nelson%20Kiang%20library.jpg?itok=HnWfErb9
 - 两张照片由报道直接确认身份，均注明Mass Eye and Ear提供；无摄影者和拍摄日期。原图完整使用，无裁剪或生成。图片路径中的2023年是发布路径，1955年是来到MIT的年份，均不作为拍摄年份。
 - 公开发布不等于开放授权，原权利人保留版权，本站开放内容许可不涵盖这些图片。
+
+## 邹路得
+
+- `zou-lude/pumch-team-1956.jpg`：1956年协和耳鼻咽喉科学系完整合影，1080 × 513；机构原图注将邹路得标为二排左八，图片署名北京协和医院耳鼻喉科。
+  - 页面：https://www.thepaper.cn/newsDetail_forward_13235301
+  - 原图：https://imagepphcloud.thepaper.cn/pph/image/138/376/6.jpg
+- `zou-lude/academic-visit-1960s.jpg`：20世纪60年代苏联专家来访合影，600 × 496；北京市耳鼻咽喉科研究所图注列出邹路得等专家，但画面11人与图注9个姓名／身份不一致，不标定个人位置，不裁剪成肖像。网页日期不作为已核实拍摄日。
+  - 页面：https://bjent.org/Mobile/Article/Index/359
+  - 原图：https://bjent.org/Sites/Uploaded/Image/2017/06/086363253652525664373646515.jpg
+- 原页面未注明摄影者与开放许可，第三方照片不受本站开放许可覆盖。保留原始比例与完整画面，未生成或修复人物形象。核验日期：2026-10-09。
