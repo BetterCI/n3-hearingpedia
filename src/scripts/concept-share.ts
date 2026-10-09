@@ -14,9 +14,12 @@ if (root) {
   const message = root.querySelector<HTMLElement>('#share-message')!;
   let blob: Blob | undefined;
   let file: File | undefined;
+  let generating = false;
   const canCopy = window.isSecureContext && typeof ClipboardItem !== 'undefined' && typeof navigator.clipboard?.write === 'function';
 
   async function generate() {
+    if (generating) return;
+    generating = true;
     retry.hidden = true;
     preview.setAttribute('aria-busy', 'true');
     message.textContent = '正在生成分享图片…';
@@ -40,6 +43,7 @@ if (root) {
       retry.hidden = false;
       console.error('Share image generation failed', error);
     } finally {
+      generating = false;
       preview.setAttribute('aria-busy', 'false');
     }
   }
@@ -72,5 +76,26 @@ if (root) {
     message.textContent = '如手机没有自动保存，请长按图片选择保存。';
   });
   retry.addEventListener('click', () => { void generate(); });
-  void generate();
+  if (root instanceof HTMLDialogElement) {
+    const dialog = root;
+    const trigger = document.querySelector<HTMLAnchorElement>('.article-share-link');
+    let previousOverflow = '';
+    trigger?.addEventListener('click', event => {
+      event.preventDefault();
+      if (dialog.open) return;
+      previousOverflow = document.documentElement.style.overflow;
+      dialog.showModal();
+      document.documentElement.style.overflow = 'hidden';
+      if (!blob) void generate();
+    });
+    dialog.querySelector('#close-share-dialog')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('close', () => { document.documentElement.style.overflow = previousOverflow; });
+    dialog.addEventListener('click', event => {
+      if (event.target !== dialog) return;
+      const rect = dialog.getBoundingClientRect();
+      if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
+    });
+  } else {
+    void generate();
+  }
 }

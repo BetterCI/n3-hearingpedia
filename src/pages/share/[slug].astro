@@ -1,10 +1,8 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
-import QRCode from 'qrcode';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { knowledgeAreaById, kindLabels } from '../../data/knowledge';
 import { url } from '../../lib/paths';
-import type { ShareCardData } from '../../lib/share-card';
+import { buildShareCardData } from '../../lib/concept-share-data';
 
 export async function getStaticPaths() {
   return (await getCollection('concepts')).map(concept => ({ params: { slug: concept.data.slug }, props: { concept } }));
@@ -13,24 +11,9 @@ interface Props { concept: CollectionEntry<'concepts'>; }
 const { data } = Astro.props.concept;
 const articlePath = url(`concepts/${data.slug}`);
 const articleUrl = new URL(articlePath, Astro.site!).href;
-// Integer module sizes and a four-module quiet zone keep the exported QR crisp.
-const modules = QRCode.create(articleUrl, { errorCorrectionLevel: 'M' }).modules.size;
-const qrScale = Math.max(1, Math.floor(288 / (modules + 8)));
-const qrDataUrl = await QRCode.toDataURL(articleUrl, { errorCorrectionLevel: 'M', margin: 4, scale: qrScale, color: { dark: '#20283b', light: '#ffffff' } });
-const statusLabels = { draft: '待审阅', reviewed: '已审阅', stable: '稳定版本', 'needs-update': '待更新' };
-const card: ShareCardData = {
-  title: data.title, english: data.english, summary: data.summary,
-  area: knowledgeAreaById[data.knowledge_area].title,
-  kind: kindLabels[data.kind], depth: data.depth === 'standard' ? '基础词条' : '深度词条',
-  facts: data.key_facts.slice(0, 4),
-  updated: data.last_updated, status: statusLabels[data.status],
-  reviewNote: data.status === 'draft' ? 'AI 辅助编写 · 尚未完成专业审阅'
-    : data.status === 'needs-update' ? '内容待更新 · 请阅读原词条了解详情'
-    : `专业审阅：${data.reviewer} · ${data.reviewed_at}`,
-  references: data.references.length, articleUrl, qrDataUrl,
-};
+const card = await buildShareCardData(data, articleUrl);
 ---
-<BaseLayout title={`${data.title} · 微信分享图`} description={`复制或保存「${data.title}」词条分享图，扫码阅读完整词条。`}>
+<BaseLayout title={`${data.title} · 词条分享`} description={`复制或保存「${data.title}」词条分享图，扫码阅读完整词条。`}>
   <meta slot="head" name="robots" content="noindex, follow" />
   <section class="container share-page" data-pagefind-ignore>
     <a class="share-back" href={articlePath}>← 返回{data.title}</a>
@@ -56,7 +39,7 @@ const card: ShareCardData = {
           <h2>{data.title}</h2><p>{data.english}</p><p>{data.summary}</p>
           <dl>{card.facts.map(fact => <div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
           <p>{card.status} · 更新 {data.last_updated}</p>
-          <a href={articlePath}><img src={qrDataUrl} alt="扫码阅读完整词条" width={(modules + 8) * qrScale} height={(modules + 8) * qrScale} /></a>
+          <a href={articlePath}><img src={card.qrDataUrl} alt="扫码阅读完整词条" width="136" height="136" /></a>
           <noscript><p>开启 JavaScript 后可以生成和复制完整分享图片；也可直接扫描二维码阅读。</p></noscript>
         </div>
       </figure>
