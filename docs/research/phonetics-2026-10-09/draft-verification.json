@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-09",
+  "entry": {
+    "slug": "phonetics",
+    "knowledge_area": "methods",
+    "kind": "discipline",
+    "chinese_characters": 8356,
+    "body_characters": 13911,
+    "sections": 11,
+    "subsections": 30,
+    "reference_ids": [
+      "phonetics-wayland-2018",
+      "phonetics-modality",
+      "phonetics-phonemes",
+      "phonetics-articulators",
+      "essentials-consonant-place-phonation",
+      "essentials-consonant-manner",
+      "phonetics-vowels",
+      "ipa-chart-official",
+      "formant-sourcefilter",
+      "phonetics-praat-spectrogram",
+      "phonetics-praat-pitch",
+      "formant-burg",
+      "phonetics-vot-review-2017",
+      "lee-zee-standard-chinese-2003",
+      "phonetics-coarticulation-2013",
+      "cortex-phonetic-2014",
+      "formant-normalization",
+      "phonetics-mfa-2017",
+      "phonetics-alignment-2024",
+      "phonetics-mri-2025",
+      "phonetics-articulatory-tools",
+      "essentials-vot-phonemes"
+    ],
+    "wiki_links": [
+      "mandarin-consonants",
+      "mandarin-lexical-tone",
+      "formant",
+      "fundamental-frequency",
+      "voicing",
+      "consonant-place-of-articulation",
+      "consonant-manner-of-articulation",
+      "aspiration",
+      "harmonicity",
+      "frequency-resolution",
+      "confusion-matrix",
+      "auditory-cortex",
+      "psychoacoustics",
+      "audiology",
+      "speech-intelligibility",
+      "speech-redundancy",
+      "vocoder",
+      "cochlear-implant-sound-perception",
+      "zhao-yuanren",
+      "liu-bannong",
+      "wu-zongji"
+    ],
+    "status": "draft"
+  },
+  "figures": 4,
+  "professional_review": "pending",
+  "publication": "local draft; awaiting user confirmation",
+  "checks": {
+    "astro_check": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": {
+      "success": true,
+      "pages": 180,
+      "existing_notices": [
+        "Vite large chunk",
+        "9 historical redirect documents excluded from search",
+        "Chinese stemming unsupported"
+      ]
+    },
+    "site_verification": {
+      "pages": 180,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 12944,
+      "equations": 143,
+      "searchableConcepts": 73,
+      "wikiConcepts": 73,
+      "knowledgeAreas": 7,
+      "typedRelationships": 356,
+      "wikiCrossLinks": 699,
+      "chineseCharacters": 445180,
+      "brokenLinks": 0
+    },
+    "source_verification": {
+      "concepts": 73,
+      "relations": 356,
+      "citations": 3647,
+      "inlineFigures": 221,
+      "sourceContent": "passed",
+      "builtSite": "not checked by this script"
+    },
+    "browser_qa": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "title": "语音学",
+        "overflow": false,
+        "references": 22,
+        "figures": 4,
+        "formulas": 3,
+        "katexErrors": 0,
+        "citationTargets": true,
+        "draft": true,
+        "assets": [
+          {
+            "src": "/n3-hearingpedia/figures/phonetics/01-production-signal-perception.svg",
+            "width": 1600,
+            "height": 1120,
+            "preservedRatio": true
+          },
+          {
+            "src": "/n3-hearingpedia/figures/phonetics/02-source-filter.svg",
+            "width": 1600,
+            "height": 1333,
+            "preservedRatio": true
+          },
+          {
+            "src": "/n3-hearingpedia/figures/phonetics/03-window-length.svg",
+            "width": 1600,
+            "height": 1467,
+            "preservedRatio": true
+          },
+          {
+            "src": "/n3-hearingpedia/figures/phonetics/04-vot-timing.svg",
+            "width": 1600,
+            "height": 1120,
+            "preservedRatio": true
+          }
+        ],
+        "tables": [
+          {
+            "width": 790,
+            "parentWidth": 790,
+            "parentOverflow": "visible"
+          },
+          {
+            "width": 790,
+            "parentWidth": 790,
+            "parentOverflow": "visible"
+          }
+        ],
+        "pageErrors": []
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "title": "语音学",
+        "overflow": false,
+        "references": 22,
+        "figures": 4,
+        "formulas": 3,
+        "katexErrors": 0,
+        "citationTargets": true,
+        "draft": true,
+        "assets": [
+          {
+            "src": "/n3-hearingpedia/figures/phonetics/01-production-signal-perception.svg",
+            "width": 1600,
+            "height": 1120,
+            "preservedRatio": true
+          },
+          {
+            "src": "/n3-hearingpedia/figures/phonetics/02-source-filter.svg",
+            "width": 1600,
+            "height": 1333,
+            "preservedRatio": true
+          },
+          {
+            "src": "/n3-hearingpedia/figures/phonetics/03-window-length.svg",
+            "width": 1600,
+            "height": 1467,
+            "preservedRatio": true
+          },
+          {
+            "src": "/n3-hearingpedia/figures/phonetics/04-vot-timing.svg",
+            "width": 1600,
+            "height": 1120,
+            "preservedRatio": true
+          }
+        ],
+        "tables": [
+          {
+            "width": 520,
+            "parentWidth": 346,
+            "parentOverflow": "visible"
+          },
+          {
+            "width": 390,
+            "parentWidth": 346,
+            "parentOverflow": "visible"
+          }
+        ],
+        "pageErrors": []
+      }
+    ],
+    "visual_review": [
+      "all 4 generated figures",
+      "desktop lead, source/filter and window-length panels",
+      "mobile lead, formula, figures and both tables including horizontally scrolled right edges"
+    ],
+    "git_diff_check": "passed"
+  }
+}

@@ -1,0 +1,179 @@
+[
+  {
+    "slug": "otoacoustic-emissions",
+    "file": "oae-transfer.svg",
+    "source": "Original analytic or synthetic pedagogical illustration",
+    "parameters": {
+      "functional_block_diagram": true,
+      "anatomical_drawing": false,
+      "single_integrated_panel": true,
+      "blocks": 8,
+      "path": "stimulus -> inward transmission -> cochlear source -> outward transmission -> microphone -> quality control -> emission extraction -> reporting",
+      "probe_speaker_and_microphone_distinguished": true,
+      "separate_inward_outward_transmission_blocks": true,
+      "single_cochlear_mechanical_source_block": true,
+      "mixed_pressure_equation": true,
+      "quality_control_precedes_interpretation": true,
+      "direction_is_schematic_not_claim_of_simple_reverse_wave": true
+    }
+  },
+  {
+    "slug": "otoacoustic-emissions",
+    "file": "oae-distortion.svg",
+    "source": "Original analytic or synthetic pedagogical illustration",
+    "parameters": {
+      "f1_Hz": 1000,
+      "f2_Hz": 1200,
+      "fs": 48000,
+      "duration_s": 0.1,
+      "model": "y=x+0.3*x^3",
+      "spectrum_quantity": "component peak amplitude, normalized digital variable",
+      "shown_frequency_range_Hz": [
+        650,
+        1550
+      ],
+      "dp_peak_amplitudes": [
+        0.02812499999999929,
+        0.028125000000000653
+      ],
+      "zoom_panel_separate_y_scale": true,
+      "no_clinical_calibration": true
+    }
+  },
+  {
+    "slug": "otoacoustic-emissions",
+    "file": "oae-interference.svg",
+    "source": "Original analytic or synthetic pedagogical illustration",
+    "parameters": {
+      "source_magnitudes": [
+        1,
+        0.8
+      ],
+      "model": "abs(1+0.8exp(i phase))",
+      "minimum_linear": 0.19999999999999996,
+      "maximum_linear": 1.8,
+      "phase_grid_includes_pi": true
+    }
+  },
+  {
+    "slug": "otoacoustic-emissions",
+    "file": "oae-noise.svg",
+    "source": "Original analytic or synthetic pedagogical illustration",
+    "parameters": {
+      "f2_frequencies_kHz": [
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0
+      ],
+      "primary_ratio": 1.2,
+      "readout_frequencies_kHz": [
+        0.6666666666666667,
+        1.0,
+        1.3333333333333335,
+        2.0,
+        2.666666666666667,
+        4.0
+      ],
+      "response_dB_SPL": [
+        -4,
+        -5,
+        -2,
+        -7,
+        -12,
+        -8
+      ],
+      "noise_dB_SPL": [
+        -14,
+        -15,
+        -14,
+        -16,
+        -15,
+        -18
+      ],
+      "open_point_example_f2_kHz": 4,
+      "not_pass_criteria": true
+    }
+  },
+  {
+    "slug": "otoacoustic-emissions",
+    "file": "oae-phase-delay.svg",
+    "source": "Original analytic or synthetic pedagogical illustration",
+    "parameters": {
+      "delay_ms": 5,
+      "analytic_phase_only": true,
+      "phase_samples": 601,
+      "wrapped_plot_breaks": 15,
+      "unwrap_method": "numpy.unwrap; subtract first value",
+      "frequency_step_Hz": 5,
+      "maximum_recovery_error_ms": 9.2192919964873e-13
+    }
+  },
+  {
+    "slug": "otoacoustic-emissions",
+    "file": "oae-human-fine-structure-2015.webp",
+    "source": "Unmodified published human measurements, Zhao et al. (2015), Figure 2",
+    "doi": "10.3389/fnsys.2015.00168",
+    "source_url": "https://www.frontiersin.org/files/Articles/167201/xml-images/fnsys-09-00168-g002.webp",
+    "article_url": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2015.00168/full",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Zhao W, Dewey JB, Boothalingam S, Dhar S (2015). Frontiers in Systems Neuroscience 9:168.",
+    "sha256": "32227984c79ea93efecad5e0546373b25cb0d722b2d27cf76cf9588193ba1460",
+    "dimensions_px": [
+      1000,
+      631
+    ],
+    "modifications": "None; original image bytes preserved. Chinese reading guide is supplied in the article caption.",
+    "parameters": {
+      "subjects_shown": [
+        "WTPF13",
+        "WTPF76"
+      ],
+      "probe_levels_dB_SPL": [
+        20,
+        40
+      ],
+      "phase_unit": "cycles",
+      "level_unit": "dB SPL",
+      "phase_gradient_delay_unit": "ms",
+      "not_clinical_reference_range": true
+    }
+  },
+  {
+    "slug": "otoacoustic-emissions",
+    "file": "oae-human-pulsed-2017.jpg",
+    "source": "Unmodified published human measurements, Zelle et al. (2017), Figure 3",
+    "doi": "10.1121/1.4982923",
+    "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f70e/5426960/c8bb2fe8e8de/JASMAN-000141-003203_1-g003.jpg",
+    "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5426960/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Zelle D, Lorenz L, Thiericke JP, Gummer AW, Dalhoff E (2017). JASA 141:3203–3219.",
+    "sha256": "01f23d64c9f772ec8360ffefcfcf6adc67b820e7cd57b2d7d2e3cd5d86b2c876",
+    "dimensions_px": [
+      761,
+      783
+    ],
+    "modifications": "None; original bytes, panel labels, axes and data preserved. Chinese reading guide is in the article caption."
+  },
+  {
+    "slug": "otoacoustic-emissions",
+    "file": "oae-human-io-2017.jpg",
+    "source": "Unmodified published human measurements, Zelle et al. (2017), Figure 5",
+    "doi": "10.1121/1.4982923",
+    "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f70e/5426960/18926b0eadd1/JASMAN-000141-003203_1-g005.jpg",
+    "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5426960/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Zelle D, Lorenz L, Thiericke JP, Gummer AW, Dalhoff E (2017). JASA 141:3203–3219.",
+    "sha256": "2b47813015a40c35af7b0745a48c88498b22a068ef9f847185e39aeec6a4c081",
+    "dimensions_px": [
+      773,
+      1167
+    ],
+    "modifications": "None; original bytes, panel labels, axes and data preserved. Chinese reading guide is in the article caption."
+  }
+]

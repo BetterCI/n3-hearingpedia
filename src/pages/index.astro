@@ -9,11 +9,13 @@ import FeedbackPanel from '../components/FeedbackPanel.astro';
 import { url } from '../lib/paths';
 import { learningPaths } from '../data/paths';
 import { knowledgeAreas } from '../data/knowledge';
+import { getConceptPublicationRanks, compareConceptPublication } from '../lib/concept-publication';
 const concepts = (await getCollection('concepts')).sort((a,b) => a.data.order - b.data.order);
 const bySlug = Object.fromEntries(concepts.map(c => [c.data.slug, c]));
 const people = concepts.filter(c=>c.data.kind==='person');
-const inDepth = concepts.filter(c=>c.data.depth==='in-depth' && c.data.kind!=='person').sort((a,b)=>b.data.last_updated.localeCompare(a.data.last_updated)||a.data.order-b.data.order);
-const featured = inDepth.slice(0,8).reverse();
+const publicationRanks = getConceptPublicationRanks();
+const inDepth = concepts.filter(c=>c.data.depth==='in-depth' && c.data.kind!=='person').sort((a,b)=>compareConceptPublication(a,b,publicationRanks));
+const featured = inDepth.slice(0,8);
 const moreInDepth = inDepth.slice(8);
 ---
 <BaseLayout>

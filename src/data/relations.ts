@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('outer-hair-cell','otoacoustic-emissions','measured-by','外毛细胞相关主动机械过程可产生耳道声学输出，测量同时受传播与校准影响。',3),
+  link('cochlea','otoacoustic-emissions','measured-by','非侵入性观察耳蜗机械输出，需要区分源机制、往返传输及记录噪声。',3),
+  link('otoacoustic-emissions','audiology','application','用于外围功能评估、筛查与监测，并与其他听力检查整合。',3),
+  link('otoacoustic-emissions','auditory-brainstem-response','related','声学输出与神经群体电活动观察不同环节；发射保留不能排除神经性问题。',3),
+  link('otoacoustic-emissions','pure-tone-audiometry','related','耳蜗输出与行为检出阈分别测量，输入输出外推不直接替代听力图。',3),
+  link('otoacoustic-emissions','audiometric-calibration','related','需分别记录刺激声级参考、耳道声学条件与输出校正。',3),
+  link('otoacoustic-emissions','auditory-filter','related','反射发射延迟可约束调谐模型，估计依赖源机制和传播假设。',2),
+  link('otoacoustic-emissions','hearing-loss','related','筛查或监测结果依据协议解释，不直接定位或量化所有损伤。',3),
+  link('otoacoustic-emissions','speech-audiometry','related','机械输出与言语表现具有不同观察对象，需要共同解释。',2),
   link('speech-redundancy','speech-intelligibility','related','信息重叠和语言约束可支持特定条件下的内容识别；不等同于正确率。',3),
   link('speech-redundancy','temporal-envelope','related','分带起伏提供部分声学线索，不能把包络和精细结构视为相同编码。',2),
   link('speech-redundancy','mandarin-lexical-tone','related','声调与词句识别需要分别检验声学线索和语境利用。',3),
@@ -352,6 +361,18 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('inner-hair-cell','pitch-perception','mechanism','IHC 将耳蜗 place 信息与低频 timing 信息传入 SGN，是 place–time 音高编码的外周接口。',2),
   link('inner-hair-cell','hearing-aid','related','声学放大仍依赖残余 IHC 机械电转导和突触传输才能形成有效神经输入。',2),
   link('inner-hair-cell','cochlear-implant','related','人工耳蜗绕过 IHC 的机械电转导和 ribbon synapse，直接刺激耳蜗神经元。',2),
+  // Phonetics overview connects production, acoustics, perception and research tools.
+  link('phonetics','mandarin-consonants','related','总览连接普通话辅音的语言系统、发音维度与具体实现。',3),
+  link('phonetics','consonant-place-of-articulation','related','部位是发音描写的一种维度，声学指标不能直接替代器官观察。',3),
+  link('phonetics','consonant-manner-of-articulation','related','闭塞、摩擦和气流路线连接发音与声学事件。',3),
+  link('phonetics','formant','related','共振峰为声学分析入口，需区分共振、谱峰和模型估计。',3),
+  link('phonetics','fundamental-frequency','related','周期声源及基频测量连接发音与韵律分析。',3),
+  link('phonetics','mandarin-lexical-tone','related','声调类别、相对调值与连续基频实现属于不同层面的描写。',3),
+  link('phonetics','psychoacoustics','related','感知实验共享刺激控制、识别与辨别任务的测量逻辑。',3),
+  link('phonetics','speech-redundancy','related','协同发音使线索跨越标注音段，连接信息缺失时的利用。',2),
+  link('phonetics','confusion-matrix','analyzed-by','刺激—反应矩阵用于组织语音类别识别中的错误分布。',2),
+  link('zhao-yuanren','phonetics','researches','汉语、方言调查与语音描写是学科历史的研究入口。',3),
+  link('wu-zongji','phonetics','researches','实验测量与汉语声调、语调和连读语音研究。',3),
   // Consolidated phonetics articles retain distinct articulatory dimensions.
   link('consonant-place-of-articulation','mandarin-consonants','describes','部位与发音器官描述普通话辅音；平翘舌和龈腭音在同篇比较。',3),
   link('consonant-manner-of-articulation','mandarin-consonants','describes','闭塞、摩擦和气流路线在同篇连接五类辅音。',3),
@@ -365,6 +386,19 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('consonant-place-of-articulation','formant','related','部位研究可结合后续元音过渡观察，共振峰不是固定部位标签。',1),
   link('voicing','fundamental-frequency','related','周期振动可形成基频，清浊类别不能等同声调或音高。',2),
   link('mandarin-consonants','confusion-matrix','analyzed-by','后续识别实验可用刺激—反应矩阵组织普通话辅音混淆。',2),
+  // Speech audiometry overview connects task selection and interpretable results.
+  link('audiology','speech-audiometry','related','言语测听把言语敏感度、识别及噪声任务纳入听力学评估。',3),
+  link('speech-audiometry','pure-tone-audiometry','related','纯音敏感度与言语任务互相核查，不能以一种结果替代另一种。',3),
+  link('speech-audiometry','speech-reception-threshold','related','总览区分任务，阈值词条展开材料、目标比例及估计算法。',3),
+  link('speech-audiometry','audiometric-calibration','related','呈现链、声级参考和换能器校准决定比较条件。',3),
+  link('speech-audiometry','speech-intelligibility','related','行为识别结果需要带材料、语境和评分单位。',3),
+  link('speech-audiometry','speech-redundancy','related','语境和分布线索影响孤立词与句子成绩。',2),
+  link('speech-audiometry','masking','related','非测试耳掩蔽与竞争背景分别用于控制耳别和改变识别条件。',3),
+  link('speech-audiometry','hearing-aid','related','助听获益需在明确的设备配置和输入条件中直接评价。',3),
+  link('speech-audiometry','cochlear-implant','related','植入者随访需要适用材料、配置及列表变异信息。',3),
+  link('speech-audiometry','listening-effort','related','正确率与努力是相关但不同的结果，不能互相替代。',2),
+  link('speech-audiometry','confusion-matrix','analyzed-by','项目反应可用于组织语音识别中的错误分布。',2),
+
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "evidence-chain.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "layout": "functional evidence hierarchy; arrows are candidate relationships, not measured connectivity"
+    },
+    "license": "Project-authored; no external image reproduced"
+  },
+  {
+    "file": "mechanism-framework.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "sources": "Froemke 2015; Persic et al. 2020; conceptual synthesis, no anatomical geometry"
+    },
+    "license": "Project-authored; no external image reproduced"
+  },
+  {
+    "file": "study-design.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "timeline": "qualitative stages; spacing does not encode duration",
+      "active_control": "matched contact and attention; both groups measured at all stages"
+    },
+    "license": "Project-authored; no external image reproduced"
+  },
+  {
+    "file": "training-transfer.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "synthetic": true,
+      "trained_group_pct": [
+        40,
+        70,
+        65
+      ],
+      "control_group_pct": [
+        45,
+        55,
+        55
+      ],
+      "test_stages": [
+        "baseline",
+        "immediate",
+        "delayed"
+      ],
+      "immediate_difference_in_changes_pp": [
+        20,
+        10,
+        0
+      ],
+      "uncertainty": "no sampling or error bars; schematic values only"
+    },
+    "license": "Project-authored; no external image reproduced"
+  }
+]

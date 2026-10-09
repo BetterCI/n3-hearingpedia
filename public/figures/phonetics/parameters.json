@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-09",
+  "figures": [
+    {
+      "name": "01-production-signal-perception",
+      "files": [
+        "01-production-signal-perception.svg",
+        "01-production-signal-perception.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        840.0
+      ],
+      "description": "三种研究入口和简化自身语音反馈；非解剖图。",
+      "parameters": {
+        "data": null
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-phonetics.py",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "copyright": "原创教学图；未转载论文图形或参与者数据",
+      "usage": "本站展示与教学计算复现；对外开放许可证尚待维护者确定"
+    },
+    {
+      "name": "02-source-filter",
+      "files": [
+        "02-source-filter.svg",
+        "02-source-filter.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        1000.0
+      ],
+      "description": "独立源滤波教学模型；各面板自身幅度归一化。",
+      "parameters": {
+        "sample_rate_Hz": 16000,
+        "F0_Hz": 125,
+        "harmonics": 63,
+        "source_amplitude": "1/k",
+        "resonator_centers_Hz": [
+          500,
+          1500,
+          2500
+        ],
+        "bandwidth_parameters_Hz": [
+          80,
+          120,
+          180
+        ],
+        "pole_radius": "exp(-pi*bandwidth/fs)",
+        "transfer": "product of 1/(1-2*r*cos(2*pi*center/fs)*z^-1+r^2*z^-2)",
+        "output": "steady-state harmonic synthesis using complex transfer; peak normalized",
+        "plot_limit_Hz": 4000,
+        "panel_reference": "each panel own maximum amplitude"
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-phonetics.py",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "copyright": "原创教学图；未转载论文图形或参与者数据",
+      "usage": "本站展示与教学计算复现；对外开放许可证尚待维护者确定"
+    },
+    {
+      "name": "03-window-length",
+      "files": [
+        "03-window-length.svg",
+        "03-window-length.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        1100.0
+      ],
+      "description": "同一平稳信号的波形及两种周期Hann窗语谱图；共享颜色参考。",
+      "parameters": {
+        "input": "same steady-state signal as figure 2",
+        "sample_rate_Hz": 16000,
+        "F0_Hz": 125,
+        "period_samples": 128,
+        "window": "periodic Hann: .5-.5*cos(2*pi*n/N)",
+        "window_samples": [
+          80,
+          640
+        ],
+        "window_ms": [
+          5,
+          40
+        ],
+        "ENBW_Hz": [
+          300.0,
+          37.5
+        ],
+        "ENBW_definition": "fs*sum(w^2)/sum(w)^2; not two-tone threshold or Gaussian -3 dB bandwidth",
+        "frame_hop_samples": 16,
+        "frame_hop_ms": 1,
+        "FFT_points": 4096,
+        "frequency_grid_Hz": 3.90625,
+        "normalization": "FFT amplitude divided by sum(window); shared maximum over both panels within 0-4000 Hz",
+        "color_dB_range": [
+          -65,
+          0
+        ],
+        "signal_section_seconds": [
+          0.4,
+          0.6
+        ],
+        "display_time_ms": [
+          0,
+          200
+        ],
+        "boundary_handling": "interior complete windows; no padding signal ends with silence; FFT zero padding only"
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-phonetics.py",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "copyright": "原创教学图；未转载论文图形或参与者数据",
+      "usage": "本站展示与教学计算复现；对外开放许可证尚待维护者确定"
+    },
+    {
+      "name": "04-vot-timing",
+      "files": [
+        "04-vot-timing.svg",
+        "04-vot-timing.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        840.0
+      ],
+      "description": "事件时间条；假定起声后连续周期振动；数值不对应特定语言类别。",
+      "parameters": {
+        "release_ms": 100,
+        "voicing_onsets_ms": [
+          70,
+          120,
+          160
+        ],
+        "VOT_ms": [
+          -30,
+          20,
+          60
+        ],
+        "assumption": "voicing continuous from designated onset; no interruption or multiple releases",
+        "data": null
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-phonetics.py",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "copyright": "原创教学图；未转载论文图形或参与者数据",
+      "usage": "本站展示与教学计算复现；对外开放许可证尚待维护者确定"
+    }
+  ]
+}

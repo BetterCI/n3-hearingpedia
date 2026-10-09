@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-09",
+  "entry": {
+    "slug": "speech-audiometry",
+    "knowledge_area": "measurement",
+    "kind": "test",
+    "chinese_characters": 8975,
+    "body_characters": 14847,
+    "sections": 12,
+    "subsections": 34,
+    "reference_ids": [
+      "speech-reception-threshold-adult",
+      "speech-reception-threshold-asha",
+      "hint-1994",
+      "speech-audiometry-quicksin",
+      "speech-audiometry-fitzgerald-2024",
+      "speech-reception-threshold-nissen",
+      "speech-reception-threshold-zhu",
+      "boothroyd-1988",
+      "speech-reception-threshold-bilger",
+      "mhint-2007",
+      "cmnmatrix-2018",
+      "speech-audiometry-cmnbio-2022",
+      "speech-reception-threshold-iso",
+      "speech-reception-threshold-gb",
+      "audiometric-calibration-mha-manual",
+      "speech-reception-threshold-thornton",
+      "speech-audiometry-carney-2007",
+      "speech-audiometry-nist",
+      "speech-audiometry-azbio-2012",
+      "speech-reception-threshold-bsa",
+      "festen-1990",
+      "brungart-2001",
+      "fuel-2016",
+      "speech-reception-threshold-chen",
+      "speech-audiometry-din-2025"
+    ],
+    "wiki_links": [
+      "pure-tone-audiometry",
+      "speech-reception-threshold",
+      "speech-intelligibility",
+      "speech-redundancy",
+      "audiometric-calibration",
+      "hearing-aid",
+      "cochlear-implant",
+      "audiology",
+      "confusion-matrix",
+      "listening-effort"
+    ],
+    "status": "draft",
+    "depth": "in-depth"
+  },
+  "professional_review": "pending",
+  "author_confirmation": "用户于2026-10-09授权推送",
+  "publication": "approved for publication; deployment verified separately",
+  "figures": 4,
+  "references_registered": true,
+  "duplicate_DOIs_within_entry": false,
+  "citations_numbered_by_first_appearance": true,
+  "teaching_data_not_empirical": true,
+  "engineering_checks": {
+    "astro_check": "passed; 0 errors, 0 warnings, 0 hints",
+    "build": "passed",
+    "site_verify": "passed; 182 pages, 74 concepts, 367 typed relations, 0 broken links",
+    "source_content": "passed",
+    "diff_check": "passed"
+  },
+  "desktop_mobile_QA": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "言语测听",
+      "overflow": false,
+      "references": 25,
+      "figures": 4,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/speech-audiometry/01-tasks.svg",
+          "width": 1600,
+          "height": 1133,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-audiometry/02-noise-roles.svg",
+          "width": 1600,
+          "height": 1067,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-audiometry/03-functions.svg",
+          "width": 1600,
+          "height": 1267,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-audiometry/04-uncertainty.svg",
+          "width": 1600,
+          "height": 1040,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 790,
+          "parentWidth": 790,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "言语测听",
+      "overflow": false,
+      "references": 25,
+      "figures": 4,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/speech-audiometry/01-tasks.svg",
+          "width": 1600,
+          "height": 1133,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-audiometry/02-noise-roles.svg",
+          "width": 1600,
+          "height": 1067,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-audiometry/03-functions.svg",
+          "width": 1600,
+          "height": 1267,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-audiometry/04-uncertainty.svg",
+          "width": 1600,
+          "height": 1040,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 520,
+          "parentWidth": 346,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    }
+  ],
+  "visual_review": "All four original PNGs and desktop/mobile rendered intro, figure captions, formula and table including rightmost columns inspected; passed"
+}
