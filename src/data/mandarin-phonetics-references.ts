@@ -1,0 +1,49 @@
+/**
+ * Verified sources for Mandarin consonant phonetics (checked 2026-10-09).
+ * Inputs: none. Output: bibliographic records consumed by references.ts.
+ * Side effects: none; URLs identify external reading, not runtime requests.
+ * Scope: access/supports fields distinguish full text, official symbols and metadata.
+ * Usage: spread mandarinPhoneticsReferences into the shared bibliography.
+ * Copyright: Huali Zhou, zhouhuali224@gmail.com
+ * School of Electronics and Information Engineering, Heyuan Polytechnic, Heyuan, Guangdong, China.
+ */
+import type { Reference } from './references';
+
+export const mandarinPhoneticsReferences: Record<string, Reference> = {
+  'lee-zee-standard-chinese-2003': {
+    title: 'Standard Chinese (Beijing)', authors: 'Lee, W.-S. & Zee, E.', year: '2003',
+    publication: 'Journal of the International Phonetic Association, 33(1), 109–112',
+    doi: '10.1017/S0025100303001208', url: 'https://doi.org/10.1017/S0025100303001208', access: 'fulltext',
+    supports: '已核读出版方开放全文第109–112页的辅音表、Conventions与Notes：送气配对、鼻音位置分布、j/q/x搭配、r的后齿龈近音实现及轻声音节阻碍音浊化。论文依据特定北京青年样本；其舌尖后细记音与常见卷舌教学宽式不同，不能把样本结论推广为所有普通话说话人的唯一舌形。',
+  },
+  'ipa-chart-official': {
+    title: 'The International Phonetic Alphabet and the IPA Chart', authors: 'International Phonetic Association', year: '2026（表重发年份；符号体系修订至2015/2005）',
+    publication: '国际语音协会官方音标表与说明', url: 'https://www.internationalphoneticassociation.org/content/ipa-chart', access: 'documentation',
+    supports: '已核读官方说明及2026版表：肺气流辅音的部位和方式、清浊符号位置、送气和成音节附加符号、塞擦音连接线。用于符号定义，不把国际音标通用表解释为普通话的唯一音位清单。',
+  },
+  'hanyu-pinyin-scheme': {
+    title: '汉语拼音方案', authors: '中国文字改革委员会', year: '1958（全国人大通过）',
+    publication: '1958年2月11日第一届全国人民代表大会第五次会议通过；维基文库原文转录',
+    url: 'https://zh.wikisource.org/w/index.php?title=%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88&oldid=1958216', access: 'fulltext',
+    supports: '已逐项核对公开转录的声母表、韵母表附注1、4–6及声调符号：21声母、七个音节中i的拼写、无声母时y/w写法、j/q/x后ü省点、n/l后保留ü及ng写法。该链接是原文转录，不是教育部官方托管页；拼写规定不直接等同音位或实际发音分析。',
+  },
+  'essentials-consonant-place-phonation': {
+    title: '3.3 Describing consonants: Place and phonation',
+    authors: 'Anderson, C., Bjorkman, B., Denis, D., Doner, J., Grant, M., Sanders, N. & Taniguchi, A.', year: '2022',
+    publication: 'Essentials of Linguistics, 2nd edition；eCampusOntario开放教材',
+    url: 'https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/3-3-describing-consonants-place-and-phonation/', access: 'fulltext',
+    supports: '已阅读主动/被动发音器官、发音部位、声门和清浊定义；用于通用语音学机制，普通话具体音类及实现另引Lee与Zee。',
+  },
+  'essentials-consonant-manner': {
+    title: '3.4 Describing consonants: Manner',
+    authors: 'Anderson, C., Bjorkman, B., Denis, D., Doner, J., Grant, M., Sanders, N. & Taniguchi, A.', year: '2022',
+    publication: 'Essentials of Linguistics, 2nd edition；eCampusOntario开放教材',
+    url: 'https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/3-4-describing-consonants-manner/', access: 'fulltext',
+    supports: '已阅读口腔塞音、鼻音、擦音、塞擦音、近音与边近音的发音机制及阻碍音/响音分类。用于阻塞、软腭和气流路径等通用解释；不据教材英语例词代替普通话实例。',
+  },
+  'lisker-abramson-vot-1964': {
+    title: 'A Cross-Language Study of Voicing in Initial Stops: Acoustical Measurements', authors: 'Lisker, L. & Abramson, A. S.', year: '1964',
+    publication: 'WORD, 20(3), 384–422', doi: '10.1080/00437956.1964.11659830', url: 'https://doi.org/10.1080/00437956.1964.11659830', access: 'metadata',
+    supports: 'Crossref核实标题、作者、年份、卷期、页码与DOI。作为VOT经典研究的进一步阅读入口；本轮未阅读全文，不用于复现原始实验结果、参数或跨语言阈值。',
+  },
+};
