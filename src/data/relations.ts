@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('zou-lude','cochlear-implant','researches','国内早期单道插座式人工耳蜗探索及合作研发。',3),
+  link('zou-lude','cochlear-implant-coding-strategies','researches','装置设计与言语处理器的历史研究入口，不归属现代全部编码策略。',2),
+  link('zou-lude','cochlear-implant-sound-perception','researches','合作论文摘要涉及植入后的听力康复结果。',2),
+  link('zou-lude','hearing-loss','researches','耳科手术与早期人工听觉探索的临床背景。',2),
+  link('zou-lude','audiology','researches','临床应用与听力康复评价的阅读联系。',2),
+  link('zou-lude','cochlea','researches','耳科与植入电刺激工作的解剖背景。',2),
   link('zhao-yuanren','mandarin-lexical-tone','researches','五度标调法与字调、语调的历史研究。',3),
   link('zhao-yuanren','fundamental-frequency','researches','语音音高轮廓研究的声学入口；相对调值不等于赫兹轨迹。',2),
   link('zhao-yuanren','pitch-perception','researches','声调描述与音乐兴趣提供音高研究的阅读背景，不表示建立全部知觉机制。',2),

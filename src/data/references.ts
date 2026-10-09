@@ -1,3 +1,4 @@
+import { zouLudeReferences } from './zou-lude-references.ts';
 import { zhaoYuanrenReferences } from './zhao-yuanren-references.ts';
 import { auditoryPathwayReferences } from './auditory-pathway-references.ts';
 import { audiologyReferences } from './audiology-references.ts';
@@ -34,6 +35,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...zouLudeReferences,
   ...zhaoYuanrenReferences,
   ...auditoryPathwayReferences,
   ...audiologyReferences,

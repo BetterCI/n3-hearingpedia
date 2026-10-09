@@ -4,6 +4,7 @@
 
 ## 赵元任
 
+
 - `zhao-yuanren/portrait.jpg`：清华大学心理与认知科学系纪念页的姓名对应肖像，115 × 115。
   - 页面：https://www.pcs.tsinghua.edu.cn/info/1013/1714.htm
   - 原图：https://www.pcs.tsinghua.edu.cn/__local/F/88/72/6975515420348F0D911D314F191_ECE3BFB5_D98.jpg
@@ -39,3 +40,13 @@
   - 原图：https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202304/Nelson%20Kiang%20library.jpg?itok=HnWfErb9
 - 两张照片由报道直接确认身份，均注明Mass Eye and Ear提供；无摄影者和拍摄日期。原图完整使用，无裁剪或生成。图片路径中的2023年是发布路径，1955年是来到MIT的年份，均不作为拍摄年份。
 - 公开发布不等于开放授权，原权利人保留版权，本站开放内容许可不涵盖这些图片。
+
+## 邹路得
+
+- `zou-lude/pumch-team-1956.jpg`：1956年协和耳鼻咽喉科学系完整合影，1080 × 513；机构原图注将邹路得标为二排左八，图片署名北京协和医院耳鼻喉科。
+  - 页面：https://www.thepaper.cn/newsDetail_forward_13235301
+  - 原图：https://imagepphcloud.thepaper.cn/pph/image/138/376/6.jpg
+- `zou-lude/academic-visit-1960s.jpg`：20世纪60年代苏联专家来访合影，600 × 496；北京市耳鼻咽喉科研究所图注列出邹路得等专家，但画面11人与图注9个姓名／身份不一致，不标定个人位置，不裁剪成肖像。网页日期不作为已核实拍摄日。
+  - 页面：https://bjent.org/Mobile/Article/Index/359
+  - 原图：https://bjent.org/Sites/Uploaded/Image/2017/06/086363253652525664373646515.jpg
+- 原页面未注明摄影者与开放许可，第三方照片不受本站开放许可覆盖。保留原始比例与完整画面，未生成或修复人物形象。核验日期：2026-10-09。

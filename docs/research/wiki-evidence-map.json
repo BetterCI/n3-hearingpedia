@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 299,
+  "relations": 305,
   "entries": [
     {
       "slug": "cochlea",
@@ -2658,6 +2658,35 @@
         "mandarin-consonants",
         "consonant-place-of-articulation",
         "consonant-manner-of-articulation"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "zou-lude",
+      "knowledge_area": "biology",
+      "kind": "person",
+      "chinese_characters": 1800,
+      "body_characters": 3563,
+      "sections": 5,
+      "subsections": 10,
+      "reference_ids": [
+        "zou-pumch-history-2021",
+        "zou-pumch-timeline",
+        "zou-implant-design-1994",
+        "zou-academic-visit-photo"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "hearing-loss",
+        "audiology",
+        "cochlea",
+        "cochlear-implant-coding-strategies",
+        "channel-interaction",
+        "cochlear-implant-sound-perception",
+        "speech-intelligibility",
+        "liang-zhian",
+        "nelson-kiang",
+        "gu-rui"
       ],
       "status": "draft"
     }
