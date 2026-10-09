@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 252,
+  "relations": 256,
   "entries": [
     {
       "slug": "cochlea",
@@ -2401,6 +2401,35 @@
         "temporal-fine-structure",
         "cochlear-implant-sound-perception",
         "psychoacoustics"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "liang-zhian",
+      "knowledge_area": "biology",
+      "kind": "person",
+      "chinese_characters": 1789,
+      "body_characters": 2685,
+      "sections": 5,
+      "subsections": 8,
+      "reference_ids": [
+        "liang-obituary-2000",
+        "liang-stimulus-spectrum-1986",
+        "liang-tvf-1990",
+        "liang-discrimination-1997",
+        "liang-neurobiology-chapter",
+        "zeng-recollections-2013",
+        "xu-ci-review-2006"
+      ],
+      "wiki_links": [
+        "psychoacoustics",
+        "auditory-evoked-potential",
+        "pure-tone-audiometry",
+        "audiometric-calibration",
+        "auditory-brainstem-response",
+        "mandarin-lexical-tone",
+        "pitch-perception",
+        "speech-intelligibility"
       ],
       "status": "draft"
     }

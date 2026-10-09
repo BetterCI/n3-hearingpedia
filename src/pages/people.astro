@@ -1,0 +1,12 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ConceptCard from '../components/ConceptCard.astro';
+const people = (await getCollection('concepts')).filter(c=>c.data.kind==='person').sort((a,b)=>a.data.order-b.data.order);
+---
+<BaseLayout title="听觉研究人物" description="从中国听觉研究者的代表工作出发，回顾研究问题、方法与学术传承，并连接相关百科词条。">
+  <div class="container">
+    <div class="page-intro"><div class="eyebrow">People &amp; the history of hearing research</div><h1>听觉研究人物</h1><p>从一个人提出的问题、完成的实验和留下的著作，走进听觉科学的发展历程。以中国研究者为重点，结合原始文献回顾代表工作及其影响。</p></div>
+    <section class="section" aria-labelledby="people-title"><div class="section-heading"><div><h2 id="people-title">从代表工作认识研究者</h2><p>人物词条与概念词条相互连接；合作成果注明合作者，研究结论注明核验范围。</p></div></div><div class="concept-grid">{people.map(concept=><ConceptCard concept={concept}/>)}</div></section>
+  </div>
+</BaseLayout>

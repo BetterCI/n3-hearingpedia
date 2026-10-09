@@ -1,4 +1,5 @@
 export const relationTypes = {
+  researches: { label: '人物与研究主题', outgoing: '相关研究主题', incoming: '相关研究者', directional: true },
   subtype: { label: '类型关系', outgoing: '属于其类型', incoming: '包含的类型', directional: true },
   describes: { label: '表征关系', outgoing: '描述对象', incoming: '表征线索', directional: true },
   mechanism: { label: '机制联系', outgoing: '机制联系', incoming: '机制联系', directional: false },
@@ -14,6 +15,11 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('liang-zhian','psychoacoustics','researches','辨别阈研究连接行为任务与感知测量。',3),
+  link('liang-zhian','auditory-evoked-potential','researches','声诱发反应处理研究；不表示该技术由其独立创立。',3),
+  link('liang-zhian','audiometric-calibration','researches','实际刺激频谱的核查与测听解释密切相关。',2),
+  link('liang-zhian','mandarin-lexical-tone','researches','早期论文被后续声调研究引用，原文结论尚待完整核验。',2),
+
   link('frequency-resolution','auditory-filter','mechanism','滤波器提供频率选择性模型；带宽不能直接替代频率差别阈。',3),
   link('frequency-resolution','psychoacoustics','related','构念、刺激、任务和判据共同决定频率测量的解释范围。',3),
   link('frequency-resolution','masking','related','凹口噪声和调谐曲线通过掩蔽行为估计频率选择性。',3),

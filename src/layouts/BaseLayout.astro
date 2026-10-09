@@ -5,7 +5,7 @@ import { url, asset } from '../lib/paths';
 import VisitorStats from '../components/VisitorStats.astro';
 interface Props { title?: string; description?: string; }
 const { title = '连接听觉科学的知识', description = '连接听觉机制、感知与工程的专业百科：概念、学习路径与可追溯文献。' } = Astro.props;
-const nav = [{path:'explore',label:'Explore',zh:'概念'}, {path:'map',label:'Map',zh:'地图'}, {path:'learn',label:'Learn',zh:'学习'}, {path:'topics',label:'Topics',zh:'专题'}, {path:'about',label:'About',zh:'关于'}];
+const nav = [{path:'explore',label:'Explore',zh:'概念'}, {path:'map',label:'Map',zh:'地图'}, {path:'learn',label:'Learn',zh:'学习'}, {path:'topics',label:'Topics',zh:'专题'}, {path:'people',label:'People',zh:'人物'}, {path:'about',label:'About',zh:'关于'}];
 const current = Astro.url.pathname;
 ---
 <!doctype html>
