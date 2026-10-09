@@ -1,0 +1,111 @@
+---
+title: "刘半农"
+english: "Liu Bannong"
+slug: "liu-bannong"
+summary: "中国实验语音学先驱、文学家与语言学家。通过《四声实验录》、汉语声调实验和北大语音乐律实验室，回顾他将语言问题转化为声音测量的工作。"
+categories: ["speech", "acoustics"]
+tags: ["研究人物", "中国语音研究者", "实验语音学", "声调测量", "语音乐律实验室", "科学史"]
+aliases: ["刘复", "劉半農", "劉復", "Liu Fu", "Liu Ban-nong"]
+level: ["undergraduate", "graduate"]
+status: "draft"
+depth: "in-depth"
+last_updated: "2026-10-09"
+literature_checked_at: "2026-10-09"
+authors: ["AI 辅助编写"]
+reviewer: null
+reviewed_at: null
+knowledge_area: "perception"
+kind: "person"
+key_facts:
+  - {label: "生卒", value: "1891—1934"}
+  - {label: "主要机构", value: "北京大学；留学英国、法国"}
+  - {label: "代表方向", value: "实验语音学、汉语声调与乐律"}
+  - {label: "代表工作", value: "《四声实验录》；北大语音乐律实验室"}
+references: ["liu-pku-biography", "liu-pku-lab-2005", "liu-tones-translation-2025", "liu-family-recollections-2005", "liu-teaching-recollections"]
+batch: 3
+order: 106
+---
+
+**刘半农**（刘复，1891—1934）是中国文学家、语言学家，也是中国实验语音学的先驱之一，江苏江阴人。他参与新文化运动，并在北京大学从事文学、语音和语法研究，创设语音乐律实验室。[1](#ref-liu-pku-biography)
+
+在听觉知识体系中，他的工作提供了一条从语言进入声学测量的路径：声调不能只靠传统名称或听感描述，还可以借助实验记录声音的变化。本篇重点介绍这一研究路线，可结合[普通话汉语声调](../mandarin-lexical-tone/)、[基频](../fundamental-frequency/)和[音高](../pitch-perception/)阅读。
+
+<figure class="person-photo-figure" style="max-width:300px">
+  <a href="/n3-hearingpedia/people/liu-bannong/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/liu-bannong/portrait.jpg" alt="北京大学校史馆刘半农人物页使用的肖像，带橙色圆形背景" width="214" height="214" loading="lazy" style="width:214px;max-width:100%;margin:auto" /></a>
+  <figcaption>刘半农肖像，采用<a href="https://www.xsg.pku.edu.cn/detail/324.html" target="_blank" rel="noopener">北京大学校史馆人物页</a>原有的圆形背景版本。原页面未注明拍摄年代与摄影者；不推测照片日期。</figcaption>
+</figure>
+
+## 生平：从文学活动走向实验语音学
+
+### 留学与语音研究训练
+
+商务印书馆的作者介绍记载，刘半农1917年任北京大学预科国文教员，1920年赴英国伦敦大学学院学习，随后转赴法国巴黎大学学习语音学，1925年获得博士学位并回国。[3](#ref-liu-tones-translation-2025)
+
+这段经历使他把对汉语的关注转向可记录、可分析的声音材料。研究对象仍是语言，使用的方法却可以涉及声学、仪器与数量分析；文学与语音研究因而在其学术生涯中交汇。
+
+### 回国后的教学与实验室
+
+回国后，他任北京大学国文系教授、研究所国学门导师，并筹建语音乐律实验室。[3](#ref-liu-tones-translation-2025)北大2005年的纪念报道将实验室成立时间记为1925年9月。[2](#ref-liu-pku-lab-2005)
+
+北大校史馆记载他曾任研究院文史部主任，研究横跨文学、语音与语法。[1](#ref-liu-pku-biography)在本站人物路径中，他代表的是实验语音研究的早期建设，而非临床听力学或听觉神经生理研究。
+
+## 代表著作：《四声实验录》
+
+### 用实验回答声调问题
+
+《四声实验录》于1924年出版。北大纪念报道将其研究问题概括为“四声是什么”，并强调其对汉语声调进行定量与定性研究的意义。[2](#ref-liu-pku-lab-2005)
+
+这种转变的价值在于将声调作为可以观察的声音现象。语言类别告诉我们一个音节属于哪种声调，测量则追问它的声音怎样随时间变化。类别名称与声学轨迹之间需要建立联系，而不能仅凭名称推定曲线形状。
+
+### 从声学记录到可比较的描述
+
+今天可以用基频轨迹描述有声段的周期变化，也可以用相对音高轮廓概括声调。阅读刘半农的工作时，可以以这些现代词条作为解释入口，但应保留历史仪器与分析方法的背景。
+
+声学测量、语言分类和听者判断属于不同证据层次。一条曲线可以帮助描写发音，却不能单独证明听者使用哪些线索，也不能直接给出其辨别阈。这是本站连接实验语音学与听觉研究的阅读框架。
+
+## 博士论文与今天的阅读版本
+
+### 《汉语字声实验录》的研究范围
+
+出版社资料记载，1925年刘复的两篇博士论文《汉语字声实验录》和《国语运动略史》在巴黎大学通过答辩并出版。前者涉及多种方言的声调曲线，重点实验对象包括北京话、江阴话与广州话，并讨论轻声、清浊调、中入调以及重音和节奏。[3](#ref-liu-tones-translation-2025)
+
+这些对象提示读者，汉语声调研究不能只看一套普通话单字轮廓。不同方言有不同的类别与实现方式，轻声及节奏问题又把观察扩展到音节之间的关系。本文依据出版社内容介绍提供研究范围，未逐项复核历史数据。
+
+### 2025年中译本与1924年著作的区分
+
+商务印书馆2025年10月出版《汉语字声实验录》中译本，刘复著、仇傲译，171页，ISBN 978-7-100-24966-9。[3](#ref-liu-tones-translation-2025)这是1925年论文的现代中译本，不能把它的出版时间、页数或封面当成1924年《四声实验录》的版本信息。
+
+<figure class="book-cover-figure" style="max-width:292px">
+  <a href="/n3-hearingpedia/people/liu-bannong/chinese-tones-2025.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/liu-bannong/chinese-tones-2025.jpg" alt="商务印书馆2025年中译本《汉语字声实验录》封面展示图" width="268" height="268" loading="lazy" /></a>
+  <figcaption>《汉语字声实验录》2025年中译本封面展示图，来源：<a href="https://www.cp.com.cn/book/5cce31b0-d.html" target="_blank" rel="noopener">商务印书馆</a>。保留出版社原图，不作为1924年著作封面。</figcaption>
+</figure>
+
+这个版本为今天的中文读者提供了直接阅读入口。对具体实验装置、样本、曲线与计算方法，仍应以书中原文为依据；出版简介只能帮助了解范围。
+
+## 实验室、仪器与教学
+
+### 为语音观察建设工具
+
+北大纪念报道提到刘半农制作乙二声调推断尺等仪器，用于语音与声律分析。[2](#ref-liu-pku-lab-2005)其子刘育伦在同次纪念会的采访中回忆，父亲曾与赵元任讨论这一仪器，并在回国时带回语音实验设备。[4](#ref-liu-family-recollections-2005)
+
+实验室和仪器使语音研究有了持续工作的条件：保存材料、观察记录，并让不同研究者围绕同一个问题讨论。家属回忆提供了合作与生活背景，不能据此还原全部技术参数或确定每件设备的设计归属。
+
+### 把数量分析带入课堂
+
+张中行回忆自己在1933年至1934年听刘半农讲授古声律学，印象之一是他会用数量分析解释声音性质。该回忆由北京大学新闻网公开刊载。[5](#ref-liu-teaching-recollections)
+
+这一教学线索与实验研究相呼应：对声音的评价可以进一步追问它基于什么观察、怎样测量和如何解释。个人回忆呈现的是课堂印象，不等于可复现的实验报告。
+
+## 与听觉科学和其他人物的联系
+
+### 语言声调、音高与感知任务
+
+从[普通话汉语声调](../mandarin-lexical-tone/)进入[基频](../fundamental-frequency/)与[音高](../pitch-perception/)，可以分别理解语言类别、声音周期和知觉表现。随后阅读[心理声学](../psychoacoustics/)及[语音感知](../speech-intelligibility/)，进一步了解怎样用听者的判断检验声音线索。
+
+刘半农的历史贡献使声音描写与实验方法成为人物回顾的重要主题。现代听觉实验则需要自己的刺激控制、任务设计与行为或神经证据，不能由早期声调描写直接推导。
+
+### 与赵元任并读
+
+刘育伦的回忆提供了刘半农与赵元任交流仪器问题的线索。[4](#ref-liu-family-recollections-2005)可以与[赵元任人物篇](../zhao-yuanren/)并读：前者从实验记录和实验室建设切入，后者可沿五度标调法、字调与语调的分析继续阅读。
+
+本文核对了机构生平资料、纪念报道、家属与学生回忆及出版社书目信息；两部历史著作尚未全文核验。人物篇保留待专业审阅状态，后续可补充原始曲线、装置说明和同期文献。

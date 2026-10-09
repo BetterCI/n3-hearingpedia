@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 305,
+  "relations": 311,
   "entries": [
     {
       "slug": "cochlea",
@@ -2687,6 +2687,31 @@
         "liang-zhian",
         "nelson-kiang",
         "gu-rui"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "liu-bannong",
+      "knowledge_area": "perception",
+      "kind": "person",
+      "chinese_characters": 1847,
+      "body_characters": 3726,
+      "sections": 5,
+      "subsections": 10,
+      "reference_ids": [
+        "liu-pku-biography",
+        "liu-pku-lab-2005",
+        "liu-tones-translation-2025",
+        "liu-family-recollections-2005",
+        "liu-teaching-recollections"
+      ],
+      "wiki_links": [
+        "mandarin-lexical-tone",
+        "fundamental-frequency",
+        "pitch-perception",
+        "psychoacoustics",
+        "speech-intelligibility",
+        "zhao-yuanren"
       ],
       "status": "draft"
     }

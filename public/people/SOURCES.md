@@ -50,3 +50,12 @@
   - 页面：https://bjent.org/Mobile/Article/Index/359
   - 原图：https://bjent.org/Sites/Uploaded/Image/2017/06/086363253652525664373646515.jpg
 - 原页面未注明摄影者与开放许可，第三方照片不受本站开放许可覆盖。保留原始比例与完整画面，未生成或修复人物形象。核验日期：2026-10-09。
+## 刘半农
+
+- `liu-bannong/portrait.jpg`：北京大学校史馆刘半农人物页肖像，214 × 214。保留机构发布时的橙色圆形背景，不生成或修改人物，不推测拍摄年代。
+  - 页面：https://www.xsg.pku.edu.cn/detail/324.html
+  - 原图：https://www.xsg.pku.edu.cn/Uploads/Bdxsg/Picture/2019/12/16/s5df71968f3aed.JPG
+- `liu-bannong/chinese-tones-2025.jpg`：商务印书馆《汉语字声实验录》2025年中译本封面展示图，268 × 268，非1924年《四声实验录》封面。
+  - 页面：https://www.cp.com.cn/book/5cce31b0-d.html
+  - 原图：https://pic.cp.com.cn/Images/2026/1/7/103632279280fb8d0-6_hwc268268.jpg
+- 原页面未注明摄影者或开放许可证，图片著作权归相应权利人，本站开放许可不覆盖第三方图片。核验日期：2026-10-09。
