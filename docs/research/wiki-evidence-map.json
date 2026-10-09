@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 345,
+  "relations": 356,
   "entries": [
     {
       "slug": "cochlea",
@@ -2893,6 +2893,63 @@
       ],
       "status": "draft",
       "depth": "in-depth"
+    },
+    {
+      "slug": "phonetics",
+      "knowledge_area": "methods",
+      "kind": "discipline",
+      "chinese_characters": 8356,
+      "body_characters": 13911,
+      "sections": 11,
+      "subsections": 30,
+      "reference_ids": [
+        "phonetics-wayland-2018",
+        "phonetics-modality",
+        "phonetics-phonemes",
+        "phonetics-articulators",
+        "essentials-consonant-place-phonation",
+        "essentials-consonant-manner",
+        "phonetics-vowels",
+        "ipa-chart-official",
+        "formant-sourcefilter",
+        "phonetics-praat-spectrogram",
+        "phonetics-praat-pitch",
+        "formant-burg",
+        "phonetics-vot-review-2017",
+        "lee-zee-standard-chinese-2003",
+        "phonetics-coarticulation-2013",
+        "cortex-phonetic-2014",
+        "formant-normalization",
+        "phonetics-mfa-2017",
+        "phonetics-alignment-2024",
+        "phonetics-mri-2025",
+        "phonetics-articulatory-tools",
+        "essentials-vot-phonemes"
+      ],
+      "wiki_links": [
+        "mandarin-consonants",
+        "mandarin-lexical-tone",
+        "formant",
+        "fundamental-frequency",
+        "voicing",
+        "consonant-place-of-articulation",
+        "consonant-manner-of-articulation",
+        "aspiration",
+        "harmonicity",
+        "frequency-resolution",
+        "confusion-matrix",
+        "auditory-cortex",
+        "psychoacoustics",
+        "audiology",
+        "speech-intelligibility",
+        "speech-redundancy",
+        "vocoder",
+        "cochlear-implant-sound-perception",
+        "zhao-yuanren",
+        "liu-bannong",
+        "wu-zongji"
+      ],
+      "status": "draft"
     }
   ]
 }

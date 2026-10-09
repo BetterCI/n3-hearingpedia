@@ -352,6 +352,18 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('inner-hair-cell','pitch-perception','mechanism','IHC 将耳蜗 place 信息与低频 timing 信息传入 SGN，是 place–time 音高编码的外周接口。',2),
   link('inner-hair-cell','hearing-aid','related','声学放大仍依赖残余 IHC 机械电转导和突触传输才能形成有效神经输入。',2),
   link('inner-hair-cell','cochlear-implant','related','人工耳蜗绕过 IHC 的机械电转导和 ribbon synapse，直接刺激耳蜗神经元。',2),
+  // Phonetics overview connects production, acoustics, perception and research tools.
+  link('phonetics','mandarin-consonants','related','总览连接普通话辅音的语言系统、发音维度与具体实现。',3),
+  link('phonetics','consonant-place-of-articulation','related','部位是发音描写的一种维度，声学指标不能直接替代器官观察。',3),
+  link('phonetics','consonant-manner-of-articulation','related','闭塞、摩擦和气流路线连接发音与声学事件。',3),
+  link('phonetics','formant','related','共振峰为声学分析入口，需区分共振、谱峰和模型估计。',3),
+  link('phonetics','fundamental-frequency','related','周期声源及基频测量连接发音与韵律分析。',3),
+  link('phonetics','mandarin-lexical-tone','related','声调类别、相对调值与连续基频实现属于不同层面的描写。',3),
+  link('phonetics','psychoacoustics','related','感知实验共享刺激控制、识别与辨别任务的测量逻辑。',3),
+  link('phonetics','speech-redundancy','related','协同发音使线索跨越标注音段，连接信息缺失时的利用。',2),
+  link('phonetics','confusion-matrix','analyzed-by','刺激—反应矩阵用于组织语音类别识别中的错误分布。',2),
+  link('zhao-yuanren','phonetics','researches','汉语、方言调查与语音描写是学科历史的研究入口。',3),
+  link('wu-zongji','phonetics','researches','实验测量与汉语声调、语调和连读语音研究。',3),
   // Consolidated phonetics articles retain distinct articulatory dimensions.
   link('consonant-place-of-articulation','mandarin-consonants','describes','部位与发音器官描述普通话辅音；平翘舌和龈腭音在同篇比较。',3),
   link('consonant-manner-of-articulation','mandarin-consonants','describes','闭塞、摩擦和气流路线在同篇连接五类辅音。',3),
