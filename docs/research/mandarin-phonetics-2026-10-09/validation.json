@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-09",
+  "node": "24.19.0",
+  "pnpm": "11.25.0",
+  "checks": {
+    "source_content": "passed",
+    "astro_check": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": "passed",
+    "site_verification": {
+      "pages": 87,
+      "checked_internal_links": 8753,
+      "searchable_concepts": 64,
+      "knowledge_areas": 7,
+      "typed_relationships": 226,
+      "broken_links": 0
+    },
+    "browser": {
+      "categoryCount": 7,
+      "cardCount": 14,
+      "mobileOverflow": false,
+      "mapStatus": "webgl",
+      "categoryOptionCount": 8,
+      "pageErrors": []
+    },
+    "visual_review": {
+      "desktop_category_overview": "passed",
+      "desktop_ipa_table": "passed",
+      "mobile_ipa_table": "passed; horizontal table scroll is provided by the existing article layout"
+    }
+  },
+  "new_entries": [
+    {
+      "slug": "affricate",
+      "chinese_characters": 1582,
+      "sections": 4,
+      "subsections": 7,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "aspiration",
+      "chinese_characters": 1276,
+      "sections": 5,
+      "subsections": 5,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "lisker-abramson-vot-1964",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "consonant-manner-of-articulation",
+      "chinese_characters": 1689,
+      "sections": 5,
+      "subsections": 7,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "consonant-place-of-articulation",
+      "chinese_characters": 1490,
+      "sections": 5,
+      "subsections": 6,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-place-phonation"
+      ]
+    },
+    {
+      "slug": "fricative",
+      "chinese_characters": 1731,
+      "sections": 4,
+      "subsections": 8,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "lateral-consonant",
+      "chinese_characters": 1708,
+      "sections": 5,
+      "subsections": 9,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "mandarin-alveolar-retroflex",
+      "chinese_characters": 1366,
+      "sections": 5,
+      "subsections": 5,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-place-phonation",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "mandarin-alveolo-palatal",
+      "chinese_characters": 1185,
+      "sections": 5,
+      "subsections": 6,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner",
+        "hanyu-pinyin-scheme"
+      ]
+    },
+    {
+      "slug": "mandarin-consonant-ipa",
+      "chinese_characters": 1633,
+      "sections": 5,
+      "subsections": 7,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "hanyu-pinyin-scheme"
+      ]
+    },
+    {
+      "slug": "mandarin-consonants",
+      "chinese_characters": 1589,
+      "sections": 5,
+      "subsections": 6,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "hanyu-pinyin-scheme",
+        "essentials-consonant-place-phonation"
+      ]
+    },
+    {
+      "slug": "mandarin-initials",
+      "chinese_characters": 1324,
+      "sections": 5,
+      "subsections": 6,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "hanyu-pinyin-scheme"
+      ]
+    },
+    {
+      "slug": "nasal-consonant",
+      "chinese_characters": 1613,
+      "sections": 4,
+      "subsections": 8,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "plosive",
+      "chinese_characters": 1615,
+      "sections": 4,
+      "subsections": 7,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "voicing",
+      "chinese_characters": 1324,
+      "sections": 5,
+      "subsections": 6,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-place-phonation"
+      ]
+    }
+  ],
+  "scope": "14 confirmed phonetics articles; all draft, no professional reviewer recorded",
+  "delivery": {
+    "branch": "codex/mandarin-consonant-phonetics",
+    "remote_publication": "requires a usable GitHub credential"
+  }
+}
