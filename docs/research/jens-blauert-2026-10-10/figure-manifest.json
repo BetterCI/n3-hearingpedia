@@ -1,0 +1,47 @@
+[
+  {
+    "name": "event-and-evidence",
+    "nature": "original functional diagram",
+    "source_ids": [
+      "blauert-median",
+      "blauert-introduction"
+    ],
+    "limits": "No neural anatomy, fixed causality or measured perceptual outcome"
+  },
+  {
+    "name": "itd-ambiguity",
+    "nature": "original far-field two-point geometric calculation",
+    "receiver_distance_m": 0.18,
+    "sound_speed_m_s": 343.0,
+    "angle_definition": "0 front; 90 right; 180 back",
+    "delay_definition": "left arrival minus right arrival",
+    "angles_deg": [
+      30,
+      150
+    ],
+    "delays_us": [
+      262.3906705539358,
+      262.3906705539358
+    ],
+    "maximum_delay_us": 524.7813411078716,
+    "checks": [
+      "equal delays for front-back pair",
+      "maximum equals d/c",
+      "odd symmetry",
+      "zero at 0 and 180 degrees"
+    ],
+    "source_ids": [
+      "middlebrooks-1991"
+    ],
+    "limits": "No head diffraction, pinna, near field, level differences or movement"
+  },
+  {
+    "name": "binaural-simulation",
+    "nature": "original functional diagram",
+    "source_ids": [
+      "blauert-room",
+      "blauert-sofa"
+    ],
+    "limits": "Not a historic software reconstruction or measured behavioral prediction"
+  }
+]

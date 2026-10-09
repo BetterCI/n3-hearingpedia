@@ -1,0 +1,31 @@
+[
+  {
+    "name": "system-and-evidence",
+    "nature": "原创功能与证据层次框图",
+    "empirical_data": false,
+    "anatomical_reconstruction": false,
+    "source_ids": [
+      "zeng-2008",
+      "house-bilger-performance-1977"
+    ],
+    "exports": [
+      "svg",
+      "png"
+    ]
+  },
+  {
+    "name": "stimulation-sites",
+    "nature": "原创CI与ABI功能接入位置框图",
+    "empirical_data": false,
+    "anatomical_reconstruction": false,
+    "source_ids": [
+      "house-hitselberger-1984",
+      "house-shannon-2015",
+      "zeng-2008"
+    ],
+    "exports": [
+      "svg",
+      "png"
+    ]
+  }
+]

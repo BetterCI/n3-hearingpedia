@@ -1,0 +1,87 @@
+[
+  {
+    "name": "energy-decay",
+    "fs_hz": 48000,
+    "duration_s": 2,
+    "seed": 1926,
+    "decay_parameter_s": 0.6,
+    "fit_db": [
+      -5,
+      -25
+    ],
+    "fitted_T20_s": 0.6038108153685682,
+    "checks": [
+      "reverse energy monotone",
+      "fit within 25 ms of set parameter"
+    ],
+    "nature": "synthetic random-noise response with exponential envelope",
+    "source_ids": [
+      "room-acoustics-schroeder",
+      "room-acoustics-rew-rt"
+    ]
+  },
+  {
+    "name": "harmonic-phase",
+    "fs_hz": 48000,
+    "f0_hz": 100,
+    "harmonics": 20,
+    "phase": "C*pi*n*(n-1)/N; cosine synthesis",
+    "C": [
+      0,
+      1,
+      -1
+    ],
+    "rms": [
+      0.999999999999999,
+      1.0,
+      0.9999999999999999
+    ],
+    "sampled_crest_factor": [
+      6.324555320336765,
+      1.76519929005836,
+      1.765199290058364
+    ],
+    "checks": [
+      "equal FFT amplitudes",
+      "RMS unity",
+      "circular time reversal"
+    ],
+    "source_ids": [
+      "schroeder-phase-1970",
+      "schroeder-green-2013"
+    ]
+  },
+  {
+    "name": "quadratic-residue",
+    "p": 7,
+    "design_frequency_hz": 1000,
+    "sound_speed_m_s": 343,
+    "residues": [
+      0,
+      1,
+      4,
+      2,
+      2,
+      4,
+      1
+    ],
+    "depth_cm": [
+      0.0,
+      2.45,
+      9.8,
+      4.9,
+      4.9,
+      9.8,
+      2.45
+    ],
+    "checks": [
+      "residue sequence",
+      "depth mapping",
+      "DFT Gauss magnitudes equal sqrt(p)"
+    ],
+    "limits": "Normal-incidence ideal relation; not a performance or manufacturing prediction",
+    "source_ids": [
+      "schroeder-diffusers-1979"
+    ]
+  }
+]

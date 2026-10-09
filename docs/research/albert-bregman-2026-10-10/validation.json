@@ -1,0 +1,130 @@
+{
+  "completed_at": "2026-10-10",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "albert-bregman",
+    "knowledge_area": "perception",
+    "kind": "person",
+    "chinese_characters": 6659,
+    "body_characters": 12574,
+    "sections": 10,
+    "subsections": 22,
+    "reference_ids": [
+      "bregman-mcgill",
+      "bregman-education",
+      "bregman-career",
+      "bregman-history",
+      "auditory-scene-analysis-bregman",
+      "bregman-campbell-1971",
+      "bregman-cumulative-1978",
+      "bregman-duration-2000",
+      "bregman-pinker-1978",
+      "bregman-am-1985",
+      "bregman-continuity-1987",
+      "bregman-experience-2005",
+      "bregman-demos",
+      "auditory-scene-analysis-attention",
+      "auditory-scene-analysis-bistable",
+      "auditory-scene-analysis-coherence",
+      "auditory-scene-analysis-chatterjee",
+      "bregman-mcadams",
+      "bregman-honours"
+    ],
+    "wiki_links": [
+      "auditory-scene-analysis",
+      "harmonicity",
+      "temporal-envelope",
+      "timbre-perception",
+      "masking",
+      "auditory-attention",
+      "listening-effort",
+      "speech-intelligibility",
+      "cochlear-implant",
+      "hearing-aid",
+      "auditory-cortex",
+      "psychoacoustics",
+      "harvey-fletcher"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "105 files; zero errors, warnings or hints",
+    "source_content": "85 concepts, 454 relations, 4480 citations, 278 figures",
+    "build": "204 pages",
+    "verify": {
+      "pages": 204,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 15587,
+      "equations": 166,
+      "searchableConcepts": 85,
+      "wikiConcepts": 85,
+      "knowledgeAreas": 7,
+      "typedRelationships": 454,
+      "wikiCrossLinks": 845,
+      "chineseCharacters": 544688,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "Four original figures inspected as PNG and in browser; four new WAVs verified finite, PCM16, unclipped, timing and gap conditions; browser playback verified; actual desktop 1280 px and mobile 390 px without overflow; no listener data or copied archive recordings"
+  },
+  "browser_qa": {
+    "defaultWidth": 1280,
+    "desktopWidth": 1280,
+    "defaultOverflow": false,
+    "desktopOverflow": false,
+    "loadedImages": 4,
+    "brokenTargets": 0,
+    "referenceCount": 19,
+    "mobileCheck": {
+      "audioWidths": [
+        330.66668701171875,
+        330.66668701171875,
+        330.66668701171875,
+        330.66668701171875
+      ],
+      "overflow": false,
+      "requestedWidth": 390,
+      "width": 390
+    },
+    "audio": [
+      {
+        "src": "/n3-hearingpedia/audio/albert-bregman/six-tones-slow.wav",
+        "duration": 10.8,
+        "error": 0,
+        "playControlVerified": true
+      },
+      {
+        "src": "/n3-hearingpedia/audio/albert-bregman/six-tones-fast.wav",
+        "duration": 12,
+        "error": 0,
+        "playControlVerified": true
+      },
+      {
+        "src": "/n3-hearingpedia/audio/albert-bregman/continuity-silence.wav",
+        "duration": 3,
+        "error": 0,
+        "playControlVerified": true
+      },
+      {
+        "src": "/n3-hearingpedia/audio/albert-bregman/continuity-noise.wav",
+        "duration": 3,
+        "error": 0,
+        "playControlVerified": true
+      }
+    ],
+    "people": {
+      "matches": [
+        "研究人物深度词条Albert BregmanAlbert Bregman从磁带中的声音分组到听觉场景分析：介绍Albert Bregman的研究经历、声流实验、音色分组、连续性错觉及其对音乐和复杂环境聆听研究的影响。19 项参考来源↗"
+      ],
+      "title": "听觉研究人物 · n³ Hearingpedia"
+    },
+    "previewUrl": "http://127.0.0.1:4338/n3-hearingpedia/concepts/albert-bregman/",
+    "viewportOverrideReset": true
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "name": "01-reading",
+    "files": [
+      "01-reading.svg",
+      "01-reading.png"
+    ],
+    "data_type": "synthetic teaching signal; not a human recording",
+    "sample_rate_hz": 16000,
+    "parameters": {
+      "f0_hz": 140,
+      "envelope_centers_hz": [
+        700,
+        1800,
+        2800
+      ],
+      "noise_band_hz": [
+        3000,
+        6500
+      ],
+      "windows_ms": [
+        5,
+        30
+      ],
+      "window": "numpy.hanning (symmetric)",
+      "hop_ms": 1,
+      "nfft": 2048,
+      "display_range_db": 65,
+      "normalization": "each panel maximum; not an amplitude comparison"
+    },
+    "caption": "Figure 1: Same synthetic signal, two analysis windows. Envelope centers are prescribed, not fitted formants.",
+    "creator": "n³ Hearingpedia, AI-assisted original calculation",
+    "license": "CC BY 4.0",
+    "seed": 20261009
+  },
+  {
+    "name": "02-window-tradeoff",
+    "files": [
+      "02-window-tradeoff.svg",
+      "02-window-tradeoff.png"
+    ],
+    "data_type": "synthetic teaching signal; not a human recording",
+    "sample_rate_hz": 16000,
+    "parameters": {
+      "tones_hz": [
+        1000,
+        1040
+      ],
+      "pulse_centers_s": [
+        0.45,
+        0.48
+      ],
+      "pulse_sigma_s": 0.00015,
+      "windows_ms": [
+        20,
+        80
+      ],
+      "hop_ms": 1,
+      "nfft": 2048,
+      "display_range_db": 65
+    },
+    "caption": "Figure 2: Longer windows separate the two steady tones but spread the brief events in time.",
+    "creator": "n³ Hearingpedia, AI-assisted original calculation",
+    "license": "CC BY 4.0",
+    "seed": 20261009
+  },
+  {
+    "name": "03-zero-padding",
+    "files": [
+      "03-zero-padding.svg",
+      "03-zero-padding.png"
+    ],
+    "data_type": "synthetic teaching signal; not a human recording",
+    "sample_rate_hz": 16000,
+    "parameters": {
+      "tones_hz": [
+        1000,
+        1040
+      ],
+      "windows_ms": [
+        20,
+        20,
+        80
+      ],
+      "nfft": [
+        512,
+        4096,
+        4096
+      ],
+      "phase": "cosines centered on frame",
+      "display_range_db": 50
+    },
+    "caption": "Figure 3: Zero padding makes the same short-window spectrum denser; lengthening the data window resolves the tones.",
+    "creator": "n³ Hearingpedia, AI-assisted original calculation",
+    "license": "CC BY 4.0",
+    "seed": 20261009
+  },
+  {
+    "name": "04-display-range",
+    "files": [
+      "04-display-range.svg",
+      "04-display-range.png"
+    ],
+    "data_type": "synthetic teaching signal; not a human recording",
+    "sample_rate_hz": 16000,
+    "parameters": {
+      "tones_hz": [
+        1000,
+        2500
+      ],
+      "amplitudes": [
+        0.5,
+        0.0015
+      ],
+      "noise_rms": 0.0001,
+      "window_ms": 30,
+      "hop_ms": 1,
+      "nfft": 2048,
+      "display_range_db": [
+        40,
+        80
+      ],
+      "normalization": "shared maximum PSD",
+      "weak_to_strong_amplitude_db": -50.45757490560675
+    },
+    "caption": "Figure 4: A weak component can disappear because of display clipping, with no change to the signal.",
+    "creator": "n³ Hearingpedia, AI-assisted original calculation",
+    "license": "CC BY 4.0",
+    "seed": 20261009
+  },
+  {
+    "name": "05-historical-routes",
+    "files": [
+      "05-historical-routes.svg",
+      "05-historical-routes.png"
+    ],
+    "data_type": "synthetic teaching signal; not a human recording",
+    "sample_rate_hz": 16000,
+    "parameters": {
+      "type": "original functional diagram",
+      "sources": [
+        "US2403986A",
+        "US3021478A",
+        "Philip Rubin Pattern Playback operating principles"
+      ],
+      "scope": "conceptual functional routes, not a historical circuit reproduction"
+    },
+    "caption": "Figure 5: Comparison of early spectrographic analysis, modern STFT and optical pattern playback.",
+    "creator": "n³ Hearingpedia, AI-assisted original calculation",
+    "license": "CC BY 4.0",
+    "seed": 20261009
+  }
+]

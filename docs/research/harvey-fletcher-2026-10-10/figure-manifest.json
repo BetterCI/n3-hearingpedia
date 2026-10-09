@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-10",
+  "script": "scripts/generate-fletcher.py",
+  "listener_data": false,
+  "figures": [
+    "measurement-tasks",
+    "equal-loudness",
+    "masking-bandwidth",
+    "band-weighting"
+  ],
+  "iso_calculation": {
+    "source": "ISO 226:2023; repository previously verified table record; checked against retained CSV when present",
+    "phon_levels": [
+      20,
+      40,
+      60,
+      80
+    ],
+    "one_kHz_dBSPL": [
+      20.0,
+      40.0,
+      60.0,
+      80.0
+    ],
+    "parameter_rows": 29,
+    "not_1933_data": true
+  },
+  "masking_demo": {
+    "center_Hz": 1000,
+    "rectangular_width_Hz": 200,
+    "noise_bandwidth_Hz": [
+      20,
+      2000
+    ],
+    "normalization": "same admitted power at B=W",
+    "not_detection_thresholds": true
+  },
+  "weighted_demo": {
+    "weights": [
+      0.1,
+      0.2,
+      0.3,
+      0.25,
+      0.15
+    ],
+    "inputs": [
+      [
+        0.9,
+        0.8,
+        0.4,
+        0.3,
+        0.2
+      ],
+      [
+        0.5,
+        0.8,
+        0.8,
+        0.3,
+        0.2
+      ],
+      [
+        0.5,
+        0.8,
+        0.4,
+        0.3,
+        0.6
+      ]
+    ],
+    "scores": [
+      0.4750000000000001,
+      0.5549999999999999,
+      0.49500000000000005
+    ],
+    "means": [
+      0.52,
+      0.52,
+      0.52
+    ],
+    "not_standard_SII": true
+  },
+  "assertions": "passed"
+}

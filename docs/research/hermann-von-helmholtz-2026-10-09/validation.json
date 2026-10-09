@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-09",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "hermann-von-helmholtz",
+    "knowledge_area": "biology",
+    "kind": "person",
+    "chinese_characters": 6267,
+    "body_characters": 11741,
+    "sections": 9,
+    "subsections": 18,
+    "reference_ids": [
+      "helmholtz-gerlach-1969",
+      "helmholtz-association-history",
+      "helmholtz-tone-1895",
+      "helmholtz-kursell-2018",
+      "helmholtz-schmidgen-time",
+      "helmholtz-unsw-resonance",
+      "helmholtz-smithsonian-resonator",
+      "helmholtz-ptb-foundation",
+      "helmholtz-consonance-2010",
+      "robles-2001",
+      "timbre-caclin-2005",
+      "helmholtz-portrait-source",
+      "helmholtz-resonator-photo"
+    ],
+    "wiki_links": [
+      "psychoacoustics",
+      "timbre-perception",
+      "formant",
+      "cochlea",
+      "pitch-perception",
+      "harmonicity",
+      "spectrogram",
+      "georg-von-bekesy",
+      "tonotopy",
+      "outer-hair-cell",
+      "auditory-filter",
+      "otoacoustic-emissions",
+      "signal-detection-theory",
+      "frequency-resolution"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "100 files; zero errors, warnings or hints",
+    "source_content": "80 concepts, 414 relations, 4247 citations",
+    "build": "194 pages",
+    "verify": {
+      "pages": 194,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 14646,
+      "equations": 161,
+      "searchableConcepts": 80,
+      "wikiConcepts": 80,
+      "knowledgeAreas": 7,
+      "typedRelationships": 414,
+      "wikiCrossLinks": 786,
+      "chineseCharacters": 512517,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "RMS, recovered FFT harmonics, beat identity, four maxima and absent 4 Hz line passed"
+  },
+  "browser_qa": {
+    "brokenTargets": 0,
+    "loadedImages": 4,
+    "imagesWithAlt": 4,
+    "citationLinks": 36,
+    "captionCitationLinks": 4,
+    "displayFormulas": 3,
+    "formulaErrors": 0,
+    "literalMarkdownInCaptions": false,
+    "mobileOverflow": false,
+    "mobileClientWidth": 375,
+    "mobileTablesScroll": true,
+    "mobileLongFormulaScroll": true,
+    "captionCitationNavigation": "verified portrait source target",
+    "consoleErrors": 0,
+    "temporaryViewportReset": true
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "figures": [
+    {
+      "name": "voice-framework",
+      "width": 1280,
+      "height": 650,
+      "parameters": {
+        "linear_approximation": "S(f) ≈ G(f) H(f) R(f)",
+        "dynamic_model": "coupled vibration and flow, tract feedback",
+        "not_anatomy": true,
+        "not_model_simulation": true
+      },
+      "nature": "original functional or exact arithmetic teaching figure; not measured data"
+    },
+    {
+      "name": "formant-quantization",
+      "width": 1280,
+      "height": 650,
+      "parameters": {
+        "F2_range_Hz": [
+          800,
+          2400
+        ],
+        "bits": [
+          4,
+          6
+        ],
+        "reconstruction": "midpoint",
+        "boundary_rule": "lower inclusive, upper endpoint clipped to last cell",
+        "max_abs_error_Hz": [
+          50,
+          12.5
+        ],
+        "not_perceptual_thresholds": true
+      },
+      "nature": "original functional or exact arithmetic teaching figure; not measured data"
+    },
+    {
+      "name": "phase-time-scaling",
+      "width": 1280,
+      "height": 650,
+      "parameters": {
+        "sampling_rate_Hz": 16000,
+        "FFT_length": 1024,
+        "bin_index": 28,
+        "bin_center_Hz": 437.5,
+        "analysis_hop_samples": 256,
+        "synthesis_hop_samples": 512,
+        "input_frequency_Hz": 450.0,
+        "phase_residual_rad": 1.2566370614359172,
+        "estimate_Hz": 450.0,
+        "waveforms": "analytic sinusoids only",
+        "not_full_phase_vocoder": true
+      },
+      "nature": "original functional or exact arithmetic teaching figure; not measured data"
+    },
+    {
+      "name": "adpcm-loop",
+      "width": 1280,
+      "height": 650,
+      "parameters": {
+        "functional_overview_only": true,
+        "not_G726_implementation": true,
+        "synchronization": [
+          "same initialization",
+          "same reconstructed history",
+          "same arithmetic and adaptation",
+          "error-free indices"
+        ],
+        "arithmetic_example": {
+          "input": 0.7,
+          "prediction": 0.6,
+          "quantized_residual": 0.09,
+          "reconstruction": 0.69,
+          "error": 0.01
+        }
+      },
+      "nature": "original functional or exact arithmetic teaching figure; not measured data"
+    }
+  ],
+  "other_body_arithmetic": {
+    "array_delay_us": 58.30903790087463,
+    "array_delay_samples_16k": 0.932944606413994,
+    "raw_bitrate_8k_8bits": 64000,
+    "raw_bitrate_8k_4bits": 32000
+  }
+}

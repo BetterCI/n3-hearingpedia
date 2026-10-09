@@ -1,0 +1,113 @@
+{
+  "completed_at": "2026-10-10",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "bertrand-delgutte",
+    "knowledge_area": "perception",
+    "kind": "person",
+    "chinese_characters": 6652,
+    "body_characters": 12969,
+    "sections": 10,
+    "subsections": 22,
+    "reference_ids": [
+      "delgutte-hms",
+      "delgutte-obituary",
+      "delgutte-thesis",
+      "delgutte-award",
+      "delgutte-speech-II",
+      "delgutte-speech-IV",
+      "harmonicity-cariani",
+      "delgutte-pitch-II",
+      "smith-2002",
+      "delgutte-mit-chimaera",
+      "wen-dynamic-range-2009",
+      "delgutte-reverb-2015",
+      "delgutte-reverb-2023",
+      "delgutte-itd-2007",
+      "delgutte-itd-2008",
+      "delgutte-awake-2014",
+      "delgutte-sipi-neural",
+      "delgutte-sipi-human",
+      "delgutte-experience-2021"
+    ],
+    "wiki_links": [
+      "cochlear-implant",
+      "nelson-kiang",
+      "phonetics",
+      "spectrogram",
+      "hearing-aid",
+      "interaural-time-difference",
+      "binaural-hearing",
+      "spatial-hearing",
+      "auditory-plasticity",
+      "cochlear-synaptopathy",
+      "lloyd-jeffress",
+      "manfred-r-schroeder",
+      "jens-blauert",
+      "psychoacoustics",
+      "pitch-perception"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "107 files; zero errors, warnings or hints",
+    "source_content": "87 concepts, 473 relations, 4600 citations, 286 figures",
+    "build": "208 pages",
+    "verify": {
+      "pages": 208,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 15998,
+      "equations": 170,
+      "searchableConcepts": 87,
+      "wikiConcepts": 87,
+      "knowledgeAreas": 7,
+      "typedRelationships": 473,
+      "wikiCrossLinks": 867,
+      "chineseCharacters": 557292,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "Four original figures inspected as PNG and in browser; desktop 1280 px and mobile 390 px without overflow; table scrolls locally; two calculations rendered; no neuronal or listener data copied."
+  },
+  "browser_qa": {
+    "brokenTargets": 0,
+    "defaultOverflow": false,
+    "defaultWidth": 1280,
+    "katexErrors": 0,
+    "rawCaptionMath": false,
+    "referenceCount": 19,
+    "loadedImages": 4,
+    "desktopWidth": 1280,
+    "desktopOverflow": false,
+    "mobileCheck": {
+      "figures": [
+        331,
+        331,
+        331,
+        331
+      ],
+      "katexErrors": 0,
+      "overflow": false,
+      "tables": [
+        {
+          "client": 331,
+          "overflowX": "auto",
+          "scroll": 390
+        }
+      ],
+      "width": 390
+    },
+    "people": {
+      "matches": [
+        "研究人物深度词条Bertrand DelgutteBertrand Delgutte连接听觉神经编码与知觉：介绍Bertrand Delgutte的学术经历、言语与音高编码、声学嵌合体、混响及声级适应研究，并重点解释双侧人工耳蜗时序编码和早期听觉经验的证据。19 项参考来源↗"
+      ],
+      "title": "听觉研究人物 · n³ Hearingpedia"
+    }
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

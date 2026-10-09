@@ -1,0 +1,117 @@
+[
+  {
+    "name": "evidence-framework",
+    "width": 1280,
+    "height": 650,
+    "parameters": {
+      "columns": [
+        "controlled input",
+        "neural measures",
+        "perception and validation"
+      ],
+      "not_anatomy": true
+    },
+    "nature": "original functional or arithmetic teaching figure; not measured neural or perceptual data"
+  },
+  {
+    "name": "interval-statistics",
+    "width": 1280,
+    "height": 650,
+    "parameters": {
+      "spike_times_ms": [
+        0,
+        4,
+        8,
+        16
+      ],
+      "first_order_ms": [
+        4,
+        4,
+        8
+      ],
+      "all_order_ms": [
+        4,
+        8,
+        16,
+        4,
+        12,
+        8
+      ],
+      "candidate_period_ms": 4,
+      "candidate_hz": 250
+    },
+    "nature": "original functional or arithmetic teaching figure; not measured neural or perceptual data"
+  },
+  {
+    "name": "reverberation-controls",
+    "width": 1280,
+    "height": 650,
+    "parameters": {
+      "depth_symbols": [
+        "m0",
+        "mR"
+      ],
+      "matched_property": "modulation depth at ear",
+      "recording": "inferior colliculus; no response values plotted"
+    },
+    "nature": "original functional or arithmetic teaching figure; not measured neural or perceptual data"
+  },
+  {
+    "name": "pulse-timing",
+    "width": 1280,
+    "height": 650,
+    "parameters": {
+      "window_ms": [
+        0,
+        8
+      ],
+      "base_times_ms": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "added_times_ms": [
+        2.1,
+        6.1
+      ],
+      "sipi_times_ms": [
+        0.0,
+        1.0,
+        2.0,
+        2.1,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        6.1,
+        7.0
+      ],
+      "matched_rate_times_ms": [
+        0.0,
+        0.8,
+        1.6,
+        2.4000000000000004,
+        3.2,
+        4.0,
+        4.800000000000001,
+        5.6000000000000005,
+        6.4,
+        7.2
+      ],
+      "rates_pps": [
+        1000,
+        1250,
+        1250
+      ],
+      "itd_us": 100,
+      "convention": "tR-tL; positive means left first",
+      "not_original_paper_protocol": true
+    },
+    "nature": "original functional or arithmetic teaching figure; not measured neural or perceptual data"
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-09",
+  "example_type": "explicitly constructed teaching counts, not experimental data",
+  "figure_generation": "passed",
+  "assertions": "analytic d-prime recovery, task conversion, worked example relationships",
+  "counts": {
+    "A": {
+      "hits": 181,
+      "misses": 19,
+      "false_alarms": 84,
+      "correct_rejections": 116,
+      "signal_trials": 200,
+      "noise_trials": 200,
+      "H": 0.905,
+      "F": 0.42,
+      "d_prime_uncorrected": 1.5124725913099795,
+      "c_uncorrected": -0.5543428165131388,
+      "correct_fraction": 0.7425,
+      "d_prime_loglinear": 1.4996250531078315
+    },
+    "B": {
+      "hits": 124,
+      "misses": 76,
+      "false_alarms": 23,
+      "correct_rejections": 177,
+      "signal_trials": 200,
+      "noise_trials": 200,
+      "H": 0.62,
+      "F": 0.115,
+      "d_prime_uncorrected": 1.5058396461302563,
+      "c_uncorrected": 0.44743903496573084,
+      "correct_fraction": 0.7525,
+      "d_prime_loglinear": 1.4944617740577422
+    },
+    "C": {
+      "hits": 166,
+      "misses": 34,
+      "false_alarms": 23,
+      "correct_rejections": 177,
+      "signal_trials": 200,
+      "noise_trials": 200,
+      "H": 0.83,
+      "F": 0.115,
+      "d_prime_uncorrected": 2.1545241111770532,
+      "c_uncorrected": 0.1230968024423324,
+      "correct_fraction": 0.8575,
+      "d_prime_loglinear": 2.138245873426163
+    }
+  },
+  "equal_variance_points": [
+    {
+      "criterion_k": 0.2,
+      "hit_rate": 0.9031995154143897,
+      "false_alarm_rate": 0.42074029056089696,
+      "d_prime": 1.5000000000000004,
+      "c": -0.55
+    },
+    {
+      "criterion_k": 1.2,
+      "hit_rate": 0.6179114221889527,
+      "false_alarm_rate": 0.11506967022170822,
+      "d_prime": 1.5000000000000004,
+      "c": 0.4500000000000002
+    }
+  ],
+  "unequal_variance_points": [
+    {
+      "criterion_k": -0.5,
+      "hit_rate": 0.9234362744901652,
+      "false_alarm_rate": 0.6914624612740131,
+      "d_prime": 0.9285714285714278,
+      "c": -0.964285714285714
+    },
+    {
+      "criterion_k": 0.75,
+      "hit_rate": 0.7039219855455385,
+      "false_alarm_rate": 0.2266273523768682,
+      "d_prime": 1.2857142857142858,
+      "c": 0.1071428571428571
+    },
+    {
+      "criterion_k": 2.0,
+      "hit_rate": 0.3604924309508354,
+      "false_alarm_rate": 0.0227501319481792,
+      "d_prime": 1.6428571428571432,
+      "c": 1.1785714285714288
+    }
+  ],
+  "normalization": "noise mean zero and noise standard deviation one; d-prime has no physical unit",
+  "software": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0"
+  },
+  "figures": [
+    {
+      "name": "01-evidence-and-criterion",
+      "files": [
+        "01-evidence-and-criterion.svg",
+        "01-evidence-and-criterion.png"
+      ],
+      "parameters": {
+        "noise_mean": 0,
+        "signal_mean": 1.5,
+        "common_sd": 1,
+        "points": [
+          {
+            "criterion_k": 0.2,
+            "hit_rate": 0.9031995154143897,
+            "false_alarm_rate": 0.42074029056089696,
+            "d_prime": 1.5000000000000004,
+            "c": -0.55
+          },
+          {
+            "criterion_k": 1.2,
+            "hit_rate": 0.6179114221889527,
+            "false_alarm_rate": 0.11506967022170822,
+            "d_prime": 1.5000000000000004,
+            "c": 0.4500000000000002
+          }
+        ],
+        "shading": "evidence above upper criterion for each distribution"
+      },
+      "data_type": "original analytic teaching model; no measured human data",
+      "creator": "n³ Hearingpedia, AI-assisted calculation",
+      "license": "CC BY 4.0"
+    },
+    {
+      "name": "02-roc",
+      "files": [
+        "02-roc.svg",
+        "02-roc.png"
+      ],
+      "parameters": {
+        "equal_variance_gaussian": true,
+        "d_prime_values": [
+          0.75,
+          1.5,
+          2.25
+        ],
+        "points": [
+          {
+            "criterion_k": 0.2,
+            "hit_rate": 0.9031995154143897,
+            "false_alarm_rate": 0.42074029056089696,
+            "d_prime": 1.5000000000000004,
+            "c": -0.55
+          },
+          {
+            "criterion_k": 1.2,
+            "hit_rate": 0.6179114221889527,
+            "false_alarm_rate": 0.11506967022170822,
+            "d_prime": 1.5000000000000004,
+            "c": 0.4500000000000002
+          }
+        ]
+      },
+      "data_type": "original analytic teaching model; no measured human data",
+      "creator": "n³ Hearingpedia, AI-assisted calculation",
+      "license": "CC BY 4.0"
+    },
+    {
+      "name": "03-task-conversion",
+      "files": [
+        "03-task-conversion.svg",
+        "03-task-conversion.png"
+      ],
+      "parameters": {
+        "single_interval_sd": 1,
+        "difference_variance": 2,
+        "example_d_prime": 1.5,
+        "pc75_d_prime_2ifc": 0.9538725524089398,
+        "pc75_d_prime_yes_no": 1.3489795003921634,
+        "assumptions": "independent equal-variance normal evidence; no interval bias; yes/no equal priors and symmetric costs with midpoint criterion"
+      },
+      "data_type": "original analytic teaching model; no measured human data",
+      "creator": "n³ Hearingpedia, AI-assisted calculation",
+      "license": "CC BY 4.0"
+    },
+    {
+      "name": "04-unequal-variance",
+      "files": [
+        "04-unequal-variance.svg",
+        "04-unequal-variance.png"
+      ],
+      "parameters": {
+        "noise_mean": 0,
+        "noise_sd": 1,
+        "signal_mean": 1.5,
+        "signal_sd": 1.4,
+        "upper_criterion_rule": true,
+        "points": [
+          {
+            "criterion_k": -0.5,
+            "hit_rate": 0.9234362744901652,
+            "false_alarm_rate": 0.6914624612740131,
+            "d_prime": 0.9285714285714278,
+            "c": -0.964285714285714
+          },
+          {
+            "criterion_k": 0.75,
+            "hit_rate": 0.7039219855455385,
+            "false_alarm_rate": 0.2266273523768682,
+            "d_prime": 1.2857142857142858,
+            "c": 0.1071428571428571
+          },
+          {
+            "criterion_k": 2.0,
+            "hit_rate": 0.3604924309508354,
+            "false_alarm_rate": 0.0227501319481792,
+            "d_prime": 1.6428571428571432,
+            "c": 1.1785714285714288
+          }
+        ],
+        "zroc_slope": 0.7142857142857143,
+        "da": 1.2329924047901797
+      },
+      "data_type": "original analytic teaching model; no measured human data",
+      "creator": "n³ Hearingpedia, AI-assisted calculation",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

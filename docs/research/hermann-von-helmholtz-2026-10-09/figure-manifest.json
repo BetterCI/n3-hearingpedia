@@ -1,0 +1,80 @@
+[
+  {
+    "name": "harmonics",
+    "nature": "原创正弦合成教学图",
+    "fs_hz": 48000,
+    "f0_hz": 200,
+    "raw_amplitudes": [
+      [
+        1.0,
+        0.45,
+        0.22,
+        0.12,
+        0.07,
+        0.04
+      ],
+      [
+        0.45,
+        0.8,
+        1.0,
+        0.8,
+        0.5,
+        0.25
+      ]
+    ],
+    "normalized_amplitudes": [
+      [
+        1.2540232470476258,
+        0.5643104611714316,
+        0.2758851143504777,
+        0.15048278964571507,
+        0.0877816272933338,
+        0.05016092988190503
+      ],
+      [
+        0.3806594409940322,
+        0.6767278951005017,
+        0.8459098688756271,
+        0.6767278951005017,
+        0.42295493443781357,
+        0.21147746721890678
+      ]
+    ],
+    "phases_rad": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rms": 1,
+    "checks": [
+      "RMS verified",
+      "FFT amplitude recovered"
+    ],
+    "limits": "Not equal perceived loudness; not instrument or listener data",
+    "source": "helmholtz-tone-1895"
+  },
+  {
+    "name": "beats",
+    "nature": "原创线性叠加教学图",
+    "fs_hz": 48000,
+    "frequencies_hz": [
+      440,
+      444
+    ],
+    "amplitudes": [
+      1,
+      1
+    ],
+    "beat_rate_hz": 4,
+    "envelope": "2*abs(cos(pi*4*t))",
+    "checks": [
+      "trigonometric identity",
+      "four peaks in half-open one-second interval",
+      "FFT no 4 Hz component"
+    ],
+    "source": "helmholtz-tone-1895"
+  }
+]

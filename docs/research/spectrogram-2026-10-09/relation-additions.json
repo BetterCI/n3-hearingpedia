@@ -1,0 +1,11 @@
+[
+  "  link('spectrogram','fundamental-frequency','related','周期段的谐波间距可提示基频，但最亮谱峰不等于基频。',3),",
+  "  link('spectrogram','formant','related','区分谐波细线与谱包络增强带，共振峰估计需要额外核查。',3),",
+  "  link('spectrogram','harmonicity','related','足够合适的窗长与刻度可观察周期谐波结构。',3),",
+  "  link('phonetics','spectrogram','related','语音学通过局部时频表征观察周期性、摩擦、释放与过渡。',3),",
+  "  link('spectrogram','frequency-resolution','related','分析窗的频率分离能力与听者行为分辨能力分别评价。',3),",
+  "  link('spectrogram','dynamic-range','related','颜色显示范围需要与听觉及设备动态范围区分。',2),",
+  "  link('vocoder','spectrogram','related','核查处理前后时频结构，图像相似不能替代行为评价。',2),",
+  "  link('spectrogram','temporal-fine-structure','related','功率时频图不直接显示完整相位与时域精细关系。',2),",
+  "  link('zhao-yuanren','spectrogram','researches','史密森尼目录保存了1944—1945年的汉语录音、研究报告及声谱图版。',2),"
+]

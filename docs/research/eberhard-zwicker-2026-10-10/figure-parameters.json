@@ -1,0 +1,62 @@
+{
+  "generator": "scripts/generate-zwicker.py",
+  "not_empirical_data": true,
+  "bandwidth_controls": {
+    "center_hz": 1500,
+    "widths_hz": [
+      100,
+      1000
+    ],
+    "fixed_total_db_spl": 60,
+    "fixed_spectrum_level_db": 40,
+    "reference_pressure_pa": 2e-05,
+    "rectangular_flat_band_assumption": true
+  },
+  "bark_bandwidth": {
+    "formula_source_doi": "10.1121/1.385079",
+    "formula_checked_in": "Völk 2015 equations 1 and 9",
+    "plotted_hz": [
+      100,
+      15500
+    ],
+    "examples": [
+      {
+        "frequency_hz": 1000,
+        "bark": 8.510531510721993,
+        "cbw_hz": 162.21671568515828
+      },
+      {
+        "frequency_hz": 4000,
+        "bark": 17.258916587789276,
+        "cbw_hz": 685.419981973095
+      }
+    ]
+  },
+  "specific_loudness": {
+    "profiles": [
+      {
+        "z_start": 7,
+        "z_end": 9,
+        "sone_per_bark": 1
+      },
+      {
+        "z_start": 4,
+        "z_end": 12,
+        "sone_per_bark": 0.25
+      }
+    ],
+    "total_sone": [
+      2,
+      2
+    ],
+    "no_iso_model_run": true
+  },
+  "afterimage": {
+    "ideal_notch_hz": [
+      2000,
+      3000
+    ],
+    "time_axis": "qualitative sequence only",
+    "perceptual_report_not_physical_signal": true
+  }
+}

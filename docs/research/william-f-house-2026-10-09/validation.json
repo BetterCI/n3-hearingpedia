@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-09",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "william-f-house",
+    "knowledge_area": "biology",
+    "kind": "person",
+    "chinese_characters": 5649,
+    "body_characters": 10785,
+    "sections": 9,
+    "subsections": 16,
+    "reference_ids": [
+      "house-goins-2024",
+      "house-mudry-mills-2013",
+      "house-zeng-interview-2012",
+      "house-urban-1973",
+      "house-bilger-performance-1977",
+      "house-bilger-acceptance-1977",
+      "house-eisenberg-1982",
+      "house-fda-p830069",
+      "house-middle-fossa-1961",
+      "house-hitselberger-1984",
+      "house-smaka-interview-2011",
+      "house-beck-interview-2000",
+      "house-wackym-2012",
+      "house-shannon-2015",
+      "house-portrait-source",
+      "wilson-1991",
+      "zeng-2008"
+    ],
+    "wiki_links": [
+      "cochlear-implant",
+      "cochlear-implant-sound-perception",
+      "speech-audiometry",
+      "audiology",
+      "cochlear-implant-coding-strategies",
+      "channel-interaction",
+      "speech-intelligibility",
+      "auditory-plasticity",
+      "auditory-pathway"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "101 files; zero errors, warnings or hints",
+    "source_content": "81 concepts, 422 relations, 4297 citations",
+    "build": "196 pages",
+    "verify": {
+      "pages": 196,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 14826,
+      "equations": 161,
+      "searchableConcepts": 81,
+      "wikiConcepts": 81,
+      "knowledgeAreas": 7,
+      "typedRelationships": 422,
+      "wikiCrossLinks": 795,
+      "chineseCharacters": 518166,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "Two original functional diagrams inspected; portrait original dimensions and CC BY-SA 3.0 verified; no empirical curves"
+  },
+  "browser_qa": {
+    "brokenTargets": 0,
+    "captionCitationLinks": 6,
+    "citationLinks": 50,
+    "desktopClientWidth": 1405,
+    "desktopOverflow": false,
+    "imagesWithAlt": 3,
+    "literalMarkdownInCaptions": false,
+    "loadedImages": 3,
+    "mobileOverflow": false,
+    "mobileClientWidth": 416,
+    "mobileTablesScroll": true,
+    "temporaryViewportReset": true,
+    "initialViewportLoadedImages": 1,
+    "imageCheck": "All three loaded during page traversal; a fresh overview reload uses lazy loading."
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

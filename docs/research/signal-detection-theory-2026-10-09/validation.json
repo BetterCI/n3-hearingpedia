@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-09",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "signal-detection-theory",
+    "knowledge_area": "methods",
+    "kind": "model",
+    "chinese_characters": 7848,
+    "body_characters": 16265,
+    "sections": 10,
+    "subsections": 24,
+    "reference_ids": [
+      "psychoacoustics-stanislaw-1999",
+      "sdt-wixted-2020",
+      "sdt-peterson-1953",
+      "sdt-tanner-1954",
+      "sdt-green-swets-1966",
+      "sdt-hautus-1995",
+      "levitt-1971",
+      "wichmann-2001",
+      "sdt-leibold-buss-2020",
+      "sdt-greenberg-larkin-1968",
+      "sdt-dai-micheyl-2010",
+      "sdt-jones-2013",
+      "sdt-hasan-2012",
+      "psychoacoustics-schuett-2016",
+      "sdt-scipy-norm",
+      "sdt-hautus-book",
+      "sdt-sumner-2020",
+      "sdt-miyoshi-2026"
+    ],
+    "wiki_links": [
+      "psychoacoustics",
+      "masking",
+      "speech-intelligibility",
+      "frequency-resolution",
+      "auditory-filter",
+      "auditory-attention",
+      "speech-audiometry",
+      "confusion-matrix",
+      "audiometric-calibration",
+      "auditory-plasticity"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "passed; 99 files, zero errors/warnings/hints",
+    "source_content": "passed; 79 concepts, 406 relations, 4211 citations",
+    "build": "passed; 192 pages",
+    "verify": {
+      "checkedInternalLinks": 14470,
+      "brokenLinks": 0,
+      "equations": 158,
+      "searchableConcepts": 79,
+      "typedRelationships": 406
+    },
+    "git_diff_check": "passed",
+    "figure_calculations": "passed; analytic d-prime recovery, task conversions, finite-count example"
+  },
+  "browser_qa": {
+    "requested_desktop_width": 1280,
+    "requested_mobile_width": 390,
+    "observed_narrow_document_width": 416,
+    "loaded_images": 4,
+    "images_with_alt": 4,
+    "display_formulas": 2,
+    "citation_links": 82,
+    "caption_citation_links": 6,
+    "broken_citation_targets": 0,
+    "literal_markdown_in_captions": false,
+    "first_caption_citation_navigation": "passed; target Stanislaw and Todorov (1999)",
+    "page_horizontal_overflow": false,
+    "mobile_tables": [
+      {
+        "client_width": 372,
+        "scroll_width": 390,
+        "overflow_x": "auto"
+      },
+      {
+        "client_width": 372,
+        "scroll_width": 1170,
+        "overflow_x": "auto"
+      },
+      {
+        "client_width": 372,
+        "scroll_width": 390,
+        "overflow_x": "auto"
+      }
+    ],
+    "console_errors": 0,
+    "temporary_viewport_reset": true
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

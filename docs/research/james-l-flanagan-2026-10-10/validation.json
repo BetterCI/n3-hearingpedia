@@ -1,0 +1,154 @@
+{
+  "completed_at": "2026-10-10",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "james-l-flanagan",
+    "knowledge_area": "sound",
+    "kind": "person",
+    "chinese_characters": 6782,
+    "body_characters": 13226,
+    "sections": 10,
+    "subsections": 14,
+    "reference_ids": [
+      "flanagan-nae",
+      "flanagan-nas",
+      "flanagan-sps",
+      "flanagan-spectrum",
+      "flanagan-marconi",
+      "flanagan-medal",
+      "flanagan-book",
+      "flanagan-formant",
+      "flanagan-two-mass",
+      "flanagan-phase",
+      "flanagan-ellis",
+      "flanagan-laroche",
+      "flanagan-adpcm",
+      "flanagan-g726",
+      "flanagan-array",
+      "flanagan-hawks",
+      "flanagan-karlsson",
+      "flanagan-librosa",
+      "flanagan-voice-review"
+    ],
+    "wiki_links": [
+      "phonetics",
+      "spectrogram",
+      "psychoacoustics",
+      "speech-intelligibility",
+      "formant",
+      "frequency-resolution",
+      "signal-detection-theory",
+      "speech-redundancy",
+      "room-acoustics",
+      "hearing-aid",
+      "speech-audiometry",
+      "harvey-fletcher",
+      "manfred-r-schroeder",
+      "bertrand-delgutte"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "108 files; zero errors, warnings or hints",
+    "source_content": "88 concepts, 483 relations, 4650 citations, 290 figures",
+    "build": "210 pages",
+    "verify": {
+      "pages": 210,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 16193,
+      "equations": 177,
+      "searchableConcepts": 88,
+      "wikiConcepts": 88,
+      "knowledgeAreas": 7,
+      "typedRelationships": 483,
+      "wikiCrossLinks": 881,
+      "chineseCharacters": 564074,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "Four original PNGs and browser SVGs inspected; seven display equations rendered; final desktop 1280 px and mobile 390 px without document overflow; both tables scroll locally; no full speech codec or physiological simulation claimed."
+  },
+  "browser_qa": {
+    "brokenTargets": 0,
+    "displayEquations": 7,
+    "katexErrors": 0,
+    "overflow": false,
+    "referenceCount": 19,
+    "width": 1280,
+    "defaultWidth": 1280,
+    "defaultOverflow": false,
+    "desktopWidth": 1280,
+    "desktopOverflow": false,
+    "loadedImages": 4,
+    "figureInspection": "Four original PNG/SVG assets inspected before final citation-text and equation line-break rebuild; assets unchanged.",
+    "mobileCheck": {
+      "displayEquations": 7,
+      "documentWidth": 375,
+      "equations": [
+        {
+          "overflow": "auto",
+          "scrollWidth": 329,
+          "width": 329
+        },
+        {
+          "overflow": "auto",
+          "scrollWidth": 329,
+          "width": 329
+        },
+        {
+          "overflow": "auto",
+          "scrollWidth": 329,
+          "width": 329
+        },
+        {
+          "overflow": "auto",
+          "scrollWidth": 329,
+          "width": 329
+        },
+        {
+          "overflow": "auto",
+          "scrollWidth": 329,
+          "width": 329
+        },
+        {
+          "overflow": "auto",
+          "scrollWidth": 329,
+          "width": 329
+        },
+        {
+          "overflow": "auto",
+          "scrollWidth": 329,
+          "width": 329
+        }
+      ],
+      "katexErrors": 0,
+      "overflow": false,
+      "referenceCount": 19,
+      "tables": [
+        {
+          "clientWidth": 331,
+          "overflowX": "auto",
+          "scrollWidth": 390
+        },
+        {
+          "clientWidth": 331,
+          "overflowX": "auto",
+          "scrollWidth": 390
+        }
+      ],
+      "width": 390
+    },
+    "people": {
+      "matches": [
+        "研究人物深度词条James L. FlanaganJames Loton Flanagan从发声机制与共振峰辨别，到相位声码器、ADPCM和空间选择性拾音：梳理James L. Flanagan如何把语音生成、听觉感知与数字通信连接起来。19 项参考来源↗"
+      ],
+      "overflow": false
+    }
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

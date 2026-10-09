@@ -1,0 +1,107 @@
+{
+  "research_started": "2026-10-09",
+  "completed_at": "2026-10-10",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "manfred-r-schroeder",
+    "knowledge_area": "sound",
+    "kind": "person",
+    "chinese_characters": 5986,
+    "body_characters": 11998,
+    "sections": 9,
+    "subsections": 23,
+    "reference_ids": [
+      "schroeder-nae",
+      "schroeder-oral",
+      "schroeder-frequency-1996",
+      "room-acoustics-lecture",
+      "room-acoustics-schroeder",
+      "room-acoustics-rew-rt",
+      "schroeder-phase-1970",
+      "schroeder-smith-1986",
+      "schroeder-kohlrausch-1995",
+      "schroeder-summers-1998",
+      "schroeder-wojtczak-2009",
+      "schroeder-green-2013",
+      "schroeder-halls-1974",
+      "schroeder-diffusers-1979",
+      "schroeder-celp-1985",
+      "schroeder-computer-speech",
+      "schroeder-number-theory",
+      "schroeder-zkm",
+      "schroeder-portrait"
+    ],
+    "wiki_links": [
+      "room-acoustics",
+      "psychoacoustics",
+      "auditory-filter",
+      "speech-intelligibility",
+      "masking",
+      "temporal-envelope",
+      "temporal-fine-structure",
+      "spatial-hearing",
+      "binaural-hearing",
+      "formant",
+      "harmonicity",
+      "vocoder",
+      "cochlear-implant-coding-strategies",
+      "spectrogram"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "102 files; zero errors, warnings or hints",
+    "source_content": "82 concepts, 430 relations, 4346 citations, 267 figures",
+    "build": "198 pages",
+    "verify": {
+      "pages": 198,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 15022,
+      "equations": 163,
+      "searchableConcepts": 82,
+      "wikiConcepts": 82,
+      "knowledgeAreas": 7,
+      "typedRelationships": 430,
+      "wikiCrossLinks": 809,
+      "chineseCharacters": 524152,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "3 original numeric plots inspected; assertions in generating script passed; portrait original file and CC BY 3.0 verified"
+  },
+  "browser_qa": {
+    "brokenTargets": 0,
+    "desktopOverflow": false,
+    "desktopWidth": 1265,
+    "displayEquations": 2,
+    "figures": 4,
+    "imageStatus": [
+      {
+        "loaded": true,
+        "src": "/n3-hearingpedia/people/manfred-r-schroeder/portrait.jpg"
+      },
+      {
+        "loaded": false,
+        "src": "/n3-hearingpedia/figures/manfred-r-schroeder/energy-decay.svg"
+      },
+      {
+        "loaded": false,
+        "src": "/n3-hearingpedia/figures/manfred-r-schroeder/harmonic-phase.svg"
+      },
+      {
+        "loaded": false,
+        "src": "/n3-hearingpedia/figures/manfred-r-schroeder/quadratic-residue.svg"
+      }
+    ],
+    "title": "Manfred R. Schroeder",
+    "loadedImages": 4,
+    "mobileWidth": 416,
+    "mobileOverflow": false
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

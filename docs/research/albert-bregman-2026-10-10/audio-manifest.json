@@ -1,0 +1,120 @@
+[
+  {
+    "file": "public/audio/albert-bregman/six-tones-slow.wav",
+    "sha256": "49fdae4029b455b17d9d56f0f6ac84c6e0a59e41f86090eb4880da73ba67d5fe",
+    "sample_rate_hz": 44100,
+    "channels": 1,
+    "pcm_bits": 16,
+    "duration_s": 10.8,
+    "peak_abs": 0.1999987312907219,
+    "rms": 0.1399452486253464,
+    "clipped_samples": 0,
+    "parameters": {
+      "hz": [
+        900,
+        300,
+        1100,
+        350,
+        1300,
+        400
+      ],
+      "duration_s": 0.3,
+      "SOA_s": 0.3,
+      "cycles": 6,
+      "tone_peak": 0.2,
+      "ramp_s": 0.005,
+      "equal_loudness_matched": false
+    },
+    "nature": "new synthesized teaching sound; no hearing test or calibrated SPL; no original archive recording reused"
+  },
+  {
+    "file": "public/audio/albert-bregman/six-tones-fast.wav",
+    "sha256": "89a7b763b0e21f7cb0e2817aa88684f0e3a84f5f7541b259c3b6647f45a6082b",
+    "sample_rate_hz": 44100,
+    "channels": 1,
+    "pcm_bits": 16,
+    "duration_s": 12.0,
+    "peak_abs": 0.19999873129072177,
+    "rms": 0.13694530966203275,
+    "clipped_samples": 0,
+    "parameters": {
+      "hz": [
+        900,
+        300,
+        1100,
+        350,
+        1300,
+        400
+      ],
+      "duration_s": 0.1,
+      "SOA_s": 0.1,
+      "cycles": 20,
+      "tone_peak": 0.2,
+      "ramp_s": 0.005,
+      "equal_loudness_matched": false
+    },
+    "nature": "new synthesized teaching sound; no hearing test or calibrated SPL; no original archive recording reused"
+  },
+  {
+    "file": "public/audio/albert-bregman/continuity-silence.wav",
+    "sha256": "cbb890f1cdddcbc6e3cbe0fa1d8b17a43b380f0b0ecc085b0eaab7a5d2401969",
+    "sample_rate_hz": 44100,
+    "channels": 1,
+    "pcm_bits": 16,
+    "duration_s": 3.0,
+    "peak_abs": 0.07997513456007183,
+    "rms": 0.047046987104812144,
+    "clipped_samples": 0,
+    "parameters": {
+      "target_hz": 700,
+      "target_peak": 0.08,
+      "unit_s": 1,
+      "repetitions": 3,
+      "gap_s": [
+        0.35,
+        0.65
+      ],
+      "ramp_s": 0.005,
+      "noise_seed": 20261010,
+      "noise_rms_per_windowed_gap": [
+        0.12,
+        0.12000000000000001,
+        0.11999999999999998
+      ],
+      "masking_threshold_calibrated": false,
+      "gap_filling": "silence"
+    },
+    "nature": "new synthesized teaching sound; no hearing test or calibrated SPL; no original archive recording reused"
+  },
+  {
+    "file": "public/audio/albert-bregman/continuity-noise.wav",
+    "sha256": "e1bc060ef2d96f236ac568b17a9ec36858eb134a5c33a56a1e97768be7f44809",
+    "sample_rate_hz": 44100,
+    "channels": 1,
+    "pcm_bits": 16,
+    "duration_s": 3.0,
+    "peak_abs": 0.4926082445827903,
+    "rms": 0.08082956758291089,
+    "clipped_samples": 0,
+    "parameters": {
+      "target_hz": 700,
+      "target_peak": 0.08,
+      "unit_s": 1,
+      "repetitions": 3,
+      "gap_s": [
+        0.35,
+        0.65
+      ],
+      "ramp_s": 0.005,
+      "noise_seed": 20261010,
+      "noise_rms_per_windowed_gap": [
+        0.12,
+        0.12000000000000001,
+        0.11999999999999998
+      ],
+      "masking_threshold_calibrated": false,
+      "gap_filling": "new white noise"
+    },
+    "nature": "new synthesized teaching sound; no hearing test or calibrated SPL; no original archive recording reused"
+  }
+]

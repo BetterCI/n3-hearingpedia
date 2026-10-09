@@ -1,0 +1,90 @@
+{
+  "completed_at": "2026-10-10",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "lloyd-jeffress",
+    "knowledge_area": "perception",
+    "kind": "person",
+    "chinese_characters": 5952,
+    "body_characters": 12202,
+    "sections": 10,
+    "subsections": 21,
+    "reference_ids": [
+      "jeffress-ut",
+      "jeffress-memorial",
+      "jeffress-pauling",
+      "jeffress-asa",
+      "binaural-hearing-jeffress",
+      "jeffress-masking-1952",
+      "jeffress-detection-1964",
+      "jeffress-models-1968",
+      "jeffress-carr-konishi-1990",
+      "mcalpine-2001",
+      "jeffress-brand-2002",
+      "jeffress-franken-2015",
+      "binaural-hearing-grothe",
+      "jeffress-ihlefeld-2019",
+      "amt-lindemann1986"
+    ],
+    "wiki_links": [
+      "interaural-time-difference",
+      "binaural-hearing",
+      "signal-detection-theory",
+      "jens-blauert",
+      "cochlear-implant",
+      "psychoacoustics",
+      "auditory-pathway"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "106 files; zero errors, warnings or hints",
+    "source_content": "86 concepts, 463 relations, 4538 citations, 282 figures",
+    "build": "206 pages",
+    "verify": {
+      "pages": 206,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 15786,
+      "equations": 168,
+      "searchableConcepts": 86,
+      "wikiConcepts": 86,
+      "knowledgeAreas": 7,
+      "typedRelationships": 463,
+      "wikiCrossLinks": 852,
+      "chineseCharacters": 550640,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "Four original figures inspected as PNG and in browser; desktop 1280 px and mobile 390 px without overflow; table and equations rendered; no listener or neuronal data copied."
+  },
+  "browser_qa": {
+    "defaultWidth": 655,
+    "defaultOverflow": false,
+    "desktopWidth": 1280,
+    "desktopOverflow": false,
+    "referenceCount": 15,
+    "brokenTargets": 0,
+    "loadedImages": 4,
+    "mobileCheck": {
+      "displayEquations": 2,
+      "overflow": false,
+      "tableClient": 331,
+      "tableScroll": 650,
+      "width": 390
+    },
+    "people": {
+      "matches": [
+        "研究人物深度词条Lloyd JeffressLloyd Jeffress从两耳的时间差到神经活动的位置：介绍Lloyd Jeffress的研究经历、延迟线与符合检测模型、鸟类实验和哺乳动物研究的修正，以及双耳掩蔽和听觉检测方面的贡献。15 项参考来源↗"
+      ]
+    },
+    "displayEquations": 2,
+    "tableRows": 7,
+    "nativeFigures": "Inspected all source PNGs and in-page loading; Figure 2 and 4 visible in browser screenshots; narrow table scrolls within itself"
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

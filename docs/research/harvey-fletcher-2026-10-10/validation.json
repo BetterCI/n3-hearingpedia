@@ -1,0 +1,93 @@
+{
+  "completed_at": "2026-10-10",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "harvey-fletcher",
+    "knowledge_area": "perception",
+    "kind": "person",
+    "chinese_characters": 7547,
+    "body_characters": 14292,
+    "sections": 10,
+    "subsections": 23,
+    "reference_ids": [
+      "fletcher-nas",
+      "fletcher-byu",
+      "fletcher-allen",
+      "fletcher-munson-1933",
+      "iso-226-2023",
+      "iso226-revision-2024",
+      "fletcher-patterns-1940",
+      "glasberg-1990",
+      "fletcher-french-1947",
+      "fletcher-galt-1950",
+      "ansi-sii",
+      "boothroyd-1988",
+      "fletcher-speech-1952",
+      "asha-audiometry-2005",
+      "fletcher-stereo-history",
+      "fletcher-piano-1962",
+      "fletcher-oil-history",
+      "fletcher-oral-catalog",
+      "fletcher-asa",
+      "fletcher-book1929",
+      "fletcher-book1953"
+    ],
+    "wiki_links": [
+      "psychoacoustics",
+      "loudness",
+      "auditory-filter",
+      "frequency-resolution",
+      "speech-redundancy",
+      "speech-intelligibility",
+      "pure-tone-audiometry",
+      "hearing-aid-prescription",
+      "speech-audiometry",
+      "cochlear-implant",
+      "spatial-hearing",
+      "timbre-perception",
+      "masking",
+      "spectrogram",
+      "hermann-von-helmholtz",
+      "georg-von-bekesy"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "104 files; zero errors, warnings or hints",
+    "source_content": "84 concepts, 446 relations, 4443 citations, 274 figures",
+    "build": "202 pages",
+    "verify": {
+      "pages": 202,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 15404,
+      "equations": 166,
+      "searchableConcepts": 84,
+      "wikiConcepts": 84,
+      "knowledgeAreas": 7,
+      "typedRelationships": 446,
+      "wikiCrossLinks": 832,
+      "chineseCharacters": 538029,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "Four original figures inspected as PNG; ISO and teaching assertions passed; no listener data; historical photos linked only; 390 px viewport check pending because override was not applied"
+  },
+  "browser_qa": {
+    "brokenTargets": 0,
+    "defaultOverflow": false,
+    "defaultWidth": 655,
+    "displayEquations": 2,
+    "figures": 4,
+    "loadedImages": 4,
+    "references": 21,
+    "desktopWidth": 1280,
+    "desktopOverflow": false,
+    "mobileCheck": "Requested 390 px viewport override did not apply: actual native viewport remained 655 px and auxiliary viewport 1280 px. No horizontal overflow at the two actual widths; 390 px verification pending."
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "completed_at": "2026-10-10",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "eberhard-zwicker",
+    "knowledge_area": "perception",
+    "kind": "person",
+    "chinese_characters": 6526,
+    "body_characters": 14017,
+    "sections": 10,
+    "subsections": 12,
+    "reference_ids": [
+      "zwicker-fastl2024",
+      "zwicker-tumhistory",
+      "zwicker-asa",
+      "zwicker-dega",
+      "zwicker-band1957",
+      "zwicker-bark1961",
+      "zwicker-analytic1980",
+      "zwicker-volk2015",
+      "zwicker-scharf1965",
+      "zwicker-quality2005",
+      "zwicker-program1991",
+      "zwicker-iso1",
+      "zwicker-iso2",
+      "zwicker-after1964",
+      "zwicker-norena2003",
+      "zwicker-review2025",
+      "zwicker-florentine1979",
+      "psychoacoustics-fastl-2007",
+      "zwicker-mathworks"
+    ],
+    "wiki_links": [
+      "signal-detection-theory",
+      "frequency-resolution",
+      "auditory-filter",
+      "masking",
+      "tinnitus",
+      "harvey-fletcher",
+      "psychoacoustics",
+      "loudness",
+      "manfred-r-schroeder",
+      "james-l-flanagan",
+      "albert-bregman",
+      "bertrand-delgutte"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "109 files; zero errors, warnings or hints",
+    "source_content": "89 concepts, 493 relations, 4724 citations, 294 figures",
+    "build": "212 pages",
+    "verify": {
+      "pages": 212,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 16409,
+      "equations": 182,
+      "searchableConcepts": 89,
+      "wikiConcepts": 89,
+      "knowledgeAreas": 7,
+      "typedRelationships": 493,
+      "wikiCrossLinks": 893,
+      "chineseCharacters": 570600,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "Four original PNGs inspected and corresponding browser SVGs checked individually; five display equations rendered; desktop 1280 px and mobile 390 px without document overflow; wider tables scroll locally; no full ISO model or clinical test claimed."
+  },
+  "browser_qa": {
+    "brokenTargets": 0,
+    "defaultOverflow": false,
+    "defaultWidth": 1280,
+    "displayEquations": 5,
+    "figures": 4,
+    "katexErrors": 0,
+    "rawCaptionMarkdown": false,
+    "referenceCount": 19,
+    "loadedImages": 4,
+    "people": {
+      "matches": [
+        "研究人物深度词条Eberhard ZwickerEberhard Zwicker从临界带与Bark尺度，到特定响度、声品质和Zwicker音：介绍Eberhard Zwicker如何把听觉实验转化为可计算的心理声学模型，以及这些模型的应用条件与边界。19 项参考来源↗"
+      ]
+    },
+    "mobileCheck": {
+      "equations": [
+        {
+          "client": 329,
+          "scroll": 329
+        },
+        {
+          "client": 329,
+          "scroll": 329
+        },
+        {
+          "client": 329,
+          "scroll": 329
+        },
+        {
+          "client": 329,
+          "scroll": 329
+        },
+        {
+          "client": 329,
+          "scroll": 329
+        }
+      ],
+      "overflow": false,
+      "oversized": [
+        {
+          "tag": "THEAD",
+          "text": "年份代表节点研究史中的意义"
+        },
+        {
+          "tag": "TR",
+          "text": "年份代表节点研究史中的意义"
+        },
+        {
+          "tag": "TH",
+          "text": "研究史中的意义"
+        },
+        {
+          "tag": "TBODY",
+          "text": "1952／1956博士研究／大学任教资格用听觉可察觉性研究通信与信息接收1957临界带与响度总和合作论文将频谱"
+        },
+        {
+          "tag": "TR",
+          "text": "1952／1956博士研究／大学任教资格用听觉可察觉性研究通信与信息接收"
+        },
+        {
+          "tag": "TD",
+          "text": "用听觉可察觉性研究通信与信息接收"
+        },
+        {
+          "tag": "TR",
+          "text": "1957临界带与响度总和合作论文将频谱分布与响度匹配联系起来"
+        },
+        {
+          "tag": "TD",
+          "text": "将频谱分布与响度匹配联系起来"
+        }
+      ],
+      "tables": [
+        {
+          "client": 331,
+          "overflow": "auto",
+          "scroll": 390
+        },
+        {
+          "client": 331,
+          "overflow": "auto",
+          "scroll": 520
+        },
+        {
+          "client": 331,
+          "overflow": "auto",
+          "scroll": 390
+        },
+        {
+          "client": 331,
+          "overflow": "auto",
+          "scroll": 331
+        }
+      ],
+      "width": 390
+    },
+    "desktopOverflow": false,
+    "desktopWidth": 1280
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

@@ -1,3 +1,15 @@
+import { zwickerReferences } from './zwicker-references.ts';
+import { flanaganReferences } from './flanagan-references.ts';
+import { delgutteReferences } from './delgutte-references.ts';
+import { jeffressReferences } from './jeffress-references.ts';
+import { bregmanReferences } from './bregman-references.ts';
+import { fletcherReferences } from './fletcher-references.ts';
+import { blauertReferences } from './blauert-references.ts';
+import { schroederReferences } from './schroeder-references.ts';
+import { williamHouseReferences } from './william-house-references.ts';
+import { helmholtzReferences } from './helmholtz-references.ts';
+import { signalDetectionReferences } from './signal-detection-references.ts';
+import { spectrogramReferences } from './spectrogram-references.ts';
 import { tinnitusReferences } from './tinnitus-references.ts';
 import { cochlearSynaptopathyReferences } from './cochlear-synaptopathy-references.ts';
 import { auditoryPlasticityReferences } from './auditory-plasticity-references.ts';
@@ -46,6 +58,18 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...zwickerReferences,
+  ...flanaganReferences,
+  ...delgutteReferences,
+  ...jeffressReferences,
+  ...bregmanReferences,
+  ...fletcherReferences,
+  ...blauertReferences,
+  ...schroederReferences,
+  ...williamHouseReferences,
+  ...helmholtzReferences,
+  ...signalDetectionReferences,
+  ...spectrogramReferences,
   ...tinnitusReferences,
   ...cochlearSynaptopathyReferences,
   ...auditoryPlasticityReferences,

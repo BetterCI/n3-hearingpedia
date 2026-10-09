@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-09",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "spectrogram",
+    "knowledge_area": "sound",
+    "kind": "representation",
+    "chinese_characters": 8877,
+    "body_characters": 17738,
+    "sections": 11,
+    "subsections": 29,
+    "reference_ids": [
+      "sp-praat-view",
+      "sp-praat-config",
+      "sp-scipy-stft",
+      "sp-scipy-scaling",
+      "sp-scipy-spectral",
+      "sp-praat-advanced",
+      "sp-praat-compute",
+      "sp-audacity-settings",
+      "sp-torchaudio-mel",
+      "sp-webaudio-analyser",
+      "sp-mdn-microphone",
+      "sp-mdn-constraints",
+      "sp-live-tool",
+      "sp-chrome-tool",
+      "sp-toolsflare",
+      "sp-academo",
+      "sp-scipy-legacy",
+      "sp-koenig-1946",
+      "sp-lacy-patent",
+      "sp-meacham-patent",
+      "sp-smithsonian-kopp",
+      "sp-cooper-1951",
+      "sp-playback-principles",
+      "sp-playback-background",
+      "sp-adventure-film",
+      "sp-potter-1945",
+      "sp-playback-history"
+    ],
+    "wiki_links": [
+      "pitch-perception",
+      "formant",
+      "fundamental-frequency",
+      "frequency-resolution",
+      "aspiration",
+      "voicing",
+      "audiometric-calibration",
+      "dynamic-range",
+      "phonetics",
+      "vocoder",
+      "speech-intelligibility",
+      "timbre-perception",
+      "zhao-yuanren",
+      "harmonicity",
+      "temporal-fine-structure"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "passed; 98 files, zero errors/warnings/hints",
+    "source_content": "passed; 78 concepts, 399 relations",
+    "build": "passed; 190 pages",
+    "verify": "passed; 14248 internal links, zero broken links",
+    "git_diff_check": "passed"
+  },
+  "browser_qa": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "loaded_images": 7,
+    "images_with_alt": 7,
+    "display_formulas": 2,
+    "citation_links": 59,
+    "broken_citation_targets": 0,
+    "page_horizontal_overflow": false,
+    "mobile_tables": {
+      "count": 3,
+      "client_width": 331,
+      "scroll_width": 390,
+      "overflow_x": "auto"
+    },
+    "temporary_viewport_reset": true,
+    "microphone_audio_capture": "not performed"
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

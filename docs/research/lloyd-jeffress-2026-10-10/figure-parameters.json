@@ -1,0 +1,100 @@
+[
+  {
+    "name": "computational-framework",
+    "width": 1280,
+    "height": 650,
+    "parameters": {
+      "boxes": "functional input-delay-coincidence-readout; no anatomy"
+    },
+    "nature": "original analytic teaching figure; not measured data or fitted neuronal model"
+  },
+  {
+    "name": "delay-compensation",
+    "width": 1280,
+    "height": 650,
+    "parameters": {
+      "external_arrival_us": [
+        0,
+        200
+      ],
+      "left_delay_us": [
+        0,
+        100,
+        200,
+        300,
+        400,
+        500,
+        600
+      ],
+      "right_delay_us": [
+        600,
+        500,
+        400,
+        300,
+        200,
+        100,
+        0
+      ],
+      "internal_difference_us": [
+        -600,
+        -400,
+        -200,
+        0,
+        200,
+        400,
+        600
+      ],
+      "gaussian_sigma_us": 80,
+      "response": [
+        1.9287498479639178e-22,
+        6.101936677605324e-13,
+        3.726653172078671e-06,
+        0.04393693362340742,
+        1.0,
+        0.04393693362340742,
+        3.726653172078671e-06
+      ]
+    },
+    "nature": "original analytic teaching figure; not measured data or fitted neuronal model"
+  },
+  {
+    "name": "correlation-ambiguity",
+    "width": 1280,
+    "height": 650,
+    "parameters": {
+      "delay_range_us": [
+        -4500,
+        4500
+      ],
+      "true_delay_us": 200,
+      "tone_hz": 500,
+      "period_us": 2000,
+      "analytic_gaussian_sigma_us": 120
+    },
+    "nature": "original analytic teaching figure; not measured data or fitted neuronal model"
+  },
+  {
+    "name": "readout-strategies",
+    "width": 1280,
+    "height": 650,
+    "parameters": {
+      "place_centers_us": [
+        -600,
+        -400,
+        -200,
+        0,
+        200,
+        400,
+        600
+      ],
+      "place_sigma_us": 120,
+      "opponent_scale_us": 180,
+      "input_itd_us": [
+        -600,
+        600
+      ],
+      "channels": "A,B not assigned to hemispheres"
+    },
+    "nature": "original analytic teaching figure; not measured data or fitted neuronal model"
+  }
+]

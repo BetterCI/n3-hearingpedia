@@ -1,0 +1,84 @@
+{
+  "completed_at": "2026-10-10",
+  "status": "local-awaiting-user-confirmation",
+  "professional_review": "pending",
+  "entry": {
+    "slug": "jens-blauert",
+    "knowledge_area": "perception",
+    "kind": "person",
+    "chinese_characters": 6330,
+    "body_characters": 11030,
+    "sections": 9,
+    "subsections": 25,
+    "reference_ids": [
+      "blauert-ika",
+      "blauert-aes",
+      "blauert-publications",
+      "blauert-median",
+      "blauert-spatial-book",
+      "blauert-wavefront",
+      "blauert-coherence",
+      "blauert-room",
+      "blauert-group-delay",
+      "blauert-introduction",
+      "blauert-listening",
+      "blauert-understanding",
+      "blauert-aabba",
+      "amt-lindemann1986",
+      "amt-baumgartner2014",
+      "hofman-1998",
+      "middlebrooks-1991",
+      "blauert-sofa",
+      "blauert-communication",
+      "blauert-feedback",
+      "litovsky-precedence-2001"
+    ],
+    "wiki_links": [
+      "spatial-hearing",
+      "manfred-r-schroeder",
+      "binaural-hearing",
+      "room-acoustics",
+      "interaural-time-difference",
+      "auditory-plasticity",
+      "speech-intelligibility"
+    ],
+    "status": "draft"
+  },
+  "checks": {
+    "astro_check": "103 files; zero errors, warnings or hints",
+    "source_content": "83 concepts, 438 relations, 4389 citations, 270 figures",
+    "build": "200 pages",
+    "verify": {
+      "pages": 200,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 15201,
+      "equations": 164,
+      "searchableConcepts": 83,
+      "wikiConcepts": 83,
+      "knowledgeAreas": 7,
+      "typedRelationships": 438,
+      "wikiCrossLinks": 816,
+      "chineseCharacters": 530482,
+      "brokenLinks": 0
+    },
+    "git_diff_check": "passed",
+    "figure_checks": "Three original diagrams inspected as PNG; geometric assertions passed; no AMT run or listener data; portrait linked only"
+  },
+  "browser_qa": {
+    "brokenTargets": 0,
+    "desktopOverflow": false,
+    "displayEquations": 1,
+    "figures": 3,
+    "loadedImages": 3,
+    "title": "Jens Blauert",
+    "viewportWidth": 1280,
+    "mobileWidth": 390,
+    "mobileOverflow": false,
+    "notes": "Desktop at 1280 px; mobile at 390 px. Three images loaded, no document overflow. Mobile figure3 and desktop original images inspected."
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "head": "16a8331e48c348aeebaaaa81359ad1f5b84696b3"
+  }
+}

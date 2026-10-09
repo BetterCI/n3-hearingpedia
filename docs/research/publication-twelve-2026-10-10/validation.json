@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-10",
+  "status": "validated-for-publication",
+  "scope_file": "scope.json",
+  "article_count": 12,
+  "checks": {
+    "source_content": "passed: 88 concepts, 486 relationships, 4690 citations, 292 inline figures",
+    "astro_check": "passed: 107 files, 0 errors, 0 warnings, 0 hints",
+    "workflow_tests": "passed: 6 tests",
+    "build": "passed, including Pagefind search index",
+    "site_verify": {
+      "pages": 210,
+      "checked_internal_links": 16250,
+      "broken_links": 0,
+      "searchable_concepts": 88,
+      "typed_relationships": 486
+    },
+    "staged_scope": "passed: 265 files, exactly 12 new articles",
+    "git_diff_check": "passed after removing trailing spaces from 9 generated SVG files; geometry unchanged"
+  },
+  "notes": "This record validates the integrated publication candidate. Earlier per-entry validation records describe local drafts. Deployment outcome is recorded separately after pushing.",
+  "svg_whitespace_normalization": [
+    "public/figures/signal-detection-theory/01-evidence-and-criterion.svg",
+    "public/figures/signal-detection-theory/02-roc.svg",
+    "public/figures/signal-detection-theory/03-task-conversion.svg",
+    "public/figures/signal-detection-theory/04-unequal-variance.svg",
+    "public/figures/spectrogram/01-reading.svg",
+    "public/figures/spectrogram/02-window-tradeoff.svg",
+    "public/figures/spectrogram/03-zero-padding.svg",
+    "public/figures/spectrogram/04-display-range.svg",
+    "public/figures/spectrogram/05-historical-routes.svg"
+  ]
+}
