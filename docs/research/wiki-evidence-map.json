@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 263,
+  "relations": 239,
   "entries": [
     {
       "slug": "cochlea",
@@ -2089,47 +2089,25 @@
       "depth": "in-depth"
     },
     {
-      "slug": "affricate",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1582,
-      "body_characters": 2463,
-      "sections": 4,
-      "subsections": 7,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
-        "essentials-consonant-manner"
-      ],
-      "wiki_links": [
-        "plosive",
-        "fricative",
-        "aspiration",
-        "mandarin-alveolar-retroflex",
-        "mandarin-alveolo-palatal"
-      ],
-      "depth": "standard"
-    },
-    {
       "slug": "aspiration",
       "knowledge_area": "mandarin-consonants",
       "kind": "linguistic",
-      "chinese_characters": 1276,
-      "body_characters": 2276,
+      "chinese_characters": 2265,
+      "body_characters": 4242,
       "sections": 5,
-      "subsections": 5,
+      "subsections": 6,
       "reference_ids": [
         "lee-zee-standard-chinese-2003",
         "ipa-chart-official",
         "lisker-abramson-vot-1964",
-        "essentials-consonant-manner"
+        "essentials-consonant-manner",
+        "essentials-vot-phonemes"
       ],
       "wiki_links": [
         "mandarin-consonants",
-        "plosive",
-        "affricate",
-        "mandarin-consonant-ipa",
         "voicing",
+        "consonant-manner-of-articulation",
+        "consonant-place-of-articulation",
         "mandarin-lexical-tone"
       ],
       "depth": "standard"
@@ -2138,10 +2116,10 @@
       "slug": "consonant-manner-of-articulation",
       "knowledge_area": "mandarin-consonants",
       "kind": "linguistic",
-      "chinese_characters": 1689,
-      "body_characters": 2579,
-      "sections": 5,
-      "subsections": 7,
+      "chinese_characters": 3985,
+      "body_characters": 7775,
+      "sections": 8,
+      "subsections": 19,
       "reference_ids": [
         "lee-zee-standard-chinese-2003",
         "ipa-chart-official",
@@ -2149,10 +2127,9 @@
       ],
       "wiki_links": [
         "consonant-place-of-articulation",
-        "plosive",
-        "affricate",
-        "fricative",
-        "mandarin-consonants"
+        "mandarin-consonants",
+        "aspiration",
+        "voicing"
       ],
       "depth": "standard"
     },
@@ -2160,131 +2137,22 @@
       "slug": "consonant-place-of-articulation",
       "knowledge_area": "mandarin-consonants",
       "kind": "linguistic",
-      "chinese_characters": 1490,
-      "body_characters": 2501,
-      "sections": 5,
-      "subsections": 6,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
-        "essentials-consonant-place-phonation"
-      ],
-      "wiki_links": [
-        "consonant-manner-of-articulation",
-        "mandarin-alveolar-retroflex",
-        "mandarin-alveolo-palatal",
-        "mandarin-consonant-ipa"
-      ],
-      "depth": "standard"
-    },
-    {
-      "slug": "fricative",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1731,
-      "body_characters": 2630,
-      "sections": 4,
-      "subsections": 8,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
-        "essentials-consonant-manner"
-      ],
-      "wiki_links": [
-        "affricate",
-        "consonant-manner-of-articulation",
-        "mandarin-consonant-ipa",
-        "mandarin-alveolar-retroflex",
-        "mandarin-alveolo-palatal"
-      ],
-      "depth": "standard"
-    },
-    {
-      "slug": "lateral-consonant",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1708,
-      "body_characters": 2510,
-      "sections": 5,
-      "subsections": 9,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
-        "essentials-consonant-manner"
-      ],
-      "wiki_links": [
-        "voicing",
-        "consonant-manner-of-articulation",
-        "nasal-consonant",
-        "consonant-place-of-articulation",
-        "mandarin-consonant-ipa"
-      ],
-      "depth": "standard"
-    },
-    {
-      "slug": "mandarin-alveolar-retroflex",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1366,
-      "body_characters": 2466,
-      "sections": 5,
-      "subsections": 5,
+      "chinese_characters": 3306,
+      "body_characters": 6580,
+      "sections": 6,
+      "subsections": 11,
       "reference_ids": [
         "lee-zee-standard-chinese-2003",
         "ipa-chart-official",
         "essentials-consonant-place-phonation",
-        "essentials-consonant-manner"
-      ],
-      "wiki_links": [
-        "consonant-place-of-articulation",
-        "affricate",
-        "fricative",
-        "aspiration",
-        "mandarin-consonant-ipa"
-      ],
-      "depth": "standard"
-    },
-    {
-      "slug": "mandarin-alveolo-palatal",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1185,
-      "body_characters": 2226,
-      "sections": 5,
-      "subsections": 6,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
         "essentials-consonant-manner",
         "hanyu-pinyin-scheme"
       ],
       "wiki_links": [
-        "affricate",
-        "aspiration",
-        "fricative",
-        "mandarin-consonant-ipa",
-        "mandarin-alveolar-retroflex"
-      ],
-      "depth": "standard"
-    },
-    {
-      "slug": "mandarin-consonant-ipa",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1633,
-      "body_characters": 2986,
-      "sections": 5,
-      "subsections": 7,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
-        "hanyu-pinyin-scheme"
-      ],
-      "wiki_links": [
+        "consonant-manner-of-articulation",
         "mandarin-consonants",
         "aspiration",
-        "mandarin-alveolo-palatal",
-        "mandarin-initials"
+        "voicing"
       ],
       "depth": "standard"
     },
@@ -2292,10 +2160,10 @@
       "slug": "mandarin-consonants",
       "knowledge_area": "mandarin-consonants",
       "kind": "linguistic",
-      "chinese_characters": 1589,
-      "body_characters": 2606,
-      "sections": 5,
-      "subsections": 6,
+      "chinese_characters": 3664,
+      "body_characters": 7279,
+      "sections": 7,
+      "subsections": 11,
       "reference_ids": [
         "lee-zee-standard-chinese-2003",
         "ipa-chart-official",
@@ -2303,75 +2171,10 @@
         "essentials-consonant-place-phonation"
       ],
       "wiki_links": [
-        "mandarin-initials",
         "consonant-place-of-articulation",
-        "consonant-manner-of-articulation",
-        "mandarin-consonant-ipa"
-      ],
-      "depth": "standard"
-    },
-    {
-      "slug": "mandarin-initials",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1324,
-      "body_characters": 2375,
-      "sections": 5,
-      "subsections": 6,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
-        "hanyu-pinyin-scheme"
-      ],
-      "wiki_links": [
-        "consonant-place-of-articulation",
-        "consonant-manner-of-articulation",
-        "mandarin-consonants",
-        "mandarin-consonant-ipa"
-      ],
-      "depth": "standard"
-    },
-    {
-      "slug": "nasal-consonant",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1613,
-      "body_characters": 2467,
-      "sections": 4,
-      "subsections": 8,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
-        "essentials-consonant-manner"
-      ],
-      "wiki_links": [
-        "consonant-place-of-articulation",
-        "consonant-manner-of-articulation",
-        "mandarin-initials",
-        "lateral-consonant",
-        "mandarin-consonant-ipa"
-      ],
-      "depth": "standard"
-    },
-    {
-      "slug": "plosive",
-      "knowledge_area": "mandarin-consonants",
-      "kind": "linguistic",
-      "chinese_characters": 1615,
-      "body_characters": 2428,
-      "sections": 4,
-      "subsections": 7,
-      "reference_ids": [
-        "lee-zee-standard-chinese-2003",
-        "ipa-chart-official",
-        "essentials-consonant-manner"
-      ],
-      "wiki_links": [
         "consonant-manner-of-articulation",
         "aspiration",
-        "consonant-place-of-articulation",
-        "mandarin-consonant-ipa",
-        "affricate"
+        "voicing"
       ],
       "depth": "standard"
     },
@@ -2379,19 +2182,20 @@
       "slug": "voicing",
       "knowledge_area": "mandarin-consonants",
       "kind": "linguistic",
-      "chinese_characters": 1324,
-      "body_characters": 2205,
+      "chinese_characters": 2250,
+      "body_characters": 4066,
       "sections": 5,
-      "subsections": 6,
+      "subsections": 7,
       "reference_ids": [
         "lee-zee-standard-chinese-2003",
         "ipa-chart-official",
-        "essentials-consonant-place-phonation"
+        "essentials-consonant-place-phonation",
+        "essentials-consonant-manner"
       ],
       "wiki_links": [
         "mandarin-consonants",
         "aspiration",
-        "mandarin-consonant-ipa",
+        "consonant-place-of-articulation",
         "mandarin-lexical-tone"
       ],
       "depth": "standard"

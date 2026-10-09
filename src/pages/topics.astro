@@ -5,7 +5,7 @@ import { url } from '../lib/paths';
 const concepts = await getCollection('concepts');
 const bySlug = Object.fromEntries(concepts.map(c=>[c.data.slug,c]));
 const topics=[
- {title:'普通话辅音的语音学基础',note:'先区分辅音与声母，再按发音部位、方式、送气和清浊整理声音，并核对拼音与国际音标。',slugs:['mandarin-consonants','mandarin-initials','consonant-place-of-articulation','consonant-manner-of-articulation','aspiration','voicing','mandarin-consonant-ipa']},
+ {title:'普通话辅音的语音学基础',note:'先区分辅音与声母，再按发音部位、方式、送气和清浊整理声音，并核对拼音与国际音标。',slugs:['mandarin-consonants','consonant-place-of-articulation','consonant-manner-of-articulation','aspiration','voicing']},
  {title:'理解频率分析',note:'从耳蜗中的位置组织，到行为实验中的滤波器估计。',slugs:['cochlea','tonotopy','auditory-filter','masking']},
  {title:'音高与周期性编码',note:'区分周期性、物理基频与知觉音高，再进入时域信息编码的实例。',slugs:['fundamental-frequency','pitch-perception','temporal-fine-structure','amplitude-modulation','temporal-limits-encoder','f0-in-tfs']},
  {title:'声码器与稀疏语音',note:'从一般模拟框架进入局部事件与稀疏模型，检查时频权衡和量纲。',slugs:['vocoder','n-of-m-coding','channel-interaction','get-vocoder','atomic-speech-model','speech-reception-threshold']},

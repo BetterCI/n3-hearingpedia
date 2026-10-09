@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-09",
+  "articles": [
+    {
+      "slug": "aspiration",
+      "knowledge_area": "mandarin-consonants",
+      "kind": "linguistic",
+      "chinese_characters": 1227,
+      "body_characters": 2201,
+      "sections": 5,
+      "subsections": 5,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "lisker-abramson-vot-1964",
+        "essentials-consonant-manner"
+      ],
+      "wiki_links": [
+        "mandarin-consonants",
+        "consonant-manner-of-articulation",
+        "voicing",
+        "mandarin-lexical-tone"
+      ],
+      "depth": "standard"
+    },
+    {
+      "slug": "consonant-manner-of-articulation",
+      "knowledge_area": "mandarin-consonants",
+      "kind": "linguistic",
+      "chinese_characters": 3422,
+      "body_characters": 5765,
+      "sections": 7,
+      "subsections": 17,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner"
+      ],
+      "wiki_links": [
+        "consonant-place-of-articulation",
+        "mandarin-consonants",
+        "aspiration",
+        "voicing"
+      ],
+      "depth": "standard"
+    },
+    {
+      "slug": "consonant-place-of-articulation",
+      "knowledge_area": "mandarin-consonants",
+      "kind": "linguistic",
+      "chinese_characters": 2508,
+      "body_characters": 4645,
+      "sections": 5,
+      "subsections": 11,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-place-phonation",
+        "essentials-consonant-manner",
+        "hanyu-pinyin-scheme"
+      ],
+      "wiki_links": [
+        "consonant-manner-of-articulation",
+        "voicing",
+        "mandarin-consonants",
+        "aspiration"
+      ],
+      "depth": "standard"
+    },
+    {
+      "slug": "mandarin-consonants",
+      "knowledge_area": "mandarin-consonants",
+      "kind": "linguistic",
+      "chinese_characters": 2665,
+      "body_characters": 5204,
+      "sections": 6,
+      "subsections": 9,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "hanyu-pinyin-scheme",
+        "essentials-consonant-place-phonation"
+      ],
+      "wiki_links": [
+        "consonant-place-of-articulation",
+        "consonant-manner-of-articulation",
+        "aspiration",
+        "voicing"
+      ],
+      "depth": "standard"
+    },
+    {
+      "slug": "voicing",
+      "knowledge_area": "mandarin-consonants",
+      "kind": "linguistic",
+      "chinese_characters": 1304,
+      "body_characters": 2088,
+      "sections": 5,
+      "subsections": 6,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-place-phonation"
+      ],
+      "wiki_links": [
+        "mandarin-consonants",
+        "aspiration",
+        "mandarin-lexical-tone"
+      ],
+      "depth": "standard"
+    }
+  ],
+  "redirects": [
+    {
+      "slug": "mandarin-initials",
+      "target": "mandarin-consonants",
+      "anchor": "initials"
+    },
+    {
+      "slug": "mandarin-consonant-ipa",
+      "target": "mandarin-consonants",
+      "anchor": "ipa"
+    },
+    {
+      "slug": "mandarin-alveolar-retroflex",
+      "target": "consonant-place-of-articulation",
+      "anchor": "alveolar-retroflex"
+    },
+    {
+      "slug": "mandarin-alveolo-palatal",
+      "target": "consonant-place-of-articulation",
+      "anchor": "alveolo-palatal"
+    },
+    {
+      "slug": "plosive",
+      "target": "consonant-manner-of-articulation",
+      "anchor": "plosive"
+    },
+    {
+      "slug": "affricate",
+      "target": "consonant-manner-of-articulation",
+      "anchor": "affricate"
+    },
+    {
+      "slug": "fricative",
+      "target": "consonant-manner-of-articulation",
+      "anchor": "fricative"
+    },
+    {
+      "slug": "nasal-consonant",
+      "target": "consonant-manner-of-articulation",
+      "anchor": "nasal"
+    },
+    {
+      "slug": "lateral-consonant",
+      "target": "consonant-manner-of-articulation",
+      "anchor": "lateral"
+    }
+  ]
+}

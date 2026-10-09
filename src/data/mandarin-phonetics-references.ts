@@ -10,6 +10,13 @@
 import type { Reference } from './references';
 
 export const mandarinPhoneticsReferences: Record<string, Reference> = {
+  'essentials-vot-phonemes': {
+    title: '13.2 Evidence for phonemes as mental categories',
+    authors: 'Anderson, C., Bjorkman, B., Denis, D., Doner, J., Grant, M., Sanders, N. & Taniguchi, A.', year: '2022',
+    publication: 'Essentials of Linguistics, 2nd edition；eCampusOntario开放教材',
+    url: 'https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/evidence-for-phonemes-as-mental-categories/', access: 'fulltext',
+    supports: '已阅读VOT定义及英语塞音分类的教学案例：VOT是塞音释放至后续元音发声开始的时间量。本词条仅引用通用定义与刺激/反应层次区别，不将书中英语分类边界、受试者结果或神经研究结果当作普通话数据。原创图12/60ms和150Hz均为教学选参，不来自教材实测。',
+  },
   'lee-zee-standard-chinese-2003': {
     title: 'Standard Chinese (Beijing)', authors: 'Lee, W.-S. & Zee, E.', year: '2003',
     publication: 'Journal of the International Phonetic Association, 33(1), 109–112',

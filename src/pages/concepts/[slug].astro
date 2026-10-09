@@ -8,12 +8,26 @@ import { references, accessLabels } from '../../data/references';
 import { domainById } from '../../data/domains';
 import { knowledgeAreaById, kindLabels } from '../../data/knowledge';
 import { relationshipsFor } from '../../data/relations';
+import { mergedConceptRedirects, type MergedConceptRedirect } from '../../data/merged-concepts';
 import { url, asset } from '../../lib/paths';
+/**
+ * Generate canonical articles and redirects for retired article URLs.
+ * Inputs: none. Returns Astro path/props records; reads the concept collection.
+ * Collection loading errors propagate to the build. Retired routes are not indexed.
+ * Usage: Astro calls getStaticPaths during the static site build.
+ */
 export async function getStaticPaths() {
-  return (await getCollection('concepts')).map(concept=>({params:{slug:concept.data.slug},props:{concept}}));
+  const concepts = await getCollection('concepts');
+  return [
+    ...concepts.map(concept=>({params:{slug:concept.data.slug},props:{concept}})),
+    ...mergedConceptRedirects.map(redirect=>({params:{slug:redirect.slug},props:{redirect}})),
+  ];
 }
-interface Props { concept: CollectionEntry<'concepts'>; }
-const { concept } = Astro.props;
+/** Route props contain either a canonical concept or a historical redirect record. */
+interface Props { concept?: CollectionEntry<'concepts'>; redirect?: MergedConceptRedirect; }
+const { concept, redirect } = Astro.props;
+if (redirect) return Astro.redirect(url(`concepts/${redirect.target}`)+`#${redirect.anchor}`, 301);
+if (!concept) throw new Error(`Missing concept for ${Astro.params.slug}`);
 const { data } = concept;
 const { Content, headings } = await render(concept);
 const all = (await getCollection('concepts')).sort((a,b)=>a.data.order-b.data.order);
@@ -74,7 +88,7 @@ const wide=matchMedia('(min-width:761px)');
 if(box){box.open=wide.matches;wide.addEventListener('change',e=>{box.open=e.matches;});}
 </script>
 <style>
-.wiki-content{display:flow-root}.wiki-infobox{float:right;width:290px;max-width:42%;margin:5px 0 24px 25px;border:1px solid #d8e0ea;border-radius:8px;background:#f3f6fb;font-size:12px;overflow:hidden}.infobox-heading{text-align:center;background:#e7edf5;padding:16px;font-weight:650;font-size:17px}.infobox-heading small{display:block;font-size:11px;font-weight:400;margin-top:6px;color:var(--muted)}.wiki-infobox dl{padding:0 13px;margin:0}.wiki-infobox dl>div{display:grid;grid-template-columns:80px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}.wiki-infobox dt{font-weight:600}.wiki-infobox dd{margin:0;line-height:1.8}.infobox-map-link{display:block;padding:14px;color:var(--accent);font-size:11px}.infobox-figure{margin:0;padding:10px}.infobox-figure img{width:100%;height:auto;background:white}.infobox-figure figcaption{font-size:10px;line-height:1.7;margin-top:8px;color:var(--muted)}.wiki-prose :global(>p:first-child){font-size:16px;line-height:2}.wiki-prose :global(a[href^="#ref-"]){font-size:.72em;vertical-align:super;white-space:nowrap;text-decoration:none;padding:0 2px}.wiki-prose :global(a[href^="#ref-"]::before){content:'['}.wiki-prose :global(a[href^="#ref-"]::after){content:']'}.wiki-prose :global(h2){border-bottom:1px solid var(--line);padding-bottom:9px;margin-top:38px}.wiki-prose :global(h3){font-size:17px;line-height:1.7;margin:25px 0 10px}.wiki-prose :global(th),.wiki-prose :global(td){min-width:130px}.related-link small{display:block;font-size:11px;font-weight:400;line-height:1.8;margin-top:6px;color:var(--muted)}.relation-note{font-size:12px;color:var(--muted);margin-bottom:20px}.wiki-toc-section>div{padding-left:13px}.article-sidebar .wiki-toc-sub{display:block;font-size:10px;margin-top:7px}.wiki-toc-section{margin-bottom:9px}
+.wiki-prose :global(.section-anchor){display:block}.wiki-content{display:flow-root}.wiki-infobox{float:right;width:290px;max-width:42%;margin:5px 0 24px 25px;border:1px solid #d8e0ea;border-radius:8px;background:#f3f6fb;font-size:12px;overflow:hidden}.infobox-heading{text-align:center;background:#e7edf5;padding:16px;font-weight:650;font-size:17px}.infobox-heading small{display:block;font-size:11px;font-weight:400;margin-top:6px;color:var(--muted)}.wiki-infobox dl{padding:0 13px;margin:0}.wiki-infobox dl>div{display:grid;grid-template-columns:80px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}.wiki-infobox dt{font-weight:600}.wiki-infobox dd{margin:0;line-height:1.8}.infobox-map-link{display:block;padding:14px;color:var(--accent);font-size:11px}.infobox-figure{margin:0;padding:10px}.infobox-figure img{width:100%;height:auto;background:white}.infobox-figure figcaption{font-size:10px;line-height:1.7;margin-top:8px;color:var(--muted)}.wiki-prose :global(>p:first-child){font-size:16px;line-height:2}.wiki-prose :global(a[href^="#ref-"]){font-size:.72em;vertical-align:super;white-space:nowrap;text-decoration:none;padding:0 2px}.wiki-prose :global(a[href^="#ref-"]::before){content:'['}.wiki-prose :global(a[href^="#ref-"]::after){content:']'}.wiki-prose :global(h2){border-bottom:1px solid var(--line);padding-bottom:9px;margin-top:38px}.wiki-prose :global(h3){font-size:17px;line-height:1.7;margin:25px 0 10px}.wiki-prose :global(th),.wiki-prose :global(td){min-width:130px}.related-link small{display:block;font-size:11px;font-weight:400;line-height:1.8;margin-top:6px;color:var(--muted)}.relation-note{font-size:12px;color:var(--muted);margin-bottom:20px}.wiki-toc-section>div{padding-left:13px}.article-sidebar .wiki-toc-sub{display:block;font-size:10px;margin-top:7px}.wiki-toc-section{margin-bottom:9px}
 @media(max-width:1000px){.wiki-infobox{max-width:48%;width:265px}}
 @media(max-width:760px){.wiki-infobox{float:none;max-width:none;width:100%;margin:0 0 26px}.wiki-infobox dl{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.wiki-infobox dl>div{grid-template-columns:1fr}.infobox-figure{max-width:480px;margin:auto}.wiki-toc-section>div{display:none}.wiki-toc-section{margin:0}.wiki-prose :global(>p:first-child){font-size:15px}}
 </style>

@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-09",
+  "checks": {
+    "source_content": "passed",
+    "astro_check": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": "passed",
+    "site_verification": {
+      "pages": 87,
+      "legacy_redirects": 9,
+      "checked_internal_links": 8297,
+      "searchable_concepts": 55,
+      "knowledge_areas": 7,
+      "typed_relationships": 202,
+      "broken_links": 0
+    },
+    "browser": {
+      "redirects": [
+        {
+          "from": "mandarin-initials",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/mandarin-consonants/#initials",
+          "anchorTop": 90.109375
+        },
+        {
+          "from": "mandarin-consonant-ipa",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/mandarin-consonants/#ipa",
+          "anchorTop": 89.78125
+        },
+        {
+          "from": "mandarin-alveolar-retroflex",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/consonant-place-of-articulation/#alveolar-retroflex",
+          "anchorTop": 89.78125
+        },
+        {
+          "from": "mandarin-alveolo-palatal",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/consonant-place-of-articulation/#alveolo-palatal",
+          "anchorTop": 89.828125
+        },
+        {
+          "from": "plosive",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/consonant-manner-of-articulation/#plosive",
+          "anchorTop": 90.34375
+        },
+        {
+          "from": "affricate",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/consonant-manner-of-articulation/#affricate",
+          "anchorTop": 90.375
+        },
+        {
+          "from": "fricative",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/consonant-manner-of-articulation/#fricative",
+          "anchorTop": 89.546875
+        },
+        {
+          "from": "nasal-consonant",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/consonant-manner-of-articulation/#nasal",
+          "anchorTop": 90.46875
+        },
+        {
+          "from": "lateral-consonant",
+          "to": "http://127.0.0.1:4321/n3-hearingpedia/concepts/consonant-manner-of-articulation/#lateral",
+          "anchorTop": 89.640625
+        }
+      ],
+      "cards": 5,
+      "search": [
+        {
+          "query": "普通话声母",
+          "urls": [
+            "/n3-hearingpedia/concepts/mandarin-consonants/",
+            "/n3-hearingpedia/concepts/consonant-manner-of-articulation/",
+            "/n3-hearingpedia/concepts/consonant-place-of-articulation/",
+            "/n3-hearingpedia/concepts/voicing/",
+            "/n3-hearingpedia/concepts/aspiration/",
+            "/n3-hearingpedia/concepts/speech-reception-threshold/",
+            "/n3-hearingpedia/concepts/speech-intelligibility/"
+          ]
+        },
+        {
+          "query": "国际音标",
+          "urls": [
+            "/n3-hearingpedia/concepts/mandarin-consonants/",
+            "/n3-hearingpedia/concepts/aspiration/",
+            "/n3-hearingpedia/concepts/voicing/",
+            "/n3-hearingpedia/concepts/formant/",
+            "/n3-hearingpedia/concepts/speech-reception-threshold/"
+          ]
+        },
+        {
+          "query": "平舌音",
+          "urls": [
+            "/n3-hearingpedia/concepts/consonant-place-of-articulation/"
+          ]
+        },
+        {
+          "query": "舌面前音",
+          "urls": [
+            "/n3-hearingpedia/concepts/consonant-place-of-articulation/",
+            "/n3-hearingpedia/concepts/mandarin-consonants/",
+            "/n3-hearingpedia/concepts/aspiration/"
+          ]
+        },
+        {
+          "query": "塞音",
+          "urls": [
+            "/n3-hearingpedia/concepts/consonant-manner-of-articulation/",
+            "/n3-hearingpedia/concepts/aspiration/",
+            "/n3-hearingpedia/concepts/mandarin-consonants/",
+            "/n3-hearingpedia/concepts/voicing/",
+            "/n3-hearingpedia/concepts/consonant-place-of-articulation/",
+            "/n3-hearingpedia/concepts/cochlea/"
+          ]
+        },
+        {
+          "query": "塞擦音",
+          "urls": [
+            "/n3-hearingpedia/concepts/consonant-manner-of-articulation/",
+            "/n3-hearingpedia/concepts/mandarin-consonants/",
+            "/n3-hearingpedia/concepts/voicing/",
+            "/n3-hearingpedia/concepts/consonant-place-of-articulation/"
+          ]
+        },
+        {
+          "query": "擦音",
+          "urls": [
+            "/n3-hearingpedia/concepts/consonant-manner-of-articulation/",
+            "/n3-hearingpedia/concepts/mandarin-consonants/",
+            "/n3-hearingpedia/concepts/consonant-place-of-articulation/",
+            "/n3-hearingpedia/concepts/voicing/"
+          ]
+        },
+        {
+          "query": "鼻音",
+          "urls": [
+            "/n3-hearingpedia/concepts/consonant-manner-of-articulation/",
+            "/n3-hearingpedia/concepts/mandarin-consonants/",
+            "/n3-hearingpedia/concepts/consonant-place-of-articulation/",
+            "/n3-hearingpedia/concepts/voicing/",
+            "/n3-hearingpedia/concepts/formant/"
+          ]
+        },
+        {
+          "query": "边音",
+          "urls": [
+            "/n3-hearingpedia/concepts/pitch-perception/",
+            "/n3-hearingpedia/concepts/consonant-manner-of-articulation/",
+            "/n3-hearingpedia/concepts/mandarin-consonants/",
+            "/n3-hearingpedia/concepts/aspiration/",
+            "/n3-hearingpedia/concepts/voicing/",
+            "/n3-hearingpedia/concepts/harmonicity/",
+            "/n3-hearingpedia/concepts/cochlear-implant/",
+            "/n3-hearingpedia/concepts/fundamental-frequency/"
+          ]
+        }
+      ],
+      "mobileOverflow": false,
+      "mapStatus": "webgl",
+      "mapNodes": 55,
+      "mandarinMapNodes": [
+        "mandarin-consonants",
+        "consonant-place-of-articulation",
+        "consonant-manner-of-articulation",
+        "aspiration",
+        "voicing"
+      ],
+      "pageErrors": []
+    },
+    "visual_review": {
+      "desktop_category": "passed",
+      "desktop_overview_table": "passed",
+      "mobile_overview_table": "passed; existing horizontal table scrolling retained",
+      "mobile_nasal_redirect": "passed"
+    }
+  },
+  "articles": [
+    {
+      "slug": "aspiration",
+      "chinese_characters": 1227
+    },
+    {
+      "slug": "consonant-manner-of-articulation",
+      "chinese_characters": 3422
+    },
+    {
+      "slug": "consonant-place-of-articulation",
+      "chinese_characters": 2508
+    },
+    {
+      "slug": "mandarin-consonants",
+      "chinese_characters": 2665
+    },
+    {
+      "slug": "voicing",
+      "chinese_characters": 1304
+    }
+  ],
+  "scope": "Five draft articles; nine retired articles remain accessible via section redirects"
+}

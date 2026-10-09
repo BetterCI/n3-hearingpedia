@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-09",
+  "figures": [
+    {
+      "slug": "mandarin-consonants",
+      "svg": "public/figures/mandarin-consonants/consonant-system.svg",
+      "png": "public/figures/mandarin-consonants/consonant-system.png",
+      "png_dimensions": [
+        1200,
+        1100
+      ],
+      "nature": "original educational diagram or synthetic signal; not empirical data",
+      "creator": "n³ Hearingpedia, AI-assisted code and editorial verification",
+      "principle_sources": [
+        "hanyu-pinyin-scheme",
+        "lee-zee-standard-chinese-2003"
+      ],
+      "original_source_figure": null,
+      "reproduction": "No third-party figure copied or traced",
+      "usage": "Created for display, editing and publication in this repository; no separate external reuse license assigned",
+      "generator": "scripts/generate-mandarin-phonetics-figures.py"
+    },
+    {
+      "slug": "consonant-place-of-articulation",
+      "svg": "public/figures/consonant-place-of-articulation/articulator-pairs.svg",
+      "png": "public/figures/consonant-place-of-articulation/articulator-pairs.png",
+      "png_dimensions": [
+        1200,
+        1380
+      ],
+      "nature": "original educational diagram or synthetic signal; not empirical data",
+      "creator": "n³ Hearingpedia, AI-assisted code and editorial verification",
+      "principle_sources": [
+        "essentials-consonant-place-phonation",
+        "lee-zee-standard-chinese-2003"
+      ],
+      "original_source_figure": null,
+      "reproduction": "No third-party figure copied or traced",
+      "usage": "Created for display, editing and publication in this repository; no separate external reuse license assigned",
+      "generator": "scripts/generate-mandarin-phonetics-figures.py"
+    },
+    {
+      "slug": "consonant-manner-of-articulation",
+      "svg": "public/figures/consonant-manner-of-articulation/airflow-manners.svg",
+      "png": "public/figures/consonant-manner-of-articulation/airflow-manners.png",
+      "png_dimensions": [
+        1200,
+        1210
+      ],
+      "nature": "original educational diagram or synthetic signal; not empirical data",
+      "creator": "n³ Hearingpedia, AI-assisted code and editorial verification",
+      "principle_sources": [
+        "essentials-consonant-manner",
+        "lee-zee-standard-chinese-2003"
+      ],
+      "original_source_figure": null,
+      "reproduction": "No third-party figure copied or traced",
+      "usage": "Created for display, editing and publication in this repository; no separate external reuse license assigned",
+      "generator": "scripts/generate-mandarin-phonetics-figures.py"
+    },
+    {
+      "slug": "aspiration",
+      "svg": "public/figures/aspiration/aspiration-timing.svg",
+      "png": "public/figures/aspiration/aspiration-timing.png",
+      "png_dimensions": [
+        1200,
+        1000
+      ],
+      "nature": "original educational diagram or synthetic signal; not empirical data",
+      "creator": "n³ Hearingpedia, AI-assisted code and editorial verification",
+      "principle_sources": [
+        "essentials-vot-phonemes",
+        "lee-zee-standard-chinese-2003"
+      ],
+      "original_source_figure": null,
+      "reproduction": "No third-party figure copied or traced",
+      "usage": "Created for display, editing and publication in this repository; no separate external reuse license assigned",
+      "generator": "scripts/generate-mandarin-phonetics-figures.py"
+    },
+    {
+      "slug": "voicing",
+      "svg": "public/figures/voicing/voicing-patterns.svg",
+      "png": "public/figures/voicing/voicing-patterns.png",
+      "png_dimensions": [
+        1200,
+        1120
+      ],
+      "nature": "original educational diagram or synthetic signal; not empirical data",
+      "creator": "n³ Hearingpedia, AI-assisted code and editorial verification",
+      "principle_sources": [
+        "essentials-consonant-place-phonation",
+        "essentials-consonant-manner"
+      ],
+      "original_source_figure": null,
+      "reproduction": "No third-party figure copied or traced",
+      "usage": "Created for display, editing and publication in this repository; no separate external reuse license assigned",
+      "generator": "scripts/generate-mandarin-phonetics-figures.py"
+    }
+  ],
+  "parameters": {
+    "aspiration": {
+      "sample_rate_hz": 8000,
+      "periodic_frequency_hz": 150,
+      "seed": 20261009,
+      "release_ms": 0,
+      "periodicity_onset_ms": [
+        12,
+        60
+      ],
+      "time_window_ms": [
+        -20,
+        100
+      ],
+      "normalization": "common peak magnitude across both examples",
+      "noise_standard_deviation": 0.16,
+      "periodic_amplitude_before_normalization": 0.68,
+      "release_pulse_amplitude": 0.9,
+      "release_pulse_width_ms": 0.35
+    },
+    "voicing": {
+      "sample_rate_hz": 8000,
+      "periodic_frequency_hz": 150,
+      "seed": 20261010,
+      "time_window_ms": [
+        0,
+        40
+      ],
+      "noise_standard_deviation": 0.25,
+      "periodic_amplitude_before_normalization": 0.65,
+      "mixed_noise_weight": 0.55,
+      "normalization": "common peak magnitude across all three examples"
+    }
+  },
+  "limits": "Diagrams omit individual anatomy and coarticulation; toy waves do not establish norms or perceptual boundaries."
+}
