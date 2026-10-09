@@ -25,6 +25,8 @@ jobs:
       PUBLIC_GOATCOUNTER_SITE: ${{ github.event_name != 'pull_request' && vars.GOATCOUNTER_SITE || '' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: pnpm/action-setup@v4
         with:
           version: 11.19.0
@@ -34,7 +36,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
-      - run: node --test scripts/fetch-visitor-stats.test.mjs
+      - run: node --test scripts/fetch-visitor-stats.test.mjs scripts/concept-publication.test.mjs
       - name: Fetch public visitor summary
         if: github.event_name != 'pull_request'
         continue-on-error: true
