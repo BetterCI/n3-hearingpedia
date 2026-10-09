@@ -149,5 +149,38 @@
       "NAL-NL3邻近引文与交稿署名范围"
     ],
     "outcome": "passes editorial requirements after local corrections; professional review pending"
+  },
+  "release_integration": {
+    "date": "2026-10-09",
+    "remote_main_before_merge": "cb2a694d7243412be3671aff8d503436475a165b",
+    "preserved_remote_entries": [
+      "liu-bannong",
+      "wu-zongji"
+    ],
+    "article_and_figures_unchanged_from_review": true,
+    "astro_check": {
+      "files": 87,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": {
+      "passed": true,
+      "pages": 176,
+      "indexedConcepts": 71
+    },
+    "source_content": {
+      "passed": true,
+      "concepts": 71,
+      "relations": 336,
+      "citations": 3571,
+      "inlineFigures": 213
+    },
+    "verify": {
+      "passed": true,
+      "checkedInternalLinks": 12556,
+      "brokenLinks": 0
+    },
+    "git_diff_check": true
   }
 }

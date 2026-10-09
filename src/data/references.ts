@@ -1,4 +1,6 @@
 import { hearingAidPrescriptionReferences } from './hearing-aid-prescription-references.ts';
+import { wuZongjiReferences } from './wu-zongji-references.ts';
+import { liuBannongReferences } from './liu-bannong-references.ts';
 import { auditoryCortexReferences } from './auditory-cortex-references.ts';
 import { zouLudeReferences } from './zou-lude-references.ts';
 import { zhaoYuanrenReferences } from './zhao-yuanren-references.ts';
@@ -38,6 +40,8 @@ export interface Reference { title: string; authors: string; year: string; publi
 
 export const references: Record<string, Reference> = {
   ...hearingAidPrescriptionReferences,
+  ...wuZongjiReferences,
+  ...liuBannongReferences,
   ...auditoryCortexReferences,
   ...zouLudeReferences,
   ...zhaoYuanrenReferences,
