@@ -86,9 +86,9 @@ export const hearingAidReferences: Record<string, Reference> = {
     "year": "2005",
     "publication": "Trends in amplification, 9(4), 159-197",
     "doi": "10.1177/108471380500900403",
-    "url": "https://doi.org/10.1177/108471380500900403",
-    "access": "abstract",
-    "supports": "摘要：DSL v5 的目标、适用人群与多阶段输入输出安排。"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4111494/",
+    "access": "fulltext",
+    "supports": "2026-10-09追加核对公开正文Abstract、DSLm[i/o]阶段、Output Limiting、成人儿童与多通道段落：DSL v5多阶段目标、言语平均和峰值、不同最大输出定义；教学曲线并非DSL数值。"
   },
   "almufarrij-real-ear-2021": {
     "title": "Does Probe-Tube Verification of Real-Ear Hearing Aid Amplification Characteristics Improve Outcomes in Adults? A Systematic Review and Meta-Analysis",

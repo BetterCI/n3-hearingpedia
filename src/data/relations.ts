@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('hearing-aid-prescription','hearing-aid','application','将听力及个体资料转为声学助听器的频率和声级相关目标。',3),
+  link('hearing-aid-prescription','audiology','related','处方计算连接听力评估、声学验证和功能评价。',3),
+  link('hearing-aid-prescription','pure-tone-audiometry','related','分耳分频率听阈是主要输入，阈上资料仍需另外评价。',3),
+  link('hearing-aid-prescription','audiometric-calibration','related','听力级和耳内声压转换依赖相容换能器及校准条件。',3),
+  link('hearing-aid-prescription','dynamic-range','related','多个输入下的目标连接可听范围、压缩及输出限制。',3),
+  link('hearing-aid-prescription','loudness','related','响度模型及个体舒适度约束目标，不等同于耳内声压数字。',3),
+  link('hearing-aid-prescription','speech-intelligibility','related','目标与可听性预测需要结合实际任务评价言语获益。',3),
+  link('hearing-aid-prescription','mandarin-lexical-tone','related','目标的语言权重选项不能直接推出普通话声调识别表现。',2),
+  link('hearing-aid-prescription','listening-effort','related','言语正确率、聆听代价和舒适偏好属于不同结局。',2),
   link("auditory-cortex","auditory-pathway","mechanism","皮层是多层级听觉网络的一部分，输入与反馈需共同解释。",3),
   link("auditory-cortex","tonotopy","related","皮层频率地图描述空间偏好，不能概括全部自然声音表征。",3),
   link("auditory-cortex","auditory-attention","mechanism","相同声音中的任务目标可改变皮层可测表征。",3),

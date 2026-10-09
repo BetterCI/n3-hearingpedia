@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-09",
+  "slug": "hearing-aid-prescription",
+  "knowledge_area": "technology",
+  "kind": "model",
+  "chinese_characters": 8519,
+  "body_characters": 16935,
+  "sections": 11,
+  "subsections": 31,
+  "reference_ids": [
+    "keidser-nalnl2-2011",
+    "scollie-dsl5-2005",
+    "prescription-nal-empirical-2012",
+    "prescription-nal-r-1986",
+    "clarity-toolkit",
+    "prescription-dsl-protocols-2005",
+    "asha-hearing-aids-adults",
+    "boystown-recd",
+    "prescription-johnson-dillon-2011",
+    "prescription-lochi-three-2013",
+    "prescription-lochi-five-2018",
+    "prescription-child-fit-2013",
+    "prescription-task-audibility-2023",
+    "almufarrij-real-ear-2021",
+    "prescription-preference-2023",
+    "prescription-binaural-loudness-2025",
+    "prescription-nalnl3-official",
+    "prescription-nalnl3-clinical-2026",
+    "prescription-nal-philosophy-2026",
+    "moore-loudness-2014",
+    "moore-compression-speed-2008",
+    "winkler-open-fitting-2016",
+    "prescription-nalnl3-noise-2026"
+  ],
+  "wiki_links": [
+    "hearing-aid",
+    "pure-tone-audiometry",
+    "hearing-loss",
+    "dynamic-range",
+    "loudness",
+    "mandarin-lexical-tone",
+    "auditory-brainstem-response",
+    "speech-intelligibility",
+    "listening-effort",
+    "audiology",
+    "audiometric-calibration",
+    "speech-reception-threshold"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "figures": 5,
+  "new_references": 14,
+  "reused_references": 9,
+  "professional_review": false,
+  "user_confirmation": "2026-10-09用户明确确认上传《助听器处方公式》及其配套材料",
+  "publication": "authorized for publication; professional review pending",
+  "checks": {
+    "citation_ids_and_numbers": true,
+    "source_content": {
+      "passed": true,
+      "concepts": 69,
+      "relations": 324,
+      "citations": 3546,
+      "inlineFigures": 209
+    },
+    "astro_check": {
+      "files": 85,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": {
+      "passed": true,
+      "pages": 172,
+      "indexedConcepts": 69
+    },
+    "verify": {
+      "passed": true,
+      "checkedInternalLinks": 12321,
+      "brokenLinks": 0
+    },
+    "git_diff_check": true,
+    "calculations": {
+      "nalr_control_points": true,
+      "piecewise_continuity": true,
+      "piecewise_monotonicity": true,
+      "recd_addition": true,
+      "rms_and_apparent_ratios": true
+    },
+    "visual_review": "五张原创PNG逐张检查；图4文字与箭头错开；图5重合条件以空心方形和实心三角区分，删除多余次刻度标签。桌面与手机页面、表格、公式及图注已检查。手机宽表及长公式可在容器中横向滚动，图可点击完整SVG。",
+    "browser": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "figures": 5,
+        "references": 23,
+        "formulas": 8,
+        "katexErrors": 0,
+        "horizontalOverflow": false,
+        "allCitationTargets": true,
+        "allImageRatiosPreserved": true,
+        "draftLabel": true,
+        "pageErrors": []
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "figures": 5,
+        "references": 23,
+        "formulas": 8,
+        "katexErrors": 0,
+        "horizontalOverflow": false,
+        "allCitationTargets": true,
+        "allImageRatiosPreserved": true,
+        "draftLabel": true,
+        "pageErrors": []
+      }
+    ],
+    "mobile_scroll": {
+      "table": {
+        "overflow": "auto",
+        "left": 304,
+        "width": 346,
+        "content": 650,
+        "lastColumn": "实现输出增益（dB）"
+      },
+      "formula": {
+        "overflow": "auto",
+        "left": 29,
+        "width": 344,
+        "content": 373
+      }
+    }
+  },
+  "editorial_audit": {
+    "date": "2026-10-09",
+    "standard": "docs/contributor-kit/README.md",
+    "report": "editorial-review.md",
+    "professional_review": false,
+    "findings_corrected": [
+      "缩写首次解释",
+      "变量及单位",
+      "图1箭头描述",
+      "固定代码版本入口",
+      "NAL-NL3邻近引文与交稿署名范围"
+    ],
+    "outcome": "passes editorial requirements after local corrections; professional review pending"
+  }
+}

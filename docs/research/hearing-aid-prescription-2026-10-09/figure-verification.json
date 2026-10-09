@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-09",
+  "figures": [
+    {
+      "name": "01-targets-and-verification",
+      "files": [
+        "01-targets-and-verification.svg",
+        "01-targets-and-verification.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        840
+      ],
+      "description": "目标生成、实际输出与功能结局分层；框图不编码疗效。",
+      "parameters": {
+        "quantitative_data": null
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-hearing-aid-prescription.py",
+      "copyright": "原创教学图，未转载文献图片",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    },
+    {
+      "name": "02-linear-nalr-example",
+      "files": [
+        "02-linear-nalr-example.svg",
+        "02-linear-nalr-example.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        840
+      ],
+      "description": "所核对Clarity NALR代码在总听阈≤180分支的六控制点计算，不是非线性NAL目标。",
+      "parameters": {
+        "frequencies_hz": [
+          250,
+          500,
+          1000,
+          2000,
+          4000,
+          6000
+        ],
+        "thresholds_db_hl": [
+          25,
+          30,
+          40,
+          50,
+          60,
+          60
+        ],
+        "bias_db": [
+          -17,
+          -8,
+          1,
+          -1,
+          -2,
+          -2
+        ],
+        "critical_sum": 120,
+        "x_db": 6,
+        "raw_gain_db": [
+          -3.25,
+          7.300000000000001,
+          19.4,
+          20.5,
+          22.6,
+          22.6
+        ],
+        "gain_db": [
+          0,
+          7.300000000000001,
+          19.4,
+          20.5,
+          22.6,
+          22.6
+        ],
+        "half_gain_db": [
+          12.5,
+          15,
+          20,
+          25,
+          30,
+          30
+        ],
+        "implementation_commit": "dcceaabab7786a94ba5ba8bef4177040f4521ccc",
+        "fir_simulated": false
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-hearing-aid-prescription.py",
+      "copyright": "原创教学图，未转载文献图片",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    },
+    {
+      "name": "03-multistage-input-output",
+      "files": [
+        "03-multistage-input-output.svg",
+        "03-multistage-input-output.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        1000
+      ],
+      "description": "四阶段斜率与增益的独立教学模型，连续边界通过核验。",
+      "parameters": {
+        "breakpoints_input_db_spl": [
+          35,
+          50,
+          90
+        ],
+        "breakpoints_output_db_spl": [
+          50,
+          65,
+          85
+        ],
+        "slopes": [
+          1.5,
+          1,
+          0.5,
+          0
+        ],
+        "timing_simulated": false,
+        "dsl_computed": false
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-hearing-aid-prescription.py",
+      "copyright": "原创教学图，未转载文献图片",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    },
+    {
+      "name": "04-recd-coordinate-example",
+      "files": [
+        "04-recd-coordinate-example.svg",
+        "04-recd-coordinate-example.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        840
+      ],
+      "description": "匹配声源与耦合条件下的单频声压转换。",
+      "parameters": {
+        "frequency_hz": 1000,
+        "coupler_db_spl": 80,
+        "recd_db": [
+          5,
+          12
+        ],
+        "ear_db_spl": [
+          85,
+          92
+        ],
+        "normative_data": false
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-hearing-aid-prescription.py",
+      "copyright": "原创教学图，未转载文献图片",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    },
+    {
+      "name": "05-target-error-example",
+      "files": [
+        "05-target-error-example.svg",
+        "05-target-error-example.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        1000
+      ],
+      "description": "三声级输出误差，正文65dB例子和图使用相同数值。",
+      "parameters": {
+        "frequencies_hz": [
+          500,
+          1000,
+          2000,
+          4000
+        ],
+        "overall_input_levels_db_spl": [
+          50,
+          65,
+          80
+        ],
+        "targets_db_spl": [
+          [
+            65,
+            70,
+            75,
+            70
+          ],
+          [
+            75,
+            80,
+            85,
+            80
+          ],
+          [
+            83,
+            88,
+            93,
+            88
+          ]
+        ],
+        "first_outputs_db_spl": [
+          [
+            65,
+            69,
+            72,
+            63
+          ],
+          [
+            75,
+            79,
+            81,
+            72
+          ],
+          [
+            83,
+            87,
+            89,
+            80
+          ]
+        ],
+        "second_outputs_db_spl": [
+          [
+            65,
+            70,
+            74,
+            69
+          ],
+          [
+            75,
+            80,
+            84,
+            79
+          ],
+          [
+            83,
+            88,
+            92,
+            87
+          ]
+        ],
+        "first_errors_db": [
+          [
+            0,
+            -1,
+            -3,
+            -7
+          ],
+          [
+            0,
+            -1,
+            -4,
+            -8
+          ],
+          [
+            0,
+            -1,
+            -4,
+            -8
+          ]
+        ],
+        "first_rms_db": [
+          3.840572873934304,
+          4.5,
+          4.5
+        ],
+        "second_rms_db": [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "apparent_1khz_ratios": [
+          1.5,
+          1.875,
+          1.6666666666666667
+        ],
+        "identical_base_spectrum": true,
+        "normative_or_participant_data": false
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-hearing-aid-prescription.py",
+      "copyright": "原创教学图，未转载文献图片",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    }
+  ],
+  "checks": {
+    "nalr_control_points": true,
+    "piecewise_continuity": true,
+    "piecewise_monotonicity": true,
+    "recd_addition": true,
+    "rms_and_apparent_ratios": true
+  }
+}
