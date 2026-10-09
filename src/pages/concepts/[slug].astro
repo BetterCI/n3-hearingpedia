@@ -39,6 +39,10 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
           <p class="article-english" data-pagefind-weight="5">{data.english}</p>
           <p class="lead">{data.summary}</p>
           <p class="reading-time" data-pagefind-ignore>预计阅读 {readingMinutes} 分钟 · 公式与参考文献可按需深入</p>
+          <a class="article-share-link" href={url(`share/${data.slug}`)} data-pagefind-ignore>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            微信分享图 <span>复制图片 · 扫码阅读</span>
+          </a>
           <span class="sr-only" data-pagefind-weight="15">{data.aliases.join(' ')}</span>
           <span class="sr-only" data-pagefind-weight="3">{data.tags.join(' ')}</span>
           <div class="article-metadata"><span>更新 {data.last_updated.replaceAll('-','.')}</span><span>{data.authors.join(' / ') || '作者待登记'}</span><span>{data.reviewer ? `审阅：${data.reviewer} · ${data.reviewed_at}` : '尚未完成专业审阅'}<a class="feedback-shortcut" href="#feedback">帮助完善这个词条</a></span></div>
@@ -78,6 +82,7 @@ if(box){box.open=wide.matches;wide.addEventListener('change',e=>{box.open=e.matc
 </style>
 <style>
 .article-badges{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.article-share-link{display:inline-flex;align-items:center;gap:8px;margin:0 0 18px;padding:9px 13px;border:1px solid #d8d0e8;border-radius:7px;background:#f4f0fa;color:var(--accent);font-size:13px;font-weight:600}.article-share-link span{font-size:11px;font-weight:400;color:var(--muted)}.article-share-link:hover{background:#ece5f7}.article-share-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .feedback-shortcut{margin-left:8px;font-size:inherit;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .wiki-prose :global(.pitch-figure),.wiki-prose :global(.encyclopedia-figure){clear:both;margin:28px 0;width:100%;background:#fff}
 .wiki-prose :global(.pitch-figure img),.wiki-prose :global(.encyclopedia-figure img){display:block;width:100%;height:auto;margin:0;border-radius:0}
