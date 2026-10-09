@@ -46,7 +46,6 @@ const moreInDepth = inDepth.slice(8);
     <RandomConceptFigure concepts={inDepth} />
     {inDepth.length>0 && <section class="section featured-section" aria-labelledby="in-depth-title">
       <div class="section-heading"><div><div class="eyebrow">Read in depth</div><h2 id="in-depth-title">从深度词条开始</h2><p>从定义、机制到研究方法，结合文献深入理解听觉科学。</p></div><span class="featured-count">{inDepth.length} 篇深度词条</span></div>
-      <template id="in-depth-pool">{inDepth.map(concept=><ConceptCard concept={concept}/>)}</template>
       <div class="concept-grid" id="in-depth-featured">{featured.map(concept=><ConceptCard concept={concept}/>)}</div>
       {moreInDepth.length>0 && <nav id="in-depth-more" class="more-in-depth" aria-label="更多深度词条"><span>继续深入</span><div>{moreInDepth.map(concept=><a href={url(`concepts/${concept.data.slug}`)}>{concept.data.title}<span aria-hidden="true"> ↗</span></a>)}</div></nav>}
     </section>}
@@ -59,33 +58,6 @@ const moreInDepth = inDepth.slice(8);
     <FeedbackPanel />
   </div>
 </BaseLayout>
-<script>
-  const pool = document.querySelector<HTMLTemplateElement>('#in-depth-pool');
-  const grid = document.querySelector<HTMLElement>('#in-depth-featured');
-  if (pool && grid) {
-    const cards = Array.from(pool.content.querySelectorAll<HTMLAnchorElement>('.concept-card'));
-    // Shuffle in the browser so static hosting still gets a fresh selection per visit.
-    for (let i = cards.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [cards[i], cards[j]] = [cards[j], cards[i]];
-    }
-    grid.replaceChildren(...cards.slice(0, 8).map(card => card.cloneNode(true)));
-    const more = document.querySelector('#in-depth-more > div');
-    if (more) {
-      const prototype = more.querySelector('a');
-      more.replaceChildren(...cards.slice(8).map(card => {
-        const link = prototype?.cloneNode(false) as HTMLAnchorElement ?? document.createElement('a');
-        link.href = card.href;
-        link.textContent = card.querySelector('h3')?.textContent ?? '';
-        const arrow = document.createElement('span');
-        arrow.setAttribute('aria-hidden', 'true');
-        arrow.textContent = ' ↗';
-        link.append(arrow);
-        return link;
-      }));
-    }
-  }
-</script>
 <style>
   .partner-site{display:flex;align-items:center;flex-wrap:wrap;gap:8px 20px;margin-top:22px;padding:12px 18px;border:1px solid #e3deef;border-radius:8px;background:#f2f0f8;font-size:12px}
   .partner-label{color:var(--muted);font-size:11px}
