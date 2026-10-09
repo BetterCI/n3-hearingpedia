@@ -4,13 +4,13 @@ import type { Reference } from './references.ts';
 export const monitorReferences: Record<string, Reference> = {
   "mo-ci-adaptation-2026": {
     "title": "Longitudinal adaptations in neural and behavioral systems following hearing restoration using cochlear implants",
-    "authors": "Shimin Mo, Claude Alain, Andrew Dimitrijevic",
+    "authors": "Mo S, Alain C, Dimitrijevic A.",
     "year": "2026",
-    "publication": "PNAS；在线 2026-09-28，期次日期 2026-10-06",
+    "publication": "Proceedings of the National Academy of Sciences of the United States of America 123(40): e2613077123",
     "doi": "10.1073/pnas.2613077123",
-    "url": "https://doi.org/10.1073/pnas.2613077123",
-    "access": "abstract",
-    "supports": "已核对 PubMed 摘要及 DOI 书目：19 名新植入成人的纵向研究；神经跟踪、空间聆听与行为适应的相关性，不推断个体恢复期限。"
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13643281/",
+    "access": "fulltext",
+    "supports": "全文结果、方法、限制及数据声明：19名新植入成人、四次随访；安静与噪声的不同轨迹、EEG伪迹处理及代码/分析数据入口；不规定个体平台期。"
   },
   "guerit-focusing-2026": {
     "title": "On Balancing Sharpness of Excitation Patterns, Loudness, and Potential Effects on Speech Perception with Cochlear-Implant Current-Focussing Strategies",

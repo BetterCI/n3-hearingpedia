@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-09",
+  "status": "user-approved-publication-professional-review-pending",
+  "professional_review": "pending",
+  "entry": {
+    "chinese_characters": 7918,
+    "sections": 11,
+    "subsections": 18,
+    "sources": 21,
+    "figures": 4,
+    "display_formulas": 2
+  },
+  "source_access": {
+    "fulltext_key_sections": 5,
+    "abstract": 16
+  },
+  "checks": {
+    "astro_check": "passed: 0 errors, warnings or hints",
+    "build": "passed; existing shared-bundle size advisory",
+    "verify": "passed: 184 pages, 13507 internal links, 0 broken links",
+    "source_content": "passed",
+    "git_diff_check": "passed",
+    "figure_generation": "passed; numeric teaching-example assertions"
+  },
+  "browser_qa": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "听觉可塑性",
+      "overflow": false,
+      "references": 21,
+      "figures": 4,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/auditory-plasticity/evidence-chain.svg",
+          "width": 689,
+          "height": 500,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/auditory-plasticity/mechanism-framework.svg",
+          "width": 689,
+          "height": 537,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/auditory-plasticity/study-design.svg",
+          "width": 689,
+          "height": 485,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/auditory-plasticity/training-transfer.svg",
+          "width": 875,
+          "height": 779,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 790,
+          "parentWidth": 790,
+          "parentOverflow": "visible"
+        },
+        {
+          "width": 790,
+          "parentWidth": 790,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "听觉可塑性",
+      "overflow": false,
+      "references": 21,
+      "figures": 4,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/auditory-plasticity/evidence-chain.svg",
+          "width": 689,
+          "height": 500,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/auditory-plasticity/mechanism-framework.svg",
+          "width": 689,
+          "height": 537,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/auditory-plasticity/study-design.svg",
+          "width": 689,
+          "height": 485,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/auditory-plasticity/training-transfer.svg",
+          "width": 875,
+          "height": 779,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 520,
+          "parentWidth": 346,
+          "parentOverflow": "visible"
+        },
+        {
+          "width": 520,
+          "parentWidth": 346,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    }
+  ],
+  "oae_publication": {
+    "commit": "aadd6cf2175fa0efe51a90514e08fbaefb9aa888",
+    "pushed_to": "origin/main",
+    "deployment": "success",
+    "workflow": "https://github.com/BetterCI/n3-hearingpedia/actions/runs/37928198999"
+  }
+}

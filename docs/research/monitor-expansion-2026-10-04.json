@@ -156,14 +156,15 @@
       "doi": "10.1073/pnas.2613077123",
       "publication": "PNAS；在线 2026-09-28，期次日期 2026-10-06",
       "publication_type": "journal-article",
-      "access": "abstract",
+      "access": "fulltext",
       "first_seen_at": "2026-09-29T08:39:37Z",
       "monitor_publication_date": "2026-10-06",
       "monitor_publication_date_precision": "day",
       "monitor_available_online_date": "2026-09-28",
       "verified_online_date": "2026-09-28",
-      "evidence_scope": "已核对 PubMed 摘要及 DOI 书目：19 名新植入成人的纵向研究；神经跟踪、空间聆听与行为适应的相关性，不推断个体恢复期限。",
-      "openalex_id": "https://openalex.org/W7214648820"
+      "evidence_scope": "全文结果、方法、限制及数据声明：19名新植入成人、四次随访；安静与噪声的不同轨迹、EEG伪迹处理及代码/分析数据入口；不规定个体平台期。",
+      "openalex_id": "https://openalex.org/W7214648820",
+      "evidence_updated_at": "2026-10-09"
     },
     {
       "id": "guo-tracking-2026",
@@ -619,9 +620,27 @@
       "kind": "mechanism",
       "priority": "通用核心概念",
       "reference_ids": [
+        "schreiner-map-2014",
+        "plasticity-regulation-2020",
+        "kral-critical-2013",
+        "zhang-exposure-2001",
+        "sharma-sensitive-2002",
+        "kral-development-2012",
+        "polley-task-2006",
+        "reed-map-2011",
+        "froemke-ei-2015",
+        "damour-stdp-2015",
+        "bayazitov-adenosine-2024",
+        "auerbach-gain-2014",
+        "hutchison-gain-2023",
+        "kral-crossmodal-2023",
+        "crossmodal-ci-2025",
         "fu-plasticity-2005",
         "mo-ci-adaptation-2026",
-        "osullivan-aad-2015"
+        "whitton-training-2017",
+        "saunders-lace-2016",
+        "dornhoffer-training-2024",
+        "drieu-latent-2025"
       ],
       "monitor_source_ids": [
         "mo-ci-adaptation-2026"
