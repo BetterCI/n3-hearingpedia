@@ -1,5 +1,6 @@
 import { auditoryPathwayReferences } from './auditory-pathway-references.ts';
 import { audiologyReferences } from './audiology-references.ts';
+import { nelsonKiangReferences } from './nelson-kiang-references.ts';
 import { liLiangReferences } from './li-liang-references.ts';
 import { liangZhianReferences } from './liang-zhian-references.ts';
 import { frequencyResolutionReferences } from './frequency-resolution-references.ts';
@@ -33,6 +34,7 @@ export interface Reference { title: string; authors: string; year: string; publi
 export const references: Record<string, Reference> = {
   ...auditoryPathwayReferences,
   ...audiologyReferences,
+  ...nelsonKiangReferences,
   ...liLiangReferences,
   ...liangZhianReferences,
   ...frequencyResolutionReferences,

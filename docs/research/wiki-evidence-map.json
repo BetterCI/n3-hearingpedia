@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 281,
+  "relations": 287,
   "entries": [
     {
       "slug": "cochlea",
@@ -2460,6 +2460,39 @@
         "auditory-scene-analysis",
         "psychoacoustics",
         "liang-zhian"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "nelson-kiang",
+      "knowledge_area": "biology",
+      "kind": "person",
+      "chinese_characters": 2234,
+      "body_characters": 4732,
+      "sections": 6,
+      "subsections": 12,
+      "reference_ids": [
+        "kiang-hms-memorial-2023",
+        "kiang-mit-memorial-2023",
+        "kiang-fudan-2014",
+        "kiang-gerstein-analysis-1960",
+        "kiang-monograph",
+        "kiang-liberman-pathology-1984",
+        "kiang-cochlear-clues-1986",
+        "kiang-electric-1972"
+      ],
+      "wiki_links": [
+        "cochlea",
+        "inner-hair-cell",
+        "frequency-resolution",
+        "tonotopy",
+        "dynamic-range",
+        "outer-hair-cell",
+        "hearing-loss",
+        "cochlear-implant",
+        "channel-interaction",
+        "liang-zhian",
+        "li-liang"
       ],
       "status": "draft"
     },
