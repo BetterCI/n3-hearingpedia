@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('wu-zongji','mandarin-lexical-tone','researches','普通话声调、连读变调与语调研究。',3),
+  link('wu-zongji','fundamental-frequency','researches','语音基频变化与半音尺度处理。',3),
+  link('wu-zongji','mandarin-consonants','researches','普通话塞音、擦音与协同发音研究。',3),
+  link('wu-zongji','pitch-perception','related','音高测量与知觉的阅读联系，不等同直接知觉证据。',2),
+  link('wu-zongji','speech-intelligibility','related','语音合成、自然度与听者评价的阅读入口。',2),
+  link('wu-zongji','zhao-yuanren','related','清华师承与语调研究传统的联系。',3),
   link('liu-bannong','mandarin-lexical-tone','researches','早期汉语声调实验与方言声调研究。',3),
   link('liu-bannong','fundamental-frequency','researches','语音实验与音高变化的声学测量入口。',3),
   link('liu-bannong','pitch-perception','researches','声调声学描写与音高知觉的阅读联系，不等同直接知觉实验。',2),

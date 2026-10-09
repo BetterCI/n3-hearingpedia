@@ -59,3 +59,9 @@
   - 页面：https://www.cp.com.cn/book/5cce31b0-d.html
   - 原图：https://pic.cp.com.cn/Images/2026/1/7/103632279280fb8d0-6_hwc268268.jpg
 - 原页面未注明摄影者或开放许可证，图片著作权归相应权利人，本站开放许可不覆盖第三方图片。核验日期：2026-10-09。
+## 吴宗济
+
+- `wu-zongji/portrait.jpg` (562 × 791)：[发布页](https://www.cp.com.cn/Content/2022/08-01/1920300554.html)；[原图](https://pic.cp.com.cn/images/2022/8/1/192312955cdc99bdb-5.jpg)。吴宗济本人肖像；日期与摄影者未注明，保持原图。
+- `wu-zongji/oral-history-2022.jpg` (800 × 800)：[发布页](https://www.cp.com.cn/book/f0cff7b0-f.html)；[原图](https://pic.cp.com.cn/Images/2022/7/15/92453184ddb2832b-8.jpg)。出版社2022版封面展示图，未修改。
+
+以上为第三方公开资料，未确认开放授权，不属于本站内容许可证覆盖范围。
