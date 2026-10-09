@@ -15,6 +15,11 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link("auditory-pathway","binaural-hearing","mechanism","脑干汇聚与后续网络共同参与两耳信息利用。",3),
+  link("auditory-pathway","auditory-evoked-potential","related","诱发电位来自分布活动，不按波峰机械对应单核团。",3),
+  link("auditory-pathway","auditory-attention","related","状态与反馈参与多层级处理，不全部定位于一个区域。",2),
+  link("auditory-pathway","neural-speech-tracking","related","连续言语跟踪为网络活动读出，不直接等于逐词理解。",2),
+  link("auditory-pathway","auditory-plasticity","mechanism","经验与反馈可改变网络，但可塑性范围需独立验证。",2),
   link('audiology','hearing-loss','related','综合评估描述程度、类型和功能；病因仍需相应证据。',3),
   link('audiology','pure-tone-audiometry','related','纯音检测敏感度是评估的一部分，不能代表全部交流能力。',3),
   link('audiology','audiometric-calibration','related','输入、标度与校准条件决定测量结果的可比性。',3),

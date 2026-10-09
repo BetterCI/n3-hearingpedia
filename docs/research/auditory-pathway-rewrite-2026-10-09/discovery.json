@@ -1,0 +1,561 @@
+{
+  "seed": "https://doi.org/10.1038/nn.2466",
+  "discovery_limits": {
+    "topic": 15,
+    "backward": 15,
+    "forward": 15
+  },
+  "scope": "one citation-network layer plus targeted source verification; not a systematic review",
+  "semantic_prompt": "deep-research/scripts/judge_relevance.py output retained in local ignored artifacts",
+  "candidate_count": 45,
+  "candidates": [
+    {
+      "id": "https://openalex.org/W2041081710",
+      "doi": "https://doi.org/10.1002/cne.21249",
+      "title": "Corticofugal modulation of acoustically induced Fos expression in the rat auditory pathway",
+      "publication_year": 2007,
+      "type": "article",
+      "venue": "The Journal of Comparative Neurology",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2008359184",
+      "doi": "https://doi.org/10.1172/jci69050",
+      "title": "Optogenetic stimulation of the auditory pathway",
+      "publication_year": 2014,
+      "type": "article",
+      "venue": "Journal of Clinical Investigation",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2911773783",
+      "doi": "https://doi.org/10.7554/elife.42974",
+      "title": "Parallel pathways for sound processing and functional connectivity among layer 5 and 6 auditory corticofugal neurons",
+      "publication_year": 2019,
+      "type": "article",
+      "venue": "eLife",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2145388217",
+      "doi": "https://doi.org/10.1523/jneurosci.5333-10.2011",
+      "title": "Linking Topography to Tonotopy in the Mouse Auditory Thalamocortical Circuit",
+      "publication_year": 2011,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W4389475251",
+      "doi": "https://doi.org/10.1523/jneurosci.1190-23.2023",
+      "title": "Auditory Corticofugal Neurons Transmit Auditory and Non-auditory Information During Behavior",
+      "publication_year": 2023,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2146819146",
+      "doi": "https://doi.org/10.1523/jneurosci.4897-03.2004",
+      "title": "Corticofugal Gating of Auditory Information in the Thalamus: AnIn VivoIntracellular Recording Study",
+      "publication_year": 2004,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W3121195200",
+      "doi": "https://doi.org/10.3389/fncir.2020.615259",
+      "title": "Top-Down Inference in the Auditory System: Potential Roles for Corticofugal Projections",
+      "publication_year": 2021,
+      "type": "article",
+      "venue": "Frontiers in Neural Circuits",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2091800221",
+      "doi": "https://doi.org/10.1523/jneurosci.1549-09.2009",
+      "title": "Involvement of the Thalamocortical Loop in the Spontaneous Switching of Percepts in Auditory Streaming",
+      "publication_year": 2009,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2158227053",
+      "doi": "https://doi.org/10.1093/cercor/bhs066",
+      "title": "EphA Signaling Impacts Development of Topographic Connectivity in Auditory Corticofugal Systems",
+      "publication_year": 2012,
+      "type": "article",
+      "venue": "Cerebral Cortex",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1952736717",
+      "doi": "https://doi.org/10.1523/jneurosci.21-21-08672.2001",
+      "title": "ON and OFF Pathways Segregated at the Auditory Thalamus of the Guinea Pig",
+      "publication_year": 2001,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2263192676",
+      "doi": "https://doi.org/10.1038/ncomms8224",
+      "title": "Auditory cortex controls sound-driven innate defense behaviour through corticofugal projections to inferior colliculus",
+      "publication_year": 2015,
+      "type": "article",
+      "venue": "Nature Communications",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2783348137",
+      "doi": "https://doi.org/10.11575/prism/5369",
+      "title": "Thalamocortical forward modulation in the auditory cortex",
+      "publication_year": 2017,
+      "type": "dissertation",
+      "venue": null,
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W4285800746",
+      "doi": "https://doi.org/10.1093/cercor/bhac278",
+      "title": "Selective corticofugal modulation on sound processing in auditory thalamus of awake marmosets",
+      "publication_year": 2022,
+      "type": "article",
+      "venue": "Cerebral Cortex",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W3183797457",
+      "doi": "https://doi.org/10.3389/fncir.2021.714780",
+      "title": "Corticofugal VIP Gabaergic Projection Neurons in the Mouse Auditory and Motor Cortex",
+      "publication_year": 2021,
+      "type": "article",
+      "venue": "Frontiers in Neural Circuits",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W3137064691",
+      "doi": "https://doi.org/10.1101/2021.03.13.435231",
+      "title": "Selective Corticofugal Modulation on Sound Processing in Auditory Thalamus of Awake Marmosets",
+      "publication_year": 2021,
+      "type": "preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "discovered_in": [
+        "discovery"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1926043920",
+      "doi": "https://doi.org/10.1038/35016083",
+      "title": "Induction of neurogenesis in the neocortex of adult mice",
+      "publication_year": 2000,
+      "type": "article",
+      "venue": "Nature",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1964987303",
+      "doi": "https://doi.org/10.1038/nrn1366",
+      "title": "Specific long-term memory traces in primary auditory cortex",
+      "publication_year": 2004,
+      "type": "review",
+      "venue": "Nature reviews. Neuroscience",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1982999720",
+      "doi": "https://doi.org/10.1371/journal.pbio.0040071",
+      "title": "Training-Induced Plasticity of Auditory Localization in Adult Mammals",
+      "publication_year": 2006,
+      "type": "article",
+      "venue": "PLoS Biology",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W39784815",
+      "doi": "https://doi.org/10.1007/0-387-27083-3_2",
+      "title": "Neuronal Organization in the Inferior Colliculus",
+      "publication_year": 2005,
+      "type": "book-chapter",
+      "venue": "Springer eBooks",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1841773938",
+      "doi": "https://doi.org/10.1113/jphysiol.2009.171488",
+      "title": "Perceptual learning and adult cortical plasticity",
+      "publication_year": 2009,
+      "type": "article",
+      "venue": "The Journal of Physiology",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1778666343",
+      "doi": "https://doi.org/10.1152/jn.1984.52.5.819",
+      "title": "Role of cat primary auditory cortex for sound-localization behavior",
+      "publication_year": 1984,
+      "type": "article",
+      "venue": "Journal of Neurophysiology",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1844621239",
+      "doi": "https://doi.org/10.1523/jneurosci.04-04-01001.1984",
+      "title": "Monaural occlusion alters sound localization during a sensitive period in the barn owl",
+      "publication_year": 1984,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1961233348",
+      "doi": "https://doi.org/10.1152/jn.1990.64.3.915",
+      "title": "Effect of bilateral auditory cortex lesions on sound localization in Japanese macaques",
+      "publication_year": 1990,
+      "type": "article",
+      "venue": "Journal of Neurophysiology",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1994455760",
+      "doi": "https://doi.org/10.1046/j.1460-9568.2002.02046.x",
+      "title": "Corticofugal modulation of midbrain sound processing in the house mouse",
+      "publication_year": 2002,
+      "type": "article",
+      "venue": "European Journal of Neuroscience",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1997623519",
+      "doi": "https://doi.org/10.1523/jneurosci.3972-08.2008",
+      "title": "Corticofugal Modulation of Initial Sound Processing in the Brain",
+      "publication_year": 2008,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1963586001",
+      "doi": "https://doi.org/10.1152/jn.00260.2006",
+      "title": "Sound Localization Under Perturbed Binaural Hearing",
+      "publication_year": 2006,
+      "type": "article",
+      "venue": "Journal of Neurophysiology",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1965957368",
+      "doi": "https://doi.org/10.1152/jn.00644.2007",
+      "title": "Cues for Sound Localization Are Encoded in Multiple Aspects of Spike Trains in the Inferior Colliculus",
+      "publication_year": 2008,
+      "type": "article",
+      "venue": "Journal of Neurophysiology",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W147809334",
+      "doi": "https://doi.org/10.1152/jn.1978.41.5.1183",
+      "title": "Brain stem auditory pathways involved in reflexive head orientation to sound.",
+      "publication_year": 1978,
+      "type": "article",
+      "venue": "Journal of Neurophysiology",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1983805597",
+      "doi": "https://doi.org/10.1016/s1364-6613(00)01660-0",
+      "title": "The shape of ears to come: dynamic coding of auditory space",
+      "publication_year": 2001,
+      "type": "article",
+      "venue": "Trends in Cognitive Sciences",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W26208675",
+      "doi": null,
+      "title": "Relation between lateralization and loudness in asymmetrical hearing losses.",
+      "publication_year": 1976,
+      "type": "article",
+      "venue": "PubMed",
+      "discovered_in": [
+        "backward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2044647181",
+      "doi": "https://doi.org/10.3389/fpsyg.2011.00142",
+      "title": "Why would Musical Training Benefit the Neural Encoding of Speech? The OPERA Hypothesis",
+      "publication_year": 2011,
+      "type": "article",
+      "venue": "Frontiers in Psychology",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2024442432",
+      "doi": "https://doi.org/10.1523/jneurosci.2176-12.2012",
+      "title": "Aging Affects Neural Precision of Speech Encoding",
+      "publication_year": 2012,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2150273740",
+      "doi": "https://doi.org/10.1542/peds.2009-2826",
+      "title": "Nature of Auditory Processing Disorder in Children",
+      "publication_year": 2010,
+      "type": "article",
+      "venue": "PEDIATRICS",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1971827870",
+      "doi": "https://doi.org/10.1073/pnas.1201575109",
+      "title": "Subcortical encoding of sound is enhanced in bilinguals and relates to executive function advantages",
+      "publication_year": 2012,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2046368481",
+      "doi": "https://doi.org/10.1523/jneurosci.3292-14.2015",
+      "title": "Musical Training Orchestrates Coordinated Neuroplasticity in Auditory Brainstem and Cortex to Counteract Age-Related Declines in Categorical Vowel Perception",
+      "publication_year": 2015,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2031229177",
+      "doi": "https://doi.org/10.1016/j.heares.2013.03.006",
+      "title": "A dynamic auditory-cognitive system supports speech-in-noise perception in older adults",
+      "publication_year": 2013,
+      "type": "article",
+      "venue": "Hearing Research",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2048549637",
+      "doi": "https://doi.org/10.1038/nn.2882",
+      "title": "A critical period for auditory thalamocortical connectivity",
+      "publication_year": 2011,
+      "type": "article",
+      "venue": "Nature Neuroscience",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2787890532",
+      "doi": "https://doi.org/10.1038/nrn.2018.6",
+      "title": "Control of synaptic plasticity in deep cortical networks",
+      "publication_year": 2018,
+      "type": "review",
+      "venue": "Nature reviews. Neuroscience",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2085894439",
+      "doi": "https://doi.org/10.1016/j.brainres.2010.07.100",
+      "title": "Effects of reverberation on brainstem representation of speech in musicians and non-musicians",
+      "publication_year": 2010,
+      "type": "article",
+      "venue": "Brain Research",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2066175052",
+      "doi": "https://doi.org/10.1073/pnas.1213555110",
+      "title": "Reversal of age-related neural timing delays with training",
+      "publication_year": 2013,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2795174957",
+      "doi": "https://doi.org/10.1016/j.neuroimage.2018.03.060",
+      "title": "Subcortical sources dominate the neuroelectric auditory frequency-following response to speech",
+      "publication_year": 2018,
+      "type": "article",
+      "venue": "NeuroImage",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W2143541304",
+      "doi": "https://doi.org/10.3389/fpsyg.2011.00113",
+      "title": "Can You Hear Me Now? Musical Training Shapes Functional Brain Networks for Selective Auditory Attention and Hearing Speech in Noise",
+      "publication_year": 2011,
+      "type": "article",
+      "venue": "Frontiers in Psychology",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1964334703",
+      "doi": "https://doi.org/10.1097/aud.0b013e31822229d3",
+      "title": "A Neural Basis of Speech-in-Noise Perception in Older Adults",
+      "publication_year": 2011,
+      "type": "article",
+      "venue": "Ear and Hearing",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1999620978",
+      "doi": "https://doi.org/10.1523/jneurosci.1881-14.2014",
+      "title": "Music Enrichment Programs Improve the Neural Encoding of Speech in At-Risk Children",
+      "publication_year": 2014,
+      "type": "article",
+      "venue": "Journal of Neuroscience",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    },
+    {
+      "id": "https://openalex.org/W1989547833",
+      "doi": "https://doi.org/10.1162/jocn.2010.21556",
+      "title": "Perception of Speech in Noise: Neural Correlates",
+      "publication_year": 2010,
+      "type": "article",
+      "venue": "Journal of Cognitive Neuroscience",
+      "discovered_in": [
+        "forward"
+      ],
+      "assessment_status": "unassessed"
+    }
+  ],
+  "negative_findings": [
+    "Most PMC fullTextXML endpoints for non-OA author manuscripts failed; no full-text access claimed from those endpoints.",
+    "PubMed metadata confirms MGB study issue 47; issue 48 was corrected.",
+    "Bajo online year 2009 differs from official issue year 2010.",
+    "Conflicting Sharma DOI strings in search results resolved to PMID 12476090 metadata.",
+    "Lee acute-silencing comparison lacks an opsin-negative light control; limitation retained.",
+    "Generic Brian, NEURON, toolbox-home and MNE-software citations removed from this bibliography because they did not directly support the expanded mechanisms."
+  ]
+}

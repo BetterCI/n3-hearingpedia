@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 276,
+  "relations": 281,
   "entries": [
     {
       "slug": "cochlea",
@@ -2514,6 +2514,61 @@
         "auditory-plasticity"
       ],
       "status": "draft"
+    },
+    {
+      "slug": "auditory-pathway",
+      "knowledge_area": "biology",
+      "kind": "organization",
+      "chinese_characters": 8542,
+      "body_characters": 15568,
+      "sections": 10,
+      "subsections": 28,
+      "reference_ids": [
+        "six-openstax-neuro",
+        "six-bajo2013",
+        "six-pathway-network2026",
+        "robles-2001",
+        "six-rutherford2021",
+        "six-heil2015",
+        "binaural-hearing-grothe",
+        "six-joris2019",
+        "pathway-mso-linear-2013",
+        "six-tollin2003",
+        "six-ild2004",
+        "core-upgrade-joris",
+        "six-openstax-process",
+        "pathway-mgb-cooling-2011",
+        "pathway-cortex-natural-2012",
+        "lopez-olivocochlear-2018",
+        "pathway-corticocollicular-learning-2010",
+        "six-midbrain2024",
+        "pathway-p1-development-2002",
+        "zeng-2008",
+        "six-nidcd-neuropathy",
+        "core-upgrade-abr-starr",
+        "verhulst-model-2018",
+        "amt-verhulst2018",
+        "inner-hair-cell-verhulst-code"
+      ],
+      "wiki_links": [
+        "auditory-brainstem-response",
+        "spatial-hearing",
+        "neural-speech-tracking",
+        "inner-hair-cell",
+        "tonotopy",
+        "auditory-attention",
+        "auditory-scene-analysis",
+        "cochlear-implant",
+        "cochlea",
+        "binaural-hearing",
+        "interaural-time-difference",
+        "auditory-evoked-potential",
+        "electroencephalography",
+        "auditory-plasticity",
+        "speech-intelligibility"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
     }
   ]
 }

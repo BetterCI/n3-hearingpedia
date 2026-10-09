@@ -1,0 +1,76 @@
+{
+  "model": "normalized Gaussian temporal overlap",
+  "units": "all temporal parameters in ms",
+  "sigmas_ms": [
+    0.08,
+    0.2
+  ],
+  "internal_delays_ms": [
+    -0.2,
+    0,
+    0.2
+  ],
+  "integration": {
+    "t_range_ms": [
+      -3,
+      3
+    ],
+    "dt_ms": 0.0005,
+    "max_absolute_error": 1.6653345369377348e-16
+  },
+  "fwhm_ms": {
+    "0.08": 0.26641747557046325,
+    "0.2": 0.6660436889261582
+  },
+  "C_at_residual_0_2_ms": {
+    "0.08": 0.20961138715109778,
+    "0.2": 0.7788007830714049
+  },
+  "figures": [
+    {
+      "name": "02-binaural-circuits",
+      "files": [
+        "02-binaural-circuits.svg",
+        "02-binaural-circuits.png"
+      ],
+      "type": "original explanatory figure",
+      "description": "经典MSO双侧兴奋汇聚与LSO同侧兴奋／对侧经MNTB抑制；非完整解剖图。",
+      "generator": "scripts/generate-auditory-pathway.py",
+      "empirical_data": false
+    },
+    {
+      "name": "03-temporal-overlap",
+      "files": [
+        "03-temporal-overlap.svg",
+        "03-temporal-overlap.png"
+      ],
+      "type": "original explanatory figure",
+      "description": "无噪声高斯输入的解析重叠：输入宽度改变半高全宽，内部延迟改变峰值位置；教学参数，非生理实测。",
+      "generator": "scripts/generate-auditory-pathway.py",
+      "empirical_data": false
+    },
+    {
+      "name": "04-feedback-network",
+      "files": [
+        "04-feedback-network.svg",
+        "04-feedback-network.png"
+      ],
+      "type": "original explanatory figure",
+      "description": "皮层丘脑、皮层下丘和橄榄耳蜗反馈示意；不是皮层直接投射耳蜗。",
+      "generator": "scripts/generate-auditory-pathway.py",
+      "empirical_data": false
+    },
+    {
+      "name": "05-evidence-design",
+      "files": [
+        "05-evidence-design.svg",
+        "05-evidence-design.png"
+      ],
+      "type": "original explanatory figure",
+      "description": "解剖连接、活动相关和因果干预的证据矩阵；强调急性和长期干预差异。",
+      "generator": "scripts/generate-auditory-pathway.py",
+      "empirical_data": false
+    }
+  ],
+  "original_anatomy": "pathway-openstax.png unchanged; separately credited in article"
+}
