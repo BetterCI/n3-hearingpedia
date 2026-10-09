@@ -1,0 +1,130 @@
+{
+  "checked_at": "2026-10-09",
+  "delivery": "Local draft only; wait for user confirmation before commit or push",
+  "branch": "codex/audiology",
+  "published_base": "662a56bbcdfab2c69385f74d4b0c4a4396bcf0aa",
+  "professional_review": "Pending; reviewer and reviewed_at remain null",
+  "article": {
+    "chinese_characters": 8628,
+    "sections": 10,
+    "subsections": 29,
+    "references": 22,
+    "figures": 4
+  },
+  "astro_check": {
+    "files": 74,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": {
+    "pages": 153,
+    "pagefind_concepts": 60,
+    "existing_warning": "Client chunk over 500 kB; Pagefind zh-cn stemming unavailable"
+  },
+  "verify": {
+    "pages": 153,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 10786,
+    "equations": 124,
+    "searchableConcepts": 60,
+    "wikiConcepts": 60,
+    "typedRelationships": 266,
+    "wikiCrossLinks": 553,
+    "chineseCharacters": 386054,
+    "brokenLinks": 0
+  },
+  "existing_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "browser": {
+    "url": "http://127.0.0.1:4338/n3-hearingpedia/concepts/audiology/",
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "sections": 10,
+    "references": 22,
+    "figures": [
+      {
+        "alt": "声学输入、听觉功能、任务表现与日常参与四种评估层次及各自的证据问题",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4338/n3-hearingpedia/figures/audiology/01-assessment-levels.svg"
+      },
+      {
+        "alt": "纯音、言语、声导抗、耳声发射和ABR或ASSR分别提供的信息及不能独立推导的结论",
+        "width": 1920,
+        "height": 1152,
+        "href": "http://127.0.0.1:4338/n3-hearingpedia/figures/audiology/02-test-questions.svg"
+      },
+      {
+        "alt": "在假设灵敏度90%和特异度95%不变时，两种目标状态比例产生不同真阳性、假阳性人数与阳性预测值",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4338/n3-hearingpedia/figures/audiology/03-screening-predictive-value.svg"
+      },
+      {
+        "alt": "从个人交流目标分别进入设备输出验证与实际功能评价，再结合结果调整设备、策略和环境的循环",
+        "width": 1920,
+        "height": 1152,
+        "href": "http://127.0.0.1:4338/n3-hearingpedia/figures/audiology/04-verification-and-validation.svg"
+      }
+    ],
+    "anchors": 105,
+    "mobileOverflow": false,
+    "katexErrors": 0,
+    "figurePopup": true,
+    "domainLink": true,
+    "learningPathLink": true,
+    "searchable": true,
+    "pageErrors": []
+  },
+  "visual_review": "Original PNG figures and desktop/mobile article screenshots manually inspected; table scrolls within its container, figures open as SVG",
+  "frequency_resolution_publication": {
+    "commit": "662a56bbcdfab2c69385f74d4b0c4a4396bcf0aa",
+    "runs": [
+      {
+        "id": 37887054362,
+        "name": "Verify and deploy Hearingpedia",
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "662a56bbcdfab2c69385f74d4b0c4a4396bcf0aa",
+        "html_url": "https://github.com/BetterCI/n3-hearingpedia/actions/runs/37887054362"
+      }
+    ],
+    "live": [
+      {
+        "url": "https://betterci.github.io/n3-hearingpedia/concepts/frequency-resolution/",
+        "status": 200,
+        "bytes": 121639
+      },
+      {
+        "url": "https://betterci.github.io/n3-hearingpedia/figures/frequency-resolution/01-three-constructs.svg",
+        "status": 200,
+        "bytes": 122728
+      },
+      {
+        "url": "https://betterci.github.io/n3-hearingpedia/figures/frequency-resolution/02-spectral-smoothing.svg",
+        "status": 200,
+        "bytes": 158817
+      },
+      {
+        "url": "https://betterci.github.io/n3-hearingpedia/figures/frequency-resolution/03-measurement-chain.svg",
+        "status": 200,
+        "bytes": 90407
+      },
+      {
+        "url": "https://betterci.github.io/n3-hearingpedia/figures/frequency-resolution/04-spectral-aliasing.svg",
+        "status": 200,
+        "bytes": 117431
+      }
+    ]
+  }
+}

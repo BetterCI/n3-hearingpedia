@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-09",
+  "question": "听力学如何把测量、综合评估和以人为中心的听力服务联系起来？",
+  "population": "跨生命周期；具体检查条件与年龄适配分别说明",
+  "included": [
+    "原始专业政策与公开指南",
+    "原始测量验证研究",
+    "关键随机试验的主要和次级结局"
+  ],
+  "excluded": [
+    "厂商营销与未经校准应用的泛化性能",
+    "未读病例细节",
+    "所在地准入数值、具体药物和治疗处方"
+  ],
+  "recency": "核查日期为 2026-10-09；检索范围覆盖奠基工作至 2026 年，不将未筛选检索池当作已评价证据",
+  "discovery": [
+    {
+      "name": "topic",
+      "count": 12
+    },
+    {
+      "name": "seed",
+      "count": 1
+    },
+    {
+      "name": "backward",
+      "count": 7
+    },
+    {
+      "name": "forward",
+      "count": 12
+    }
+  ],
+  "seed_doi": "10.1001/archotol.1976.00780150082006",
+  "expansion": "1976 交叉验证种子一层前向与后向；指南另由发布机构核查",
+  "semantic_screening": "人工逐项评估最终 22 个来源。OpenAlex 发现池保存原始摘要与关联信息，仅作为候选，未选候选不宣称完成全文质量评价。",
+  "retained": 22,
+  "registered_access": {
+    "documentation": 10,
+    "fulltext": 10,
+    "abstract": 2
+  },
+  "limitations": [
+    "非系统综述，未进行全面风险偏倚评分",
+    "国际专业文件不是我国执业、医保或准入规则",
+    "Jerger 1976 与 Swanepoel 2014 仅核查摘要",
+    "WHO 本轮仅读官方概要，复用此前登记的报告全文来源",
+    "JCIH 2019 本轮读官方摘要全文及 2024 FAQ，不登记为已读 44 页声明全文",
+    "概念图与筛查计数均为教学构造"
+  ],
+  "delivery": "仅本地稿；不提交、不推送；等待维护者确认",
+  "discovery_metadata_caveat": "OpenAlex forward candidate for Year 2000 JCIH statement contains 2019 summary language; not used. Verify version-specific claims against official JCIH files."
+}

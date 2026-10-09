@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Audiology cross-check measurement and person-centred services
+
+Title: The Cross-Check Principle in Pediatric Audiometry
+Abstract: We discuss a method of pediatric audiologic assessment that employs the "cross-check principle". That is, the results of a single test are cross-checked by an independent test measure. Particularly useful in pediatric evaluations as cross-checks of behavioral test results are impedance audiometry and brain-stem-evoked response audiometry (BSER). We present five cases highlighting the value of the cross-check principle in pediatric audiologic evaluation.
+Keywords/concepts: 
+Venue: Archives of Otolaryngology - Head and Neck Surgery
+Year: 1976
+Cited by: 129
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

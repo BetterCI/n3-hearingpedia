@@ -14,6 +14,20 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('audiology','hearing-loss','related','综合评估描述程度、类型和功能；病因仍需相应证据。',3),
+  link('audiology','pure-tone-audiometry','related','纯音检测敏感度是评估的一部分，不能代表全部交流能力。',3),
+  link('audiology','audiometric-calibration','related','输入、标度与校准条件决定测量结果的可比性。',3),
+  link('audiology','auditory-evoked-potential','related','刺激相关电活动补充行为与其他生理证据。',3),
+  link('audiology','auditory-brainstem-response','related','ABR 用于特定条件下的神经响应评价与听阈估计。',3),
+  link('audiology','speech-reception-threshold','related','材料、任务和标度共同决定言语阈值的解释。',3),
+  link('audiology','speech-intelligibility','related','言语表现需要独立评价，不由纯音听阈直接换算。',3),
+  link('audiology','psychoacoustics','related','受控行为方法为感知功能的测量和解释提供基础。',3),
+  link('audiology','frequency-resolution','related','频率分辨与检测敏感度分开评估。',2),
+  link('audiology','temporal-resolution','related','时间任务观察阈上功能，需明确程序与可听度。',2),
+  link('audiology','hearing-aid','related','声学输出验证与实际功能获益评价共同支持验配。',3),
+  link('audiology','cochlear-implant','related','候选评估、编程、康复与随访需要综合资料。',3),
+  link('audiology','listening-effort','related','交流负担与识别正确率是不同的评价对象。',2),
+  link('audiology','auditory-plasticity','related','训练与经验相关变化需检验保留、迁移及使用条件。',2),
   link('frequency-resolution','auditory-filter','mechanism','滤波器提供频率选择性模型；带宽不能直接替代频率差别阈。',3),
   link('frequency-resolution','psychoacoustics','related','构念、刺激、任务和判据共同决定频率测量的解释范围。',3),
   link('frequency-resolution','masking','related','凹口噪声和调谐曲线通过掩蔽行为估计频率选择性。',3),

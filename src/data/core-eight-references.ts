@@ -275,8 +275,8 @@ export const coreEightReferences: Record<string, Reference> = {
     "year": "2023",
     "publication": "Lancet (London, England), 402(10404), 786-797",
     "doi": "10.1016/s0140-6736(23)01406-x",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/37478886/",
-    "access": "abstract",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/",
+    "access": "fulltext",
     "supports": "随机试验主要认知结局整体未显著改善，预先规定的不同招募人群分析与主要结果分开陈述。"
   },
   "achieve-communication-2024": {
@@ -285,8 +285,8 @@ export const coreEightReferences: Record<string, Reference> = {
     "year": "2024",
     "publication": "Journal of the American Geriatrics Society, 72(12), 3784-3799",
     "doi": "10.1111/jgs.19185",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39266468/",
-    "access": "abstract",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11637286/",
+    "access": "fulltext",
     "supports": "同一随机试验的次级自评交流结局；半年改善并维持至三年，不替代主要认知结局。"
   },
   "amt-zilany2014": {

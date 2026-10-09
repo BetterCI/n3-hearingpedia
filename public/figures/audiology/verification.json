@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-09",
+  "source": "scripts/generate-audiology.py",
+  "data_type": "Hypothetical counts and original conceptual diagrams; no participant or device measurements",
+  "figures": {
+    "01-assessment-levels": {
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "02-test-questions": {
+      "png_pixels": [
+        2000,
+        1200
+      ]
+    },
+    "03-screening-predictive-value": {
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "04-verification-and-validation": {
+      "png_pixels": [
+        2000,
+        1200
+      ]
+    }
+  },
+  "screening_counts": [
+    {
+      "N": 10000,
+      "prevalence": 0.01,
+      "sensitivity": 0.9,
+      "specificity": 0.95,
+      "TP": 90,
+      "FN": 10,
+      "FP": 495,
+      "TN": 9405,
+      "PPV": 0.15384615384615385,
+      "NPV": 0.9989378651088688,
+      "analytic_error": 1.1102230246251565e-16
+    },
+    {
+      "N": 10000,
+      "prevalence": 0.1,
+      "sensitivity": 0.9,
+      "specificity": 0.95,
+      "TP": 900,
+      "FN": 100,
+      "FP": 450,
+      "TN": 8550,
+      "PPV": 0.6666666666666666,
+      "NPV": 0.9884393063583815,
+      "analytic_error": 2.220446049250313e-16
+    }
+  ],
+  "assertions": [
+    "2x2 counts sum to N",
+    "sensitivity and specificity match stipulated inputs",
+    "count PPV matches Bayes formula to 1e-12"
+  ],
+  "font": "Microsoft YaHei"
+}

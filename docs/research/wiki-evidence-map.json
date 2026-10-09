@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 252,
+  "relations": 266,
   "entries": [
     {
       "slug": "cochlea",
@@ -2401,6 +2401,58 @@
         "temporal-fine-structure",
         "cochlear-implant-sound-perception",
         "psychoacoustics"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "audiology",
+      "knowledge_area": "measurement",
+      "kind": "discipline",
+      "chinese_characters": 8628,
+      "body_characters": 14630,
+      "sections": 10,
+      "subsections": 29,
+      "reference_ids": [
+        "audiology-asha-scope",
+        "who-world-report-hearing-2021",
+        "audiology-who-icf",
+        "asha-hearing-loss",
+        "pure-tone-audiometry-asha",
+        "speech-reception-threshold-asha",
+        "audiology-bsa-immittance",
+        "audiology-aaa-pediatric",
+        "audiology-jerger-crosscheck",
+        "audiology-jcih-2019-summary",
+        "core-upgrade-jcih-faq",
+        "audiometric-calibration-asha-screen",
+        "audiology-asha-child-screen",
+        "asha-hearing-aids-adults",
+        "audiology-asha-rehabilitation",
+        "audiology-ci-candidacy",
+        "achieve-2023",
+        "achieve-communication-2024",
+        "audiology-asha-telepractice",
+        "pure-tone-audiometry-swanepoel",
+        "audiology-asha-capd",
+        "nidcd-sudden"
+      ],
+      "wiki_links": [
+        "psychoacoustics",
+        "pure-tone-audiometry",
+        "audiometric-calibration",
+        "frequency-resolution",
+        "speech-reception-threshold",
+        "auditory-brainstem-response",
+        "hearing-aid",
+        "cochlear-implant",
+        "cochlear-implant-sound-perception",
+        "hearing-loss",
+        "auditory-evoked-potential",
+        "speech-intelligibility",
+        "temporal-resolution",
+        "spatial-hearing",
+        "listening-effort",
+        "auditory-plasticity"
       ],
       "status": "draft"
     }
