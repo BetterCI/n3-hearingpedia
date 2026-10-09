@@ -14,6 +14,19 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('frequency-resolution','auditory-filter','mechanism','滤波器提供频率选择性模型；带宽不能直接替代频率差别阈。',3),
+  link('frequency-resolution','psychoacoustics','related','构念、刺激、任务和判据共同决定频率测量的解释范围。',3),
+  link('frequency-resolution','masking','related','凹口噪声和调谐曲线通过掩蔽行为估计频率选择性。',3),
+  link('frequency-resolution','pitch-perception','related','纯音频差与音高方向判断相关，不能替代全部音高功能。',3),
+  link('frequency-resolution','timbre-perception','related','频谱细节提供音色线索，局部分量分辨与整体音色识别不同。',3),
+  link('frequency-resolution','temporal-fine-structure','related','候选时间信息可参与频率辨别，需与位置线索分别验证。',2),
+  link('frequency-resolution','temporal-resolution','related','时间与频谱线索可共同影响动态任务，但指标不能互换。',2),
+  link('frequency-resolution','pure-tone-audiometry','related','检测听阈用于评价可听度，不能直接读出阈上分辨能力。',3),
+  link('frequency-resolution','hearing-loss','related','损伤、可听度和任务条件共同约束阈上测量的解释。',2),
+  link('frequency-resolution','channel-interaction','mechanism','通道重叠和输入传递影响电听觉频谱任务，行为阈不能唯一反推电场。',3),
+  link('frequency-resolution','cochlear-implant-sound-perception','related','电听觉频谱指标与实际声音体验需要独立评估。',2),
+  link('frequency-resolution','speech-intelligibility','related','频谱指标与言语的相关联系不自动等于因果机制或介入收益。',3),
+  link('frequency-resolution','auditory-plasticity','related','训练后阈值变化需检验保留、迁移及任务熟悉效应。',2),
   link('timbre-perception','pitch-perception','related','固定基频不保证所有音高判断都不受明亮度影响，两类任务需要分开。',3),
   link('timbre-perception','loudness','related','等 RMS 不能代替等响匹配，响度是音色任务的重要控制条件。',3),
   link('timbre-perception','fundamental-frequency','related','固定谐波位置而改变振幅配比可操纵频谱线索。',2),

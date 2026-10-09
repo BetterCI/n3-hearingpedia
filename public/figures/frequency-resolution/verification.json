@@ -1,0 +1,67 @@
+{
+  "model": "stipulated log-frequency Gaussian power-density smoothing; no human or device data",
+  "smoothing": [
+    {
+      "rpo": 1,
+      "sigma_octave": 0.06,
+      "contrast_retention": 0.9314049334023056,
+      "output_modulation": 0.7451239467218445,
+      "analytic_error": 0.0
+    },
+    {
+      "rpo": 1,
+      "sigma_octave": 0.18,
+      "contrast_retention": 0.527529566381366,
+      "output_modulation": 0.42202365310509293,
+      "analytic_error": 5.551115123125783e-17
+    },
+    {
+      "rpo": 4,
+      "sigma_octave": 0.06,
+      "contrast_retention": 0.3207868397657028,
+      "output_modulation": 0.2566294718125625,
+      "analytic_error": 2.220446049250313e-16
+    },
+    {
+      "rpo": 4,
+      "sigma_octave": 0.18,
+      "contrast_retention": 3.5970699882555275e-05,
+      "output_modulation": 2.877655990629613e-05,
+      "analytic_error": 2.519075985134289e-16
+    }
+  ],
+  "aliasing": {
+    "samples_per_octave": 4,
+    "input_rpo": [
+      1,
+      3
+    ],
+    "maximum_sample_difference": 2.3314683517128287e-15
+  },
+  "figures": {
+    "01-three-constructs": {
+      "png_pixels": [
+        2100,
+        900
+      ]
+    },
+    "02-spectral-smoothing": {
+      "png_pixels": [
+        2000,
+        1200
+      ]
+    },
+    "03-measurement-chain": {
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "04-spectral-aliasing": {
+      "png_pixels": [
+        2000,
+        1100
+      ]
+    }
+  }
+}

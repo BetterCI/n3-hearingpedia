@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Human auditory frequency resolution: distinguish discrimination, selectivity, ripple tasks and implant measurement validity
+
+Title: Distortion of Spectral Ripples Through Cochlear Implants Has Major Implications for Interpreting Performance Scores
+Abstract: The spectral ripple discrimination task is a psychophysical measure that has been found to correlate with speech recognition in listeners with cochlear implants (CIs). However, at ripple densities above a critical value (around 2 RPO, but device-specific), the sparse spectral sampling of CI processors results in stimulus distortions resulting in aliasing and unintended changes in modulation depth. As a result, spectral ripple thresholds above a certain number are not ordered monotonically along the RPO dimension and thus cannot be considered better or worse spectral resolution than each other, thus undermining correlation measurements. These stimulus distortions are not remediated by changing stimulus phase, indicating these issues cannot be solved by spectrotemporally modulated stimuli. Speech generally has very low-density spectral modulations, leading to questions about the mechanism of correlation between high ripple thresholds and speech recognition. Existing data showing correlations between ripple discrimination and speech recognition include many observations above the aliasing limit. These scores should be treated with caution, and experimenters could benefit by prospectiv
+Keywords/concepts: 
+Venue: Ear and Hearing
+Year: 2021
+Cited by: 20
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

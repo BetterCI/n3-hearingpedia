@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "delivery": "user authorized publication on 2026-10-09; professionally unreviewed draft",
+  "branch": "codex/frequency-resolution",
+  "astro_check": {
+    "files": 72,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": {
+    "pages": 151,
+    "searchable_concepts": 59,
+    "status": "passed",
+    "existing_warning": "pre-existing bundle chunk larger than 500 kB"
+  },
+  "site_verification": {
+    "internal_links": 10545,
+    "broken_links": 0,
+    "equations": 121,
+    "concepts": 59,
+    "relationships": 252,
+    "legacy_redirects": 9
+  },
+  "required_tests": {
+    "suite": "scripts/fetch-visitor-stats.test.mjs",
+    "passed": 4,
+    "failed": 0
+  },
+  "article": {
+    "chinese_characters": 8454,
+    "sections": 10,
+    "subsections": 31,
+    "references": 23,
+    "figures": 4,
+    "status": "draft",
+    "professional_review": false
+  },
+  "browser": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "anchors": 133,
+    "figures_loaded": 4,
+    "reference_targets": 23,
+    "mobile_page_overflow": false,
+    "katex_errors": 0,
+    "unrendered_caption_math": false,
+    "original_figure_popup": true,
+    "domain_link": true,
+    "learning_path_link": true,
+    "searchable": true,
+    "page_errors": []
+  },
+  "visual_review": {
+    "original_pngs": 4,
+    "desktop_header": true,
+    "mobile_header": true,
+    "mobile_computation_and_caption": true,
+    "mobile_table": true
+  },
+  "calculation_verification": {
+    "maximum_smoothing_error": 2.519075985134289e-16,
+    "maximum_alias_sample_difference": 2.3314683517128287e-15,
+    "human_or_device_data": false
+  },
+  "preview_url": "http://127.0.0.1:4338/n3-hearingpedia/concepts/frequency-resolution/",
+  "remote_base": "435cfb6",
+  "publication_checks": "check, build, verify and required tests passed after integrating remote Mandarin consolidation"
+}
