@@ -1,0 +1,334 @@
+{
+  "prepared_at": "2026-10-09",
+  "historical_snapshot": {
+    "commit": "2c0e321816134927a2d699ec325bf1f949af74bf",
+    "short_commit": "2c0e321",
+    "date": "2026-10-06"
+  },
+  "scope": "All concepts marked depth: in-depth at the historical snapshot. Later edits and current uncommitted entries are excluded.",
+  "counting_rules": {
+    "body_han_characters": "Count U+4E00 to U+9FFF in the Markdown body after YAML frontmatter, including captions, alt text and any embedded markup text. This is not deduplicated rendered prose.",
+    "h2_sections": "Count Markdown lines starting with ##, including see-also and source notes.",
+    "h3_sections": "Count Markdown lines starting with ###.",
+    "body_figures": "Count <figure> elements in the body; exclude frontmatter illustration.",
+    "references": "Count IDs in the frontmatter references array."
+  },
+  "entry_count": 18,
+  "summary": {
+    "body_han_characters": {
+      "min": 4930,
+      "max": 9808,
+      "median": 7129.0
+    },
+    "h2_sections": {
+      "min": 6,
+      "max": 13,
+      "median": 9.0
+    },
+    "h3_sections": {
+      "min": 5,
+      "max": 35,
+      "median": 14.5
+    },
+    "body_figures": {
+      "min": 0,
+      "max": 7,
+      "median": 3.0
+    },
+    "references": {
+      "min": 9,
+      "max": 35,
+      "median": 17.5
+    }
+  },
+  "entries": [
+    {
+      "slug": "auditory-evoked-potential",
+      "title": "听觉诱发电位",
+      "source_path": "src/content/concepts/auditory-evoked-potential.md",
+      "body_han_characters": 7054,
+      "h2_sections": 10,
+      "h3_sections": 7,
+      "body_figures": 3,
+      "references": 17,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/core-eight/figures/auditory-evoked-potential-1.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/auditory-evoked-potential-2.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/auditory-evoked-potential-3.svg"
+      ]
+    },
+    {
+      "slug": "auditory-filter",
+      "title": "听觉滤波器",
+      "source_path": "src/content/concepts/auditory-filter.md",
+      "body_han_characters": 8671,
+      "h2_sections": 10,
+      "h3_sections": 23,
+      "body_figures": 3,
+      "references": 26,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/auditory-filter/01-filterbank-excitation.svg",
+        "/n3-hearingpedia/figures/auditory-filter/02-erb-definition.svg",
+        "/n3-hearingpedia/figures/auditory-filter/03-notched-noise.svg"
+      ]
+    },
+    {
+      "slug": "cochlea",
+      "title": "耳蜗",
+      "source_path": "src/content/concepts/cochlea.md",
+      "body_han_characters": 8460,
+      "h2_sections": 11,
+      "h3_sections": 19,
+      "body_figures": 3,
+      "references": 24,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/cochlea/01-openstax-cochlea.webp",
+        "/n3-hearingpedia/figures/cochlea/02-place-and-wave.svg",
+        "/n3-hearingpedia/figures/cochlea/03-effertz-hair-cell-domains.jpg"
+      ]
+    },
+    {
+      "slug": "cochlear-implant-coding-strategies",
+      "title": "人工耳蜗信号处理策略",
+      "source_path": "src/content/concepts/cochlear-implant-coding-strategies.md",
+      "body_han_characters": 5802,
+      "h2_sections": 6,
+      "h3_sections": 18,
+      "body_figures": 0,
+      "references": 35,
+      "infobox_illustration": false,
+      "body_image_paths": []
+    },
+    {
+      "slug": "cochlear-implant",
+      "title": "人工耳蜗",
+      "source_path": "src/content/concepts/cochlear-implant.md",
+      "body_han_characters": 4930,
+      "h2_sections": 10,
+      "h3_sections": 23,
+      "body_figures": 0,
+      "references": 27,
+      "infobox_illustration": true,
+      "body_image_paths": []
+    },
+    {
+      "slug": "dynamic-range",
+      "title": "动态范围",
+      "source_path": "src/content/concepts/dynamic-range.md",
+      "body_han_characters": 9808,
+      "h2_sections": 13,
+      "h3_sections": 32,
+      "body_figures": 2,
+      "references": 15,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/dynamic-range/01-listening-states.svg",
+        "/n3-hearingpedia/figures/dynamic-range/02-device-mapping.svg"
+      ]
+    },
+    {
+      "slug": "fundamental-frequency",
+      "title": "基频",
+      "source_path": "src/content/concepts/fundamental-frequency.md",
+      "body_han_characters": 8065,
+      "h2_sections": 9,
+      "h3_sections": 8,
+      "body_figures": 4,
+      "references": 13,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/core-eight/figures/fundamental-frequency-1.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/fundamental-frequency-2.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/fundamental-frequency-speech-spectrogram.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/fundamental-frequency-3.svg"
+      ]
+    },
+    {
+      "slug": "hearing-aid",
+      "title": "助听器",
+      "source_path": "src/content/concepts/hearing-aid.md",
+      "body_han_characters": 8552,
+      "h2_sections": 12,
+      "h3_sections": 9,
+      "body_figures": 5,
+      "references": 21,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/hearing-aid/01-signal-and-acoustic-paths.svg",
+        "/n3-hearingpedia/figures/hearing-aid/02-compression-level-and-time.svg",
+        "/n3-hearingpedia/figures/hearing-aid/03-directional-principle.svg",
+        "/n3-hearingpedia/figures/hearing-aid/04-open-fitting-delay.svg",
+        "/n3-hearingpedia/figures/hearing-aid/05-real-ear-verification.svg"
+      ]
+    },
+    {
+      "slug": "hearing-loss",
+      "title": "听力损失",
+      "source_path": "src/content/concepts/hearing-loss.md",
+      "body_han_characters": 6667,
+      "h2_sections": 10,
+      "h3_sections": 6,
+      "body_figures": 3,
+      "references": 16,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/core-eight/figures/hearing-loss-1.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/hearing-loss-2.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/hearing-loss-3.svg"
+      ]
+    },
+    {
+      "slug": "loudness",
+      "title": "响度",
+      "source_path": "src/content/concepts/loudness.md",
+      "body_han_characters": 7204,
+      "h2_sections": 9,
+      "h3_sections": 5,
+      "body_figures": 4,
+      "references": 13,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/core-eight/figures/loudness-1.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/loudness-equal-contours.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/loudness-2.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/loudness-3.svg"
+      ]
+    },
+    {
+      "slug": "masking",
+      "title": "掩蔽",
+      "source_path": "src/content/concepts/masking.md",
+      "body_han_characters": 6869,
+      "h2_sections": 9,
+      "h3_sections": 6,
+      "body_figures": 3,
+      "references": 11,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/core-eight/figures/masking-1.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/masking-2.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/masking-3.svg"
+      ]
+    },
+    {
+      "slug": "pitch-perception",
+      "title": "音高感知",
+      "source_path": "src/content/concepts/pitch-perception.md",
+      "body_han_characters": 7609,
+      "h2_sections": 9,
+      "h3_sections": 24,
+      "body_figures": 7,
+      "references": 18,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/pitch/01-everyday-scenes.svg",
+        "/n3-hearingpedia/figures/pitch/07-pitch-helix.svg",
+        "/n3-hearingpedia/figures/pitch/02-missing-fundamental.svg",
+        "/n3-hearingpedia/figures/pitch/03-harmonic-resolvability.svg",
+        "/n3-hearingpedia/figures/pitch/04-place-time-candidates.svg",
+        "/n3-hearingpedia/figures/pitch/05-pitch-tasks.svg",
+        "/n3-hearingpedia/figures/pitch/06-ci-pitch-parameters.svg"
+      ]
+    },
+    {
+      "slug": "spatial-hearing",
+      "title": "空间听觉",
+      "source_path": "src/content/concepts/spatial-hearing.md",
+      "body_han_characters": 8176,
+      "h2_sections": 9,
+      "h3_sections": 11,
+      "body_figures": 3,
+      "references": 16,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/core-eight/figures/spatial-hearing-1.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/spatial-hearing-2.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/spatial-hearing-3.svg"
+      ]
+    },
+    {
+      "slug": "speech-intelligibility",
+      "title": "言语可懂度",
+      "source_path": "src/content/concepts/speech-intelligibility.md",
+      "body_han_characters": 9587,
+      "h2_sections": 12,
+      "h3_sections": 35,
+      "body_figures": 5,
+      "references": 24,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/speech-intelligibility/01-listening-scenes.svg",
+        "/n3-hearingpedia/figures/speech-intelligibility/02-acoustic-cues.svg",
+        "/n3-hearingpedia/figures/speech-intelligibility/03-background-conditions.svg",
+        "/n3-hearingpedia/figures/speech-intelligibility/04-psychometric-functions.svg",
+        "/n3-hearingpedia/figures/speech-intelligibility/05-scoring-units.svg"
+      ]
+    },
+    {
+      "slug": "temporal-envelope",
+      "title": "时域包络",
+      "source_path": "src/content/concepts/temporal-envelope.md",
+      "body_han_characters": 6712,
+      "h2_sections": 9,
+      "h3_sections": 19,
+      "body_figures": 2,
+      "references": 20,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/temporal-cues/01-envelope-tfs-decomposition.svg",
+        "/n3-hearingpedia/figures/temporal-cues/02-bandwidth-and-beating.svg"
+      ]
+    },
+    {
+      "slug": "temporal-fine-structure",
+      "title": "时域精细结构",
+      "source_path": "src/content/concepts/temporal-fine-structure.md",
+      "body_han_characters": 6387,
+      "h2_sections": 8,
+      "h3_sections": 19,
+      "body_figures": 3,
+      "references": 21,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/temporal-cues/01-envelope-tfs-decomposition.svg",
+        "/n3-hearingpedia/figures/temporal-cues/04-binaural-envelope-and-phase.svg",
+        "/n3-hearingpedia/figures/temporal-cues/03-filtering-creates-envelope.svg"
+      ]
+    },
+    {
+      "slug": "tonotopy",
+      "title": "频位映射关系",
+      "source_path": "src/content/concepts/tonotopy.md",
+      "body_han_characters": 6910,
+      "h2_sections": 9,
+      "h3_sections": 8,
+      "body_figures": 3,
+      "references": 9,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/core-eight/figures/tonotopy-1.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/tonotopy-2.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/tonotopy-3.svg"
+      ]
+    },
+    {
+      "slug": "vocoder",
+      "title": "声码器",
+      "source_path": "src/content/concepts/vocoder.md",
+      "body_han_characters": 6899,
+      "h2_sections": 8,
+      "h3_sections": 6,
+      "body_figures": 3,
+      "references": 10,
+      "infobox_illustration": false,
+      "body_image_paths": [
+        "/n3-hearingpedia/figures/core-eight/figures/vocoder-1.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/vocoder-2.svg",
+        "/n3-hearingpedia/figures/core-eight/figures/vocoder-3.svg"
+      ]
+    }
+  ]
+}

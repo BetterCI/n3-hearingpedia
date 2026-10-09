@@ -1,8 +1,22 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { url } from '../lib/paths';
+import { url, asset } from '../lib/paths';
 ---
 <BaseLayout title="Contribute · 参与贡献"><div class="container reading-page"><div class="page-intro"><div class="eyebrow">Build knowledge together</div><h1>把一次阅读，变成共同知识。</h1><p>从阅读、教学和实验中的具体问题开始，用可追溯的证据完善解释。</p></div><div class="prose">
+  <section class="writing-start" aria-labelledby="writing-start-heading">
+    <h2 id="writing-start-heading">撰写新词条</h2>
+    <p>先选择基础词条或深度词条，再按模板组织正文、文献和图片。两类词条都要求概念准确、来源可追溯；篇幅与图数用于规划，可随主题调整。</p>
+    <div class="entry-types">
+      <div><h3>基础词条</h3><p>讲清定义、核心原理、代表性方法、应用与常见误读。</p><span>建议 2,000–4,000 汉字 · 1–2 张图</span></div>
+      <div><h3>深度词条</h3><p>展开机制、研究范式、分析例子及结果的证据边界。</p><span>建议 6,000–10,000 汉字 · 3–5 张图</span></div>
+    </div>
+    <div class="writing-actions">
+      <a class="button primary" href={url('contribute/writing-guide')}>阅读完整规范</a>
+      <a class="button" href={url('contribute/writing-guide') + '#templates'}>获取起草模板</a>
+      <a class="button" href={asset('downloads/contributor-kit/hearingpedia-contributor-kit-v0.1.zip')} download>下载协作包 <span aria-hidden="true">↓</span></a>
+    </div>
+    <p class="writing-help">可以先交正文和配套材料，由维护者完成网站接入。协作包包含两类模板、AI 提示词和交稿清单。</p>
+  </section>
   <h2>提出一个词条或修正</h2><p>无需 GitHub 账号，可通过<a href="https://wj.qq.com/s2/28094347/s3u4/" target="_blank" rel="noopener noreferrer">腾讯问卷提交建议 ↗</a>。每篇词条底部提供问卷入口和词条信息复制按钮；首页底部也可提出词条增减、分类组织及其他建议。</p><p>描述你在阅读或实验中遇到的具体问题，附上相关词条和论文 DOI／链接，并在问卷中填写联系方式。建议由维护者核对处理后再更新网站。</p>
   <h2>贡献流程</h2><ol><li>Fork <a href="https://github.com/BetterCI/n3-hearingpedia">项目仓库</a>，或通过 Issue 提出修改建议。</li><li>在 Markdown 词条中新增或修改内容，登记作者与参考文献。</li><li>检查公式变量、适用条件、关联词条与引用用途。</li><li>提交 Pull Request，说明改变了什么论断以及为什么。</li><li>审阅者检查科学内容；通过后更新状态与审阅记录。</li><li>合并发布，保留版本历史。</li></ol>
   <h2>一份更新说明至少包含</h2><ul><li>目标词条与需要修改的具体论断。</li><li>相关论文及支持论断的证据位置。</li><li>研究对象、任务和适用条件。</li><li>与既有证据是否一致，还有哪些问题待核实。</li></ul>
@@ -10,3 +24,16 @@ import { url } from '../lib/paths';
   <h2>逐渐加入 AI 更新</h2><p>当前可在读者提出的研究问题中，以论文为输入让 AI 提取概念、整理证据并提出草稿。后续再接入主题检索和文献跟踪；自动跟踪尚未启用。</p><p>AI 的草稿需要保留来源、原论断、新论断和待核实项。基础机制不因单篇新论文自动替换。</p>
   <p><a href={url('explore')}>从已有词条开始</a> · <a href="https://github.com/BetterCI/n3-hearingpedia/blob/main/README.md">查看本地运行与编写说明</a></p>
 </div></div></BaseLayout>
+<style>
+  .writing-start{padding:25px;border:1px solid var(--line);border-radius:12px;background:#f7f5fb}
+  .writing-start h2{margin:0 0 14px}
+  .entry-types{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin:20px 0}
+  .entry-types>div{padding:18px;border:1px solid var(--line);border-radius:9px;background:#fff}
+  .entry-types h3{margin:0 0 10px;font-size:17px}
+  .entry-types p{font-size:13px;margin-bottom:10px}
+  .entry-types span{font-size:12px;color:var(--muted)}
+  .writing-actions{display:flex;flex-wrap:wrap;gap:10px}
+  .writing-actions a{text-decoration:none}
+  .writing-start .writing-help{font-size:12px;color:var(--muted);margin:16px 0 0}
+  @media(max-width:600px){.writing-start{padding:20px 16px}.entry-types{grid-template-columns:1fr}.writing-actions{flex-direction:column}}
+</style>

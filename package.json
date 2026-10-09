@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev --host 127.0.0.1",
-    "build": "astro build && pagefind --site dist --exclude-selectors .katex",
+    "dev": "node scripts/prepare-contributor-downloads.mjs && astro dev --host 127.0.0.1",
+    "build": "node scripts/prepare-contributor-downloads.mjs && astro build && pagefind --site dist --exclude-selectors .katex",
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check",
     "verify": "node scripts/verify.mjs"

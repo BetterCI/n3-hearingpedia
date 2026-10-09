@@ -1,0 +1,99 @@
+---
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { url, asset } from '../../lib/paths';
+import source from '../../../docs/contributor-kit/README.md?raw';
+
+const templates = [
+  { file: 'basic-entry-template.md', title: '基础词条模板', detail: '定义、原理、方法、例子与边界。' },
+  { file: 'in-depth-entry-template.md', title: '深度词条模板', detail: '机制、研究范式、分析与证据比较。' },
+  { file: 'ai-writing-prompts.md', title: 'AI 辅助撰写提示词', detail: '两类生成提示词与作者核对提示词。' },
+  { file: 'submission-template.md', title: '交稿说明模板', detail: '来源与论断、图源、关系和待核实项。' },
+  { file: 'technical-integration.md', title: '网站接入说明', detail: '供直接提交仓库的作者与维护者使用。' },
+];
+let markdown = source.replace(/^# [^\n]+\r?\n/, '').trimStart().replace(/^协作版[^\n]+\r?\n/, '').trimStart();
+for (const item of templates) markdown = markdown.replaceAll(`](${item.file})`, `](${asset(`downloads/contributor-kit/${item.file}`)})`);
+const processor = await createMarkdownProcessor();
+const rendered = await processor.render(markdown);
+const guideHtml = rendered.code
+  .replace(/<table>/g, '<p class="table-hint">横向滑动查看完整表格 →</p><div class="guide-table" tabindex="0" role="region" aria-label="表格，可横向滚动"><table>')
+  .replace(/<\/table>/g, '</table></div>')
+  .replace(/<a href="([^"]+\.md)">/g, '<a href="$1" download>');
+const sections = rendered.metadata.headings.filter(heading => heading.depth === 2);
+const examples = [
+  { slug: 'pitch-perception', title: '音高感知', note: '概念区分、经典现象与实验任务' },
+  { slug: 'auditory-filter', title: '听觉滤波器', note: '变量、测量方法与计算模型' },
+  { slug: 'speech-intelligibility', title: '言语可懂度', note: '评分、实验控制与结果解释' },
+  { slug: 'hearing-aid', title: '助听器', note: '系统处理、验证与实际获益' },
+];
+---
+<BaseLayout title="词条编写规范 · 参与贡献" description="n³ Hearingpedia 基础词条与深度词条的内容、文献、配图和交稿规范，附可下载起草模板。">
+  <div class="container guide-page">
+    <div class="breadcrumb"><a href={url('contribute')}>参与贡献</a><span>/</span><span>词条编写规范</span></div>
+    <header class="page-intro">
+      <div class="eyebrow">Writing for Hearingpedia</div>
+      <h1>词条编写规范</h1>
+      <p>从清楚的定义开始，连接机制、方法与证据。选择适合主题的解释深度，用同一套科学写作要求完成新词条。</p>
+      <p class="guide-version">协作版 v0.1 · 更新于 2026 年 10 月 9 日</p>
+      <div class="guide-actions">
+        <a class="button primary" href={asset('downloads/contributor-kit/hearingpedia-contributor-kit-v0.1.zip')} download>下载完整协作包 <span aria-hidden="true">↓</span></a>
+        <a class="button" href={asset('downloads/contributor-kit/README.md')} download="hearingpedia-writing-standard.md">下载编写规范</a>
+        <a class="button" href="#templates">选择起草模板</a>
+      </div>
+    </header>
+    <div class="guide-layout">
+      <div class="guide-main">
+        <section class="templates" id="templates" aria-labelledby="templates-heading">
+          <h2 id="templates-heading">起草模板与交稿材料</h2>
+          <p>每份文件均可单独下载。完整协作包包含全部六份 Markdown 文件，便于分享给合作者或提供给 AI 辅助起草。</p>
+          <div class="template-grid">
+            {templates.map(item => <a href={asset(`downloads/contributor-kit/${item.file}`)} download class="template-link"><strong>{item.title}<span aria-hidden="true">↓</span></strong><span>{item.detail}</span><small>Markdown 文件</small></a>)}
+          </div>
+        </section>
+        <article class="prose guide-prose" set:html={guideHtml} />
+        <section class="examples prose" id="examples" aria-labelledby="examples-heading">
+          <h2 id="examples-heading">编写依据与示例</h2>
+          <p>规范结合早期词条的结构与配图经验形成。以下深度词条展示不同主题的展开方式；解释范围与专业审阅状态分别标注。</p>
+          <ul>{examples.map(item => <li><a href={url(`concepts/${item.slug}`)}>{item.title}</a>：{item.note}。</li>)}</ul>
+          <p><a href="https://github.com/BetterCI/n3-hearingpedia/blob/main/docs/in-depth-entry-writing-guide.md">查看早期词条经验与历史统计 ↗</a></p>
+          <p><a href={url('contribute')}>返回参与贡献，了解交稿与审阅流程 →</a></p>
+        </section>
+      </div>
+      <aside class="guide-sidebar" aria-label="编写规范目录">
+        <div class="toc-label">本页内容</div>
+        <nav><a href="#templates">起草模板与交稿材料</a>{sections.map(section => <a href={`#${section.slug}`}>{section.text}</a>)}<a href="#examples">编写依据与示例</a></nav>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>
+<style>
+  .guide-page{padding-bottom:65px}
+  .page-intro{max-width:790px;padding-top:20px}
+  .page-intro .guide-version{font-size:12px;margin-top:15px}
+  .guide-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .guide-layout{display:grid;grid-template-columns:minmax(0,790px) minmax(160px,1fr);gap:55px;align-items:start}
+  .guide-main{min-width:0}
+  .templates{padding:24px;border:1px solid var(--line);border-radius:12px;background:#f7f5fb;scroll-margin-top:95px}
+  .templates h2{font-size:22px;margin-bottom:12px}
+  .templates>p{font-size:13px;line-height:1.9;color:var(--muted)}
+  .template-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+  .template-link{display:flex;flex-direction:column;gap:8px;padding:17px;border:1px solid var(--line);border-radius:8px;background:#fff}
+  .template-link:hover{border-color:#ada0cf;background:#fcfbff}
+  .template-link strong{display:flex;justify-content:space-between;gap:12px;font-size:14px}
+  .template-link>span{font-size:12px;color:var(--muted);line-height:1.8}
+  .template-link small{font-size:11px;color:var(--accent)}
+  .guide-prose{margin-top:30px}
+  .guide-prose :global(.table-hint){display:none;font-size:12px;color:var(--muted);margin:18px 0 -12px}
+  .guide-prose :global(.guide-table){max-width:100%;overflow-x:auto;margin:20px 0;border:1px solid var(--line);border-radius:8px}
+  .guide-prose :global(table){display:table;min-width:620px;margin:0;line-height:1.8}
+  .guide-prose :global(th),.guide-prose :global(td){min-width:110px}
+  .guide-prose :global(input[type="checkbox"]){margin-right:6px;accent-color:var(--accent)}
+  .guide-sidebar{position:sticky;top:105px}
+  .toc-label{font-size:12px;font-weight:600;color:var(--muted);margin-bottom:15px}
+  .guide-sidebar nav{display:flex;flex-direction:column;gap:12px;border-left:1px solid var(--line);padding-left:16px;max-height:calc(100vh - 145px);overflow-y:auto}
+  .guide-sidebar nav a{font-size:12px;line-height:1.8;color:var(--muted)}
+  .guide-sidebar nav a:hover{color:var(--accent)}
+  .examples{margin-top:40px;border-top:1px solid var(--line);padding-top:10px}
+  @media(max-width:900px){.guide-layout{display:block}.guide-sidebar{display:none}}
+  @media(max-width:600px){.page-intro h1{font-size:32px}.guide-actions{flex-direction:column}.templates{padding:20px 16px}.template-grid{grid-template-columns:1fr}.guide-prose :global(table){font-size:12px}.guide-prose :global(.table-hint){display:block}}
+</style>
