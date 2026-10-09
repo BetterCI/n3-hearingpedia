@@ -16,6 +16,7 @@ const context=`${title?'词条：'+title:'反馈页面：n³ Hearingpedia 首页
   </div>
   {title && <p class="feedback-help">可先复制词条信息，粘贴到问卷的“针对具体某个词条的内容建议”中。</p>}
   <p class="feedback-help">建议通过腾讯问卷提交，请在问卷中填写联系方式。由维护者核对处理后更新网站。</p>
+  {title && <p class="feedback-contribute">愿意参与完善或撰写词条？<a href={url('contribute')}>查看贡献方式与编写规范 →</a></p>}
   <details class="feedback-context"><summary>查看{title?'词条':'页面'}信息</summary><textarea readonly aria-label="可复制的反馈页面信息" rows="3">{context}</textarea></details>
   <p class="feedback-result" role="status" aria-live="polite"></p>
 </section>
@@ -45,5 +46,7 @@ const context=`${title?'词条：'+title:'反馈页面：n³ Hearingpedia 首页
   .feedback-context{font-size:12px;color:var(--muted);margin-top:14px}.feedback-context summary{cursor:pointer}
   textarea{display:block;width:100%;max-width:760px;box-sizing:border-box;margin-top:10px;padding:10px 12px;border:1px solid #cbdad6;border-radius:5px;background:white;color:var(--ink);font-family:inherit;font-size:12px;line-height:1.8;resize:vertical}
   .feedback-result{font-size:12px;color:#216658;margin-top:12px}.feedback-result:empty{display:none}
+  .feedback-contribute{margin-top:18px;padding-top:16px;border-top:1px solid #d2dfdd;font-size:13px}
+  .feedback-contribute a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
   @media(max-width:600px){.feedback-panel{padding:22px 18px}h2{font-size:22px}.feedback-actions{align-items:stretch;flex-direction:column}.feedback-actions .button{justify-content:center}}
 </style>

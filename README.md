@@ -57,6 +57,10 @@ Temporal 在信号表征与编码术语中优先译为“时域”：时域包�
 
 ## 新增词条
 
+潜在合作者可先阅读[词条编写规范与协作模板](docs/contributor-kit/README.md)，分别按基础词条或深度词条的要求提交正文、文献和图片。网站“参与贡献”页提供[在线规范](https://betterci.github.io/n3-hearingpedia/contribute/writing-guide/)与可下载模板，包内附 AI 辅助撰写提示词、交稿清单及网站接入说明。
+
+深度词条的结构、内容深度、配图格式和验收要点见[早期经验与撰写参照](docs/in-depth-entry-writing-guide.md)，其中保留历史样本统计与可复用的起草骨架。
+
 1. 在 src/content/concepts/ 新建 Markdown 文件，可以复制一个已有词条。
 2. 填写 title、english、slug、summary、categories、tags、status、日期、作者、references 和 order；添加 knowledge_area、kind 与至少两项 key_facts。batch 仅保留来源批次，不用于公众导航。
 3. categories 使用 [学科定义](src/data/domains.ts) 的 ID；knowledge_area 和 kind 使用 [知识体系](src/data/knowledge.ts) 的定义；slug 与文件名保持一致。
