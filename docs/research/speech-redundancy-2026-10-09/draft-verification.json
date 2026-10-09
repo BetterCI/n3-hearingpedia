@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-09",
+  "slug": "speech-redundancy",
+  "status": "local draft awaiting user confirmation",
+  "metadata": {
+    "depth": "in-depth",
+    "status": "draft",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "content": {
+    "chinese_characters": 8480,
+    "sections": 11,
+    "subsections": 30,
+    "references": 18,
+    "original_figures": 4,
+    "wiki_links": 19,
+    "new_relations": 9
+  },
+  "source_access": {
+    "fulltext_relevant_sections": 8,
+    "abstract": 10,
+    "professional_review": false
+  },
+  "numerical_checks": {
+    "context_probability_example": 0.64,
+    "context_probability_difference_percentage_points": 24,
+    "discrete_examples": "generator assertions passed",
+    "time_windows": "generator assertions passed"
+  },
+  "checks": {
+    "astro_check": "passed: 0 errors / warnings / hints",
+    "build": "passed: 178 pages; 72 searchable concepts",
+    "built_site_verify": "passed: 0 broken links; 345 typed relations",
+    "source_content": "passed",
+    "git_diff_check": "passed",
+    "visual_review": "passed"
+  },
+  "existing_build_notices": [
+    "Vite既有大块提示",
+    "9个既有跳转页无html外层，不纳入搜索",
+    "Pagefind中文无词干化提示"
+  ],
+  "local_preview": "http://127.0.0.1:4338/n3-hearingpedia/concepts/speech-redundancy/",
+  "browser_qa": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "语音冗余性",
+      "overflow": false,
+      "references": 18,
+      "figures": 4,
+      "formulas": 3,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/speech-redundancy/01-levels-and-task.svg",
+          "width": 1600,
+          "height": 1120,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-redundancy/02-interruption-patterns.svg",
+          "width": 1600,
+          "height": 1200,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-redundancy/03-information-examples.svg",
+          "width": 1600,
+          "height": 1200,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-redundancy/04-factorial-design.svg",
+          "width": 1600,
+          "height": 1200,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 790,
+          "parentWidth": 790,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "语音冗余性",
+      "overflow": false,
+      "references": 18,
+      "figures": 4,
+      "formulas": 3,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/speech-redundancy/01-levels-and-task.svg",
+          "width": 1600,
+          "height": 1120,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-redundancy/02-interruption-patterns.svg",
+          "width": 1600,
+          "height": 1200,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-redundancy/03-information-examples.svg",
+          "width": 1600,
+          "height": 1200,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/speech-redundancy/04-factorial-design.svg",
+          "width": 1600,
+          "height": 1200,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 650,
+          "parentWidth": 346,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    }
+  ],
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "requires_user_confirmation": true
+  },
+  "preexisting_excluded": [
+    "docs/drafts/",
+    "scripts/render-auditory-pathway-draft.mjs"
+  ]
+}

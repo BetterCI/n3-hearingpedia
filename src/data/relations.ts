@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('speech-redundancy','speech-intelligibility','related','信息重叠和语言约束可支持特定条件下的内容识别；不等同于正确率。',3),
+  link('speech-redundancy','temporal-envelope','related','分带起伏提供部分声学线索，不能把包络和精细结构视为相同编码。',2),
+  link('speech-redundancy','mandarin-lexical-tone','related','声调与词句识别需要分别检验声学线索和语境利用。',3),
+  link('speech-redundancy','vocoder','related','重合成操纵可用线索；需检查载波、谱结构及模拟边界。',3),
+  link('speech-redundancy','atomic-speech-model','related','稀疏时频事件用于研究信息删减和跨耳分配，不等于信息比特。',3),
+  link('speech-redundancy','confusion-matrix','analyzed-by','类别先验与错误模式帮助解释行为信息量，不能由总正确率直接换算。',2),
+  link('speech-redundancy','auditory-cortex','related','音位恢复的皮层记录连接主观报告与语音表征，保留因果边界。',2),
+  link('speech-redundancy','cochlear-implant-sound-perception','related','改变的输入线索与语言知识共同影响恢复和声音体验。',3),
+  link('speech-redundancy','listening-effort','related','识别保持与资源投入分别测量，高正确率不代表省力。',3),
   link('hearing-aid-prescription','hearing-aid','application','将听力及个体资料转为声学助听器的频率和声级相关目标。',3),
   link('hearing-aid-prescription','audiology','related','处方计算连接听力评估、声学验证和功能评价。',3),
   link('hearing-aid-prescription','pure-tone-audiometry','related','分耳分频率听阈是主要输入，阈上资料仍需另外评价。',3),

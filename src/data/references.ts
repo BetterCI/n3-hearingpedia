@@ -1,3 +1,4 @@
+import { speechRedundancyReferences } from './speech-redundancy-references.ts';
 import { hearingAidPrescriptionReferences } from './hearing-aid-prescription-references.ts';
 import { wuZongjiReferences } from './wu-zongji-references.ts';
 import { liuBannongReferences } from './liu-bannong-references.ts';
@@ -39,6 +40,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...speechRedundancyReferences,
   ...hearingAidPrescriptionReferences,
   ...wuZongjiReferences,
   ...liuBannongReferences,
@@ -135,7 +137,7 @@ export const references: Record<string, Reference> = {
   "hartmann-1990": {"title":"Hearing a mistuned harmonic in an otherwise periodic complex tone","authors":"William Morris Hartmann, Stephen McAdams, Bennett K. Smith","year":"1990","publication":"The Journal of the Acoustical Society of America","doi":"10.1121/1.400246","url":"https://pubmed.ncbi.nlm.nih.gov/2262628/","access":"abstract","supports":"失谐谐波的音高匹配与听觉分离实验；支持操作性任务区分，不将实验解释当作唯一神经机制。"},
   "gabor-1946": {"title":"Theory of communication. Part 1: The analysis of information","authors":"D. Gabor","year":"1946","publication":"Journal of the Institution of Electrical Engineers - Part III: Radio and Communication Engineering","doi":"10.1049/ji-3-2.1946.0074","url":"https://doi.org/10.1049/ji-3-2.1946.0074","access":"metadata","supports":"时频局部化理论的经典来源；本文高斯宽度乘积另行推导，不据书目添加原文实验证据。"},
   "mallat-1993": {"title":"Matching pursuits with time-frequency dictionaries","authors":"S.G. Mallat, Zhifeng Zhang","year":"1993","publication":"IEEE Transactions on Signal Processing","doi":"10.1109/78.258082","url":"https://doi.org/10.1109/78.258082","access":"metadata","supports":"匹配追踪与时频字典方法的书目入口；未据书目添加原论文实验细节，亦不将其算法等同 ASM。"},
-  "shannon-1948": {"title":"A Mathematical Theory of Communication","authors":"C. E. Shannon","year":"1948","publication":"Bell System Technical Journal","doi":"10.1002/j.1538-7305.1948.tb01338.x","url":"https://doi.org/10.1002/j.1538-7305.1948.tb01338.x","access":"metadata","supports":"信息论的经典来源；互信息公式是数学定义，不据此推出听觉神经信息量。"},
+  "shannon-1948": {"title":"A Mathematical Theory of Communication","authors":"C. E. Shannon","year":"1948","publication":"Bell System Technical Journal, 27, 379–423, 623–656","doi":"10.1002/j.1538-7305.1948.tb01338.x","url":"https://web.mit.edu/6.976/www/handout/shannon.pdf","access":"fulltext","supports":"2026-10-09核对MIT所存原文Introduction、熵定义和第7节冗余定义：规定符号集与序列结构的统计信息；不将文本冗余、教学互信息或带宽比例当作听觉神经信息量。"},
   "steeneken-1980": {"title":"A physical method for measuring speech-transmission quality","authors":"H. J. M. Steeneken, T. Houtgast","year":"1980","publication":"The Journal of the Acoustical Society of America","doi":"10.1121/1.384464","url":"https://pubmed.ncbi.nlm.nih.gov/7354199/","access":"abstract","supports":"STI 将传输通道调制损失与语音表现联系的原始研究；与行为正确率和现代模型指标区分。"},
   "iso-8253-1-2010": {"title":"Acoustics — Audiometric test methods — Part 1: Pure-tone air and bone conduction audiometry","authors":"International Organization for Standardization","year":"2010","publication":"ISO 8253-1:2010","url":"https://www.iso.org/standard/43601.html","access":"metadata","supports":"已核对官方公开适用范围和版本；未取得标准全文，不据目录声称符合全部规范。"},
   "iso-389-1-2017": {"title":"Acoustics — Reference zero for the calibration of audiometric equipment — Part 1: Reference equivalent threshold sound pressure levels for pure tones and supra-aural earphones","authors":"International Organization for Standardization","year":"2017","publication":"ISO 389-1:2017","url":"https://www.iso.org/standard/69855.html","access":"metadata","supports":"已核对压耳式耳机参考零点的公开范围；未引用付费表格，不将参考数据转用于任意 TWS 耳机。"},

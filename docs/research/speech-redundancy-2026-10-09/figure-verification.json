@@ -1,0 +1,171 @@
+{
+  "figures": [
+    {
+      "name": "01-levels-and-task",
+      "files": [
+        "01-levels-and-task.svg",
+        "01-levels-and-task.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        840
+      ],
+      "description": "分层框图；箭头不编码效应大小或独立神经通路。",
+      "parameters": {
+        "data": null
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-speech-redundancy.py",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "copyright": "原创教学图；未转载论文图片",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    },
+    {
+      "name": "02-interruption-patterns",
+      "files": [
+        "02-interruption-patterns.svg",
+        "02-interruption-patterns.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        900
+      ],
+      "description": "1秒教学时间条；50%占空比，非语音波形、无识别结果。",
+      "parameters": {
+        "duration_s": 1,
+        "interruption_rates_hz": [
+          2,
+          10
+        ],
+        "speech_duty_cycle": 0.5,
+        "retained_durations_ms": [
+          250,
+          50
+        ],
+        "gap_durations_ms": [
+          250,
+          50
+        ],
+        "blue": "保留原片段",
+        "pale": "删除原片段后填静音或噪声",
+        "prediction_of_performance": false
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-speech-redundancy.py",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "copyright": "原创教学图；未转载论文图片",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    },
+    {
+      "name": "03-information-examples",
+      "files": [
+        "03-information-examples.svg",
+        "03-information-examples.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        900
+      ],
+      "description": "三个完整有限概率模型的互信息计算。",
+      "parameters": {
+        "duplicate": {
+          "H_target": 2,
+          "I_A": 1,
+          "I_B": 1,
+          "I_AB": 1
+        },
+        "complement": {
+          "H_target": 2,
+          "I_A": 1,
+          "I_B": 1,
+          "I_AB": 2
+        },
+        "xor": {
+          "H_target": 1,
+          "I_A": 0,
+          "I_B": 0,
+          "I_AB": 1
+        },
+        "row_probability": 0.25,
+        "noise": null
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-speech-redundancy.py",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "copyright": "原创教学图；未转载论文图片",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    },
+    {
+      "name": "04-factorial-design",
+      "files": [
+        "04-factorial-design.svg",
+        "04-factorial-design.png"
+      ],
+      "svg_viewbox": [
+        0,
+        0,
+        1200,
+        900
+      ],
+      "description": "2×2条件框图；字母占位，无伪造分数或统计显著性。",
+      "parameters": {
+        "context_levels": [
+          "低预测",
+          "高预测"
+        ],
+        "gap_fill": [
+          "静音",
+          "噪声"
+        ],
+        "outcome": "关键词正确率（%）",
+        "difference_unit": "百分点",
+        "empirical_scores": null,
+        "causal_claim": "需材料匹配与随机平衡，不以该图证明机制"
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-speech-redundancy.py",
+      "attribution": "n³ Hearingpedia；AI 辅助编写与绘图",
+      "copyright": "原创教学图；未转载论文图片",
+      "usage": "用于本站词条展示和教学计算复现；对外开放许可证依项目约定，尚待维护者确定"
+    }
+  ],
+  "numerical_checks": {
+    "uniform_four_target_entropy_bits": 2,
+    "single_context_entropy_bits": 1.3567796494470397,
+    "single_context_difference_bits": 0.6432203505529603,
+    "duplicate": {
+      "H_target": 2,
+      "I_A": 1,
+      "I_B": 1,
+      "I_AB": 1
+    },
+    "complement": {
+      "H_target": 2,
+      "I_A": 1,
+      "I_B": 1,
+      "I_AB": 2
+    },
+    "xor": {
+      "H_target": 1,
+      "I_A": 0,
+      "I_B": 0,
+      "I_AB": 1
+    }
+  },
+  "visual_review": {
+    "date": "2026-10-09",
+    "status": "passed",
+    "reviewed": [
+      "4张PNG逐图检查，无裁切、重叠或虚构数据",
+      "桌面1440×1000与手机390×844的首屏、算例表、公式和末图",
+      "手机表格可横向滚动；初次截图字体绘制延迟，双requestAnimationFrame后重新检查正常"
+    ],
+    "svg_dimensions_match_html": true
+  }
+}

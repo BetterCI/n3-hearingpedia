@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-09",
+  "seed": "W2563866812",
+  "bounded_queries": {
+    "topic_limit": 8,
+    "backward_limit": 12,
+    "forward_limit": 12
+  },
+  "candidates": [
+    {
+      "route": "search",
+      "id": "https://openalex.org/W2088368716",
+      "doi": "https://doi.org/10.3758/bf03212667",
+      "title": "Speech perception and phonemic restorations",
+      "year": 1971,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "search",
+      "id": "https://openalex.org/W2161684007",
+      "doi": "https://doi.org/10.1250/ast.27.318",
+      "title": "Phonemic restoration: The brain creates missing speech sounds",
+      "year": 2006,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "摘要为恢复现象介绍，采用原始Warren和Leonard研究支持正文。"
+    },
+    {
+      "route": "search",
+      "id": "https://openalex.org/W2038245190",
+      "doi": "https://doi.org/10.1121/1.4892756",
+      "title": "Perceptual learning of temporally interrupted spectrally degraded speech",
+      "year": 2014,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "宽范围背景或综述，未作为本篇直接原始证据引用。"
+    },
+    {
+      "route": "search",
+      "id": "https://openalex.org/W2112512285",
+      "doi": "https://doi.org/10.1007/s10162-013-0422-z",
+      "title": "Perceptual Restoration of Degraded Speech Is Preserved with Advancing Age",
+      "year": 2013,
+      "abstract_available": true,
+      "grade": "Important",
+      "reason": "摘要涉及学习、听者或语境整合；留作后续候选，本篇用任务更直接的代表研究覆盖，不据此新增结论。"
+    },
+    {
+      "route": "search",
+      "id": "https://openalex.org/W1974017379",
+      "doi": "https://doi.org/10.1121/1.2020419",
+      "title": "Training away the phonemic restoration illusion",
+      "year": 1983,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "宽范围背景或综述，未作为本篇直接原始证据引用。"
+    },
+    {
+      "route": "search",
+      "id": "https://openalex.org/W2100611575",
+      "doi": "https://doi.org/10.3758/bf03211895",
+      "title": "Spectral restoration of speech: Intelligibility is increased by inserting noise in spectral gaps",
+      "year": 1997,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "search",
+      "id": "https://openalex.org/W2070813891",
+      "doi": "https://doi.org/10.1371/journal.pone.0058149",
+      "title": "Perceptual Learning of Interrupted Speech",
+      "year": 2013,
+      "abstract_available": true,
+      "grade": "Important",
+      "reason": "摘要涉及学习、听者或语境整合；留作后续候选，本篇用任务更直接的代表研究覆盖，不据此新增结论。"
+    },
+    {
+      "route": "search",
+      "id": "https://openalex.org/W2527791868",
+      "doi": "https://doi.org/10.1177/2331216516670279",
+      "title": "Cognitive Compensation of Speech Perception With Hearing Impairment, Cochlear Implants, and Aging",
+      "year": 2016,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "宽范围背景或综述，未作为本篇直接原始证据引用。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1964538581",
+      "doi": "https://doi.org/10.1121/1.408434",
+      "title": "Auditory Scene Analysis: The Perceptual Organization of Sound",
+      "year": 1994,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1977531436",
+      "doi": "https://doi.org/10.1126/science.167.3917.392",
+      "title": "Perceptual Restoration of Missing Speech Sounds",
+      "year": 1970,
+      "abstract_available": true,
+      "grade": "Core",
+      "reason": "直接操纵语音中断或缺失，已由原始来源核对并纳入。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1992007613",
+      "doi": "https://doi.org/10.1016/j.neuron.2007.05.019",
+      "title": "Brain States: Top-Down Influences in Sensory Processing",
+      "year": 2007,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1964600646",
+      "doi": "https://doi.org/10.1121/1.1906584",
+      "title": "The Intelligibility of Interrupted Speech",
+      "year": 1950,
+      "abstract_available": true,
+      "grade": "Core",
+      "reason": "直接操纵语音中断或缺失，已由原始来源核对并纳入。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1966247273",
+      "doi": "https://doi.org/10.1523/jneurosci.5069-11.2012",
+      "title": "Predictive Top-Down Integration of Prior Knowledge during Speech Perception",
+      "year": 2012,
+      "abstract_available": true,
+      "grade": "Important",
+      "reason": "摘要涉及学习、听者或语境整合；留作后续候选，本篇用任务更直接的代表研究覆盖，不据此新增结论。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1980871013",
+      "doi": "https://doi.org/10.1523/jneurosci.0962-09.2009",
+      "title": "How Ongoing Fluctuations in Human Visual Cortex Predict Perceptual Awareness: Baseline Shift versus Decision Bias",
+      "year": 2009,
+      "abstract_available": true,
+      "grade": "Exclude",
+      "reason": "摘要研究视觉判断或一般知觉哲学，未直接操纵语音冗余。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1981764347",
+      "doi": "https://doi.org/10.1152/jn.91128.2008",
+      "title": "Influence of Context and Behavior on Stimulus Reconstruction From Neural Activity in Primary Auditory Cortex",
+      "year": 2009,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "摘要讨论复杂声音重建与状态相关编码，属于方法背景；不直接回答人类语音线索冗余。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1987504765",
+      "doi": "https://doi.org/10.1016/j.neuroimage.2008.09.045",
+      "title": "Neural mechanisms for illusory filling-in of degraded speech",
+      "year": 2008,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1993590320",
+      "doi": "https://doi.org/10.1016/j.neuroimage.2012.01.035",
+      "title": "Human auditory cortex is sensitive to the perceived clarity of speech",
+      "year": 2012,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1987282049",
+      "doi": "https://doi.org/10.1016/j.brainres.2007.03.069",
+      "title": "Top-down knowledge supports the retrieval of lexical information from degraded speech",
+      "year": 2007,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1611006584",
+      "doi": "https://doi.org/10.1523/jneurosci.4100-14.2015",
+      "title": "Dynamic Encoding of Speech Sequence Probability in Human Temporal Cortex",
+      "year": 2015,
+      "abstract_available": true,
+      "grade": "Important",
+      "reason": "摘要涉及学习、听者或语境整合；留作后续候选，本篇用任务更直接的代表研究覆盖，不据此新增结论。"
+    },
+    {
+      "route": "backward",
+      "id": "https://openalex.org/W1635512741",
+      "doi": "https://doi.org/10.6028/nist.ir.4930",
+      "title": "DARPA TIMIT:",
+      "year": 1993,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2810203257",
+      "doi": "https://doi.org/10.1016/j.tics.2018.06.002",
+      "title": "How Do Expectations Shape Perception?",
+      "year": 2018,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2800516701",
+      "doi": "https://doi.org/10.1037/bul0000158",
+      "title": "Predicting while comprehending language: A theory and review.",
+      "year": 2018,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "宽范围背景或综述，未作为本篇直接原始证据引用。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2980177172",
+      "doi": "https://doi.org/10.1016/j.tics.2019.08.004",
+      "title": "Neural Entrainment and Attentional Selection in the Listening Brain",
+      "year": 2019,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2951670472",
+      "doi": "https://doi.org/10.1016/j.neuron.2019.04.023",
+      "title": "The Encoding of Speech Sounds in the Superior Temporal Gyrus",
+      "year": 2019,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W4360620943",
+      "doi": "https://doi.org/10.1093/oso/9780197622223.001.0001",
+      "title": "The Border Between Seeing and Thinking",
+      "year": 2023,
+      "abstract_available": true,
+      "grade": "Exclude",
+      "reason": "摘要研究视觉判断或一般知觉哲学，未直接操纵语音冗余。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2883992483",
+      "doi": "https://doi.org/10.1080/23273798.2018.1499946",
+      "title": "The revolution will not be controlled: natural stimuli in speech neuroscience",
+      "year": 2018,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "宽范围背景或综述，未作为本篇直接原始证据引用。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2903324034",
+      "doi": "https://doi.org/10.1016/j.cub.2018.10.042",
+      "title": "Rapid Transformation from Auditory to Linguistic Representations of Continuous Speech",
+      "year": 2018,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W4394752750",
+      "doi": "https://doi.org/10.1038/s41583-024-00802-4",
+      "title": "The language network as a natural kind within the broader landscape of the human brain",
+      "year": 2024,
+      "abstract_available": false,
+      "grade": "Background",
+      "reason": "本返回无摘要；只保留元数据候选，不从题名推出发现，未引用其结论。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2964982538",
+      "doi": "https://doi.org/10.1038/s41467-019-10994-4",
+      "title": "Real-time decoding of question-and-answer speech dialogue using human cortical activity",
+      "year": 2019,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "摘要涉及语境辅助临床对话解码，方法相关，但非缺失语音感知任务。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2949387496",
+      "doi": "https://doi.org/10.1523/jneurosci.0065-18.2018",
+      "title": "In Spoken Word Recognition, the Future Predicts the Past",
+      "year": 2018,
+      "abstract_available": true,
+      "grade": "Important",
+      "reason": "摘要涉及学习、听者或语境整合；留作后续候选，本篇用任务更直接的代表研究覆盖，不据此新增结论。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W3205578964",
+      "doi": "https://doi.org/10.1146/annurev-psych-022321-035256",
+      "title": "Speech Computations of the Human Superior Temporal Gyrus",
+      "year": 2021,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "宽范围背景或综述，未作为本篇直接原始证据引用。"
+    },
+    {
+      "route": "forward",
+      "id": "https://openalex.org/W2884989790",
+      "doi": "https://doi.org/10.1016/j.cognition.2018.06.018",
+      "title": "Grounding the neurobiology of language in first principles: The necessity of non-language-centric explanations for language comprehension",
+      "year": 2018,
+      "abstract_available": true,
+      "grade": "Background",
+      "reason": "宽范围背景或综述，未作为本篇直接原始证据引用。"
+    }
+  ]
+}
