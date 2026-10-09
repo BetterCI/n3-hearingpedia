@@ -237,9 +237,9 @@ export const coreEightReferences: Record<string, Reference> = {
     "year": "2025",
     "publication": "Scientific reports, 15(1), 38997",
     "doi": "10.1038/s41598-025-25711-z",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41203761/",
-    "access": "abstract",
-    "supports": "15名单侧耳聋人工耳蜗使用者的个体化声学匹配；核对刺激更换后的相似性下降。"
+    "url": "https://europepmc.org/articles/PMC12595112",
+    "access": "fulltext",
+    "supports": "2026-10-09 已通过 Europe PMC 阅读原文的参与者、声级与呈现、优化流程、跨句比较及限制。15 位德语语后聋成人 SSD-CI；原句均值与标准差 9.7±0.5，新句 8.4±1.5、8.9±1.3，属同一批听者。仅支持同说话人的材料泛化，年龄相关对侧耳听力判据、选择条件及主观评分限制推广。"
   },
   "listenlab-repository": {
     "title": "Praat Vocoder",

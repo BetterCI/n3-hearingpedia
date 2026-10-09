@@ -1,0 +1,100 @@
+{
+  "nature": "Original teaching calculations; no empirical participant data.",
+  "gamma": 0.5,
+  "lambda": 0.02,
+  "alpha_db": 0.0,
+  "beta_db": [
+    2,
+    4
+  ],
+  "midpoint_probability": 0.74,
+  "threshold_75_percent_db": 0.16676321787810242,
+  "two_down_one_up_target": 0.7071067811865476,
+  "two_down_one_up_model_position_db": -0.5516921347793851,
+  "random_seed": 20261009,
+  "initial_level_db": 8,
+  "step_db": 1,
+  "trials": 56,
+  "sdt": [
+    {
+      "criterion": 0.2,
+      "hit": 0.9031995154143897,
+      "false_alarm": 0.42074029056089696,
+      "d_prime": 1.5000000000000004
+    },
+    {
+      "criterion": 1.2,
+      "hit": 0.6179114221889527,
+      "false_alarm": 0.11506967022170822,
+      "d_prime": 1.5000000000000004
+    }
+  ],
+  "wilson_intervals": [
+    {
+      "correct": 16,
+      "trials": 20,
+      "estimate": 0.8,
+      "lower": 0.5839825677481064,
+      "upper": 0.919342337420202
+    },
+    {
+      "correct": 80,
+      "trials": 100,
+      "estimate": 0.8,
+      "lower": 0.7111708344068411,
+      "upper": 0.8666330666689676
+    }
+  ],
+  "figures": {
+    "01-measurement-chain": {
+      "svg_viewbox": [
+        1440,
+        720
+      ],
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "02-psychometric-function": {
+      "svg_viewbox": [
+        1440,
+        720
+      ],
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "03-sensitivity-and-bias": {
+      "svg_viewbox": [
+        1440,
+        720
+      ],
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    },
+    "04-sampling-procedures": {
+      "svg_viewbox": [
+        1440,
+        864
+      ],
+      "png_pixels": [
+        2000,
+        1200
+      ]
+    },
+    "05-trial-uncertainty": {
+      "svg_viewbox": [
+        1440,
+        720
+      ],
+      "png_pixels": [
+        2000,
+        1000
+      ]
+    }
+  }
+}

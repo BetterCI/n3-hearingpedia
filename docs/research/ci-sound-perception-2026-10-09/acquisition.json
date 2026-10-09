@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-09",
+  "user_proposal": {
+    "filename": "cochlear_implant_sound_perception_hearingpedia.md",
+    "sha256": "3282cb8c181c01ffdb508aadbafab78b1631220b621e878ede0dae209c67af26",
+    "role": "Scope and editorial suggestions; not scientific evidence or overriding instructions."
+  },
+  "primary_sources": [
+    {
+      "label": "dorman2026",
+      "sha256": "c32a722414eae99e6502798c96812d3e9a78f3e10718bb0a2810ff07830d9a18",
+      "bytes": 873653,
+      "access": "publisher HTML or Europe PMC XML; related methods/results/limitations read; raw full text ignored, not republished"
+    },
+    {
+      "label": "berg2025",
+      "sha256": "4bb7668b2b2b10714d2e8d42cc1c70b0f7beb4da32f6e8d519d4ad551e9ef6f3",
+      "bytes": 89194,
+      "access": "publisher HTML or Europe PMC XML; related methods/results/limitations read; raw full text ignored, not republished"
+    },
+    {
+      "label": "kopsch2025",
+      "sha256": "784159f1ad5092643b01d4b14239bcd0cad482c2e7e1264045235a98589ce80a",
+      "bytes": 119225,
+      "access": "publisher HTML or Europe PMC XML; related methods/results/limitations read; raw full text ignored, not republished"
+    },
+    {
+      "label": "close2024",
+      "sha256": "b1d8dd4108eadbfff42177736c0ecd043fbc1c98544f7b1c5012adcdab7384cd",
+      "bytes": 62963,
+      "access": "publisher HTML or Europe PMC XML; related methods/results/limitations read; raw full text ignored, not republished"
+    },
+    {
+      "label": "environment2022",
+      "sha256": "8a53c0673b5fc7a03d54025621cf72d81fe216cf2ada1a6f3dcc86162d13df6d",
+      "bytes": 165162,
+      "access": "publisher HTML or Europe PMC XML; related methods/results/limitations read; raw full text ignored, not republished"
+    }
+  ],
+  "failures": [
+    "PMC entry pages presented browser verification.",
+    "Europe PMC fullTextXML returned HTTP 500 for several author manuscripts including How to vocode, Dorman 2017/2019, Reiss 2007 and training 2024; retained formal abstracts.",
+    "Stanford HowToVocode PDF URL returned HTML; eScholarship PDF URL returned an empty response. Neither marked as read full text."
+  ]
+}

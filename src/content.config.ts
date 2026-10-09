@@ -22,7 +22,7 @@ const concepts = defineCollection({
     literature_checked_at: z.string().nullable().default(null),
     illustration: z.object({ src: z.string(), alt: z.string(), caption: z.string() }).optional(),
     knowledge_area: z.enum(['sound','biology','perception','mandarin-consonants','measurement','technology','methods']),
-    kind: z.enum(['anatomy','organization','quantity','representation','phenomenon','acoustic-environment','function','linguistic','mechanism','condition','physiological-response','metric','test','calibration','technology','strategy','model','analysis']),
+    kind: z.enum(['discipline','anatomy','organization','quantity','representation','phenomenon','acoustic-environment','function','linguistic','mechanism','condition','physiological-response','metric','test','calibration','technology','strategy','model','analysis']),
     key_facts: z.array(z.object({label: z.string(),value: z.string()})).min(2),
     references: z.array(z.string()).min(1),
     batch: z.number().int().positive().default(1),

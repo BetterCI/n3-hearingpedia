@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-09",
+  "scientificReview": "Draft; no named professional review",
+  "commands": {
+    "astroCheck": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "sourceContent": "passed",
+    "build": {
+      "pages": 90,
+      "indexedConcepts": 66,
+      "warning": "Existing large JavaScript chunk warning"
+    },
+    "builtSite": {
+      "checkedInternalLinks": 9356,
+      "equations": 113,
+      "searchableConcepts": 66,
+      "knowledgeAreas": 7,
+      "typedRelationships": 250,
+      "brokenLinks": 0
+    }
+  },
+  "browser": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "sections": 10,
+    "references": 20,
+    "figures": [
+      {
+        "alt": "输入与神经接口、基本感知、情境体验三个层次共同受到经验、任务和聆听配置影响",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/cochlear-implant-sound-perception/01-perceptual-levels.svg"
+      },
+      {
+        "alt": "识别较好或较差，与自然度较高或较低可以形成四种不同评价组合",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/cochlear-implant-sound-perception/02-separate-outcomes.svg"
+      },
+      {
+        "alt": "同一语音经人工耳蜗与对侧耳两个呈现途径，由听者比较并调整声学近似，输出参数和相似性评分",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/cochlear-implant-sound-perception/03-interaural-matching.svg"
+      },
+      {
+        "alt": "15位成人的优化句相似性均值为9.7，同一参数换两句后为8.4和8.9，误差线表示标准差",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/cochlear-implant-sound-perception/04-match-generalization.svg"
+      }
+    ],
+    "anchors": 115,
+    "mobileOverflow": false,
+    "katexErrors": 0,
+    "figurePopup": true,
+    "domainLink": true,
+    "learningPathLink": true,
+    "searchable": true,
+    "audio": [
+      {
+        "src": "http://127.0.0.1:4337/n3-hearingpedia/audio/cochlear-implant-sound-perception/reference.wav",
+        "duration": 6,
+        "autoplay": false,
+        "volume": 0.2
+      },
+      {
+        "src": "http://127.0.0.1:4337/n3-hearingpedia/audio/cochlear-implant-sound-perception/noise-4.wav",
+        "duration": 6,
+        "autoplay": false,
+        "volume": 0.2
+      },
+      {
+        "src": "http://127.0.0.1:4337/n3-hearingpedia/audio/cochlear-implant-sound-perception/noise-8.wav",
+        "duration": 6,
+        "autoplay": false,
+        "volume": 0.2
+      },
+      {
+        "src": "http://127.0.0.1:4337/n3-hearingpedia/audio/cochlear-implant-sound-perception/noise-16.wav",
+        "duration": 6,
+        "autoplay": false,
+        "volume": 0.2
+      }
+    ],
+    "audioSwitchPausesPrevious": true,
+    "pageErrors": []
+  },
+  "visualInspection": [
+    "Original SVG/PNG diagrams",
+    "Desktop figure screenshots",
+    "Mobile generalization data figure and audio controls"
+  ],
+  "publication": "Deployment is verified after pushing; local validation does not imply a named scientific review."
+}
