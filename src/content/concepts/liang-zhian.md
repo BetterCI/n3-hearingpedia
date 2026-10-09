@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "中国科学院上海生理研究所"}
   - {label: "研究线索", value: "刺激声学、神经响应与听觉感知之间的联系"}
   - {label: "阅读重点", value: "代表工作、合作者及原始资料的核验范围"}
-references: ["liang-obituary-2000", "liang-stimulus-spectrum-1986", "liang-tvf-1990", "liang-discrimination-1997", "liang-neurobiology-chapter", "zeng-recollections-2013", "xu-ci-review-2006"]
+references: ["liang-obituary-2000", "liang-stimulus-spectrum-1986", "liang-tvf-1990", "liang-discrimination-1997", "liang-neurobiology-chapter", "zeng-recollections-2013", "xu-ci-review-2006", "liang-auditory-book-1999", "liang-book-speech-citation"]
 batch: 3
 order: 100
 ---
@@ -41,6 +41,25 @@ order: 100
 ### 把不同层次的证据接起来
 
 听觉研究可以测量刺激声，也可以记录神经活动，还可以让听者进行判断。这些证据互相补充，却不能互相替代。梁之安与合作者的论文分别涉及刺激频谱、声诱发反应处理和辨别阈测量，适合从这些不同层次认识其研究路线。[2](#ref-liang-stimulus-spectrum-1986)[3](#ref-liang-tvf-1990)[4](#ref-liang-discrimination-1997)
+
+## 代表著作：听觉感受和辨别的神经机制
+
+### 著作与版本
+
+《听觉感受和辨别的神经机制》由梁之安著，上海科技教育出版社于1999年出版，属于“脑科学丛书”。英文题名为 *Neural Mechanisms of Auditory Perception and Discrimination*；原书ISBN为7-5428-1982-8，对应13位ISBN 978-7-5428-1982-6。封面、扉页和封底实物照片可以核对书名、署名、丛书与ISBN，出版年份另有后续论文的参考文献互证。[8](#ref-liang-auditory-book-1999)
+
+<figure class="book-cover-figure">
+  <a href="/n3-hearingpedia/books/liang-zhian-auditory-mechanisms-1999.png" target="_blank" rel="noopener" aria-label="查看梁之安著作的完整封面"><img src="/n3-hearingpedia/books/liang-zhian-auditory-mechanisms-1999.png" alt="梁之安著《听觉感受和辨别的神经机制》封面，脑科学丛书，上海科技教育出版社" width="1060" height="1484" loading="lazy" /></a>
+  <figcaption>《听觉感受和辨别的神经机制》封面。图片由本站维护者提供，保留原图比例；点击可查看完整封面。</figcaption>
+</figure>
+
+### 如何阅读这本书
+
+书名提出了两个互相联系的问题：听觉系统如何感受声音，又如何辨别声音之间的差别。理解这一主线时，可以把声音的物理特征、听者的判断和神经过程放在一起阅读。它与本词条介绍的刺激频谱、诱发反应和辨别阈工作相呼应；这一对应是阅读建议，不是对全书章节的逐章概述。
+
+书中还涉及语音问题。后续听力学论文具体引用了梁之安撰写的“正常语音的声学特性及其听觉识别”，页码为162–171。这条引用提供了一个可核查的阅读线索：从语音信号的声学特征，进一步追问听者依据什么线索完成识别。[9](#ref-liang-book-speech-citation)
+
+今天阅读这部著作，适合把它作为了解20世纪末中国听觉研究问题与知识组织方式的历史资料，并与[心理声学](../psychoacoustics/)和[言语可懂度](../speech-intelligibility/)词条对照。这里尚未取得可完整核验的全书正文，因此不据局部书页补写完整目录或具体实验结论；1999年后的研究进展也需要另行阅读后续文献。
 
 ## 代表工作：先确定实际到达听者的声音
 

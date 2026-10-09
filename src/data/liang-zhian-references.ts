@@ -1,6 +1,18 @@
 import type { Reference } from './references';
 
 export const liangZhianReferences: Record<string, Reference> = {
+  'liang-auditory-book-1999': {
+    title: '听觉感受和辨别的神经机制', authors: '梁之安 著', year: '1999',
+    publication: '上海科技教育出版社，脑科学丛书；ISBN 7-5428-1982-8 / 978-7-5428-1982-6',
+    url: 'https://book.kongfz.com/169723/5067411079/', access: 'metadata',
+    supports: '核对旧书实物封面；另一实物记录（307208/10523819591）的扉页署名“梁之安 著”、842080/7957339593的封底核对ISBN。1999年出版信息由期刊论文（2019-2-139）参考文献互证。未完整核验全书正文与目录。',
+  },
+  'liang-book-speech-citation': {
+    title: '中国听力学的发展与未来', authors: '李兴启', year: '2016',
+    publication: '听力学及言语疾病杂志, 24(3): 217–223；参考文献中的著作记录',
+    url: 'https://jasptl.haoyicn.cn/summary/12512?eng=0&type=history', access: 'metadata',
+    supports: '后续论文列出被引书中部分的题名及页码；用于阅读线索，不替代书中正文，也不据引文中的“主编”覆盖实物扉页的“著”署名。',
+  },
   'liang-obituary-2000': {
     title: '生理声学专家梁之安先生逝世', authors: '上海市声学学会', year: '2000',
     publication: '声学技术, 19(4): 238（同页刊载纪念材料）',
