@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link("auditory-cortex","auditory-pathway","mechanism","皮层是多层级听觉网络的一部分，输入与反馈需共同解释。",3),
+  link("auditory-cortex","tonotopy","related","皮层频率地图描述空间偏好，不能概括全部自然声音表征。",3),
+  link("auditory-cortex","auditory-attention","mechanism","相同声音中的任务目标可改变皮层可测表征。",3),
+  link("auditory-cortex","auditory-plasticity","mechanism","经验相关皮层变化需区分快速调节、长期学习及发育。",3),
+  link("auditory-cortex","neural-speech-tracking","related","连续语音响应提供群体读出，不直接证明逐词理解。",3),
+  link("auditory-cortex","electroencephalography","measured-by","头皮电位可研究相关群体活动，局部来源仍需模型与定位。",2),
+  link("auditory-cortex","auditory-evoked-potential","related","皮层相关诱发响应的成熟与幅度需保留来源和功能边界。",2),
+  link("auditory-cortex","speech-intelligibility","related","神经选择性与行为可懂度分别测量和验证。",2),
+  link("auditory-cortex","cochlear-implant","related","电刺激输入与经验影响皮层处理，指标变化不能单独等同临床获益。",2),
+  link("auditory-cortex","auditory-scene-analysis","related","复杂声音的选择与整合涉及分布式皮层及皮层下网络。",2),
   link("auditory-pathway","binaural-hearing","mechanism","脑干汇聚与后续网络共同参与两耳信息利用。",3),
   link("auditory-pathway","auditory-evoked-potential","related","诱发电位来自分布活动，不按波峰机械对应单核团。",3),
   link("auditory-pathway","auditory-attention","related","状态与反馈参与多层级处理，不全部定位于一个区域。",2),

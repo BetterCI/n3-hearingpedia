@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-09",
+  "figures": [
+    {
+      "name": "01-regions-and-connections",
+      "files": [
+        "01-regions-and-connections.svg",
+        "01-regions-and-connections.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        960.0
+      ],
+      "description": "灵长类区域框架与部分平行、双向联系；不是完整连接图或人类固定分区。",
+      "parameters": {},
+      "empirical_data": false,
+      "generator": "scripts/generate-auditory-cortex.py",
+      "copyright": "原创教学图，未复制来源图片"
+    },
+    {
+      "name": "02-strf-teaching-example",
+      "files": [
+        "02-strf-teaching-example.svg",
+        "02-strf-teaching-example.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        1200.0
+      ],
+      "description": "离散声谱时间模型；保持当前特征相同，改变20ms前输入，得到12和7spikes/s。",
+      "parameters": {
+        "frequencies_kHz": [
+          0.5,
+          1,
+          2
+        ],
+        "lag_ms": [
+          0,
+          20,
+          40
+        ],
+        "K": [
+          [
+            0.0,
+            0.0,
+            0.5
+          ],
+          [
+            1.0,
+            -0.5,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "XA": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "XB": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "b_spikes_per_s": 2.0,
+        "g_spikes_per_s_per_unit": 10.0,
+        "weighted_inputs": [
+          1.0,
+          0.5
+        ],
+        "predicted_rates_spikes_per_s": [
+          12.0,
+          7.0
+        ],
+        "stimulus_representation": "手工设置归一化能量特征；未生成或分析真实声波",
+        "randomness": "无"
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-auditory-cortex.py",
+      "copyright": "原创教学图，未复制来源图片"
+    },
+    {
+      "name": "03-context-and-windows",
+      "files": [
+        "03-context-and-windows.svg",
+        "03-context-and-windows.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        960.0
+      ],
+      "description": "共享片段与矩形窗口的几何；不生成神经响应或实测整合窗口。",
+      "parameters": {
+        "shared_segment_ms": [
+          0,
+          200
+        ],
+        "observation_time_ms": 100.0,
+        "window_bounds_ms": {
+          "50": [
+            75.0,
+            125.0
+          ],
+          "300": [
+            -50.0,
+            250.0
+          ]
+        },
+        "long_window_context_ms_each_side": 50,
+        "operation": "几何对照；不模拟TCI估计或核函数"
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-auditory-cortex.py",
+      "copyright": "原创教学图，未复制来源图片"
+    },
+    {
+      "name": "04-adaptation-and-controls",
+      "files": [
+        "04-adaptation-and-controls.svg",
+        "04-adaptation-and-controls.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        960.0
+      ],
+      "description": "同一目标声音在标准、偏差、多标准控制中的角色示意；短序列不是概率实现。",
+      "parameters": {
+        "sequences": [
+          "TTTTTTTT",
+          "SSSTSSSS",
+          "ABCTDEFG"
+        ],
+        "highlight_index_zero_based": 3,
+        "symbols": "同一字母代表同一频率，T为比较目标；未定义实际Hz或完整序列概率"
+      },
+      "empirical_data": false,
+      "generator": "scripts/generate-auditory-cortex.py",
+      "copyright": "原创教学图，未复制来源图片"
+    },
+    {
+      "name": "05-evidence-and-intervention",
+      "files": [
+        "05-evidence-and-intervention.svg",
+        "05-evidence-and-intervention.png"
+      ],
+      "svg_viewbox": [
+        0.0,
+        0.0,
+        1200.0,
+        960.0
+      ],
+      "description": "活动关联、信息解码与干预的证据问题；不呈现论文效果、不预设补偿机制。",
+      "parameters": {},
+      "empirical_data": false,
+      "generator": "scripts/generate-auditory-cortex.py",
+      "copyright": "原创教学图，未复制来源图片"
+    }
+  ],
+  "checks": {
+    "teaching_rates_match_formula": true,
+    "current_inputs_equal": true,
+    "short_window_inside_shared_segment": true,
+    "long_window_crosses_both_boundaries": true,
+    "finite_K_and_inputs": true,
+    "empirical_errorbars_sample_sizes_or_significance": "未生成；全部图为原创教学图"
+  }
+}

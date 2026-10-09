@@ -1,3 +1,4 @@
+import { auditoryCortexReferences } from './auditory-cortex-references.ts';
 import { auditoryPathwayReferences } from './auditory-pathway-references.ts';
 import { audiologyReferences } from './audiology-references.ts';
 import { nelsonKiangReferences } from './nelson-kiang-references.ts';
@@ -32,6 +33,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...auditoryCortexReferences,
   ...auditoryPathwayReferences,
   ...audiologyReferences,
   ...nelsonKiangReferences,
