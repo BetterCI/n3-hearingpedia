@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-09",
+  "status": "user-approved-publication-professional-review-pending",
+  "professional_review": "pending",
+  "entry": {
+    "chinese_characters": 7732,
+    "sections": 11,
+    "subsections": 26,
+    "sources": 24,
+    "figures": 4,
+    "display_formulas": 2
+  },
+  "source_access_this_review": {
+    "fulltext": 11,
+    "abstract": 11,
+    "documentation": 2
+  },
+  "checks": {
+    "astro_check": "passed: 0 errors, warnings or hints",
+    "build": "passed: 186 pages; existing shared-bundle size advisory",
+    "verify": "passed: 186 pages, 13869 internal links, 0 broken links",
+    "source_content": "passed: 76 concepts, 384 relationships",
+    "git_diff_check": "passed",
+    "figure_generation": "passed; no font glyph warnings; calculation assertions"
+  },
+  "browser_qa": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "耳鸣",
+      "overflow": false,
+      "references": 24,
+      "figures": 4,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/tinnitus/description-dimensions.svg",
+          "width": 689,
+          "height": 611,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/tinnitus/mechanism-framework.svg",
+          "width": 689,
+          "height": 574,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/tinnitus/measurement-targets.svg",
+          "width": 689,
+          "height": 581,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/tinnitus/separate-endpoints.svg",
+          "width": 971,
+          "height": 510,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 790,
+          "parentWidth": 790,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "耳鸣",
+      "overflow": false,
+      "references": 24,
+      "figures": 4,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/tinnitus/description-dimensions.svg",
+          "width": 689,
+          "height": 611,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/tinnitus/mechanism-framework.svg",
+          "width": 689,
+          "height": 574,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/tinnitus/measurement-targets.svg",
+          "width": 689,
+          "height": 581,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/tinnitus/separate-endpoints.svg",
+          "width": 971,
+          "height": 510,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 390,
+          "parentWidth": 346,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    }
+  ],
+  "cochlear_synaptopathy_publication": {
+    "commit": "217fd7b0a21549327c45361aa50596100447450b",
+    "pushed_to": "origin/main",
+    "deployment": "success",
+    "workflow": "https://github.com/BetterCI/n3-hearingpedia/actions/runs/37933870818"
+  },
+  "tinnitus_publication": "User approved push on 2026-10-09"
+}

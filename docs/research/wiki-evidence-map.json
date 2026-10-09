@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 376,
+  "relations": 384,
   "entries": [
     {
       "slug": "cochlea",
@@ -3091,6 +3091,56 @@
         "auditory-pathway",
         "hearing-loss",
         "audiometric-calibration"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "tinnitus",
+      "knowledge_area": "perception",
+      "kind": "phenomenon",
+      "chinese_characters": 7732,
+      "body_characters": 14911,
+      "sections": 11,
+      "subsections": 26,
+      "reference_ids": [
+        "tinnitus-definition-2021",
+        "tinnitus-nice-2020",
+        "tinnitus-primer-2026",
+        "tinnitus-prevalence-2022",
+        "tinnitus-plasticity-2016",
+        "auerbach-gain-2014",
+        "tinnitus-normal-2011",
+        "tinnitus-guest-2017",
+        "tinnitus-synchrony-2016",
+        "tinnitus-gating-2010",
+        "tinnitus-somatic-2018",
+        "tinnitus-intracranial-2015",
+        "tinnitus-thi-1996",
+        "tinnitus-tfi-2012",
+        "tinnitus-mcid-2025",
+        "tinnitus-gap-2013",
+        "tinnitus-cbt-2020",
+        "tinnitus-cima-2012",
+        "tinnitus-trt-2019",
+        "tinnitus-vadod-2024",
+        "tinnitus-bisensory-2023",
+        "tinnitus-tenta3-2024",
+        "tinnitus-uniti-2025",
+        "tinnitus-sound-2026"
+      ],
+      "wiki_links": [
+        "audiology",
+        "psychoacoustics",
+        "hearing-loss",
+        "cochlea",
+        "cochlear-synaptopathy",
+        "auditory-plasticity",
+        "pure-tone-audiometry",
+        "speech-audiometry",
+        "audiometric-calibration",
+        "hearing-aid",
+        "auditory-pathway",
+        "auditory-cortex"
       ],
       "status": "draft"
     }

@@ -1,3 +1,4 @@
+import { tinnitusReferences } from './tinnitus-references.ts';
 import { cochlearSynaptopathyReferences } from './cochlear-synaptopathy-references.ts';
 import { auditoryPlasticityReferences } from './auditory-plasticity-references.ts';
 import { otoacousticEmissionsReferences } from './otoacoustic-emissions-references.ts';
@@ -45,6 +46,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...tinnitusReferences,
   ...cochlearSynaptopathyReferences,
   ...auditoryPlasticityReferences,
   ...otoacousticEmissionsReferences,

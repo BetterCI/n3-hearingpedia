@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  // Tinnitus: perception, functional impact and candidate mechanisms remain distinct.
+  link('tinnitus','hearing-loss','related','听力损失与耳鸣常相关，但既非充分也非必要条件。',3),
+  link('tinnitus','auditory-plasticity','mechanism','输入改变后的增益、同步和跨感觉调节是候选机制，不适用于所有人。',3),
+  link('tinnitus','cochlear-synaptopathy','related','部分研究检验去传入化假说；耳鸣本身不能确认突触损失。',3),
+  link('tinnitus','auditory-cortex','related','声音体验及维持可能涉及分布式皮层网络，不能归于唯一中心。',2),
+  link('tinnitus','psychoacoustics','related','匹配与掩蔽研究观察感知属性，其结果不能替代功能结局。',3),
+  link('tinnitus','pure-tone-audiometry','related','听阈描述敏感度，不能直接测出耳鸣困扰。',3),
+  link('audiology','tinnitus','application','结合病因线索、听力需求与功能影响确定评估目标。',3),
+  link('hearing-aid','tinnitus','application','适用听损人群的听力康复可能改善需求与影响，不推广至所有耳鸣。',2),
   link('outer-hair-cell','otoacoustic-emissions','measured-by','外毛细胞相关主动机械过程可产生耳道声学输出，测量同时受传播与校准影响。',3),
   link('cochlea','otoacoustic-emissions','measured-by','非侵入性观察耳蜗机械输出，需要区分源机制、往返传输及记录噪声。',3),
   link('otoacoustic-emissions','audiology','application','用于外围功能评估、筛查与监测，并与其他听力检查整合。',3),

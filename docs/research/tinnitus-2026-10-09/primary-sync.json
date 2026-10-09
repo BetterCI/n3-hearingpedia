@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-09",
+  "primary": "C:\\AI_Lab\\n³ Hearingpedia",
+  "authoring_and_preview_worktree": "C:\\Users\\mengq\\.codex\\worktrees\\contributor-writing-guide\\n³ Hearingpedia",
+  "copied_files": [
+    "src/content/concepts/tinnitus.md",
+    "src/data/tinnitus-references.ts",
+    "scripts/generate-tinnitus.py",
+    "docs/research/tinnitus-2026-10-09/discovery-pool.json",
+    "docs/research/tinnitus-2026-10-09/entry-metrics.json",
+    "docs/research/tinnitus-2026-10-09/figure-manifest.json",
+    "docs/research/tinnitus-2026-10-09/local-review.md",
+    "docs/research/tinnitus-2026-10-09/relation-additions.json",
+    "docs/research/tinnitus-2026-10-09/search-log.md",
+    "docs/research/tinnitus-2026-10-09/source-ledger.json",
+    "docs/research/tinnitus-2026-10-09/validation.json",
+    "public/figures/tinnitus/description-dimensions.png",
+    "public/figures/tinnitus/description-dimensions.svg",
+    "public/figures/tinnitus/measurement-targets.png",
+    "public/figures/tinnitus/measurement-targets.svg",
+    "public/figures/tinnitus/mechanism-framework.png",
+    "public/figures/tinnitus/mechanism-framework.svg",
+    "public/figures/tinnitus/separate-endpoints.png",
+    "public/figures/tinnitus/separate-endpoints.svg",
+    "docs/research/cochlear-synaptopathy-2026-10-09/local-review.md",
+    "docs/research/cochlear-synaptopathy-2026-10-09/validation.json"
+  ],
+  "scoped_registry_updates": [
+    "src/data/references.ts",
+    "src/data/relations.ts",
+    "src/data/paths.ts",
+    "docs/research/wiki-evidence-map.json"
+  ],
+  "unrelated_files_preserved": 2340,
+  "status": "tinnitus-source-draft-synced-without-push",
+  "note": "Primary contains earlier independent drafts; shared files edited by scoped insertion, not replaced. Build/browser QA applies to the authoring preview worktree."
+}

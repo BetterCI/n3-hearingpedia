@@ -1,0 +1,75 @@
+[
+  {
+    "file": "description-dimensions.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "dimensions": [
+        "声音来源",
+        "节律",
+        "位置",
+        "时间过程",
+        "功能影响"
+      ],
+      "limitations": "axes overlap; not diagnostic algorithm or prevalence chart"
+    },
+    "license": "Project-authored; no external figure reproduced"
+  },
+  {
+    "file": "mechanism-framework.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "layout": "functional hypotheses, not anatomy",
+      "dashed": "bidirectional percept/attention modulation; not proof of psychogenic cause",
+      "limitations": "no unique tinnitus source or causal weights"
+    },
+    "license": "Project-authored; no external figure reproduced"
+  },
+  {
+    "file": "measurement-targets.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "targets": [
+        "peripheral function",
+        "percept attributes",
+        "functional impact",
+        "candidate neural mechanisms"
+      ],
+      "limitations": "not a clinical test battery or ranking"
+    },
+    "license": "Project-authored; no external figure reproduced"
+  },
+  {
+    "file": "separate-endpoints.svg",
+    "nature": "原创教学图",
+    "parameters": {
+      "synthetic": true,
+      "cases": [
+        "情形甲",
+        "情形乙",
+        "情形丙"
+      ],
+      "percept_rating_before": [
+        6,
+        6,
+        6
+      ],
+      "percept_rating_after": [
+        6,
+        3,
+        3
+      ],
+      "functional_index_before": [
+        60,
+        60,
+        60
+      ],
+      "functional_index_after": [
+        40,
+        60,
+        40
+      ],
+      "limitations": "not TFI raw items, treatment outcomes, measurement norms or individual clinical thresholds"
+    },
+    "license": "Project-authored; no external figure reproduced"
+  }
+]
