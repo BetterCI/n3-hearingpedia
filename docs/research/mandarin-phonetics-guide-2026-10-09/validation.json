@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-09",
+  "norm": "docs/contributor-kit/README.md v0.1 and basic-entry-template/submission-template/technical-integration",
+  "scope": "Five standard draft articles, one original teaching figure each",
+  "checks": {
+    "source_content": "passed",
+    "astro_check": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": "passed",
+    "site_verification": {
+      "pages": 88,
+      "legacy_redirects": 9,
+      "internal_links": 8482,
+      "equations": 110,
+      "searchable_concepts": 55,
+      "knowledge_areas": 7,
+      "relationships": 202,
+      "broken_links": 0
+    },
+    "figure_generator": "executed successfully; SVG, PNG and parameters reproduced",
+    "python_syntax": "passed",
+    "browser": {
+      "figures": [
+        {
+          "slug": "mandarin-consonants",
+          "imageLoaded": true,
+          "originalSvgOpened": true,
+          "desktopOverflow": false,
+          "mobileOverflow": false
+        },
+        {
+          "slug": "consonant-place-of-articulation",
+          "imageLoaded": true,
+          "originalSvgOpened": true,
+          "desktopOverflow": false,
+          "mobileOverflow": false
+        },
+        {
+          "slug": "consonant-manner-of-articulation",
+          "imageLoaded": true,
+          "originalSvgOpened": true,
+          "desktopOverflow": false,
+          "mobileOverflow": false
+        },
+        {
+          "slug": "aspiration",
+          "imageLoaded": true,
+          "originalSvgOpened": true,
+          "desktopOverflow": false,
+          "mobileOverflow": false
+        },
+        {
+          "slug": "voicing",
+          "imageLoaded": true,
+          "originalSvgOpened": true,
+          "desktopOverflow": false,
+          "mobileOverflow": false
+        }
+      ],
+      "legacyRedirectsChecked": 9,
+      "canonicalMandarinCards": 5,
+      "mapStatus": "webgl",
+      "pageErrors": []
+    },
+    "visual_review": {
+      "original_png_figures": "passed; annotation spacing and release-pulse onset corrected",
+      "svg_desktop_and_390px_mobile": "passed",
+      "figure_captions_units_and_sources": "checked"
+    }
+  },
+  "ai_content_review": {
+    "scope": "Definitions, source coverage, proposed observation methods and figure simplifications checked against the available source portions",
+    "professional_review": false
+  },
+  "articles": [
+    {
+      "slug": "aspiration",
+      "depth": "standard",
+      "status": "draft",
+      "visible_chinese_characters": 2226,
+      "figures": 1,
+      "sections": 5,
+      "subsections": 6,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "lisker-abramson-vot-1964",
+        "essentials-consonant-manner",
+        "essentials-vot-phonemes"
+      ]
+    },
+    {
+      "slug": "consonant-manner-of-articulation",
+      "depth": "standard",
+      "status": "draft",
+      "visible_chinese_characters": 3943,
+      "figures": 1,
+      "sections": 8,
+      "subsections": 19,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-manner"
+      ]
+    },
+    {
+      "slug": "consonant-place-of-articulation",
+      "depth": "standard",
+      "status": "draft",
+      "visible_chinese_characters": 3264,
+      "figures": 1,
+      "sections": 6,
+      "subsections": 11,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-place-phonation",
+        "essentials-consonant-manner",
+        "hanyu-pinyin-scheme"
+      ]
+    },
+    {
+      "slug": "mandarin-consonants",
+      "depth": "standard",
+      "status": "draft",
+      "visible_chinese_characters": 3629,
+      "figures": 1,
+      "sections": 7,
+      "subsections": 11,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "hanyu-pinyin-scheme",
+        "essentials-consonant-place-phonation"
+      ]
+    },
+    {
+      "slug": "voicing",
+      "depth": "standard",
+      "status": "draft",
+      "visible_chinese_characters": 2209,
+      "figures": 1,
+      "sections": 5,
+      "subsections": 7,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "ipa-chart-official",
+        "essentials-consonant-place-phonation",
+        "essentials-consonant-manner"
+      ]
+    }
+  ],
+  "professional_reviewer": null,
+  "professional_reviewed_at": null,
+  "status": "draft"
+}
