@@ -1,3 +1,4 @@
+import { liLiangReferences } from './li-liang-references.ts';
 import { liangZhianReferences } from './liang-zhian-references.ts';
 import { frequencyResolutionReferences } from './frequency-resolution-references.ts';
 import { timbrePerceptionReferences } from './timbre-perception-references.ts';
@@ -28,6 +29,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...liLiangReferences,
   ...liangZhianReferences,
   ...frequencyResolutionReferences,
   ...timbrePerceptionReferences,

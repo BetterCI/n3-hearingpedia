@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('li-liang','masking','researches','与合作者研究语音信息掩蔽及知觉线索的去掩蔽作用。',3),
+  link('li-liang','spatial-hearing','researches','主观空间分离与直达声、反射声整合的研究。',3),
+  link('li-liang','auditory-attention','researches','目标语音选择及注意对感觉运动门控的调节。',3),
+  link('li-liang','temporal-fine-structure','researches','初始听觉记忆研究涉及原始声学细节的短暂保留。',2),
+  link('li-liang','auditory-scene-analysis','researches','复杂声音环境中的知觉整合与目标分离。',2),
+  link('li-liang','psychoacoustics','researches','人类行为测量与动物神经实验相互补充。',2),
   link('liang-zhian','psychoacoustics','researches','辨别阈研究连接行为任务与感知测量。',3),
   link('liang-zhian','auditory-evoked-potential','researches','声诱发反应处理研究；不表示该技术由其独立创立。',3),
   link('liang-zhian','audiometric-calibration','researches','实际刺激频谱的核查与测听解释密切相关。',2),

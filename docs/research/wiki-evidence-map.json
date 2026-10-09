@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 256,
+  "relations": 262,
   "entries": [
     {
       "slug": "cochlea",
@@ -2432,6 +2432,34 @@
         "mandarin-lexical-tone",
         "pitch-perception",
         "speech-intelligibility"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "li-liang",
+      "knowledge_area": "biology",
+      "kind": "person",
+      "chinese_characters": 2117,
+      "body_characters": 4077,
+      "sections": 6,
+      "subsections": 10,
+      "reference_ids": [
+        "li-liang-profile",
+        "li-liang-obituary-report",
+        "li-liang-spatial-2005",
+        "li-liang-pam-2013",
+        "li-liang-ppi-2011",
+        "li-liang-unmasking-review-2017",
+        "li-liang-cambridge-2012"
+      ],
+      "wiki_links": [
+        "masking",
+        "spatial-hearing",
+        "auditory-attention",
+        "temporal-fine-structure",
+        "auditory-scene-analysis",
+        "psychoacoustics",
+        "liang-zhian"
       ],
       "status": "draft"
     }
