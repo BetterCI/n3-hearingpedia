@@ -2,6 +2,20 @@
 
 以下照片为公开机构页面中的第三方图片，用于相应研究人物和学术活动的介绍；公开可见不等于开放授权，本站开放内容许可不涵盖这些图片。原发布页面未注明摄影者或开放许可证，著作权归原权利人。保留原图、原始比例、完整画面与出处，不生成或推测人物身份。
 
+## 赵元任
+
+- `zhao-yuanren/portrait.jpg`：清华大学心理与认知科学系纪念页的姓名对应肖像，115 × 115。
+  - 页面：https://www.pcs.tsinghua.edu.cn/info/1013/1714.htm
+  - 原图：https://www.pcs.tsinghua.edu.cn/__local/F/88/72/6975515420348F0D911D314F191_ECE3BFB5_D98.jpg
+  - 未注明拍摄年代、摄影者与开放许可证，按原图大小呈现，不推测年代。
+- `zhao-yuanren/tsinghua-faculty.png`：清华国学研究院学者合影，315 × 165，图注明确赵元任为前排右一，未写具体拍摄年。
+  - 原图：https://lib.tsinghua.edu.cn/__local/1/4D/67/0582C1BCBEE1EC04F334E1ECF82_1C2905C2_32E64.png
+- `zhao-yuanren/wu-survey-1927.png`：1927年秋吴语调查时期的站台照片，317 × 229，图注明确赵元任为左二；保留手写年代和完整画面。
+  - 原图：https://lib.tsinghua.edu.cn/__local/9/5B/9F/068C0F395D7434B18B0BA9EC384_C8AC0EB2_4714E.png
+- 后两图页面：https://lib.tsinghua.edu.cn/info/1056/7999.htm 。展览以馆藏与家人捐赠档案为背景，但未逐图标摄影者或开放许可；本站许可不覆盖第三方照片。未裁剪、生成或修复人物形象。核验日期：2026-10-09。
+
+
+
 ## 李量
 
 - `li-liang/portrait.jpg`：北京大学心理与认知科学学院官方个人主页中的李量肖像，260 × 227。

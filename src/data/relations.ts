@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('zhao-yuanren','mandarin-lexical-tone','researches','五度标调法与字调、语调的历史研究。',3),
+  link('zhao-yuanren','fundamental-frequency','researches','语音音高轮廓研究的声学入口；相对调值不等于赫兹轨迹。',2),
+  link('zhao-yuanren','pitch-perception','researches','声调描述与音乐兴趣提供音高研究的阅读背景，不表示建立全部知觉机制。',2),
+  link('zhao-yuanren','mandarin-consonants','researches','语音与方言调查连接辅音系统的比较。',2),
+  link('zhao-yuanren','consonant-place-of-articulation','researches','方言语音调查与结构描写涉及发音部位的区别。',2),
+  link('zhao-yuanren','consonant-manner-of-articulation','researches','历史语音研究和调查关注发音方式与声调类别。',2),
   link("auditory-pathway","binaural-hearing","mechanism","脑干汇聚与后续网络共同参与两耳信息利用。",3),
   link("auditory-pathway","auditory-evoked-potential","related","诱发电位来自分布活动，不按波峰机械对应单核团。",3),
   link("auditory-pathway","auditory-attention","related","状态与反馈参与多层级处理，不全部定位于一个区域。",2),

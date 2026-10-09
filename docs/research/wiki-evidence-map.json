@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 293,
+  "relations": 299,
   "entries": [
     {
       "slug": "cochlea",
@@ -2631,6 +2631,33 @@
         "outer-hair-cell",
         "hearing-aid",
         "listening-effort"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "zhao-yuanren",
+      "knowledge_area": "perception",
+      "kind": "person",
+      "chinese_characters": 1978,
+      "body_characters": 4551,
+      "sections": 6,
+      "subsections": 10,
+      "reference_ids": [
+        "chao-tsinghua-biography",
+        "chao-tsinghua-portrait",
+        "chao-tone-intonation-1933",
+        "chao-library-exhibition-2026",
+        "chao-grammar-cinii-1968",
+        "chao-grammar-commercial-2011"
+      ],
+      "wiki_links": [
+        "mandarin-lexical-tone",
+        "fundamental-frequency",
+        "pitch-perception",
+        "speech-intelligibility",
+        "mandarin-consonants",
+        "consonant-place-of-articulation",
+        "consonant-manner-of-articulation"
       ],
       "status": "draft"
     }

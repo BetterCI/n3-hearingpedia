@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-09",
+  "slug": "zhao-yuanren",
+  "scope": "声调、语调、方言调查及声音档案；人物篇待专业审阅",
+  "primary_paper": {
+    "title": "Tone and Intonation in Chinese",
+    "year": 1933,
+    "pages": "121–134",
+    "scan": "https://www1.ihp.sinica.edu.tw/storage/w2_file/4978idvxfbN.pdf",
+    "visually_reviewed_pages": [121, 122, 126, 127, 132, 133, 134],
+    "verified": "音高变化的三类来源、保存录音、五度相对标度；1930年标调方案由1933论文脚注追溯，未获取1930全文"
+  },
+  "access_notes": {
+    "biography": "清华校史馆机构文章",
+    "portrait": "清华心理与认知科学系姓名对应肖像",
+    "archive": "清华图书馆2026展览，核对图片身份与年份",
+    "grammar": "CiNii核对1968原著书目，商务印书馆核对2011英文本再版；未通读全书"
+  },
+  "photos": [
+    {"file": "portrait.jpg", "width": 115, "height": 115, "date": "未注明", "source": "https://www.pcs.tsinghua.edu.cn/info/1013/1714.htm"},
+    {"file": "tsinghua-faculty.png", "width": 315, "height": 165, "identity": "前排右一", "date": "未注明", "source": "https://lib.tsinghua.edu.cn/info/1056/7999.htm"},
+    {"file": "wu-survey-1927.png", "width": 317, "height": 229, "identity": "左二", "date": "1927年秋", "source": "https://lib.tsinghua.edu.cn/info/1056/7999.htm"}
+  ],
+  "excluded_claims": ["机构资料不一致的具体逝世日", "无法验证的多语言能力数字", "将五度值等同固定赫兹或半音", "将历史语言描述推断为现代听觉神经机制", "未注明年代照片的推测拍摄年"],
+  "relation_note": "六条导航联系为编辑分档，不表示因果关系或实验效应量"
+}
