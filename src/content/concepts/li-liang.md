@@ -8,7 +8,7 @@ tags: ["研究人物", "中国听觉研究", "生理心理学", "鸡尾酒会问
 aliases: ["李量教授", "Li Liang", "Liang Li"]
 level: ["undergraduate", "graduate"]
 status: "draft"
-depth: "in-depth"
+depth: "standard"
 last_updated: "2026-10-09"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]

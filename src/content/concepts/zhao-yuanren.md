@@ -8,7 +8,7 @@ tags: ["研究人物", "中国语音研究者", "五度标调法", "声调与语
 aliases: ["趙元任", "Zhao Yuanren", "Chao Yuen Ren", "Y. R. Chao"]
 level: ["undergraduate", "graduate"]
 status: "draft"
-depth: "in-depth"
+depth: "standard"
 last_updated: "2026-10-09"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
