@@ -14,6 +14,18 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('psychoacoustics','loudness','related','响度匹配与标度研究声音条件和主观大小的关系。',3),
+  link('psychoacoustics','pitch-perception','related','音高任务通过线索操纵检验感知关系与候选机制。',3),
+  link('psychoacoustics','masking','related','掩蔽实验比较目标在不同背景中的检测与识别。',3),
+  link('psychoacoustics','auditory-filter','related','行为掩蔽数据约束功能性频率选择模型。',2),
+  link('psychoacoustics','temporal-resolution','related','间隙与调制检测连接刺激变化和时域加工能力。',3),
+  link('psychoacoustics','binaural-hearing','related','双耳任务研究两路信息的利用及其条件。',2),
+  link('psychoacoustics','auditory-scene-analysis','related','分组与识别任务研究复杂声音的组织。',2),
+  link('psychoacoustics','speech-reception-threshold','related','言语阈值需保留材料、任务与正确率判据。',2),
+  link('psychoacoustics','pure-tone-audiometry','related','听觉检测与临床测听相关，研究程序不能自动替代标准测试。',2),
+  link('psychoacoustics','audiometric-calibration','related','声学呈现与参考条件决定行为测量的解释。',2),
+  link('psychoacoustics','vocoder','related','受控声学模拟用于分离线索并检验听觉技术假设。',2),
+  link('psychoacoustics','confusion-matrix','related','错误类别结构补充总体正确率，揭示任务内的信息利用。',1),
   link('room-acoustics','masking','related','晚期反射和背景噪声改变目标声音的可利用线索。',2),
   link('room-acoustics','temporal-resolution','related','房间输入拖尾与听者时间分辨能力属于不同层面。',2),
   link('room-acoustics','loudness','related','反射与衰减改变声音输入，响度还受听者与刺激条件影响。',2),

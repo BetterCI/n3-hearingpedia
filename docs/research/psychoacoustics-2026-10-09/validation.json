@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-09",
+  "scientificReview": "Draft; no named professional review",
+  "commands": {
+    "astroCheck": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "sourceContent": "passed",
+    "build": {
+      "pages": 89,
+      "indexedConcepts": 65
+    },
+    "builtSite": {
+      "checkedInternalLinks": 9136,
+      "equations": 112,
+      "searchableConcepts": 65,
+      "knowledgeAreas": 7,
+      "typedRelationships": 238,
+      "brokenLinks": 0
+    }
+  },
+  "browser": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "sections": 11,
+    "references": 20,
+    "figures": [
+      {
+        "alt": "声音刺激经过听者加工形成任务行为，再用于统计估计和模型比较",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/psychoacoustics/01-measurement-chain.svg"
+      },
+      {
+        "alt": "两条二选一逻辑斯蒂曲线具有相同位置参数而尺度不同，下渐近线为0.5，上渐近线为0.98",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/psychoacoustics/02-psychometric-function.svg"
+      },
+      {
+        "alt": "等方差正态模型中改变判据同时改变命中和虚报，两个工作点仍位于同一敏感性的ROC曲线上",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/psychoacoustics/03-sensitivity-and-bias.svg"
+      },
+      {
+        "alt": "固定随机序列覆盖多个声级，二降一升轨迹根据模拟答对和答错逐步改变声级",
+        "width": 1920,
+        "height": 1152,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/psychoacoustics/04-sampling-procedures.svg"
+      },
+      {
+        "alt": "同为0.8正确率时20次和100次独立试验的95% Wilson区间宽度不同",
+        "width": 1920,
+        "height": 960,
+        "href": "http://127.0.0.1:4337/n3-hearingpedia/figures/psychoacoustics/05-trial-uncertainty.svg"
+      }
+    ],
+    "anchors": 124,
+    "mobileOverflow": false,
+    "katexErrors": 0,
+    "figurePopup": true,
+    "domainLink": true,
+    "learningPathLink": true,
+    "searchable": true,
+    "pageErrors": []
+  },
+  "figures": {
+    "source": "scripts/generate-psychoacoustics-figures.py",
+    "parameters": "docs/research/psychoacoustics-2026-10-09/figure-calculations.json",
+    "originalTeachingFigures": 5,
+    "svgAndPng": true,
+    "visuallyInspected": true
+  },
+  "limitations": [
+    "工程检查与 AI 自检不构成专业审阅。",
+    "全文读取范围按来源表分别记录；题名筛选不代表阅读全文。"
+  ]
+}

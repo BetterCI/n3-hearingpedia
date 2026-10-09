@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 226,
+  "relations": 238,
   "entries": [
     {
       "slug": "cochlea",
@@ -2395,6 +2395,58 @@
         "mandarin-lexical-tone"
       ],
       "depth": "standard"
+    },
+    {
+      "slug": "psychoacoustics",
+      "knowledge_area": "perception",
+      "kind": "discipline",
+      "chinese_characters": 8032,
+      "body_characters": 15810,
+      "sections": 11,
+      "subsections": 24,
+      "reference_ids": [
+        "psychoacoustics-fastl-2007",
+        "moore-speech-processing-2008",
+        "moore-loudness-2014",
+        "oxenham-pitch-2023",
+        "glasberg-1990",
+        "viemeister-1979",
+        "wichmann-2001",
+        "psychoacoustics-stanislaw-1999",
+        "levitt-1971",
+        "psychoacoustics-soranzo-2014",
+        "psychoacoustics-quest-1983",
+        "psychoacoustics-wichmann-ii-2001",
+        "psychoacoustics-schuett-2016",
+        "smith-2002",
+        "shannon-1995",
+        "psychoacoustics-mok-2024",
+        "psychoacoustics-woods-2017",
+        "psychoacoustics-grassi-web-2024",
+        "psychoacoustics-nist-wilson",
+        "swaminathan-2014"
+      ],
+      "wiki_links": [
+        "loudness",
+        "fundamental-frequency",
+        "pitch-perception",
+        "pure-tone-audiometry",
+        "formant",
+        "masking",
+        "auditory-filter",
+        "temporal-resolution",
+        "binaural-hearing",
+        "auditory-scene-analysis",
+        "speech-intelligibility",
+        "speech-reception-threshold",
+        "audiometric-calibration",
+        "hearing-loss",
+        "vocoder",
+        "cochlear-implant",
+        "hearing-aid",
+        "confusion-matrix"
+      ],
+      "status": "draft"
     }
   ]
 }
