@@ -8,7 +8,7 @@ tags: ["研究人物", "中国语音研究者", "实验语音学", "协同发音
 aliases: ["吴稚川", "稚川", "齐鲁", "Wu Zong-ji"]
 level: ["undergraduate", "graduate"]
 status: "draft"
-depth: "in-depth"
+depth: "standard"
 last_updated: "2026-10-09"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]

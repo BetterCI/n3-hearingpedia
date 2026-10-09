@@ -8,7 +8,7 @@ tags: ["研究人物", "中国听觉研究", "听觉生理", "生理声学", "�
 aliases: ["梁之安先生", "Liang Zhian", "Liang Zhi-an"]
 level: ["undergraduate", "graduate"]
 status: "draft"
-depth: "in-depth"
+depth: "standard"
 last_updated: "2026-10-09"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]

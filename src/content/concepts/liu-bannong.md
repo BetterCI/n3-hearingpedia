@@ -8,7 +8,7 @@ tags: ["研究人物", "中国语音研究者", "实验语音学", "声调测量
 aliases: ["刘复", "劉半農", "劉復", "Liu Fu", "Liu Ban-nong"]
 level: ["undergraduate", "graduate"]
 status: "draft"
-depth: "in-depth"
+depth: "standard"
 last_updated: "2026-10-09"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]

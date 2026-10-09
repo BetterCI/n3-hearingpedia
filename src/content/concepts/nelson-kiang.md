@@ -8,7 +8,7 @@ tags: ["研究人物", "华裔听觉研究者", "听神经", "单纤维记录", 
 aliases: ["江淵聲", "Nelson Kiang", "Nelson Y. S. Kiang", "N. Y. S. Kiang"]
 level: ["undergraduate", "graduate"]
 status: "draft"
-depth: "in-depth"
+depth: "standard"
 last_updated: "2026-10-09"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]

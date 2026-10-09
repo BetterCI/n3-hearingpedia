@@ -8,7 +8,7 @@ tags: ["研究人物", "中国听觉研究者", "临床听力学", "测听标准
 aliases: ["顧瑞", "Gu Rui", "R. Gu"]
 level: ["undergraduate", "graduate"]
 status: "draft"
-depth: "in-depth"
+depth: "standard"
 last_updated: "2026-10-09"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
