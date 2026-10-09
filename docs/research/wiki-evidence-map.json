@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 367,
+  "relations": 376,
   "entries": [
     {
       "slug": "cochlea",
@@ -3000,6 +3000,59 @@
       ],
       "status": "draft",
       "depth": "in-depth"
+    },
+    {
+      "slug": "otoacoustic-emissions",
+      "knowledge_area": "measurement",
+      "kind": "test",
+      "chinese_characters": 14450,
+      "body_characters": 25323,
+      "sections": 13,
+      "subsections": 35,
+      "reference_ids": [
+        "kemp-oae-1978",
+        "outer-hair-cell-shera",
+        "six-asha-oae",
+        "robles-2001",
+        "fettiplace-2017",
+        "six-oae-aging",
+        "six-nidcd-neuropathy",
+        "core-upgrade-abr-starr",
+        "six-asha-newborn",
+        "six-oae-model2024",
+        "six-oae-performance",
+        "oae-fpl-clinical-2026",
+        "oae-gorga-io-2003",
+        "six-oae-calibration2026",
+        "oae-calibration-epl-2019",
+        "oae-pulsed-io-2017",
+        "oae-ototoxicity-2011",
+        "lopez-olivocochlear-2018",
+        "oae-guinan-measurement-2003",
+        "oae-human-fine-structure-2015",
+        "oae-delay-paradigms-2000",
+        "oae-tuning-shera-2002",
+        "verschooten-human-cochlea-2018",
+        "oae-amt-verhulst2012",
+        "oae-amt-demo2012",
+        "verhulst-model-2018",
+        "inner-hair-cell-verhulst-code",
+        "amt-verhulst2018"
+      ],
+      "wiki_links": [
+        "outer-hair-cell",
+        "cochlea",
+        "auditory-brainstem-response",
+        "auditory-filter",
+        "audiology",
+        "pure-tone-audiometry",
+        "speech-audiometry",
+        "inner-hair-cell",
+        "auditory-pathway",
+        "hearing-loss",
+        "audiometric-calibration"
+      ],
+      "status": "draft"
     }
   ]
 }

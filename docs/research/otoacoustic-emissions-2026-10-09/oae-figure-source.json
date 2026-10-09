@@ -1,0 +1,31 @@
+{
+  "slug": "otoacoustic-emissions",
+  "file": "oae-human-fine-structure-2015.webp",
+  "source": "Unmodified published human measurements, Zhao et al. (2015), Figure 2",
+  "doi": "10.3389/fnsys.2015.00168",
+  "source_url": "https://www.frontiersin.org/files/Articles/167201/xml-images/fnsys-09-00168-g002.webp",
+  "article_url": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2015.00168/full",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "credit": "Zhao W, Dewey JB, Boothalingam S, Dhar S (2015). Frontiers in Systems Neuroscience 9:168.",
+  "sha256": "32227984c79ea93efecad5e0546373b25cb0d722b2d27cf76cf9588193ba1460",
+  "dimensions_px": [
+    1000,
+    631
+  ],
+  "modifications": "None; original image bytes preserved. Chinese reading guide is supplied in the article caption.",
+  "parameters": {
+    "subjects_shown": [
+      "WTPF13",
+      "WTPF76"
+    ],
+    "probe_levels_dB_SPL": [
+      20,
+      40
+    ],
+    "phase_unit": "cycles",
+    "level_unit": "dB SPL",
+    "phase_gradient_delay_unit": "ms",
+    "not_clinical_reference_range": true
+  }
+}

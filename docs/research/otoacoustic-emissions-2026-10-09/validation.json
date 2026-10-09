@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-09",
+  "status": "user-approved-for-publication-awaiting-professional-review",
+  "astro_check": "0 errors, 0 warnings, 0 hints",
+  "build": "passed; 184 pages; 75 search entries",
+  "site_verify": "passed; 13427 internal links checked; 0 broken links",
+  "source_verify": "passed; 75 concepts; 376 relations",
+  "publication": "User authorized commit and push after local figure review on 2026-10-09",
+  "page_checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "title": "耳声发射",
+      "overflow": false,
+      "references": 28,
+      "figures": 8,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-transfer.svg",
+          "width": 923,
+          "height": 808,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-distortion.svg",
+          "width": 1115,
+          "height": 386,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-interference.svg",
+          "width": 875,
+          "height": 376,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-noise.svg",
+          "width": 875,
+          "height": 395,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-human-pulsed-2017.jpg",
+          "width": 761,
+          "height": 783,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-human-io-2017.jpg",
+          "width": 773,
+          "height": 1167,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-phase-delay.svg",
+          "width": 875,
+          "height": 376,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-human-fine-structure-2015.webp",
+          "width": 1000,
+          "height": 631,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 790,
+          "parentWidth": 790,
+          "parentOverflow": "visible"
+        },
+        {
+          "width": 790,
+          "parentWidth": 790,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "耳声发射",
+      "overflow": false,
+      "references": 28,
+      "figures": 8,
+      "formulas": 2,
+      "katexErrors": 0,
+      "citationTargets": true,
+      "draft": true,
+      "assets": [
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-transfer.svg",
+          "width": 923,
+          "height": 808,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-distortion.svg",
+          "width": 1115,
+          "height": 386,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-interference.svg",
+          "width": 875,
+          "height": 376,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-noise.svg",
+          "width": 875,
+          "height": 395,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-human-pulsed-2017.jpg",
+          "width": 761,
+          "height": 783,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-human-io-2017.jpg",
+          "width": 773,
+          "height": 1167,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-phase-delay.svg",
+          "width": 875,
+          "height": 376,
+          "preservedRatio": true
+        },
+        {
+          "src": "/n3-hearingpedia/figures/otoacoustic-emissions/oae-human-fine-structure-2015.webp",
+          "width": 1000,
+          "height": 631,
+          "preservedRatio": true
+        }
+      ],
+      "tables": [
+        {
+          "width": 520,
+          "parentWidth": 346,
+          "parentOverflow": "visible"
+        },
+        {
+          "width": 390,
+          "parentWidth": 346,
+          "parentOverflow": "visible"
+        }
+      ],
+      "pageErrors": []
+    }
+  ],
+  "figure_1_revision": "Panels (a) and (b) merged into a single continuous functional block diagram, covering acoustic transmission and measurement/interpretation",
+  "figure_1_checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "overflow": false,
+      "caption": "图 1　耳声发射的生成、记录与判读。沿箭头阅读：探头扬声器经外耳和中耳送入刺激，耳蜗主动机械过程产生的声学输出经中耳和外耳到达传声器；记录随后进入质量控制、发射成分提取与报告判读。传声器接收的混合声压包含刺激残余、发射、噪声和设备误差。向内与向外传输分别列框，以强调两者均影响记录。箭头表示功能联系与信号方向，不指定耳蜗内的逆向传播机制；框的位置和大小不表示解剖位置或组织尺度。质量不足时先核对测量条件，图中不设置统一筛查阈值。345",
+      "alt": "耳声发射从刺激传入、耳蜗生成到声压记录、质量控制与结果判读的完整功能框图",
+      "loaded": true,
+      "ratio": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "caption": "图 1　耳声发射的生成、记录与判读。沿箭头阅读：探头扬声器经外耳和中耳送入刺激，耳蜗主动机械过程产生的声学输出经中耳和外耳到达传声器；记录随后进入质量控制、发射成分提取与报告判读。传声器接收的混合声压包含刺激残余、发射、噪声和设备误差。向内与向外传输分别列框，以强调两者均影响记录。箭头表示功能联系与信号方向，不指定耳蜗内的逆向传播机制；框的位置和大小不表示解剖位置或组织尺度。质量不足时先核对测量条件，图中不设置统一筛查阈值。345",
+      "alt": "耳声发射从刺激传入、耳蜗生成到声压记录、质量控制与结果判读的完整功能框图",
+      "loaded": true,
+      "ratio": true
+    }
+  ]
+}

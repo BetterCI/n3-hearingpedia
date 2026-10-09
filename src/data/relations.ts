@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('outer-hair-cell','otoacoustic-emissions','measured-by','外毛细胞相关主动机械过程可产生耳道声学输出，测量同时受传播与校准影响。',3),
+  link('cochlea','otoacoustic-emissions','measured-by','非侵入性观察耳蜗机械输出，需要区分源机制、往返传输及记录噪声。',3),
+  link('otoacoustic-emissions','audiology','application','用于外围功能评估、筛查与监测，并与其他听力检查整合。',3),
+  link('otoacoustic-emissions','auditory-brainstem-response','related','声学输出与神经群体电活动观察不同环节；发射保留不能排除神经性问题。',3),
+  link('otoacoustic-emissions','pure-tone-audiometry','related','耳蜗输出与行为检出阈分别测量，输入输出外推不直接替代听力图。',3),
+  link('otoacoustic-emissions','audiometric-calibration','related','需分别记录刺激声级参考、耳道声学条件与输出校正。',3),
+  link('otoacoustic-emissions','auditory-filter','related','反射发射延迟可约束调谐模型，估计依赖源机制和传播假设。',2),
+  link('otoacoustic-emissions','hearing-loss','related','筛查或监测结果依据协议解释，不直接定位或量化所有损伤。',3),
+  link('otoacoustic-emissions','speech-audiometry','related','机械输出与言语表现具有不同观察对象，需要共同解释。',2),
   link('speech-redundancy','speech-intelligibility','related','信息重叠和语言约束可支持特定条件下的内容识别；不等同于正确率。',3),
   link('speech-redundancy','temporal-envelope','related','分带起伏提供部分声学线索，不能把包络和精细结构视为相同编码。',2),
   link('speech-redundancy','mandarin-lexical-tone','related','声调与词句识别需要分别检验声学线索和语境利用。',3),
