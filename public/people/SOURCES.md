@@ -14,3 +14,14 @@
   - 活动日期2012年9月来自报道正文；图片路径2018年不是活动日期。完整呈现活动合影，不指认李量在图中的位置。
 
 核验日期：2026-10-09。
+
+## 江渊声（Nelson Yuan-Sheng Kiang）
+
+- `nelson-kiang/portrait.jpg`：MIT IMES转载的晚年肖像，640 × 427。
+  - 页面：https://imes.mit.edu/news-events/nelson-yuan-sheng-kiang-influential-researcher-human-hearing-science-dies-93-0
+  - 原图：https://imes.mit.edu/sites/imes/files/styles/uncropped_mobile/public/media/images/Nelson-Kiang.jpg?itok=VArqMr86
+- `nelson-kiang/historical-portrait.jpg`：MIT News发布的中年黑白肖像，465 × 600。
+  - 页面：https://news.mit.edu/2023/nelson-yuan-sheng-kiang-dies-0407
+  - 原图：https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202304/Nelson%20Kiang%20library.jpg?itok=HnWfErb9
+- 两张照片由报道直接确认身份，均注明Mass Eye and Ear提供；无摄影者和拍摄日期。原图完整使用，无裁剪或生成。图片路径中的2023年是发布路径，1955年是来到MIT的年份，均不作为拍摄年份。
+- 公开发布不等于开放授权，原权利人保留版权，本站开放内容许可不涵盖这些图片。

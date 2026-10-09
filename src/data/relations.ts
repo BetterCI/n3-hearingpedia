@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('nelson-kiang','cochlea','researches','以听神经单纤维记录研究耳蜗输出及机制。',3),
+  link('nelson-kiang','inner-hair-cell','researches','合作研究神经响应与内毛细胞纤毛损伤的联系。',3),
+  link('nelson-kiang','outer-hair-cell','researches','合作模型讨论内、外毛细胞相互作用。',2),
+  link('nelson-kiang','frequency-resolution','researches','单纤维频率选择性与调谐研究；不等同于人的行为分辨阈。',2),
+  link('nelson-kiang','dynamic-range','researches','合作分析放电率与相位随刺激声级的变化。',2),
+  link('nelson-kiang','cochlear-implant','researches','早期内耳人工刺激论文的研究线索，不表示独立发明该技术。',2),
   link('li-liang','masking','researches','与合作者研究语音信息掩蔽及知觉线索的去掩蔽作用。',3),
   link('li-liang','spatial-hearing','researches','主观空间分离与直达声、反射声整合的研究。',3),
   link('li-liang','auditory-attention','researches','目标语音选择及注意对感觉运动门控的调节。',3),
