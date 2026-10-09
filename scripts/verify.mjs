@@ -1,3 +1,12 @@
+/**
+ * Validate built pages, citations, knowledge links, search and historical redirects.
+ * Inputs: dist/, src/, docs/ and optional BASE_PATH. Output: a JSON check summary.
+ * Side effects: local file reads only; assertions or broken links fail the process.
+ * Usage: node scripts/verify.mjs after pnpm build.
+ * Updated 2026-10-09: distinguish canonical articles from merged section redirects.
+ * Copyright: Huali Zhou, zhouhuali224@gmail.com
+ * School of Electronics and Information Engineering, Heyuan Polytechnic, Heyuan, Guangdong, China.
+ */
 import { readFile, readdir, stat } from 'node:fs/promises';
 import { resolve, relative, join, sep } from 'node:path';
 import assert from 'node:assert/strict';
@@ -5,6 +14,7 @@ import { knowledgeRelations, relationTypes, relationshipsFor } from '../src/data
 import { knowledgeAreas, kindLabels } from '../src/data/knowledge.ts';
 import { learningPaths } from '../src/data/paths.ts';
 import { references } from '../src/data/references.ts';
+import { mergedConceptRedirects } from '../src/data/merged-concepts.ts';
 
 const root = resolve('dist');
 const base = (process.env.BASE_PATH || '/n3-hearingpedia').replace(/\/$/, '');
@@ -15,6 +25,7 @@ async function walk(folder) {
 const htmlFiles=(await walk(root)).filter(p=>p.endsWith('.html'));
 const conceptFiles=(await readdir('src/content/concepts')).filter(p=>p.endsWith('.md'));
 const expectedConcepts=conceptFiles.length;
+const conceptPages=new Set(conceptFiles.map(file=>join(root,'concepts',file.slice(0,-3),'index.html')));
 assert(htmlFiles.length>=expectedConcepts+23,'Expected core pages, 13 domains, and all concepts');
 const cache=new Map(await Promise.all(htmlFiles.map(async p=>[p,await readFile(p,'utf8')])));
 for(const file of conceptFiles)assert(cache.has(join(root,'concepts',file.slice(0,-3),'index.html')),'Missing concept route: '+file);
@@ -82,6 +93,15 @@ for(const r of knowledgeRelations){
     assert(html.includes(base+'/concepts/'+relation.neighbor+'/')&&html.includes(relation.label),'Related concept missing from article: '+slug);
   }
 }
+for (const redirect of mergedConceptRedirects) {
+  assert(!ids.has(redirect.slug) && ids.has(redirect.target), 'Invalid merged article redirect: '+redirect.slug);
+  const targetHtml=cache.get(join(root,'concepts',redirect.target,'index.html'));
+  assert(targetHtml.includes('id="'+redirect.anchor+'"'), 'Missing merged section anchor: '+redirect.slug);
+  const redirectHtml=cache.get(join(root,'concepts',redirect.slug,'index.html'));
+  const destination=base+'/concepts/'+redirect.target+'/#'+redirect.anchor;
+  assert(redirectHtml && /http-equiv="refresh"/i.test(redirectHtml) && redirectHtml.includes(destination), 'Missing historical redirect: '+redirect.slug);
+  assert(!redirectHtml.includes('data-pagefind-body'), 'Retired article must not be indexed: '+redirect.slug);
+}
 for(const slug of ids)assert(relationshipsFor(slug).length,'Orphan concept: '+slug);
 function checkTypes(slug,ancestors=new Set()){
   assert(!ancestors.has(slug),'Cycle in subtype hierarchy: '+slug);
@@ -126,7 +146,7 @@ for(const [file,html] of cache) {
     }
     checkedLinks++;
   }
-  if(file.includes(sep+'concepts'+sep)) {
+  if(conceptPages.has(file)) {
     assert(html.includes('data-pagefind-body'),'Concept not indexed: '+file);
     assert(html.includes('参考文献与证据范围'),'Missing reference section: '+file);
     assert(html.includes('关联概念'),'Missing related section: '+file);
@@ -141,4 +161,4 @@ assert(entry.languages['zh-cn']?.page_count===expectedConcepts,'Search index mus
 assert(cache.get(join(root,'concepts/amplitude-modulation/index.html')).includes('预印本 · 未同行评审'),'Preprint evidence must be labelled');
 assert(equations>=8,'Expected rendered concept equations');
 if(errors.length) { console.error(errors.join('\n'));process.exit(1); }
-console.log(JSON.stringify({pages:htmlFiles.length,checkedInternalLinks:checkedLinks,equations,searchableConcepts:entry.languages['zh-cn'].page_count,wikiConcepts:wiki.entries.length,knowledgeAreas:knowledgeAreas.length,typedRelationships:knowledgeRelations.length,wikiCrossLinks:wiki.entries.reduce((s,e)=>s+e.wiki_links.length,0),chineseCharacters:wiki.entries.reduce((s,e)=>s+e.chinese_characters,0),brokenLinks:0},null,2));
+console.log(JSON.stringify({pages:htmlFiles.length,legacyRedirects:mergedConceptRedirects.length,checkedInternalLinks:checkedLinks,equations,searchableConcepts:entry.languages['zh-cn'].page_count,wikiConcepts:wiki.entries.length,knowledgeAreas:knowledgeAreas.length,typedRelationships:knowledgeRelations.length,wikiCrossLinks:wiki.entries.reduce((s,e)=>s+e.wiki_links.length,0),chineseCharacters:wiki.entries.reduce((s,e)=>s+e.chinese_characters,0),brokenLinks:0},null,2));
