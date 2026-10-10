@@ -10,14 +10,14 @@ level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
 last_updated: "2026-10-10"
-literature_checked_at: "2026-10-09"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1821年8月31日—1894年9月8日"},{"label":"研究领域","value":"生理学、物理学与感官科学"},{"label":"听觉方法","value":"共振器分析与音叉合成"},{"label":"代表著作","value":"《音的感觉》，德文初版1863年"}]
-references: ["helmholtz-gerlach-1969", "helmholtz-association-history", "helmholtz-tone-1895", "helmholtz-kursell-2018", "helmholtz-schmidgen-time", "helmholtz-unsw-resonance", "helmholtz-smithsonian-resonator", "helmholtz-ptb-foundation", "helmholtz-consonance-2010", "robles-2001", "timbre-caclin-2005", "helmholtz-portrait-source", "helmholtz-resonator-photo"]
+references: ["helmholtz-gerlach-1969","helmholtz-association-history","helmholtz-tone-1895","helmholtz-kursell-2018","helmholtz-schmidgen-time","helmholtz-unsw-resonance","helmholtz-smithsonian-resonator","helmholtz-ptb-foundation","helmholtz-consonance-2010","robles-2001","timbre-caclin-2005","helmholtz-portrait-source","helmholtz-resonator-photo","helmholtz-vowels-1859"]
 batch: 4
 order: 110
 ---
@@ -241,3 +241,21 @@ Helmholtz留下的第一项方法启发，是先描述刺激，再检验感觉�
 第三项启发是给结论保留层次：声音分量的数学描述、耳蜗对分量的响应、神经系统的表征与人的任务判断，需要不同证据。本文的计算图只说明信号关系，历史照片只说明人物或器具，原著记录只支持相应版本的实验论述；它们都不能代替现代临床效果研究。
 
 初次阅读可先看共振器与音叉合成，再阅读耳蜗共振假说及其修正。希望进入原著者，可从第三章的成分分析、第六章的音叉合成与相位，以及第八章的拍开始；查阅数字版时，留意后人译注和现代网页附加的交互内容。进一步的现代解释可接续[音色感知](../timbre-perception/)、[频率分辨率](../frequency-resolution/)、[耳蜗](../cochlea/)与[语谱图](../spectrogram/)。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1895（第二英语版重印；德文初版1863） | [On the Sensations of Tone as a Physiological Basis for the Theory of Music](https://archive.org/stream/onsensationsofto00helmrich/onsensationsofto00helmrich_djvu.txt)<br />Hermann L. F. Helmholtz; Alexander J. Ellis（译注）<br />Longmans, Green, and Co. | 德文原著初版1863；此处所核1895年本为第二英语版重印，Ellis译注。[3](#ref-helmholtz-tone-1895) |
+
+### 代表论文与研究成果
+
+本篇优先列出与听觉和元音研究直接相关的原始论文。其神经时间和视觉研究不因人物相同而自动归为听觉论文。
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1859 | [Ueber die Klangfarbe der Vocale](https://onlinelibrary.wiley.com/doi/10.1002/andp.18591841004)<br />H. Helmholtz<br />Annalen der Physik, 184(10): 280–290 | 元音音色研究的原始论文入口；目前仅核对出版社书目。[14](#ref-helmholtz-vowels-1859) |

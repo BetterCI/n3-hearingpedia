@@ -9,8 +9,8 @@ aliases: ["顧瑞", "Gu Rui", "R. Gu"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "standard"
-last_updated: "2026-10-09"
-literature_checked_at: "2026-10-09"
+last_updated: "2026-10-10"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "解放军总医院"}
   - {label: "代表方向", value: "临床听力学与测听标准化"}
   - {label: "学术建设", value: "《听力学及言语疾病杂志》首届主编之一"}
-references: ["gu-obituary-2014", "gu-audiometry-standard-1996", "gu-cas-standards-2014", "gu-speech-chapter-record", "gu-clinical-book-record", "gu-journal-history-2023", "gu-familial-neuropathy-2003", "gu-aging-record-2009"]
+references: ["gu-obituary-2014","gu-audiometry-standard-1996","gu-cas-standards-2014","gu-speech-chapter-record","gu-clinical-book-record","gu-journal-history-2023","gu-familial-neuropathy-2003","gu-aging-record-2009"]
 batch: 3
 order: 103
 ---
@@ -103,3 +103,21 @@ order: 103
 可沿着三条路线继续阅读：从纯音测听与校准理解方法规范；从教材中的言语测听进入复杂声音识别；从家族性听神经病论文理解行为与生理检查的相互补充。顾瑞的人物篇因此也成为连接测量、临床观察与学科建设的入口。
 
 本文依据可公开核对的标准记录、期刊资料和论文摘要整理。教材与部分历史文章的正文尚未完整核验，具体来源的访问范围在参考资料中标明；人物篇仍待专业审阅。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1999 | [临床听力学](https://zher.cbpt.cnki.net/portal/journal/portal/client/paper/04ae652e8810331fe57cff6d77186174)<br />姜泗长、顾瑞（主编）<br />北京：北京医科大学、中国协和医科大学联合出版社；所核1999年第一版 | 姜泗长、顾瑞共同主编；目前依据后续论文的书目核验。[5](#ref-gu-clinical-book-record) |
+| 2008 | [《临床听力学》第二版“言语测听”章](https://www.whuhzzs.com/data/article/lceh/preview/pdf/20120708.pdf)<br />顾瑞（章节作者）<br />172–193页；由后续原始研究参考文献核对 | 顾瑞为该章作者；第二版全书主编为韩东一等。[4](#ref-gu-speech-chapter-record) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 2003 | [Familial auditory neuropathy](https://pubmed.ncbi.nlm.nih.gov/12972945/)<br />Qiuju Wang, Rui Gu, Dongyi Han, Weiyan Yang<br />Laryngoscope, 113(9): 1623–1629 | 合作研究四个家系的听神经病表型与遗传模式。[7](#ref-gu-familial-neuropathy-2003) |
+| 2009 | [老年人听力残疾的诊断（公开成果摘要记录）](https://most.gov.cn/ztzl/kjzykfgx/kjzykjjhzycg/kjzykjzyrk/201407/P020140718501629370841.pdf)<br />顾瑞、韩维举<br />听力学及言语疾病杂志，17(6): 517–519；科技部人口健康成果汇交资料 | 讨论老年听力功能与残疾诊断；不把历史统计当作当前数据。[8](#ref-gu-aging-record-2009) |

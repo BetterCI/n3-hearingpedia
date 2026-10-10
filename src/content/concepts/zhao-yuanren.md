@@ -9,8 +9,8 @@ aliases: ["趙元任", "Zhao Yuanren", "Chao Yuen Ren", "Y. R. Chao"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "standard"
-last_updated: "2026-10-09"
-literature_checked_at: "2026-10-09"
+last_updated: "2026-10-10"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "清华、中央研究院史语所、加州大学伯克利分校"}
   - {label: "代表方向", value: "汉语语音、声调与语调、方言调查"}
   - {label: "代表工具", value: "五度标调法（赵氏调符）"}
-references: ["chao-tsinghua-biography", "chao-tsinghua-portrait", "chao-tone-intonation-1933", "chao-library-exhibition-2026", "chao-grammar-cinii-1968", "chao-grammar-commercial-2011"]
+references: ["chao-tsinghua-biography","chao-tsinghua-portrait","chao-tone-intonation-1933","chao-library-exhibition-2026","chao-grammar-cinii-1968","chao-grammar-commercial-2011","chao-language-problems-book","chao-collected-papers-2002","chao-tone-letters-1930"]
 batch: 3
 order: 104
 ---
@@ -122,3 +122,23 @@ order: 104
 在人物阅读路径中，他与梁之安、李量、江渊声和顾瑞形成不同研究视角的互补。读者可从本篇进入声调与辅音词条，再将语音描述与知觉测试、临床评估相联系。
 
 本文核对了1933年原始论文的相关扫描页、机构资料与书目记录。完整著作仍可继续研读；人物篇为待专业审阅版本。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1928 | [现代吴语的研究](https://lib.tsinghua.edu.cn/info/1056/7999.htm)<br />赵元任<br />馆藏著作与调查档案；版本信息以原书为准 | 方言调查著作；所核年代来自图书馆馆藏展览。[4](#ref-chao-library-exhibition-2026) |
+| 1968 | [A grammar of spoken Chinese = 中國話的文法](https://ci.nii.ac.jp/ncid/BA03188480?l=en)<br />Yuen Ren Chao（趙元任）<br />University of California Press；CiNii Books NCID BA03188480；ISBN 0520002199 | 口语汉语语法专著；2011年商务英文本是再版。[5](#ref-chao-grammar-cinii-1968) |
+| 1980（所核版本） | [语言问题](https://www.cp.com.cn/Plus/ContentKeywords/?ID=2221)<br />赵元任<br />商务印书馆；ISBN 978-7-100-02641-3 | 演讲记录；这里登记出版社所列1980年版本，不以此确定初版年。[7](#ref-chao-language-problems-book) |
+| 2002 | [赵元任语言学论文集](https://www.cp.com.cn/book/7-100-03127-3_93.html)<br />赵元任 著；吴宗济主编；赵新那等整理<br />商务印书馆；出版社当前记录ISBN 978-7-100-03127-1 | 论文汇编；区分赵元任原著与后人整理、主编工作。[8](#ref-chao-collected-papers-2002) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1930 | [A system of tone-letters](https://www.wiedenhof.nl/ul/cnow21ss.htm)<br />Yuen Ren Chao<br />Le Maître Phonétique, troisième série, no. 30: 24–27 | 五度相对标调的原始文献入口；与1933年论文交叉核对。[9](#ref-chao-tone-letters-1930) |
+| 1933 | [Tone and Intonation in Chinese（中国字调跟语调）](https://www1.ihp.sinica.edu.tw/en/Publications/Bulletin/239/Article/1178)<br />Y. R. Chao（赵元任）<br />中央研究院历史语言研究所集刊，4(2): 121–134 | 区分字调、连续语流中的相互影响与表达性语调。[3](#ref-chao-tone-intonation-1933) |

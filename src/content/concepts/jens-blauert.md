@@ -17,7 +17,7 @@ reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1938—2026"},{"label":"研究主线","value":"空间听觉、双耳技术、通信声学与感知评价"},{"label":"代表成果","value":"正中面定位、方向性频带与《Spatial Hearing》"},{"label":"学术建设","value":"创立波鸿通信声学研究所，推动AABBA合作"}]
-references: ["blauert-ika", "blauert-aes", "blauert-publications", "blauert-median", "blauert-spatial-book", "blauert-wavefront", "blauert-coherence", "blauert-room", "blauert-group-delay", "blauert-introduction", "blauert-listening", "blauert-understanding", "blauert-aabba", "amt-lindemann1986", "amt-baumgartner2014", "hofman-1998", "middlebrooks-1991", "blauert-sofa", "blauert-communication", "blauert-feedback", "litovsky-precedence-2001"]
+references: ["blauert-ika","blauert-aes","blauert-publications","blauert-median","blauert-spatial-book","blauert-wavefront","blauert-coherence","blauert-room","blauert-group-delay","blauert-introduction","blauert-listening","blauert-understanding","blauert-aabba","amt-lindemann1986","amt-baumgartner2014","hofman-1998","middlebrooks-1991","blauert-sofa","blauert-communication","blauert-feedback","litovsky-precedence-2001"]
 batch: 4
 order: 113
 ---
@@ -246,3 +246,26 @@ Blauert的贡献也包含把分散研究整理成可交流的术语、方法和�
 可先从[空间听觉](../spatial-hearing/)和[双耳时间差](../interaural-time-difference/)理解方向线索，再结合[双耳听觉](../binaural-hearing/)了解定位以外的功能；[房间声学](../room-acoustics/)解释传播与反射，[听觉可塑性](../auditory-plasticity/)连接个体线索的学习，[言语可懂度](../speech-intelligibility/)则提供另一类明确任务的评价入口。
 
 本文三张图是原创教学材料，公式图只核验几何关系；没有把合成曲线标为听者数据，也未运行AMT模型来声称复现原论文。来源表分别记录书目、摘要、相关全文段落和官方文档的访问范围。人物史与技术解释保留为待专业审阅的深度稿。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1996（MIT Press所列修订版） | [Spatial Hearing: The Psychophysics of Human Sound Localization, revised edition](https://mitpress.mit.edu/9780262024136/spatial-hearing/)<br />Jens Blauert<br />The MIT Press, 508 pp., ISBN 9780262024136 | 独著；所列1996年MIT修订版，早期版本另行区分。[5](#ref-blauert-spatial-book) |
+| 2005 | [Communication Acoustics](https://link.springer.com/book/10.1007/b139075)<br />Jens Blauert（主编）<br />Springer Berlin Heidelberg | 主编文集；各章作者不是全书主编的别名。[19](#ref-blauert-communication) |
+| 2013 | [The Technology of Binaural Listening](https://link.springer.com/book/10.1007/978-3-642-37762-4)<br />Jens Blauert（主编）<br />Springer, Modern Acoustics and Signal Processing | 主编；连接双耳研究与技术实现。[11](#ref-blauert-listening) |
+| 2020 | [The Technology of Binaural Understanding](https://link.springer.com/book/10.1007/978-3-030-00386-9)<br />Jens Blauert; Jonas Braasch（主编）<br />Springer, Modern Acoustics and Signal Processing | 与Jonas Braasch共同主编；扩展到主动聆听与理解。[12](#ref-blauert-understanding) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1969/1970 | [Sound Localization in the Median Plane](https://www.researchgate.net/publication/263716618_Sound_Localization_in_the_Median_Plane)<br />Jens Blauert<br />Acustica, 22, 205–213 | 研究正中面声音方向与频谱线索；年份按作者清单记1969/1970。[4](#ref-blauert-median) |
+| 1971 | [Localization and the Law of the First Wavefront in the Median Plane](https://doi.org/10.1121/1.1912663)<br />Jens Blauert<br />Journal of the Acoustical Society of America, 50, 466–470 | 正中面先行波与定位研究。[6](#ref-blauert-wavefront) |
+| 1978 | [Group delay distortions in electroacoustical systems](https://doi.org/10.1121/1.381841)<br />Jens Blauert; P. Laws<br />Journal of the Acoustical Society of America, 63(5), 1478–1483 | 与Laws比较群延迟失真和听觉可察觉性。[9](#ref-blauert-group-delay) |
+| 1986 | [Spatial mapping of intracranial auditory events for various degrees of interaural coherence](https://pubmed.ncbi.nlm.nih.gov/3958323/)<br />Jens Blauert; W. Lindemann<br />Journal of the Acoustical Society of America, 79(3), 806–813 | 与Lindemann研究耳间相干程度与颅内听觉事件空间形态。[7](#ref-blauert-coherence) |
+| 1992 | [Principles of binaural room simulation](https://www.sciencedirect.com/science/article/pii/0003682X9290049X)<br />Hilmar Lehnert; Jens Blauert<br />Applied Acoustics, 36(3–4), 259–291 | 与Lehnert提出双耳房间模拟的原理。[8](#ref-blauert-room) |

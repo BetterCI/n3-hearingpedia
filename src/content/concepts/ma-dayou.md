@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "中国科学院声学研究所"}
   - {label: "代表方向", value: "室内声学、吸声结构、噪声控制"}
   - {label: "代表著作", value: "《现代声学理论基础》"}
-references: ["ma-casad-biography", "ma-ioa-biography", "ma-mpp-followup-2020", "ma-modern-acoustics-book", "ma-casad-biographical-book"]
+references: ["ma-casad-biography","ma-ioa-biography","ma-mpp-followup-2020","ma-modern-acoustics-book","ma-casad-biographical-book","ma-acoustics-handbook-2004","ma-mpp-theory-1975","ma-mpp-wideband-1987","ma-mpp-potential-1998"]
 batch: 3
 order: 108
 ---
@@ -104,3 +104,22 @@ order: 108
 回顾马大猷的工作，有三条可继续追问的线索：房间边界怎样改变声音，结构怎样把声能耗散掉，测量怎样连接到实际聆听。这些问题将物理声学、工程设计与感知评价联系起来，也提示读者在阅读成果时保留各自的证据层次。
 
 本文采用公开机构资料核对生平，以后续原始研究说明理论的延续；不根据声学工程成就推断未经验证的听觉神经机制。词条目前为待专业审阅稿，书目核验、相关段落阅读与未取得的全文范围见参考文献说明。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 2004 | [现代声学理论基础](https://www.ecsponline.com/goods.php?id=183865)<br />马大猷<br />科学出版社，452页，ISBN 9787030119643 | 独著；由理论、方法与习题进入声学学习。[4](#ref-ma-modern-acoustics-book) |
+| 2004（修订第二版） | [声学手册（修订版）](https://www.ecsponline.com/yz/B823288121DD3415CA3CA2CAECD7A2936000.pdf)<br />马大猷、沈㠙 著<br />科学出版社；ISBN 7-03-012545-2；初版1983 | 与沈㠙合著；初版1983，所列修订第二版2004。[6](#ref-ma-acoustics-handbook-2004) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1975 | [微穿孔板吸声结构的理论和设计](https://www.sciengine.com/doi/pdf/f34434018b9141ea878d67eded26afe2)<br />马大猷<br />中国科学，第1期: 38–50 | 系统讨论微穿孔板的吸声原理、特性及设计图表。[7](#ref-ma-mpp-theory-1975) |
+| 1987 | [Microperforated-Panel Wideband Absorbers](https://doi.org/10.3397/1.2827694)<br />Dah-You Maa<br />Noise Control Engineering Journal, 29(3): 77–84 | 宽带微穿孔吸声研究的代表文献；目前仅核对书目。[8](#ref-ma-mpp-wideband-1987) |
+| 1998 | [Potential of microperforated panel absorber](https://doi.org/10.1121/1.423870)<br />Dah-You Maa<br />The Journal of the Acoustical Society of America, 104(5): 2861–2866 | 用孔径相关参数、相对声阻和吸收峰频率联系结构设计与吸声特性。[9](#ref-ma-mpp-potential-1998) |

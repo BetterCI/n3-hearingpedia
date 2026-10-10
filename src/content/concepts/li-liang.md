@@ -9,8 +9,8 @@ aliases: ["李量教授", "Li Liang", "Liang Li"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "standard"
-last_updated: "2026-10-09"
-literature_checked_at: "2026-10-09"
+last_updated: "2026-10-10"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "北京大学心理与认知科学学院"}
   - {label: "研究领域", value: "听觉认知、生理心理学与感觉运动门控"}
   - {label: "阅读线索", value: "多人说话时如何选出目标声音"}
-references: ["li-liang-profile", "li-liang-obituary-report", "li-liang-spatial-2005", "li-liang-pam-2013", "li-liang-ppi-2011", "li-liang-unmasking-review-2017", "li-liang-cambridge-2012"]
+references: ["li-liang-profile","li-liang-obituary-report","li-liang-spatial-2005","li-liang-pam-2013","li-liang-ppi-2011","li-liang-unmasking-review-2017","li-liang-cambridge-2012"]
 batch: 3
 order: 101
 ---
@@ -109,3 +109,24 @@ order: 101
 可以先阅读[心理声学](../psychoacoustics/)和掩蔽词条，理解声音、任务与判断的区别，再阅读空间去掩蔽实验，最后进入初始听觉记忆和动物门控研究。与[梁之安](../liang-zhian/)词条并读，还可以看到从刺激核查与神经记录，到复杂环境下知觉选择的不同研究问题。
 
 这篇人物回顾选择了三项代表实验及一篇综述，并不覆盖其全部工作。论文全文、摘要、个人主页和新闻转述的证据层次分别标注在参考文献中；照片的公开发布来源也单独保留。词条尚待专业审阅，后续补充应继续以原始论文、机构档案和可确认身份的照片为依据。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+目前核实的教材工作为合著书章，尚未核实可列入的独著专著。
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 2009 | [《神经科学》第三版，第14章“听觉”](https://psy.pku.edu.cn/szdw/qzjy/jsyjy/ll/index.htm)<br />李量、陈林、王小勤（章节作者）；韩济生（全书主编）<br />北京大学医学出版社，595–617页 | 三人共同撰写的听觉章节，不是李量独著专著；仅核对书目。[1](#ref-li-liang-profile) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 2005 | [The effect of perceived spatial separation on informational masking of Chinese speech](https://pubmed.ncbi.nlm.nih.gov/15574295/)<br />Xihong Wu, Chun Wang, Jing Chen, Hongwei Qu, Wenrui Li, Yanhong Wu, Bruce A. Schneider, Liang Li<br />Hearing Research, 199(1–2): 1–10 | 利用主观空间分离比较汉语语音的信息掩蔽。[3](#ref-li-liang-spatial-2005) |
+| 2011 | [Differentially Organized Top-Down Modulation of Prepulse Inhibition of Startle](https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2011092300002.pdf)<br />Yi Du, Xihong Wu, Liang Li<br />Journal of Neuroscience, 31(38): 13644–13653 | 比较大鼠前脉冲抑制的不同自上而下调节环节。[5](#ref-li-liang-ppi-2011) |
+| 2013 | [Primitive Auditory Memory Is Correlated with Spatial Unmasking That Is Based on Direct-Reflection Integration](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0063106)<br />Huahui Li, Lingzhi Kong, Xihong Wu, Liang Li<br />PLOS ONE, 8(4): e63106 | 联系短暂声学记忆、直达声—反射声整合与去掩蔽。[4](#ref-li-liang-pam-2013) |
+| 2017 | [在鸡尾酒会场景下利用去掩蔽知觉线索提高言语识别的脑网络机制](https://psy.pku.edu.cn/static/main/uploads/data/2018/4/5ad555aa9fe7e778.pdf)<br />李量, 郑英君, 吴超, 黎绢花, 张畅芯, 陆灵犀<br />心理科学进展, 25(12): 2099–2110 | 综述鸡尾酒会情境下的去掩蔽线索与脑网络；不是一项单独实验。[6](#ref-li-liang-unmasking-review-2017) |

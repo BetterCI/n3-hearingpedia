@@ -17,7 +17,7 @@ reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1924—1990"},{"label":"主要机构","value":"斯图加特、慕尼黑工业大学"},{"label":"研究主线","value":"临界带、响度与听觉模型"},{"label":"代表遗产","value":"Bark尺度、Zwicker响度、Zwicker音"}]
-references: ["zwicker-fastl2024", "zwicker-tumhistory", "zwicker-asa", "zwicker-dega", "zwicker-band1957", "zwicker-bark1961", "zwicker-analytic1980", "zwicker-volk2015", "zwicker-scharf1965", "zwicker-quality2005", "zwicker-program1991", "zwicker-iso1", "zwicker-iso2", "zwicker-after1964", "zwicker-norena2003", "zwicker-review2025", "zwicker-florentine1979", "psychoacoustics-fastl-2007", "zwicker-mathworks"]
+references: ["zwicker-fastl2024","zwicker-tumhistory","zwicker-asa","zwicker-dega","zwicker-band1957","zwicker-bark1961","zwicker-analytic1980","zwicker-volk2015","zwicker-scharf1965","zwicker-quality2005","zwicker-program1991","zwicker-iso1","zwicker-iso2","zwicker-after1964","zwicker-norena2003","zwicker-review2025","zwicker-florentine1979","psychoacoustics-fastl-2007","zwicker-mathworks"]
 batch: 4
 order: 119
 ---
@@ -264,3 +264,24 @@ Florentine与Zwicker在1979年的合作研究已经指出，将响度模型用�
 历史照片可在[Fastl的2024年百年纪念文章](https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf)及[TUM的机构历史回顾](https://mediatum.ub.tum.de/doc/1138439/98963.pdf)中查看，包含桌前肖像、实验工作与研究环境。本页选用百年纪念文章的桌前照片，并在图注中保留来源与原署名。[1](#ref-zwicker-fastl2024)[2](#ref-zwicker-tumhistory)
 
 本词条为AI辅助本地深度稿，专业审核待完成。文献访问层级、公式来源、图示参数和图片权利记录保存在研究台账中；教学算例与原始实验结果分别标明。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 2007 | [Psychoacoustics: Facts and Models (3rd edition)](https://link.springer.com/book/10.1007/978-3-540-68888-4)<br />Hugo Fastl; Eberhard Zwicker<br />Springer Berlin, Heidelberg | 与Fastl合著；所列2007年第三版是后续版本，不能视为Zwicker生前新增实验。[18](#ref-psychoacoustics-fastl-2007) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1957 | [Critical Band Width in Loudness Summation](https://www.ee.columbia.edu/~dpwe/e6820/papers/ZwicFS57-crband.pdf)<br />E. Zwicker; G. Flottorp; S. S. Stevens<br />The Journal of the Acoustical Society of America, 29(5), 548–557 | 与Flottorp、Stevens研究响度加和中的临界带宽。[5](#ref-zwicker-band1957) |
+| 1961 | [Subdivision of the Audible Frequency Range into Critical Bands (Frequenzgruppen)](https://doi.org/10.1121/1.1908630)<br />Eberhard Zwicker<br />The Journal of the Acoustical Society of America, 33(2), 248 | 对可听频率范围作临界带划分。[6](#ref-zwicker-bark1961) |
+| 1964 | [“Negative Afterimage” in Hearing](https://doi.org/10.1121/1.1919373)<br />Eberhard Zwicker<br />The Journal of the Acoustical Society of America, 36(12), 2413–2415 | 听觉“负后像”的原始报告，即后来称为Zwicker音的现象。[14](#ref-zwicker-after1964) |
+| 1965 | [A model of loudness summation](https://pubmed.ncbi.nlm.nih.gov/14296451/)<br />Eberhard Zwicker; Bertram Scharf<br />Psychological Review, 72(1), 3–26 | 与Scharf建立响度加和模型。[9](#ref-zwicker-scharf1965) |
+| 1980 | [Analytical expressions for critical-band rate and critical bandwidth as a function of frequency](https://doi.org/10.1121/1.385079)<br />E. Zwicker; E. Terhardt<br />The Journal of the Acoustical Society of America, 68(5), 1523–1525 | 与Terhardt给出临界带率和带宽的频率函数表达。[7](#ref-zwicker-analytic1980) |
+| 1991 | [Program for calculating loudness according to DIN 45631 (ISO 532B)](https://www.jstage.jst.go.jp/article/ast1980/12/1/12_1_39/_article)<br />Eberhard Zwicker; Hugo Fastl; Ulrich Widmann; Kenji Kurakata; Sonoko Kuwano; Seiichiro Namba<br />Journal of the Acoustical Society of Japan (E), 12(1), 39–42 | 合作给出按当时DIN/ISO方法计算响度的程序。[11](#ref-zwicker-program1991) |

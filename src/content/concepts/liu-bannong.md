@@ -9,8 +9,8 @@ aliases: ["刘复", "劉半農", "劉復", "Liu Fu", "Liu Ban-nong"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "standard"
-last_updated: "2026-10-09"
-literature_checked_at: "2026-10-09"
+last_updated: "2026-10-10"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "北京大学；留学英国、法国"}
   - {label: "代表方向", value: "实验语音学、汉语声调与乐律"}
   - {label: "代表工作", value: "《四声实验录》；北大语音乐律实验室"}
-references: ["liu-pku-biography", "liu-pku-lab-2005", "liu-tones-translation-2025", "liu-family-recollections-2005", "liu-teaching-recollections"]
+references: ["liu-pku-biography","liu-pku-lab-2005","liu-tones-translation-2025","liu-family-recollections-2005","liu-teaching-recollections"]
 batch: 3
 order: 106
 ---
@@ -109,3 +109,23 @@ order: 106
 刘育伦的回忆提供了刘半农与赵元任交流仪器问题的线索。[4](#ref-liu-family-recollections-2005)可以与[赵元任人物篇](../zhao-yuanren/)并读：前者从实验记录和实验室建设切入，后者可沿五度标调法、字调与语调的分析继续阅读。
 
 本文核对了机构生平资料、纪念报道、家属与学生回忆及出版社书目信息；两部历史著作尚未全文核验。人物篇保留待专业审阅状态，后续可补充原始曲线、装置说明和同期文献。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1924 | [四声实验录](https://news.pku.edu.cn/xwzh/129-99174.htm)<br />刘半农（刘复）<br />历史著作；原版出版机构及版本待原书核对 | 历史声调实验著作；此处出版年由北大实验室纪念资料核对。[2](#ref-liu-pku-lab-2005) |
+| 2025 | [汉语字声实验录](https://www.cp.com.cn/book/5cce31b0-d.html)<br />刘复 著；仇傲 译<br />2025年10月中译本，171页；ISBN 978-7-100-24966-9 | 1925年博士论文的现代中译本，不能当作1924年《四声实验录》的再版。[3](#ref-liu-tones-translation-2025) |
+
+### 代表论文与研究成果
+
+以下为出版社明确记载于1925年通过答辩并出版的博士论文；它们不是新近的期刊论文。
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1925 | [汉语字声实验录](https://www.cp.com.cn/book/5cce31b0-d.html)<br />刘复<br />巴黎大学博士论文；出版记录据2025年译本介绍 | 研究多种汉语方言的声调曲线及轻声、重音和节奏；原始数据待全文核验。[3](#ref-liu-tones-translation-2025) |
+| 1925 | [国语运动略史](https://www.cp.com.cn/book/5cce31b0-d.html)<br />刘复<br />巴黎大学博士论文；出版记录据2025年译本介绍 | 与实验语音工作同时期的国语运动史研究；此处只登记题名与出版线索。[3](#ref-liu-tones-translation-2025) |

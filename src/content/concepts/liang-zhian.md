@@ -9,8 +9,8 @@ aliases: ["梁之安先生", "Liang Zhian", "Liang Zhi-an"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "standard"
-last_updated: "2026-10-09"
-literature_checked_at: "2026-10-09"
+last_updated: "2026-10-10"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "中国科学院上海生理研究所"}
   - {label: "研究线索", value: "刺激声学、神经响应与听觉感知之间的联系"}
   - {label: "阅读重点", value: "代表工作、合作者及原始资料的核验范围"}
-references: ["liang-obituary-2000", "liang-stimulus-spectrum-1986", "liang-tvf-1990", "liang-discrimination-1997", "liang-neurobiology-chapter", "zeng-recollections-2013", "xu-ci-review-2006", "liang-auditory-book-1999", "liang-book-speech-citation"]
+references: ["liang-obituary-2000","liang-stimulus-spectrum-1986","liang-tvf-1990","liang-discrimination-1997","liang-neurobiology-chapter","zeng-recollections-2013","xu-ci-review-2006","liang-auditory-book-1999","liang-book-speech-citation"]
 batch: 3
 order: 100
 ---
@@ -106,3 +106,22 @@ order: 100
 梁之安的研究可作为理解中国基础听觉科学的一条线索：声音需要经过实测，电活动需要经过可靠处理，感知能力需要在明确任务中测量。这里的概括是对上述代表工作所作的编辑性归纳，并不宣称覆盖其全部生涯，也不据此排列研究者的贡献高低。
 
 本词条优先使用同期纪念材料、期刊原文可检索内容、论文摘要、出版社目录和当事人回顾。纪念材料用于经历，研究论文用于方法，目录用于确认著作；各类资料的用途在文末分别标注。早期语音研究尚待完整原文核验，条目保持待专业审阅状态。后续补充应优先核对论文原页、具体实验条件和作者分工，而不是增加未经证实的荣誉或“首次”表述。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1999 | [听觉感受和辨别的神经机制](https://book.kongfz.com/169723/5067411079/)<br />梁之安 著<br />上海科技教育出版社，脑科学丛书；ISBN 7-5428-1982-8 / 978-7-5428-1982-6 | 独著；从听觉感受与辨别进入神经机制。[8](#ref-liang-auditory-book-1999) |
+| 2000 | [《神经生物学纲要》“听觉”章](https://www.ecsponline.com/yz/B6FCC332A41024A4DB57F856310F983AC000.pdf)<br />梁之安（章节作者）；徐科（全书主编）<br />科学出版社，中国科学院研究生教学丛书（出版社提供的试读目录） | 梁之安撰写第七章“听觉”；整书由徐科主编。[5](#ref-liang-neurobiology-chapter) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1986 | [测听常用刺激声的频谱分析](https://www.sxjs.ac.cn/cn/article/pdf/preview/19860103.pdf)<br />梁之安, 陈光地, 林曦<br />声学技术, 第1期（原文可检索内容） | 实测测听刺激的频谱，强调换能器及耦合条件。[2](#ref-liang-stimulus-spectrum-1986) |
+| 1990 | [声诱发反应的时变滤波处理](https://www.sxjs.ac.cn/cn/article/id/19900302)<br />梁之安, 陈凌育, 林华英, 陈娟, 邵殿华<br />声学技术, 第3期: 5–9 | 探索随时间改变频带权重的诱发反应处理方法。[3](#ref-liang-tvf-1990) |
+| 1997 | [听觉辨别阈的测定](https://www.sxjs.ac.cn/article/1997/2)<br />梁之安, 邵殿华, 罗维之<br />声学技术, 第2期: 49–52 | 听觉辨别阈的原始研究入口；目前仅核对书目。[4](#ref-liang-discrimination-1997) |

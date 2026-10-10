@@ -10,14 +10,14 @@ level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
 last_updated: "2026-10-10"
-literature_checked_at: "2026-10-09"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
 knowledge_area: "sound"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1926—2009"},{"label":"研究领域","value":"声学、语音信号处理、心理声学与应用数学"},{"label":"代表方法","value":"混响逆向积分、施罗德相位、二次剩余扩散体"},{"label":"合作贡献","value":"与Bishnu S. Atal提出CELP语音编码"}]
-references: ["schroeder-nae", "schroeder-oral", "schroeder-frequency-1996", "room-acoustics-lecture", "room-acoustics-schroeder", "room-acoustics-rew-rt", "schroeder-phase-1970", "schroeder-smith-1986", "schroeder-kohlrausch-1995", "schroeder-summers-1998", "schroeder-wojtczak-2009", "schroeder-green-2013", "schroeder-halls-1974", "schroeder-diffusers-1979", "schroeder-celp-1985", "schroeder-computer-speech", "schroeder-number-theory", "schroeder-zkm", "schroeder-portrait"]
+references: ["schroeder-nae","schroeder-oral","schroeder-frequency-1996","room-acoustics-lecture","room-acoustics-schroeder","room-acoustics-rew-rt","schroeder-phase-1970","schroeder-smith-1986","schroeder-kohlrausch-1995","schroeder-summers-1998","schroeder-wojtczak-2009","schroeder-green-2013","schroeder-halls-1974","schroeder-diffusers-1979","schroeder-celp-1985","schroeder-computer-speech","schroeder-number-theory","schroeder-zkm","schroeder-portrait","schroeder-fractals-book-1991"]
 batch: 4
 order: 112
 ---
@@ -238,3 +238,26 @@ Schroeder与Sue Hanauer在1968年开展计算图形创作，作品随后进入�
 本文配图代码分别检查了能量曲线的单调性与拟合区间、三种谐波信号的RMS及幅度谱一致性、正负相位的周期性时间反转，以及二次剩余和槽深映射。计算验证回答“图是否按所述公式生成”；它不能替代房间测量、听者实验或实体扩散体的性能测试。
 
 若将这些教学信号用于播放或研究，还需增加校准、设备响应检查、适当的边缘处理与完整实验设计。语谱图可以帮助检查频率组成，但只看一张幅度图不足以确认相位；测量差异是否由目标机制引起，也需要对照条件。本文保留为待专业审阅的深度人物稿，研究史、方法与应用各按实际访问范围记录来源。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 2006（第4版） | [Number Theory in Science and Communication: With Applications in Cryptography, Physics, Digital Information, Computing, and Self-Similarity](https://link.springer.com/book/10.1007/b137861)<br />Manfred R. Schroeder<br />Springer Series in Information Sciences, 7 | 独著；所列为2006年第四版，连接数论与科学、通信。[17](#ref-schroeder-number-theory) |
+| 1991 | [Fractals, Chaos, Power Laws: Minutes from an Infinite Paradise](https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/fractals-chaos-power-laws-minutes-from-an-infinite-paradise-by-manfred-schroeder-pp-429-2449-1991-isbn-0716721368-freeman/D9280A19DD2DF4126D71473F8A2FBCAF)<br />Manfred Schroeder<br />W. H. Freeman；ISBN 0-7167-2136-8 | 跨学科著作；作为分形、混沌与幂律的阅读入口，不替代听觉实验。[20](#ref-schroeder-fractals-book-1991) |
+| 1999（第1版） | [Computer Speech: Recognition, Compression, Synthesis](https://link.springer.com/book/10.1007/978-3-662-03861-1)<br />Manfred R. Schroeder<br />Springer Series in Information Sciences, 35 | 独著；所列1999年第一版，涵盖识别、压缩与合成。[16](#ref-schroeder-computer-speech) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1965 | [New Method of Measuring Reverberation Time](https://doi.org/10.1121/1.1909343)<br />Manfred R. Schroeder<br />The Journal of the Acoustical Society of America, 37(3): 409–412 | 提出由脉冲响应积分取得混响衰减的测量方法。[5](#ref-room-acoustics-schroeder) |
+| 1970 | [Synthesis of low-peak-factor signals and binary sequences with low autocorrelation (Corresp.)](https://ieeexplore.ieee.org/document/1054411)<br />Manfred R. Schroeder<br />IEEE Transactions on Information Theory, 16(1), 85–89 | 研究低峰值因数信号与低自相关二进制序列。[7](#ref-schroeder-phase-1970) |
+| 1974 | [Comparative study of European concert halls: correlation of subjective preference with geometric and acoustic parameters](https://doi.org/10.1121/1.1903408)<br />M. R. Schroeder; D. Gottlob; K. F. Siebrasse<br />Journal of the Acoustical Society of America, 56(4), 1195–1201 | 与Gottlob、Siebrasse联系音乐厅主观偏好、几何与声学参数。[13](#ref-schroeder-halls-1974) |
+| 1979 | [Binaural dissimilarity and optimum ceilings for concert halls: More lateral sound diffusion](https://languagelog.ldc.upenn.edu/myl/SchroederQuadraticResidueDiffusors.pdf)<br />Manfred R. Schroeder<br />Journal of the Acoustical Society of America, 65(4), 958–963 | 研究侧向扩散、双耳不相似性与音乐厅顶棚。[14](#ref-schroeder-diffusers-1979) |
+| 1985 | [Code-excited linear prediction (CELP): High-quality speech at very low bit rates](https://www.csd.uoc.gr/~hy474/bibliography/CELP.pdf)<br />Manfred R. Schroeder; Bishnu S. Atal<br />IEEE ICASSP, 10, 937–940 | 与Atal研究低码率码激励线性预测语音编码。[15](#ref-schroeder-celp-1985) |
+| 1996 | [The “Schroeder frequency” revisited](https://doi.org/10.1121/1.414868)<br />Manfred R. Schroeder<br />Journal of the Acoustical Society of America, 99(5), 3240–3241 | 重新讨论Schroeder频率的定义与应用。[3](#ref-schroeder-frequency-1996) |
