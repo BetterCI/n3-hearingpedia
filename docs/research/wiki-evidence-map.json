@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 500,
+  "relations": 505,
   "entries": [
     {
       "slug": "cochlea",
@@ -3769,6 +3769,35 @@
         "wu-zongji",
         "masking",
         "noise-induced-hearing-loss"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "wei-rongjue",
+      "knowledge_area": "sound",
+      "kind": "person",
+      "depth": "standard",
+      "chinese_characters": 2220,
+      "body_characters": 3980,
+      "sections": 5,
+      "subsections": 10,
+      "reference_ids": [
+        "wei-nju-obituary",
+        "wei-speech-spectrum-1960",
+        "wei-nju-institute-history",
+        "wei-nju-alumni-2016",
+        "wei-nju-biography",
+        "wei-nju-collected-papers-event"
+      ],
+      "wiki_links": [
+        "ma-dayou",
+        "wu-zongji",
+        "spectrogram",
+        "formant",
+        "mandarin-consonants",
+        "masking",
+        "speech-intelligibility",
+        "cochlea"
       ],
       "status": "draft"
     }

@@ -15,6 +15,11 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('wei-rongjue','spectrogram','related','平均谱测量与语音时频分析描述不同层面的声音信息。',2),
+  link('wei-rongjue','speech-intelligibility','researches','掩蔽和失真条件下汉语通信的研究线索。',3),
+  link('wei-rongjue','masking','researches','语言声学研究关注噪声背景中的信息。',3),
+  link('wei-rongjue','room-acoustics','researches','研究领域包括建筑声学与实验声场。',2),
+  link('wei-rongjue','ma-dayou','related','从声学教育与研究平台回顾中国现代声学的不同贡献。',2),
   link('ma-dayou','room-acoustics','researches','简正波研究与人民大会堂音质设计。',3),
   link('ma-dayou','speech-intelligibility','related','聆听环境的设计需要结合言语理解任务评价。',2),
   link('ma-dayou','spectrogram','related','语言声学研究与语音时频测量相互参照。',1),
