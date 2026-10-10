@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: 梁之安的听觉辨别方法、刺激频谱与声诱发反应研究
+
+Title: Measurement of auditory discriminating thresholds
+Abstract: With a newly designed FM/AM/φM sound stimulator, accurate measurements of auditory discriminating thresholds of frequency (Δf), intensity (ΔI) and phase (Δφ) were performed psychophysically in humans and electrophysiologically in guinea pigs. For normal hearing human subjects, the measured thresholds amount to 1.3±0 6 pps for Δf,0 4±0 2dB for ΔI,and 0.9±0 3° for Δφ For normal hearing guinea pigs, they are 2.5±1 1pps, 0 5±0 2 dB and 1.2±0 5°, correspondingly. The designed stimulator is simple in construction and easy to manipulate and the operating principles are described in details.
+Keywords/concepts: 
+Venue: Shengxue jishu
+Year: 1997
+Cited by: 1
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
