@@ -1,0 +1,315 @@
+{
+  "id": "41986304",
+  "source": "MED",
+  "pmid": "41986304",
+  "pmcid": "PMC13084049",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC13084049"
+    ]
+  },
+  "doi": "10.1038/s41378-026-01251-y",
+  "title": "A capacitive-piezoelectric hybrid MEMS microphone with signal fusion for enhancing signal-to-noise ratio.",
+  "authorString": "Guan Y, Schneider M, Li D, Zhang H, Mi J, Bertrand A, Sadeghpour S, Wang C, Liu H, Glorieux C, Kraft M.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Guan Y",
+        "lastName": "Guan",
+        "firstName": "Yangyang",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ESAT-MNS, KU Leuven, Leuven, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Schneider M",
+        "lastName": "Schneider",
+        "firstName": "Michael",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9846-7132"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Sensor and Actuator Systems, TU Wien, Vienna, Austria."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li D",
+        "lastName": "Li",
+        "firstName": "Dongsheng",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Mechanical and Electrical Engineering, Jiangsu Key Laboratory of Embodied Intelligence Robot Technology, Soochow University, Suzhou, China. dsli@suda.edu.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang H",
+        "lastName": "Zhang",
+        "firstName": "Hemin",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1067-1137"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Ministry of Education, Key Laboratory of Micro and Nano Systems for Aerospace, School of Mechanical Engineering, Northwestern Polytechnical University, Xi'an, China. zhanghm@nwpu.edu.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mi J",
+        "lastName": "Mi",
+        "firstName": "Jing",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ESAT-MNS, KU Leuven, Leuven, Belgium."
+            },
+            {
+              "affiliation": "School of Instrument Science and Engineering, Southeast University, Nanjing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bertrand A",
+        "lastName": "Bertrand",
+        "firstName": "Alexander",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ESAT-STADIUS, KU Leuven, Leuven, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sadeghpour S",
+        "lastName": "Sadeghpour",
+        "firstName": "Sina",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ESAT-MNS, KU Leuven, Leuven, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang C",
+        "lastName": "Wang",
+        "firstName": "Chen",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3476-3658"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ESAT-MNS, KU Leuven, Leuven, Belgium. chen.wang@kuleuven.be."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu H",
+        "lastName": "Liu",
+        "firstName": "Huicong",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3651-9114"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Mechanical and Electrical Engineering, Jiangsu Key Laboratory of Embodied Intelligence Robot Technology, Soochow University, Suzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Glorieux C",
+        "lastName": "Glorieux",
+        "firstName": "Christ",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-7740-5215"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Soft Matter and Biophysics Unit, Department of Physics and Astronomy, KU Leuven, Leuven, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kraft M",
+        "lastName": "Kraft",
+        "firstName": "Michael",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7213-1072"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ESAT-MNS, KU Leuven, Leuven, Belgium."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-7740-5215"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0001-9846-7132"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-1067-1137"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0002-7213-1072"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0003-3476-3658"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0003-3651-9114"
+      }
+    ]
+  },
+  "journalInfo": {
+    "issue": "1",
+    "volume": "12",
+    "journalIssueId": 4170074,
+    "dateOfPublication": "2026 Apr",
+    "monthOfPublication": 4,
+    "yearOfPublication": 2026,
+    "journal": {
+      "medlineAbbreviation": "Microsyst Nanoeng",
+      "title": "Microsystems & nanoengineering",
+      "essn": "2055-7434",
+      "issn": "2096-1030",
+      "isoabbreviation": "Microsyst Nanoeng",
+      "nlmid": "101695458"
+    },
+    "printPublicationDate": "2026-04-01"
+  },
+  "pubYear": "2026",
+  "pageInfo": "136",
+  "abstractText": "This work describes a hybrid micro-electro-mechanical-systems (MEMS) microphone integrating capacitive and piezoelectric transduction mechanisms for signal-to-noise ratio (SNR) improvement. A theoretical system-level model was established to characterize the hybrid device, which was fabricated using a silicon-on-insulator (SOI) wafer-based process. The piezoelectric transduction component employs a Si/SiO2/Au/AlN/Pt material stack, while the capacitive transduction part consists of a variable capacitor formed by a silicon handle layer and a silicon device layer. Experimental results at 1 kHz show that the hybrid MEMS microphone achieves sensitivities of -64.3 dB (re: 1 V/Pa) in piezoelectric mode, -54.9 dB (re: 1 V/Pa) in capacitive mode, and -52.4 dB (re: 1 V/Pa) in hybrid mode, with corresponding SNR values of 65.7 dB, 59.8 dB, and 62.2 dB, respectively. To enhance the overall SNR of the hybrid MEMS microphone, a signal fusion technique is applied to the dual synchronized signals, resulting in an enhanced SNR of 66.7 dB, exhibiting a 14.1 dB improvement compared to the 52.6 dB reported in previous work.",
+  "affiliation": "ESAT-MNS, KU Leuven, Leuven, Belgium.",
+  "publicationStatus": "epublish",
+  "language": "eng",
+  "pubModel": "Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "research-article",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "China Scholarship Council (CSC)",
+        "grantId": "CSC No. 202006320040",
+        "orderIn": 0
+      },
+      {
+        "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+        "grantId": "NSFC 62401385",
+        "orderIn": 0
+      },
+      {
+        "agency": "Natural Science Foundation of Jiangsu Province (Jiangsu Provincial Natural Science Foundation)",
+        "grantId": "BK20240803",
+        "orderIn": 0
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41378-026-01251-y"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13084049"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13084049?pdf=render"
+      }
+    ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 1,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "N",
+  "hasData": "Y",
+  "license": "cc by-nc-nd",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2026-04-15",
+  "dateOfCreation": "2026-04-15",
+  "dateOfRevision": "2026-08-13",
+  "electronicPublicationDate": "2026-04-16",
+  "firstPublicationDate": "2026-04-16",
+  "firstIndexDate": "2026-04-16",
+  "fullTextReceivedDate": "2026-04-20",
+  "hasEvaluations": "N"
+}

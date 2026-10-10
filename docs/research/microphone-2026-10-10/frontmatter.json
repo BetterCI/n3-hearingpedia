@@ -1,0 +1,81 @@
+{
+  "title": "传声器",
+  "english": "Microphone",
+  "slug": "microphone",
+  "summary": "解释动圈、电容、驻极体与 MEMS 传声器的拾音机制，区分换能原理和指向性，并通过解析例子说明近讲效应、灵敏度、噪声、增益与声场校准如何影响听觉研究。",
+  "categories": [
+    "signal-processing",
+    "hearing-aids",
+    "research-methods"
+  ],
+  "tags": [
+    "microphone",
+    "directivity",
+    "proximity-effect",
+    "self-noise",
+    "microphone-calibration",
+    "MEMS"
+  ],
+  "aliases": [
+    "麦克风",
+    "话筒"
+  ],
+  "level": [
+    "undergraduate",
+    "graduate"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "last_updated": "2026-10-10",
+  "literature_checked_at": "2026-10-10",
+  "authors": [
+    "AI 辅助编写"
+  ],
+  "reviewer": null,
+  "reviewed_at": null,
+  "knowledge_area": "technology",
+  "kind": "technology",
+  "key_facts": [
+    {
+      "label": "作用",
+      "value": "将声学输入转换为可读取的电信号"
+    },
+    {
+      "label": "分类维度",
+      "value": "换能机制、声路与指向性、输出接口、测量用途分别描述"
+    },
+    {
+      "label": "动态范围",
+      "value": "低端受噪声限制，高端取决于器件与后续电路中最早出现的非线性"
+    },
+    {
+      "label": "校准条件",
+      "value": "灵敏度需注明频率、声场、方向、负载及测量不确定度"
+    }
+  ],
+  "references": [
+    "et-ni-handbook",
+    "et-iec60268-4",
+    "mic-dpa-essentials",
+    "mic-bk-handbook",
+    "mic-sessler-1962",
+    "mic-tu-electret",
+    "mic-hybrid-2026",
+    "et-adi-sensitivity",
+    "et-adi-preamp",
+    "mic-dpa-specs",
+    "mic-dpa-proximity",
+    "et-ni-measurement",
+    "et-iec61094-2",
+    "mic-iec61094-3",
+    "mic-iec61094-5",
+    "mic-iec61094-8",
+    "mic-iec60942",
+    "mic-iec-calibrators",
+    "nidcd-hearing-aids",
+    "mic-chung-2004",
+    "mic-shure-sm58"
+  ],
+  "batch": 5,
+  "order": 76
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "https://openalex.org/W2975817343",
+    "doi": "https://doi.org/10.1007/s12647-019-00343-7",
+    "title": "Measurement Uncertainty in Microphone Free-Field Comparison Calibrations",
+    "type": "article",
+    "grade": "Important",
+    "reason": "自由场比较校准的不确定度，与校准条件直接相关；未取得摘要／全文，不转录误差数值。",
+    "evidence_basis": "metadata only; provisional topic classification",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W847672357",
+    "doi": null,
+    "title": "Phase Calibration of Microphones by Measurement in the Free-field",
+    "type": "article",
+    "grade": "Important",
+    "reason": "研究MEMS阵列的自由场相位校准，说明通道幅度之外还需相位控制；仅摘要筛选，正文不转录研究性能。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2594166729",
+    "doi": null,
+    "title": "Free-field calibration of measurement microphones at high frequencies",
+    "type": "article",
+    "grade": "Important",
+    "reason": "扩展高频自由场校准，相关方法证据；超声频带超出词条可听声主范围，不采用未读全文的上限。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2795319905",
+    "doi": null,
+    "title": "An investigation on methods for free-field comparison calibration of measurement microphones.",
+    "type": "article",
+    "grade": "Important",
+    "reason": "比较先后测量的时间稳定与同时测量的空间一致条件；校准设计相关，正文范围优先用官方标准。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2898853229",
+    "doi": "https://doi.org/10.1121/1.5063815",
+    "title": "Free-field reciprocity calibration of measurement microphones at frequencies up to 150 kHz",
+    "type": "article",
+    "grade": "Important",
+    "reason": "超声互易校准及可追溯性，方法相关但频段不是正文重点。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2898645706",
+    "doi": "https://doi.org/10.1121/1.5063816",
+    "title": "Uncertainty analysis on free-field reciprocity calibration of measurement microphones for airborne ultrasound",
+    "type": "article",
+    "grade": "Important",
+    "reason": "超声校准不确定度及标准建立；仅摘要，未用作人体安全结论。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1994541788",
+    "doi": "https://doi.org/10.1063/1.4776687",
+    "title": "Micromachined piezoelectric microphones with in-plane directivity",
+    "type": "article",
+    "grade": "Important",
+    "reason": "制作压电端簧／旋转梁并测方向性；与声路和压电检测维度直接相关，未取得全文不复制性能。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1527252242",
+    "doi": null,
+    "title": "Effect of microphone position on voice quality",
+    "type": "conference-paper",
+    "grade": "Important",
+    "reason": "讨论拾音位置造成喷气、齿音和音色变化；相关录音控制背景，仅摘要可核对。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2803820928",
+    "doi": "https://doi.org/10.1121/1.5037363",
+    "title": "Estimation of the pressure at a listener's ears in an active headrest system using the remote microphone technique",
+    "type": "article",
+    "grade": "Background",
+    "reason": "远程监测点估计耳部压力的滤波器与系统仿真／实验；与位置解释有关，超出直接传声器入口。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4410641362",
+    "doi": "https://doi.org/10.1121/10.0036772",
+    "title": "Bioinspired flow-sensing capacitive microphone",
+    "type": "article",
+    "grade": "Important",
+    "reason": "仿动物声致粒子速度驱动的多孔旋转结构，说明声学输入不必限于压力振膜；正文聚焦常见压力／梯度，不宣称涵盖全部路线。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1515597441",
+    "doi": "https://doi.org/10.48550/arxiv.2401.02164",
+    "title": "Listening broadband physical model for microphones: a first step",
+    "type": "preprint",
+    "grade": "Important",
+    "reason": "宽带模型把传统方向图作为低频远场极限并解释近场；模型背景，与本文假设边界直接相关，仅摘要。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2335315903",
+    "doi": "https://doi.org/10.1097/01.hj.0000292900.09293.32",
+    "title": "Tutorial on microphone technologies for directional hearing aids",
+    "type": "article",
+    "grade": "Background",
+    "reason": "综述单胶囊双声孔与双单元电子组合、头部和风噪；以旧技术教程作背景，正文选另一可核对全文的早期综述，不把二者算独立临床实验。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W7154449026",
+    "doi": "https://doi.org/10.1038/s41378-026-01251-y",
+    "title": "A capacitive-piezoelectric hybrid MEMS microphone with signal fusion for enhancing signal-to-noise ratio",
+    "type": "article",
+    "grade": "Core",
+    "reason": "读取结构和实测／融合相关全文；直接混合高灵敏度却低于单压电SNR，提供噪声读出反例和具体条件，选入。",
+    "evidence_basis": "related fulltext sections",
+    "selected": true
+  },
+  {
+    "id": "https://openalex.org/W4409014736",
+    "doi": "https://doi.org/10.1109/jmems.2025.3548927",
+    "title": "A Hybrid MEMS Microphone Combining Piezoelectric and Capacitive Transduction Mechanisms",
+    "type": "article",
+    "grade": "Important",
+    "reason": "同一混合器件研究线的2025工作，2026论文用作比较；不把两代原型视为独立研究组的重复验证。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4387761140",
+    "doi": "https://doi.org/10.1016/j.mssp.2023.107879",
+    "title": "MEMS-based piezoresistive and capacitive microphones: A review on materials and methods",
+    "type": "article",
+    "grade": "Background",
+    "reason": "MEMS材料与方法综述；未取得摘要，仅根据对象暂列背景，不推断优劣。",
+    "evidence_basis": "metadata only; provisional topic classification",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4296887807",
+    "doi": "https://doi.org/10.1016/j.sna.2022.113887",
+    "title": "Recent development and futuristic applications of MEMS based piezoelectric microphones",
+    "type": "article",
+    "grade": "Background",
+    "reason": "汇总工艺、参数及应用的综述；用于定位候选，性能结论采用原始原型与条件。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W3197213748",
+    "doi": "https://doi.org/10.1016/j.aej.2021.08.044",
+    "title": "A piezoelectric MEMS microphone optimizer platform",
+    "type": "article",
+    "grade": "Important",
+    "reason": "参数与模型优化平台，相关设计方法；未核对实测，不将模型优化直接当作器件改善。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W3194416198",
+    "doi": "https://doi.org/10.1088/1361-6439/ac1eef",
+    "title": "On the PZT/Si unimorph cantilever design for the signal-to-noise ratio enhancement of piezoelectric MEMS microphone",
+    "type": "article",
+    "grade": "Important",
+    "reason": "模拟、制作并比较不同覆盖结构的PZT悬臂阵列；相关原型，未读全文不转录SNR。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1964199441",
+    "doi": "https://doi.org/10.1121/1.1909130",
+    "title": "Self-Biased Condenser Microphone with High Capacitance",
+    "type": "article",
+    "grade": "Core",
+    "reason": "1962原始摘要直接描述驻极体薄膜与无需外加直流极化；元数据／作者机构书目核对，选入机制沿革，未取得全文不转录性能。",
+    "evidence_basis": "abstract",
+    "selected": true
+  },
+  {
+    "id": "https://openalex.org/W4416272569",
+    "doi": "https://doi.org/10.1007/s40684-025-00809-x",
+    "title": "Actuation Mechanisms of Soft Actuator Materials Driven by Electric Field",
+    "type": "article",
+    "grade": "Exclude",
+    "reason": "软执行器电场驱动，非声学接收或校准研究；仅题名元数据，超出范围。",
+    "evidence_basis": "metadata only; provisional topic classification",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4408977650",
+    "doi": "https://doi.org/10.1007/s00289-025-05741-3",
+    "title": "Sustainability aspect of wearable clean room filters: a review",
+    "type": "article",
+    "grade": "Exclude",
+    "reason": "可穿戴洁净过滤器综述，检索词表面相近，与传声器输入／测量无直接关系。",
+    "evidence_basis": "metadata only; provisional topic classification",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4401964455",
+    "doi": "https://doi.org/10.1016/j.compag.2024.109385",
+    "title": "A review on the application of advanced soil and plant sensors in the agriculture sector",
+    "type": "article",
+    "grade": "Exclude",
+    "reason": "土壤和植物物理化学监测，目标测量对象不同，不因传感器关键词纳入。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4400285992",
+    "doi": "https://doi.org/10.3390/mi15070879",
+    "title": "Piezoelectric Micromachined Microphone with High Acoustic Overload Point and with Electrically Controlled Sensitivity",
+    "type": "article",
+    "grade": "Important",
+    "reason": "微压电传声器高声压测试与可调灵敏度，直接相关过载边界；仅摘要不列器件排名。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4396760592",
+    "doi": "https://doi.org/10.1088/1361-665x/ad4938",
+    "title": "A mechanical manipulated electromechanical coupling design with stretchable electret film: mechanical sensing, energy harvesting, and actuation",
+    "type": "article",
+    "grade": "Background",
+    "reason": "可拉伸驻极体一般机电耦合，包含机械传感与能量转换；不是本文声音接收验证。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4391277466",
+    "doi": "https://doi.org/10.1007/s11465-023-0772-0",
+    "title": "Review on piezoelectric actuators: materials, classifications, applications, and recent trends",
+    "type": "article",
+    "grade": "Exclude",
+    "reason": "逆压电执行器综述，声学接收不是研究终点。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2012176447",
+    "doi": "https://doi.org/10.1109/jmems.2007.909234",
+    "title": "A Micromachined Dual-Backplate Capacitive Microphone for Aeroacoustic Measurements",
+    "type": "article",
+    "grade": "Important",
+    "reason": "双背板结构制作和表征，提供经典微传声器研究候选；正文选择可读混合原型，不比较未读全文的动态范围。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2050464484",
+    "doi": "https://doi.org/10.1121/1.1798331",
+    "title": "Modeling of viscous damping of perforated planar microstructures. Applications in acoustics",
+    "type": "article",
+    "grade": "Background",
+    "reason": "穿孔平面结构黏性阻尼模型，属于背板空气负载理论背景。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2044680521",
+    "doi": "https://doi.org/10.1109/ultsym.2012.0144",
+    "title": "An analytical analysis of the sensitivity of circular piezoelectric micromachined ultrasonic transducers to residual stress",
+    "type": "conference-paper",
+    "grade": "Background",
+    "reason": "圆形超声压电结构残余应力解析模型；机制相关，频带和器件角色需另核对，未作为可听声原型。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2049960568",
+    "doi": "https://doi.org/10.1016/j.sna.2006.06.035",
+    "title": "Silicon microphone development and application",
+    "type": "article",
+    "grade": "Background",
+    "reason": "硅传声器发展主题与沿革有关；无摘要，背景候选，不推断具体成果。",
+    "evidence_basis": "metadata only; provisional topic classification",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2049929628",
+    "doi": "https://doi.org/10.1016/j.sna.2012.07.008",
+    "title": "Effects of scaling and geometry on the performance of piezoelectric microphones",
+    "type": "article",
+    "grade": "Important",
+    "reason": "尺寸／几何与压电传声器参数相关；无摘要，仅暂列研究候选，不作性能比较。",
+    "evidence_basis": "metadata only; provisional topic classification",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1993247569",
+    "doi": "https://doi.org/10.1007/s10470-014-0484-9",
+    "title": "Analysis and design of an electrostatic MEMS microphone using the PolyMUMPs process",
+    "type": "article",
+    "grade": "Important",
+    "reason": "特定工艺的电容MEMS设计候选；无摘要，不把设计标题当实测证据。",
+    "evidence_basis": "metadata only; provisional topic classification",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W7212304661",
+    "doi": "https://doi.org/10.1002/advs.77712",
+    "title": "Self‐Sustaining Sensing Systems: Integration Strategies and Signal–Power Matching in Energy‐Harvesting Electronics",
+    "type": "article",
+    "grade": "Exclude",
+    "reason": "能量采集与自持传感电子综述，没有直接传声器声学表征或校准证据。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W7166134808",
+    "doi": "https://doi.org/10.1016/j.measurement.2026.122376",
+    "title": "A semi-analytical method for efficient directivity simulation of receiving transducers in uniform background flow",
+    "type": "article",
+    "grade": "Background",
+    "reason": "均匀流场的接收换能器方向性模型，超出静止空气教学模型；无摘要，不推断实验。",
+    "evidence_basis": "metadata only; provisional topic classification",
+    "selected": false
+  }
+]

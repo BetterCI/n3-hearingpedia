@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-10",
+  "base_commit": "81c85d36dd1ad5163e4b2c55a6fcb5ebe60e3984",
+  "scope": "Isolated authoring worktree: published origin/main plus microphone draft; excludes pending active-auditory-sensing and other shared checkout changes",
+  "source_sha256": "9bc28cfb60998c5692f2c772f8eba56cb19de42ce60048401578143da0412e4a",
+  "check": {
+    "files": 144,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": "passed; Pagefind indexed 105 concepts",
+  "verify": {
+    "pages": 244,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 20111,
+    "equations": 254,
+    "searchableConcepts": 105,
+    "typedRelationships": 671,
+    "wikiCrossLinks": 1142,
+    "brokenLinks": 0
+  },
+  "resolved_check": "Repository wording rule disallowed 成员; lead corrected to 输入端器件 and full build/verify repeated",
+  "limitations": [
+    "No professional scientific review",
+    "No interactive desktop or mobile browser layout review",
+    "Existing Vite bundle size and legacy redirect Pagefind notices remain"
+  ]
+}

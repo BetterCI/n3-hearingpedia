@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('microphone','electroacoustic-transducer','related','声学输入端的具体换能器，进一步展开拾音、声路和电读出。',3),
+  link('microphone','sound-waves-and-propagation','related','声场、波长及距离决定声学入口的有效驱动。',3),
+  link('microphone','dynamic-range','related','器件自噪声与整条读出链的过载限制需采用一致条件。',3),
+  link('microphone','audiometric-calibration','related','参考传声器校准与听觉刺激校准在不同环节连接。',3),
+  link('microphone','spectrum-and-power-spectral-density','related','区分噪声谱密度、带宽积分与等效输入噪声。',3),
+  link('microphone','room-acoustics','related','反射、漫射场和测量位置影响方向响应的解释。',3),
+  link('microphone','hearing-aid','application','声学接收为增益和方向性处理提供输入。',3),
+  link('microphone','cochlear-implant','application','声处理器前端获取信号，后续电刺激需要独立评价。',2),
+  link('microphone','otoacoustic-emissions','application','声学探头接收微弱信号，需要控制刺激泄漏与背景。',2),
+  link('microphone','speech-intelligibility','related','输入端物理指标不能代替使用者的言语行为评价。',2),
   link('electroacoustic-transducer','sound-waves-and-propagation','related','声学端口、传播与边界条件构成换能输出的解释基础。',3),
   link('electroacoustic-transducer','dynamic-range','related','噪声端、线性范围与最大输出需要使用一致参考量。',3),
   link('electroacoustic-transducer','audiometric-calibration','related','校准把刺激设定、器件输出及规定负载连接起来。',3),

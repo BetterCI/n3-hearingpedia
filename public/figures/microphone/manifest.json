@@ -1,0 +1,72 @@
+{
+  "origin": "Original conceptual and analytic teaching figures; no product measurements or copied paper curves",
+  "figures": [
+    "sensing-ports.svg",
+    "polar-patterns.svg",
+    "proximity.svg",
+    "gain-and-noise.svg"
+  ],
+  "directivity": {
+    "model": "D(theta)=a+(1-a)cos(theta); signed response; spherical averaging; on-axis normalization",
+    "checks": {
+      "全向：a = 1": {
+        "Q": 1.0,
+        "DI_dB": 0.0,
+        "sphere_power_average": 0.9999999979438323
+      },
+      "心形：a = 0.5": {
+        "Q": 3.0,
+        "DI_dB": 4.771212547196624,
+        "sphere_power_average": 0.33333333230524953
+      },
+      "八字形：a = 0": {
+        "Q": 3.0,
+        "DI_dB": 4.771212547196624,
+        "sphere_power_average": 0.3333333312771658
+      },
+      "窄心形：a = 0.25": {
+        "Q": 4.0,
+        "DI_dB": 6.020599913279624,
+        "sphere_power_average": 0.24999999871489523
+      }
+    }
+  },
+  "proximity": {
+    "model": "sqrt(1+1/(kr)^2)",
+    "c_m_per_s": 343.0,
+    "distances_m": [
+      0.05,
+      0.2,
+      1
+    ],
+    "assumptions": [
+      "on-axis point source, pure gradient, negligible port spacing compared with r and wavelength",
+      "far-field gradient frequency factor compensated",
+      "equal local pressure comparison; excludes geometric 1/r pressure increase; no microphone compensation network"
+    ]
+  },
+  "gain_example": {
+    "sensitivity_V_per_Pa": 0.01,
+    "ADC_fullscale_sine_Vrms": 0.5,
+    "ADC_fullscale_peak_V": 0.7071067811865476,
+    "gains": [
+      20,
+      5
+    ],
+    "clips_dBSPL": [
+      101.93820026016112,
+      113.97940008672037
+    ],
+    "assumptions": [
+      "frequency-independent teaching sensitivity at 1 kHz, linear microphone and preamp until ADC clipping",
+      "no specified real microphone AOP; peak limits for non-sinusoidal signals differ"
+    ]
+  },
+  "noise_average": {
+    "model": "10log10(2/(1+rho))",
+    "assumptions": [
+      "equal noise variances, same signal gain and phase, stationary additive noise; rho in [0,1]"
+    ],
+    "uncorrelated_gain_dB": 3.010299956639812
+  }
+}

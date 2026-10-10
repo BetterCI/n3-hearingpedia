@@ -1,0 +1,285 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1177/108471380400800302",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "15678225",
+        "source": "MED",
+        "pmid": "15678225",
+        "pmcid": "PMC4111442",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4111442"
+          ]
+        },
+        "doi": "10.1177/108471380400800302",
+        "title": "Challenges and recent developments in hearing aids. Part I. Speech understanding in noise, microphone technologies and noise reduction algorithms.",
+        "authorString": "Chung K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chung K",
+              "lastName": "Chung",
+              "firstName": "King",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5052-584X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Speech, Language and Hearing Sciences, Purdue University, West Lafayette, Indiana 47907, USA. kingchung@purdue.edu"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5052-584X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "8",
+          "journalIssueId": 1217282,
+          "dateOfPublication": "2004 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2004,
+          "journal": {
+            "medlineAbbreviation": "Trends Amplif",
+            "title": "Trends in amplification",
+            "essn": "1940-5588",
+            "issn": "1084-7138",
+            "isoabbreviation": "Trends Amplif",
+            "nlmid": "9709254"
+          },
+          "printPublicationDate": "2004-01-01"
+        },
+        "pubYear": "2004",
+        "pageInfo": "83-124",
+        "abstractText": "This review discusses the challenges in hearing aid design and fitting and the recent developments in advanced signal processing technologies to meet these challenges. The first part of the review discusses the basic concepts and the building blocks of digital signal processing algorithms, namely, the signal detection and analysis unit, the decision rules, and the time constants involved in the execution of the decision. In addition, mechanisms and the differences in the implementation of various strategies used to reduce the negative effects of noise are discussed. These technologies include the microphone technologies that take advantage of the spatial differences between speech and noise and the noise reduction algorithms that take advantage of the spectral difference and temporal separation between speech and noise. The specific technologies discussed in this paper include first-order directional microphones, adaptive directional microphones, second-order directional microphones, microphone matching algorithms, array microphones, multichannel adaptive noise reduction algorithms, and synchrony detection noise reduction algorithms. Verification data for these technologies, if available, are also summarized.",
+        "affiliation": "Department of Speech, Language and Hearing Sciences, Purdue University, West Lafayette, Indiana 47907, USA. kingchung@purdue.edu",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing Loss",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Equipment Design",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IS",
+                    "qualifierName": "instrumentation"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prosthesis Fitting",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sound Spectrography"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing Aids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CL",
+                    "qualifierName": "classification"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TD",
+                    "qualifierName": "trends"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Speech Perception"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Decision Making"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Noise",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Algorithms"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Processing, Computer-Assisted",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "IS",
+                    "qualifierName": "instrumentation"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://journals.sagepub.com/doi/pdf/10.1177/108471380400800302"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1177/108471380400800302"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4111442"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4111442?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1177/108471380400800302"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 102,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-09-20",
+        "dateOfCreation": "2005-01-29",
+        "dateOfRevision": "2024-03-21",
+        "firstPublicationDate": "2004-01-01",
+        "firstIndexDate": "2008-01-29",
+        "fullTextReceivedDate": "2020-07-10",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

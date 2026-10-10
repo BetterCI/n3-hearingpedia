@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: 传声器的拾音、声路、噪声与校准怎样影响听觉实验的可解释性？
+
+Title: A capacitive-piezoelectric hybrid MEMS microphone with signal fusion for enhancing signal-to-noise ratio
+Abstract: This work describes a hybrid micro-electro-mechanical-systems (MEMS) microphone integrating capacitive and piezoelectric transduction mechanisms for signal-to-noise ratio (SNR) improvement. A theoretical system-level model was established to characterize the hybrid device, which was fabricated using a silicon-on-insulator (SOI) wafer-based process. The piezoelectric transduction component employs a Si/SiO2/Au/AlN/Pt material stack, while the capacitive transduction part consists of a variable capacitor formed by a silicon handle layer and a silicon device layer. Experimental results at 1 kHz show that the hybrid MEMS microphone achieves sensitivities of -64.3 dB (re: 1 V/Pa) in piezoelectric mode, -54.9 dB (re: 1 V/Pa) in capacitive mode, and -52.4 dB (re: 1 V/Pa) in hybrid mode, with corresponding SNR values of 65.7 dB, 59.8 dB, and 62.2 dB, respectively. To enhance the overall SNR of the hybrid MEMS microphone, a signal fusion technique is applied to the dual synchronized signals, resulting in an enhanced SNR of 66.7 dB, exhibiting a 14.1 dB improvement compared to the 52.6 dB reported in previous work.
+Keywords/concepts: 
+Venue: Microsystems & Nanoengineering
+Year: 2026
+Cited by: 2
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
