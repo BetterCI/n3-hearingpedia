@@ -2,6 +2,7 @@ import { mkdir, writeFile, rename } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import analytics from '../src/data/analytics.json' with { type: 'json' };
+import { collectBaiduVisitorStats, createBaiduSession } from './baidu-visitor-stats.mjs';
 
 function count(value) {
   if (!Number.isSafeInteger(value) || value < 0) throw new Error('Invalid statistics count');
@@ -56,17 +57,44 @@ export async function collectVisitorStats({ site, token, now = new Date(), fetch
   return { start: start.toISOString(), end: end.toISOString(), updatedAt: now.toISOString(), visits, countries };
 }
 
+export async function collectSummaries(jobs, warn = console.warn) {
+  const results = await Promise.allSettled(jobs.map(([, collect]) => collect()));
+  const sources = {};
+  for (let i = 0; i < results.length; i++) {
+    const result = results[i];
+    const provider = jobs[i][0];
+    if (result.status === 'fulfilled') sources[provider] = result.value;
+    else warn(`::warning::${provider} statistics unavailable: ${result.reason.message}`);
+  }
+  if (!Object.keys(sources).length) throw new Error('All configured statistics providers failed; published site is retained');
+  return { ...(sources.baidu || sources.goatcounter), sources };
+}
+
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   const site = process.env.PUBLIC_GOATCOUNTER_SITE || analytics.site;
   const token = process.env.GOATCOUNTER_API_TOKEN || '';
-  if (!site || !token) {
+  const baiduToken = process.env.BAIDU_ACCESS_TOKEN || '';
+  if (!baiduToken && (!site || !token)) {
     console.log('Visitor statistics inactive: configure site URL and API token to activate.');
   } else {
-    const data = await collectVisitorStats({ site, token });
+    const jobs = [];
+    if (baiduToken) jobs.push(['baidu', async () => collectBaiduVisitorStats({
+      siteId: analytics.baiduReportSiteId, domain: analytics.baiduReportDomain,
+      request: await createBaiduSession({
+        accessToken: baiduToken, refreshToken: process.env.BAIDU_REFRESH_TOKEN,
+        apiKey: process.env.BAIDU_API_KEY, secretKey: process.env.BAIDU_SECRET_KEY,
+        statePath: resolve('.cache/baidu-oauth.enc'),
+      }),
+    })]);
+    if (site && token) jobs.push(['goatcounter', () => collectVisitorStats({ site, token })]);
+    // Preserve the legacy top-level shape while each source has its own footer.
+    const data = await collectSummaries(jobs);
     const output = resolve('public/visitor-stats.json');
     await mkdir(dirname(output), { recursive: true });
     await writeFile(`${output}.tmp`, JSON.stringify(data) + '\n');
     await rename(`${output}.tmp`, output);
-    console.log(`Updated visitor summary: ${data.visits} visits, ${data.countries.length} locations.`);
+    for (const [provider, summary] of Object.entries(data.sources)) {
+      console.log(`Updated ${provider} summary: ${summary.visits} visits, ${summary.countries.length} locations.`);
+    }
   }
 }

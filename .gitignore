@@ -5,6 +5,8 @@ dist/
 .env.*
 !.env.example
 artifacts/
+.cache/baidu-oauth.enc
+.cache/baidu-oauth.enc.tmp
 public/visitor-stats.json
 public/visitor-stats.json.tmp
 public/downloads/contributor-kit/

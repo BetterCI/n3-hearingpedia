@@ -2,15 +2,18 @@
 import { asset } from '../lib/paths';
 import analytics from '../data/analytics.json';
 const site = (import.meta.env.PUBLIC_GOATCOUNTER_SITE || analytics.site).trim().replace(/\/$/, '');
-const configured = /^https:\/\/[a-z0-9-]+\.goatcounter\.com$/.test(site);
+const providers = [
+  ...(Number.isSafeInteger(analytics.baiduReportSiteId) ? [{ id: 'baidu', name: '百度统计' }] : []),
+  ...(/^https:\/\/[a-z0-9-]+\.goatcounter\.com$/.test(site) ? [{ id: 'goatcounter', name: 'GoatCounter' }] : []),
+];
 const statsUrl = asset('visitor-stats.json');
 ---
-{configured && <section class="visitor-stats" aria-label="网站访问统计" data-stats-url={statsUrl} data-counter-site={site} hidden>
-  <div class="visitor-stats-heading"><span>世界各地的读者</span><span data-stats-period></span></div>
-  <div class="visitor-stats-summary"><span>访问人次 <strong data-stats-visits></strong></span><span>来源国家 / 地区 <strong data-stats-countries></strong></span></div>
+{providers.map(provider => <section class="visitor-stats" aria-label={`${provider.name} 网站访问统计`} data-stats-source={provider.id} data-stats-url={statsUrl} data-counter-site={site} hidden>
+  <div class="visitor-stats-heading"><span>世界各地的读者 · {provider.name}</span><span data-stats-period></span></div>
+  <div class="visitor-stats-summary"><span><span data-stats-visits-label>访问人次</span> <strong data-stats-visits></strong></span><span>来源国家 / 地区 <strong data-stats-countries></strong></span></div>
   <ul class="visitor-stats-locations" aria-label="主要来源国家与地区"></ul>
-  <p class="visitor-stats-note">按 GoatCounter 口径统计访问人次，跨页面可重复计数；国家 / 地区为网络地址估计。<span data-stats-updated></span></p>
-</section>}
+  <p class="visitor-stats-note"><span data-stats-source-note></span><span data-stats-updated></span></p>
+</section>)}
 <script>
   import { initVisitorStats } from '../scripts/visitor-stats';
   initVisitorStats();
