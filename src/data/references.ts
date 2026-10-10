@@ -1,6 +1,7 @@
 import { phaseLockingReferences } from './phase-locking-references.ts';
 import { maDayouReferences } from './ma-dayou-references.ts';
 import { weiRongjueReferences } from './wei-rongjue-references.ts';
+import { linTaoReferences } from './lin-tao-references.ts';
 import { zwickerReferences } from './zwicker-references.ts';
 import { flanaganReferences } from './flanagan-references.ts';
 import { delgutteReferences } from './delgutte-references.ts';
@@ -64,6 +65,7 @@ export const references: Record<string, Reference> = {
   ...phaseLockingReferences,
   ...maDayouReferences,
   ...weiRongjueReferences,
+  ...linTaoReferences,
   ...zwickerReferences,
   ...flanaganReferences,
   ...delgutteReferences,

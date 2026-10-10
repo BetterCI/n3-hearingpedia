@@ -15,6 +15,11 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('lin-tao','phonetics','researches','汉语语音、实验语音学与教材建设。',3),
+  link('lin-tao','mandarin-lexical-tone','researches','声调感知与连读变化的研究主题。',3),
+  link('lin-tao','spectrogram','related','实验语音学把声音记录与语言知识相互校验。',2),
+  link('lin-tao','liu-bannong','related','北大实验语音学早期建设与后续重建的历史阅读线索。',2),
+  link('lin-tao','wu-zongji','related','结合汉语实际开展实验语音研究，并为吴宗济论文集作序。',2),
   link('wei-rongjue','spectrogram','related','平均谱测量与语音时频分析描述不同层面的声音信息。',2),
   link('wei-rongjue','speech-intelligibility','researches','掩蔽和失真条件下汉语通信的研究线索。',3),
   link('wei-rongjue','masking','researches','语言声学研究关注噪声背景中的信息。',3),

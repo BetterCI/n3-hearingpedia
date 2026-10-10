@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 505,
+  "relations": 510,
   "entries": [
     {
       "slug": "cochlea",
@@ -3798,6 +3798,36 @@
         "masking",
         "speech-intelligibility",
         "cochlea"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "lin-tao",
+      "knowledge_area": "perception",
+      "kind": "person",
+      "depth": "standard",
+      "chinese_characters": 2118,
+      "body_characters": 3994,
+      "sections": 5,
+      "subsections": 10,
+      "reference_ids": [
+        "lin-pku-archive-2025",
+        "lin-collected-papers-2001",
+        "lin-kong-interview-2023",
+        "lin-phonetics-course-1992",
+        "lin-memorial-book-2007",
+        "lin-pku-obituary-2006"
+      ],
+      "wiki_links": [
+        "phonetics",
+        "mandarin-lexical-tone",
+        "wu-zongji",
+        "fundamental-frequency",
+        "temporal-envelope",
+        "spectrogram",
+        "pitch-perception",
+        "mandarin-consonants",
+        "liu-bannong"
       ],
       "status": "draft"
     }
