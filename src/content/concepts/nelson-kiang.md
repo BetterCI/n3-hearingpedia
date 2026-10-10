@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
+core_work: {"year":1965,"year_label":"1965／1966","title":"猫听神经单纤维放电专著（合作研究）","reference":"kiang-monograph"}
 key_facts:
   - {label: "生卒", value: "1929—2023年3月19日"}
   - {label: "主要机构", value: "Mass Eye and Ear、哈佛医学院与 MIT"}

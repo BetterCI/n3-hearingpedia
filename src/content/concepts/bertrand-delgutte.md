@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1984,"title":"听神经言语编码系列研究","reference":"delgutte-speech-II"}
 key_facts: [{"label":"生卒","value":"1952—2024"},{"label":"主要机构","value":"Eaton–Peabody Laboratories、哈佛医学院与MIT"},{"label":"研究主线","value":"听觉神经编码与知觉、双侧人工耳蜗"},{"label":"学术荣誉","value":"2023年William and Christine Hartmann Prize"}]
 references: ["delgutte-hms","delgutte-obituary","delgutte-thesis","delgutte-award","delgutte-speech-II","delgutte-speech-IV","harmonicity-cariani","delgutte-pitch-II","smith-2002","delgutte-mit-chimaera","wen-dynamic-range-2009","delgutte-reverb-2015","delgutte-reverb-2023","delgutte-itd-2007","delgutte-itd-2008","delgutte-awake-2014","delgutte-sipi-neural","delgutte-sipi-human","delgutte-experience-2021"]
 batch: 4

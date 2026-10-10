@@ -2,6 +2,12 @@ import type { Reference } from './references';
 
 // Publication metadata and access scope checked on 2026-10-10.
 export const researcherPublicationReferences: Record<string, Reference> = {
+  'wu-tone-changes-1982': {
+    title: '普通话语句中的声调变化', authors: '吴宗济', year: '1982',
+    publication: '中国语文，第6期: 439–450；由后续原始论文参考文献核对',
+    url: 'https://yyyj.cbpt.cnki.net/portal/journal/portal/client/paper/21c9e506ae52273d6715bbacf13a8e7d', access: 'metadata',
+    supports: '核对《语言研究》1990年杨顺安论文公开参考文献，明确吴宗济、1982年、题名、第6期和439–450页；与商务印书馆论文集目录互证。未取得1982年全文，仅用于书目与人物核心工作年代排序，不补写实验结果。',
+  },
   'jeffress-hixon-book-1951': {
     title: 'Cerebral Mechanisms in Behavior: The Hixon Symposium', authors: 'Lloyd A. Jeffress（编）', year: '1951',
     publication: 'John Wiley & Sons, New York；xiv + 311页', url: 'https://calteches.library.caltech.edu/1314/1/books.pdf', access: 'metadata',

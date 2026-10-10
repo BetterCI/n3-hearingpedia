@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
+core_work: {"year":1986,"title":"测听常用刺激声的频谱分析（合作研究）","reference":"liang-stimulus-spectrum-1986"}
 key_facts:
   - {label: "研究领域", value: "听觉生理、生理声学与神经生物学"}
   - {label: "主要机构", value: "中国科学院上海生理研究所"}

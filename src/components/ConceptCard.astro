@@ -10,10 +10,13 @@ const { data } = concept;
 <a class:list={['concept-card',{'in-depth-card':data.depth==='in-depth'}]} href={url(`concepts/${data.slug}`)}>
   <div class="card-meta"><span>{kindLabels[data.kind]}</span><DepthBadge depth={data.depth} /></div>
   <h3>{data.title}</h3><p class="english">{data.english}</p>
+  {data.kind==='person' && data.core_work && <p class="core-work"><span>{data.core_work.year_label ?? data.core_work.year} 年 · 核心工作</span>{data.core_work.title}</p>}
   <p class="card-description">{data.summary}</p>
   <div class="card-bottom"><span>{data.references.length} 项参考来源</span><span aria-hidden="true">↗</span></div>
 </a>
 <style>
   .in-depth-card{border-top:3px solid #7ba99d}
   .card-meta{align-items:center;flex-wrap:wrap}
+  .core-work{font-size:12px;line-height:1.7;color:var(--muted);margin:0 0 12px}
+  .core-work span{display:block;color:var(--accent);font-weight:600}
 </style>

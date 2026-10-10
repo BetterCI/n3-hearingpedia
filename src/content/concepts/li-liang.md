@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
+core_work: {"year":2005,"title":"知觉空间分离与汉语语音信息掩蔽（合作研究）","reference":"li-liang-spatial-2005"}
 key_facts:
   - {label: "生卒", value: "1962年3月—2024年3月28日"}
   - {label: "主要机构", value: "北京大学心理与认知科学学院"}

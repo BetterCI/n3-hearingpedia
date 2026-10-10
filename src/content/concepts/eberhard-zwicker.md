@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1957,"title":"响度加和中的临界带宽（合作研究）","reference":"zwicker-band1957"}
 key_facts: [{"label":"生卒","value":"1924—1990"},{"label":"主要机构","value":"斯图加特、慕尼黑工业大学"},{"label":"研究主线","value":"临界带、响度与听觉模型"},{"label":"代表遗产","value":"Bark尺度、Zwicker响度、Zwicker音"}]
 references: ["zwicker-fastl2024","zwicker-tumhistory","zwicker-asa","zwicker-dega","zwicker-band1957","zwicker-bark1961","zwicker-analytic1980","zwicker-volk2015","zwicker-scharf1965","zwicker-quality2005","zwicker-program1991","zwicker-iso1","zwicker-iso2","zwicker-after1964","zwicker-norena2003","zwicker-review2025","zwicker-florentine1979","psychoacoustics-fastl-2007","zwicker-mathworks"]
 batch: 4

@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
+core_work: {"year":1996,"title":"纯音气导与骨导测听标准（共同起草）","reference":"gu-audiometry-standard-1996"}
 key_facts:
   - {label: "生卒", value: "1926年7月—2014年3月29日"}
   - {label: "主要机构", value: "解放军总医院"}

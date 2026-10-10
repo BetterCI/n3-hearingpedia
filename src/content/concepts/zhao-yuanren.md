@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1930,"title":"五度标调法：A system of tone-letters","reference":"chao-tone-letters-1930"}
 key_facts:
   - {label: "生卒", value: "1892—1982"}
   - {label: "主要机构", value: "清华、中央研究院史语所、加州大学伯克利分校"}

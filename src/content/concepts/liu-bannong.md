@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1924,"title":"《四声实验录》：汉语声调实验","reference":"liu-pku-lab-2005"}
 key_facts:
   - {label: "生卒", value: "1891—1934"}
   - {label: "主要机构", value: "北京大学；留学英国、法国"}

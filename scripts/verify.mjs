@@ -15,6 +15,7 @@ import { knowledgeAreas, kindLabels } from '../src/data/knowledge.ts';
 import { learningPaths } from '../src/data/paths.ts';
 import { references } from '../src/data/references.ts';
 import { mergedConceptRedirects } from '../src/data/merged-concepts.ts';
+import { comparePersonCoreWork } from '../src/lib/person-chronology.ts';
 
 const root = resolve('dist');
 const base = (process.env.BASE_PATH || '/n3-hearingpedia').replace(/\/$/, '');
@@ -29,6 +30,30 @@ const conceptPages=new Set(conceptFiles.map(file=>join(root,'concepts',file.slic
 assert(htmlFiles.length>=expectedConcepts+23,'Expected core pages, 13 domains, and all concepts');
 const cache=new Map(await Promise.all(htmlFiles.map(async p=>[p,await readFile(p,'utf8')])));
 for(const file of conceptFiles)assert(cache.has(join(root,'concepts',file.slice(0,-3),'index.html')),'Missing concept route: '+file);
+const personEntries = [];
+for (const file of conceptFiles) {
+  const source = await readFile(join('src/content/concepts', file), 'utf8');
+  if (!/^kind: "person"$/m.test(source)) continue;
+  const core = source.match(/^core_work: (.*)$/m);
+  const coreWork = core ? JSON.parse(core[1]) : undefined;
+  const ids = JSON.parse(source.match(/^references: (.*)$/m)[1]);
+  if (coreWork) assert(ids.includes(coreWork.reference) && references[coreWork.reference], 'Missing core-work source: ' + file);
+  personEntries.push({ data: { slug: file.slice(0, -3), core_work: coreWork } });
+}
+const personSlugs = new Set(personEntries.map(p => p.data.slug));
+const expectedPeople = personEntries.sort(comparePersonCoreWork).map(p => p.data.slug);
+for (const route of ['index.html', 'people/index.html']) {
+  const html = cache.get(join(root, route));
+  const cards = [...html.matchAll(/<a\b[^>]*>/g)].map(m => m[0]).filter(a => /class="[^"]*\bconcept-card\b/.test(a));
+  const listed = cards.map(a => a.match(/href="[^\"]*\/concepts\/([^/\"]+)\//)?.[1]).filter(slug => personSlugs.has(slug));
+  assert.deepEqual(listed, expectedPeople, 'Core-work chronology differs: ' + route);
+  const years = listed.map(slug => personEntries.find(p => p.data.slug === slug).data.core_work?.year ?? Infinity);
+  assert(years.every((year, i) => i === 0 || years[i - 1] <= year), 'Core works must run from earlier to later: ' + route);
+  for (const person of personEntries) {
+    const core = person.data.core_work;
+    if (core) assert(html.includes(`${core.year_label ?? core.year} 年 · 核心工作`), 'Missing core-work year: ' + person.data.slug + ' on ' + route);
+  }
+}
 for (const file of conceptFiles) {
   const slug = file.slice(0, -3);
   const concept = cache.get(join(root, 'concepts', slug, 'index.html'));

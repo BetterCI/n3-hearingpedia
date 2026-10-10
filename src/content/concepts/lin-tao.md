@@ -16,12 +16,13 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1957,"title":"轻音与语法、语义关系","reference":"lin-pku-obituary-2006"}
 key_facts:
   - {label: "生卒", value: "1921—2006"}
   - {label: "主要机构", value: "北京大学中国语言文学系"}
   - {label: "研究方向", value: "汉语语音、实验语音学、音韵学"}
   - {label: "代表教材", value: "《语音学教程》（与王理嘉合著）"}
-references: ["lin-pku-archive-2025", "lin-collected-papers-2001", "lin-kong-interview-2023", "lin-phonetics-course-1992", "lin-memorial-book-2007", "lin-pku-obituary-2006"]
+references: ["lin-pku-archive-2025","lin-collected-papers-2001","lin-kong-interview-2023","lin-phonetics-course-1992","lin-memorial-book-2007","lin-pku-obituary-2006"]
 batch: 3
 order: 110
 ---

@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "sound"
 kind: "person"
+core_work: {"year":1955,"title":"元音共振峰频率差别阈","reference":"flanagan-formant"}
 key_facts: [{"label":"生卒","value":"1925—2015"},{"label":"主要机构","value":"贝尔实验室、Rutgers University"},{"label":"研究主线","value":"语音生成、感知与数字处理"},{"label":"代表合作","value":"相位声码器、双质量声带模型、ADPCM"}]
 references: ["flanagan-nae","flanagan-nas","flanagan-sps","flanagan-spectrum","flanagan-marconi","flanagan-medal","flanagan-book","flanagan-formant","flanagan-two-mass","flanagan-phase","flanagan-ellis","flanagan-laroche","flanagan-adpcm","flanagan-g726","flanagan-array","flanagan-hawks","flanagan-karlsson","flanagan-librosa","flanagan-voice-review"]
 batch: 4

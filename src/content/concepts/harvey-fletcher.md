@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1933,"title":"响度的定义、测量与计算（与Munson合作）","reference":"fletcher-munson-1933"}
 key_facts: [{"label":"生卒","value":"1884—1981"},{"label":"研究主线","value":"听觉测量、响度、掩蔽与言语通信"},{"label":"代表工作","value":"与Munson合作的等响研究，言语清晰度评价与临界频带研究"},{"label":"学术建设","value":"美国声学学会首任会长，长期任职贝尔实验室与大学"}]
 references: ["fletcher-nas","fletcher-byu","fletcher-allen","fletcher-munson-1933","iso-226-2023","iso226-revision-2024","fletcher-patterns-1940","glasberg-1990","fletcher-french-1947","fletcher-galt-1950","ansi-sii","boothroyd-1988","fletcher-speech-1952","asha-audiometry-2005","fletcher-stereo-history","fletcher-piano-1962","fletcher-oil-history","fletcher-oral-catalog","fletcher-asa","fletcher-book1929","fletcher-book1953"]
 batch: 4
