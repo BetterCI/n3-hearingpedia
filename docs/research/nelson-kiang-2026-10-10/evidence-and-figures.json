@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-10",
+  "article": "nelson-kiang",
+  "depth": "in-depth",
+  "chinese_characters": 6002,
+  "body_characters": 14680,
+  "sections": 11,
+  "subsections": 26,
+  "reference_ids": [
+    "kiang-hms-memorial-2023",
+    "kiang-mit-memorial-2023",
+    "kiang-fudan-2014",
+    "kiang-gerstein-analysis-1960",
+    "kiang-monograph",
+    "kiang-liberman-pathology-1984",
+    "kiang-cochlear-clues-1986",
+    "kiang-electric-1972",
+    "delgutte-speech-IV",
+    "kiang-spontaneous-1962",
+    "kiang-coding-1965",
+    "kiang-speech-1980",
+    "kiang-speech-I",
+    "kiang-speech-V",
+    "kiang-liberman-1978",
+    "kiang-johnson-1980",
+    "kiang-model-2024",
+    "kiang-calcium-2025",
+    "kiang-nasa-monograph"
+  ],
+  "wiki_links": [
+    "cochlea",
+    "inner-hair-cell",
+    "frequency-resolution",
+    "tonotopy",
+    "dynamic-range",
+    "outer-hair-cell",
+    "hearing-loss",
+    "cochlear-implant",
+    "channel-interaction",
+    "liang-zhian",
+    "li-liang"
+  ],
+  "historical_crops": [
+    {
+      "file": "gerstein-kiang-1960-title.png",
+      "page": 15,
+      "crop": [
+        48,
+        152,
+        760,
+        307
+      ],
+      "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7549/1366309/31f45337b1eb/biophysj00667-0021.png"
+    },
+    {
+      "file": "gerstein-kiang-1960-fig1.png",
+      "page": 16,
+      "figure": 1,
+      "crop": [
+        67,
+        403,
+        808,
+        535
+      ],
+      "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7549/1366309/b137df2fc36c/biophysj00667-0022.png"
+    }
+  ],
+  "original_figures": {
+    "script": "scripts/generate-kiang-figures.mjs",
+    "trials_ms": [
+      [
+        5,
+        7,
+        30,
+        70
+      ],
+      [
+        6,
+        8,
+        32,
+        72
+      ],
+      [
+        5,
+        9,
+        31,
+        75
+      ],
+      [
+        7,
+        10,
+        33,
+        77
+      ]
+    ],
+    "total_spikes": 16,
+    "trial_duration_ms": 100,
+    "mean_rate": 40,
+    "bin10_peak": 175,
+    "bin20_peak": 100,
+    "phase_example": {
+      "count": 8,
+      "duration_ms": 100,
+      "mean_rate": 80,
+      "VS": [
+        1,
+        0
+      ]
+    }
+  },
+  "access_limits": {
+    "analysis1960": "Original scan pages 15,16,18,20–22 read; not all 15–28.",
+    "monograph": "Publisher and NASA catalog read; scan download returned errors, no full text or historical screenshot claimed.",
+    "calcium2025": "Public MPG original PDF obtained; pages 1–2 read, first page rendered."
+  }
+}

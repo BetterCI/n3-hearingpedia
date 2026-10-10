@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Nelson Kiang single neuron quantitative analysis and auditory nerve coding historical research
+
+Title: An Approach to the Quantitative Analysis of Electrophysiological Data from Single Neurons
+Abstract: 
+Keywords/concepts: 
+Venue: Biophysical Journal
+Year: 1960
+Cited by: 395
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
