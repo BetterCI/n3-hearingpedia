@@ -15,6 +15,11 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('wang-jiqing','room-acoustics','researches','有顶与无顶空间反射声、时间衰减与混响感的试听研究。',3),
+  link('wang-jiqing','speech-intelligibility','researches','共同比较STI与SII的汉语言语可懂度客观评价。',3),
+  link('wang-jiqing','binaural-hearing','related','人工头双耳回放用于检验反射声方向线索对混响感的影响。',2),
+  link('wang-jiqing','ma-dayou','related','中国建筑声学发展与空间听音评价的历史阅读线索。',1),
+  link('wang-jiqing','wei-rongjue','related','中国声学研究和教学发展的人物阅读线索。',1),
   link('lin-tao','phonetics','researches','汉语语音、实验语音学与教材建设。',3),
   link('lin-tao','mandarin-lexical-tone','researches','声调感知与连读变化的研究主题。',3),
   link('lin-tao','spectrogram','related','实验语音学把声音记录与语言知识相互校验。',2),

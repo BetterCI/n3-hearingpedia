@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 510,
+  "relations": 515,
   "entries": [
     {
       "slug": "cochlea",
@@ -3842,6 +3842,32 @@
         "pitch-perception",
         "mandarin-consonants",
         "liu-bannong"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "wang-jiqing",
+      "knowledge_area": "sound",
+      "kind": "person",
+      "depth": "standard",
+      "chinese_characters": 2517,
+      "body_characters": 4446,
+      "sections": 5,
+      "subsections": 10,
+      "reference_ids": [
+        "wang-obituary-2025",
+        "wang-reverberance-2012",
+        "wang-intelligibility-2014",
+        "wang-selected-papers-2018",
+        "wang-sciencenet-2025",
+        "wang-archive-2014"
+      ],
+      "wiki_links": [
+        "room-acoustics",
+        "speech-intelligibility",
+        "binaural-hearing",
+        "ma-dayou",
+        "wei-rongjue"
       ],
       "status": "draft"
     }
