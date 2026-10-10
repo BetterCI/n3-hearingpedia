@@ -28,6 +28,11 @@ Blauert 的工作把三个问题持续连接起来：声源和环境产生了什
 
 本页以他的研究问题、合作和著作为主线。早期方向性频带的行为发现、后来的双耳模型和当前可使用的数据工具，分别属于历史研究、计算解释和实现资源；它们可以共同阅读，但不是同一种证据。
 
+<figure class="person-photo-figure person-portrait">
+  <a href="/n3-hearingpedia/people/jens-blauert/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/jens-blauert/portrait.jpg" alt="Jens Blauert本人照片，© Tanja Brueckner" width="400" height="533" loading="lazy" /></a>
+  <figcaption>Jens Blauert。波鸿大学通信声学研究所人物页。保留原页面署名 © Tanja Brueckner；拍摄年代未注明。 <a href="https://www.ika.ruhr-uni-bochum.de/ika/team/blauert.html.de" target="_blank" rel="noopener">原始来源</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
+</figure>
+
 ## 生平与研究环境
 
 ### 从通信工程进入空间听觉

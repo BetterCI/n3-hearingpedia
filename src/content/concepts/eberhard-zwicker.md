@@ -28,6 +28,11 @@ order: 119
 
 本页四幅图均为本站原创教学图。谱级与积分算例使用明确给出的假设；解析曲线由文献公式计算，不是原论文数据、个体听觉测量或完整ISO算法复现。
 
+<figure class="person-photo-figure person-portrait">
+  <a href="/n3-hearingpedia/people/eberhard-zwicker/at-desk.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/eberhard-zwicker/at-desk.jpg" alt="Eberhard Zwicker本人照片，© T. Zwicker" width="412" height="347" loading="lazy" /></a>
+  <figcaption>Eberhard Zwicker。Zwicker在书桌前。来源：Hugo Fastl《Eberhard Zwicker – Zum 100. Geburtstag》，《Akustik Journal》2024年第1期，第7页图1；原图署名 © T. Zwicker。拍摄年代未注明。 <a href="https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf" target="_blank" rel="noopener">原始来源</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
+</figure>
+
 ## 生平与慕尼黑心理声学的形成
 
 ### 从通信技术走向信息的接收者
@@ -256,6 +261,6 @@ Florentine与Zwicker在1979年的合作研究已经指出，将响度模型用�
 
 阅读人物之间的联系时，可从[Harvey Fletcher](../harvey-fletcher/)的听觉测量与语音通信出发，经[心理声学](../psychoacoustics/)、[响度](../loudness/)和[听觉滤波器](../auditory-filter/)理解Zwicker的方法；再到[Manfred R. Schroeder](../manfred-r-schroeder/)和[James L. Flanagan](../james-l-flanagan/)查看感知约束如何进入声音处理与通信。[Albert Bregman](../albert-bregman/)的知觉组织和[Bertrand Delgutte](../bertrand-delgutte/)的神经编码研究，则提出另外的证据层次，不应仅由一套响度模型替代。
 
-历史照片可在[Fastl的2024年百年纪念文章](https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf)及[TUM的机构历史回顾](https://mediatum.ub.tum.de/doc/1138439/98963.pdf)中查看，包含桌前肖像、实验工作与研究环境。本页仅提供原始来源链接；未核实开放转载授权，因此没有复制历史照片。[1](#ref-zwicker-fastl2024)[2](#ref-zwicker-tumhistory)
+历史照片可在[Fastl的2024年百年纪念文章](https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf)及[TUM的机构历史回顾](https://mediatum.ub.tum.de/doc/1138439/98963.pdf)中查看，包含桌前肖像、实验工作与研究环境。本页选用百年纪念文章的桌前照片，并在图注中保留来源与原署名。[1](#ref-zwicker-fastl2024)[2](#ref-zwicker-tumhistory)
 
 本词条为AI辅助本地深度稿，专业审核待完成。文献访问层级、公式来源、图示参数和图片权利记录保存在研究台账中；教学算例与原始实验结果分别标明。

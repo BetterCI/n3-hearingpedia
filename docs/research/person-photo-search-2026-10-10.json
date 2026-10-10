@@ -4,8 +4,8 @@
   "counts": {
     "total_people": 18,
     "missing_before": 9,
-    "added_portraits": 2,
-    "missing_after": 7
+    "added_portraits": 7,
+    "missing_after": 2
   },
   "rechecked": [
     {
@@ -45,49 +45,59 @@
     },
     {
       "slug": "bertrand-delgutte",
-      "result": "identified institutional portrait; no explicit reuse permission located, original-page link retained",
+      "result": "added source-credited person photo for biographical illustration; no open reuse license claimed",
       "sources": [
         "https://oto.hms.harvard.edu/news/memorium-bertrand-delgutte-phd",
         "https://ogephd.hms.harvard.edu/people/bertrand-delgutte-0",
         "https://acousticstoday.org/obituary-bertrand-delgutte-1952-2024/"
-      ]
+      ],
+      "previous_result": "identified institutional portrait; no explicit reuse permission located, original-page link retained",
+      "selected_source": "https://acousticstoday.org/wp-content/uploads/2025/05/AT-SPRING-2025_FINAL.pdf"
     },
     {
       "slug": "jens-blauert",
-      "result": "identified institutional portrait credited to Tanja Brueckner; no explicit reuse permission located, original-page link retained",
+      "result": "added source-credited person photo for biographical illustration; no open reuse license claimed",
       "sources": [
         "https://www.ika.ruhr-uni-bochum.de/ika/team/blauert.html.de",
         "https://www.aes.org/events/reports/114thConvention.pdf",
         "https://euracoustics.org/news/obituary-prof-dr-ing-dr-techn-hc-jens-blauert/"
-      ]
+      ],
+      "previous_result": "identified institutional portrait credited to Tanja Brueckner; no explicit reuse permission located, original-page link retained",
+      "selected_source": "https://www.ika.ruhr-uni-bochum.de/ika/team/blauert.html.de"
     },
     {
       "slug": "james-l-flanagan",
-      "result": "identified historical portraits; no explicit reuse permission located, original-page links retained",
+      "result": "added source-credited person photo for biographical illustration; no open reuse license claimed",
       "sources": [
         "https://marconisociety.org/fellow-bio/james-flanagan/",
         "https://spectrum.ieee.org/sultan-of-sound"
       ],
-      "excluded": "Commons NRC information-services director James Flanagan is a different person; WWII soldier and clergy namesakes excluded"
+      "excluded": "Commons NRC information-services director James Flanagan is a different person; WWII soldier and clergy namesakes excluded",
+      "previous_result": "identified historical portraits; no explicit reuse permission located, original-page links retained",
+      "selected_source": "https://marconisociety.org/fellow-bio/james-flanagan/"
     },
     {
       "slug": "lloyd-jeffress",
-      "result": "identified archive portrait; Wikipedia file expressly non-free, no transferable reuse permission located, original archive link retained",
+      "result": "added source-credited person photo for biographical illustration; no open reuse license claimed",
       "sources": [
         "https://paulingblog.wordpress.com/2009/07/02/paulings-best-friend-lloyd-jeffress/",
         "https://en.wikipedia.org/wiki/File:Photo_of_Lloyd_Jeffress,_circa_1977,_originally_appeared_in_Physics_Today.jpg"
-      ]
+      ],
+      "previous_result": "identified archive portrait; Wikipedia file expressly non-free, no transferable reuse permission located, original archive link retained",
+      "selected_source": "https://paulingblog.wordpress.com/2009/07/02/paulings-best-friend-lloyd-jeffress/"
     },
     {
       "slug": "eberhard-zwicker",
-      "result": "identified historical portraits in DEGA/TUM PDFs; no explicit photo reuse permission located, original-page links retained",
+      "result": "added source-credited person photo for biographical illustration; no open reuse license claimed",
       "sources": [
         "https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf",
         "https://mediatum.ub.tum.de/doc/1138439/98963.pdf",
         "https://dael.euracoustics.org/confs/fa2023/data/articles/001135.pdf"
       ],
       "limitations": "Seeber 2023 CC BY 3.0 article inspected: historical equipment images and scientific figures, no identified person portrait.",
-      "excluded": "photographer Eberhard Zwicker (1915–1999) is a namesake"
+      "excluded": "photographer Eberhard Zwicker (1915–1999) is a namesake",
+      "previous_result": "identified historical portraits in DEGA/TUM PDFs; no explicit photo reuse permission located, original-page links retained",
+      "selected_source": "https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf"
     }
   ],
   "people_after": [
@@ -101,12 +111,16 @@
     {
       "slug": "bertrand-delgutte",
       "title": "Bertrand Delgutte",
-      "person_photos": []
+      "person_photos": [
+        "/n3-hearingpedia/people/bertrand-delgutte/portrait.jpg"
+      ]
     },
     {
       "slug": "eberhard-zwicker",
       "title": "Eberhard Zwicker",
-      "person_photos": []
+      "person_photos": [
+        "/n3-hearingpedia/people/eberhard-zwicker/at-desk.jpg"
+      ]
     },
     {
       "slug": "gu-rui",
@@ -131,12 +145,16 @@
     {
       "slug": "james-l-flanagan",
       "title": "James L. Flanagan",
-      "person_photos": []
+      "person_photos": [
+        "/n3-hearingpedia/people/james-l-flanagan/portrait.jpg"
+      ]
     },
     {
       "slug": "jens-blauert",
       "title": "Jens Blauert",
-      "person_photos": []
+      "person_photos": [
+        "/n3-hearingpedia/people/jens-blauert/portrait.jpg"
+      ]
     },
     {
       "slug": "li-liang",
@@ -161,7 +179,9 @@
     {
       "slug": "lloyd-jeffress",
       "title": "Lloyd Jeffress",
-      "person_photos": []
+      "person_photos": [
+        "/n3-hearingpedia/people/lloyd-jeffress/portrait-1977.jpg"
+      ]
     },
     {
       "slug": "manfred-r-schroeder",

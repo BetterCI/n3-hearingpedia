@@ -78,3 +78,37 @@
 - 依[AIP对其持有著作权照片的署名使用许可](https://aip.libguides.com/esvaguide/copyright)使用。该图的Commons权利记录列明AIP为权利人。原图未修改，拍摄年代与摄影者未知。
 
 两张新照片各按其上述许可使用，不以本站一般内容许可替代原图片许可。核验日期：2026-10-10。
+
+
+## 2026-10-10 补入的第三方人物照片
+
+以下每位选用一张公开来源照片，用于本人介绍。未确认开放转载许可证，原权利人保留版权；不属于本站内容开放许可覆盖范围。图片本身未裁剪、修复或生成，PDF图片直接提取原嵌入图像；网页照片保留发布版本。
+
+### Bertrand Delgutte
+
+- `bertrand-delgutte/portrait.jpg`（149 × 167）。《Acoustics Today》2025年春季号，第88页人物纪念文章；保留原刊149 × 167像素图像。原文作者为Yoojin Chung、Christopher Shera，未逐图注明摄影者或拍摄年代。
+- 来源：https://acousticstoday.org/wp-content/uploads/2025/05/AT-SPRING-2025_FINAL.pdf
+
+### Jens Blauert
+
+- `jens-blauert/portrait.jpg`（400 × 533）。波鸿大学通信声学研究所人物页。保留原页面署名 © Tanja Brueckner；拍摄年代未注明。
+- 来源：https://www.ika.ruhr-uni-bochum.de/ika/team/blauert.html.de
+- 图像文件：https://www.ika.ruhr-uni-bochum.de/ika/mam/images/team/fittosize_400_0_145_195_2e2c6e4b9943f9db932afbd83317cb8b_blauert_300_3_4_sw.jpg
+
+### James L. Flanagan
+
+- `james-l-flanagan/portrait.jpg`（250 × 250）。Marconi Society人物页。原页面未注明摄影者或拍摄年代。
+- 来源：https://marconisociety.org/fellow-bio/james-flanagan/
+- 图像文件：https://marconisociety.org/wp-content/uploads/2020/10/Flanagan_James.jpg
+
+### Eberhard Zwicker
+
+- `eberhard-zwicker/at-desk.jpg`（412 × 347）。Zwicker在书桌前。来源：Hugo Fastl《Eberhard Zwicker – Zum 100. Geburtstag》，《Akustik Journal》2024年第1期，第7页图1；原图署名 © T. Zwicker。拍摄年代未注明。
+- 来源：https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf
+
+### Lloyd Jeffress
+
+- `lloyd-jeffress/portrait-1977.jpg`（372 × 491）。Pauling档案介绍注明原刊为1977年12月《Physics Today》，图像取自同一照片的Wikipedia低分辨率档案。1977年为原刊年份，具体拍摄日期、摄影者及权利人未确认。
+- 来源：https://paulingblog.wordpress.com/2009/07/02/paulings-best-friend-lloyd-jeffress/
+- 图像文件：https://upload.wikimedia.org/wikipedia/en/b/b0/Photo_of_Lloyd_Jeffress%2C_circa_1977%2C_originally_appeared_in_Physics_Today.jpg
+- 图像记录：https://en.wikipedia.org/wiki/File:Photo_of_Lloyd_Jeffress,_circa_1977,_originally_appeared_in_Physics_Today.jpg

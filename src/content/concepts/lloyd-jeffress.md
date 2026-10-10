@@ -28,6 +28,11 @@ order: 116
 
 本页围绕人物、模型和实验方法展开。模型内部的数字与曲线是本站教学设定，经典提案、后续实验证据和研究者的生平回忆分别标明。有关现实聆听中的空间线索，可结合[双耳听觉](../binaural-hearing/)词条阅读。
 
+<figure class="person-photo-figure person-portrait">
+  <a href="/n3-hearingpedia/people/lloyd-jeffress/portrait-1977.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/lloyd-jeffress/portrait-1977.jpg" alt="Lloyd Jeffress本人照片，Physics Today（1977年12月）；Pauling档案介绍" width="372" height="491" loading="lazy" /></a>
+  <figcaption>Lloyd Jeffress。Pauling档案介绍注明原刊为1977年12月《Physics Today》，图像取自同一照片的Wikipedia低分辨率档案。1977年为原刊年份，具体拍摄日期、摄影者及权利人未确认。 <a href="https://paulingblog.wordpress.com/2009/07/02/paulings-best-friend-lloyd-jeffress/" target="_blank" rel="noopener">原始来源</a>；<a href="https://en.wikipedia.org/wiki/File:Photo_of_Lloyd_Jeffress,_circa_1977,_originally_appeared_in_Physics_Today.jpg" target="_blank" rel="noopener">图像档案</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
+</figure>
+
 ## 生平与研究环境
 
 ### 从物理走向实验心理学
@@ -234,6 +239,6 @@ Jeffress的影响同时包含理论和测量实践。他曾长期参与德州大
 
 先读1948年提案的可公开摘要与预览，理解需要被证明的延迟、检测和位置表示；再读Carr与Konishi的仓鸮原始研究，了解哪些测量支持这些机制；随后比较McAlpine、Brand和Franken的哺乳动物研究，区分输入比较、内部补偿和输出编码。不同年代资料回答的问题有所不同，不宜按人物声望排列证据强弱。[5](#ref-binaural-hearing-jeffress)[9](#ref-jeffress-carr-konishi-1990)[10](#ref-mcalpine-2001)[11](#ref-jeffress-brand-2002)[12](#ref-jeffress-franken-2015)
 
-生平可读[德州大学纪念页](https://liberalarts.utexas.edu/psychology/people/emeriti-in-memoriam/)及[九页纪念决议](https://www.texasacoustics.org/wp-content/uploads/2018/01/Memorial-Resolution-Lloyd-Jeffress.pdf)。[Pauling档案介绍](https://paulingblog.wordpress.com/2009/07/02/paulings-best-friend-lloyd-jeffress/)包含Jeffress肖像与回忆手稿入口；肖像来源注明为1977年《Physics Today》，本站未确认开放转载许可，因此提供原页链接。[1](#ref-jeffress-ut)[2](#ref-jeffress-memorial)[3](#ref-jeffress-pauling)
+生平可读[德州大学纪念页](https://liberalarts.utexas.edu/psychology/people/emeriti-in-memoriam/)及[九页纪念决议](https://www.texasacoustics.org/wp-content/uploads/2018/01/Memorial-Resolution-Lloyd-Jeffress.pdf)。[Pauling档案介绍](https://paulingblog.wordpress.com/2009/07/02/paulings-best-friend-lloyd-jeffress/)包含Jeffress肖像与回忆手稿入口；本页肖像取自同一照片的低分辨率档案，保留原图及原始来源；第三方照片不适用本站内容开放许可。[1](#ref-jeffress-ut)[2](#ref-jeffress-memorial)[3](#ref-jeffress-pauling)
 
 对人物与概念的连接，可继续阅读[心理声学](../psychoacoustics/)、[听觉通路](../auditory-pathway/)、[双耳时间差](../interaural-time-difference/)、[双耳声级差](../binaural-hearing/)、[双耳解掩蔽](../binaural-hearing/)及[信号检测论](../signal-detection-theory/)。Jeffress的历史意义，在于提出可以转化为测量和模型比较的机制问题；其框架的适用范围，需要随着证据具体说明。

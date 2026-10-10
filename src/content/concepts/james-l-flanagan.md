@@ -28,6 +28,11 @@ order: 118
 
 本页介绍人物及其代表方法。四幅图均为本站原创教学图；计算使用公开列出的假设参数，不是原论文数据、完整编码器复现或临床设备设置。
 
+<figure class="person-photo-figure person-portrait">
+  <a href="/n3-hearingpedia/people/james-l-flanagan/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/james-l-flanagan/portrait.jpg" alt="James L. Flanagan本人照片，Marconi Society人物页" width="250" height="250" loading="lazy" style="width:min(100%,250px);margin-inline:auto" /></a>
+  <figcaption>James L. Flanagan。Marconi Society人物页。原页面未注明摄影者或拍摄年代。 <a href="https://marconisociety.org/fellow-bio/james-flanagan/" target="_blank" rel="noopener">原始来源</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
+</figure>
+
 ## 生平与学术道路
 
 ### 从密西西比到MIT与贝尔实验室
@@ -251,7 +256,7 @@ NAE纪念文章回顾了一段很具体的计算历史：Flanagan早期在IBM 65
 
 他的教学与指导影响也有具体记录。IEEE纪念文章中，曾共事的研究者回顾他鼓励参与学会活动，后来多位同事承担了信号处理学会的领导与编辑工作。这种影响可以从人才培养和共同研究环境理解，不需要把每位同事的技术成果改写成导师个人发明。[3](#ref-flanagan-sps)
 
-历史肖像和生平照片可在[IEEE人物报道](https://spectrum.ieee.org/sultan-of-sound)与[Marconi Society人物页](https://marconisociety.org/fellow-bio/james-flanagan/)查看。目前未核实可供本站开放转载的照片许可，因此正文配图采用可检查的原创功能图和计算图；上述链接保留原机构的署名与上下文。
+历史肖像和生平照片可在[IEEE人物报道](https://spectrum.ieee.org/sultan-of-sound)与[Marconi Society人物页](https://marconisociety.org/fellow-bio/james-flanagan/)查看。本页人物肖像来自Marconi Society人物页，科学图解为本站原创；照片出处与第三方版权在图注中说明。
 
 ## 在听觉百科中怎样继续阅读
 

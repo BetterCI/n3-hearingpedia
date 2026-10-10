@@ -26,7 +26,12 @@ order: 117
 
 贯穿这些工作的一个问题是：声音中的信息怎样进入神经活动，又有哪些信息可以被听者利用？答案依赖刺激、记录部位、聆听任务和听觉经验。一个细胞能跟随刺激周期，与一个人能够辨别音高或听懂噪声中的句子，是相关但不同的证据。[7](#ref-harmonicity-cariani)[9](#ref-smith-2002)[17](#ref-delgutte-sipi-neural)[18](#ref-delgutte-sipi-human)
 
-本页以人物与代表研究为主线，重点说明实验怎样分离线索、如何解释神经指标，以及基础发现与装置应用之间的距离。配图均为本站原创教学图，声明所用参数；没有转载论文中的神经响应数据。
+本页以人物与代表研究为主线，重点说明实验怎样分离线索、如何解释神经指标，以及基础发现与装置应用之间的距离。科学图解为本站原创教学图，声明所用参数；人物照片在图注中标明原始来源。
+
+<figure class="person-photo-figure person-portrait">
+  <a href="/n3-hearingpedia/people/bertrand-delgutte/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/bertrand-delgutte/portrait.jpg" alt="Bertrand Delgutte本人照片，Acoustics Today / Acoustical Society of America" width="149" height="167" loading="lazy" style="width:min(100%,149px);margin-inline:auto" /></a>
+  <figcaption>Bertrand Delgutte。《Acoustics Today》2025年春季号，第88页人物纪念文章；保留原刊149 × 167像素图像。原文作者为Yoojin Chung、Christopher Shera，未逐图注明摄影者或拍摄年代。 <a href="https://acousticstoday.org/wp-content/uploads/2025/05/AT-SPRING-2025_FINAL.pdf" target="_blank" rel="noopener">原始来源</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
+</figure>
 
 ## 生平与学术道路
 
@@ -233,4 +238,4 @@ Delgutte的研究与Kiang的听神经测量传统相连，也把[Jeffress](../ll
 
 入门阅读可先看[心理声学](../psychoacoustics/)、[音高感知](../pitch-perception/)与双耳时间差，再读声学嵌合体论文及SIPI的人类、动物配对研究。深入混响时，将2015年简化调幅实验与2023年自然语音重建放在一起比较；深入人工耳蜗时，则并读2007年急性模型、2014年清醒记录及2021年早期经验研究。
 
-人物照片和历史材料可从[哈佛纪念页](https://oto.hms.harvard.edu/news/memorium-bertrand-delgutte-phd)、[声学学会纪念文章](https://acousticstoday.org/obituary-bertrand-delgutte-1952-2024/)及[MIT的2002年研究报道](https://news.mit.edu/2002/hearing-0313)进入。本站未取得这些人物照片的明确开放转载许可，故提供原页链接；科学图解采用可编辑的原创SVG，并附PNG和生成参数。
+人物照片和历史材料可从[哈佛纪念页](https://oto.hms.harvard.edu/news/memorium-bertrand-delgutte-phd)、[声学学会纪念文章](https://acousticstoday.org/obituary-bertrand-delgutte-1952-2024/)及[MIT的2002年研究报道](https://news.mit.edu/2002/hearing-0313)进入。本页人物照片与科学图解分别标注来源；科学图解采用可编辑的原创SVG，并附PNG和生成参数。
