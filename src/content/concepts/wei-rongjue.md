@@ -16,12 +16,13 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "sound"
 kind: "person"
+core_work: {"year":1960,"title":"汉语平均频谱（与包紫薇合作）","reference":"wei-speech-spectrum-1960"}
 key_facts:
   - {label: "生卒", value: "1916—2010"}
   - {label: "主要机构", value: "南京大学"}
   - {label: "代表方向", value: "语言声学、声传播、非线性声学"}
   - {label: "教育贡献", value: "1954年创办南京大学声学专业"}
-references: ["wei-nju-obituary", "wei-speech-spectrum-1960", "wei-nju-institute-history", "wei-nju-alumni-2016", "wei-nju-biography", "wei-nju-collected-papers-event"]
+references: ["wei-nju-obituary","wei-speech-spectrum-1960","wei-nju-institute-history","wei-nju-alumni-2016","wei-nju-biography","wei-nju-collected-papers-event"]
 batch: 3
 order: 109
 ---

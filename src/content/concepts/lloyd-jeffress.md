@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1948,"title":"声定位的位置理论","reference":"binaural-hearing-jeffress"}
 key_facts: [{"label":"生卒","value":"1900—1986"},{"label":"主要任职","value":"德州大学奥斯汀分校心理学系"},{"label":"代表理论","value":"延迟线、符合检测与ITD位置编码（1948）"},{"label":"研究范围","value":"双耳听觉、听觉检测与数学／电路建模"}]
 references: ["jeffress-ut","jeffress-memorial","jeffress-pauling","jeffress-asa","binaural-hearing-jeffress","jeffress-masking-1952","jeffress-detection-1964","jeffress-models-1968","jeffress-carr-konishi-1990","mcalpine-2001","jeffress-brand-2002","jeffress-franken-2015","binaural-hearing-grothe","jeffress-ihlefeld-2019","amt-lindemann1986","jeffress-hixon-book-1951"]
 batch: 4

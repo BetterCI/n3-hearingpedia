@@ -16,12 +16,13 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1982,"title":"普通话语句中的声调变化","reference":"wu-tone-changes-1982"}
 key_facts:
   - {label: "生卒", value: "1909—2010"}
   - {label: "主要机构", value: "中国社会科学院语言研究所"}
   - {label: "代表方向", value: "实验语音学、协同发音、汉语语调"}
   - {label: "代表著作", value: "《吴宗济语言学论文集》"}
-references: ["wu-tsinghua-biography","wu-caofen-2009","wu-collected-papers","wu-oral-history-2022","wu-memorial-2022","wu-spectrographic-atlas-1986","wu-experimental-phonetics-book"]
+references: ["wu-tsinghua-biography","wu-caofen-2009","wu-collected-papers","wu-oral-history-2022","wu-memorial-2022","wu-spectrographic-atlas-1986","wu-experimental-phonetics-book","wu-tone-changes-1982"]
 batch: 3
 order: 107
 ---
@@ -128,10 +129,10 @@ order: 107
 
 ### 代表论文与研究成果
 
-以下研究篇目由作者论文集目录核对。原刊年份、合作者与卷页尚待原文核验，表中不以2008年文集版本代替原刊年，也不从目录补写结果。
+以下研究篇目由作者论文集目录核对。其中《普通话语句中的声调变化》的1982年、第6期和439–450页由后续原始论文参考文献互证；其余两篇的原刊年份、合作者与卷页仍待核验。表中不以2008年文集版本代替原刊年，也不从目录补写结果。
 
 | 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
 | --- | --- | --- |
-| 原刊年待核 | [普通话语句中的声调变化](https://www.cp.com.cn/book/7-100-03946-0_48.html)<br />吴宗济（论文集署名）；原刊作者表待核<br />收入《吴宗济语言学论文集》 | 普通话声调在连续语句中的变化研究入口。[3](#ref-wu-collected-papers) |
+| 1982 | [普通话语句中的声调变化](https://yyyj.cbpt.cnki.net/portal/journal/portal/client/paper/21c9e506ae52273d6715bbacf13a8e7d)<br />吴宗济<br />中国语文，第6期: 439–450；收入《吴宗济语言学论文集》 | 普通话声调在连续语句中的变化研究入口；本次核对书目，未取得原刊全文。[3](#ref-wu-collected-papers)[8](#ref-wu-tone-changes-1982) |
 | 原刊年待核 | [普通话语调分析的一种新方法：语句中基本调群单元的移调处理](https://www.cp.com.cn/book/7-100-03946-0_48.html)<br />吴宗济（论文集署名）；原刊作者表待核<br />收入《吴宗济语言学论文集》 | 从基本调群与移调处理进入语调分析的方法论文。[3](#ref-wu-collected-papers) |
 | 原刊年待核 | [普通话语音合成中协同发音音段变量的规正处理](https://www.cp.com.cn/book/7-100-03946-0_48.html)<br />吴宗济（论文集署名）；原刊作者表待核<br />收入《吴宗济语言学论文集》 | 语音合成中的音段变量与协同发音处理研究入口。[3](#ref-wu-collected-papers) |

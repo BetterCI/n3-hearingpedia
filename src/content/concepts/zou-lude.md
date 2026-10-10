@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
+core_work: {"year":1982,"title":"人工耳蜗植入的疗效和有关问题（合作研究）","reference":"zou-implant-design-1994"}
 key_facts:
   - {label: "主要机构", value: "北京协和医院"}
   - {label: "研究领域", value: "耳科学、耳科手术与人工耳蜗"}

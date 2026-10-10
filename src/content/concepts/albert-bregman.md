@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1971,"title":"听觉声流分离与快速音序列顺序知觉（合作研究）","reference":"bregman-campbell-1971"}
 key_facts: [{"label":"生卒","value":"1936—2023"},{"label":"主要任职","value":"麦吉尔大学心理学系"},{"label":"研究主线","value":"听觉场景分析与声音的知觉组织"},{"label":"代表著作","value":"Auditory Scene Analysis（1990）"}]
 references: ["bregman-mcgill","bregman-education","bregman-career","bregman-history","auditory-scene-analysis-bregman","bregman-campbell-1971","bregman-cumulative-1978","bregman-duration-2000","bregman-pinker-1978","bregman-am-1985","bregman-continuity-1987","bregman-experience-2005","bregman-demos","auditory-scene-analysis-attention","auditory-scene-analysis-bistable","auditory-scene-analysis-coherence","auditory-scene-analysis-chatterjee","bregman-mcadams","bregman-honours"]
 batch: 4

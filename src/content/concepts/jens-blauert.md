@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
+core_work: {"year":1969,"year_label":"1969／1970","title":"正中面声定位研究","reference":"blauert-median"}
 key_facts: [{"label":"生卒","value":"1938—2026"},{"label":"研究主线","value":"空间听觉、双耳技术、通信声学与感知评价"},{"label":"代表成果","value":"正中面定位、方向性频带与《Spatial Hearing》"},{"label":"学术建设","value":"创立波鸿通信声学研究所，推动AABBA合作"}]
 references: ["blauert-ika","blauert-aes","blauert-publications","blauert-median","blauert-spatial-book","blauert-wavefront","blauert-coherence","blauert-room","blauert-group-delay","blauert-introduction","blauert-listening","blauert-understanding","blauert-aabba","amt-lindemann1986","amt-baumgartner2014","hofman-1998","middlebrooks-1991","blauert-sofa","blauert-communication","blauert-feedback","litovsky-precedence-2001"]
 batch: 4

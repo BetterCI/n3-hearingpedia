@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
+core_work: {"year":1863,"title":"《音的感觉》：音色与听觉共振","reference":"helmholtz-tone-1895"}
 key_facts: [{"label":"生卒","value":"1821年8月31日—1894年9月8日"},{"label":"研究领域","value":"生理学、物理学与感官科学"},{"label":"听觉方法","value":"共振器分析与音叉合成"},{"label":"代表著作","value":"《音的感觉》，德文初版1863年"}]
 references: ["helmholtz-gerlach-1969","helmholtz-association-history","helmholtz-tone-1895","helmholtz-kursell-2018","helmholtz-schmidgen-time","helmholtz-unsw-resonance","helmholtz-smithsonian-resonator","helmholtz-ptb-foundation","helmholtz-consonance-2010","robles-2001","timbre-caclin-2005","helmholtz-portrait-source","helmholtz-resonator-photo","helmholtz-vowels-1859"]
 batch: 4

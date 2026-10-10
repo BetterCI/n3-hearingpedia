@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "sound"
 kind: "person"
+core_work: {"year":1965,"title":"混响时间测量的新方法","reference":"room-acoustics-schroeder"}
 key_facts: [{"label":"生卒","value":"1926—2009"},{"label":"研究领域","value":"声学、语音信号处理、心理声学与应用数学"},{"label":"代表方法","value":"混响逆向积分、施罗德相位、二次剩余扩散体"},{"label":"合作贡献","value":"与Bishnu S. Atal提出CELP语音编码"}]
 references: ["schroeder-nae","schroeder-oral","schroeder-frequency-1996","room-acoustics-lecture","room-acoustics-schroeder","room-acoustics-rew-rt","schroeder-phase-1970","schroeder-smith-1986","schroeder-kohlrausch-1995","schroeder-summers-1998","schroeder-wojtczak-2009","schroeder-green-2013","schroeder-halls-1974","schroeder-diffusers-1979","schroeder-celp-1985","schroeder-computer-speech","schroeder-number-theory","schroeder-zkm","schroeder-portrait","schroeder-fractals-book-1991"]
 batch: 4

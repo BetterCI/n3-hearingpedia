@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "sound"
 kind: "person"
+core_work: {"year":2012,"title":"无顶空间内混响感特性（合作研究）","reference":"wang-reverberance-2012"}
 key_facts:
   - {label: "生卒", value: "1929—2025"}
   - {label: "主要机构", value: "同济大学"}

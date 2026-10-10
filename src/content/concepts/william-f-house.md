@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
+core_work: {"year":1973,"title":"人工耳蜗植入及电刺激长期结果（与Urban合作）","reference":"house-urban-1973"}
 key_facts: [{"label":"生卒","value":"1923年12月1日—2012年12月7日"},{"label":"研究领域","value":"耳科学、神经耳科学与听觉植入"},{"label":"代表工作","value":"早期人工耳蜗临床探索与工程合作"},{"label":"历史节点","value":"3M/House系统1984年获FDA批准"}]
 references: ["house-goins-2024","house-mudry-mills-2013","house-zeng-interview-2012","house-urban-1973","house-bilger-performance-1977","house-bilger-acceptance-1977","house-eisenberg-1982","house-fda-p830069","house-middle-fossa-1961","house-hitselberger-1984","house-smaka-interview-2011","house-beck-interview-2000","house-wackym-2012","house-shannon-2015","house-portrait-source","wilson-1991","zeng-2008","house-memoir-2011"]
 batch: 4

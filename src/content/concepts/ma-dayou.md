@@ -16,6 +16,7 @@ reviewer: null
 reviewed_at: null
 knowledge_area: "sound"
 kind: "person"
+core_work: {"year":1975,"title":"微穿孔板吸声结构的理论和设计","reference":"ma-mpp-theory-1975"}
 key_facts:
   - {label: "生卒", value: "1915—2012"}
   - {label: "主要机构", value: "中国科学院声学研究所"}
