@@ -15,6 +15,10 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('ma-dayou','room-acoustics','researches','简正波研究与人民大会堂音质设计。',3),
+  link('ma-dayou','speech-intelligibility','related','聆听环境的设计需要结合言语理解任务评价。',2),
+  link('ma-dayou','spectrogram','related','语言声学研究与语音时频测量相互参照。',1),
+  link('ma-dayou','noise-induced-hearing-loss','related','工程降噪与听觉保护相联系，但不能替代暴露及听力评估。',1),
   // Phase locking: timing statistics, tasks and evidence levels.
   link('phase-locking','inner-hair-cell','mechanism','膜、突触与事件形成共同影响周期时序。',3),
   link('phase-locking','temporal-fine-structure','related','载波周期与神经事件相位是不同层次的表示。',3),

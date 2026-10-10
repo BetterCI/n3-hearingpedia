@@ -1,4 +1,5 @@
 import { phaseLockingReferences } from './phase-locking-references.ts';
+import { maDayouReferences } from './ma-dayou-references.ts';
 import { zwickerReferences } from './zwicker-references.ts';
 import { flanaganReferences } from './flanagan-references.ts';
 import { delgutteReferences } from './delgutte-references.ts';
@@ -60,6 +61,7 @@ export interface Reference { title: string; authors: string; year: string; publi
 
 export const references: Record<string, Reference> = {
   ...phaseLockingReferences,
+  ...maDayouReferences,
   ...zwickerReferences,
   ...flanaganReferences,
   ...delgutteReferences,

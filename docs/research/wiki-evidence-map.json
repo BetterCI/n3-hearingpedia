@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-09",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 496,
+  "relations": 500,
   "entries": [
     {
       "slug": "cochlea",
@@ -3741,6 +3741,34 @@
         "electroencephalography",
         "nelson-kiang",
         "bertrand-delgutte"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "ma-dayou",
+      "knowledge_area": "sound",
+      "kind": "person",
+      "depth": "standard",
+      "chinese_characters": 2186,
+      "body_characters": 3550,
+      "sections": 5,
+      "subsections": 10,
+      "reference_ids": [
+        "ma-casad-biography",
+        "ma-ioa-biography",
+        "ma-mpp-followup-2020",
+        "ma-modern-acoustics-book",
+        "ma-casad-biographical-book"
+      ],
+      "wiki_links": [
+        "room-acoustics",
+        "speech-intelligibility",
+        "spectrogram",
+        "formant",
+        "zhao-yuanren",
+        "wu-zongji",
+        "masking",
+        "noise-induced-hearing-loss"
       ],
       "status": "draft"
     }

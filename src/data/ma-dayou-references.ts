@@ -1,0 +1,8 @@
+import type { Reference } from './references';
+export const maDayouReferences: Record<string, Reference> = {
+  'ma-casad-biography': {title:'马大猷：已故院士资料',authors:'中国科学院学部',year:'无署年',publication:'机构人物资料；2026-10-10核对',url:'https://casad.cas.cn/ysxx2022/ygys/200906/t20090624_1792031.html',access:'documentation',supports:'核对生卒、籍贯、北大与哈佛学历、1955年学部委员及物理声学、建筑声学、噪声控制研究方向。'},
+  'ma-ioa-biography': {title:'马大猷',authors:'中国科学院声学研究所',year:'2021',publication:'院士专家资料页，路径日期2021-12-17；后续有更新',url:'https://ioa.cas.cn/rcdw/yszj/202112/t20211217_6312526.html',access:'documentation',supports:'阅读人物资料正文，核对1938年简正频率研究、1959年人民大会堂音质设计、任教经历、实验室及语言声学工作。肖像采用原页本人照片，295×413，摄影者和拍摄年未注明，未确认开放许可，不标注为公有领域。历史职务表述不套用为现任职务。'},
+  'ma-mpp-followup-2020': {title:'3D Printing of Polymeric Multi-Layer Micro-Perforated Panels for Tunable Wideband Sound Absorption',authors:'Wenjing Yang, Xueyu Bai, Wei Zhu, Raj Kishore, Jia An, Chee Kai Chua, Kun Zhou',year:'2020',publication:'Polymers 12(2):360',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC7077450/',doi:'10.3390/polym12020360',access:'fulltext',supports:'阅读摘要、引言及参考文献，核对微穿孔板结构、声阻与空气层、2020年团队的3D打印多层研究，以及Maa 1975、1987、1998三篇文献的书目。未取得Maa 1998原文，不把后续研究归为他的个人成果，不外推到全部环境。'},
+  'ma-modern-acoustics-book': {title:'现代声学理论基础',authors:'马大猷',year:'2004',publication:'科学出版社，452页，ISBN 9787030119643',url:'https://www.ecsponline.com/goods.php?id=183865',access:'metadata',supports:'核对出版社书目、作者、2004年出版、页数、15章与教材定位；未取得全书，不进行章节或习题内容评价。'},
+  'ma-casad-biographical-book': {title:'马大猷传',authors:'中国科学院学部与院士',year:'无署年',publication:'科学文化系列·院士传记介绍',url:'https://ad.cas.cn/xbcg/kxwhxl/yscj/mdyz/',access:'documentation',supports:'阅读传记介绍页，核对1936年声学留学和科研教育经历的传记阅读入口，未取得传记全书。'}
+};
