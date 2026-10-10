@@ -1,0 +1,43 @@
+{
+  "origin": "Original diagrams and analytic teaching examples; no product measurements",
+  "parameters": {
+    "Re_ohm": 16.0,
+    "Le_H": 0.0001,
+    "Bl_N_per_A": 1.2,
+    "m_kg": 0.002,
+    "Rm_Ns_per_m": 0.2,
+    "K_N_per_m": 400.0,
+    "Sd_m2": 0.0001,
+    "c_m_per_s": 343.0,
+    "rho_kg_per_m3": 1.2,
+    "cavity_m3": 2e-06,
+    "drive_Vrms": 0.1
+  },
+  "assumptions": [
+    "linear steady-state phasors; all amplitudes rms",
+    "constant inductance; piston motion; negligible radiation load in both comparisons",
+    "sealed cavity pressure uniform, adiabatic compliance only; leakage, tube resonances and thermoviscous losses omitted",
+    "mechanical f0 is undamped natural frequency, not generally the constant-voltage displacement maximum"
+  ],
+  "added_cavity_stiffness_N_per_m": 705.894,
+  "checks": {
+    "未加腔体弹性负载": {
+      "undamped_mechanical_f0_Hz": 71.17625434171771,
+      "max_equation_residual_V": 3.399250469893575e-17
+    },
+    "密闭后腔：2 cm³": {
+      "undamped_mechanical_f0_Hz": 118.34826206104565,
+      "max_equation_residual_V": 3.2862774151476625e-17
+    }
+  },
+  "sensitivity_check": {
+    "20mV_per_Pa_dB_re_1V_per_Pa": -33.979400086720375,
+    "one_Pa_dBSPL": 93.97940008672037
+  },
+  "figures": [
+    "domains.svg",
+    "load-model.svg",
+    "sensitivity.svg",
+    "measurement-loads.svg"
+  ]
+}

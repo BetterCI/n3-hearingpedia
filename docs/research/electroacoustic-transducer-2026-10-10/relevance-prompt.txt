@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: 电声换能器：耦合机制、声学负载与测量参考如何决定器件表现？
+
+Title: Meander-shaped piezoelectric MEMS loudspeaker with maximized area efficiency for in-ear applications
+Abstract: • Meander-shaped piezoelectric MEMS loudspeaker membrane for enhanced area efficiency. • Conformal aluminum nitride deposition on sidewalls for lateral oscillation of vertical actuators. • 64 dB sound pressure level at 1 kHz in IEC compliant ear simulator from 11.34 mm² membrane area. • Total harmonic distortion below 1.5 % over audible frequency range. State-of-the-art MEMS loudspeakers use innovative actuator concepts to improve the acoustic performance from minimal chip volumes. Lateral vibration of multiple vertical actuators is a promising lever to increase the active emitting area while keeping the chip dimensions constant. Recent publications on this topic require a multiple wafer fabrication process to realize such actuator principles. This work demonstrates a new concept fabricating a closed folded membrane with vertical actuators in a single wafer process. Conformal deposition of piezoelectric aluminum nitride (AlN) thin films allow the lateral actuation of the transducer. Laser-doppler-vibrometer (LDV) measurements show that no actuator resonances are located below 40 kHz. Acoustic characterization of a manufactured device in an IEC ear simulator demonstrates a linear be
+Keywords/concepts: 
+Venue: Sensors and Actuators Reports
+Year: 2025
+Cited by: 4
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

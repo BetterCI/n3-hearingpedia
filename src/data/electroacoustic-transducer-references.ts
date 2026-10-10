@@ -1,0 +1,150 @@
+import type { Reference } from './references';
+
+export const electroacousticTransducerReferences: Record<string, Reference> = {
+  "et-comsol-lumped": {
+    "title": "Lumped Loudspeaker Driver",
+    "authors": "COMSOL",
+    "year": "n.d.",
+    "publication": "COMSOL Multiphysics 6.4 官方模型文档",
+    "url": "https://doc.comsol.com/6.4/doc/com.comsol.help.models.aco.lumped_loudspeaker_driver/lumped_loudspeaker_driver.html",
+    "access": "documentation",
+    "supports": "阅读 Introduction、Model Definition 及集总电／机械参数、反电动势和背腔比较段落；作为线性建模背景。本文公式采用独立简化，参数非文档产品参数。"
+  },
+  "et-comsol-driver": {
+    "title": "Loudspeaker Driver — Frequency-Domain Analysis",
+    "authors": "COMSOL",
+    "year": "n.d.",
+    "publication": "COMSOL Multiphysics 6.4 官方模型文档",
+    "url": "https://doc.comsol.com/6.4/doc/com.comsol.help.models.aco.loudspeaker_driver/loudspeaker_driver.html",
+    "access": "documentation",
+    "supports": "阅读电磁力、声固耦合、阻抗、声压和辐射评价段落；支持多物理域分析与不同输出量的区分，不把示例仿真当作通用产品性能。"
+  },
+  "et-ni-handbook": {
+    "title": "Microphone Handbook: Types, Components & Testing",
+    "authors": "NI / PCB Piezotronics",
+    "year": "2025",
+    "publication": "NI 官方传感器技术资料（PCB 材料获许可转载）",
+    "url": "https://www.ni.com/en/shop/data-acquisition/sensor-fundamentals/measuring-sound-with-microphones/microphone-handbook.html",
+    "access": "documentation",
+    "supports": "阅读电容、驻极体、动圈结构及极化／前置放大器说明；解释基本转换和供电关系。转载内容不计为第二个独立研究。"
+  },
+  "et-ni-measurement": {
+    "title": "Measuring Sound with Microphones",
+    "authors": "NI",
+    "year": "n.d.",
+    "publication": "NI 官方传感器技术资料",
+    "url": "https://www.ni.com/en/shop/data-acquisition/sensor-fundamentals/measuring-sound-with-microphones.html",
+    "access": "documentation",
+    "supports": "阅读麦克风物理类型、选择、场响应及信号调理说明；支持压电和电容检测、场条件和测量链。未将声压与声压级混作同一单位。"
+  },
+  "et-knowles-ba": {
+    "title": "Balanced Armature",
+    "authors": "Knowles Electronics",
+    "year": "n.d.",
+    "publication": "制造商官方结构说明",
+    "url": "https://product.knowles.com/audio/receivers/balanced-armature",
+    "access": "documentation",
+    "supports": "仅采用固定线圈与低质量振膜的结构描述，并对照制造商技术资料；不采用音质或消费者满意度宣传证明比较优势。"
+  },
+  "et-adi-sensitivity": {
+    "title": "Understanding Microphone Sensitivity",
+    "authors": "Jerad Lewis",
+    "year": "2012",
+    "publication": "Analog Dialogue, 46 (May), Analog Devices",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/articles/understanding-microphone-sensitivity.html",
+    "access": "documentation",
+    "supports": "阅读 Analog vs. Digital 和 Choosing Sensitivity：模拟／数字参考、峰值／有效值约定及灵敏度不等于质量。换算图使用独立假设的20 mV/Pa，不引用产品性能。"
+  },
+  "et-adi-preamp": {
+    "title": "AN-1165: Op Amps for MEMS Microphone Preamp Circuits (Rev. A)",
+    "authors": "Jerad Lewis",
+    "year": "2013",
+    "publication": "Analog Devices Application Note",
+    "url": "https://www.analog.com/media/en/technical-documentation/application-notes/AN-1165.pdf",
+    "access": "documentation",
+    "supports": "阅读第1–3页 Introduction、Noise、THD+N、Supply Voltage 及电路说明；支持读出增益、噪声带宽和供电限制。不照搬示例器件推荐。"
+  },
+  "et-iec60268-21": {
+    "title": "IEC 60268-21:2018: Acoustical (output-based) measurements",
+    "authors": "International Electrotechnical Commission",
+    "year": "2018",
+    "publication": "IEC 官方标准目录",
+    "url": "https://webstore.iec.ch/en/publication/28687",
+    "access": "documentation",
+    "supports": "读取公开 Scope 与版本状态；支持电输入到声输出物理测量，不含知觉评价。未获得完整付费标准，不据目录声称符合性。"
+  },
+  "et-iec60268-22": {
+    "title": "IEC 60268-22:2020: Electrical and mechanical measurements on transducers",
+    "authors": "International Electrotechnical Commission",
+    "year": "2020",
+    "publication": "IEC 官方标准目录",
+    "url": "https://webstore.iec.ch/en/publication/60560",
+    "access": "documentation",
+    "supports": "读取公开 Scope 与版本状态；区分电／机械测量、小大信号和应用边界。未获得完整付费条款。"
+  },
+  "et-iec62458": {
+    "title": "IEC 62458:2010: Electroacoustical transducers — Measurement of large signal parameters",
+    "authors": "International Electrotechnical Commission",
+    "year": "2010",
+    "publication": "IEC 官方标准目录",
+    "url": "https://webstore.iec.ch/en/publication/7062",
+    "access": "documentation",
+    "supports": "公开范围列出电动／电磁电机、悬挂及力因子、刚度、电感等主要非线性；不把这一范围扩展成所有换能器的通用模型。未读完整条款。"
+  },
+  "et-iec60268-4": {
+    "title": "IEC 60268-4:2018: Microphones (RLV 目录)",
+    "authors": "International Electrotechnical Commission",
+    "year": "2018",
+    "publication": "IEC 官方标准目录",
+    "url": "https://webstore.iec.ch/en/publication/63860",
+    "access": "documentation",
+    "supports": "读取公开范围：声系统麦克风的灵敏度、指向性、阻抗、动态范围和外界影响，范围不含测量麦克风；目录 RLV 含官方版本及红线版本，未获取完整标准。"
+  },
+  "et-iec60268-7": {
+    "title": "IEC 60268-7:2025: Headphones and earphones",
+    "authors": "International Electrotechnical Commission",
+    "year": "2025",
+    "publication": "IEC 官方标准目录",
+    "url": "https://webstore.iec.ch/en/publication/86573",
+    "access": "documentation",
+    "supports": "读取2025版公开范围及排除项，核对测听耳机、助听器受话器及 ANC 特性不在本标准所述范围内；不引用未读测试条款。"
+  },
+  "et-iec60118-0": {
+    "title": "IEC 60118-0:2022: Measurement of the performance characteristics of hearing aids",
+    "authors": "International Electrotechnical Commission",
+    "year": "2022",
+    "publication": "IEC 官方标准目录",
+    "url": "https://webstore.iec.ch/en/publication/62974",
+    "access": "documentation",
+    "supports": "读取公开范围：气导助听器的耦合器或耳模拟器电声特性，区分类型／生产质量测量与真实耳内表现。未获得完整付费条款。"
+  },
+  "et-iec61094-2": {
+    "title": "IEC 61094-2:2009: Pressure calibration by the reciprocity technique; AMD1:2022",
+    "authors": "International Electrotechnical Commission",
+    "year": "2009/2022",
+    "publication": "IEC 官方标准目录",
+    "url": "https://webstore.iec.ch/en/publication/4486",
+    "access": "documentation",
+    "supports": "读取基础版公开范围，并核对2022修订目录 https://webstore.iec.ch/en/publication/67521；限定实验室标准等适用麦克风及复杂压力灵敏度。未转录互易校准步骤。"
+  },
+  "et-becker-2025": {
+    "title": "Meander-shaped piezoelectric MEMS loudspeaker with maximized area efficiency for in-ear applications",
+    "authors": "Becker D, Scharf R, Leonhard T, Merz A, Bittner A, Dehé A.",
+    "year": "2025",
+    "publication": "Sensors and Actuators Reports, 9, 100319",
+    "url": "https://doi.org/10.1016/j.snr.2025.100319",
+    "access": "fulltext",
+    "supports": "读取出版者公开全文的设计、声学表征、Discussion 和 Conclusion 相关段落；核对16 Vp、1 kHz、64 dB SPL及耳模拟器条件。区分制造原型与未来预测，未声称逐段通读全文。",
+    "doi": "10.1016/j.snr.2025.100319"
+  },
+  "et-massi-2025": {
+    "title": "Equalizing the In-Ear Acoustic Response of Piezoelectric MEMS Loudspeakers Through Inverse Transducer Modeling",
+    "authors": "Massi O, Giampiccolo R, Bernardini A.",
+    "year": "2025",
+    "publication": "Micromachines, 16(6), 655",
+    "url": "https://europepmc.org/articles/PMC12195080",
+    "access": "fulltext",
+    "supports": "通过 Europe PMC XML 阅读第2节负载模型、第3节线性逆模型限制、第4节实测与 THD 权衡、第5节结论；支持线性均衡及声输出下降的代价，不迁移论文峰值／DFT幅度到本文RMS示例。",
+    "doi": "10.3390/mi16060655"
+  }
+};

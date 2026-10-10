@@ -1,0 +1,72 @@
+[
+  {
+    "source": "electroacoustic-transducer",
+    "target": "sound-waves-and-propagation",
+    "type": "related",
+    "note": "声学端口、传播与边界条件构成换能输出的解释基础。",
+    "strength": 3
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "dynamic-range",
+    "type": "related",
+    "note": "噪声端、线性范围与最大输出需要使用一致参考量。",
+    "strength": 3
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "audiometric-calibration",
+    "type": "related",
+    "note": "校准把刺激设定、器件输出及规定负载连接起来。",
+    "strength": 3
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "pure-tone-audiometry",
+    "type": "application",
+    "note": "纯音刺激经耳机或骨导振子转为受试者接收的物理输入。",
+    "strength": 3
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "otoacoustic-emissions",
+    "type": "application",
+    "note": "探头同时包含刺激输出与声学接收，需检验整条测量链。",
+    "strength": 2
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "hearing-aid",
+    "type": "application",
+    "note": "输入麦克风与输出受话器共同约束助听器电声表现。",
+    "strength": 3
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "cochlear-implant",
+    "type": "application",
+    "note": "麦克风负责声学接收，后续电刺激接口不能套用耳道声输出模型。",
+    "strength": 2
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "speech-intelligibility",
+    "type": "related",
+    "note": "器件物理指标与使用者言语可懂度属于不同评价终点。",
+    "strength": 2
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "room-acoustics",
+    "type": "related",
+    "note": "开放空间的声输出响应取决于距离、方向及反射。",
+    "strength": 2
+  },
+  {
+    "source": "electroacoustic-transducer",
+    "target": "vocoder",
+    "type": "related",
+    "note": "声学模拟仍需要输出器件，文件幅度不能单独确定入耳声压。",
+    "strength": 1
+  }
+]

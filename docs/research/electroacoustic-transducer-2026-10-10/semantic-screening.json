@@ -1,0 +1,335 @@
+[
+  {
+    "id": "https://openalex.org/W1484872612",
+    "doi": "https://doi.org/10.3990/1.9789036510325",
+    "title": "Linearization of Electroacoustic Transducers",
+    "grade": "Important",
+    "reason": "研究电声器件非线性及控制；与大信号边界直接相关，入口词条采用官方标准范围，未依据未读论文给出效果数值。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2480089354",
+    "doi": null,
+    "title": "An Electroacoustic Analysis of Transmission Line Loudspeakers",
+    "grade": "Background",
+    "reason": "传输线扬声器的特定管道设计；可作负载进阶阅读，超出本词条最小活塞／密闭腔模型。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2014616741",
+    "doi": "https://doi.org/10.2478/v10168-011-0031-y",
+    "title": "Nonlinear Distortions in Electroacoustic Devices",
+    "grade": "Background",
+    "reason": "综述器件非线性及其度量；提供背景而非新原型验证。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2027177450",
+    "doi": "https://doi.org/10.1016/j.ultras.2013.02.008",
+    "title": "The impact of micromachined ultrasonic radiators on the efficiency of transducers in air",
+    "grade": "Background",
+    "reason": "超声辐射器的效率问题；目标频段与听觉入口不完全一致。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2058357334",
+    "doi": "https://doi.org/10.1109/tmag.2006.879073",
+    "title": "A Novel Miniature Matrix Array Transducer System for Loudspeakers",
+    "grade": "Important",
+    "reason": "研究微型执行器阵列驱动平板的转换结构；相关原型，但未取得全文，不纳入具体性能结论。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2063112985",
+    "doi": "https://doi.org/10.1016/j.apacoust.2010.04.008",
+    "title": "Optimization of electroacoustic absorbers by means of designed experiments",
+    "grade": "Background",
+    "reason": "主动电声吸收装置优化，与本词条传感和声输出入口间接相关。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4409014736",
+    "doi": "https://doi.org/10.1109/jmems.2025.3548927",
+    "title": "A Hybrid MEMS Microphone Combining Piezoelectric and Capacitive Transduction Mechanisms",
+    "grade": "Important",
+    "reason": "制作混合压电／电容麦克风并建模；相关机制证据，仅摘要筛选，未引用定量收益。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W7154449026",
+    "doi": "https://doi.org/10.1038/s41378-026-01251-y",
+    "title": "A capacitive-piezoelectric hybrid MEMS microphone with signal fusion for enhancing signal-to-noise ratio",
+    "grade": "Important",
+    "reason": "混合检测及信号融合改善SNR；与传感链相关，但未核对全文实验条件，不转录增益。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W7125481141",
+    "doi": "https://doi.org/10.1109/ted.2026.3650885",
+    "title": "A Hybrid Piezoelectric–Capacitive MEMS Microphone With Peripheral Electrostatic Transduction",
+    "grade": "Important",
+    "reason": "标题提示混合麦克风结构；摘要仅含资助信息，暂定相关，不能据此评判性能。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W3022812933",
+    "doi": "https://doi.org/10.3390/mi11050484",
+    "title": "A Review of MEMS Capacitive Microphones",
+    "grade": "Background",
+    "reason": "电容MEMS麦克风发展综述；非独立机制验证，未作为多个原型的替代证据。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2927618685",
+    "doi": "https://doi.org/10.31438/trf.hh2016.69",
+    "title": "PIEZOELECTRIC MEMS MICROPHONES NOISE SOURCES",
+    "grade": "Important",
+    "reason": "压电麦克风的噪声来源和测量；与弱声限制相关，仅摘要筛选。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2032080924",
+    "doi": "https://doi.org/10.1121/1.4783873",
+    "title": "Advantages of piezoelectric microelectromechanical systems (MEMS) microphones.",
+    "grade": "Background",
+    "reason": "会议摘要中的机制比较观点；不足以支持通用优越性结论。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4386766709",
+    "doi": "https://doi.org/10.1109/jmems.2023.3312254",
+    "title": "On the Design and Modeling of a Full-Range Piezoelectric MEMS Loudspeaker for In-Ear Applications",
+    "grade": "Important",
+    "reason": "入耳压电扬声器设计及建模；有相关原型，选择后续可读实测均衡研究形成具体例子。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4282034219",
+    "doi": "https://doi.org/10.1016/j.microrel.2022.114555",
+    "title": "A piezoelectric MEMS loudspeaker for in-ear and free field applications lumped and finite element models",
+    "grade": "Important",
+    "reason": "标题直接涉及模型与入耳／自由场负载；无摘要，暂定相关，未据此给出性能。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4410895836",
+    "doi": "https://doi.org/10.3390/mi16060655",
+    "title": "Equalizing the In-Ear Acoustic Response of Piezoelectric MEMS Loudspeakers Through Inverse Transducer Modeling",
+    "grade": "Core",
+    "reason": "全文验证负载等效模型与实测均衡；明确线性模型限制和声输出／THD权衡，选入正文。",
+    "evidence_basis": "full_text",
+    "selected": true
+  },
+  {
+    "id": "https://openalex.org/W4407937605",
+    "doi": "https://doi.org/10.1109/jsen.2025.3543719",
+    "title": "Discrete-Time Circuital Modeling of Hysteretic Piezo-Actuated MEMS Loudspeakers for In-Ear Applications",
+    "grade": "Important",
+    "reason": "显式建模压电迟滞；与非线性模型边界直接相关，未读全文不宣称补偿结果。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W7160418665",
+    "doi": "https://doi.org/10.71568/daga2026.148",
+    "title": "Design, Modeling, and Characterization of PZT-driven MEMS Loudspeakers for In-Ear Applications: Evolution Through Three Device Generations",
+    "grade": "Important",
+    "reason": "标题表明多代器件的设计与表征；无摘要，暂定候选，不纳入性能比较。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4391040364",
+    "doi": "https://doi.org/10.61782/fa.2023.0393",
+    "title": "MEMS Loudspeaker for In-Ear Application",
+    "grade": "Background",
+    "reason": "模型与器件改进的会议背景；未取得足够实验细节。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1972580129",
+    "doi": "https://doi.org/10.1109/proc.1986.13458",
+    "title": "Wave digital filters: Theory and practice",
+    "grade": "Background",
+    "reason": "波数字滤波器理论，属于均衡论文实现背景；不直接研究声学负载或器件性能。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2026913713",
+    "doi": "https://doi.org/10.1109/tct.1964.1082264",
+    "title": "Singular Network Elements",
+    "grade": "Background",
+    "reason": "逆电路模型使用的网络理论基础；不是电声实测证据。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1566405251",
+    "doi": null,
+    "title": "Comparison of Loudspeaker Equalization Methods Based on DSP Techniques",
+    "grade": "Important",
+    "reason": "比较扬声器均衡方法及实现稳健性；相关经典候选，未读全文不比较方法排名。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1550823304",
+    "doi": null,
+    "title": "The Mirror Filter-A New Basis for Reducing Nonlinear Distortion and Equalizing Response in Woofer Systems",
+    "grade": "Important",
+    "reason": "标题涉及低音单元的非线性补偿与均衡；无摘要，暂定相关，不转录效果。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1997680504",
+    "doi": "https://doi.org/10.1121/1.4914946",
+    "title": "Equalization of loudspeaker response using balanced model truncation",
+    "grade": "Important",
+    "reason": "研究均衡滤波器阶数与误差；与数字处理相关，入口词条不展开算法比较。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1585799677",
+    "doi": null,
+    "title": "Efficient Filter Design for Loudspeaker Equalization",
+    "grade": "Background",
+    "reason": "标题涉及均衡滤波器设计；缺少摘要，作为算法背景候选。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W7135094785",
+    "doi": "https://doi.org/10.1016/j.sna.2026.117716",
+    "title": "Push–pull actuated MEMS piezoelectric speaker for enhanced sound pressure level",
+    "grade": "Important",
+    "reason": "研究入耳压电执行方案及输出优化；相关2026候选，摘要不足以核对所有驱动和负载条件。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4413785583",
+    "doi": "https://doi.org/10.1109/tcsii.2025.3603686",
+    "title": "Gradient-Based Optimization of MEMS Loudspeaker Equivalent Circuit Models via Automatic Differentiation",
+    "grade": "Important",
+    "reason": "参数估计与模型优化，直接服务于等效模型；非独立听觉获益验证。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4408975543",
+    "doi": "https://doi.org/10.1016/j.snr.2025.100319",
+    "title": "Meander-shaped piezoelectric MEMS loudspeaker with maximized area efficiency for in-ear applications",
+    "grade": "Core",
+    "reason": "制造新结构并以耳模拟器实测，与结构／负载／原型证据层级直接相关，阅读相关全文段落后选入。",
+    "evidence_basis": "full_text",
+    "selected": true
+  },
+  {
+    "id": "https://openalex.org/W2028969753",
+    "doi": "https://doi.org/10.1016/j.sna.2007.01.008",
+    "title": "Squeeze film air damping in MEMS",
+    "grade": "Background",
+    "reason": "微结构空气阻尼的一般理论；可解释进阶损耗，但并非听觉器件验证。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2020751301",
+    "doi": "https://doi.org/10.1016/c2011-0-05897-0",
+    "title": "Acoustics: Sound Fields and Transducers",
+    "grade": "Background",
+    "reason": "声场与换能器教材；候选元数据，无正文访问，不据此转录公式。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2018018298",
+    "doi": "https://doi.org/10.1016/j.sna.2010.06.008",
+    "title": "Optimization and characterization of wafer-level adhesive bonding with patterned dry-film photoresist for 3D MEMS integration",
+    "grade": "Exclude",
+    "reason": "研究键合工艺，与具体听觉转换性能只有制造层面间接关系。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1590327792",
+    "doi": null,
+    "title": "Proceedings of the 130th Audio Engineering Society Convention",
+    "grade": "Exclude",
+    "reason": "整本会议录元数据，不是可定位的单篇证据。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W2151006446",
+    "doi": "https://doi.org/10.1557/proc-811-d1.9",
+    "title": "Atomic Layer Deposition of Aluminum Nitride Thin films from Trimethyl Aluminum (TMA) and Ammonia",
+    "grade": "Exclude",
+    "reason": "薄膜沉积工艺，未直接回答本文的声输出及测量问题。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W1579204801",
+    "doi": null,
+    "title": "Simulation of the IEC 60711 Occluded Ear Simulator",
+    "grade": "Important",
+    "reason": "耳模拟器建模与负载相关；无摘要，暂定相关，标准范围优先用官方目录核对。",
+    "evidence_basis": "title",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W7161158859",
+    "doi": "https://doi.org/10.1002/aelm.70428",
+    "title": "Microstructured Tactile Sensors With Bismuth Telluride Coatings for Vibration Detection",
+    "grade": "Exclude",
+    "reason": "触觉／设备振动传感研究，应用终点与本文听觉接口不同。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4415699559",
+    "doi": "https://doi.org/10.1186/s44147-025-00774-x",
+    "title": "Optimization of graphene-based speaker for hearing aids",
+    "grade": "Important",
+    "reason": "以多物理仿真优化助听器扬声器；缺少全文实测核对，不把仿真结果当成已验证产品。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4416523408",
+    "doi": "https://doi.org/10.36074/grail-of-science.17.10.2025.049",
+    "title": "ОПТИМІЗАЦІЯ ФАЗОІНВЕРТОРНОГО ОФОРМЛЕННЯ САБВУФЕРА МАЛОГО ОБ’ЄМУ З ВИКОРИСТАННЯМ ДИНАМІКА 75ГДН ТА ІНТЕГРОВАНОГО ПІДСИЛЮВАЧА КЛАСУ AB",
+    "grade": "Background",
+    "reason": "特定低音箱体及功放装配优化；相关负载案例，但不是通用换能原理的必要证据。",
+    "evidence_basis": "abstract",
+    "selected": false
+  },
+  {
+    "id": "https://openalex.org/W4410639445",
+    "doi": "https://doi.org/10.1109/eurosime65125.2025.11006558",
+    "title": "Physics-Based Compact Modeling of an Ultrasonic Modulation MEMS Speaker Concept",
+    "grade": "Important",
+    "reason": "超声调制MEMS声输出概念的物理紧凑建模；机制相关但本文未展开该路线，需另核对实测。",
+    "evidence_basis": "abstract",
+    "selected": false
+  }
+]

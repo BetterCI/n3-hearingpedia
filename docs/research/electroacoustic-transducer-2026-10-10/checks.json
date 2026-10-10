@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-10",
+  "base_commit": "2b301a8681ab06e5a799bc4d107829cf20b72b96",
+  "scope": "Latest origin/main plus electroacoustic-transducer only; excludes pending active-auditory-sensing draft",
+  "check": {
+    "files": 142,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": "passed; Pagefind indexed 104 concepts; existing 9 legacy redirect pages excluded from index",
+  "verify": {
+    "pages": 242,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 19887,
+    "equations": 250,
+    "searchableConcepts": 104,
+    "wikiConcepts": 104,
+    "typedRelationships": 661,
+    "wikiCrossLinks": 1130,
+    "brokenLinks": 0
+  },
+  "limitations": [
+    "No domain expert review",
+    "Interactive desktop and mobile preview inspection pending",
+    "Existing Vite bundle size warning and upstream math Unicode notices"
+  ]
+}

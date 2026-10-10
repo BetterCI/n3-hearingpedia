@@ -1,0 +1,78 @@
+{
+  "title": "电声换能器",
+  "english": "Electroacoustic transducer",
+  "slug": "electroacoustic-transducer",
+  "summary": "从电、机械与声学端口解释麦克风、扬声器、受话器和骨导振子的转换原理，建立可复算的动圈小信号模型，并说明负载、灵敏度、噪声、失真、校准及听觉应用的评价边界。",
+  "categories": [
+    "signal-processing",
+    "hearing-aids",
+    "research-methods"
+  ],
+  "tags": [
+    "electroacoustics",
+    "microphone",
+    "loudspeaker",
+    "acoustic-load",
+    "transducer-measurement"
+  ],
+  "aliases": [
+    "电声转换器",
+    "电声传感器与执行器"
+  ],
+  "level": [
+    "undergraduate",
+    "graduate"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "last_updated": "2026-10-10",
+  "literature_checked_at": "2026-10-10",
+  "authors": [
+    "AI 辅助编写"
+  ],
+  "reviewer": null,
+  "reviewed_at": null,
+  "knowledge_area": "technology",
+  "kind": "technology",
+  "key_facts": [
+    {
+      "label": "基本作用",
+      "value": "在电信号与声学或相关机械信号之间建立物理转换"
+    },
+    {
+      "label": "耦合端口",
+      "value": "电压—电流、力—速度、声压—体积速度"
+    },
+    {
+      "label": "负载效应",
+      "value": "腔体、声管、泄漏、耳部连接和接触条件共同改变响应"
+    },
+    {
+      "label": "评价边界",
+      "value": "器件物理指标、系统输出和使用者听觉表现分别验证"
+    }
+  ],
+  "references": [
+    "et-comsol-lumped",
+    "et-comsol-driver",
+    "et-ni-handbook",
+    "et-ni-measurement",
+    "et-knowles-ba",
+    "et-adi-sensitivity",
+    "et-adi-preamp",
+    "et-iec60268-21",
+    "et-iec60268-22",
+    "et-iec62458",
+    "et-iec60268-4",
+    "et-iec60268-7",
+    "audiometric-calibration-iec603184",
+    "audiometric-calibration-iec603186",
+    "et-iec60118-0",
+    "et-iec61094-2",
+    "et-becker-2025",
+    "et-massi-2025",
+    "nidcd-hearing-aids"
+  ],
+  "batch": 5,
+  "order": 75
+}

@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-10",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 651,
+  "relations": 661,
   "entries": [
     {
       "slug": "cochlea",
@@ -4483,6 +4483,49 @@
         "electroencephalography",
         "loudness",
         "dynamic-range"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "electroacoustic-transducer",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 7466,
+      "body_characters": 15406,
+      "sections": 11,
+      "subsections": 22,
+      "reference_ids": [
+        "et-comsol-lumped",
+        "et-comsol-driver",
+        "et-ni-handbook",
+        "et-ni-measurement",
+        "et-knowles-ba",
+        "et-adi-sensitivity",
+        "et-adi-preamp",
+        "et-iec60268-21",
+        "et-iec60268-22",
+        "et-iec62458",
+        "et-iec60268-4",
+        "et-iec60268-7",
+        "audiometric-calibration-iec603184",
+        "audiometric-calibration-iec603186",
+        "et-iec60118-0",
+        "et-iec61094-2",
+        "et-becker-2025",
+        "et-massi-2025",
+        "nidcd-hearing-aids"
+      ],
+      "wiki_links": [
+        "pure-tone-audiometry",
+        "audiometric-calibration",
+        "otoacoustic-emissions",
+        "hearing-aid",
+        "speech-intelligibility",
+        "cochlear-implant",
+        "sound-waves-and-propagation",
+        "dynamic-range",
+        "room-acoustics"
       ],
       "status": "draft",
       "depth": "in-depth"

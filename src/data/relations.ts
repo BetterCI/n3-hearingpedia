@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('electroacoustic-transducer','sound-waves-and-propagation','related','声学端口、传播与边界条件构成换能输出的解释基础。',3),
+  link('electroacoustic-transducer','dynamic-range','related','噪声端、线性范围与最大输出需要使用一致参考量。',3),
+  link('electroacoustic-transducer','audiometric-calibration','related','校准把刺激设定、器件输出及规定负载连接起来。',3),
+  link('electroacoustic-transducer','pure-tone-audiometry','application','纯音刺激经耳机或骨导振子转为受试者接收的物理输入。',3),
+  link('electroacoustic-transducer','otoacoustic-emissions','application','探头同时包含刺激输出与声学接收，需检验整条测量链。',2),
+  link('electroacoustic-transducer','hearing-aid','application','输入麦克风与输出受话器共同约束助听器电声表现。',3),
+  link('electroacoustic-transducer','cochlear-implant','application','麦克风负责声学接收，后续电刺激接口不能套用耳道声输出模型。',2),
+  link('electroacoustic-transducer','speech-intelligibility','related','器件物理指标与使用者言语可懂度属于不同评价终点。',2),
+  link('electroacoustic-transducer','room-acoustics','related','开放空间的声输出响应取决于距离、方向及反射。',2),
+  link('electroacoustic-transducer','vocoder','related','声学模拟仍需要输出器件，文件幅度不能单独确定入耳声压。',1),
   // Comparative hearing: cross-species mechanisms and translation routes.
   link('comparative-hearing','binaural-hearing','related','跨物种比较双耳线索计算，区分共享任务与具体神经实现。',3),
   link('comparative-hearing','interaural-time-difference','related','比较仓鸮时间计算与寄生蝇原始线索、机械响应的不同尺度。',3),
