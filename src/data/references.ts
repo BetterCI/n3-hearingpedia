@@ -2,6 +2,7 @@ import { researcherPublicationReferences } from './researcher-publications-refer
 import { phaseLockingReferences } from './phase-locking-references.ts';
 import { maDayouReferences } from './ma-dayou-references.ts';
 import { weiRongjueReferences } from './wei-rongjue-references.ts';
+import { wangJiqingReferences } from './wang-jiqing-references.ts';
 import { linTaoReferences } from './lin-tao-references.ts';
 import { zwickerReferences } from './zwicker-references.ts';
 import { flanaganReferences } from './flanagan-references.ts';
@@ -67,6 +68,7 @@ export const references: Record<string, Reference> = {
   ...phaseLockingReferences,
   ...maDayouReferences,
   ...weiRongjueReferences,
+  ...wangJiqingReferences,
   ...linTaoReferences,
   ...zwickerReferences,
   ...flanaganReferences,
