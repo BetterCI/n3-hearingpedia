@@ -8,6 +8,6 @@ const people = (await getCollection('concepts')).filter(c=>c.data.kind==='person
 <BaseLayout title="听觉研究人物" description="从中外听觉研究者的代表工作出发，回顾研究问题、方法与学术传承，并连接相关百科词条。">
   <div class="container">
     <div class="page-intro"><div class="eyebrow">People &amp; the history of hearing research</div><h1>听觉研究人物</h1><p>从一个人提出的问题、完成的实验和留下的著作，走进听觉科学的发展历程。结合中国与国际研究者的原始文献，回顾代表工作及其影响。</p></div>
-    <section class="section" aria-labelledby="people-title"><div class="section-heading"><div><h2 id="people-title">从代表工作认识研究者</h2><p>每人选列一项语音或听觉领域的核心工作，按原始发表年份从早到晚排列。著作采用原版年份，合作成果保留合作者；年份有分歧时同时标明，按较早著录年份排序。</p></div></div><div class="concept-grid">{people.map(concept=><ConceptCard concept={concept}/>)}</div></section>
+    <section class="section" aria-labelledby="people-title"><div class="section-heading"><div><h2 id="people-title">从代表工作认识研究者</h2><p>结合原始论文、著作与学术史资料介绍研究经历和成果，关于贡献与影响的评价在人物正文中注明参考依据。</p></div></div><div class="concept-grid">{people.map(concept=><ConceptCard concept={concept}/>)}</div></section>
   </div>
 </BaseLayout>

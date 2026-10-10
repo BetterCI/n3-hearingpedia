@@ -50,10 +50,7 @@ for (const route of ['index.html', 'people/index.html']) {
   assert.deepEqual(listed, expectedPeople, 'Core-work chronology differs: ' + route);
   const years = listed.map(slug => personEntries.find(p => p.data.slug === slug).data.core_work?.year ?? Infinity);
   assert(years.every((year, i) => i === 0 || years[i - 1] <= year), 'Core works must run from earlier to later: ' + route);
-  for (const person of personEntries) {
-    const core = person.data.core_work;
-    if (core) assert(html.includes(`${core.year_label ?? core.year} 年 · 核心工作`), 'Missing core-work year: ' + person.data.slug + ' on ' + route);
-  }
+  assert(!html.includes('class="core-work"') && !html.includes('年 · 核心工作'), 'Person cards must omit selected-work labels: ' + route);
 }
 for (const file of conceptFiles) {
   const slug = file.slice(0, -3);
