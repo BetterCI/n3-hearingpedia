@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-10",
+  "sources": [
+    {
+      "reference_id": "amfm-mathworks-analog",
+      "access_scope": "documentation",
+      "notes": "General carrier expression and AM/FM/PM definitions; own sampling conditions checked separately"
+    },
+    {
+      "reference_id": "amfm-mathworks-modulate",
+      "access_scope": "documentation",
+      "notes": "Method equations and parameters; suppressed/carried AM distinction; no MATLAB execution"
+    },
+    {
+      "reference_id": "amfm-nist-bessel",
+      "access_scope": "documentation",
+      "notes": "10.12 generating function and Jacobi–Anger forms; own numerical coefficients"
+    },
+    {
+      "reference_id": "scipy-hilbert",
+      "access_scope": "documentation",
+      "notes": "Notes and phase/envelope example; actual local scipy calculations"
+    },
+    {
+      "reference_id": "viemeister-1979",
+      "access_scope": "abstract",
+      "notes": "Original abstract, PubMed/Europe PMC; no full paper curves"
+    },
+    {
+      "reference_id": "dau-1997",
+      "access_scope": "abstract",
+      "notes": "Original abstract, Europe PMC; official implementation documentation separately read"
+    },
+    {
+      "reference_id": "amfm-amt-dau",
+      "access_scope": "documentation",
+      "notes": "Stages and carrier/modulation axes; no AMT run"
+    },
+    {
+      "reference_id": "amfm-moore-sek-1995",
+      "access_scope": "abstract",
+      "notes": "Original abstract, Europe PMC; carrier/rate/waveform and matched detectability"
+    },
+    {
+      "reference_id": "amfm-moore-sek-1996",
+      "access_scope": "abstract",
+      "notes": "Original PubMed abstract; added AM and rate/carrier conditional interference"
+    },
+    {
+      "reference_id": "amfm-whiteford-place-2020",
+      "access_scope": "selected-fulltext",
+      "notes": "Europe PMC XML: abstract; three relevant discussion subsections; FM/AM detection and incoherence methods; participant selection. Journal figures page cross-checked. Not every paragraph of full paper read."
+    },
+    {
+      "reference_id": "tones-whiteford-2023",
+      "access_scope": "abstract",
+      "notes": "Original abstract and metadata. Full XML returned server error twice; later web page access challenge. Do not claim full-text reading."
+    },
+    {
+      "reference_id": "amfm-corbett-2026",
+      "access_scope": "selected-fulltext",
+      "notes": "Europe PMC XML: abstract, participants, FM and SD stimuli, procedure, results/discussion relevant sections. Some statistical middle text in tool output truncated; no extracted effect sizes. Names and 074401 verified from article-meta."
+    },
+    {
+      "reference_id": "amfm-moore-age-2019",
+      "access_scope": "abstract",
+      "notes": "Original abstract. XML full-text retrieval failed; no full methods claims."
+    },
+    {
+      "reference_id": "apoux-2011",
+      "access_scope": "abstract",
+      "notes": "Original abstract via Europe PMC; no necessity of FM-to-AM for every reconstructed envelope"
+    },
+    {
+      "reference_id": "drullman-1994",
+      "access_scope": "abstract",
+      "notes": "Original abstract via Europe PMC; conditional speech smoothing results, no universal cutoff"
+    },
+    {
+      "reference_id": "zhou-tle-2022",
+      "access_scope": "abstract",
+      "notes": "Original PubMed abstract; task- and frequency-specific CI result; no recreated stimulation"
+    },
+    {
+      "reference_id": "li-covarying-2025",
+      "access_scope": "preprint-abstract-v1",
+      "notes": "Original medRxiv v1 abstract, explicit 2025 DOI/version. Search surfaced possible revised title in secondary source; v2 primary access not confirmed. Do not label v1 latest, count versions separately, or assert no later peer-reviewed paper exists."
+    }
+  ],
+  "access_failures": "2023 and 2019 full XML unavailable; publisher pages sometimes access-challenged. Used legitimate original abstracts, did not bypass challenges.",
+  "original_figures": "No copied paper figures; analytic/synthetic generator and parameters separately provided."
+}

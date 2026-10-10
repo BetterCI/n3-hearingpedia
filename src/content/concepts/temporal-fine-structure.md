@@ -9,7 +9,7 @@ aliases: ["TFS"]
 batch: 2
 status: "draft"
 depth: in-depth
-last_updated: "2026-10-06"
+last_updated: "2026-10-10"
 literature_checked_at: "2026-10-05"
 authors: ["AI 辅助编写"]
 references: ["smith-2002","scipy-hilbert","shamma-2013","borjigin-2025","hopkins-2008","zhou-tle-2022","peng-mandarin-2018","verschooten-human-cochlea-2018","shannon-1995","apoux-2011","rosen-1992","verschooten-2019","macherey-2024","hopkins-lf-2010","swaminathan-2014","gilbert-2006","moore-sek-2009","fullgrabe-af-2017","ananthakrishnan-2022","zhou-f0intfs-2023","gaudrain-2025"]
@@ -81,6 +81,12 @@ $$
 瞬时频率的单位为赫兹。对稳态正弦，它等于正弦频率；对调频信号，它随时间变化。对于复杂多分量信号，瞬时频率可能出现很大的波动，不一定对应某一个实际谱线，也不能直接作为基频或感知音高的估计。计算与解释都应联系所分析的信号，以及是否采用分频处理。[2](#ref-scipy-hilbert)
 
 当解析包络接近零时，相位容易受到很小的信号变化或数值误差影响。直接对相位差分，会放大这些局部不稳定。实际分析应记录低幅度区间的处理方式，可以将其标记为不可靠或从特定统计中排除。若用 $x(t)/a(t)$ 提取归一化波形，在分母加入保护量会改变低幅度处的信号；保护阈值也应报告。
+
+### 与 AM／FM 调制方式的关系
+
+[幅度调制与频率调制](../amplitude-modulation/)提供了区分幅度变化和相位轨迹的可控例子。对适合单分量描述的信号，纯 AM 可以改变包络而保持载波相位，纯 FM 则改变瞬时频率及相位轨迹。精细结构是信号的表征，不是 FM 的同义词：未调制纯音同样具有精细结构，复杂声音的相位也不必由单一 FM 过程生成。[2](#ref-scipy-hilbert)
+
+FM 的相位变化还可能经频率选择性滤波转成通道包络起伏，因此不能仅凭刺激名称把 FM 检测认定为只使用精细结构的测试。调制参数、边带及听觉机制的证据边界详见[AM／FM 词条](../amplitude-modulation/)，并结合[时域包络](../temporal-envelope/)理解输入与滤波后表征的区别。
 
 ### “快”不等于固定频率区间
 
@@ -210,4 +216,4 @@ Borjigin与Bharadwaj在2025年的研究中，以200名参与者的双耳时间�
 
 对双耳实验，尤其要报告相位差或时间差的符号约定，说明改变的是载波、包络还是整个信号。对复合音实验，应交代频谱边缘、谐波分辨情况和可能的组合音；对言语实验，应保存训练和呈现顺序信息。若使用神经指标，还应说明响应归一化和噪声底的估计方式。[17](#ref-moore-sek-2009)[15](#ref-swaminathan-2014)[19](#ref-ananthakrishnan-2022)
 
-两篇词条可以按问题交叉阅读：需要理解幅度提取、调制深度和调制谱时，转向[时域包络](../temporal-envelope/)；需要理解相位、双耳时域差异和精细结构实验时，使用本篇。二者共同以[听觉滤波器](../auditory-filter/)提供的频带框架为基础，再连接到[音高感知](../pitch-perception/)、[言语可懂度](../speech-intelligibility/)和人工耳蜗编码。
+两篇词条可以按问题交叉阅读：需要理解幅度提取、调制深度和调制谱时，转向[时域包络](../temporal-envelope/)；需要理解相位、双耳时域差异和精细结构实验时，使用本篇。AM 与 FM 的构造、参数及检测任务可进一步参阅[幅度调制与频率调制](../amplitude-modulation/)。三篇共同以[听觉滤波器](../auditory-filter/)提供的频带框架为基础，再连接到[音高感知](../pitch-perception/)、[言语可懂度](../speech-intelligibility/)和人工耳蜗编码。

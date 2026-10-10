@@ -8,7 +8,7 @@ tags: [hilbert, envelope-extraction, modulation]
 aliases: [包络, 时域包络, ENV, Hilbert, 希尔伯特变换, amplitude envelope]
 status: draft
 depth: in-depth
-last_updated: "2026-10-06"
+last_updated: "2026-10-10"
 authors: ["AI 辅助编写"]
 references: ["scipy-hilbert","rosen-1992","smith-2002","shamma-2013","drullman-1994","shannon-1995","zhou-tle-2022","peng-mandarin-2018","gilbert-2006","apoux-2011","swaminathan-2014","viemeister-1979","dau-1997","ananthakrishnan-2022","regev-2025","kubanek-2013","mcclaskey-2024","fuglsang-2024","zhou-f0intfs-2023","tamura-2024"]
 order: 5
@@ -50,6 +50,10 @@ key_facts: [{"label":"含义","value":"幅度随时间的变化"},{"label":"常�
 | 频谱包络 | 频谱随声学频率变化的大体轮廓 | 与时域包络使用不同横轴 |
 | 时域精细结构 | 声音信号的细致振荡及其相位变化 | 与包络共同描述同一信号 |
 | 基频 | 周期声音的基本重复频率 | 可以通过包络周期性、谐波和精细结构等多种形式提供线索 |
+
+### 与幅度调制和频率调制的关系
+
+[幅度调制与频率调制](../amplitude-modulation/)讨论怎样改变载波的幅度或瞬时频率；时域包络讨论怎样表征所分析信号的幅度变化。规则 AM 是构造可控包络的典型方法，但自然声音、噪声和分量相互作用也会产生包络，因此“包络”不等同于“外加 AM”。对适合单分量描述的信号，FM 改变相位增长速率；恒幅 FM 经过频率选择性滤波后仍可能产生通道内幅度起伏。定义、参数和滤波演示可与该词条及[时域精细结构](../temporal-fine-structure/)交叉阅读。[1](#ref-scipy-hilbert)[10](#ref-apoux-2011)
 
 ### “慢变化”是相对描述
 
@@ -230,4 +234,4 @@ Drullman等通过低通平滑分带包络，研究不同调制速率对言语接
 | 重建输出 | 载波、合成滤波、侧带、延迟与最终频谱 | 确认最终可用的线索 |
 | 行为或神经评价 | 任务、听者、训练、背景、响应指标 | 限定结论可以推广的范围 |
 
-进一步阅读可从[时域精细结构](../temporal-fine-structure/)了解相位和实验分离的限制，从[听觉滤波器](../auditory-filter/)了解频率选择性，从[振幅调制](../amplitude-modulation/)了解调幅刺激，并结合[言语可懂度](../speech-intelligibility/)和[音高感知](../pitch-perception/)理解不同任务中的证据。
+进一步阅读可从[时域精细结构](../temporal-fine-structure/)了解相位和实验分离的限制，从[听觉滤波器](../auditory-filter/)了解频率选择性，从[幅度调制与频率调制](../amplitude-modulation/)了解调制刺激及滤波后的线索转换，并结合[言语可懂度](../speech-intelligibility/)和[音高感知](../pitch-perception/)理解不同任务中的证据。

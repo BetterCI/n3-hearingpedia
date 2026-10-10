@@ -1,0 +1,127 @@
+{
+  "nature": "original synthetic teaching calculations; not experimental results",
+  "fs_hz": 48000,
+  "numpy_version": "1.26.4",
+  "scipy_version": "1.17.1",
+  "waveform": {
+    "carrier_hz": 1000,
+    "modulation_hz": 20,
+    "carrier_amplitude_pa": 0.2,
+    "am_depth": 0.6,
+    "fm_peak_deviation_hz": 60,
+    "fm_index": 3.0,
+    "am_mean_square_pa2": 0.023599999999999986,
+    "fm_mean_square_pa2": 0.02000000000000001
+  },
+  "sidebands": {
+    "carrier_hz": 1000,
+    "modulation_hz": 20,
+    "drawn_orders": [
+      -8,
+      8
+    ],
+    "checks": [
+      {
+        "signal": "AM：m = 0.3",
+        "max_fft_coefficient_error": 3.2151973473066285e-13
+      },
+      {
+        "signal": "FM：β = 0.3（Δf = 6 Hz）",
+        "max_fft_coefficient_error": 3.1415407318899494e-13
+      },
+      {
+        "signal": "FM：β = 3（Δf = 60 Hz）",
+        "max_fft_coefficient_error": 1.5898731287061178e-13
+      }
+    ],
+    "bessel_power_check_orders": [
+      -60,
+      60
+    ]
+  },
+  "filter_conversion": {
+    "carrier_hz": 1000,
+    "modulation_hz": 5,
+    "peak_deviation_hz": 30,
+    "gaussian_sigma_hz": 70,
+    "filter_centres_hz": [
+      940,
+      1000,
+      1060
+    ],
+    "off_centre_envelope_correlation": -0.9972791080062343,
+    "dominant_envelope_frequencies_hz": [
+      5.0,
+      10.0,
+      5.0
+    ],
+    "implementation": "periodic FFT, real even zero-phase Gaussian response; not a causal cochlear filter"
+  },
+  "parameter_controls": {
+    "am_carrier_amplitude_pa": 0.2,
+    "am_depth_range": [
+      0,
+      1
+    ],
+    "fm_rate_range_hz": [
+      1,
+      40
+    ],
+    "fixed_peak_deviation_hz": 20,
+    "fixed_fm_index": 1
+  },
+  "audio": [
+    {
+      "file": "am-5.wav",
+      "carrier_hz": 1000,
+      "modulation_hz": 5,
+      "am_depth": 0.6,
+      "fm_peak_deviation_hz": null,
+      "fm_index": null,
+      "duration_s": 2,
+      "fade_ms": 20,
+      "digital_rms": 0.099999924222311,
+      "digital_peak": 0.21112704855494857,
+      "normalization": "whole-record digital RMS after fades; not calibrated SPL or equal loudness"
+    },
+    {
+      "file": "fm-5.wav",
+      "carrier_hz": 1000,
+      "modulation_hz": 5,
+      "am_depth": null,
+      "fm_peak_deviation_hz": 30,
+      "fm_index": 6.0,
+      "duration_s": 2,
+      "fade_ms": 20,
+      "digital_rms": 0.09999986816703685,
+      "digital_peak": 0.14230780968657492,
+      "normalization": "whole-record digital RMS after fades; not calibrated SPL or equal loudness"
+    },
+    {
+      "file": "am-40.wav",
+      "carrier_hz": 1000,
+      "modulation_hz": 40,
+      "am_depth": 0.6,
+      "fm_peak_deviation_hz": null,
+      "fm_index": null,
+      "duration_s": 2,
+      "fade_ms": 20,
+      "digital_rms": 0.09999994330492971,
+      "digital_peak": 0.20960112308114873,
+      "normalization": "whole-record digital RMS after fades; not calibrated SPL or equal loudness"
+    },
+    {
+      "file": "fm-40.wav",
+      "carrier_hz": 1000,
+      "modulation_hz": 40,
+      "am_depth": null,
+      "fm_peak_deviation_hz": 30,
+      "fm_index": 0.75,
+      "duration_s": 2,
+      "fade_ms": 20,
+      "digital_rms": 0.10000051876093514,
+      "digital_peak": 0.14230780968657492,
+      "normalization": "whole-record digital RMS after fades; not calibrated SPL or equal loudness"
+    }
+  ]
+}

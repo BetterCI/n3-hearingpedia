@@ -1,0 +1,48 @@
+[
+  {
+    "query": "topic",
+    "parameters": {
+      "search": "auditory amplitude frequency modulation detection mechanisms",
+      "sort": "relevance_score:desc"
+    },
+    "limit": 10,
+    "returned": 10,
+    "status": "ok"
+  },
+  {
+    "query": "place-fm-backward",
+    "parameters": {
+      "filter": "cited_by:W3090502301"
+    },
+    "limit": 8,
+    "returned": 8,
+    "status": "ok"
+  },
+  {
+    "query": "place-fm-recent-forward",
+    "parameters": {
+      "filter": "cites:W3090502301,from_publication_date:2021-01-01,to_publication_date:2026-10-10"
+    },
+    "limit": 5,
+    "returned": 5,
+    "status": "ok"
+  },
+  {
+    "query": "temporal-fm-backward",
+    "parameters": {
+      "filter": "cited_by:W1985396863"
+    },
+    "limit": 8,
+    "returned": 0,
+    "status": "ok"
+  },
+  {
+    "query": "temporal-fm-recent-forward",
+    "parameters": {
+      "filter": "cites:W1985396863,from_publication_date:2021-01-01,to_publication_date:2026-10-10"
+    },
+    "limit": 5,
+    "returned": 5,
+    "status": "ok"
+  }
+]

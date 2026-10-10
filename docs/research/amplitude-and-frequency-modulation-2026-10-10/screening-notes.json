@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-10",
+  "method": "manual semantic screening; no relevance decisions from keywords alone",
+  "raw_records": 30,
+  "unique_records": 29,
+  "papers": [
+    {
+      "id": "https://openalex.org/W3090502301",
+      "doi": "https://doi.org/10.7554/elife.58468",
+      "title": "The role of cochlear place coding in the perception of frequency modulation",
+      "grade": "Core",
+      "reason": "慢速与快速 FM 的位置编码命题；原文相关段落已读并引用",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W1985396863",
+      "doi": "https://doi.org/10.1121/1.417941",
+      "title": "Detection of frequency modulation at low modulation rates: Evidence for a mechanism based on phase locking",
+      "grade": "Core",
+      "reason": "慢速 FM 的经典时间编码命题；原始摘要已读并引用",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2085480825",
+      "doi": "https://doi.org/10.1111/j.1460-9568.1995.tb00340.x",
+      "title": "Temporal Coding of Amplitude and Frequency Modulation in the Rat Auditory Cortex",
+      "grade": "Important",
+      "reason": "大鼠皮层生理证据可补充层级，不能直接指定人类机制",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W1977547279",
+      "doi": "https://doi.org/10.1121/1.1424871",
+      "title": "Detection of frequency modulation by hearing-impaired listeners: Effects of carrier frequency, modulation rate, and added amplitude modulation",
+      "grade": "Important",
+      "reason": "听损及附加 AM 对 FM 检测的条件依赖，与现有核心研究重叠",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2070091937",
+      "doi": "https://doi.org/10.1121/1.428444",
+      "title": "Detection of quasitrapezoidal frequency and amplitude modulation",
+      "grade": "Important",
+      "reason": "调制波形影响检测；未用仅有检索记录补写全文结果",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2046331056",
+      "doi": "https://doi.org/10.1121/1.420344",
+      "title": "Modeling auditory processing of amplitude modulation. I. Detection and masking with narrow-band carriers",
+      "grade": "Core",
+      "reason": "AM 检测与掩蔽的功能模型；原始摘要已读，复用旧引用",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2153315736",
+      "doi": "https://doi.org/10.3758/bf03208166",
+      "title": "Fusion of auditory components: Effects of the frequency of amplitude modulation",
+      "grade": "Background",
+      "reason": "标题级记录；融合问题属于旁支，未推断研究结论",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2023020598",
+      "doi": "https://doi.org/10.1121/1.420345",
+      "title": "Modeling auditory processing of amplitude modulation. II. Spectral and temporal integration",
+      "grade": "Important",
+      "reason": "模型的跨频带与时间整合；本稿以第一部分及官方实现说明为主",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2063123419",
+      "doi": "https://doi.org/10.1016/0378-5955(95)00169-9",
+      "title": "Neuronal correlates of perceptual amplitude-modulation detection",
+      "grade": "Important",
+      "reason": "标题级暂定相关；神经与感知关联需全文核验，未据此写结果",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W1967870816",
+      "doi": "https://doi.org/10.1121/1.3506350",
+      "title": "Mechanisms underlying the detection of frequency modulation",
+      "grade": "Important",
+      "reason": "FM 的候选机制与水平/速率条件；核心文献已覆盖主问题",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2039983179",
+      "doi": "https://doi.org/10.1121/1.421506",
+      "title": "A model of auditory image flow. II. Detection of amplitude and frequency modulation",
+      "grade": "Background",
+      "reason": "功能模型的不同架构可作延伸，本稿不比较全部计算模型",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2736275231",
+      "doi": "https://doi.org/10.1098/rspb.2017.0673",
+      "title": "Modulation frequency as a cue for auditory speed perception",
+      "grade": "Background",
+      "reason": "调制速率在生态速度任务中的用途，不是 AM/FM 检测主问题",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2121044470",
+      "doi": "https://doi.org/10.2307/4615733",
+      "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+      "grade": "Background",
+      "reason": "多重检验方法，不作为调制机制证据",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2148329528",
+      "doi": "https://doi.org/10.1121/1.1912375",
+      "title": "Transformed Up-Down Methods in Psychoacoustics",
+      "grade": "Important",
+      "reason": "自适应心理声学方法；本稿只概述规则需报告，未新增该引用",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2097137621",
+      "doi": "https://doi.org/10.1037/0033-2909.87.2.245",
+      "title": "Tests for comparing elements of a correlation matrix.",
+      "grade": "Background",
+      "reason": "相关矩阵统计工具，不作为机制证据",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W2122522567",
+      "doi": "https://doi.org/10.1001/jamainternmed.2013.1868",
+      "title": "Hearing Loss and Cognitive Decline in Older Adults",
+      "grade": "Exclude",
+      "reason": "听损与认知下降的观察关联偏离信号调制机制",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W1974932989",
+      "doi": "https://doi.org/10.1126/science.270.5234.303",
+      "title": "Speech Recognition with Primarily Temporal Cues",
+      "grade": "Important",
+      "reason": "包络与语音应用的重要原始研究；本稿采用原词条相关文献，不新增",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W282666689",
+      "doi": "https://doi.org/10.1016/0376-6357(93)90083-4",
+      "title": "Detection theory: A user's guide",
+      "grade": "Background",
+      "reason": "标题级统计方法背景，无机制结论",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W1981244178",
+      "doi": "https://doi.org/10.1371/journal.pone.0121945",
+      "title": "cocor: A Comprehensive Solution for the Statistical Comparison of Correlations",
+      "grade": "Background",
+      "reason": "相关系数比较的软件，不作为调制机制证据",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W4244894666",
+      "doi": "https://doi.org/10.2307/1267205",
+      "title": "Generalized Inverses, Ridge Regression, Biased Linear Estimation, and Nonlinear Estimation",
+      "grade": "Background",
+      "reason": "标题级估计方法背景，非本稿直接对象",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W4296106411",
+      "doi": "https://doi.org/10.3389/fnins.2022.1000304",
+      "title": "The hunt for hidden hearing loss in humans: From preclinical studies to effective interventions",
+      "grade": "Background",
+      "reason": "隐性听损综述只能提供间接背景，本稿不将阈值作为诊断",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W4405017986",
+      "doi": "https://doi.org/10.1038/s41467-024-54700-5",
+      "title": "Models optimized for real-world tasks reveal the task-dependent necessity of precise temporal coding in hearing",
+      "grade": "Important",
+      "reason": "任务优化模型对时间精度的条件预测，不能直接替代人类机制测量",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W4403446551",
+      "doi": "https://doi.org/10.1146/annurev-linguistics-031120-111245",
+      "title": "Computational Architecture of Speech Comprehension in the Human Brain",
+      "grade": "Exclude",
+      "reason": "语言理解的广泛架构偏离本稿具体调制测量",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W3160266281",
+      "doi": "https://doi.org/10.1177/23312165211041422",
+      "title": "Harmonic Cancellation—A Fundamental of Auditory Scene Analysis",
+      "grade": "Background",
+      "reason": "谐波抵消及场景分析为相邻问题，未当成直接 FM 证据",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W4388620505",
+      "doi": "https://doi.org/10.1177/23312165231213191",
+      "title": "The Relative Contribution of Cochlear Synaptopathy and Reduced Inhibition to Age-Related Hearing Impairment for People With Normal Audiograms",
+      "grade": "Background",
+      "reason": "衰老与抑制/突触假说属于扩展，未推断 AM/FM 诊断用途",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W3211818625",
+      "doi": "https://doi.org/10.1097/aud.0000000000001161",
+      "title": "Understanding Self-reported Hearing Disability in Adults With Normal Hearing",
+      "grade": "Background",
+      "reason": "主观听觉困难的相关问题，不作为调制机制结论",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W3190827438",
+      "doi": "https://doi.org/10.1016/j.heares.2021.108333",
+      "title": "The search for correlates of age-related cochlear synaptopathy: Measures of temporal envelope processing and spatial release from speech-on-speech masking",
+      "grade": "Background",
+      "reason": "标题级暂定关联；包络/空间任务不自动是突触损伤指标",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W3111065375",
+      "doi": "https://doi.org/10.1177/2331216520978029",
+      "title": "Mechanisms of Spectrotemporal Modulation Detection for Normal- and Hearing-Impaired Listeners",
+      "grade": "Important",
+      "reason": "谱时调制是双轴变化，不能等同于单载波 FM",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    },
+    {
+      "id": "https://openalex.org/W4315480704",
+      "doi": "https://doi.org/10.3389/fnins.2022.1074752",
+      "title": "Questions and controversies surrounding the perception and neural coding of pitch",
+      "grade": "Background",
+      "reason": "音高编码争论为背景综述，主结论选用原始研究",
+      "screening_scope": "retrieved title and available reconstructed abstract; title-only uncertainty explicitly stated where applicable"
+    }
+  ]
+}

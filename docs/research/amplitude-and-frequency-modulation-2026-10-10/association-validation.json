@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-10",
+  "changes": "Added explanatory two-way links across AM/FM, ENV and TFS; updated old AM label and existing graph note. No new literature or reference IDs.",
+  "directed_links": [
+    {
+      "source": "amplitude-modulation",
+      "target": "temporal-envelope",
+      "source_and_built_link": true
+    },
+    {
+      "source": "amplitude-modulation",
+      "target": "temporal-fine-structure",
+      "source_and_built_link": true
+    },
+    {
+      "source": "temporal-envelope",
+      "target": "amplitude-modulation",
+      "source_and_built_link": true
+    },
+    {
+      "source": "temporal-envelope",
+      "target": "temporal-fine-structure",
+      "source_and_built_link": true
+    },
+    {
+      "source": "temporal-fine-structure",
+      "target": "amplitude-modulation",
+      "source_and_built_link": true
+    },
+    {
+      "source": "temporal-fine-structure",
+      "target": "temporal-envelope",
+      "source_and_built_link": true
+    }
+  ],
+  "build": "passed",
+  "site_verify": {
+    "pages": 240,
+    "checkedInternalLinks": 19686,
+    "equations": 243,
+    "searchableConcepts": 103,
+    "typedRelationships": 651,
+    "wikiCrossLinks": 1121,
+    "chineseCharacters": 689295,
+    "brokenLinks": 0
+  },
+  "status": "local changes; not uploaded"
+}

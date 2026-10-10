@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "status": "local draft; not uploaded",
+  "isolated_base_commit": "9d4337d6173ef6a56ca4dc84d7311833411d0d58",
+  "entry_sha256": "ff608295a393372722876ffc0c4844e9c463bf3bcd9e16144f3d3c8f071ad74e",
+  "commands": {
+    "pnpm check": "passed: 140 files, 0 errors, 0 warnings, 0 hints",
+    "pnpm build": "passed after final three-entry cross-links",
+    "pnpm verify": "passed",
+    "git diff --check": "passed"
+  },
+  "site": {
+    "pages": 240,
+    "checkedInternalLinks": 19686,
+    "equations": 243,
+    "searchableConcepts": 103,
+    "typedRelationships": 651,
+    "wikiCrossLinks": 1121,
+    "chineseCharacters": 689295,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "http://127.0.0.1:4365/docs/drafts/amplitude-and-frequency-modulation-preview.html",
+    "viewports_checked": [
+      390,
+      1200
+    ],
+    "no_page_horizontal_overflow": true,
+    "scrollable_tables_on_mobile": true,
+    "four_figures_loaded": true,
+    "katex_errors": 0,
+    "missing_citation_targets": 0,
+    "four_audio_controls_fit_mobile": true,
+    "audio_autoplay": false,
+    "temporary_viewport_reset": true
+  },
+  "validation_limits": "Original figures and acoustic files checked numerically and visually; source IDs and site integration checked. Not professional scientific review, AMT execution or paper reproduction. Existing unrelated root changes and previous publication record preserved.",
+  "associated_entries": {
+    "amplitude-modulation": "ff608295a393372722876ffc0c4844e9c463bf3bcd9e16144f3d3c8f071ad74e",
+    "temporal-envelope": "e8538d59893ecc77d1bb0282f5228eee24429afb682282e0576b9c4f2ec9414f",
+    "temporal-fine-structure": "af11dcfb228ccb56cb9a356f4086b9a158d9ae61b62853ebbd67905ca91c554f"
+  }
+}

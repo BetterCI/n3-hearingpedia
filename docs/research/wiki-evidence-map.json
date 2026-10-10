@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-10",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 647,
+  "relations": 651,
   "entries": [
     {
       "slug": "cochlea",
@@ -171,10 +171,10 @@
       "slug": "temporal-envelope",
       "knowledge_area": "sound",
       "kind": "representation",
-      "chinese_characters": 6712,
-      "body_characters": 13691,
+      "chinese_characters": 6896,
+      "body_characters": 14015,
       "sections": 9,
-      "subsections": 19,
+      "subsections": 20,
       "reference_ids": [
         "scipy-hilbert",
         "rosen-1992",
@@ -200,13 +200,13 @@
       "wiki_links": [
         "temporal-fine-structure",
         "loudness",
+        "amplitude-modulation",
         "auditory-filter",
         "speech-intelligibility",
         "pitch-perception",
         "cochlear-implant",
         "cochlear-implant-coding-strategies",
-        "dynamic-range",
-        "amplitude-modulation"
+        "dynamic-range"
       ],
       "status": "draft"
     },
@@ -360,10 +360,10 @@
       "slug": "temporal-fine-structure",
       "knowledge_area": "sound",
       "kind": "representation",
-      "chinese_characters": 6387,
-      "body_characters": 16776,
+      "chinese_characters": 6623,
+      "body_characters": 17212,
       "sections": 8,
-      "subsections": 19,
+      "subsections": 20,
       "reference_ids": [
         "smith-2002",
         "scipy-hilbert",
@@ -390,6 +390,7 @@
       "wiki_links": [
         "temporal-envelope",
         "fundamental-frequency",
+        "amplitude-modulation",
         "pitch-perception",
         "cochlear-implant-coding-strategies",
         "temporal-limits-encoder",
@@ -554,23 +555,48 @@
       "slug": "amplitude-modulation",
       "knowledge_area": "sound",
       "kind": "quantity",
-      "chinese_characters": 2829,
-      "body_characters": 4460,
-      "sections": 8,
-      "subsections": 11,
+      "chinese_characters": 6955,
+      "body_characters": 14079,
+      "sections": 11,
+      "subsections": 24,
       "reference_ids": [
+        "amfm-mathworks-analog",
+        "amfm-mathworks-modulate",
+        "amfm-nist-bessel",
+        "scipy-hilbert",
         "viemeister-1979",
+        "dau-1997",
+        "amfm-amt-dau",
+        "amfm-moore-sek-1995",
+        "amfm-moore-sek-1996",
+        "amfm-whiteford-place-2020",
+        "tones-whiteford-2023",
+        "amfm-corbett-2026",
+        "amfm-moore-age-2019",
+        "apoux-2011",
+        "drullman-1994",
         "zhou-tle-2022",
-        "li-covarying-2025",
-        "dau-1997"
+        "li-covarying-2025"
       ],
       "wiki_links": [
         "temporal-envelope",
-        "masking",
-        "temporal-resolution"
+        "temporal-fine-structure",
+        "pure-and-complex-tones",
+        "spectrum-and-power-spectral-density",
+        "auditory-filter",
+        "cochlea",
+        "phase-locking",
+        "frequency-resolution",
+        "temporal-resolution",
+        "pitch-perception",
+        "fundamental-frequency",
+        "cochlear-implant",
+        "cochlear-implant-coding-strategies",
+        "f0-in-tfs",
+        "masking"
       ],
       "status": "draft",
-      "depth": "standard"
+      "depth": "in-depth"
     },
     {
       "slug": "channel-interaction",
