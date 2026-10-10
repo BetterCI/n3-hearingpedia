@@ -10,6 +10,7 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import { resolve, relative, join, sep } from 'node:path';
 import assert from 'node:assert/strict';
+import { parseFrontmatter } from '@astrojs/markdown-remark';
 import { knowledgeRelations, relationTypes, relationshipsFor } from '../src/data/relations.ts';
 import { knowledgeAreas, kindLabels } from '../src/data/knowledge.ts';
 import { learningPaths } from '../src/data/paths.ts';
@@ -33,10 +34,10 @@ for(const file of conceptFiles)assert(cache.has(join(root,'concepts',file.slice(
 const personEntries = [];
 for (const file of conceptFiles) {
   const source = await readFile(join('src/content/concepts', file), 'utf8');
-  if (!/^kind: "person"$/m.test(source)) continue;
-  const core = source.match(/^core_work: (.*)$/m);
-  const coreWork = core ? JSON.parse(core[1]) : undefined;
-  const ids = JSON.parse(source.match(/^references: (.*)$/m)[1]);
+  const { frontmatter } = parseFrontmatter(source);
+  if (frontmatter.kind !== 'person') continue;
+  const coreWork = frontmatter.core_work;
+  const ids = frontmatter.references;
   if (coreWork) assert(ids.includes(coreWork.reference) && references[coreWork.reference], 'Missing core-work source: ' + file);
   personEntries.push({ data: { slug: file.slice(0, -3), core_work: coreWork } });
 }
@@ -93,7 +94,7 @@ assert(wiki.entries.length===expectedConcepts,'Wiki evidence record must cover e
 assert(new Set(wiki.entries.map(e=>e.slug)).size===expectedConcepts,'Duplicate concept evidence record');
 for(const e of wiki.entries){
   const source=(await readFile('src/content/concepts/'+e.slug+'.md','utf8')).replaceAll('\r\n','\n');
-  const body=source.split(/\n---\n/).slice(1).join('\n---\n');
+  const { frontmatter, content: body } = parseFrontmatter(source);
   const chineseCharacters=(body.match(/[\u3400-\u9fff]/g)||[]).length;
   assert(chineseCharacters===e.chinese_characters,'Evidence record out of date: '+e.slug);
   assert(chineseCharacters>=1000,'Expected substantive mechanism, method, and example coverage: '+e.slug);
@@ -101,7 +102,7 @@ for(const e of wiki.entries){
   assert((body.match(/^## /gm)||[]).length===e.sections&&e.sections>=4,'Expected encyclopedia sections: '+e.slug);
   assert((body.match(/^### /gm)||[]).length===e.subsections&&e.subsections>=3,'Expected explanatory subsections: '+e.slug);
   assert(knowledgeAreas.some(a=>a.id===e.knowledge_area)&&e.kind in kindLabels,'Invalid knowledge classification: '+e.slug);
-  assert(source.includes('knowledge_area: "'+e.knowledge_area+'"')&&source.includes('kind: "'+e.kind+'"'),'Classification manifest out of date: '+e.slug);
+  assert(frontmatter.knowledge_area===e.knowledge_area&&frontmatter.kind===e.kind,'Classification manifest out of date: '+e.slug);
   assert(!/课题组|组内|成员/.test(source),'Public concept should use general professional wording: '+e.slug);
   assert(!/\n## [^\n]+\n\s*(?=## |$)/.test(body),'Empty article section: '+e.slug);
   const html=cache.get(join(root,'concepts',e.slug,'index.html'));
