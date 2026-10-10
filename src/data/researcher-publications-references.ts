@@ -41,7 +41,7 @@ export const researcherPublicationReferences: Record<string, Reference> = {
   'chao-tone-letters-1930': {
     title: 'A system of tone-letters', authors: 'Yuen Ren Chao', year: '1930',
     publication: 'Le Maître Phonétique, troisième série, no. 30: 24–27', url: 'https://www.wiedenhof.nl/ul/cnow21ss.htm', access: 'metadata',
-    supports: '作者学术课程页面列出的原始文献与扫描入口核对题名、1930年及24–27页；五度相对轮廓的介绍另与已核验1933年论文第126页及脚注互证。未声称通读1930年原文。',
+    supports: '学者课程页面书目核对题名、1930年及24–27页；空锚点下载实际为无关文件，未用作证据。五度相对轮廓另与1933年原刊第126–127页及脚注互证，未声称取得1930年全文。',
   },
   'wu-spectrographic-atlas-1986': {
     title: '汉语普通话单音节语图册', authors: '吴宗济（主编）', year: '1986',

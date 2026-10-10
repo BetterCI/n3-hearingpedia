@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: 赵元任的声调标记、字调语调、实验方法与听觉感知关联
+
+Title: Tone and Intonation in Chinese
+Abstract: 
+Keywords/concepts: 
+Venue: Americanae (AECID Library)
+Year: 1933
+Cited by: 140
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
