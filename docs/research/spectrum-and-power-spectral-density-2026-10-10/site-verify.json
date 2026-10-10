@@ -1,0 +1,14 @@
+$ node scripts/verify.mjs
+{
+  "pages": 240,
+  "legacyRedirects": 9,
+  "checkedInternalLinks": 19597,
+  "equations": 236,
+  "searchableConcepts": 103,
+  "wikiConcepts": 103,
+  "knowledgeAreas": 7,
+  "typedRelationships": 647,
+  "wikiCrossLinks": 1108,
+  "chineseCharacters": 684749,
+  "brokenLinks": 0
+}

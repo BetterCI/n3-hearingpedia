@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-10",
+  "status": "ready_to_push",
+  "checkout": "C:\\Users\\mengq\\.codex\\worktrees\\sound-waves-release\\n³ Hearingpedia",
+  "base_commit": "8e9aeccfcbb157f4809ed4a5e4736d4b52e4eb5d",
+  "scope": "Fresh published site plus only this draft; unrelated root-workspace drafts excluded",
+  "pnpm_check": {
+    "result": "passed",
+    "files": 138,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "pnpm_build": {
+    "result": "passed",
+    "pages": 240,
+    "nonblocking_notes": [
+      "Existing large bundle warning; 9 legacy redirect pages deliberately not indexed"
+    ]
+  },
+  "pnpm_verify": {
+    "pages": 240,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 19597,
+    "equations": 236,
+    "searchableConcepts": 103,
+    "wikiConcepts": 103,
+    "knowledgeAreas": 7,
+    "typedRelationships": 647,
+    "wikiCrossLinks": 1108,
+    "chineseCharacters": 684749,
+    "brokenLinks": 0
+  },
+  "numerical_checks": {
+    "odd_even_and_zero_padding_parseval": "passed",
+    "scipy_periodogram_agreement": "passed",
+    "spectrum_density_enbw": "passed",
+    "tone_amplitude_and_area": "passed",
+    "octave_band_integrals": "passed"
+  },
+  "preview": {
+    "viewport_widths": [
+      1200,
+      390
+    ],
+    "page_horizontal_overflow": false,
+    "mobile_table": "600px table inside 339px horizontally scrollable container",
+    "images_loaded": 4,
+    "math_errors": 0,
+    "display_equations": 6,
+    "references": 18,
+    "figures_visually_checked": 4
+  },
+  "research": {
+    "candidate_records_raw": 36,
+    "candidate_records_unique": 35,
+    "references": 18,
+    "fulltext_relevant_sections": 5,
+    "official_documentation": 10,
+    "original_abstract": 3
+  },
+  "git_diff_check": "passed",
+  "professional_review": "not completed; Draft / reviewer null",
+  "tests": {
+    "result": "passed",
+    "tests": 6,
+    "failures": 0
+  },
+  "checked_against": "8e9aeccfcbb157f4809ed4a5e4736d4b52e4eb5d",
+  "validation_note": "After synchronizing Mandarin metadata changes from 8e9aecc, build and link verification rerun and passed. Type checking and 6 workflow tests passed on 87a4348 with the same article and code; deployment CI validates final exact commit."
+}

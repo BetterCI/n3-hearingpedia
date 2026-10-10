@@ -1,0 +1,48 @@
+[
+  {
+    "query": "topic",
+    "parameters": {
+      "search": "spectral density estimation bias variance normalization",
+      "sort": "relevance_score:desc"
+    },
+    "limit": 10,
+    "returned": 10,
+    "status": "ok"
+  },
+  {
+    "query": "welch-backward",
+    "parameters": {
+      "filter": "cited_by:W2106822551"
+    },
+    "limit": 10,
+    "returned": 4,
+    "status": "ok"
+  },
+  {
+    "query": "welch-recent-forward",
+    "parameters": {
+      "filter": "cites:W2106822551,from_publication_date:2021-01-01,to_publication_date:2026-10-10"
+    },
+    "limit": 5,
+    "returned": 5,
+    "status": "ok"
+  },
+  {
+    "query": "debiased-welch-backward",
+    "parameters": {
+      "filter": "cited_by:W4400308774"
+    },
+    "limit": 10,
+    "returned": 10,
+    "status": "ok"
+  },
+  {
+    "query": "debiased-welch-recent-forward",
+    "parameters": {
+      "filter": "cites:W4400308774,from_publication_date:2021-01-01,to_publication_date:2026-10-10"
+    },
+    "limit": 5,
+    "returned": 5,
+    "status": "ok"
+  }
+]

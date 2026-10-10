@@ -1,0 +1,90 @@
+{
+  "nature": "original analytic and seeded synthetic teaching calculations, not measured data",
+  "numpy_version": "1.26.4",
+  "scipy_version": "1.17.1",
+  "fs_hz": 8000,
+  "seed": 20261010,
+  "tone": [
+    {
+      "N": 2000,
+      "duration_seconds": 0.25,
+      "df_hz": 4.0,
+      "psd_peak": 0.004999999999999998,
+      "psd_integral": 0.019999999999999993,
+      "amplitude_peak": 0.19999999999999996
+    },
+    {
+      "N": 8000,
+      "duration_seconds": 1.0,
+      "df_hz": 1.0,
+      "psd_peak": 0.01999999999999999,
+      "psd_integral": 0.01999999999999999,
+      "amplitude_peak": 0.19999999999999996
+    }
+  ],
+  "noise": [
+    {
+      "segment_length": 1000,
+      "df_hz": 8.0,
+      "enbw_hz": 12.0,
+      "segments": 255,
+      "mean_psd_100_3900": 9.937405754921327e-07,
+      "expected_spectrum_noise_interior": 1.2e-05
+    },
+    {
+      "segment_length": 4000,
+      "df_hz": 2.0,
+      "enbw_hz": 3.0,
+      "segments": 63,
+      "mean_psd_100_3900": 9.92752141153248e-07,
+      "expected_spectrum_noise_interior": 3e-06
+    }
+  ],
+  "variance": {
+    "rho": 0.8,
+    "innovation_sd_pa": 0.04,
+    "samples": 16000,
+    "segment_length": 2000,
+    "segments": 15,
+    "trials": 160,
+    "point_hz": 800,
+    "theoretical_psd": 1.1574984766810826e-06,
+    "periodogram_mean_ratio": 1.0000374091359086,
+    "welch_mean_ratio": 0.9548036506201409,
+    "periodogram_cv": 1.0247939748410455,
+    "welch_cv": 0.24516970889688514
+  },
+  "bands": {
+    "edges_hz": [
+      100,
+      200,
+      400,
+      800,
+      1600,
+      3200
+    ],
+    "white_pa2": [
+      9.999999999999999e-05,
+      0.00019999999999999998,
+      0.00039999999999999996,
+      0.0007999999999999999,
+      0.0015999999999999999
+    ],
+    "pink_pa2": [
+      0.0006931471805599453,
+      0.0006931471805599453,
+      0.0006931471805599453,
+      0.0006931471805599453,
+      0.0006931471805599453
+    ],
+    "white_100_200_spl_db": 53.979400086720375,
+    "white_100_300_spl_db": 56.98970004336019
+  },
+  "checks": {
+    "odd_even_and_zero_padding_parseval": "passed",
+    "scipy_periodogram_agreement": "passed",
+    "spectrum_density_enbw": "passed",
+    "tone_amplitude_and_area": "passed",
+    "octave_band_integrals": "passed"
+  }
+}

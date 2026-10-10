@@ -1,0 +1,31 @@
+{
+  "entry": "spectrum-and-power-spectral-density",
+  "date": "2026-10-10",
+  "status": "ready_to_push",
+  "depth": "in-depth",
+  "checked_against": "8e9aeccfcbb157f4809ed4a5e4736d4b52e4eb5d",
+  "reviewer": null,
+  "preview": "docs/drafts/spectrum-and-power-spectral-density-preview.html",
+  "checks": "site-checks.json",
+  "authorization": "User requested upload on 2026-10-10",
+  "target": "origin/main",
+  "professional_review": "Draft / reviewer null retained",
+  "url": "https://betterci.github.io/n3-hearingpedia/concepts/spectrum-and-power-spectral-density/",
+  "pnpm_check": "passed (138 files, 0 errors / warnings / hints)",
+  "tests": "passed (6 tests)",
+  "pnpm_build": "passed",
+  "pnpm_verify": {
+    "pages": 240,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 19597,
+    "equations": 236,
+    "searchableConcepts": 103,
+    "wikiConcepts": 103,
+    "knowledgeAreas": 7,
+    "typedRelationships": 647,
+    "wikiCrossLinks": 1108,
+    "chineseCharacters": 684749,
+    "brokenLinks": 0
+  },
+  "validation_note": "After synchronizing Mandarin metadata changes from 8e9aecc, build and link verification rerun and passed. Type checking and 6 workflow tests passed on 87a4348 with the same article and code; deployment CI validates final exact commit."
+}

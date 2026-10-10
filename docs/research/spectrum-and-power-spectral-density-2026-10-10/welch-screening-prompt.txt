@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Spectrum and power spectral density: definitions, units, normalization, finite-data estimation, window bandwidth and statistical bias/variance; hearing applications are secondary
+
+Title: The use of fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms
+Abstract: The use of the fast Fourier transform in power spectrum analysis is described. Principal advantages of this method are a reduction in the number of computations and in required core storage, and convenient application in nonstationarity tests. The method involves sectioning the record and averaging modified periodograms of the sections.
+Keywords/concepts:
+Venue: IEEE Transactions on Audio and Electroacoustics
+Year: 1967
+Cited by: 12325
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

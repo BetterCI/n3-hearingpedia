@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-10",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 641,
+  "relations": 647,
   "entries": [
     {
       "slug": "cochlea",
@@ -4414,6 +4414,49 @@
         "room-acoustics",
         "auditory-scene-analysis",
         "hearing-loss"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "spectrum-and-power-spectral-density",
+      "knowledge_area": "sound",
+      "kind": "representation",
+      "chinese_characters": 7359,
+      "body_characters": 15217,
+      "sections": 9,
+      "subsections": 22,
+      "reference_ids": [
+        "spectrum-mit-psd",
+        "spectrum-numpy-fft",
+        "tones-numpy-rfft",
+        "tones-scipy-spectral",
+        "tones-scipy-periodogram",
+        "spectrum-scipy-welch",
+        "spectrum-harris-1978",
+        "spectrum-heinzel-2002",
+        "spectrum-welch-1967",
+        "spectrum-pwelch",
+        "spectrum-dpss",
+        "spectrum-pmtm",
+        "spectrum-debias-2024",
+        "spectrum-bias-2025",
+        "irino-filter-estimation-2023",
+        "spectrum-ni-output",
+        "waves-openstax-intensity",
+        "spectrum-nist-levels"
+      ],
+      "wiki_links": [
+        "pure-and-complex-tones",
+        "spectrogram",
+        "auditory-filter",
+        "sound-waves-and-propagation",
+        "audiometric-calibration",
+        "frequency-resolution",
+        "masking",
+        "electroencephalography",
+        "loudness",
+        "dynamic-range"
       ],
       "status": "draft",
       "depth": "in-depth"

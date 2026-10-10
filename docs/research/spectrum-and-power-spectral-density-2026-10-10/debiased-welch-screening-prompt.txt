@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Spectrum and power spectral density: definitions, units, normalization, finite-data estimation, window bandwidth and statistical bias/variance; hearing applications are secondary
+
+Title: Debiasing Welch’s method for spectral density estimation
+Abstract: Abstract Welch’s method provides an estimator of the power spectral density that is statistically consistent. This is achieved by averaging over periodograms calculated from overlapping segments of a time series. For a finite-length time series, while the variance of the estimator decreases as the number of segments increases, the magnitude of the estimator’s bias increases: a bias-variance trade-off ensues when setting the segment number. We address this issue by providing a novel method for debiasing Welch’s method that maintains the computational complexity and asymptotic consistency, and leads to improved finite-sample performance. Theoretical results are given for fourth-order stationary processes with finite fourth-order moments and an absolutely convergent fourth-order cumulant function. The significant bias reduction is demonstrated with numerical simulation and an application to real-world data. Our estimator also permits irregular spacing over frequency and we demonstrate how this may be employed for signal compression and further variance reduction. The code accompanying this work is available in R and python.
+Keywords/concepts:
+Venue: Biometrika
+Year: 2024
+Cited by: 31
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

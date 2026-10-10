@@ -1,0 +1,21 @@
+[
+  {
+    "name": "heinzel-2002",
+    "url": "https://pure.mpg.de/pubman/item/item_152164_1/component/file_152163/395068.pdf",
+    "status": "failed",
+    "reason": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "harris-1978",
+    "url": "https://www.fceia.unr.edu.ar/prodivoz/Harris_1978.pdf",
+    "status": "failed",
+    "reason": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  },
+  {
+    "name": "debiased-2024",
+    "url": "https://spiral.imperial.ac.uk/server/api/core/bitstreams/d63ed9c7-28c7-47ab-9924-89f15d7523d6/content",
+    "status": "downloaded_and_extracted",
+    "pages": 18,
+    "reading_status": "not yet read; separate notes record ranges"
+  }
+]

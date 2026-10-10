@@ -1,4 +1,5 @@
 import { comparativeHearingReferences } from './comparative-hearing-references.ts';
+import { spectrumPsdReferences } from './spectrum-psd-references.ts';
 import { speechPerceptionReferences } from './speech-perception-references.ts';
 import { musicPerceptionReferences } from './music-perception-references.ts';
 import { auditoryAgingReferences } from './auditory-aging-references.ts';
@@ -74,6 +75,7 @@ export interface Reference { title: string; authors: string; year: string; publi
 
 export const references: Record<string, Reference> = {
   ...comparativeHearingReferences,
+  ...spectrumPsdReferences,
   ...speechPerceptionReferences,
   ...musicPerceptionReferences,
   ...auditoryAgingReferences,

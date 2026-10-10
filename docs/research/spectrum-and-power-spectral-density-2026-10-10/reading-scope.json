@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "debiased-2024": {
+    "access": "published PDF",
+    "downloaded_pages": 18,
+    "read_ranges": "PDF pages 1–4 and relevant method definitions; not entire 18-page paper",
+    "local": "debiased-2024-reading.txt"
+  },
+  "harris-1978": {
+    "access": "MIT-hosted primary paper through web PDF extraction",
+    "read_ranges": "PDF pages 1–4, 6–7",
+    "url": "https://web.mit.edu/xiphmont/Public/windows.pdf",
+    "other_mirror_failed": true
+  },
+  "heinzel-2002": {
+    "access": "indexed original first-page abstract and institutional metadata",
+    "full_pdf_access": "403; not fully read"
+  },
+  "irino-2023": {
+    "access": "Europe PMC fullTextXML",
+    "local": "irino-2023.xml",
+    "read_ranges": "abstract, model-related paragraphs, internal-noise interpretation and conclusion; related earlier entry reading reused",
+    "no_new_experiment": true
+  },
+  "nist": {
+    "access": "official web guide",
+    "read_ranges": "Chapter 8 section 8.7, logarithmic quantities and reference-value examples",
+    "updated": "2025-08-18"
+  }
+}
