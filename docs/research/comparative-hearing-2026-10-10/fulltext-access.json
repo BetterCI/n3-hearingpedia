@@ -1,0 +1,75 @@
+[
+  {
+    "pmc": "PMC8171922",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8171922/fullTextXML",
+    "title": "Human click-based echolocation: Effects of blindness and age, and real-life implications in a 10-week training program",
+    "doi": "10.1371/journal.pone.0252330",
+    "abstract": [
+      "Understanding the factors that determine if a person can successfully learn a novel sensory skill is essential for understanding how the brain adapts to change, and for providing rehabilitative support for people with sensory loss. We report a training study investigating the effects of blindness and age on the learning of a complex auditory skill: click-based echolocation. Blind and sighted participants of various ages (21–79 yrs; median blind: 45 yrs; median sighted: 26 yrs) trained in 20 sessions over the course of 10 weeks in various practical and virtual navigation tasks. Blind participants also took part in a 3-month follow up survey assessing the effects of the training on their daily life. We found that both sighted and blind people improved considerably on all measures, and in some cases performed comparatively to expert echolocators at the end of training. Somewhat surprisingly, sighted people performed better than those who were blind in some cases, although our analyses suggest that this might be better explained by the younger age (or superior binaural hearing) of the sighted group. Importantly, however, neither age nor blindness was a limiting factor in participants’ rate of learning (i.e. their difference in performance from the first to the final session) or in their ability to apply their echolocation skills to novel, untrained tasks. Furthermore, in the follow up survey, all participants who were blind reported improved mobility, and 83% reported better independence and wellbeing. Overall, our results suggest that the ability to learn click-based echolocation is not strongly limited by age or level of vision. This has positive implications for the rehabilitation of people with vision loss or in the early stages of progressive vision loss."
+    ],
+    "access": "fulltext"
+  },
+  {
+    "pmc": "PMC12029790",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12029790/fullTextXML",
+    "title": "A Low-Frequency Multi-Band Piezoelectric MEMS Acoustic Sensor Inspired by Ormia ochracea",
+    "doi": "10.3390/mi16040451",
+    "abstract": [
+      "Since the discovery of the unique auditory system of the Ormia ochracea fly, researchers have designed various directional acoustic sensors inspired by its principles. However, most of these sensors operate only within a single- or dual-frequency band and typically exhibit high eigenfrequencies, making them unsuitable for low-frequency applications. This paper proposes a low-frequency, multi-band piezoelectric MEMS acoustic sensor that incorporates an improved coupling structure within the inner diaphragm to enable low-frequency signal detection in a compact design. Additionally, an asymmetric wing and coupled structure are introduced in both the inner and outer diaphragms to achieve multi-band frequency response. Aluminum nitride (AlN), a material with low dielectric and acoustic losses, is selected as the piezoelectric material. The sensor operates in the d₃₃ mode and employs a branched comb-like interdigitated electrode design to enhance the signal-to-noise ratio (SNR). Simulation results demonstrate that the four eigenfrequencies of the sensor are evenly distributed below 2000 Hz, and at all eigenfrequencies, the sensor exhibits a consistent cosine response to variations in the incident elevation angle of the sound source.",
+      "Keywords: Ormia ochracea, multi-band, low frequency, acoustic sensor, piezoelectric"
+    ],
+    "access": "fulltext"
+  },
+  {
+    "pmc": "PMC10238092",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10238092/fullTextXML",
+    "title": "Development of frequency tuning shaped by spatial cue reliability in the barn owl’s auditory midbrain",
+    "doi": "10.7554/eLife.84760",
+    "abstract": [
+      "Sensory systems preferentially strengthen responses to stimuli based on their reliability at conveying accurate information. While previous reports demonstrate that the brain reweighs cues based on dynamic changes in reliability, how the brain may learn and maintain neural responses to sensory statistics expected to be stable over time is unknown. The barn owl’s midbrain features a map of auditory space where neurons compute horizontal sound location from the interaural time difference (ITD). Frequency tuning of midbrain map neurons correlates with the most reliable frequencies for the neurons’ preferred ITD (Cazettes et al., 2014). Removal of the facial ruff led to a specific decrease in the reliability of high frequencies from frontal space. To directly test whether permanent changes in ITD reliability drive frequency tuning, midbrain map neurons were recorded from adult owls, with the facial ruff removed during development, and juvenile owls, before facial ruff development. In both groups, frontally tuned neurons were tuned to frequencies lower than in normal adult owls, consistent with the change in ITD reliability. In addition, juvenile owls exhibited more heterogeneous frequency tuning, suggesting normal developmental processes refine tuning to match ITD reliability. These results indicate causality of long-term statistics of spatial cues in the development of midbrain frequency tuning properties, implementing probabilistic coding for sound localization."
+    ],
+    "access": "fulltext"
+  },
+  {
+    "pmc": "PMC6936466",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6936466/fullTextXML",
+    "error": "<urlopen error [Errno 2] No such file or directory>"
+  },
+  {
+    "pmc": "PMC3593961",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3593961/fullTextXML",
+    "error": "<urlopen error [Errno 2] No such file or directory>"
+  },
+  {
+    "pmc": "PMC34340",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC34340/fullTextXML",
+    "error": "<urlopen error [Errno 2] No such file or directory>"
+  },
+  {
+    "pmc": "PMC7382275",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7382275/fullTextXML",
+    "error": "<urlopen error [Errno 2] No such file or directory>"
+  },
+  {
+    "pmc": "PMC4954978",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4954978/fullTextXML",
+    "title": "Bio-Inspired Miniature Direction Finding Acoustic Sensor",
+    "doi": "10.1038/srep29957",
+    "abstract": [
+      "A narrowband MEMS direction finding sensor has been developed based on the mechanically coupled ears of the Ormia Ochracea fly. The sensor consists of two wings coupled at the middle and attached to a substrate using two legs. The sensor operates at its bending resonance frequency and has cosine directional characteristics similar to that of a pressure gradient microphone. Thus, the directional response of the sensor is symmetric about the normal axis making the determination of the direction ambiguous. To overcome this shortcoming two sensors were assembled with a canted angle similar to that employed in radar bearing locators. The outputs of two sensors were processed together allowing direction finding with no requirement of knowing the incident sound pressure level. At the bending resonant frequency of the sensors (1.69 kHz) an output voltage of about 25 V/Pa was measured. The angle uncertainty of the bearing of sound ranged from less than 0.3° close to the normal axis (0°) to 3.4° at the limits of coverage (±60°) based on the 30° canted angle used. These findings indicate the great potential to use dual MEMS direction finding sensor assemblies to locate sound sources with high accuracy."
+    ],
+    "access": "fulltext"
+  },
+  {
+    "pmc": "PMC9587988",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9587988/fullTextXML",
+    "title": "A hemispheric two-channel code accounts for binaural unmasking in humans",
+    "doi": "10.1038/s42003-022-04098-x",
+    "abstract": [
+      "Sound in noise is better detected or understood if target and masking sources originate from different locations. Mammalian physiology suggests that the neurocomputational process that underlies this binaural unmasking is based on two hemispheric channels that encode interaural differences in their relative neuronal activity. Here, we introduce a mathematical formulation of the two-channel model – the complex-valued correlation coefficient. We show that this formulation quantifies the amount of temporal fluctuations in interaural differences, which we suggest underlie binaural unmasking. We applied this model to an extensive library of psychoacoustic experiments, accounting for 98% of the variance across eight studies. Combining physiological plausibility with its success in explaining behavioral data, the proposed mechanism is a significant step towards a unified understanding of binaural unmasking and the encoding of interaural differences in general.",
+      "Subject terms: Neural encoding, Auditory system, Perception",
+      "A new model for sound localization based on encoding temporal fluctuations within two hemispheric channels is capable of accounting for an extensive set of psychoacoustic experiments."
+    ],
+    "access": "fulltext"
+  }
+]

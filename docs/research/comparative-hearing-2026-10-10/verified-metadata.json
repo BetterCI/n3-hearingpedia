@@ -1,0 +1,4032 @@
+[
+  {
+    "requested_doi": "10.1016/S1095-6433(00)00232-4",
+    "error": "list index out of range"
+  },
+  {
+    "id": "2213141",
+    "source": "MED",
+    "pmid": "2213141",
+    "pmcid": "PMC6570189",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC6570189"
+      ]
+    },
+    "doi": "10.1523/jneurosci.10-10-03227.1990",
+    "title": "A circuit for detection of interaural time differences in the brain stem of the barn owl.",
+    "authorString": "Carr CE, Konishi M.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Carr CE",
+          "lastName": "Carr",
+          "firstName": "C E",
+          "initials": "CE",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Biology, California Institute of Technology, Pasadena 91125."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Konishi M",
+          "lastName": "Konishi",
+          "firstName": "M",
+          "initials": "M"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "10",
+      "volume": "10",
+      "journalIssueId": 779338,
+      "dateOfPublication": "1990 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 1990,
+      "journal": {
+        "medlineAbbreviation": "J Neurosci",
+        "title": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+        "essn": "1529-2401",
+        "issn": "0270-6474",
+        "isoabbreviation": "J Neurosci",
+        "nlmid": "8102140"
+      },
+      "printPublicationDate": "1990-10-01"
+    },
+    "pubYear": "1990",
+    "pageInfo": "3227-3246",
+    "abstractText": "Detection of interaural time differences underlies azimuthal sound localization in the barn owl Tyto alba. Axons of the cochlear nucleus magnocellularis, and their targets in the binaural nucleus laminaris, form the circuit responsible for encoding these interaural time differences. The nucleus laminaris receives bilateral inputs from the cochlear nucleus magnocellularis such that axons from the ipsilateral cochlear nucleus enter the nucleus laminaris dorsally, while contralateral axons enter from the ventral side. This interdigitating projection to the nucleus laminaris is tonotopic, and the afferents are both sharply tuned and matched in frequency to the neighboring afferents. Recordings of phase-locked spikes in the afferents show an orderly change in the arrival time of the spikes as a function of distance from the point of their entry into the nucleus laminaris. The same range of conduction time (160 mu sec) was found over the 700-mu m depth of the nucleus laminaris for all frequencies examined (4-7.5 kHz) and corresponds to the range of interaural time differences available to the barn owl. The estimated conduction velocity in the axons is low (3-5 m/sec) and may be regulated by short internodal distances (60 mu m) within the nucleus laminaris. Neurons of the nucleus laminaris have large somata and very short dendrites. These cells are frequency selective and phase-lock to both monaural and binaural stimuli. The arrival time of phase-locked spikes in many of these neurons differs between the ipsilateral and contralateral inputs. When this disparity is nullified by imposition of an appropriate interaural time difference, the neurons respond maximally. The number of spikes elicited in response to a favorable interaural time difference is roughly double that elicited by a monaural stimulus. Spike counts for unfavorable interaural time differences fall well below monaural response levels. These findings indicate that the magnocellular afferents work as delay lines, and the laminaris neurons work as co-incidence detectors. The orderly distribution of conduction times, the predictability of favorable interaural time differences from monaural phase responses, and the pattern of the anatomical projection from the nucleus laminaris to the central nucleus of the inferior colliculus suggest that interaural time differences and their phase equivalents are mapped in each frequency band along the dorsoventral axis of the nucleus laminaris.",
+    "affiliation": "Division of Biology, California Institute of Technology, Pasadena 91125.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "other",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NINDS NIH HHS",
+          "acronym": "NS",
+          "grantId": "NS 14617",
+          "orderIn": 0
+        },
+        {
+          "agency": "PHS HHS",
+          "grantId": "07475",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Brain Stem",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AH",
+                "qualifierName": "anatomy & histology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Afferent Pathways",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AH",
+                "qualifierName": "anatomy & histology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Neurons",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "UL",
+                "qualifierName": "ultrastructure"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Axons",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Birds",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Acoustic Stimulation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Auditory Perception",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sound Localization",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Electric Conductivity"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Action Potentials"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://www.jneurosci.org/content/jneuro/10/10/3227.full.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1523/JNEUROSCI.10-10-03227.1990"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "abs",
+          "site": "www.jneurosci.org",
+          "url": "http://www.jneurosci.org/cgi/content/abstract/10/10/3227"
+        },
+        {
+          "availability": "Free after 6 months",
+          "availabilityCode": "F6",
+          "documentStyle": "pdf",
+          "site": "www.jneurosci.org",
+          "url": "http://www.jneurosci.org/cgi/reprint/10/10/3227.pdf"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6570189"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6570189?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1523/jneurosci.10-10-03227.1990"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 514,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by-nc-sa",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "1990-11-02",
+    "dateOfCreation": "1990-10-01",
+    "dateOfRevision": "2022-03-09",
+    "firstPublicationDate": "1990-10-01",
+    "firstIndexDate": "2008-01-29",
+    "fullTextReceivedDate": "2020-07-09",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1523/JNEUROSCI.10-10-03227.1990"
+  },
+  {
+    "id": "11276230",
+    "source": "MED",
+    "pmid": "11276230",
+    "doi": "10.1038/86049",
+    "title": "A neural code for low-frequency sound localization in mammals.",
+    "authorString": "McAlpine D, Jiang D, Palmer AR.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "McAlpine D",
+          "lastName": "McAlpine",
+          "firstName": "D",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5467-6725"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "MRC Institute of Hearing Research, Science Road, University of Nottingham, Nottingham NG7 2RD, UK. d.mcalpine@ucl.ac.uk"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jiang D",
+          "lastName": "Jiang",
+          "firstName": "D",
+          "initials": "D"
+        },
+        {
+          "fullName": "Palmer AR",
+          "lastName": "Palmer",
+          "firstName": "A R",
+          "initials": "AR",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5893-4525"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5467-6725"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5893-4525"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "4",
+      "volume": "4",
+      "journalIssueId": 959902,
+      "dateOfPublication": "2001 Apr",
+      "monthOfPublication": 4,
+      "yearOfPublication": 2001,
+      "journal": {
+        "medlineAbbreviation": "Nat Neurosci",
+        "title": "Nature neuroscience",
+        "essn": "1546-1726",
+        "issn": "1097-6256",
+        "nlmid": "9809671",
+        "isoabbreviation": "Nat Neurosci"
+      },
+      "printPublicationDate": "2001-04-01"
+    },
+    "pubYear": "2001",
+    "pageInfo": "396-401",
+    "abstractText": "We report a systematic relationship between sound-frequency tuning and sensitivity to interaural time delays for neurons in the midbrain nucleus of the inferior colliculus; neurons with relatively low best frequencies (BFs) showed response peaks at long delays, whereas neurons with relatively high BFs showed response peaks at short delays. The consequence of this relationship is that the steepest region of the function relating discharge rate to interaural time delay (ITD) fell close to midline for all neurons irrespective of BF. These data provide support for a processing of the output of coincidence detectors subserving low-frequency sound localization in which the location of a sound source is determined by the activity in two broad, hemispheric spatial channels, rather than numerous channels tuned to discrete spatial positions.",
+    "affiliation": "MRC Institute of Hearing Research, Science Road, University of Nottingham, Nottingham NG7 2RD, UK. d.mcalpine@ucl.ac.uk",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Neurons",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Guinea Pigs"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sound Localization",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Electrophysiology"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Action Potentials",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Sound"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Inferior Colliculi",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CY",
+                "qualifierName": "cytology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1038/86049"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 315,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2001-05-03",
+    "dateOfCreation": "2001-03-29",
+    "dateOfRevision": "2022-03-09",
+    "firstPublicationDate": "2001-04-01",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1038/86049"
+  },
+  {
+    "id": "2063209",
+    "source": "MED",
+    "pmid": "2063209",
+    "doi": "10.1126/science.2063209",
+    "title": "Visual instruction of the neural map of auditory space in the developing optic tectum.",
+    "authorString": "Knudsen EI, Brainard MS.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Knudsen EI",
+          "lastName": "Knudsen",
+          "firstName": "E I",
+          "initials": "EI",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neurobiology, Stanford University School of Medicine, CA 94305."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Brainard MS",
+          "lastName": "Brainard",
+          "firstName": "M S",
+          "initials": "MS",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9425-9907"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9425-9907"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "5015",
+      "volume": "253",
+      "journalIssueId": 851348,
+      "dateOfPublication": "1991 Jul",
+      "monthOfPublication": 7,
+      "yearOfPublication": 1991,
+      "journal": {
+        "medlineAbbreviation": "Science",
+        "title": "Science (New York, N.Y.)",
+        "essn": "1095-9203",
+        "issn": "0036-8075",
+        "isoabbreviation": "Science",
+        "nlmid": "0404511"
+      },
+      "printPublicationDate": "1991-07-01"
+    },
+    "pubYear": "1991",
+    "pageInfo": "85-87",
+    "abstractText": "Neural maps of visual and auditory space are aligned in the adult optic tectum. In barn owls, this alignment of sensory maps was found to be controlled during ontogeny by visual instruction of the auditory spatial tuning of neurons. Large adaptive changes in auditory spatial tuning were induced by raising owls with displacing prisms mounted in spectacle frames in front of the eyes; neurons became tuned to sound source locations corresponding to their optically displaced, rather than their normal, visual receptive field locations. The results demonstrate that visual experience during development calibrates the tectal auditory space map in a site-specific manner, dictating its topography and alignment with the visual space map.",
+    "affiliation": "Department of Neurobiology, Stanford University School of Medicine, CA 94305.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIDCD NIH HHS",
+          "acronym": "DC",
+          "grantId": "R01 DC00155-12",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Birds"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Brain Mapping"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hearing",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Superior Colliculi",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Vision, Ocular",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1126/science.2063209"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 144,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "1991-08-02",
+    "dateOfCreation": "1991-07-05",
+    "dateOfRevision": "2019-06-18",
+    "firstPublicationDate": "1991-07-01",
+    "firstIndexDate": "2008-12-24",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1126/science.2063209"
+  },
+  {
+    "id": "37166099",
+    "source": "MED",
+    "pmid": "37166099",
+    "pmcid": "PMC10238092",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC10238092"
+      ]
+    },
+    "doi": "10.7554/elife.84760",
+    "title": "Development of frequency tuning shaped by spatial cue reliability in the barn owl's auditory midbrain.",
+    "authorString": "Shadron K, Peña JL.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Shadron K",
+          "lastName": "Shadron",
+          "firstName": "Keanu",
+          "initials": "K",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5217-9282"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Dominick P Purpura Department of Neuroscience, Albert Einstein College of Medicine, Bronx, United States."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Peña JL",
+          "lastName": "Peña",
+          "firstName": "José Luis",
+          "initials": "JL",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Dominick P Purpura Department of Neuroscience, Albert Einstein College of Medicine, Bronx, United States."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5217-9282"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "volume": "12",
+      "journalIssueId": 3555840,
+      "dateOfPublication": "2023 May",
+      "monthOfPublication": 5,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Elife",
+        "title": "eLife",
+        "essn": "2050-084X",
+        "issn": "2050-084X",
+        "isoabbreviation": "Elife",
+        "nlmid": "101579614"
+      },
+      "printPublicationDate": "2023-05-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "e84760",
+    "abstractText": "Sensory systems preferentially strengthen responses to stimuli based on their reliability at conveying accurate information. While previous reports demonstrate that the brain reweighs cues based on dynamic changes in reliability, how the brain may learn and maintain neural responses to sensory statistics expected to be stable over time is unknown. The barn owl's midbrain features a map of auditory space where neurons compute horizontal sound location from the interaural time difference (ITD). Frequency tuning of midbrain map neurons correlates with the most reliable frequencies for the neurons' preferred ITD (Cazettes et al., 2014). Removal of the facial ruff led to a specific decrease in the reliability of high frequencies from frontal space. To directly test whether permanent changes in ITD reliability drive frequency tuning, midbrain map neurons were recorded from adult owls, with the facial ruff removed during development, and juvenile owls, before facial ruff development. In both groups, frontally tuned neurons were tuned to frequencies lower than in normal adult owls, consistent with the change in ITD reliability. In addition, juvenile owls exhibited more heterogeneous frequency tuning, suggesting normal developmental processes refine tuning to match ITD reliability. These results indicate causality of long-term statistics of spatial cues in the development of midbrain frequency tuning properties, implementing probabilistic coding for sound localization.",
+    "affiliation": "Dominick P Purpura Department of Neuroscience, Albert Einstein College of Medicine, Bronx, United States.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIDCD NIH HHS",
+          "acronym": "DC",
+          "grantId": "F31 DC019303",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Institute on Deafness and Other Communication Disorders",
+          "grantId": "R01DC007690",
+          "orderIn": 0
+        },
+        {
+          "agency": "NINDS NIH HHS",
+          "acronym": "NS",
+          "grantId": "R01 NS104911",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDCD NIH HHS",
+          "acronym": "DC",
+          "grantId": "R01 DC007690",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Institute on Deafness and Other Communication Disorders",
+          "grantId": "F31DC019303",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Institute of Neurological Disorders and Stroke",
+          "grantId": "R01NS104911",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mesencephalon",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Auditory Pathways",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Strigiformes",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Acoustic Stimulation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Reproducibility of Results"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cues"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Sound Localization",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Sound localization",
+        "Neuroscience",
+        "Barn owl",
+        "Stimulus Statistics",
+        "Experience-dependent Development"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.7554/eLife.84760"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10238092"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10238092?pdf=render"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "PPR",
+          "id": "PPR552795",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 2,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCompletion": "2023-06-05",
+    "dateOfCreation": "2023-05-11",
+    "dateOfRevision": "2024-08-23",
+    "electronicPublicationDate": "2023-05-11",
+    "firstPublicationDate": "2023-05-11",
+    "firstIndexDate": "2023-05-11",
+    "fullTextReceivedDate": "2025-02-04",
+    "hasEvaluations": "N",
+    "requested_doi": "10.7554/eLife.84760"
+  },
+  {
+    "id": "32632013",
+    "source": "MED",
+    "pmid": "32632013",
+    "pmcid": "PMC7382275",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC7382275"
+      ]
+    },
+    "doi": "10.1073/pnas.2001105117",
+    "title": "How frequency hopping suppresses pulse-echo ambiguity in bat biosonar.",
+    "authorString": "Ming C, Bates ME, Simmons JA.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Ming C",
+          "lastName": "Ming",
+          "firstName": "Chen",
+          "initials": "C",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7912-3614"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neuroscience, Carney Institute, Brown University, Providence, RI 02912."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bates ME",
+          "lastName": "Bates",
+          "firstName": "Mary E",
+          "initials": "ME",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9772-3659"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Private address, Arlington, MA 02474."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Simmons JA",
+          "lastName": "Simmons",
+          "firstName": "James A",
+          "initials": "JA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2052-0217"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Neuroscience, Carney Institute, Brown University, Providence, RI 02912; james_simmons@brown.edu."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9772-3659"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7912-3614"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2052-0217"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "29",
+      "volume": "117",
+      "journalIssueId": 2986259,
+      "dateOfPublication": "2020 Jul",
+      "monthOfPublication": 7,
+      "yearOfPublication": 2020,
+      "journal": {
+        "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+        "title": "Proceedings of the National Academy of Sciences of the United States of America",
+        "essn": "1091-6490",
+        "issn": "0027-8424",
+        "isoabbreviation": "Proc Natl Acad Sci U S A",
+        "nlmid": "7505876"
+      },
+      "printPublicationDate": "2020-07-01"
+    },
+    "pubYear": "2020",
+    "pageInfo": "17288-17295",
+    "abstractText": "Big brown bats transmit wideband FM biosonar sounds that sweep from 55 to 25 kHz (first harmonic, FM1) and from 110 to 50 kHz (second harmonic, FM2). FM1 is required to perceive echo delay for target ranging; FM2 contributes only if corresponding FM1 frequencies are present. We show that echoes need only the lowest FM1 broadcast frequencies of 25 to 30 kHz for delay perception. If these frequencies are removed, no delay is perceived. Bats begin echo processing at the lowest frequencies and accumulate perceptual acuity over successively higher frequencies, but they cannot proceed without the low-frequency starting point in their broadcasts. This reveals a solution to pulse-echo ambiguity, a serious problem for radar or sonar. In dense, extended biosonar scenes, bats have to emit sounds rapidly to avoid collisions with near objects. But if a new broadcast is emitted when echoes of the previous broadcast still are arriving, echoes from both broadcasts intermingle, creating ambiguity about which echo corresponds to which broadcast. Frequency hopping by several kilohertz from one broadcast to the next can segregate overlapping narrowband echo streams, but wideband FM echoes ordinarily do not segregate because their spectra still overlap. By starting echo processing at the lowest frequencies in frequency-hopped broadcasts, echoes of the higher hopped broadcast are prevented from being accepted by lower hopped broadcasts, and ambiguity is avoided. The bat-inspired spectrogram correlation and transformation (SCAT) model also begins at the lowest frequencies; echoes that lack them are eliminated from processing of delay and no longer cause ambiguity.",
+    "affiliation": "Department of Neuroscience, Carney Institute, Brown University, Providence, RI 02912.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "DOD | United States Navy | Office of Naval Research",
+          "grantId": "N00014-14-1-05880",
+          "orderIn": 0
+        },
+        {
+          "agency": "DOD | United States Navy | Office of Naval Research",
+          "grantId": "N00014-17-1-2736",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Chiroptera",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Echolocation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Auditory Perception",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Space Perception",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Sound"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Ultrasonics"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Ultrasonic Waves"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Echolocation",
+        "Clutter Suppression",
+        "Bat Biosonar",
+        "Echo Ambiguity",
+        "Sonar Image"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1073/pnas.2001105117"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC7382275"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC7382275?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 9,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "license": "cc by-nc-nd",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2020-09-14",
+    "dateOfCreation": "2020-07-08",
+    "dateOfRevision": "2020-09-14",
+    "electronicPublicationDate": "2020-07-06",
+    "firstPublicationDate": "2020-07-06",
+    "firstIndexDate": "2020-07-08",
+    "fullTextReceivedDate": "2025-02-03",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1073/pnas.2001105117"
+  },
+  {
+    "id": "31822613",
+    "source": "MED",
+    "pmid": "31822613",
+    "pmcid": "PMC6936466",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC6936466"
+      ]
+    },
+    "doi": "10.1073/pnas.1821722116",
+    "title": "Modeling active sensing reveals echo detection even in large groups of bats.",
+    "authorString": "Beleyur T, Goerlitz HR.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Beleyur T",
+          "lastName": "Beleyur",
+          "firstName": "Thejasvi",
+          "initials": "T",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5360-4383"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Acoustic and Functional Ecology, Max Planck Institute for Ornithology, 82319 Seewiesen, Germany."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Goerlitz HR",
+          "lastName": "Goerlitz",
+          "firstName": "Holger R",
+          "initials": "HR",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9677-8073"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Acoustic and Functional Ecology, Max Planck Institute for Ornithology, 82319 Seewiesen, Germany."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5360-4383"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9677-8073"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "52",
+      "volume": "116",
+      "journalIssueId": 2896471,
+      "dateOfPublication": "2019 Dec",
+      "monthOfPublication": 12,
+      "yearOfPublication": 2019,
+      "journal": {
+        "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+        "title": "Proceedings of the National Academy of Sciences of the United States of America",
+        "essn": "1091-6490",
+        "issn": "0027-8424",
+        "nlmid": "7505876",
+        "isoabbreviation": "Proc Natl Acad Sci U S A"
+      },
+      "printPublicationDate": "2019-12-01"
+    },
+    "pubYear": "2019",
+    "pageInfo": "26662-26668",
+    "abstractText": "Active sensing animals perceive their surroundings by emitting probes of energy and analyzing how the environment modulates these probes. However, the probes of conspecifics can jam active sensing, which should cause problems for groups of active sensing animals. This problem was termed the cocktail party nightmare for echolocating bats: as bats listen for the faint returning echoes of their loud calls, these echoes will be masked by the loud calls of other close-by bats. Despite this problem, many bats echolocate in groups and roost socially. Here, we present a biologically parametrized framework to quantify echo detection in groups. Incorporating properties of echolocation, psychoacoustics, acoustics, and group flight, we quantify how well bats flying in groups can detect each other despite jamming. A focal bat in the center of a group can detect neighbors in group sizes of up to 100 bats. With increasing group size, fewer and only the closest and frontal neighbors are detected. Neighbor detection is improved by longer call intervals, shorter call durations, denser groups, and more variable flight and sonar beam directions. Our results provide a quantification of the sensory input of echolocating bats in collective group flight, such as mating swarms or emergences. Our results further generate predictions on the sensory strategies bats may use to reduce jamming in the cocktail party nightmare. Lastly, we suggest that the spatially limited sensory field of echolocators leads to limited interactions within a group, so that collective behavior is achieved by following only nearest neighbors.",
+    "affiliation": "Acoustic and Functional Ecology, Max Planck Institute for Ornithology, 82319 Seewiesen, Germany.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Deutsche Forschungsgemeinschaft",
+          "grantId": "GO 2091/2-2",
+          "orderIn": 0
+        },
+        {
+          "agency": "German Academic Exchange Service",
+          "grantId": "personal grant",
+          "orderIn": 0
+        },
+        {
+          "agency": "Deutsche Forschungsgemeinschaft",
+          "grantId": "GO 2091/2-1",
+          "orderIn": 0
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Bioacoustics",
+        "Group behavior",
+        "Active Sensing",
+        "Psychoacoustics",
+        "Sonar Interference"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://www.pnas.org/content/pnas/116/52/26662.full.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1073/pnas.1821722116"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6936466"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6936466?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1073/pnas.1821722116"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "PPR",
+          "id": "PPR99696",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 15,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCreation": "2019-12-12",
+    "dateOfRevision": "2022-12-05",
+    "electronicPublicationDate": "2019-12-10",
+    "firstPublicationDate": "2019-12-10",
+    "firstIndexDate": "2019-12-13",
+    "fullTextReceivedDate": "2025-02-03",
+    "embargoDate": "2020-06-10",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1073/pnas.1821722116"
+  },
+  {
+    "id": "34077457",
+    "source": "MED",
+    "pmid": "34077457",
+    "pmcid": "PMC8171922",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC8171922"
+      ]
+    },
+    "doi": "10.1371/journal.pone.0252330",
+    "title": "Human click-based echolocation: Effects of blindness and age, and real-life implications in a 10-week training program.",
+    "authorString": "Norman LJ, Dodsworth C, Foresteire D, Thaler L.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Norman LJ",
+          "lastName": "Norman",
+          "firstName": "Liam J",
+          "initials": "LJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6119-2646"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Psychology, Durham University, Durham, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Dodsworth C",
+          "lastName": "Dodsworth",
+          "firstName": "Caitlin",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Psychology, Durham University, Durham, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Foresteire D",
+          "lastName": "Foresteire",
+          "firstName": "Denise",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Psychology, Durham University, Durham, United Kingdom."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Thaler L",
+          "lastName": "Thaler",
+          "firstName": "Lore",
+          "initials": "L",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6267-3129"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Psychology, Durham University, Durham, United Kingdom."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6267-3129"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6119-2646"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "6",
+      "volume": "16",
+      "journalIssueId": 3178233,
+      "dateOfPublication": "2021 ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 2021,
+      "journal": {
+        "medlineAbbreviation": "PLoS One",
+        "title": "PloS one",
+        "essn": "1932-6203",
+        "issn": "1932-6203",
+        "nlmid": "101285081",
+        "isoabbreviation": "PLoS One"
+      },
+      "printPublicationDate": "2021-01-01"
+    },
+    "pubYear": "2021",
+    "pageInfo": "e0252330",
+    "abstractText": "Understanding the factors that determine if a person can successfully learn a novel sensory skill is essential for understanding how the brain adapts to change, and for providing rehabilitative support for people with sensory loss. We report a training study investigating the effects of blindness and age on the learning of a complex auditory skill: click-based echolocation. Blind and sighted participants of various ages (21-79 yrs; median blind: 45 yrs; median sighted: 26 yrs) trained in 20 sessions over the course of 10 weeks in various practical and virtual navigation tasks. Blind participants also took part in a 3-month follow up survey assessing the effects of the training on their daily life. We found that both sighted and blind people improved considerably on all measures, and in some cases performed comparatively to expert echolocators at the end of training. Somewhat surprisingly, sighted people performed better than those who were blind in some cases, although our analyses suggest that this might be better explained by the younger age (or superior binaural hearing) of the sighted group. Importantly, however, neither age nor blindness was a limiting factor in participants' rate of learning (i.e. their difference in performance from the first to the final session) or in their ability to apply their echolocation skills to novel, untrained tasks. Furthermore, in the follow up survey, all participants who were blind reported improved mobility, and 83% reported better independence and wellbeing. Overall, our results suggest that the ability to learn click-based echolocation is not strongly limited by age or level of vision. This has positive implications for the rehabilitation of people with vision loss or in the early stages of progressive vision loss.",
+    "affiliation": "Department of Psychology, Durham University, Durham, United Kingdom.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic-eCollection",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "acronym": "BB_",
+          "grantId": "BB/M007847/1",
+          "orderIn": 0
+        },
+        {
+          "agency": "Network for Social Change",
+          "grantId": "30/7490",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blindness",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PX",
+                "qualifierName": "psychology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Acoustic Stimulation"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Learning"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sound Localization",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Age Factors"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Adaptation, Physiological"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Young Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Biomechanical Phenomena"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Persons with Visual Disabilities",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PX",
+                "qualifierName": "psychology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1371/journal.pone.0252330"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC8171922"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC8171922?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 21,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2021-11-03",
+    "dateOfCreation": "2021-06-02",
+    "dateOfRevision": "2025-01-03",
+    "electronicPublicationDate": "2021-06-02",
+    "firstPublicationDate": "2021-06-02",
+    "firstIndexDate": "2021-06-03",
+    "fullTextReceivedDate": "2025-02-04",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1371/journal.pone.0252330"
+  },
+  {
+    "id": "8965258",
+    "source": "MED",
+    "pmid": "8965258",
+    "doi": "10.1007/bf00193432",
+    "title": "Directional hearing by mechanical coupling in the parasitoid fly Ormia ochracea.",
+    "authorString": "Robert D, Miles RN, Hoy RR.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Robert D",
+          "lastName": "Robert",
+          "firstName": "D",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Section of Neurobiology and Behavior, Cornell University, Ithaca, NY 14853-2702, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Miles RN",
+          "lastName": "Miles",
+          "firstName": "R N",
+          "initials": "RN"
+        },
+        {
+          "fullName": "Hoy RR",
+          "lastName": "Hoy",
+          "firstName": "R R",
+          "initials": "RR"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "wikipedia"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "179",
+      "journalIssueId": 939810,
+      "dateOfPublication": "1996 ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 1996,
+      "journal": {
+        "medlineAbbreviation": "J Comp Physiol A",
+        "title": "Journal of comparative physiology. A, Sensory, neural, and behavioral physiology",
+        "nlmid": "8413199",
+        "isoabbreviation": "J Comp Physiol A"
+      },
+      "printPublicationDate": "1996-01-01"
+    },
+    "pubYear": "1996",
+    "pageInfo": "29-44",
+    "abstractText": "Sound localization is a basic processing task of the auditory system. The directional detection of an incident sound impinging on the ears relies on two acoustic cues: interaural amplitude and interaural time differences. In small animals, with short interaural distances both amplitude and time cues can become very small, challenging the directional sensitivity of the auditory system. The ears of a parasitoid fly Ormia ochracea, are unusual in that both acoustic sensors are separated by only 520 microns and are contained within an undivided air-filled chamber. This anatomy results in minuscule differences in interaural time cues (ca. 2 microseconds) and no measurable difference in interaural intensity cues generated from an incident sound wave. The tympana of both ears are anatomically coupled by a cuticular bridge. This bridge also mechanically couples the tympanana, providing a basis for directional sensitivity. Using laser vibrometry, it is shown that the mechanical response of the tympanal membranes has a pronounced directional sensitivity. Interaural time and intensity differences in the mechanical response of the ears are significantly larger than those available in the acoustic field. The tympanal membranes vibrate with amplitude differences of about 12 dB and time differences on the order of 50 microseconds to sounds at 90 degrees off the longitudinal body axis. The analysis of the deflection shapes of the tympanal vibrations shows that the interaural differences in the mechanical response are due to the dynamic properties of the tympanal system and reflect its intrinsic sensitivity to the direction of a sound source. Using probe microphones and extracellular recording techniques, we show that the primary auditory afferents encode sound direction with a time delay of about 300 microseconds. Our data point to a novel mechanism for directional hearing in O. ochracea based on intertympanal mechanical coupling, a process that amplifies small acoustic cues into interaural time and amplitude differences that can be reliably processed at the neural level. An intuitive description of the mechanism is proposed using a simple mechanical model in which the ears are coupled through a flexible lever.",
+    "affiliation": "Section of Neurobiology and Behavior, Cornell University, Ithaca, NY 14853-2702, USA.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIDCD NIH HHS",
+          "acronym": "DC",
+          "grantId": "DC00103",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Ear",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AH",
+                "qualifierName": "anatomy & histology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Auditory Pathways",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Ear, Middle",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "UL",
+                "qualifierName": "ultrastructure"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Diptera",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AH",
+                "qualifierName": "anatomy & histology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Microscopy, Electron, Scanning"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Lasers"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sound Localization",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Acoustics"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Vibration"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1007/BF00193432"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 48,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "1996-12-10",
+    "dateOfCreation": "1996-01-01",
+    "dateOfRevision": "2019-11-01",
+    "firstPublicationDate": "1996-01-01",
+    "firstIndexDate": "2009-06-05",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1007/BF00193432"
+  },
+  {
+    "id": "27440657",
+    "source": "MED",
+    "pmid": "27440657",
+    "pmcid": "PMC4954978",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC4954978"
+      ]
+    },
+    "doi": "10.1038/srep29957",
+    "title": "Bio-Inspired Miniature Direction Finding Acoustic Sensor.",
+    "authorString": "Wilmott D, Alves F, Karunasiri G.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Wilmott D",
+          "lastName": "Wilmott",
+          "firstName": "Daniel",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Physics, Naval Postgraduate School, Monterey, CA 93943, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Alves F",
+          "lastName": "Alves",
+          "firstName": "Fabio",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Physics, Naval Postgraduate School, Monterey, CA 93943, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Karunasiri G",
+          "lastName": "Karunasiri",
+          "firstName": "Gamani",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Physics, Naval Postgraduate School, Monterey, CA 93943, USA."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "6",
+      "journalIssueId": 2477836,
+      "dateOfPublication": "2016 Jul",
+      "monthOfPublication": 7,
+      "yearOfPublication": 2016,
+      "journal": {
+        "medlineAbbreviation": "Sci Rep",
+        "title": "Scientific reports",
+        "essn": "2045-2322",
+        "issn": "2045-2322",
+        "isoabbreviation": "Sci Rep",
+        "nlmid": "101563288"
+      },
+      "printPublicationDate": "2016-07-01"
+    },
+    "pubYear": "2016",
+    "pageInfo": "29957",
+    "abstractText": "A narrowband MEMS direction finding sensor has been developed based on the mechanically coupled ears of the Ormia Ochracea fly. The sensor consists of two wings coupled at the middle and attached to a substrate using two legs. The sensor operates at its bending resonance frequency and has cosine directional characteristics similar to that of a pressure gradient microphone. Thus, the directional response of the sensor is symmetric about the normal axis making the determination of the direction ambiguous. To overcome this shortcoming two sensors were assembled with a canted angle similar to that employed in radar bearing locators. The outputs of two sensors were processed together allowing direction finding with no requirement of knowing the incident sound pressure level. At the bending resonant frequency of the sensors (1.69 kHz) an output voltage of about 25 V/Pa was measured. The angle uncertainty of the bearing of sound ranged from less than 0.3° close to the normal axis (0°) to 3.4° at the limits of coverage (±60°) based on the 30° canted angle used. These findings indicate the great potential to use dual MEMS direction finding sensor assemblies to locate sound sources with high accuracy.",
+    "affiliation": "Department of Physics, Naval Postgraduate School, Monterey, CA 93943, USA.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sound Localization"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Noise"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Acoustics",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "IS",
+                "qualifierName": "instrumentation"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sound"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1038/srep29957"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC4954978"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC4954978?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 23,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2018-06-06",
+    "dateOfCreation": "2016-07-22",
+    "dateOfRevision": "2018-11-13",
+    "electronicPublicationDate": "2016-07-21",
+    "firstPublicationDate": "2016-07-21",
+    "firstIndexDate": "2016-07-22",
+    "fullTextReceivedDate": "2020-07-14",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1038/srep29957"
+  },
+  {
+    "id": "40283326",
+    "source": "MED",
+    "pmid": "40283326",
+    "pmcid": "PMC12029790",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC12029790"
+      ]
+    },
+    "doi": "10.3390/mi16040451",
+    "title": "A Low-Frequency Multi-Band Piezoelectric MEMS Acoustic Sensor Inspired by &lt;i&gt;Ormia ochracea&lt;/i&gt;.",
+    "authorString": "Liu Y, Zhao L, Ding X.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Liu Y",
+          "lastName": "Liu",
+          "firstName": "Yi",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Instrument Science and Engineering, Southeast University, Nanjing 210096, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhao L",
+          "lastName": "Zhao",
+          "firstName": "Liye",
+          "initials": "L",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3183-8140"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Instrument Science and Engineering, Southeast University, Nanjing 210096, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ding X",
+          "lastName": "Ding",
+          "firstName": "Xukai",
+          "initials": "X",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6296-8189"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Instrument Science and Engineering, Southeast University, Nanjing 210096, China."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6296-8189"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3183-8140"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "4",
+      "volume": "16",
+      "journalIssueId": 3933102,
+      "dateOfPublication": "2025 Apr",
+      "monthOfPublication": 4,
+      "yearOfPublication": 2025,
+      "journal": {
+        "medlineAbbreviation": "Micromachines (Basel)",
+        "title": "Micromachines",
+        "essn": "2072-666X",
+        "issn": "2072-666X",
+        "isoabbreviation": "Micromachines (Basel)",
+        "nlmid": "101640903"
+      },
+      "printPublicationDate": "2025-04-01"
+    },
+    "pubYear": "2025",
+    "pageInfo": "451",
+    "abstractText": "Since the discovery of the unique auditory system of the <i>Ormia ochracea</i> fly, researchers have designed various directional acoustic sensors inspired by its principles. However, most of these sensors operate only within a single- or dual-frequency band and typically exhibit high eigenfrequencies, making them unsuitable for low-frequency applications. This paper proposes a low-frequency, multi-band piezoelectric MEMS acoustic sensor that incorporates an improved coupling structure within the inner diaphragm to enable low-frequency signal detection in a compact design. Additionally, an asymmetric wing and coupled structure are introduced in both the inner and outer diaphragms to achieve multi-band frequency response. Aluminum nitride (AlN), a material with low dielectric and acoustic losses, is selected as the piezoelectric material. The sensor operates in the d₃₃ mode and employs a branched comb-like interdigitated electrode design to enhance the signal-to-noise ratio (SNR). Simulation results demonstrate that the four eigenfrequencies of the sensor are evenly distributed below 2000 Hz, and at all eigenfrequencies, the sensor exhibits a consistent cosine response to variations in the incident elevation angle of the sound source.",
+    "affiliation": "School of Instrument Science and Engineering, Southeast University, Nanjing 210096, China.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Primary Research and Development Plan of Jiangsu Province",
+          "grantId": "BE2021004-3",
+          "orderIn": 0
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Piezoelectric",
+        "Acoustic Sensor",
+        "Low Frequency",
+        "Ormia Ochracea",
+        "Multi-band"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.3390/mi16040451"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC12029790"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC12029790?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 2,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2025-04-26",
+    "dateOfRevision": "2025-04-28",
+    "electronicPublicationDate": "2025-04-10",
+    "firstPublicationDate": "2025-04-10",
+    "firstIndexDate": "2025-04-27",
+    "fullTextReceivedDate": "2025-12-05",
+    "hasEvaluations": "N",
+    "requested_doi": "10.3390/mi16040451"
+  },
+  {
+    "id": "3381100",
+    "source": "MED",
+    "pmid": "3381100",
+    "doi": "10.1126/science.3381100",
+    "title": "Regeneration of sensory hair cells after acoustic trauma.",
+    "authorString": "Corwin JT, Cotanche DA.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Corwin JT",
+          "lastName": "Corwin",
+          "firstName": "J T",
+          "initials": "JT",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Zoology, University of Hawaii, Honolulu 96822."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cotanche DA",
+          "lastName": "Cotanche",
+          "firstName": "D A",
+          "initials": "DA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7972-0446"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7972-0446"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "4860",
+      "volume": "240",
+      "journalIssueId": 575936,
+      "dateOfPublication": "1988 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 1988,
+      "journal": {
+        "medlineAbbreviation": "Science",
+        "title": "Science (New York, N.Y.)",
+        "essn": "1095-9203",
+        "issn": "0036-8075",
+        "nlmid": "0404511",
+        "isoabbreviation": "Science"
+      },
+      "printPublicationDate": "1988-06-01"
+    },
+    "pubYear": "1988",
+    "pageInfo": "1772-1774",
+    "abstractText": "Any loss of cochlear hair cells has been presumed to result in a permanent hearing deficit because the production of these cells normally ceases before birth. However, after acoustic trauma, injured sensory cells in the mature cochlea of the chicken are replaced. New cells appear to be produced by mitosis of supporting cells that survive at the lesion site and do not divide in the absence of trauma. This trauma-induced division of normally postmitotic cells may lead to recovery from profound hearing loss.",
+    "affiliation": "Department of Zoology, University of Hawaii, Honolulu 96822.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NINDS NIH HHS",
+          "acronym": "NS",
+          "grantId": "NS19061",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCRR NIH HHS",
+          "acronym": "RR",
+          "grantId": "RCMI-RR03061",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Chickens"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hearing Loss, Noise-Induced",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Microscopy, Electron, Scanning"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Regeneration"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cell Division"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "DNA Replication"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hair Cells, Auditory",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "CY",
+                "qualifierName": "cytology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1126/science.3381100"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 605,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "1988-07-20",
+    "dateOfCreation": "1988-06-24",
+    "dateOfRevision": "2022-03-09",
+    "firstPublicationDate": "1988-06-01",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1126/science.3381100"
+  },
+  {
+    "id": "3381101",
+    "source": "MED",
+    "pmid": "3381101",
+    "doi": "10.1126/science.3381101",
+    "title": "Hair cell regeneration after acoustic trauma in adult Coturnix quail.",
+    "authorString": "Ryals BM, Rubel EW.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Ryals BM",
+          "lastName": "Ryals",
+          "firstName": "B M",
+          "initials": "BM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Audiology and Speech Pathology, Veterans Administration Medical Center, Richmond, VA 23249."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rubel EW",
+          "lastName": "Rubel",
+          "firstName": "E W",
+          "initials": "EW"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "4860",
+      "volume": "240",
+      "journalIssueId": 575936,
+      "dateOfPublication": "1988 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 1988,
+      "journal": {
+        "medlineAbbreviation": "Science",
+        "title": "Science (New York, N.Y.)",
+        "essn": "1095-9203",
+        "issn": "0036-8075",
+        "nlmid": "0404511",
+        "isoabbreviation": "Science"
+      },
+      "printPublicationDate": "1988-06-01"
+    },
+    "pubYear": "1988",
+    "pageInfo": "1774-1776",
+    "abstractText": "Recovery of hair cells was studied at various times after acoustic trauma in adult quail. An initial loss of hair cells recovered to within 5 percent of the original number of cells. Tritium-labeled thymidine was injected after this acoustic trauma to determine if mitosis played a role in recovery of hair cells. Within 10 days of acoustic trauma, incorporation of [3H]thymidine was seen over the nuclei of hair cells and supporting cells in the region of initial hair cell loss. Thus, hair cell regeneration can occur after embryonic terminal mitosis.",
+    "affiliation": "Audiology and Speech Pathology, Veterans Administration Medical Center, Richmond, VA 23249.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NINDS NIH HHS",
+          "acronym": "NS",
+          "grantId": "NS24522",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Coturnix"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hearing Loss, Noise-Induced",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Age Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cell Division"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "DNA Replication"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hair Cells, Auditory",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "CY",
+                "qualifierName": "cytology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1126/science.3381101"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 529,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "1988-07-20",
+    "dateOfCreation": "1988-06-24",
+    "dateOfRevision": "2022-03-09",
+    "firstPublicationDate": "1988-06-01",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1126/science.3381101"
+  },
+  {
+    "id": "11050200",
+    "source": "MED",
+    "pmid": "11050200",
+    "pmcid": "PMC34340",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC34340"
+      ]
+    },
+    "doi": "10.1073/pnas.97.22.11714",
+    "title": "Cellular studies of auditory hair cell regeneration in birds.",
+    "authorString": "Stone JS, Rubel EW.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Stone JS",
+          "lastName": "Stone",
+          "firstName": "J S",
+          "initials": "JS",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Virginia Merrill Bloedel Hearing Research Center, University of Washington School of Medicine, Seattle, WA 98195-7923, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rubel EW",
+          "lastName": "Rubel",
+          "firstName": "E W",
+          "initials": "EW"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "22",
+      "volume": "97",
+      "journalIssueId": 1071026,
+      "dateOfPublication": "2000 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2000,
+      "journal": {
+        "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+        "title": "Proceedings of the National Academy of Sciences of the United States of America",
+        "essn": "1091-6490",
+        "issn": "0027-8424",
+        "isoabbreviation": "Proc Natl Acad Sci U S A",
+        "nlmid": "7505876"
+      },
+      "printPublicationDate": "2000-10-01"
+    },
+    "pubYear": "2000",
+    "pageInfo": "11714-11721",
+    "abstractText": "A decade ago it was discovered that mature birds are able to regenerate hair cells, the receptors for auditory perception. This surprising finding generated hope in the field of auditory neuroscience that new hair cells someday may be coaxed to form in another class of warm-blooded vertebrates, mammals. We have made considerable progress toward understanding some cellular and molecular events that lead to hair cell regeneration in birds. This review discusses our current understanding of avian hair cell regeneration, with some comparisons to other vertebrate classes and other regenerative systems.",
+    "affiliation": "Virginia Merrill Bloedel Hearing Research Center, University of Washington School of Medicine, Seattle, WA 98195-7923, USA.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Epithelium",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Birds",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Auditory Perception"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Regeneration"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hair Cells, Auditory",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CY",
+                "qualifierName": "cytology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://europepmc.org/articles/pmc34340?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://europepmc.org/articles/pmc34340?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://europepmc.org/articles/pmc34340?pdf=render"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1073/pnas.97.22.11714"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC34340"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC34340?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1073/pnas.97.22.11714"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 75,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2000-11-28",
+    "dateOfCreation": "2000-10-26",
+    "dateOfRevision": "2018-11-13",
+    "firstPublicationDate": "2000-10-01",
+    "firstIndexDate": "2010-09-15",
+    "fullTextReceivedDate": "2025-02-02",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1073/pnas.97.22.11714"
+  },
+  {
+    "id": "23202051",
+    "source": "MED",
+    "pmid": "23202051",
+    "pmcid": "PMC3593961",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC3593961"
+      ]
+    },
+    "doi": "10.1016/j.heares.2012.11.019",
+    "title": "Return of function after hair cell regeneration.",
+    "authorString": "Ryals BM, Dent ML, Dooling RJ.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Ryals BM",
+          "lastName": "Ryals",
+          "firstName": "Brenda M",
+          "initials": "BM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Communication Sciences and Disorders, James Madison University, 701 Carrier Drive, MSC 4304, Harrisonburg, VA 22807, USA. ryalsbm@jmu.edu"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Dent ML",
+          "lastName": "Dent",
+          "firstName": "Micheal L",
+          "initials": "ML",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7462-501X"
+          }
+        },
+        {
+          "fullName": "Dooling RJ",
+          "lastName": "Dooling",
+          "firstName": "Robert J",
+          "initials": "RJ"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7462-501X"
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "297",
+      "journalIssueId": 2015154,
+      "dateOfPublication": "2013 Mar",
+      "monthOfPublication": 3,
+      "yearOfPublication": 2013,
+      "journal": {
+        "medlineAbbreviation": "Hear Res",
+        "title": "Hearing research",
+        "essn": "1878-5891",
+        "issn": "0378-5955",
+        "isoabbreviation": "Hear Res",
+        "nlmid": "7900445"
+      },
+      "printPublicationDate": "2013-03-01"
+    },
+    "pubYear": "2013",
+    "pageInfo": "113-120",
+    "abstractText": "The ultimate goal of hair cell regeneration is to restore functional hearing. Because birds begin perceiving and producing song early in life, they provide a propitious model for studying not only whether regeneration of lost hair cells can return auditory sensitivity but also whether this regenerated periphery can restore complex auditory perception and production. They are the only animal where hair cell regeneration occurs naturally after hair cell loss and where the ability to correctly perceive and produce complex acoustic signals is critical to procreation and survival. The purpose of this review article is to survey the most recent literature on behavioral measures of auditory functional return in adult birds after hair cell regeneration. The first portion of the review summarizes the effect of ototoxic drug induced hair cell loss and regeneration on hearing loss and recovery for pure tones. The second portion reviews studies of complex, species-specific vocalization discrimination and recognition after hair cell regeneration. Finally, we discuss the relevance of temporary hearing loss and recovery through hair cell regeneration on complex call and song production. Hearing sensitivity is restored, except for the highest frequencies, after hair cell regeneration in birds, but there are enduring changes to complex auditory perception. These changes do not appear to provide any obstacle to future auditory or vocal learning. This article is part of a Special Issue entitled \"Inner Ear Development and Regeneration\".",
+    "affiliation": "Department of Communication Sciences and Disorders, James Madison University, 701 Carrier Drive, MSC 4304, Harrisonburg, VA 22807, USA. ryalsbm@jmu.edu",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIDCD NIH HHS",
+          "acronym": "DC",
+          "grantId": "DC-001372",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDCD NIH HHS",
+          "acronym": "DC",
+          "grantId": "P30 DC004664",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDCD NIH HHS",
+          "acronym": "DC",
+          "grantId": "R01 DC001372",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDCD NIH HHS",
+          "acronym": "DC",
+          "grantId": "P30DC004664",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Birds"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hearing Loss"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hearing Loss, Noise-Induced",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Vocalization, Animal",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Learning",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Auditory Perception"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Auditory Threshold",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hearing",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Nerve Regeneration"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Action Potentials"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hair Cells, Auditory",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://europepmc.org/articles/pmc3593961?pdf=render"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.heares.2012.11.019"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3593961"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3593961?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.heares.2012.11.019"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 26,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "Y",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "Y",
+    "manuscriptId": "NIHMS425553",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2013-09-27",
+    "dateOfCreation": "2012-12-04",
+    "dateOfRevision": "2024-06-10",
+    "electronicPublicationDate": "2012-11-29",
+    "firstPublicationDate": "2012-11-29",
+    "firstIndexDate": "2012-12-04",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1016/j.heares.2012.11.019"
+  },
+  {
+    "id": "39848037",
+    "source": "MED",
+    "pmid": "39848037",
+    "doi": "10.1016/j.heares.2024.109170",
+    "title": "Extent of genetic and epigenetic factor reprogramming via a single viral vector construct in deaf adult mice.",
+    "authorString": "Gunewardene N, Lam P, Song J, Nguyen T, Ruiz SM, Wong RCB, Wise AK, Richardson RT.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Gunewardene N",
+          "lastName": "Gunewardene",
+          "firstName": "Niliksha",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Bionics Institute, East Melbourne, Victoria 3002, Australia; Department of Medical Bionics, The University of Melbourne, Fitzroy, Victoria 3065, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lam P",
+          "lastName": "Lam",
+          "firstName": "Patrick",
+          "initials": "P",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Bionics Institute, East Melbourne, Victoria 3002, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Song J",
+          "lastName": "Song",
+          "firstName": "Jiwei",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Bionics Institute, East Melbourne, Victoria 3002, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Nguyen T",
+          "lastName": "Nguyen",
+          "firstName": "Trung",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Bionics Institute, East Melbourne, Victoria 3002, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ruiz SM",
+          "lastName": "Ruiz",
+          "firstName": "Shannon Mendez",
+          "initials": "SM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, Victoria, Australia; Ophthalmology, Department of Surgery, University of Melbourne, East Melbourne, Victoria, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wong RCB",
+          "lastName": "Wong",
+          "firstName": "Raymond C B",
+          "initials": "RCB",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8092-9455"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, East Melbourne, Victoria, Australia; Ophthalmology, Department of Surgery, University of Melbourne, East Melbourne, Victoria, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wise AK",
+          "lastName": "Wise",
+          "firstName": "Andrew K",
+          "initials": "AK",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Bionics Institute, East Melbourne, Victoria 3002, Australia; Department of Medical Bionics, The University of Melbourne, Fitzroy, Victoria 3065, Australia; Department of Surgery (Otolaryngology), University of Melbourne, The Royal Victorian Eye and Ear Hospital, East Melbourne, Victoria 3002, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Richardson RT",
+          "lastName": "Richardson",
+          "firstName": "Rachael T",
+          "initials": "RT",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-2412-8354"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Bionics Institute, East Melbourne, Victoria 3002, Australia; Department of Medical Bionics, The University of Melbourne, Fitzroy, Victoria 3065, Australia; Department of Surgery (Otolaryngology), University of Melbourne, The Royal Victorian Eye and Ear Hospital, East Melbourne, Victoria 3002, Australia. Electronic address: rrichardson@bionicsinstitute.org."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-2412-8354"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8092-9455"
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "457",
+      "journalIssueId": 3901540,
+      "dateOfPublication": "2025 Mar",
+      "monthOfPublication": 3,
+      "yearOfPublication": 2025,
+      "journal": {
+        "medlineAbbreviation": "Hear Res",
+        "title": "Hearing research",
+        "essn": "1878-5891",
+        "issn": "0378-5955",
+        "isoabbreviation": "Hear Res",
+        "nlmid": "7900445"
+      },
+      "printPublicationDate": "2025-03-01"
+    },
+    "pubYear": "2025",
+    "pageInfo": "109170",
+    "abstractText": "In the adult mammalian cochlea, hair cell loss is irreversible and causes deafness. The basic helix-loop transcription factor Atoh1 is essential for normal hair cell development in the embryonic ear. Over-expression of Atoh1 in the adult cochlea by gene therapy can convert supporting cells (cells that underlie hair cells) into a hair cell lineage. However, the regeneration outcomes can be inconsistent. Given that hair cell development is regulated by multiple signalling and transcriptional factors in a temporal and spatial manner, a more complex combinatorial approach targeting additional transcription factors may be required for efficient hair cell regeneration. There is evidence that epigenetic factors are responsible for the lack in regenerative capacity of the deaf adult cochlea. This study aimed to develop a combined gene therapy approach to reprogram both the genome and epigenome of supporting cells to improve the efficiency of hair cell regeneration. Adult Pou4f3-DTR mice were used in which the administration of diphtheria toxin was used to ablate hair cells whilst leaving supporting cells relatively intact. A single adeno-associated viral construct was used to express human Atoh1, Pou4f3 and short hairpin RNA against Kdm1a (regeneration gene therapy) at two weeks following partial or severe hair cell ablation. The average transduction of the inner supporting cells, as measured by the control AAV2.7m8-GFP vector in the deaf cochlea, was only 8 % while transduction in the outer sensory region was <1 %. At 4- and 6-weeks post-treatment the number of Myo+ hair cells in the control and regeneration gene therapy-treated mice were not significantly different. Of note, although both control and regeneration gene therapy treated cochleae contained supporting cells that co-expressed the hair cell marker Myo7a and the supporting cell marker Sox2, the regeneration gene therapy treated cochleae had significantly higher numbers of these cells (p < 0.05). Furthermore, among these treated cochleae, those that had more hair cell loss had a higher number of Myo7a positive supporting cells (R2=0.33, Pearson correlation analysis, p < 0.001). Overall, our results indicate that the adult cochlea possesses limited intrinsic spontaneous regenerative capacity, that can be further enhanced by genetic and epigenetic reprogramming.",
+    "affiliation": "Bionics Institute, East Melbourne, Victoria 3002, Australia; Department of Medical Bionics, The University of Melbourne, Fitzroy, Victoria 3065, Australia.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "State Government of Victoria",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Cochlea",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PA",
+                "qualifierName": "pathology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Labyrinth Supporting Cells",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PA",
+                "qualifierName": "pathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mice, Inbred C57BL"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mice, Transgenic"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Mice"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Dependovirus",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Deafness",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PA",
+                "qualifierName": "pathology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TH",
+                "qualifierName": "therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Disease Models, Animal"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Myosins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Homeodomain Proteins"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Hearing"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Regeneration"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Epigenesis, Genetic"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Genetic Vectors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Transcription Factor Brn-3C",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Hair Cells, Auditory",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PA",
+                "qualifierName": "pathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "SOXB1 Transcription Factors",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Histone Demethylases",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Jumonji Domain-Containing Histone Demethylases",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Genetic Therapy",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "MT",
+                "qualifierName": "methods"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Cellular Reprogramming"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Myosin VIIa"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Basic Helix-Loop-Helix Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Gene therapy",
+        "Regeneration",
+        "Cochlea",
+        "Hearing loss",
+        "Hair cell",
+        "Atoh1",
+        "Epigenetic Factors"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "myosin VIIa",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Pou4f3 protein, mouse",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Homeodomain Proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Sox2 protein, mouse",
+          "registryNumber": "0"
+        },
+        {
+          "name": "basic helix-loop-helix proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "ATOH1 protein, human",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Atoh1 protein, mouse",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Transcription Factor Brn-3C",
+          "registryNumber": "0"
+        },
+        {
+          "name": "SOXB1 Transcription Factors",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Myosins",
+          "registryNumber": "EC 3.6.4.1"
+        },
+        {
+          "name": "Histone Demethylases",
+          "registryNumber": "EC 1.14.11.-"
+        },
+        {
+          "name": "Jumonji Domain-Containing Histone Demethylases",
+          "registryNumber": "EC 1.14.11.-"
+        },
+        {
+          "name": "Myo7a protein, mouse",
+          "registryNumber": "0"
+        },
+        {
+          "name": "KDM1a protein, mouse",
+          "registryNumber": "EC 1.14.11.-"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.heares.2024.109170"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 1,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2025-05-03",
+    "dateOfCreation": "2025-01-23",
+    "dateOfRevision": "2026-06-30",
+    "electronicPublicationDate": "2024-12-20",
+    "firstPublicationDate": "2024-12-20",
+    "firstIndexDate": "2025-01-24",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1016/j.heares.2024.109170"
+  },
+  {
+    "id": "36273085",
+    "source": "MED",
+    "pmid": "36273085",
+    "pmcid": "PMC9587988",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC9587988"
+      ]
+    },
+    "doi": "10.1038/s42003-022-04098-x",
+    "title": "A hemispheric two-channel code accounts for binaural unmasking in humans.",
+    "authorString": "Encke J, Dietz M.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Encke J",
+          "lastName": "Encke",
+          "firstName": "Jörg",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6067-1602"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Medical Physics and Acoustics, University of Oldenburg, Oldenburg, Germany. joerg.encke@uol.de."
+              },
+              {
+                "affiliation": "Cluster of Excellence 'Hearing4all', University of Oldenburg, Oldenburg, Germany. joerg.encke@uol.de."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Dietz M",
+          "lastName": "Dietz",
+          "firstName": "Mathias",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1830-469X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Medical Physics and Acoustics, University of Oldenburg, Oldenburg, Germany."
+              },
+              {
+                "affiliation": "Cluster of Excellence 'Hearing4all', University of Oldenburg, Oldenburg, Germany."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1830-469X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6067-1602"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "5",
+      "journalIssueId": 3432066,
+      "dateOfPublication": "2022 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2022,
+      "journal": {
+        "medlineAbbreviation": "Commun Biol",
+        "title": "Communications biology",
+        "essn": "2399-3642",
+        "issn": "2399-3642",
+        "isoabbreviation": "Commun Biol",
+        "nlmid": "101719179"
+      },
+      "printPublicationDate": "2022-10-01"
+    },
+    "pubYear": "2022",
+    "pageInfo": "1122",
+    "abstractText": "Sound in noise is better detected or understood if target and masking sources originate from different locations. Mammalian physiology suggests that the neurocomputational process that underlies this binaural unmasking is based on two hemispheric channels that encode interaural differences in their relative neuronal activity. Here, we introduce a mathematical formulation of the two-channel model - the complex-valued correlation coefficient. We show that this formulation quantifies the amount of temporal fluctuations in interaural differences, which we suggest underlie binaural unmasking. We applied this model to an extensive library of psychoacoustic experiments, accounting for 98% of the variance across eight studies. Combining physiological plausibility with its success in explaining behavioral data, the proposed mechanism is a significant step towards a unified understanding of binaural unmasking and the encoding of interaural differences in general.",
+    "affiliation": "Department of Medical Physics and Acoustics, University of Oldenburg, Oldenburg, Germany. joerg.encke@uol.de.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Auditory Threshold",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Perceptual Masking",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Noise"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sound"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://www.nature.com/articles/s42003-022-04098-x.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1038/s42003-022-04098-x"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC9587988"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC9587988?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 10,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2022-10-25",
+    "dateOfCreation": "2022-10-23",
+    "dateOfRevision": "2024-09-06",
+    "electronicPublicationDate": "2022-10-22",
+    "firstPublicationDate": "2022-10-22",
+    "firstIndexDate": "2022-10-24",
+    "fullTextReceivedDate": "2022-10-25",
+    "hasEvaluations": "N",
+    "requested_doi": "10.1038/s42003-022-04098-x"
+  }
+]

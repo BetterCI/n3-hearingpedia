@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: 动物听觉对人类机制研究、仿生传感器与听觉修复的启示
+
+Title: Hair cell regeneration in the avian auditory epithelium
+Abstract: Regeneration of sensory hair cells in the mature avian inner ear was first described just over 20 years ago. Since then, it has been shown that many other non-mammalian species either continually produce new hair cells or regenerate them in response to trauma. However, mammals exhibit limited hair cell regeneration, particularly in the auditory epithelium. In birds and other non-mammals, regenerated hair cells arise from adjacent non-sensory (supporting) cells. Hair cell regeneration was initially described as a proliferative response whereby supporting cells re-enter the mitotic cycle, forming daughter cells that differentiate into either hair cells or supporting cells and thereby restore cytoarchitecture and function in the sensory epithelium. However, further analyses of the avian auditory epithelium (and amphibian vestibular epithelium) revealed a second regenerative mechanism, direct transdifferentiation, during which supporting cells change their gene expression and convert into hair cells without dividing. In the chicken auditory epithelium, these two distinct mechanisms show unique spatial and temporal patterns, suggesting they are differentially regulated. Current efforts 
+Keywords/concepts: 
+Venue: The International Journal of Developmental Biology
+Year: 2007
+Cited by: 242
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

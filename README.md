@@ -21,6 +21,7 @@
 - [人工耳蜗](src/content/concepts/cochlear-implant.md)：系统流程图、临床使用配置、个体映射、双耳听觉及八个研究方向，27 项来源支持；保留成人、儿童、EAS 和个体化调机的任务及证据差异。见[扩写核验记录](docs/research/cochlear-implant-expansion-2026-10-05.md)。
 - [人工耳蜗信号处理策略](src/content/concepts/cochlear-implant-coding-strategies.md)：六个厂商／系统系列的官方临床目录、策略对照表、六个已核实代码仓库及十三个研究方向；明确版本、旧设备兼容与仿真证据边界。见[核验记录](docs/research/ci-coding-strategies-2026-10-04.md)。
 - 新增听力损失、助听器、响度、动态范围、外毛细胞、ABR、AEP、EEG、听觉注意、语音神经跟踪、听觉可塑性、聆听努力、噪声性听力损失、耳蜗突触病变、共振峰、空间听觉。
+- [比较听觉](src/content/concepts/comparative-hearing.md)：以仓鸮、蝙蝠、寄生蝇和鸟类毛细胞再生连接人类机制研究、仿生工程与听觉修复，设常用动物模型专节，含三张原创教学图、25项来源及独立[阅读预览](docs/drafts/comparative-hearing-preview.html)。检索与验证范围见[记录](docs/research/comparative-hearing-2026-10-10/README.md)。
 - 主题覆盖时域精细结构、音高、基频、谐波性、振幅调制、通道相互作用、ITD、SRT、纯音测听、校准、普通话声调、混淆矩阵、双耳整合、n-of-m、TLE、F0inTFS、GET、ASM、ZIN、BILD。
 - [调研与证据记录](docs/research/meng-zhou-literature-and-batch-2.md)及[第二批目录](docs/research/second-batch-catalog.json)保留来源、选词理由与审阅状态。
 - 13 个学科入口作为交叉索引；无独立词条的领域如实显示 0。

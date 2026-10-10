@@ -1,0 +1,50 @@
+[
+  {
+    "name": "evidence-routes",
+    "width": 1280,
+    "height": 720,
+    "parameters": {
+      "layout": "four representative cases, three translational routes"
+    },
+    "nature": "original conceptual diagram or analytic teaching calculation; not animal, human or device measurements"
+  },
+  {
+    "name": "time-cues",
+    "width": 1280,
+    "height": 680,
+    "parameters": {
+      "sound_speed_m_s": 343.0,
+      "ear_distances_m": [
+        0.00052,
+        0.18
+      ],
+      "angle_definition": "positive means right-path longer, broadside zero",
+      "plot_angle_degrees": [
+        1,
+        90
+      ],
+      "time_difference_axis": "absolute value, logarithmic, microseconds",
+      "echo_distance_m": [
+        0,
+        3
+      ]
+    },
+    "nature": "original conceptual diagram or analytic teaching calculation; not animal, human or device measurements"
+  },
+  {
+    "name": "repair-evidence",
+    "width": 1280,
+    "height": 760,
+    "parameters": {
+      "stages": [
+        "origin",
+        "maturity and connectivity",
+        "physiology",
+        "behavior",
+        "human outcomes"
+      ],
+      "nature": "editorial evaluation framework"
+    },
+    "nature": "original conceptual diagram or analytic teaching calculation; not animal, human or device measurements"
+  }
+]

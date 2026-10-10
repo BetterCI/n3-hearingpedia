@@ -15,6 +15,19 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  // Comparative hearing: cross-species mechanisms and translation routes.
+  link('comparative-hearing','binaural-hearing','related','跨物种比较双耳线索计算，区分共享任务与具体神经实现。',3),
+  link('comparative-hearing','interaural-time-difference','related','比较仓鸮时间计算与寄生蝇原始线索、机械响应的不同尺度。',3),
+  link('comparative-hearing','lloyd-jeffress','related','仓鸮实验为延迟线与符合检测提供证据，哺乳动物比较约束模型外推。',3),
+  link('comparative-hearing','phase-locking','related','周期时序是双耳时间比较的输入之一，需要区分物种与记录层级。',2),
+  link('comparative-hearing','spatial-hearing','related','以方向判断和主动回声定位比较不同的空间感知问题。',3),
+  link('comparative-hearing','auditory-plasticity','related','仓鸮空间校准与人类回声定位训练提供不同层次的经验变化证据。',3),
+  link('comparative-hearing','hearing-aid','related','寄生蝇启发微型定向传感器，器件性能仍需设备集成与使用者评价。',3),
+  link('comparative-hearing','cochlea','related','比较鸟类感受上皮再生与成熟哺乳动物的修复限制。',3),
+  link('comparative-hearing','inner-hair-cell','related','再生细胞身份、机械感受与神经连接需要分别验证。',2),
+  link('comparative-hearing','outer-hair-cell','related','鸟类细胞再生不自动等于哺乳动物外毛细胞放大功能恢复。',2),
+  link('comparative-hearing','hearing-loss','related','损伤、细胞更新、听阈与复杂声音功能是不同的修复评价对象。',3),
+  link('comparative-hearing','sound-waves-and-propagation','related','双耳路径差与回声往返依赖不同的传播几何和参考事件。',2),
   link('auditory-illusion','psychoacoustics','related','受控刺激与知觉报告用于检验线索、组织和判断。',3),
   link('auditory-illusion','auditory-scene-analysis','related','连续性和事件归属揭示混合输入中的对象组织。',3),
   link('auditory-illusion','pitch-perception','related','循环音高、音级与物理频率需分别解释。',3),

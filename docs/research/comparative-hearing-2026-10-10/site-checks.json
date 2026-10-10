@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-10",
+  "scope": "Independent preview of the new comparative-hearing entry; not the production Astro route",
+  "entry_schema": "passed against current src/content.config.ts schema",
+  "focused_validation": {
+    "references": 25,
+    "cross_link_targets": 17,
+    "relations": 12,
+    "figures": 3,
+    "display_equations": 2,
+    "missing_reference_anchors": 0,
+    "images_loaded_after_scroll": 3
+  },
+  "desktop": {
+    "reported_viewport_width": 1280,
+    "document_scroll_width": 1265,
+    "image_display_width": 872,
+    "screenshot_inspected": true,
+    "result": "Prose and displayed equations render; image assets load; document does not overflow horizontally."
+  },
+  "narrow_screen": {
+    "requested_viewport_width": 390,
+    "reported_viewport_width": 390,
+    "document_scroll_width": 375,
+    "image_display_width": 338.667,
+    "table_container_client_width": 339,
+    "table_container_scroll_width": 600,
+    "screenshot_inspected": true,
+    "result": "Prose and images stay within viewport; wide table scrolls inside its container; full-size SVG links are available."
+  },
+  "animal_model_section_update": {
+    "date": "2026-10-10",
+    "model_groups": 11,
+    "table_rows_including_header": 12,
+    "additional_sources": 8,
+    "numbered_citations_and_entry_schema": "passed",
+    "desktop": {
+      "viewport": 1280,
+      "document_scroll_width": 1265,
+      "screenshot_inspected": true
+    },
+    "narrow_screen": {
+      "viewport": 390,
+      "document_scroll_width": 375,
+      "table_container_client_width": 339,
+      "table_container_scroll_width": 600,
+      "screenshot_inspected": true
+    },
+    "missing_reference_anchors": 0,
+    "viewport_override_reset": true,
+    "scope": "Focused checks rerun after section addition. Whole-site check and build results below are from the initial entry verification, not rerun for this prose addition."
+  },
+  "site_check": {
+    "command": "pnpm check",
+    "status": "passed",
+    "files": 136,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "site_build": {
+    "command": "pnpm build",
+    "status": "passed including comparative-hearing route and Pagefind index"
+  },
+  "site_verify": {
+    "command": "pnpm verify",
+    "status": "passed",
+    "pages": 238,
+    "checkedInternalLinks": 19417,
+    "brokenLinks": 0,
+    "searchableConcepts": 102,
+    "typedRelationships": 641
+  },
+  "publication": "Release checked on current origin/main in an isolated worktree; Draft and no named scientific reviewer; prepared for requested Git push",
+  "visitor_stats_tests": {
+    "command": "node --test scripts/fetch-visitor-stats.test.mjs",
+    "passed": 4,
+    "failed": 0
+  },
+  "release_base": "88482b8197dd4ac776f4544a183009cdf4354e07",
+  "publication_rebase": "Preserved all remote updates through six new hearing-perception entries; repeated check/build/verify with zero broken links"
+}
