@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('pure-and-complex-tones','sound-waves-and-propagation','related','声波传播提供接收点压力信号，多分量表征解释它的频率组成。',3),
+  link('pure-and-complex-tones','harmonicity','related','复合音未必为谐波复合音，需要区分分量与共同整数倍关系。',3),
+  link('pure-and-complex-tones','fundamental-frequency','related','多个存在分量的共同最短周期不一定对应最低谱线。',3),
+  link('spectrogram','pure-and-complex-tones','describes','局部频谱显示纯音载频和复合音分量随时间的变化。',3),
+  link('pure-and-complex-tones','auditory-filter','related','听觉滤波影响分量可分辨性及相位所造成的通道内结构。',3),
+  link('pure-and-complex-tones','pure-tone-audiometry','application','单频刺激用于纯音测听，数字合成幅度需要与实际声级校准区分。',2),
   link('sound-waves-and-propagation','loudness','related','声压的物理标度与听者的响度感知需要区分。',2),
   link('spectrogram','sound-waves-and-propagation','describes','时频图表示接收点声压信号的谱结构与时间变化。',2),
   link('sound-waves-and-propagation','fundamental-frequency','related','周期声的重复率与各频率成分的波长相联系。',3),

@@ -1,0 +1,60 @@
+{
+  "slug": "pure-and-complex-tones",
+  "knowledge_area": "sound",
+  "kind": "representation",
+  "chinese_characters": 6843,
+  "body_characters": 13166,
+  "sections": 10,
+  "subsections": 19,
+  "reference_ids": [
+    "tones-sfu-simple",
+    "tones-sfu-complex",
+    "tones-mit-series",
+    "tones-sfu-analysis",
+    "tones-unsw-linear",
+    "tones-openstax-beats",
+    "tones-numpy-rfft",
+    "tones-scipy-spectral",
+    "tones-scipy-periodogram",
+    "tones-audacity-tone",
+    "shackleton-1994",
+    "harmonicity-high",
+    "hartmann-1990",
+    "tones-whiteford-2023",
+    "tones-guest-2024"
+  ],
+  "wiki_links": [
+    "sound-waves-and-propagation",
+    "harmonicity",
+    "pitch-perception",
+    "timbre-perception",
+    "fundamental-frequency",
+    "pure-tone-audiometry",
+    "spectrogram",
+    "auditory-filter",
+    "frequency-resolution"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "figures": [
+    "01-components.svg",
+    "02-phase.svg",
+    "03-beats.svg",
+    "04-windowing.svg"
+  ],
+  "relationships_added": 6,
+  "preview": "docs/drafts/pure-and-complex-tones-preview.html",
+  "audio_files": [
+    "pure-400.wav",
+    "complex-200.wav",
+    "phase-zero.wav",
+    "phase-quadratic.wav",
+    "beats-6.wav"
+  ],
+  "links_existing_only_in_origin_main": [
+    "timbre-perception",
+    "frequency-resolution"
+  ],
+  "display_equations": 4,
+  "validation_scope": "This entry: source IDs, citation numbering, existing links, assets, math rendering, relations and learning path. Not a successful full-site build or scientific review."
+}

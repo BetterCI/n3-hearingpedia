@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-10",
+  "entry": "pure-and-complex-tones",
+  "status": "ready_to_push",
+  "base": "88bfd0c",
+  "scope": "Only pure-and-complex-tones entry and its sources, figures, audio, research records and navigation",
+  "pnpm_check": {
+    "warnings": 0,
+    "errors": 0,
+    "hints": 0,
+    "files": 121,
+    "result": "passed"
+  },
+  "pnpm_build": "passed",
+  "pnpm_verify": {
+    "result": "passed",
+    "pages": 224,
+    "equations": 205,
+    "searchableConcepts": 95,
+    "brokenLinks": 0,
+    "checkedInternalLinks": 17643
+  },
+  "professional_review": "Draft; no named professional reviewer"
+}

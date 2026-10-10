@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-10",
+  "entry": "pure-and-complex-tones",
+  "publication_status": "local_draft_not_pushed",
+  "professional_review": "No named professional reviewer",
+  "full_site_check_scope": {
+    "workspace": "C:/Users/mengq/.codex/worktrees/sound-waves-release/n³ Hearingpedia",
+    "base_commit": "096b7f6dae419bed04fc9e317248f144eb8396d9",
+    "note": "Full checks ran in the isolated publication checkout with this draft integrated; not the historical main workspace containing other unpublished changes."
+  },
+  "pnpm_check": {"result": "passed", "files": 120, "errors": 0, "warnings": 0, "hints": 0},
+  "pnpm_build": {"result": "passed"},
+  "pnpm_verify": {
+    "result": "passed", "pages": 224, "legacyRedirects": 9,
+    "checkedInternalLinks": 17601, "equations": 201, "searchableConcepts": 95,
+    "wikiConcepts": 95, "knowledgeAreas": 7, "typedRelations": 527,
+    "conceptCrosslinks": 950, "chineseCharacters": 612949, "brokenLinks": 0
+  },
+  "resolved_during_verification": [
+    "Added the new entry to the evidence map.",
+    "Changed the invalid analyzed-by edge to spectrogram -> pure-and-complex-tones / describes, then rebuilt and verified successfully."
+  ],
+  "preview": {
+    "url": "http://127.0.0.1:4365/docs/drafts/pure-and-complex-tones-preview.html",
+    "references": 15, "loaded_figures_checked": 4, "audio_controls": 5, "katex_errors": 0,
+    "normal_viewport": {"actual_inner_width": 606, "document_client_width": 589, "document_scroll_width": 589},
+    "wide_viewport": {"requested_width": 1280, "actual_inner_width": 1422, "document_client_width": 1405, "page_overflow": false},
+    "narrow_viewport": {
+      "requested_width": 390, "actual_inner_width": 433, "document_client_width": 416,
+      "table_container_width": 380, "table_content_width": 600, "audio_width": 218,
+      "page_overflow": false, "verification": "DOM layout; narrow screenshot was blank and is not claimed as visual verification"
+    },
+    "viewport_override_reset": true,
+    "all_audio_controls_enabled": true,
+    "all_audio_autoplay": false,
+    "audio_playback_tested": false,
+    "figure_png_visual_check": "All four original PNGs inspected",
+    "final_tab": "At the title and marked as deliverable"
+  },
+  "pcm_verification": {"result": "passed", "record": "audio-checks.json", "listening_or_SPL_calibration": false},
+  "format_check": {"git_diff_check": "passed"}
+}

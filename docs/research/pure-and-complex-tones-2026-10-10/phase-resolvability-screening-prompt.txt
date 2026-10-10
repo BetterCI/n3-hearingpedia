@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Pure and complex tones: signal components, phase, spectral analysis and limits of auditory perception
+
+Title: The role of resolved and unresolved harmonics in pitch perception and frequency modulation discrimination
+Abstract: A series of experiments investigated the influence of harmonic resolvability on the pitch of, and the discriminability of differences in fundamental frequency (F0) between, frequency-modulated (FM) harmonic complexes. Both F0 (62.5 to 250 Hz) and spectral region (LOW: 125-625 Hz, MID: 1375-1875 Hz, and HIGH: 3900-5400 Hz) were varied orthogonally. The harmonics that comprised each complex could be summed in either sine (0 degree) phase (SINE) or alternating sine-cosine (0 degree-90 degrees) phase (ALT). Stimuli were presented in a continuous pink-noise background. Pitch-matching experiments revealed that the pitch of ALT-phase stimuli, relative to SINE-phase stimuli, was increased by an octave in the HIGH region, for all F0's, but was the same as that of SINE-phase stimuli when presented in the LOW region. In the MID region, the pitch of ALT-phase relative to SINE-phase stimuli depended on F0, being an octave higher at low F0's, equal at high F0's, and unclear at intermediate F0's. The same stimuli were then used in three measures of discriminability: FM detection thresholds (FMTs), frequency difference limens (FDLs), and FM direction discrimination thresholds (FMDDTs, defined as t
+Keywords/concepts: 
+Venue: The Journal of the Acoustical Society of America
+Year: 1994
+Cited by: 318
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

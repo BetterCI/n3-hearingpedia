@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-10",
+  "result": "passed",
+  "scope": "PCM headers, duration, amplitude, fades and clipping; no listening test or acoustic calibration",
+  "files": [
+    {
+      "file": "beats-6.wav",
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "sample_rate_hz": 48000,
+      "frames": 57600,
+      "duration_seconds": 1.2,
+      "whole_file_rms": 0.09923300438411028,
+      "peak_absolute": 0.1999877925962096,
+      "endpoints_zero": true,
+      "clipped_samples": 0
+    },
+    {
+      "file": "complex-200.wav",
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "sample_rate_hz": 48000,
+      "frames": 57600,
+      "duration_seconds": 1.2,
+      "whole_file_rms": 0.0989534135104366,
+      "peak_absolute": 0.22223578600421157,
+      "endpoints_zero": true,
+      "clipped_samples": 0
+    },
+    {
+      "file": "phase-quadratic.wav",
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "sample_rate_hz": 48000,
+      "frames": 57600,
+      "duration_seconds": 1.2,
+      "whole_file_rms": 0.09895441758015246,
+      "peak_absolute": 0.17850276192510758,
+      "endpoints_zero": true,
+      "clipped_samples": 0
+    },
+    {
+      "file": "phase-zero.wav",
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "sample_rate_hz": 48000,
+      "frames": 57600,
+      "duration_seconds": 1.2,
+      "whole_file_rms": 0.0989531283872929,
+      "peak_absolute": 0.4000061037018952,
+      "endpoints_zero": true,
+      "clipped_samples": 0
+    },
+    {
+      "file": "pure-400.wav",
+      "channels": 1,
+      "sample_width_bytes": 2,
+      "sample_rate_hz": 48000,
+      "frames": 57600,
+      "duration_seconds": 1.2,
+      "whole_file_rms": 0.09895444183757915,
+      "peak_absolute": 0.141422772911771,
+      "endpoints_zero": true,
+      "clipped_samples": 0
+    }
+  ]
+}

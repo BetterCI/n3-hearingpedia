@@ -1,0 +1,318 @@
+{
+  "date": "2026-10-10",
+  "scope": "Preliminary semantic screening of the capped discovery pool, not a systematic review. Important is relevance, not a claim of verified evidence.",
+  "records": [
+    {
+      "title": "Limitations in human auditory spectral analysis at high frequencies",
+      "doi": "https://doi.org/10.1121/10.0026475",
+      "grade": "Core",
+      "reason": "人体复合音谱轮廓与谱时域波纹判断，直接约束声学组成和可利用信息的区别。",
+      "evidence_basis": "selected full_text passages",
+      "included_as_entry_source": true
+    },
+    {
+      "title": "The role of resolved and unresolved harmonics in pitch perception and frequency modulation discrimination",
+      "doi": "https://doi.org/10.1121/1.409970",
+      "grade": "Core",
+      "reason": "相位、谐波可分辨性与音高或调频判断，直接支持刺激条件和任务边界。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": true
+    },
+    {
+      "title": "Fitting Linear Mixed-Effects Models Using lme4",
+      "doi": "https://doi.org/10.18637/jss.v067.i01",
+      "grade": "Exclude",
+      "reason": "混合效应模型软件，属统计实现而非本词条信号组成。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Random effects structure for confirmatory hypothesis testing: Keep it maximal",
+      "doi": "https://doi.org/10.1016/j.jml.2012.11.001",
+      "grade": "Exclude",
+      "reason": "确认性检验的随机效应结构；仅题名初筛，未核验其方法。",
+      "evidence_basis": "title only; tentative",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Transformed Up-Down Methods in Psychoacoustics",
+      "doi": "https://doi.org/10.1121/1.1912375",
+      "grade": "Background",
+      "reason": "心理声学自适应程序，可用于测量方法后续扩展，本词条未实现该程序。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Derivation of auditory filter shapes from notched-noise data",
+      "doi": "https://doi.org/10.1016/0378-5955(90)90170-t",
+      "grade": "Important",
+      "reason": "从陷波噪声估计听觉滤波器，可能解释分量可分辨性；题名初筛，未读原文。",
+      "evidence_basis": "title only; tentative",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Acoustic characteristics of American English vowels",
+      "doi": "https://doi.org/10.1121/1.411872",
+      "grade": "Exclude",
+      "reason": "英语元音声学调查，研究范围超过稳态纯音与复合音。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "A Kenward-Roger Approximation and Parametric Bootstrap Methods for Tests in Linear Mixed Models - The R Package pbkrtest",
+      "doi": "https://doi.org/10.18637/jss.v059.i09",
+      "grade": "Exclude",
+      "reason": "混合模型的统计检验软件，非本文声学问题。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Auditory-nerve response from cats raised in a low-noise chamber",
+      "doi": "https://doi.org/10.1121/1.381736",
+      "grade": "Background",
+      "reason": "猫听神经与噪声饲养环境，不直接验证本文人类行为例子。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Phase-locked response to low-frequency tones in single auditory nerve fibers of the squirrel monkey.",
+      "doi": "https://doi.org/10.1152/jn.1967.30.4.769",
+      "grade": "Important",
+      "reason": "松鼠猴听神经低频锁相，机制线索；仅题名初筛，不移作人类机制结论。",
+      "evidence_basis": "title only; tentative",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Phase-locking in the cochlear nerve of the guinea-pig and its relation to the receptor potential of inner hair-cells",
+      "doi": "https://doi.org/10.1016/0378-5955(86)90002-x",
+      "grade": "Important",
+      "reason": "豚鼠耳蜗神经锁相与毛细胞关系；仅题名初筛，未核验结果。",
+      "evidence_basis": "title only; tentative",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Rate versus level functions for auditory-nerve fibers in cats: tone-burst stimuli",
+      "doi": "https://doi.org/10.1121/1.1903521",
+      "grade": "Background",
+      "reason": "猫听神经声级响应，适用对象与记录层级需另行说明。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Revised estimates of human cochlear tuning from otoacoustic and behavioral measurements",
+      "doi": "https://doi.org/10.1073/pnas.032675099",
+      "grade": "Important",
+      "reason": "人类耳蜗调谐测量，与频率选择性有关，本文已有概念链接，未新增其结果。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "A Test for the Diagnosis of Dead Regions in the Cochlea",
+      "doi": "https://doi.org/10.3109/03005364000000131",
+      "grade": "Exclude",
+      "reason": "耳蜗死区诊断，超出本词条刺激构造范围。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Neural correlates of the pitch of complex tones. I. Pitch and pitch salience",
+      "doi": "https://doi.org/10.1152/jn.1996.76.3.1698",
+      "grade": "Important",
+      "reason": "麻醉猫对复合声的放电时序，属于动物机制证据而非试听行为数据。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "A unitary model of pitch perception",
+      "doi": "https://doi.org/10.1121/1.420088",
+      "grade": "Important",
+      "reason": "残余音高的计算模型，可后续比较，本词条不实现模型。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "A phenomenological model of the synapse between the inner hair cell and auditory nerve: Long-term adaptation with power-law dynamics",
+      "doi": "https://doi.org/10.1121/1.3238250",
+      "grade": "Background",
+      "reason": "毛细胞至听神经突触适应模型，非本文稳态组成的直接验证。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Brainstem encoding of speech in the extended high frequencies and its behavioral correlates",
+      "doi": "https://doi.org/10.1152/jn.00464.2025",
+      "grade": "Important",
+      "reason": "扩展高频言语脑干编码，近期后续线索；未核验全文，未收入正文论断。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Profile analysis in listeners with normal and elevated audiometric thresholds: Behavioral and modeling results",
+      "doi": "https://doi.org/10.1121/10.0034635",
+      "grade": "Important",
+      "reason": "正常与升高测听阈听者的谱轮廓行为和建模，可扩展人群边界；未核验全文。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Cues for tone-in-noise detection: Evidence from constant-stimuli and adaptive approaches",
+      "doi": "https://doi.org/10.1121/10.0037193",
+      "grade": "Background",
+      "reason": "噪声中纯音检测及声级或时序线索，属于另一种任务。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Nonlinear Hopf-based cochlear network: Bio-inspired modeling, analysis, and FPGA implementation for cochlear implant applications",
+      "doi": "https://doi.org/10.1016/j.bspc.2026.109929",
+      "grade": "Exclude",
+      "reason": "人工耳蜗相关的 FPGA 网络工程；题名初筛，不推测器件结果。",
+      "evidence_basis": "title only; tentative",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Pitch, consonance, and harmony",
+      "doi": "https://doi.org/10.1121/1.1914648",
+      "grade": "Background",
+      "reason": "音高、粗糙感与和谐，超出本文基础信号表征的重点。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "A duplex theory of pitch perception",
+      "doi": "https://doi.org/10.1007/bf02156143",
+      "grade": "Important",
+      "reason": "音高的双重理论，历史线索；仅题名初筛，不补造其结论。",
+      "evidence_basis": "title only; tentative",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "An optimum processor theory for the central formation of the pitch of complex tones",
+      "doi": "https://doi.org/10.1121/1.1914448",
+      "grade": "Important",
+      "reason": "复合音音高的统计估计理论，属模型而非行为测量。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Algorithm for extraction of pitch and pitch salience from complex tonal signals",
+      "doi": "https://doi.org/10.1121/1.387544",
+      "grade": "Background",
+      "reason": "复合信号音高提取算法，本文未做自动音高估计。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Pitch of the Residue",
+      "doi": "https://doi.org/10.1121/1.1918360",
+      "grade": "Important",
+      "reason": "残余音高与谱移动现象，经典机制线索，未核验原文。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Modeling the perception of concurrent vowels: Vowels with different fundamental frequencies",
+      "doi": "https://doi.org/10.1121/1.399772",
+      "grade": "Background",
+      "reason": "并发元音的计算分离，应用复杂度超出稳态教学例。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Pitch identification and discrimination for complex tones with many harmonics",
+      "doi": "https://doi.org/10.1121/1.399297",
+      "grade": "Important",
+      "reason": "多谐波复合音的音高辨别，与高阶分量和任务有关；未核验全文。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Thresholds for hearing mistuned partials as separate tones in harmonic complexes",
+      "doi": "https://doi.org/10.1121/1.394043",
+      "grade": "Important",
+      "reason": "失谐分量作为独立声音的阈值，与检测和听出区分有关；未核验全文。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "The Ear as a Frequency Analyzer. II",
+      "doi": "https://doi.org/10.1121/1.1910894",
+      "grade": "Important",
+      "reason": "复合音分量听出能力的实验，历史背景；未把其阶数界限写成通用阈值。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Pitch of Complex Tones",
+      "doi": "https://doi.org/10.1121/1.1910515",
+      "grade": "Important",
+      "reason": "复合音音高与频率或周期关系的行为比较，未核验全文。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Relative dominance of individual partials in determining the pitch of complex tones",
+      "doi": "https://doi.org/10.1121/1.391936",
+      "grade": "Important",
+      "reason": "各分量对总体音高的权重，任务方法相关但未核验全文。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Comparing the fundamental frequencies of resolved and unresolved harmonics: Evidence for two pitch mechanisms?",
+      "doi": "https://doi.org/10.1121/1.409971",
+      "grade": "Important",
+      "reason": "可分辨与不可分辨组之间的基频比较，相关机制线索，未核验全文。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Hearing a mistuned harmonic in an otherwise periodic complex tone",
+      "doi": "https://doi.org/10.1121/1.400246",
+      "grade": "Important",
+      "reason": "失谐分量音高匹配，已读摘要及作者公开 PDF 的相关方法和分离讨论。",
+      "evidence_basis": "selected full_text passages",
+      "included_as_entry_source": true
+    },
+    {
+      "title": "Deep neural network models reveal interplay of peripheral coding and stimulus statistics in pitch perception",
+      "doi": "https://doi.org/10.1038/s41467-021-27366-6",
+      "grade": "Background",
+      "reason": "神经网络中的外周输入和刺激统计操纵，计算模型范围需单独展开。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Harmonicity aids hearing in noise",
+      "doi": "https://doi.org/10.3758/s13414-021-02376-0",
+      "grade": "Background",
+      "reason": "谐波性与噪声中的听觉；仅题名初筛，不据此推测条件或效应。",
+      "evidence_basis": "title only; tentative",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Lemniscal Corticothalamic Feedback in Auditory Scene Analysis",
+      "doi": "https://doi.org/10.3389/fnins.2021.723893",
+      "grade": "Background",
+      "reason": "听觉场景的皮层丘脑反馈，机制范围超出本文。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Limitations on Temporal Processing by Cochlear Implant Users: A Compilation of Viewpoints",
+      "doi": "https://doi.org/10.1177/23312165251317006",
+      "grade": "Exclude",
+      "reason": "人工耳蜗时域处理观点汇编，不能当作本文正常听觉的独立实验。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    },
+    {
+      "title": "Difficulties Experienced by Older Listeners in Utilizing Voice Cues for Speaker Discrimination",
+      "doi": "https://doi.org/10.3389/fpsyg.2022.797422",
+      "grade": "Background",
+      "reason": "老年人语音说话人线索利用，属于特定人群和自然语音任务。",
+      "evidence_basis": "title and available abstract",
+      "included_as_entry_source": false
+    }
+  ]
+}

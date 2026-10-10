@@ -1,0 +1,38 @@
+[
+  {
+    "query": "spectral-analysis-backward",
+    "parameters": {
+      "filter": "cited_by:W4400547770"
+    },
+    "requested_limit": 15,
+    "returned": 15,
+    "status": "ok"
+  },
+  {
+    "query": "spectral-analysis-recent-forward",
+    "parameters": {
+      "filter": "cites:W4400547770,from_publication_date:2021-01-01,to_publication_date:2026-10-10"
+    },
+    "requested_limit": 5,
+    "returned": 4,
+    "status": "ok"
+  },
+  {
+    "query": "phase-resolvability-backward",
+    "parameters": {
+      "filter": "cited_by:W2036102413"
+    },
+    "requested_limit": 15,
+    "returned": 15,
+    "status": "ok"
+  },
+  {
+    "query": "phase-resolvability-recent-forward",
+    "parameters": {
+      "filter": "cites:W2036102413,from_publication_date:2021-01-01,to_publication_date:2026-10-10"
+    },
+    "requested_limit": 5,
+    "returned": 5,
+    "status": "ok"
+  }
+]

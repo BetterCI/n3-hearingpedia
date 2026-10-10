@@ -1,0 +1,105 @@
+{
+  "data_type": "original analytic teaching models, not experiments",
+  "numpy_version": "1.26.4",
+  "matplotlib_version": "3.8.0",
+  "sample_rate": 48000,
+  "phase": {
+    "F0_Hz": 200,
+    "harmonics": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "rule": "phi_n = -pi*n*(n-1)/8, cosine convention",
+    "rms_zero": 0.09999999999999998,
+    "rms_quadratic": 0.1,
+    "peak_zero": 0.4,
+    "peak_quadratic": 0.1784991334973589,
+    "crest_factor_zero": 4.000000000000001,
+    "crest_factor_quadratic": 1.784991334973589
+  },
+  "beats": {
+    "frequencies_Hz": [
+      450,
+      456
+    ],
+    "signed_modulator_Hz": 3,
+    "envelope_rate_Hz": 6
+  },
+  "window": {
+    "frequency_Hz": 1007,
+    "N": 2400,
+    "duration_s": 0.05,
+    "bin_spacing_Hz": 20,
+    "zero_padding_factor": 16,
+    "amplitude_correction": "2*abs(rfft(x*w))/sum(w), interior positive frequencies"
+  },
+  "audio": [
+    {
+      "file": "pure-400.wav",
+      "label": "400 Hz 纯音",
+      "samples": 57600,
+      "sample_rate": 48000,
+      "duration_s": 1.2,
+      "ramp_ms": 20,
+      "theoretical_steady_rms": 0.1,
+      "file_rms": 0.09895306917520336,
+      "file_peak": 0.1414213562373095
+    },
+    {
+      "file": "complex-200.wav",
+      "label": "200 Hz 谐波复合音",
+      "samples": 57600,
+      "sample_rate": 48000,
+      "duration_s": 1.2,
+      "ramp_ms": 20,
+      "theoretical_steady_rms": 0.1,
+      "file_rms": 0.09895304954037894,
+      "file_peak": 0.22223355980148637
+    },
+    {
+      "file": "phase-zero.wav",
+      "label": "八谐波余弦同相",
+      "samples": 57600,
+      "sample_rate": 48000,
+      "duration_s": 1.2,
+      "ramp_ms": 20,
+      "theoretical_steady_rms": 0.1,
+      "file_rms": 0.09895303314618467,
+      "file_peak": 0.4
+    },
+    {
+      "file": "phase-quadratic.wav",
+      "label": "八谐波二次相位",
+      "samples": 57600,
+      "sample_rate": 48000,
+      "duration_s": 1.2,
+      "ramp_ms": 20,
+      "theoretical_steady_rms": 0.1,
+      "file_rms": 0.09895307445216658,
+      "file_peak": 0.17849913349741084
+    },
+    {
+      "file": "beats-6.wav",
+      "label": "450 与 456 Hz 拍音",
+      "samples": 57600,
+      "sample_rate": 48000,
+      "duration_s": 1.2,
+      "ramp_ms": 20,
+      "theoretical_steady_rms": 0.1,
+      "file_rms": 0.09923290591182668,
+      "file_peak": 0.2
+    }
+  ],
+  "checks": [
+    "phase FFT magnitudes equal",
+    "phase RMS 0.1",
+    "beats bounded by analytic envelope",
+    "audio does not clip"
+  ]
+}

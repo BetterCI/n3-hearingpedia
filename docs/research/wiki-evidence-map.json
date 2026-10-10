@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-10",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 521,
+  "relations": 527,
   "entries": [
     {
       "slug": "cochlea",
@@ -3951,6 +3951,45 @@
         "speech-intelligibility",
         "binaural-hearing",
         "spatial-hearing"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "pure-and-complex-tones",
+      "knowledge_area": "sound",
+      "kind": "representation",
+      "chinese_characters": 6843,
+      "body_characters": 13166,
+      "sections": 10,
+      "subsections": 19,
+      "reference_ids": [
+        "tones-sfu-simple",
+        "tones-sfu-complex",
+        "tones-mit-series",
+        "tones-sfu-analysis",
+        "tones-unsw-linear",
+        "tones-openstax-beats",
+        "tones-numpy-rfft",
+        "tones-scipy-spectral",
+        "tones-scipy-periodogram",
+        "tones-audacity-tone",
+        "shackleton-1994",
+        "harmonicity-high",
+        "hartmann-1990",
+        "tones-whiteford-2023",
+        "tones-guest-2024"
+      ],
+      "wiki_links": [
+        "sound-waves-and-propagation",
+        "harmonicity",
+        "pitch-perception",
+        "timbre-perception",
+        "fundamental-frequency",
+        "pure-tone-audiometry",
+        "spectrogram",
+        "auditory-filter",
+        "frequency-resolution"
       ],
       "status": "draft",
       "depth": "in-depth"

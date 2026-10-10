@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Pure and complex tones: signal components, phase, spectral analysis and limits of auditory perception
+
+Title: Limitations in human auditory spectral analysis at high frequencies
+Abstract: Humans are adept at identifying spectral patterns, such as vowels, in different rooms, at different sound levels, or produced by different talkers. How this feat is achieved remains poorly understood. Two psychoacoustic analogs of spectral pattern recognition are spectral profile analysis and spectrotemporal ripple direction discrimination. This study tested whether pattern-recognition abilities observed previously at low frequencies are also observed at extended high frequencies. At low frequencies (center frequency ∼500 Hz), listeners were able to achieve accurate profile-analysis thresholds, consistent with prior literature. However, at extended high frequencies (center frequency ∼10 kHz), listeners' profile-analysis thresholds were either unmeasurable or could not be distinguished from performance based on overall loudness cues. A similar pattern of results was observed with spectral ripple discrimination, where performance was again considerably better at low than at high frequencies. Collectively, these results suggest a severe deficit in listeners' ability to analyze patterns of intensity across frequency in the extended high-frequency region that cannot be accounted for by 
+Keywords/concepts: 
+Venue: The Journal of the Acoustical Society of America
+Year: 2024
+Cited by: 4
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
