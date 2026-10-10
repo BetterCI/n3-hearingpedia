@@ -5,7 +5,7 @@ slug: "lloyd-jeffress"
 summary: "从两耳的时间差到神经活动的位置：介绍Lloyd Jeffress的研究经历、延迟线与符合检测模型、鸟类实验和哺乳动物研究的修正，以及双耳掩蔽和听觉检测方面的贡献。"
 categories: ["binaural", "psychoacoustics", "neuroscience"]
 tags: ["研究人物", "科学史", "Jeffress模型", "双耳时间差", "符合检测", "双耳解掩蔽"]
-aliases: ["Lloyd Alexander Jeffress", "Lloyd A. Jeffress", "劳埃德·杰弗里斯", "杰弗里斯", "Jeffress"]
+aliases: ["Lloyd Alexander Jeffress","Lloyd A. Jeffress","杰弗里斯","Jeffress"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
@@ -22,7 +22,7 @@ batch: 4
 order: 116
 ---
 
-**Lloyd Jeffress**（Lloyd Alexander Jeffress，劳埃德·杰弗里斯，1900—1986）是美国实验心理学家，长期任职于德州大学奥斯汀分校，以双耳听觉、声音定位和听觉检测研究著称。他在1948年提出一个影响深远的设想：利用不同传导延迟和对两侧输入同时到达的敏感性，将[双耳时间差](../interaural-time-difference/)（interaural time difference，ITD）转化为不同神经元的活动，形成关于声音方向的可读出表示。[1](#ref-jeffress-ut)[5](#ref-binaural-hearing-jeffress)
+**Lloyd Jeffress**（Lloyd Alexander Jeffress，1900—1986）是美国实验心理学家，长期任职于德州大学奥斯汀分校，以双耳听觉、声音定位和听觉检测研究著称。他在1948年提出一个影响深远的设想：利用不同传导延迟和对两侧输入同时到达的敏感性，将[双耳时间差](../interaural-time-difference/)（interaural time difference，ITD）转化为不同神经元的活动，形成关于声音方向的可读出表示。[1](#ref-jeffress-ut)[5](#ref-binaural-hearing-jeffress)
 
 这个通常称为**Jeffress模型**的框架，把声音到达耳朵的时间关系与神经回路可以执行的计算联系起来。它对后来的鸟类神经生理、哺乳动物空间编码和双耳计算模型都有影响；其具体解剖实现和输出读法，则需要分物种、分脑区检验。[9](#ref-jeffress-carr-konishi-1990)[10](#ref-mcalpine-2001)[13](#ref-binaural-hearing-grothe)
 
@@ -211,7 +211,7 @@ Jeffress与Blodgett、Deatherage的1952年研究，系统改变500 Hz信号及�
 
 设计ITD实验时，先明确研究者改变的是载波精细结构、包络还是起始时间；使用纯音、噪声还是言语；两耳是否保持同样的声级和频谱。随后规定听者报告左／右、连续侧向位置、声源方位，还是信号是否出现。相同刺激可用于不同任务，结果解释也不同。[13](#ref-binaural-hearing-grothe)
 
-耳机产生的头内偏向通常称为侧向化；外部声源的方向判断属于定位。若模型只预测一个内部相关峰，把峰的位置直接换成真实方位角，还需要头相关传递函数、坐标约定及任务验证。声像的头内与外部表现可结合[Jens Blauert](../jens-blauert/)词条理解。
+耳机产生的头内偏向通常称为侧向化；外部声源的方向判断属于定位。若模型只预测一个内部相关峰，把峰的位置直接换成真实方位角，还需要头相关传递函数、坐标约定及任务验证。声像的头内与外部表现可结合[简斯·布劳尔特](../jens-blauert/)词条理解。
 
 一个合适的教学比较可以固定两耳声级，改变正负ITD；再固定ITD，改变信号与噪声相关性。前一组问方向变化，后一组问检出变化。若要作为正式研究，需要测量阈值或连续报告，提供足够重复和受试者信息；一次主观演示不能估计总体效应。
 

@@ -1,11 +1,11 @@
 ---
-title: "Albert Bregman"
+title: "阿尔伯特·布雷格曼"
 english: "Albert Bregman"
 slug: "albert-bregman"
-summary: "从磁带中的声音分组到听觉场景分析：介绍Albert Bregman的研究经历、声流实验、音色分组、连续性错觉及其对音乐和复杂环境聆听研究的影响。"
+summary: "从磁带中的声音分组到听觉场景分析：介绍阿尔伯特·布雷格曼的研究经历、声流实验、音色分组、连续性错觉及其对音乐和复杂环境聆听研究的影响。"
 categories: ["psychoacoustics", "speech", "neuroscience"]
 tags: ["研究人物", "科学史", "听觉场景分析", "听觉流分离", "知觉组织", "连续性错觉"]
-aliases: ["Albert Stanley Bregman", "Albert S. Bregman", "Al Bregman", "阿尔伯特·布雷格曼", "布雷格曼", "Bregman"]
+aliases: ["Albert Stanley Bregman","Albert S. Bregman","Al Bregman","阿尔伯特·布雷格曼","布雷格曼","Bregman","Albert Bregman"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
@@ -22,15 +22,15 @@ batch: 4
 order: 115
 ---
 
-**Albert Bregman**（Albert Stanley Bregman，阿尔伯特·布雷格曼，1936—2023）是加拿大实验心理学家，长期任职于麦吉尔大学心理学系，以声音的知觉组织研究及[听觉场景分析](../auditory-scene-analysis/)（auditory scene analysis，ASA）理论框架著称。他研究听者怎样把到达耳朵的复杂混合声组织成听觉对象和声流，并用实验说明这种组织怎样影响顺序、节奏、音色与连续性的感知。[1](#ref-bregman-mcgill)[5](#ref-auditory-scene-analysis-bregman)[18](#ref-bregman-mcadams)
+**阿尔伯特·布雷格曼**（Albert Bregman，Albert Stanley Bregman，1936—2023）是加拿大实验心理学家，长期任职于麦吉尔大学心理学系，以声音的知觉组织研究及[听觉场景分析](../auditory-scene-analysis/)（auditory scene analysis，ASA）理论框架著称。他研究听者怎样把到达耳朵的复杂混合声组织成听觉对象和声流，并用实验说明这种组织怎样影响顺序、节奏、音色与连续性的感知。[1](#ref-bregman-mcgill)[5](#ref-auditory-scene-analysis-bregman)[18](#ref-bregman-mcadams)
 
 在Bregman的研究中，关键问题不仅是某个声音能否听见，还包括哪些成分被归为同一个声音。耳朵接收到交错的高音和低音，听者可能感觉是一条跳动的旋律，也可能感觉是两条并行的声部。实际输入没有增加声源，知觉中的组织却可能改变。
 
 本页以人物经历、经典范式和方法影响为主线。原始实验、研究者自己的回忆、后续理论和本站教学例子分别说明；对概念的系统展开，可结合听觉场景分析词条阅读。
 
 <figure class="person-photo-figure person-portrait">
-  <a href="/n3-hearingpedia/people/albert-bregman/portrait-2011.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/albert-bregman/portrait-2011.jpg" alt="Albert Bregman本人肖像，CognitivePsychologist" width="559" height="703" loading="lazy" /></a>
-  <figcaption>Albert Bregman，2011年8月1日。摄影：CognitivePsychologist；来源：<a href="https://commons.wikimedia.org/wiki/File:Albert_S._Bregman.JPG" target="_blank" rel="noopener">Wikimedia Commons原图与署名</a>；<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>。保留原图，未修改。</figcaption>
+  <a href="/n3-hearingpedia/people/albert-bregman/portrait-2011.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/albert-bregman/portrait-2011.jpg" alt="阿尔伯特·布雷格曼（Albert Bregman）本人肖像，CognitivePsychologist" width="559" height="703" loading="lazy" /></a>
+  <figcaption>阿尔伯特·布雷格曼，2011年8月1日。摄影：CognitivePsychologist；来源：<a href="https://commons.wikimedia.org/wiki/File:Albert_S._Bregman.JPG" target="_blank" rel="noopener">Wikimedia Commons原图与署名</a>；<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>。保留原图，未修改。</figcaption>
 </figure>
 
 ## 生平与研究起点
@@ -258,4 +258,4 @@ Bregman与Pierre Ahad在1996年制作配套音频演示。其个人网站的保�
 | 顺序分组怎样影响音色 | 顺序与同时分组的竞争 | Bregman与Pinker（1978） |
 | 缺失音怎样被感觉为连续 | 表观连续、滑动音穿过噪声 | Ciocca与Bregman（1987） |
 
-进一步可读[听觉场景分析](../auditory-scene-analysis/)、[音色感知](../timbre-perception/)、[听觉注意](../auditory-attention/)与[心理声学](../psychoacoustics/)。与[Harvey Fletcher](../harvey-fletcher/)的人物页对照时，可以比较研究者如何从“声音可听与言语评价”走向“声音归属与对象组织”。两条研究线各有任务，也共同要求刺激、感知报告和理论解释能够相互检验。
+进一步可读[听觉场景分析](../auditory-scene-analysis/)、[音色感知](../timbre-perception/)、[听觉注意](../auditory-attention/)与[心理声学](../psychoacoustics/)。与[哈维·弗莱彻](../harvey-fletcher/)的人物页对照时，可以比较研究者如何从“声音可听与言语评价”走向“声音归属与对象组织”。两条研究线各有任务，也共同要求刺激、感知报告和理论解释能够相互检验。

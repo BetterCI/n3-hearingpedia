@@ -234,7 +234,7 @@ Sunwoo、Delgutte与Chung于2021年研究新生期失聪兔的长期双侧电刺
 
 ### 与其他人物和词条连接
 
-Delgutte的研究与Kiang的听神经测量传统相连，也把[Jeffress](../lloyd-jeffress/)关注的双耳时序计算推进到电刺激与听觉经验问题。与[Schroeder](../manfred-r-schroeder/)的声音处理工作及[Jens Blauert](../jens-blauert/)的空间听觉体系相对照，可以看到同一聆听问题怎样在声学处理、神经记录和感知任务之间展开。
+Delgutte的研究与Kiang的听神经测量传统相连，也把[Jeffress](../lloyd-jeffress/)关注的双耳时序计算推进到电刺激与听觉经验问题。与[Schroeder](../manfred-r-schroeder/)的声音处理工作及[简斯·布劳尔特](../jens-blauert/)的空间听觉体系相对照，可以看到同一聆听问题怎样在声学处理、神经记录和感知任务之间展开。
 
 入门阅读可先看[心理声学](../psychoacoustics/)、[音高感知](../pitch-perception/)与双耳时间差，再读声学嵌合体论文及SIPI的人类、动物配对研究。深入混响时，将2015年简化调幅实验与2023年自然语音重建放在一起比较；深入人工耳蜗时，则并读2007年急性模型、2014年清醒记录及2021年早期经验研究。
 

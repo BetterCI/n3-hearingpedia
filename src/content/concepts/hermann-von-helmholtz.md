@@ -1,15 +1,15 @@
 ---
-title: "Hermann von Helmholtz"
+title: "赫尔曼·冯·亥姆霍兹"
 english: "Hermann von Helmholtz"
 slug: "hermann-von-helmholtz"
 summary: "以共振器分析与音叉合成连接声音结构和听觉感觉：理解Helmholtz的音色、元音与协和研究，以及耳蜗共振假说的历史边界。"
 categories: ["psychoacoustics", "ear-cochlea", "speech"]
 tags: ["研究人物", "科学史", "生理声学", "共振器", "声音合成"]
-aliases: ["Hermann Ludwig Ferdinand von Helmholtz", "Hermann Helmholtz", "赫尔曼·冯·亥姆霍兹", "亥姆霍兹", "亥姆霍茨", "黑尔姆霍兹"]
+aliases: ["Hermann Ludwig Ferdinand von Helmholtz","Hermann Helmholtz","赫尔曼·冯·亥姆霍兹","亥姆霍兹","亥姆霍茨","黑尔姆霍兹","Hermann von Helmholtz"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-09"
+last_updated: "2026-10-10"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -22,15 +22,15 @@ batch: 4
 order: 110
 ---
 
-**Hermann von Helmholtz**（赫尔曼·冯·亥姆霍兹，1821年8月31日—1894年9月8日）是德国生理学家和物理学家，研究跨越神经生理、视觉、声学与物理测量。在听觉科学中，他以共振器分析复合声音、音叉合成元音，以及把声音结构与音高、音色和协和感连接起来的工作著称。他的《音的感觉》德文初版于1863年出版，是生理声学与音乐理论相互联系的重要历史著作。[1](#ref-helmholtz-gerlach-1969)[2](#ref-helmholtz-association-history)[3](#ref-helmholtz-tone-1895)
+**赫尔曼·冯·亥姆霍兹**（Hermann von Helmholtz，1821年8月31日—1894年9月8日）是德国生理学家和物理学家，研究跨越神经生理、视觉、声学与物理测量。在听觉科学中，他以共振器分析复合声音、音叉合成元音，以及把声音结构与音高、音色和协和感连接起来的工作著称。他的《音的感觉》德文初版于1863年出版，是生理声学与音乐理论相互联系的重要历史著作。[1](#ref-helmholtz-gerlach-1969)[2](#ref-helmholtz-association-history)[3](#ref-helmholtz-tone-1895)
 
 他的贡献可以沿着一条实验主线理解：先问声音包含哪些振动成分，再用装置改变这些成分，观察人的听觉判断怎样变化。这条“分析—合成—比较”的路径连接本站的[心理声学](../psychoacoustics/)、[音色感知](../timbre-perception/)、[共振峰](../formant/)与[耳蜗](../cochlea/)。历史上的耳蜗共振假说则需要与后来的行波、主动放大和神经编码研究分开阅读。
 
 Helmholtz 的工作不是一套已经完成的现代听觉理论。他把物理刺激、生理机制和感觉经验放到同一研究框架中，也留下了可供后人检验和修正的问题。阅读人物篇，最有价值的是看清他怎样把问题变成实验，以及实验结论在哪些条件下成立。
 
 <figure class="person-photo-figure person-portrait">
-<a href="/n3-hearingpedia/people/hermann-von-helmholtz/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/hermann-von-helmholtz/portrait.jpg" alt="Hermann von Helmholtz 的黑白肖像，身穿深色外套、站在黑板与桌旁" width="280" height="522" loading="lazy" /></a>
-<figcaption>Hermann von Helmholtz 肖像。署名：AIP Emilio Segrè Visual Archives, General Collection；来源与授权见<a href="https://commons.wikimedia.org/wiki/File:Hermann_von_Helmholtz-2.jpg" target="_blank" rel="noopener">Wikimedia Commons 文件页</a>，<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a>。保留原文件，未修改；文件上传年份不是摄影年份。<a href="#ref-helmholtz-portrait-source">12</a></figcaption>
+<a href="/n3-hearingpedia/people/hermann-von-helmholtz/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/hermann-von-helmholtz/portrait.jpg" alt="赫尔曼·冯·亥姆霍兹（Hermann von Helmholtz） 的黑白肖像，身穿深色外套、站在黑板与桌旁" width="280" height="522" loading="lazy" /></a>
+<figcaption>赫尔曼·冯·亥姆霍兹 肖像。署名：AIP Emilio Segrè Visual Archives, General Collection；来源与授权见<a href="https://commons.wikimedia.org/wiki/File:Hermann_von_Helmholtz-2.jpg" target="_blank" rel="noopener">Wikimedia Commons 文件页</a>，<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a>。保留原文件，未修改；文件上传年份不是摄影年份。<a href="#ref-helmholtz-portrait-source">12</a></figcaption>
 </figure>
 
 ## 生平：从医学训练走向物理测量

@@ -1,11 +1,11 @@
 ---
-title: "Manfred R. Schroeder"
+title: "曼弗雷德·施罗德"
 english: "Manfred Robert Schroeder"
 slug: "manfred-r-schroeder"
 summary: "从混响测量、音乐厅与数论扩散体，到CELP语音编码和施罗德相位：理解曼弗雷德·施罗德如何连接声学、数学与听觉实验。"
 categories: ["acoustics", "psychoacoustics", "speech", "binaural"]
 tags: ["研究人物", "科学史", "房间声学", "施罗德相位", "语音编码", "数论"]
-aliases: ["Manfred Schroeder", "Manfred Schröder", "曼弗雷德·施罗德", "曼弗雷德·罗伯特·施罗德", "施罗德"]
+aliases: ["Manfred Schroeder","Manfred Schröder","曼弗雷德·施罗德","曼弗雷德·罗伯特·施罗德","施罗德","Manfred R. Schroeder"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
@@ -22,7 +22,7 @@ batch: 4
 order: 112
 ---
 
-**Manfred R. Schroeder**（全名 Manfred Robert Schroeder，曼弗雷德·施罗德，1926—2009）是德国声学家、物理学家与应用数学研究者，长期在贝尔实验室和哥廷根大学工作。他的研究连接[房间声学](../room-acoustics/)、语音信号处理和[心理声学](../psychoacoustics/)：既研究声音在空间中怎样传播，也研究声音怎样有效表示，以及听者怎样利用这些信息。[1](#ref-schroeder-nae)
+**曼弗雷德·施罗德**（Manfred R. Schroeder，全名 Manfred Robert Schroeder，1926—2009）是德国声学家、物理学家与应用数学研究者，长期在贝尔实验室和哥廷根大学工作。他的研究连接[房间声学](../room-acoustics/)、语音信号处理和[心理声学](../psychoacoustics/)：既研究声音在空间中怎样传播，也研究声音怎样有效表示，以及听者怎样利用这些信息。[1](#ref-schroeder-nae)
 
 听觉研究中多个熟悉的名称与他有关，包括施罗德频率、混响的施罗德逆向积分、施罗德相位和基于数论的声扩散体。他还与 Bishnu S. Atal 合作提出码激励线性预测（CELP），成为低码率语音编码的重要研究起点。[3](#ref-schroeder-frequency-1996)[5](#ref-room-acoustics-schroeder)[7](#ref-schroeder-phase-1970)[14](#ref-schroeder-diffusers-1979)[15](#ref-schroeder-celp-1985)
 

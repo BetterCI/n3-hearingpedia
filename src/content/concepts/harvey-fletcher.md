@@ -1,11 +1,11 @@
 ---
-title: "Harvey Fletcher"
+title: "哈维·弗莱彻"
 english: "Harvey Fletcher"
 slug: "harvey-fletcher"
-summary: "从等响曲线、临界频带和言语清晰度指数到早期立体声与钢琴音色研究：理解Harvey Fletcher如何将听觉测量连接到通信声学与听力技术。"
+summary: "从等响曲线、临界频带和言语清晰度指数到早期立体声与钢琴音色研究：理解哈维·弗莱彻如何将听觉测量连接到通信声学与听力技术。"
 categories: ["psychoacoustics", "acoustics", "speech"]
 tags: ["研究人物", "科学史", "等响曲线", "临界频带", "言语清晰度", "贝尔实验室"]
-aliases: ["哈维·弗莱彻", "哈维·弗莱切", "弗莱彻", "Fletcher"]
+aliases: ["哈维·弗莱彻","哈维·弗莱切","弗莱彻","Fletcher","Harvey Fletcher"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
@@ -22,15 +22,15 @@ batch: 4
 order: 114
 ---
 
-**Harvey Fletcher**（哈维·弗莱彻，1884—1981）是美国物理学家、声学与听觉研究者，长期在西方电气和贝尔实验室开展通信声学研究。他与W. A. Munson合作的等响研究、围绕掩蔽与临界频带的工作，以及对言语清晰度测量和计算的持续发展，连接了[心理声学](../psychoacoustics/)、电话工程和听力技术。[1](#ref-fletcher-nas)[2](#ref-fletcher-byu)[3](#ref-fletcher-allen)
+**哈维·弗莱彻**（Harvey Fletcher，1884—1981）是美国物理学家、声学与听觉研究者，长期在西方电气和贝尔实验室开展通信声学研究。他与W. A. Munson合作的等响研究、围绕掩蔽与临界频带的工作，以及对言语清晰度测量和计算的持续发展，连接了[心理声学](../psychoacoustics/)、电话工程和听力技术。[1](#ref-fletcher-nas)[2](#ref-fletcher-byu)[3](#ref-fletcher-allen)
 
 Fletcher面对的一个核心问题是：传输系统保留了多少声音，并不自动说明听者听见了多少、感觉多响或理解了多少。要回答这些问题，既要测量物理声信号，也要规定听者的任务，再将观察结果与计算预测比较。其研究的价值，正在于把这些环节组织成可重复的研究方法。
 
 本页沿生平、研究问题和代表成果展开。历史人物的贡献、合作者的工作、后来形成的标准和本站教学计算分别说明；“Fletcher–Munson曲线”等熟悉名称，也需要放回具体年代与测量条件中理解。
 
 <figure class="person-photo-figure person-portrait">
-  <a href="/n3-hearingpedia/people/harvey-fletcher/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/harvey-fletcher/portrait.jpg" alt="Harvey Fletcher本人肖像，AIP Emilio Segrè Visual Archives, American Institute of Physics" width="2391" height="2993" loading="lazy" /></a>
-  <figcaption>Harvey Fletcher。照片来源与署名：AIP Emilio Segrè Visual Archives，American Institute of Physics；<a href="https://repository.aip.org/portrait-fletcher-0" target="_blank" rel="noopener">原档案</a>／<a href="https://commons.wikimedia.org/wiki/File:Harvey_Fletcher.jpg" target="_blank" rel="noopener">Wikimedia Commons图像与权利记录</a>。依<a href="https://aip.libguides.com/esvaguide/copyright" target="_blank" rel="noopener">AIP署名使用许可</a>使用；拍摄年代、摄影者未注明，保留原图，未修改。</figcaption>
+  <a href="/n3-hearingpedia/people/harvey-fletcher/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/harvey-fletcher/portrait.jpg" alt="哈维·弗莱彻（Harvey Fletcher）本人肖像，AIP Emilio Segrè Visual Archives, American Institute of Physics" width="2391" height="2993" loading="lazy" /></a>
+  <figcaption>哈维·弗莱彻。照片来源与署名：AIP Emilio Segrè Visual Archives，American Institute of Physics；<a href="https://repository.aip.org/portrait-fletcher-0" target="_blank" rel="noopener">原档案</a>／<a href="https://commons.wikimedia.org/wiki/File:Harvey_Fletcher.jpg" target="_blank" rel="noopener">Wikimedia Commons图像与权利记录</a>。依<a href="https://aip.libguides.com/esvaguide/copyright" target="_blank" rel="noopener">AIP署名使用许可</a>使用；拍摄年代、摄影者未注明，保留原图，未修改。</figcaption>
 </figure>
 
 ## 生平与研究环境
@@ -270,4 +270,4 @@ Fletcher的 *Speech and Hearing* 于1929年由Van Nostrand出版；1953年的 *S
 
 学习者可以选择图3或图4的计算，先核对公式、变量和图中数值，再提出一个需要真实听者才能回答的问题。例如，图3可以算出通带内功率，却不能证明目标音阈值；图4可以算出加权值，却不能证明词语正确率。把这个缺口写清，再选择刺激和行为任务，比只复现一张曲线更接近这些经典研究的方法。
 
-同样，比较Fletcher与[Hermann von Helmholtz](../hermann-von-helmholtz/)、Georg von Békésy的工作时，可以分别关注感知理论、耳蜗机械证据和通信行为评价怎样相互启发。历史上的人物和模型各自解释了问题的一部分；现代听觉科学仍通过新的测量，把这些部分与真实聆听连接起来。
+同样，比较Fletcher与[赫尔曼·冯·亥姆霍兹](../hermann-von-helmholtz/)、Georg von Békésy的工作时，可以分别关注感知理论、耳蜗机械证据和通信行为评价怎样相互启发。历史上的人物和模型各自解释了问题的一部分；现代听觉科学仍通过新的测量，把这些部分与真实聆听连接起来。

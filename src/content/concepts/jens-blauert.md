@@ -1,11 +1,11 @@
 ---
-title: "Jens Blauert"
+title: "简斯·布劳尔特"
 english: "Jens Blauert"
 slug: "jens-blauert"
-summary: "从正中面定位和方向性频带到双耳房间模拟、AABBA与主动聆听：理解Jens Blauert如何把空间听觉研究连接到声学工程与感知评价。"
+summary: "从正中面定位和方向性频带到双耳房间模拟、AABBA与主动聆听：理解简斯·布劳尔特如何把空间听觉研究连接到声学工程与感知评价。"
 categories: ["psychoacoustics", "binaural", "acoustics"]
 tags: ["研究人物", "科学史", "空间听觉", "方向性频带", "双耳技术", "听觉虚拟环境"]
-aliases: ["Jens Peter Blauert", "延斯·布劳尔特", "延斯·布劳厄特", "布劳尔特", "Blauert"]
+aliases: ["Jens Peter Blauert","延斯·布劳尔特","延斯·布劳厄特","布劳尔特","Blauert","Jens Blauert","简斯·布劳尔特"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
@@ -22,15 +22,15 @@ batch: 4
 order: 113
 ---
 
-**Jens Blauert**（Jens Peter Blauert，延斯·布劳尔特，1938—2026）是德国声学与心理声学研究者，鲁尔大学波鸿通信声学研究所的创立者。他以[空间听觉](../spatial-hearing/)研究及其技术应用著称，代表工作涉及正中面声音定位、方向性频带、双耳声音重放与听觉模型；著作 *Spatial Hearing: The Psychophysics of Human Sound Localization* 为这个领域提供了系统的研究框架。[1](#ref-blauert-ika)[4](#ref-blauert-median)[5](#ref-blauert-spatial-book)
+**简斯·布劳尔特**（Jens Blauert，Jens Peter Blauert，1938—2026）是德国声学与心理声学研究者，鲁尔大学波鸿通信声学研究所的创立者。他以[空间听觉](../spatial-hearing/)研究及其技术应用著称，代表工作涉及正中面声音定位、方向性频带、双耳声音重放与听觉模型；著作 *Spatial Hearing: The Psychophysics of Human Sound Localization* 为这个领域提供了系统的研究框架。[1](#ref-blauert-ika)[4](#ref-blauert-median)[5](#ref-blauert-spatial-book)
 
 Blauert 的工作把三个问题持续连接起来：声源和环境产生了什么声场，哪些信息到达左右两耳，以及听者实际感知到什么位置、空间印象和意义。由此，空间音频的评价不能停留在“有两路信号”或“能模拟一个房间”；它还需要验证定位、外化、语音理解或体验质量等具体结果。[8](#ref-blauert-room)[10](#ref-blauert-introduction)
 
 本页以他的研究问题、合作和著作为主线。早期方向性频带的行为发现、后来的双耳模型和当前可使用的数据工具，分别属于历史研究、计算解释和实现资源；它们可以共同阅读，但不是同一种证据。
 
 <figure class="person-photo-figure person-portrait">
-  <a href="/n3-hearingpedia/people/jens-blauert/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/jens-blauert/portrait.jpg" alt="Jens Blauert本人照片，© Tanja Brueckner" width="400" height="533" loading="lazy" /></a>
-  <figcaption>Jens Blauert。波鸿大学通信声学研究所人物页。保留原页面署名 © Tanja Brueckner；拍摄年代未注明。 <a href="https://www.ika.ruhr-uni-bochum.de/ika/team/blauert.html.de" target="_blank" rel="noopener">原始来源</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
+  <a href="/n3-hearingpedia/people/jens-blauert/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/jens-blauert/portrait.jpg" alt="简斯·布劳尔特（Jens Blauert）本人照片，© Tanja Brueckner" width="400" height="533" loading="lazy" /></a>
+  <figcaption>简斯·布劳尔特。波鸿大学通信声学研究所人物页。保留原页面署名 © Tanja Brueckner；拍摄年代未注明。 <a href="https://www.ika.ruhr-uni-bochum.de/ika/team/blauert.html.de" target="_blank" rel="noopener">原始来源</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
 </figure>
 
 ## 生平与研究环境
@@ -43,7 +43,7 @@ Blauert 于1938年生于汉堡，在亚琛工业大学学习通信工程，1969�
 
 ### 贝尔实验室、工程实践与教学
 
-AES的纪念文章回顾了Blauert在贝尔实验室的访问研究，以及与[Manfred R. Schroeder](../manfred-r-schroeder/)的学术联系。那里将心理物理、数字信号处理和声学测量联系起来的研究环境，也与Blauert后来发展双耳技术的方向相呼应。[2](#ref-blauert-aes)
+AES的纪念文章回顾了Blauert在贝尔实验室的访问研究，以及与[曼弗雷德·施罗德](../manfred-r-schroeder/)的学术联系。那里将心理物理、数字信号处理和声学测量联系起来的研究环境，也与Blauert后来发展双耳技术的方向相呼应。[2](#ref-blauert-aes)
 
 大学纪念资料还介绍了他在建筑声学咨询、人才培养和学术组织建设中的活动。他于2026年去世；人物页按大学和专业学会资料记录生卒年。读者可以在[波鸿大学人物与纪念页面](https://www.ika.ruhr-uni-bochum.de/ika/team/blauert.html.de)查看其肖像与机构介绍。[1](#ref-blauert-ika)[2](#ref-blauert-aes)
 

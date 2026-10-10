@@ -1,11 +1,11 @@
 ---
-title: "Eberhard Zwicker"
+title: "埃伯哈德·茨维克尔"
 english: "Eberhard Zwicker"
 slug: "eberhard-zwicker"
-summary: "从临界带与Bark尺度，到特定响度、声品质和Zwicker音：介绍Eberhard Zwicker如何把听觉实验转化为可计算的心理声学模型，以及这些模型的应用条件与边界。"
+summary: "从临界带与Bark尺度，到特定响度、声品质和Zwicker音：介绍埃伯哈德·茨维克尔如何把听觉实验转化为可计算的心理声学模型，以及这些模型的应用条件与边界。"
 categories: ["psychoacoustics", "acoustics", "signal-processing", "research-methods"]
 tags: ["研究人物", "科学史", "临界带", "Bark", "响度", "声品质", "Zwicker音"]
-aliases: ["埃伯哈德·茨维克", "埃伯哈德·兹维克", "茨维克", "兹维克", "Zwicker", "E. Zwicker"]
+aliases: ["埃伯哈德·茨维克","埃伯哈德·兹维克","茨维克","兹维克","Zwicker","E. Zwicker","Eberhard Zwicker","埃伯哈德·茨维克尔"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
@@ -22,15 +22,15 @@ batch: 4
 order: 119
 ---
 
-**Eberhard Zwicker**（埃伯哈德·茨维克，1924—1990）是德国声学与心理声学研究者，曾在斯图加特开展听觉研究，1967年到慕尼黑建立电声学研究与教学中心。他的重要贡献，是把“声音的物理变化怎样成为听觉变化”拆成可以实验检验的问题，再用临界带、特定响度和时变处理等概念构造定量模型。[1](#ref-zwicker-fastl2024)[2](#ref-zwicker-tumhistory)
+**埃伯哈德·茨维克尔**（Eberhard Zwicker，1924—1990）是德国声学与心理声学研究者，曾在斯图加特开展听觉研究，1967年到慕尼黑建立电声学研究与教学中心。他的重要贡献，是把“声音的物理变化怎样成为听觉变化”拆成可以实验检验的问题，再用临界带、特定响度和时变处理等概念构造定量模型。[1](#ref-zwicker-fastl2024)[2](#ref-zwicker-tumhistory)
 
 今天，Bark尺度、Zwicker响度计算和“Zwicker音”分别出现在音频分析、声音评价和听觉后效研究中。它们指向不同层次：Bark是与经典临界带相关的频率坐标，响度模型预测规定条件下的知觉量，Zwicker音则是噪声停止后可报告的短暂听觉错觉。理解人物贡献，需要同时看实验、模型和模型适用范围。[6](#ref-zwicker-bark1961)[12](#ref-zwicker-iso1)[14](#ref-zwicker-after1964)
 
 本页四幅图均为本站原创教学图。谱级与积分算例使用明确给出的假设；解析曲线由文献公式计算，不是原论文数据、个体听觉测量或完整ISO算法复现。
 
 <figure class="person-photo-figure person-portrait">
-  <a href="/n3-hearingpedia/people/eberhard-zwicker/at-desk.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/eberhard-zwicker/at-desk.jpg" alt="Eberhard Zwicker本人照片，© T. Zwicker" width="412" height="347" loading="lazy" /></a>
-  <figcaption>Eberhard Zwicker。Zwicker在书桌前。来源：Hugo Fastl《Eberhard Zwicker – Zum 100. Geburtstag》，《Akustik Journal》2024年第1期，第7页图1；原图署名 © T. Zwicker。拍摄年代未注明。 <a href="https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf" target="_blank" rel="noopener">原始来源</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
+  <a href="/n3-hearingpedia/people/eberhard-zwicker/at-desk.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/eberhard-zwicker/at-desk.jpg" alt="埃伯哈德·茨维克尔（Eberhard Zwicker）本人照片，© T. Zwicker" width="412" height="347" loading="lazy" /></a>
+  <figcaption>埃伯哈德·茨维克尔。Zwicker在书桌前。来源：Hugo Fastl《Eberhard Zwicker – Zum 100. Geburtstag》，《Akustik Journal》2024年第1期，第7页图1；原图署名 © T. Zwicker。拍摄年代未注明。 <a href="https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf" target="_blank" rel="noopener">原始来源</a>。图片版权归原权利人，本站内容开放许可不涵盖此图。</figcaption>
 </figure>
 
 ## 生平与慕尼黑心理声学的形成
@@ -259,7 +259,7 @@ Florentine与Zwicker在1979年的合作研究已经指出，将响度模型用�
 
 响度评价还不等于噪声健康风险评价。ISO 532-1与532-2的公开范围均把声音有害效应评价排除在外；模型量能说明规定条件下的响度预测，不能替代暴露时间、剂量及专门的风险评估。这一边界来自方法本身的目标，并非说响度与声音评价无关。[12](#ref-zwicker-iso1)[13](#ref-zwicker-iso2)
 
-阅读人物之间的联系时，可从[Harvey Fletcher](../harvey-fletcher/)的听觉测量与语音通信出发，经[心理声学](../psychoacoustics/)、[响度](../loudness/)和[听觉滤波器](../auditory-filter/)理解Zwicker的方法；再到[Manfred R. Schroeder](../manfred-r-schroeder/)和[James L. Flanagan](../james-l-flanagan/)查看感知约束如何进入声音处理与通信。[Albert Bregman](../albert-bregman/)的知觉组织和[Bertrand Delgutte](../bertrand-delgutte/)的神经编码研究，则提出另外的证据层次，不应仅由一套响度模型替代。
+阅读人物之间的联系时，可从[哈维·弗莱彻](../harvey-fletcher/)的听觉测量与语音通信出发，经[心理声学](../psychoacoustics/)、[响度](../loudness/)和[听觉滤波器](../auditory-filter/)理解Zwicker的方法；再到[曼弗雷德·施罗德](../manfred-r-schroeder/)和[James L. Flanagan](../james-l-flanagan/)查看感知约束如何进入声音处理与通信。[阿尔伯特·布雷格曼](../albert-bregman/)的知觉组织和[Bertrand Delgutte](../bertrand-delgutte/)的神经编码研究，则提出另外的证据层次，不应仅由一套响度模型替代。
 
 历史照片可在[Fastl的2024年百年纪念文章](https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf)及[TUM的机构历史回顾](https://mediatum.ub.tum.de/doc/1138439/98963.pdf)中查看，包含桌前肖像、实验工作与研究环境。本页选用百年纪念文章的桌前照片，并在图注中保留来源与原署名。[1](#ref-zwicker-fastl2024)[2](#ref-zwicker-tumhistory)
 

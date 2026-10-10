@@ -5,7 +5,7 @@ slug: "james-l-flanagan"
 summary: "从发声机制与共振峰辨别，到相位声码器、ADPCM和空间选择性拾音：梳理James L. Flanagan如何把语音生成、听觉感知与数字通信连接起来。"
 categories: ["speech", "acoustics", "psychoacoustics", "signal-processing"]
 tags: ["研究人物", "科学史", "语音合成", "相位声码器", "ADPCM", "麦克风阵列"]
-aliases: ["James Flanagan", "James Loton Flanagan", "J. L. Flanagan", "詹姆斯·弗拉纳根", "詹姆斯·洛顿·弗拉纳根", "弗拉纳根"]
+aliases: ["James Flanagan","James Loton Flanagan","J. L. Flanagan","弗拉纳根"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
@@ -22,7 +22,7 @@ batch: 4
 order: 118
 ---
 
-**James L. Flanagan**（全名James Loton Flanagan，詹姆斯·弗拉纳根，1925—2015）是美国电气工程师与语音通信研究者，长期在贝尔实验室和罗格斯大学（Rutgers University）工作。他的研究连接三个问题：人怎样发出语音，听者怎样辨别语音的变化，以及机器怎样以有限的计算和传输资源分析、合成与传递这些声音。[1](#ref-flanagan-nae)[3](#ref-flanagan-sps)
+**James L. Flanagan**（全名James Loton Flanagan，1925—2015）是美国电气工程师与语音通信研究者，长期在贝尔实验室和罗格斯大学（Rutgers University）工作。他的研究连接三个问题：人怎样发出语音，听者怎样辨别语音的变化，以及机器怎样以有限的计算和传输资源分析、合成与传递这些声音。[1](#ref-flanagan-nae)[3](#ref-flanagan-sps)
 
 他的代表性合作包括与R. M. Golden发表相位声码器，与石坂谦三（K. Ishizaka）研究双质量声带模型，以及与P. Cummiskey、N. S. Jayant研究自适应差分脉冲编码调制。共振峰感知、语音合成、通信编码和远场拾音在这些工作中相互约束：重建一个波形只是起点，是否保留可理解、可辨别的声音，还需要听觉实验和应用条件下的验证。[8](#ref-flanagan-formant)[9](#ref-flanagan-two-mass)[10](#ref-flanagan-phase)[13](#ref-flanagan-adpcm)
 
@@ -262,6 +262,6 @@ NAE纪念文章回顾了一段很具体的计算历史：Flanagan早期在IBM 65
 
 Flanagan把产生声音的模型、表示声音的算法和判断声音的实验放进了同一研究体系。沿这条线阅读，可以先从[语音学](../phonetics/)理解发音及声学线索，再通过[共振峰](../formant/)与[语谱图](../spectrogram/)理解表示，最后用[心理声学](../psychoacoustics/)和[言语测听](../speech-audiometry/)区分可辨别、可识别与可应用的证据。[7](#ref-flanagan-book)[8](#ref-flanagan-formant)
 
-人物之间也能构成互补路线。[Harvey Fletcher](../harvey-fletcher/)帮助理解听觉测量与通信问题的历史，[Manfred R. Schroeder](../manfred-r-schroeder/)连接房间声学、感知和语音编码，[Bertrand Delgutte](../bertrand-delgutte/)则进一步把语音线索放到听觉神经编码与知觉的比较中。比较这些研究时，需要保留声学系统、神经记录和行为测量各自的对象与条件。
+人物之间也能构成互补路线。[哈维·弗莱彻](../harvey-fletcher/)帮助理解听觉测量与通信问题的历史，[曼弗雷德·施罗德](../manfred-r-schroeder/)连接房间声学、感知和语音编码，[Bertrand Delgutte](../bertrand-delgutte/)则进一步把语音线索放到听觉神经编码与知觉的比较中。比较这些研究时，需要保留声学系统、神经记录和行为测量各自的对象与条件。
 
 本页的四种代表问题仍可作为阅读论文的检查点：模型的控制参数能否对应待研究的生成机制；感知精度是否在匹配的材料和任务中测得；数字表示是否能够可靠重建；工程改进是否在实际输入和目标使用者中得到验证。回答这些问题，比单独列出一个“更好”的波形或一个知名产品，更能说明方法的贡献与适用范围。

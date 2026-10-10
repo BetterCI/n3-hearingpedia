@@ -1,15 +1,15 @@
 ---
-title: "William F. House"
+title: "威廉·豪斯"
 english: "William F. House"
 slug: "william-f-house"
-summary: "从早期人工耳蜗与单通道路线到神经耳科学：理解William F. House的临床探索、工程合作、患者获益和历史证据边界。"
+summary: "从早期人工耳蜗与单通道路线到神经耳科学：理解威廉·豪斯的临床探索、工程合作、患者获益和历史证据边界。"
 categories: ["cochlear-implants", "audiology", "neuroscience"]
 tags: ["研究人物", "科学史", "人工耳蜗", "神经耳科学", "听觉脑干植入"]
-aliases: ["William Fouts House", "William House", "威廉·F·豪斯", "威廉·豪斯"]
+aliases: ["William Fouts House","William House","威廉·F·豪斯","威廉·豪斯","William F. House"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-09"
+last_updated: "2026-10-10"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -22,14 +22,14 @@ batch: 4
 order: 111
 ---
 
-**William F. House**（全名 William Fouts House，威廉·F·豪斯，1923年12月1日—2012年12月7日）是美国耳科医生、神经耳科学的开拓者，也是早期[人工耳蜗](../cochlear-implant/)临床发展的重要推动者。他把内耳电刺激、显微外科与工程装置联系起来，参与解决植入、持续使用和临床评价等问题。他还与合作者开展了听觉脑干植入的早期探索。[1](#ref-house-goins-2024)[2](#ref-house-mudry-mills-2013)[10](#ref-house-hitselberger-1984)
+**威廉·豪斯**（William F. House，全名 William Fouts House，1923年12月1日—2012年12月7日）是美国耳科医生、神经耳科学的开拓者，也是早期[人工耳蜗](../cochlear-implant/)临床发展的重要推动者。他把内耳电刺激、显微外科与工程装置联系起来，参与解决植入、持续使用和临床评价等问题。他还与合作者开展了听觉脑干植入的早期探索。[1](#ref-house-goins-2024)[2](#ref-house-mudry-mills-2013)[10](#ref-house-hitselberger-1984)
 
 理解 House 的贡献，需要区分三个层次：电刺激能否产生听觉感觉，装置能否被患者长期使用，以及它能否改善具体聆听任务。早期装置提供的声音意识和读唇辅助，与后来多通道装置所支持的言语识别，属于不同阶段的研究结果。人物史由此连接本站的[人工耳蜗声音感知](../cochlear-implant-sound-perception/)、[言语测听](../speech-audiometry/)与[听力学](../audiology/)。
 
 “神经耳科学之父”等称呼表达的是同行对其开拓工作的评价。人工耳蜗的发展涉及法国的电刺激探索、不同国家的植入团队、工程师、听力学研究者和长期参与试验的患者；不能把完整技术归为一位人物的一次发明。[2](#ref-house-mudry-mills-2013)
 
 <figure class="person-photo-figure person-portrait">
-<a href="/n3-hearingpedia/people/william-f-house/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/william-f-house/portrait.jpg" alt="William F. House的黑白正面肖像，身穿西装和领带，下方有签名" width="280" height="340" loading="lazy" /></a>
+<a href="/n3-hearingpedia/people/william-f-house/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/william-f-house/portrait.jpg" alt="威廉·豪斯（William F. House）的黑白正面肖像，身穿西装和领带，下方有签名" width="280" height="340" loading="lazy" /></a>
 <figcaption>图1．William F. House，文件说明标为1968年1月。署名与来源：House Ear Institute / House Ear Institute Archives；<a href="https://commons.wikimedia.org/wiki/File:William_F._House,_M.D.jpg" target="_blank" rel="noopener">Wikimedia Commons 文件页</a>提供<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>授权及VRT确认记录。保留原始照片，未修改；网页显示缩小。<a href="#ref-house-portrait-source">15</a></figcaption>
 </figure>
 
