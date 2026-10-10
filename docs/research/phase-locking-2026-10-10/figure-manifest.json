@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-10",
+  "origin": "原创教学计算；非生理记录，非论文图复刻",
+  "rights": "无第三方图片转载；原创图与词条按网站发布许可处理，未另行声明CC许可",
+  "generator": "scripts/generate-phase-locking.py",
+  "parameters": "docs/research/phase-locking-2026-10-10/figure-parameters.json",
+  "data": "public/figures/phase-locking/teaching-events.npz",
+  "figures": [
+    {
+      "number": 1,
+      "title": "等事件数放电时序和周期直方图",
+      "formats": [
+        {
+          "path": "public/figures/phase-locking/01-timing-and-histogram.svg",
+          "sha256": "438cd633cf4557eb7fbba79299068c5cb2254f0594cb4ed3110cd2ac434c37b2"
+        },
+        {
+          "path": "public/figures/phase-locking/01-timing-and-histogram.png",
+          "sha256": "e5f30437bb9aaa2ff4d02a5845a32ff6df6124dfa0579b1e0efd6b81f7c9dced"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "集中、延迟、均匀与双峰的相位向量",
+      "formats": [
+        {
+          "path": "public/figures/phase-locking/02-phase-vectors.svg",
+          "sha256": "2eadbd8ea13a1171bac26e04d4ec56dfa369bffbbedecc2e226723019991acf7"
+        },
+        {
+          "path": "public/figures/phase-locking/02-phase-vectors.png",
+          "sha256": "39c2ef8a02acc3684d191e7ac46e8c95fd0573902b38e5583bae6a8c22f1cd1f"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "纯音载波与高频调幅声包络",
+      "formats": [
+        {
+          "path": "public/figures/phase-locking/04-carrier-and-envelope.svg",
+          "sha256": "47b090e85bdc9e6f47f8e2936f4025c775de424999d5b4ec97ff168ab3fcee89"
+        },
+        {
+          "path": "public/figures/phase-locking/04-carrier-and-envelope.png",
+          "sha256": "abc2c584b65d4ec1123e164046d26abbe17c02eba374fddabfd499c55de40b45"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "固定延迟与独立高斯时间抖动",
+      "formats": [
+        {
+          "path": "public/figures/phase-locking/03-delay-and-jitter.svg",
+          "sha256": "6b6bd1379717c206b6a55a1d9e3f4b6813b411801a27f529307c1b8c36fe2fa6"
+        },
+        {
+          "path": "public/figures/phase-locking/03-delay-and-jitter.png",
+          "sha256": "4e3d9a31ed7843d0bd10b42140c976ea391df0803dc3b6bc383ed76b6238f675"
+        }
+      ]
+    }
+  ]
+}

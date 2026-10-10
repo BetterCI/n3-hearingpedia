@@ -1,3 +1,4 @@
+import { phaseLockingReferences } from './phase-locking-references.ts';
 import { zwickerReferences } from './zwicker-references.ts';
 import { flanaganReferences } from './flanagan-references.ts';
 import { delgutteReferences } from './delgutte-references.ts';
@@ -58,6 +59,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...phaseLockingReferences,
   ...zwickerReferences,
   ...flanaganReferences,
   ...delgutteReferences,

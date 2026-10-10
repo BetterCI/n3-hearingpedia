@@ -15,6 +15,17 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  // Phase locking: timing statistics, tasks and evidence levels.
+  link('phase-locking','inner-hair-cell','mechanism','膜、突触与事件形成共同影响周期时序。',3),
+  link('phase-locking','temporal-fine-structure','related','载波周期与神经事件相位是不同层次的表示。',3),
+  link('phase-locking','temporal-envelope','related','慢包络可以形成独立于高频载波的相位参照。',3),
+  link('phase-locking','interaural-time-difference','mechanism','两耳相对时序为双耳比较提供输入条件。',3),
+  link('phase-locking','pitch-perception','mechanism','周期事件信息是时域音高模型的候选输入。',2),
+  link('phase-locking','auditory-evoked-potential','related','单纤维事件与群体电位需分层解释。',2),
+  link('phase-locking','cochlear-implant','related','电载体、包络与双耳时序需区分。',2),
+  link('nelson-kiang','phase-locking','researches','听神经纤维事件模式与周期编码。',2),
+  link('bertrand-delgutte','phase-locking','researches','周期间隔、音高与双侧电刺激时间编码。',3),
+  link('lloyd-jeffress','phase-locking','researches','周期时序作为符合检测与双耳比较的输入。',2),
   // Twelve approved entries: psychoacoustics, speech visualization and research history.
   link('spectrogram','fundamental-frequency','related','周期段的谐波间距可提示基频，但最亮谱峰不等于基频。',3),
   link('spectrogram','formant','related','区分谐波细线与谱包络增强带，共振峰估计需要额外核查。',3),

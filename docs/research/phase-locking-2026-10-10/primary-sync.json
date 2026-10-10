@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-10",
+  "destination": "C:\\AI_Lab\\n³ Hearingpedia",
+  "files": [
+    {
+      "path": "src/content/concepts/phase-locking.md",
+      "sha256": "d18ac8ee38338ed4bd10c809e40e636a1546028e34f4932ceddb9bcdfde62aef"
+    },
+    {
+      "path": "docs/drafts/phase-locking-body.md",
+      "sha256": "7e51e4b92ab56d31b789339260fb2c0cc546b41402742ba6a531d9fb8c67c78d"
+    },
+    {
+      "path": "scripts/generate-phase-locking.py",
+      "sha256": "2d8147f82e5d184b263deb17a5496dc5e308efe188b840de0856a3c6dafd4a56"
+    },
+    {
+      "path": "public/figures/phase-locking/teaching-events.npz",
+      "sha256": "83f8c4ae54c29d9dd8acd6cd55c4447e45ff0962f13e2a3499dfdb4c3d1b4b50"
+    },
+    {
+      "path": "public/figures/phase-locking/01-timing-and-histogram.svg",
+      "sha256": "438cd633cf4557eb7fbba79299068c5cb2254f0594cb4ed3110cd2ac434c37b2"
+    },
+    {
+      "path": "public/figures/phase-locking/01-timing-and-histogram.png",
+      "sha256": "e5f30437bb9aaa2ff4d02a5845a32ff6df6124dfa0579b1e0efd6b81f7c9dced"
+    },
+    {
+      "path": "public/figures/phase-locking/02-phase-vectors.svg",
+      "sha256": "2eadbd8ea13a1171bac26e04d4ec56dfa369bffbbedecc2e226723019991acf7"
+    },
+    {
+      "path": "public/figures/phase-locking/02-phase-vectors.png",
+      "sha256": "39c2ef8a02acc3684d191e7ac46e8c95fd0573902b38e5583bae6a8c22f1cd1f"
+    },
+    {
+      "path": "public/figures/phase-locking/04-carrier-and-envelope.svg",
+      "sha256": "47b090e85bdc9e6f47f8e2936f4025c775de424999d5b4ec97ff168ab3fcee89"
+    },
+    {
+      "path": "public/figures/phase-locking/04-carrier-and-envelope.png",
+      "sha256": "abc2c584b65d4ec1123e164046d26abbe17c02eba374fddabfd499c55de40b45"
+    },
+    {
+      "path": "public/figures/phase-locking/03-delay-and-jitter.svg",
+      "sha256": "6b6bd1379717c206b6a55a1d9e3f4b6813b411801a27f529307c1b8c36fe2fa6"
+    },
+    {
+      "path": "public/figures/phase-locking/03-delay-and-jitter.png",
+      "sha256": "4e3d9a31ed7843d0bd10b42140c976ea391df0803dc3b6bc383ed76b6238f675"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/citation-screening.json",
+      "sha256": "0a8c05b13ea0ec8c826478d4075298d0123ea4c0a6d4ef370f8040d99cd43a17"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/entry-metrics.json",
+      "sha256": "d06b306aeb8b01517c6aa353bc4f597203d3c3a0d933b41a1ca728f053e3e7f1"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/figure-manifest.json",
+      "sha256": "7c97667be1265626b805b596eedd0f58204a52c905314c12a88eea515ddd2077"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/figure-parameters.json",
+      "sha256": "0f145e2eef36f20343315825b7fffc0c93c2d365e199a7620b4d4ac24cc17e09"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/figure-preview.png",
+      "sha256": "a18e73db6ffe1aecd954ab7e202f37885f7251c0a69d6fae5f3a888d85341ad5"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/local-preview.png",
+      "sha256": "365243fe01a723eb50e43db2818d4d898ea244221fb833e1a3c541b6d0729e6f"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/local-review.md",
+      "sha256": "ae3e736d66ba120e147ade196a7750cb3ce371cdf87beb4a022e6b93d93f02ea"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/relation-additions.json",
+      "sha256": "d510e64c9e20306115181aac070f6c5c6935935c2dc422fd4dd34b0a9f8327d2"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/research-notes.md",
+      "sha256": "7349f4cc52c5a85a63953db60cb71f42ebb702ea295db51584e87d97100cb9bb"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/source-ledger.json",
+      "sha256": "5000ec0da078077750ca2f49c8d5f87f974c48849e4fb22fec049f262f4dea6e"
+    },
+    {
+      "path": "docs/research/phase-locking-2026-10-10/validation.json",
+      "sha256": "1dc4e509b7875bca4cff678b071d5157ce6564a7d6ff2d54c97c1355290a6a91"
+    }
+  ],
+  "new_reference_keys": [
+    "phase-peterson2020",
+    "phase-vinck2010",
+    "phase-heeringa2025",
+    "phase-mne-tfr",
+    "phase-saddler2024",
+    "phase-rose1967",
+    "phase-ashida2026"
+  ],
+  "reused_reference_keys": [
+    "six-goldberg1969",
+    "six-scipy-circle"
+  ],
+  "new_relations": 6,
+  "preserved_existing_phase_relations": true,
+  "unrelated_article_hashes_preserved": 69,
+  "unrelated_metrics_preserved": true,
+  "existing_reference_records_preserved": true,
+  "learning_path": "existing primary phase-locking entry preserved",
+  "commit": null,
+  "push": false,
+  "primary_integration_note": "主工作目录保留既有较旧内容集合；缺少已有发布的nelson-kiang来源文件。本次不整体合并或发布其他词条。完整站点与预览检查在authoring_root进行，主目录只核对相位词条、引用和文件同步。"
+}

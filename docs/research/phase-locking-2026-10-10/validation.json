@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "authoring_root": "C:\\Users\\mengq\\.codex\\worktrees\\contributor-writing-guide\\n³ Hearingpedia",
+  "checks": {
+    "astro_check": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": "passed",
+    "source_content": "passed",
+    "built_site": {
+      "pages": 214,
+      "checked_internal_links": 16623,
+      "equations": 187,
+      "broken_links": 0
+    },
+    "teaching_numeric_assertions": "passed",
+    "desktop": {
+      "width": 1280,
+      "figures_loaded": 4,
+      "reference_nodes": 21,
+      "display_equations": 5,
+      "math_errors": 0,
+      "horizontal_overflow": false
+    },
+    "mobile": {
+      "requested_width": 390,
+      "requested_height": 844,
+      "actual_width": 1280,
+      "status": "not verified",
+      "reason": "内嵌浏览器视口覆盖未生效；Chrome备用连接失败；覆盖已恢复"
+    }
+  },
+  "status": "draft",
+  "reviewer": null,
+  "uploaded": false
+}
