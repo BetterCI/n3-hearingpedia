@@ -28,6 +28,11 @@ Fletcher面对的一个核心问题是：传输系统保留了多少声音，并
 
 本页沿生平、研究问题和代表成果展开。历史人物的贡献、合作者的工作、后来形成的标准和本站教学计算分别说明；“Fletcher–Munson曲线”等熟悉名称，也需要放回具体年代与测量条件中理解。
 
+<figure class="person-photo-figure person-portrait">
+  <a href="/n3-hearingpedia/people/harvey-fletcher/portrait.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/harvey-fletcher/portrait.jpg" alt="Harvey Fletcher本人肖像，AIP Emilio Segrè Visual Archives, American Institute of Physics" width="2391" height="2993" loading="lazy" /></a>
+  <figcaption>Harvey Fletcher。照片来源与署名：AIP Emilio Segrè Visual Archives，American Institute of Physics；<a href="https://repository.aip.org/portrait-fletcher-0" target="_blank" rel="noopener">原档案</a>／<a href="https://commons.wikimedia.org/wiki/File:Harvey_Fletcher.jpg" target="_blank" rel="noopener">Wikimedia Commons图像与权利记录</a>。依<a href="https://aip.libguides.com/esvaguide/copyright" target="_blank" rel="noopener">AIP署名使用许可</a>使用；拍摄年代、摄影者未注明，保留原图，未修改。</figcaption>
+</figure>
+
 ## 生平与研究环境
 
 ### 从犹他州到芝加哥，再到电话研究

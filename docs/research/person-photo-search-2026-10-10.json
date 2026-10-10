@@ -1,0 +1,213 @@
+{
+  "checked_at": "2026-10-10",
+  "scope": "All current kind:person articles. Book covers and functional diagrams excluded from person-photo count.",
+  "counts": {
+    "total_people": 18,
+    "missing_before": 9,
+    "added_portraits": 2,
+    "missing_after": 7
+  },
+  "rechecked": [
+    {
+      "slug": "albert-bregman",
+      "result": "added CC BY-SA 3.0 portrait",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Albert_S._Bregman.JPG",
+        "https://www.mcgill.ca/psychology/people-0/faculty-0/memoriam-albert-s-bregman"
+      ]
+    },
+    {
+      "slug": "harvey-fletcher",
+      "result": "added AIP-attribution portrait",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Harvey_Fletcher.jpg",
+        "https://repository.aip.org/portrait-fletcher-0",
+        "https://aip.libguides.com/esvaguide/copyright"
+      ]
+    },
+    {
+      "slug": "liang-zhian",
+      "result": "no reliably identified person photo located; book cover retained",
+      "sources": [
+        "https://www.sxjs.ac.cn/cn/article/pdf/preview/20000426.pdf"
+      ],
+      "excluded": "Liang Zongan / Liang Anhui and other namesakes"
+    },
+    {
+      "slug": "gu-rui",
+      "result": "no reliably identified downloadable person photo located",
+      "sources": [
+        "https://jasptl.haoyicn.cn/meeting?id=20",
+        "https://zher.cbpt.cnki.net/portal/journal/portal/client/paperRank_list/type_yinyong?number=&pageNum=389&year="
+      ],
+      "limitations": "Journal-history image URLs returned AccessDenied (403); current obituary listing unavailable. Unlabelled group photos not assigned an individual identity.",
+      "excluded": "orthopaedic Gu Rui and namesakes in other specialties"
+    },
+    {
+      "slug": "bertrand-delgutte",
+      "result": "identified institutional portrait; no explicit reuse permission located, original-page link retained",
+      "sources": [
+        "https://oto.hms.harvard.edu/news/memorium-bertrand-delgutte-phd",
+        "https://ogephd.hms.harvard.edu/people/bertrand-delgutte-0",
+        "https://acousticstoday.org/obituary-bertrand-delgutte-1952-2024/"
+      ]
+    },
+    {
+      "slug": "jens-blauert",
+      "result": "identified institutional portrait credited to Tanja Brueckner; no explicit reuse permission located, original-page link retained",
+      "sources": [
+        "https://www.ika.ruhr-uni-bochum.de/ika/team/blauert.html.de",
+        "https://www.aes.org/events/reports/114thConvention.pdf",
+        "https://euracoustics.org/news/obituary-prof-dr-ing-dr-techn-hc-jens-blauert/"
+      ]
+    },
+    {
+      "slug": "james-l-flanagan",
+      "result": "identified historical portraits; no explicit reuse permission located, original-page links retained",
+      "sources": [
+        "https://marconisociety.org/fellow-bio/james-flanagan/",
+        "https://spectrum.ieee.org/sultan-of-sound"
+      ],
+      "excluded": "Commons NRC information-services director James Flanagan is a different person; WWII soldier and clergy namesakes excluded"
+    },
+    {
+      "slug": "lloyd-jeffress",
+      "result": "identified archive portrait; Wikipedia file expressly non-free, no transferable reuse permission located, original archive link retained",
+      "sources": [
+        "https://paulingblog.wordpress.com/2009/07/02/paulings-best-friend-lloyd-jeffress/",
+        "https://en.wikipedia.org/wiki/File:Photo_of_Lloyd_Jeffress,_circa_1977,_originally_appeared_in_Physics_Today.jpg"
+      ]
+    },
+    {
+      "slug": "eberhard-zwicker",
+      "result": "identified historical portraits in DEGA/TUM PDFs; no explicit photo reuse permission located, original-page links retained",
+      "sources": [
+        "https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/akustik-journal/24-01/akustik_journal_2024_01_online_artikel1.pdf",
+        "https://mediatum.ub.tum.de/doc/1138439/98963.pdf",
+        "https://dael.euracoustics.org/confs/fa2023/data/articles/001135.pdf"
+      ],
+      "limitations": "Seeber 2023 CC BY 3.0 article inspected: historical equipment images and scientific figures, no identified person portrait.",
+      "excluded": "photographer Eberhard Zwicker (1915–1999) is a namesake"
+    }
+  ],
+  "people_after": [
+    {
+      "slug": "albert-bregman",
+      "title": "Albert Bregman",
+      "person_photos": [
+        "/n3-hearingpedia/people/albert-bregman/portrait-2011.jpg"
+      ]
+    },
+    {
+      "slug": "bertrand-delgutte",
+      "title": "Bertrand Delgutte",
+      "person_photos": []
+    },
+    {
+      "slug": "eberhard-zwicker",
+      "title": "Eberhard Zwicker",
+      "person_photos": []
+    },
+    {
+      "slug": "gu-rui",
+      "title": "顾瑞",
+      "person_photos": []
+    },
+    {
+      "slug": "harvey-fletcher",
+      "title": "Harvey Fletcher",
+      "person_photos": [
+        "/n3-hearingpedia/people/harvey-fletcher/portrait.jpg"
+      ]
+    },
+    {
+      "slug": "hermann-von-helmholtz",
+      "title": "Hermann von Helmholtz",
+      "person_photos": [
+        "/n3-hearingpedia/people/hermann-von-helmholtz/portrait.jpg",
+        "/n3-hearingpedia/people/hermann-von-helmholtz/resonator.jpg"
+      ]
+    },
+    {
+      "slug": "james-l-flanagan",
+      "title": "James L. Flanagan",
+      "person_photos": []
+    },
+    {
+      "slug": "jens-blauert",
+      "title": "Jens Blauert",
+      "person_photos": []
+    },
+    {
+      "slug": "li-liang",
+      "title": "李量",
+      "person_photos": [
+        "/n3-hearingpedia/people/li-liang/portrait.jpg",
+        "/n3-hearingpedia/people/li-liang/cambridge-visit-2012.jpg"
+      ]
+    },
+    {
+      "slug": "liang-zhian",
+      "title": "梁之安",
+      "person_photos": []
+    },
+    {
+      "slug": "liu-bannong",
+      "title": "刘半农",
+      "person_photos": [
+        "/n3-hearingpedia/people/liu-bannong/portrait.jpg"
+      ]
+    },
+    {
+      "slug": "lloyd-jeffress",
+      "title": "Lloyd Jeffress",
+      "person_photos": []
+    },
+    {
+      "slug": "manfred-r-schroeder",
+      "title": "Manfred R. Schroeder",
+      "person_photos": [
+        "/n3-hearingpedia/people/manfred-r-schroeder/portrait.jpg"
+      ]
+    },
+    {
+      "slug": "nelson-kiang",
+      "title": "江渊声",
+      "person_photos": [
+        "/n3-hearingpedia/people/nelson-kiang/portrait.jpg",
+        "/n3-hearingpedia/people/nelson-kiang/historical-portrait.jpg"
+      ]
+    },
+    {
+      "slug": "william-f-house",
+      "title": "William F. House",
+      "person_photos": [
+        "/n3-hearingpedia/people/william-f-house/portrait.jpg"
+      ]
+    },
+    {
+      "slug": "wu-zongji",
+      "title": "吴宗济",
+      "person_photos": [
+        "/n3-hearingpedia/people/wu-zongji/portrait.jpg"
+      ]
+    },
+    {
+      "slug": "zhao-yuanren",
+      "title": "赵元任",
+      "person_photos": [
+        "/n3-hearingpedia/people/zhao-yuanren/portrait.jpg",
+        "/n3-hearingpedia/people/zhao-yuanren/tsinghua-faculty.png",
+        "/n3-hearingpedia/people/zhao-yuanren/wu-survey-1927.png"
+      ]
+    },
+    {
+      "slug": "zou-lude",
+      "title": "邹路得",
+      "person_photos": [
+        "/n3-hearingpedia/people/zou-lude/pumch-team-1956.jpg",
+        "/n3-hearingpedia/people/zou-lude/academic-visit-1960s.jpg"
+      ]
+    }
+  ]
+}

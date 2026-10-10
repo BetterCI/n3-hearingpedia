@@ -65,3 +65,16 @@
 - `wu-zongji/oral-history-2022.jpg` (800 × 800)：[发布页](https://www.cp.com.cn/book/f0cff7b0-f.html)；[原图](https://pic.cp.com.cn/Images/2022/7/15/92453184ddb2832b-8.jpg)。出版社2022版封面展示图，未修改。
 
 以上为第三方公开资料，未确认开放授权，不属于本站内容许可证覆盖范围。
+
+
+## Albert Bregman
+
+- `albert-bregman/portrait-2011.jpg`（559 × 703）：CognitivePsychologist 摄影，2011-08-01；[原图与署名](https://commons.wikimedia.org/wiki/File:Albert_S._Bregman.JPG)。
+- 许可：[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。原图未修改，肖像身份与麦吉尔大学纪念资料对应。
+
+## Harvey Fletcher
+
+- `harvey-fletcher/portrait.jpg`（2391 × 2993）：AIP Emilio Segrè Visual Archives，American Institute of Physics；[原档案](https://repository.aip.org/portrait-fletcher-0)；[图像与权利记录](https://commons.wikimedia.org/wiki/File:Harvey_Fletcher.jpg)。
+- 依[AIP对其持有著作权照片的署名使用许可](https://aip.libguides.com/esvaguide/copyright)使用。该图的Commons权利记录列明AIP为权利人。原图未修改，拍摄年代与摄影者未知。
+
+两张新照片各按其上述许可使用，不以本站一般内容许可替代原图片许可。核验日期：2026-10-10。

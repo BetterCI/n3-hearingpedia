@@ -28,6 +28,11 @@ order: 115
 
 本页以人物经历、经典范式和方法影响为主线。原始实验、研究者自己的回忆、后续理论和本站教学例子分别说明；对概念的系统展开，可结合听觉场景分析词条阅读。
 
+<figure class="person-photo-figure person-portrait">
+  <a href="/n3-hearingpedia/people/albert-bregman/portrait-2011.jpg" target="_blank" rel="noopener"><img src="/n3-hearingpedia/people/albert-bregman/portrait-2011.jpg" alt="Albert Bregman本人肖像，CognitivePsychologist" width="559" height="703" loading="lazy" /></a>
+  <figcaption>Albert Bregman，2011年8月1日。摄影：CognitivePsychologist；来源：<a href="https://commons.wikimedia.org/wiki/File:Albert_S._Bregman.JPG" target="_blank" rel="noopener">Wikimedia Commons原图与署名</a>；<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>。保留原图，未修改。</figcaption>
+</figure>
+
 ## 生平与研究起点
 
 ### 哲学、心理学与认知研究的交会
