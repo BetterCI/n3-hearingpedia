@@ -1,0 +1,27 @@
+{
+  "slug": "cepstrum",
+  "status": "authorized_prepared_for_push",
+  "date": "2026-10-10",
+  "article": "src/content/concepts/cepstrum.md",
+  "preview": "docs/drafts/cepstrum-preview.html",
+  "references": 18,
+  "original_figures": 4,
+  "chinese_characters": 6496,
+  "relationships_added": 6,
+  "validated_worktree": "C:\\Users\\mengq\\.codex\\worktrees\\sound-waves-release\\n³ Hearingpedia",
+  "previous_entry_publication": {
+    "slug": "amplitude-modulation",
+    "commit": "2b301a8681ab06e5a799bc4d107829cf20b72b96",
+    "workflow_run_id": 38027214348,
+    "deployed_and_verified": true
+  },
+  "source_cache_policy": "local PDFs and selected excerpts excluded from publication payload",
+  "authorization": "User explicitly requested pushing the completed cepstrum draft",
+  "target": "origin/main",
+  "professional_review": "Draft retained; no named professional review",
+  "url": "https://betterci.github.io/n3-hearingpedia/concepts/cepstrum/",
+  "tests": {
+    "passed": 6,
+    "failed": 0
+  }
+}

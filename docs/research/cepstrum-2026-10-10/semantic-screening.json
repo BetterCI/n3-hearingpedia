@@ -1,0 +1,332 @@
+{
+  "method": "manual semantic triage, not an automated evidence score",
+  "raw_records": 28,
+  "id_deduplicated_records": 28,
+  "resolved_candidate_works": 27,
+  "version_merges": [
+    {
+      "indices": [
+        5,
+        11
+      ],
+      "reason": "same journal work and later arXiv archive"
+    }
+  ],
+  "canonical_date_corrections": [
+    {
+      "index": 9,
+      "indexed_date": 2019,
+      "original_conference_year": 2009
+    }
+  ],
+  "records": [
+    {
+      "index": 0,
+      "id": "https://openalex.org/W2084044763",
+      "title": "Cepstrum Pitch Determination",
+      "indexed_year": 1967,
+      "grade": "Core",
+      "reason": "经典周期峰检测种子；另核对出版方原始摘要。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": true,
+      "canonical_work": "https://doi.org/10.1121/1.1910339"
+    },
+    {
+      "index": 1,
+      "id": "https://openalex.org/W2148154194",
+      "title": "Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences",
+      "indexed_year": 1980,
+      "grade": "Core",
+      "reason": "MFCC 参数比较的历史种子；仅核实书目，不转述索引摘要中的准确率。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": true,
+      "canonical_work": "https://doi.org/10.1109/tassp.1980.1163420"
+    },
+    {
+      "index": 2,
+      "id": "https://openalex.org/W1559569201",
+      "title": "Pitch Determination of Speech Signals: Algorithms and Devices",
+      "indexed_year": 1983,
+      "grade": "Background",
+      "reason": "算法专著目录提供背景，未读取章节全文。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://openalex.org/W1559569201"
+    },
+    {
+      "index": 3,
+      "id": "https://openalex.org/W2028083640",
+      "title": "Integrating pitch and LPC-residual information with LPC-cepstrum for text-independent speaker recognition.",
+      "indexed_year": 1999,
+      "grade": "Important",
+      "reason": "特征融合与说话人应用有关，超出基本定义。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1250/ast.20.281"
+    },
+    {
+      "index": 4,
+      "id": "https://openalex.org/W2066109200",
+      "title": "A new method of pitch modification by complex cepstrum analysis‐synthesis",
+      "indexed_year": 1992,
+      "grade": "Important",
+      "reason": "复倒谱分析合成与任务相关；未读取原文，未用于性能主张。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1002/ecjc.4430751110"
+    },
+    {
+      "index": 5,
+      "id": "https://openalex.org/W2025920047",
+      "title": "Causal–anticausal decomposition of speech using complex cepstrum for glottal source estimation",
+      "indexed_year": 2011,
+      "grade": "Core",
+      "reason": "同态声门估计的后续期刊工作；本稿采用可读的 2009 原始会议论文。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1016/j.specom.2011.02.004"
+    },
+    {
+      "index": 6,
+      "id": "https://openalex.org/W2889160436",
+      "title": "On the Usefulness of the Speech Phase Spectrum for Pitch Extraction",
+      "indexed_year": 2018,
+      "grade": "Important",
+      "reason": "相位域基频方法相关，可供后续专题。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.21437/interspeech.2018-1062"
+    },
+    {
+      "index": 7,
+      "id": "https://openalex.org/W1965811551",
+      "title": "Source waveform recovery using minimum phase cepstrum",
+      "indexed_year": 1994,
+      "grade": "Important",
+      "reason": "最小相位与源波形恢复相关，但为会议摘要级记录。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1121/1.409320"
+    },
+    {
+      "index": 8,
+      "id": "https://openalex.org/W4301248820",
+      "title": "Pitch Prediction From Mel-Generalized Cepstrum — A Computationally Efficient Pitch Modeling Approach For Speech Synthesis",
+      "indexed_year": 2018,
+      "grade": "Background",
+      "reason": "合成用广义倒谱的音高建模，非本稿基本定义。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.5281/zenodo.1159655"
+    },
+    {
+      "index": 9,
+      "id": "https://openalex.org/W2997129728",
+      "title": "Complex Cepstrum-based Decomposition of Speech for Glottal Source Estimation",
+      "indexed_year": 2019,
+      "grade": "Core",
+      "reason": "标题、作者和摘要核对为 2009 会议论文的 2019 存档，按原始年份引用。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": true,
+      "canonical_work": "Interspeech 2009 original conference paper"
+    },
+    {
+      "index": 10,
+      "id": "https://openalex.org/W2474745601",
+      "title": "A Model for Pitch Estimation Using Wavelet Packet Transform Based Cepstrum Method",
+      "indexed_year": 2016,
+      "grade": "Important",
+      "reason": "混合音乐基频方法相关，不用于一般语音性能判断。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1016/j.protcy.2016.05.236"
+    },
+    {
+      "index": 11,
+      "id": "https://openalex.org/W2997125518",
+      "title": "Causal-Anticausal Decomposition of Speech using Complex Cepstrum for Glottal Source Estimation",
+      "indexed_year": 2019,
+      "grade": "Core",
+      "reason": "与第 5 条为同一研究的存档版本，合并而非增加证据。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "2011 journal article at index 5"
+    },
+    {
+      "index": 12,
+      "id": "https://openalex.org/W2989663378",
+      "title": "Acoustic Pornography Recognition using Fused Pitch and Mel-Frequency Cepstrum Coefficients",
+      "indexed_year": 2019,
+      "grade": "Exclude",
+      "reason": "特定识别任务，关键词重合而非本稿核心问题。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.14716/ijtech.v10i7.3270"
+    },
+    {
+      "index": 13,
+      "id": "https://openalex.org/W2914180091",
+      "title": "Estimation of fundamental frequency of reverberant speech by utilizing complex cepstrum analysis",
+      "indexed_year": 2007,
+      "grade": "Important",
+      "reason": "混响与复倒谱基频有关，未读取全文。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://openalex.org/W2914180091"
+    },
+    {
+      "index": 14,
+      "id": "https://openalex.org/W4387341593",
+      "title": "CNN‐SCNet: A CNN net‐based deep learning framework for infant cry detection in household setting",
+      "indexed_year": 2023,
+      "grade": "Exclude",
+      "reason": "婴儿哭声分类框架超出范围。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1002/eng2.12786"
+    },
+    {
+      "index": 15,
+      "id": "https://openalex.org/W4205160782",
+      "title": "CPPS and Voice-Source Parameters: Objective Analysis of the Singing Voice",
+      "indexed_year": 2022,
+      "grade": "Important",
+      "reason": "合成歌声 CPPS 参数依赖有关；索引摘要有缺字段，未作为支持结论的来源。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1016/j.jvoice.2021.12.010"
+    },
+    {
+      "index": 16,
+      "id": "https://openalex.org/W4211055867",
+      "title": "Acoustic detection of unmanned aerial vehicles using biologically inspired vision processing",
+      "indexed_year": 2022,
+      "grade": "Exclude",
+      "reason": "无人机检测超出范围。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1121/10.0009350"
+    },
+    {
+      "index": 17,
+      "id": "https://openalex.org/W4401041116",
+      "title": "Auditory hemispheric asymmetry for actions and objects",
+      "indexed_year": 2024,
+      "grade": "Exclude",
+      "reason": "听觉半球研究不直接核验倒谱定义和算法。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1093/cercor/bhae292"
+    },
+    {
+      "index": 18,
+      "id": "https://openalex.org/W2128160875",
+      "title": "Dynamic programming algorithm optimization for spoken word recognition",
+      "indexed_year": 1978,
+      "grade": "Background",
+      "reason": "动态时间规整是历史识别背景，非倒谱基本操作。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1109/tassp.1978.1163055"
+    },
+    {
+      "index": 19,
+      "id": "https://openalex.org/W2022554507",
+      "title": "Linear Prediction of Speech",
+      "indexed_year": 1976,
+      "grade": "Background",
+      "reason": "LPC 教材元数据，无全文证据。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1007/978-3-642-66286-7"
+    },
+    {
+      "index": 20,
+      "id": "https://openalex.org/W2137089646",
+      "title": "Minimum prediction residual principle applied to speech recognition",
+      "indexed_year": 1975,
+      "grade": "Background",
+      "reason": "早期预测残差识别背景，非本稿主线。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1109/tassp.1975.1162641"
+    },
+    {
+      "index": 21,
+      "id": "https://openalex.org/W1989337816",
+      "title": "Distance measures for speech processing",
+      "indexed_year": 1976,
+      "grade": "Important",
+      "reason": "倒谱距离与谱距离相关，可供后续词条。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1109/tassp.1976.1162849"
+    },
+    {
+      "index": 22,
+      "id": "https://openalex.org/W1505035441",
+      "title": "Speech sounds and features",
+      "indexed_year": 1973,
+      "grade": "Background",
+      "reason": "语音声学著作背景，未读正文。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://openalex.org/W1505035441"
+    },
+    {
+      "index": 23,
+      "id": "https://openalex.org/W2072054026",
+      "title": "Considerations in dynamic time warping algorithms for discrete word recognition",
+      "indexed_year": 1978,
+      "grade": "Background",
+      "reason": "动态时间规整背景，非倒谱基础。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1109/tassp.1978.1163164"
+    },
+    {
+      "index": 24,
+      "id": "https://openalex.org/W4377010269",
+      "title": "Listen, Denoise, Action! Audio-Driven Motion Synthesis with Diffusion Models",
+      "indexed_year": 2023,
+      "grade": "Exclude",
+      "reason": "声音驱动动作合成与本稿概念范围不匹配。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1145/3592458"
+    },
+    {
+      "index": 25,
+      "id": "https://openalex.org/W4206567542",
+      "title": "Deep Spoken Keyword Spotting:An Overview",
+      "indexed_year": 2022,
+      "grade": "Background",
+      "reason": "关键词检测综述属于应用背景。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.1109/access.2021.3139508"
+    },
+    {
+      "index": 26,
+      "id": "https://openalex.org/W3212117663",
+      "title": "Investigating Self-Supervised Front Ends for Speech Spoofing Countermeasures",
+      "indexed_year": 2022,
+      "grade": "Background",
+      "reason": "自监督反欺骗属于特征比较背景，非倒谱定义证据。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.21437/odyssey.2022-14"
+    },
+    {
+      "index": 27,
+      "id": "https://openalex.org/W4205555939",
+      "title": "Automatic Speaker Recognition Using Mel-Frequency Cepstral Coefficients Through Machine Learning",
+      "indexed_year": 2022,
+      "grade": "Important",
+      "reason": "MFCC 应用相关；摘要描述未做 DCT，不能据其标题定义一般 MFCC。",
+      "screening_basis": "title + indexed abstract where available; abstract may be truncated in manual triage; not a full-text appraisal",
+      "used_in_entry": false,
+      "canonical_work": "https://doi.org/10.32604/cmc.2022.023278"
+    }
+  ]
+}

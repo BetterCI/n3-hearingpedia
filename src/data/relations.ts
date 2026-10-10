@@ -698,6 +698,12 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('speech-audiometry','listening-effort','related','正确率与努力是相关但不同的结果，不能互相替代。',2),
   link('speech-audiometry','confusion-matrix','analyzed-by','项目反应可用于组织语音识别中的错误分布。',2),
 
+  link('spectrum-and-power-spectral-density','cepstrum','related','倒谱以对数谱为输入，须区分幅度、功率、单边折叠及归一化约定。',2),
+  link('fundamental-frequency','cepstrum','related','谐波间隔可转为倒谱周期峰；峰位置可用于候选基频估计，仍需搜索范围与可靠性判定。',2),
+  link('formant','cepstrum','related','低倒频率 lifter 可估计平滑谱形，但声源谱倾斜和共振响应重叠使其不等于精确声道分离。',2),
+  link('harmonicity','cepstrum','related','多谐波的规则间隔支持周期线索；孤立纯音和声源混合不能直接套用浊音周期峰解释。',2),
+  link('temporal-envelope','cepstrum','related','倒谱估计的谱包络沿频率变化，与原声音沿时间变化的幅度包络具有不同坐标。',2),
+  link('temporal-fine-structure','cepstrum','related','实倒谱舍弃谱相位；复倒谱在相容分支下保留相位相关信息，与 ENV/TFS 分解方法不同。',2),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

@@ -1,0 +1,68 @@
+{
+  "nature": "original synthetic teaching examples; not measured speech or clinical results",
+  "numpy_version": "1.26.4",
+  "matplotlib_version": "3.8.0",
+  "source_filter": {
+    "fs_hz": 16000,
+    "dft_samples": 8000,
+    "record_seconds": 0.5,
+    "pulse_interval_samples": 80,
+    "nominal_repetition_hz": 200.0,
+    "noise_sd": 0.02,
+    "rng_seed": 20261010,
+    "resonances_hz_bandwidth_hz": [
+      [
+        700,
+        80
+      ],
+      [
+        1200,
+        100
+      ],
+      [
+        2500,
+        150
+      ]
+    ],
+    "window": "none; periodic DFT model",
+    "lifter_cutoffs_ms": [
+      1,
+      2.5,
+      7
+    ],
+    "max_cepstral_additivity_error": 4.440892098500626e-16,
+    "gain_c0_shift": 1.0986122886681098,
+    "gain_nonzero_cepstrum_max_error": 4.440892098500626e-16,
+    "spectral_floor": "none: all computed bins verified nonzero"
+  },
+  "echo": {
+    "fs_hz": 16000,
+    "dft_samples": 8192,
+    "delay_samples": 128,
+    "delay_ms": 8.0,
+    "amplitude": 0.5,
+    "first_four_positive_quefrency_coefficients": [
+      0.25,
+      -0.0625,
+      0.020833333333333332,
+      -0.0078125
+    ],
+    "analytic_max_error": 8.933825901280557e-17
+  },
+  "phase": {
+    "dft_samples": 4096,
+    "minimum_phase_fir": [
+      1,
+      -0.6
+    ],
+    "reversed_fir": [
+      -0.6,
+      1
+    ],
+    "removed_delay_samples": 1,
+    "real_cepstrum_max_difference": 5.551115123125783e-17,
+    "complex_cepstrum_inverse_max_error": 1.1102230246251565e-16,
+    "scope": "known analytic branches only"
+  },
+  "quefrency_spacing_seconds": 6.25e-05
+}

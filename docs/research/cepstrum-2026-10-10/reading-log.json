@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-10",
+  "sources": {
+    "cepstrum-oppenheim-history-2004": {
+      "title": "Dsp history — From frequency to quefrency: a history of the cepstrum",
+      "authors": "Alan V. Oppenheim; Ronald W. Schafer",
+      "year": "2004",
+      "publication": "IEEE Signal Processing Magazine, 21(5), 95–106",
+      "url": "https://dsp-group.mit.edu/wp-content/uploads/2024/11/SPMhistory_Sep2k4.pdf",
+      "access": "fulltext",
+      "supports": "阅读作者托管 PDF 的历史回顾、同态变换与相位讨论，主要为 PDF 页 1–4；不是直接读取 Bogert 等 1963 年原章。",
+      "doi": "10.1109/MSP.2004.1328092"
+    },
+    "cepstrum-mathworks-real": {
+      "title": "rceps — Real cepstrum and minimum phase reconstruction",
+      "authors": "MathWorks",
+      "year": "官方文档（2026-10-10 核验）",
+      "publication": "Signal Processing Toolbox 官方文档",
+      "url": "https://www.mathworks.com/help/signal/ref/rceps.html",
+      "access": "documentation",
+      "supports": "阅读定义、算法、最小相位重构与回声示例；实倒谱使用 IFFT(log(abs(FFT)))。未运行 MATLAB，原创图另用 Python 计算。"
+    },
+    "cepstrum-mathworks-complex": {
+      "title": "cceps — Complex cepstrum",
+      "authors": "MathWorks",
+      "year": "官方文档（2026-10-10 核验）",
+      "publication": "Signal Processing Toolbox 官方文档",
+      "url": "https://www.mathworks.com/help/signal/ref/cceps.html",
+      "access": "documentation",
+      "supports": "阅读复对数、相位展开、rcunwrap、nd 延迟及 FFT 方法限制；复倒谱不能用主值复对数替代，有限 DFT 结果具有周期混叠。"
+    },
+    "cepstrum-mathworks-inverse": {
+      "title": "icceps — Inverse complex cepstrum",
+      "authors": "MathWorks",
+      "year": "官方文档（2026-10-10 核验）",
+      "publication": "Signal Processing Toolbox 官方文档",
+      "url": "https://www.mathworks.com/help/signal/ref/icceps.html",
+      "access": "documentation",
+      "supports": "阅读逆变换与 nd 的延迟恢复说明；只在对数分支及延迟记录相容时讨论重构，未测试第三方工具箱。"
+    },
+    "cepstrum-praat-power": {
+      "title": "Spectrum: To PowerCepstrum",
+      "authors": "Paul Boersma; David Weenink / Praat",
+      "year": "官方手册（2026-10-10 核验）",
+      "publication": "Praat 官方手册",
+      "url": "https://www.fon.hum.uva.nl/praat/manual/Spectrum__To_PowerCepstrum.html",
+      "access": "documentation",
+      "supports": "阅读全部转换说明：对平方模取自然对数、逆傅里叶变换后再平方。本文实倒谱与功率倒谱比例公式限定为相同标度且无谱底。"
+    },
+    "cepstrum-oppenheim-schafer-1968": {
+      "title": "Homomorphic Analysis of Speech",
+      "authors": "Alan V. Oppenheim; Ronald W. Schafer",
+      "year": "1968",
+      "publication": "IEEE Transactions on Audio and Electroacoustics, 16(2), 221–226",
+      "url": "https://dsp-group.mit.edu/wp-content/uploads/2024/11/Hom1968.pdf",
+      "access": "fulltext",
+      "supports": "重点阅读 PDF 页 1–4：卷积模型、复倒谱、最小／最大相位性质及短时加窗近似条件。没有将模型条件解释为自然语音可无误分离。",
+      "doi": "10.1109/TAU.1968.1161965"
+    },
+    "cepstrum-noll-1967": {
+      "title": "Cepstrum Pitch Determination",
+      "authors": "A. Michael Noll",
+      "year": "1967",
+      "publication": "Journal of the Acoustical Society of America, 41(2), 293–309",
+      "url": "https://doi.org/10.1121/1.1910339",
+      "access": "abstract",
+      "supports": "核对 Crossref 出版方原始摘要及 DOI 书目：倒谱周期峰及早期语音基频检测。未读取全文、算法阈值或听测数据，不转述其性能结论。",
+      "doi": "10.1121/1.1910339"
+    },
+    "cepstrum-smith-lifter": {
+      "title": "Spectral Audio Signal Processing — Cepstral Windowing",
+      "authors": "Julius O. Smith III",
+      "year": "在线作者教材（2026-10-10 核验）",
+      "publication": "作者教材：DSPRelated 托管章节",
+      "url": "https://www.dsprelated.com/freebooks/sasp/Cepstral_Windowing.html",
+      "access": "fulltext",
+      "supports": "阅读 Cepstral Windowing 与 Spectral Envelope by Cepstral Windowing 两节：低倒频率截断与对数谱平滑。图中 cutoff 及数值由本文选择，不是语音通用参数。"
+    },
+    "cepstrum-drugman-2009": {
+      "title": "Complex Cepstrum-based Decomposition of Speech for Glottal Source Estimation",
+      "authors": "Thomas Drugman; Baris Bozkurt; Thierry Dutoit",
+      "year": "2009",
+      "publication": "Interspeech 2009, 116–119",
+      "url": "https://www.isca-archive.org/interspeech_2009/drugman09_interspeech.html",
+      "access": "fulltext",
+      "supports": "阅读原始会议摘要及 PDF 页 1–3：混合相位分解、声门闭合时刻对齐、窗形和窗长敏感性。2019 年 arXiv 存档不作为新研究计数；未复现论文实验。"
+    },
+    "cepstrum-davis-mermelstein-1980": {
+      "title": "Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences",
+      "authors": "S. B. Davis; Paul Mermelstein",
+      "year": "1980",
+      "publication": "IEEE Transactions on Acoustics, Speech, and Signal Processing, 28(4), 357–366",
+      "url": "https://doi.org/10.1109/TASSP.1980.1163420",
+      "access": "metadata",
+      "supports": "核对 Crossref 标题、作者、年份、页码与 DOI；IEEE 页面无法读取正文。OpenAlex 摘要仅用于筛选，正文只作为历史书目列举，不引用识别率或复现其系统。",
+      "doi": "10.1109/TASSP.1980.1163420"
+    },
+    "cepstrum-librosa-mfcc": {
+      "title": "librosa.feature.mfcc",
+      "authors": "librosa contributors",
+      "year": "0.11.0（2026-10-10 核验）",
+      "publication": "librosa 版本化官方文档",
+      "url": "https://librosa.org/doc/0.11.0/generated/librosa.feature.mfcc.html",
+      "access": "documentation",
+      "supports": "阅读 log-power Mel 输入、DCT 类型、归一化、Mel 参数及 lifter 定义；MFCC 阶数不是线性频率倒谱的秒刻度，未运行 librosa。"
+    },
+    "cepstrum-librosa-logpower": {
+      "title": "librosa.power_to_db",
+      "authors": "librosa contributors",
+      "year": "0.11.0（2026-10-10 核验）",
+      "publication": "librosa 版本化官方文档",
+      "url": "https://librosa.org/doc/0.11.0/generated/librosa.power_to_db.html",
+      "access": "documentation",
+      "supports": "阅读 10 log10(S/ref)、amin 与 top_db 裁剪定义；支持对数底、参考值及动态范围裁剪会影响后续特征的说明。"
+    },
+    "cepstrum-praat-frames": {
+      "title": "Sound: To PowerCepstrogram…",
+      "authors": "Paul Boersma; David Weenink / Praat",
+      "year": "官方手册（2026-10-10 核验）",
+      "publication": "Praat 官方手册",
+      "url": "https://www.fon.hum.uva.nl/praat/manual/Sound__To_PowerCepstrogram___.html",
+      "access": "documentation",
+      "supports": "阅读窗长、步长、pitch floor、重采样与预加重说明；窗长 3/pitch floor 是此工具的约定，不推广到所有倒谱软件。"
+    },
+    "cepstrum-praat-cpp": {
+      "title": "PowerCepstrum: Get peak prominence…",
+      "authors": "Paul Boersma; David Weenink / Praat",
+      "year": "官方手册（2026-10-10 核验）",
+      "publication": "Praat 官方手册",
+      "url": "https://www.fon.hum.uva.nl/praat/manual/PowerCepstrum__Get_peak_prominence___.html",
+      "access": "documentation",
+      "supports": "阅读搜索范围、峰值插值、背景趋势拟合及 CPP 定义；CPP 为峰相对趋势的突出度，不等于 F0、HNR 或未经校准的绝对峰高。"
+    },
+    "cepstrum-murton-2023": {
+      "title": "Validation of a Task-Independent Cepstral Peak Prominence Measure with Voice Activity Detection",
+      "authors": "Olivia M. Murton; Abigail E. Haenssler; Marc F. Maffei; Kathryn P. Connaghan; Jordan R. Green",
+      "year": "2023",
+      "publication": "Interspeech 2023, 4993–4997",
+      "url": "https://www.isca-archive.org/interspeech_2023/murton23_interspeech.html",
+      "access": "fulltext",
+      "supports": "阅读 PDF 页 1–4 的方法、结果表和讨论：voice-only CPP 在含连续言语或混合任务的数据中有条件获益，持续元音并非普遍改善；诊断分析样本 275，原始样本 295。未转述未验证的普适阈值。",
+      "doi": "10.21437/Interspeech.2023-2168"
+    },
+    "cepstrum-yanushevskaya-2025": {
+      "title": "Cepstral Peak Prominence in normophonic Irish-English speaking adults: The effect of gender, age, speech task segmental composition, recording conditions and CPP extraction method",
+      "authors": "Irena Yanushevskaya; Niamh O’Donnell; Saoirse O’Regan",
+      "year": "2025（2024-11-22 在线发表）",
+      "publication": "Clinical Linguistics & Phonetics, 39(4–5), 474–503",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39575922/",
+      "access": "abstract",
+      "supports": "阅读原始摘要并核对 PubMed 期卷页：100 名 18–55 岁健康成人，任务、录音条件及 VAD 方法影响 CPP；不据摘要制作正常参考区间或推广到其他语言、年龄和疾病。",
+      "doi": "10.1080/02699206.2024.2428177"
+    },
+    "cepstrum-lambropoulos-2024": {
+      "title": "The sub-band cepstrum as a tool for locating local spectral regions of phonetic sensitivity: A first attempt with multi-speaker vowel data",
+      "authors": "Michael Lambropoulos; Frantz Clermont; Shunichi Ishihara",
+      "year": "2024",
+      "publication": "Interspeech 2024, 1535–1539",
+      "url": "https://www.isca-archive.org/interspeech_2024/lambropoulos24_interspeech.html",
+      "access": "abstract",
+      "supports": "阅读原始会议摘要：子带线性倒谱与日语男性元音数据的局部语音敏感区分析；未读取全文统计表，不主张泛化性能或替代所有表征。",
+      "doi": "10.21437/Interspeech.2024-357"
+    }
+  },
+  "reused_source": "spectrum-numpy-fft: official normalization and Hermitian symmetry documentation re-read 2026-10-10",
+  "access_failures": [
+    "IEEE 1163420 robot-verification page: not bypassed; metadata only",
+    "Europe PMC REST connection error: PubMed original abstract subsequently accessible"
+  ],
+  "rejected_metadata": {
+    "doi": "10.1109/TAU.1968.1161984",
+    "reason": "title is Zero crossings as a means of obtaining spectral information in speech analysis, NOT Homomorphic Analysis of Speech; corrected DOI independently verified as 10.1109/TAU.1968.1161965"
+  }
+}

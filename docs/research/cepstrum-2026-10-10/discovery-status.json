@@ -1,0 +1,48 @@
+[
+  {
+    "query": "topic",
+    "parameters": {
+      "search": "cepstrum speech source filter pitch",
+      "sort": "relevance_score:desc"
+    },
+    "limit": 12,
+    "returned": 12,
+    "status": "ok"
+  },
+  {
+    "query": "pitch-1967-backward",
+    "parameters": {
+      "filter": "cited_by:W2084044763"
+    },
+    "limit": 6,
+    "returned": 0,
+    "status": "ok"
+  },
+  {
+    "query": "pitch-1967-recent-forward",
+    "parameters": {
+      "filter": "cites:W2084044763,from_publication_date:2021-10-10,to_publication_date:2026-10-10"
+    },
+    "limit": 4,
+    "returned": 4,
+    "status": "ok"
+  },
+  {
+    "query": "features-1980-backward",
+    "parameters": {
+      "filter": "cited_by:W2148154194"
+    },
+    "limit": 6,
+    "returned": 6,
+    "status": "ok"
+  },
+  {
+    "query": "features-1980-recent-forward",
+    "parameters": {
+      "filter": "cites:W2148154194,from_publication_date:2021-10-10,to_publication_date:2026-10-10"
+    },
+    "limit": 4,
+    "returned": 4,
+    "status": "ok"
+  }
+]

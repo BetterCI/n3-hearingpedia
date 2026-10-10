@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-10",
+  "scope": "isolated published-base worktree plus only cepstrum draft and its registration",
+  "worktree": "C:\\Users\\mengq\\.codex\\worktrees\\sound-waves-release\\n³ Hearingpedia",
+  "base_published_commit": "40f1d880373f9ff79eaa223a2263b0744e4d4677",
+  "publication": "User authorized push; final deployment recorded separately",
+  "check": {
+    "exit_code": 0,
+    "files": 146,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": {
+    "exit_code": 0,
+    "pages": 246,
+    "search_indexed_pages": 106,
+    "nonblocking_existing_notices": [
+      "bundle chunk-size notice",
+      "nine historical redirects excluded from Pagefind"
+    ]
+  },
+  "verify": {
+    "exit_code": 0,
+    "pages": 246,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 20283,
+    "equations": 263,
+    "searchableConcepts": 106,
+    "wikiConcepts": 106,
+    "knowledgeAreas": 7,
+    "typedRelationships": 677,
+    "wikiCrossLinks": 1152,
+    "chineseCharacters": 710702,
+    "brokenLinks": 0
+  },
+  "repair": "Initial integration check detected missing cepstrum path insertion because published path order differs from root. Scoped insertion corrected and full build plus verify rerun successfully.",
+  "browser": {
+    "preview_url": "http://127.0.0.1:4365/docs/drafts/cepstrum-preview.html",
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_document_width": 375,
+    "desktop_viewport": [
+      1200,
+      800
+    ],
+    "desktop_document_width": 1185,
+    "page_overflow": false,
+    "table_rows_column_counts": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "all_four_figures_loaded": true,
+    "display_equations": 9,
+    "katex_errors": 0,
+    "bibliography_entries": 18,
+    "missing_citation_targets": 0,
+    "raw_math_in_table": 0,
+    "code_and_table_scroll_locally": true,
+    "temporary_viewport_reset": true
+  },
+  "figures": "all four PNGs visually inspected; SVG assets verified in browser",
+  "professional_review": "not completed; status remains draft",
+  "previous_draft_validation": {
+    "base_published_commit": "2b301a8681ab06e5a799bc4d107829cf20b72b96",
+    "check": {
+      "exit_code": 0,
+      "files": 142,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": {
+      "exit_code": 0,
+      "pages": 242,
+      "search_indexed_pages": 104,
+      "nonblocking_existing_notices": [
+        "bundle chunk-size notice",
+        "nine historical redirects without html are excluded from Pagefind"
+      ]
+    },
+    "verify": {
+      "exit_code": 0,
+      "pages": 242,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 19858,
+      "equations": 252,
+      "searchableConcepts": 104,
+      "wikiConcepts": 104,
+      "knowledgeAreas": 7,
+      "typedRelationships": 657,
+      "wikiCrossLinks": 1131,
+      "chineseCharacters": 695791,
+      "brokenLinks": 0
+    }
+  },
+  "tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "integration": "Preserved complete electroacoustic-transducer and microphone publications; source registry and evidence map resolved against immutable microphone commit, then added only cepstrum registration."
+}
