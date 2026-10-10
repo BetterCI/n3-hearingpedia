@@ -70,6 +70,8 @@ export function initVisitorStats() {
         });
         set('[data-stats-updated]', ` 更新于 ${date.format(new Date(data.updatedAt))}。`);
         section.hidden = false;
+        const panel = document.querySelector<HTMLElement>('.visitor-stats-panel');
+        if (panel) panel.hidden = false;
       });
     }).catch(() => { /* Keep the footer compact until a real snapshot is available. */ });
 }

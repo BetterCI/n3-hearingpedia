@@ -12,6 +12,7 @@ const summary = (visits, provider) => ({ provider, visits, start: '2026-09-10T16
 
 async function render(snapshot, hostname = 'betterci.github.io') {
   const scripts = [];
+  const panel = { hidden: true };
   const sections = ['baidu', 'goatcounter'].map(provider => ({
     hidden: true, dataset: { statsSource: provider, statsUrl: '/visitor-stats.json', counterSite: 'https://n3hearing.goatcounter.com' },
     nodes: new Map(),
@@ -25,7 +26,8 @@ async function render(snapshot, hostname = 'betterci.github.io') {
   const context = { exports: {}, window: {}, location: { hostname, pathname: '/n3-hearingpedia/' }, AbortSignal,
     fetch: async () => { fetches++; return { ok: true, json: async () => snapshot }; },
     document: {
-      querySelector: selector => selector === '.visitor-stats' ? sections[0] : scripts.find(item => `#${item.id}` === selector),
+      querySelector: selector => selector === '.visitor-stats' ? sections[0]
+        : selector === '.visitor-stats-panel' ? panel : scripts.find(item => `#${item.id}` === selector),
       querySelectorAll: () => sections,
       createElement: () => ({ dataset: {}, textContent: '' }),
       head: { append: script => scripts.push(script) },
@@ -34,11 +36,12 @@ async function render(snapshot, hostname = 'betterci.github.io') {
   runInNewContext(compiled, context);
   context.exports.initVisitorStats();
   await new Promise(resolve => setImmediate(resolve));
-  return { context, sections, scripts, fetches };
+  return { context, sections, scripts, fetches, panel };
 }
 
 test('renders both providers with independent counts and loads each tracker only once', async () => {
-  const { context, sections, scripts, fetches } = await render({ sources: { baidu: summary(12, 'baidu'), goatcounter: summary(17) } });
+  const { context, sections, scripts, fetches, panel } = await render({ sources: { baidu: summary(12, 'baidu'), goatcounter: summary(17) } });
+  assert.equal(panel.hidden, false);
   assert.equal(fetches, 1);
   assert.equal(scripts.length, 2);
   assert.equal(sections[0].querySelector('[data-stats-visits]').textContent, '12');
@@ -63,4 +66,10 @@ test('a missing provider remains hidden while the other provider displays its re
   const { sections } = await render({ sources: { baidu: summary(12, 'baidu') } });
   assert.equal(sections[0].hidden, false);
   assert.equal(sections[1].hidden, true);
+});
+
+test('the unified panel stays hidden when neither source has a snapshot', async () => {
+  const { sections, panel } = await render({ sources: {} });
+  assert.equal(panel.hidden, true);
+  assert(sections.every(section => section.hidden));
 });
