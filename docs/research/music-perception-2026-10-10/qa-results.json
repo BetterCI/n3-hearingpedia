@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-10",
+  "status": "local draft awaiting user review",
+  "commit": false,
+  "push": false,
+  "professional_review": false,
+  "astro_check": {
+    "exit_code": 0,
+    "files": 114,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": {
+    "exit_code": 0,
+    "log": "artifacts/music-perception-build.log"
+  },
+  "verify": {
+    "exit_code": 0,
+    "pages": 218,
+    "searchableConcepts": 92,
+    "typedRelationships": 532,
+    "brokenLinks": 0
+  },
+  "visual": {
+    "original_pngs_reviewed": 4,
+    "desktop": {
+      "viewport": 1280,
+      "document_width": 1265,
+      "display_equations": 4,
+      "katex_errors": 0,
+      "references": 26,
+      "all_four_svg_images_loaded": true
+    },
+    "mobile": {
+      "viewport": 390,
+      "document_width": 375,
+      "figure_width": 330.6667,
+      "katex_errors": 0,
+      "tables_within_container": true,
+      "long_equations_use_contained_horizontal_scroll": true
+    },
+    "temporary_viewport_reset": true,
+    "preview_tab_retained": 36
+  },
+  "corrections": [
+    "Moved figure 1 legend and label to avoid overlap.",
+    "Separated figure 2 footer from bottom axis label.",
+    "Changed vocoder relation to related: repository classifies vocoder as a model rather than an analysis method."
+  ]
+}

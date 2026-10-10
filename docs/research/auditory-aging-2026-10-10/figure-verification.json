@@ -1,0 +1,60 @@
+{
+  "figures": 4,
+  "teaching_figures": [
+    1,
+    2,
+    3
+  ],
+  "published_estimates_redrawn": [
+    4
+  ],
+  "psychometric": {
+    "function": "1/(1+exp(-k*(r-theta)))",
+    "k_per_db": 0.6,
+    "theta_db": [
+      -4.0,
+      0.0
+    ],
+    "difference_db": 4,
+    "at_0_db": [
+      0.9168273035060777,
+      0.5
+    ]
+  },
+  "level_control": {
+    "threshold_spl_db": [
+      20.0,
+      50.0
+    ],
+    "fixed_spl_db": [
+      65.0,
+      65.0
+    ],
+    "fixed_sl_db": [
+      45.0,
+      15.0
+    ],
+    "equal_sl_spl_db": [
+      50.0,
+      80.0
+    ],
+    "equal_sl_db": 30
+  },
+  "published_estimates": [
+    {
+      "outcome": "global cognition 3-year change",
+      "estimate": 0.002,
+      "lower": -0.077,
+      "upper": 0.081,
+      "doi": "10.1016/S0140-6736(23)01406-X"
+    },
+    {
+      "outcome": "HHIE-S baseline-to-year-3 change",
+      "estimate": -9.5,
+      "lower": -11.0,
+      "upper": -8.0,
+      "doi": "10.1111/jgs.19185"
+    }
+  ],
+  "checks_passed": true
+}

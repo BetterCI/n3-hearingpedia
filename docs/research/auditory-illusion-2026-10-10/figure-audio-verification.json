@@ -1,0 +1,144 @@
+{
+  "nature": "Original teaching stimuli and explanatory figures; no empirical dataset",
+  "figures": 4,
+  "sample_rate": 44100,
+  "random_seed": 20261010,
+  "continuity": {
+    "target_Hz": 1000,
+    "duration_s": 4.7,
+    "gaps_s": [
+      [
+        0.8,
+        1.1
+      ],
+      [
+        2.2,
+        2.5
+      ],
+      [
+        3.6,
+        3.9
+      ]
+    ],
+    "ramps_ms": 10,
+    "noise_band_Hz": [
+      300,
+      5000
+    ],
+    "tone_peak_before_gain": 0.045,
+    "noise_RMS_before_gate": 0.09,
+    "common_gain": 1.3825036643429414,
+    "target_absent_in_deleted_intervals": true,
+    "shared_noise": true
+  },
+  "shepard": {
+    "base_Hz": 55,
+    "partials_k": [
+      0,
+      7
+    ],
+    "steps": 12,
+    "center_Hz": 880,
+    "sigma_octaves": 1.1,
+    "tone_s": 0.18,
+    "gap_s": 0.02,
+    "cycles": 4,
+    "max_component_Hz": 13289.750322558246,
+    "common_gain": 0.22157263661531554
+  },
+  "scale": {
+    "midi_up": [
+      60,
+      62,
+      64,
+      65,
+      67,
+      69,
+      71,
+      72
+    ],
+    "left_Hz": [
+      261.6255653005986,
+      493.8833012561241,
+      329.6275569128699,
+      391.99543598174927,
+      391.99543598174927,
+      329.6275569128699,
+      493.8833012561241,
+      261.6255653005986
+    ],
+    "right_Hz": [
+      523.2511306011972,
+      293.6647679174076,
+      440.0,
+      349.2282314330039,
+      349.2282314330039,
+      440.0,
+      293.6647679174076,
+      523.2511306011972
+    ],
+    "tone_s": 0.25,
+    "cycles": 4,
+    "ramps_ms": 10,
+    "channel_pair_matches_original_scales": true
+  },
+  "audio": [
+    {
+      "file": "continuity-silence.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_s": 4.7,
+      "peak": 0.06221227024650793,
+      "rms": 0.039294505541048824
+    },
+    {
+      "file": "continuity-noise.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_s": 4.7,
+      "peak": 0.5492297474016723,
+      "rms": 0.0664448719136657
+    },
+    {
+      "file": "continuity-present.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_s": 4.7,
+      "peak": 0.6,
+      "rms": 0.06901621139870433
+    },
+    {
+      "file": "shepard-ascending.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_s": 9.6,
+      "peak": 0.38,
+      "rms": 0.20021058465639655
+    },
+    {
+      "file": "scale-stereo.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration_s": 8.0,
+      "peak": 0.15999999992893257,
+      "rms": 0.11027375287065995
+    },
+    {
+      "file": "scale-left.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_s": 8.0,
+      "peak": 0.1599999998232833,
+      "rms": 0.11027369834182614
+    },
+    {
+      "file": "scale-right.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_s": 8.0,
+      "peak": 0.15999999992893257,
+      "rms": 0.1102738073994668
+    }
+  ],
+  "checks_passed": true
+}

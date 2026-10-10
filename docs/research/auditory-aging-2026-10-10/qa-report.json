@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "slug": "auditory-aging",
+  "status": "local draft awaiting author confirmation; no commit or push",
+  "article": {"chinese_characters": 8288, "sections": 12, "references": 23, "figures": 4, "display_equations": 2, "typed_relationships": 16, "learning_paths": 2},
+  "pnpm_check": {"exit_code": 0, "files": 116, "errors": 0, "warnings": 0, "hints": 0},
+  "pnpm_build": {"exit_code": 0, "log": "artifacts/auditory-aging-build.log", "notes": "Existing Pagefind Chinese stemming and default UI notices remain; build succeeded."},
+  "pnpm_verify": {"exit_code": 0, "pages": 220, "checked_internal_links": 17337, "searchable_concepts": 93, "typed_relationships": 548, "broken_links": 0},
+  "source_checks": {"bibliographic_records": 19, "new_reference_records": 18, "citation_ids_and_numbering": "passed", "unused_references": 0, "incorrect_initial_doi": "excluded and archived", "final_bibliography_corrections": "Publisher spelling Füllgrabe restored; Cassarly formal 2020/online 2019 distinguished; missing pages supplied from Europe PMC."},
+  "figure_checks": {"numeric_assertions": "passed", "all_four_pngs_visually_reviewed": true, "svg_and_png_retained": true, "trial_zero_line": "shortened to avoid crossing annotations", "browser_loaded_images": 4, "natural_width_each": 1400},
+  "desktop": {"viewport_width": 1280, "document_scroll_width": 1265, "horizontal_overflow": false, "math_errors": 0, "reference_count": 23, "visual_review": "Title, paragraphs, directory and figure 2 inspected; figures 1–4 additionally reviewed as generated PNGs."},
+  "mobile": {"viewport": [390, 844], "document_scroll_width": 375, "horizontal_overflow": false, "figure_width_each": 330.667, "display_equation_width_each": 330.667, "table_width_each": 330.667, "visual_review": "Title, navigation, paragraphs and table containment inspected; wide tables retain their existing local scroll wrapper."},
+  "preview": "http://127.0.0.1:4338/n3-hearingpedia/concepts/auditory-aging/",
+  "preview_tab_retained": true,
+  "temporary_viewport_restored": true,
+  "professional_review": "pending"
+}

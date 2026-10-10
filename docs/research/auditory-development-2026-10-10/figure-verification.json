@@ -1,0 +1,89 @@
+{
+  "figures": 4,
+  "teaching_figures": [
+    1,
+    2,
+    3
+  ],
+  "published_estimates_redrawn": [
+    4
+  ],
+  "age_weeks": {
+    "gestational_at_birth": 34,
+    "postnatal": 12,
+    "postmenstrual": 46,
+    "reference_due": 40,
+    "corrected": 6,
+    "device_use": 3
+  },
+  "distributions": {
+    "positions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "unimodal": [
+      0.02,
+      0.08,
+      0.16,
+      0.24,
+      0.24,
+      0.16,
+      0.08,
+      0.02
+    ],
+    "bimodal": [
+      0.04,
+      0.16,
+      0.24,
+      0.06,
+      0.06,
+      0.24,
+      0.16,
+      0.04
+    ],
+    "both_means": 4.5
+  },
+  "published_estimates": [
+    {
+      "label": "助听器：50 dB HL",
+      "early_months": 3,
+      "later_months": 24,
+      "estimate": -6.8,
+      "lower": -10.8,
+      "upper": -2.8
+    },
+    {
+      "label": "助听器：70 dB HL",
+      "early_months": 3,
+      "later_months": 24,
+      "estimate": -11.8,
+      "lower": -18.7,
+      "upper": -4.8
+    },
+    {
+      "label": "人工耳蜗组",
+      "early_months": 6,
+      "later_months": 24,
+      "estimate": -21.4,
+      "lower": -33.8,
+      "upper": -9.0
+    }
+  ],
+  "estimate_source_doi": "10.1542/peds.2016-4274",
+  "checks_passed": true,
+  "worked_examples": {
+    "transition_probability": [
+      0.9,
+      0.25
+    ],
+    "hit_rate": 0.8,
+    "false_alarm_rate": 0.2,
+    "dprime": 1.6832424671458286
+  }
+}

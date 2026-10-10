@@ -1,0 +1,87 @@
+{
+  "slug": "auditory-computational-models",
+  "knowledge_area": "methods",
+  "kind": "model",
+  "chinese_characters": 8273,
+  "body_characters": 14658,
+  "sections": 11,
+  "subsections": 21,
+  "reference_ids": [
+    "acm-comparison",
+    "acm-amt",
+    "acm-mechanics",
+    "acm-erb",
+    "acm-hohmann-doc",
+    "acm-meddis",
+    "acm-zilany",
+    "acm-bruce",
+    "acm-verhulst",
+    "acm-verhulst-code",
+    "acm-dau",
+    "acm-dau-doc",
+    "acm-jeffress",
+    "acm-durlach",
+    "acm-breebaart",
+    "acm-breebaart-test",
+    "acm-sepsm",
+    "acm-stoi",
+    "acm-haspi",
+    "acm-model-matched",
+    "acm-kell",
+    "acm-saddler",
+    "acm-connear",
+    "acm-icnet",
+    "acm-eeg-2026"
+  ],
+  "wiki_links": [
+    "auditory-filter",
+    "phase-locking",
+    "binaural-hearing",
+    "auditory-cortex",
+    "speech-intelligibility",
+    "audiometric-calibration",
+    "cochlea",
+    "hearing-aid",
+    "loudness",
+    "inner-hair-cell",
+    "auditory-brainstem-response",
+    "cochlear-synaptopathy",
+    "temporal-envelope",
+    "temporal-fine-structure",
+    "temporal-resolution",
+    "signal-detection-theory",
+    "spatial-hearing",
+    "auditory-scene-analysis",
+    "listening-effort",
+    "pitch-perception",
+    "cochlear-implant"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "figures": [
+    {
+      "url": "/n3-hearingpedia/figures/auditory-computational-models/01-model-framework.svg",
+      "width": 1400,
+      "height": 760
+    },
+    {
+      "url": "/n3-hearingpedia/figures/auditory-computational-models/02-compression.svg",
+      "width": 1400,
+      "height": 680
+    },
+    {
+      "url": "/n3-hearingpedia/figures/auditory-computational-models/03-identifiability.svg",
+      "width": 1400,
+      "height": 700
+    },
+    {
+      "url": "/n3-hearingpedia/figures/auditory-computational-models/04-validation-metrics.svg",
+      "width": 1400,
+      "height": 680
+    }
+  ],
+  "equations": 4,
+  "citations": 55,
+  "relations": 20,
+  "validation": "source IDs, numbering, figure dimensions, equations and existing links checked; build and visual QA recorded separately"
+}

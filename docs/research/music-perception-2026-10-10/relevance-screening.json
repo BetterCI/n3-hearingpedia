@@ -1,0 +1,56 @@
+[
+  {
+    "id": "https://openalex.org/W4376875909",
+    "doi": "https://doi.org/10.3389/fncom.2023.1151895",
+    "title": "Dynamic models for musical rhythm perception and coordination",
+    "access": "OpenAlex abstract",
+    "decision": "background",
+    "reason": "综述动力系统、神经模型与贝叶斯预测；可作模型索引，本条使用原始1999模型及2011实验。",
+    "grading": "manual semantic screening with archived relevance-prompt.txt"
+  },
+  {
+    "id": "https://openalex.org/W1504969003",
+    "doi": "https://doi.org/10.1111/j.1467-7687.2011.01036.x",
+    "title": "Constraints on infants’ musical rhythm perception: effects of interval ratio complexity and enculturation",
+    "access": "OpenAlex abstract",
+    "decision": "background",
+    "reason": "婴儿习惯化下的比例复杂性与经验问题相关；当前总览未展开发展专题，保留为后续入口。",
+    "grading": "manual semantic screening with archived relevance-prompt.txt"
+  },
+  {
+    "id": "https://openalex.org/W3132562566",
+    "doi": "https://doi.org/10.3233/nre-208013",
+    "title": "Deficits in musical rhythm perception in children with specific learning disabilities",
+    "access": "OpenAlex abstract",
+    "decision": "exclude",
+    "reason": "学习障碍儿童的干预综述；当前未展开该临床群体，不以综述疗效替代原始证据。",
+    "grading": "manual semantic screening with archived relevance-prompt.txt"
+  },
+  {
+    "id": "https://openalex.org/W1474238196",
+    "doi": null,
+    "title": "Pitch Perception Across Domains and Musical Rhythm Perception in Dutch Dyslexics",
+    "access": "OpenAlex abstract",
+    "decision": "exclude",
+    "reason": "阅读障碍成人的跨域研究学位论文；与当前音乐组织总览核心证据距离较远。",
+    "grading": "manual semantic screening with archived relevance-prompt.txt"
+  },
+  {
+    "id": "https://openalex.org/W1997567737",
+    "doi": "https://doi.org/10.3390/brainsci4020428",
+    "title": "Human Brain Basis of Musical Rhythm Perception: Common and Distinct Neural Substrates for Meter, Tempo, and Pattern",
+    "access": "OpenAlex abstract",
+    "decision": "background",
+    "reason": "PET比较节拍分组、速度和模式；有分项价值，当前神经段已有听／敲击与EEG原始实验，避免扩张。",
+    "grading": "manual semantic screening with archived relevance-prompt.txt"
+  },
+  {
+    "id": "https://openalex.org/W4282984449",
+    "doi": "https://doi.org/10.1515/psicl-2022-0016",
+    "title": "L2 rhythm production and musical rhythm perception in advanced learners of English",
+    "access": "OpenAlex abstract",
+    "decision": "exclude",
+    "reason": "研究重点为外语节律产生与教学，音乐测验只是相关变量，不直接回答音乐感知组织。",
+    "grading": "manual semantic screening with archived relevance-prompt.txt"
+  }
+]

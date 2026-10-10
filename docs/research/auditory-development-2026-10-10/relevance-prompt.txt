@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: 听觉发育：生理成熟、经验学习、儿童测量与早期干预的证据边界
+
+Title: Age at Intervention for Permanent Hearing Loss and 5-Year Language Outcomes
+Abstract: OBJECTIVES: Universal newborn hearing screening has been implemented to detect permanent childhood hearing loss (PCHL) early, with the ultimate goal of improving outcomes through early treatment. However, there is disagreement between studies on the size of this benefit and in some cases whether it is significantly different from 0. There have been no studies of sufficient size in which researchers have determined reliably whether the effect varies with degree of PCHL. We aimed to explore how intervention timing influences 5-year language in children with PCHL. METHODS: Via a prospective study of 350 children, we used standard multiple regression analyses to investigate the effect of age at intervention or hearing screening on language outcomes after allowing for the effects of nonverbal IQ, degree of PCHL, sex, birth weight, maternal education, additional disabilities, and communication mode. RESULTS: The benefit of early intervention for language development increased as hearing loss increased. Children whose amplification started at age 24 months had poorer language than those whose amplification started at 3 months. The difference was larger for 70-dB HL (-11.8 score points; 95
+Keywords/concepts:
+Venue: PEDIATRICS
+Year: 2017
+Cited by: 290
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

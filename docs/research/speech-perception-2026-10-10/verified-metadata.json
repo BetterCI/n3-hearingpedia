@@ -1,0 +1,3516 @@
+[
+  {
+    "id": "speech-shortlist-2008",
+    "doi": "10.1037/0033-295X.115.2.357",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Shortlist B: A Bayesian model of continuous speech recognition."
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9257-317X",
+          "authenticated-orcid": false,
+          "given": "Dennis",
+          "family": "Norris",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3734-6286",
+          "authenticated-orcid": false,
+          "given": "James M.",
+          "family": "McQueen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Psychological Review"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2008,
+            4
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2008,
+            4
+          ]
+        ]
+      },
+      "published-print": null,
+      "volume": "115",
+      "issue": "2",
+      "page": "357-395",
+      "URL": "https://doi.org/10.1037/0033-295x.115.2.357",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "18426294",
+      "source": "MED",
+      "pmid": "18426294",
+      "doi": "10.1037/0033-295x.115.2.357",
+      "title": "Shortlist B: a Bayesian model of continuous speech recognition.",
+      "authorString": "Norris D, McQueen JM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Norris D",
+            "lastName": "Norris",
+            "firstName": "Dennis",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9257-317X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Research Council, Cognition and Brain Sciences Unit, Cambridge, UK. dennis.norris@mrc-cbu.cam.ac.uk"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McQueen JM",
+            "lastName": "McQueen",
+            "firstName": "James M",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3734-6286"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9257-317X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3734-6286"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "115",
+        "journalIssueId": 1523585,
+        "dateOfPublication": "2008 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2008,
+        "journal": {
+          "medlineAbbreviation": "Psychol Rev",
+          "title": "Psychological review",
+          "essn": "1939-1471",
+          "issn": "0033-295X",
+          "isoabbreviation": "Psychol Rev",
+          "nlmid": "0376476"
+        },
+        "printPublicationDate": "2008-04-01"
+      },
+      "pubYear": "2008",
+      "pageInfo": "357-395",
+      "abstractText": "A Bayesian model of continuous speech recognition is presented. It is based on Shortlist (D. Norris, 1994; D. Norris, J. M. McQueen, A. Cutler, & S. Butterfield, 1997) and shares many of its key assumptions: parallel competitive evaluation of multiple lexical hypotheses, phonologically abstract prelexical and lexical representations, a feedforward architecture with no online feedback, and a lexical segmentation algorithm based on the viability of chunks of the input as possible words. Shortlist B is radically different from its predecessor in two respects. First, whereas Shortlist was a connectionist model based on interactive-activation principles, Shortlist B is based on Bayesian principles. Second, the input to Shortlist B is no longer a sequence of discrete phonemes; it is a sequence of multiple phoneme probabilities over 3 time slices per segment, derived from the performance of listeners in a large-scale gating study. Simulations are presented showing that the model can account for key findings: data on the segmentation of continuous speech, word frequency effects, the effects of mispronunciations on word recognition, and evidence on lexical involvement in phonemic decision making. The success of Shortlist B suggests that listeners make optimal Bayesian decisions during spoken-word recognition.",
+      "affiliation": "Medical Research Council, Cognition and Brain Sciences Unit, Cambridge, UK. dennis.norris@mrc-cbu.cam.ac.uk",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Medical Research Council",
+            "acronym": "MRC_",
+            "grantId": "MC_U105580447",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bayes Theorem"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Verbal Behavior"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Recognition, Psychology"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1037/0033-295X.115.2.357"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 315,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2008-06-24",
+      "dateOfCreation": "2008-04-23",
+      "dateOfRevision": "2025-05-29",
+      "firstPublicationDate": "2008-04-01",
+      "firstIndexDate": "2008-06-25",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-trace-1986",
+    "doi": "10.1016/0010-0285(86)90015-0",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "The TRACE model of speech perception"
+      ],
+      "author": [
+        {
+          "given": "James L",
+          "family": "McClelland",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeffrey L",
+          "family": "Elman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Cognitive Psychology"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1986,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            1986,
+            1
+          ]
+        ]
+      },
+      "volume": "18",
+      "issue": "1",
+      "page": "1-86",
+      "URL": "https://doi.org/10.1016/0010-0285(86)90015-0",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "3753912",
+      "source": "MED",
+      "pmid": "3753912",
+      "doi": "10.1016/0010-0285(86)90015-0",
+      "title": "The TRACE model of speech perception.",
+      "authorString": "McClelland JL, Elman JL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "McClelland JL",
+            "lastName": "McClelland",
+            "firstName": "J L",
+            "initials": "JL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8217-405X"
+            }
+          },
+          {
+            "fullName": "Elman JL",
+            "lastName": "Elman",
+            "firstName": "J L",
+            "initials": "JL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8072-2294"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8072-2294"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8217-405X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "18",
+        "journalIssueId": 741210,
+        "dateOfPublication": "1986 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 1986,
+        "journal": {
+          "medlineAbbreviation": "Cogn Psychol",
+          "title": "Cognitive psychology",
+          "essn": "1095-5623",
+          "issn": "0010-0285",
+          "nlmid": "0241111",
+          "isoabbreviation": "Cogn Psychol"
+        },
+        "printPublicationDate": "1986-01-01"
+      },
+      "pubYear": "1986",
+      "pageInfo": "1-86",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIMH NIH HHS",
+            "acronym": "MH",
+            "grantId": "5-K01-MH00385",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cues"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Models, Psychological"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phonetics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Semantics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Software"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/0010-0285(86)90015-0"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1183,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "1986-04-09",
+      "dateOfCreation": "1986-01-01",
+      "dateOfRevision": "2019-10-30",
+      "firstPublicationDate": "1986-01-01",
+      "firstIndexDate": "2009-01-17",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-oden-1978",
+    "doi": "10.1037/0033-295X.85.3.172",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Integration of featural information in speech perception."
+      ],
+      "author": [
+        {
+          "given": "Gregg C.",
+          "family": "Oden",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dominic W.",
+          "family": "Massaro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Psychological Review"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1978
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            1978
+          ]
+        ]
+      },
+      "published-print": null,
+      "volume": "85",
+      "issue": "3",
+      "page": "172-191",
+      "URL": "https://doi.org/10.1037/0033-295x.85.3.172",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "663005",
+      "source": "MED",
+      "pmid": "663005",
+      "doi": "10.1037/0033-295x.85.3.172",
+      "title": "Integration of featural information in speech perception.",
+      "authorString": "Oden GC, Massaro DW.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Oden GC",
+            "lastName": "Oden",
+            "firstName": "G C",
+            "initials": "GC"
+          },
+          {
+            "fullName": "Massaro DW",
+            "lastName": "Massaro",
+            "firstName": "D W",
+            "initials": "DW"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "85",
+        "journalIssueId": 89268,
+        "dateOfPublication": "1978 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 1978,
+        "journal": {
+          "medlineAbbreviation": "Psychol Rev",
+          "title": "Psychological review",
+          "essn": "1939-1471",
+          "issn": "0033-295X",
+          "isoabbreviation": "Psychol Rev",
+          "nlmid": "0376476"
+        },
+        "printPublicationDate": "1978-05-01"
+      },
+      "pubYear": "1978",
+      "pageInfo": "172-191",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cues"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Memory"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Auditory Perception"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Acoustics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phonetics"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Discrimination, Psychological"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "OpenAlex",
+            "url": "https://doi.org/10.1037/0033-295x.85.3.172"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 114,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "1978-09-01",
+      "dateOfCreation": "1978-05-01",
+      "dateOfRevision": "2019-12-10",
+      "firstPublicationDate": "1978-05-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-liberman-1957",
+    "doi": "10.1037/h0044417",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "The discrimination of speech sounds within and across phoneme boundaries."
+      ],
+      "author": [
+        {
+          "given": "Alvin M.",
+          "family": "Liberman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Katherine Safford",
+          "family": "Harris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Howard S.",
+          "family": "Hoffman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Belver C.",
+          "family": "Griffith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Experimental Psychology"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1957
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            1957
+          ]
+        ]
+      },
+      "published-print": null,
+      "volume": "54",
+      "issue": "5",
+      "page": "358-368",
+      "URL": "https://doi.org/10.1037/h0044417",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "13481283",
+      "source": "MED",
+      "pmid": "13481283",
+      "doi": "10.1037/h0044417",
+      "title": "The discrimination of speech sounds within and across phoneme boundaries.",
+      "authorString": "LIBERMAN AM, HARRIS KS, HOFFMAN HS, GRIFFITH BC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "LIBERMAN AM",
+            "lastName": "LIBERMAN",
+            "firstName": "A M",
+            "initials": "AM"
+          },
+          {
+            "fullName": "HARRIS KS",
+            "lastName": "HARRIS",
+            "firstName": "K S",
+            "initials": "KS"
+          },
+          {
+            "fullName": "HOFFMAN HS",
+            "lastName": "HOFFMAN",
+            "firstName": "H S",
+            "initials": "HS"
+          },
+          {
+            "fullName": "GRIFFITH BC",
+            "lastName": "GRIFFITH",
+            "firstName": "B C",
+            "initials": "BC"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "54",
+        "journalIssueId": 204268,
+        "dateOfPublication": "1957 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 1957,
+        "journal": {
+          "medlineAbbreviation": "J Exp Psychol",
+          "title": "Journal of experimental psychology",
+          "issn": "0022-1015",
+          "isoabbreviation": "J Exp Psychol",
+          "nlmid": "7502586"
+        },
+        "printPublicationDate": "1957-11-01"
+      },
+      "pubYear": "1957",
+      "pageInfo": "358-368",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Language"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hearing"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Phonetics"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "hearing",
+          "Speech"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "OM",
+            "name": "pre-1966 citations"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1037/h0044417"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 565,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2000-07-01",
+      "dateOfCreation": "1957-11-01",
+      "dateOfRevision": "2019-08-23",
+      "firstPublicationDate": "1957-11-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-mcmurray-2002",
+    "doi": "10.1016/S0010-0277(02)00157-9",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Gradient effects of within-category phonetic variation on lexical access"
+      ],
+      "author": [
+        {
+          "given": "Bob",
+          "family": "McMurray",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael K.",
+          "family": "Tanenhaus",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Richard N.",
+          "family": "Aslin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Cognition"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            12
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2002,
+            12
+          ]
+        ]
+      },
+      "volume": "86",
+      "issue": "2",
+      "page": "B33-B42",
+      "URL": "https://doi.org/10.1016/s0010-0277(02)00157-9",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "12435537",
+      "source": "MED",
+      "pmid": "12435537",
+      "doi": "10.1016/s0010-0277(02)00157-9",
+      "title": "Gradient effects of within-category phonetic variation on lexical access.",
+      "authorString": "McMurray B, Tanenhaus MK, Aslin RN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "McMurray B",
+            "lastName": "McMurray",
+            "firstName": "Bob",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6532-284X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Brain and Cognitive Sciences, University of Rochester, Rochester, NY 14627, USA. mcmurray@bcs.rochester.edu"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tanenhaus MK",
+            "lastName": "Tanenhaus",
+            "firstName": "Michael K",
+            "initials": "MK"
+          },
+          {
+            "fullName": "Aslin RN",
+            "lastName": "Aslin",
+            "firstName": "Richard N",
+            "initials": "RN"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6532-284X"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "86",
+        "journalIssueId": 1134948,
+        "dateOfPublication": "2002 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2002,
+        "journal": {
+          "medlineAbbreviation": "Cognition",
+          "title": "Cognition",
+          "essn": "1873-7838",
+          "issn": "0010-0277",
+          "isoabbreviation": "Cognition",
+          "nlmid": "0367541"
+        },
+        "printPublicationDate": "2002-12-01"
+      },
+      "pubYear": "2002",
+      "pageInfo": "B33-42",
+      "abstractText": "In order to determine whether small within-category differences in voice onset time (VOT) affect lexical access, eye movements were monitored as participants indicated which of four pictures was named by spoken stimuli that varied along a 0-40 ms VOT continuum. Within-category differences in VOT resulted in gradient increases in fixations to cross-boundary lexical competitors as VOT approached the category boundary. Thus, fine-grained acoustic/phonetic differences are preserved in patterns of lexical activation for competing lexical candidates and could be used to maximize the efficiency of on-line word recognition.",
+      "affiliation": "Department of Brain and Cognitive Sciences, University of Rochester, Rochester, NY 14627, USA. mcmurray@bcs.rochester.edu",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "DC 005071",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "F31 DC006537",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "T30 DC 00035",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Eye Movements"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Speech Acoustics"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Phonetics"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Vocabulary"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Recognition, Psychology"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/s0010-0277(02)00157-9"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 168,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2003-03-03",
+      "dateOfCreation": "2002-11-19",
+      "dateOfRevision": "2024-07-10",
+      "firstPublicationDate": "2002-12-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-ganong-1980",
+    "doi": "10.1037/0096-1523.6.1.110",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Phonetic categorization in auditory word perception."
+      ],
+      "author": [
+        {
+          "given": "William F.",
+          "family": "Ganong",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Experimental Psychology: Human Perception and Performance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1980
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            1980
+          ]
+        ]
+      },
+      "published-print": null,
+      "volume": "6",
+      "issue": "1",
+      "page": "110-125",
+      "URL": "https://doi.org/10.1037/0096-1523.6.1.110",
+      "type": "journal-article"
+    },
+    "europe_pmc": null
+  },
+  {
+    "id": "speech-kleinschmidt-2015",
+    "doi": "10.1037/a0038695",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Robust speech perception: Recognize the familiar, generalize to the similar, and adapt to the novel."
+      ],
+      "author": [
+        {
+          "given": "Dave F.",
+          "family": "Kleinschmidt",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1158-7308",
+          "authenticated-orcid": false,
+          "given": "T. Florian",
+          "family": "Jaeger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Psychological Review"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            4
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2015,
+            4
+          ]
+        ]
+      },
+      "published-print": null,
+      "volume": "122",
+      "issue": "2",
+      "page": "148-203",
+      "URL": "https://doi.org/10.1037/a0038695",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "25844873",
+      "source": "MED",
+      "pmid": "25844873",
+      "pmcid": "PMC4744792",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4744792"
+        ]
+      },
+      "doi": "10.1037/a0038695",
+      "title": "Robust speech perception: recognize the familiar, generalize to the similar, and adapt to the novel.",
+      "authorString": "Kleinschmidt DF, Jaeger TF.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kleinschmidt DF",
+            "lastName": "Kleinschmidt",
+            "firstName": "Dave F",
+            "initials": "DF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Brain and Cognitive Sciences, University of Rochester."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jaeger TF",
+            "lastName": "Jaeger",
+            "firstName": "T Florian",
+            "initials": "TF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1158-7308"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Brain and Cognitive Sciences, Computer Science, and Linguistics, University of Rochester."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1158-7308"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "122",
+        "journalIssueId": 2271547,
+        "dateOfPublication": "2015 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2015,
+        "journal": {
+          "medlineAbbreviation": "Psychol Rev",
+          "title": "Psychological review",
+          "essn": "1939-1471",
+          "issn": "0033-295X",
+          "isoabbreviation": "Psychol Rev",
+          "nlmid": "0376476"
+        },
+        "printPublicationDate": "2015-04-01"
+      },
+      "pubYear": "2015",
+      "pageInfo": "148-203",
+      "abstractText": "Successful speech perception requires that listeners map the acoustic signal to linguistic categories. These mappings are not only probabilistic, but change depending on the situation. For example, one talker's /p/ might be physically indistinguishable from another talker's /b/ (cf. lack of invariance). We characterize the computational problem posed by such a subjectively nonstationary world and propose that the speech perception system overcomes this challenge by (a) recognizing previously encountered situations, (b) generalizing to other situations based on previous similar experience, and (c) adapting to novel situations. We formalize this proposal in the ideal adapter framework: (a) to (c) can be understood as inference under uncertainty about the appropriate generative model for the current talker, thereby facilitating robust speech perception despite the lack of invariance. We focus on 2 critical aspects of the ideal adapter. First, in situations that clearly deviate from previous experience, listeners need to adapt. We develop a distributional (belief-updating) learning model of incremental adaptation. The model provides a good fit against known and novel phonetic adaptation data, including perceptual recalibration and selective adaptation. Second, robust speech recognition requires that listeners learn to represent the structured component of cross-situation variability in the speech signal. We discuss how these 2 aspects of the ideal adapter provide a unifying explanation for adaptation, talker-specificity, and generalization across talkers and groups of talkers (e.g., accents and dialects). The ideal adapter provides a guiding framework for future investigations into speech perception and adaptation, and more broadly language comprehension.",
+      "affiliation": "Department of Brain and Cognitive Sciences, University of Rochester.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Review",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NICHD NIH HHS",
+            "acronym": "HD",
+            "grantId": "R01 HD075797",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Science Foundation",
+            "orderIn": 0
+          },
+          {
+            "agency": "Sponsor name not included",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute of Child Health and Human Development",
+            "grantId": "R01 HD075797",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adaptation, Psychological",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Speech Perception",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Generalization, Psychological",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Recognition, Psychology",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1037/a0038695"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4744792"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4744792?pdf=render"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1037/a0038695"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 306,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "Y",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "Y",
+      "manuscriptId": "NIHMS755563",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2016-12-13",
+      "dateOfCreation": "2015-04-07",
+      "dateOfRevision": "2024-03-24",
+      "firstPublicationDate": "2015-04-01",
+      "firstIndexDate": "2015-04-07",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-norris-2003",
+    "doi": "10.1016/S0010-0285(03)00006-9",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Perceptual learning in speech"
+      ],
+      "author": [
+        {
+          "given": "D",
+          "family": "Norris",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Cognitive Psychology"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            9
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2003,
+            9
+          ]
+        ]
+      },
+      "volume": "47",
+      "issue": "2",
+      "page": "204-238",
+      "URL": "https://doi.org/10.1016/s0010-0285(03)00006-9",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "12948518",
+      "source": "MED",
+      "pmid": "12948518",
+      "doi": "10.1016/s0010-0285(03)00006-9",
+      "title": "Perceptual learning in speech.",
+      "authorString": "Norris D, McQueen JM, Cutler A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Norris D",
+            "lastName": "Norris",
+            "firstName": "Dennis",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9257-317X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Cognition and Brain Sciences Unit, 15 Chaucer Road, Cambridge CB2 2EF, UK. dennis.norris@mrc-cbu.cam.ac.uk"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McQueen JM",
+            "lastName": "McQueen",
+            "firstName": "James M",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3734-6286"
+            }
+          },
+          {
+            "fullName": "Cutler A",
+            "lastName": "Cutler",
+            "firstName": "Anne",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4203-0692"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9257-317X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4203-0692"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3734-6286"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "47",
+        "journalIssueId": 1149420,
+        "dateOfPublication": "2003 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2003,
+        "journal": {
+          "medlineAbbreviation": "Cogn Psychol",
+          "title": "Cognitive psychology",
+          "essn": "1095-5623",
+          "issn": "0010-0285",
+          "nlmid": "0241111",
+          "isoabbreviation": "Cogn Psychol"
+        },
+        "printPublicationDate": "2003-09-01"
+      },
+      "pubYear": "2003",
+      "pageInfo": "204-238",
+      "abstractText": "This study demonstrates that listeners use lexical knowledge in perceptual learning of speech sounds. Dutch listeners first made lexical decisions on Dutch words and nonwords. The final fricative of 20 critical words had been replaced by an ambiguous sound, between [f] and [s]. One group of listeners heard ambiguous [f]-final words (e.g., [WItlo?], from witlof, chicory) and unambiguous [s]-final words (e.g., naaldbos, pine forest). Another group heard the reverse (e.g., ambiguous [na:ldbo?], unambiguous witlof). Listeners who had heard [?] in [f]-final words were subsequently more likely to categorize ambiguous sounds on an [f]-[s] continuum as [f] than those who heard [?] in [s]-final words. Control conditions ruled out alternative explanations based on selective adaptation and contrast. Lexical information can thus be used to train categorization of speech. This use of lexical information differs from the on-line lexical feedback embodied in interactive models of speech perception. In contrast to on-line feedback, lexical feedback for learning is of benefit to spoken word recognition (e.g., in adapting to a newly encountered dialect).",
+      "affiliation": "MRC Cognition and Brain Sciences Unit, 15 Chaucer Road, Cambridge CB2 2EF, UK. dennis.norris@mrc-cbu.cam.ac.uk",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Learning"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Perception"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Semantics"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/s0010-0285(03)00006-9"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 376,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2003-11-12",
+      "dateOfCreation": "2003-09-02",
+      "dateOfRevision": "2019-11-07",
+      "firstPublicationDate": "2003-09-01",
+      "firstIndexDate": "2009-01-17",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-saffran-1996",
+    "doi": "10.1126/science.274.5294.1926",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Statistical Learning by 8-Month-Old Infants"
+      ],
+      "author": [
+        {
+          "given": "Jenny R.",
+          "family": "Saffran",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Brain and Cognitive Sciences, University of Rochester, Rochester, NY 14627, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Richard N.",
+          "family": "Aslin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Brain and Cognitive Sciences, University of Rochester, Rochester, NY 14627, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elissa L.",
+          "family": "Newport",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Brain and Cognitive Sciences, University of Rochester, Rochester, NY 14627, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Science"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1996,
+            12,
+            13
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            1996,
+            12,
+            13
+          ]
+        ]
+      },
+      "volume": "274",
+      "issue": "5294",
+      "page": "1926-1928",
+      "URL": "https://doi.org/10.1126/science.274.5294.1926",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "8943209",
+      "source": "MED",
+      "pmid": "8943209",
+      "doi": "10.1126/science.274.5294.1926",
+      "title": "Statistical learning by 8-month-old infants.",
+      "authorString": "Saffran JR, Aslin RN, Newport EL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Saffran JR",
+            "lastName": "Saffran",
+            "firstName": "J R",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Brain and Cognitive Sciences, University of Rochester, Rochester, NY 14627, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aslin RN",
+            "lastName": "Aslin",
+            "firstName": "R N",
+            "initials": "RN"
+          },
+          {
+            "fullName": "Newport EL",
+            "lastName": "Newport",
+            "firstName": "E L",
+            "initials": "EL"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5294",
+        "volume": "274",
+        "journalIssueId": 995411,
+        "dateOfPublication": "1996 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 1996,
+        "journal": {
+          "medlineAbbreviation": "Science",
+          "title": "Science (New York, N.Y.)",
+          "essn": "1095-9203",
+          "issn": "0036-8075",
+          "isoabbreviation": "Science",
+          "nlmid": "0404511"
+        },
+        "printPublicationDate": "1996-12-01"
+      },
+      "pubYear": "1996",
+      "pageInfo": "1926-1928",
+      "abstractText": "Learners rely on a combination of experience-independent and experience-dependent mechanisms to extract information from the environment. Language acquisition involves both types of mechanisms, but most theorists emphasize the relative importance of experience-independent mechanisms. The present study shows that a fundamental task of language acquisition, segmentation of words from fluent speech, can be accomplished by 8-month-old infants based solely on the statistical relationships between neighboring speech sounds. Moreover, this word segmentation was based on statistical learning from only 2 minutes of exposure, suggesting that infants have access to a powerful mechanism for the computation of statistical properties of the language input.",
+      "affiliation": "Department of Brain and Cognitive Sciences, University of Rochester, Rochester, NY 14627, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "DC00167",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "R01 DC000167",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Language Development"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Learning"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Discrimination Learning"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Infant"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1126/science.274.5294.1926"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "8984644",
+            "reference": "Science. 1996 Dec 13;274(5294):1849-50. doi: 10.1126/science.274.5294.1849.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "9182319",
+            "reference": "Science. 1997 May 23;276(5316):1177; author reply 1180-1, 1276. doi: 10.1126/science.276.5316.1177a.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "9182320",
+            "reference": "Science. 1997 May 23;276(5316):1178; author reply 1180-1, 1276.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "9182321",
+            "reference": "Science. 1997 May 23;276(5316):1178-9; author reply 1180-1, 1276.",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "9182322",
+            "reference": "Science. 1997 May 23;276(5316):1179; author reply 1180-1, 1276.",
+            "type": "Comment in",
+            "orderIn": 5
+          },
+          {
+            "source": "MED",
+            "id": "40357017",
+            "reference": "Nat Rev Psychol. 2022 Feb;1(2):68. doi: 10.1038/s44159-021-00010-2.",
+            "type": "Comment in",
+            "orderIn": 6
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2286,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "1997-01-08",
+      "dateOfCreation": "1996-12-13",
+      "dateOfRevision": "2025-05-29",
+      "firstPublicationDate": "1996-12-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-werker-1984",
+    "doi": "10.1121/1.390988",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Phonemic and phonetic factors in adult cross-language speech perception"
+      ],
+      "author": [
+        {
+          "given": "Janet F.",
+          "family": "Werker",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, Dalhousie University, Halifax, Nova Scotia, Canada B3H 4J1"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Richard C.",
+          "family": "Tees",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, University of British Columbia, Vancouver, British Columbia, Canada V6T 1W5"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Journal of the Acoustical Society of America"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1984,
+            6,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            1984,
+            6,
+            1
+          ]
+        ]
+      },
+      "volume": "75",
+      "issue": "6",
+      "page": "1866-1878",
+      "URL": "https://doi.org/10.1121/1.390988",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "6747097",
+      "source": "MED",
+      "pmid": "6747097",
+      "doi": "10.1121/1.390988",
+      "title": "Phonemic and phonetic factors in adult cross-language speech perception.",
+      "authorString": "Werker JF, Tees RC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Werker JF",
+            "lastName": "Werker",
+            "firstName": "J F",
+            "initials": "JF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1168-9013"
+            }
+          },
+          {
+            "fullName": "Tees RC",
+            "lastName": "Tees",
+            "firstName": "R C",
+            "initials": "RC"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1168-9013"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "75",
+        "journalIssueId": 636440,
+        "dateOfPublication": "1984 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 1984,
+        "journal": {
+          "medlineAbbreviation": "J Acoust Soc Am",
+          "title": "The Journal of the Acoustical Society of America",
+          "essn": "1520-8524",
+          "issn": "0001-4966",
+          "isoabbreviation": "J Acoust Soc Am",
+          "nlmid": "7503051"
+        },
+        "printPublicationDate": "1984-06-01"
+      },
+      "pubYear": "1984",
+      "pageInfo": "1866-1878",
+      "abstractText": "Previous research has indicated that young infants can discriminate speech sounds across phonetic boundaries regardless of specific relevant experience, and that there is a modification in this ability during ontogeny such that adults often have difficulty discriminating phonetic contrasts which are not used contrastively in their native language. This pattern of findings has often been interpreted as suggesting that humans are endowed with innate auditory sensitivities which enable them to discriminate speech sounds according to universal phonetic boundaries and that there is a decline or loss in this ability after being exposed to a language which contrasts only a subset of those distinctions. The present experiments were designed to determine whether this modification represents a loss of sensorineural response capabilities or whether it shows a shift in attentional focus and/or processing strategies. In experiment 1, adult English-speaking subjects were tested on their ability to discriminate two non-English speech contrasts in a category-change discrimination task after first being predisposed to adopt one of four perceptual sets. In experiments 2, 3, and 4 subjects were tested in an AX (same/different) procedure, and the effects of both limited training and duration of the interstimulus interval were assessed. Results suggest that the previously observed ontogenetic modification in the perception of non-native phonetic contrasts involves a change in processing strategies rather than a sensorineural loss. Adult listeners can discriminate sounds across non-native phonetic categories in some testing conditions, but are not able to use that ability in testing conditions which have demands similar to those required in natural language processing.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NICHD NIH HHS",
+            "acronym": "HD",
+            "grantId": "HD-12420",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Loss, Sensorineural",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PX",
+                  "qualifierName": "psychology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Language"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Attention"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Phonetics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1121/1.390988"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 159,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "1984-09-06",
+      "dateOfCreation": "1984-06-01",
+      "dateOfRevision": "2019-05-15",
+      "firstPublicationDate": "1984-06-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-dev-1984",
+    "doi": "10.1016/S0163-6383(84)80022-3",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Cross-language speech perception: Evidence for perceptual reorganization during the first year of life"
+      ],
+      "author": [
+        {
+          "given": "Janet F.",
+          "family": "Werker",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Richard C.",
+          "family": "Tees",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Infant Behavior and Development"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1984,
+            1
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            1984,
+            1
+          ]
+        ]
+      },
+      "volume": "7",
+      "issue": "1",
+      "page": "49-63",
+      "URL": "https://doi.org/10.1016/s0163-6383(84)80022-3",
+      "type": "journal-article"
+    },
+    "europe_pmc": null
+  },
+  {
+    "id": "speech-mcgurk-1976",
+    "doi": "10.1038/264746a0",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Hearing lips and seeing voices"
+      ],
+      "author": [
+        {
+          "given": "HARRY",
+          "family": "MCGURK",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "JOHN",
+          "family": "MACDONALD",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nature"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1976,
+            12
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            1976,
+            12
+          ]
+        ]
+      },
+      "volume": "264",
+      "issue": "5588",
+      "page": "746-748",
+      "URL": "https://doi.org/10.1038/264746a0",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "1012311",
+      "source": "MED",
+      "pmid": "1012311",
+      "doi": "10.1038/264746a0",
+      "title": "Hearing lips and seeing voices.",
+      "authorString": "McGurk H, MacDonald J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "McGurk H",
+            "lastName": "McGurk",
+            "firstName": "H",
+            "initials": "H"
+          },
+          {
+            "fullName": "MacDonald J",
+            "lastName": "MacDonald",
+            "firstName": "J",
+            "initials": "J"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5588",
+        "volume": "264",
+        "journalIssueId": 484897,
+        "dateOfPublication": "1976 Dec 23-30",
+        "monthOfPublication": 0,
+        "yearOfPublication": 1976,
+        "journal": {
+          "medlineAbbreviation": "Nature",
+          "title": "Nature",
+          "essn": "1476-4687",
+          "issn": "0028-0836",
+          "nlmid": "0410462",
+          "isoabbreviation": "Nature"
+        },
+        "printPublicationDate": "1976-12-01"
+      },
+      "pubYear": "1976",
+      "pageInfo": "746-748",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Illusions",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Auditory Perception",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Visual Perception",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Age Factors"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child, Preschool"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/264746a0"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2153,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "1977-03-21",
+      "dateOfCreation": "1976-12-23",
+      "dateOfRevision": "2022-04-08",
+      "firstPublicationDate": "1976-12-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-language-2025",
+    "doi": "10.1038/s41586-025-09748-8",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Shared and language-specific phonological processing in the human temporal lobe"
+      ],
+      "author": [
+        {
+          "given": "Ilina",
+          "family": "Bhaya-Grossman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8530-880X",
+          "authenticated-orcid": false,
+          "given": "Matthew K.",
+          "family": "Leonard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yizhen",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9213-588X",
+          "authenticated-orcid": false,
+          "given": "Laura",
+          "family": "Gwilliams",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2569-8121",
+          "authenticated-orcid": false,
+          "given": "Keith",
+          "family": "Johnson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junfeng",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2480-4700",
+          "authenticated-orcid": false,
+          "given": "Edward F.",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nature"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            19
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            19
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            1
+          ]
+        ]
+      },
+      "volume": "649",
+      "issue": "8095",
+      "page": "140-151",
+      "URL": "https://doi.org/10.1038/s41586-025-09748-8",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "41261133",
+      "source": "MED",
+      "pmid": "41261133",
+      "pmcid": "PMC12727522",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12727522"
+        ]
+      },
+      "doi": "10.1038/s41586-025-09748-8",
+      "title": "Shared and language-specific phonological processing in the human temporal lobe.",
+      "authorString": "Bhaya-Grossman I, Leonard MK, Zhang Y, Gwilliams L, Johnson K, Lu J, Chang EF.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bhaya-Grossman I",
+            "lastName": "Bhaya-Grossman",
+            "firstName": "Ilina",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2613-4528"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurological Surgery, University of California, San Francisco, CA, USA."
+                },
+                {
+                  "affiliation": "Weill Institute for Neuroscience, University of California, San Francisco, CA, USA."
+                },
+                {
+                  "affiliation": "Joint Program in Bioengineering, University of California, Berkeley and University of California, San Francisco, Berkeley, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leonard MK",
+            "lastName": "Leonard",
+            "firstName": "Matthew K",
+            "initials": "MK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8530-880X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurological Surgery, University of California, San Francisco, CA, USA."
+                },
+                {
+                  "affiliation": "Weill Institute for Neuroscience, University of California, San Francisco, CA, USA."
+                },
+                {
+                  "affiliation": "Joint Program in Bioengineering, University of California, Berkeley and University of California, San Francisco, Berkeley, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Y",
+            "lastName": "Zhang",
+            "firstName": "Yizhen",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurological Surgery, University of California, San Francisco, CA, USA."
+                },
+                {
+                  "affiliation": "Weill Institute for Neuroscience, University of California, San Francisco, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gwilliams L",
+            "lastName": "Gwilliams",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9213-588X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurological Surgery, University of California, San Francisco, CA, USA."
+                },
+                {
+                  "affiliation": "Weill Institute for Neuroscience, University of California, San Francisco, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnson K",
+            "lastName": "Johnson",
+            "firstName": "Keith",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2569-8121"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Linguistics, University of California, Berkeley, Berkeley, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu J",
+            "lastName": "Lu",
+            "firstName": "Junfeng",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurosurgery, Huashan Hospital, Fudan University, Shanghai, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chang EF",
+            "lastName": "Chang",
+            "firstName": "Edward F",
+            "initials": "EF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2480-4700"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neurological Surgery, University of California, San Francisco, CA, USA. edward.chang@ucsf.edu."
+                },
+                {
+                  "affiliation": "Weill Institute for Neuroscience, University of California, San Francisco, CA, USA. edward.chang@ucsf.edu."
+                },
+                {
+                  "affiliation": "Joint Program in Bioengineering, University of California, Berkeley and University of California, San Francisco, Berkeley, CA, USA. edward.chang@ucsf.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2569-8121"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8530-880X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9213-588X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2480-4700"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2613-4528"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "8095",
+        "volume": "649",
+        "journalIssueId": 4076087,
+        "dateOfPublication": "2026 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "Nature",
+          "title": "Nature",
+          "essn": "1476-4687",
+          "issn": "0028-0836",
+          "isoabbreviation": "Nature",
+          "nlmid": "0410462"
+        },
+        "printPublicationDate": "2026-01-01"
+      },
+      "pubYear": "2026",
+      "pageInfo": "140-151",
+      "abstractText": "All spoken languages are produced by the human vocal tract, which defines the limited set of possible speech sounds. Despite this constraint, however, there exists incredible diversity in the world's 7,000 spoken languages, each of which is learned through extensive experience hearing speech in language-specific contexts<sup>1</sup>. It remains unknown which elements of speech processing in the brain depend on daily language experience and which do not. In this study, we recorded high-density cortical activity from adult participants with diverse language backgrounds as they listened to speech in their native language and an unfamiliar foreign language. We found that, regardless of language experience, both native and foreign languages elicited similar cortical responses in the superior temporal gyrus (STG), associated with shared acoustic-phonetic processing of foundational speech sound features<sup>2,3</sup>, such as vowels and consonants. However, only during native language listening did we observe enhanced neural encoding in the STG for word boundaries, word frequency and language-specific sound sequence statistics. In a separate cohort of bilingual participants, this encoding of word- and sequence-level information appeared for both familiar languages in the same individual and in the same STG neural populations. These results indicate that experience-dependent language processing involves dynamic integration of both shared acoustic-phonetic and language-specific sequence- and word-level information in the STG.",
+      "affiliation": "Department of Neurological Surgery, University of California, San Francisco, CA, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "R01 DC012379",
+            "orderIn": 0
+          },
+          {
+            "agency": "NINDS NIH HHS",
+            "acronym": "NS",
+            "grantId": "U01 NS117765",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Temporal Lobe",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cohort Studies"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Language"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Multilingualism"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phonetics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Young Adult"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41586-025-09748-8"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12727522"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12727522?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 7,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2025-12-24",
+      "dateOfCreation": "2025-11-19",
+      "dateOfRevision": "2026-04-02",
+      "electronicPublicationDate": "2025-11-19",
+      "firstPublicationDate": "2025-11-19",
+      "firstIndexDate": "2025-11-20",
+      "fullTextReceivedDate": "2025-12-25",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-motor-1985",
+    "doi": "10.1016/0010-0277(85)90021-6",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "The motor theory of speech perception revised"
+      ],
+      "author": [
+        {
+          "given": "Alvin M.",
+          "family": "Liberman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ignatius G.",
+          "family": "Mattingly",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Cognition"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1985,
+            10
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            1985,
+            10
+          ]
+        ]
+      },
+      "volume": "21",
+      "issue": "1",
+      "page": "1-36",
+      "URL": "https://doi.org/10.1016/0010-0277(85)90021-6",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "4075760",
+      "source": "MED",
+      "pmid": "4075760",
+      "doi": "10.1016/0010-0277(85)90021-6",
+      "title": "The motor theory of speech perception revised.",
+      "authorString": "Liberman AM, Mattingly IG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liberman AM",
+            "lastName": "Liberman",
+            "firstName": "A M",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Mattingly IG",
+            "lastName": "Mattingly",
+            "firstName": "I G",
+            "initials": "IG"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "21",
+        "journalIssueId": 729332,
+        "dateOfPublication": "1985 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 1985,
+        "journal": {
+          "medlineAbbreviation": "Cognition",
+          "title": "Cognition",
+          "essn": "1873-7838",
+          "issn": "0010-0277",
+          "nlmid": "0367541",
+          "isoabbreviation": "Cognition"
+        },
+        "printPublicationDate": "1985-10-01"
+      },
+      "pubYear": "1985",
+      "pageInfo": "1-36",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NICHD NIH HHS",
+            "acronym": "HD",
+            "grantId": "HD-01994",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Psychological Theory"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "http://rcin.org.pl/Content/51856/PDF/WA248_71110_P-I-2524_lapin-my-poems.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/0010-0277(85)90021-6"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 953,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "1986-02-14",
+      "dateOfCreation": "1985-10-01",
+      "dateOfRevision": "2022-04-08",
+      "firstPublicationDate": "1985-10-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  },
+  {
+    "id": "speech-reduction-2021",
+    "doi": "10.3758/s13423-021-01924-x",
+    "checked_at": "2026-10-10",
+    "errors": [],
+    "crossref": {
+      "title": [
+        "Does signal reduction imply predictive coding in models of spoken word recognition?"
+      ],
+      "author": [
+        {
+          "given": "Sahil",
+          "family": "Luthra",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Monica Y. C.",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Heejo",
+          "family": "You",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Brodbeck",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James S.",
+          "family": "Magnuson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Psychonomic Bulletin &amp; Review"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            14
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            14
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            8
+          ]
+        ]
+      },
+      "volume": "28",
+      "issue": "4",
+      "page": "1381-1389",
+      "URL": "https://doi.org/10.3758/s13423-021-01924-x",
+      "type": "journal-article"
+    },
+    "europe_pmc": {
+      "id": "33852158",
+      "source": "MED",
+      "pmid": "33852158",
+      "pmcid": "PMC8367925",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8367925"
+        ]
+      },
+      "doi": "10.3758/s13423-021-01924-x",
+      "title": "Does signal reduction imply predictive coding in models of spoken word recognition?",
+      "authorString": "Luthra S, Li MYC, You H, Brodbeck C, Magnuson JS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Luthra S",
+            "lastName": "Luthra",
+            "firstName": "Sahil",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychological Sciences, University of Connecticut, Storrs, CT, 06269-1020, USA. sahil.luthra@uconn.edu."
+                },
+                {
+                  "affiliation": "Connecticut Institute for the Brain and Cognitive Sciences, Storrs, CT, USA. sahil.luthra@uconn.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li MYC",
+            "lastName": "Li",
+            "firstName": "Monica Y C",
+            "initials": "MYC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychological Sciences, University of Connecticut, Storrs, CT, 06269-1020, USA."
+                },
+                {
+                  "affiliation": "Connecticut Institute for the Brain and Cognitive Sciences, Storrs, CT, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "You H",
+            "lastName": "You",
+            "firstName": "Heejo",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychological Sciences, University of Connecticut, Storrs, CT, 06269-1020, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brodbeck C",
+            "lastName": "Brodbeck",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8380-639X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychological Sciences, University of Connecticut, Storrs, CT, 06269-1020, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Magnuson JS",
+            "lastName": "Magnuson",
+            "firstName": "James S",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychological Sciences, University of Connecticut, Storrs, CT, 06269-1020, USA."
+                },
+                {
+                  "affiliation": "Connecticut Institute for the Brain and Cognitive Sciences, Storrs, CT, USA."
+                },
+                {
+                  "affiliation": "BCBL, Basque Center on Cognition Brain and Language, Donostia-San Sebastián, Spain."
+                },
+                {
+                  "affiliation": "Ikerbasque, Basque Foundation for Science, Bilbao, Spain."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8380-639X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "28",
+        "journalIssueId": 3220001,
+        "dateOfPublication": "2021 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2021,
+        "journal": {
+          "medlineAbbreviation": "Psychon Bull Rev",
+          "title": "Psychonomic bulletin & review",
+          "essn": "1531-5320",
+          "issn": "1069-9384",
+          "nlmid": "9502924",
+          "isoabbreviation": "Psychon Bull Rev"
+        },
+        "printPublicationDate": "2021-08-01"
+      },
+      "pubYear": "2021",
+      "pageInfo": "1381-1389",
+      "abstractText": "Pervasive behavioral and neural evidence for predictive processing has led to claims that language processing depends upon predictive coding. Formally, predictive coding is a computational mechanism where only deviations from top-down expectations are passed between levels of representation. In many cognitive neuroscience studies, a reduction of signal for expected inputs is taken as being diagnostic of predictive coding. In the present work, we show that despite not explicitly implementing prediction, the TRACE model of speech perception exhibits this putative hallmark of predictive coding, with reductions in total lexical activation, total lexical feedback, and total phoneme activation when the input conforms to expectations. These findings may indicate that interactive activation is functionally equivalent or approximant to predictive coding or that caution is warranted in interpreting neural signal reduction as diagnostic of predictive coding.",
+      "affiliation": "Department of Psychological Sciences, University of Connecticut, Storrs, CT, 06269-1020, USA. sahil.luthra@uconn.edu.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Language"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Prediction",
+          "Cognitive Neuroscience",
+          "Spoken Word Recognition",
+          "Computational Models"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3758/s13423-021-01924-x"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8367925"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8367925?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 10,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2021-09-24",
+      "dateOfCreation": "2021-04-14",
+      "dateOfRevision": "2022-11-23",
+      "electronicPublicationDate": "2021-04-14",
+      "firstPublicationDate": "2021-04-14",
+      "firstIndexDate": "2021-04-15",
+      "fullTextReceivedDate": "2025-02-04",
+      "hasEvaluations": "N"
+    }
+  }
+]

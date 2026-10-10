@@ -1,0 +1,86 @@
+{
+  "slug": "speech-perception",
+  "knowledge_area": "perception",
+  "kind": "function",
+  "chinese_characters": 8396,
+  "body_characters": 14506,
+  "sections": 12,
+  "subsections": 25,
+  "reference_ids": [
+    "speech-shortlist-2008",
+    "speech-trace-1986",
+    "speech-oden-1978",
+    "speech-liberman-1957",
+    "speech-mcmurray-2002",
+    "speech-ganong-1980",
+    "speech-kleinschmidt-2015",
+    "speech-norris-2003",
+    "speech-saffran-1996",
+    "speech-werker-1984",
+    "speech-dev-1984",
+    "speech-mcgurk-1976",
+    "speech-macdonald-2017",
+    "cortex-phonetic-2014",
+    "speech-language-2025",
+    "shannon-1995",
+    "xu-tone-2002",
+    "friesen-2001",
+    "redundancy-warren-1970",
+    "mesgarani-attention-2012",
+    "speech-motor-1985",
+    "speech-reduction-2021",
+    "phonetics-phonemes",
+    "phonetics-coarticulation-2013"
+  ],
+  "wiki_links": [
+    "phonetics",
+    "speech-intelligibility",
+    "speech-audiometry",
+    "formant",
+    "fundamental-frequency",
+    "temporal-envelope",
+    "mandarin-consonants",
+    "aspiration",
+    "speech-redundancy",
+    "mandarin-lexical-tone",
+    "auditory-scene-analysis",
+    "auditory-attention",
+    "neural-speech-tracking",
+    "confusion-matrix",
+    "psychoacoustics",
+    "signal-detection-theory",
+    "hearing-loss",
+    "hearing-aid",
+    "cochlear-implant",
+    "listening-effort",
+    "cochlear-implant-sound-perception"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "figures": [
+    {
+      "url": "/n3-hearingpedia/figures/speech-perception/01-levels.svg",
+      "width": 1400,
+      "height": 820
+    },
+    {
+      "url": "/n3-hearingpedia/figures/speech-perception/02-cue-integration.svg",
+      "width": 1400,
+      "height": 700
+    },
+    {
+      "url": "/n3-hearingpedia/figures/speech-perception/03-category-functions.svg",
+      "width": 1400,
+      "height": 700
+    },
+    {
+      "url": "/n3-hearingpedia/figures/speech-perception/04-context-evidence.svg",
+      "width": 1400,
+      "height": 700
+    }
+  ],
+  "equations": 4,
+  "citations": 54,
+  "relations": 14,
+  "validation": "source IDs, numbering, figure dimensions, equations and existing links checked; build and visual QA recorded separately"
+}

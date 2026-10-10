@@ -1,0 +1,63 @@
+{
+  "nature": "original deterministic teaching calculations; no measured data",
+  "cue_coefficients": [
+    [
+      8,
+      3
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "cue_coordinates": [
+    0,
+    1
+  ],
+  "category_midpoint_ms": 40,
+  "category_beta_per_ms": [
+    0.1,
+    0.2
+  ],
+  "individual_midpoints_ms": [
+    25,
+    55
+  ],
+  "individual_beta_per_ms": 0.25,
+  "priors_A": [
+    0.5,
+    0.8
+  ],
+  "posterior_examples": {
+    "ratio_0.4_prior_0.5": 0.28571428571428575,
+    "ratio_0.4_prior_0.8": 0.6153846153846155,
+    "ratio_0.05_prior_0.8": 0.1666666666666667
+  },
+  "category_examples": {
+    "35ms_beta_0.2": 0.2689414213699951,
+    "45ms_beta_0.2": 0.7310585786300049,
+    "35ms_beta_0.1": 0.3775406687981454,
+    "45ms_beta_0.1": 0.6224593312018546
+  },
+  "figure_sizes": {
+    "01-levels": [
+      1400,
+      820
+    ],
+    "02-cue-integration": [
+      1400,
+      700
+    ],
+    "03-category-functions": [
+      1400,
+      700
+    ],
+    "04-context-evidence": [
+      1400,
+      700
+    ]
+  },
+  "randomness": "none",
+  "fonts": "Microsoft YaHei; SVG text converted to paths",
+  "license": "original editorial figures; no reproduced source images"
+}

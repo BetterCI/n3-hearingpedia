@@ -1,0 +1,112 @@
+{
+  "data_type": "deterministic teaching examples; no participant data or fitted results",
+  "melody": {
+    "base_semitones": [
+      0,
+      2,
+      4,
+      7,
+      4,
+      2,
+      0
+    ],
+    "transposition_semitones": 5,
+    "changed_semitones": [
+      0,
+      1,
+      3,
+      5,
+      3,
+      1,
+      0
+    ],
+    "reference_hz": 220,
+    "frequencies_hz": [
+      220.0,
+      246.94165062806206,
+      277.1826309768721,
+      329.6275569128699,
+      277.1826309768721,
+      246.94165062806206,
+      220.0
+    ],
+    "transposition_ratio": 1.3348398541700344
+  },
+  "rhythm": {
+    "event_times_s": [
+      0.0,
+      0.5,
+      0.75,
+      1.5,
+      2.0,
+      2.5,
+      2.75,
+      3.5
+    ],
+    "reference_beat_times_s": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5
+    ],
+    "assumed_bpm": 120,
+    "asynchronies_ms": [
+      20,
+      -10,
+      20,
+      -20,
+      10,
+      -10,
+      30,
+      -20
+    ],
+    "mean_asynchrony_ms": 2.5,
+    "sample_sd_ms": 19.820624179302296
+  },
+  "acoustics": {
+    "fs_hz": 16000,
+    "duration_s": 0.75,
+    "tones_hz": [
+      220,
+      224
+    ],
+    "beat_rate_hz": 4,
+    "harmonic_frequencies_hz": [
+      220,
+      440,
+      660,
+      880
+    ],
+    "altered_frequencies_hz": [
+      220,
+      440,
+      693,
+      880
+    ]
+  },
+  "expectation": {
+    "distributions": [
+      [
+        0.8,
+        0.1,
+        0.1
+      ],
+      [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    ],
+    "entropy_bits": [
+      0.9219280948873623,
+      1.584962500721156
+    ],
+    "surprise_x_a_bits": 0.3219280948873623,
+    "surprise_y_a_bits": 3.321928094887362
+  },
+  "checks": "transposition, interval directions, timing units, analytic beating identity and entropy verified"
+}

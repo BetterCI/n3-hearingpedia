@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: 听觉老化中的外周、中枢、时域与噪声中言语功能：方法控制及干预证据
+
+Title: Age-group differences in speech identification despite matched audiometrically normal hearing: contributions from auditory temporal processing and cognition
+Abstract: Hearing loss with increasing age adversely affects the ability to understand speech, an effect that results partly from reduced audibility. The aims of this study were to establish whether aging reduces speech intelligibility for listeners with normal audiograms, and, if so, to assess the relative contributions of auditory temporal and cognitive processing. Twenty-one older normal-hearing (ONH; 60-79 years) participants with bilateral audiometric thresholds �� 20 dB HL at 0.125-6 kHz were matched to nine young (YNH; 18-27 years) participants in terms of mean audiograms, years of education, and performance IQ. Measures included: (1) identification of consonants in quiet and in noise that was unmodulated or modulated at 5 or 80 Hz; (2) identification of sentences in quiet and in co-located or spatially separated two-talker babble; (3) detection of modulation of the temporal envelope (TE) at frequencies 5-180 Hz; (4) monaural and binaural sensitivity to temporal fine structure (TFS); (5) various cognitive tests. Speech identification was worse for ONH than YNH participants in all types of background. This deficit was not reflected in self-ratings of hearing ability. Modulation masking
+Keywords/concepts:
+Venue: Frontiers in Aging Neuroscience
+Year: 2015
+Cited by: 533
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

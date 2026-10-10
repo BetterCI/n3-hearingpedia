@@ -1,0 +1,77 @@
+{
+  "slug": "auditory-illusion",
+  "knowledge_area": "perception",
+  "kind": "phenomenon",
+  "chinese_characters": 8375,
+  "body_characters": 15299,
+  "sections": 11,
+  "subsections": 22,
+  "reference_ids": [
+    "ai-overview",
+    "ai-riecke",
+    "ai-petkov",
+    "ai-warren",
+    "ai-leonard",
+    "ai-shepard",
+    "ai-scale",
+    "ai-octave",
+    "ai-chambers",
+    "ai-deutsch-reply",
+    "ai-tritone",
+    "ai-song",
+    "ai-language",
+    "ai-mcgurk",
+    "ai-mcgurk-limit",
+    "ai-bistability",
+    "ai-ci",
+    "ai-song-2025",
+    "ai-bird-2025",
+    "ai-scale-doc",
+    "ai-tritone-doc",
+    "ai-song-doc",
+    "ai-octave-doc"
+  ],
+  "wiki_links": [
+    "tinnitus",
+    "auditory-scene-analysis",
+    "psychoacoustics",
+    "pitch-perception",
+    "music-perception",
+    "speech-perception",
+    "masking",
+    "speech-redundancy",
+    "fundamental-frequency",
+    "signal-detection-theory",
+    "auditory-computational-models",
+    "cochlear-implant",
+    "hearing-aid"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "figures": [
+    {
+      "url": "/n3-hearingpedia/figures/auditory-illusion/01-continuity-controls.svg",
+      "width": 1400,
+      "height": 760
+    },
+    {
+      "url": "/n3-hearingpedia/figures/auditory-illusion/02-shepard-components.svg",
+      "width": 1400,
+      "height": 710
+    },
+    {
+      "url": "/n3-hearingpedia/figures/auditory-illusion/03-scale-routing.svg",
+      "width": 1400,
+      "height": 800
+    },
+    {
+      "url": "/n3-hearingpedia/figures/auditory-illusion/04-evidence-levels.svg",
+      "width": 1400,
+      "height": 680
+    }
+  ],
+  "equations": 2,
+  "citations": 51,
+  "relations": 20,
+  "validation": "source IDs, numbering, figure dimensions, equations and existing links checked; build and visual QA recorded separately"
+}

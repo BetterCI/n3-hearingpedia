@@ -1,0 +1,48 @@
+{
+  "slug": "auditory-development",
+  "checked_at": "2026-10-10",
+  "status": "local-draft-awaiting-user-review",
+  "committed": false,
+  "pushed": false,
+  "professional_review": "not completed",
+  "source_validation": {
+    "chinese_characters": 8815,
+    "body_sections": 12,
+    "references": 26,
+    "figures": 4,
+    "display_equations": 3,
+    "typed_relationships_added": 17,
+    "learning_paths_updated": 2,
+    "reference_numbering_and_targets": "passed",
+    "figure_dimensions": "passed",
+    "numeric_examples": "passed; see figure-verification.json",
+    "source_access_scope": "documented per source; metadata, original abstracts, relevant original text and official documents distinguished"
+  },
+  "astro_check": {"files": 118, "errors": 0, "warnings": 0, "hints": 0},
+  "build": {"exit_code": 0, "log": "artifacts/auditory-development-build.log"},
+  "verify": {"pages": 222, "checked_internal_links": 17586, "concepts": 94, "typed_relationships": 565, "broken_links": 0},
+  "git_diff_check": {"exit_code": 0, "note": "Existing evidence-map LF/CRLF conversion notice; no whitespace errors."},
+  "figure_visual_review": {
+    "png_files": "all four visually inspected",
+    "adjustment": "Figure 3 lower spacing expanded and resulting PNG reviewed",
+    "data_labels": "Synthetic examples distinguished from the three actual LOCHI model estimates and 95% intervals"
+  },
+  "browser": {
+    "url": "http://127.0.0.1:4338/n3-hearingpedia/concepts/auditory-development/",
+    "desktop_viewport_width": 1280,
+    "document_width": 1265,
+    "horizontal_page_overflow": false,
+    "rendered_display_equations": 3,
+    "katex_errors": 0,
+    "reference_targets": 26,
+    "loaded_figure_intrinsic_widths": [1400, 1400, 1400, 1400],
+    "visual_views_reviewed": ["entry header", "distribution learning and equation", "LOCHI intervention estimate figure"],
+    "mobile": {
+      "requested_viewport": {"width": 390, "height": 844},
+      "actual_viewport_width": 1280,
+      "result": "not verified: documented viewport override had no observed effect in existing or fresh test tab",
+      "cleanup": "viewport override reset; temporary test tab closed"
+    },
+    "deliverable_tab": "38; retained at the entry start"
+  }
+}

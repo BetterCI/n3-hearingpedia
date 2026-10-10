@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "file": "continuity-silence.wav",
+      "channels": 1,
+      "duration_s": 4.7,
+      "peak_int16": 2039
+    },
+    {
+      "file": "continuity-noise.wav",
+      "channels": 1,
+      "duration_s": 4.7,
+      "peak_int16": 17997
+    },
+    {
+      "file": "continuity-present.wav",
+      "channels": 1,
+      "duration_s": 4.7,
+      "peak_int16": 19660
+    },
+    {
+      "file": "shepard-ascending.wav",
+      "channels": 1,
+      "duration_s": 9.6,
+      "peak_int16": 12451
+    },
+    {
+      "file": "scale-stereo.wav",
+      "channels": 2,
+      "duration_s": 8.0,
+      "peak_int16": 5243
+    },
+    {
+      "file": "scale-left.wav",
+      "channels": 1,
+      "duration_s": 8.0,
+      "peak_int16": 5243
+    },
+    {
+      "file": "scale-right.wav",
+      "channels": 1,
+      "duration_s": 8.0,
+      "peak_int16": 5243
+    }
+  ],
+  "pcm_format": "44100 Hz, signed 16-bit little-endian",
+  "no_clipping": true,
+  "channel_decomposition_exact": true,
+  "deleted_intervals_silent": true,
+  "checks_passed": true
+}

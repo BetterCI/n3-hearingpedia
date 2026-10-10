@@ -1,3 +1,9 @@
+import { speechPerceptionReferences } from './speech-perception-references.ts';
+import { musicPerceptionReferences } from './music-perception-references.ts';
+import { auditoryAgingReferences } from './auditory-aging-references.ts';
+import { auditoryDevelopmentReferences } from './auditory-development-references.ts';
+import { auditoryModelReferences } from './auditory-model-references.ts';
+import { auditoryIllusionReferences } from './auditory-illusion-references.ts';
 import { toneReferences } from './tone-references.ts';
 import { soundWavesReferences } from './sound-waves-references.ts';
 import { researcherPublicationReferences } from './researcher-publications-references.ts';
@@ -66,6 +72,12 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...speechPerceptionReferences,
+  ...musicPerceptionReferences,
+  ...auditoryAgingReferences,
+  ...auditoryDevelopmentReferences,
+  ...auditoryModelReferences,
+  ...auditoryIllusionReferences,
   ...toneReferences,
   ...soundWavesReferences,
   ...researcherPublicationReferences,

@@ -1,0 +1,119 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Human speech perception: cues, categories, word recognition and learning
+
+Title: Perceptual equivalence of acoustic cues in speech and nonspeech perception
+Abstract:
+Keywords/concepts:
+Venue: Perception & Psychophysics
+Year: 1981
+Cited by: 230
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
+
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Human speech perception: cues, categories, word recognition and learning
+
+Title: Cue Integration With Categories: Weighting Acoustic Cues in Speech Using Unsupervised Learning and Distributional Statistics
+Abstract: During speech perception, listeners make judgments about the phonological category of sounds by taking advantage of multiple acoustic cues for each phonological contrast. Perceptual experiments have shown that listeners weight these cues differently. How do listeners weight and combine acoustic cues to arrive at an overall estimate of the category for a speech sound? Here, we present several simulations using mixture of Gaussians (MOG) models that learn cue weights and combine cues on the basis of their distributional statistics. We show that a cue-weighting metric in which cues receive weight as a function of their reliability at distinguishing the phonological categories provides a good fit to the perceptual data obtained from human listeners, but only when these weights emerge through the dynamics of learning. These results suggest that cue weights can be readily extracted from the speech signal through unsupervised learning processes.
+Keywords/concepts:
+Venue: Cognitive Science
+Year: 2010
+Cited by: 246
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
+
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Human speech perception: cues, categories, word recognition and learning
+
+Title: Discovering phonetic coherence in acoustic patterns
+Abstract:
+Keywords/concepts:
+Venue: Perception & Psychophysics
+Year: 1989
+Cited by: 45
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
+
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Human speech perception: cues, categories, word recognition and learning
+
+Title: Phonetic Feature Encoding in Human Superior Temporal Gyrus
+Abstract: During speech perception, linguistic elements such as consonants and vowels are extracted from a complex acoustic speech signal. The superior temporal gyrus (STG) participates in high-order auditory processing of speech, but how it encodes phonetic information is poorly understood. We used high-density direct cortical surface recordings in humans while they listened to natural, continuous speech to reveal the STG representation of the entire English phonetic inventory. At single electrodes, we found response selectivity to distinct phonetic features. Encoding of acoustic properties was mediated by a distributed population response. Phonetic features could be directly related to tuning for spectrotemporal acoustic cues, some of which were encoded in a nonlinear fashion or by integration of multiple cues. These findings demonstrate the acoustic-phonetic representation of speech in human STG.
+Keywords/concepts:
+Venue: Science
+Year: 2014
+Cited by: 1009
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
+
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Human speech perception: cues, categories, word recognition and learning
+
+Title: Integration of pragmatic and phonetic cues in spoken word recognition.
+Abstract: Although previous research has established that multiple top-down factors guide the identification of words during speech processing, the ultimate range of information sources that listeners integrate from different levels of linguistic structure is still unknown. In a set of experiments, we investigate whether comprehenders can integrate information from the 2 most disparate domains: pragmatic inference and phonetic perception. Using contexts that trigger pragmatic expectations regarding upcoming coreference (expectations for either he or she), we test listeners' identification of phonetic category boundaries (using acoustically ambiguous words on the /hi/∼/∫i/ continuum). The results indicate that, in addition to phonetic cues, word recognition also reflects pragmatic inference. These findings are consistent with evidence for top-down contextual effects from lexical, syntactic, and semantic cues, but they extend this previous work by testing cues at the pragmatic level and by eliminating a statistical-frequency confound that might otherwise explain the previously reported results. We conclude by exploring the time course of this interaction and discussing how different models of
+Keywords/concepts:
+Venue: Journal of Experimental Psychology Learning Memory and Cognition
+Year: 2012
+Cited by: 17
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
+
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Human speech perception: cues, categories, word recognition and learning
+
+Title: Individual Differences in the Use of Acoustic-Phonetic Versus Lexical Cues for Speech Perception
+Abstract: Previous research suggests that individuals with weaker receptive language show increased reliance on lexical information for speech perception relative to individuals with stronger receptive language, which may reflect a difference in how acoustic-phonetic and lexical cues are weighted for speech processing. Here we examined whether this relationship is the consequence of conflict between acoustic-phonetic and lexical cues in speech input, which has been found to mediate lexical reliance in sentential contexts. Two groups of participants completed standardized measures of language ability and a phonetic identification task to assess lexical recruitment (i.e., a Ganong task). In the high conflict group, the stimulus input distribution removed natural correlations between acoustic-phonetic and lexical cues, thus placing the two cues in high competition with each other; in the low conflict group, these correlations were present and thus competition was reduced as in natural speech. The results showed that 1) the Ganong effect was larger in the low compared to the high conflict condition in single-word contexts, suggesting that cue conflict dynamically influences online speech percept
+Keywords/concepts:
+Venue: Frontiers in Communication
+Year: 2021
+Cited by: 11
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

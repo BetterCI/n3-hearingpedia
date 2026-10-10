@@ -1,0 +1,62 @@
+{
+  "data_nature": "Original synthetic teaching functions; no empirical dataset",
+  "figures": 4,
+  "compression": {
+    "alpha": 0.3,
+    "input_20dB_amplitude_ratio": 10,
+    "output_ratio": 1.9952623149688795,
+    "output_increment_dB": 6
+  },
+  "identifiability": {
+    "function": "a*x/(1+b*x)",
+    "constraint": "y(1)=1",
+    "parameter_sets": [
+      [
+        1,
+        0
+      ],
+      [
+        1.5,
+        0.5
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "calibration": {
+    "targets_percent": [
+      10.0,
+      30.0,
+      50.0,
+      70.0,
+      90.0
+    ],
+    "prediction_A_percent": [
+      10.0,
+      30.0,
+      50.0,
+      70.0,
+      90.0
+    ],
+    "prediction_B_percent": [
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0
+    ],
+    "metrics": [
+      {
+        "correlation": 1.0,
+        "rmse_percentage_points": 0.0
+      },
+      {
+        "correlation": 1.0,
+        "rmse_percentage_points": 14.142135623730951
+      }
+    ]
+  },
+  "checks_passed": true
+}

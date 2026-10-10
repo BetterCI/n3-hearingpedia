@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-10",
+  "slug": "speech-perception",
+  "status": "draft",
+  "preview_url": "http://127.0.0.1:4338/n3-hearingpedia/concepts/speech-perception/",
+  "checks": {
+    "prepare_script": "passed",
+    "astro_check": { "errors": 0, "warnings": 0, "hints": 0 },
+    "build": "passed",
+    "existing_tests": { "passed": 6, "failed": 0 },
+    "site_verify": {
+      "pages": 216,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 16862,
+      "equations": 191,
+      "searchableConcepts": 91,
+      "wikiConcepts": 91,
+      "knowledgeAreas": 7,
+      "typedRelationships": 517,
+      "wikiCrossLinks": 931,
+      "chineseCharacters": 586532,
+      "brokenLinks": 0
+    }
+  },
+  "visual_review": {
+    "original_pngs_reviewed": 4,
+    "desktop": { "viewport_width": 1265, "document_width": 1265, "figures": 4, "display_equations": 4, "math_errors": 0 },
+    "mobile": { "viewport_width": 390, "document_width": 375, "figure_widths": [331, 331, 331, 331], "math_errors": 0, "horizontal_overflow": false },
+    "unrendered_caption_math": false,
+    "viewport_override_reset": true,
+    "preview_tab_retained": true
+  },
+  "publication": { "commit_created": false, "pushed": false, "professional_review_completed": false },
+  "scope": {
+    "new_article": "src/content/concepts/speech-perception.md",
+    "new_figures": "public/figures/speech-perception/",
+    "new_references": "src/data/speech-perception-references.ts",
+    "shared_files_touched": ["src/data/references.ts", "src/data/relations.ts", "src/data/paths.ts", "docs/research/wiki-evidence-map.json"],
+    "new_scripts": ["scripts/generate-speech-perception.py", "scripts/research-speech-perception.py", "scripts/prepare-speech-perception.mjs"],
+    "research_records": "docs/research/speech-perception-2026-10-10/"
+  }
+}
