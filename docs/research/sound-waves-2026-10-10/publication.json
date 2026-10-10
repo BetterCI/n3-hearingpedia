@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-10",
+  "entry": "sound-waves-and-propagation",
+  "status": "ready_to_push",
+  "base": "2218a19",
+  "scope": "Only sound-waves entry, its sources, figures, research records and navigation. Other unpublished entries are excluded.",
+  "pnpm_check": {
+    "result": "passed",
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "pnpm_build": "passed",
+  "pnpm_verify": {
+    "result": "passed",
+    "pages": 222,
+    "searchableConcepts": 94,
+    "checkedInternalLinks": 17415,
+    "brokenLinks": 0
+  },
+  "unpublished_links_adjusted": [
+    "sound-pressure-level",
+    "interaural-level-difference"
+  ],
+  "professional_review": "draft; no named professional reviewer",
+  "note": "Full checks passed in an isolated checkout of current origin/main. Historical local-check failures remain recorded separately."
+}

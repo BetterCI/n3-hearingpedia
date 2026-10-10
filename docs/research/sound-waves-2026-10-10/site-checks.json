@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-10",
+  "entry": "sound-waves-and-propagation",
+  "before_changes": {
+    "pnpm_check": "failed",
+    "reason": "Existing albert-bregman kind: person is not accepted by src/content.config.ts."
+  },
+  "scientific_review": "draft; no named professional reviewer",
+  "deployment": "not_committed_or_pushed_by_this_task",
+  "initial_entry_checks": {
+    "pnpm_check": "failed_at_same_existing_schema_error",
+    "pnpm_build": "failed_at_same_existing_schema_error; process also emitted a Windows libuv shutdown assertion",
+    "pnpm_verify": "not_run: no successful new full-site build, so existing dist would not validate this entry",
+    "entry_render_and_validation": "passed via scripts/render-sound-waves-draft.mjs",
+    "figures": "both SVG and PNG outputs generated and visually inspected; distance-figure footer spacing corrected",
+    "browser_preview": {
+      "math_errors": 0,
+      "reference_count": 10,
+      "images_loaded": 2,
+      "mobile_requested_viewport_width": 390,
+      "mobile_reported_inner_width": 433,
+      "mobile_document_width": 416,
+      "mobile_table_container_width": 380,
+      "mobile_table_content_width": 600,
+      "result": "Text and figures stay within the reported viewport; wide table scrolls within its container. Formula and figure screenshot inspected.",
+      "limitation": "Viewport capability requested 390 CSS pixels but this in-app browser reported 433; this is a narrow-screen check, not an exact 390-pixel certification."
+    }
+  },
+  "deep_upgrade": {
+    "pnpm_check": "failed_at_same_existing_albert_bregman_person_schema_error",
+    "pnpm_build": "failed_at_same_existing_schema_error; Windows libuv shutdown assertion also emitted",
+    "pnpm_verify": "not_run: no successful fresh full-site build",
+    "entry_render_and_validation": "passed via scripts/render-sound-waves-draft.mjs",
+    "figures": "All four SVG and PNG figures generated; PNGs visually inspected; numerical assertions passed",
+    "browser_preview": {
+      "reference_count": 21,
+      "images_loaded": 4,
+      "math_errors": 0,
+      "desktop_requested_viewport_width": 1280,
+      "desktop_reported_inner_width": 1280,
+      "desktop_document_width": 1265,
+      "mobile_requested_viewport_width": 390,
+      "mobile_reported_inner_width": 433,
+      "mobile_document_width": 416,
+      "mobile_table_container_width": 380,
+      "mobile_table_content_width": 600,
+      "result": "Text and figures fit the reported viewport; three wide tables scroll within their containers. Equations and teaching figures visually inspected.",
+      "limitation": "390 CSS pixels requested but 433 reported; narrow-screen verification, not exact 390-pixel certification. Tool screenshots inspected; no screenshot file saved."
+    }
+  }
+}

@@ -1,0 +1,1431 @@
+{
+  "date": "2026-10-10",
+  "raw_records": 132,
+  "unique_records": 129,
+  "deduplication": "DOI, then OpenAlex ID, then normalized title",
+  "scope": "Discovery pool, not a full-text screened evidence list. Actual cited sources and reading ranges are registered separately.",
+  "records": [
+    {
+      "key": "10.1063/5.0294663",
+      "id": "https://openalex.org/W4416929043",
+      "doi": "https://doi.org/10.1063/5.0294663",
+      "title": "Speed of sound in humid air: Accurate thermodynamic model and experimental validation",
+      "publication_year": 2025,
+      "discovered_in": [
+        "openalex-speed-seed"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.1461829",
+      "id": "https://openalex.org/W1990536516",
+      "doi": "https://doi.org/10.1063/1.1461829",
+      "title": "The IAPWS Formulation 1995 for the Thermodynamic Properties of Ordinary Water Substance for General and Scientific Use",
+      "publication_year": 2002,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/2/2/002",
+      "id": "https://openalex.org/W2139214910",
+      "doi": "https://doi.org/10.1088/0026-1394/2/2/002",
+      "title": "The Refractive Index of Air",
+      "publication_year": 1966,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.555898",
+      "id": "https://openalex.org/W1992581616",
+      "doi": "https://doi.org/10.1063/1.555898",
+      "title": "A New Equation of State and Tables of Thermodynamic Properties for Methane Covering the Range from the Melting Line to 625 K at Pressures up to 1000 MPa",
+      "publication_year": 1991,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1103/revmodphys.93.025010",
+      "id": "https://openalex.org/W4285421256",
+      "doi": "https://doi.org/10.1103/revmodphys.93.025010",
+      "title": "CODATA recommended values of the fundamental physical constants: 2018",
+      "publication_year": 2021,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.1349047",
+      "id": "https://openalex.org/W1976387459",
+      "doi": "https://doi.org/10.1063/1.1349047",
+      "title": "A Reference Equation of State for the Thermodynamic Properties of Nitrogen for Temperatures from 63.151 to 1000 K and Pressures to 2200 MPa",
+      "publication_year": 2000,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1023/b:ijot.0000022327.04529.f3",
+      "id": "https://openalex.org/W2008062583",
+      "doi": "https://doi.org/10.1023/b:ijot.0000022327.04529.f3",
+      "title": "Viscosity and Thermal Conductivity Equations for Nitrogen, Oxygen, Argon, and Air",
+      "publication_year": 2004,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.1285884",
+      "id": "https://openalex.org/W2151924475",
+      "doi": "https://doi.org/10.1063/1.1285884",
+      "title": "Thermodynamic Properties of Air and Mixtures of Nitrogen, Argon, and Oxygen From 60 to 2000 K at Pressures to 2000 MPa",
+      "publication_year": 2000,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/45/2/004",
+      "id": "https://openalex.org/W2009377638",
+      "doi": "https://doi.org/10.1088/0026-1394/45/2/004",
+      "title": "Revised formula for the density of moist air (CIPM-2007)",
+      "publication_year": 2008,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.555926",
+      "id": "https://openalex.org/W2089053182",
+      "doi": "https://doi.org/10.1063/1.555926",
+      "title": "International Equations for the Saturation Properties of Ordinary Water Substance. Revised According to the International Temperature Scale of 1990. Addendum to J. Phys. Chem. Ref. Data 16 , 893 (1987)",
+      "publication_year": 1993,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/29/1/008",
+      "id": "https://openalex.org/W1996400044",
+      "doi": "https://doi.org/10.1088/0026-1394/29/1/008",
+      "title": "Equation for the Determination of the Density of Moist Air (1981/91)",
+      "publication_year": 1992,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/51/1/r1",
+      "id": "https://openalex.org/W2148138963",
+      "doi": "https://doi.org/10.1088/0026-1394/51/1/r1",
+      "title": "Acoustic gas thermometry",
+      "publication_year": 2014,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1515/pac-2019-0603",
+      "id": "https://openalex.org/W4229008346",
+      "doi": "https://doi.org/10.1515/pac-2019-0603",
+      "title": "Standard atomic weights of the elements 2021 (IUPAC Technical Report)",
+      "publication_year": 2022,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.405827",
+      "id": "https://openalex.org/W1973609478",
+      "doi": "https://doi.org/10.1121/1.405827",
+      "title": "The variation of the specific heat ratio and the speed of sound in air with temperature, pressure, humidity, and CO2 concentration",
+      "publication_year": 1993,
+      "discovered_in": [
+        "openalex-speed-backward",
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.1587731",
+      "id": "https://openalex.org/W2083991224",
+      "doi": "https://doi.org/10.1063/1.1587731",
+      "title": "Correlation for the Second Virial Coefficient of Water",
+      "publication_year": 2004,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.3657937",
+      "id": "https://openalex.org/W2095564181",
+      "doi": "https://doi.org/10.1063/1.3657937",
+      "title": "New Equations for the Sublimation Pressure and Melting Pressure of H2O Ice Ih",
+      "publication_year": 2011,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.393566",
+      "id": "https://openalex.org/W2073792267",
+      "doi": "https://doi.org/10.1121/1.393566",
+      "title": "Gas-filled spherical resonators: Theory and experiment",
+      "publication_year": 1986,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.3571269",
+      "id": "https://openalex.org/W1978469671",
+      "doi": "https://doi.org/10.1063/1.3571269",
+      "title": "An experimental assembly for precise measurement of thermal accommodation coefficients",
+      "publication_year": 2011,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.329644",
+      "id": "https://openalex.org/W1989847002",
+      "doi": "https://doi.org/10.1063/1.329644",
+      "title": "Stainless-steel elastic constants at low temperatures",
+      "publication_year": 1981,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.393664",
+      "id": "https://openalex.org/W2026486686",
+      "doi": "https://doi.org/10.1121/1.393664",
+      "title": "Speed of sound in standard air",
+      "publication_year": 1986,
+      "discovered_in": [
+        "openalex-speed-backward",
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/0378-4371(92)90314-g",
+      "id": "https://openalex.org/W1975770715",
+      "doi": "https://doi.org/10.1016/0378-4371(92)90314-g",
+      "title": "Second acoustic virial coefficients of nitrogen between 80 and 373 K",
+      "publication_year": 1992,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1119/1.19335",
+      "id": "https://openalex.org/W2099479502",
+      "doi": "https://doi.org/10.1119/1.19335",
+      "title": "A reliable, compact, and low-cost Michelson wavemeter for laser wavelength measurement",
+      "publication_year": 1999,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.6028/jres.080a.007",
+      "id": "https://openalex.org/W2143283340",
+      "doi": "https://doi.org/10.6028/jres.080a.007",
+      "title": "Functional equations for the enhancement factors for CO2-free moist air",
+      "publication_year": 1976,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s10765-005-8587-2",
+      "id": "https://openalex.org/W2081561265",
+      "doi": "https://doi.org/10.1007/s10765-005-8587-2",
+      "title": "Speed of Sound in Pure Water at Temperatures between 274 and 394 K and at Pressures up to 90 MPa",
+      "publication_year": 2005,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1515/pac-2016-0302",
+      "id": "https://openalex.org/W2568605311",
+      "doi": "https://doi.org/10.1515/pac-2016-0302",
+      "title": "Isotope-abundance variations and atomic weights of selected elements: 2016 (IUPAC Technical Report)",
+      "publication_year": 2016,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.392448",
+      "id": "https://openalex.org/W2020292948",
+      "doi": "https://doi.org/10.1121/1.392448",
+      "title": "Spherical acoustic resonator: Effects of shell motion",
+      "publication_year": 1985,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/47/4/005",
+      "id": "https://openalex.org/W2039164020",
+      "doi": "https://doi.org/10.1088/0026-1394/47/4/005",
+      "title": "A determination of the Boltzmann constant from speed of sound measurements in helium at a single thermodynamic state",
+      "publication_year": 2010,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/52/5/s274",
+      "id": "https://openalex.org/W1663576868",
+      "doi": "https://doi.org/10.1088/0026-1394/52/5/s274",
+      "title": "A determination of the molar gas constantRby acoustic thermometry in helium",
+      "publication_year": 2015,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.555998",
+      "id": "https://openalex.org/W2049315651",
+      "doi": "https://doi.org/10.1063/1.555998",
+      "title": "Interpolation Correlations for Fluid Properties of Humid Air in the Temperature Range 100 °C to 200 °C",
+      "publication_year": 1997,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/1.5083135",
+      "id": "https://openalex.org/W2936744735",
+      "doi": "https://doi.org/10.1063/1.5083135",
+      "title": "MARVEL Analysis of the Measured High-Resolution Rovibronic Spectra and Definitive Ideal-Gas Thermochemistry of the 16O2 Molecule",
+      "publication_year": 2019,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s10546-011-9688-z",
+      "id": "https://openalex.org/W2023416327",
+      "doi": "https://doi.org/10.1007/s10546-011-9688-z",
+      "title": "Influence of the Sonic Anemometer Temperature Calibration on Turbulent Heat-Flux Measurements",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.6028/jres.079a.017",
+      "id": "https://openalex.org/W2324671424",
+      "doi": "https://doi.org/10.6028/jres.079a.017",
+      "title": "A correlation for the second interaction virial coefficients and enhancement factors for moist air",
+      "publication_year": 1975,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1103/physreva.34.3341",
+      "id": "https://openalex.org/W2031841604",
+      "doi": "https://doi.org/10.1103/physreva.34.3341",
+      "title": "Measurement of the ratio of the speed of sound to the speed of light",
+      "publication_year": 1986,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/bf01438672",
+      "id": "https://openalex.org/W2029704391",
+      "doi": "https://doi.org/10.1007/bf01438672",
+      "title": "Practical determination of gas densities from the speed of sound using square-well potentials",
+      "publication_year": 1996,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/41/6/005",
+      "id": "https://openalex.org/W2122284072",
+      "doi": "https://doi.org/10.1088/0026-1394/41/6/005",
+      "title": "A redetermination of the argon content of air for buoyancy corrections in mass standard comparisons",
+      "publication_year": 2004,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/46/5/020",
+      "id": "https://openalex.org/W2081937250",
+      "doi": "https://doi.org/10.1088/0026-1394/46/5/020",
+      "title": "Second-order electromagnetic eigenfrequencies of a triaxial ellipsoid",
+      "publication_year": 2009,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0957-0233/21/7/075103",
+      "id": "https://openalex.org/W1970096244",
+      "doi": "https://doi.org/10.1088/0957-0233/21/7/075103",
+      "title": "Waveguide effects on quasispherical microwave cavity resonators",
+      "publication_year": 2010,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s10765-012-1254-5",
+      "id": "https://openalex.org/W2055610726",
+      "doi": "https://doi.org/10.1007/s10765-012-1254-5",
+      "title": "Thermal Conductivity of Humid Air",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.392927",
+      "id": "https://openalex.org/W2074270817",
+      "doi": "https://doi.org/10.1121/1.392927",
+      "title": "Low-frequency absorption of sound in air",
+      "publication_year": 1985,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s10765-007-0197-8",
+      "id": "https://openalex.org/W1971196598",
+      "doi": "https://doi.org/10.1007/s10765-007-0197-8",
+      "title": "First-Principles Calculation of the Air–Water Second Virial Coefficient",
+      "publication_year": 2007,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1039/c8fd00092a",
+      "id": "https://openalex.org/W2809286820",
+      "doi": "https://doi.org/10.1039/c8fd00092a",
+      "title": "Fully quantum calculation of the second and third virial coefficients of water and its isotopologues from ab initio potentials",
+      "publication_year": 2018,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/47/5/010",
+      "id": "https://openalex.org/W1980163431",
+      "doi": "https://doi.org/10.1088/0026-1394/47/5/010",
+      "title": "Characterization of the volume and shape of quasi-spherical resonators using coordinate measurement machines",
+      "publication_year": 2010,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/46/6/001",
+      "id": "https://openalex.org/W2042579342",
+      "doi": "https://doi.org/10.1088/0026-1394/46/6/001",
+      "title": "The propagation of uncertainty for humidity calculations",
+      "publication_year": 2009,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s10765-011-1007-x",
+      "id": "https://openalex.org/W1978069074",
+      "doi": "https://doi.org/10.1007/s10765-011-1007-x",
+      "title": "Microwave Determination of Water Mole Fraction in Humid Gas Mixtures",
+      "publication_year": 2011,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/1681-7575/aa9a7a",
+      "id": "https://openalex.org/W2769761265",
+      "doi": "https://doi.org/10.1088/1681-7575/aa9a7a",
+      "title": "An acoustic thermometer for air refractive index estimation in long distance interferometric measurements",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.6028/jres.112.013",
+      "id": "https://openalex.org/W2331424126",
+      "doi": "https://doi.org/10.6028/jres.112.013",
+      "title": "Acoustic eigenvalues of a quasispherical resonator: Second order shape perturbation theory for arbitrary modes",
+      "publication_year": 2007,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.385356",
+      "id": "https://openalex.org/W2045122994",
+      "doi": "https://doi.org/10.1121/1.385356",
+      "title": "Absorption of sound by air: High temperature predictions",
+      "publication_year": 1981,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1117/1.1787834",
+      "id": "https://openalex.org/W2078734849",
+      "doi": "https://doi.org/10.1117/1.1787834",
+      "title": "Acoustic method for determination of the effective temperature and refractive index of air in accurate length interferometry",
+      "publication_year": 2004,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0957-0233/23/8/085905",
+      "id": "https://openalex.org/W2050087586",
+      "doi": "https://doi.org/10.1088/0957-0233/23/8/085905",
+      "title": "A microwave resonance dew-point hygrometer",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1021/acs.jced.0c00465",
+      "id": "https://openalex.org/W3041850084",
+      "doi": "https://doi.org/10.1021/acs.jced.0c00465",
+      "title": "Reference Values for the Cross Second Virial Coefficients and Dilute Gas Binary Diffusion Coefficients of the Systems (H2O + O2) and (H2O + Air) from First Principles",
+      "publication_year": 2020,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/1361-6501/ab491b",
+      "id": "https://openalex.org/W2998821369",
+      "doi": "https://doi.org/10.1088/1361-6501/ab491b",
+      "title": "Ultrasonic measurement of air temperature along the axis of a laser beam during interferometric measurement of length",
+      "publication_year": 2020,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/5.0137083",
+      "id": "https://openalex.org/W4376108669",
+      "doi": "https://doi.org/10.1063/5.0137083",
+      "title": "Thermodynamic Functions for N2 from the Total Partition Sum and its Moments",
+      "publication_year": 2023,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/5.0273661",
+      "id": "https://openalex.org/W4412160541",
+      "doi": "https://doi.org/10.1063/5.0273661",
+      "title": "Improved Partition Functions and Related Thermochemical Quantities for the 16O2 and H216O Molecules",
+      "publication_year": 2025,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/1681-7575/ad58e6",
+      "id": "https://openalex.org/W4400566447",
+      "doi": "https://doi.org/10.1088/1681-7575/ad58e6",
+      "title": "Speed of sound measurements and derived third and fourth acoustic virial coefficients of supercritical neon",
+      "publication_year": 2024,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1006/jcht.1997.0331",
+      "id": "https://openalex.org/W1996252956",
+      "doi": "https://doi.org/10.1006/jcht.1997.0331",
+      "title": "The speed of sound in nitrogen at temperatures between =250 K and =350 K and at pressures up to 30 MPa",
+      "publication_year": 1998,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1515/pac-2013-0918",
+      "id": "https://openalex.org/W1966828864",
+      "doi": "https://doi.org/10.1515/pac-2013-0918",
+      "title": "Variation in the terrestrial isotopic composition and atomic weight of argon (IUPAC Technical Report)",
+      "publication_year": 2014,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.3390/s23041908",
+      "id": "https://openalex.org/W4319598176",
+      "doi": "https://doi.org/10.3390/s23041908",
+      "title": "Non-Contact Thermometer for Improved Air Temperature Measurements",
+      "publication_year": 2023,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1063/5.0276615",
+      "id": "https://openalex.org/W4411170836",
+      "doi": "https://doi.org/10.1063/5.0276615",
+      "title": "Partition Functions and Ideal-Gas Thermodynamics for Carbon Dioxide",
+      "publication_year": 2025,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1006/jcht.1993.1046",
+      "id": "https://openalex.org/W2037644302",
+      "doi": "https://doi.org/10.1006/jcht.1993.1046",
+      "title": "Speeds of sound, perfect-gas heat capacity, and second acoustic virial coefficient for air at the temperature 255 K and pressures in the range 0.031 MPa to 6.9 MPa",
+      "publication_year": 1993,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0508-3443/14/2/316",
+      "id": "https://openalex.org/W1983792745",
+      "doi": "https://doi.org/10.1088/0508-3443/14/2/316",
+      "title": "The velocity of sound in air, nitrogen and argon",
+      "publication_year": 1963,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.6028/jres.071a.029",
+      "id": "https://openalex.org/W2313207604",
+      "doi": "https://doi.org/10.6028/jres.071a.029",
+      "title": "Third virial coefficient for air-water vapor mixtures",
+      "publication_year": 1967,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s10765-007-0266-z",
+      "id": "https://openalex.org/W2087785641",
+      "doi": "https://doi.org/10.1007/s10765-007-0266-z",
+      "title": "Progress Towards an Acoustic Measurement of the Molar Gas Constant at INRIM",
+      "publication_year": 2007,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.6028/nbs.circ.564",
+      "id": "https://openalex.org/W2794745645",
+      "doi": "https://doi.org/10.6028/nbs.circ.564",
+      "title": "Circular of the Bureau of Standards no. 564:",
+      "publication_year": 1955,
+      "discovered_in": [
+        "openalex-speed-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/1361-6501/ae6e94",
+      "id": "https://openalex.org/W7161230204",
+      "doi": "https://doi.org/10.1088/1361-6501/ae6e94",
+      "title": "Two-color measurements supporting a revised formulation for the refractive index of air",
+      "publication_year": 2026,
+      "discovered_in": [
+        "openalex-speed-forward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.csite.2026.108545",
+      "id": "https://openalex.org/W7214176582",
+      "doi": "https://doi.org/10.1016/j.csite.2026.108545",
+      "title": "Effects of the ignition modes on explosive characteristics in gasoline-air mixtures",
+      "publication_year": 2026,
+      "discovered_in": [
+        "openalex-speed-forward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1002/ece3.4088",
+      "id": "https://openalex.org/W2802623310",
+      "doi": "https://doi.org/10.1002/ece3.4088",
+      "title": "Weather conditions determine attenuation and speed of sound: Environmental limitations for monitoring and analyzing bat echolocation",
+      "publication_year": 2018,
+      "discovered_in": [
+        "openalex-environment-search",
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.25144/18277",
+      "id": "https://openalex.org/W4393397305",
+      "doi": "https://doi.org/10.25144/18277",
+      "title": "THE EFFECT OF WEATHER CONDITIONS ON THE PROPAGATION OF SOUND",
+      "publication_year": 2023,
+      "discovered_in": [
+        "openalex-environment-search"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/978-3-030-44787-8_14",
+      "id": "https://openalex.org/W4253149838",
+      "doi": "https://doi.org/10.1007/978-3-030-44787-8_14",
+      "title": "Attenuation of Sound",
+      "publication_year": 2020,
+      "discovered_in": [
+        "openalex-environment-search"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.52170/1815-9265_2024_72_45",
+      "id": "https://openalex.org/W7141205822",
+      "doi": "https://doi.org/10.52170/1815-9265_2024_72_45",
+      "title": "Noise attenuation in residential areas near the station and under various atmospheric conditions",
+      "publication_year": 2024,
+      "discovered_in": [
+        "openalex-environment-search"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.3390/s21165397",
+      "id": "https://openalex.org/W3191343975",
+      "doi": "https://doi.org/10.3390/s21165397",
+      "title": "An Overview of Autonomous Vehicles Sensors and Their Vulnerability to Weather Conditions",
+      "publication_year": 2021,
+      "discovered_in": [
+        "openalex-environment-search"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/bf00300047",
+      "id": "https://openalex.org/W1991074685",
+      "doi": "https://doi.org/10.1007/bf00300047",
+      "title": "Physical constraints on acoustic communication in the atmosphere: Implications for the evolution of animal vocalizations",
+      "publication_year": 1978,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.anbehav.2011.12.014",
+      "id": "https://openalex.org/W2000252739",
+      "doi": "https://doi.org/10.1016/j.anbehav.2011.12.014",
+      "title": "Principles of Animal Communication",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.3354/esr00182",
+      "id": "https://openalex.org/W2014562034",
+      "doi": "https://doi.org/10.3354/esr00182",
+      "title": "Carpe noctem: the importance of bats as bioindicators",
+      "publication_year": 2009,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/bf00299740",
+      "id": "https://openalex.org/W1799469514",
+      "doi": "https://doi.org/10.1007/bf00299740",
+      "title": "Sound transmission and its significance for animal vocalization",
+      "publication_year": 1977,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/s0169-5347(03)00185-x",
+      "id": "https://openalex.org/W2158276448",
+      "doi": "https://doi.org/10.1016/s0169-5347(03)00185-x",
+      "title": "From spatial orientation to food acquisition in echolocating bats",
+      "publication_year": 2003,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1111/j.1365-2664.2011.01993.x",
+      "id": "https://openalex.org/W2114455599",
+      "doi": "https://doi.org/10.1111/j.1365-2664.2011.01993.x",
+      "title": "Acoustic monitoring in terrestrial environments using microphone arrays: applications, technological considerations and prospectus",
+      "publication_year": 2011,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.3389/fphys.2013.00164",
+      "id": "https://openalex.org/W2139553180",
+      "doi": "https://doi.org/10.3389/fphys.2013.00164",
+      "title": "Bat guilds, a concept to classify the highly diverse foraging and echolocation behaviors of microchiropteran bats",
+      "publication_year": 2013,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.412989",
+      "id": "https://openalex.org/W2089029067",
+      "doi": "https://doi.org/10.1121/1.412989",
+      "title": "Atmospheric absorption of sound: Further developments",
+      "publication_year": 1995,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/bf00170257",
+      "id": "https://openalex.org/W2017203931",
+      "doi": "https://doi.org/10.1007/bf00170257",
+      "title": "Plasticity in echolocation signals of European pipistrelle bats in search flight: implications for habitat use and prey detection",
+      "publication_year": 1993,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.387529",
+      "id": "https://openalex.org/W2068544015",
+      "doi": "https://doi.org/10.1121/1.387529",
+      "title": "Measurements of atmospheric attenuation at ultrasonic frequencies and the significance for echolocation by bats",
+      "publication_year": 1982,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/bf00299741",
+      "id": "https://openalex.org/W2328478852",
+      "doi": "https://doi.org/10.1007/bf00299741",
+      "title": "Sound transmission and its significance for animal vocalization",
+      "publication_year": 1977,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.biocon.2004.04.001",
+      "id": "https://openalex.org/W2009457674",
+      "doi": "https://doi.org/10.1016/j.biocon.2004.04.001",
+      "title": "Echolocation in Bats and Dolphins",
+      "publication_year": 2004,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s00359-006-0099-4",
+      "id": "https://openalex.org/W1999316264",
+      "doi": "https://doi.org/10.1007/s00359-006-0099-4",
+      "title": "Sensory acquisition in active sensing systems",
+      "publication_year": 2006,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.anbehav.2012.04.026",
+      "id": "https://openalex.org/W1979878650",
+      "doi": "https://doi.org/10.1016/j.anbehav.2012.04.026",
+      "title": "On the relationship between, and measurement of, amplitude and frequency in birdsong",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.1398051",
+      "id": "https://openalex.org/W2140329332",
+      "doi": "https://doi.org/10.1121/1.1398051",
+      "title": "Auditory scene analysis by echolocation in bats",
+      "publication_year": 2001,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.ecolind.2016.02.036",
+      "id": "https://openalex.org/W2337334210",
+      "doi": "https://doi.org/10.1016/j.ecolind.2016.02.036",
+      "title": "The use of automated identification of bat echolocation calls in acoustic monitoring: A cautionary note for a sound analysis",
+      "publication_year": 2016,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1126/science.451543",
+      "id": "https://openalex.org/W2062966210",
+      "doi": "https://doi.org/10.1126/science.451543",
+      "title": "Perception of Echo Phase Information in Bat Sonar",
+      "publication_year": 1979,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1111/j.2041-210x.2012.00244.x",
+      "id": "https://openalex.org/W2042238292",
+      "doi": "https://doi.org/10.1111/j.2041-210x.2012.00244.x",
+      "title": "Do you hear what I hear? Implications of detector selection for acoustic monitoring of bats",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/bf00192654",
+      "id": "https://openalex.org/W1978650163",
+      "doi": "https://doi.org/10.1007/bf00192654",
+      "title": "Discrimination of jittered sonar echoes by the echolocating bat, Eptesicus fuscus: The shape of target images in echolocation",
+      "publication_year": 1990,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1111/j.1365-2664.2012.02182.x",
+      "id": "https://openalex.org/W2115796660",
+      "doi": "https://doi.org/10.1111/j.1365-2664.2012.02182.x",
+      "title": "A continental‐scale tool for acoustic identification of E uropean bats",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.cub.2010.07.046",
+      "id": "https://openalex.org/W2041027404",
+      "doi": "https://doi.org/10.1016/j.cub.2010.07.046",
+      "title": "An Aerial-Hawking Bat Uses Stealth Echolocation to Counter Moth Hearing",
+      "publication_year": 2010,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.ecolind.2017.03.023",
+      "id": "https://openalex.org/W2601668996",
+      "doi": "https://doi.org/10.1016/j.ecolind.2017.03.023",
+      "title": "Testing the performances of automated identification of bat echolocation calls: A request for prudence",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1098/rspb.2008.1505",
+      "id": "https://openalex.org/W2113946772",
+      "doi": "https://doi.org/10.1098/rspb.2008.1505",
+      "title": "Echolocating bats emit a highly directional sonar sound beam in the field",
+      "publication_year": 2008,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.4733537",
+      "id": "https://openalex.org/W2066268005",
+      "doi": "https://doi.org/10.1121/1.4733537",
+      "title": "Estimation of the acoustic range of bat echolocation for extended targets",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1098/rsif.2013.0961",
+      "id": "https://openalex.org/W2098177368",
+      "doi": "https://doi.org/10.1098/rsif.2013.0961",
+      "title": "Global warming alters sound transmission: differential impact on the prey detection ability of echolocating bats",
+      "publication_year": 2013,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1073/pnas.1515091113",
+      "id": "https://openalex.org/W2337504427",
+      "doi": "https://doi.org/10.1073/pnas.1515091113",
+      "title": "Echolocating bats use future-target information for optimal foraging",
+      "publication_year": 2016,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/s0003-3472(71)80134-3",
+      "id": "https://openalex.org/W1976954097",
+      "doi": "https://doi.org/10.1016/s0003-3472(71)80134-3",
+      "title": "The importance of atmospheric attenuation for the echolocation of bats (Chiroptera)",
+      "publication_year": 1971,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1088/0026-1394/18/1/006",
+      "id": "https://openalex.org/W1983674049",
+      "doi": "https://doi.org/10.1088/0026-1394/18/1/006",
+      "title": "Equation for the Determination of the Density of Moist Air (1981)",
+      "publication_year": 1982,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.1913000",
+      "id": "https://openalex.org/W2055382538",
+      "doi": "https://doi.org/10.1121/1.1913000",
+      "title": "Atmospheric Absorption of Sound: Theoretical Predictions",
+      "publication_year": 1972,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1111/j.1365-2664.2011.01976.x",
+      "id": "https://openalex.org/W2145030391",
+      "doi": "https://doi.org/10.1111/j.1365-2664.2011.01976.x",
+      "title": "Accounting for detectability improves estimates of species richness in tropical bat surveys",
+      "publication_year": 2011,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.2307/1379076",
+      "id": "https://openalex.org/W2319815639",
+      "doi": "https://doi.org/10.2307/1379076",
+      "title": "High Altitude Flights of the Free-Tailed Bat, Tadarida brasiliensis, Observed with Radar",
+      "publication_year": 1973,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1046/j.1420-9101.2000.00155.x",
+      "id": "https://openalex.org/W2115862101",
+      "doi": "https://doi.org/10.1046/j.1420-9101.2000.00155.x",
+      "title": "Variation in the frequency of the echolocation calls of Hipposideros ruber in the Gulf of Guinea: an exploration of the adaptive meaning of the constant frequency value in rhinolophoid CF bats",
+      "publication_year": 1999,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/bf00619357",
+      "id": "https://openalex.org/W2040474106",
+      "doi": "https://doi.org/10.1007/bf00619357",
+      "title": "Accuracy of target ranging in echolocating bats: acoustic information processing",
+      "publication_year": 1989,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1111/2041-210x.12766",
+      "id": "https://openalex.org/W2592730790",
+      "doi": "https://doi.org/10.1111/2041-210x.12766",
+      "title": "Measurement artefacts lead to false positives in the study of birdsong in noise",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1111/2041-210x.12556",
+      "id": "https://openalex.org/W2340594420",
+      "doi": "https://doi.org/10.1111/2041-210x.12556",
+      "title": "Acoustic identification of Mexican bats based on taxonomic and ecological constraints on call design",
+      "publication_year": 2016,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/978-1-4614-9146-0",
+      "id": "https://openalex.org/W4233588438",
+      "doi": "https://doi.org/10.1007/978-1-4614-9146-0",
+      "title": "Biosonar",
+      "publication_year": 2014,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1111/1365-2664.12303",
+      "id": "https://openalex.org/W2006269021",
+      "doi": "https://doi.org/10.1111/1365-2664.12303",
+      "title": "Accounting for false‐positive acoustic detections of bats using occupancy models",
+      "publication_year": 2014,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1371/journal.pone.0060752",
+      "id": "https://openalex.org/W2049867851",
+      "doi": "https://doi.org/10.1371/journal.pone.0060752",
+      "title": "Scanning Behavior in Echolocating Common Pipistrelle Bats (Pipistrellus pipistrellus)",
+      "publication_year": 2013,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s10682-009-9326-0",
+      "id": "https://openalex.org/W2054062604",
+      "doi": "https://doi.org/10.1007/s10682-009-9326-0",
+      "title": "Implications of sensory ecology for species coexistence: biased perception links predator diversity to prey size distribution",
+      "publication_year": 2009,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1371/journal.pone.0148053",
+      "id": "https://openalex.org/W2261828671",
+      "doi": "https://doi.org/10.1371/journal.pone.0148053",
+      "title": "Sensory Drive Mediated by Climatic Gradients Partially Explains Divergence in Acoustic Signals in Two Horseshoe Bat Species, Rhinolophus swinnyi and Rhinolophus simulator",
+      "publication_year": 2016,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.mambio.2014.11.002",
+      "id": "https://openalex.org/W2076191401",
+      "doi": "https://doi.org/10.1016/j.mambio.2014.11.002",
+      "title": "Methodological challenges in monitoring bat population- and assemblage-level changes for anthropogenic impact assessment",
+      "publication_year": 2014,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.anbehav.2012.08.012",
+      "id": "https://openalex.org/W1978679111",
+      "doi": "https://doi.org/10.1016/j.anbehav.2012.08.012",
+      "title": "On amplitude and frequency in birdsong: a reply to Zollinger et al.",
+      "publication_year": 2012,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.biocon.2017.09.004",
+      "id": "https://openalex.org/W2763704736",
+      "doi": "https://doi.org/10.1016/j.biocon.2017.09.004",
+      "title": "Large-scale citizen science improves assessment of risk posed by wind farms to bats in southern Scotland",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1371/journal.pone.0187769",
+      "id": "https://openalex.org/W2770223103",
+      "doi": "https://doi.org/10.1371/journal.pone.0187769",
+      "title": "Testing the Sensory Drive Hypothesis: Geographic variation in echolocation frequencies of Geoffroy's horseshoe bat (Rhinolophidae: Rhinolophus clivosus)",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.4992029",
+      "id": "https://openalex.org/W2735104913",
+      "doi": "https://doi.org/10.1121/1.4992029",
+      "title": "Variation in echolocation call frequencies in two species of free-tailed bats according to temperature and humidity",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1002/ece3.1122",
+      "id": "https://openalex.org/W2059752304",
+      "doi": "https://doi.org/10.1002/ece3.1122",
+      "title": "Operator bias in software‐aided bat call identification",
+      "publication_year": 2014,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.ecoinf.2013.12.010",
+      "id": "https://openalex.org/W2160746362",
+      "doi": "https://doi.org/10.1016/j.ecoinf.2013.12.010",
+      "title": "Semi-automatic long-term acoustic surveying: A case study with bats",
+      "publication_year": 2013,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1111/1365-2435.13073",
+      "id": "https://openalex.org/W2792759567",
+      "doi": "https://doi.org/10.1111/1365-2435.13073",
+      "title": "Continued source level reduction during attack in the low‐amplitude bat Barbastella barbastellus prevents moth evasive flight",
+      "publication_year": 2018,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/978-0-387-30425-0_4",
+      "id": "https://openalex.org/W4211064779",
+      "doi": "https://doi.org/10.1007/978-0-387-30425-0_4",
+      "title": "Sound Propagation in the Atmosphere",
+      "publication_year": 2007,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.2174/9781681083179117010005",
+      "id": "https://openalex.org/W4255886892",
+      "doi": "https://doi.org/10.2174/9781681083179117010005",
+      "title": "Propagation of Sound",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.2307/1381562",
+      "id": "https://openalex.org/W2163244483",
+      "doi": "https://doi.org/10.2307/1381562",
+      "title": "Variation in Echolocation Call Frequencies Recorded from North American Vespertilionid Bats: A Cautionary Note",
+      "publication_year": 1987,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1371/journal.pone.0135590",
+      "id": "https://openalex.org/W2170799043",
+      "doi": "https://doi.org/10.1371/journal.pone.0135590",
+      "title": "Bidirectional Echolocation in the Bat Barbastella barbastellus: Different Signals of Low Source Level Are Emitted Upward through the Nose and Downward through the Mouth",
+      "publication_year": 2015,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/978-0-387-30425-0_19",
+      "id": "https://openalex.org/W4233254498",
+      "doi": "https://doi.org/10.1007/978-0-387-30425-0_19",
+      "title": "Animal Bioacoustics",
+      "publication_year": 2007,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1007/s00265-017-2398-x",
+      "id": "https://openalex.org/W2766816710",
+      "doi": "https://doi.org/10.1007/s00265-017-2398-x",
+      "title": "Does similarity in call structure or foraging ecology explain interspecific information transfer in wild Myotis bats?",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1139/cjz-2017-0219",
+      "id": "https://openalex.org/W2793876599",
+      "doi": "https://doi.org/10.1139/cjz-2017-0219",
+      "title": "Don’t believe the mike: behavioural, directional, and environmental impacts on recorded bat echolocation call measures",
+      "publication_year": 2018,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1002/ece3.3251",
+      "id": "https://openalex.org/W2742599490",
+      "doi": "https://doi.org/10.1002/ece3.3251",
+      "title": "Environmental correlates of geographic divergence in a phenotypic trait: A case study using bat echolocation",
+      "publication_year": 2017,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.3445784",
+      "id": "https://openalex.org/W2054365028",
+      "doi": "https://doi.org/10.1121/1.3445784",
+      "title": "Sonar detection of jittering real targets in a free-flying bat",
+      "publication_year": 2010,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1121/1.397465",
+      "id": "https://openalex.org/W2033224082",
+      "doi": "https://doi.org/10.1121/1.397465",
+      "title": "The effect of atmospheric sound absorption on signal bandwidth and energy and some consequences for bat echolocation",
+      "publication_year": 1989,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    },
+    {
+      "key": "10.1016/j.beproc.2011.10.018",
+      "id": "https://openalex.org/W1973994112",
+      "doi": "https://doi.org/10.1016/j.beproc.2011.10.018",
+      "title": "Bats’ avoidance of real and virtual objects: Implications for the sonar coding of object size",
+      "publication_year": 2011,
+      "discovered_in": [
+        "openalex-environment-backward"
+      ],
+      "review_status": "discovery_metadata_only; not necessarily read or cited"
+    }
+  ]
+}

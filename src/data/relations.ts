@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('sound-waves-and-propagation','loudness','related','声压的物理标度与听者的响度感知需要区分。',2),
+  link('spectrogram','sound-waves-and-propagation','describes','时频图表示接收点声压信号的谱结构与时间变化。',2),
+  link('sound-waves-and-propagation','fundamental-frequency','related','周期声的重复率与各频率成分的波长相联系。',3),
+  link('sound-waves-and-propagation','room-acoustics','related','边界反射、叠加与吸收形成位置相关的室内声场。',3),
+  link('sound-waves-and-propagation','interaural-time-difference','mechanism','传播路径差可以造成两耳输入的到达时间差。',3),
+  link('sound-waves-and-propagation','spatial-hearing','mechanism','传播路径与头部附近绕射共同影响空间听觉输入。',3),
   link('wang-jiqing','room-acoustics','researches','有顶与无顶空间反射声、时间衰减与混响感的试听研究。',3),
   link('wang-jiqing','speech-intelligibility','researches','共同比较STI与SII的汉语言语可懂度客观评价。',3),
   link('wang-jiqing','binaural-hearing','related','人工头双耳回放用于检验反射声方向线索对混响感的影响。',2),

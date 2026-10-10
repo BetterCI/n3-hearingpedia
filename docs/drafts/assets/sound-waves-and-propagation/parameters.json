@@ -1,0 +1,72 @@
+{
+  "nature": "analytical teaching example, not measured data",
+  "speed_m_s": 343.0,
+  "frequency_Hz": 500.0,
+  "period_s": 0.002,
+  "wavelength_m": 0.686,
+  "snapshot_step_s": 0.0005,
+  "wavefront_shift_m": 0.1715,
+  "display_particle_displacement_m": 0.025,
+  "particle_displacement_is_exaggerated": true,
+  "distance_m": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "relative_pressure": [
+    1.0,
+    0.5,
+    0.25,
+    0.125
+  ],
+  "level_difference_dB": [
+    -0.0,
+    -6.020599913279624,
+    -12.041199826559248,
+    -18.06179973983887
+  ],
+  "arrival_time_ms": [
+    2.9154518950437316,
+    5.830903790087463,
+    11.661807580174926,
+    23.323615160349853
+  ],
+  "spherical_wave": {
+    "phasor_convention": "Re(P exp(+j omega t)); peak amplitude",
+    "kr_range": [
+      0.01,
+      100
+    ],
+    "normalized_impedance": "1/(1+1/(j*kr))",
+    "kr_1_phase_degrees": 45,
+    "kr_1_distance_500Hz_m": 0.1091802909610402,
+    "kr_1_distance_100Hz_m": 0.545901454805201,
+    "pure_outward_active_intensity_pressure_conversion": true
+  },
+  "two_path": {
+    "direct_gain": 1,
+    "reflection_gain": 0.6,
+    "relative_delay_s": 0.005,
+    "path_length_difference_m": 1.715,
+    "frequency_Hz_range": [
+      0,
+      1000
+    ],
+    "frequency_grid_step_Hz": 0.25,
+    "comb_spacing_Hz": 200.0,
+    "peak_dB": 4.082399653118496,
+    "trough_dB": -7.958800173440752,
+    "first_trough_Hz": 100.0,
+    "frequency_independent_positive_reflection": true
+  },
+  "timing_uncertainty_example": {
+    "distance_m": 1,
+    "distance_standard_uncertainty_m": 0.001,
+    "delay_s": 0.0029154518950437317,
+    "time_standard_uncertainty_s": 1e-05,
+    "independent_relative_standard_uncertainty": 0.0035728000223914018
+  },
+  "numpy_version": "1.26.4",
+  "matplotlib_version": "3.8.0"
+}

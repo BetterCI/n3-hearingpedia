@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 515,
+  "relations": 521,
   "entries": [
     {
       "slug": "cochlea",
@@ -3897,6 +3897,52 @@
         "wei-rongjue"
       ],
       "status": "draft"
+    },
+    {
+      "slug": "sound-waves-and-propagation",
+      "knowledge_area": "sound",
+      "kind": "acoustic-environment",
+      "chinese_characters": 8120,
+      "body_characters": 16898,
+      "sections": 11,
+      "subsections": 21,
+      "reference_ids": [
+        "waves-openstax-sound",
+        "waves-unsw-equation",
+        "waves-openstax-speed",
+        "waves-openstax-intensity",
+        "waves-unsw-impedance",
+        "waves-unsw-air",
+        "waves-unsw-diffraction",
+        "waves-unsw-faq",
+        "waves-rew-ir",
+        "waves-rew-timing",
+        "waves-psu-motion",
+        "waves-mit-plane",
+        "waves-mit-spherical",
+        "waves-eth-acoustics",
+        "waves-npl-thermometry",
+        "waves-gavioso-2025",
+        "waves-goerlitz-2018",
+        "waves-farina-2000",
+        "waves-allen-berkley-1979",
+        "waves-iso-absorption",
+        "waves-psu-piston"
+      ],
+      "wiki_links": [
+        "fundamental-frequency",
+        "interaural-time-difference",
+        "room-acoustics",
+        "harmonicity",
+        "spectrogram",
+        "loudness",
+        "pitch-perception",
+        "speech-intelligibility",
+        "binaural-hearing",
+        "spatial-hearing"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
     }
   ]
 }
