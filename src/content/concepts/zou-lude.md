@@ -9,8 +9,8 @@ aliases: ["邹路得教授", "Zou Lu-de"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "standard"
-last_updated: "2026-10-09"
-literature_checked_at: "2026-10-09"
+last_updated: "2026-10-10"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -21,7 +21,7 @@ key_facts:
   - {label: "研究领域", value: "耳科学、耳科手术与人工耳蜗"}
   - {label: "历史工作", value: "单道插座式人工耳蜗探索"}
   - {label: "阅读重点", value: "设计、实验、临床应用与康复评估"}
-references: ["zou-pumch-history-2021", "zou-pumch-timeline", "zou-implant-design-1994", "zou-academic-visit-photo"]
+references: ["zou-pumch-history-2021","zou-pumch-timeline","zou-implant-design-1994","zou-academic-visit-photo"]
 batch: 3
 order: 105
 ---
@@ -105,3 +105,18 @@ order: 105
 邹路得人物篇为本站补入耳科与植入装置探索的视角。可与[梁之安](../liang-zhian/)的生理实验、[江渊声](../nelson-kiang/)的听神经研究及[顾瑞](../gu-rui/)的临床听力学工作并读，再进入人工耳蜗的结构、编码和感知词条。
 
 本文依据机构科史、历史图注和原始论文摘要撰写，保留已知的日期分歧与全文获取范围。待补充同期档案与专业审阅后，可进一步完善生平、临床研究细节和成果评价。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+目前取得的公开资料以科史和论文为主，尚未核实可明确归属于邹路得的出版专著，暂不列书名。
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1982 | [人工耳蜗植入的疗效和有关问题](https://jasptl.haoyicn.cn/summary/37776?eng=0)<br />邹路得、王忠植、胡奇等<br />中华耳鼻咽喉科杂志，17(2)，起始页77；末页待核 | 早期疗效与问题研究的阅读入口；只由1994年论文参考文献核对，未取得全文。[3](#ref-zou-implant-design-1994) |
+| 1994 | [耳蜗植入的设计、实验研究与临床应用](https://jasptl.haoyicn.cn/summary/37776?eng=0)<br />曹克利；王直中；王开西；邹路得<br />听力学及言语疾病杂志，1994年第2期；期刊摘要页面 | 与工程及临床合作者连接植入装置设计、实验与康复评价。[3](#ref-zou-implant-design-1994) |

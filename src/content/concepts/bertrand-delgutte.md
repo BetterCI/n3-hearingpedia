@@ -17,7 +17,7 @@ reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1952—2024"},{"label":"主要机构","value":"Eaton–Peabody Laboratories、哈佛医学院与MIT"},{"label":"研究主线","value":"听觉神经编码与知觉、双侧人工耳蜗"},{"label":"学术荣誉","value":"2023年William and Christine Hartmann Prize"}]
-references: ["delgutte-hms", "delgutte-obituary", "delgutte-thesis", "delgutte-award", "delgutte-speech-II", "delgutte-speech-IV", "harmonicity-cariani", "delgutte-pitch-II", "smith-2002", "delgutte-mit-chimaera", "wen-dynamic-range-2009", "delgutte-reverb-2015", "delgutte-reverb-2023", "delgutte-itd-2007", "delgutte-itd-2008", "delgutte-awake-2014", "delgutte-sipi-neural", "delgutte-sipi-human", "delgutte-experience-2021"]
+references: ["delgutte-hms","delgutte-obituary","delgutte-thesis","delgutte-award","delgutte-speech-II","delgutte-speech-IV","harmonicity-cariani","delgutte-pitch-II","smith-2002","delgutte-mit-chimaera","wen-dynamic-range-2009","delgutte-reverb-2015","delgutte-reverb-2023","delgutte-itd-2007","delgutte-itd-2008","delgutte-awake-2014","delgutte-sipi-neural","delgutte-sipi-human","delgutte-experience-2021"]
 batch: 4
 order: 117
 ---
@@ -239,3 +239,28 @@ Delgutte的研究与Kiang的听神经测量传统相连，也把[Jeffress](../ll
 入门阅读可先看[心理声学](../psychoacoustics/)、[音高感知](../pitch-perception/)与双耳时间差，再读声学嵌合体论文及SIPI的人类、动物配对研究。深入混响时，将2015年简化调幅实验与2023年自然语音重建放在一起比较；深入人工耳蜗时，则并读2007年急性模型、2014年清醒记录及2021年早期经验研究。
 
 人物照片和历史材料可从[哈佛纪念页](https://oto.hms.harvard.edu/news/memorium-bertrand-delgutte-phd)、[声学学会纪念文章](https://acousticstoday.org/obituary-bertrand-delgutte-1952-2024/)及[MIT的2002年研究报道](https://news.mit.edu/2002/hearing-0313)进入。本页人物照片与科学图解分别标注来源；科学图解采用可编辑的原创SVG，并附PNG和生成参数。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+本次核实的长篇研究出版物为MIT博士论文，单独标明学位论文身份；尚未核实可列入的独著专著。
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1981 | [Representation of speech-like sounds in the discharge patterns of auditory-nerve fibers](https://dspace.mit.edu/entities/publication/45c33500-8e92-493e-97d3-7a244d07bcd3)<br />Bertrand Delgutte<br />PhD thesis, MIT Department of Electrical Engineering and Computer Science | 博士学位论文，机构保存有公开研究记录；不与商业出版专著混称。[3](#ref-delgutte-thesis) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1984 | [Speech coding in the auditory nerve. II. Processing schemes for vowel-like sounds](https://pubmed.ncbi.nlm.nih.gov/6707317/)<br />Bertrand Delgutte<br />The Journal of the Acoustical Society of America, 75(3), 879–886 | 听神经对元音样声音的编码与处理方案。[5](#ref-delgutte-speech-II) |
+| 1984 | [Speech coding in the auditory nerve. IV. Sounds with consonant-like dynamic characteristics](https://pubmed.ncbi.nlm.nih.gov/6707319/)<br />Bertrand Delgutte; Nelson Y. S. Kiang<br />The Journal of the Acoustical Society of America, 75(3), 897–907 | 与江渊声合作研究辅音样动态声音。[6](#ref-delgutte-speech-IV) |
+| 1996 | [Neural correlates of the pitch of complex tones. I. Pitch and pitch salience.](https://pubmed.ncbi.nlm.nih.gov/8890286/)<br />Cariani PA, Delgutte B.<br />Journal of neurophysiology | 与Cariani联系复杂音音高、显著性与神经放电间隔。[7](#ref-harmonicity-cariani) |
+| 2002 | [Chimaeric sounds reveal dichotomies in auditory perception](https://pubmed.ncbi.nlm.nih.gov/11882898/)<br />Smith, Z. M., Delgutte, B. & Oxenham, A. J.<br />Nature, 416, 87–90 | 与Smith、Oxenham用声学嵌合体比较包络与精细结构的任务作用。[9](#ref-smith-2002) |
+| 2009 | [Dynamic Range Adaptation to Sound Level Statistics in the Auditory Nerve](https://pmc.ncbi.nlm.nih.gov/articles/PMC2774902/)<br />Wen, B., Wang, G. I., Dean, I. & Delgutte, B.<br />Journal of Neuroscience, 29(44), 13797–13808 | 研究听神经工作范围随声级统计分布的适应。[11](#ref-wen-dynamic-range-2009) |
+| 2007 | [Sensitivity to Interaural Time Differences in the Inferior Colliculus with Bilateral Cochlear Implants](https://pubmed.ncbi.nlm.nih.gov/17581961/)<br />Zachary M. Smith; Bertrand Delgutte<br />The Journal of Neuroscience, 27(25), 6740–6750 | 研究双侧人工耳蜗刺激下中脑对耳间时间差的敏感性。[14](#ref-delgutte-itd-2007) |
+| 2018 | [Introducing Short Interpulse Intervals in High-Rate Pulse Trains Enhances Binaural Timing Sensitivity in Electric Hearing](https://pubmed.ncbi.nlm.nih.gov/29549593/)<br />Sridhar Srinivasan; Bernhard Laback; Piotr Majdak; Bertrand Delgutte<br />Journal of the Association for Research in Otolaryngology, 19(3), 301–315 | 合作检验短脉冲间隔对电听觉双耳时间敏感性的影响。[18](#ref-delgutte-sipi-human) |
+| 2023 | [Effect of Reverberation on Neural Responses to Natural Speech in Rabbit Auditory Midbrain: No Evidence for a Neural Dereverberation Mechanism](https://www.eneuro.org/content/10/5/ENEURO.0447-22.2023.abstract)<br />Oded Barzelay; Stephen David; Bertrand Delgutte<br />eNeuro, 10(5), ENEURO.0447-22.2023 | 自然语音混响研究报告未发现所检验的神经去混响机制，保留阴性结果。[13](#ref-delgutte-reverb-2023) |

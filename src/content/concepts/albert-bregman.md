@@ -17,7 +17,7 @@ reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1936—2023"},{"label":"主要任职","value":"麦吉尔大学心理学系"},{"label":"研究主线","value":"听觉场景分析与声音的知觉组织"},{"label":"代表著作","value":"Auditory Scene Analysis（1990）"}]
-references: ["bregman-mcgill", "bregman-education", "bregman-career", "bregman-history", "auditory-scene-analysis-bregman", "bregman-campbell-1971", "bregman-cumulative-1978", "bregman-duration-2000", "bregman-pinker-1978", "bregman-am-1985", "bregman-continuity-1987", "bregman-experience-2005", "bregman-demos", "auditory-scene-analysis-attention", "auditory-scene-analysis-bistable", "auditory-scene-analysis-coherence", "auditory-scene-analysis-chatterjee", "bregman-mcadams", "bregman-honours"]
+references: ["bregman-mcgill","bregman-education","bregman-career","bregman-history","auditory-scene-analysis-bregman","bregman-campbell-1971","bregman-cumulative-1978","bregman-duration-2000","bregman-pinker-1978","bregman-am-1985","bregman-continuity-1987","bregman-experience-2005","bregman-demos","auditory-scene-analysis-attention","auditory-scene-analysis-bistable","auditory-scene-analysis-coherence","auditory-scene-analysis-chatterjee","bregman-mcadams","bregman-honours"]
 batch: 4
 order: 115
 ---
@@ -259,3 +259,25 @@ Bregman与Pierre Ahad在1996年制作配套音频演示。其个人网站的保�
 | 缺失音怎样被感觉为连续 | 表观连续、滑动音穿过噪声 | Ciocca与Bregman（1987） |
 
 进一步可读[听觉场景分析](../auditory-scene-analysis/)、[音色感知](../timbre-perception/)、[听觉注意](../auditory-attention/)与[心理声学](../psychoacoustics/)。与[哈维·弗莱彻](../harvey-fletcher/)的人物页对照时，可以比较研究者如何从“声音可听与言语评价”走向“声音归属与对象组织”。两条研究线各有任务，也共同要求刺激、感知报告和理论解释能够相互检验。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1990 | [Auditory Scene Analysis: The Perceptual Organization of Sound.](https://direct.mit.edu/books/monograph/3887/Auditory-Scene-AnalysisThe-Perceptual-Organization)<br />Bregman AS.<br />MIT Press | 独著；系统组织听觉场景分析的现象、解释与研究问题。[5](#ref-auditory-scene-analysis-bregman) |
+| 1996 | [Demonstrations of Auditory Scene Analysis — Table of contents and explanatory notes](https://themusiclab.github.io/bregman-archive/downloadstoc.htm)<br />Albert S. Bregman; Pierre Ahad<br />MIT Press原发行的音频演示与说明；作者授权存档 | 与Pierre Ahad合作的音频演示及说明，属于配套教学材料。[13](#ref-bregman-demos) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1971 | [Primary auditory stream segregation and perception of order in rapid sequences of tones](https://themusiclab.github.io/bregman-archive/pdf/1971_Bregman_Campbell.pdf)<br />Albert S. Bregman; Jeffrey Campbell<br />Journal of Experimental Psychology, 89(2), 244–249 | 用快速音序列研究声流分组怎样影响顺序判断。[6](#ref-bregman-campbell-1971) |
+| 1978 | [Auditory Streaming Is Cumulative](https://themusiclab.github.io/bregman-archive/pdf/1978_Bregman_cumulative.pdf)<br />Albert S. Bregman<br />Journal of Experimental Psychology: Human Perception and Performance, 4(3), 380–387 | 研究声流形成的时间积累。[7](#ref-bregman-cumulative-1978) |
+| 1978 | [Auditory Streaming and the Building of Timbre](https://themusiclab.github.io/bregman-archive/pdf/1978_Bregman_Pinker.pdf)<br />Albert S. Bregman; Steven Pinker<br />Canadian Journal of Psychology, 32(1), 19–31 | 考察顺序分组与同时成分融合、音色构建之间的关系。[9](#ref-bregman-pinker-1978) |
+| 1985 | [Spectral integration based on common amplitude modulation](https://themusiclab.github.io/bregman-archive/pdf/1985_Bregman_Abramson_Doehring%20.pdf)<br />Albert S. Bregman; Jack Abramson; Peter Doehring; Christopher J. Darwin<br />Perception & Psychophysics, 37, 483–493 | 检验共同振幅变化作为频谱整合线索的作用。[10](#ref-bregman-am-1985) |
+| 1987 | [Perceived continuity of gliding and steady-state tones through interrupting noise](https://themusiclab.github.io/bregman-archive/pdf/1987_Ciocca_Bregman-Perceived-continuity.pdf)<br />Valter Ciocca; Albert S. Bregman<br />Perception & Psychophysics, 42(5), 476–484 | 研究噪声遮断条件下滑音与稳态音的连续性知觉。[11](#ref-bregman-continuity-1987) |
+| 2000 | [Effects of time intervals and tone durations on auditory stream segregation](https://themusiclab.github.io/bregman-archive/pdf/2000_Bregman_Ahad_Crum_OReilly.pdf)<br />Albert S. Bregman; Pierre A. Ahad; Poppy A. C. Crum; Julie O’Reilly<br />Perception & Psychophysics, 62(3), 626–636 | 分别考察音长与间隔对声流分离的影响。[8](#ref-bregman-duration-2000) |

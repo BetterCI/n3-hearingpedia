@@ -9,8 +9,8 @@ aliases: ["吴稚川", "稚川", "齐鲁", "Wu Zong-ji"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "standard"
-last_updated: "2026-10-09"
-literature_checked_at: "2026-10-09"
+last_updated: "2026-10-10"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "中国社会科学院语言研究所"}
   - {label: "代表方向", value: "实验语音学、协同发音、汉语语调"}
   - {label: "代表著作", value: "《吴宗济语言学论文集》"}
-references: ["wu-tsinghua-biography", "wu-caofen-2009", "wu-collected-papers", "wu-oral-history-2022", "wu-memorial-2022"]
+references: ["wu-tsinghua-biography","wu-caofen-2009","wu-collected-papers","wu-oral-history-2022","wu-memorial-2022","wu-spectrographic-atlas-1986","wu-experimental-phonetics-book"]
 batch: 3
 order: 107
 ---
@@ -111,3 +111,27 @@ order: 107
 继续阅读时，可以沿“[刘半农](../liu-bannong/)—[赵元任](../zhao-yuanren/)—吴宗济”回顾实验语音学的问题变化，再从声调与基频进入音高及语音感知。这是一条本站组织的阅读路径，不表示三人的研究内容完全相同。
 
 本文核对了机构生平资料、学术回顾摘要、出版社目录与口述史出版报道，保留待专业审阅状态。后续可补充原始实验图、样本信息、仪器说明及经来源核实的历史工作照片。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 20世纪60年代 | [普通话语音图谱](https://www.cp.com.cn/book/7-100-03946-0_48.html)<br />吴宗济、周殿福（合编）<br />论文集序言确认出版与合编关系；出版机构、初版年待核 | 与周殿福合编的语音图谱；序言仅定位到20世纪60年代，具体版次待核。[3](#ref-wu-collected-papers) |
+| 1986 | [汉语普通话单音节语图册](https://ksucat2.kyoto-su.ac.jp/webopac/catdbl.do?hidden_return_link=true&pkey=BB00900739)<br />吴宗济（主编）<br />中国社会科学出版社，北京；NCID BN05516560 | 吴宗济主编，馆藏书目明确署名；不是独著。[6](#ref-wu-spectrographic-atlas-1986) |
+| 1989（所列版本） | [实验语音学概要](https://mirrors.sustech.edu.cn/courses/syllabus/HUM046.pdf)<br />吴宗济、林茂灿（主编）<br />高等教育出版社，北京 | 与林茂灿主编的实验语音学教材；与后来的增订版区分。[7](#ref-wu-experimental-phonetics-book) |
+| 2008 | [吴宗济语言学论文集](https://www.cp.com.cn/book/7-100-03946-0_48.html)<br />吴宗济；林焘序 / 商务印书馆<br />当前出版社书目页：2008年02月，599页，ISBN 7-100-03946-0；序写于2003年 | 作者论文集；出版社当前记录为2008年，原论文年份分别核对。[3](#ref-wu-collected-papers) |
+| 2022 | [我的百年人生：吴宗济口述史](https://www.cp.com.cn/book/f0cff7b0-f.html)<br />吴宗济口述；崔枢华记录撰文；鲁国尧策划作序 / 商务印书馆<br />2022年06月，356页，ISBN 978-7-100-20560-3 | 口述与记录撰文的分工明确；人物史资料，与实验论文分开。[4](#ref-wu-oral-history-2022) |
+
+### 代表论文与研究成果
+
+以下研究篇目由作者论文集目录核对。原刊年份、合作者与卷页尚待原文核验，表中不以2008年文集版本代替原刊年，也不从目录补写结果。
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 原刊年待核 | [普通话语句中的声调变化](https://www.cp.com.cn/book/7-100-03946-0_48.html)<br />吴宗济（论文集署名）；原刊作者表待核<br />收入《吴宗济语言学论文集》 | 普通话声调在连续语句中的变化研究入口。[3](#ref-wu-collected-papers) |
+| 原刊年待核 | [普通话语调分析的一种新方法：语句中基本调群单元的移调处理](https://www.cp.com.cn/book/7-100-03946-0_48.html)<br />吴宗济（论文集署名）；原刊作者表待核<br />收入《吴宗济语言学论文集》 | 从基本调群与移调处理进入语调分析的方法论文。[3](#ref-wu-collected-papers) |
+| 原刊年待核 | [普通话语音合成中协同发音音段变量的规正处理](https://www.cp.com.cn/book/7-100-03946-0_48.html)<br />吴宗济（论文集署名）；原刊作者表待核<br />收入《吴宗济语言学论文集》 | 语音合成中的音段变量与协同发音处理研究入口。[3](#ref-wu-collected-papers) |

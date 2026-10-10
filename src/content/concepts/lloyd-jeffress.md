@@ -17,7 +17,7 @@ reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1900—1986"},{"label":"主要任职","value":"德州大学奥斯汀分校心理学系"},{"label":"代表理论","value":"延迟线、符合检测与ITD位置编码（1948）"},{"label":"研究范围","value":"双耳听觉、听觉检测与数学／电路建模"}]
-references: ["jeffress-ut", "jeffress-memorial", "jeffress-pauling", "jeffress-asa", "binaural-hearing-jeffress", "jeffress-masking-1952", "jeffress-detection-1964", "jeffress-models-1968", "jeffress-carr-konishi-1990", "mcalpine-2001", "jeffress-brand-2002", "jeffress-franken-2015", "binaural-hearing-grothe", "jeffress-ihlefeld-2019", "amt-lindemann1986"]
+references: ["jeffress-ut","jeffress-memorial","jeffress-pauling","jeffress-asa","binaural-hearing-jeffress","jeffress-masking-1952","jeffress-detection-1964","jeffress-models-1968","jeffress-carr-konishi-1990","mcalpine-2001","jeffress-brand-2002","jeffress-franken-2015","binaural-hearing-grothe","jeffress-ihlefeld-2019","amt-lindemann1986","jeffress-hixon-book-1951"]
 batch: 4
 order: 116
 ---
@@ -242,3 +242,22 @@ Jeffress的影响同时包含理论和测量实践。他曾长期参与德州大
 生平可读[德州大学纪念页](https://liberalarts.utexas.edu/psychology/people/emeriti-in-memoriam/)及[九页纪念决议](https://www.texasacoustics.org/wp-content/uploads/2018/01/Memorial-Resolution-Lloyd-Jeffress.pdf)。[Pauling档案介绍](https://paulingblog.wordpress.com/2009/07/02/paulings-best-friend-lloyd-jeffress/)包含Jeffress肖像与回忆手稿入口；本页肖像取自同一照片的低分辨率档案，保留原图及原始来源；第三方照片不适用本站内容开放许可。[1](#ref-jeffress-ut)[2](#ref-jeffress-memorial)[3](#ref-jeffress-pauling)
 
 对人物与概念的连接，可继续阅读[心理声学](../psychoacoustics/)、[听觉通路](../auditory-pathway/)、[双耳时间差](../interaural-time-difference/)、[双耳声级差](../binaural-hearing/)、[双耳解掩蔽](../binaural-hearing/)及[信号检测论](../signal-detection-theory/)。Jeffress的历史意义，在于提出可以转化为测量和模型比较的机制问题；其框架的适用范围，需要随着证据具体说明。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1951 | [Cerebral Mechanisms in Behavior: The Hixon Symposium](https://calteches.library.caltech.edu/1314/1/books.pdf)<br />Lloyd A. Jeffress（编）<br />John Wiley & Sons, New York；xiv + 311页 | 编辑1948年Hixon会议论文与讨论；不是Jeffress独著。[16](#ref-jeffress-hixon-book-1951) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1948 | [A place theory of sound localization.](https://pubmed.ncbi.nlm.nih.gov/18904764/)<br />JEFFRESS LA.<br />Journal of comparative and physiological psychology | 提出声定位位置理论，连接延迟线、符合检测与耳间时间差。[5](#ref-binaural-hearing-jeffress) |
+| 1952 | [The Masking of Tones by White Noise as a Function of the Interaural Phases of Both Components. I. 500 Cycles](https://doi.org/10.1121/1.1906930)<br />Lloyd A. Jeffress; Hugh C. Blodgett; Bruce H. Deatherage<br />The Journal of the Acoustical Society of America, 24(5), 523–527 | 与Blodgett、Deatherage研究目标及噪声耳间相位对掩蔽的影响。[6](#ref-jeffress-masking-1952) |
+| 1964 | [Stimulus-Oriented Approach to Detection](https://doi.org/10.1121/1.1919064)<br />Lloyd A. Jeffress<br />The Journal of the Acoustical Society of America, 36(4), 766–774 | 从刺激统计出发理解听觉检测。[7](#ref-jeffress-detection-1964) |
+| 1968 | [Mathematical and Electrical Models of Auditory Detection](https://doi.org/10.1121/1.1911053)<br />Lloyd A. Jeffress<br />The Journal of the Acoustical Society of America, 44(1), 187–203 | 展开听觉检测的数学与电模型。[8](#ref-jeffress-models-1968) |

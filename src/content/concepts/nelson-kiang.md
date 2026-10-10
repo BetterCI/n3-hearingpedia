@@ -9,8 +9,8 @@ aliases: ["江淵聲", "Nelson Kiang", "Nelson Y. S. Kiang", "N. Y. S. Kiang"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "standard"
-last_updated: "2026-10-09"
-literature_checked_at: "2026-10-09"
+last_updated: "2026-10-10"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -21,7 +21,7 @@ key_facts:
   - {label: "主要机构", value: "Mass Eye and Ear、哈佛医学院与 MIT"}
   - {label: "代表方向", value: "听神经单纤维放电与声音编码"}
   - {label: "学术建设", value: "Eaton-Peabody 实验室创办主任"}
-references: ["kiang-hms-memorial-2023", "kiang-mit-memorial-2023", "kiang-fudan-2014", "kiang-gerstein-analysis-1960", "kiang-monograph", "kiang-liberman-pathology-1984", "kiang-cochlear-clues-1986", "kiang-electric-1972"]
+references: ["kiang-hms-memorial-2023","kiang-mit-memorial-2023","kiang-fudan-2014","kiang-gerstein-analysis-1960","kiang-monograph","kiang-liberman-pathology-1984","kiang-cochlear-clues-1986","kiang-electric-1972","delgutte-speech-IV"]
 batch: 3
 order: 102
 ---
@@ -119,3 +119,23 @@ MIT纪念报道记载，他于1992年推动设立言语与听觉生物科学和�
 可以先读耳蜗和内毛细胞，再读声音编码、频率与时间线索，最后进入人工耳蜗。与[梁之安](../liang-zhian/)的刺激与记录工作、[李量](../li-liang/)的复杂环境语音识别研究并读，能够看到听觉科学如何从外周神经记录延伸到知觉与技术问题；这不表示三者存在未经核实的师承关系。
 
 本词条选择了代表著作、定量分析方法及合作研究，尚未覆盖全部工作。原文、摘要、书目介绍和机构纪念资料的核验范围分别列在参考文献中；两张公开照片均保留原比例与出处，词条尚待专业审阅。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1965 / 1966（记录差异） | [Discharge Patterns of Single Fibers in the Cat’s Auditory Nerve](https://mitpress.mit.edu/9780262110167/discharge-patterns-of-single-fibers-in-the-cats-auditory-nerve/)<br />Nelson Yuan-Sheng Kiang; with Takeshi Watanabe, Eleanor C. Thomas, Louise F. Clark<br />The MIT Press, 154 pp.; ISBN 9780262110167 | 听神经单纤维研究专著；机构记为1965年，出版社所列版为1966年。[5](#ref-kiang-monograph) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1960 | [An approach to the quantitative analysis of electrophysiological data from single neurons](https://pubmed.ncbi.nlm.nih.gov/13704760/)<br />George L. Gerstein, Nelson Y. Kiang<br />Biophysical Journal, 1(1): 15–28 | 将单神经元放电转为可比较的定量描述。[4](#ref-kiang-gerstein-analysis-1960) |
+| 1972 | [Physiological considerations in artificial stimulation of the inner ear](https://pubmed.ncbi.nlm.nih.gov/4651114/)<br />Nelson Y. Kiang, Edwin C. Moxon<br />Annals of Otology, Rhinology & Laryngology, 81(5): 714–730 | 人工刺激内耳的生理学研究入口；仅核对书目。[8](#ref-kiang-electric-1972) |
+| 1984 | [Speech coding in the auditory nerve. IV. Sounds with consonant-like dynamic characteristics](https://pubmed.ncbi.nlm.nih.gov/6707319/)<br />Bertrand Delgutte; Nelson Y. S. Kiang<br />The Journal of the Acoustical Society of America, 75(3), 897–907 | 与Delgutte合作研究听神经对辅音样动态声音的编码。[9](#ref-delgutte-speech-IV) |
+| 1984 | [Single-neuron labeling and chronic cochlear pathology. IV. Stereocilia damage and alterations in rate- and phase-level functions](https://pubmed.ncbi.nlm.nih.gov/6511674/)<br />M. Charles Liberman, Nelson Y. Kiang<br />Hearing Research, 16(1): 75–90 | 连接放电率、相位—声级函数与耳蜗纤毛损伤。[6](#ref-kiang-liberman-pathology-1984) |
+| 1986 | [Single unit clues to cochlear mechanisms](https://pubmed.ncbi.nlm.nih.gov/3733538/)<br />Nelson Y. Kiang, M. Charles Liberman, William F. Sewell, John J. Guinan<br />Hearing Research, 22: 171–182 | 用单单位记录讨论耳蜗调谐机制与模型。[7](#ref-kiang-cochlear-clues-1986) |

@@ -10,14 +10,14 @@ level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
 last_updated: "2026-10-10"
-literature_checked_at: "2026-10-09"
+literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
 knowledge_area: "biology"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1923年12月1日—2012年12月7日"},{"label":"研究领域","value":"耳科学、神经耳科学与听觉植入"},{"label":"代表工作","value":"早期人工耳蜗临床探索与工程合作"},{"label":"历史节点","value":"3M/House系统1984年获FDA批准"}]
-references: ["house-goins-2024", "house-mudry-mills-2013", "house-zeng-interview-2012", "house-urban-1973", "house-bilger-performance-1977", "house-bilger-acceptance-1977", "house-eisenberg-1982", "house-fda-p830069", "house-middle-fossa-1961", "house-hitselberger-1984", "house-smaka-interview-2011", "house-beck-interview-2000", "house-wackym-2012", "house-shannon-2015", "house-portrait-source", "wilson-1991", "zeng-2008"]
+references: ["house-goins-2024","house-mudry-mills-2013","house-zeng-interview-2012","house-urban-1973","house-bilger-performance-1977","house-bilger-acceptance-1977","house-eisenberg-1982","house-fda-p830069","house-middle-fossa-1961","house-hitselberger-1984","house-smaka-interview-2011","house-beck-interview-2000","house-wackym-2012","house-shannon-2015","house-portrait-source","wilson-1991","zeng-2008","house-memoir-2011"]
 batch: 4
 order: 111
 ---
@@ -200,3 +200,22 @@ House 的重要贡献，是持续推动早期听觉植入进入人的长期生�
 Shannon 对1989—2013年 House Ear Institute 的回顾记录了后续团队对电听觉心理物理、言语处理和研究工具的工作。机构后来的研究不应全部归为 William House 个人实验；同样，世界范围内其他团队的多通道设计、编码策略和临床研究，也属于人工耳蜗发展的组成部分。[14](#ref-house-shannon-2015)
 
 若从本人物篇继续学习，可先读[人工耳蜗](../cochlear-implant/)理解系统，再读[人工耳蜗编码策略](../cochlear-implant-coding-strategies/)了解信息如何转为刺激，结合[言语测听](../speech-audiometry/)判断结果究竟测量了什么。本文的两张框图服务于这种阅读路径；它们不是历史实测数据，也不替代专业评估。人物回忆、原始研究、监管档案与纪念传记各自提供不同类型的证据，明确这些区别，才能看见临床创新如何逐步成为可检验的知识。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 2011 | [The Struggles of a Medical Innovator: Cochlear Implants and Other Ear Surgeries](https://www.audiologyonline.com/interviews/interview-with-william-house-m-1337)<br />William F. House<br />CreateSpace；个人回忆录 | 个人回忆录；研究经历须与同期论文互证。[18](#ref-house-memoir-2011) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1961 | [Surgical exposure of the internal auditory canal and its contents through the middle, cranial fossa](https://pubmed.ncbi.nlm.nih.gov/14036379/)<br />William F. House<br />The Laryngoscope, 71, 1363–1385 | 中颅窝内听道手术入路的原始论文。[9](#ref-house-middle-fossa-1961) |
+| 1973 | [Long Term Results of Electrode Implantation and Electronic Stimulation of the Cochlea in Man](https://journals.sagepub.com/doi/10.1177/000348947308200408)<br />William F. House; Jack Urban<br />Annals of Otology, Rhinology & Laryngology, 82(4), 504–517 | 与Urban报告人工耳蜗植入及电刺激的长期研究。[4](#ref-house-urban-1973) |
+| 1982 | [Initial experience with the cochlear implant in children](https://pubmed.ncbi.nlm.nih.gov/6805401/)<br />Laurie S. Eisenberg; William F. House<br />Annals of Otology, Rhinology & Laryngology Supplement, 91(2 Pt 3), 67–73 | 与Eisenberg报告儿童人工耳蜗的早期经验。[7](#ref-house-eisenberg-1982) |
+| 1984 | [Cochlear nucleus implants](https://journals.sagepub.com/doi/10.1177/019459988409200111)<br />W. E. Hitselberger; W. F. House; B. J. Edgerton; S. Whitaker<br />Otolaryngology–Head and Neck Surgery, 92(1), 52–54 | 与Hitselberger等报告早期耳蜗核植入研究。[10](#ref-house-hitselberger-1984) |

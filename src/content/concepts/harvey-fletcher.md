@@ -17,7 +17,7 @@ reviewed_at: null
 knowledge_area: "perception"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1884—1981"},{"label":"研究主线","value":"听觉测量、响度、掩蔽与言语通信"},{"label":"代表工作","value":"与Munson合作的等响研究，言语清晰度评价与临界频带研究"},{"label":"学术建设","value":"美国声学学会首任会长，长期任职贝尔实验室与大学"}]
-references: ["fletcher-nas", "fletcher-byu", "fletcher-allen", "fletcher-munson-1933", "iso-226-2023", "iso226-revision-2024", "fletcher-patterns-1940", "glasberg-1990", "fletcher-french-1947", "fletcher-galt-1950", "ansi-sii", "boothroyd-1988", "fletcher-speech-1952", "asha-audiometry-2005", "fletcher-stereo-history", "fletcher-piano-1962", "fletcher-oil-history", "fletcher-oral-catalog", "fletcher-asa", "fletcher-book1929", "fletcher-book1953"]
+references: ["fletcher-nas","fletcher-byu","fletcher-allen","fletcher-munson-1933","iso-226-2023","iso226-revision-2024","fletcher-patterns-1940","glasberg-1990","fletcher-french-1947","fletcher-galt-1950","ansi-sii","boothroyd-1988","fletcher-speech-1952","asha-audiometry-2005","fletcher-stereo-history","fletcher-piano-1962","fletcher-oil-history","fletcher-oral-catalog","fletcher-asa","fletcher-book1929","fletcher-book1953"]
 batch: 4
 order: 114
 ---
@@ -271,3 +271,24 @@ Fletcher的 *Speech and Hearing* 于1929年由Van Nostrand出版；1953年的 *S
 学习者可以选择图3或图4的计算，先核对公式、变量和图中数值，再提出一个需要真实听者才能回答的问题。例如，图3可以算出通带内功率，却不能证明目标音阈值；图4可以算出加权值，却不能证明词语正确率。把这个缺口写清，再选择刺激和行为任务，比只复现一张曲线更接近这些经典研究的方法。
 
 同样，比较Fletcher与[赫尔曼·冯·亥姆霍兹](../hermann-von-helmholtz/)、Georg von Békésy的工作时，可以分别关注感知理论、耳蜗机械证据和通信行为评价怎样相互启发。历史上的人物和模型各自解释了问题的一部分；现代听觉科学仍通过新的测量，把这些部分与真实聆听连接起来。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1929 | [Speech and Hearing](https://books.google.com/books?id=ghcJAQAAIAAJ)<br />Harvey Fletcher<br />D. Van Nostrand Company, New York | 独著；所列1929年原版书目。[20](#ref-fletcher-book1929) |
+| 1953 | [Speech and Hearing in Communication](https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=ha001438413)<br />Harvey Fletcher<br />D. Van Nostrand Company, New York | 独著；把言语与听觉问题置于通信背景。[21](#ref-fletcher-book1953) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1933 | [Loudness, Its Definition, Measurement and Calculation](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1933.tb00403.x)<br />Harvey Fletcher; W. A. Munson<br />Bell System Technical Journal, 12(4), 377–430 | 与Munson研究响度的定义、测量和计算，关联早期等响研究。[4](#ref-fletcher-munson-1933) |
+| 1940 | [Auditory Patterns](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.12.47)<br />Harvey Fletcher<br />Reviews of Modern Physics, 12(1), 47–65 | 听觉模式与临界频带研究的重要历史入口；本次仅核对书目。[7](#ref-fletcher-patterns-1940) |
+| 1950 | [The Perception of Speech and Its Relation to Telephony](https://physics.byu.edu/download/publication/1512)<br />Harvey Fletcher; Rogers H. Galt<br />Journal of the Acoustical Society of America, 22(2), 89–151 | 与Galt比较语音单位、系统传输与噪声对言语感知的影响。[10](#ref-fletcher-galt-1950) |
+| 1952 | [The Perception of Speech Sounds by Deafened Persons](https://physics.byu.edu/download/publication/1508)<br />Harvey Fletcher<br />Journal of the Acoustical Society of America, 24(5), 490–497 | 将言语感知问题扩展到听力损失人群。[13](#ref-fletcher-speech-1952) |
+| 1962 | [Quality of Piano Tones](https://physics.byu.edu/download/publication/1504)<br />Harvey Fletcher; E. Donnell Blackham; Richard Stratton<br />Journal of the Acoustical Society of America, 34(6), 749–761 | 与Blackham、Stratton分析并合成钢琴音，检验音色因素。[16](#ref-fletcher-piano-1962) |

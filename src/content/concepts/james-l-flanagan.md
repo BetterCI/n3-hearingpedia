@@ -17,7 +17,7 @@ reviewed_at: null
 knowledge_area: "sound"
 kind: "person"
 key_facts: [{"label":"生卒","value":"1925—2015"},{"label":"主要机构","value":"贝尔实验室、Rutgers University"},{"label":"研究主线","value":"语音生成、感知与数字处理"},{"label":"代表合作","value":"相位声码器、双质量声带模型、ADPCM"}]
-references: ["flanagan-nae", "flanagan-nas", "flanagan-sps", "flanagan-spectrum", "flanagan-marconi", "flanagan-medal", "flanagan-book", "flanagan-formant", "flanagan-two-mass", "flanagan-phase", "flanagan-ellis", "flanagan-laroche", "flanagan-adpcm", "flanagan-g726", "flanagan-array", "flanagan-hawks", "flanagan-karlsson", "flanagan-librosa", "flanagan-voice-review"]
+references: ["flanagan-nae","flanagan-nas","flanagan-sps","flanagan-spectrum","flanagan-marconi","flanagan-medal","flanagan-book","flanagan-formant","flanagan-two-mass","flanagan-phase","flanagan-ellis","flanagan-laroche","flanagan-adpcm","flanagan-g726","flanagan-array","flanagan-hawks","flanagan-karlsson","flanagan-librosa","flanagan-voice-review"]
 batch: 4
 order: 118
 ---
@@ -265,3 +265,23 @@ Flanagan把产生声音的模型、表示声音的算法和判断声音的实验
 人物之间也能构成互补路线。[哈维·弗莱彻](../harvey-fletcher/)帮助理解听觉测量与通信问题的历史，[曼弗雷德·施罗德](../manfred-r-schroeder/)连接房间声学、感知和语音编码，[Bertrand Delgutte](../bertrand-delgutte/)则进一步把语音线索放到听觉神经编码与知觉的比较中。比较这些研究时，需要保留声学系统、神经记录和行为测量各自的对象与条件。
 
 本页的四种代表问题仍可作为阅读论文的检查点：模型的控制参数能否对应待研究的生成机制；感知精度是否在匹配的材料和任务中测得；数字表示是否能够可靠重建；工程改进是否在实际输入和目标使用者中得到验证。回答这些问题，比单独列出一个“更好”的波形或一个知名产品，更能说明方法的贡献与适用范围。
+
+## 出版著作与代表论文
+
+以下按本文涉及的研究主线选列著作和代表成果，便于查找原文，并非完整作品目录或按引用次数排名。署名保留合作与编辑关系，所核版本与原始发表年份分别记录。
+
+### 出版著作
+
+| 出版时间 | 著作、署名与出版信息 | 定位与阅读线索 |
+| --- | --- | --- |
+| 1972 | [Speech Analysis Synthesis and Perception](https://link.springer.com/book/10.1007/978-3-662-01562-9)<br />James L. Flanagan<br />Springer, Communication and Cybernetics 3, second edition | 独著；首版1965，所列为1972年第二版。[7](#ref-flanagan-book) |
+
+### 代表论文与研究成果
+
+| 年份 | 论文、作者与发表信息 | 主要贡献与阅读范围 |
+| --- | --- | --- |
+| 1955 | [A Difference Limen for Vowel Formant Frequency](https://doi.org/10.1121/1.1907979)<br />James L. Flanagan<br />The Journal of the Acoustical Society of America, 27(3), 613–617 | 用元音共振峰频率差别阈连接知觉精度与编码设计。[8](#ref-flanagan-formant) |
+| 1966 | [Phase Vocoder](https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1966.tb01706.x)<br />J. L. Flanagan; R. M. Golden<br />Bell System Technical Journal, 45(9), 1493–1509 | 与Golden提出以短时幅度、相位表示声音的相位声码器研究。[10](#ref-flanagan-phase) |
+| 1972 | [Synthesis of Voiced Sounds From a Two-Mass Model of the Vocal Cords](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1972.tb02651.x)<br />K. Ishizaka; J. L. Flanagan<br />Bell System Technical Journal, 51(6), 1233–1268 | 与Ishizaka用双质量声带模型研究有声声音的合成。[9](#ref-flanagan-two-mass) |
+| 1973 | [Adaptive Quantization in Differential PCM Coding of Speech](https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1973.tb02007.x)<br />P. Cummiskey; N. S. Jayant; J. L. Flanagan<br />Bell System Technical Journal, 52(7), 1105–1118 | 与Cummiskey、Jayant研究语音差分PCM的自适应量化。[13](#ref-flanagan-adpcm) |
+| 1993 | [Spatially selective sound capture for speech and audio processing](https://www.sciencedirect.com/science/article/abs/pii/016763939390072S)<br />J. L. Flanagan; A. C. Surendran; E. E. Jan<br />Speech Communication, 13(1–2), 207–222 | 与Surendran、Jan研究阵列的空间选择性拾音。[15](#ref-flanagan-array) |
