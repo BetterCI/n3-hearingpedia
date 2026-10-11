@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import DepthBadge from '../../components/DepthBadge.astro';
 import FeedbackPanel from '../../components/FeedbackPanel.astro';
 import ConceptShareDialog from '../../components/ConceptShareDialog.astro';
+import LearningContext from '../../components/LearningContext.astro';
 import { references, accessLabels } from '../../data/references';
 import { domainById } from '../../data/domains';
 import { knowledgeAreaById, kindLabels } from '../../data/knowledge';
@@ -32,8 +33,7 @@ const { data } = concept;
 const { Content, headings } = await render(concept);
 const all = (await getCollection('concepts')).sort((a,b)=>a.data.order-b.data.order);
 const bySlug = Object.fromEntries(all.map(c=>[c.data.slug,c]));
-const current = all.findIndex(c=>c.data.slug===data.slug);
-const prev = all[current-1], next = all[current+1];
+const titles = Object.fromEntries(all.map(c=>[c.data.slug, c.data.title]));
 const statusLabels = {draft:'Draft · 待审阅',reviewed:'Reviewed · 已审阅',stable:'Stable · 稳定', 'needs-update':'Needs Update · 待更新'};
 const readingMinutes = Math.max(1, Math.ceil((concept.body?.match(/[\u3400-\u9fff]/g)?.length || 0) / 300));
 const links = relationshipsFor(data.slug);
@@ -59,6 +59,7 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
           <div class="article-metadata"><span>更新 {data.last_updated.replaceAll('-','.')}</span><span>{data.authors.join(' / ') || '作者待登记'}</span><span>{data.reviewer ? `审阅：${data.reviewer} · ${data.reviewed_at}` : '尚未完成专业审阅'}<span class="article-actions" data-pagefind-ignore><a class="feedback-shortcut" href="#feedback">帮助完善这个词条</a><a class="article-share-link" href={url(`share/${data.slug}`)} aria-haspopup="dialog" aria-controls="concept-share">词条分享</a></span></span></div>
           <div class="article-tags">{data.categories.map(id=><span data-pagefind-filter={`领域:${domainById[id].zh}`}>{domainById[id].zh}</span>)}{data.tags.map(tag=><span>{tag}</span>)}</div>
         </header>
+        <LearningContext slug={data.slug} titles={titles} headings={headings} />
         {data.status==='draft' && <div class="draft-notice" data-pagefind-ignore>本词条为 AI 辅助编写的待审阅版本。参考文献列明引用用途与核验范围；检索记录可追溯，内容将随证据与专业审阅继续完善。</div>}
         <div class="wiki-content">
           <details class="wiki-infobox" aria-label={data.kind==='person'?'人物信息':'术语信息'} data-pagefind-ignore open>
@@ -74,7 +75,8 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
           <ol class="reference-list">{data.references.map(id=>{const ref=references[id];return <li id={`ref-${id}`}><a class="reference-title" href={ref.url} target="_blank" rel="noopener noreferrer">{ref.title} ↗</a><p class="reference-detail">{ref.publicationType==='preprint' && <strong class="preprint-label">预印本 · 未同行评审 · </strong>}{ref.authors} ({ref.year}). {ref.publication}.</p><div class="reference-links">{ref.doi && <a href={`https://doi.org/${ref.doi}`} target="_blank" rel="noopener noreferrer">DOI: {ref.doi}</a>}<a href={ref.url} target="_blank" rel="noopener noreferrer">{accessLabels[ref.access]} ↗</a></div><p class="source-scope">引用用途：{ref.supports}</p></li>})}</ol>
         </section>
         <section class="related-section" id="related" data-pagefind-ignore><h2>参见与关联概念</h2><p class="relation-note">关系说明区分类型、表征、机制、测量与应用；学习顺序见学习路径。</p><div class="related-list">{links.map(item=><a class="related-link" href={url(`concepts/${item.neighbor}`)}><div><strong>{bySlug[item.neighbor].data.title}</strong><span>{item.label}</span><small>{item.note}</small></div><span aria-hidden="true">↗</span></a>)}</div></section>
-        <nav class="article-next" aria-label="按词条目录继续阅读" data-pagefind-ignore>{prev ? <a href={url(`concepts/${prev.data.slug}`)}>← {prev.data.title}</a> : <a href={url('learn')}>← 学习路径</a>}{next ? <a href={url(`concepts/${next.data.slug}`)}>{next.data.title} →</a> : <a href={url('learn')}>返回学习路径 →</a>}</nav>
+        <LearningContext slug={data.slug} titles={titles} headings={headings} position="bottom" />
+        <nav class="article-next" aria-label="其他阅读入口" data-directory-navigation data-pagefind-ignore><a href={url('explore')}>← 返回概念目录</a><a href={url('learn')}>选择学习路线 →</a></nav>
         <FeedbackPanel title={data.title} slug={data.slug} />
       </article>
       <aside class="article-sidebar" aria-label="词条目录"><div class="toc-label">CONTENTS / 目录</div><nav>{sections.map((h,i)=><div class="wiki-toc-section"><a href={`#${h.slug}`}>{i+1}. {h.text}</a><div>{h.children.map(n=><a class="wiki-toc-sub" href={`#${n.slug}`}>{n.text}</a>)}</div></div>)}<a href="#references">参考文献与证据范围</a><a href="#related">参见与关联概念</a></nav><div class="sidebar-info">{area.title}<br />{kindLabels[data.kind]}<br /><a class="text-link" href={url('contribute')}>参与审阅 ↗</a></div></aside>
@@ -100,4 +102,8 @@ if(box){box.open=wide.matches;wide.addEventListener('change',e=>{box.open=e.matc
 .wiki-prose :global(.pitch-figure figcaption),.wiki-prose :global(.encyclopedia-figure figcaption){font-size:12px;line-height:1.9;margin-top:12px;color:var(--muted)}
 .wiki-prose :global(.pitch-figure a),.wiki-prose :global(.encyclopedia-figure a){display:block}
 .wiki-prose :global(.pitch-figure figcaption a),.wiki-prose :global(.encyclopedia-figure figcaption a){display:inline}
+</style>
+
+<style>
+[data-directory-navigation][hidden]{display:none}
 </style>

@@ -1,0 +1,42 @@
+---
+import { allLearningPaths, introductoryPaths } from '../data/paths';
+import { url } from '../lib/paths';
+interface Props { slug: string; titles: Record<string, string>; headings: { text: string; slug: string }[]; position?: 'top' | 'bottom'; }
+const { slug, titles, headings, position = 'top' } = Astro.props;
+const paths = allLearningPaths.filter(path => path.slugs.includes(slug));
+---
+{paths.length > 0 && <aside class="learning-context" data-learning-context data-route-position={position} aria-label="学习路线" hidden={position === 'bottom'} data-pagefind-ignore>
+  {position === 'top' && <div class="learning-options" data-learning-options><span>沿路线阅读：</span>{paths.map(path => <a href={url('learn') + '#' + path.id}>{path.title}</a>)}</div>}
+  {paths.map(path => {
+    const index = path.slugs.indexOf(slug);
+    const step = introductoryPaths.find(item => item.id === path.id)?.steps.find(item => item.slug === slug);
+    const previous = path.slugs[index - 1];
+    const next = path.slugs[index + 1];
+    const routeUrl = url('learn') + '#' + path.id;
+    const stepUrl = (target: string) => url('concepts/' + target) + '?path=' + encodeURIComponent(path.id);
+    return <div data-route-panel={path.id} hidden>
+      <div class="learning-route-title"><a href={routeUrl}>{path.title}</a><span>第 {index + 1} / {path.slugs.length} 步</span></div>
+      {position === 'top' && step && <p class="step-goal"><strong>本步目标：</strong>{step.goal}<small>先读导言，再读{step.sections.map(section => <span>「<a href={'#' + headings.find(heading => heading.text === section)?.slug}>{section}</a>」</span>)}。其余章节可按需深入。</small></p>}
+      <nav class="learning-route-actions" aria-label="沿学习路线继续阅读">
+        <a href={previous ? stepUrl(previous) : routeUrl}>{previous ? '← 上一步：' + titles[previous] : '← 返回路线'}</a>
+        <a href={next ? stepUrl(next) : routeUrl}>{next ? '下一步：' + titles[next] + ' →' : step ? '查看选读与完整路线 →' : '返回路线总览 →'}</a>
+      </nav>
+      {position === 'top' && <a class="independent-reading" href={url('concepts/' + slug)}>独立阅读本词条</a>}
+    </div>;
+  })}
+</aside>}
+<script>
+  import { initLearningContexts } from '../scripts/learning-context';
+  initLearningContexts(document, new URLSearchParams(location.search).get('path'));
+</script>
+<style>
+  .learning-context{margin:20px 0;padding:18px 20px;border:1px solid #dce3eb;border-radius:8px;background:#f0f4f9;font-size:13px}
+  .learning-context[hidden],[data-route-panel][hidden],[data-learning-options][hidden]{display:none}
+  .learning-options{display:flex;align-items:baseline;gap:8px 16px;flex-wrap:wrap;color:var(--muted)}.learning-options a,.learning-route-title a{color:var(--accent)}
+  .learning-route-title{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;font-weight:600}.learning-route-title span{font-size:12px;color:var(--muted);font-weight:400}
+  .step-goal{margin:12px 0;font-size:14px;line-height:1.8}.step-goal small{display:block;font-size:13px;color:var(--muted);margin-top:6px}
+  .step-goal small a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+  .learning-route-actions{display:flex;justify-content:space-between;align-items:baseline;gap:12px 20px;flex-wrap:wrap;margin-top:12px;color:var(--accent)}.learning-route-actions a{text-decoration:underline;text-underline-offset:3px}
+  .independent-reading{display:inline-block;margin-top:12px;color:var(--muted);font-size:12px}
+  @media(max-width:760px){.learning-context{padding:16px}.learning-route-actions{flex-direction:column;gap:12px}}
+</style>
