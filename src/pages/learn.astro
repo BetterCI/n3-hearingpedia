@@ -1,12 +1,45 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { learningPaths } from '../data/paths';
+import IntroPathCards from '../components/IntroPathCards.astro';
+import { introductoryPaths, learningPaths } from '../data/paths';
 import { url } from '../lib/paths';
 const bySlug = Object.fromEntries((await getCollection('concepts')).map(c=>[c.data.slug,c]));
+const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path=' + encodeURIComponent(path);
 ---
 <BaseLayout title="Learn · 学习路径">
-  <div class="container"><div class="page-intro"><div class="eyebrow">Learn together</div><h1>顺着一个问题，逐步深入。</h1><p>每条路径都连接已有词条。读者可按顺序阅读，也可以从当前论文里遇到的概念开始。</p></div>
-    <section class="section">{learningPaths.map(path=><article class="path-full" id={path.id}><div class="eyebrow">{path.english}</div><h2>{path.title}</h2><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={url(`concepts/${slug}`)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></article>)}</section>
+  <div class="container">
+    <div class="page-intro"><div class="eyebrow">Learn together</div><h1>顺着一个问题，逐步深入。</h1><p>从 4 步入门路线开始，先读导言和指定章节；需要完整知识背景时，再选择深入路线。</p></div>
+    <section class="section" aria-label="选择入门路线"><IntroPathCards /></section>
+    <section class="section" aria-labelledby="introductory-title">
+      <div class="section-heading"><div><div class="eyebrow">Read with a purpose</div><h2 id="introductory-title">入门路线：每一步都有目标</h2><p>指定章节提供阅读重点，选读内容帮助你按当前问题继续深入。</p></div></div>
+      {introductoryPaths.map(path=><article class="path-full intro-path-full" id={path.id}>
+        <div class="eyebrow">{path.english}</div><h2>{path.title}</h2><p>{path.description}</p>
+        <dl class="path-objectives"><div><dt>学习目标</dt><dd>{path.goal}</dd></div><div><dt>阅读准备</dt><dd>{path.prerequisite}</dd></div></dl>
+        <ol class="path-steps">{path.steps.map((step,i)=><li><a href={stepUrl(step.slug,path.id)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[step.slug].data.title}</strong><small>{step.goal}</small><small class="reading-focus">先读导言，再读「{step.sections.join('」「')}」。</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol>
+        <div class="optional-reading"><strong>按需选读</strong>{path.optional.map(slug=><a href={url('concepts/'+slug)}>{bySlug[slug].data.title} ↗</a>)}</div>
+        <a class="text-link" href={'#'+path.furtherPath}>进入完整路线：{learningPaths.find(item=>item.id===path.furtherPath)?.title} →</a>
+      </article>)}
+    </section>
+    <section class="section" aria-labelledby="full-paths-title">
+      <div class="section-heading"><div><div class="eyebrow">Go further</div><h2 id="full-paths-title">完整路线 · {learningPaths.length} 条</h2><p>展开一条路线查看全部词条。可以顺序阅读，也可以从论文中遇到的概念开始。</p></div></div>
+      {learningPaths.map(path=><details class="path-full full-path-details" id={path.id}><summary><span>{path.title}</span><small>{path.slugs.length} 步</small></summary><div class="full-path-body"><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={stepUrl(slug,path.id)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></div></details>)}
+    </section>
   </div>
 </BaseLayout>
+<script>
+  const revealPath = () => {
+    let id: string;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    const route = document.getElementById(id);
+    if (route instanceof HTMLDetailsElement) route.open = true;
+  };
+  revealPath();
+  window.addEventListener('hashchange', revealPath);
+</script>
+<style>
+  .path-objectives{margin:22px 0;font-size:14px;line-height:1.85}.path-objectives>div{display:grid;grid-template-columns:80px 1fr;gap:12px;margin:10px 0}.path-objectives dt{font-weight:600}.path-objectives dd{margin:0;color:var(--muted)}
+  .reading-focus{color:var(--accent)}.optional-reading{display:flex;gap:10px 20px;flex-wrap:wrap;margin:22px 0;font-size:13px}.optional-reading a{color:var(--accent)}
+  .full-path-details{padding:0;overflow:hidden}.full-path-details summary{display:flex;align-items:baseline;justify-content:space-between;gap:18px;padding:24px 28px;cursor:pointer;font-size:20px;font-weight:600;list-style:none}.full-path-details summary::before{content:'＋';color:var(--accent)}.full-path-details[open] summary::before{content:'−'}.full-path-details summary span{flex:1}.full-path-details summary small{font-size:12px;white-space:nowrap;color:var(--muted);font-weight:400}.full-path-body{padding:0 28px 24px}
+  @media(max-width:760px){.path-objectives>div{grid-template-columns:1fr;gap:3px}.full-path-details summary{padding:20px;font-size:18px}.full-path-body{padding:0 20px 20px}}
+</style>

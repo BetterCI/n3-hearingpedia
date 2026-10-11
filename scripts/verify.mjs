@@ -13,7 +13,7 @@ import assert from 'node:assert/strict';
 import { parseFrontmatter } from '@astrojs/markdown-remark';
 import { knowledgeRelations, relationTypes, relationshipsFor } from '../src/data/relations.ts';
 import { knowledgeAreas, kindLabels } from '../src/data/knowledge.ts';
-import { learningPaths } from '../src/data/paths.ts';
+import { introductoryPaths, learningPaths, allLearningPaths } from '../src/data/paths.ts';
 import { references } from '../src/data/references.ts';
 import { mergedConceptRedirects } from '../src/data/merged-concepts.ts';
 import { comparePersonCoreWork } from '../src/lib/person-chronology.ts';
@@ -60,7 +60,7 @@ for (const file of conceptFiles) {
 }
 const personSlugs = new Set(personEntries.map(p => p.data.slug));
 const expectedPeople = personEntries.sort(comparePersonCoreWork).map(p => p.data.slug);
-for (const route of ['index.html', 'people/index.html']) {
+for (const route of ['people/index.html']) {
   const html = cache.get(join(root, route));
   const cards = [...html.matchAll(/<a\b[^>]*>/g)].map(m => m[0]).filter(a => /class="[^"]*\bconcept-card\b/.test(a));
   const listed = cards.map(a => a.match(/href="[^\"]*\/concepts\/([^/\"]+)\//)?.[1]).filter(slug => personSlugs.has(slug));
@@ -68,6 +68,41 @@ for (const route of ['index.html', 'people/index.html']) {
   const years = listed.map(slug => personEntries.find(p => p.data.slug === slug).data.core_work?.year ?? Infinity);
   assert(years.every((year, i) => i === 0 || years[i - 1] <= year), 'Core works must run from earlier to later: ' + route);
   assert(!html.includes('class="core-work"') && !html.includes('年 · 核心工作'), 'Person cards must omit selected-work labels: ' + route);
+}
+const homepage = cache.get(join(root, 'index.html'));
+const homeCards = [...homepage.matchAll(/<a\b[^>]*>/g)].map(m => m[0]).filter(a => /class="[^"]*\bconcept-card\b/.test(a));
+assert.equal(homeCards.length, Math.min(8, statistics.inDepthConcepts), 'Homepage should contain only eight featured article cards');
+const homeSlugs = homeCards.map(a => a.match(/href="[^\"]*\/concepts\/([^/\"]+)\//)?.[1]);
+assert.equal(new Set(homeSlugs).size, homeCards.length, 'Homepage repeats featured entries');
+assert(homeSlugs.every(slug => !personSlugs.has(slug)), 'Researcher cards belong in the people directory');
+assert(!homepage.includes('id="in-depth-more"'), 'Homepage must not repeat the full deep-entry directory');
+const pathIdsForNavigation = new Set(allLearningPaths.map(path => path.id));
+assert.equal(pathIdsForNavigation.size, allLearningPaths.length, 'Duplicate learning-route IDs');
+const learnPage = cache.get(join(root, 'learn/index.html'));
+for (const path of introductoryPaths) {
+  assert(path.steps.length >= 3 && path.steps.length <= 5, 'Introductory paths need three to five steps');
+  assert.equal(new Set(path.steps.map(step => step.slug)).size, path.steps.length, 'Repeated introductory step');
+  assert(learningPaths.some(full => full.id === path.furtherPath), 'Missing complete follow-up path');
+  assert(homepage.includes(`${base}/learn/#${path.id}`), 'Homepage omits introductory route');
+  assert(learnPage.includes(`id="${path.id}"`), 'Missing introductory route details');
+  for (const slug of path.optional) assert(conceptFiles.includes(slug + '.md'), 'Missing optional reading: ' + slug);
+  for (const step of path.steps) {
+    assert(conceptFiles.includes(step.slug + '.md'), 'Missing introductory article: ' + step.slug);
+    const source = await readFile(join('src/content/concepts', step.slug + '.md'), 'utf8');
+    const sectionNames = [...source.matchAll(/^## (.+)/gm)].map(match => match[1].trim());
+    assert(step.sections.every(section => sectionNames.includes(section)), 'Reading focus section differs: ' + step.slug);
+  }
+}
+for (const path of allLearningPaths) {
+  assert(learnPage.includes(`id="${path.id}"`), 'Missing learning-route anchor');
+  for (const [index, slug] of path.slugs.entries()) {
+    const html = cache.get(join(root, 'concepts', slug, 'index.html'));
+    assert(html?.includes(`data-route-panel="${path.id}"`), 'Missing article route context: ' + slug);
+    assert(learnPage.includes(`${base}/concepts/${slug}/?path=${path.id}`), 'Learning entry loses route context');
+    for (const neighbor of [path.slugs[index - 1], path.slugs[index + 1]].filter(Boolean)) {
+      assert(html.includes(`${base}/concepts/${neighbor}/?path=${path.id}`), 'Previous or next step loses route context');
+    }
+  }
 }
 for (const file of conceptFiles) {
   const slug = file.slice(0, -3);
