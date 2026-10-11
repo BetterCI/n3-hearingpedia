@@ -1,0 +1,63 @@
+{
+  "title": "真耳测量",
+  "slug": "real-ear-measurement",
+  "status": "draft",
+  "published": false,
+  "professionally_reviewed": false,
+  "chinese_characters": 6636,
+  "sections": 11,
+  "subsections": 0,
+  "references": 22,
+  "citation_occurrences": 36,
+  "figures": [
+    "assets/real-ear-measurement/01-responses-and-gains.svg",
+    "assets/real-ear-measurement/02-probe-position.svg",
+    "assets/real-ear-measurement/03-multiple-input-levels.svg",
+    "assets/real-ear-measurement/04-recd-transform.svg"
+  ],
+  "internal_links": [
+    "hearing-aid",
+    "hearing-aid-prescription",
+    "sound-waves-and-propagation",
+    "pure-tone-audiometry",
+    "speech-audiometry",
+    "speech-intelligibility"
+  ],
+  "display_equations": 3,
+  "existing_sources_for_reuse": [
+    {
+      "draft_id": "asha-hearing-aids-adults",
+      "existing_id": "asha-hearing-aids-adults"
+    },
+    {
+      "draft_id": "prescription-dsl-protocols-2005",
+      "existing_id": "prescription-dsl-protocols-2005"
+    },
+    {
+      "draft_id": "boystown-recd",
+      "existing_id": "boystown-recd"
+    },
+    {
+      "draft_id": "jorgensen-recd-2022",
+      "existing_id": "audiometric-calibration-recd2022"
+    },
+    {
+      "draft_id": "winkler-open-fitting-2016",
+      "existing_id": "winkler-open-fitting-2016"
+    },
+    {
+      "draft_id": "prescription-child-fit-2013",
+      "existing_id": "prescription-child-fit-2013"
+    },
+    {
+      "draft_id": "almufarrij-real-ear-2021",
+      "existing_id": "almufarrij-real-ear-2021"
+    },
+    {
+      "draft_id": "prescription-preference-2023",
+      "existing_id": "prescription-preference-2023"
+    }
+  ],
+  "preview": "docs/drafts/real-ear-measurement-preview.html",
+  "verification": "Citation numbering and coverage, source records, existing concept targets, figure assets, frontmatter draft state, KaTeX rendering and independent teaching calculations. Active site not modified; this is not a scientific peer review."
+}

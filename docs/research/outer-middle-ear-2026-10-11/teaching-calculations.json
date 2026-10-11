@@ -1,0 +1,20 @@
+{
+  "teaching_only": true,
+  "c_m_per_s": 343.0,
+  "reflection_coefficient": 0.8,
+  "area_T_mm2": 55,
+  "area_s_mm2": 3.2,
+  "lever_ratio": 1.3,
+  "pressure_gain": 22.34375,
+  "pressure_gain_db": 26.983121269623492,
+  "volume_velocity_ratio": 0.044755244755244755,
+  "quarter_wave_null_hz": {
+    "15": 5716.666666666667,
+    "20": 4287.5,
+    "25": 3430.0
+  },
+  "null_total_to_forward_db": -13.979400086720375,
+  "TM_to_null_pressure_db": 19.084850188786497,
+  "differential_pressure_same_phase_Pa": 0.2,
+  "differential_pressure_opposite_phase_Pa": 1.8
+}

@@ -1,0 +1,68 @@
+{
+  "title": "双耳强度差",
+  "slug": "interaural-level-difference",
+  "status": "draft",
+  "published": false,
+  "professionally_reviewed": false,
+  "chinese_characters": 6345,
+  "sections": 11,
+  "subsections": 6,
+  "references": 23,
+  "citation_occurrences": 31,
+  "figures": [
+    "assets/interaural-level-difference/02-near-field-geometry.svg",
+    "assets/interaural-level-difference/01-ild-frequency.svg",
+    "assets/interaural-level-difference/03-lso-circuit.svg",
+    "assets/interaural-level-difference/04-compression.svg"
+  ],
+  "internal_links": [
+    "interaural-time-difference",
+    "spatial-hearing",
+    "loudness",
+    "hearing-aid",
+    "cochlear-implant",
+    "binaural-hearing",
+    "signal-detection-theory"
+  ],
+  "display_equations": 6,
+  "existing_sources_for_reuse": [
+    {
+      "draft_id": "tollin-lso-2003",
+      "existing_id": "six-tollin2003"
+    },
+    {
+      "draft_id": "grothe-localization-2010",
+      "existing_id": "binaural-hearing-grothe"
+    },
+    {
+      "draft_id": "macpherson-weighting-2002",
+      "existing_id": "binaural-hearing-weighting"
+    },
+    {
+      "draft_id": "park-ild-2004",
+      "existing_id": "six-ild2004"
+    },
+    {
+      "draft_id": "brown-ha-2016",
+      "existing_id": "binaural-hearing-aids"
+    },
+    {
+      "draft_id": "wiggins-compression-2011",
+      "existing_id": "wiggins-seeber-2011"
+    },
+    {
+      "draft_id": "kan-mismatch-2013",
+      "existing_id": "binaural-hearing-kan"
+    },
+    {
+      "draft_id": "kan-mismatch-2013",
+      "existing_id": "kan-2013"
+    },
+    {
+      "draft_id": "richardson-magnified-2025",
+      "existing_id": "binaural-hearing-ild2025"
+    }
+  ],
+  "preview": "docs/drafts/interaural-level-difference-preview.html",
+  "verification": "Citation numbering and coverage, source records, existing concept targets, figure assets, frontmatter draft state, KaTeX rendering and independent teaching calculations. Active site not modified; this is not a scientific peer review."
+}

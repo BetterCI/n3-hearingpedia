@@ -1,0 +1,51 @@
+{
+  "title": "外耳与中耳传声",
+  "slug": "outer-middle-ear-transmission",
+  "status": "draft",
+  "published": false,
+  "professionally_reviewed": false,
+  "chinese_characters": 7538,
+  "sections": 11,
+  "subsections": 9,
+  "references": 22,
+  "citation_occurrences": 35,
+  "figures": [
+    "assets/outer-middle-ear-transmission/01-transmission-path.svg",
+    "assets/outer-middle-ear-transmission/02-ear-canal-standing-waves.svg",
+    "assets/outer-middle-ear-transmission/03-transformer-power.svg",
+    "assets/outer-middle-ear-transmission/04-cochlear-pressure-phase.svg"
+  ],
+  "internal_links": [
+    "sound-waves-and-propagation",
+    "cochlea",
+    "spatial-hearing",
+    "otoacoustic-emissions",
+    "auditory-evoked-potential",
+    "pure-tone-audiometry",
+    "cochlear-synaptopathy",
+    "audiometric-calibration",
+    "hearing-aid",
+    "hearing-loss"
+  ],
+  "display_equations": 8,
+  "existing_sources_for_reuse": [
+    {
+      "draft_id": "nidcd-hearing",
+      "existing_id": "nidcd-hearing-2022"
+    },
+    {
+      "draft_id": "asha-adult-assessment",
+      "existing_id": "pure-tone-audiometry-adult-assessment"
+    },
+    {
+      "draft_id": "asha-adult-assessment",
+      "existing_id": "speech-reception-threshold-adult"
+    },
+    {
+      "draft_id": "asha-adult-assessment",
+      "existing_id": "asha-hearing-loss"
+    }
+  ],
+  "preview": "docs/drafts/outer-middle-ear-transmission-preview.html",
+  "verification": "Citation numbering and coverage, source records, existing concept targets, figure assets, frontmatter draft state, KaTeX rendering and independent teaching calculations. Active site not modified; this is not a scientific peer review."
+}

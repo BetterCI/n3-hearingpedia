@@ -1,0 +1,193 @@
+{
+  "scope": "Original teaching assumptions; no clinical norms, actual prescriptive targets or patient data",
+  "response_at_2khz": {
+    "input_spl": 65,
+    "REUR_spl": 74,
+    "REAR_spl": 89,
+    "REUG_db": 9,
+    "REAG_db": 24,
+    "REIG_db": 15
+  },
+  "wave": {
+    "reflection_coefficient": 0.8,
+    "sound_speed_m_s": 343.0,
+    "first_minimum_6khz_distance_mm": 14.291666666666666,
+    "minimum_relative_level_db": -19.0848501887865
+  },
+  "speech": {
+    "frequencies_hz": [
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      6000
+    ],
+    "band_input_offsets_db": [
+      -10,
+      -11,
+      -16,
+      -21,
+      -26,
+      -30
+    ],
+    "gain_at_65_db": [
+      12,
+      18,
+      27,
+      34,
+      42,
+      44
+    ],
+    "assumed_threshold_band_spl": [
+      38,
+      44,
+      49,
+      57,
+      66,
+      70
+    ],
+    "curves": {
+      "55": {
+        "target_band_spl": [
+          62.0,
+          67.0,
+          71.0,
+          73.0,
+          76.0,
+          74.0
+        ],
+        "measured_band_spl": [
+          61.0,
+          66.0,
+          68.0,
+          68.0,
+          69.0,
+          68.0
+        ],
+        "error_db": [
+          -1,
+          -1,
+          -3,
+          -5,
+          -7,
+          -6
+        ]
+      },
+      "65": {
+        "target_band_spl": [
+          67.0,
+          72.0,
+          76.0,
+          78.0,
+          81.0,
+          79.0
+        ],
+        "measured_band_spl": [
+          67.0,
+          71.0,
+          74.0,
+          74.0,
+          75.0,
+          74.0
+        ],
+        "error_db": [
+          0,
+          -1,
+          -2,
+          -4,
+          -6,
+          -5
+        ]
+      },
+      "75": {
+        "target_band_spl": [
+          72.0,
+          77.0,
+          81.0,
+          83.0,
+          86.0,
+          84.0
+        ],
+        "measured_band_spl": [
+          73.0,
+          77.0,
+          80.0,
+          81.0,
+          82.0,
+          81.0
+        ],
+        "error_db": [
+          1,
+          0,
+          -1,
+          -2,
+          -4,
+          -3
+        ]
+      }
+    },
+    "compression_ratio": 2,
+    "shown_input_energy_fraction": 0.21600685656627633
+  },
+  "recd": {
+    "frequency_hz": 1000,
+    "recd_db": [
+      5,
+      12
+    ],
+    "coupler_spl": 80,
+    "ear_spl": [
+      85,
+      92
+    ],
+    "ear_target_spl": 92,
+    "required_coupler_spl": [
+      87,
+      80
+    ],
+    "threshold_hl": 45,
+    "coupler_reference_threshold_spl": 7,
+    "converted_ear_threshold_spl": [
+      57,
+      64
+    ]
+  },
+  "error_example": {
+    "errors_db": [
+      -2,
+      -4,
+      -6,
+      -8
+    ],
+    "rms_db": 5.477225575051661,
+    "mean_signed_db": -5,
+    "max_absolute_db": 8,
+    "alternating_errors_db": [
+      -6,
+      6,
+      -6,
+      6
+    ],
+    "alternating_mean_db": 0,
+    "alternating_rms_db": 6
+  },
+  "compression_example": {
+    "input_spl": [
+      55,
+      65,
+      75
+    ],
+    "output_spl": [
+      78,
+      83,
+      88
+    ],
+    "gain_db": [
+      23,
+      18,
+      13
+    ],
+    "compression_ratio": 2
+  }
+}
