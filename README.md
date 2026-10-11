@@ -10,7 +10,11 @@
 
 听觉科学的概念跨越机制、感知与工程。项目以一个概念一页解释、每个概念连接其他概念的方式，组织前置知识、研究方法及可追溯文献。
 
-## v0.5 内容
+## v0.6.0 · 首页与学习体验更新
+
+首页展示 8 篇代表性深度词条与 7 个主题入口，新增三条 4 步入门路线，提供阅读目标、重点章节和连续阅读导航。11 条完整路线按需展开。版本号与内容统计统一维护，详见[更新记录](CHANGELOG.md)。
+
+## 当前内容
 
 本轮近十天文献扩充见 [选词与核验记录](docs/research/monitor-expansion-2026-10-04.md)、[来源映射](docs/research/monitor-expansion-2026-10-04.json)和[逐词条证据映射](docs/research/wiki-evidence-map.json)。[v0.4 百科重构](docs/research/wiki-restructure-2026-10-04.md)与 [v0.3 深度扩写](docs/research/depth-expansion-2026-10-04.md)保留为历史版本。
 
