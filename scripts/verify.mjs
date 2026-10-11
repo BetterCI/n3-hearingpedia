@@ -18,7 +18,8 @@ import { references } from '../src/data/references.ts';
 import { mergedConceptRedirects } from '../src/data/merged-concepts.ts';
 import { comparePersonCoreWork } from '../src/lib/person-chronology.ts';
 import { summarizeSite, formatReadmeStatistics } from '../src/lib/site-statistics.ts';
-import { homepageFeaturedSlugs } from '../src/data/homepage.ts';
+import { homepageFeaturedSlugs, homepageRecentCount } from '../src/data/homepage.ts';
+import { getConceptPublicationRanks, compareConceptPublication } from '../src/lib/concept-publication.ts';
 
 const root = resolve('dist');
 const base = (process.env.BASE_PATH || '/n3-hearingpedia').replace(/\/$/, '');
@@ -80,6 +81,12 @@ assert(homeSlugs.every(slug => sourceEntries.some(entry => entry.data.slug === s
 assert.equal(new Set(homeSlugs).size, homeCards.length, 'Homepage repeats featured entries');
 assert(homeSlugs.every(slug => !personSlugs.has(slug)), 'Researcher cards belong in the people directory');
 assert(!homepage.includes('id="in-depth-more"'), 'Homepage must not repeat the full deep-entry directory');
+const recentLinks = [...homepage.matchAll(/<a\b[^>]*class="recent-update-link"[^>]*>/g)];
+const recentPublicationRanks = getConceptPublicationRanks();
+const expectedRecent = [...sourceEntries].sort((a,b)=>compareConceptPublication(a,b,recentPublicationRanks)).slice(0,homepageRecentCount);
+assert.equal(recentLinks.length, Math.min(homepageRecentCount,sourceEntries.length), 'Latest updates must remain compact');
+assert.deepEqual(recentLinks.map(m=>m[0].match(/\/concepts\/([^/\"]+)\//)?.[1]), expectedRecent.map(e=>e.data.slug), 'Latest updates differ from publication order');
+assert(homepage.includes('id="recent-updates-title"'), 'Missing latest updates heading');
 const pathIdsForNavigation = new Set(allLearningPaths.map(path => path.id));
 assert.equal(pathIdsForNavigation.size, allLearningPaths.length, 'Duplicate learning-route IDs');
 const learnPage = cache.get(join(root, 'learn/index.html'));

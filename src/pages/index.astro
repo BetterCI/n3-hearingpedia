@@ -10,8 +10,12 @@ import { url } from '../lib/paths';
 import { introductoryPaths } from '../data/paths';
 import IntroPathCards from '../components/IntroPathCards.astro';
 import { knowledgeAreas } from '../data/knowledge';
-import { homepageFeaturedSlugs } from '../data/homepage';
+import { homepageFeaturedSlugs, homepageRecentCount } from '../data/homepage';
+import { getConceptPublicationUpdates, compareConceptPublication } from '../lib/concept-publication';
 const concepts = (await getCollection('concepts')).sort((a,b) => a.data.order - b.data.order);
+const publicationUpdates = getConceptPublicationUpdates();
+const publicationRanks = new Map([...publicationUpdates].map(([slug,update])=>[slug,update.rank]));
+const recent = [...concepts].sort((a,b) => compareConceptPublication(a,b,publicationRanks)).slice(0,homepageRecentCount);
 const inDepth = concepts.filter(c=>c.data.depth==='in-depth' && c.data.kind!=='person');
 const featured = homepageFeaturedSlugs.map(slug => {
   const concept = inDepth.find(entry => entry.data.slug === slug);
@@ -47,6 +51,10 @@ const featured = homepageFeaturedSlugs.map(slug => {
       <div class="strip-intro"><strong>一个概念，一页清晰的解释。</strong>沿着关联，找到理解下一个问题的入口。</div>
       <div class="strip-stats"><span><strong>{concepts.length}</strong>百科词条</span><span><strong>{knowledgeAreas.length}</strong>知识层面</span><span><strong>{introductoryPaths.length}</strong>入门路线</span></div>
     </div>
+    {recent.length>0 && <section class="recent-updates" id="latest-updates" aria-labelledby="recent-updates-title">
+      <div class="recent-updates-heading"><h2 id="recent-updates-title">最新更新</h2><p>词条新增与修订</p></div>
+      <ul class="recent-updates-list">{recent.map(concept=>{const date=publicationUpdates.get(concept.data.slug)?.date || concept.data.last_updated;return <li><a class="recent-update-link" href={url(`concepts/${concept.data.slug}`)}><span>{concept.data.title}</span><span aria-hidden="true">↗</span></a><time datetime={date}>{date.replaceAll('-','.')}</time></li>;})}</ul>
+    </section>}
     <section class="section" aria-labelledby="intro-paths-title">
       <div class="section-heading"><div><div class="eyebrow">Start with a question</div><h2 id="intro-paths-title">先回答一个问题</h2><p>每条路线 4 步，先读导言和指定章节，再按需深入。</p></div><a class="text-link" href={url('learn')}>全部学习路线 ↗</a></div>
       <IntroPathCards />
@@ -66,6 +74,13 @@ const featured = homepageFeaturedSlugs.map(slug => {
   </div>
 </BaseLayout>
 <style>
+  .recent-updates{display:grid;grid-template-columns:130px minmax(0,1fr);align-items:center;gap:24px;margin-top:22px;padding:18px 22px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+  .recent-updates-heading h2{font-size:17px;letter-spacing:0}.recent-updates-heading p{margin-top:4px;font-size:11px;color:var(--muted)}
+  .recent-updates-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px 24px;list-style:none;padding:0;margin:0}.recent-updates-list li{min-width:0}
+  .recent-update-link{display:inline-flex;align-items:baseline;gap:7px;font-size:13px;font-weight:550;color:var(--accent);line-height:1.6}.recent-update-link:hover{text-decoration:underline}.recent-update-link>span:last-child{font-size:11px;flex-shrink:0}
+  .recent-updates-list time{display:block;margin-top:3px;color:var(--muted);font-size:11px}
+  @media(max-width:900px){.recent-updates{grid-template-columns:110px minmax(0,1fr);gap:18px}.recent-updates-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:760px){.recent-updates{grid-template-columns:1fr;gap:13px;padding:16px 18px}.recent-updates-heading{display:flex;align-items:baseline;gap:12px}.recent-updates-heading p{margin-top:0}.recent-updates-list{gap:13px 20px}}
   .partner-site{display:flex;align-items:center;flex-wrap:wrap;gap:8px 20px;margin-top:22px;padding:12px 18px;border:1px solid #e3deef;border-radius:8px;background:#f2f0f8;font-size:12px}
   .partner-label{color:var(--muted);font-size:11px}
   .partner-site a{color:var(--accent);font-weight:600}

@@ -6,22 +6,39 @@ interface PublicationEntry {
 
 // First-parent history records when content enters the publishing branch,
 // including merges of drafts whose original commits were written earlier.
-export function getConceptPublicationRanks(root = process.cwd()): Map<string, number> {
-  const history = execFileSync('git', [
-    'log', '--first-parent', '--format=commit:%H', '--name-only',
-    '--', 'src/content/concepts',
-  ], { cwd: root, encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 });
-  const ranks = new Map<string, number>();
+export function getConceptPublicationUpdates(root = process.cwd()): Map<string, { rank: number; date: string }> {
+  let history: string;
+  try {
+    history = execFileSync('git', [
+      'log', '--first-parent', '--format=commit:%H:%ct', '--name-only',
+      '--', 'src/content/concepts',
+    ], { cwd: root, encoding: 'utf8', maxBuffer: 8 * 1024 * 1024, stdio: ['ignore','pipe','pipe'] });
+  } catch (error) {
+    const failure = error as { code?: string; stderr?: Buffer };
+    // Source archives lack Git history; the comparator falls back to dates/order.
+    if (failure.code === 'ENOENT' || /not a git repository/i.test(failure.stderr?.toString() || '')) return new Map();
+    throw error;
+  }
+  const updates = new Map<string, { rank: number; date: string }>();
+  const dateFormat = new Intl.DateTimeFormat('en', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' });
   let rank = -1;
+  let date = '';
   for (const line of history.split(/\r?\n/)) {
-    if (line.startsWith('commit:')) {
+    const commit = line.match(/^commit:[a-f0-9]+:(\d+)$/);
+    if (commit) {
       rank++;
+      const parts = dateFormat.formatToParts(new Date(Number(commit[1])*1000));
+      date = ['year','month','day'].map(type=>parts.find(part=>part.type===type)!.value).join('-');
       continue;
     }
     const match = line.match(/^src\/content\/concepts\/([^/]+)\.md$/);
-    if (match && !ranks.has(match[1])) ranks.set(match[1], rank);
+    if (match && !updates.has(match[1])) updates.set(match[1], { rank, date });
   }
-  return ranks;
+  return updates;
+}
+
+export function getConceptPublicationRanks(root = process.cwd()): Map<string, number> {
+  return new Map([...getConceptPublicationUpdates(root)].map(([slug,update])=>[slug,update.rank]));
 }
 
 export function compareConceptPublication(
