@@ -8,7 +8,7 @@ tags: ["room-acoustics", "reverberation", "room-modes", "classroom-acoustics"]
 aliases: ["房间声学", "建筑室内声学"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-10-09"
+last_updated: "2026-10-12"
 authors: ["AI 辅助编写"]
 literature_checked_at: "2026-10-09"
 knowledge_area: "sound"
@@ -24,6 +24,11 @@ order: 50
 本词条侧重听觉研究常用的声传播概念、房间模态、混响指标和教室声学。它与[言语可懂度](../speech-intelligibility/)、[空间听觉](../spatial-hearing/)和[掩蔽](../masking/)直接相关，但研究层级不同：室内声学首先描述传到耳边的输入，听觉词条进一步解释听者如何处理这些输入。房间响应变化不能直接解释为听者的[时域分辨率](../temporal-resolution/)发生变化。
 
 评估房间时，需要同时说明用途和对象。适合言语教学的声学条件，不必与音乐演出、录音、家庭听音或隐私保护空间完全相同；对成年人较容易的交流条件，也未必适合幼儿、第二语言学习者或听力损失者。一个混响时间或一张频响曲线能够描述部分特征，不能代替所有用途下的评价。[3](#ref-room-acoustics-classroom)[4](#ref-room-acoustics-asha)
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/room-acoustics/scenario-classrooms-v2-watermarked.png" target="_blank" rel="noopener" aria-label="查看同样讲解，两间教室。情景插画"><img src="/n3-hearingpedia/figures/room-acoustics/scenario-classrooms-v2-watermarked.png" alt="同一位教师在两间教室向学生讲解：一间有吸声处理、窗帘与地毯，另一间是硬质地面和裸墙；师生和座位安排保持可比。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜同样讲解，两间教室。</strong> 同样的讲解，在不同声学条件的教室中，听到的声音也可能不同。室内布置与吸声处理会影响声音的反射和衰减。AI 生成的情景对照，不表示混响时间的实测或仿真结果。</p></figcaption>
+</figure>
 
 ## 基本过程：直达声、反射与混响
 

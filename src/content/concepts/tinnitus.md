@@ -7,7 +7,7 @@ categories: ["audiology", "hearing-loss", "neuroscience", "psychoacoustics"]
 tags: ["tinnitus"]
 aliases: []
 status: draft
-last_updated: "2026-10-09"
+last_updated: "2026-10-12"
 authors: ["AI 辅助编写"]
 references: ["tinnitus-definition-2021", "tinnitus-nice-2020", "tinnitus-primer-2026", "tinnitus-prevalence-2022", "tinnitus-plasticity-2016", "auerbach-gain-2014", "tinnitus-normal-2011", "tinnitus-guest-2017", "tinnitus-synchrony-2016", "tinnitus-gating-2010", "tinnitus-somatic-2018", "tinnitus-intracranial-2015", "tinnitus-thi-1996", "tinnitus-tfi-2012", "tinnitus-mcid-2025", "tinnitus-gap-2013", "tinnitus-cbt-2020", "tinnitus-cima-2012", "tinnitus-trt-2019", "tinnitus-vadod-2024", "tinnitus-bisensory-2023", "tinnitus-tenta3-2024", "tinnitus-uniti-2025", "tinnitus-sound-2026"]
 batch: 4
@@ -27,6 +27,11 @@ reviewed_at: null
 耳鸣研究横跨[听力学](../audiology/)、[心理声学](../psychoacoustics/)和听觉神经科学。临床评估关注耳部和听力状况、需要进一步查明的表现，以及睡眠、专注和情绪等实际困难。研究则尝试解释：外周输入改变后，为什么声音体验可能持续；哪些神经活动与它相关；为什么相似的声音感受会伴随很不相同的困扰。[2](#ref-tinnitus-nice-2020)[3](#ref-tinnitus-primer-2026)
 
 本词条介绍耳鸣的描述维度、候选机制、主要测量和干预证据。贯穿全文的区别是：**感知的出现与响度、生活影响、可能病因，是相互联系而不能互相替代的对象。** 量表改善可以代表有意义的功能获益，却不能自动写成耳鸣声音已经消失。
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/tinnitus/scenario-cartoon-v2-watermarked.png" target="_blank" rel="noopener" aria-label="查看没有对应外部声源的声音体验。情景插画"><img src="/n3-hearingpedia/figures/tinnitus/scenario-cartoon-v2-watermarked.png" alt="卡通图中，一名成年人在安静卧室暂停阅读、留意声音体验；独立小区域标注主观声音体验，房间内没有画出对应的外部声源。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜没有对应外部声源的声音体验。</strong> 安静环境中，听者仍可能感知嗡鸣等声音，而找不到对应的外部声源。小区域表示主观声音体验，不是房间中的声源，也不表示声音向外传播。AI 生成的主观性耳鸣情景示意。</p></figcaption>
+</figure>
 
 ## 定义与描述维度
 

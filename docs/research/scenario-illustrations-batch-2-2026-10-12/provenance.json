@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-12",
+  "published_at": "2026-10-12",
+  "tool": "built-in image_gen",
+  "model_identifier": "OpenAI ImageGen",
+  "model_identifier_scope": "用户确认的工具标识；工具未返回具体模型版本。",
+  "watermark": [
+    "n³ Hearingpedia",
+    "OpenAI ImageGen"
+  ],
+  "approved_revisions": [
+    "两间教室对照",
+    "肯德基四位朋友闲谈",
+    "耳鸣卡通图"
+  ],
+  "prompts": [
+    {
+      "slug": "room-acoustics",
+      "title": "室内声学",
+      "path": "C:/AI_Lab/n³ Hearingpedia/docs/drafts/assets/scenario-illustrations-batch-2-2026-10-12/room-acoustics-v1.png",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied two-room comparison illustration. Replace the domestic living room and large hall with TWO UNIVERSITY CLASSROOMS, while retaining the soft realistic painterly illustration style, light lavender/blue-grey/neutral palette and two-panel layout with small white gap. Both classrooms have similar size, window placement, desk layout, teacher-to-student distance, and lighting, so the scenario emphasizes room treatment rather than different conversations.\nIn each panel, the same middle-aged East Asian woman in a lavender cardigan is now a teacher standing near a board and speaking to adult students; the same middle-aged East Asian man in a blue-grey shirt is seated at a front desk as an adult student, watching her. Add two other adult students at desks farther back in both panels with the same identities and comparable positions. Make the classroom teaching context immediately obvious through desks, chairs and a simple unlettered board. Natural teacher gestures and seated anatomy.\nOne classroom has clearly recognizable fabric-covered wall absorption panels, an acoustic tile ceiling, substantial curtains and a modest carpeted floor. The other classroom has bare hard walls and a hard floor, with no curtains or absorption panels. Keep desks and occupants comparable in both panels. Do not show an extreme ruined room or a good/bad caricature. Remove every domestic sofa, coffee table, bookcase and palace-like arch. No arrows, reflected rays, echo marks, measured values or speech bubbles; the caption explains acoustics. No labels on either room and no words on boards. Preserve the required lower-right watermark, exact two lines \"n³ Hearingpedia\" and \"OpenAI ImageGen\", right aligned in a small translucent warm-white rounded backing patch, clean sans-serif muted dark lavender. Preserve the landscape 3:2 canvas. No additional measurements, scientific graphs, sound wave diagrams or anatomical cutaways."
+    },
+    {
+      "slug": "auditory-attention",
+      "title": "听觉注意",
+      "path": "C:/AI_Lab/n³ Hearingpedia/docs/drafts/assets/scenario-illustrations-batch-2-2026-10-12/auditory-attention-v1.png",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied classroom attention illustration. Completely change the setting and interaction to a SMALL CASUAL CONVERSATION AMONG FOUR ADULT FRIENDS IN A KFC RESTAURANT. Retain the refined soft realistic editorial illustration style and the foreground East Asian woman with lavender sweater as the main listener. No teacher, lecture board, classroom desks, classroom seats or university lesson.\nThe four adult East Asian friends sit comfortably around one small dining table or booth. The woman in lavender attends calmly to one friend across the table who is speaking naturally with a small hand gesture; her eyes and posture clearly follow that friend. The remaining two friends, at the same table but slightly farther back in composition, are engaged in their own quiet side exchange, with one speaking softly and the other listening. Exactly four friends, equal friendly social status, relaxed and welcoming, not a business meeting or a large party. Make the two simultaneous conversation pairs visually legible without split panels.\nRecognizable ordinary contemporary KFC interior: restrained red-and-white seating accents, one small red background sign with EXACT letters \"KFC\", trays with a small red-and-white fried-chicken bucket, paper food wrappers and soft-drink cups. Only one logo/sign, understated setting cue, not an advertisement. No readable menu or other branding copy. Show a natural unstrained social moment, not someone covering ears, confused, fatigued or suffering in noise. No beam, ear bubble, noise-cancellation effects, arrows or sound strokes. The point is choosing whom to follow, not physical elimination of other voices. Preserve the required lower-right watermark, exact two lines \"n³ Hearingpedia\" and \"OpenAI ImageGen\", right aligned in a small translucent warm-white rounded backing patch, clean sans-serif muted dark lavender. Preserve the landscape 3:2 canvas. No additional measurements, scientific graphs, sound wave diagrams or anatomical cutaways."
+    },
+    {
+      "slug": "tinnitus",
+      "title": "耳鸣",
+      "path": "C:/AI_Lab/n³ Hearingpedia/docs/drafts/assets/scenario-illustrations-batch-2-2026-10-12/tinnitus-v1.png",
+      "prompt": "Use case: style-transfer. Edit target: the supplied quiet-bedroom subjective-tinnitus illustration. Transform the ENTIRE IMAGE into a clean mature CARTOON EDITORIAL ILLUSTRATION: simplified rounded forms, crisp soft outlines, flat pastel fills with light soft shading, readable expressive shapes, restrained warm lavender/blue-grey palette. No photorealism, photographic skin, detailed pores or realistic fabric texture. Not a childish mascot, chibi or slapstick. Preserve the same general scene, a middle-aged East Asian woman sitting on the bed holding an open book with natural hands, calm neutral-to-attentive expression, soft evening lamp, no distress. Preserve her age cues gently rather than turning her into a child.\nRetain one conceptual inset card in the upper empty space, with EXACT clear Chinese text \"主观声音体验\" and three short lavender abstract dashes below it. This is an explanatory overlay, not an external sound source; no tails or lines connect it to the woman. Keep it legible in simple sans-serif Chinese. Do not draw radiating waves from her ear or brain, anatomical details, painful red ears, insects, phones or speakers. Preserve a calm room without a matching external sound source. Cartoon treatment should make the teaching scene approachable while avoiding the implication that all tinnitus causes severe distress. Preserve the required lower-right watermark, exact two lines \"n³ Hearingpedia\" and \"OpenAI ImageGen\", right aligned in a small translucent warm-white rounded backing patch, clean sans-serif muted dark lavender. Preserve the landscape 3:2 canvas. No additional measurements, scientific graphs, sound wave diagrams or anatomical cutaways."
+    }
+  ],
+  "assets": [
+    {
+      "slug": "room-acoustics",
+      "project_path": "public/figures/room-acoustics/scenario-classrooms-v2-watermarked.png"
+    },
+    {
+      "slug": "auditory-attention",
+      "project_path": "public/figures/auditory-attention/scenario-kfc-conversation-v2-watermarked.png"
+    },
+    {
+      "slug": "tinnitus",
+      "project_path": "public/figures/tinnitus/scenario-cartoon-v2-watermarked.png"
+    }
+  ]
+}

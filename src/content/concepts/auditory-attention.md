@@ -8,7 +8,7 @@ tags: ["auditory-attention"]
 aliases: ["选择性听觉注意", "selective auditory attention", "auditory attention"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-07"
+last_updated: "2026-10-12"
 authors: ["AI 辅助编写"]
 references: ["auditory-attention-object", "auditory-attention-golumbic", "auditory-attention-continuity", "auditory-attention-hearing", "auditory-attention-fuel", "auditory-attention-escera", "auditory-attention-switch", "auditory-attention-sustained", "auditory-attention-mesgarani", "auditory-attention-osullivan", "auditory-attention-noattention", "auditory-attention-ownname", "auditory-attention-hillyard", "auditory-attention-kerlin", "auditory-attention-methods", "auditory-attention-ding", "auditory-attention-alpha", "auditory-attention-wostmann", "auditory-attention-binding2025", "auditory-attention-matrix2025", "auditory-attention-gaze2024", "auditory-attention-dataset-kul", "auditory-attention-mtrf", "auditory-attention-unsup", "auditory-attention-code-mtrf", "auditory-attention-code-python", "auditory-attention-code-unsup", "auditory-attention-dataset-gaze", "mo-ci-adaptation-2026", "auditory-attention-classroom2025", "auditory-attention-virtual2025"]
 batch: 3
@@ -24,6 +24,11 @@ key_facts: [{"label": "功能维度", "value": "选择、维持、切换与干�
 听觉注意与[听觉场景分析](../auditory-scene-analysis/)相互影响。场景分析关心混合声音如何被组织成可区分的声源或知觉流；注意关心哪些对象被优先选择、哪些信息需要持续加工。稳定的声源表征可帮助注意选择，注意又可能强化目标的表征。因此，两者具有联系，但不能用“能分开两个人的声音”替代“能持续听懂其中一个人”。[1](#ref-auditory-attention-object)[3](#ref-auditory-attention-continuity)
 
 听觉注意也是理解[言语可懂度](../speech-intelligibility/)、[听觉努力](../listening-effort/)、[听力损失](../hearing-loss/)和听觉辅助设备的重要环节。听者可能正确选择了目标，却因信号不清楚而无法理解；也可能投入较大努力维持目标，最终取得与较容易条件相近的成绩。注意对象、资源投入和任务成绩应分别测量。[4](#ref-auditory-attention-hearing)[5](#ref-auditory-attention-fuel)
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/auditory-attention/scenario-kfc-conversation-v2-watermarked.png" target="_blank" rel="noopener" aria-label="查看在朋友闲谈中选择关注对象。情景插画"><img src="/n3-hearingpedia/figures/auditory-attention/scenario-kfc-conversation-v2-watermarked.png" alt="肯德基里四位朋友围坐闲谈：前景听者关注对面的朋友，另外两位朋友在旁轻声交流。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜在朋友闲谈中选择关注对象。</strong> 朋友们围坐闲谈。听者关注正在与自己讲话的朋友，同时旁边还有另一段交谈。听觉注意使目标信息获得优先处理，并不意味着其他声音从耳边消失。AI 生成的情景示意。</p></figcaption>
+</figure>
 
 ## 概念范围与主要维度
 
