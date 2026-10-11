@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
+import { knowledgeAreas, kindLabels } from './data/knowledge';
 
 const concepts = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/concepts' }),
@@ -21,8 +22,8 @@ const concepts = defineCollection({
     reviewed_at: z.string().nullable().default(null),
     literature_checked_at: z.string().nullable().default(null),
     illustration: z.object({ src: z.string(), alt: z.string(), caption: z.string() }).optional(),
-    knowledge_area: z.enum(['sound','biology','perception','mandarin-consonants','measurement','technology','methods']),
-    kind: z.enum(['person','discipline','anatomy','organization','quantity','representation','phenomenon','acoustic-environment','function','linguistic','mechanism','condition','physiological-response','metric','test','calibration','technology','strategy','model','analysis']),
+    knowledge_area: z.enum(knowledgeAreas.map(area => area.id)),
+    kind: z.enum(Object.keys(kindLabels) as (keyof typeof kindLabels)[]),
     core_work: z.object({
       year: z.number().int().min(1000).max(2100),
       year_label: z.string().optional(),
