@@ -18,6 +18,7 @@ import { references } from '../src/data/references.ts';
 import { mergedConceptRedirects } from '../src/data/merged-concepts.ts';
 import { comparePersonCoreWork } from '../src/lib/person-chronology.ts';
 import { summarizeSite, formatReadmeStatistics } from '../src/lib/site-statistics.ts';
+import { homepageFeaturedSlugs } from '../src/data/homepage.ts';
 
 const root = resolve('dist');
 const base = (process.env.BASE_PATH || '/n3-hearingpedia').replace(/\/$/, '');
@@ -71,8 +72,11 @@ for (const route of ['people/index.html']) {
 }
 const homepage = cache.get(join(root, 'index.html'));
 const homeCards = [...homepage.matchAll(/<a\b[^>]*>/g)].map(m => m[0]).filter(a => /class="[^"]*\bconcept-card\b/.test(a));
-assert.equal(homeCards.length, Math.min(8, statistics.inDepthConcepts), 'Homepage should contain only eight featured article cards');
+assert.equal(homepageFeaturedSlugs.length, 8, 'Homepage needs eight curated entries');
+assert.equal(homeCards.length, 8, 'Homepage should contain only eight featured article cards');
 const homeSlugs = homeCards.map(a => a.match(/href="[^\"]*\/concepts\/([^/\"]+)\//)?.[1]);
+assert.deepEqual(homeSlugs, [...homepageFeaturedSlugs], 'Homepage curated entries or order differ');
+assert(homeSlugs.every(slug => sourceEntries.some(entry => entry.data.slug === slug && entry.data.depth === 'in-depth')), 'Homepage selection must contain only in-depth entries');
 assert.equal(new Set(homeSlugs).size, homeCards.length, 'Homepage repeats featured entries');
 assert(homeSlugs.every(slug => !personSlugs.has(slug)), 'Researcher cards belong in the people directory');
 assert(!homepage.includes('id="in-depth-more"'), 'Homepage must not repeat the full deep-entry directory');
