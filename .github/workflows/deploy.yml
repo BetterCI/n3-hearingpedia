@@ -36,13 +36,29 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
-      - run: node --test scripts/fetch-visitor-stats.test.mjs scripts/concept-publication.test.mjs
+      - run: node --test scripts/fetch-visitor-stats.test.mjs scripts/baidu-visitor-stats.test.mjs scripts/visitor-stats-ui.test.mjs scripts/concept-publication.test.mjs
+      - name: Restore encrypted Baidu OAuth state
+        if: github.event_name != 'pull_request'
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/baidu-oauth.enc
+          key: baidu-oauth-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: baidu-oauth-v1-
       - name: Fetch public visitor summary
         if: github.event_name != 'pull_request'
-        continue-on-error: true
         env:
           GOATCOUNTER_API_TOKEN: ${{ secrets.GOATCOUNTER_API_TOKEN }}
+          BAIDU_ACCESS_TOKEN: ${{ secrets.BAIDU_ACCESS_TOKEN }}
+          BAIDU_REFRESH_TOKEN: ${{ secrets.BAIDU_REFRESH_TOKEN }}
+          BAIDU_API_KEY: ${{ secrets.BAIDU_API_KEY }}
+          BAIDU_SECRET_KEY: ${{ secrets.BAIDU_SECRET_KEY }}
         run: node scripts/fetch-visitor-stats.mjs
+      - name: Save encrypted Baidu OAuth state
+        if: always() && github.event_name != 'pull_request' && hashFiles('.cache/baidu-oauth.enc') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/baidu-oauth.enc
+          key: baidu-oauth-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - run: pnpm build
       - run: pnpm verify
       - uses: actions/upload-pages-artifact@v3
