@@ -17,6 +17,7 @@ import { learningPaths } from '../src/data/paths.ts';
 import { references } from '../src/data/references.ts';
 import { mergedConceptRedirects } from '../src/data/merged-concepts.ts';
 import { comparePersonCoreWork } from '../src/lib/person-chronology.ts';
+import { summarizeSite, formatReadmeStatistics } from '../src/lib/site-statistics.ts';
 
 const root = resolve('dist');
 const base = (process.env.BASE_PATH || '/n3-hearingpedia').replace(/\/$/, '');
@@ -26,10 +27,26 @@ async function walk(folder) {
 }
 const htmlFiles=(await walk(root)).filter(p=>p.endsWith('.html'));
 const conceptFiles=(await readdir('src/content/concepts')).filter(p=>p.endsWith('.md'));
+const sourceEntries = await Promise.all(conceptFiles.map(async file => ({
+  data: parseFrontmatter(await readFile(join('src/content/concepts', file), 'utf8')).frontmatter,
+})));
+const statistics = summarizeSite(sourceEntries);
+const siteVersion = JSON.parse(await readFile(join(root, 'site-version.json'), 'utf8'));
+const packageInfo = JSON.parse(await readFile('package.json', 'utf8'));
+assert.equal(siteVersion.version, packageInfo.version, 'Build version differs from package.json');
+assert.deepEqual(siteVersion.statistics, statistics, 'Build statistics differ from current source');
+assert(siteVersion.sourceCommit === null || /^[a-f0-9]{40}$/.test(siteVersion.sourceCommit), 'Invalid build commit');
+assert(siteVersion.workingTreeDirty === null || typeof siteVersion.workingTreeDirty === 'boolean', 'Invalid build source state');
+assert(Number.isFinite(Date.parse(siteVersion.builtAt)), 'Invalid build date');
+const readme = (await readFile('README.md', 'utf8')).replaceAll('\r\n', '\n');
+assert(readme.includes(formatReadmeStatistics(statistics)), 'README statistics differ from current source');
 const expectedConcepts=conceptFiles.length;
 const conceptPages=new Set(conceptFiles.map(file=>join(root,'concepts',file.slice(0,-3),'index.html')));
 assert(htmlFiles.length>=expectedConcepts+23,'Expected core pages, 13 domains, and all concepts');
 const cache=new Map(await Promise.all(htmlFiles.map(async p=>[p,await readFile(p,'utf8')])));
+const mapPage = cache.get(join(root, 'map/index.html'));
+assert(mapPage.includes(`${knowledgeAreas.length} 个层面，通向同一知识网络`), 'Map heading count differs');
+assert(mapPage.includes(`${knowledgeAreas.length} 个知识层面`), 'Map initial count differs');
 for(const file of conceptFiles)assert(cache.has(join(root,'concepts',file.slice(0,-3),'index.html')),'Missing concept route: '+file);
 const personEntries = [];
 for (const file of conceptFiles) {

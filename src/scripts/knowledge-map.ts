@@ -133,7 +133,7 @@ export async function initKnowledgeMap() {
   function select(id:string|null){
     selected=id;const node=id?byId[id]:null;
     const setText=(selector:string,text:string)=>{document.querySelector<HTMLElement>(selector)!.textContent=text;};
-    setText('#atlas-detail-area',node?areaById[node.area].title:'从一个概念开始');setText('#atlas-detail-title',node?.title||'探索听觉科学');setText('#atlas-detail-english',node?.english||'Sound → Perception → Technology');setText('#atlas-detail-kind',node?.kind||'六个知识层面');setText('#atlas-detail-summary',node?.summary||'点击节点或定位概念，查看明确的知识关系。');
+    setText('#atlas-detail-area',node?areaById[node.area].title:'从一个概念开始');setText('#atlas-detail-title',node?.title||'探索听觉科学');setText('#atlas-detail-english',node?.english||'Sound → Perception → Technology');setText('#atlas-detail-kind',node?.kind||`${data.areas.length} 个知识层面`);setText('#atlas-detail-summary',node?.summary||'点击节点或定位概念，查看明确的知识关系。');
     const link=document.querySelector<HTMLAnchorElement>('#atlas-detail-link')!;if(node){link.href=node.url;link.textContent='阅读完整词条 ↗';}else{link.href=new URL('../explore/',location.href).href;link.textContent='浏览百科词条 ↗';}
     const list=document.querySelector<HTMLUListElement>('#atlas-neighbors')!;list.replaceChildren();
     const edges=node?relevantEdges().filter(e=>e.source===id||e.target===id):[];
