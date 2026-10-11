@@ -1,0 +1,77 @@
+{
+  "scope": "Original illustrative calculations, not empirical data, reference norms or recommendations",
+  "time_convention": "exp(j omega t)",
+  "units": {
+    "impedance": "Pa s / m^3",
+    "admittance": "m^3 / (Pa s)",
+    "acoustic_mmho_si": 1e-08
+  },
+  "model": {
+    "rho_kg_m3": 1.2,
+    "c_m_s": 343.0,
+    "area_m2": 5e-05,
+    "Z0": 8231999.999999999,
+    "R": 8231999.999999999,
+    "M_acoustic_kg_m4": 1310.1634915324823,
+    "C_acoustic_m3_Pa": 1.9333690851785152e-11,
+    "f0_Hz": 1000.0,
+    "stiffness_x2_resonance_Hz": 1414.213562373095,
+    "mass_x2_resonance_Hz": 707.1067811865474
+  },
+  "equivalent_volume": {
+    "volume_cm3": 1,
+    "frequency_Hz": 226,
+    "admittance_SI": 1.0058166519495749e-08,
+    "admittance_acoustic_mmho": 1.0058166519495748,
+    "assumptions": "rigid sealed small cavity, ideal uniform pressure, rho=1.2 and c=343"
+  },
+  "tympanogram": {
+    "gaussian_sigma_daPa": 70.0,
+    "width_half_height_daPa": 164.83740315216644,
+    "total_peak_acoustic_mmho": 1.7,
+    "tail_acoustic_mmho": 0.7,
+    "compensated_peak_acoustic_mmho": 1
+  },
+  "complex_compensation": {
+    "total_G_B": [
+      1,
+      1
+    ],
+    "tail_G_B": [
+      0,
+      0.7
+    ],
+    "complex_difference_magnitude": 1.044030650891055,
+    "difference_of_magnitudes": 0.7142135623730952,
+    "unit": "acoustic mmho"
+  },
+  "reflectance": {
+    "magnitude": 0.6,
+    "angles_degrees": [
+      0,
+      60
+    ],
+    "absorbance": 0.64,
+    "normalized_impedance": [
+      {
+        "real": 4.0,
+        "imag": 0.0
+      },
+      {
+        "real": 0.8421052631578949,
+        "imag": 1.367408532291219
+      }
+    ]
+  },
+  "pressure_model": {
+    "middle_ear_pressure_daPa": -120.0,
+    "stiffness_pressure_scale_daPa": 180.0,
+    "ambient_resonance_Hz": 1201.850425154663
+  },
+  "checks": [
+    "passive model absorbance in [0,1]",
+    "equal reflection magnitudes imply equal absorbance",
+    "complex compensation differs from scalar subtraction",
+    "rigid 1 cm3 cavity near 1 acoustic mmho at 226 Hz"
+  ]
+}

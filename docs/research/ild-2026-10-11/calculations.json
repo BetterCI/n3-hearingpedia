@@ -1,0 +1,68 @@
+{
+  "kind": "Original teaching calculations; not empirical data or clinical norms",
+  "convention": "ILD = L_left - L_right",
+  "band_example": {
+    "left_mean_square": [
+      1,
+      4
+    ],
+    "right_mean_square": [
+      4,
+      1
+    ],
+    "band_ild_db": [
+      -6.020599913279624,
+      6.020599913279624
+    ],
+    "broadband_ild_db": 0
+  },
+  "wavelength_m": {
+    "250_Hz": 1.372,
+    "4000_Hz": 0.08575
+  },
+  "six_db": {
+    "pressure_ratio": 1.9952623149688795,
+    "progressive_wave_intensity_ratio": 3.9810717055349722,
+    "sum_energy_change_db_at_fixed_mean_db": 0.9629279804471423
+  },
+  "geometry": {
+    "half_ear_spacing_m": 0.09,
+    "left_source_90_deg_ild_db": {
+      "0.3_m": 5.376906245851599,
+      "3_m": 0.521309808778547
+    },
+    "assumptions": "point source, inverse distance pressure, sample points only, no scattering"
+  },
+  "sigmoid": {
+    "slope_per_db": 0.35,
+    "inflections_db": [
+      -3,
+      0,
+      3
+    ],
+    "units": "normalized dimensionless response"
+  },
+  "compression": {
+    "input_db": [
+      66.0,
+      54.0
+    ],
+    "knee_input_db": 50.0,
+    "knee_output_db": 60.0,
+    "ratio": 3.0,
+    "independent_output_db": [
+      65.33333333333333,
+      61.333333333333336
+    ],
+    "common_gain_db": -0.6666666666666714,
+    "linked_output_db": [
+      65.33333333333333,
+      53.33333333333333
+    ]
+  },
+  "checks": [
+    "band ILDs ±6.0206 dB and broadband 0",
+    "independent compression ILD 4 dB",
+    "common-gain ILD 12 dB"
+  ]
+}

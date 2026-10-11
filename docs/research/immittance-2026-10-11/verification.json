@@ -1,0 +1,34 @@
+{
+  "title": "声导抗与鼓室测量",
+  "slug": "acoustic-immittance-tympanometry",
+  "status": "draft",
+  "published": false,
+  "professionally_reviewed": false,
+  "chinese_characters": 6588,
+  "sections": 11,
+  "subsections": 0,
+  "references": 24,
+  "citation_occurrences": 40,
+  "figures": [
+    "assets/acoustic-immittance-tympanometry/01-complex-immittance.svg",
+    "assets/acoustic-immittance-tympanometry/02-tympanogram.svg",
+    "assets/acoustic-immittance-tympanometry/03-reflectance-phase.svg",
+    "assets/acoustic-immittance-tympanometry/04-wideband-pressure.svg"
+  ],
+  "internal_links": [
+    "cochlea",
+    "hearing-aid",
+    "sound-waves-and-propagation",
+    "signal-detection-theory",
+    "auditory-evoked-potential"
+  ],
+  "display_equations": 3,
+  "existing_sources_for_reuse": [
+    {
+      "draft_id": "bsa-tympanometry-2024-2026",
+      "existing_id": "audiology-bsa-immittance"
+    }
+  ],
+  "preview": "docs/drafts/acoustic-immittance-tympanometry-preview.html",
+  "verification": "Citation numbering and coverage, source records, existing concept targets, figure assets, frontmatter draft state, KaTeX rendering and independent teaching calculations. Active site not modified; this is not a scientific peer review."
+}
