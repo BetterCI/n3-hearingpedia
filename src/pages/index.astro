@@ -10,11 +10,14 @@ import { url } from '../lib/paths';
 import { introductoryPaths } from '../data/paths';
 import IntroPathCards from '../components/IntroPathCards.astro';
 import { knowledgeAreas } from '../data/knowledge';
-import { getConceptPublicationRanks, compareConceptPublication } from '../lib/concept-publication';
+import { homepageFeaturedSlugs } from '../data/homepage';
 const concepts = (await getCollection('concepts')).sort((a,b) => a.data.order - b.data.order);
-const publicationRanks = getConceptPublicationRanks();
-const inDepth = concepts.filter(c=>c.data.depth==='in-depth' && c.data.kind!=='person').sort((a,b)=>compareConceptPublication(a,b,publicationRanks));
-const featured = inDepth.slice(0,8);
+const inDepth = concepts.filter(c=>c.data.depth==='in-depth' && c.data.kind!=='person');
+const featured = homepageFeaturedSlugs.map(slug => {
+  const concept = inDepth.find(entry => entry.data.slug === slug);
+  if (!concept) throw new Error(`Missing featured in-depth entry: ${slug}`);
+  return concept;
+});
 ---
 <BaseLayout>
   <div class="container">
@@ -49,7 +52,7 @@ const featured = inDepth.slice(0,8);
       <IntroPathCards />
     </section>
     {inDepth.length>0 && <section class="section featured-section" aria-labelledby="in-depth-title">
-      <div class="section-heading"><div><div class="eyebrow">Read in depth</div><h2 id="in-depth-title">近期深度阅读</h2><p>从近期发布的词条中，选一个与你的问题相关的概念。</p></div><a class="text-link" href={url('explore')}>浏览全部 {inDepth.length} 篇深度词条 ↗</a></div>
+      <div class="section-heading"><div><div class="eyebrow">Read in depth</div><h2 id="in-depth-title">精选深度词条</h2><p>从声学基础与听觉机制，到感知、测量、康复技术与计算模型，探索听觉科学的核心问题。</p></div><a class="text-link" href={url('explore')}>浏览全部 {inDepth.length} 篇深度词条 ↗</a></div>
       <div class="concept-grid" id="in-depth-featured">{featured.map(concept=><ConceptCard concept={concept}/>)}</div>
     </section>}
     <section class="section" aria-labelledby="theme-entry-title">
