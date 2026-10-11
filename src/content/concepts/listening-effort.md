@@ -8,7 +8,7 @@ tags: ["listening-effort"]
 aliases: ["听配能", "聆听努力", "effortful listening", "cognitive listening effort"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-07"
+last_updated: "2026-10-11"
 authors: ["AI 辅助编写"]
 references: ["fuel-2016", "listening-effort-consensus", "listening-effort-taxonomy", "listening-effort-elu", "listening-effort-masker", "listening-effort-multimethod", "listening-effort-chinese", "listening-effort-mole", "listening-effort-alhanbali", "listening-effort-swir", "kuk-irrt-2026", "listening-effort-fatigue", "listening-effort-vanderbilt", "listening-effort-story", "listening-effort-reward", "listening-effort-nonnative", "listening-effort-tasktype", "listening-effort-zekveld2010", "listening-effort-difficulty", "listening-effort-timescales", "listening-effort-hearingaid", "listening-effort-systematic", "listening-effort-spectral", "listening-effort-ci", "listening-effort-focus", "listening-effort-context", "listening-effort-pupilreview", "listening-effort-motivation2024", "listening-effort-measures", "listening-effort-comparison2024", "listening-effort-bestpractice", "listening-effort-nrpupil", "listening-effort-ci2025", "listening-effort-code-ddm", "listening-effort-code-stats", "listening-effort-code-pupil", "listening-effort-code-mne", "listening-effort-effortnet", "listening-effort-transparent2025"]
 batch: 3
@@ -24,6 +24,11 @@ key_facts: [{"label":"理论对象","value":"有目的的心理资源投入"},{"
 在餐厅里听清同伴的一句话，可能需要抑制旁桌声音、补全被噪声遮盖的词语，再将前后内容连成意思。在安静房间里听一段陌生专业知识，也可能需要反复理解和保持信息。因此，费力并不只发生在声音很小或很吵的时候；听觉努力涉及从目标选择到语言理解的多个加工环节。[3](#ref-listening-effort-taxonomy)[4](#ref-listening-effort-elu)
 
 听觉努力补充了[言语可懂度](../speech-intelligibility/)和[言语接收阈](../speech-reception-threshold/)未必能揭示的信息。两个条件下都能正确复述九成词语，不代表听者投入相同；而一个条件中错误更多，也不必然表示实际投入更多。测量努力的意义在于了解听者如何达到成绩、为此付出何种代价，以及是否还有资源用于记忆、交流和其他活动。[5](#ref-listening-effort-masker)[6](#ref-listening-effort-multimethod)
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/listening-effort/scenario-restaurant-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看安静与嘈杂环境中的听觉努力情景插画"><img src="/n3-hearingpedia/figures/listening-effort/scenario-restaurant-v1-watermarked.png" alt="同一对朋友在两种用餐环境中交谈：左侧环境安静，听者姿态放松；右侧有多桌人交谈，听者稍向说话者倾身，保持专注。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜听懂了，也可能更费神。</strong> 即使两种环境中都能听懂，嘈杂环境中的对话也可能需要投入更多注意与认知资源。听懂多少与付出多少努力，是不同的问题。AI 生成的情景示意；表情与姿态不代表努力的测量结果。</p></figcaption>
+</figure>
 
 中文听力学文献已有“听配能”的用法。“听配能”强调聆听中的资源分配，但读者通常需要先了解其含义。本词条将该名称保留为别名，正文统一使用“听觉努力”；与之相近的听觉负荷、注意、疲劳和交流参与则分别解释。[7](#ref-listening-effort-chinese)
 

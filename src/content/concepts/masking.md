@@ -8,7 +8,7 @@ tags: [detection, threshold, simultaneous-masking, forward-masking]
 aliases: [听觉掩蔽, masking threshold, 同时掩蔽, 前向掩蔽, 非同时掩蔽]
 status: draft
 depth: in-depth
-last_updated: "2026-10-06"
+last_updated: "2026-10-11"
 authors: ["AI 辅助编写"]
 references: ["glasberg-1990","brungart-2001","stone-2014","oxenham-2006","freyman-1999","robles-2001","hall-cmr-1984","hopkins-2008","amt-dau1997","amt-breebaart2001","asha-hearing-loss"]
 order: 4
@@ -21,6 +21,11 @@ key_facts: [{"label":"表现","value":"其他声音使目标较难检测或识�
 **掩蔽**是指一个声音的存在使另一个声音更难被察觉、分辨或识别的现象。日常交谈中，空调声可能使轻声话语听不清，邻桌谈话则可能让人听见声音却分不清目标说话人的内容。两种情形都涉及掩蔽，但不能仅用“噪声盖过了声音”解释：耳蜗内的频率分析、声音随时间的起伏、双耳信息、听觉对象的分组和注意选择，都可能影响最终表现。[1](#ref-glasberg-1990)[2](#ref-brungart-2001)
 
 掩蔽既是重要的感知现象，也是研究听觉机制的实验工具。通过改变掩蔽声的频谱、声级、时序或空间位置，可以间接研究[听觉滤波器](../auditory-filter/)、时域加工以及双耳整合。不过，实验得到的是特定刺激和任务下的行为结果；从掩蔽曲线推断生理机制，始终需要明确模型假设与替代解释。
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/masking/scenario-cafe-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看咖啡馆掩蔽情景插画"><img src="/n3-hearingpedia/figures/masking/scenario-cafe-v1-watermarked.png" alt="咖啡馆里同伴面对面交谈，听者专注聆听；身后的磨豆机和旁桌谈话形成同时出现的背景声。紫色与灰色短线分别标示目标声和背景声。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜背景声让目标更难听清。</strong> 咖啡馆里，同伴的话与磨豆机、旁桌交谈同时出现，背景声可能使目标言语更难辨认。AI 生成的情景示意；紫色与灰色短线仅用于区分声源，不表示声级或传播路径。</p></figcaption>
+</figure>
 
 ## 定义与测量
 

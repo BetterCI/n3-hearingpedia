@@ -8,7 +8,7 @@ tags: ["spatial-hearing"]
 aliases: ["auditory spatial perception","sound localization","声音定位","空间聆听","声源定位"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-06"
+last_updated: "2026-10-11"
 authors: ["AI 辅助编写"]
 references: ["middlebrooks-1991","distance-2016","freyman-1999","hofman-1998","wightman-spatial-1992","litovsky-precedence-2001","pastore-precedence-2019","tolnai-precedence-2014","brown-precedence-2013","xia-precedence-2010","borjigin-2025","kan-2013","goupell-2013","mo-ci-adaptation-2026","amt-lindemann1986","amt-baumgartner2014"]
 batch: 3
@@ -22,6 +22,11 @@ key_facts: [{"label":"功能维度","value":"方位、距离、运动与分离"}
 **空间听觉**是听觉系统感知声源方向、距离、空间范围及其变化的能力。人们借此判断来车的方位、寻找房间中的说话人，也能在多人同时交谈时利用声源位置选择目标。空间听觉既包含“声音从哪里来”的定位，也包含声音是否位于头外、多个声源能否分离，以及空间布局如何帮助理解言语。[1](#ref-middlebrooks-1991)[2](#ref-distance-2016)[3](#ref-freyman-1999)
 
 耳蜗首先按频率组织声音，并没有像视网膜那样直接排列的外部空间图像。空间信息主要隐藏在到达两耳的声波差异，以及头部、耳廓和躯干对声音的方向性滤波之中。大脑需要结合这些信息和经验建立对声源位置的判断。因此，[频位映射关系](../tonotopy/)中的“位置”指听觉结构内的频率组织位置，不能与声源在房间中的位置混为一谈。[1](#ref-middlebrooks-1991)[4](#ref-hofman-1998)
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/spatial-hearing/scenario-phone-v2-watermarked.png" target="_blank" rel="noopener" aria-label="查看循声寻找手机的空间听觉情景插画"><img src="/n3-hearingpedia/figures/spatial-hearing/scenario-phone-v2-watermarked.png" alt="客厅里，一名男子坐在扶手椅上读书，听到侧后方柜子上的手机铃声，转头寻找声源；手机旁的紫色短线表示铃声。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜声音从哪里来？</strong> 读书时，侧后方的手机响起，听者循声转头寻找。声音提供的方位线索帮助我们感知周围的空间。AI 生成的情景示意；手机旁短线仅表示铃声，不编码传播路径或定位精度。</p></figcaption>
+</figure>
 
 ## 空间知觉的不同维度
 
