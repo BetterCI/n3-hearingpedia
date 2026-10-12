@@ -30,6 +30,12 @@ order: 30
 
 助听器依赖使用者原有的[耳蜗](../cochlea/)和听觉通路完成声音编码。放大可以改善可听性，却不能完整恢复受损耳蜗的频率选择性和阈上信息处理能力。因此，同样听得见一句话，佩戴者仍可能在辨认辅音、分离多个说话人或理解嘈杂环境中的内容时感到困难。理解助听器，需要把声学装置、个体听觉状态、验配方法和真实使用环境放在一起考察。[2](#ref-keidser-nalnl2-2011)
 
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/hearing-aid/scenario-flower-market-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看花市中助听器日常交流情景插画"><img src="/n3-hearingpedia/figures/hearing-aid/scenario-flower-market-v1-watermarked.png" alt="街边花店里，一位佩戴耳背式助听器的老年女性手捧鲜花，与年轻店主面对面交谈；背景有行人和城市街道。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜让更多声音重新融入生活。</strong> 花市中，一位佩戴助听器的女性与店主自然交谈。助听器通过个体化声音处理改善可听性，帮助听力损失者参与日常交流；实际获益还取决于听力状况、设备设置与聆听环境。声音放大并不等于恢复正常听觉。AI 生成的情景示意，不代表特定设备或使用者的实际效果。</p></figcaption>
+</figure>
+
 ## 工作原理与装置形式
 
 气导助听器的基本链路包括声电转换、数字信号处理和电声转换。麦克风把耳旁的声压变化转换为电信号，模数转换后进入数字处理器；经处理的信号再驱动受话器。这里的“受话器”是小型电声换能器，相当于微型扬声器，并不是接收无线信号的部件。电源、无线连接和控制软件支持整套系统运行，但最终送到鼓膜附近的仍然是声波。[1](#ref-nidcd-hearing-aids)

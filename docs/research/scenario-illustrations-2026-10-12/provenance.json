@@ -32,6 +32,10 @@
     {
       "slug": "hearing-loss",
       "prompt": "Provenance description (not a verbatim tool prompt): Watercolor-style editorial illustration of a warm East Asian family living room in muted lavender, blue-grey and neutral tones. A middle-aged woman turns toward family members talking while she is at a bookshelf; an older man and younger woman converse near a sofa, with a television, plants and a resting dog in the background. Educational depiction of the distinction between noticing speech and understanding its content. Landscape 3:2 (1536 × 1024). Two-line lower-right n³ Hearingpedia / OpenAI ImageGen attribution. Not a depiction of a specific patient's diagnosis."
+    },
+    {
+      "slug": "hearing-aid",
+      "prompt": "Provenance description (not a verbatim tool prompt): AI-generated editorial watercolor-style scene of an older East Asian woman wearing a small visible behind-the-ear hearing aid, chatting naturally with a younger florist at a sunlit outdoor flower market. Flowers, pedestrians and a bicycle appear in the background. Subdued lavender, blue-grey and warm neutral palette; landscape 3:2 (1536 × 1024) with two-line lower-right n³ Hearingpedia / OpenAI ImageGen attribution. Educational depiction of everyday communication, not a representation of clinical benefit for a specific device."
     }
   ],
   "watermark_edit_prompt": "Use case: precise-object-edit. Edit target: the provided illustration. Make exactly one localized addition: a small readable two-line attribution watermark in the lower-right corner. Text (verbatim), line 1: \"n³ Hearingpedia\"; line 2: \"OpenAI ImageGen\". The superscript 3 in n³ must be rendered correctly. Use clean sans-serif lettering, right aligned, dark muted lavender (#514268). Line 1 slightly larger than line 2. Both lines must fit in one subtle semi-transparent warm-white backing patch with rounded corners, approximately no more than 28% of canvas width and 8% of canvas height, inset about 24–30 px from the right and bottom edges. Small elegant attribution, not a logo or headline. It must remain clearly legible over the illustration.\nInvariants: preserve the exact source illustration, all people, faces, gestures, furniture, objects, symbolic sound marks, framing, scene lighting, colors, canvas aspect ratio and full scene composition. Do not crop, zoom, repaint or redesign the scene. Do not add any other labels, signatures, borders or text. Change only pixels required for the watermark patch in the lower-right corner.",
@@ -59,6 +63,10 @@
     {
       "slug": "hearing-loss",
       "project_path": "public/figures/hearing-loss/scenario-living-room-v1-watermarked.png"
+    },
+    {
+      "slug": "hearing-aid",
+      "project_path": "public/figures/hearing-aid/scenario-flower-market-v1-watermarked.png"
     }
   ]
 }
