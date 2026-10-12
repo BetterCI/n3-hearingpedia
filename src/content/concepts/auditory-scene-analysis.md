@@ -8,7 +8,7 @@ tags: ["听觉对象", "声流分离", "鸡尾酒会", "时域相干性"]
 aliases: ["ASA", "听觉声流分离", "auditory streaming", "声流分离"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-07"
+last_updated: "2026-10-12"
 literature_checked_at: "2026-10-07"
 authors: ["AI 辅助编写"]
 knowledge_area: "perception"
@@ -24,6 +24,11 @@ order: 48
 场景分析不仅适用于言语。把一串音符听成连续旋律、从车流中听出警报、把雨滴声听成整体的雨声背景，都涉及声学信息的组织。听觉系统形成的对象也不必与物理声源一一对应：多个乐器可能共同形成一条旋律，一件乐器的不同声部也可能被听成分开的声流。因此，“听到几个对象”与“实际有几个发声物体”是两个不同的问题。[3](#ref-auditory-scene-analysis-objects)[4](#ref-auditory-scene-analysis-texture)
 
 本词条采用“听觉对象”表示知觉上被归为一个整体的声音单位，采用“声流”表示在时间上被连接起来的一系列声音事件。“听觉流分离”“听觉声流分离”在相关文献中常用于描述声流被分开的现象。场景分析回答声音如何被组织；[听觉注意](../auditory-attention/)回答当前选择和维持哪个目标；[言语可懂度](../speech-intelligibility/)回答目标内容能被正确辨认到什么程度。三者相互作用，不能用同一个指标替代。[2](#ref-auditory-scene-analysis-darwin)[5](#ref-auditory-scene-analysis-mesgarani)
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/auditory-scene-analysis/scenario-station-v2-watermarked.png" target="_blank" rel="noopener" aria-label="查看车站中的听觉场景分析情景插画"><img src="/n3-hearingpedia/figures/auditory-scene-analysis/scenario-station-v2-watermarked.png" alt="繁忙车站里，一名身穿淡紫色衣服的年轻女子回头望向列车；周围有旅客交谈、广播、列车、音乐演奏与滚动的行李箱，彩色标记提示不同声源。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜从复杂声环境中组织听觉对象。</strong> 车站里，交谈声、广播声、列车声、音乐声与行李箱滚动声共同构成复杂的声学环境。听觉系统能够利用声音的时间、频谱和空间等线索，将混合输入组织为相对连贯的听觉对象和声流。AI 生成的情景示意；彩色标记仅用于提示不同声源，不表示真实声波传播路径或听者的知觉分离结果。</p></figcaption>
+</figure>
 
 ## 声音混合与知觉组织
 
