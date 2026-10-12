@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-12",
+  "tool": "built-in image_gen",
+  "status": "approved-for-publication",
+  "watermark": [
+    "n³ Hearingpedia",
+    "OpenAI ImageGen"
+  ],
+  "model_identifier_scope": "用户确认的工具标识；工具未返回具体模型版本。",
+  "slug": "hearing-aid",
+  "filename": "classroom-remote-microphone-v1.png",
+  "placement": "“频率降低与远程传声”一节，远程麦克风段落之后",
+  "references": [
+    {
+      "title": "ASHA: Hearing Aids For Children",
+      "url": "https://www.asha.org/practice-portal/professional-issues/hearing-aids-for-children/"
+    },
+    {
+      "title": "ASHA: Assistive Technology in Schools",
+      "url": "https://www.asha.org/practice/assistive-technology-in-schools/"
+    },
+    {
+      "title": "Hearingpedia: 助听器",
+      "path": "src/content/concepts/hearing-aid.md"
+    }
+  ],
+  "prompt": "Use case: scientific-educational.\nAsset type: explanatory scenario illustration for n³ Hearingpedia Chinese hearing-science encyclopedia, adult readers. Landscape 3:2 canvas.\nPrimary request: show WHY a personal remote microphone changes the pickup location in a university classroom. One coherent classroom scene, with a teacher at the front LEFT and an adult university student seated at a desk some distance away in the RIGHT foreground, facing the teacher. Two understated other students and a few desks establish the classroom distance, without crowding the main devices.\nStyle/medium: polished mature editorial cartoon, anatomically plausible adult people, clean soft outlines and restrained shading. Warm white and pale lavender, blue-grey and muted teal. Match a calm Chinese educational encyclopedia, not a children’s comic or product advertisement.\nComposition: spacious, readable. Teacher is talking normally with a SMALL wireless remote microphone TRANSMITTER visibly CLIPPED to their shirt collar/upper chest near the mouth, not held in hand. Student has a recognizable small BEHIND-THE-EAR HEARING AID: curved device body behind the visible ear, thin earhook/tube leading into an earmold at the ear canal; not an earbud, headset or cochlear-implant disc. The teacher and student look calm and engaged; no exaggerated suffering or miracle cure.\nMake the actual two device locations obvious using TWO magnifying circular inset illustrations connected by fine neutral leader lines to their corresponding locations in the main scene. LEFT inset: close view of the same clip-on microphone on teacher’s collar with exact caption \"近距离拾音\". RIGHT inset: side view of the student’s ear with the same behind-the-ear hearing aid, exact caption \"传入助听器\". Large enough for reading on a web article. Leave faces unobstructed.\nA single clearly directional dashed lavender conceptual arrow starts at the teacher's remote microphone and goes across the classroom to the student's hearing aid. Arrowhead at the hearing aid. Exact centered label \"无线传输\". Distinguish this conceptual signal-link arrow from the neutral inset leader lines. NO return arrow, NO beam from mouth directly to student, NO loudspeaker or room PA, NO continuous cable between people. The remote mic picks up speech near the teacher and sends the signal wirelessly to a compatible hearing aid. Environmental sound still exists; don't imply the system eliminates all noise or makes hearing normal.\nExact title along the top: \"远程传声：把拾音位置移近说话人\".\nOnly these Chinese labels plus watermark, no other text, no chalkboard formulas, no quantitative benefits or device specifications, no brand logos.\nMandatory watermark in LOWER-RIGHT corner of overall canvas, exact two right-aligned lines: \"n³ Hearingpedia\" and \"OpenAI ImageGen\". Small readable muted-purple sans-serif, first line a little larger, correct superscript 3, subtle translucent warm-white backing patch inset from the edge, not overlapping scientific labels or the student’s hearing aid.\nAccuracy priority: source is near-mouth collar mic on teacher, destination is student's EAR-SIDE hearing aid, dashed arrow travels teacher-to-student, both corresponding close-ups show realistic generic devices in the SAME positions as the classroom scene. No visible acoustical rays, no anatomy cross-sections, no extra process boxes.",
+  "generated_source": "C:/Users/mengq/.codex/generated_images/01a12b75-7633-7c10-9359-9410a6923f05/exec-bf235e2d-27c5-4d63-b61c-8dae5b19f821.png",
+  "review_notes": [
+    "设备位置及对应放大图清楚；教师端远程麦克风与学生端耳后助听器一致",
+    "无线传输箭头由教师端指向学生端",
+    "中文标签与两行水印已人工检查"
+  ],
+  "preview_checks": [
+    {
+      "width": 1080,
+      "overflow": false,
+      "images": [
+        {
+          "loaded": true,
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "localLinks": [
+        "file:///C:/AI_Lab/n%C2%B3%20Hearingpedia/docs/drafts/assets/remote-microphone-scenario-2026-10-12/classroom-remote-microphone-v1.png",
+        "file:///C:/AI_Lab/n%C2%B3%20Hearingpedia/docs/drafts/assets/remote-microphone-scenario-2026-10-12/prompt.json"
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "images": [
+        {
+          "loaded": true,
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "localLinks": [
+        "file:///C:/AI_Lab/n%C2%B3%20Hearingpedia/docs/drafts/assets/remote-microphone-scenario-2026-10-12/classroom-remote-microphone-v1.png",
+        "file:///C:/AI_Lab/n%C2%B3%20Hearingpedia/docs/drafts/assets/remote-microphone-scenario-2026-10-12/prompt.json"
+      ]
+    }
+  ],
+  "approved_at": "2026-10-12",
+  "integrated_asset": "public/figures/hearing-aid/scenario-remote-microphone-v1-watermarked.png",
+  "integrated_article": "src/content/concepts/hearing-aid.md",
+  "asset_sha256": "685e033108cc39af17022f14a5d4e90ca724a2bf1d1c924a353dddd9b4f4f5d7",
+  "validation": {
+    "figures": 6,
+    "scenario_figures": 1,
+    "png_dimensions": [
+      1536,
+      1024
+    ],
+    "caption_references": [
+      "asha-hearing-aids-adults"
+    ]
+  },
+  "integrated_preview_checks": [
+    {
+      "width": 1080,
+      "overflow": false,
+      "figures": 1,
+      "images": [
+        {
+          "width": 1536,
+          "height": 1024,
+          "loaded": true
+        }
+      ],
+      "headingBefore": "频率降低与远程传声",
+      "caption": "情景插画｜把拾音位置移近说话人。 教师在靠近口部的位置佩戴远程麦克风，将拾取的语音信号无线传到学生的兼容助听器，从输入端减轻距离和部分环境噪声的影响；环境声仍然存在。[5] 虚线表示信号传输关系，局部放大用于辨认设备，不表示真实尺寸或无线传播路径。AI 生成示意图。",
+      "localLinks": [
+        "file:///C:/AI_Lab/n%C2%B3%20Hearingpedia/public/figures/hearing-aid/scenario-remote-microphone-v1-watermarked.png"
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "figures": 1,
+      "images": [
+        {
+          "width": 1536,
+          "height": 1024,
+          "loaded": true
+        }
+      ],
+      "headingBefore": "频率降低与远程传声",
+      "caption": "情景插画｜把拾音位置移近说话人。 教师在靠近口部的位置佩戴远程麦克风，将拾取的语音信号无线传到学生的兼容助听器，从输入端减轻距离和部分环境噪声的影响；环境声仍然存在。[5] 虚线表示信号传输关系，局部放大用于辨认设备，不表示真实尺寸或无线传播路径。AI 生成示意图。",
+      "localLinks": [
+        "file:///C:/AI_Lab/n%C2%B3%20Hearingpedia/public/figures/hearing-aid/scenario-remote-microphone-v1-watermarked.png"
+      ]
+    }
+  ],
+  "publication_parent": "37255eb39629efec33df8440bde6475fbc03c606"
+}

@@ -8,7 +8,7 @@ tags: ["助听器","宽动态范围压缩","真耳测量","方向性麦克风","
 aliases: ["hearing aids","声学助听器","数字助听器","HA","WDRC"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-06"
+last_updated: "2026-10-12"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -141,6 +141,11 @@ $$
 一项纳入 20 篇研究的系统综述发现，成人使用频率降低后，安静中辅音识别的合并结果显示有限获益，其他言语指标未显示一致优势。因此，“高频听阈差”不应直接等同于“必然需要更强的频率降低”。评价时应说明降低的起始频率、映射关系、比较条件和适应时间，并直接测试需要改善的言语线索。[12](#ref-simpson-frequency-lowering-2018)
 
 远程麦克风采用另一种路径：把拾音位置移到目标说话人附近，再把信号传到助听器，从输入端减少距离和部分环境噪声的影响。它与耳旁麦克风阵列的方向性原理不同，在课堂、讲座或距离较远的交流中有明确的功能定位；但多人自由交谈时，谁佩戴麦克风、如何切换目标、保留多少环境声同样重要。无线串流、远程麦克风和本机拾音的混合比例，会改变使用者实际收到的声场。[5](#ref-asha-hearing-aids-adults)
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/hearing-aid/scenario-remote-microphone-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看远程传声课堂情景插画"><img src="/n3-hearingpedia/figures/hearing-aid/scenario-remote-microphone-v1-watermarked.png" alt="课堂情景：教师领口佩戴远程麦克风，远处学生耳后佩戴助听器；两处设备以局部放大呈现，虚线箭头由麦克风指向助听器，标示无线传输。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜把拾音位置移近说话人。</strong> 教师在靠近口部的位置佩戴远程麦克风，将拾取的语音信号无线传到学生的兼容助听器，从输入端减轻距离和部分环境噪声的影响；环境声仍然存在。<a href="#ref-asha-hearing-aids-adults">[5]</a> 虚线表示信号传输关系，局部放大用于辨认设备，不表示真实尺寸或无线传播路径。AI 生成示意图。</p></figcaption>
+</figure>
 
 ## 验配处方：从听力图到初始目标
 
