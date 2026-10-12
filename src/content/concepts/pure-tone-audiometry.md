@@ -25,6 +25,11 @@ key_facts: [{"label":"测量对象","value":"各频率的检测敏感度"},{"lab
 
 我国现行的 GB/T 16296.1-2018《声学 测听方法 第1部分：纯音气导和骨导测听法》对应采用 ISO 8253-1:2010。ISO 官方目录显示，后者在 2026 年复审确认。本文以这些标准的公开适用范围及专业学会可访问的指南说明概念与方法，不转录未取得全文的标准表格。成人及能理解任务的较大儿童的常规行为测听是本文的主要对象；婴幼儿或反应困难者需要相应的行为方法与客观检查。[3](#ref-pure-tone-audiometry-gb16296)[2](#ref-pure-tone-audiometry-iso8253)[4](#ref-pure-tone-audiometry-bsa)
 
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/pure-tone-audiometry/scenario-booth-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看纯音测听隔声室情景插画"><img src="/n3-hearingpedia/figures/pure-tone-audiometry/scenario-booth-v1-watermarked.png" alt="纯音测听场景：受测者在隔声室中佩戴耳机并手持应答按钮，听力师通过观察窗操作测听设备。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜听见测试音后按下应答按钮。</strong> 隔声室内，受测者佩戴气导耳机，在听到测试音时按下应答按钮；听力师在观察窗外操作测听设备，依据规范程序估计不同频率的听觉检测阈。AI 生成的情景示意；设备外观和耳机颜色仅用于展示常见测量过程，不代表指定品牌、测量耳别或实际校准结果。</p></figcaption>
+</figure>
+
 ## 测量对象与基本概念
 
 ### 纯音、检测阈与听力图
