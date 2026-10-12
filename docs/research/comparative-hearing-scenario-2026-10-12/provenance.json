@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-12",
+  "tool": "built-in image_gen",
+  "status": "approved-for-publication",
+  "watermark": [
+    "n³ Hearingpedia",
+    "OpenAI ImageGen"
+  ],
+  "model_identifier_scope": "用户确认的工具标识；工具未返回具体模型版本。",
+  "references": [
+    {
+      "title": "National Park Service: Echolocation — Bats",
+      "url": "https://www.nps.gov/subjects/bats/echolocation.htm"
+    },
+    {
+      "title": "Hearingpedia: 比较听觉",
+      "path": "src/content/concepts/comparative-hearing.md"
+    }
+  ],
+  "prompts": [
+    {
+      "slug": "comparative-hearing",
+      "filename": "owl-bat-comparison-v1.png",
+      "title": "比较听觉",
+      "prompt": "Use case: scientific-educational.\nAsset type: educational scenario illustration for n³ Hearingpedia, a Chinese hearing-science encyclopedia, adult students and researchers. This is a review draft.\nStyle/medium: clear mature cartoon editorial illustration, simplified anatomically plausible forms, soft clean outlines, flat pastel color with restrained light shading, pale backgrounds, muted lavender (#6952b4), blue-grey, cream and muted teal. Friendly but not childish or chibi. Landscape 3:2 canvas, high legibility of panels and exact Chinese labels.\nWatermark, exact two lines in the lower-right corner of the overall canvas: \"n³ Hearingpedia\" and \"OpenAI ImageGen\". Small clean right-aligned sans-serif text, dark muted lavender, first line slightly larger, superscript 3 correct, translucent warm-white rounded backing patch inset 24–30 px; must not obscure the illustrated actions or scientific labels.\nConstraints: no numerical measurements, diagnostic scores, waveform traces, anatomy cutaways, false quantitative claims or brand logos. Only the exact specified Chinese labels and watermark text. No decorative music notes or extra explanatory text. Any arrows specified below are conceptual source/receiver relationships, not actual acoustic ray tracing or wavefronts.\nPrimary request: a scientifically clear TWO-PANEL ecological comparison of a barn owl hearing an external sound source and a big brown bat actively emitting sound and receiving an echo. Equal panels with a small white gap. Quiet evening natural backgrounds, animals clearly distinguishable, no blood, capture or injured prey.\nLEFT PANEL:\nExact top label \"仓鸮：利用外部声音\".\nA biologically recognizable barn owl, with the characteristic pale HEART-SHAPED facial disc, no ear tufts, perched on a branch, attends toward a small mouse moving through dry grass and rustling leaves below. Wings folded normally, calm focused posture. The mouse is the source of the relevant rustling sound. Draw exactly ONE modest conceptual arrow, tail at the mouse/nearby rustling leaves and arrowhead near the owl's facial disc, annotated with exact label \"猎物活动声\". Do not draw the owl producing calls, do not draw a reciprocal echo path here, do not show feathers as external mammalian ears.\nRIGHT PANEL:\nExact top label \"蝙蝠：主动回声定位\".\nA recognizable big brown bat with brown fur, two membranous wings supported by elongated fingers, ordinary rounded ears, no exaggerated vampire teeth and no horseshoe noseleaf. The bat is flying near, but not colliding with, a clearly visible tree trunk or branch as the reflecting environmental object. Show TWO separately legible curved conceptual arrows: a muted-lavender outbound arrow from the bat's mouth toward the trunk, with exact label \"发声\"; a muted-teal returning arrow with tail at the same trunk and arrowhead near the bat's ear/head, with exact label \"回声\". Offset the arrows enough to distinguish directions. The target object is a reflecting obstacle, not an independently vocalizing bird. No sound coming from wings, no sonar laser beams, no radiating circles.\nTeaching aim: make the SOURCE of the sound and the RECEIVER clear, including the outbound-and-return loop only in the bat scene. Draw these source/receiver relationships faithfully. Keep the owl and bat actions prominent, vegetation subordinate. The watercolor-soft cartoon style should remain restrained and useful for scientific learning. Labels must be exact and readable; do not claim these examples exhaust the hearing abilities of either species."
+    }
+  ],
+  "active_scope": [
+    "comparative-hearing"
+  ],
+  "excluded_drafts": [
+    "auditory-development"
+  ],
+  "asset": "public/figures/comparative-hearing/scenario-owl-bat-v1-watermarked.png",
+  "inserted_after": "比较的对象与研究范围 / 从共同任务出发 / 主动感知段落"
+}

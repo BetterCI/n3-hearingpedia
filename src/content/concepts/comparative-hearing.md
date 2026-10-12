@@ -9,7 +9,7 @@ aliases: ["动物听觉对人类听觉研究的启示", "比较听觉研究", "c
 level: ["undergraduate", "graduate"]
 status: draft
 depth: "in-depth"
-last_updated: "2026-10-10"
+last_updated: "2026-10-12"
 literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -39,6 +39,11 @@ order: 73
 同一个定位问题可以在不同身体尺度、频率范围与环境中出现。仓鸮需要利用双耳线索确定声源方向，寄生蝇也需要定位声音，但极小耳间距限制了原始声学差异。比较这两类系统，可以把“外界提供多少线索”和“接收结构及神经系统怎样利用线索”分别提出。[2](#ref-comp-carr-1990)[9](#ref-comp-robert-1996)
 
 另一类比较围绕主动感知：动物先改变自己的发声，再利用接收到的回声决定下一步行为。蝙蝠研究能帮助提出回声归属和干扰抑制的问题；人体训练研究则直接检验人类能否学习利用自发点击声的反射。两者共享“行动改变输入”的研究框架，具体频段、声源、接收结构和训练任务仍需分别记录。[6](#ref-comp-ming-2020)[8](#ref-comp-norman-2021)
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/comparative-hearing/scenario-owl-bat-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看仓鸮与蝙蝠的听觉方式对照图"><img src="/n3-hearingpedia/figures/comparative-hearing/scenario-owl-bat-v1-watermarked.png" alt="双场景卡通：仓鸮接收猎物活动发出的声音；蝙蝠向树干发声，再接收树干反射的回声。箭头分别标示猎物活动声、发声与回声的方向。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜外部声源与主动回声定位。</strong> 仓鸮可以利用猎物活动发出的声音定位；回声定位蝙蝠主动发声，再接收物体反射的回声。<a href="#ref-comp-carr-1990">[2]</a><a href="#ref-comp-ming-2020">[6]</a> 箭头仅表示声音来源与接收关系，不表示真实波束、传播时长或定位精度。AI 生成示意图。</p></figcaption>
+</figure>
 
 比较听觉还包括系统受损后的变化。鸡和鹌鹑的研究把毛细胞损失与随后出现的新细胞联系起来；成熟小鼠实验则检验是否可以改变支持细胞的命运。这里比较的是修复过程及其限制，不能只比较治疗前后某个听阈数值。[12](#ref-comp-corwin-1988)[13](#ref-comp-ryals-1988)[16](#ref-comp-gunewardene-2025)
 
