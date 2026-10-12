@@ -8,7 +8,7 @@ tags: ["hearing-loss","auditory-phenotype","speech-in-noise","rehabilitation","s
 aliases: ["听力障碍","听觉损失","hearing impairment","hearing difficulty"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-06"
+last_updated: "2026-10-12"
 authors: ["AI 辅助重构"]
 reviewer: null
 reviewed_at: null
@@ -29,6 +29,11 @@ order: 29
 **听力损失**是听觉功能部分或全部减弱的状态，临床上常以特定频率的听阈超出参考范围加以描述。它可以累及一耳或双耳，涉及外耳、中耳、耳蜗或听神经等不同环节，并具有不同的起病时间、进展方式和频率配置。听力损失既是测听结果，也是可能影响交流、空间定向和社会参与的功能问题；单一平均听阈不能完整代表一个人的听觉能力。[1](#ref-asha-hearing-loss)[2](#ref-who-world-report-hearing-2021)
 
 “听得见”与“听得懂”尤其需要分开。有人在安静中能听见交谈，却难以在餐厅中跟上谈话；有人觉得声音不够清楚，但继续提高音量很快又会感到过响。这些现象提示，可听度、频率选择性、[响度](../loudness/)和复杂声音加工可能受到不同程度的影响。[3](#ref-moore-recruitment-2004)[4](#ref-hopkins-2008)
+
+<figure class="encyclopedia-figure scenario-illustration">
+<a href="/n3-hearingpedia/figures/hearing-loss/scenario-living-room-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看听力损失日常交流情景插画"><img src="/n3-hearingpedia/figures/hearing-loss/scenario-living-room-v1-watermarked.png" alt="温暖的家庭客厅里，一名中年女性在书架前回头看向正在交谈的家人，背景有电视和室内活动，呈现日常交流中听到声音却未必听清内容的情景。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+<figcaption><p><strong>情景插画｜听得见，不一定听得清。</strong> 日常生活中，听力损失者可能察觉到有人说话，却难以完整辨认言语内容。面对说话者时，口型、表情和语境等线索有助于理解交流信息。听力损失的实际影响不仅取决于听阈，还与声音环境、听觉处理能力和交流条件有关。AI 生成的情景示意，不代表特定患者的听力状况。</p></figcaption>
+</figure>
 
 ## 类型、病因与病程
 

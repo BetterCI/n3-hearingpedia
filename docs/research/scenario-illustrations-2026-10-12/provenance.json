@@ -28,6 +28,10 @@
     {
       "slug": "pure-tone-audiometry",
       "prompt": "Provenance description (not a verbatim tool prompt): Educational editorial illustration of an adult seated inside a sound-treated audiometry booth, wearing supra-aural headphones and holding a manual response button, while an audiologist operates an audiometer outside the window. Restrained lavender and blue-grey 3:2 horizontal composition, with small lower-right n³ Hearingpedia / OpenAI ImageGen attribution."
+    },
+    {
+      "slug": "hearing-loss",
+      "prompt": "Provenance description (not a verbatim tool prompt): Watercolor-style editorial illustration of a warm East Asian family living room in muted lavender, blue-grey and neutral tones. A middle-aged woman turns toward family members talking while she is at a bookshelf; an older man and younger woman converse near a sofa, with a television, plants and a resting dog in the background. Educational depiction of the distinction between noticing speech and understanding its content. Landscape 3:2 (1536 × 1024). Two-line lower-right n³ Hearingpedia / OpenAI ImageGen attribution. Not a depiction of a specific patient's diagnosis."
     }
   ],
   "watermark_edit_prompt": "Use case: precise-object-edit. Edit target: the provided illustration. Make exactly one localized addition: a small readable two-line attribution watermark in the lower-right corner. Text (verbatim), line 1: \"n³ Hearingpedia\"; line 2: \"OpenAI ImageGen\". The superscript 3 in n³ must be rendered correctly. Use clean sans-serif lettering, right aligned, dark muted lavender (#514268). Line 1 slightly larger than line 2. Both lines must fit in one subtle semi-transparent warm-white backing patch with rounded corners, approximately no more than 28% of canvas width and 8% of canvas height, inset about 24–30 px from the right and bottom edges. Small elegant attribution, not a logo or headline. It must remain clearly legible over the illustration.\nInvariants: preserve the exact source illustration, all people, faces, gestures, furniture, objects, symbolic sound marks, framing, scene lighting, colors, canvas aspect ratio and full scene composition. Do not crop, zoom, repaint or redesign the scene. Do not add any other labels, signatures, borders or text. Change only pixels required for the watermark patch in the lower-right corner.",
@@ -51,6 +55,10 @@
     {
       "slug": "pure-tone-audiometry",
       "project_path": "public/figures/pure-tone-audiometry/scenario-booth-v1-watermarked.png"
+    },
+    {
+      "slug": "hearing-loss",
+      "project_path": "public/figures/hearing-loss/scenario-living-room-v1-watermarked.png"
     }
   ]
 }
