@@ -10,3 +10,6 @@ export const homepageFeaturedSlugs = [
   'cochlear-implant',
   'auditory-computational-models',
 ] as const;
+
+// A compact, automatically ordered list separate from the curated cards.
+export const homepageRecentCount = 4;

@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { basename, dirname, join, resolve } from 'node:path';
-import { getConceptPublicationRanks, compareConceptPublication } from '../src/lib/concept-publication.ts';
+import { getConceptPublicationRanks, getConceptPublicationUpdates, compareConceptPublication } from '../src/lib/concept-publication.ts';
 
 const entry = (slug, order, date = '2026-10-09') => ({ data: { slug, order, last_updated: date } });
 const ordered = (entries, ranks) => [...entries].sort((a, b) => compareConceptPublication(a, b, ranks)).map(e => e.data.slug);
@@ -34,6 +34,7 @@ test('same-day updates and an older draft follow publishing history, even with i
     git('merge', '--no-ff', 'draft', '-m', 'Publish the older draft');
     const entries = [entry('old', 1), entry('middle', 2), entry('draft', 3)];
     assert.deepEqual(ordered(entries, getConceptPublicationRanks(root)), ['draft', 'middle', 'old']);
+    assert.equal(getConceptPublicationUpdates(root).get('draft').date, '2026-10-09');
     publish('old', 'new substantive update');
     assert.deepEqual(ordered(entries, getConceptPublicationRanks(root)), ['old', 'draft', 'middle']);
     writeFileSync(join(root, 'README.md'), 'unrelated site update');
@@ -51,4 +52,17 @@ test('entries published together and untracked preview entries have deterministi
   const ranks = new Map([['a', 0], ['b', 0]]);
   assert.deepEqual(ordered([entry('b', 2), entry('a', 1), entry('preview', 0)], ranks), ['a', 'b', 'preview']);
   assert.deepEqual(ordered([entry('older', 1, '2026-10-08'), entry('newer', 2)], new Map()), ['newer', 'older']);
+});
+
+test('a source archive without Git history uses metadata dates', () => {
+  const root = mkdtempSync(join(tmpdir(), 'hearingpedia-archive-'));
+  try {
+    const ranks = getConceptPublicationRanks(root);
+    assert.equal(ranks.size, 0);
+    assert.deepEqual(ordered([entry('older', 1, '2026-10-08'), entry('newer', 2)], ranks), ['newer', 'older']);
+  } finally {
+    assert.equal(dirname(resolve(root)), resolve(tmpdir()));
+    assert(basename(root).startsWith('hearingpedia-archive-'));
+    rmSync(root, { recursive: true, force: true });
+  }
 });
