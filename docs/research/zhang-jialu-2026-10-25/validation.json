@@ -20,7 +20,7 @@
   },
   "verify": {
     "knowledge_relations": 711,
-    "checked_internal_links": 22068,
+    "checked_internal_links": 22071,
     "broken_links": 0,
     "equations": 284,
     "wiki_cross_links": 1203,
@@ -31,10 +31,26 @@
     "subsections": 23,
     "references": 14,
     "status": "draft",
-    "figures": 3,
+    "figures": 4,
     "core_work_year": 1974,
     "sections": 10,
-    "chinese_characters": 6126
+    "chinese_characters": 6210,
+    "teaching_figures": 3,
+    "photographs": 1
   },
-  "prior_workspace_validation": "draft-validation.json"
+  "prior_workspace_validation": "draft-validation.json",
+  "photo_update": {
+    "base": "adf3eee28c822b5cc171a1178a4def2dbcd759ad",
+    "build": "passed",
+    "verify": "passed",
+    "broken_links": 0,
+    "image_dimensions": [
+      531,
+      356
+    ],
+    "original_png_bytes_retained": true,
+    "visual_qa": "photo-preview.png; image loaded at correct aspect ratio with no horizontal overflow",
+    "source": "Official CAS event report and user-supplied image",
+    "code_changes": false
+  }
 }

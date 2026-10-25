@@ -29,6 +29,11 @@ order: 120
 
 这一工作与听觉科学直接相连：系统输出了声音，还需要知道听者辨认出什么、容易把什么听成什么，以及能否自然地理解语句。张家騄的研究为阅读[言语可懂度](../speech-intelligibility/)、[混淆矩阵](../confusion-matrix/)与[普通话汉语声调](../mandarin-lexical-tone/)提供了中国语言声学的历史入口。
 
+<figure class="person-photo-figure" style="max-width:531px">
+  <a href="/n3-hearingpedia/people/zhang-jialu/report-2017-05-04.png" target="_blank" rel="noopener" aria-label="查看张家騄老师作报告的原图"><img src="/n3-hearingpedia/people/zhang-jialu/report-2017-05-04.png" alt="张家騄站在讲台旁作报告，身穿灰绿色西装，右手抬起作讲解手势" width="531" height="356" loading="lazy" /></a>
+  <figcaption>张家騄在“马大猷与中国现代声学”报告会上（2017年5月4日）。来源：<a href="https://qtgz.cas.cn/qnzj/jcdt/201705/t20170515_4652705.html" target="_blank" rel="noopener">中国科学院活动报道</a>，原图注为“张家騄老师作报告”。<a href="#ref-zjl-ioa-2017">12</a></figcaption>
+</figure>
+
 ## 生平、师承与研究环境
 
 ### 从电信训练进入语言声学
