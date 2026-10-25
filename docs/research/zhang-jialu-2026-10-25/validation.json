@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-25",
+  "publication_base": "fd587c1f5a3ddcaf74d1a2130e43fc44219c3319",
+  "scope": "Only Zhang Jialu entry, its sources, figures, research records and necessary registrations",
+  "check": {
+    "errors": 0,
+    "status": "passed",
+    "warnings": 0,
+    "hints": 0
+  },
+  "automated_tests": {
+    "status": "passed",
+    "failed": 0,
+    "total": 20
+  },
+  "build": {
+    "status": "passed",
+    "searchable_entries": 111,
+    "pages": 256
+  },
+  "verify": {
+    "knowledge_relations": 711,
+    "checked_internal_links": 22068,
+    "broken_links": 0,
+    "equations": 284,
+    "wiki_cross_links": 1203,
+    "status": "passed"
+  },
+  "article": {
+    "relations": 6,
+    "subsections": 23,
+    "references": 14,
+    "status": "draft",
+    "figures": 3,
+    "core_work_year": 1974,
+    "sections": 10,
+    "chinese_characters": 6126
+  },
+  "prior_workspace_validation": "draft-validation.json"
+}

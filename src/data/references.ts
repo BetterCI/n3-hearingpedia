@@ -1,3 +1,4 @@
+import { zhangJialuReferences } from './zhang-jialu-references.ts';
 import { fourDepthEntriesReferences } from './four-depth-entries-references.ts';
 import { cepstrumReferences } from './cepstrum-references.ts';
 import { microphoneReferences } from './microphone-references.ts';
@@ -79,6 +80,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...zhangJialuReferences,
   ...fourDepthEntriesReferences,
   ...cepstrumReferences,
   ...microphoneReferences,

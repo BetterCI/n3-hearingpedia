@@ -1,0 +1,84 @@
+{
+  "data_type": "original teaching diagrams; no historical or participant data",
+  "matrices": {
+    "A": [
+      [
+        80,
+        20,
+        0,
+        0
+      ],
+      [
+        20,
+        80,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        80,
+        20
+      ],
+      [
+        0,
+        0,
+        20,
+        80
+      ]
+    ],
+    "B": [
+      [
+        80,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        80,
+        0,
+        20
+      ],
+      [
+        20,
+        0,
+        80,
+        0
+      ],
+      [
+        0,
+        20,
+        0,
+        80
+      ]
+    ],
+    "rows": "stimulus",
+    "columns": "response",
+    "labels": [
+      "b",
+      "p",
+      "d",
+      "t"
+    ],
+    "trials_per_row": 100,
+    "accuracy_each": 0.8
+  },
+  "probability_example": {
+    "P_I": 0.8,
+    "P_F": 0.8,
+    "joint_bounds": [
+      0.6,
+      0.8
+    ],
+    "independent_joint": 0.64,
+    "P_F_given_I": 0.9,
+    "joint": 0.72,
+    "P_F_given_not_I": 0.4
+  },
+  "files": [
+    "research-framework.svg",
+    "confusion-example.svg",
+    "evaluation-chain.svg"
+  ]
+}

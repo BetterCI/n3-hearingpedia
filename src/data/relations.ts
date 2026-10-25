@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('zhang-jialu','speech-intelligibility','researches','汉语语言单位清晰度的条件关系与合成言语评价。',3),
+  link('zhang-jialu','confusion-matrix','researches','与齐士钤、吕士楠等合作，从辅音混淆进入知觉结构分析。',3),
+  link('zhang-jialu','mandarin-lexical-tone','researches','声韵调体系、普通话区别特征与机读音标表示。',3),
+  link('zhang-jialu','spectrogram','related','声学特征测量为语音分类和感知解释提供可检验的输入。',2),
+  link('zhang-jialu','formant','related','区别特征的声学依据与语音类别之间需要明确映射。',2),
+  link('zhang-jialu','hearing-aid','related','清晰度、自然度和错误诊断可为技术评价提供方法启发，临床效度另需验证。',2),
   // Four in-depth entries published together, 2026-10-12.
   link("outer-middle-ear-transmission","sound-waves-and-propagation","related","传播、复数压力与边界条件构成传声的物理基础。",3),
   link("outer-middle-ear-transmission","cochlea","mechanism","传声在耳蜗入口形成机械与液体声学驱动，入口量不等于感觉换能。",3),
