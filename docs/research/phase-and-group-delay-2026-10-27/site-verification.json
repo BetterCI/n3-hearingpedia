@@ -1,0 +1,317 @@
+{
+  "newEntry": "phase-and-group-delay",
+  "newEntryInvalidRelations": [],
+  "preExistingInvalidRelations": [
+    {
+      "source": "active-auditory-sensing",
+      "target": "auditory-cortex",
+      "type": "mechanism",
+      "note": "运动相关预测可调制皮层响应，动物回路与人体行为需分别评价。",
+      "strength": 2
+    },
+    {
+      "source": "spectrum-and-power-spectral-density",
+      "target": "frequency-resolution",
+      "type": "related",
+      "note": "频谱估计的网格和主瓣宽度与听者的行为频率分辨分别定义。",
+      "strength": 2
+    },
+    {
+      "source": "nelson-kiang",
+      "target": "phase-locking",
+      "type": "researches",
+      "note": "听神经纤维事件模式与周期编码。",
+      "strength": 2
+    },
+    {
+      "source": "eberhard-zwicker",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "从听觉行为实验到定量感知模型。",
+      "strength": 3
+    },
+    {
+      "source": "eberhard-zwicker",
+      "target": "frequency-resolution",
+      "type": "related",
+      "note": "行为选择性、频率坐标与分析频点不同。",
+      "strength": 2
+    },
+    {
+      "source": "eberhard-zwicker",
+      "target": "timbre-perception",
+      "type": "related",
+      "note": "响度轮廓、尖锐感和调制声品质。",
+      "strength": 2
+    },
+    {
+      "source": "james-l-flanagan",
+      "target": "phonetics",
+      "type": "researches",
+      "note": "发声模型、语音分析与合成连接语音学。",
+      "strength": 3
+    },
+    {
+      "source": "james-l-flanagan",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "听觉辨别为语音工程参数提供约束。",
+      "strength": 3
+    },
+    {
+      "source": "james-l-flanagan",
+      "target": "frequency-resolution",
+      "type": "related",
+      "note": "共振峰差别阈与纯音频率辨别的区别。",
+      "strength": 2
+    },
+    {
+      "source": "bertrand-delgutte",
+      "target": "nelson-kiang",
+      "type": "related",
+      "note": "听神经记录传统及博士阶段的指导。",
+      "strength": 3
+    },
+    {
+      "source": "bertrand-delgutte",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "用刺激分离和任务比较连接神经表示与知觉。",
+      "strength": 3
+    },
+    {
+      "source": "lloyd-jeffress",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "听觉行为、刺激操纵与可实现模型的比较。",
+      "strength": 3
+    },
+    {
+      "source": "albert-bregman",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "声流、顺序、音色与连续性判断的行为实验。",
+      "strength": 3
+    },
+    {
+      "source": "albert-bregman",
+      "target": "timbre-perception",
+      "type": "researches",
+      "note": "同时成分融合与顺序捕获对音色构建的作用。",
+      "strength": 3
+    },
+    {
+      "source": "albert-bregman",
+      "target": "auditory-cortex",
+      "type": "related",
+      "note": "后续研究将知觉分组连接听觉皮层响应与计算。",
+      "strength": 2
+    },
+    {
+      "source": "harvey-fletcher",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "听觉测量、任务区分与通信声学研究。",
+      "strength": 3
+    },
+    {
+      "source": "harvey-fletcher",
+      "target": "timbre-perception",
+      "type": "researches",
+      "note": "与Blackham和Stratton合作的钢琴音色分析合成。",
+      "strength": 2
+    },
+    {
+      "source": "jens-blauert",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "区分声学刺激、感知事件与不同的行为任务。",
+      "strength": 3
+    },
+    {
+      "source": "manfred-r-schroeder",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "固定幅度谱改变相位，以掩蔽任务检验听觉处理。",
+      "strength": 3
+    },
+    {
+      "source": "william-f-house",
+      "target": "cochlear-implant-sound-perception",
+      "type": "researches",
+      "note": "早期声音意识与读唇辅助需要区别于现代仅听言语理解。",
+      "strength": 3
+    },
+    {
+      "source": "william-f-house",
+      "target": "speech-audiometry",
+      "type": "related",
+      "note": "早期评价区分检测、环境声识别、仅听言语与视听联合任务。",
+      "strength": 3
+    },
+    {
+      "source": "william-f-house",
+      "target": "audiology",
+      "type": "researches",
+      "note": "临床植入与听力学行为评价、使用者体验需要共同阅读。",
+      "strength": 2
+    },
+    {
+      "source": "hermann-von-helmholtz",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "把声音成分的控制与听觉感觉比较联系起来。",
+      "strength": 3
+    },
+    {
+      "source": "hermann-von-helmholtz",
+      "target": "timbre-perception",
+      "type": "researches",
+      "note": "共振器分析与音叉合成检验持续音的成分分配。",
+      "strength": 3
+    },
+    {
+      "source": "signal-detection-theory",
+      "target": "psychoacoustics",
+      "type": "application",
+      "note": "区分感觉证据可分离程度与报告判据，是心理声学的重要理论框架。",
+      "strength": 3
+    },
+    {
+      "source": "signal-detection-theory",
+      "target": "frequency-resolution",
+      "type": "application",
+      "note": "频率辨别的刺激差异需结合任务规则、阈值标准和敏感性解释。",
+      "strength": 3
+    },
+    {
+      "source": "signal-detection-theory",
+      "target": "speech-audiometry",
+      "type": "related",
+      "note": "二类别检测模型与开放式言语识别不能直接共用正确率换算。",
+      "strength": 2
+    },
+    {
+      "source": "phonetics",
+      "target": "spectrogram",
+      "type": "related",
+      "note": "语音学通过局部时频表征观察周期性、摩擦、释放与过渡。",
+      "strength": 3
+    },
+    {
+      "source": "spectrogram",
+      "target": "frequency-resolution",
+      "type": "related",
+      "note": "分析窗的频率分离能力与听者行为分辨能力分别评价。",
+      "strength": 3
+    },
+    {
+      "source": "zhao-yuanren",
+      "target": "spectrogram",
+      "type": "researches",
+      "note": "史密森尼目录保存了1944—1945年的汉语录音、研究报告及声谱图版。",
+      "strength": 2
+    },
+    {
+      "source": "georg-von-bekesy",
+      "target": "psychoacoustics",
+      "type": "researches",
+      "note": "测听与跨感觉比较以行为任务研究感觉判断。",
+      "strength": 2
+    },
+    {
+      "source": "georg-von-bekesy",
+      "target": "nelson-kiang",
+      "type": "related",
+      "note": "机械观察与听神经单纤维记录是相邻的研究入口，不表示直接合作。",
+      "strength": 2
+    },
+    {
+      "source": "tinnitus",
+      "target": "auditory-cortex",
+      "type": "related",
+      "note": "声音体验及维持可能涉及分布式皮层网络，不能归于唯一中心。",
+      "strength": 2
+    },
+    {
+      "source": "tinnitus",
+      "target": "psychoacoustics",
+      "type": "related",
+      "note": "匹配与掩蔽研究观察感知属性，其结果不能替代功能结局。",
+      "strength": 3
+    },
+    {
+      "source": "audiology",
+      "target": "tinnitus",
+      "type": "application",
+      "note": "结合病因线索、听力需求与功能影响确定评估目标。",
+      "strength": 3
+    },
+    {
+      "source": "amplitude-modulation",
+      "target": "frequency-resolution",
+      "type": "related",
+      "note": "频率选择性与边带解析影响调制线索的利用。",
+      "strength": 3
+    }
+  ],
+  "fullSiteBuild": "blocked by missing auditory-cortex endpoint",
+  "fullSiteVerify": "blocked because build stops before generating all pages",
+  "astroCheck": "passed: 0 errors, 0 warnings; 1 pre-existing unused-variable hint",
+  "pageRender": "Astro dev page loaded; 17 references, 4 SVG figures, no KaTeX error",
+  "browserChecks": [
+    {
+      "requestedViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "clientWidth": 375,
+      "scrollWidth": 375
+    },
+    {
+      "requestedViewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "clientWidth": 1265,
+      "scrollWidth": 1265
+    }
+  ],
+  "notes": [
+    "Client width excludes 15px browser scrollbar",
+    "All four production figures loaded with nonzero naturalWidth",
+    "Full-site build errors were preserved without changing unrelated pending content",
+    "No commit, push or deployment performed"
+  ],
+  "followupRevision": {
+    "scope": "工程意义、群的双音解释及窄带条件",
+    "chineseCharacters": 8678,
+    "displayEquations": 15,
+    "astroCheck": "passed: 0 errors, 0 warnings; same pre-existing hint",
+    "build": "same pre-existing auditory-cortex endpoint blocks full-site rendering",
+    "verify": "blocked by incomplete full-site build",
+    "preview": "reloaded in browser: new three sections found, 0 KaTeX errors, client and scroll width both 503 px",
+    "twoToneIdentityMaximumError": 4.923839114212569e-14
+  },
+  "geometryFigureAddition": {
+    "file": "secant-tangent.svg",
+    "placement": "Figure 2, after secant/tangent definition",
+    "figures": 5,
+    "mathErrorsInPreview": 0,
+    "previewImageLoaded": true,
+    "previewNaturalWidth": 960,
+    "previewClientWidth": 585,
+    "previewScrollWidth": 585,
+    "astroCheck": "passed: 0 errors, 0 warnings; same pre-existing hint",
+    "fullSiteBuild": "unchanged pre-existing missing auditory-cortex endpoint",
+    "fullSiteVerify": "blocked by incomplete full-site build"
+  },
+  "recordScope": "Historical draft-workspace checks; current clean-main integration is in publication-integration.json.",
+  "publicationIntegration": {
+    "base": "96c3e8b1bca3ae47addbc518b0e8885f84f2de1c",
+    "check": "passed; 0 errors, 0 warnings, 0 hints",
+    "build": "passed",
+    "verify": "passed; 0 broken links",
+    "figures": 5
+  }
+}

@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: 相位延迟与群延迟的定义、测量及听觉应用
+
+Title: Obtaining reliable phase-gradient delays from otoacoustic emission data
+Abstract: Reflection-source otoacoustic emission phase-gradient delays are widely used to obtain noninvasive estimates of cochlear function and properties, such as the sharpness of mechanical tuning and its variation along the length of the cochlear partition. Although different data-processing strategies are known to yield different delay estimates and trends, their relative reliability has not been established. This paper uses in silico experiments to evaluate six methods for extracting delay trends from reflection-source otoacoustic emissions (OAEs). The six methods include both previously published procedures (e.g., phase smoothing, energy-weighting, data exclusion based on signal-to-noise ratio) and novel strategies (e.g., peak-picking, all-pass factorization). Although some of the methods perform well (e.g., peak-picking), others introduce substantial bias (e.g., phase smoothing) and are not recommended. In addition, since standing waves caused by multiple internal reflection can complicate the interpretation and compromise the application of OAE delays, this paper develops and evaluates two promising signal-processing strategies, the first based on time-frequency filtering using the c
+Keywords/concepts:
+Venue: The Journal of the Acoustical Society of America
+Year: 2012
+Cited by: 62
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

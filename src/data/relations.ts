@@ -15,6 +15,18 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('phase-and-group-delay','pure-and-complex-tones','related','从正弦相位和周期歧义进入系统延迟的定义。',3),
+  link('phase-and-group-delay','spectrum-and-power-spectral-density','related','复频率响应的相位携带幅度谱不能独立确定的时间信息。',3),
+  link('phase-and-group-delay','temporal-envelope','related','在明确的局部窄带条件下，群延迟近似描述包络移动。',3),
+  link('phase-and-group-delay','temporal-fine-structure','related','相位延迟关联载波相位，不能自动代替整体波形的时间平移。',3),
+  link('phase-and-group-delay','auditory-filter','related','频率选择性、相位响应和滤波建立过程需要共同解释。',3),
+  link('phase-and-group-delay','otoacoustic-emissions','related','发射相位梯度用于研究耳蜗，但受扫频协议、参照和源混合约束。',3),
+  link('phase-and-group-delay','hearing-aid','related','处理声与直接声干涉及双耳差异连接延迟、音质与空间线索。',3),
+  link('phase-and-group-delay','interaural-time-difference','related','左右处理链的相位与群延迟差可能改变耳间时间关系。',3),
+  link('phase-and-group-delay','electroencephalography','related','滤波相位、时间扩散与峰潜伏期解释相联系。',2),
+  link('phase-and-group-delay','vocoder','related','分析滤波器的通道间延迟和因果实现影响刺激比较。',2),
+  link('phase-and-group-delay','room-acoustics','related','反射与直达声叠加形成频率相关幅度和相位结构。',2),
+  link('jens-blauert','phase-and-group-delay','researches','与P. Laws研究电声群延迟偏差及心理声学可察觉性。',2),
   link('zhang-jialu','speech-intelligibility','researches','汉语语言单位清晰度的条件关系与合成言语评价。',3),
   link('zhang-jialu','confusion-matrix','researches','与齐士钤、吕士楠等合作，从辅音混淆进入知觉结构分析。',3),
   link('zhang-jialu','mandarin-lexical-tone','researches','声韵调体系、普通话区别特征与机读音标表示。',3),

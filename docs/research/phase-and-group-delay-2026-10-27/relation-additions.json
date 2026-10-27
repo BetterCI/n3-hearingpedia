@@ -1,0 +1,86 @@
+[
+  {
+    "source": "phase-and-group-delay",
+    "target": "pure-and-complex-tones",
+    "type": "related",
+    "note": "从正弦相位和周期歧义进入系统延迟的定义。",
+    "strength": 3
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "spectrum-and-power-spectral-density",
+    "type": "related",
+    "note": "复频率响应的相位携带幅度谱不能独立确定的时间信息。",
+    "strength": 3
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "temporal-envelope",
+    "type": "related",
+    "note": "在明确的局部窄带条件下，群延迟近似描述包络移动。",
+    "strength": 3
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "temporal-fine-structure",
+    "type": "related",
+    "note": "相位延迟关联载波相位，不能自动代替整体波形的时间平移。",
+    "strength": 3
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "auditory-filter",
+    "type": "related",
+    "note": "频率选择性、相位响应和滤波建立过程需要共同解释。",
+    "strength": 3
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "otoacoustic-emissions",
+    "type": "related",
+    "note": "发射相位梯度用于研究耳蜗，但受扫频协议、参照和源混合约束。",
+    "strength": 3
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "hearing-aid",
+    "type": "related",
+    "note": "处理声与直接声干涉及双耳差异连接延迟、音质与空间线索。",
+    "strength": 3
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "interaural-time-difference",
+    "type": "related",
+    "note": "左右处理链的相位与群延迟差可能改变耳间时间关系。",
+    "strength": 3
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "electroencephalography",
+    "type": "related",
+    "note": "滤波相位、时间扩散与峰潜伏期解释相联系。",
+    "strength": 2
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "vocoder",
+    "type": "related",
+    "note": "分析滤波器的通道间延迟和因果实现影响刺激比较。",
+    "strength": 2
+  },
+  {
+    "source": "phase-and-group-delay",
+    "target": "room-acoustics",
+    "type": "related",
+    "note": "反射与直达声叠加形成频率相关幅度和相位结构。",
+    "strength": 2
+  },
+  {
+    "source": "jens-blauert",
+    "target": "phase-and-group-delay",
+    "type": "researches",
+    "note": "与P. Laws研究电声群延迟偏差及心理声学可察觉性。",
+    "strength": 2
+  }
+]

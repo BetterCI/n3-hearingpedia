@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "96c3e8b1bca3ae47addbc518b0e8885f84f2de1c",
+  "scope": "Only phase-and-group-delay entry and supporting publication assets/registrations; original dirty workspace preserved.",
+  "pnpm_install": "offline frozen-lockfile passed",
+  "pnpm_check": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "workflow_regression_tests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "pnpm_build": "passed, search indexed 112 concepts",
+  "pnpm_verify": {
+    "pages": 258,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 22290,
+    "equations": 299,
+    "searchableConcepts": 112,
+    "wikiConcepts": 112,
+    "knowledgeAreas": 7,
+    "typedRelationships": 723,
+    "wikiCrossLinks": 1220,
+    "chineseCharacters": 755084,
+    "brokenLinks": 0
+  },
+  "entry": {
+    "slug": "phase-and-group-delay",
+    "knowledge_area": "sound",
+    "kind": "quantity",
+    "chinese_characters": 8975,
+    "body_characters": 17043,
+    "sections": 11,
+    "subsections": 26,
+    "reference_ids": [
+      "pd-smith-2007",
+      "pd-mathworks-delay",
+      "pd-scipy-group-delay",
+      "pd-scipy-filtfilt",
+      "pd-mne-filtering",
+      "widmann-2015",
+      "blauert-group-delay",
+      "pd-liski-2021",
+      "pd-shera-guinan-2003",
+      "pd-shera-tuning-2010",
+      "pd-shera-bergevin-2012",
+      "oae-delay-paradigms-2000",
+      "pd-roth-2024",
+      "pd-susonn-2024",
+      "pd-susonn-2026",
+      "pd-xia-2024",
+      "pd-farina-2000"
+    ],
+    "wiki_links": [
+      "spectrum-and-power-spectral-density",
+      "temporal-envelope",
+      "temporal-fine-structure",
+      "otoacoustic-emissions",
+      "hearing-aid",
+      "cochlea",
+      "auditory-filter",
+      "jens-blauert",
+      "interaural-time-difference",
+      "auditory-evoked-potential",
+      "electroencephalography",
+      "pure-and-complex-tones",
+      "room-acoustics",
+      "vocoder",
+      "temporal-limits-encoder"
+    ],
+    "status": "draft",
+    "depth": "in-depth",
+    "figures": [
+      "01-pure-delay.svg",
+      "secant-tangent.svg",
+      "02-allpass-delay.svg",
+      "03-carrier-envelope.svg",
+      "04-two-paths.svg"
+    ],
+    "numbered_citations": 38,
+    "relationships_added": 12,
+    "preview": "docs/drafts/phase-and-group-delay-preview.html",
+    "display_equations": 15,
+    "schema": "passed against src/content.config.ts",
+    "validation_scope": "Entry content, references, math, assets, cross-links, relations and learning path. Full-site and browser validation recorded separately."
+  },
+  "built_entry": {
+    "katex_errors": 0,
+    "geometry_figure": true,
+    "group_narrowband_engineering_sections": true
+  },
+  "prior_workspace_checks": "site-verification.json records historical checks before latest-main integration.",
+  "review_status": "draft; no professional review asserted"
+}

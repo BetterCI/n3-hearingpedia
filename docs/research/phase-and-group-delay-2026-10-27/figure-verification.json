@@ -1,0 +1,132 @@
+{
+  "figures": [
+    {
+      "file": "01-pure-delay.svg",
+      "preview": "01-pure-delay.png",
+      "nature": "原创解析/数值教学图，非实测",
+      "parameters": {
+        "delay_s": 0.002,
+        "frequency_step_Hz": 5,
+        "phase_at_1000Hz_rad": -12.566370614359172,
+        "max_delay_error_s": 6.765421556309548e-17
+      }
+    },
+    {
+      "file": "secant-tangent.svg",
+      "preview": "secant-tangent.png",
+      "nature": "原创解析/数值教学图，非实测",
+      "parameters": {
+        "reference": "User-supplied conceptual secant/tangent layout; independently calculated and redrawn, not a copy of the raster image",
+        "vertical_axis": "negative unwrapped phase (rad), positive upward",
+        "horizontal_axis": "angular frequency (rad/s), positive rightward",
+        "model": "H(jw)=(wn^2-w^2-j*2*zeta*wn*w)/(wn^2-w^2+j*2*zeta*wn*w)",
+        "wn_rad_per_s": 6283.185307179586,
+        "zeta": 0.5,
+        "omega0_rad_per_s": 5340.707511102648,
+        "phase_delay_s": 0.0004700631531862114,
+        "group_delay_s": 0.000685784231144634,
+        "tangent_finite_difference_error_s": 8.611080598575072e-14,
+        "ticks_omitted_for_conceptual_explanation": true,
+        "clinical_or_device_norm": false
+      }
+    },
+    {
+      "file": "02-allpass-delay.svg",
+      "preview": "02-allpass-delay.png",
+      "nature": "原创解析/数值教学图，非实测",
+      "parameters": {
+        "a_rad_per_s": 6283.185307179586,
+        "model": "H(jw)=(a-jw)/(a+jw)",
+        "phase_delay_at_1000Hz_ms": 0.25,
+        "group_delay_at_1000Hz_ms": 0.15915494309189535,
+        "unity_magnitude": true
+      }
+    },
+    {
+      "file": "03-carrier-envelope.svg",
+      "preview": "03-carrier-envelope.png",
+      "nature": "原创解析/数值教学图，非实测",
+      "parameters": {
+        "fs_Hz": 192000,
+        "record_samples": 32768,
+        "carrier_Hz": 1000,
+        "gaussian_sigma_s": 0.0015,
+        "same_allpass_as_figure3": true,
+        "finite_record_fft": true,
+        "periodic_boundary_negligible_due_to_long_zero_tails": true,
+        "input_normalization": "Gaussian complex-envelope peak = 1; no independent output scaling",
+        "relative_L2_error_of_narrowband_approximation": 0.004881744784435242,
+        "sampled_envelope_peak_delay_ms": 0.16145833333333334,
+        "energy_relative_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "file": "04-two-paths.svg",
+      "preview": "04-two-paths.png",
+      "nature": "原创解析/数值教学图，非实测",
+      "parameters": {
+        "direct_gain": 1,
+        "delayed_gain": 0.8,
+        "path_delay_s": 0.005,
+        "comb_spacing_Hz": 200.0,
+        "notch_at_100Hz_delay_ms": -19.99999999999997,
+        "magnitude_not_independently_normalized": true,
+        "ear_canal_model": false,
+        "maximum_finite_difference_error_s": 1.4802646238487593e-06
+      }
+    }
+  ],
+  "two_tone_check": {
+    "frequencies_Hz": [
+      950.0,
+      1050.0
+    ],
+    "max_waveform_identity_error": 4.923839114212569e-14,
+    "group_delay_limit_ms": 0.15915494309189535,
+    "difference_quotient_convergence": [
+      {
+        "frequency_spacing_Hz": 100.0,
+        "finite_difference_delay_ms": 0.15922120787123353,
+        "absolute_error_ms": 6.626477933819393e-05
+      },
+      {
+        "frequency_spacing_Hz": 10.0,
+        "finite_difference_delay_ms": 0.15915560623251715,
+        "absolute_error_ms": 6.63140621787791e-07
+      },
+      {
+        "frequency_spacing_Hz": 1.0,
+        "finite_difference_delay_ms": 0.15915494972334063,
+        "absolute_error_ms": 6.63144528439269e-09
+      }
+    ]
+  },
+  "digital_FIR_check": {
+    "fs_Hz": 48000,
+    "taps": 97,
+    "order": 96,
+    "frequencies_Hz": [
+      100.0,
+      500.0,
+      1000.0,
+      2000.0
+    ],
+    "group_delay_samples": [
+      48.0,
+      47.999999999999964,
+      48.00000000000001,
+      48.00000000000004
+    ],
+    "group_delay_ms": [
+      1.0,
+      0.9999999999999991,
+      1.0000000000000002,
+      1.0000000000000009
+    ]
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "title": "相位延迟与群延迟",
+  "english": "Phase Delay and Group Delay",
+  "slug": "phase-and-group-delay",
+  "summary": "从相位响应解释相位延迟与群延迟，连接载波和包络、全通与线性相位滤波、相位展开及测量，并讨论耳声发射、助听器、双耳同步和神经记录中的用途与边界。",
+  "categories": [
+    "acoustics",
+    "signal-processing",
+    "psychoacoustics",
+    "research-methods"
+  ],
+  "tags": [
+    "相位响应",
+    "相位展开",
+    "群延迟",
+    "相位延迟",
+    "全通滤波器",
+    "线性相位",
+    "耳声发射",
+    "处理延迟"
+  ],
+  "aliases": [
+    "相位延迟",
+    "群延迟",
+    "群时延",
+    "相时延",
+    "相位时延",
+    "相位梯度延迟",
+    "phase delay",
+    "group delay",
+    "phase-gradient delay"
+  ],
+  "level": [
+    "undergraduate",
+    "graduate"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "last_updated": "2026-10-27",
+  "literature_checked_at": "2026-10-27",
+  "authors": [
+    "AI 辅助编写"
+  ],
+  "reviewer": null,
+  "reviewed_at": null,
+  "knowledge_area": "sound",
+  "kind": "quantity",
+  "key_facts": [
+    {
+      "label": "对象",
+      "value": "系统复频率响应的相位随频率的变化"
+    },
+    {
+      "label": "相位延迟",
+      "value": "相位的负值除以角频率；依赖所选相位分支"
+    },
+    {
+      "label": "群延迟",
+      "value": "连续相位对角频率导数的负值"
+    },
+    {
+      "label": "单位",
+      "value": "以rad/s求导得秒；以rad/sample求导得样本数"
+    },
+    {
+      "label": "直观解释",
+      "value": "窄带且响应变化适当缓慢时，分别关联载波与包络"
+    }
+  ],
+  "references": [
+    "pd-smith-2007",
+    "pd-mathworks-delay",
+    "pd-scipy-group-delay",
+    "pd-scipy-filtfilt",
+    "pd-mne-filtering",
+    "widmann-2015",
+    "blauert-group-delay",
+    "pd-liski-2021",
+    "pd-shera-guinan-2003",
+    "pd-shera-tuning-2010",
+    "pd-shera-bergevin-2012",
+    "oae-delay-paradigms-2000",
+    "pd-roth-2024",
+    "pd-susonn-2024",
+    "pd-susonn-2026",
+    "pd-xia-2024",
+    "pd-farina-2000"
+  ],
+  "order": 6.3
+}
