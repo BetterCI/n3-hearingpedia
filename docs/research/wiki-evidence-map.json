@@ -1,6 +1,6 @@
 {
   "version": "0.5",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
   "relations": 723,
   "entries": [
@@ -3245,10 +3245,10 @@
       "slug": "spectrogram",
       "knowledge_area": "sound",
       "kind": "representation",
-      "chinese_characters": 8877,
-      "body_characters": 17739,
+      "chinese_characters": 9366,
+      "body_characters": 18496,
       "sections": 11,
-      "subsections": 29,
+      "subsections": 30,
       "reference_ids": [
         "sp-praat-view",
         "sp-praat-config",
@@ -3276,7 +3276,8 @@
         "sp-playback-background",
         "sp-adventure-film",
         "sp-potter-1945",
-        "sp-playback-history"
+        "sp-playback-history",
+        "sp-webaudio-spec"
       ],
       "wiki_links": [
         "pitch-perception",

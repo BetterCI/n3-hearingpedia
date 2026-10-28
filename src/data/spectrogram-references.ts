@@ -1,6 +1,15 @@
 import type { Reference } from './references';
 
 export const spectrogramReferences: Record<string, Reference> = {
+  "sp-webaudio-spec": {
+    "title": "Web Audio API: AnalyserNode and FFT windowing and smoothing over time",
+    "authors": "W3C Audio Working Group",
+    "year": "2026（2026-10-28核验）",
+    "publication": "Web Audio API specification",
+    "url": "https://webaudio.github.io/web-audio-api/#AnalyserNode",
+    "access": "documentation",
+    "supports": "本站实时实验的FFT点数、Blackman窗、零频谱时间平滑与归一化谱幅分贝；与PSD及校准声压级区分。"
+  },
   "sp-praat-view": {
     "title": "Intro 3.1. Viewing a spectrogram",
     "authors": "Paul Boersma and David Weenink",

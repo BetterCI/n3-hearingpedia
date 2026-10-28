@@ -1,0 +1,27 @@
+---
+import { url } from '../lib/paths';
+---
+<section class="spectrogram-launch" aria-label="实时语谱图实验" data-pagefind-ignore>
+  <div class="launch-copy">
+    <span class="launch-eyebrow"><i></i> INTERACTIVE / 互动实验</span>
+    <h2>让声音，显出形状。</h2>
+    <p>用你的声音画出谐波与共振。探索实时语谱图，也可以先从合成声音开始。</p>
+    <a href={url('lab/spectrogram')} target="_blank" rel="noopener" class="launch-button">打开实时语谱图 <span aria-hidden="true">↗</span><span class="launch-sr">（在新页面打开）</span></a>
+    <small>麦克风 · 本地音频 · 合成演示 / 在浏览器本地分析</small>
+  </div>
+  <div class="launch-art" aria-hidden="true">
+    <svg viewBox="0 0 360 210" preserveAspectRatio="xMidYMid slice">
+      <defs><linearGradient id="sp-launch-gradient"><stop stop-color="#5c3ef4"/><stop offset=".48" stop-color="#d04fff"/><stop offset="1" stop-color="#77ffdc"/></linearGradient><filter id="sp-launch-glow"><feGaussianBlur stdDeviation="3"/></filter></defs>
+      <g stroke="#46405f" stroke-width=".5" opacity=".5"><path d="M0 40H360M0 80H360M0 120H360M0 160H360M60 0V210M120 0V210M180 0V210M240 0V210M300 0V210"/></g>
+      <g fill="none" stroke="url(#sp-launch-gradient)" stroke-width="5" filter="url(#sp-launch-glow)"><path d="M0 180Q80 180 120 154T230 158T360 135M0 150Q80 150 120 110T230 118T360 75M0 120Q80 120 120 66T230 78T360 15M0 90Q80 90 120 22T230 38T360 -45"/></g>
+      <g fill="none" stroke="url(#sp-launch-gradient)" stroke-width="1.4"><path d="M0 180Q80 180 120 154T230 158T360 135M0 150Q80 150 120 110T230 118T360 75M0 120Q80 120 120 66T230 78T360 15M0 90Q80 90 120 22T230 38T360 -45"/></g>
+      <path d="M328 0V210" stroke="#92ffe2" opacity=".6"/>
+      <text x="16" y="22" fill="#968cae" font-size="9" font-family="monospace">FREQUENCY ↑</text><text x="247" y="197" fill="#968cae" font-size="9" font-family="monospace">TIME →</text>
+    </svg>
+    <span>声音的时频结构 · 示意图</span>
+  </div>
+</section>
+<style>
+.spectrogram-launch{display:grid;grid-template-columns:1.25fr 1fr;overflow:hidden;background:#111020;color:#f5f3ff;border:1px solid #39304d;border-radius:14px;margin:25px 0 32px}.launch-copy{padding:28px}.launch-eyebrow{display:flex;align-items:center;gap:8px;font-size:9px;letter-spacing:.12em;color:#b3a4d4}.launch-eyebrow i{width:5px;height:5px;border-radius:50%;background:#8affda;box-shadow:0 0 10px #8affda}.launch-copy h2{font-size:24px;margin:15px 0 10px;letter-spacing:-.03em}.launch-copy p{font-size:12px;line-height:1.9;color:#bcb5d0;max-width:320px}.launch-button{display:inline-flex;align-items:center;gap:25px;background:#d7c6ff;color:#25183f;border-radius:7px;padding:10px 16px;font-size:12px;font-weight:600;margin-top:19px}.launch-button:hover{background:#e9dfff}.launch-copy small{display:block;margin-top:12px;font-size:9px;color:#a69bbd}.launch-art{position:relative;min-width:0;background:radial-gradient(ellipse at center,#32204d70,transparent 75%);display:flex;align-items:center}.launch-art svg{width:100%;height:210px}.launch-art>span{position:absolute;bottom:13px;right:16px;font-size:9px;color:#a69bbd}.launch-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media(max-width:600px){.spectrogram-launch{grid-template-columns:1fr}.launch-copy{padding:24px}.launch-art{height:120px}.launch-art svg{height:120px}.launch-copy h2{font-size:23px}}
+</style>

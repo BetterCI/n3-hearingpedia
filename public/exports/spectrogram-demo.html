@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="zh-CN" data-pagefind-ignore="all">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c0c16" />
+    <meta name="description" content="在浏览器中探索实时语谱图。麦克风、本地音频与合成声音，连接听觉科学与声音的时频结构。" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTgiIGZpbGw9IiMyNzIzNDQiLz48dGV4dCB4PSIxMSIgeT0iNDUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0MCIgZm9udC13ZWlnaHQ9IjY1MCIgZmlsbD0iI2ZmZiI+bjwvdGV4dD48dGV4dCB4PSI0MCIgeT0iMjQiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2M0YjRmZiI+MzwvdGV4dD48L3N2Zz4K" />
+    <title>实时语谱图 Spectrogram Lab · n³ Hearingpedia</title>
+  <style>:root{color-scheme:dark;--bg:#0c0c16;--panel:#12121e;--line:#2b293d;--text:#f3f0ff;--muted:#a39db8;--mint:#92f5d4;--violet:#c5acff;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);font-synthesis:none}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 73% 0,#32224736,transparent 50%);font-size:14px;line-height:1.7}a{color:inherit;text-decoration:none}button,input,select{font:inherit}button,a,input,select{touch-action:manipulation}button,.file-button{cursor:pointer}button:disabled{cursor:default;opacity:.35}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--mint);outline-offset:5px}button{transition:background .15s,border-color .15s}button:hover:not(:disabled),.file-button:hover{border-color:#82739e;background:#30263e}h1,h2,h3,p{margin:0}::selection{background:#6a4795}.skip{position:fixed;top:-80px;left:16px;background:var(--mint);color:#10151a;padding:10px;z-index:20}.skip:focus{top:10px}.lab-shell{max-width:1440px;padding:0 48px;margin:auto}.lab-nav{height:88px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.lab-brand{display:flex;align-items:center;gap:10px;letter-spacing:-.025em;font-size:16px;font-weight:550}.lab-brand b{font-size:32px;line-height:1;letter-spacing:-.09em;color:#dfcfff;margin-right:4px}.lab-brand span{font-size:10px;letter-spacing:.14em;color:#8f839f;margin-left:14px;font-weight:400}.lab-nav>a:last-child{font-size:11px;color:#bfb4d3}.lab-heading{display:flex;justify-content:space-between;align-items:center;padding:48px 0 34px;gap:24px}.eyebrow{font-size:9px;letter-spacing:.19em;color:var(--mint);font-weight:550}.eyebrow span{margin-left:18px;letter-spacing:.06em;color:#958aa8}h1{font-size:52px;font-weight:550;letter-spacing:-.055em;line-height:1.3;margin-top:13px}h1>span{color:var(--mint)}h1 small{font-size:24px;font-weight:350;color:#897e9f;letter-spacing:-.025em;margin-left:23px}.intro{color:var(--muted);font-size:12px;margin-top:13px}.local-badge{font-size:11px;color:#c7c0d8;border:1px solid #343144;background:#171522;border-radius:30px;padding:8px 15px;white-space:nowrap;display:flex;align-items:center;gap:8px}.local-badge i,.live-status i{width:5px;height:5px;background:var(--mint);border-radius:50%;box-shadow:0 0 9px #92f5d450}.local-badge span{color:#90859f;border-left:1px solid #44394e;padding-left:10px;font-size:10px}.instrument{border:1px solid #3b324e;border-radius:13px;background:var(--panel);overflow:hidden;box-shadow:0 20px 100px #0003}.instrument-bar{height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;border-bottom:1px solid var(--line)}.live-status{display:flex;align-items:center;gap:9px;font:10px ui-monospace,Consolas,monospace;letter-spacing:.05em;color:#aba1be}.live-status[data-state=running]{color:var(--mint)}.live-status[data-state=idle] i{background:#7c728f;box-shadow:none}.live-status[data-state=paused] i{background:#ffd388}.live-status[data-state=error] i{background:#ff95a7}.view-tools{display:flex;gap:18px}.view-tools button{border:0;background:transparent;color:#b6acc7;font-size:10px;padding:6px 0}.visualizer{height:clamp(280px,32vw,445px);position:relative;background:#090b14}.visualizer>canvas{display:block;width:100%;height:100%}.start-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;background:radial-gradient(ellipse,#171426d9,#0b0d16aa);text-align:center;padding:20px}.start-overlay[hidden]{display:none}.start-symbol{font-size:64px;line-height:1.2;color:#ccb5ff;text-shadow:0 0 40px #bb77ff60;margin-bottom:12px}.start-overlay strong{font-size:20px;font-weight:450;letter-spacing:.02em}.start-overlay p{font-size:12px;color:#a79bbd;margin-top:10px}.start-overlay button{background:#d2bdff;border:1px solid #d2bdff;border-radius:7px;color:#20162f;padding:10px 23px;margin-top:23px;font-size:12px;font-weight:600}.start-overlay button:hover{background:#e5d6ff}.start-overlay small{color:#91859f;font-size:9px;margin-top:11px}.plot-legend{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 22px;font-size:9px;color:#c0b5d1;border-top:1px solid #242131}.plot-legend b{font-weight:400;color:#8c819e;margin-left:7px}.color-key{display:flex;align-items:center;gap:8px;font-family:ui-monospace,monospace;font-size:9px}.color-key i{display:block;width:112px;height:5px;border-radius:4px;background:linear-gradient(90deg,#090b14,#402775,#b53fbc,#f080b5,#9dffe2)}.scope-row{display:grid;grid-template-columns:1.15fr 1fr 210px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.scope{position:relative;border-right:1px solid var(--line);padding:10px 18px;height:98px;min-width:0}.scope>span{font:8px ui-monospace,monospace;letter-spacing:.08em;color:#9488a9;position:absolute;top:10px;left:18px}.scope canvas{display:block;width:100%;height:62px;margin-top:16px}.signal-stats{display:flex;align-items:center;justify-content:space-around;padding:10px;gap:12px}.signal-stats>div>span{display:block;color:#9488a9;font-size:9px}.signal-stats strong{display:block;font:21px ui-monospace,Consolas,monospace;color:#dfd0f9;margin-top:7px}.signal-stats small{font-size:9px;color:#8d829f}.transport{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px 22px 0}.source-actions,.playback-actions{display:flex;align-items:center;gap:8px}.transport button,.file-button{display:inline-flex;align-items:center;justify-content:center;background:#1b1829;color:#d7cee6;border:1px solid #3d324f;border-radius:6px;font-size:11px;padding:9px 13px;white-space:nowrap}.transport .primary{background:#d1baff;border-color:#d1baff;color:#241834;font-weight:600}.transport .primary:hover:not(:disabled){background:#e5d5ff}.file-button input{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}.file-button:focus-within{outline:2px solid var(--mint);outline-offset:4px}.listen{font-size:10px;color:#b4a8c5;display:flex;align-items:center;gap:4px;margin-right:10px;white-space:nowrap}.listen input{accent-color:var(--mint)}.status-message{font-size:10px;color:#a49ab6;padding:11px 22px 17px;min-height:44px;overflow-wrap:anywhere}.status-message.error{color:#ffadba}.controls{display:grid;grid-template-columns:220px 1fr;gap:32px;border-bottom:1px solid var(--line);padding:34px 0}.control-title>span,.analysis-info>span{font:8px ui-monospace,monospace;letter-spacing:.12em;color:#a99abf}.control-title h2{font-size:19px;letter-spacing:-.03em;font-weight:500;margin-top:9px}.control-title p{font-size:11px;color:var(--muted);margin-top:10px}.control-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px 18px}.control-grid>label{font-size:10px;color:#b4a7c9;min-width:0}.control-grid select{display:block;width:100%;margin-top:8px;appearance:auto;background:#191623;color:#e0d6ed;border:1px solid #3a3049;border-radius:5px;padding:9px 7px;font-size:10px;min-height:36px}.range-label output{float:right;font-family:ui-monospace,monospace;color:#e7d2ff}.range-label input{width:100%;display:block;accent-color:#c4a1ff;height:25px;margin:13px 0 0}.analysis-info p{font-size:9px;color:#b0a4c3;line-height:1.9;margin-top:6px}.field-notes{padding:36px 0}.notes-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:23px}.notes-heading .eyebrow{color:#9c8cb1;font-size:8px}.notes-heading h2{font-size:17px;letter-spacing:-.02em;font-weight:450}.note-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}.note-grid article{border-top:1px solid #49405b;padding-top:15px}.note-grid article>span{font:9px ui-monospace,monospace;color:#bda1e1}.note-grid h3{font-size:13px;font-weight:500;letter-spacing:0;margin:11px 0 9px}.note-grid p{font-size:11px;color:#a99dbb;line-height:1.9}.method-notes{font-size:11px;color:#a99dbb;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0}.method-notes summary{cursor:pointer;color:#c5b7d9}.method-notes>div{max-width:1000px;padding-top:14px}.method-notes p{margin-bottom:10px;line-height:1.9}.method-notes a{color:#d0b6f8;text-decoration:underline;text-underline-offset:3px}.lab-footer{display:flex;justify-content:space-between;gap:15px;padding:26px 0 30px;color:#8f829f;font-size:9px}.lab-footer a{color:#bba6d4}.lab-shell:fullscreen{max-width:none;background:var(--bg);overflow:auto;padding:0 4vw}.lab-shell:fullscreen .visualizer{height:45vh}
+@media(min-width:1600px){.lab-shell{max-width:1500px}.visualizer{height:460px}}
+@media(max-width:1100px){.lab-shell{padding:0 28px}.controls{grid-template-columns:1fr;gap:22px}.control-title p{margin-top:5px}.scope-row{grid-template-columns:1fr 1fr 170px}.signal-stats strong{font-size:17px}.transport{flex-wrap:wrap}.control-grid{gap:18px 14px}}
+@media(max-width:700px){.lab-shell{padding:0 16px}.lab-nav{height:68px}.lab-brand{font-size:13px}.lab-brand span{margin-left:4px}.lab-nav>a:last-child{font-size:10px}.lab-heading{padding:30px 0 24px;display:block}.local-badge{display:inline-flex;margin-top:18px;padding:5px 12px;font-size:10px}.eyebrow{font-size:8px;letter-spacing:.12em}.eyebrow span{margin-left:10px}h1{font-size:38px}h1 small{font-size:18px;margin-left:13px}.intro{font-size:11px;line-height:1.9;max-width:360px}.visualizer{height:310px}.instrument-bar{padding:0 14px}.plot-legend{padding:10px 12px;flex-wrap:wrap;gap:8px}.plot-legend b{margin-left:2px}.color-key i{width:60px}.scope-row{grid-template-columns:1fr 1fr}.scope{padding:10px;height:85px}.scope canvas{height:49px}.scope>span{font-size:7px;left:10px}.scope:nth-child(2){border-right:0}.signal-stats{grid-column:1/-1;border-top:1px solid var(--line);padding:12px;justify-content:flex-start;gap:35px}.signal-stats>div{display:flex;align-items:center;gap:10px}.signal-stats strong{font-size:16px;margin-top:0}.signal-stats>div>span{font-size:9px}.transport{padding:14px 12px 0;gap:12px}.transport button,.file-button{font-size:10px;padding:8px 10px}.source-actions{gap:6px;flex-wrap:wrap}.playback-actions{width:100%;justify-content:flex-end}.listen{margin-right:auto}.status-message{padding:10px 12px 14px}.start-overlay strong{font-size:17px}.start-overlay p{font-size:10px}.start-symbol{font-size:52px}.control-grid{grid-template-columns:1fr 1fr;gap:18px 12px}.controls{padding:26px 0}.control-title h2{font-size:18px}.notes-heading{display:block}.notes-heading h2{margin-top:10px}.note-grid{grid-template-columns:1fr;gap:22px}.note-grid article{padding-top:12px}.note-grid h3{margin-top:8px}.lab-footer{flex-wrap:wrap;font-size:8px}.lab-footer>span:last-child{display:none}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style></head>
+  <body>
+    <a class="skip" href="#main">跳到实验</a>
+    <div class="lab-shell" id="lab-shell">
+      <header class="lab-nav"><a class="lab-brand" href="https://betterci.github.io/n3-hearingpedia/"><b>n³</b> Hearingpedia <span>/ LAB</span></a><a href="spectrogram.html">阅读深度词条 <span aria-hidden="true">↗</span></a></header>
+      <main id="main">
+        <div class="lab-heading"><div><p class="eyebrow">SOUND, MADE VISIBLE <span>实验 01 / 时频分析</span></p><h1>看见声音<span>。</span><small>Spectrogram</small></h1><p class="intro">一句话，一声口哨，一段旋律。让耳边的声音，在时间与频率之间留下轨迹。</p></div><div class="local-badge"><i></i> 本地分析 <span>音频不上传</span></div></div>
+
+        <section class="instrument" aria-label="实时语谱分析仪">
+          <div class="instrument-bar"><div class="live-status" id="live-status" data-state="idle"><i></i><span id="state-label">READY / 准备就绪</span></div><div class="view-tools"><button id="snapshot" type="button">↓ 保存图像</button><button id="fullscreen" type="button">⛶ 全屏</button></div></div>
+          <div class="visualizer" id="visualizer">
+            <canvas id="spectrogram" role="img" aria-label="滚动语谱图，横轴为最近数秒，纵轴为频率，颜色表示谱幅度">请使用支持 Canvas 的浏览器。</canvas>
+            <div class="start-overlay" id="start-overlay"><div class="start-symbol" aria-hidden="true">∿</div><strong>每一种声音，都有自己的纹理。</strong><p>选择合成演示即可开始，也可以开启麦克风。</p><button id="quick-start" type="button">▷ 开始探索</button><small>内置合成声音 · 无需麦克风权限</small></div>
+          </div>
+          <div class="plot-legend"><span>频率 ↑ <b id="axis-caption">对数刻度 · Hz</b></span><div class="color-key"><span id="db-floor">−90 dB</span><i id="color-key"></i><span>−15 dB</span></div><span>时间 → <b id="time-caption">最近 8 s</b></span></div>
+          <div class="scope-row"><div class="scope"><span>WAVEFORM / 波形</span><canvas id="waveform" role="img" aria-label="当前声音的时域波形"></canvas></div><div class="scope"><span>SPECTRUM / 当前频谱</span><canvas id="spectrum" role="img" aria-label="当前声音的频谱切片"></canvas></div><div class="signal-stats"><div><span>最强谱峰</span><strong id="peak-stat">— <small>Hz</small></strong></div><div><span>数字峰值</span><strong id="level-stat">— <small>dBFS</small></strong></div></div></div>
+          <div class="transport"><div class="source-actions"><button class="primary" id="microphone" type="button">◉ 开启麦克风</button><button id="demo" type="button">▷ 合成演示</button><label class="file-button" for="audio-file">＋ 本地音频<input id="audio-file" type="file" accept="audio/*,.wav,.mp3,.m4a,.ogg,.flac" /></label></div><div class="playback-actions"><label class="listen"><input id="listen" type="checkbox" /> 播放声音</label><button id="pause" type="button" disabled>Ⅱ 暂停</button><button id="stop" type="button" disabled>□ 停止</button></div></div>
+          <p class="status-message" id="message" role="status" aria-live="polite">点击「合成演示」开始。麦克风声音不会回放，避免产生啸叫。</p>
+          <noscript><p class="status-message">此实验需要启用 JavaScript。你仍可返回语谱图词条阅读原理。</p></noscript>
+        </section>
+
+        <section class="controls" aria-label="分析与显示设置">
+          <div class="control-title"><span>THE OBSERVATORY</span><h2>调整你的观察方式</h2><p>改变参数，看看同一声音怎样呈现。</p></div>
+          <div class="control-grid">
+            <label>合成声音<select id="preset"><option value="vowel">元音变换 / a → i → u</option><option value="harmonics">谐波阶梯 / 220 Hz</option><option value="sweep">频率扫掠 / 180–6000 Hz</option><option value="pulse">短脉冲 / 宽频瞬态</option></select></label>
+            <label>FFT 点数<select id="fft"><option value="512">512 · 更细的时间观察</option><option value="1024">1024</option><option value="2048" selected>2048 · 均衡</option><option value="4096">4096</option><option value="8192">8192 · 更细的频率观察</option></select></label>
+            <label>频率刻度<select id="scale"><option value="log">对数 / Logarithmic</option><option value="linear">线性 / Linear</option></select></label>
+            <label>频率上限<select id="max-frequency"><option value="4000">4,000 Hz · 语音细节</option><option value="8000" selected>8,000 Hz · 声音全景</option><option value="16000">16,000 Hz · 高频观察</option></select></label>
+            <label>色彩映射<select id="palette"><option value="aurora">极光 / Aurora</option><option value="ember">熔金 / Ember</option><option value="ice">冰川 / Ice</option></select></label>
+            <label>时间跨度<select id="duration"><option value="4">4 s · 快速</option><option value="8" selected>8 s · 标准</option><option value="16">16 s · 全景</option></select></label>
+            <label class="range-label">显示动态范围 <output id="range-output" for="range">75 dB</output><input id="range" type="range" min="40" max="100" step="5" value="75" /></label>
+            <div class="analysis-info"><span>ANALYSIS / 分析参数</span><p id="analysis-info">Blackman 窗 · 无频谱时间平滑<br />启动后显示实际采样率与窗时长</p></div>
+          </div>
+        </section>
+
+        <section class="field-notes" aria-label="观察任务"><div class="notes-heading"><p class="eyebrow">TRY LISTENING DIFFERENTLY</p><h2>三个小实验，重新认识声音。</h2></div><div class="note-grid"><article><span>01 / 谐波</span><h3>哼一个长音，再慢慢升高。</h3><p>观察一组同步弯曲的细线。相邻谐波的间隔通常与基频相关；最强谱峰不一定是基频。</p></article><article><span>02 / 声道</span><h3>保持音高，说「啊—衣—乌」。</h3><p>谐波的间距可能相近，明亮频带的位置却在改变。声道的共振，让相近的音高具有不同元音色彩。</p></article><article><span>03 / 时频取舍</span><h3>拍一下手，再改变 FFT 点数。</h3><p>短脉冲留下竖向纹理。增大 FFT 点数会增加窗时长，改善稳定频率的区分，也使短事件在时间上扩展。</p></article></div></section>
+        <details class="method-notes"><summary>这里的图像与数值，怎样理解？</summary><div><p>分析采用 Web Audio AnalyserNode 的 Blackman 窗，频谱时间平滑系数为 0。FFT 点数同时决定窗内样本数；窗时长 = N / 实际采样率，频率栅格间距 = 实际采样率 / N，栅格间距不等于实际频率分辨能力。频率下限为 50 Hz，上限受奈奎斯特频率约束。</p><p>颜色为 Web Audio 归一化谱幅度的分贝标度，上限 −15 dB，下限由动态范围设置；不等同于 PSD 或校准声压级。数字峰值是当前时域样本的最大绝对幅度换算为 dBFS。最强谱峰是离散频点的最大值，不是音高或共振峰估计。</p><p>每次画面更新读取当前分析帧，横向位置由音频时钟确定；后台中断以空白显示。这里没有固定分析帧移，也不导出完整 STFT。切换分析或显示参数会清除旧历史，避免混合标度。合成元音仅为教学用谐波包络模型，不是真人录音。</p><p>音频在当前浏览器内分析，不会上传或自动保存。合成演示默认静音，可勾选「播放声音」；麦克风始终不回放。麦克风需要 HTTPS 或 localhost 及浏览器授权；请求关闭降噪、回声消除与自动增益，实际处理由设备决定。停止或离开页面会释放音轨。</p><p>依据：<a href="https://webaudio.github.io/web-audio-api/#AnalyserNode" target="_blank" rel="noopener">Web Audio 分析规范 ↗</a> · <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia" target="_blank" rel="noopener">麦克风 API ↗</a> · <a href="spectrogram.html">语谱图深度词条 ↗</a></p></div></details>
+      </main>
+      <footer class="lab-footer"><span>n³ Hearingpedia / 用探索连接听觉科学</span><a href="https://betterci.github.io/n3-hearingpedia/lab/">所有互动实验 ↗</a><span>浏览器声音实验 · 2026</span></footer>
+    </div>
+    <script type="module">// The analyser supplies real audio spectra; the audio clock determines history placement.
+const $ = (id) => document.getElementById(id);
+const chart = $('spectrogram');
+const wave = $('waveform');
+const spectrum = $('spectrum');
+const history = document.createElement('canvas');
+const historyCtx = history.getContext('2d');
+const chartCtx = chart.getContext('2d');
+const waveCtx = wave.getContext('2d');
+const spectrumCtx = spectrum.getContext('2d');
+const fft = $('fft');
+const scale = $('scale');
+const maxFrequency = $('max-frequency');
+const palette = $('palette');
+const duration = $('duration');
+const range = $('range');
+const preset = $('preset');
+const listen = $('listen');
+const pauseButton = $('pause');
+const stopButton = $('stop');
+const overlay = $('start-overlay');
+let context;
+let analyser;
+let monitor;
+let source;
+let stream;
+let frequencies = new Float32Array(1024);
+let samples = new Float32Array(2048);
+let mode = 'demo';
+let state = 'idle';
+let operation = 0;
+let frame = 0;
+let lastAudioTime = 0;
+let fraction = 0;
+let lastStats = 0;
+let width = 1000, height = 400;
+const left = 52, right = 20, top = 18, bottom = 30;
+const minimumFrequency = 50;
+const dbCeiling = -15;
+let lut = [];
+let rowBins = [];
+const presets = {
+    vowel: '元音变换：a → i → u；观察明亮频带的位置变化。',
+    harmonics: '谐波阶梯：基频 220 Hz，每两秒增加一组谐波。',
+    sweep: '频率扫掠：180–6000 Hz，观察频率轨迹的往返变化。',
+    pulse: '短脉冲：每 0.75 秒出现一次宽频瞬态，比较不同 FFT 点数。',
+};
+function message(text, error = false) {
+    $('message').textContent = text;
+    $('message').classList.toggle('error', error);
+}
+function setState(value) {
+    state = value;
+    $('live-status').dataset.state = value;
+    $('state-label').textContent = { idle: 'READY / 准备就绪', running: 'LIVE / 实时分析', paused: 'PAUSED / 已暂停', loading: 'LOADING / 正在连接', error: 'NOTICE / 请检查输入' }[value];
+    pauseButton.disabled = !['running', 'paused'].includes(value);
+    stopButton.disabled = ['idle', 'error'].includes(value);
+    pauseButton.textContent = value === 'paused' ? '▷ 继续' : 'Ⅱ 暂停';
+    // Keep the demo action available if a microphone permission prompt is pending.
+    listen.disabled = mode === 'mic';
+}
+function maximum() { return Math.min(Number(maxFrequency.value), (context?.sampleRate ?? 48000) / 2); }
+function frequencyAt(position) {
+    return scale.value === 'log'
+        ? minimumFrequency * (maximum() / minimumFrequency) ** position
+        : minimumFrequency + (maximum() - minimumFrequency) * position;
+}
+function yAt(frequency) {
+    const position = scale.value === 'log'
+        ? Math.log(frequency / minimumFrequency) / Math.log(maximum() / minimumFrequency)
+        : (frequency - minimumFrequency) / (maximum() - minimumFrequency);
+    return top + (1 - position) * (height - top - bottom);
+}
+function updatePalette() {
+    const colors = {
+        aurora: [[9, 11, 20], [40, 26, 80], [104, 43, 144], [202, 67, 178], [245, 155, 198], [157, 255, 226]],
+        ember: [[9, 11, 20], [66, 19, 61], [152, 34, 75], [230, 82, 51], [255, 177, 75], [255, 248, 199]],
+        ice: [[9, 11, 20], [18, 39, 90], [28, 89, 159], [47, 164, 203], [120, 229, 234], [222, 255, 251]],
+    };
+    const stops = colors[palette.value];
+    lut = Array.from({ length: 256 }, (_, i) => {
+        const p = i / 255 * (stops.length - 1), index = Math.min(stops.length - 2, Math.floor(p)), t = p - index;
+        return stops[index].map((v, c) => Math.round(v + (stops[index + 1][c] - v) * t));
+    });
+    $('color-key').style.background = `linear-gradient(90deg,${stops.map(c => `rgb(${c.join(',')})`).join(',')})`;
+}
+function updateBins() {
+    const binHz = (context?.sampleRate ?? 48000) / Number(fft.value);
+    rowBins = Array.from({ length: history.height }, (_, y) => {
+        const a = frequencyAt(1 - (y + 1) / history.height) / binHz;
+        const b = frequencyAt(1 - y / history.height) / binHz;
+        return [Math.max(1, Math.floor(a)), Math.min(frequencies.length - 1, Math.max(Math.floor(a), Math.ceil(b)))];
+    });
+}
+function updateInfo() {
+    $('axis-caption').textContent = `${scale.value === 'log' ? '对数' : '线性'}刻度 · Hz`;
+    $('time-caption').textContent = `最近 ${duration.value} s`;
+    $('range-output').textContent = `${range.value} dB`;
+    $('db-floor').textContent = `−${Number(range.value) - dbCeiling} dB`;
+    if (context) {
+        const n = Number(fft.value), rate = context.sampleRate;
+        $('analysis-info').textContent = `${(rate / 1000).toFixed(1)} kHz · Blackman 窗 ${(n / rate * 1000).toFixed(1)} ms · 栅格 ${(rate / n).toFixed(1)} Hz · 平滑 0`;
+    }
+}
+function clearHistory() {
+    historyCtx.fillStyle = '#090b14';
+    historyCtx.fillRect(0, 0, history.width, history.height);
+    fraction = 0;
+    lastAudioTime = context?.currentTime ?? 0;
+    updateBins();
+    updateInfo();
+    paintChart();
+}
+function sizeCanvas(canvas) {
+    const rect = canvas.getBoundingClientRect(), dpr = Math.min(devicePixelRatio || 1, 2);
+    canvas.width = Math.round(rect.width * dpr);
+    canvas.height = Math.round(rect.height * dpr);
+    canvas.getContext('2d').setTransform(dpr, 0, 0, dpr, 0, 0);
+    return rect;
+}
+function resize() {
+    const old = document.createElement('canvas');
+    old.width = history.width;
+    old.height = history.height;
+    old.getContext('2d').drawImage(history, 0, 0);
+    const rect = sizeCanvas(chart);
+    width = rect.width;
+    height = rect.height;
+    history.width = Math.max(1, Math.round(width - left - right));
+    history.height = Math.max(1, Math.round(height - top - bottom));
+    historyCtx.fillStyle = '#090b14';
+    historyCtx.fillRect(0, 0, history.width, history.height);
+    historyCtx.drawImage(old, 0, 0, history.width, history.height);
+    sizeCanvas(wave);
+    sizeCanvas(spectrum);
+    updateBins();
+    paintChart();
+    paintScopes();
+}
+function paintChart() {
+    chartCtx.fillStyle = '#090b14';
+    chartCtx.fillRect(0, 0, width, height);
+    chartCtx.drawImage(history, left, top, width - left - right, height - top - bottom);
+    chartCtx.font = '9px ui-monospace, Consolas, monospace';
+    const ticks = scale.value === 'log' ? [50, 100, 200, 500, 1000, 2000, 4000, 8000, 16000] : [50, 1000, 2000, 4000, 6000, 8000, 12000, 16000];
+    if (!ticks.includes(maximum()))
+        ticks.push(maximum());
+    chartCtx.textAlign = 'right';
+    for (const frequency of ticks.filter(f => f >= minimumFrequency && f <= maximum())) {
+        const y = yAt(frequency);
+        chartCtx.strokeStyle = '#c5b2ef12';
+        chartCtx.beginPath();
+        chartCtx.moveTo(left, y);
+        chartCtx.lineTo(width - right, y);
+        chartCtx.stroke();
+        chartCtx.fillStyle = '#a394b7';
+        chartCtx.fillText(frequency >= 1000 ? `${frequency / 1000}k` : `${frequency}`, left - 10, y + 3);
+    }
+    for (let i = 0; i <= 4; i++) {
+        const x = left + (width - left - right) * i / 4;
+        chartCtx.strokeStyle = '#c5b2ef12';
+        chartCtx.beginPath();
+        chartCtx.moveTo(x, top);
+        chartCtx.lineTo(x, height - bottom);
+        chartCtx.stroke();
+        chartCtx.fillStyle = '#a394b7';
+        chartCtx.textAlign = i === 4 ? 'right' : i === 0 ? 'left' : 'center';
+        chartCtx.fillText(i === 4 ? '现在' : `−${Number(duration.value) * (1 - i / 4)} s`, x, height - 10);
+    }
+    chartCtx.strokeStyle = '#a9ffe0aa';
+    chartCtx.beginPath();
+    chartCtx.moveTo(width - right, top);
+    chartCtx.lineTo(width - right, height - bottom);
+    chartCtx.stroke();
+}
+function paintScopes() {
+    const w = wave.clientWidth, h = wave.clientHeight, sw = spectrum.clientWidth, sh = spectrum.clientHeight;
+    waveCtx.clearRect(0, 0, w, h);
+    spectrumCtx.clearRect(0, 0, sw, sh);
+    waveCtx.strokeStyle = '#92f5d4';
+    waveCtx.lineWidth = 1;
+    waveCtx.beginPath();
+    // Show a fixed 20 ms slice, rather than changing waveform scale with FFT size.
+    const count = Math.min(samples.length, Math.floor((context?.sampleRate ?? 48000) * .02));
+    for (let x = 0; x < w; x++) {
+        const value = samples[Math.min(samples.length - 1, Math.floor(x / w * count))] || 0;
+        const y = h / 2 - value * h * .44;
+        if (!x)
+            waveCtx.moveTo(x, y);
+        else
+            waveCtx.lineTo(x, y);
+    }
+    waveCtx.stroke();
+    spectrumCtx.beginPath();
+    spectrumCtx.moveTo(0, sh);
+    const floor = dbCeiling - Number(range.value), hz = (context?.sampleRate ?? 48000) / Number(fft.value);
+    for (let x = 0; x < sw; x++) {
+        const index = Math.min(frequencies.length - 1, Math.max(1, Math.round(frequencyAt(x / sw) / hz)));
+        const value = Math.max(0, Math.min(1, ((frequencies[index] ?? floor) - floor) / Number(range.value)));
+        spectrumCtx.lineTo(x, sh - value * sh * .94);
+    }
+    spectrumCtx.lineTo(sw, sh);
+    spectrumCtx.closePath();
+    const gradient = spectrumCtx.createLinearGradient(0, 0, 0, sh);
+    gradient.addColorStop(0, '#c49cff80');
+    gradient.addColorStop(1, '#9d6af508');
+    spectrumCtx.fillStyle = gradient;
+    spectrumCtx.fill();
+    spectrumCtx.strokeStyle = '#c5a3f5';
+    spectrumCtx.lineWidth = 1;
+    spectrumCtx.stroke();
+}
+function animate() {
+    if (state !== 'running' || !context || !analyser)
+        return;
+    analyser.getFloatFrequencyData(frequencies);
+    analyser.getFloatTimeDomainData(samples);
+    const now = context.currentTime, elapsed = Math.max(0, now - lastAudioTime);
+    fraction += elapsed * history.width / Number(duration.value);
+    lastAudioTime = now;
+    const advance = Math.floor(fraction);
+    fraction -= advance;
+    if (advance > 0) {
+        const shift = Math.min(advance, history.width);
+        historyCtx.drawImage(history, -shift, 0);
+        historyCtx.fillStyle = '#090b14';
+        historyCtx.fillRect(history.width - shift, 0, shift, history.height);
+        // A background-tab gap has no acquired frames. Keep it blank instead of inventing history.
+        const stripeWidth = elapsed > .2 ? 1 : shift;
+        const stripe = historyCtx.createImageData(1, history.height), floor = dbCeiling - Number(range.value);
+        for (let y = 0; y < history.height; y++) {
+            const [start, end] = rowBins[y];
+            let db = -Infinity;
+            for (let k = start; k <= end; k++)
+                db = Math.max(db, frequencies[k]);
+            const index = Math.max(0, Math.min(255, Math.round((db - floor) / Number(range.value) * 255)));
+            const color = lut[index];
+            stripe.data.set([color[0], color[1], color[2], 255], y * 4);
+        }
+        historyCtx.putImageData(stripe, history.width - 1, 0);
+        if (stripeWidth > 1)
+            historyCtx.drawImage(history, history.width - 1, 0, 1, history.height, history.width - stripeWidth, 0, stripeWidth, history.height);
+    }
+    paintChart();
+    paintScopes();
+    if (now - lastStats > .12) {
+        let peak = -Infinity, index = 0, amplitude = 0;
+        for (let k = 1; k < frequencies.length; k++) {
+            const f = k * context.sampleRate / analyser.fftSize;
+            if (f >= minimumFrequency && f <= maximum() && frequencies[k] > peak) {
+                peak = frequencies[k];
+                index = k;
+            }
+        }
+        for (const sample of samples)
+            amplitude = Math.max(amplitude, Math.abs(sample));
+        $('peak-stat').textContent = peak > -100 ? `${Math.round(index * context.sampleRate / analyser.fftSize)} Hz` : '— Hz';
+        $('level-stat').textContent = amplitude > 1e-7 ? `${(20 * Math.log10(amplitude)).toFixed(1)} dBFS` : '−∞ dBFS';
+        lastStats = now;
+    }
+    frame = requestAnimationFrame(animate);
+}
+function disconnect() {
+    cancelAnimationFrame(frame);
+    if (source instanceof AudioBufferSourceNode) {
+        source.onended = null;
+        try {
+            source.stop();
+        }
+        catch { /* Already ended. */ }
+    }
+    source?.disconnect();
+    source = undefined;
+    stream?.getTracks().forEach(track => track.stop());
+    stream = undefined;
+    analyser?.disconnect();
+    monitor?.disconnect();
+}
+function stop() {
+    operation++;
+    disconnect();
+    void context?.suspend();
+    setState('idle');
+    samples.fill(0);
+    frequencies.fill(-Infinity);
+    paintScopes();
+    $('peak-stat').textContent = '— Hz';
+    $('level-stat').textContent = '— dBFS';
+    message('已停止，音频输入已释放。图像保留，可保存或重新开始。');
+}
+// Deterministic teaching signals: generated PCM is analysed through the same path as other sources.
+function synthesize(audio, name) {
+    const seconds = name === 'harmonics' ? 8 : name === 'pulse' ? 6 : 9;
+    const buffer = audio.createBuffer(1, audio.sampleRate * seconds, audio.sampleRate), data = buffer.getChannelData(0);
+    let phase = 0, maximumAmplitude = 0, noiseSeed = 4127;
+    const formants = [[730, 1090, 2440], [270, 2290, 3010], [300, 870, 2240]];
+    for (let n = 0; n < data.length; n++) {
+        const t = n / audio.sampleRate;
+        let value = 0;
+        if (name === 'sweep') {
+            const f = 180 * (6000 / 180) ** ((1 - Math.cos(2 * Math.PI * t / seconds)) / 2);
+            phase += 2 * Math.PI * f / audio.sampleRate;
+            value = Math.sin(phase) * .6;
+        }
+        else if (name === 'pulse') {
+            noiseSeed = (Math.imul(noiseSeed, 1664525) + 1013904223) >>> 0;
+            const distance = t % .75 - .1;
+            value = (noiseSeed / 4294967296 * 2 - 1) * Math.exp(-.5 * (distance / .003) ** 2);
+        }
+        else {
+            const f0 = name === 'harmonics' ? 220 : 140;
+            phase += 2 * Math.PI * f0 / audio.sampleRate;
+            const p = t / 3, a = Math.floor(p) % 3, b = (a + 1) % 3;
+            const blend = Math.max(0, Math.min(1, (p % 1 - .5) * 2));
+            const bands = formants[a].map((v, i) => v * (1 - blend) + formants[b][i] * blend);
+            const harmonics = name === 'harmonics' ? 3 + Math.floor(t / 2) * 4 : 38;
+            for (let k = 1; k <= harmonics; k++) {
+                const f = k * f0;
+                const weight = name === 'harmonics' ? 1 / k : (.025 + bands.reduce((sum, center) => sum + Math.exp(-.5 * ((f - center) / 100) ** 2), 0)) / Math.sqrt(k);
+                value += Math.sin(k * phase) * weight;
+            }
+        }
+        // Fade boundaries to keep the loop junction from introducing a broadband click.
+        value *= Math.min(1, t / .025, (seconds - t) / .025);
+        data[n] = value;
+        maximumAmplitude = Math.max(maximumAmplitude, Math.abs(value));
+    }
+    const gain = .65 / Math.max(.001, maximumAmplitude);
+    for (let n = 0; n < data.length; n++)
+        data[n] *= gain;
+    return buffer;
+}
+function errorMessage(error) {
+    const name = error instanceof Error ? error.name : '';
+    if (name === 'NotAllowedError' || name === 'SecurityError')
+        return '麦克风访问未获允许。请在浏览器网站权限中开启，或使用「合成演示」与本地音频。';
+    if (name === 'NotFoundError')
+        return '未找到麦克风。可以接入设备后重试，或先体验合成演示。';
+    if (name === 'NotReadableError')
+        return '麦克风暂时无法读取，可能正被其他应用占用。请检查设备后重试。';
+    return error instanceof Error ? error.message : '无法读取音频，请换一个文件或使用合成演示。';
+}
+async function start(nextMode, file) {
+    const ticket = ++operation;
+    disconnect();
+    mode = nextMode;
+    setState('loading');
+    message(nextMode === 'mic' ? '等待麦克风授权；也可以随时改用合成演示。' : '正在准备声音…');
+    try {
+        if (!window.AudioContext)
+            throw new Error('当前浏览器不支持 Web Audio，请使用新版浏览器。');
+        context ??= new AudioContext();
+        await context.resume();
+        if (ticket !== operation)
+            return;
+        analyser = context.createAnalyser();
+        analyser.fftSize = Number(fft.value);
+        analyser.smoothingTimeConstant = 0;
+        monitor = context.createGain();
+        monitor.gain.value = nextMode !== 'mic' && listen.checked ? .35 : 0;
+        analyser.connect(monitor);
+        monitor.connect(context.destination);
+        if (nextMode === 'mic') {
+            if (!navigator.mediaDevices?.getUserMedia)
+                throw new Error('麦克风需要 HTTPS 或 localhost 环境。当前可使用合成演示或本地音频。');
+            const acquired = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false }, video: false });
+            if (ticket !== operation) {
+                acquired.getTracks().forEach(track => track.stop());
+                return;
+            }
+            stream = acquired;
+            source = context.createMediaStreamSource(stream);
+            const track = stream.getAudioTracks()[0];
+            track.addEventListener('ended', () => { if (ticket === operation) {
+                stop();
+                message('麦克风连接已结束，请重新开启或切换输入。');
+            } });
+            const settings = track.getSettings();
+            const setting = (value) => value === undefined ? '未报告' : value ? '开' : '关';
+            message(`麦克风已连接，不回放声音。设备报告：降噪${setting(settings.noiseSuppression)} / 自动增益${setting(settings.autoGainControl)} / 回声消除${setting(settings.echoCancellation)}。`);
+        }
+        else {
+            let buffer;
+            if (nextMode === 'file') {
+                if (!file)
+                    throw new Error('请先选择本地音频。');
+                if (file.size > 80 * 1024 * 1024)
+                    throw new Error('请选择小于 80 MB 的音频文件，以控制浏览器内存占用。');
+                const encoded = await file.arrayBuffer();
+                if (ticket !== operation)
+                    return;
+                try {
+                    buffer = await context.decodeAudioData(encoded);
+                }
+                catch {
+                    throw new Error('无法解码此音频。请尝试 WAV、MP3 或浏览器支持的音频格式。');
+                }
+                if (ticket !== operation)
+                    return;
+            }
+            else
+                buffer = synthesize(context, preset.value);
+            const player = context.createBufferSource();
+            player.buffer = buffer;
+            player.loop = nextMode === 'demo';
+            source = player;
+            player.onended = () => { if (ticket === operation) {
+                stop();
+                message('音频播放完毕。图像已保留，可以保存或再次选择文件。');
+            } };
+            message(nextMode === 'demo' ? `${presets[preset.value]} ${listen.checked ? '正在播放声音。' : '当前静音，可勾选「播放声音」。'}` : `本地文件：${file.name} · ${buffer.duration.toFixed(1)} s · ${listen.checked ? '声音已开启' : '静音分析，可勾选播放声音'}`);
+        }
+        source.connect(analyser);
+        frequencies = new Float32Array(analyser.frequencyBinCount);
+        frequencies.fill(-Infinity);
+        samples = new Float32Array(analyser.fftSize);
+        clearHistory();
+        lastStats = 0;
+        overlay.hidden = true;
+        setState('running');
+        if (source instanceof AudioBufferSourceNode)
+            source.start();
+        animate();
+    }
+    catch (error) {
+        if (ticket !== operation)
+            return;
+        disconnect();
+        void context?.suspend();
+        setState('error');
+        message(errorMessage(error), true);
+    }
+}
+$('quick-start').addEventListener('click', () => void start('demo'));
+$('demo').addEventListener('click', () => void start('demo'));
+$('microphone').addEventListener('click', () => void start('mic'));
+$('stop').addEventListener('click', stop);
+$('audio-file').addEventListener('change', event => {
+    const input = event.target, file = input.files?.[0];
+    if (file)
+        void start('file', file);
+    input.value = '';
+});
+preset.addEventListener('change', () => { if (mode === 'demo' && ['running', 'paused'].includes(state))
+    void start('demo'); });
+listen.addEventListener('change', () => { if (context && monitor)
+    monitor.gain.setTargetAtTime(mode !== 'mic' && listen.checked ? .35 : 0, context.currentTime, .02); });
+pauseButton.addEventListener('click', async () => {
+    if (!context || !['running', 'paused'].includes(state))
+        return;
+    const ticket = operation;
+    pauseButton.disabled = true;
+    try {
+        if (state === 'running') {
+            cancelAnimationFrame(frame);
+            await context.suspend();
+            if (ticket === operation) {
+                setState('paused');
+                message('已暂停声音与分析。可以保存当前图像，点击「继续」恢复。');
+            }
+        }
+        else {
+            await context.resume();
+            if (ticket === operation) {
+                lastAudioTime = context.currentTime;
+                setState('running');
+                message('已继续实时分析。');
+                animate();
+            }
+        }
+    }
+    catch {
+        if (ticket === operation) {
+            stop();
+            message('浏览器未能恢复音频，请重新选择输入。', true);
+        }
+    }
+});
+for (const element of [fft, scale, maxFrequency, duration, palette, range]) {
+    element.addEventListener(element === range ? 'input' : 'change', () => {
+        if (analyser && element === fft) {
+            analyser.fftSize = Number(fft.value);
+            frequencies = new Float32Array(analyser.frequencyBinCount);
+            frequencies.fill(-Infinity);
+            samples = new Float32Array(analyser.fftSize);
+        }
+        if (element === palette)
+            updatePalette();
+        clearHistory();
+        paintScopes();
+    });
+}
+$('snapshot').addEventListener('click', () => {
+    const image = document.createElement('canvas');
+    image.width = chart.width;
+    image.height = chart.height + 88;
+    const ctx = image.getContext('2d');
+    ctx.fillStyle = '#0c0c16';
+    ctx.fillRect(0, 0, image.width, image.height);
+    ctx.drawImage(chart, 0, 0);
+    ctx.fillStyle = '#c9b8e1';
+    ctx.font = '12px sans-serif';
+    ctx.fillText(`n³ Hearingpedia / Spectrogram · ${new Date().toLocaleString('zh-CN')}`, 24, chart.height + 24);
+    ctx.font = '10px sans-serif';
+    const sourceLabel = mode === 'demo' ? `合成 ${preset.selectedOptions[0].text}` : mode === 'mic' ? '麦克风' : '本地音频';
+    ctx.fillText(`${sourceLabel} · FFT ${fft.value} · ${scale.value} · ${minimumFrequency}–${maximum()} Hz · ${duration.value} s · Blackman · ${(context?.sampleRate ?? 0)} Hz`, 24, chart.height + 45);
+    ctx.fillText(`颜色：Web Audio 谱幅 ${dbCeiling - Number(range.value)} 至 ${dbCeiling} dB · ${palette.value} · 未校准声压级`, 24, chart.height + 65);
+    image.toBlob(blob => { if (!blob)
+        return; const href = URL.createObjectURL(blob), anchor = document.createElement('a'); anchor.href = href; anchor.download = `hearingpedia-spectrogram-${Date.now()}.png`; anchor.click(); setTimeout(() => URL.revokeObjectURL(href), 10000); });
+});
+$('fullscreen').addEventListener('click', async () => {
+    try {
+        if (document.fullscreenElement)
+            await document.exitFullscreen();
+        else
+            await $('lab-shell').requestFullscreen();
+    }
+    catch {
+        message('此浏览器暂不支持全屏。可在独立页面中放大窗口。');
+    }
+});
+document.addEventListener('fullscreenchange', () => { $('fullscreen').textContent = document.fullscreenElement ? '⛶ 退出全屏' : '⛶ 全屏'; });
+window.addEventListener('pagehide', () => { operation++; disconnect(); void context?.close(); context = undefined; setState('idle'); });
+window.addEventListener('pageshow', event => { if (event.persisted) {
+    overlay.hidden = false;
+    clearHistory();
+    message('音频已释放，选择输入即可重新开始。');
+} });
+const observer = new ResizeObserver(resize);
+observer.observe($('visualizer'));
+frequencies.fill(-Infinity);
+updatePalette();
+resize();
+clearHistory();
+export {};
+</script>
+  </body>
+</html>

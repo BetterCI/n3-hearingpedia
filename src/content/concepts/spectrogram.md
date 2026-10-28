@@ -2,14 +2,14 @@
 title: "语谱图"
 english: "Spectrogram"
 slug: "spectrogram"
-summary: "理解声音的时频图：从短时傅里叶变换、窗长与读图规则，到早期声谱仪的历史、可复现示例和在线实时工具。"
+summary: "从短时傅里叶变换、时频分辨能力与读图方法，到声谱仪的科学史；通过本站实时语谱图实验，亲手观察谐波、元音共振与瞬态。"
 categories: ["acoustics", "speech", "signal-processing"]
 tags: ["时频分析", "短时傅里叶变换", "谐波", "声谱仪", "科学史"]
 aliases: ["声谱图", "时频谱图", "频谱时频图"]
 level: ["undergraduate", "graduate"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-09"
+last_updated: "2026-10-28"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -17,7 +17,7 @@ reviewed_at: null
 knowledge_area: "sound"
 kind: "representation"
 key_facts: [{"label":"图轴","value":"时间、频率与谱幅度／功率颜色"},{"label":"常见方法","value":"短时傅里叶变换（STFT）"},{"label":"核心取舍","value":"窗长影响时间与频率分辨能力"},{"label":"读图前提","value":"明确窗、刻度、单位和分贝参考"}]
-references: ["sp-praat-view", "sp-praat-config", "sp-scipy-stft", "sp-scipy-scaling", "sp-scipy-spectral", "sp-praat-advanced", "sp-praat-compute", "sp-audacity-settings", "sp-torchaudio-mel", "sp-webaudio-analyser", "sp-mdn-microphone", "sp-mdn-constraints", "sp-live-tool", "sp-chrome-tool", "sp-toolsflare", "sp-academo", "sp-scipy-legacy", "sp-koenig-1946", "sp-lacy-patent", "sp-meacham-patent", "sp-smithsonian-kopp", "sp-cooper-1951", "sp-playback-principles", "sp-playback-background", "sp-adventure-film", "sp-potter-1945", "sp-playback-history"]
+references: ["sp-praat-view", "sp-praat-config", "sp-scipy-stft", "sp-scipy-scaling", "sp-scipy-spectral", "sp-praat-advanced", "sp-praat-compute", "sp-audacity-settings", "sp-torchaudio-mel", "sp-webaudio-analyser", "sp-mdn-microphone", "sp-mdn-constraints", "sp-live-tool", "sp-chrome-tool", "sp-toolsflare", "sp-academo", "sp-scipy-legacy", "sp-koenig-1946", "sp-lacy-patent", "sp-meacham-patent", "sp-smithsonian-kopp", "sp-cooper-1951", "sp-playback-principles", "sp-playback-background", "sp-adventure-film", "sp-potter-1945", "sp-playback-history", "sp-webaudio-spec"]
 batch: 4
 order: 44
 ---
@@ -296,6 +296,16 @@ Mel 功率、对数压缩、固定尺寸图像和逐样本标准化常被用于�
 语谱图也不能单凭视觉模式完成诊断或识别人。自动分类结果需要独立数据、录音条件控制、误差评价和对任务范围的检验。本文给出的合成图是解释工具，没有训练或验证任何分类模型。
 
 ## 在线实时工具与复现入口
+
+### 本站实验：让声音显出形状
+
+<a href="/n3-hearingpedia/lab/spectrogram/" target="_blank" rel="noopener">打开实时语谱图实验 ↗（独立页面）</a>。页面提供滚动语谱图、同步波形与当前频谱，支持麦克风、本地音频文件和四种内置合成声音。音频只在当前浏览器内分析，不会上传；麦克风需要安全上下文与浏览器授权，也可以直接选择合成演示。[11](#ref-sp-mdn-microphone)
+
+第一次使用可先选“元音变换”，观察基频固定时明亮频带怎样随谐波包络改变；再选“谐波阶梯”，辨认间距约为 220 Hz 的谐波。合成元音采用预设频谱包络，是帮助理解声源与共振关系的教学模型，不是真人发音，也不提供自动共振峰检测。选择“短脉冲”并改变 FFT 点数，则可观察短事件怎样随窗时长增加而在时间上扩展。
+
+本站实验采用浏览器 AnalyserNode 的 Blackman 窗，频谱时间平滑系数为零。FFT 点数同时决定分析窗的样本数，界面按实际采样率显示窗时长与频率栅格间距；切换参数会清除历史，避免把不同标度的结果直接拼接。颜色表示 Web Audio 归一化谱幅度的分贝值，不是本文计算图所用的 PSD，也不是校准声压级。对数频率轴只改变显示坐标，不会把分析结果变成 Mel 语谱图。[28](#ref-sp-webaudio-spec)
+
+横轴依据音频时钟滚动，每次画面更新读取当前频谱；后台中断显示为空白。它适合声音探索与定性教学，没有固定的 STFT 帧移，也不导出完整时频矩阵。可以暂停声音与图像、全屏观察或保存附分析参数的截图；需要精确测量时，应采用下文的可复现分析流程。麦克风始终不回放，停止或离开页面会释放输入音轨。
 
 ### 实时麦克风工具
 

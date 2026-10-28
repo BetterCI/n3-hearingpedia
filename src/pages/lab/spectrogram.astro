@@ -1,0 +1,56 @@
+---
+import { url, asset } from '../../lib/paths';
+import '../../styles/spectrogram.css';
+---
+<!doctype html>
+<html lang="zh-CN" data-pagefind-ignore="all">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c0c16" />
+    <meta name="description" content="在浏览器中探索实时语谱图。麦克风、本地音频与合成声音，连接听觉科学与声音的时频结构。" />
+    <link rel="icon" type="image/svg+xml" href={asset('favicon.svg')} />
+    <title>实时语谱图 Spectrogram Lab · n³ Hearingpedia</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到实验</a>
+    <div class="lab-shell" id="lab-shell">
+      <header class="lab-nav"><a class="lab-brand" href={url()}><b>n³</b> Hearingpedia <span>/ LAB</span></a><a href={url('concepts/spectrogram')}>阅读深度词条 <span aria-hidden="true">↗</span></a></header>
+      <main id="main">
+        <div class="lab-heading"><div><p class="eyebrow">SOUND, MADE VISIBLE <span>实验 01 / 时频分析</span></p><h1>看见声音<span>。</span><small>Spectrogram</small></h1><p class="intro">一句话，一声口哨，一段旋律。让耳边的声音，在时间与频率之间留下轨迹。</p></div><div class="local-badge"><i></i> 本地分析 <span>音频不上传</span></div></div>
+
+        <section class="instrument" aria-label="实时语谱分析仪">
+          <div class="instrument-bar"><div class="live-status" id="live-status" data-state="idle"><i></i><span id="state-label">READY / 准备就绪</span></div><div class="view-tools"><button id="snapshot" type="button">↓ 保存图像</button><button id="fullscreen" type="button">⛶ 全屏</button></div></div>
+          <div class="visualizer" id="visualizer">
+            <canvas id="spectrogram" role="img" aria-label="滚动语谱图，横轴为最近数秒，纵轴为频率，颜色表示谱幅度">请使用支持 Canvas 的浏览器。</canvas>
+            <div class="start-overlay" id="start-overlay"><div class="start-symbol" aria-hidden="true">∿</div><strong>每一种声音，都有自己的纹理。</strong><p>选择合成演示即可开始，也可以开启麦克风。</p><button id="quick-start" type="button">▷ 开始探索</button><small>内置合成声音 · 无需麦克风权限</small></div>
+          </div>
+          <div class="plot-legend"><span>频率 ↑ <b id="axis-caption">对数刻度 · Hz</b></span><div class="color-key"><span id="db-floor">−90 dB</span><i id="color-key"></i><span>−15 dB</span></div><span>时间 → <b id="time-caption">最近 8 s</b></span></div>
+          <div class="scope-row"><div class="scope"><span>WAVEFORM / 波形</span><canvas id="waveform" role="img" aria-label="当前声音的时域波形"></canvas></div><div class="scope"><span>SPECTRUM / 当前频谱</span><canvas id="spectrum" role="img" aria-label="当前声音的频谱切片"></canvas></div><div class="signal-stats"><div><span>最强谱峰</span><strong id="peak-stat">— <small>Hz</small></strong></div><div><span>数字峰值</span><strong id="level-stat">— <small>dBFS</small></strong></div></div></div>
+          <div class="transport"><div class="source-actions"><button class="primary" id="microphone" type="button">◉ 开启麦克风</button><button id="demo" type="button">▷ 合成演示</button><label class="file-button" for="audio-file">＋ 本地音频<input id="audio-file" type="file" accept="audio/*,.wav,.mp3,.m4a,.ogg,.flac" /></label></div><div class="playback-actions"><label class="listen"><input id="listen" type="checkbox" /> 播放声音</label><button id="pause" type="button" disabled>Ⅱ 暂停</button><button id="stop" type="button" disabled>□ 停止</button></div></div>
+          <p class="status-message" id="message" role="status" aria-live="polite">点击「合成演示」开始。麦克风声音不会回放，避免产生啸叫。</p>
+          <noscript><p class="status-message">此实验需要启用 JavaScript。你仍可返回语谱图词条阅读原理。</p></noscript>
+        </section>
+
+        <section class="controls" aria-label="分析与显示设置">
+          <div class="control-title"><span>THE OBSERVATORY</span><h2>调整你的观察方式</h2><p>改变参数，看看同一声音怎样呈现。</p></div>
+          <div class="control-grid">
+            <label>合成声音<select id="preset"><option value="vowel">元音变换 / a → i → u</option><option value="harmonics">谐波阶梯 / 220 Hz</option><option value="sweep">频率扫掠 / 180–6000 Hz</option><option value="pulse">短脉冲 / 宽频瞬态</option></select></label>
+            <label>FFT 点数<select id="fft"><option value="512">512 · 更细的时间观察</option><option value="1024">1024</option><option value="2048" selected>2048 · 均衡</option><option value="4096">4096</option><option value="8192">8192 · 更细的频率观察</option></select></label>
+            <label>频率刻度<select id="scale"><option value="log">对数 / Logarithmic</option><option value="linear">线性 / Linear</option></select></label>
+            <label>频率上限<select id="max-frequency"><option value="4000">4,000 Hz · 语音细节</option><option value="8000" selected>8,000 Hz · 声音全景</option><option value="16000">16,000 Hz · 高频观察</option></select></label>
+            <label>色彩映射<select id="palette"><option value="aurora">极光 / Aurora</option><option value="ember">熔金 / Ember</option><option value="ice">冰川 / Ice</option></select></label>
+            <label>时间跨度<select id="duration"><option value="4">4 s · 快速</option><option value="8" selected>8 s · 标准</option><option value="16">16 s · 全景</option></select></label>
+            <label class="range-label">显示动态范围 <output id="range-output" for="range">75 dB</output><input id="range" type="range" min="40" max="100" step="5" value="75" /></label>
+            <div class="analysis-info"><span>ANALYSIS / 分析参数</span><p id="analysis-info">Blackman 窗 · 无频谱时间平滑<br />启动后显示实际采样率与窗时长</p></div>
+          </div>
+        </section>
+
+        <section class="field-notes" aria-label="观察任务"><div class="notes-heading"><p class="eyebrow">TRY LISTENING DIFFERENTLY</p><h2>三个小实验，重新认识声音。</h2></div><div class="note-grid"><article><span>01 / 谐波</span><h3>哼一个长音，再慢慢升高。</h3><p>观察一组同步弯曲的细线。相邻谐波的间隔通常与基频相关；最强谱峰不一定是基频。</p></article><article><span>02 / 声道</span><h3>保持音高，说「啊—衣—乌」。</h3><p>谐波的间距可能相近，明亮频带的位置却在改变。声道的共振，让相近的音高具有不同元音色彩。</p></article><article><span>03 / 时频取舍</span><h3>拍一下手，再改变 FFT 点数。</h3><p>短脉冲留下竖向纹理。增大 FFT 点数会增加窗时长，改善稳定频率的区分，也使短事件在时间上扩展。</p></article></div></section>
+        <details class="method-notes"><summary>这里的图像与数值，怎样理解？</summary><div><p>分析采用 Web Audio AnalyserNode 的 Blackman 窗，频谱时间平滑系数为 0。FFT 点数同时决定窗内样本数；窗时长 = N / 实际采样率，频率栅格间距 = 实际采样率 / N，栅格间距不等于实际频率分辨能力。频率下限为 50 Hz，上限受奈奎斯特频率约束。</p><p>颜色为 Web Audio 归一化谱幅度的分贝标度，上限 −15 dB，下限由动态范围设置；不等同于 PSD 或校准声压级。数字峰值是当前时域样本的最大绝对幅度换算为 dBFS。最强谱峰是离散频点的最大值，不是音高或共振峰估计。</p><p>每次画面更新读取当前分析帧，横向位置由音频时钟确定；后台中断以空白显示。这里没有固定分析帧移，也不导出完整 STFT。切换分析或显示参数会清除旧历史，避免混合标度。合成元音仅为教学用谐波包络模型，不是真人录音。</p><p>音频在当前浏览器内分析，不会上传或自动保存。合成演示默认静音，可勾选「播放声音」；麦克风始终不回放。麦克风需要 HTTPS 或 localhost 及浏览器授权；请求关闭降噪、回声消除与自动增益，实际处理由设备决定。停止或离开页面会释放音轨。</p><p>依据：<a href="https://webaudio.github.io/web-audio-api/#AnalyserNode" target="_blank" rel="noopener">Web Audio 分析规范 ↗</a> · <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia" target="_blank" rel="noopener">麦克风 API ↗</a> · <a href={url('concepts/spectrogram')}>语谱图深度词条 ↗</a></p></div></details>
+      </main>
+      <footer class="lab-footer"><span>n³ Hearingpedia / 用探索连接听觉科学</span><a href={url('lab')}>所有互动实验 ↗</a><span>浏览器声音实验 · 2026</span></footer>
+    </div>
+    <script>import '../../scripts/spectrogram';</script>
+  </body>
+</html>
