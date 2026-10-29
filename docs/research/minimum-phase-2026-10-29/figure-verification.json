@@ -1,0 +1,37 @@
+{
+  "nature": "Analytic teaching examples, no measurements",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0"
+  },
+  "same_magnitude_error": 6.661338147750939e-16,
+  "group_delay_difference_error": 4.618527782440651e-14,
+  "dc_delays_samples": {
+    "minimum": -4.000000000000001,
+    "nonminimum": 5.000000000000001,
+    "allpass": 8.99999999999999
+  },
+  "early_energy": [
+    1.0,
+    0.64
+  ],
+  "total_energy": 1.64,
+  "cepstrum": {
+    "N": 4096,
+    "coefficient_error": 0.0,
+    "tail_l2": 2.966052694814877e-16
+  },
+  "inverse_dc_gain_db": {
+    "0.5": 6.020599913279624,
+    "0.8": 13.979400086720377,
+    "0.95": 26.020599913279618,
+    "0.99": 39.99999999999999
+  },
+  "figures": [
+    "01-same-magnitude.svg",
+    "02-zeros-delay.svg",
+    "03-cepstrum.svg",
+    "04-inverse-conditioning.svg"
+  ]
+}

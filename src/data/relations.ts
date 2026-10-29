@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('minimum-phase-system','phase-and-group-delay','related','相同幅度的因果稳定实现之间，可由全通分解比较群延迟；最小相位本身也可能局部为负群延迟。',3),
+  link('minimum-phase-system','cepstrum','related','从实倒谱构造因果复倒谱以重建最小相位响应，不能恢复原全通相位与传播延迟。',3),
+  link('minimum-phase-system','spectrum-and-power-spectral-density','related','完整幅度谱只有在最小相位及固定符号约定下才能约束对应相位。',3),
+  link('minimum-phase-system','spatial-hearing','application','HRTF最小相位加延迟近似须保留适当的低频双耳时间线索。',3),
+  link('minimum-phase-system','interaural-time-difference','related','分别重建左右耳幅度不能自动恢复正确的耳间时间差，需共同时间参照。',3),
+  link('minimum-phase-system','room-acoustics','application','多径声路可以包含非最小相位部分，单点均衡需检查空间稳健性和逆增益。',2),
+  link('minimum-phase-system','hearing-aid','application','最小相位滤波可用于延迟权衡，但总处理等待与开放声路叠加需另行评估。',2),
+  link('minimum-phase-system','electroacoustic-transducer','application','电声均衡需同时考虑稳定逆、深凹口的条件性与实际动态余量。',2),
+  link('minimum-phase-system','temporal-envelope','related','对数幅度沿频率轴的Hilbert关系与时间波形解析包络使用同类工具，但对象不同。',2),
   link('wave-equation','helmholtz-equation','related','线性时不变波动问题的单频分量满足相应亥姆霍兹方程；完整瞬态还需初始条件和频带信息。',3),
   link('wave-equation','sound-waves-and-propagation','related','质量守恒、动量守恒和介质压缩性形成声传播的时空方程。',3),
   link('wave-equation','room-acoustics','application','边界反射和时域声场为房间传播与脉冲响应分析提供模型。',3),

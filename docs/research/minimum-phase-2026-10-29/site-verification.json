@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "entry": "minimum-phase-system",
+  "check": {"result": "passed", "errors": 0, "warnings": 0, "existing_hints": 1},
+  "build": {
+    "result": "blocked by existing unrelated content",
+    "error": "Unknown related concept auditory-cortex in active-auditory-sensing",
+    "new_entry_relation_endpoints": "all 9 checked and present"
+  },
+  "verify": {
+    "result": "failed after incomplete build",
+    "error": "Expected core pages, 13 domains, and all concepts"
+  },
+  "browser": {
+    "target": "independent HTML preview served locally",
+    "desktop": {"viewport_width": 1280, "client_width": 1265, "scroll_width": 1265},
+    "mobile": {"viewport_width": 390, "viewport_height": 844, "client_width": 375, "scroll_width": 375},
+    "katex_errors": 0,
+    "references": 8,
+    "all_4_figures_loaded_after_scrolling": true,
+    "visual_check": "Desktop title, facts, body, adjacent formulas and figures inspected; mobile title and facts inspected; source PNGs inspected individually.",
+    "scope": "Independent preview; not a successful full-site production build. Temporary viewport override reset."
+  },
+  "publication": "Draft; not committed, pushed or deployed"
+}

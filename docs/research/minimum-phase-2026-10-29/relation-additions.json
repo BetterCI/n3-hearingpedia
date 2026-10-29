@@ -1,0 +1,65 @@
+[
+  {
+    "source": "minimum-phase-system",
+    "target": "phase-and-group-delay",
+    "type": "related",
+    "note": "相同幅度的因果稳定实现之间，可由全通分解比较群延迟；最小相位本身也可能局部为负群延迟。",
+    "strength": 3
+  },
+  {
+    "source": "minimum-phase-system",
+    "target": "cepstrum",
+    "type": "related",
+    "note": "从实倒谱构造因果复倒谱以重建最小相位响应，不能恢复原全通相位与传播延迟。",
+    "strength": 3
+  },
+  {
+    "source": "minimum-phase-system",
+    "target": "spectrum-and-power-spectral-density",
+    "type": "related",
+    "note": "完整幅度谱只有在最小相位及固定符号约定下才能约束对应相位。",
+    "strength": 3
+  },
+  {
+    "source": "minimum-phase-system",
+    "target": "spatial-hearing",
+    "type": "application",
+    "note": "HRTF最小相位加延迟近似须保留适当的低频双耳时间线索。",
+    "strength": 3
+  },
+  {
+    "source": "minimum-phase-system",
+    "target": "interaural-time-difference",
+    "type": "related",
+    "note": "分别重建左右耳幅度不能自动恢复正确的耳间时间差，需共同时间参照。",
+    "strength": 3
+  },
+  {
+    "source": "minimum-phase-system",
+    "target": "room-acoustics",
+    "type": "application",
+    "note": "多径声路可以包含非最小相位部分，单点均衡需检查空间稳健性和逆增益。",
+    "strength": 2
+  },
+  {
+    "source": "minimum-phase-system",
+    "target": "hearing-aid",
+    "type": "application",
+    "note": "最小相位滤波可用于延迟权衡，但总处理等待与开放声路叠加需另行评估。",
+    "strength": 2
+  },
+  {
+    "source": "minimum-phase-system",
+    "target": "electroacoustic-transducer",
+    "type": "application",
+    "note": "电声均衡需同时考虑稳定逆、深凹口的条件性与实际动态余量。",
+    "strength": 2
+  },
+  {
+    "source": "minimum-phase-system",
+    "target": "temporal-envelope",
+    "type": "related",
+    "note": "对数幅度沿频率轴的Hilbert关系与时间波形解析包络使用同类工具，但对象不同。",
+    "strength": 2
+  }
+]

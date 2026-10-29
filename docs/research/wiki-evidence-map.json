@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-10-29",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 736,
+  "relations": 745,
   "entries": [
     {
       "slug": "cochlea",
@@ -4965,6 +4965,38 @@
         "electroacoustic-transducer",
         "formant",
         "phase-and-group-delay"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "minimum-phase-system",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 6304,
+      "body_characters": 12259,
+      "sections": 10,
+      "subsections": 10,
+      "reference_ids": [
+        "mp-smith-filters",
+        "mp-smith-spectral",
+        "mp-rceps",
+        "mp-scipy",
+        "mp-kulkarni-1999",
+        "mp-kulkarni-2004",
+        "pd-liski-2021",
+        "mp-inverse"
+      ],
+      "wiki_links": [
+        "spatial-hearing",
+        "interaural-time-difference",
+        "spectrum-and-power-spectral-density",
+        "phase-and-group-delay",
+        "temporal-envelope",
+        "cepstrum",
+        "room-acoustics",
+        "electroacoustic-transducer",
+        "hearing-aid"
       ],
       "status": "draft",
       "depth": "in-depth"

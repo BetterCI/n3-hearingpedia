@@ -1,0 +1,76 @@
+{
+  "title": "最小相位系统",
+  "english": "Minimum-Phase System",
+  "slug": "minimum-phase-system",
+  "summary": "解释最小相位系统的因果稳定逆、零点条件、最小群延迟与能量前置性质，推导零点反射和全通分解，给出倒谱重建与数值检验，并讨论声学均衡、HRTF、助听器及听觉实验中的适用边界。",
+  "categories": [
+    "signal-processing",
+    "acoustics",
+    "research-methods",
+    "binaural"
+  ],
+  "tags": [
+    "最小相位",
+    "零点",
+    "全通分解",
+    "稳定逆",
+    "倒谱",
+    "Hilbert变换",
+    "HRTF",
+    "均衡"
+  ],
+  "aliases": [
+    "最小相位",
+    "最小相位滤波器",
+    "极小相位系统",
+    "minimum phase",
+    "minimum-phase filter",
+    "minimum-delay system"
+  ],
+  "level": [
+    "undergraduate",
+    "graduate"
+  ],
+  "status": "draft",
+  "depth": "in-depth",
+  "last_updated": "2026-10-29",
+  "literature_checked_at": "2026-10-29",
+  "authors": [
+    "AI 辅助编写"
+  ],
+  "knowledge_area": "methods",
+  "kind": "model",
+  "key_facts": [
+    {
+      "label": "离散时间定义",
+      "value": "系统与其精确逆均因果且BIBO稳定"
+    },
+    {
+      "label": "有理系统条件",
+      "value": "因果稳定、首项非零，有限零点严格在单位圆内"
+    },
+    {
+      "label": "比较前提",
+      "value": "最小群延迟与能量前置性质针对相同幅度响应的因果稳定系统"
+    },
+    {
+      "label": "幅相联系",
+      "value": "完整对数幅度谱在固定常数相位约定后确定最小相位响应"
+    },
+    {
+      "label": "应用限制",
+      "value": "稳定可逆不保证逆增益适当；传播延迟和双耳时间差需另行处理"
+    }
+  ],
+  "references": [
+    "mp-smith-filters",
+    "mp-smith-spectral",
+    "mp-rceps",
+    "mp-scipy",
+    "mp-kulkarni-1999",
+    "mp-kulkarni-2004",
+    "pd-liski-2021",
+    "mp-inverse"
+  ],
+  "order": 6.4
+}

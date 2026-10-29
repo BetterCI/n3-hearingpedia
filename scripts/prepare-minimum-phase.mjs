@@ -1,0 +1,70 @@
+import { readFile, writeFile, mkdir, access, cp } from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import { z } from 'astro/zod';
+import { stripTypeScriptTypes } from 'node:module';
+import { knowledgeAreas, kindLabels } from '../src/data/knowledge.ts';
+import { references } from '../src/data/references.ts';
+import { knowledgeRelations } from '../src/data/relations.ts';
+
+const dir='docs/research/minimum-phase-2026-10-29';
+await mkdir(dir,{recursive:true});
+const schemaText=(await readFile('src/content.config.ts','utf8')).match(/schema: (z\.object\([\s\S]*?)\n\}\);/)[1].replace(/,\s*$/,'');
+const schemaSource=stripTypeScriptTypes(`const schema = ${schemaText};`);
+const schema=Function('z','knowledgeAreas','kindLabels',`${schemaSource} return schema;`)(z,knowledgeAreas,kindLabels);
+const processor=await createMarkdownProcessor({remarkPlugins:[remarkMath],rehypePlugins:[[rehypeKatex,{throwOnError:true}]]});
+const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+const wikiFile='docs/research/wiki-evidence-map.json';
+const wiki=JSON.parse(await readFile(wikiFile,'utf8'));
+const reports=[];
+for(const slug of ['minimum-phase-system']){
+  const source=(await readFile(`src/content/concepts/${slug}.md`,'utf8')).replaceAll('\r\n','\n');
+  const [front,body]=source.slice(4).split(/\n---\n/);
+  const val=key=>JSON.parse(front.match(new RegExp(`^${key}: (.+)$`,'m'))[1]);
+  const ids=val('references');
+  const links=[...new Set([...body.matchAll(/\]\(\.\.\/([^/]+)\//g)].map(m=>m[1]))];
+  for(const target of links)await access(`src/content/concepts/${target}.md`);
+  const record={slug,knowledge_area:val('knowledge_area'),kind:val('kind'),chinese_characters:(body.match(/[\u3400-\u9fff]/g)||[]).length,body_characters:body.length,sections:(body.match(/^## /gm)||[]).length,subsections:(body.match(/^### /gm)||[]).length,reference_ids:ids,wiki_links:links,status:'draft',depth:'in-depth'};
+  const i=wiki.entries.findIndex(r=>r.slug===slug); if(i<0)wiki.entries.push(record);else wiki.entries[i]={...wiki.entries[i],...record};
+  const facts=[...front.matchAll(/- \{label: "([^"]+)", value: "([^"]+)"\}/g)].map(m=>({label:m[1],value:m[2]}));
+  const metadata={title:val('title'),english:val('english'),slug,summary:val('summary'),categories:val('categories'),tags:val('tags'),aliases:val('aliases'),level:val('level'),status:'draft',depth:'in-depth',last_updated:'2026-10-29',literature_checked_at:'2026-10-29',authors:val('authors'),knowledge_area:val('knowledge_area'),kind:val('kind'),key_facts:facts,references:ids,order:Number(front.match(/^order: (.+)$/m)[1])};
+  schema.parse(metadata);
+  const edges=knowledgeRelations.filter(r=>r.source===slug||r.target===slug);
+  for(const edge of edges){
+    await access(`src/content/concepts/${edge.source}.md`);
+    await access(`src/content/concepts/${edge.target}.md`);
+  }
+  await writeFile(`${dir}/frontmatter.json`,JSON.stringify(metadata,null,2)+'\n');
+  await writeFile(`${dir}/relation-additions.json`,JSON.stringify(edges,null,2)+'\n');
+  for(const m of body.matchAll(/\[(\d+)\]\(#ref-([^\s)]+)\)/g))assert.equal(ids[Number(m[1])-1],m[2]);
+  for(const m of body.matchAll(/href="#ref-([^"]+)">(\d+)/g))assert.equal(ids[Number(m[2])-1],m[1]);
+  for(const id of ids)assert(references[id]&&body.includes('#ref-'+id),'Missing/unused reference '+id);
+  const figs=[...body.matchAll(/<img src="([^"]+)"/g)].map(m=>m[1]);
+  assert.equal(figs.length,4);
+  for(const fig of figs)await access('public/'+fig.replace('/n3-hearingpedia/',''));
+  
+  const bibliography=ids.map((id,i)=>{const r=references[id];return `<p id="ref-${id}">[${i+1}] ${esc(r.authors)} (${esc(r.year)}). <a href="${esc(r.url)}">${esc(r.title)}</a>. ${esc(r.publication)}。访问范围：${r.access}。${esc(r.supports)}</p>`;}).join('\n');
+  let review=`# ${metadata.title}\n\n> ${metadata.english} · 深度词条 · 2026-10-29 · Draft，待专业审阅\n\n${metadata.summary}\n\n| 术语信息 | 内容 |\n| --- | --- |\n${facts.map(f=>`| ${f.label} | ${f.value} |`).join('\n')}\n\n${body}\n\n## 参考文献与证据范围\n\n${bibliography}\n`;
+  review=review.replaceAll(`/n3-hearingpedia/figures/${slug}/`,`assets/${slug}/`).replace(/\]\(\.\.\/([^/]+)\/\)/g,'](https://betterci.github.io/n3-hearingpedia/concepts/$1/)');
+  review=review.replace(/href="\.\.\/([^/]+)\/"/g,'href="https://betterci.github.io/n3-hearingpedia/concepts/$1/"');
+  await mkdir(`docs/drafts/assets/${slug}`,{recursive:true});
+  await cp(`public/figures/${slug}`,`docs/drafts/assets/${slug}`,{recursive:true});
+  const html=(await processor.render(review)).code;
+  assert(!html.includes('katex-error'));
+  await mkdir('docs/drafts/assets/equation-fonts',{recursive:true});
+  await cp('node_modules/katex/dist/fonts','docs/drafts/assets/equation-fonts',{recursive:true});
+  const katex=(await readFile('node_modules/katex/dist/katex.min.css','utf8')).replaceAll('url(fonts/','url(assets/equation-fonts/');
+  const css='*{box-sizing:border-box}body{margin:0;background:#f5f7f8;color:#243743;font:17px/1.95 "Microsoft YaHei",system-ui,sans-serif}main{max-width:1040px;margin:24px auto;background:white;padding:40px 52px}h1{font-size:36px}h2{margin-top:42px;border-bottom:1px solid #dce3e8;padding-bottom:10px}a{color:#22658c}figure{margin:28px 0}img{display:block;width:100%;height:auto}figcaption{font-size:14px;color:#526873}.katex-display{overflow-x:auto;overflow-y:hidden;padding:8px 0}table{display:block;overflow-x:auto;border-collapse:collapse;font-size:14px}td,th{padding:9px;border:1px solid #dce3e8;min-width:100px}p[id^=ref-]{font-size:14px;overflow-wrap:anywhere}a[href^="#ref-"]{font-size:.75em;vertical-align:super;white-space:nowrap} @media(max-width:700px){main{margin:0;padding:20px 16px}body{font-size:16px}h1{font-size:30px}}';
+  const preview=`docs/drafts/${slug}-preview.html`;
+  await writeFile(preview,`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${metadata.title} · 阅读预览</title><style>${katex}\n${css}</style></head><body><main>${html}</main></body></html>`);
+  await writeFile(`docs/drafts/${slug}-review-2026-10-29.md`,review);
+  reports.push({...record,figures:figs,preview,display_equations:(html.match(/class="katex-display"/g)||[]).length,relationships:knowledgeRelations.filter(r=>r.source===slug||r.target===slug).length,schema:'passed',math_render:'passed',cross_links:'passed',citations:'passed'});
+}
+wiki.date='2026-10-29';wiki.relations=knowledgeRelations.length;
+await writeFile(wikiFile,JSON.stringify(wiki,null,2)+'\n');
+await writeFile(`${dir}/entry-verification.json`,JSON.stringify(reports,null,2)+'\n');
+const sourceIds=[...new Set(reports.flatMap(r=>r.reference_ids))];
+await writeFile(`${dir}/source-ledger.json`,JSON.stringify(sourceIds.map(id=>({id,...references[id],checked_at:'2026-10-29'})),null,2)+'\n');
+console.log(JSON.stringify(reports,null,2));

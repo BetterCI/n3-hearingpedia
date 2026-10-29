@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "minimum-phase-system",
+    "knowledge_area": "methods",
+    "kind": "model",
+    "chinese_characters": 6304,
+    "body_characters": 12259,
+    "sections": 10,
+    "subsections": 10,
+    "reference_ids": [
+      "mp-smith-filters",
+      "mp-smith-spectral",
+      "mp-rceps",
+      "mp-scipy",
+      "mp-kulkarni-1999",
+      "mp-kulkarni-2004",
+      "pd-liski-2021",
+      "mp-inverse"
+    ],
+    "wiki_links": [
+      "spatial-hearing",
+      "interaural-time-difference",
+      "spectrum-and-power-spectral-density",
+      "phase-and-group-delay",
+      "temporal-envelope",
+      "cepstrum",
+      "room-acoustics",
+      "electroacoustic-transducer",
+      "hearing-aid"
+    ],
+    "status": "draft",
+    "depth": "in-depth",
+    "figures": [
+      "/n3-hearingpedia/figures/minimum-phase-system/01-same-magnitude.svg",
+      "/n3-hearingpedia/figures/minimum-phase-system/02-zeros-delay.svg",
+      "/n3-hearingpedia/figures/minimum-phase-system/03-cepstrum.svg",
+      "/n3-hearingpedia/figures/minimum-phase-system/04-inverse-conditioning.svg"
+    ],
+    "preview": "docs/drafts/minimum-phase-system-preview.html",
+    "display_equations": 14,
+    "relationships": 9,
+    "schema": "passed",
+    "math_render": "passed",
+    "cross_links": "passed",
+    "citations": "passed"
+  }
+]

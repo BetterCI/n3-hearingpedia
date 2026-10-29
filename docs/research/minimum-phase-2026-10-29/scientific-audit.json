@@ -1,0 +1,27 @@
+{
+  "review_type": "AI-assisted scientific and numerical review, not external expert review",
+  "complex_zero_reflection_error": 8.881784197001252e-16,
+  "hilbert_phase_error_rad": 1.1102230246251565e-15,
+  "cumulative_energy_minimum_margin": 2.220446049250313e-16,
+  "reviewed_claims": [
+    "discrete-time BIBO inverse and b0 condition",
+    "continuous-time relative degree exception",
+    "allpass group-delay nonnegativity vs locally negative minimum-phase delay",
+    "energy theorem within rational stable scope",
+    "Hilbert sign convention",
+    "finite DFT lifter endpoints",
+    "HRTF low-frequency ITD and anechoic scope",
+    "SciPy half parameter"
+  ],
+  "corrections": [
+    "Expand BIBO and define u[n]",
+    "Explicit rational stable scope of cumulative-energy theorem",
+    "Specify positive integer k in Hilbert convention"
+  ],
+  "source_recheck": [
+    "Smith minimum-phase chapter",
+    "PubMed 10335633 abstract read directly",
+    "SciPy minimum_phase official API"
+  ],
+  "result": "No substantive scientific error found within stated assumptions; retain Draft without external named reviewer."
+}
