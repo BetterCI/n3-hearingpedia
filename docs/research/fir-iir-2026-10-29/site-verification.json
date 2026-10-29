@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-29",
+  "entry_validation": "passed",
+  "check": {
+    "status": "passed",
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": {
+    "status": "passed",
+    "reason": "On origin/main 47c8c5b, Astro completed 267 static routes. Node stalled during shutdown; native Pagefind 1.5.2 was run separately and indexed all 116 concepts. Existing Vite chunk-size advisory remains."
+  },
+  "verify": {
+    "status": "independent_local_validation_passed",
+    "html_pages": 271,
+    "checked_internal_links": 23083,
+    "broken_links": 0,
+    "reason": "Independent HTML/resource/anchor checks passed. Local Node runtime also stalled on --version, so full pnpm verify and regression suite are deferred to the post-push CI; no local suite success claimed."
+  },
+  "missing_existing_relation_endpoints": [],
+  "browser": {
+    "previous_scope": "The two original standalone previews were inspected at desktop and 390px widths before merge.",
+    "merged_scope": "HTML rendered by Astro markdown processor with KaTeX; citation, image and internal link validation passed. Merged file URL could not be opened by browser tool due to URL protocol policy; no browser verification claimed."
+  },
+  "publication": "Pre-push record; CI and deployment results belong to the workflow for the containing commit.",
+  "numeric_reproduction": "All assertions passed; all 10 SVG/PNG files byte-identical to reviewed originals.",
+  "entry": "fir-and-iir-filters",
+  "merge": {
+    "chinese_characters": 9889,
+    "sections": 12,
+    "references": 23,
+    "figures": 5,
+    "relationships": 9,
+    "old_sources": "archived in before-merge",
+    "old_preview_redirects": "passed",
+    "old_site_redirects": "generated and verified including deployment base path"
+  }
+}

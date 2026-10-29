@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('fir-and-iir-filters','phase-and-group-delay','related','线性相位FIR与常见IIR的群延迟不同，前后向零相位处理另有非因果和幅度平方条件。',3),
+  link('fir-and-iir-filters','spectrum-and-power-spectral-density','related','复频率响应改变幅度与相位，输出功率谱通过幅度平方改变。',2),
+  link('fir-and-iir-filters','auditory-filter','related','有限卷积或递推可近似线性听觉滤波响应，不等同完整耳蜗机制。',2),
+  link('fir-and-iir-filters','hearing-aid','application','用于均衡、采样率转换及滤波器组，需共同验证相位、数值行为和总延迟。',2),
+  link('fir-and-iir-filters','cochlear-implant-coding-strategies','application','分带处理须结合包络、通道选择和刺激链验证，频带数不等于有效神经通道数。',2),
+  link('electroencephalography','fir-and-iir-filters','analyzed-by','滤波长度、递推状态、方向和端点影响瞬态与潜伏期解释。',2),
+  link('fir-and-iir-filters','interaural-time-difference','related','双耳刺激需核对左右复响应和相对延迟，不能只看幅度。',2),
+  link('fir-and-iir-filters','formant','related','共振型有理系统可描述声道部分线性响应，极点模态与实测谱峰仍须区分。',2),
+  link('fir-and-iir-filters','minimum-phase-system','related','FIR和IIR的响应长度分类与最小相位条件不同，保幅相位转换需要重新验证时间与频率指标。',3),
   link('minimum-phase-system','phase-and-group-delay','related','相同幅度的因果稳定实现之间，可由全通分解比较群延迟；最小相位本身也可能局部为负群延迟。',3),
   link('minimum-phase-system','cepstrum','related','从实倒谱构造因果复倒谱以重建最小相位响应，不能恢复原全通相位与传播延迟。',3),
   link('minimum-phase-system','spectrum-and-power-spectral-density','related','完整幅度谱只有在最小相位及固定符号约定下才能约束对应相位。',3),
