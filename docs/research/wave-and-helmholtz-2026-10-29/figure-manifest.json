@@ -1,0 +1,85 @@
+[
+  {
+    "entry": "wave-equation",
+    "svg": "01-initial-data.svg",
+    "png": "01-initial-data.png",
+    "nature": "原创解析教学图，非实测",
+    "parameters": {
+      "c_m_s": 343.0,
+      "sigma_m": 0.04,
+      "t_s": 0.0004,
+      "amplitude_Pa": 1
+    }
+  },
+  {
+    "entry": "wave-equation",
+    "svg": "02-reflection.svg",
+    "png": "02-reflection.png",
+    "nature": "原创解析教学图，非实测",
+    "parameters": {
+      "boundary_m": 0,
+      "incident_virtual_center_m": 0.1,
+      "sigma_m": 0.04,
+      "R": [
+        1,
+        -1
+      ]
+    }
+  },
+  {
+    "entry": "wave-equation",
+    "svg": "03-dispersion.svg",
+    "png": "03-dispersion.png",
+    "nature": "原创解析教学图，非实测",
+    "parameters": {
+      "C": [
+        0.5,
+        0.9,
+        1.0
+      ],
+      "points_per_wavelength": [
+        2.1,
+        30
+      ],
+      "model": "1D second-order centered difference"
+    }
+  },
+  {
+    "entry": "helmholtz-equation",
+    "svg": "01-phasor.svg",
+    "png": "01-phasor.png",
+    "nature": "原创解析教学图，非实测",
+    "parameters": {
+      "f_Hz": 1000,
+      "c_m_s": 343.0,
+      "travelling_peak_Pa": 1,
+      "standing_each_wave_Pa": 0.5
+    }
+  },
+  {
+    "entry": "helmholtz-equation",
+    "svg": "02-modes.svg",
+    "png": "02-modes.png",
+    "nature": "原创解析教学图，非实测",
+    "parameters": {
+      "L_m": 0.1,
+      "c_m_s": 343.0,
+      "normalization": "each mode peak normalized to 1, vertically offset"
+    }
+  },
+  {
+    "entry": "helmholtz-equation",
+    "svg": "03-impedance-tube.svg",
+    "png": "03-impedance-tube.png",
+    "nature": "原创解析教学图，非实测",
+    "parameters": {
+      "rho_kg_m3": 1.2,
+      "c_m_s": 343.0,
+      "f_Hz": 2000,
+      "L_m": 0.1,
+      "R": 0.5,
+      "incident_peak_Pa": 1,
+      "Zs_Pa_s_m": 1234.8
+    }
+  }
+]

@@ -41,6 +41,7 @@ export const introductoryPaths = [
 ];
 
 export const learningPaths = [
+  { id:'acoustic-equations',title:'从声传播到时域与频域声学建模',english:'Wave equations and acoustic modelling',description:'从压力与质点运动进入守恒推导、初始条件和边界，再连接单频声场、模态、房间与器件。',slugs:['sound-waves-and-propagation','wave-equation','helmholtz-equation','room-acoustics','electroacoustic-transducer'] },
   { id:'microphone',title:'从声学接收到可解释的听觉实验输入',english:'Microphones and auditory measurements',description:'从换能原理进入声路、指向性与噪声，再用频谱、动态范围和校准连接录音、声学测量及言语评价。',slugs:['electroacoustic-transducer','microphone','spectrum-and-power-spectral-density','dynamic-range','audiometric-calibration','speech-intelligibility'] },
   { id:'electroacoustic-transducer',title:'从物理端口理解电声器件与听觉应用',english:'Electroacoustic transducers',description:'从声波和边界进入换能机制、阻抗及负载，再通过动态范围与校准理解实验刺激、助听器和实际言语评价。',slugs:['sound-waves-and-propagation','electroacoustic-transducer','dynamic-range','audiometric-calibration','pure-tone-audiometry','hearing-aid','speech-intelligibility'] },
   { id:'comparative-hearing',title:'从动物听觉理解人类机制与应用',english:'Comparative hearing & human applications',description:'从传播与双耳时间线索进入跨物种比较，再阅读空间学习、感受细胞修复与仿生助听器的证据边界。',slugs:['sound-waves-and-propagation','interaural-time-difference','comparative-hearing','auditory-plasticity','inner-hair-cell','outer-hair-cell','hearing-aid'] },

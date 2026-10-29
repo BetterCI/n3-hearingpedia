@@ -15,6 +15,19 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('wave-equation','helmholtz-equation','related','线性时不变波动问题的单频分量满足相应亥姆霍兹方程；完整瞬态还需初始条件和频带信息。',3),
+  link('wave-equation','sound-waves-and-propagation','related','质量守恒、动量守恒和介质压缩性形成声传播的时空方程。',3),
+  link('wave-equation','room-acoustics','application','边界反射和时域声场为房间传播与脉冲响应分析提供模型。',3),
+  link('wave-equation','interaural-time-difference','related','有限传播速度连接几何路径差与到达时延，但不包含全部双耳滤波线索。',2),
+  link('wave-equation','phase-and-group-delay','related','传播时延与逐频相位相联系；单频包裹相位不能确定完整时延。',2),
+  link('wave-equation','electroacoustic-transducer','application','器件边界振动驱动压力波，须区分体积源与速度边界。',2),
+  link('helmholtz-equation','sound-waves-and-propagation','related','复声压的空间幅度与相位共同描述单频传播。',3),
+  link('helmholtz-equation','room-acoustics','application','求解房间模态与受迫声场，区分特征频率与接收点响应峰。',3),
+  link('helmholtz-equation','electroacoustic-transducer','application','频域边界模型连接辐射、腔体和负载，微型通道须检查黏热损耗。',3),
+  link('helmholtz-equation','formant','related','声道共振可以从波导边值问题理解，真实声道还需几何与损耗条件。',2),
+  link('helmholtz-equation','hermann-von-helmholtz','related','同名方程、具体共振器与历史耳蜗共振假说需区分。',2),
+  link('helmholtz-equation','cochlea','related','内耳声学需流固耦合与主动机制，单一无损压力方程不能替代完整耳蜗模型。',2),
+  link('helmholtz-equation','microphone','application','局部复声压测量需要空间位置和共同相位参照，微通道还受黏热损耗影响。',2),
   link('phase-and-group-delay','pure-and-complex-tones','related','从正弦相位和周期歧义进入系统延迟的定义。',3),
   link('phase-and-group-delay','spectrum-and-power-spectral-density','related','复频率响应的相位携带幅度谱不能独立确定的时间信息。',3),
   link('phase-and-group-delay','temporal-envelope','related','在明确的局部窄带条件下，群延迟近似描述包络移动。',3),

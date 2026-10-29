@@ -1,0 +1,89 @@
+[
+  {
+    "slug": "wave-equation",
+    "knowledge_area": "sound",
+    "kind": "model",
+    "chinese_characters": 4583,
+    "body_characters": 9410,
+    "sections": 9,
+    "subsections": 14,
+    "reference_ids": [
+      "we-unsw-equation",
+      "waves-mit-plane",
+      "waves-mit-spherical",
+      "we-demanet-2016",
+      "we-kwave-3d",
+      "we-comsol-equations",
+      "he-fenics-theory"
+    ],
+    "wiki_links": [
+      "helmholtz-equation",
+      "sound-waves-and-propagation",
+      "phase-and-group-delay",
+      "interaural-time-difference",
+      "room-acoustics",
+      "electroacoustic-transducer",
+      "spectrum-and-power-spectral-density"
+    ],
+    "status": "draft",
+    "depth": "in-depth",
+    "figures": [
+      "/n3-hearingpedia/figures/wave-equation/01-initial-data.svg",
+      "/n3-hearingpedia/figures/wave-equation/02-reflection.svg",
+      "/n3-hearingpedia/figures/wave-equation/03-dispersion.svg"
+    ],
+    "preview": "docs/drafts/wave-equation-preview.html",
+    "display_equations": 11,
+    "relationships": 6,
+    "schema": "passed",
+    "math_render": "passed",
+    "cross_links": "passed",
+    "citations": "passed"
+  },
+  {
+    "slug": "helmholtz-equation",
+    "knowledge_area": "methods",
+    "kind": "model",
+    "chinese_characters": 4660,
+    "body_characters": 10276,
+    "sections": 9,
+    "subsections": 15,
+    "reference_ids": [
+      "he-fenics-theory",
+      "waves-mit-spherical",
+      "we-demanet-2016",
+      "he-dolfinx-demo",
+      "he-bempp-operators",
+      "we-comsol-equations",
+      "he-comsol-thermoviscous",
+      "waves-mit-plane",
+      "he-fenics-code"
+    ],
+    "wiki_links": [
+      "wave-equation",
+      "hermann-von-helmholtz",
+      "sound-waves-and-propagation",
+      "room-acoustics",
+      "microphone",
+      "hearing-aid",
+      "cochlea",
+      "electroacoustic-transducer",
+      "formant",
+      "phase-and-group-delay"
+    ],
+    "status": "draft",
+    "depth": "in-depth",
+    "figures": [
+      "/n3-hearingpedia/figures/helmholtz-equation/01-phasor.svg",
+      "/n3-hearingpedia/figures/helmholtz-equation/02-modes.svg",
+      "/n3-hearingpedia/figures/helmholtz-equation/03-impedance-tube.svg"
+    ],
+    "preview": "docs/drafts/helmholtz-equation-preview.html",
+    "display_equations": 10,
+    "relationships": 8,
+    "schema": "passed",
+    "math_render": "passed",
+    "cross_links": "passed",
+    "citations": "passed"
+  }
+]

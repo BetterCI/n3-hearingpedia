@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-29",
+  "release_base": "5eb45ce7b674a653a20d3caad777d3b31d3b3b1d",
+  "scope": "Isolated release workspace based on current remote main; unrelated drafts excluded",
+  "scientific_review": "passed with three precision corrections; see scientific-review.md; no named professional review claimed",
+  "targeted_validation": "passed: schema, citations, math rendering, links, assets, numerical checks and learning path",
+  "check": {
+    "result": "passed",
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": {
+    "result": "passed",
+    "astro_pages": 263,
+    "searchable_concepts": 114,
+    "notes": "Existing large bundle and redirect-page Pagefind notices; no build errors."
+  },
+  "verify": {
+    "result": "passed",
+    "pages": 265,
+    "checked_internal_links": 22718,
+    "broken_links": 0,
+    "equations": 320,
+    "typed_relationships": 736
+  },
+  "workflow_tests": {
+    "result": "passed",
+    "tests": 20,
+    "failed": 0
+  },
+  "browser_draft_validation": {
+    "viewports_checked": [
+      390,
+      449,
+      1280
+    ],
+    "page_horizontal_overflow": false,
+    "katex_errors": 0,
+    "console_errors": 0,
+    "figures_visually_inspected": 6
+  },
+  "initial_workspace_note": "The older mixed working copy could not complete a global build because of missing existing relation endpoints. The release was integrated onto current remote main and all global checks above passed."
+}

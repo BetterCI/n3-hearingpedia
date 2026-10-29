@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 723,
+  "relations": 736,
   "entries": [
     {
       "slug": "cochlea",
@@ -3958,8 +3958,8 @@
       "slug": "sound-waves-and-propagation",
       "knowledge_area": "sound",
       "kind": "acoustic-environment",
-      "chinese_characters": 8120,
-      "body_characters": 16898,
+      "chinese_characters": 8170,
+      "body_characters": 17001,
       "sections": 11,
       "subsections": 21,
       "reference_ids": [
@@ -3989,6 +3989,8 @@
         "fundamental-frequency",
         "interaural-time-difference",
         "room-acoustics",
+        "wave-equation",
+        "helmholtz-equation",
         "harmonicity",
         "spectrogram",
         "loudness",
@@ -4900,6 +4902,69 @@
         "room-acoustics",
         "vocoder",
         "temporal-limits-encoder"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "wave-equation",
+      "knowledge_area": "sound",
+      "kind": "model",
+      "chinese_characters": 4583,
+      "body_characters": 9410,
+      "sections": 9,
+      "subsections": 14,
+      "reference_ids": [
+        "we-unsw-equation",
+        "waves-mit-plane",
+        "waves-mit-spherical",
+        "we-demanet-2016",
+        "we-kwave-3d",
+        "we-comsol-equations",
+        "he-fenics-theory"
+      ],
+      "wiki_links": [
+        "helmholtz-equation",
+        "sound-waves-and-propagation",
+        "phase-and-group-delay",
+        "interaural-time-difference",
+        "room-acoustics",
+        "electroacoustic-transducer",
+        "spectrum-and-power-spectral-density"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "helmholtz-equation",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 4660,
+      "body_characters": 10276,
+      "sections": 9,
+      "subsections": 15,
+      "reference_ids": [
+        "he-fenics-theory",
+        "waves-mit-spherical",
+        "we-demanet-2016",
+        "he-dolfinx-demo",
+        "he-bempp-operators",
+        "we-comsol-equations",
+        "he-comsol-thermoviscous",
+        "waves-mit-plane",
+        "he-fenics-code"
+      ],
+      "wiki_links": [
+        "wave-equation",
+        "hermann-von-helmholtz",
+        "sound-waves-and-propagation",
+        "room-acoustics",
+        "microphone",
+        "hearing-aid",
+        "cochlea",
+        "electroacoustic-transducer",
+        "formant",
+        "phase-and-group-delay"
       ],
       "status": "draft",
       "depth": "in-depth"
