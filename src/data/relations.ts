@@ -15,6 +15,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('basilar-membrane','cochlea','related','基底膜承托螺旋器，并参与耳蜗分隔与液体的耦合运动。',3),
+  link('basilar-membrane','tonotopy','mechanism','频率相关的行波响应为耳蜗频位映射关系提供机械基础。',3),
+  link('basilar-membrane','outer-hair-cell','mechanism','外毛细胞反馈影响基底膜的敏感性、调谐和非线性。',3),
+  link('basilar-membrane','inner-hair-cell','mechanism','基底膜运动通过螺旋器内部相对运动及液体耦合影响内毛细胞刺激。',3),
+  link('basilar-membrane','auditory-filter','related','机械调谐与行为频率选择性相关，但不能等同不同测量层级。',2),
+  link('basilar-membrane','otoacoustic-emissions','related','耳声发射提供外周机械功能的间接信息，不能唯一重建基底膜位移。',2),
+  link('basilar-membrane','cochlear-implant','application','声学频位参考用于理解频带分配，需区分电极、螺旋器及神经节坐标。',2),
   link('fir-and-iir-filters','phase-and-group-delay','related','线性相位FIR与常见IIR的群延迟不同，前后向零相位处理另有非因果和幅度平方条件。',3),
   link('fir-and-iir-filters','spectrum-and-power-spectral-density','related','复频率响应改变幅度与相位，输出功率谱通过幅度平方改变。',2),
   link('fir-and-iir-filters','auditory-filter','related','有限卷积或递推可近似线性听觉滤波响应，不等同完整耳蜗机制。',2),

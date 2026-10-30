@@ -1,0 +1,56 @@
+{
+  "tests": [
+    "pure-tone place and RMS at 44.1/48 kHz",
+    "filterbank complex response versus audio output",
+    "passive coupled solver versus independent SciPy solution",
+    "coupled-model boundary, normalization, asymmetry and spatial grid convergence",
+    "silence decay",
+    "dual-tone response",
+    "anti-phase stereo downmix",
+    "citations and concept links"
+  ],
+  "results": [
+    {
+      "fs": 44100,
+      "frequency": 500,
+      "peak": 68,
+      "expected": 68.24638383536724,
+      "rms": 0.10402951986415848
+    },
+    {
+      "fs": 44100,
+      "frequency": 1000,
+      "peak": 57,
+      "expected": 56.978317260173135,
+      "rms": 0.10580570142141492
+    },
+    {
+      "fs": 44100,
+      "frequency": 3000,
+      "peak": 37,
+      "expected": 37.13317639918888,
+      "rms": 0.10589138385719721
+    },
+    {
+      "fs": 48000,
+      "frequency": 500,
+      "peak": 68,
+      "expected": 68.24638383536724,
+      "rms": 0.1046982439581762
+    },
+    {
+      "fs": 48000,
+      "frequency": 1000,
+      "peak": 57,
+      "expected": 56.978317260173135,
+      "rms": 0.1064589105292416
+    },
+    {
+      "fs": 48000,
+      "frequency": 3000,
+      "peak": 37,
+      "expected": 37.13317639918888,
+      "rms": 0.10591916237044842
+    }
+  ]
+}

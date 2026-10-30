@@ -36,6 +36,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
+      - run: node scripts/verify-basilar-membrane.mjs
       - run: node --test scripts/fetch-visitor-stats.test.mjs scripts/baidu-visitor-stats.test.mjs scripts/visitor-stats-ui.test.mjs scripts/concept-publication.test.mjs scripts/learning-context.test.mjs
       - name: Restore encrypted Baidu OAuth state
         if: github.event_name != 'pull_request'

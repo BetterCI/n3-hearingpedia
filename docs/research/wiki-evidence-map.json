@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 754,
+  "relations": 761,
   "entries": [
     {
       "slug": "cochlea",
@@ -5051,6 +5051,49 @@
         "minimum-phase-system",
         "cepstrum",
         "channel-interaction"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "basilar-membrane",
+      "knowledge_area": "biology",
+      "kind": "anatomy",
+      "chinese_characters": 7112,
+      "body_characters": 13461,
+      "sections": 9,
+      "subsections": 21,
+      "reference_ids": [
+        "robles-2001",
+        "greenwood-1990",
+        "sridhar-2006",
+        "bm-ren-2002",
+        "ruggero-furosemide-1991",
+        "dallos-2008",
+        "bm-ruggero-1992",
+        "ren-cochlear-vibration-2016",
+        "bm-lee-2015",
+        "bm-olson-2025",
+        "bm-kondylidis-2025",
+        "fettiplace-hair-cell-2017",
+        "kemp-oae-1978",
+        "verschooten-human-cochlea-2018",
+        "bm-webaudio",
+        "bm-elliott-ni-2018"
+      ],
+      "wiki_links": [
+        "cochlea",
+        "tonotopy",
+        "outer-hair-cell",
+        "inner-hair-cell",
+        "auditory-pathway",
+        "phase-and-group-delay",
+        "hearing-loss",
+        "auditory-filter",
+        "masking",
+        "otoacoustic-emissions",
+        "cochlear-implant",
+        "fir-and-iir-filters"
       ],
       "status": "draft",
       "depth": "in-depth"

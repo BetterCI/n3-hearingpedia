@@ -1,0 +1,21 @@
+---
+import { url, asset } from '../../lib/paths';
+import '../../styles/basilar-membrane.css';
+---
+<!doctype html><html lang="zh-CN" data-pagefind-ignore="all"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>基底膜 3D 实验室 · n³ Hearingpedia</title><meta name="description" content="以本地音频、麦克风和纯音探索基底膜的频位映射与振动响应。"/><link rel="icon" href={asset('favicon.svg')}/></head>
+<body><main id="bm-lab" data-worklet={asset('audio/basilar-worklet.js')}>
+  <nav><a href={url('lab')}>n³ Hearingpedia / LAB</a><a href={url('concepts/basilar-membrane')}>阅读基底膜深度词条 ↗</a></nav>
+  <header><p class="eyebrow">SOUND IN MOTION / 实验 02</p><h1>声音，在这里展开。</h1><p>Basilar membrane · 基底膜三维振动实验</p><p class="intro">声音驱动的并联滤波器组可视化：低频响应偏蜗顶，高频偏蜗底。观察参考频位下的通道输出；本实验不求解流体耦合。</p></header>
+  <section class="instrument" aria-label="基底膜三维仿真">
+    <div class="toolbar"><span id="bm-state" role="status" aria-live="polite">准备就绪 · 选择一种声音开始</span><div><button id="bm-reset">复位视角</button><button id="bm-fullscreen">全屏</button></div></div>
+    <div id="bm-scene" role="img" aria-label="可旋转的三维基底膜。左为高频蜗底，右为低频蜗顶。拖动旋转，滚轮缩放。" tabindex="0"></div>
+    <div class="legend"><span>蜗底 / 高频 → 蜗顶 / 低频</span><span>颜色与上方曲线：响应包络 · 膜面：通道输出（非物理位移）</span></div>
+    <div class="source-row"><button id="bm-tone" class="primary">▷ 纯音演示</button><button id="bm-dual">▷ 双音演示</button><label class="file">＋ 载入声音<input id="bm-file" type="file" accept="audio/*,.wav,.mp3,.m4a,.ogg,.flac,.aac,.webm"/></label><button id="bm-mic">◉ 麦克风</button><button id="bm-stop" disabled>停止输入</button></div>
+    <audio id="bm-player" controls preload="metadata" hidden></audio>
+    <div class="settings"><label>纯音频率 <output id="bm-freq-value">1000 Hz</output><input id="bm-frequency" type="range" min="1.778151" max="4.20412" step="0.001" value="3"/></label><label>显示放大 <output id="bm-gain-value">12×</output><input id="bm-gain" type="range" min="1" max="40" step="1" value="12"/></label><label>膜面显示<select id="bm-view"><option value="instant">瞬时响应（抽样）</option><option value="envelope">响应包络（稳定观察）</option></select></label><label class="check"><input id="bm-listen" type="checkbox"/>播放声音</label><button id="bm-freeze">冻结画面</button></div>
+    <p id="bm-message" role="status" aria-live="polite">音频在浏览器本地处理。先点击纯音演示；麦克风始终不回放。拖动旋转，滚轮或双指缩放；方向键旋转，＋／－缩放。</p>
+    <div class="readouts"><span>最强响应位置 <b id="bm-peak">—</b></span><span>最强通道数字 RMS <b id="bm-rms">—</b></span><span>处理采样率 <b id="bm-rate">—</b></span></div>
+    <noscript><p>此实验需要 JavaScript。请阅读上方链接中的词条与静态图。</p></noscript>
+  </section>
+  <section class="explanation"><div><h2>先试三件事</h2><ol><li>改变纯音频率：响应峰随频率升高移向蜗底。</li><li>切换双音：同时观察 500 Hz 与 3000 Hz 附近的响应。</li><li>载入语音、音乐或环境声，切到包络视图观察分布；用播放器暂停、拖动或重播。</li></ol><p>支持浏览器能够解码的音频格式；受保护、损坏或不受当前浏览器支持的文件无法载入。立体声取左右声道平均，反相成分可能抵消。大文件会增加浏览器内存占用。</p></div><div><h2>这个模型表示什么</h2><p>96 个平行二阶带通滤波器（Q = 5），按 Greenwood 人耳频位函数排列，叠加由蜗底向蜗顶增加的教学延迟（0.3–6.3 ms）。颜色为约 10 ms 指数平滑 RMS（48 kHz 时）；数字读数相对数字满幅，以 RMS = 1 为 0 dB 的数字幅度参考，未经声压校准。</p><p>这是滤波器组驱动的三维教学仿真，未求解耳蜗液体与组织耦合，不模拟主动增益、压缩、双音抑制、毛细胞或神经放电。延迟、宽度、位移倍率均为教学设定，不能用于临床判断。</p><p>屏幕只抽样显示瞬时响应，无法解析数百至数万赫兹的真实周期，视觉闪动不等于声学频率。可切换包络或冻结观察。横轴按位置排列；纵轴为放大后的任意单位，横向宽度仅作示意。</p><p>麦克风需要 HTTPS 或 localhost 及浏览器授权；停止、切换输入或离开页面都会释放麦克风。音频不上传。<a href={url('concepts/basilar-membrane')+'#互动模型的计算与边界'}>公式、文献与解释 →</a></p></div></section>
+</main><script>import '../../scripts/basilar-membrane';</script></body></html>
