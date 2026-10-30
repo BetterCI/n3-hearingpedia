@@ -1,5 +1,6 @@
 {
   "tests": [
+    "proportional animation frequency, quarter period and frame-rate independence",
     "pure-tone place and RMS at 44.1/48 kHz",
     "filterbank complex response versus audio output",
     "passive coupled solver versus independent SciPy solution",

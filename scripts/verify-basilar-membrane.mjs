@@ -2,7 +2,7 @@ import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import {references} from '../src/data/references.ts';
-import {waveResponse} from '../src/scripts/basilar-wave.ts';
+import {waveResponse,displayedCyclesPerSecond,advanceWavePhase} from '../src/scripts/basilar-wave.ts';
 import {coupledWaveResponse} from '../src/lib/basilar-coupled-model.ts';
 const code=readFileSync('public/audio/basilar-worklet.js','utf8');
 function bank(fs){
@@ -12,6 +12,19 @@ function bank(fs){
   return new Processor();
 }
 const results=[];
+for(const slowdown of[1000,2000,4000]){
+  for(const f of[60,500,1000,3000,16000]){
+    assert.equal(displayedCyclesPerSecond(f*2,slowdown)/displayedCyclesPerSecond(f,slowdown),2);
+    // At a quarter displayed period the phase must be pi/2, for every frequency.
+    const quarterPeriod=slowdown/(4*f);
+    assert(Math.abs(advanceWavePhase(0,quarterPeriod,f,slowdown)-Math.PI/2)<1e-12);
+    // Equal elapsed time must agree at different rendering frame rates.
+    let phase30=0,phase144=0;
+    for(let i=0;i<30;i++)phase30=advanceWavePhase(phase30,.37/30,f,slowdown);
+    for(let i=0;i<144;i++)phase144=advanceWavePhase(phase144,.37/144,f,slowdown);
+    assert(Math.abs(phase30-phase144)<1e-10);
+  }
+}
 for(const fs of[44100,48000])for(const frequency of[500,1000,3000]){
   const p=bank(fs);const block=new Float32Array(128);
   for(let n=0;n<fs;n+=128){for(let j=0;j<128;j++)block[j]=.15*Math.sin(2*Math.PI*frequency*(n+j)/fs);p.process([[block]]);}
@@ -61,5 +74,5 @@ const ids=JSON.parse(text.match(/^references: (.+)$/m)[1]);
 for(const [_,number,id] of text.matchAll(/\[(\d+)\]\(#ref-([^\s)]+)/g))assert(ids[Number(number)-1]===id&&references[id],`Citation mismatch ${id}`);
 for(const [_,slug] of text.matchAll(/\]\(\.\.\/([^/]+)\/\)/g))assert(readFileSync(`src/content/concepts/${slug}.md`));
 mkdirSync('docs/research/basilar-membrane-2026-10-30',{recursive:true});
-writeFileSync('docs/research/basilar-membrane-2026-10-30/validation.json',JSON.stringify({tests:['pure-tone place and RMS at 44.1/48 kHz','filterbank complex response versus audio output','passive coupled solver versus independent SciPy solution','coupled-model boundary, normalization, asymmetry and spatial grid convergence','silence decay','dual-tone response','anti-phase stereo downmix','citations and concept links'],results},null,2)+'\n');
+writeFileSync('docs/research/basilar-membrane-2026-10-30/validation.json',JSON.stringify({tests:['proportional animation frequency, quarter period and frame-rate independence','pure-tone place and RMS at 44.1/48 kHz','filterbank complex response versus audio output','passive coupled solver versus independent SciPy solution','coupled-model boundary, normalization, asymmetry and spatial grid convergence','silence decay','dual-tone response','anti-phase stereo downmix','citations and concept links'],results},null,2)+'\n');
 console.log('Basilar membrane: DSP, citation and concept-link checks passed.');

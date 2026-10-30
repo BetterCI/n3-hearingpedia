@@ -77,7 +77,7 @@ Ren 在敏感沙鼠耳蜗的蜗底区域用扫描激光干涉测量，获得了�
 <label>包络模型<select data-wave-model><option value="coupled" selected>一维被动耦合模型</option><option value="filterbank">旧图：并联滤波器（对照）</option></select></label>
 <label>刺激频率（Hz）<input data-wave-frequency type="number" min="60" max="16000" step="1" value="1000" inputmode="numeric"/></label>
 <label class="wave-range">调节频率（对数刻度）<input data-wave-slider type="range" min="1.7781512504" max="4.2041199827" step="0.001" value="3"/></label>
-<label>动画速度<select data-wave-speed><option value="0.5">0.5 周期/秒</option><option value="1" selected>1 周期/秒</option><option value="2">2 周期/秒</option></select></label>
+<label>动画慢放比例<select data-wave-speed><option value="4000">1/4000 · 更慢</option><option value="2000">1/2000</option><option value="1000" selected>1/1000 · 默认</option></select></label>
 <button data-wave-pause type="button" aria-pressed="false">暂停动画</button>
 </div>
 <div class="wave-presets"><span>快速比较：</span><button type="button" data-wave-preset="500">500 Hz</button><button type="button" data-wave-preset="1000">1000 Hz</button><button type="button" data-wave-preset="3000">3000 Hz</button></div>
@@ -85,7 +85,7 @@ Ren 在敏感沙鼠耳蜗的蜗底区域用扫描激光干涉测量，获得了�
 <p class="wave-status" data-wave-status role="status" aria-live="polite"></p>
 </div>
 </div>
-<figcaption><strong>图 2　运动波形与空间包络（可调频率动画）。</strong>默认显示简化的一维被动流体耦合模型：蜗底侧较缓增长，峰值之后向蜗顶较快衰减；每个频率的峰值分别归一化，不比较绝对增益。青线为慢放的瞬时位移，橙线为正弦位移的 ± 振幅包络；下方虚线只是负振幅边界，不代表另一条物理波。频率可在 60–16000 Hz 间调节；默认每秒显示一个周期，无声播放。可切换旧并联滤波器观察差别：旧图的长尾属于滤波器响应，不能作为真实行波包络。耦合模型参数与边界见下文，未拟合个体或活体主动过程；极端频率可能受端部边界影响。未启用 JavaScript 时显示同一模型的静态图。<a href="#ref-bm-elliott-ni-2018">16</a></figcaption>
+<figcaption><strong>图 2　运动波形与空间包络（可调频率动画）。</strong>默认显示简化的一维被动流体耦合模型：蜗底侧较缓增长，峰值之后向蜗顶较快衰减；每个频率的峰值分别归一化，不比较绝对增益。青线为慢放的瞬时位移，橙线为正弦位移的 ± 振幅包络；下方虚线只是负振幅边界，不代表另一条物理波。频率可在 60–16000 Hz 间调节；默认以固定 1/1000 时间比例慢放，500、1000、3000 Hz 分别显示为每秒 0.5、1、3 个周期，无声播放。同一慢放比例下，振动周期速率与刺激频率成正比；这不表示具有频散的行波传播速度也与频率成正比。显示受屏幕刷新率限制，高频时可选择更慢比例。可切换旧并联滤波器观察差别：旧图的长尾属于滤波器响应，不能作为真实行波包络。耦合模型参数与边界见下文，未拟合个体或活体主动过程；极端频率可能受端部边界影响。未启用 JavaScript 时显示同一模型的静态图。<a href="#ref-bm-elliott-ni-2018">16</a></figcaption>
 </figure>
 
 ## 频率怎样映射到位置

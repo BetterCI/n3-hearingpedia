@@ -1,6 +1,11 @@
 // Comparison branch: analytic steady-state response of the original biquads.
 // The time phase is intentionally slowed; the frequency response is not rescaled.
 import {coupledWaveResponse} from '../lib/basilar-coupled-model.ts';
+// A fixed time scale preserves frequency ratios instead of normalizing every tone.
+export function displayedCyclesPerSecond(frequency:number, slowdown:number){return frequency/slowdown;}
+export function advanceWavePhase(phase:number,elapsedSeconds:number,frequency:number,slowdown:number){
+  return (phase+elapsedSeconds*2*Math.PI*displayedCyclesPerSecond(frequency,slowdown))%(2*Math.PI);
+}
 export function waveResponse(frequency:number, count=1201, fs=48000) {
   const omega=2*Math.PI*frequency/fs;
   const z1r=Math.cos(omega), z1i=-Math.sin(omega);
@@ -30,14 +35,15 @@ export function initBasilarWave(){
     const model=root.querySelector<HTMLSelectElement>('[data-wave-model]')!;
     const pause=root.querySelector<HTMLButtonElement>('[data-wave-pause]')!;
     const status=root.querySelector<HTMLElement>('[data-wave-status]')!;
+    let slowdown=Number(speed.value);
     let frequency=1000, response=coupledWaveResponse(frequency), phase=0, playing=!matchMedia('(prefers-reduced-motion: reduce)').matches;
     let visible=false, last=0, frame=0, width=900, height=430, disposed=false;
     const peakPosition=(f:number)=>1-Math.log10(f/165.4+.88)/2.1;
     function updateStatus(){
       pause.textContent=playing?'暂停动画':'播放动画';pause.setAttribute('aria-pressed',String(!playing));
-      const cycles=Number(speed.value);
+      const cycles=displayedCyclesPerSecond(frequency,slowdown);
       const peak=response.reduce((a,b)=>a.amplitude>b.amplitude?a:b);
-      status.textContent=`${frequency} Hz · 计算峰位：距蜗底 ${(peak.x*100).toFixed(1)}%（Greenwood 参考 ${(peakPosition(frequency)*100).toFixed(1)}%）· ${playing?'慢动作':'已暂停'}：${cycles} 周期/秒（约 1/${Math.round(frequency/cycles)} 速度）· ${model.value==='coupled'?'一维被动耦合 · 各频率峰值归一化':'并联滤波器 · 非真实行波包络'} · 无声`;
+      status.textContent=`${frequency} Hz · 计算峰位：距蜗底 ${(peak.x*100).toFixed(1)}%（Greenwood 参考 ${(peakPosition(frequency)*100).toFixed(1)}%）· ${playing?'慢动作':'已暂停'}：${Number(cycles.toFixed(4))} 周期/秒（固定 1/${slowdown} 时间比例）· ${model.value==='coupled'?'一维被动耦合 · 各频率峰值归一化':'并联滤波器 · 非真实行波包络'} · 无声`;
       canvas.setAttribute('aria-label',`${frequency} Hz 的空间响应：青色波形随时间振动，橙色振幅包络固定，计算峰位在距蜗底 ${(peak.x*100).toFixed(1)}%。`);
     }
     function draw(){
@@ -58,12 +64,17 @@ export function initBasilarWave(){
     }
     function tick(now:number){
       frame=0;if(disposed)return;
-      if(last)phase=(phase+Math.min((now-last)/1000,.1)*2*Math.PI*Number(speed.value))%(2*Math.PI);
+      if(last)phase=advanceWavePhase(phase,(now-last)/1000,frequency,slowdown);
       last=now;draw();schedule();
     }
     function schedule(){if(playing&&visible&&!document.hidden&&!frame&&!disposed)frame=requestAnimationFrame(tick);}
     function halt(){cancelAnimationFrame(frame);frame=0;last=0;}
+    function settlePhase(){
+      if(last&&playing&&visible&&!document.hidden){const now=performance.now();phase=advanceWavePhase(phase,(now-last)/1000,frequency,slowdown);last=now;}
+    }
     function setFrequency(value:number){
+      // Start the new rate at this change; never apply it to the preceding frame interval.
+      settlePhase();
       frequency=Math.max(60,Math.min(16000,Math.round(value)));number.value=String(frequency);slider.value=String(Math.log10(frequency));
       response=model.value==='coupled'?coupledWaveResponse(frequency):waveResponse(frequency);updateStatus();draw();
     }
@@ -71,7 +82,7 @@ export function initBasilarWave(){
     number.addEventListener('input',()=>{if(Number.isFinite(number.valueAsNumber)&&number.valueAsNumber>=60&&number.valueAsNumber<=16000)setFrequency(number.valueAsNumber);});
     number.addEventListener('change',()=>{if(number.value.trim()&&Number.isFinite(number.valueAsNumber))setFrequency(number.valueAsNumber);else number.value=String(frequency);});
     pause.addEventListener('click',()=>{playing=!playing;halt();updateStatus();schedule();});
-    speed.addEventListener('change',()=>{last=0;updateStatus();});
+    speed.addEventListener('change',()=>{settlePhase();slowdown=Number(speed.value);updateStatus();draw();});
     model.addEventListener('change',()=>setFrequency(frequency));
     root.querySelectorAll<HTMLButtonElement>('[data-wave-preset]').forEach(button=>button.addEventListener('click',()=>setFrequency(Number(button.dataset.wavePreset))));
     const resize=new ResizeObserver(()=>{const rect=canvas.getBoundingClientRect();width=rect.width;height=width<560?330:430;canvas.style.height=`${height}px`;const ratio=Math.min(devicePixelRatio,2);canvas.width=Math.round(width*ratio);canvas.height=Math.round(height*ratio);ctx.setTransform(ratio,0,0,ratio,0,0);draw();});
