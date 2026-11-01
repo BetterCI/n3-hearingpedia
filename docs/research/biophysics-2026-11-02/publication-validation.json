@@ -1,0 +1,77 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "AI-assisted targeted source/formula audit complete; pending professional review",
+  "numerical_check_groups": 14,
+  "numerical_groups_passed": 14,
+  "article_examples_run": 3,
+  "download_script_run": true,
+  "sources": {
+    "total": 24,
+    "abstract": 5,
+    "public_file_or_page": 19,
+    "partial_copyright_omissions_in_MIT_slides": true
+  },
+  "typecheck": {
+    "files": 209,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 298,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 25833,
+    "equations": 508,
+    "searchableConcepts": 129,
+    "wikiConcepts": 129,
+    "knowledgeAreas": 7,
+    "typedRelationships": 873,
+    "wikiCrossLinks": 1381,
+    "chineseCharacters": 889012,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "root_width": 1265,
+      "document_width": 1265
+    },
+    "mobile_390": {
+      "root_width": 375,
+      "document_width": 375,
+      "paragraph_overflow": 0,
+      "wide_equations_contained_by_horizontal_scrolling": 4
+    },
+    "figures": 10,
+    "references": 24,
+    "display_equations": 7,
+    "katex_errors": 0,
+    "unexpected_emphasis": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 12,
+    "foundation_folded_lists": 0,
+    "search_query": "生物物理学",
+    "search_first_result": "/n3-hearingpedia/concepts/biophysics/",
+    "reported_search_results": 14,
+    "reciprocal_companion_link": true,
+    "screenshots_scope": "local production build; live version/assets verified separately by HTTP"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "ff92b71bd67fd4febbc6eb876910b3d29eaeeaed",
+  "limitations": [
+    "No external professional reviewer",
+    "Specified teaching parameters and simulations; no new physiological or clinical measurements",
+    "Targeted sources; not exhaustive or systematic literature review",
+    "Some MIT slide equations/figures were removed by source copyright restrictions",
+    "Existing build chunk-size and Pagefind stemming/default-UI notices remain"
+  ]
+}

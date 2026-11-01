@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('biophysics','computational-neuroscience','related','配套课程：解释膜电容、电导、反转电位、通道动力学、空间结构和随机性的物理来源。',3),
+  link('biophysics','circuit-theory','related','区分膜电容、离子驱动力、支路电流及整细胞与面积归一参数。',3),
+  link('biophysics','mathematical-physics-methods','related','用守恒、扩散、反应与电缆方程连接连续场和边界条件。',3),
+  link('biophysics','probability-theory','related','用Boltzmann概率、二状态过程和有限通道涨落解释随机性。',3),
+  link('biophysics','inner-hair-cell','application','连接毛束机械电转导、受体电位、Ca电流和带状突触。',3),
+  link('biophysics','outer-hair-cell','application','区分电化学能量、电压依赖电动性与机械负载。',3),
+  link('biophysics','cochlea','related','明确内外淋巴隔室、耳蜗电势和跨膜参考。',3),
+  link('biophysics','basilar-membrane','related','以力学、耗散和主动反馈理解机械模型的边界。',2),
+  link('biophysics','otoacoustic-emissions','related','把细胞电机械反馈与系统级声学输出分层连接。',2),
+  link('biophysics','electroacoustic-transducer','related','比较生物转导与工程换能中的能量、端口和负载约束。',2),
   link('functional-analysis','linear-algebra','related','以向量、投影和特征分解为入口，辨认有限维结论的无限维边界。',3),
   link('functional-analysis','complex-analysis','related','用复内积、伴随和谱变量解释复函数空间与算子。',2),
   link('functional-analysis','mathematical-physics-methods','related','为模态、Green核、弱形式与变分解提供空间和算子框架。',3),

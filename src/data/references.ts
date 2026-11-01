@@ -1,3 +1,4 @@
+import { biophysicsReferences } from './biophysics-references.ts';
 import { functionalAnalysisReferences } from './functional-analysis-references.ts';
 import { mathematicalPhysicsMethodsReferences } from './mathematical-physics-methods-references.ts';
 import { circuitTheoryReferences } from './circuit-theory-references.ts';
@@ -96,6 +97,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...biophysicsReferences,
   ...functionalAnalysisReferences,
   ...mathematicalPhysicsMethodsReferences,
   ...circuitTheoryReferences,

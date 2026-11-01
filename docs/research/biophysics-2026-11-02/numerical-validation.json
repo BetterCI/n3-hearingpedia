@@ -1,0 +1,87 @@
+{
+  "scope": "Independent numerical/structural checks of specified ideal teaching models; no expert review or biological validation.",
+  "checks": [
+    {
+      "name": "SI constants and Boltzmann odds",
+      "status": "passed",
+      "kBT_J": 4.2800119e-21,
+      "RT_J_per_mol": 2577.483411627504
+    },
+    {
+      "name": "Diffusion normalization, variance, PDE and Stokes–Einstein",
+      "status": "passed",
+      "D_um2_per_s": 45.41233669180899
+    },
+    {
+      "name": "Binding ODE versus closed form; shared Kd does not set rate",
+      "status": "passed",
+      "max_absolute_error": 4.641176332143004e-12
+    },
+    {
+      "name": "Osmotic concentration conversion and Donnan equilibrium",
+      "status": "passed",
+      "inside_cation_mM": 208.11388300841898,
+      "inside_anion_mM": 108.11388300841898
+    },
+    {
+      "name": "Nernst electrochemical-potential equality, both signs and valences",
+      "status": "passed",
+      "max_residual_J_per_mol": 0.0
+    },
+    {
+      "name": "GHK voltage versus independently rooted constant-field ion currents",
+      "status": "passed",
+      "max_voltage_error_V": 1.844011054963346e-15,
+      "cases": 12
+    },
+    {
+      "name": "Membrane area, capacitance, molar/particle charge consistency",
+      "status": "passed",
+      "C_F": 1e-11,
+      "charge_fraction": 5.182134828131088e-05
+    },
+    {
+      "name": "Passive membrane independent ODE and branch charge balance",
+      "status": "passed",
+      "max_voltage_error_V": 1.6975310046518644e-13
+    },
+    {
+      "name": "Two-state master equation and exact binomial moments",
+      "status": "passed"
+    },
+    {
+      "name": "Cable geometry and independent complex finite-difference BVP",
+      "status": "passed",
+      "lambda_m": 0.0007071067811865475,
+      "tau_s": 0.01,
+      "max_voltage_ratio_error": 5.128391804955499e-07,
+      "far_boundary_lambda": 12
+    },
+    {
+      "name": "Overdamped response, Gaussian equipartition and OU spectrum normalization",
+      "status": "passed",
+      "rms_nm": 20.68818962596776,
+      "tau_s": 0.0009424777960769377
+    },
+    {
+      "name": "MET logistic half-point, KCL and reference-invariant driving signs",
+      "status": "passed",
+      "width_nm": 14.266706333333333
+    },
+    {
+      "name": "Calcium divalent charge-to-amount conversion",
+      "status": "passed",
+      "amount_mol": 5.182134828131087e-20,
+      "unbuffered_delta_M": 5.1821348281310875e-08
+    },
+    {
+      "name": "Source audit records and all scientific SVGs",
+      "status": "passed",
+      "sources": 24,
+      "abstract_sources": 5,
+      "figures": 10
+    }
+  ],
+  "total_checks": 14,
+  "passed": true
+}
