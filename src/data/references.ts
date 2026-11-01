@@ -1,3 +1,4 @@
+import { computationalNeuroscienceReferences } from './computational-neuroscience-references.ts';
 import { mathematicalStatisticsReferences } from './mathematical-statistics-references.ts';
 import { chinesePhoneticsReferences } from './chinese-phonetics-references.ts';
 import { informationTheoryReferences } from './information-theory-references.ts';
@@ -91,6 +92,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...computationalNeuroscienceReferences,
   ...mathematicalStatisticsReferences,
   ...chinesePhoneticsReferences,
   ...informationTheoryReferences,

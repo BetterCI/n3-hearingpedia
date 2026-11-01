@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('computational-neuroscience','auditory-computational-models','related','从膜、脉冲、网络与读出学习听觉模型的共同理论。',3),
+  link('computational-neuroscience','phase-locking','related','以周期参考、时间抖动与有限样本分析脉冲时序。',3),
+  link('computational-neuroscience','auditory-cortex','application','用响应编码、任务网络和独立验证研究皮层表征。',3),
+  link('computational-neuroscience','auditory-plasticity','related','区分可塑性现象、权重更新规则与机制证据。',3),
+  link('computational-neuroscience','electroencephalography','related','区分单神经元状态、群体活动与实际记录信号。',2),
+  link('computational-neuroscience','interaural-time-difference','application','用延迟与相位关系理解双耳时间计算的条件。',2),
+  link('computational-neuroscience','linear-algebra','related','用矩阵、特征值与投影分析群体网络和模型状态。',3),
+  link('computational-neuroscience','probability-theory','related','以点过程和条件概率描述脉冲、计数与不确定性。',3),
+  link('computational-neuroscience','mathematical-statistics','related','用似然、独立预测和不确定性检查模型估计。',3),
+  link('computational-neuroscience','information-theory','related','区分编码信息量、预测似然增益与具体行为读出。',2),
   link('mathematical-statistics','probability-theory','related','由概率模型与抽样分布进入参数估计和统计推断。',3),
   link('mathematical-statistics','linear-algebra','related','用投影、矩阵秩与最小二乘解释回归及其不确定性。',3),
   link('mathematical-statistics','psychoacoustics','application','结合听者、试次、阈值与心理测量任务选择推断模型。',3),

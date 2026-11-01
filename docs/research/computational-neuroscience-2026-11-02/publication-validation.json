@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-02",
+  "status": "Local validation passed; deployment verified separately after commit",
+  "baseline": "a6fa8cf7f84e3a81b580a5a25505321971ab8024",
+  "scientific_review": "Definitions, equations, units, source scope and biological interpretation checked; no named expert reviewer",
+  "numerical_model_unit_media_checks": 100,
+  "passed": 100,
+  "extracted_examples_passed": 3,
+  "complete_download_passed": true,
+  "references": 25,
+  "chinese_characters": 8309,
+  "sections": 12,
+  "subsections": 35,
+  "figures": 9,
+  "audio": 0,
+  "typecheck": {
+    "files": 199,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests_passed": 6,
+  "build": {
+    "pages": 288,
+    "checkedInternalLinks": 24783,
+    "equations": 464,
+    "searchableConcepts": 124,
+    "typedRelationships": 823,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "mobile_document_width": 375,
+    "formula_errors": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 7,
+    "foundation_folding_lists": 0,
+    "course_sketch_loaded": true,
+    "chinese_search_results": 57,
+    "course_in_visible_results": true,
+    "course_result_position": 2,
+    "mobile_long_formula_scrolls_in_own_container": true
+  },
+  "screenshots": [
+    "article-desktop.png",
+    "article-mobile.png",
+    "formulas-mobile.png",
+    "course-entry.png"
+  ],
+  "review_status": "draft; reviewer and reviewed_at remain null",
+  "build_notes": "Existing Vite chunk-size and Pagefind redirect/stemming/default-UI notices; no compilation failure"
+}

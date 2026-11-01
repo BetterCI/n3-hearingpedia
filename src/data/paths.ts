@@ -59,6 +59,7 @@ export const learningPaths = [
   { id:'information-theory-foundations',title:'信息论：从不确定性理解编码与传输',english:'Information theory through hearing and coding',description:'用听觉检测、混淆矩阵与声音编码理解熵、互信息、信息处理极限及估计条件。',slugs:['information-theory'] },
   { id:'chinese-phonetics-foundations',title:'汉语语音学：从发音理解声韵调与语流',english:'Chinese phonetics through production and perception',description:'以普通话为主要教学对象，学习声韵调与语流变化，再联系语音测量及具体汉语方言的差异。',slugs:['chinese-phonetics'] },
   { id:'mathematical-statistics-foundations',title:'数理统计：从样本理解估计与推断',english:'Mathematical statistics through auditory experiments',description:'从听者阈值与正确率进入抽样分布、估计、区间、检验、功效、重采样和回归。',slugs:['mathematical-statistics'] },
+  { id:'computational-neuroscience-foundations',title:'计算神经科学：从神经元理解编码与网络',english:'Computational neuroscience from neurons to networks',description:'从膜、突触与脉冲进入编码解码、群体动力学和学习，再用听觉例子检验模型。',slugs:['computational-neuroscience'] },
 ];
 
 export const allLearningPaths = [
