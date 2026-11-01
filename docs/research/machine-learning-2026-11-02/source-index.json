@@ -1,0 +1,313 @@
+[
+  {
+    "id": "ml-generalization",
+    "url": "https://d2l.ai/chapter_linear-regression/generalization.html",
+    "resolved_url": "https://d2l.ai/chapter_linear-regression/generalization.html",
+    "status": "fetched",
+    "bytes": 99247,
+    "sha256": "425fbffdff8e22e38e7201bce76b469c2f638d2fe6eafee55449cadf8718b224",
+    "text_characters": 19074,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-linear",
+    "url": "https://d2l.ai/chapter_linear-regression/linear-regression.html",
+    "resolved_url": "https://d2l.ai/chapter_linear-regression/linear-regression.html",
+    "status": "fetched",
+    "bytes": 158367,
+    "sha256": "27d7a906ec35e2f07797a5f5abb97fac8d0d05d92f4459332ecf8b666bc33222",
+    "text_characters": 33868,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-regularization",
+    "url": "https://d2l.ai/chapter_linear-regression/weight-decay.html",
+    "resolved_url": "https://d2l.ai/chapter_linear-regression/weight-decay.html",
+    "status": "fetched",
+    "bytes": 160529,
+    "sha256": "195cd33eb04172790a1fedcfdceacae1c2e54d6e45142c8940f04e05655e4b76",
+    "text_characters": 22692,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-softmax",
+    "url": "https://d2l.ai/chapter_linear-classification/softmax-regression.html",
+    "resolved_url": "https://d2l.ai/chapter_linear-classification/softmax-regression.html",
+    "status": "fetched",
+    "bytes": 116863,
+    "sha256": "ce548d643df9e2fea155c92b2c2713edfc581dfa688b143d1ee3894b4879599a",
+    "text_characters": 25299,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-shift",
+    "url": "https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html",
+    "resolved_url": "https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html",
+    "status": "fetched",
+    "bytes": 123062,
+    "sha256": "c2c0c778152aae7d6aa2f1ffeedc44e33f56900fdcc5fd13fa31a06048c8c2b5",
+    "text_characters": 33723,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-mlp",
+    "url": "https://d2l.ai/chapter_multilayer-perceptrons/mlp.html",
+    "resolved_url": "https://d2l.ai/chapter_multilayer-perceptrons/mlp.html",
+    "status": "fetched",
+    "bytes": 145293,
+    "sha256": "0c79636122f8d318c16dab81e54c946589f0562d492d68842fcd6ffdf57e6d9a",
+    "text_characters": 24128,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-backprop",
+    "url": "https://d2l.ai/chapter_multilayer-perceptrons/backprop.html",
+    "resolved_url": "https://d2l.ai/chapter_multilayer-perceptrons/backprop.html",
+    "status": "fetched",
+    "bytes": 92182,
+    "sha256": "2204136328fd650af8a836dd3850a66985789fcc0440d40dfd23efc7a313cc55",
+    "text_characters": 12626,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-cnn",
+    "url": "https://d2l.ai/chapter_convolutional-neural-networks/conv-layer.html",
+    "resolved_url": "https://d2l.ai/chapter_convolutional-neural-networks/conv-layer.html",
+    "status": "fetched",
+    "bytes": 204106,
+    "sha256": "586f2afab6415b7ed98ef93ff1d4e8e957b3c884bb1372113257ef7ac894d503",
+    "text_characters": 27430,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-leakage",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "resolved_url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "status": "fetched",
+    "bytes": 109748,
+    "sha256": "21fac11c181ab35624dcf8673f0475d403d4f6ecf0f9bead01a573d7642b515c",
+    "text_characters": 22523,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-cv",
+    "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "status": "fetched",
+    "bytes": 169672,
+    "sha256": "78d7587fa92ba3b3e480c9d841b50fedc14ac29d571ccb319d4068235154f0e2",
+    "text_characters": 37066,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-metrics",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "status": "fetched",
+    "bytes": 438145,
+    "sha256": "7e740e140ba75771bb1c7de132babfd958c277b5529d187e7ba744e69729120c",
+    "text_characters": 116229,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-calibration",
+    "url": "https://scikit-learn.org/stable/modules/calibration.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/calibration.html",
+    "status": "fetched",
+    "bytes": 72417,
+    "sha256": "00860ac6c19e425758b76adf27721d343ad3d5cbc72f865da7a9fe1aa32b9864",
+    "text_characters": 15927,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-linear-api",
+    "url": "https://scikit-learn.org/stable/modules/linear_model.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/linear_model.html",
+    "status": "fetched",
+    "bytes": 241009,
+    "sha256": "d2bae900261ac8f09f2f8f4ef7f785fbe20da6e1120fbbb20a316e59443ac318",
+    "text_characters": 65135,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-pca",
+    "url": "https://scikit-learn.org/stable/modules/decomposition.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/decomposition.html",
+    "status": "fetched",
+    "bytes": 133829,
+    "sha256": "67c884245c98c733e3c2aa058b3e9994177d2f9b3477d3128af684db636a966b",
+    "text_characters": 36026,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-clustering",
+    "url": "https://scikit-learn.org/stable/modules/clustering.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/clustering.html",
+    "status": "fetched",
+    "bytes": 245702,
+    "sha256": "3c8d5481d8092e86fe47ff269e134510dedd006360aeaf30b9b982c91a01de1c",
+    "text_characters": 79263,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-svm",
+    "url": "https://scikit-learn.org/stable/modules/svm.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/svm.html",
+    "status": "fetched",
+    "bytes": 132810,
+    "sha256": "ef27e1e0b55ce44bd1394e8a1bbb327c97e89706a638179ea96dcd36dbebaf59",
+    "text_characters": 29144,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-trees",
+    "url": "https://scikit-learn.org/stable/modules/tree.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/tree.html",
+    "status": "fetched",
+    "bytes": 105853,
+    "sha256": "806ad55445439aadb063d2a9b4f71f3c36f4e1d370dc572c459b4187ceef2c8b",
+    "text_characters": 27469,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-ensembles",
+    "url": "https://scikit-learn.org/stable/modules/ensemble.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/ensemble.html",
+    "status": "fetched",
+    "bytes": 240119,
+    "sha256": "5380619b99561557cb7de75559bf43fa63add3654b750fd1d6175d70ddcd170d",
+    "text_characters": 66322,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-importance",
+    "url": "https://scikit-learn.org/stable/modules/permutation_importance.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/permutation_importance.html",
+    "status": "fetched",
+    "bytes": 61746,
+    "sha256": "2231772386e4dce02918d682e5a2f9bad999cc12fd1f5d5f52894c78f8d85cc5",
+    "text_characters": 8930,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-wav2vec",
+    "url": "https://arxiv.org/abs/2006.11477",
+    "resolved_url": "https://arxiv.org/abs/2006.11477",
+    "status": "fetched",
+    "bytes": 41603,
+    "sha256": "96a91f349e1289c34fbfca5f993d01ce104695afed50037984f9239978e6be0c",
+    "text_characters": 4209,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-hubert",
+    "url": "https://arxiv.org/abs/2106.07447",
+    "resolved_url": "https://arxiv.org/abs/2106.07447",
+    "status": "fetched",
+    "bytes": 43743,
+    "sha256": "110ba43c0de6dd5d67c7d109de7085a37aeb4af143235c870cc5546fcb3276c8",
+    "text_characters": 4640,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-attention",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "resolved_url": "https://arxiv.org/abs/1706.03762",
+    "status": "fetched",
+    "bytes": 43071,
+    "sha256": "af8c8702f1c65b70972fefe2118fa8cc09a609999b1d612be5e02986162e6326",
+    "text_characters": 4545,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-kapoor",
+    "url": "https://arxiv.org/abs/2207.07048",
+    "resolved_url": "https://arxiv.org/abs/2207.07048",
+    "status": "fetched",
+    "bytes": 43126,
+    "sha256": "f823616e5031f59d4a83734a3d860dad5f02777890ddd0cb1fccc13dec44da41",
+    "text_characters": 4766,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-kell",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29681533/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/29681533/",
+    "status": "fetched",
+    "bytes": 150169,
+    "sha256": "a7bd29f2401457cabca1e5d3e16475ec5dc5117717fdbe8f0e51429ec0221582",
+    "text_characters": 5970,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-attention-textbook",
+    "url": "https://d2l.ai/chapter_attention-mechanisms-and-transformers/attention-scoring-functions.html",
+    "resolved_url": "https://d2l.ai/chapter_attention-mechanisms-and-transformers/attention-scoring-functions.html",
+    "status": "fetched",
+    "bytes": 212729,
+    "sha256": "f7483fca85856d45f6fd1b924c02f984f9a93cd204e54a7cc385d0044c1c55c5",
+    "text_characters": 31053,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-knn",
+    "url": "https://scikit-learn.org/stable/modules/neighbors.html",
+    "resolved_url": "https://scikit-learn.org/stable/modules/neighbors.html",
+    "status": "fetched",
+    "bytes": 129611,
+    "sha256": "89af31c01be868cd7114e82c98fad2b1ca8ec90d7eee7d31fa6fa868acef35fb",
+    "text_characters": 32309,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-optimization",
+    "url": "https://d2l.ai/chapter_optimization/sgd.html",
+    "resolved_url": "https://d2l.ai/chapter_optimization/sgd.html",
+    "status": "fetched",
+    "bytes": 129848,
+    "sha256": "14ec3e739ccbe5fccbdad269263a17773962522f03781a16d1d59deca168b157",
+    "text_characters": 20490,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-kapoor-published",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37720327/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/37720327/",
+    "status": "local-cookie-challenge; abstract-read-via-web",
+    "bytes": 5590,
+    "sha256": "b7f6e6eab0010d9ef9aa773fbf27e682fd8ea9a8959ec26553e77b06c753022b",
+    "text_characters": 153,
+    "cached_at": "2026-11-02",
+    "verification": "PubMed original abstract and DOI read with web open; local cached challenge text is not evidence."
+  },
+  {
+    "id": "ml-rl",
+    "url": "https://d2l.ai/chapter_reinforcement-learning/mdp.html",
+    "resolved_url": "https://d2l.ai/chapter_reinforcement-learning/mdp.html",
+    "status": "fetched",
+    "bytes": 85513,
+    "sha256": "19787e1ca2c779c2713b63859018478e161c3dba93bda1b54707b861788b090f",
+    "text_characters": 7615,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-rl-policy",
+    "url": "https://d2l.ai/chapter_reinforcement-learning/value-iter.html",
+    "resolved_url": "https://d2l.ai/chapter_reinforcement-learning/value-iter.html",
+    "status": "fetched",
+    "bytes": 105913,
+    "sha256": "04786eec41b3a29be2dded7f6d57d4887e2db17076775936584a34293879148b",
+    "text_characters": 15076,
+    "cached_at": "2026-11-02"
+  },
+  {
+    "id": "ml-wav2vec-published",
+    "url": "https://papers.nips.cc/paper_files/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html",
+    "resolved_url": "https://papers.nips.cc/paper_files/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html",
+    "status": "fetched",
+    "bytes": 9499,
+    "sha256": "88e0c16b28b016e22506c8bbbf0d6685efd649c64ec5ff99c9f3747f96b9d41c",
+    "text_characters": 1736,
+    "cached_at": "2026-11-02"
+  }
+]

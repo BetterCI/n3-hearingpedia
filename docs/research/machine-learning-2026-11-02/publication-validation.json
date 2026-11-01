@@ -1,0 +1,66 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "AI-assisted source/mathematical audit complete; pending professional review",
+  "numerical_checks": 100,
+  "numerical_checks_passed": 100,
+  "article_examples_run": 3,
+  "download_script_run": true,
+  "typecheck": {
+    "files": 201,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 290,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 24989,
+    "equations": 474,
+    "searchableConcepts": 125,
+    "wikiConcepts": 125,
+    "knowledgeAreas": 7,
+    "typedRelationships": 833,
+    "wikiCrossLinks": 1354,
+    "chineseCharacters": 857199,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "root_width": 1265,
+      "document_width": 1265
+    },
+    "mobile_390": {
+      "root_width": 375,
+      "document_width": 375,
+      "long_equation_overflow": "auto inside individual math boxes"
+    },
+    "figures": 9,
+    "references": 28,
+    "katex_errors": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 8,
+    "foundation_folded_lists": 0,
+    "search_query": "机器学习",
+    "search_first_result": "/n3-hearingpedia/concepts/machine-learning/",
+    "reported_search_results": 10,
+    "search_limit": "broad tokenized matches expected"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "8a20df728b7f875eeb9cdba10094af7f0907de55",
+  "limitations": [
+    "No external professional reviewer",
+    "Original synthetic data; no patient/physiology validation",
+    "Representative sources and bounded citation expansion, not exhaustive review",
+    "Existing build chunk-size and Pagefind redirect/stemming notices remain"
+  ]
+}

@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('machine-learning','linear-algebra','related','以向量、矩阵、投影和SVD理解特征与可学习变换。',3),
+  link('machine-learning','probability-theory','related','用条件概率、期望风险和分布变化解释预测。',3),
+  link('machine-learning','mathematical-statistics','related','用抽样、估计和独立评价说明模型不确定性。',3),
+  link('machine-learning','information-theory','related','区分交叉熵损失、信息量与实际任务读出。',2),
+  link('machine-learning','computational-neuroscience','related','比较任务学习、神经预测与生物实现的证据层次。',3),
+  link('machine-learning','auditory-computational-models','related','以模型目标、训练协议与独立验证检查听觉计算。',3),
+  link('machine-learning','spectrogram','application','以时频特征构建声音输入，并核对结构假设与切分。',3),
+  link('machine-learning','confusion-matrix','related','用不同指标分母评价分类及类别不平衡。',3),
+  link('machine-learning','neural-speech-tracking','application','用特征与神经读出预测检验声音表征，防止时序泄漏。',2),
+  link('machine-learning','speech-intelligibility','application','区分识别分数、客观损失与真实听者的言语获益。',2),
   link('computational-neuroscience','auditory-computational-models','related','从膜、脉冲、网络与读出学习听觉模型的共同理论。',3),
   link('computational-neuroscience','phase-locking','related','以周期参考、时间抖动与有限样本分析脉冲时序。',3),
   link('computational-neuroscience','auditory-cortex','application','用响应编码、任务网络和独立验证研究皮层表征。',3),

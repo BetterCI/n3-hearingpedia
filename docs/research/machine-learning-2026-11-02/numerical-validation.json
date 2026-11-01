@@ -1,0 +1,659 @@
+{
+  "scope": "Independent checks of specified mathematics, synthetic examples and media structure; not biological validation or professional review.",
+  "total": 100,
+  "passed": 100,
+  "checks": [
+    {
+      "name": "centered feature and target",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "ridge augmented least squares",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "ridge independent objective minimization",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 4.723350904366924e-09
+      }
+    },
+    {
+      "name": "ridge normal equation residual",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "OLS independent least squares",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "same penalty after rescaling changes predictions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ridge path shrinks monotonically",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "degree 1 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "degree 1 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.551115123125783e-17
+      }
+    },
+    {
+      "name": "degree 2 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "degree 2 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "degree 3 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "degree 3 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "degree 4 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "degree 4 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "degree 5 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 3.469446951953614e-17
+      }
+    },
+    {
+      "name": "degree 5 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "degree 6 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "degree 6 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "degree 7 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "degree 7 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.249000902703301e-16
+      }
+    },
+    {
+      "name": "degree 8 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "degree 8 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 3.469446951953614e-16
+      }
+    },
+    {
+      "name": "degree 9 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.551115123125783e-17
+      }
+    },
+    {
+      "name": "degree 9 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.6367796834847468e-15
+      }
+    },
+    {
+      "name": "degree 10 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 9.71445146547012e-17
+      }
+    },
+    {
+      "name": "degree 10 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 4.107825191113079e-15
+      }
+    },
+    {
+      "name": "degree 11 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 4.85722573273506e-17
+      }
+    },
+    {
+      "name": "degree 11 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 3.969047313034935e-15
+      }
+    },
+    {
+      "name": "degree 12 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.237793284010081e-16
+      }
+    },
+    {
+      "name": "degree 12 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 6.261657858885883e-14
+      }
+    },
+    {
+      "name": "degree 13 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "degree 13 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 4.313216450668733e-14
+      }
+    },
+    {
+      "name": "degree 14 independent training MSE",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.3010426069826053e-17
+      }
+    },
+    {
+      "name": "degree 14 independent population integral",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.0354495039166522e-12
+      }
+    },
+    {
+      "name": "nested polynomial training errors nonincreasing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quadratic beats degree12 in specified population",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bias variance identity by enumeration",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "Newton and BFGS logistic solutions",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 4.884843640695635e-10
+      }
+    },
+    {
+      "name": "logistic gradient finite difference",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 7.673889301784698e-12
+      }
+    },
+    {
+      "name": "regularized logistic Hessian positive definite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "logistic first-order residual",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 4.996003610813204e-18
+      }
+    },
+    {
+      "name": "test logloss direct Bernoulli likelihood",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.550337967008545e-12
+      }
+    },
+    {
+      "name": "test threshold accuracy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "softmax normalization",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "softmax additive invariance",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 6.328271240363392e-15
+      }
+    },
+    {
+      "name": "softmax cross entropy score derivative",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.986577569113024e-11
+      }
+    },
+    {
+      "name": "NN chain rule parameter 0",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.5574850277295695e-12
+      }
+    },
+    {
+      "name": "NN chain rule parameter 1",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 8.92726170764746e-12
+      }
+    },
+    {
+      "name": "NN chain rule parameter 2",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.156923251117604e-11
+      }
+    },
+    {
+      "name": "NN chain rule parameter 3",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.030337257849737e-12
+      }
+    },
+    {
+      "name": "NN chain rule parameter 4",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.8757953523795834e-11
+      }
+    },
+    {
+      "name": "NN chain rule parameter 5",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 7.198130980157202e-13
+      }
+    },
+    {
+      "name": "NN chain rule parameter 6",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 9.24976761851326e-12
+      }
+    },
+    {
+      "name": "NN chain rule parameter 7",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 7.001968449493745e-12
+      }
+    },
+    {
+      "name": "NN chain rule parameter 8",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 4.561795385882306e-12
+      }
+    },
+    {
+      "name": "PCA eigenvalue variance ratio",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "PCA retained axis up to sign",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "PCA per-entry reconstruction error",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "PCA per-sample squared norm",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "projected x1=-3 balanced labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected x1=-1 balanced labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected x1=1 balanced labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected x1=3 balanced labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low variance axis gives perfect labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identity labels balanced in training half",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "identity labels balanced in test half",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "dictionary within identity accuracy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "unseen exact tie first-label accuracy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "metric accuracy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "metric precision",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "metric recall",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "metric specificity",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "metric balanced_accuracy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "metric f1",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "metric brier_08",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "metric brier_095",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "manual logloss 08",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "manual logloss 095",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "always negative accuracy",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "Bayes decision cost threshold 1,1",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "Bayes decision cost threshold 1,4",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "Bayes decision cost threshold 8,2",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "attention scalar normalization row0",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "attention row sum 0",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "attention scalar normalization row1",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 5.551115123125783e-17
+      }
+    },
+    {
+      "name": "attention row sum 1",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "masked attention zero",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "name": "attention output dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse confusion-and-metrics.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse fit-and-risk.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse group-split.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse learning-loop.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse logistic-and-loss.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse network-and-activation.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse pca-and-labels.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse probability-calibration.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse ridge-shrinkage.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "nine article figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "course sketch XML",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+import type { Reference } from './references';
+const d2l=(title:string,path:string,supports:string):Reference=>({title,authors:'Aston Zhang; Zachary C. Lipton; Mu Li; Alexander J. Smola',year:'2023',publication:'Dive into Deep Learning, Cambridge University Press; author-maintained online edition, accessed 2026-11-02',url:'https://d2l.ai/'+path+'.html',access:'fulltext',supports});
+const sklearn=(title:string,path:string,supports:string):Reference=>({title,authors:'scikit-learn developers',year:'访问于2026-11-02',publication:'scikit-learn official user guide',url:'https://scikit-learn.org/stable/'+path+'.html',access:'documentation',supports});
+export const machineLearningReferences: Record<string,Reference> = {
+ 'ml-generalization':d2l('Generalization','chapter_linear-regression/generalization','读取训练与总体误差、函数类、过拟合、验证集和交叉验证相关段落。本文偏差方差恒等式及多项式积分风险为独立推导与模拟，不把特定U形走势称为所有深度学习的定律。'),
+ 'ml-rl':d2l('Markov Decision Process (MDP)','chapter_reinforcement-learning/mdp','读取状态、行动与折扣回报相关定义，并读取相邻17.2节的策略定义；正文只作学习范式定位，不声称一般语音分类就是强化学习。'),
+ 'ml-linear':d2l('Linear Regression','chapter_linear-regression/linear-regression','读取线性参数化、平方损失、训练与解析解；本文采用损失除以2n的显式约定。数值例子为原创。'),
+ 'ml-regularization':d2l('Weight Decay','chapter_linear-regression/weight-decay','读取范数惩罚、收缩及损失缩放。正文限定岭回归，不把所有优化器中的权重衰减与L2惩罚一概等同。'),
+ 'ml-softmax':d2l('Softmax Regression','chapter_linear-classification/softmax-regression','读取互斥多分类、softmax、交叉熵与梯度；正文另区分多标签和数值稳定处理。'),
+ 'ml-linear-api':sklearn('Linear Models','modules/linear_model','读取OLS、Ridge、Lasso与逻辑回归目标。特别核对软件求和/平均及正则化常数的约定；不暗示本文lambda与所有软件alpha或C数值相同。'),
+ 'ml-knn':sklearn('Nearest Neighbors','modules/neighbors','读取近邻分类/回归、距离及高维限制；身份反例使用独立NumPy实现的1近邻和明确平局规则，不冒充官方数据。'),
+ 'ml-svm':sklearn('Support Vector Machines','modules/svm','读取软间隔目标、核与概率输出限制；正文将分数与校准后概率分开。'),
+ 'ml-trees':sklearn('Decision Trees','modules/tree','读取阈值划分、叶预测、过拟合及复杂度控制；不把树形可视化当作因果解释。'),
+ 'ml-ensembles':sklearn('Ensembles: Gradient boosting, random forests, bagging, voting, stacking','modules/ensemble','读取随机森林的样本和特征随机化、平均与梯度提升的逐步优化；只作方法定义，不作跨数据集性能排名。'),
+ 'ml-pca':sklearn('Decomposing signals in components (matrix factorization problems)','modules/decomposition','读取PCA中心化、SVD、方差与白化；正文明确标准化另行决定，8点反例及最优秩近似的数学说明为教学推导。'),
+ 'ml-clustering':sklearn('Clustering','modules/clustering','读取k均值平方距离、均值更新、初始化与局部解；不把所得簇等同真实音素或疾病亚型。'),
+ 'ml-mlp':d2l('Multilayer Perceptrons','chapter_multilayer-perceptrons/mlp','读取隐藏层、仿射组合和激活函数，限定全仿射无额外约束时可合并；计算单元不等同生物细胞。'),
+ 'ml-backprop':d2l('Forward Propagation, Backward Propagation, and Computational Graphs','chapter_multilayer-perceptrons/backprop','读取前向计算、链式法则、反向传播和优化步骤；正文给出的二分类梯度另作有限差分检查。'),
+ 'ml-optimization':d2l('Stochastic Gradient Descent','chapter_optimization/sgd','读取随机梯度及学习率；不把无条件全局最优或固定种子当成一般深网络的保证。'),
+ 'ml-cnn':d2l('Convolutions for Images','chapter_convolutional-neural-networks/conv-layer','读取局部核、共享参数及互相关与数学卷积的区别；声谱图轴的解释是本文方法应用，不把图像平移假设直接当听觉定律。'),
+ 'ml-attention-textbook':d2l('Attention Scoring Functions','chapter_attention-mechanisms-and-transformers/attention-scoring-functions','读取缩放点积注意力、softmax与掩码。正文明确每个查询在键之间归一化，完整Transformer还包含其他结构。'),
+ 'ml-attention':{title:'Attention Is All You Need',authors:'Ashish Vaswani; Noam Shazeer; Niki Parmar; Jakob Uszkoreit; Llion Jones; Aidan N. Gomez; Łukasz Kaiser; Illia Polosukhin',year:'2017',publication:'Advances in Neural Information Processing Systems 30',url:'https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html',access:'abstract',supports:'读取会议正式摘要并核对原始arXiv作者/题名，用于Transformer来源定位；公式细节另据作者教材，不依据摘要扩写未核验实验结果。'},
+ 'ml-leakage':sklearn('Common pitfalls and recommended practices','common_pitfalls','读取不一致预处理、数据泄漏、训练内拟合与Pipeline相关例子。无标签变换亦须遵守预先定义的数据可用性协议。'),
+ 'ml-cv':sklearn('Cross-validation: evaluating estimator performance','modules/cross_validation','读取GroupKFold、时间序列、分层、模型选择及交叉验证限制；本文补充嵌套流程与重复折相关性的解释，未把折数当独立样本数。'),
+ 'ml-kapoor-published':{title:'Leakage and the reproducibility crisis in machine-learning-based science',authors:'Sayash Kapoor; Arvind Narayanan',year:'2023',publication:'Patterns, 4(9), 100804',doi:'10.1016/j.patter.2023.100804',url:'https://pubmed.ncbi.nlm.nih.gov/37720327/',access:'abstract',supports:'读取期刊原始摘要、核对正式书目信息和DOI；支持泄漏会造成过度乐观结论这一方法警示。另读取2022预印本摘要作检索种子，不混用预印本与正式论文的调查数量，本文不报告这些数量。'},
+ 'ml-metrics':sklearn('Metrics and scoring: quantifying the quality of predictions','modules/model_evaluation','读取二分类计数、不同平均、ROC/PR、回归指标与概率损失。本文计数和概率例子独立计算，明确分母及Brier的二分类定义。'),
+ 'ml-calibration':sklearn('Probability calibration','modules/calibration','读取可靠性曲线、Brier与对数损失、独立校准集；正文不把Brier下降直接等同纯校准误差下降。'),
+ 'ml-shift':d2l('Environment and Distribution Shift','chapter_linear-classification/environment-and-distribution-shift','读取协变量/标签偏移假设及训练和部署分布差异；不把所有变化简化为仅一种偏移。'),
+ 'ml-wav2vec':{title:'wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations',authors:'Alexei Baevski; Yuhao Zhou; Abdelrahman Mohamed; Michael Auli',year:'2020',publication:'Advances in Neural Information Processing Systems 33, 12449–12460',url:'https://papers.nips.cc/paper_files/paper/2020/hash/92d1e1eb1cd6f9fba3227870bb6d7f07-Abstract.html',access:'abstract',supports:'读取会议正式摘要及作者arXiv摘要：潜在空间遮蔽、联合量化表示的对比目标及转写微调；作者名按当前正式会议页登记。不复述未核验的细节或把2020成绩称为当前最好。'},
+ 'ml-hubert':{title:'HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units',authors:'Wei-Ning Hsu; Benjamin Bolte; Yao-Hung Hubert Tsai; Kushal Lakhotia; Ruslan Salakhutdinov; Abdelrahman Mohamed',year:'2021',publication:'IEEE/ACM Transactions on Audio, Speech, and Language Processing, 29, 3451–3460',doi:'10.1109/TASLP.2021.3122291',url:'https://arxiv.org/abs/2106.07447',access:'abstract',supports:'读取作者原始摘要中离线聚类、被遮位置预测和迭代目标；正式期刊书目及DOI另核验。未将聚类伪标签当成真实音素，也未复述最新性能结论。'},
+ 'ml-importance':sklearn('Permutation feature importance','modules/permutation_importance','读取留出评价、模型依赖与相关特征的限制；只解释预测依赖，不推断干预因果。'),
+};
