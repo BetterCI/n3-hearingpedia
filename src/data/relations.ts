@@ -15,6 +15,14 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('mathematical-statistics','probability-theory','related','由概率模型与抽样分布进入参数估计和统计推断。',3),
+  link('mathematical-statistics','linear-algebra','related','用投影、矩阵秩与最小二乘解释回归及其不确定性。',3),
+  link('mathematical-statistics','psychoacoustics','application','结合听者、试次、阈值与心理测量任务选择推断模型。',3),
+  link('mathematical-statistics','speech-reception-threshold','application','用配对阈值差区分平均效应、个体变异和估计误差。',3),
+  link('mathematical-statistics','signal-detection-theory','related','估计检测指标时需结合采样模型与实验任务。',2),
+  link('mathematical-statistics','confusion-matrix','related','分类计数的描述与推断依赖观察单位及相关结构。',2),
+  link('mathematical-statistics','information-theory','related','区分Fisher参数信息与消息熵，并关注有限样本估计。',2),
+  link('mathematical-statistics','auditory-aging','application','解释年龄与听觉指标回归时区分关联、预测和因果。',2),
   link('chinese-phonetics','phonetics','related','把一般发音、声学与感知框架用于具体汉语材料。',3),
   link('chinese-phonetics','mandarin-consonants','related','声母体系与辅音分类、拼音和IPA的区别共同约束记音。',3),
   link('chinese-phonetics','mandarin-lexical-tone','related','调类、F0、变调和韵律语境属于不同分析层次。',3),

@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-02",
+  "status": "Local validation passed; deployment checked separately after commit",
+  "baseline": "d8d1d97f229ceacf619bab17b5c3dc879a134e28",
+  "scientific_review": "Definitions, derivations, model assumptions and interpretations checked against primary teaching and method sources; no named expert reviewer",
+  "numerical_distribution_media_checks": 85,
+  "passed": 85,
+  "extracted_examples_passed": 3,
+  "complete_download_passed": true,
+  "references": 22,
+  "chinese_characters": 8709,
+  "sections": 12,
+  "subsections": 36,
+  "figures": 8,
+  "audio": 0,
+  "typecheck": {
+    "files": 197,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests_passed": 6,
+  "build": {
+    "pages": 286,
+    "checkedInternalLinks": 24584,
+    "equations": 451,
+    "searchableConcepts": 123,
+    "typedRelationships": 813,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "mobile_document_width": 375,
+    "formula_errors": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 6,
+    "foundation_folding_lists": 0,
+    "course_sketch_loaded": true,
+    "chinese_search_results": 1,
+    "course_first_result": true,
+    "mobile_long_formula_scrolls_in_own_container": true
+  },
+  "screenshots": [
+    "article-desktop.png",
+    "article-mobile.png",
+    "formulas-desktop.png",
+    "formulas-mobile.png",
+    "course-entry.png"
+  ],
+  "review_status": "draft; reviewer and reviewed_at remain null",
+  "build_notes": "Existing Vite chunk-size and Pagefind redirect/stemming/default-UI notices; no compilation failure",
+  "validation_fix": "Allow the legitimate term 组内相关 in both public-wording checks, preserving other internal-team wording exclusions"
+}

@@ -174,7 +174,8 @@ for(const e of wiki.entries){
   assert((body.match(/^### /gm)||[]).length===e.subsections&&e.subsections>=3,'Expected explanatory subsections: '+e.slug);
   assert(knowledgeAreas.some(a=>a.id===e.knowledge_area)&&e.kind in kindLabels,'Invalid knowledge classification: '+e.slug);
   assert(frontmatter.knowledge_area===e.knowledge_area&&frontmatter.kind===e.kind,'Classification manifest out of date: '+e.slug);
-  assert(!/课题组|组内|成员/.test(source),'Public concept should use general professional wording: '+e.slug);
+  // 组内相关 (intraclass correlation) is a statistical term, not internal-team wording.
+  assert(!/课题组|组内(?!相关)|成员/.test(source),'Public concept should use general professional wording: '+e.slug);
   assert(!/\n## [^\n]+\n\s*(?=## |$)/.test(body),'Empty article section: '+e.slug);
   const html=cache.get(join(root,'concepts',e.slug,'index.html'));
   assert(html.includes('wiki-infobox')&&html.includes('参见与关联概念'),'Missing wiki navigation: '+e.slug);
@@ -236,7 +237,7 @@ for(const e of batch.entries){
 const errors=[];
 let checkedLinks=0, equations=0;
 for(const [file,html] of cache) {
-  assert(!/课题组|组内|尚未经过成员/.test(html),'Public site positioning: '+relative(root,file));
+  assert(!/课题组|组内(?!相关)|尚未经过成员/.test(html),'Public site positioning: '+relative(root,file));
   assert(!html.includes('class="katex-error"'),'KaTeX render error in '+relative(root,file));
   for(const match of html.matchAll(/\b(?:href|src|action)=["']([^"']+)["']/g)) {
     const link=match[1].replaceAll('&amp;','&');
