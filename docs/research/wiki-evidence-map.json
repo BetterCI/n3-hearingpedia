@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-02",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 785,
+  "relations": 795,
   "entries": [
     {
       "slug": "cochlea",
@@ -5219,6 +5219,47 @@
         "fir-and-iir-filters",
         "minimum-phase-system"
       ],
+      "knowledge_area": "methods",
+      "kind": "course",
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "information-theory",
+      "chinese_characters": 6921,
+      "body_characters": 16212,
+      "sections": 11,
+      "subsections": 26,
+      "reference_ids": [
+        "shannon-1948",
+        "it-mit-entropy",
+        "it-mit-mutual",
+        "it-mit-error-rate",
+        "it-mit-processing",
+        "it-mit-lossless",
+        "it-huffman-1952",
+        "it-mit-capacity",
+        "it-mit-awgn",
+        "it-mit-quantization",
+        "it-mit-rate-distortion",
+        "it-paninski-2003",
+        "miller-1955"
+      ],
+      "wiki_links": [
+        "probability-theory",
+        "linear-algebra",
+        "confusion-matrix",
+        "signal-detection-theory",
+        "speech-redundancy",
+        "spectrum-and-power-spectral-density",
+        "vocoder",
+        "cochlear-implant-coding-strategies",
+        "neural-speech-tracking",
+        "speech-intelligibility"
+      ],
+      "figures": 8,
+      "audio": 3,
+      "code_examples": 3,
       "knowledge_area": "methods",
       "kind": "course",
       "status": "draft",

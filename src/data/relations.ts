@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('information-theory','probability-theory','related','信息量以分布、条件概率与期望为基础；模型先于公式。',3),
+  link('information-theory','linear-algebra','related','条件概率矩阵和联合表用于描述离散信道与混淆。',2),
+  link('information-theory','confusion-matrix','related','先验乘条件反应矩阵得到联合分布，再计算条件熵与互信息。',3),
+  link('information-theory','signal-detection-theory','related','互信息、敏感性、判据与正确率描述不同方面，比较时保留先验与任务。',3),
+  link('information-theory','speech-redundancy','related','联合与条件互信息帮助区分线索重叠及组合后的信息。',3),
+  link('information-theory','vocoder','related','声音编码需同时规定重构目标、速率及失真或感知验证。',2),
+  link('information-theory','cochlear-implant-coding-strategies','related','频带或电极数量不能直接当成比特率或信息容量。',2),
+  link('information-theory','neural-speech-tracking','related','刺激与神经记录的信息估计依赖变量、时间窗、样本量和验证。',2),
+  link('information-theory','spectrum-and-power-spectral-density','related','带内功率、噪声谱约定与量化误差模型限制容量解释。',2),
+  link('information-theory','speech-intelligibility','related','正确率、统计信息与感知失真不能未经模型直接换算。',2),
   link('complex-analysis','linear-algebra','related','复数坐标、共轭与复矩阵把声学相量连接到线性运算。',2),
   link('complex-analysis','pure-and-complex-tones','related','同频纯音的相干叠加提供理解复相量与相位的例子。',3),
   link('complex-analysis','phase-and-group-delay','related','对数分支、相位展开与复频率响应共同约束延迟解释。',3),

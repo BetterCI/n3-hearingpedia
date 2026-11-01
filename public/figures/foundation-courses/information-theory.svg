@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+  <title>二元编码树与信息传输</title>
+  <rect width="320" height="180" fill="#f3f1f8"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M59 91Q84 69 104 49M59 91Q85 112 104 132M104 49L145 30M104 49L145 69M104 132L145 111M104 132L145 151" stroke="#a99abe" stroke-width="2"/>
+    <path d="M169 90Q193 89 207 90M199 85L208 90L200 95" stroke="#629889" stroke-width="2.6"/>
+    <rect x="221" y="55" width="57" height="71" rx="9" stroke="#766291" stroke-width="2.2" fill="#faf9fc"/>
+    <path d="M233 78L241 70L247 84L257 73L266 80M233 101L241 95L249 108L259 96L267 102" stroke="#aac7bb" stroke-width="2"/>
+  </g>
+  <g fill="#766291"><circle cx="59" cy="91" r="4"/><circle cx="104" cy="49" r="3"/><circle cx="104" cy="132" r="3"/></g>
+  <g fill="#629889"><circle cx="145" cy="30" r="4"/><circle cx="145" cy="69" r="4"/><circle cx="145" cy="111" r="4"/><circle cx="145" cy="151" r="4"/></g>
+  <g font-family="Georgia,serif" font-size="16" fill="#766291"><text x="72" y="60">0</text><text x="76" y="124">1</text><text x="119" y="31">0</text><text x="119" y="77">1</text><text x="118" y="113">0</text><text x="118" y="155">1</text></g>
+</svg>

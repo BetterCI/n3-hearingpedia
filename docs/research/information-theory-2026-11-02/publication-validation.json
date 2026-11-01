@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-02",
+  "status": "local validation passed; deployment checked separately after commit",
+  "baseline": "9bbaffa13fb6452acc5a56bfe6f613263c17dbe7",
+  "scientific_checks": 79,
+  "scientific_checks_passed": 79,
+  "extracted_examples_passed": 3,
+  "complete_example_script_passed": true,
+  "references": 13,
+  "typecheck": {
+    "files": 193,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "build": {
+    "pages": 282,
+    "internal_links": 24209,
+    "equations": 427,
+    "searchable_entries": 121,
+    "relationships": 795,
+    "broken_links": 0
+  },
+  "browser": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "mobile_document_width": 375,
+    "tablet_width": 900,
+    "tablet_document_width": 885,
+    "tablet_course_columns": 2,
+    "mobile_course_columns": 1,
+    "formula_errors": 0,
+    "figures": 8,
+    "audio": 3,
+    "raw_tex_captions": 0,
+    "foundation_courses": 4,
+    "foundation_folding_lists": 0,
+    "course_illustrations_loaded": 4,
+    "search_query": "信息论",
+    "search_results": 98,
+    "search_found_course": true,
+    "screenshots": [
+      "artifacts/information-theory/article-desktop.png",
+      "artifacts/information-theory/article-mobile.png",
+      "artifacts/information-theory/courses-desktop.png"
+    ]
+  },
+  "review_status": "draft; no named expert reviewer"
+}

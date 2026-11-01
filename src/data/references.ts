@@ -1,3 +1,4 @@
+import { informationTheoryReferences } from './information-theory-references.ts';
 import { complexAnalysisReferences } from './complex-analysis-references.ts';
 import { probabilityTheoryReferences } from './probability-theory-references.ts';
 import { linearAlgebraReferences } from './linear-algebra-references.ts';
@@ -88,6 +89,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...informationTheoryReferences,
   ...complexAnalysisReferences,
   ...probabilityTheoryReferences,
   ...linearAlgebraReferences,

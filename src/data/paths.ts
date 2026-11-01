@@ -56,6 +56,7 @@ export const learningPaths = [
   { id:'linear-algebra-foundations',title:'线性代数：从声音例子理解向量与矩阵',english:'Linear algebra through sound',description:'以纯音合成、频率分解、麦克风混合与反射声估计为线索，逐步学习线性代数；适合作为基础课程的配套选读。',slugs:['linear-algebra','spectrum-and-power-spectral-density','fir-and-iir-filters','electroencephalography','neural-speech-tracking'] },
   { id:'probability-theory-foundations',title:'概率论：从听觉检测与噪声理解随机性',english:'Probability through hearing and noise',description:'从一次检测反应、重复测量和噪声平均出发，学习概率分布、贝叶斯、独立性与极限定理，再连接检测模型和统计推断；作为基础课程按需选读。',slugs:['probability-theory','psychoacoustics','signal-detection-theory','confusion-matrix','spectrum-and-power-spectral-density'] },
   { id:'complex-analysis-foundations',title:'复变函数：从声压相位理解解析与变换',english:'Complex analysis through sound',description:'以纯音相量、复声阻抗与滤波器为线索，学习复导数、分支、复积分、级数和留数；通过收敛域与衰减振荡连接听觉研究中的变换方法。',slugs:['complex-analysis','pure-and-complex-tones','phase-and-group-delay','fir-and-iir-filters','minimum-phase-system'] },
+  { id:'information-theory-foundations',title:'信息论：从不确定性理解编码与传输',english:'Information theory through hearing and coding',description:'用听觉检测、混淆矩阵与声音编码理解熵、互信息、信息处理极限及估计条件。',slugs:['information-theory'] },
 ];
 
 export const allLearningPaths = [
