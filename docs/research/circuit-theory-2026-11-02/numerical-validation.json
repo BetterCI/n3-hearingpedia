@@ -1,0 +1,897 @@
+{
+  "scope": "Specified ideal circuits and mathematics; independent formulations, ODE/modal solutions, time/frequency integration and media checks. Not measured hardware or professional review.",
+  "total": 132,
+  "passed": 132,
+  "checks": [
+    {
+      "name": "branch-current solution against node solution",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.710505431213761e-20
+      }
+    },
+    {
+      "name": "KCL at A",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.0842021724855044e-19
+      }
+    },
+    {
+      "name": "KCL at B",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "KVL source-A-ground",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "KVL A-B-ground",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "node A from branch",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "node B from branch",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "total energy balance",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "supplied power recorded",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "superposition of independent sources",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.421010862427522e-20
+      }
+    },
+    {
+      "name": "Thevenin port with load 100",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Thevenin port with load 1000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Thevenin port with load 5000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Thevenin port with load 10000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Thevenin port with load 100000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.551115123125783e-17
+      }
+    },
+    {
+      "name": "Thevenin port with load 1000000.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "divider open output",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "divider 10k output",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "test-source dependent gm 0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "test-source dependent gm 0.0005",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "test-source dependent gm 0.002",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "dependent source can give negative incremental R",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "microphone 10k loading",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "microphone 100k loading",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC arbitrary initial 0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.9306445331324085e-11
+      }
+    },
+    {
+      "name": "RC arbitrary initial 0.3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.9459212019512506e-11
+      }
+    },
+    {
+      "name": "RC arbitrary initial -0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.901712121110677e-11
+      }
+    },
+    {
+      "name": "RC arbitrary initial 1.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.0679903062491576e-11
+      }
+    },
+    {
+      "name": "RC at one time constant",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC current at one time constant",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "5tau fraction",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC source energy integral",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.117582368135751e-22
+      }
+    },
+    {
+      "name": "RC resistor energy integral",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC stored energy balance",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.117582368135751e-22
+      }
+    },
+    {
+      "name": "RC LP impedance solve f=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102235540206224e-16
+      }
+    },
+    {
+      "name": "RC loaded impedance solve f=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC complementary outputs f=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102235540206224e-16
+      }
+    },
+    {
+      "name": "RC LP impedance solve f=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1103585416259206e-16
+      }
+    },
+    {
+      "name": "RC loaded impedance solve f=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC complementary outputs f=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.734723475976807e-18
+      }
+    },
+    {
+      "name": "RC LP impedance solve f=1591.5494309189535",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC loaded impedance solve f=1591.5494309189535",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC complementary outputs f=1591.5494309189535",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC LP impedance solve f=3183.098861837907",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC loaded impedance solve f=3183.098861837907",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC complementary outputs f=3183.098861837907",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC LP impedance solve f=20000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7809732887839817e-17
+      }
+    },
+    {
+      "name": "RC loaded impedance solve f=20000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.4304896245381992e-17
+      }
+    },
+    {
+      "name": "RC complementary outputs f=20000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "RC LP impedance solve f=1000000.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.1684084808701273e-19
+      }
+    },
+    {
+      "name": "RC loaded impedance solve f=1000000.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RC complementary outputs f=1000000.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.168404344971009e-19
+      }
+    },
+    {
+      "name": "RC unloaded cutoff magnitude",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "RC cutoff dB",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "loaded pole from C seen R",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "coupling 20Hz gain",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "RLC matrix exp R=40.0,t=0.0001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1991518888976316e-12
+      }
+    },
+    {
+      "name": "RLC matrix exp R=40.0,t=0.0005",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.84547990409601e-11
+      }
+    },
+    {
+      "name": "RLC matrix exp R=40.0,t=0.001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.011080439487614e-11
+      }
+    },
+    {
+      "name": "RLC matrix exp R=40.0,t=0.003",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.581579394700384e-11
+      }
+    },
+    {
+      "name": "RLC matrix exp R=40.0,t=0.006",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.289672812987419e-10
+      }
+    },
+    {
+      "name": "RLC roots trace R=40.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.094947017729282e-13
+      }
+    },
+    {
+      "name": "RLC roots product R=40.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.4901161193847656e-08
+      }
+    },
+    {
+      "name": "RLC stable real parts R=40.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "RLC matrix exp R=200.0,t=0.0001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.2637113577795844e-12
+      }
+    },
+    {
+      "name": "RLC matrix exp R=200.0,t=0.0005",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.042754936899428e-11
+      }
+    },
+    {
+      "name": "RLC matrix exp R=200.0,t=0.001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.763300864851772e-12
+      }
+    },
+    {
+      "name": "RLC matrix exp R=200.0,t=0.003",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.770295683608765e-12
+      }
+    },
+    {
+      "name": "RLC matrix exp R=200.0,t=0.006",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.6320944595804576e-11
+      }
+    },
+    {
+      "name": "RLC roots trace R=200.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RLC roots product R=200.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RLC stable real parts R=200.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "RLC matrix exp R=500.0,t=0.0001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 7.240874566605271e-13
+      }
+    },
+    {
+      "name": "RLC matrix exp R=500.0,t=0.0005",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3992473846258235e-11
+      }
+    },
+    {
+      "name": "RLC matrix exp R=500.0,t=0.001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.2385314995810859e-11
+      }
+    },
+    {
+      "name": "RLC matrix exp R=500.0,t=0.003",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.5992874519431552e-11
+      }
+    },
+    {
+      "name": "RLC matrix exp R=500.0,t=0.006",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.272360243362527e-12
+      }
+    },
+    {
+      "name": "RLC roots trace R=500.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 7.275957614183426e-12
+      }
+    },
+    {
+      "name": "RLC roots product R=500.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.4901161193847656e-08
+      }
+    },
+    {
+      "name": "RLC stable real parts R=500.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "RLC half-power bandwidth roots",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.410605131648481e-13
+      }
+    },
+    {
+      "name": "RLC Q via bandwidth",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3322676295501878e-15
+      }
+    },
+    {
+      "name": "RLC resistor output resonance",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.5395478840218857e-05
+      }
+    },
+    {
+      "name": "RLC capacitor voltage peak",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 7.2554521466372535e-06
+      }
+    },
+    {
+      "name": "Laplace capacitor initial term",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1307894802731388e-22
+      }
+    },
+    {
+      "name": "mutual inductance PSD bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coupled energy quadratic",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.168404344971009e-19
+      }
+    },
+    {
+      "name": "ideal transformer port power",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "ideal transformer reflected resistance",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "AC average power time integral",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "AC current real and imaginary",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "AC reactive power",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "apparent power triangle",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "RMS voltage integration",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "maximum resistor power at matching",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.004405930871144e-06
+      }
+    },
+    {
+      "name": "matching source and load dissipation",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "opamp feedback constraint f=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "opamp feedback constraint f=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.776356892339809e-15
+      }
+    },
+    {
+      "name": "opamp feedback constraint f=1000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.7764110486817194e-15
+      }
+    },
+    {
+      "name": "opamp feedback constraint f=20000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.790180836524724e-15
+      }
+    },
+    {
+      "name": "opamp feedback constraint f=100010",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "opamp feedback constraint f=1000000.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1188630228279524e-16
+      }
+    },
+    {
+      "name": "slew requirement",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "probe normalized pole f=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "probe normalized pole f=20000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.2887833992611187e-16
+      }
+    },
+    {
+      "name": "probe normalized pole f=160746.49252281428",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "probe normalized pole f=1000000.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.1031676915590914e-17
+      }
+    },
+    {
+      "name": "one-pole equivalent noise bandwidth",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "kT/C noise variance",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "filtered noise RMS",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "20k rectangular noise RMS",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "one-sided noise density units/numeric",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "cumulative noise integral x=0.001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "cumulative noise integral x=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "cumulative noise integral x=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "cumulative noise integral x=10",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "cumulative noise integral x=1000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "kohm-microfarad to seconds",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "millihenry-microfarad natural angular frequency",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "audio propagation wavelength",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "SVG parse divider-and-load.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse nodal-network.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse opamp-limits.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse phasor-and-power.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse probe-loading.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse rc-frequency.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse rc-transient.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse reference-and-elements.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse rlc-damping.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG parse thermal-noise.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ten article SVGs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "course line sketch XML",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "AI-assisted source/mathematical audit complete; pending professional review",
+  "numerical_checks": 132,
+  "numerical_checks_passed": 132,
+  "article_examples_run": 3,
+  "download_script_run": true,
+  "typecheck": {
+    "files": 203,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 292,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 25204,
+    "equations": 485,
+    "searchableConcepts": 126,
+    "wikiConcepts": 126,
+    "knowledgeAreas": 7,
+    "typedRelationships": 843,
+    "wikiCrossLinks": 1360,
+    "chineseCharacters": 865707,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "root_width": 1265,
+      "document_width": 1265
+    },
+    "mobile_390": {
+      "root_width": 375,
+      "document_width": 375,
+      "long_equation_overflow": "auto inside individual math boxes"
+    },
+    "figures": 10,
+    "references": 25,
+    "katex_errors": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 9,
+    "foundation_folded_lists": 0,
+    "search_query": "电路原理",
+    "search_first_result": "/n3-hearingpedia/concepts/circuit-theory/",
+    "reported_search_results": 6,
+    "search_limit": "broad tokenized matches expected",
+    "lazy_images": "below-viewport figures remain lazy until scrolled; all 10 local SVGs validated separately"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "4eb8894809c2979d35c5cd3385e563124f4e6a3e",
+  "limitations": [
+    "No external professional reviewer",
+    "Specified ideal/small-signal circuits; no physical-device performance measurements",
+    "Targeted textbook/official-document verification, not exhaustive literature review",
+    "Existing build chunk-size and Pagefind redirect/stemming notices remain"
+  ]
+}

@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('circuit-theory','complex-analysis','related','用复数、相量与拉普拉斯变量分析阻抗和频率响应。',3),
+  link('circuit-theory','linear-algebra','related','用节点矩阵、端口关系和状态方程求解电网络。',3),
+  link('circuit-theory','microphone','application','区分灵敏度、源阻抗、前置输入与实际加载。',3),
+  link('circuit-theory','electroacoustic-transducer','related','用电端口、储能与负载模型连接电机械声学耦合。',3),
+  link('circuit-theory','dynamic-range','related','以供电、输出摆幅、噪声和失真界定电路范围。',3),
+  link('circuit-theory','audiometric-calibration','related','区分数字和电压电平，再连接实际声学输出。',2),
+  link('circuit-theory','phase-and-group-delay','related','由相量和传递函数理解幅相响应与延迟。',2),
+  link('circuit-theory','fir-and-iir-filters','related','区分模拟电路传递函数与数字滤波实现的条件。',2),
+  link('circuit-theory','spectrum-and-power-spectral-density','related','用单边谱密度、滤波与噪声积分检查测量带宽。',3),
+  link('circuit-theory','hearing-aid','application','以输入负载、前置增益和输出驱动理解处理链。',2),
   link('machine-learning','linear-algebra','related','以向量、矩阵、投影和SVD理解特征与可学习变换。',3),
   link('machine-learning','probability-theory','related','用条件概率、期望风险和分布变化解释预测。',3),
   link('machine-learning','mathematical-statistics','related','用抽样、估计和独立评价说明模型不确定性。',3),

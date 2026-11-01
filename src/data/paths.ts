@@ -61,6 +61,7 @@ export const learningPaths = [
   { id:'mathematical-statistics-foundations',title:'数理统计：从样本理解估计与推断',english:'Mathematical statistics through auditory experiments',description:'从听者阈值与正确率进入抽样分布、估计、区间、检验、功效、重采样和回归。',slugs:['mathematical-statistics'] },
   { id:'computational-neuroscience-foundations',title:'计算神经科学：从神经元理解编码与网络',english:'Computational neuroscience from neurons to networks',description:'从膜、突触与脉冲进入编码解码、群体动力学和学习，再用听觉例子检验模型。',slugs:['computational-neuroscience'] },
   { id:'machine-learning-foundations',title:'机器学习：从数据理解预测与泛化',english:'Machine learning from data to generalization',description:'从任务、损失与正则化进入分类、降维和神经网络，再用分组验证和概率校准检查推广。',slugs:['machine-learning'] },
+  { id:'circuit-theory-foundations',title:'电路原理：从电压电流理解网络与响应',english:'Circuit theory from ports to response',description:'从元件与守恒进入节点分析、等效、暂态、阻抗和功率，再连接音频接口、运放及测量。',slugs:['circuit-theory'] },
 ];
 
 export const allLearningPaths = [
