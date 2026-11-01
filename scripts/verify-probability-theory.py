@@ -41,6 +41,33 @@ near('total variance decomposition',.165+.0225,.75*.25)
 xx=np.array([-1,0,1])
 near('uncorrelated dependent counterexample',np.mean(xx*xx**2)-np.mean(xx)*np.mean(xx**2),0)
 
+# A binomial total does not force the Bernoulli trials to be independent.
+# Perturb probabilities within the k=1 and k=2 groups while preserving each marginal.
+triples=np.array([[int(c) for c in f'{i:03b}'] for i in range(8)])
+masses=np.array([2,2,1,3,3,1,2,2],dtype=float)/16
+totals=triples.sum(axis=1)
+near('dependent Bernoulli variables retain binomial total',
+     [masses@triples[:,i] for i in range(3)] + [masses[totals==k].sum() for k in range(4)],
+     [.5,.5,.5,.125,.375,.375,.125])
+pair11=masses[(triples[:,0]==1)&(triples[:,2]==1)].sum()
+assert abs(pair11-.25)>.01
+checks.append('binomial total counterexample really has dependent trials')
+# Non-Gaussian Bernoulli pairs: Cov=0 fixes p11=pX*pY and all four masses factor.
+px,py=.3,.7
+p11=px*py
+pair=np.array([[1-px-py+p11,py-p11],[px-p11,p11]])
+near('Gaussian is not a necessary distribution for independence',pair,np.outer([1-px,px],[1-py,py]))
+
+# AR(1) stationary variance and the variance of a finite time average.
+phi=.9
+near('AR stationary variance balance',.02**2*(1-phi**2)/(1-phi**2),.02**2)
+length=100
+ar_cov=phi**np.abs(np.subtract.outer(np.arange(length),np.arange(length)))
+matrix_mean_var=ar_cov.sum()/length**2
+scalar_mean_var=(length+2*sum((length-k)*phi**k for k in range(1,length)))/length**2
+near('AR time-average variance with all lag covariance terms',matrix_mean_var,scalar_mean_var)
+assert matrix_mean_var>1/length
+
 # Matrix covariance calculation independently checks the scalar average formula.
 M=16
 for rho,key in [(0,'independent_sd'),(.5,'shared_sd')]:
@@ -94,6 +121,7 @@ for name,model in models.items():
 assert len(list((ROOT/'public/figures/probability-theory').glob('*.svg')))==8
 checks.append('eight generated SVG teaching figures')
 out={'status':'passed','checks':checks,'count':len(checks),
+     'finite_audio_noise_reduction_dB':20*np.log10(record['audio']['records']['one-trial']['noise_rms_before_ramp_and_gain']/record['audio']['records']['average-16']['noise_rms_before_ramp_and_gain']),
      'scope':'independent analytic enumeration, quadrature, covariance matrix, score inversion and actual PCM media'}
 (REC/'numerical-validation.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(out,ensure_ascii=False,indent=2))

@@ -43,9 +43,13 @@
 ## 核验材料
 
 - `calculations.json`：模型、种子、软件版本和正文结果。
-- `numerical-validation.json`：29项独立计算/实际媒体检查，均通过。
+- `numerical-validation.json`：首次发布时29项独立计算/实际媒体检查均通过；发布后二次审查增至34项，见 `rigor-recheck.md`。
 - `content-validation.json`：字数、章节、引用、概念链接、媒体与代码数量。
 - `example-1.py`至`example-3.py`：从正文自动提取，实际运行。
 - `public/code/probability-theory/experiments.py`：可下载实验，实际运行；潜在听者混合模拟协方差在预定抽样容差内。
 
 网站构建、断链、页面与上线核验另记录在发布检查材料中；工程检查不改变Draft专业审阅状态。
+
+## 发布后二次审查
+
+本文件的首次审查结论不能理解为逐句表述已无可改进之处。2026-11-02按用户要求重新审查，发现了充分条件与必要条件混淆、理论SNR与有限实现混淆等措辞问题，已经修正；具体发现、反例和更新范围见 `rigor-recheck.md`。
