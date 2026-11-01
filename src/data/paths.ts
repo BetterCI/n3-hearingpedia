@@ -63,6 +63,7 @@ export const learningPaths = [
   { id:'machine-learning-foundations',title:'机器学习：从数据理解预测与泛化',english:'Machine learning from data to generalization',description:'从任务、损失与正则化进入分类、降维和神经网络，再用分组验证和概率校准检查推广。',slugs:['machine-learning'] },
   { id:'circuit-theory-foundations',title:'电路原理：从电压电流理解网络与响应',english:'Circuit theory from ports to response',description:'从元件与守恒进入节点分析、等效、暂态、阻抗和功率，再连接音频接口、运放及测量。',slugs:['circuit-theory'] },
   { id:'mathematical-physics-methods-foundations',title:'数学物理方法：从定解问题理解场与模态',english:'Methods of mathematical physics from models to solutions',description:'从方程、边界与几何进入分离变量、特殊函数、变换及格林函数，再以能量和数值方法核验。',slugs:['mathematical-physics-methods'] },
+  { id:'functional-analysis-foundations',title:'泛函分析：从空间与收敛理解算子和方程',english:'Functional analysis from spaces to operators',description:'从范数、完备与投影进入对偶、弱收敛和谱，再用测量、变分与逆问题理解稳定性。',slugs:['functional-analysis'] },
 ];
 
 export const allLearningPaths = [

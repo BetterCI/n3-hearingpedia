@@ -1,0 +1,68 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "AI-assisted targeted mathematical/source audit complete; pending professional review",
+  "numerical_checks": 279,
+  "numerical_checks_passed": 279,
+  "numerical_scope": "Specified examples and implementations; not automated proofs of abstract theorems",
+  "article_examples_run": 3,
+  "download_script_run": true,
+  "typecheck": {
+    "files": 207,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 296,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 25624,
+    "equations": 501,
+    "searchableConcepts": 128,
+    "wikiConcepts": 128,
+    "knowledgeAreas": 7,
+    "typedRelationships": 863,
+    "wikiCrossLinks": 1372,
+    "chineseCharacters": 881529,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "root_width": 1265,
+      "document_width": 1265
+    },
+    "mobile_390": {
+      "root_width": 375,
+      "document_width": 375,
+      "display_equations_fit": true
+    },
+    "figures": 10,
+    "references": 22,
+    "display_equations": 8,
+    "katex_errors": 0,
+    "unexpected_emphasis": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 11,
+    "foundation_folded_lists": 0,
+    "search_query": "泛函分析",
+    "search_first_result": "/n3-hearingpedia/concepts/functional-analysis/",
+    "reported_search_results": 1
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "1f99b8917990a072703d7a01bce1d45f6ba3e3b2",
+  "limitations": [
+    "No external professional reviewer",
+    "Examples are specified mathematical constructions; no physical or clinical measurements",
+    "Targeted author course/source verification; not exhaustive literature review",
+    "Existing build chunk-size and Pagefind redirect/stemming notices remain"
+  ]
+}

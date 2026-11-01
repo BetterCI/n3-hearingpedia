@@ -1,0 +1,1814 @@
+{
+  "scope": "Independent quadrature, matrices, kernels, variational energy and optimization for specified examples. Not proofs of abstract theorems, physical/clinical validation or external professional review.",
+  "total": 279,
+  "passed": 279,
+  "checks": [
+    {
+      "name": "finite norm comparison attains sqrt N, N=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "finite norm comparison attains sqrt N, N=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "finite norm comparison attains sqrt N, N=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "finite norm comparison attains sqrt N, N=50",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "finite norm comparison attains sqrt N, N=200",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "norm homogeneity p=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "norm homogeneity p=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "norm homogeneity p=inf",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "L2 parallelogram identity",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "L1 norm fails parallelogram for coordinate unit vectors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ramp L2 error squared n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike L2 norm squared n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.551115123125783e-17
+      }
+    },
+    {
+      "name": "triangular spike retains point value n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike L1 area n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "spike weak derivative squared norm n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "ramp L2 error squared n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike L2 norm squared n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike retains point value n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike L1 area n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "spike weak derivative squared norm n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "ramp L2 error squared n=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike L2 norm squared n=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike retains point value n=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike L1 area n=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "spike weak derivative squared norm n=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "ramp L2 error squared n=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "triangular spike L2 norm squared n=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "triangular spike retains point value n=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike L1 area n=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "spike weak derivative squared norm n=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "ramp L2 error squared n=128",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.734723475976807e-18
+      }
+    },
+    {
+      "name": "triangular spike L2 norm squared n=128",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "triangular spike retains point value n=128",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "triangular spike L1 area n=128",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "spike weak derivative squared norm n=128",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "ramp pairwise Cauchy error bound n=4,m=8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ramp pairwise Cauchy error bound n=8,m=32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ramp pairwise Cauchy error bound n=32,m=128",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projection Gram i=0,j=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "projection Gram i=0,j=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.636775882794557e-18
+      }
+    },
+    {
+      "name": "projection Gram i=1,j=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.636775882794557e-18
+      }
+    },
+    {
+      "name": "projection Gram i=1,j=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "projection coefficients",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "signal squared norm",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "projection squared norm",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "residual squared norm",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "orthogonal residual i=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.3393426912553537e-17
+      }
+    },
+    {
+      "name": "orthogonal residual i=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.518055078212959e-19
+      }
+    },
+    {
+      "name": "projection optimality error decomposition a=0.0,b=0.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "projection optimality error decomposition a=0.1,b=-0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "projection optimality error decomposition a=-1.0,b=0.3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "1/n coefficients squared tail N=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "1/n coefficients squared tail N=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.3029134982598407e-15
+      }
+    },
+    {
+      "name": "1/n coefficients squared tail N=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.245004513516506e-17
+      }
+    },
+    {
+      "name": "1/n coefficients squared tail N=100",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.1051550219984847e-16
+      }
+    },
+    {
+      "name": "1/n coefficients squared tail N=1000",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.8055496254241206e-16
+      }
+    },
+    {
+      "name": "unit sine L2 n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "derivative L2 n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "vanishing input nonvanishing derivative n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "derivative bounded in graph norm n=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unit sine L2 n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "derivative L2 n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "name": "vanishing input nonvanishing derivative n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "derivative bounded in graph norm n=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unit sine L2 n=12",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "derivative L2 n=12",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "vanishing input nonvanishing derivative n=12",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "derivative bounded in graph norm n=12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unit sine L2 n=30",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "derivative L2 n=30",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.4210854715202004e-14
+      }
+    },
+    {
+      "name": "vanishing input nonvanishing derivative n=30",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "derivative bounded in graph norm n=30",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complex integration by parts with zero input trace",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.721958498152797e-17
+      }
+    },
+    {
+      "name": "weighted adjoint identity sample=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "name": "weighted adjoint identity sample=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weighted adjoint identity sample=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.155133597044475e-16
+      }
+    },
+    {
+      "name": "weighted adjoint identity sample=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.0242958677880805e-15
+      }
+    },
+    {
+      "name": "weighted adjoint identity sample=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "name": "weighted adjoint identity sample=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "bare conjugate transpose fails for weighted inner products",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Riesz functional linear in input",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.482534153247273e-16
+      }
+    },
+    {
+      "name": "Riesz correspondence conjugate linear in representing vector",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Riesz norm attained at aligned unit vector",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "window area eps=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "window Riesz norm eps=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "window functional norm attained eps=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "window area eps=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "window Riesz norm eps=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "window functional norm attained eps=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "window area eps=0.05",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "window Riesz norm eps=0.05",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "name": "window functional norm attained eps=0.05",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "window area eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "window Riesz norm eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.552713678800501e-15
+      }
+    },
+    {
+      "name": "window functional norm attained eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "name": "HB extension norm a=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=0,t=-0.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=0,t=1.3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension norm a=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=0.2,t=-0.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.551115123125783e-17
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=0.2,t=1.3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension norm a=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=0.5,t=-0.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=0.5,t=1.3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension norm a=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=0.8,t=-0.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=0.8,t=1.3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension norm a=1.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=1.0,t=-0.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "HB extension agrees on line a=1.0,t=1.3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weak-example vector norm n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weak-example fixed readout n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "orthonormal basis pair distance n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weak-example vector norm n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weak-example fixed readout n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "orthonormal basis pair distance n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weak-example vector norm n=10",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weak-example fixed readout n=10",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "orthonormal basis pair distance n=10",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weak-example vector norm n=30",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weak-example fixed readout n=30",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "orthonormal basis pair distance n=30",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "I-P operator norm finite witness N=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "I-P operator norm finite witness N=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "I-P operator norm finite witness N=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "I-P operator norm finite witness N=50",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.2,eps=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.2,eps=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.2,eps=0.03",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.2,eps=0.03",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.2,eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.2,eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.336808689942018e-18
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.5,eps=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.5,eps=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.5,eps=0.03",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.5,eps=0.03",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.42861286636753e-17
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.5,eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.5,eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.540979117872439e-18
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.8,eps=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.8,eps=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-17
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.8,eps=0.03",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.8,eps=0.03",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.0816681711721685e-17
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector norm lam=0.8,eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "M=t approximate eigenvector residual lam=0.8,eps=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=1,x=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=1,x=0.37",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green eigenrelation n=1,x=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.163336342344337e-17
+      }
+    },
+    {
+      "name": "Green eigenrelation n=2,x=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=2,x=0.37",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=2,x=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=3,x=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.734723475976807e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=3,x=0.37",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.540979117872439e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=3,x=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=4,x=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.734723475976807e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=4,x=0.37",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.9081958235744878e-17
+      }
+    },
+    {
+      "name": "Green eigenrelation n=4,x=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.071532165918825e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=5,x=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.204170427930421e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=5,x=0.37",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.2551405187698492e-17
+      }
+    },
+    {
+      "name": "Green eigenrelation n=5,x=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.807670163200992e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=6,x=0.1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.0357660829594124e-18
+      }
+    },
+    {
+      "name": "Green eigenrelation n=6,x=0.37",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.6046192152785466e-17
+      }
+    },
+    {
+      "name": "Green eigenrelation n=6,x=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Green derivative jump xi=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.8755664516211255e-11
+      }
+    },
+    {
+      "name": "Green derivative jump xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.000088900582341e-12
+      }
+    },
+    {
+      "name": "Green derivative jump xi=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.8755664516211255e-11
+      }
+    },
+    {
+      "name": "Green finite-rank norm-tail witness N=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green finite-rank norm-tail witness N=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green finite-rank norm-tail witness N=60",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "unit interval Poincare bound mode=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "H1 coercivity constant mode=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unit interval Poincare bound mode=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "H1 coercivity constant mode=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unit interval Poincare bound mode=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "H1 coercivity constant mode=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Galerkin independent tridiagonal solve N=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Galerkin nodal values N=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Galerkin derivative error integral N=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Galerkin independent functional integral N=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Galerkin energy identity N=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.7704895589362195e-18
+      }
+    },
+    {
+      "name": "Galerkin algebraic weak equation N=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "Galerkin independent tridiagonal solve N=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Galerkin nodal values N=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Galerkin derivative error integral N=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.168404344971009e-19
+      }
+    },
+    {
+      "name": "Galerkin independent functional integral N=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Galerkin energy identity N=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.3852447794681098e-18
+      }
+    },
+    {
+      "name": "Galerkin algebraic weak equation N=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Galerkin independent tridiagonal solve N=16",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Galerkin nodal values N=16",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Galerkin derivative error integral N=16",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.710505431213761e-19
+      }
+    },
+    {
+      "name": "Galerkin independent functional integral N=16",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Galerkin energy identity N=16",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.378348791999613e-18
+      }
+    },
+    {
+      "name": "Galerkin algebraic weak equation N=16",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "Galerkin independent tridiagonal solve N=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Galerkin nodal values N=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.885780586188048e-16
+      }
+    },
+    {
+      "name": "Galerkin derivative error integral N=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.710505431213761e-20
+      }
+    },
+    {
+      "name": "Galerkin independent functional integral N=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Galerkin energy identity N=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.617494116076812e-17
+      }
+    },
+    {
+      "name": "Galerkin algebraic weak equation N=32",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "Galerkin independent tridiagonal solve N=64",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Galerkin nodal values N=64",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1934897514720433e-15
+      }
+    },
+    {
+      "name": "Galerkin derivative error integral N=64",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.049318610115481e-20
+      }
+    },
+    {
+      "name": "Galerkin independent functional integral N=64",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.85722573273506e-17
+      }
+    },
+    {
+      "name": "Galerkin energy identity N=64",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.266540442962046e-18
+      }
+    },
+    {
+      "name": "Galerkin algebraic weak equation N=64",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.7763568394002505e-15
+      }
+    },
+    {
+      "name": "Tikhonov augmented least-squares alpha=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "Tikhonov gradient alpha=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.734723475976807e-17
+      }
+    },
+    {
+      "name": "Tikhonov error bias plus propagated noise alpha=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.194034422677078e-17
+      }
+    },
+    {
+      "name": "Tikhonov noise bound alpha=0.01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov discrete gain bound alpha=0.01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov objective beats true-vector trial alpha=0.01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov maximum gain at sqrt alpha=0.01",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Tikhonov augmented least-squares alpha=0.001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Tikhonov gradient alpha=0.001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.182486384480711e-17
+      }
+    },
+    {
+      "name": "Tikhonov error bias plus propagated noise alpha=0.001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.380176776841438e-17
+      }
+    },
+    {
+      "name": "Tikhonov noise bound alpha=0.001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov discrete gain bound alpha=0.001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov objective beats true-vector trial alpha=0.001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov maximum gain at sqrt alpha=0.001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.552713678800501e-15
+      }
+    },
+    {
+      "name": "Tikhonov augmented least-squares alpha=0.0001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "Tikhonov gradient alpha=0.0001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.0572736222912447e-17
+      }
+    },
+    {
+      "name": "Tikhonov error bias plus propagated noise alpha=0.0001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.65682483494312e-17
+      }
+    },
+    {
+      "name": "Tikhonov noise bound alpha=0.0001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov discrete gain bound alpha=0.0001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov objective beats true-vector trial alpha=0.0001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov maximum gain at sqrt alpha=0.0001",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Tikhonov augmented least-squares alpha=1e-06",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.6653345369377348e-16
+      }
+    },
+    {
+      "name": "Tikhonov gradient alpha=1e-06",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.582335267998931e-17
+      }
+    },
+    {
+      "name": "Tikhonov error bias plus propagated noise alpha=1e-06",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.1157259931802184e-17
+      }
+    },
+    {
+      "name": "Tikhonov noise bound alpha=1e-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov discrete gain bound alpha=1e-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov objective beats true-vector trial alpha=1e-06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tikhonov maximum gain at sqrt alpha=1e-06",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.684341886080802e-14
+      }
+    },
+    {
+      "name": "prescribed deterministic noise norm",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "specified regularization improves coefficient error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a priori bound n=16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contraction a posteriori bound n=16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "22 primary author or official course sources retrieved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML basis-and-tails.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML compact-and-spectrum.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML convergence-and-spikes.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML derivative-and-domain.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML norm-geometry.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML orthogonal-projection.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML regularization.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML variational-problem.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML weak-and-strong.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML window-functionals.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "10 teaching figures present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "course thumbnail valid SVG",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import numpy as np
+A = np.array([[1+1j, 2], [-1j, .5]], dtype=complex)
+M = np.diag([2., 1.])
+W = np.diag([1., 3.])
+adj = np.linalg.solve(M, A.conj().T @ W)
+x = np.array([1+.2j, -.4j])
+y = np.array([.3j, 2-1j])
+left = np.vdot(A@x, W@y)
+right = np.vdot(x, M@(adj@y))
+print(left, right)
+assert np.allclose(left, right)

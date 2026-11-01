@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('functional-analysis','linear-algebra','related','以向量、投影和特征分解为入口，辨认有限维结论的无限维边界。',3),
+  link('functional-analysis','complex-analysis','related','用复内积、伴随和谱变量解释复函数空间与算子。',2),
+  link('functional-analysis','mathematical-physics-methods','related','为模态、Green核、弱形式与变分解提供空间和算子框架。',3),
+  link('functional-analysis','wave-equation','application','通过能量空间、弱解与定义域检查连续场模型。',2),
+  link('functional-analysis','helmholtz-equation','application','区分自伴谱、共振、值域和强制性条件。',2),
+  link('functional-analysis','fir-and-iir-filters','related','区分滤波的L²算子有界性、BIBO稳定与逆滤波。',3),
+  link('functional-analysis','spectrum-and-power-spectral-density','related','明确函数范数、正交展开和谱量之间的定义差异。',2),
+  link('functional-analysis','mathematical-statistics','related','把正则化偏差、数据误差与概率不确定性分别建模。',2),
+  link('functional-analysis','machine-learning','related','为函数空间、线性读数、变分与正则化提供基础。',3),
+  link('functional-analysis','computational-neuroscience','related','检查连续模型、有限观测、离散近似与稳定性的不同条件。',2),
   link('mathematical-physics-methods','linear-algebra','related','把正交投影、特征值与矩阵思路扩展到函数和微分算子。',3),
   link('mathematical-physics-methods','complex-analysis','related','以复数、复积分与拉普拉斯变量理解积分变换和时谐解。',3),
   link('mathematical-physics-methods','wave-equation','application','以分离变量、初值、边界和能量法求解波传播。',3),
