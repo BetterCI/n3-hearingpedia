@@ -62,6 +62,7 @@ export const learningPaths = [
   { id:'computational-neuroscience-foundations',title:'计算神经科学：从神经元理解编码与网络',english:'Computational neuroscience from neurons to networks',description:'从膜、突触与脉冲进入编码解码、群体动力学和学习，再用听觉例子检验模型。',slugs:['computational-neuroscience'] },
   { id:'machine-learning-foundations',title:'机器学习：从数据理解预测与泛化',english:'Machine learning from data to generalization',description:'从任务、损失与正则化进入分类、降维和神经网络，再用分组验证和概率校准检查推广。',slugs:['machine-learning'] },
   { id:'circuit-theory-foundations',title:'电路原理：从电压电流理解网络与响应',english:'Circuit theory from ports to response',description:'从元件与守恒进入节点分析、等效、暂态、阻抗和功率，再连接音频接口、运放及测量。',slugs:['circuit-theory'] },
+  { id:'mathematical-physics-methods-foundations',title:'数学物理方法：从定解问题理解场与模态',english:'Methods of mathematical physics from models to solutions',description:'从方程、边界与几何进入分离变量、特殊函数、变换及格林函数，再以能量和数值方法核验。',slugs:['mathematical-physics-methods'] },
 ];
 
 export const allLearningPaths = [

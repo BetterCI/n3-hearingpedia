@@ -1,0 +1,1760 @@
+{
+  "scope": "Independent equations/quadrature/ODEs/roots/energy/spectra and media checks for specified ideal models, not professional review or device measurement.",
+  "total": 256,
+  "passed": 256,
+  "checks": [
+    {
+      "name": "Dirichlet endpoints n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.2246467991473532e-16
+      }
+    },
+    {
+      "name": "Neumann derivative endpoints n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.8473413874435795e-16
+      }
+    },
+    {
+      "name": "mixed right derivative n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.123233995736766e-17
+      }
+    },
+    {
+      "name": "sine Gram n=1,m=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Dirichlet endpoints n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.4492935982947064e-16
+      }
+    },
+    {
+      "name": "Neumann derivative endpoints n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.5389365549774318e-15
+      }
+    },
+    {
+      "name": "mixed right derivative n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.8369701987210297e-16
+      }
+    },
+    {
+      "name": "sine Gram n=2,m=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.804423505382812e-17
+      }
+    },
+    {
+      "name": "sine Gram n=2,m=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "Dirichlet endpoints n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.6739403974420594e-16
+      }
+    },
+    {
+      "name": "Neumann derivative endpoints n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.4626072486992214e-15
+      }
+    },
+    {
+      "name": "mixed right derivative n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.061616997868383e-16
+      }
+    },
+    {
+      "name": "sine Gram n=3,m=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.326672684688674e-17
+      }
+    },
+    {
+      "name": "sine Gram n=3,m=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.6776382252004e-18
+      }
+    },
+    {
+      "name": "sine Gram n=3,m=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Dirichlet endpoints n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.898587196589413e-16
+      }
+    },
+    {
+      "name": "Neumann derivative endpoints n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.155746219909727e-15
+      }
+    },
+    {
+      "name": "mixed right derivative n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.286263797015736e-16
+      }
+    },
+    {
+      "name": "sine Gram n=4,m=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.265378221102296e-17
+      }
+    },
+    {
+      "name": "sine Gram n=4,m=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.514258922640976e-17
+      }
+    },
+    {
+      "name": "sine Gram n=4,m=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.182239490983957e-17
+      }
+    },
+    {
+      "name": "sine Gram n=4,m=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Dirichlet endpoints n=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.123233995736766e-16
+      }
+    },
+    {
+      "name": "Neumann derivative endpoints n=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.61835346860895e-15
+      }
+    },
+    {
+      "name": "mixed right derivative n=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.51091059616309e-16
+      }
+    },
+    {
+      "name": "sine Gram n=5,m=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-17
+      }
+    },
+    {
+      "name": "sine Gram n=5,m=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.7901081098230636e-16
+      }
+    },
+    {
+      "name": "sine Gram n=5,m=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "sine Gram n=5,m=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 7.115929037552512e-17
+      }
+    },
+    {
+      "name": "sine Gram n=5,m=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Neumann zero-mode derivative",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weighted Sturm-Liouville Gram n=1,m=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weighted Sturm-Liouville Gram n=2,m=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 7.928615050556454e-18
+      }
+    },
+    {
+      "name": "weighted Sturm-Liouville Gram n=2,m=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.551115123125783e-17
+      }
+    },
+    {
+      "name": "weighted Sturm-Liouville Gram n=3,m=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.0816681711721685e-17
+      }
+    },
+    {
+      "name": "weighted Sturm-Liouville Gram n=3,m=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1294312391023822e-17
+      }
+    },
+    {
+      "name": "weighted Sturm-Liouville Gram n=3,m=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.0842021724855044e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.710505431213761e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.3881317890172014e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.743384504624082e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.776263578034403e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=6",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3552527156068805e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=7",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.5754812818929986e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3213713977167085e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=9",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.710505431213761e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=10",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.0487499829902444e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=11",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.268043809681823e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=12",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.9905274260476058e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=13",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.0519373147235426e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=14",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.470329472543003e-21
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=15",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.183340514956392e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=16",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.8163845496205486e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=17",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.395098751769968e-20
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=18",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3213713977167085e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=19",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.9778219318387913e-19
+      }
+    },
+    {
+      "name": "pluck coefficient by independent quadrature n=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1342387135182185e-19
+      }
+    },
+    {
+      "name": "pluck strain energy via derivative Parseval",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1487655683312089e-09
+      }
+    },
+    {
+      "name": "pluck L2 truncation error decreases",
+      "passed": true,
+      "detail": [
+        1.7401588487702378e-09,
+        7.501328878397068e-11,
+        6.199595058343815e-13,
+        7.760674100816525e-14
+      ]
+    },
+    {
+      "name": "pluck fundamental frequency",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "wave modal ODE versus cosine solution",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.284706254357843e-12
+      }
+    },
+    {
+      "name": "wave modal kinetic plus potential energy conserved",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.4732393083249917e-10
+      }
+    },
+    {
+      "name": "heat modal ODE versus exponential",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3403167464787202e-12
+      }
+    },
+    {
+      "name": "heat L2 energy monotone",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "heat attenuation at t=.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "heat PDE finite residual x=0.2,t=0.123",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.3807844562462321e-07
+      }
+    },
+    {
+      "name": "wave PDE finite residual x=0.2,t=0.123",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "heat PDE finite residual x=0.2,t=0.34",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.7861103141523245e-08
+      }
+    },
+    {
+      "name": "wave PDE finite residual x=0.2,t=0.34",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.551115123125783e-09
+      }
+    },
+    {
+      "name": "heat PDE finite residual x=0.6,t=0.123",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3644363416887018e-07
+      }
+    },
+    {
+      "name": "wave PDE finite residual x=0.6,t=0.123",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-08
+      }
+    },
+    {
+      "name": "heat PDE finite residual x=0.6,t=0.34",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.4201972931005002e-08
+      }
+    },
+    {
+      "name": "wave PDE finite residual x=0.6,t=0.34",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-08
+      }
+    },
+    {
+      "name": "dAlembert displacement x=-0.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "dAlembert velocity x=-0.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.180667230649135e-10
+      }
+    },
+    {
+      "name": "dAlembert displacement x=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "dAlembert velocity x=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "dAlembert displacement x=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "dAlembert velocity x=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.957534796711798e-11
+      }
+    },
+    {
+      "name": "damped response peak zeta=0.03",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.1848727795375e-10
+      }
+    },
+    {
+      "name": "damped response peak zeta=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.5601520903251185e-11
+      }
+    },
+    {
+      "name": "damped response peak zeta=0.6",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.233016991430418e-09
+      }
+    },
+    {
+      "name": "high damping .8 has no positive-frequency magnitude peak",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "outgoing radial kernel Helmholtz equation",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.906516292451145e-07
+      }
+    },
+    {
+      "name": "radiation derivative identity r=2.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "radiation derivative identity r=10.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.5062217954494667e-17
+      }
+    },
+    {
+      "name": "radiation derivative identity r=50.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.0768043590416528e-17
+      }
+    },
+    {
+      "name": "Bessel defining power series m=0,z=0.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel defining power series m=0,z=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel defining power series m=0,z=1.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel defining power series m=0,z=4.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.6653345369377348e-16
+      }
+    },
+    {
+      "name": "Bessel defining power series m=1,z=0.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel defining power series m=1,z=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Bessel defining power series m=1,z=1.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "Bessel defining power series m=1,z=4.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Bessel defining power series m=2,z=0.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel defining power series m=2,z=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.673617379884035e-19
+      }
+    },
+    {
+      "name": "Bessel defining power series m=2,z=1.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel defining power series m=2,z=4.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "Bessel defining power series m=3,z=0.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel defining power series m=3,z=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.421010862427522e-20
+      }
+    },
+    {
+      "name": "Bessel defining power series m=3,z=1.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Bessel defining power series m=3,z=4.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel root independent solver m=0,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "membrane edge m=0,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.0239231817845155e-16
+      }
+    },
+    {
+      "name": "Bessel differential equation m=0,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Bessel root independent solver m=0,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.865174681370263e-14
+      }
+    },
+    {
+      "name": "membrane edge m=0,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.4117244793622973e-17
+      }
+    },
+    {
+      "name": "Bessel differential equation m=0,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=0,i=0,j=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=0,i=1,j=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.2551405187698492e-17
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=0,i=1,j=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel root independent solver m=1,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "membrane edge m=1,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 7.126040439275884e-17
+      }
+    },
+    {
+      "name": "Bessel differential equation m=1,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel root independent solver m=1,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-15
+      }
+    },
+    {
+      "name": "membrane edge m=1,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.0378519797111495e-16
+      }
+    },
+    {
+      "name": "Bessel differential equation m=1,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=1,i=0,j=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=1,i=1,j=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=1,i=1,j=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Bessel root independent solver m=2,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.9539925233402755e-14
+      }
+    },
+    {
+      "name": "membrane edge m=2,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.8578658833773402e-16
+      }
+    },
+    {
+      "name": "Bessel differential equation m=2,n=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Bessel root independent solver m=2,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "membrane edge m=2,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.5890287845659325e-16
+      }
+    },
+    {
+      "name": "Bessel differential equation m=2,n=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1449174941446927e-16
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=2,i=0,j=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.85722573273506e-17
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=2,i=1,j=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.469446951953614e-18
+      }
+    },
+    {
+      "name": "Bessel weighted Gram m=2,i=1,j=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.0816681711721685e-17
+      }
+    },
+    {
+      "name": "J0 first two quoted membrane frequencies",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "rigid tube J0 derivative zero-mode",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "first positive rigid axisymmetric derivative zero",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Legendre differential equation ell=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=0,s=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "spherical m0 angular norm ell=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Legendre differential equation ell=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=1,s=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=1,s=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "spherical m0 angular norm ell=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Legendre differential equation ell=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=2,s=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-17
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=2,s=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.4716873985580232e-17
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=2,s=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "spherical m0 angular norm ell=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Legendre differential equation ell=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.329070518200751e-15
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=3,s=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 7.239182075641275e-18
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=3,s=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.71445146547012e-17
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=3,s=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.748866379361e-17
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=3,s=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.551115123125783e-17
+      }
+    },
+    {
+      "name": "spherical m0 angular norm ell=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Legendre differential equation ell=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.43769498715119e-15
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=4,s=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 8.326672684688674e-17
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=4,s=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.252554583702724e-17
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=4,s=2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.204170427930421e-17
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=4,s=3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.084707262340007e-17
+      }
+    },
+    {
+      "name": "Legendre orthogonality ell=4,s=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "spherical m0 angular norm ell=4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.551115123125783e-16
+      }
+    },
+    {
+      "name": "Gaussian conserved mass t=0.05",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.9984014443252818e-15
+      }
+    },
+    {
+      "name": "Gaussian variance t=0.05",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1206313654810174e-15
+      }
+    },
+    {
+      "name": "heat convolution Gaussian x=0,t=0.05",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3322676295501878e-15
+      }
+    },
+    {
+      "name": "heat convolution Gaussian x=0.25,t=0.05",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Gaussian conserved mass t=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Gaussian variance t=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "heat convolution Gaussian x=0,t=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "heat convolution Gaussian x=0.25,t=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.3306690738754696e-16
+      }
+    },
+    {
+      "name": "Gaussian conserved mass t=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.4416913763379853e-15
+      }
+    },
+    {
+      "name": "Gaussian variance t=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "heat convolution Gaussian x=0,t=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "heat convolution Gaussian x=0.25,t=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "heat kernel Fourier multiplier k=0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "heat kernel Fourier multiplier k=1",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.3306690738754696e-16
+      }
+    },
+    {
+      "name": "heat kernel Fourier multiplier k=5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "Green boundaries L=1.0,xi=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green jump L=1.0,xi=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.8755664516211255e-11
+      }
+    },
+    {
+      "name": "Green reciprocity L=1.0,x=0.1,xi=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green reciprocity L=1.0,x=0.65,xi=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green boundaries L=1.0,xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green jump L=1.0,xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.000088900582341e-12
+      }
+    },
+    {
+      "name": "Green reciprocity L=1.0,x=0.1,xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green reciprocity L=1.0,x=0.65,xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green boundaries L=1.0,xi=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green jump L=1.0,xi=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.8755664516211255e-11
+      }
+    },
+    {
+      "name": "Green reciprocity L=1.0,x=0.1,xi=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green reciprocity L=1.0,x=0.65,xi=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green boundaries L=2.5,xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green jump L=2.5,xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.875588656081618e-11
+      }
+    },
+    {
+      "name": "Green reciprocity L=2.5,x=0.25,xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green reciprocity L=2.5,x=1.625,xi=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green boundaries L=2.5,xi=1.25",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green jump L=2.5,xi=1.25",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 3.7857605938995675e-11
+      }
+    },
+    {
+      "name": "Green reciprocity L=2.5,x=0.25,xi=1.25",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green reciprocity L=2.5,x=1.625,xi=1.25",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green boundaries L=2.5,xi=2.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green jump L=2.5,xi=2.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.5653145446492545e-11
+      }
+    },
+    {
+      "name": "Green reciprocity L=2.5,x=0.25,xi=2.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green reciprocity L=2.5,x=1.625,xi=2.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green constant forcing x=0.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green sine forcing x=0.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green constant forcing x=0.125",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green sine forcing x=0.125",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green constant forcing x=0.25",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green sine forcing x=0.25",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Green constant forcing x=0.375",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "Green sine forcing x=0.375",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green constant forcing x=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green sine forcing x=0.5",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green constant forcing x=0.625",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "Green sine forcing x=0.625",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Green constant forcing x=0.75",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green sine forcing x=0.75",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green constant forcing x=0.875",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green sine forcing x=0.875",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.3877787807814457e-17
+      }
+    },
+    {
+      "name": "Green constant forcing x=1.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green sine forcing x=1.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.2408266323341012e-17
+      }
+    },
+    {
+      "name": "Green weak identity test x(1-x) xi=0.2",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green weak identity test x(1-x) xi=0.4",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Green weak identity test x(1-x) xi=0.8",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.7755575615628914e-17
+      }
+    },
+    {
+      "name": "Neumann source-boundary compatibility sign",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Laplace modal initial displacement and velocity",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.163336342344337e-17
+      }
+    },
+    {
+      "name": "Rayleigh polynomial trial quotient",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "Rayleigh trial is first eigenvalue upper bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "discrete matrix spectrum M=10",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1368683772161603e-13
+      }
+    },
+    {
+      "name": "discrete Poisson versus analytic parabola M=10",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.163336342344337e-17
+      }
+    },
+    {
+      "name": "discrete matrix spectrum M=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 7.958078640513122e-13
+      }
+    },
+    {
+      "name": "discrete Poisson versus analytic parabola M=20",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 9.71445146547012e-17
+      }
+    },
+    {
+      "name": "discrete matrix spectrum M=40",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 4.547473508864641e-12
+      }
+    },
+    {
+      "name": "discrete Poisson versus analytic parabola M=40",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.6653345369377348e-16
+      }
+    },
+    {
+      "name": "discrete matrix spectrum M=80",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.8189894035458565e-11
+      }
+    },
+    {
+      "name": "discrete Poisson versus analytic parabola M=80",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.273559366969494e-16
+      }
+    },
+    {
+      "name": "first eigenvalue errors converge at order two",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "heat amplification r=0.1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "heat amplification r=0.49",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "heat amplification r=0.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "heat amplification r=0.6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "wave recurrence amplification nu=0.3",
+      "passed": true,
+      "detail": {
+        "spectral_radius": 1.0000000000000004
+      }
+    },
+    {
+      "name": "wave recurrence amplification nu=0.7",
+      "passed": true,
+      "detail": {
+        "spectral_radius": 1.0000000000000004
+      }
+    },
+    {
+      "name": "wave recurrence amplification nu=1.0",
+      "passed": true,
+      "detail": {
+        "spectral_radius": 1.0000000000000004
+      }
+    },
+    {
+      "name": "wave recurrence amplification nu=1.1",
+      "passed": true,
+      "detail": {
+        "spectral_radius": 2.428166652890286
+      }
+    },
+    {
+      "name": "discrete wave dispersion recurrence nu=0.3",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "discrete wave dispersion recurrence nu=0.7",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "discrete wave dispersion recurrence nu=1.0",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "nu=1 special constant-grid phase speed",
+      "passed": true,
+      "detail": {
+        "max_abs_error": 5.773159728050814e-15
+      }
+    },
+    {
+      "name": "20 primary/official sources retrieved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML angular-modes.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML circular-modes.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML eigenfunctions.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML green-function.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML heat-and-wave.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML heat-kernel.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML modal-resonance.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML numerical-checks.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML plucked-string.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SVG XML problem-and-boundaries.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "10 teaching figures present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "course thumbnail SVG valid",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

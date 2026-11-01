@@ -1,0 +1,67 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "AI-assisted targeted source/mathematical audit complete; pending professional review",
+  "numerical_checks": 256,
+  "numerical_checks_passed": 256,
+  "article_examples_run": 3,
+  "download_script_run": true,
+  "typecheck": {
+    "files": 205,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 294,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 25419,
+    "equations": 493,
+    "searchableConcepts": 127,
+    "wikiConcepts": 127,
+    "knowledgeAreas": 7,
+    "typedRelationships": 853,
+    "wikiCrossLinks": 1367,
+    "chineseCharacters": 873754,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "root_width": 1265,
+      "document_width": 1265
+    },
+    "mobile_390": {
+      "root_width": 375,
+      "document_width": 375,
+      "long_equation_overflow": "auto inside individual math boxes",
+      "table": "existing .prose table uses display:block; overflow-x:auto"
+    },
+    "figures": 10,
+    "references": 20,
+    "katex_errors": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 10,
+    "foundation_folded_lists": 0,
+    "search_query": "数学物理方法",
+    "search_first_result": "/n3-hearingpedia/concepts/mathematical-physics-methods/",
+    "reported_search_results": 38,
+    "search_limit": "broad tokenized matches expected"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "b66ceaa61e3cc92ae5318057d8f0e178cfc37ccc",
+  "limitations": [
+    "No external professional reviewer",
+    "Specified ideal PDE/boundary problems; no physical/biological measurements",
+    "Targeted author-course/textbook/handbook verification, not exhaustive literature review",
+    "Existing build chunk-size and Pagefind redirect/stemming notices remain"
+  ]
+}

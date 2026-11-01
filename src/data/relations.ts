@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('mathematical-physics-methods','linear-algebra','related','把正交投影、特征值与矩阵思路扩展到函数和微分算子。',3),
+  link('mathematical-physics-methods','complex-analysis','related','以复数、复积分与拉普拉斯变量理解积分变换和时谐解。',3),
+  link('mathematical-physics-methods','wave-equation','application','以分离变量、初值、边界和能量法求解波传播。',3),
+  link('mathematical-physics-methods','helmholtz-equation','application','用模态、特殊函数及格林核分析单频边值问题。',3),
+  link('mathematical-physics-methods','sound-waves-and-propagation','related','从守恒与本构进入声压场、质点速度和传播近似。',3),
+  link('mathematical-physics-methods','room-acoustics','application','理解声腔模态、激励投影、损耗及观测节点。',3),
+  link('mathematical-physics-methods','electroacoustic-transducer','related','以振动边界、膜模态与耦合模型理解电声结构。',2),
+  link('mathematical-physics-methods','circuit-theory','related','比较连续场模态与电路状态方程、初态和变换方法。',2),
+  link('mathematical-physics-methods','spectrum-and-power-spectral-density','related','区分空间角波数、时间频率与傅里叶归一约定。',2),
+  link('mathematical-physics-methods','computational-neuroscience','related','为扩散、传播及空间连续模型提供方法与数值核验入口。',2),
   link('circuit-theory','complex-analysis','related','用复数、相量与拉普拉斯变量分析阻抗和频率响应。',3),
   link('circuit-theory','linear-algebra','related','用节点矩阵、端口关系和状态方程求解电网络。',3),
   link('circuit-theory','microphone','application','区分灵敏度、源阻抗、前置输入与实际加载。',3),
