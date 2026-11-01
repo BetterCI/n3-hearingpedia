@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('chinese-phonetics','phonetics','related','把一般发音、声学与感知框架用于具体汉语材料。',3),
+  link('chinese-phonetics','mandarin-consonants','related','声母体系与辅音分类、拼音和IPA的区别共同约束记音。',3),
+  link('chinese-phonetics','mandarin-lexical-tone','related','调类、F0、变调和韵律语境属于不同分析层次。',3),
+  link('chinese-phonetics','aspiration','related','普通话送气对立须结合释放、周期起点及其他相关线索。',3),
+  link('chinese-phonetics','voicing','related','不送气不能直接等同浊音，喉部协调随语境变化。',3),
+  link('chinese-phonetics','formant','related','共振峰帮助比较韵母音质，但不直接测量舌头坐标。',3),
+  link('chinese-phonetics','fundamental-frequency','related','声调的物理实现需核对周期、F0范围与算法错误。',3),
+  link('chinese-phonetics','spectrogram','related','窗长与窗形影响语音细节的显示，网格不等于分析带宽。',3),
+  link('chinese-phonetics','confusion-matrix','related','完整标签混淆提供听辨错误结构，不直接等同发音动作。',2),
+  link('chinese-phonetics','vocoder','related','合成、重合成与声码器材料需要核对线索变化及自然度。',2),
   link('information-theory','probability-theory','related','信息量以分布、条件概率与期望为基础；模型先于公式。',3),
   link('information-theory','linear-algebra','related','条件概率矩阵和联合表用于描述离散信道与混淆。',2),
   link('information-theory','confusion-matrix','related','先验乘条件反应矩阵得到联合分布，再计算条件熵与互信息。',3),

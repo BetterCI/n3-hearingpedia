@@ -1,0 +1,193 @@
+{
+  "fs_Hz": 16000,
+  "initial_groups": [
+    {
+      "label": "双唇",
+      "pinyin": [
+        "b",
+        "p",
+        "m"
+      ]
+    },
+    {
+      "label": "唇齿",
+      "pinyin": [
+        "f"
+      ]
+    },
+    {
+      "label": "舌尖中",
+      "pinyin": [
+        "d",
+        "t",
+        "n",
+        "l"
+      ]
+    },
+    {
+      "label": "舌根",
+      "pinyin": [
+        "g",
+        "k",
+        "h"
+      ]
+    },
+    {
+      "label": "舌面前",
+      "pinyin": [
+        "j",
+        "q",
+        "x"
+      ]
+    },
+    {
+      "label": "舌尖后",
+      "pinyin": [
+        "zh",
+        "ch",
+        "sh",
+        "r"
+      ]
+    },
+    {
+      "label": "舌尖前",
+      "pinyin": [
+        "z",
+        "c",
+        "s"
+      ]
+    }
+  ],
+  "vowel_space_parameters_Hz": {
+    "i（衣）": {
+      "F1": 300,
+      "F2": 2300
+    },
+    "ü（迂）": {
+      "F1": 300,
+      "F2": 1800
+    },
+    "u（乌）": {
+      "F1": 350,
+      "F2": 800
+    },
+    "a（啊）": {
+      "F1": 800,
+      "F2": 1300
+    }
+  },
+  "resonators": {
+    "front": {
+      "frequency_parameters_Hz": [
+        350,
+        2200,
+        3000
+      ],
+      "bandwidth_parameters_Hz": [
+        80,
+        120,
+        150
+      ],
+      "denominator": [
+        1.0,
+        -3.962065151769348,
+        7.73218273464349,
+        -9.392506803754328,
+        7.366440768656332,
+        -3.6001694635995998,
+        0.8715825658359663
+      ],
+      "numerator_gain": 0.0033402563331878903
+    },
+    "back": {
+      "frequency_parameters_Hz": [
+        350,
+        800,
+        2200
+      ],
+      "bandwidth_parameters_Hz": [
+        80,
+        120,
+        150
+      ],
+      "denominator": [
+        1.0,
+        -5.069279906269259,
+        11.291819115271892,
+        -14.24605213254983,
+        10.770535065829124,
+        -4.617371968045248,
+        0.8715825658359663
+      ],
+      "numerator_gain": 0.00021953310117306399
+    }
+  },
+  "vowel_source_F0_Hz": 130,
+  "vowel_samples": 9600,
+  "vowel_pair_common_gain": 0.8353608003006779,
+  "tone_samples_each": 7200,
+  "tone_pause_samples": 3200,
+  "tone_common_gain": 0.3285211334385582,
+  "tone_contour_endpoints_Hz": [
+    [
+      200.0,
+      200.0,
+      200.0
+    ],
+    [
+      140.0,
+      140.0,
+      190.0
+    ],
+    [
+      135.0,
+      105.00340956445972,
+      165.0
+    ],
+    [
+      205.0,
+      110.0,
+      110.0
+    ]
+  ],
+  "tone_sequence_samples": 38400,
+  "VOT": {
+    "12": {
+      "release_sample": 800,
+      "periodic_onset_sample": 992
+    },
+    "65": {
+      "release_sample": 800,
+      "periodic_onset_sample": 1840
+    }
+  },
+  "spectrograms": [
+    {
+      "duration_ms": 5,
+      "samples": 80,
+      "ENBW_Hz": 300.0,
+      "FFT_grid_Hz": 7.8125
+    },
+    {
+      "duration_ms": 40,
+      "samples": 640,
+      "ENBW_Hz": 37.499999999999986,
+      "FFT_grid_Hz": 7.8125
+    }
+  ],
+  "octave_error_semitones": 12.0,
+  "audio": {
+    "tone-contours": {
+      "samples": 38400,
+      "peak": 0.55
+    },
+    "resonance-front": {
+      "samples": 9600,
+      "peak": 0.5858821153123113
+    },
+    "resonance-back": {
+      "samples": 9600,
+      "peak": 0.6
+    }
+  }
+}

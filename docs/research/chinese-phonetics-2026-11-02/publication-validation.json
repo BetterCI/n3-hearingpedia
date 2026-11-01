@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-02",
+  "status": "local validation passed; deployment checked separately after commit",
+  "baseline": "00abfef261f4f79c11782a3860bb34e175fdc677",
+  "linguistic_review": "claim-by-claim source and scope review; no named expert reviewer",
+  "acoustic_and_media_checks": 75,
+  "acoustic_and_media_checks_passed": 75,
+  "extracted_examples_passed": 3,
+  "complete_example_script_passed": true,
+  "references": 19,
+  "typecheck": {
+    "files": 195,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "build": {
+    "pages": 284,
+    "internal_links": 24400,
+    "equations": 430,
+    "searchable_entries": 122,
+    "relationships": 805,
+    "broken_links": 0
+  },
+  "browser": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "mobile_document_width": 375,
+    "formula_errors": 0,
+    "figures": 8,
+    "audio": 3,
+    "raw_tex_captions": 0,
+    "foundation_courses": 5,
+    "foundation_folding_lists": 0,
+    "new_thumbnail_loaded": true,
+    "notation_display_checked": true,
+    "search_query": "汉语语音学",
+    "search_results": 27,
+    "course_first_result": true,
+    "screenshots": [
+      "artifacts/chinese-phonetics/article-desktop.png",
+      "artifacts/chinese-phonetics/article-mobile.png",
+      "artifacts/chinese-phonetics/notation-desktop.png",
+      "artifacts/chinese-phonetics/course-entry.png"
+    ]
+  },
+  "review_status": "draft"
+}
