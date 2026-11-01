@@ -7,7 +7,8 @@ import { url } from '../../lib/paths';
 export function getStaticPaths() { return domains.map(domain=>({params:{domain:domain.id},props:{domain}})); }
 const { domain } = Astro.props;
 const all = (await getCollection('concepts')).sort((a,b)=>a.data.order-b.data.order);
-const concepts = all.filter(c=>c.data.categories.includes(domain.id));
+const concepts = all.filter(c=>c.data.kind!=='course' && c.data.categories.includes(domain.id));
+const hasCourses = all.some(c=>c.data.kind==='course' && c.data.categories.includes(domain.id));
 const context = all.filter(c=>['cochlear-implant','speech-intelligibility','vocoder'].includes(c.data.slug));
 ---
 <BaseLayout title={`${domain.zh} · ${domain.name}`}>
@@ -17,5 +18,7 @@ const context = all.filter(c=>['cochlear-implant','speech-intelligibility','voco
       {concepts.length ? <div class="concept-grid">{concepts.map(concept=><ConceptCard concept={concept} />)}</div> : <div class="empty-domain"><p>本领域已列入知识框架，尚无独立词条。内容正在逐步完善；下面的已有词条提供研究背景入口。</p><a class="button" href={url('contribute')}>提出相关词条</a></div>}
       {!concepts.length && <div class="domain-neighbors"><div class="section-heading"><h2>已有研究背景入口</h2></div><div class="concept-grid">{context.map(concept=><ConceptCard concept={concept} />)}</div></div>}
     </section>
+    {hasCourses && <p class="supplementary-link"><a href={url('learn')+'#foundations'}>相关基础课程与声学案例 ↗</a></p>}
   </div>
 </BaseLayout>
+<style>.supplementary-link{font-size:12px;color:var(--muted);margin-bottom:48px}.supplementary-link a{color:inherit}</style>

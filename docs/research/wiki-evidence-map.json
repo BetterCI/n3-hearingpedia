@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-10-30",
+  "date": "2026-11-01",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 761,
+  "relations": 768,
   "entries": [
     {
       "slug": "cochlea",
@@ -5094,6 +5094,49 @@
         "otoacoustic-emissions",
         "cochlear-implant",
         "fir-and-iir-filters"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "linear-algebra",
+      "knowledge_area": "methods",
+      "kind": "course",
+      "chinese_characters": 10545,
+      "body_characters": 24535,
+      "sections": 10,
+      "subsections": 25,
+      "reference_ids": [
+        "la-mit-syllabus",
+        "la-mit-basis",
+        "la-mit-projection",
+        "la-mit-svd",
+        "la-numpy-lstsq",
+        "la-numpy-eigh",
+        "la-numpy-svd",
+        "la-mne-projection",
+        "la-smith-dft",
+        "la-smith-orthogonality",
+        "la-numpy-cond",
+        "la-numpy-solve",
+        "la-numpy-qr",
+        "la-boyd-regularized",
+        "la-smith-windowing"
+      ],
+      "wiki_links": [
+        "pure-and-complex-tones",
+        "audiometric-calibration",
+        "loudness",
+        "spectrum-and-power-spectral-density",
+        "masking",
+        "microphone",
+        "spatial-hearing",
+        "room-acoustics",
+        "fir-and-iir-filters",
+        "electroencephalography",
+        "spectrogram",
+        "hearing-aid",
+        "neural-speech-tracking"
       ],
       "status": "draft",
       "depth": "in-depth"

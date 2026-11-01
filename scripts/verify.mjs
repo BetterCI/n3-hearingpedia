@@ -83,13 +83,22 @@ assert(homeSlugs.every(slug => !personSlugs.has(slug)), 'Researcher cards belong
 assert(!homepage.includes('id="in-depth-more"'), 'Homepage must not repeat the full deep-entry directory');
 const recentLinks = [...homepage.matchAll(/<a\b[^>]*class="recent-update-link"[^>]*>/g)];
 const recentPublicationRanks = getConceptPublicationRanks();
-const expectedRecent = [...sourceEntries].sort((a,b)=>compareConceptPublication(a,b,recentPublicationRanks)).slice(0,homepageRecentCount);
-assert.equal(recentLinks.length, Math.min(homepageRecentCount,sourceEntries.length), 'Latest updates must remain compact');
+const expectedRecent = sourceEntries.filter(e=>e.data.kind!=='course').sort((a,b)=>compareConceptPublication(a,b,recentPublicationRanks)).slice(0,homepageRecentCount);
+assert.equal(recentLinks.length, Math.min(homepageRecentCount,sourceEntries.filter(e=>e.data.kind!=='course').length), 'Latest updates must remain compact');
 assert.deepEqual(recentLinks.map(m=>m[0].match(/\/concepts\/([^/\"]+)\//)?.[1]), expectedRecent.map(e=>e.data.slug), 'Latest updates differ from publication order');
 assert(homepage.includes('id="recent-updates-title"'), 'Missing latest updates heading');
 const pathIdsForNavigation = new Set(allLearningPaths.map(path => path.id));
 assert.equal(pathIdsForNavigation.size, allLearningPaths.length, 'Duplicate learning-route IDs');
 const learnPage = cache.get(join(root, 'learn/index.html'));
+for (const entry of sourceEntries.filter(e=>e.data.kind==='course')) {
+  const slug=entry.data.slug;
+  assert(!homepage.includes(`${base}/concepts/${slug}/`), 'Supplementary course must stay out of homepage discovery');
+  assert(learnPage.indexOf('id="foundations"')>learnPage.indexOf('id="full-paths-title"'), 'Course entry belongs after main learning paths');
+  assert(learnPage.includes(`${base}/concepts/${slug}/?path=`), 'Supplementary course must remain discoverable');
+  assert(!cache.get(join(root,'explore/index.html')).includes(`${base}/concepts/${slug}/`), 'Course must stay out of main concept grids');
+  const course=cache.get(join(root,'concepts',slug,'index.html'));
+  assert(course.includes('基础课程 · 声学案例') && course.includes(`${base}/learn/#foundations`), 'Missing course label or return entry');
+}
 for (const path of introductoryPaths) {
   assert(path.steps.length >= 3 && path.steps.length <= 5, 'Introductory paths need three to five steps');
   assert.equal(new Set(path.steps.map(step => step.slug)).size, path.steps.length, 'Repeated introductory step');

@@ -5,6 +5,8 @@ import IntroPathCards from '../components/IntroPathCards.astro';
 import { introductoryPaths, learningPaths } from '../data/paths';
 import { url } from '../lib/paths';
 const bySlug = Object.fromEntries((await getCollection('concepts')).map(c=>[c.data.slug,c]));
+const foundationPaths = learningPaths.filter(path=>path.slugs.some(slug=>bySlug[slug]?.data.kind==='course'));
+const mainPaths = learningPaths.filter(path=>!foundationPaths.includes(path));
 const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path=' + encodeURIComponent(path);
 ---
 <BaseLayout title="Learn · 学习路径">
@@ -22,9 +24,13 @@ const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path
       </article>)}
     </section>
     <section class="section" aria-labelledby="full-paths-title">
-      <div class="section-heading"><div><div class="eyebrow">Go further</div><h2 id="full-paths-title">完整路线 · {learningPaths.length} 条</h2><p>展开一条路线查看全部词条。可以顺序阅读，也可以从论文中遇到的概念开始。</p></div></div>
-      {learningPaths.map(path=><details class="path-full full-path-details" id={path.id}><summary><span>{path.title}</span><small>{path.slugs.length} 步</small></summary><div class="full-path-body"><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={stepUrl(slug,path.id)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></div></details>)}
+      <div class="section-heading"><div><div class="eyebrow">Go further</div><h2 id="full-paths-title">完整路线 · {mainPaths.length} 条</h2><p>展开一条路线查看全部词条。可以顺序阅读，也可以从论文中遇到的概念开始。</p></div></div>
+      {mainPaths.map(path=><details class="path-full full-path-details" id={path.id}><summary><span>{path.title}</span><small>{path.slugs.length} 步</small></summary><div class="full-path-body"><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={stepUrl(slug,path.id)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></div></details>)}
     </section>
+    {foundationPaths.length>0 && <section class="section foundations-section" id="foundations" aria-labelledby="foundations-title">
+      <div class="eyebrow">Supplementary learning</div><h2 id="foundations-title">补充学习：基础课程与声学案例</h2><p>遇到公式时，可以用熟悉的声音问题补足数学基础。以下材料按需展开阅读。</p>
+      {foundationPaths.map(path=><details class="path-full full-path-details foundation-path" id={path.id}><summary><span>{path.title}</span><small>基础课程 · 选读</small></summary><div class="full-path-body"><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={stepUrl(slug,path.id)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.kind==='course'?'基础课程 · 声学案例 · 深度讲解':bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></div></details>)}
+    </section>}
   </div>
 </BaseLayout>
 <script>
@@ -38,6 +44,7 @@ const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path
   window.addEventListener('hashchange', revealPath);
 </script>
 <style>
+  .foundations-section{border-top:1px solid var(--line);padding-top:32px}.foundations-section>h2{font-size:20px}.foundations-section>p{font-size:13px;color:var(--muted);line-height:1.8}.foundation-path{background:var(--panel,#f7f8fa);border-style:dashed}.foundation-path summary{font-size:17px}
   .path-objectives{margin:22px 0;font-size:14px;line-height:1.85}.path-objectives>div{display:grid;grid-template-columns:80px 1fr;gap:12px;margin:10px 0}.path-objectives dt{font-weight:600}.path-objectives dd{margin:0;color:var(--muted)}
   .reading-focus{color:var(--accent)}.optional-reading{display:flex;gap:10px 20px;flex-wrap:wrap;margin:22px 0;font-size:13px}.optional-reading a{color:var(--accent)}
   .full-path-details{padding:0;overflow:hidden}.full-path-details summary{display:flex;align-items:baseline;justify-content:space-between;gap:18px;padding:24px 28px;cursor:pointer;font-size:20px;font-weight:600;list-style:none}.full-path-details summary::before{content:'＋';color:var(--accent)}.full-path-details[open] summary::before{content:'−'}.full-path-details summary span{flex:1}.full-path-details summary small{font-size:12px;white-space:nowrap;color:var(--muted);font-weight:400}.full-path-body{padding:0 28px 24px}

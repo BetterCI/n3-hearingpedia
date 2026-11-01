@@ -11,9 +11,10 @@ interface Entry {
 export function summarizeSite(entries: Entry[]) {
   return {
     entries: entries.length,
-    conceptEntries: entries.filter(entry => entry.data.kind !== 'person').length,
+    conceptEntries: entries.filter(entry => entry.data.kind !== 'person' && entry.data.kind !== 'course').length,
+    courseEntries: entries.filter(entry => entry.data.kind === 'course').length,
     people: entries.filter(entry => entry.data.kind === 'person').length,
-    inDepthConcepts: entries.filter(entry => entry.data.kind !== 'person' && entry.data.depth === 'in-depth').length,
+    inDepthConcepts: entries.filter(entry => entry.data.kind !== 'person' && entry.data.kind !== 'course' && entry.data.depth === 'in-depth').length,
     knowledgeAreas: knowledgeAreas.length,
     conceptKinds: Object.keys(kindLabels).length,
     registeredReferences: Object.keys(references).length,
@@ -32,7 +33,7 @@ export function summarizeSite(entries: Entry[]) {
 export function formatReadmeStatistics(stats: ReturnType<typeof summarizeSite>) {
   return [
     '<!-- site-statistics:start -->',
-    `- ${stats.entries} 个百科词条：${stats.conceptEntries} 个概念与领域词条、${stats.people} 个人物词条；概念与领域词条中有 ${stats.inDepthConcepts} 篇深度词条。`,
+    `- ${stats.entries} 个百科词条：${stats.conceptEntries} 个概念与领域词条、${stats.people} 个人物词条、${stats.courseEntries} 篇基础课程；概念与领域词条中有 ${stats.inDepthConcepts} 篇深度词条。`,
     `- ${stats.knowledgeAreas} 个知识层面、${stats.conceptKinds} 种词条类型、${stats.relationships} 条带说明的知识关系。`,
     `- ${stats.registeredReferences} 项登记参考来源、${stats.domains} 个学科索引、${stats.learningPaths} 条学习路径（${stats.introductoryPaths} 条入门路线、${stats.fullLearningPaths} 条完整路线）。登记来源数量不代表已完成科学审阅。`,
     `- 审阅状态：${stats.draft} 篇待审阅、${stats.reviewed} 篇已审阅、${stats.stable} 篇稳定、${stats.needsUpdate} 篇待更新。`,

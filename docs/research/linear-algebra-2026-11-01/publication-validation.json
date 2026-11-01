@@ -1,0 +1,49 @@
+{
+  "data_type": "original teaching signals; no human or clinical measurements",
+  "checks": [
+    "complete fixed-seed experiment suite",
+    "delay matrix versus independent linear convolution",
+    "ridge objective stationarity",
+    "pseudoinverse minimum norm and nullspace orthogonality",
+    "actual four WAV headers, durations, unclipped samples, common-gain summation and carrier frequencies"
+  ],
+  "numpy_version": "1.26.4",
+  "echo": {
+    "sample_rate_hz": 8000,
+    "input_samples": 2048,
+    "filter_length": 65,
+    "design_shape": [
+      1984,
+      65
+    ],
+    "seed": 20261101,
+    "input_sd": 0.25,
+    "noise_sd": 0.02,
+    "true_nonzero_indices": [
+      0,
+      24,
+      56
+    ],
+    "true_nonzero_gains": [
+      0.8,
+      0.3,
+      -0.15
+    ],
+    "estimated_gains_at_paths": [
+      0.8001732557612782,
+      0.29979738482119717,
+      -0.15015076480336403
+    ],
+    "coefficient_rmse": 0.0014984940591908692,
+    "train_observed_rmse": 0.019435925822482308,
+    "validation_observed_rmse": 0.020192140932725405,
+    "validation_clean_rmse": 0.0029771624801750328,
+    "random_input_rank": 65,
+    "constant_input_rank": 1,
+    "tone_input_rank": 2,
+    "tone_rank_absolute_tolerance": 1e-09,
+    "lstsq_rcond": null,
+    "random_design_condition": 1.5711037204969849
+  },
+  "conclusion": "No blocking numerical inconsistency found within the stated teaching models."
+}

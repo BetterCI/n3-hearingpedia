@@ -47,11 +47,11 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
 ---
 <BaseLayout title={`${data.title} · ${data.english}`} description={data.summary}>
   <div class="container">
-    <div class="breadcrumb"><a href={url('explore')}>Explore</a><span>/</span><a href={url(`domains/${data.categories[0]}`)}>{domainById[data.categories[0]].zh}</a><span>/</span><span>{data.title}</span></div>
+    <div class="breadcrumb">{data.kind==='course'?<><a href={url('learn')}>学习</a><span>/</span><a href={url('learn')+'#foundations'}>基础课程与声学案例</a></>:<><a href={url('explore')}>Explore</a><span>/</span><a href={url(`domains/${data.categories[0]}`)}>{domainById[data.categories[0]].zh}</a></>}<span>/</span><span>{data.title}</span></div>
     <div class="article-shell">
       <article data-pagefind-body>
         <header class="article-header">
-          <div class="article-badges"><DepthBadge depth={data.depth} /><span class:list={['status-pill',data.status]}>{statusLabels[data.status]}</span></div>
+          <div class="article-badges">{data.kind==='course' && <span class="course-label">基础课程 · 声学案例</span>}<DepthBadge depth={data.depth} /><span class:list={['status-pill',data.status]}>{statusLabels[data.status]}</span></div>
           <h1 data-pagefind-meta="title">{data.title}</h1>
           <p class="article-english" data-pagefind-weight="5">{data.english}</p>
           <p class="lead">{data.summary}</p>
@@ -88,6 +88,7 @@ if (['reviewed','stable'].includes(data.status) && (!data.reviewer || !data.revi
   </div>
   <ConceptShareDialog concept={concept} />
 </BaseLayout>
+<style>.course-label{font-size:11px;padding:5px 9px;border:1px solid var(--line);border-radius:4px;color:var(--muted);background:var(--panel,#f7f8fa)}</style>
 <script>
 if(document.querySelector('[data-basilar-wave]'))void import('../../scripts/basilar-wave').then(m=>m.initBasilarWave());
 const box=document.querySelector<HTMLDetailsElement>('.wiki-infobox');

@@ -9,6 +9,7 @@ export const knowledgeAreas = [
 ] as const;
 export const knowledgeAreaById = Object.fromEntries(knowledgeAreas.map(a => [a.id, a]));
 export const kindLabels = {
+  course: '基础课程',
   person: '研究人物',
   discipline: '研究领域',
   anatomy: '解剖结构', organization: '组织关系', quantity: '物理量／声学属性',

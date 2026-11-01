@@ -12,7 +12,7 @@ import IntroPathCards from '../components/IntroPathCards.astro';
 import { knowledgeAreas } from '../data/knowledge';
 import { homepageFeaturedSlugs, homepageRecentCount } from '../data/homepage';
 import { getConceptPublicationUpdates, compareConceptPublication } from '../lib/concept-publication';
-const concepts = (await getCollection('concepts')).sort((a,b) => a.data.order - b.data.order);
+const concepts = (await getCollection('concepts')).filter(c=>c.data.kind!=='course').sort((a,b) => a.data.order - b.data.order);
 const publicationUpdates = getConceptPublicationUpdates();
 const publicationRanks = new Map([...publicationUpdates].map(([slug,update])=>[slug,update.rank]));
 const recent = [...concepts].sort((a,b) => compareConceptPublication(a,b,publicationRanks)).slice(0,homepageRecentCount);

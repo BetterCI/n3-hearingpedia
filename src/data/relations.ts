@@ -15,6 +15,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('linear-algebra','pure-and-complex-tones','related','以两种纯音的合成和分解解释向量、线性组合、基与坐标。',3),
+  link('linear-algebra','room-acoustics','related','用直达声与一个延迟副本解释设计矩阵和最小二乘，简化模型不替代完整房间响应。',2),
+  link('linear-algebra','fir-and-iir-filters','related','卷积可写成设计矩阵，最小二乘用于理解固定短滤波器估计。',3),
+  link('linear-algebra','spectrum-and-power-spectral-density','related','基、内积与复矩阵提供理解频域表征的数学基础，仍需采样与归一化约定。',2),
+  link('linear-algebra','microphone','related','多通道记录可由矩阵组织和加权组合，传播时延与噪声模型需单独说明。',2),
+  link('linear-algebra','electroencephalography','related','投影、秩与矩阵分解帮助解释多通道神经记录的表示及处理。',3),
+  link('linear-algebra','neural-speech-tracking','related','设计矩阵、最小二乘和正则化连接响应预测，需独立验证与统计解释。',3),
   link('basilar-membrane','cochlea','related','基底膜承托螺旋器，并参与耳蜗分隔与液体的耦合运动。',3),
   link('basilar-membrane','tonotopy','mechanism','频率相关的行波响应为耳蜗频位映射关系提供机械基础。',3),
   link('basilar-membrane','outer-hair-cell','mechanism','外毛细胞反馈影响基底膜的敏感性、调谐和非线性。',3),
