@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-02",
+  "status": "local validation passed; deployment pending",
+  "baseline": "4c6afdc5ab9769d195f008a6838e21f26bd22a28",
+  "scientific_review": "AI assisted mathematical/source audit; not named professional peer review",
+  "content": {
+    "slug": "probability-theory",
+    "chinese_characters": 9028,
+    "body_characters": 23465,
+    "sections": 11,
+    "subsections": 29,
+    "reference_ids": [
+      "prob-mit-models",
+      "prob-mit-discrete",
+      "prob-scipy-binom",
+      "prob-scipy-poisson",
+      "prob-mit-continuous",
+      "sdt-scipy-norm",
+      "prob-mit-bayes",
+      "prob-mit-independence",
+      "prob-mit-conditional-moments",
+      "prob-mit-covariance",
+      "prob-mit-lln",
+      "prob-mit-clt",
+      "prob-heeger-sdt",
+      "speech-reception-threshold-wichmann",
+      "psychoacoustics-nist-wilson",
+      "prob-scipy-beta",
+      "prob-mit-process"
+    ],
+    "wiki_links": [
+      "linear-algebra",
+      "psychoacoustics",
+      "audiometric-calibration",
+      "speech-reception-threshold",
+      "auditory-evoked-potential",
+      "spectrum-and-power-spectral-density",
+      "fir-and-iir-filters",
+      "signal-detection-theory",
+      "confusion-matrix"
+    ],
+    "figures": 8,
+    "audio": 3,
+    "code_examples": 3
+  },
+  "numerical_checks": 29,
+  "examples": "all three extracted snippets and complete download script executed",
+  "astro_check": {
+    "files": 189,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": "passed; Pagefind indexed 119 articles",
+  "site_verify": {
+    "pages": 278,
+    "checkedInternalLinks": 23812,
+    "equations": 380,
+    "searchableConcepts": 119,
+    "typedRelationships": 776,
+    "brokenLinks": 0
+  },
+  "node_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "browser": {
+    "desktop": "course label, draft, headings and formulas visible; 8 figures; no formula errors or raw TeX captions",
+    "mobile": "390 by 844 viewport; document width 375; no whole-page horizontal overflow",
+    "learning_entry": "both courses at bottom in separate default-closed details",
+    "search": "query 概率论; new article first result"
+  },
+  "article_url": "https://betterci.github.io/n3-hearingpedia/concepts/probability-theory/",
+  "entry_url": "https://betterci.github.io/n3-hearingpedia/learn/#foundations"
+}

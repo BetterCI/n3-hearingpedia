@@ -15,6 +15,14 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('probability-theory','linear-algebra','related','协方差、投影误差与噪声模型连接概率描述和矩阵计算。',3),
+  link('probability-theory','psychoacoustics','related','用重复反应与条件正确概率理解试次设计和心理测量函数。',3),
+  link('probability-theory','signal-detection-theory','related','用条件分布、尾部概率与贝叶斯区分命中、虚报和反应判据。',3),
+  link('probability-theory','spectrum-and-power-spectral-density','related','边缘分布、自协方差与平稳性共同约束噪声的频域解释。',3),
+  link('probability-theory','auditory-evoked-potential','related','重复平均的效果取决于目标对齐与跨次噪声协方差。',2),
+  link('probability-theory','speech-reception-threshold','related','正确概率曲线的目标比例、上下限与反解共同定义阈值。',3),
+  link('probability-theory','confusion-matrix','related','联合与条件概率帮助区分类别先验、逐类正确率和反应分布。',3),
+  link('probability-theory','fir-and-iir-filters','related','滤波可使高斯噪声保持高斯边缘分布，同时改变时间相关。',2),
   link('linear-algebra','pure-and-complex-tones','related','以两种纯音的合成和分解解释向量、线性组合、基与坐标。',3),
   link('linear-algebra','room-acoustics','related','用直达声与一个延迟副本解释设计矩阵和最小二乘，简化模型不替代完整房间响应。',2),
   link('linear-algebra','fir-and-iir-filters','related','卷积可写成设计矩阵，最小二乘用于理解固定短滤波器估计。',3),

@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 768,
+  "relations": 776,
   "entries": [
     {
       "slug": "cochlea",
@@ -5138,6 +5138,47 @@
         "hearing-aid",
         "neural-speech-tracking"
       ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "probability-theory",
+      "chinese_characters": 9028,
+      "body_characters": 23465,
+      "sections": 11,
+      "subsections": 29,
+      "reference_ids": [
+        "prob-mit-models",
+        "prob-mit-discrete",
+        "prob-scipy-binom",
+        "prob-scipy-poisson",
+        "prob-mit-continuous",
+        "sdt-scipy-norm",
+        "prob-mit-bayes",
+        "prob-mit-independence",
+        "prob-mit-conditional-moments",
+        "prob-mit-covariance",
+        "prob-mit-lln",
+        "prob-mit-clt",
+        "prob-heeger-sdt",
+        "speech-reception-threshold-wichmann",
+        "psychoacoustics-nist-wilson",
+        "prob-scipy-beta",
+        "prob-mit-process"
+      ],
+      "wiki_links": [
+        "linear-algebra",
+        "psychoacoustics",
+        "audiometric-calibration",
+        "speech-reception-threshold",
+        "auditory-evoked-potential",
+        "spectrum-and-power-spectral-density",
+        "fir-and-iir-filters",
+        "signal-detection-theory",
+        "confusion-matrix"
+      ],
+      "knowledge_area": "methods",
+      "kind": "course",
       "status": "draft",
       "depth": "in-depth"
     }

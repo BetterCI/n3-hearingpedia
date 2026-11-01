@@ -1,0 +1,96 @@
+{
+  "nature": "original synthetic teaching calculations, not participant data",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0"
+  },
+  "seeds": [
+    20261101,
+    20261103,
+    20261104
+  ],
+  "binomial": {
+    "n": 40,
+    "p": 0.75,
+    "mean": 30,
+    "variance": 7.5,
+    "example_sequence_correct": 32,
+    "one_sided_p_at_chance": 0.0011107168866146822
+  },
+  "normal": {
+    "sd_Pa": 0.02,
+    "density_at_zero": 19.947114020071634,
+    "prob_within_0_01_Pa": 0.38292492254802624
+  },
+  "bayes": {
+    "prior_0_2": 0.6666666666666666,
+    "prior_0_02": 0.14035087719298245
+  },
+  "averaging": {
+    "noise_sd": 0.2,
+    "trials": 16,
+    "rho": 0.5,
+    "independent_sd": 0.05,
+    "shared_sd": 0.14577379737113252,
+    "independent_power_snr_gain_dB": 12.041199826559248,
+    "shared_power_snr_gain_dB": 2.7470105694163207
+  },
+  "detection": {
+    "dprime": 1.5,
+    "criterion": 1,
+    "F": 0.15865525393145707,
+    "H": 0.6914624612740131,
+    "two_interval_correct": 0.8555778168267576
+  },
+  "psychometric": {
+    "gamma": 0.5,
+    "lapse_upper_gap": 0.02,
+    "alpha_dB": 0.0,
+    "beta_dB": 3.0,
+    "psi_at_alpha": 0.74,
+    "threshold_at_0_75_dB": 0.2501448268171536
+  },
+  "estimation": {
+    "k": 30,
+    "n": 40,
+    "wilson_95": [
+      0.5980603857923197,
+      0.858128813609037
+    ],
+    "prior_beta": [
+      1,
+      1
+    ],
+    "posterior_beta": [
+      31,
+      11
+    ],
+    "posterior_mean": 0.7380952380952381,
+    "credible_95": [
+      0.5969537633763495,
+      0.8577869966591287
+    ]
+  },
+  "audio": {
+    "fs_Hz": 16000,
+    "duration_s": 0.8,
+    "ramp_ms": 10,
+    "common_playback_gain": 0.65,
+    "no_individual_normalization": true,
+    "records": {
+      "one-trial": {
+        "peak_pcm": 22698,
+        "noise_rms_before_ramp_and_gain": 0.20207700867380288
+      },
+      "average-16": {
+        "peak_pcm": 7249,
+        "noise_rms_before_ramp_and_gain": 0.049962730137508994
+      },
+      "shared-average-16": {
+        "peak_pcm": 13772,
+        "noise_rms_before_ramp_and_gain": 0.14579717505764953
+      }
+    }
+  }
+}
