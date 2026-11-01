@@ -3,10 +3,16 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import IntroPathCards from '../components/IntroPathCards.astro';
 import { introductoryPaths, learningPaths } from '../data/paths';
-import { url } from '../lib/paths';
+import { url, asset } from '../lib/paths';
 const bySlug = Object.fromEntries((await getCollection('concepts')).map(c=>[c.data.slug,c]));
 const foundationPaths = learningPaths.filter(path=>path.slugs.some(slug=>bySlug[slug]?.data.kind==='course'));
 const mainPaths = learningPaths.filter(path=>!foundationPaths.includes(path));
+const foundationEntries = foundationPaths.flatMap(path=>path.slugs.filter(slug=>bySlug[slug]?.data.kind==='course').map(slug=>({concept:bySlug[slug],anchor:path.id})));
+const courseDescriptions: Record<string,string> = {
+  'linear-algebra':'从向量与基到矩阵、投影和特征分解，用声音例子理解线性关系。',
+  'probability-theory':'从随机变量与分布到贝叶斯和极限定理，理解听觉检测与噪声中的随机性。',
+  'complex-analysis':'从复数与解析性到复积分、级数和留数，理解相位、零极点与变换。',
+};
 const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path=' + encodeURIComponent(path);
 ---
 <BaseLayout title="Learn · 学习路径">
@@ -28,8 +34,13 @@ const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path
       {mainPaths.map(path=><details class="path-full full-path-details" id={path.id}><summary><span>{path.title}</span><small>{path.slugs.length} 步</small></summary><div class="full-path-body"><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={stepUrl(slug,path.id)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></div></details>)}
     </section>
     {foundationPaths.length>0 && <section class="section foundations-section" id="foundations" aria-labelledby="foundations-title">
-      <div class="eyebrow">Supplementary learning</div><h2 id="foundations-title">补充学习：基础课程与声学案例</h2><p>遇到公式时，可以用熟悉的声音问题补足数学基础。以下材料按需展开阅读。</p>
-      {foundationPaths.map(path=><details class="path-full full-path-details foundation-path" id={path.id}><summary><span>{path.title}</span><small>基础课程 · 选读</small></summary><div class="full-path-body"><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={stepUrl(slug,path.id)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.kind==='course'?'基础课程 · 声学案例 · 深度讲解':bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></div></details>)}
+      <div class="eyebrow">Supplementary learning</div><h2 id="foundations-title">补充学习：基础课程</h2><p>补足研究中常用的数学基础，从一门课开始阅读。</p>
+      <div class="foundation-grid">
+        {foundationEntries.map(({concept,anchor})=><a class="foundation-card" id={anchor} href={url('concepts/'+concept.data.slug)}>
+          <img class="foundation-sketch" src={asset('figures/foundation-courses/'+concept.data.slug+'.svg')} alt="" width="320" height="180" loading="lazy" />
+          <div class="foundation-copy"><span class="foundation-label">基础课程 · 深度讲解</span><h3>{concept.data.title}</h3><p class="foundation-english">{concept.data.english}</p><p class="foundation-description">{courseDescriptions[concept.data.slug] || concept.data.summary}</p><span class="foundation-read">阅读词条 <span aria-hidden="true">↗</span></span></div>
+        </a>)}
+      </div>
     </section>}
   </div>
 </BaseLayout>
@@ -44,9 +55,10 @@ const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path
   window.addEventListener('hashchange', revealPath);
 </script>
 <style>
-  .foundations-section{border-top:1px solid var(--line);padding-top:32px}.foundations-section>h2{font-size:20px}.foundations-section>p{font-size:13px;color:var(--muted);line-height:1.8}.foundation-path{background:var(--panel,#f7f8fa);border-style:dashed}.foundation-path summary{font-size:17px}
+  .foundations-section{border-top:1px solid var(--line);padding-top:32px;scroll-margin-top:100px}.foundations-section>h2{font-size:20px;margin:12px 0 8px}.foundations-section>p{font-size:13px;color:var(--muted);line-height:1.8}
+  .foundation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:26px}.foundation-card{display:flex;flex-direction:column;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;scroll-margin-top:100px;transition:border-color .15s,box-shadow .15s}.foundation-card:hover{border-color:#b5a6d2;box-shadow:0 6px 20px #39315108}.foundation-card:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.foundation-sketch{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#f3f1f8}.foundation-copy{padding:22px 24px;display:flex;flex-direction:column;flex:1}.foundation-label{font-size:10px;color:var(--muted);letter-spacing:.04em}.foundation-copy h3{font-size:22px;margin:10px 0 3px}.foundation-english{font-size:11px;color:var(--muted);margin:0}.foundation-description{font-size:13px;line-height:1.85;color:var(--muted);margin:17px 0 20px}.foundation-read{display:flex;justify-content:space-between;gap:16px;margin-top:auto;font-size:12px;color:var(--accent)}
   .path-objectives{margin:22px 0;font-size:14px;line-height:1.85}.path-objectives>div{display:grid;grid-template-columns:80px 1fr;gap:12px;margin:10px 0}.path-objectives dt{font-weight:600}.path-objectives dd{margin:0;color:var(--muted)}
   .reading-focus{color:var(--accent)}.optional-reading{display:flex;gap:10px 20px;flex-wrap:wrap;margin:22px 0;font-size:13px}.optional-reading a{color:var(--accent)}
   .full-path-details{padding:0;overflow:hidden}.full-path-details summary{display:flex;align-items:baseline;justify-content:space-between;gap:18px;padding:24px 28px;cursor:pointer;font-size:20px;font-weight:600;list-style:none}.full-path-details summary::before{content:'＋';color:var(--accent)}.full-path-details[open] summary::before{content:'−'}.full-path-details summary span{flex:1}.full-path-details summary small{font-size:12px;white-space:nowrap;color:var(--muted);font-weight:400}.full-path-body{padding:0 28px 24px}
-  @media(max-width:760px){.path-objectives>div{grid-template-columns:1fr;gap:3px}.full-path-details summary{padding:20px;font-size:18px}.full-path-body{padding:0 20px 20px}}
+  @media(max-width:760px){.foundation-grid{grid-template-columns:1fr;gap:18px}.foundation-card{display:grid;grid-template-columns:120px minmax(0,1fr);align-items:center}.foundation-sketch{aspect-ratio:auto;height:100%;object-fit:contain}.foundation-copy{padding:20px 18px}.foundation-copy h3{font-size:20px}.foundation-description{font-size:12px;margin:12px 0 16px}.path-objectives>div{grid-template-columns:1fr;gap:3px}.full-path-details summary{padding:20px;font-size:18px}.full-path-body{padding:0 20px 20px}}
 </style>

@@ -94,7 +94,7 @@ for (const entry of sourceEntries.filter(e=>e.data.kind==='course')) {
   const slug=entry.data.slug;
   assert(!homepage.includes(`${base}/concepts/${slug}/`), 'Supplementary course must stay out of homepage discovery');
   assert(learnPage.indexOf('id="foundations"')>learnPage.indexOf('id="full-paths-title"'), 'Course entry belongs after main learning paths');
-  assert(learnPage.includes(`${base}/concepts/${slug}/?path=`), 'Supplementary course must remain discoverable');
+  assert(learnPage.includes(`href="${base}/concepts/${slug}/"`), 'Supplementary course must link directly to its article');
   assert(!cache.get(join(root,'explore/index.html')).includes(`${base}/concepts/${slug}/`), 'Course must stay out of main concept grids');
   const course=cache.get(join(root,'concepts',slug,'index.html'));
   assert(course.includes('基础课程 · 声学案例') && course.includes(`${base}/learn/#foundations`), 'Missing course label or return entry');
@@ -115,10 +115,12 @@ for (const path of introductoryPaths) {
 }
 for (const path of allLearningPaths) {
   assert(learnPage.includes(`id="${path.id}"`), 'Missing learning-route anchor');
+  const supplementaryCourse = path.slugs.some(slug => sourceEntries.some(entry => entry.data.slug === slug && entry.data.kind === 'course'));
   for (const [index, slug] of path.slugs.entries()) {
     const html = cache.get(join(root, 'concepts', slug, 'index.html'));
     assert(html?.includes(`data-route-panel="${path.id}"`), 'Missing article route context: ' + slug);
-    assert(learnPage.includes(`${base}/concepts/${slug}/?path=${path.id}`), 'Learning entry loses route context');
+    // Supplementary courses now have direct article cards; retain old article route contexts.
+    if (!supplementaryCourse) assert(learnPage.includes(`${base}/concepts/${slug}/?path=${path.id}`), 'Learning entry loses route context');
     for (const neighbor of [path.slugs[index - 1], path.slugs[index + 1]].filter(Boolean)) {
       assert(html.includes(`${base}/concepts/${neighbor}/?path=${path.id}`), 'Previous or next step loses route context');
     }

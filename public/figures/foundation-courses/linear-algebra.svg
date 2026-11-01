@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+  <title>向量和平行四边形</title>
+  <rect width="320" height="180" fill="#f3f1f8"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M69 142L98 50M105 149L134 57M141 156L170 64M177 163L206 71M67 143L207 164M77 113L217 134M87 83L227 104M97 53L237 74" stroke="#ded7eb" stroke-width="1.2"/>
+    <path d="M92 134L183 142L216 60L125 52Z" fill="#e8e1f2" stroke="none"/>
+    <path d="M183 142Q200 101 216 60M125 52Q172 55 216 60" stroke="#a99abe" stroke-width="1.8" stroke-dasharray="4 6"/>
+    <path d="M92 134Q136 136 183 142M173 135L183 142L172 147" stroke="#766291" stroke-width="2.8"/>
+    <path d="M92 134Q110 93 125 52M117 61L125 52L127 65" stroke="#766291" stroke-width="2.8"/>
+    <path d="M92 134Q155 98 216 60M203 62L216 60L210 73" stroke="#629889" stroke-width="3.4"/>
+    <path d="M246 64Q250 81 250 106M245 64L255 64M245 106L255 106M269 64L279 64L279 106L269 106" stroke="#b1a3c5" stroke-width="1.8"/>
+    <path d="M260 76L263 76M260 94L263 94" stroke="#b1a3c5" stroke-width="2.4"/>
+  </g>
+  <circle cx="92" cy="134" r="3.5" fill="#766291"/>
+  <g fill="#766291" font-family="Georgia,serif" font-style="italic" font-size="17"><text x="139" y="157">u</text><text x="101" y="88">v</text></g>
+  <text x="159" y="86" fill="#548676" font-family="Georgia,serif" font-style="italic" font-size="17">u + v</text>
+</svg>

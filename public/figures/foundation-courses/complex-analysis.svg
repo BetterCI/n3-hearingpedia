@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+  <title>复平面上的旋转向量</title>
+  <rect width="320" height="180" fill="#f3f1f8"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 102Q140 104 214 102M141 164Q143 94 141 28M208 97L215 102L208 106M137 35L141 28L145 35" stroke="#b5a7c8" stroke-width="1.7"/>
+    <path d="M199 102C199 134 174 159 142 159C110 159 85 134 85 102C85 70 110 45 142 45C174 45 199 70 199 102Z" stroke="#c9bdd8" stroke-width="1.7" stroke-dasharray="4 5"/>
+    <path d="M142 102Q162 82 183 62M170 65L183 62L179 75" stroke="#766291" stroke-width="3.2"/>
+    <path d="M164 102Q164 92 157 86" stroke="#629889" stroke-width="2.2"/>
+    <path d="M183 62L183 102" stroke="#b5a7c8" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <path d="M103 61Q121 44 145 45M138 40L146 45L139 51" stroke="#629889" stroke-width="2.2"/>
+    <path d="M230 79C239 64 246 65 251 80S265 95 274 79" stroke="#c1b3d0" stroke-width="2"/>
+  </g>
+  <circle cx="142" cy="102" r="3" fill="#766291"/><circle cx="183" cy="62" r="4.5" fill="#766291"/>
+  <g font-family="Georgia,serif" font-size="16" fill="#766291"><text x="221" y="107">Re</text><text x="146" y="29">Im</text><text x="192" y="57" font-style="italic">z</text><text x="169" y="95" fill="#548676" font-style="italic">θ</text></g>
+</svg>
