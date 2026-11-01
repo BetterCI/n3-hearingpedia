@@ -1,0 +1,91 @@
+{
+  "nature": "original analytic/synthetic teaching examples; no measured hearing or device data",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0"
+  },
+  "phasor": {
+    "amplitude_Pa": 0.02,
+    "phase_rad": 1.0471975511965976,
+    "real_Pa": 0.01,
+    "imag_Pa": 0.017320508075688773
+  },
+  "specific_impedance": {
+    "real_Pa_s_per_m": 100.00000000000001,
+    "imag_Pa_s_per_m": 173.2050807568877,
+    "mean_intensity_W_per_m2": 5.000000000000002e-07,
+    "pressure_peak_Pa": 0.02,
+    "velocity_peak_m_per_s": 0.0001,
+    "velocity_phase_rad": -1.0471975511965976
+  },
+  "contours": [
+    [
+      1.743934249004316e-16,
+      6.283185307179586
+    ],
+    [
+      -3.487868498008632e-16,
+      4.3598356225107897e-16
+    ]
+  ],
+  "series": {
+    "a": 0.8,
+    "M": 8,
+    "at_z_1_partial_sum": 4.161139200000001,
+    "at_z_1_exact": 5.0,
+    "at_z_1_absolute_tail": 0.8388608000000004
+  },
+  "resonators": [
+    {
+      "r": 0.95,
+      "time_constant_ms": 1.2184828591389794,
+      "peak_Hz": 991.8795909412366,
+      "peak_gain": 26.801291587207697
+    },
+    {
+      "r": 0.995,
+      "time_constant_ms": 12.468723893022256,
+      "peak_Hz": 999.9227642029539,
+      "peak_gain": 261.9675117546572
+    }
+  ],
+  "resonator_fs_Hz": 16000,
+  "resonator_pole_angle_rad": 0.39269908169872414,
+  "analog_lowpass": {
+    "fc_Hz": 1000,
+    "omega_c_per_s": 6283.185307179586,
+    "time_constant_ms": 0.15915494309189535,
+    "gain_at_fc": 0.7071067811865475,
+    "phase_at_fc_rad": -0.7853981633974483,
+    "one_sided_square_response_area_Hz": 1570.7963267948965
+  },
+  "delay_s": 0.003,
+  "audio": {
+    "fs_Hz": 16000,
+    "duration_s": 0.7,
+    "ramp_ms": 10,
+    "common_gain": 0.6,
+    "individual_normalization": false,
+    "files": [
+      {
+        "name": "phase-0",
+        "phase_degrees": 0.0,
+        "amplitude_before_playback": 0.4,
+        "peak_pcm": 7864
+      },
+      {
+        "name": "phase-120",
+        "phase_degrees": 119.99999999999999,
+        "amplitude_before_playback": 0.20000000000000007,
+        "peak_pcm": 3898
+      },
+      {
+        "name": "phase-180",
+        "phase_degrees": 180.0,
+        "amplitude_before_playback": 2.4492935982947065e-17,
+        "peak_pcm": 0
+      }
+    ]
+  }
+}

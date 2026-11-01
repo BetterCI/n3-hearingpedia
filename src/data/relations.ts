@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('complex-analysis','linear-algebra','related','复数坐标、共轭与复矩阵把声学相量连接到线性运算。',2),
+  link('complex-analysis','pure-and-complex-tones','related','同频纯音的相干叠加提供理解复相量与相位的例子。',3),
+  link('complex-analysis','phase-and-group-delay','related','对数分支、相位展开与复频率响应共同约束延迟解释。',3),
+  link('complex-analysis','wave-equation','related','复指数表示单频波形，仍须保持时间符号与空间传播方向一致。',2),
+  link('complex-analysis','helmholtz-equation','related','复声压与非零频率Helmholtz方程不能直接等同空间解析函数或Laplace调和函数。',2),
+  link('complex-analysis','fir-and-iir-filters','related','Laurent系数、ROC与留数连接差分系统的时域和复频域表示。',3),
+  link('complex-analysis','minimum-phase-system','related','零点与逆系统收敛域帮助理解因果、稳定及幅相关系的条件。',3),
+  link('complex-analysis','acoustic-immittance-tympanometry','related','复数比值与共轭用于解释声压、速度、声阻抗及平均能流。',2),
+  link('complex-analysis','spectrum-and-power-spectral-density','related','复指数、共轭与频率响应面积连接频谱表示和滤波后的均方量。',3),
   link('probability-theory','linear-algebra','related','协方差、投影误差与噪声模型连接概率描述和矩阵计算。',3),
   link('probability-theory','psychoacoustics','related','用重复反应与条件正确概率理解试次设计和心理测量函数。',3),
   link('probability-theory','signal-detection-theory','related','用条件分布、尾部概率与贝叶斯区分命中、虚报和反应判据。',3),
