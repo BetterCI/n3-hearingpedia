@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('signals-and-systems','linear-algebra','related','卷积可写成设计矩阵，状态空间和多输入输出响应连接矩阵表示。',3),
+  link('signals-and-systems','complex-analysis','related','复频率、极点、收敛域与逆变换共同确定时间方向和响应。',3),
+  link('signals-and-systems','circuit-theory','related','由电路元件进入微分方程、初始状态、频率响应和接口负载。',3),
+  link('signals-and-systems','mathematical-physics-methods','related','区分集中输入输出模型与连续场的几何、初始和边界条件。',2),
+  link('signals-and-systems','functional-analysis','related','把卷积、傅里叶表示和稳定性条件放回信号空间与算子框架。',2),
+  link('signals-and-systems','spectrum-and-power-spectral-density','related','区分能量谱、功率谱、有限窗估计及互谱的条件和单位。',3),
+  link('signals-and-systems','phase-and-group-delay','related','用频率响应连接幅度、相位、群延迟与启动暂态。',3),
+  link('signals-and-systems','fir-and-iir-filters','related','卷积、递推、极点和采样为离散滤波器实现提供先修知识。',3),
+  link('signals-and-systems','spectrogram','related','有限截窗和离散变换影响时频图的显示与可解释分辨。',2),
+  link('signals-and-systems','computational-neuroscience','application','用状态、时间常数和冲激响应理解局部线性神经模型及其边界。',3),
   link('biophysics','computational-neuroscience','related','配套课程：解释膜电容、电导、反转电位、通道动力学、空间结构和随机性的物理来源。',3),
   link('biophysics','circuit-theory','related','区分膜电容、离子驱动力、支路电流及整细胞与面积归一参数。',3),
   link('biophysics','mathematical-physics-methods','related','用守恒、扩散、反应与电缆方程连接连续场和边界条件。',3),

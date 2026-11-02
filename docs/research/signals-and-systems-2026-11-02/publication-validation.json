@@ -1,0 +1,77 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "AI-assisted targeted source and mathematical audit complete; pending professional review",
+  "numerical_check_groups": 17,
+  "numerical_groups_passed": 17,
+  "article_examples_run": 3,
+  "download_script_run": true,
+  "sources": {
+    "total": 18,
+    "access": "fulltext official lecture PDFs; related passages read, not all pages",
+    "MIT_6003_2011": 15,
+    "MIT_RES6007_1987_2011archive": 3,
+    "copyright_omissions_in_two_6003_files": true
+  },
+  "typecheck": {
+    "files": 211,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 300,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 26053,
+    "equations": 511,
+    "searchableConcepts": 130,
+    "wikiConcepts": 130,
+    "knowledgeAreas": 7,
+    "typedRelationships": 883,
+    "wikiCrossLinks": 1395,
+    "chineseCharacters": 897467,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "root_width": 1265,
+      "document_width": 1265
+    },
+    "mobile_390": {
+      "root_width": 375,
+      "document_width": 375,
+      "paragraph_overflow": 0,
+      "wide_inline_equations": 0,
+      "display_equations_fit": true
+    },
+    "figures": 10,
+    "references": 18,
+    "display_equations": 3,
+    "katex_errors": 0,
+    "unexpected_emphasis": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 13,
+    "foundation_folded_lists": 0,
+    "search_query": "信号与系统",
+    "search_first_result": "/n3-hearingpedia/concepts/signals-and-systems/",
+    "screenshots_scope": "local production build; live content verified separately by HTTP"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "283dcd03545b4308e12697d0a5a086f9028a3135",
+  "limitations": [
+    "No external professional reviewer",
+    "Specified teaching models, not new physiological or device measurements",
+    "Targeted official course/source verification; not systematic literature review",
+    "Two Freeman PDFs omit some third-party figures due to copyright",
+    "Existing build chunk-size and Pagefind stemming/default-UI notices remain"
+  ]
+}

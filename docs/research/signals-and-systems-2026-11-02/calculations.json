@@ -1,0 +1,57 @@
+{
+  "echo": {
+    "fs_Hz": 8000.0,
+    "length": 256,
+    "tap_sum": 1.3,
+    "delays_ms": [
+      0.0,
+      5.0,
+      12.0
+    ],
+    "sum_residual": 0.0
+  },
+  "initial": {
+    "tau_s": 0.005,
+    "at_tau_zero_state": 0.6321205588285577,
+    "at_tau_zero_input": 0.18393972058572117,
+    "at_tau_total": 0.8160602794142788
+  },
+  "frequency": {
+    "tau_s": 0.005,
+    "cutoff_Hz": 31.830988618379067,
+    "gain_100Hz": 0.3033144710533529,
+    "phase_100Hz_rad": -1.2626272556789118,
+    "cutoff_gain_db": -3.0102999566398116
+  },
+  "roc": {
+    "a": 0.8,
+    "causal_absolute_sum": 5.000000000000001,
+    "causal_unit_circle_inside_ROC": true,
+    "anticausal_unit_circle_inside_ROC": false
+  },
+  "sampling": {
+    "fs_Hz": 8000.0,
+    "aliased_cosines_Hz": [
+      6000.0,
+      2000.0
+    ],
+    "max_alias_sample_error": 6.418882373314579e-14
+  },
+  "quantization": {
+    "bits": 3,
+    "levels": 8,
+    "delta": 0.25,
+    "uniform_error_model_variance": 0.005208333333333333
+  },
+  "dft": {
+    "record_length": 32,
+    "padded_length": 128,
+    "cycles_per_sample": 0.10625
+  },
+  "feedback": {
+    "stable_pole": -0.5,
+    "unstable_pole": -1.05,
+    "last_abs_stable": 1.734723475976807e-18,
+    "last_abs_unstable": 17.78970085154571
+  }
+}

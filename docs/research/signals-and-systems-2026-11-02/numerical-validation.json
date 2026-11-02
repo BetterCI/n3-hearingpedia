@@ -1,0 +1,106 @@
+{
+  "scope": "Specified mathematical examples and implementations; no external expert review, general theorem proof, physiological or device validation.",
+  "passed": true,
+  "total_check_groups": 17,
+  "checks": [
+    {
+      "name": "Signal coordinates, sampling index and continuous energy scaling",
+      "status": "passed",
+      "energy": 0.0010026513098524003,
+      "compressed_energy": 0.0005013256549262001
+    },
+    {
+      "name": "Linearity versus time invariance, with explicit counterexamples",
+      "status": "passed"
+    },
+    {
+      "name": "Full linear convolution, Toeplitz, FFT, sum and step difference",
+      "status": "passed",
+      "length": 256,
+      "sum_residual": 0.0
+    },
+    {
+      "name": "Continuous convolution and initial-state ODE",
+      "status": "passed",
+      "max_error": 1.9998447342572945e-12
+    },
+    {
+      "name": "Frequency response integral, sinusoidal startup and group-delay derivative",
+      "status": "passed",
+      "max_transform_error": 4.2827064952775585e-12
+    },
+    {
+      "name": "Fourier-series coefficients, partial Parseval energy and jump midpoint",
+      "status": "passed",
+      "partial_mean_square": 0.981590617499417,
+      "peak": 1.1796680900830332
+    },
+    {
+      "name": "Continuous Fourier convention, inversion, Parseval and modulation",
+      "status": "passed",
+      "parseval_residual": 4.440892098500626e-16
+    },
+    {
+      "name": "DFT matrix, DTFT periodicity, Parseval and unchanged padded-grid values",
+      "status": "passed"
+    },
+    {
+      "name": "Linear versus circular convolution and tail wrapping",
+      "status": "passed",
+      "linear": [
+        1.0,
+        1.5,
+        2.25,
+        -1.0,
+        0.75
+      ],
+      "circular": [
+        0.0,
+        2.25,
+        2.25
+      ]
+    },
+    {
+      "name": "Same rational expression, two distinct Z/Laplace convergence regions",
+      "status": "passed"
+    },
+    {
+      "name": "Aliased cosine equality, critical-rate sine loss, truncated sinc reconstruction",
+      "status": "passed",
+      "alias_error": 6.418882373314579e-14,
+      "sinc_truncation_errors": [
+        8.60012827619272e-09,
+        1.0751342038872735e-09,
+        1.343954947330417e-10
+      ]
+    },
+    {
+      "name": "Eight-level quantizer, no-overload error bound and conditional uniform variance",
+      "status": "passed",
+      "max_error": 0.125,
+      "uniform_variance": 0.005208333333333333
+    },
+    {
+      "name": "Feedback pole, independent recursion and unit-circle BIBO failure",
+      "status": "passed"
+    },
+    {
+      "name": "Stable transfer can hide unstable unforced internal initial mode",
+      "status": "passed"
+    },
+    {
+      "name": "Exact zero-order-hold transition, Euler versus physical stability",
+      "status": "passed"
+    },
+    {
+      "name": "Finite-ensemble spectral ratio and correlated-output-noise bias; not a WSS proof",
+      "status": "passed"
+    },
+    {
+      "name": "All official source records and ten scientific SVGs",
+      "status": "passed",
+      "sources": 18,
+      "figures": 10
+    }
+  ]
+}
