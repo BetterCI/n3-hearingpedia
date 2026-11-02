@@ -22,7 +22,7 @@ key_facts:
   - {label: "听觉连接", value: "区分可听度、知觉、注意、记忆、决策、动机与交往情境"}
   - {label: "证据边界", value: "一次得分、一个相关或一处脑活动不足以唯一确定心理机制"}
 references: ["psych-scope", "psych-science", "psych-design", "psych-measurement", "psych-perception", "psych-sdt", "psych-psychometric", "psych-attention", "psych-memory", "psych-retrieval", "psych-learning", "psych-rw", "psych-decision", "psych-ddm", "psych-emotion", "psych-motivation", "psych-development", "psych-aging", "psych-traits", "psych-social", "psych-culture", "psych-reverse", "psych-asa", "psych-replication", "psych-ethics"]
-order: 1019
+order: 1000
 ---
 
 **心理学**（psychology）通过系统观察、测量、实验和理论建模，研究心理过程与行为。心理过程包括感知、注意、记忆、思考、情绪和动机；行为包括选择、言语、动作及其与环境的关系。研究者还考察这些现象怎样随发展、个体经历、生物条件和社会文化而变化。心理学既有自然科学的问题，也有社会科学的问题，研究对象并不限于心理障碍或咨询活动。[1](#ref-psych-scope)

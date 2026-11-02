@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究连接", value: "声源与换能器、听觉输入、管腔共振、室内声场及响应测量"}
   - {label: "适用边界", value: "主要讨论小振幅、线性、无平均流模型；图与数值不是实际设备或听者测量"}
 references: ["va-free", "va-forced", "va-modal", "va-measurement", "va-lumped", "va-tubes", "va-plane", "va-spherical", "va-wave-equation", "va-intensity", "va-compliance", "va-decibels", "va-pipes", "va-helmholtz", "va-ir", "va-eigh", "va-ivp", "va-diffraction"]
-order: 1023
+order: 1009
 ---
 
 **振动**是系统状态在某种平衡附近或一定范围内随时间往复变化；**声学**研究机械扰动的产生、传播、相互作用与接收。两者通过介质或结构的惯性、弹性、耗散和边界联系起来，但“物体正在振动”“向外辐射多少声音”和“听起来多响”是不同问题。[1](#ref-va-free)[7](#ref-va-plane)

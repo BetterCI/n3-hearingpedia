@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究连接", value: "非线性共振、临界振荡、神经节律与耦合；模型机制需另与数据对应"}
   - {label: "证据边界", value: "不规则波形、宽谱、低维投影或一个正有限指数都不是普遍混沌证书"}
 references: ["nd-scalar", "nd-phase", "nd-dissipation", "nd-cycles", "nd-hopf", "nd-spectral", "nd-poincare", "nd-strange", "nd-lorenz", "nd-lyapunov", "nd-maps", "nd-intermittency", "nd-normalforms", "nd-weak", "nd-hopf-proof", "nd-cochlea", "nd-surrogates", "nd-ivp"]
-order: 1022
+order: 1021
 ---
 
 **非线性动力学**（nonlinear dynamics）研究不满足线性叠加规律的演化系统，尤其关注多稳态、振幅相关的振动、分岔、同步、慢快转换和混沌怎样产生。非线性是方程或演化映射的结构性质，不是“不规则”的同义词；一个非线性系统可以趋于静止、稳定地周期振荡，也可以在某些参数范围内表现复杂演化。[13](#ref-nd-normalforms)[4](#ref-nd-cycles)

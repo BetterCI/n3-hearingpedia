@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究连接", value: "响应拟合、逆问题、滤波与重采样、连续模型离散和仿真核验"}
   - {label: "重要边界", value: "小残差不自动保证小解误差，内部误差估计不等于一般严格误差界"}
 references: ["na-float", "na-conditioning", "na-stability", "na-condition-number", "na-pivoting", "na-qr", "na-svd", "na-fixed-point", "na-newton", "na-brent-api", "na-interp-stability", "na-splines", "na-interp-api", "na-fd", "na-integration", "na-adaptive", "na-rk", "na-absstab", "na-stiff", "na-ivp-api", "na-bvp", "na-sparse-api", "na-cg", "na-precond", "na-cg-api"]
-order: 1015
+order: 1012
 ---
 
 **数值分析**（numerical analysis）研究怎样用有限次运算、有限存储和有限精度，近似求解数学问题，并说明结果的误差、稳定性和计算成本。它既关心“怎样算”，也关心“算出的数代表什么、可靠到什么程度”。数学公式存在，不保证直接照着输入计算机就能得到准确答案。[1](#ref-na-float)[2](#ref-na-conditioning)

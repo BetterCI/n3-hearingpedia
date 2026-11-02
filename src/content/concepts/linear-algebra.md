@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究进阶", value: "特征分解、SVD、条件数与正则化"}
   - {label: "能力目标", value: "能从声学问题写出运算，再把计算结果解释回声音"}
 references: ["la-mit-syllabus", "la-mit-basis", "la-mit-projection", "la-mit-svd", "la-numpy-lstsq", "la-numpy-eigh", "la-numpy-svd", "la-mne-projection", "la-smith-dft", "la-smith-orthogonality", "la-numpy-cond", "la-numpy-solve", "la-numpy-qr", "la-boyd-regularized", "la-smith-windowing"]
-order: 1000
+order: 1003
 ---
 
 **线性代数**（linear algebra）是研究向量空间、线性映射及其矩阵表示的数学学科。这些名字可以从声音出发来理解：一段录音为什么能看成向量？两种纯音怎样合成，又怎样从混合声中找回来？两支麦克风录到的声音能否帮助我们区分两个声源？

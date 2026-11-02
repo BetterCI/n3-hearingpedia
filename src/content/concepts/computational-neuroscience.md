@@ -22,7 +22,7 @@ key_facts:
   - {label: "听觉连接", value: "放电率、锁相、时频感受野、声音分类与皮层预测"}
   - {label: "验证原则", value: "单位与数值正确、独立预测、模型比较及机制证据分别核对"}
 references: ["cn-intro", "cn-lif", "cn-lif-limits", "cn-hh-original", "cn-hh-equations", "cn-synapses", "cn-compartments", "cn-rate", "cn-isi", "cn-likelihood", "cn-glm", "cn-encoding", "cn-strf", "cn-decoding", "cn-rates", "cn-stability", "cn-hebb", "cn-bi-poo", "cn-reward", "cn-validation", "cn-rescaling", "acm-kell", "phase-vinck2010", "cn-brian-units", "cn-coding"]
-order: 1006
+order: 1017
 ---
 
 **计算神经科学**（computational neuroscience）用数学分析、统计推断和计算模拟研究神经系统怎样产生、表示、变换及利用信息。它既可以问“离子通道怎样形成一次动作电位”，也可以问“群体响应中保留了什么声音信息”“什么学习规则能够产生某种适应”。模型的价值在于提出可检查的关系和预测，并说明这些预测依赖哪些假设。

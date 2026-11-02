@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究连接", value: "平均降噪、检测判据、心理测量函数与不确定性"}
   - {label: "能力目标", value: "能写清随机模型，并区分模型概率、样本结果与统计推断"}
 references: ["prob-mit-models", "prob-mit-discrete", "prob-scipy-binom", "prob-scipy-poisson", "prob-mit-continuous", "sdt-scipy-norm", "prob-mit-bayes", "prob-mit-independence", "prob-mit-conditional-moments", "prob-mit-covariance", "prob-mit-lln", "prob-mit-clt", "prob-heeger-sdt", "speech-reception-threshold-wichmann", "psychoacoustics-nist-wilson", "prob-scipy-beta", "prob-mit-process"]
-order: 1001
+order: 1004
 ---
 
 **概率论**（probability theory）是用概率空间、随机变量及其分布研究不确定性的数学学科。一段固定的数字录音可以当作确定的向量，但下一次录音中的噪声、听者下一次是否答对、检测器下一次是否虚报，都可能需要随机模型。概率论帮助我们从“这一次发生了什么”，走向“在什么条件下，各种结果有多大可能”。[1](#ref-prob-mit-models)

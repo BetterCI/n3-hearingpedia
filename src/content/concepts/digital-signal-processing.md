@@ -22,7 +22,7 @@ key_facts:
   - {label: "核心区别", value: "幅度与PSD、线性与循环卷积、离线与实时分别判断"}
   - {label: "重要边界", value: "理论频响不等于完整设备响应，数值改善不等于感知获益"}
 references: ["dsp-structures", "dsp-dft", "dsp-spectral", "dsp-periodogram", "dsp-periodogram-api", "dsp-welch-api", "dsp-fir", "dsp-firwin-api", "dsp-phase", "dsp-iir", "dsp-butter-api", "dsp-filtfilt-api", "dsp-sos-api", "dsp-block", "dsp-stft", "dsp-stft-api", "dsp-rates", "dsp-polyphase", "dsp-upfirdn-api", "dsp-resample-api", "dsp-quant", "dsp-adaptive"]
-order: 1013
+order: 1011
 ---
 
 **数字信号处理**（digital signal processing，DSP）研究怎样对数字表示的信号进行分析和运算，并在给定精度、存储、运算量与时间限制下实现这些运算。对象既包括录音，也包括图像、振动和神经记录；这里主要用一维声音序列建立概念。[1](#ref-dsp-structures)

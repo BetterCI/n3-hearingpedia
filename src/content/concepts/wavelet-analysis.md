@@ -22,7 +22,7 @@ key_facts:
   - {label: "声音连接", value: "扫频、短暂振荡、起始变化与多分辨率前端；需检查边界、单位及延迟"}
   - {label: "解释边界", value: "小波亮纹不自动代表真实周期、显著事件、生物通道或因果关系"}
 references: ["wa-mallat", "wa-daubechies", "wa-torrence", "wa-coherence", "wa-pitfalls", "wa-scattering", "wa-donoho", "wa-wavelets", "wa-cwt", "wa-dwt", "wa-idwt", "wa-boundary", "wa-swt", "wa-iswt", "wa-packets", "wa-threshold", "wa-coefficients"]
-order: 1021
+order: 1022
 ---
 
 **小波分析**（wavelet analysis）用一族具有局部性的分析函数，在不同位置和尺度上描述信号。它关注“某种变化出现在什么时候、持续多宽、在什么尺度上明显”，也研究怎样把这些描述合成为原信号。小波不只是画彩色时频图的方法；正交基、多分辨空间、快速滤波器组和非线性系数处理同样是这门课的核心。[1](#ref-wa-mallat)[2](#ref-wa-daubechies)

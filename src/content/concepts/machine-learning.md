@@ -22,7 +22,7 @@ key_facts:
   - {label: "听觉连接", value: "声音分类、语音表征、听觉响应预测与处理效果评价"}
   - {label: "解释边界", value: "高预测分数不自动证明因果、脑机制或实际听觉获益"}
 references: ["ml-generalization", "ml-rl", "ml-linear", "ml-regularization", "ml-softmax", "ml-linear-api", "ml-knn", "ml-svm", "ml-trees", "ml-ensembles", "ml-pca", "ml-clustering", "ml-mlp", "ml-backprop", "ml-optimization", "ml-cnn", "ml-attention-textbook", "ml-attention", "ml-leakage", "ml-cv", "ml-kapoor-published", "ml-metrics", "ml-calibration", "ml-shift", "ml-wav2vec", "ml-hubert", "acm-kell", "ml-importance"]
-order: 1007
+order: 1018
 ---
 
 **机器学习**（machine learning）研究怎样利用数据改进模型完成任务的能力，并分析这种改进能否延伸到没有用于选择模型的新样本或新条件。学习可以得到预测函数、概率分布、低维表示或行动策略；关键是明确任务、数据来源、优化目标和评价条件，而不只是“让计算机自己找规律”。[1](#ref-ml-generalization)

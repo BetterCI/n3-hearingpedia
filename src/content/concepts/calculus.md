@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究连接", value: "波形斜率、均方与RMS、模型灵敏度、连续动力学与数值计算"}
   - {label: "重要边界", value: "连续不保证可导，偏导存在不保证可微，数值近似不等于极限证明"}
 references: ["calc-functions", "calc-limit", "calc-continuity", "calc-derivative", "calc-rules", "calc-mvt", "calc-taylor", "calc-integral", "calc-ftc", "calc-substitution", "calc-techniques", "calc-improper", "calc-series", "calc-partial", "calc-differentiable", "calc-gradient", "calc-multiple", "calc-polar", "calc-ode", "calc-numerical", "calc-trapezoid-api", "calc-ivp-api"]
-order: 1014
+order: 1002
 ---
 
 **微积分**（calculus）是研究函数的局部变化、整体累积及其联系的数学分支。微分侧重某一点附近怎样变化，积分侧重许多小贡献怎样相加；极限为这两种操作提供严格定义。它既是一套计算方法，也要求说明对象、条件和误差，不能只理解为“求导公式加积分公式”。[1](#ref-calc-functions)[2](#ref-calc-limit)

@@ -22,7 +22,7 @@ key_facts:
   - {label: "核心方法", value: "复积分、级数、留数、零极点与收敛域"}
   - {label: "研究连接", value: "复声压、声阻抗、滤波器响应与衰减振荡"}
 references: ["ca-mit-algebra", "waves-unsw-impedance", "ca-mit-analytic", "pd-smith-2007", "ca-mit-cauchy", "ca-mit-formula", "ca-mit-series", "ca-smith-one-pole", "ca-mit-residue", "ca-mit-laplace", "ca-smith-poles", "ca-mit-integrals", "ca-scipy-freqz", "ca-scipy-lfilter", "mp-smith-filters", "we-demanet-2016"]
-order: 1002
+order: 1006
 ---
 
 **复变函数**（functions of a complex variable）是以复数为自变量的函数；研究它们的可导性、解析性、积分、级数与奇点的学科称为**复分析**（complex analysis）。在听觉与声学研究中，复数可以同时记录声音的幅值和相位，而复分析进一步解释：传递函数为什么能展开成脉冲响应？极点为什么与衰减振荡有关？同一个代数表达式，为什么还要说明收敛域才能确定系统？[1](#ref-ca-mit-algebra)

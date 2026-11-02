@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究连接", value: "声学回路、传感与执行、参数模型、动态调节和实时数字实现"}
   - {label: "重要边界", value: "内部模态、时延、采样、噪声与饱和可能破坏简化模型下的结论"}
 references: ["ctrl-feedback", "ctrl-model", "ctrl-response", "ctrl-time", "ctrl-stability", "ctrl-errors", "ctrl-pid", "ctrl-root", "ctrl-nyquist", "ctrl-margins", "ctrl-digital", "ctrl-hold", "ctrl-state", "ctrl-controllability", "ctrl-observer", "ctrl-separation", "ctrl-lqr", "ctrl-windup", "ctrl-lyapunov", "ctrl-are-api", "ctrl-place-api", "ctrl-discrete-api", "ctrl-robust", "ctrl-lqr-conditions"]
-order: 1017
+order: 1020
 ---
 
 **控制理论**（control theory）研究怎样选择输入或构造反馈，使动态系统按照希望的方式运行，并判断这种行为是否稳定、对扰动是否敏感、需要多少控制动作。动态系统具有随时间变化的内部状态；控制的对象不仅是某一个瞬间的数值，还包括从现在到未来的演化。[1](#ref-ctrl-feedback)

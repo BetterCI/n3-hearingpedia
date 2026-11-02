@@ -22,7 +22,7 @@ key_facts:
   - {label: "核心内容", value: "辅音、韵母、声调、连读、轻声、儿化及韵律"}
   - {label: "实验入口", value: "记音与分段、F0、共振峰、VOT、语谱图及控制比较"}
 references: ["lee-zee-standard-chinese-2003", "cp-pinyin-scheme", "phonetics-phonemes", "ipa-chart-official", "essentials-consonant-place-phonation", "essentials-consonant-manner", "cp-vowels-2001", "formant-sourcefilter", "cp-xu-1997", "cp-neutral-2006", "cp-focus-2005", "cp-rhotics-2024", "cp-cantonese-1991", "cp-wu-2023", "phonetics-praat-spectrogram", "phonetics-praat-pitch", "formant-burg", "cp-aspiration-2003", "cp-yi-bu"]
-order: 1004
+order: 1001
 ---
 
 **汉语语音学**（Chinese phonetics）研究汉语口语怎样产生、形成怎样的声学信号，以及听者怎样从中辨认语言。它既研究普通话，也研究各汉语方言和不同说话人的实际实现；普通话的声韵调系统是重要入门对象，却不是全部汉语的共同音表。语音学的任务是描述和解释声音，发音规范、拼写规范与对语言变异的科学描写需要分别理解。

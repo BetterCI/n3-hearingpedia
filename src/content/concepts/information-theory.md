@@ -22,7 +22,7 @@ key_facts:
   - {label: "主要定理", value: "数据处理不等式、编码界、信道容量与率失真"}
   - {label: "解释边界", value: "统计信息量不直接等于正确率、语义、音质或神经容量"}
 references: ["shannon-1948", "it-mit-entropy", "it-mit-mutual", "it-mit-error-rate", "it-mit-processing", "it-mit-lossless", "it-huffman-1952", "it-mit-capacity", "it-mit-awgn", "it-mit-quantization", "it-mit-rate-distortion", "it-paninski-2003", "miller-1955"]
-order: 1003
+order: 1015
 ---
 
 **信息论**（information theory）研究随机消息的不确定性、观察之间的统计关联，以及在给定资源与误差要求下压缩和传输消息的极限。Shannon在1948年的工作建立了现代通信信息论的基本框架。它的起点是明确的消息集合、概率和信道模型；“这个声音很有意义”还不是一个可以代入公式的信息量定义。[1](#ref-shannon-1948)

@@ -22,7 +22,7 @@ key_facts:
   - {label: "形象入口", value: "弦的驻波、圆膜节线、扩散平滑与声腔共振"}
   - {label: "研究边界", value: "解析解、稳定算法和真实模型正确性需要分别检验"}
 references: ["mm-problem", "mm-classify", "mm-heat", "mm-wave", "mm-sl", "mm-orthogonal", "mm-multi", "mm-coordinates", "mm-bessel", "mm-bessel-zeros", "mm-bessel-integral", "mm-legendre", "mm-harmonics", "mm-fourier", "mm-laplace", "mm-distribution", "mm-green", "mm-energy", "mm-variational", "mm-numerics"]
-order: 1009
+order: 1023
 ---
 
 **数学物理方法**（methods of mathematical physics）研究如何把物理规律写成数学问题，利用方程、边界和几何结构求解，再解释解对应的物理行为。它的对象不限于某一种方程：同一组正交模态可以描述弦的振动、热的扩散和静态受力；同一个格林函数思想可以连接点源、边值问题与系统响应。课程的关键能力，是知道一种方法为什么适用，以及所得解究竟满足了哪些条件。[1](#ref-mm-problem)

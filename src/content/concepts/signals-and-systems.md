@@ -22,7 +22,7 @@ key_facts:
   - {label: "听觉连接", value: "房间回声、耳机响应、听觉模型、声音采样与处理链"}
   - {label: "重要边界", value: "系统性质、初始状态、收敛域、采样条件与测量误差分别检查"}
 references: ["ss-intro", "ss-dt", "ss-ct", "ss-convolution", "ss-frequency", "ss-fs", "ss-ft", "ss-dtft", "ss-relations", "ss-z", "ss-laplace", "ss-sampling", "ss-quantization", "ss-feedback", "ss-numerics", "ss-basic-signals", "ss-properties", "ss-lti"]
-order: 1012
+order: 1010
 ---
 
 **信号与系统**（signals and systems）研究随时间或其他自变量变化的量怎样表示，以及一个过程如何把输入变成输出。信号可以是声压、电压、位移或数字序列；系统可以是电路、房间、换能器、算法或某一层次的生理模型。课程的核心任务是给这些对象建立可计算、可检验的关系，而不是把所有系统预先假定为线性。[1](#ref-ss-intro)

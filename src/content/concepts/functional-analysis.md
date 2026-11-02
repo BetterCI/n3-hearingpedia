@@ -22,7 +22,7 @@ key_facts:
   - {label: "直观入口", value: "信号误差、正交分解、有限窗测量、平滑与逆问题"}
   - {label: "研究边界", value: "数学适定性、离散精度与实际听觉模型有效性须分别核验"}
 references: ["fa-norm", "fa-lp", "fa-hilbert", "fa-riesz", "fa-basis", "fa-fourier", "fa-operator", "fa-adjoint", "fa-hb", "fa-double", "fa-baire", "fa-inverse", "fa-weak", "fa-compact", "fa-spectrum", "fa-selfadj", "fa-spectral", "fa-sobolev", "fa-lm", "fa-dirichlet", "fa-regularization", "fa-fixedpoint"]
-order: 1010
+order: 1024
 ---
 
 **泛函分析**（functional analysis）研究带有距离、收敛或拓扑结构的向量空间，以及这些空间之间的算子和取标量值的泛函。它把“向量”从有限个数推广到函数、数列等对象，同时认真处理无限过程：近似是否收敛？极限还在允许的空间里吗？求解器对应的逆映射是否会放大误差？[1](#ref-fa-norm)

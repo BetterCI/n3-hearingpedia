@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究连接", value: "响应拟合、滤波设计、参数估计、逆问题、资源分配与模型训练"}
   - {label: "重要边界", value: "算法条件、约束资格和数值尺度决定结论；求解成功不等于模型有效"}
 references: ["opt-intro", "opt-first", "opt-convex", "opt-kkt", "opt-dual", "opt-gradient", "opt-projection", "opt-sgd", "opt-newton", "opt-barrier", "opt-prox", "opt-bfgs", "opt-subgrad", "opt-nlsq", "opt-minimize-api", "opt-slsqp-api", "opt-lsq-api"]
-order: 1016
+order: 1013
 ---
 
 **最优化方法**（optimization methods）研究如何在一组允许的选择中，使指定目标尽可能小或尽可能大，以及怎样判断得到的解具有何种最优性。它把“想改善什么”写成目标函数，把“可以改变什么”写成决策变量，把“必须遵守什么”写成约束，再选择适合这一结构的算法。[1](#ref-opt-intro)

@@ -22,7 +22,7 @@ key_facts:
   - {label: "研究连接", value: "声学振动、波与扩散、膜电位和网络模型、反馈及计算仿真"}
   - {label: "重要边界", value: "线性化、相图和有限仿真各有适用范围，形状像振荡或混沌不构成证明"}
 references: ["dds-existence", "dds-separable", "dds-linear", "dds-autonomous", "dds-second", "dds-forced", "dds-systems", "dds-jordan", "dds-linearization", "dds-nonhyperbolic", "dds-limit", "dds-heat", "dds-wave", "dds-bifurcation", "dds-phase", "dds-contraction", "dds-cycle", "dds-hopf", "dds-poincare", "dds-lorenz", "dds-lyap-exponent", "dds-logistic", "dds-lyapunov", "dds-ivp-api", "dds-picard"]
-order: 1018
+order: 1007
 ---
 
 **微分方程**（differential equations）用未知函数及其导数之间的关系描述变化规律；**动力系统**（dynamical systems）进一步研究状态如何随时间演化、轨道怎样组织，以及长期行为如何随初值和参数改变。前者常从“怎样求解”进入，后者还问“即使没有显式公式，能否判断稳定、振荡、分岔或预测边界”。[1](#ref-dds-existence)[14](#ref-dds-bifurcation)

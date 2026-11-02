@@ -22,7 +22,7 @@ key_facts:
   - {label: "声音连接", value: "波形与时频输入、变长序列、语音预训练、流式处理和评价"}
   - {label: "解释边界", value: "网络单元、注意力权重与高分预测不自动等同生物机制或因果解释"}
 references: ["dl-mlp", "dl-backprop", "dl-init", "dl-sgd", "dl-adam", "dl-dropout", "dl-batchnorm", "dl-conv", "dl-rnn", "dl-lstm", "dl-attention", "dl-transformer", "dl-generalization", "dl-resnet", "dl-he-init", "dl-transformer-paper", "dl-adamw", "dl-wav2vec", "dl-hubert", "dl-vae", "dl-gan", "dl-diffusion", "dl-ctc", "dl-calibration", "dl-ce-api", "dl-ln-api", "dl-grad-api"]
-order: 1020
+order: 1019
 ---
 
 **深度学习**（deep learning）是使用多层可学习变换来构造表示、完成预测或生成任务的机器学习方法族。“表示”是数据进入后续计算的形式：声音可以从波形变成局部模式、时间序列特征，再变成类别分数或其他输出。深度通常指变换的复合层次，没有跨所有架构通用的“几层才算深”的严格门槛，也不等于参数量、训练轮数或推理链条的长度。[1](#ref-dl-mlp)

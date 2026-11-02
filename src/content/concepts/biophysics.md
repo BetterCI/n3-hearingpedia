@@ -22,7 +22,7 @@ key_facts:
   - {label: "听觉连接", value: "毛束机械电转导、耳蜗电势、外毛细胞电动性与带状突触"}
   - {label: "模型边界", value: "平衡、稳态、小信号、局部近似与真实细胞需分别检验"}
 references: ["bp-overview", "bp-boltzmann", "bp-brownian", "bp-fick", "bp-peclet", "bp-binding", "bp-osmosis", "bp-migration", "bp-electrochem", "bp-nernst", "bp-goldman", "bp-electric", "bp-passive", "bp-hh", "bp-cable", "bp-viscosity", "bp-stokes", "bp-met-original", "bp-endocochlear", "bp-hair-text", "bp-prestin", "bp-prestin-knockout", "bp-synapse", "bp-ribbon"]
-order: 1011
+order: 1016
 ---
 
 **生物物理学**（biophysics）用物理定律、定量实验和数学模型研究生命系统。它既研究分子结构与相互作用，也研究膜、细胞和组织怎样输运物质、转换能量、产生力与信号。生命系统通常处于持续交换物质和能量的非平衡状态，因此不能把“像电路”“像弹簧”当成完整解释，必须说明相应近似、尺度和能量来源。[1](#ref-bp-overview)

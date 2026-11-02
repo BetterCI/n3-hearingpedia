@@ -22,7 +22,7 @@ key_facts:
   - {label: "声音连接", value: "相关噪声、平均降噪、滤波输出、谱估计、采样与事件计数"}
   - {label: "证据边界", value: "平滑曲线或单段PSD不能独自证明平稳、独立、遍历、生理机制或因果"}
 references: ["sp-processes", "sp-psd", "sp-wiener", "sp-mmse", "sp-wss", "sp-filtering", "sp-spectral", "sp-wkt", "sp-poisson", "sp-markov", "sp-basic", "sp-stationary", "sp-brownian", "sp-welch", "sp-periodogram", "sp-csd", "sp-coherence", "sp-lfilter"]
-order: 1024
+order: 1014
 ---
 
 **随机过程**（stochastic process）是一族定义在同一概率空间上、通常由时间或空间索引的随机变量。它把“一次不确定的数值”扩展为“不同时间的数值怎样共同变化”。对声音研究，噪声在某一采样点的分布只是起点；相邻样本的依赖、通过滤波器后的变化以及有限录音怎样估计总体，都是随机过程的问题。[11](#ref-sp-basic)[1](#ref-sp-processes)
