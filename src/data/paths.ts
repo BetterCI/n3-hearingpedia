@@ -69,6 +69,7 @@ export const learningPaths = [
   { id:'digital-signal-processing-foundations',title:'数字信号处理：从规格实现并验证数字算法',english:'Digital signal processing from specifications to implementation',description:'配套信号与系统，学习谱估计、滤波、分块、STFT、多速率、有限精度和自适应处理。',slugs:['digital-signal-processing'] },
   { id:'calculus-foundations',title:'微积分：从局部变化理解累积与连续模型',english:'Calculus from limits to continuous models',description:'从极限、导数与积分进入基本定理、近似、收敛、多元微分和初值问题，核对条件与数值误差。',slugs:['calculus'] },
   { id:'numerical-analysis-foundations',title:'数值分析：从误差理解可靠的近似计算',english:'Numerical analysis from errors to reliable computation',description:'从浮点、条件数与稳定性进入方程求解、插值、求积、刚性与网格，用独立核对判断结果。',slugs:['numerical-analysis'] },
+  {id:'optimization-methods-foundations',title:'最优化方法：从建模到最优性验证',english:'Optimization from modeling to verification',description:'定义目标与可行域，理解凸性、梯度、曲率、KKT和近端方法，再核对步长、缩放与停止条件。',slugs:['optimization-methods']},
 ];
 
 export const allLearningPaths = [

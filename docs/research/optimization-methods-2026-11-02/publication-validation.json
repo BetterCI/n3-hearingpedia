@@ -1,0 +1,159 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted source, mathematical and numerical audit complete; professional review pending",
+  "numerical_check_groups": 25,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 17,
+    "MIT_lectures": 10,
+    "CMU_lectures": 2,
+    "Stanford_notes": 1,
+    "FNC_chapter": 1,
+    "official_SciPy_pages": 3,
+    "online_documentation_version": "1.18.0"
+  },
+  "typecheck": {
+    "files": 219,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 308,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 26871,
+    "equations": 516,
+    "searchableConcepts": 134,
+    "wikiConcepts": 134,
+    "knowledgeAreas": 7,
+    "typedRelationships": 923,
+    "wikiCrossLinks": 1445,
+    "chineseCharacters": 931573,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "Local production build; not production browser screenshot",
+    "desktop": {
+      "codeExamples": 3,
+      "displaySizes": [
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        }
+      ],
+      "displays": 4,
+      "figures": 10,
+      "h1": "最优化方法",
+      "inlineMathOutside": 0,
+      "math": 10,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rawTexCaptions": 0,
+      "references": 17,
+      "rootWidth": 1265,
+      "scrollWidth": 1265,
+      "title": "最优化方法 · Optimization Methods · n³ Hearingpedia",
+      "unexpectedEmphasis": 0
+    },
+    "mobile": {
+      "displaySizes": [
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        }
+      ],
+      "inlineMathOutside": 0,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rootWidth": 375,
+      "scrollWidth": 375
+    },
+    "learn": {
+      "cards": 17,
+      "folded": 0,
+      "newCard": {
+        "href": "/n3-hearingpedia/concepts/optimization-methods/",
+        "imageLoaded": 320,
+        "title": "最优化方法"
+      },
+      "rootWidth": 1265,
+      "scrollWidth": 1265
+    },
+    "companions": [
+      {
+        "backLinks": 1,
+        "h1": "数值分析"
+      },
+      {
+        "backLinks": 1,
+        "h1": "机器学习"
+      }
+    ],
+    "search": {
+      "firstResult": [
+        {
+          "href": "/n3-hearingpedia/concepts/optimization-methods/",
+          "text": "最优化方法"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/optimization-methods/#%E6%9C%80%E5%B0%8F%E5%80%BC%E5%AD%98%E5%9C%A8%E4%B8%8E%E6%9C%80%E4%BC%98%E7%82%B9%E5%94%AF%E4%B8%80%E6%98%AF%E4%B8%A4%E4%BB%B6%E4%BA%8B",
+          "text": "最小值存在与最优点唯一是两件事"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/optimization-methods/#%E4%B9%98%E5%AD%90%E6%8A%8A%E7%9B%AE%E6%A0%87%E4%B8%8E%E7%BA%A6%E6%9D%9F%E7%9A%84%E5%B1%80%E9%83%A8%E4%BD%9C%E7%94%A8%E5%90%88%E8%B5%B7%E6%9D%A5",
+          "text": "乘子把目标与约束的局部作用合起来"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/optimization-methods/#%E4%B9%98%E5%AD%90%E7%9A%84%E7%81%B5%E6%95%8F%E5%BA%A6%E8%A7%A3%E9%87%8A%E6%9C%89%E9%80%82%E7%94%A8%E6%9D%A1%E4%BB%B6",
+          "text": "乘子的灵敏度解释有适用条件"
+        }
+      ],
+      "query": "最优化方法"
+    },
+    "viewport_reset": true
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "f7ea369a6ee00cb079433f560091a79bcaceae71",
+  "limitations": [
+    "No external professional reviewer",
+    "Specified teaching models, not listener/device measurements",
+    "Finite checks supplement analytic arguments; no certified interval bounds or general global optimization guarantee",
+    "Online API differs from tested runtime",
+    "Existing chunk-size and Pagefind notices remain"
+  ]
+}

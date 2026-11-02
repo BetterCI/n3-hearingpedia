@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('optimization-methods','calculus','related','用导数、梯度和局部近似建立搜索方向与最优性条件。',3),
+  link('optimization-methods','linear-algebra','related','正定性、分解、奇异值和最小二乘支持曲率子问题。',3),
+  link('optimization-methods','numerical-analysis','related','条件数、舍入、缩放与迭代残差决定数值验证方式。',3),
+  link('optimization-methods','machine-learning','related','将训练目标、正则化、随机更新和泛化证据分开检查。',3),
+  link('optimization-methods','mathematical-statistics','related','优化后的参数仍需可辨识性、噪声模型与不确定性分析。',3),
+  link('optimization-methods','digital-signal-processing','application','滤波与响应设计需明确误差度量、系数约束和验证范围。',3),
+  link('optimization-methods','computational-neuroscience','application','模型参数拟合不自动确认神经机制或外部预测有效性。',2),
+  link('optimization-methods','biophysics','application','物理边界、参数单位和连续模型约束需要进入优化建模。',2),
+  link('optimization-methods','information-theory','related','信息量与散度可构造目标，但其科学含义仍需结合任务。',2),
+  link('optimization-methods','speech-intelligibility','application','数学目标的降低需另行验证与真实言语任务的关系。',2),
   link('numerical-analysis','calculus','related','从连续定义进入差分、求积、离散误差和稳定步长。',3),
   link('numerical-analysis','linear-algebra','related','分解、范数、条件数、奇异值和稀疏结构支持可靠矩阵计算。',3),
   link('numerical-analysis','digital-signal-processing','related','有限精度、滤波实现、插值与重采样需要明确误差和数值条件。',3),

@@ -15,7 +15,7 @@ const links=[...new Set([...body.matchAll(/\]\(\.\.\/([^/]+)\/\)/g)].map(m=>m[1]
 for(const target of links)await access('src/content/concepts/'+target+'.md');
 const edges=knowledgeRelations.filter(r=>r.source===slug||r.target===slug);
 for(const edge of edges){await access('src/content/concepts/'+edge.source+'.md');await access('src/content/concepts/'+edge.target+'.md');}
-assert.equal(edges.length,10);
+assert.equal(edges.filter(r=>r.source===slug).length,10);
 assert(learningPaths.some(p=>p.id==='machine-learning-foundations'&&p.slugs.length===1&&p.slugs[0]===slug));
 assert(/^kind: "course"$/m.test(source)&&/^depth: in-depth$/m.test(source)&&/^status: draft$/m.test(source));
 assert(/^reviewer: null$/m.test(source)&&/^reviewed_at: null$/m.test(source));

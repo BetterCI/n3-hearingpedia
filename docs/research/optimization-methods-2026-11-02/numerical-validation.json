@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "check_groups": 25,
+  "checks": [
+    {
+      "check": "rational_KKT_and_gap",
+      "result": "passed",
+      "detail": "Exact fractions prove feasibility, stationarity, complementarity and matching lower bound 1/4."
+    },
+    {
+      "check": "SLSQP_crosscheck",
+      "result": "passed",
+      "detail": {
+        "x": [
+          1.5000000000000002,
+          0.5
+        ],
+        "objective": 0.2499999999999999,
+        "success": true,
+        "stationarity": 2.220446049250313e-16,
+        "feasibility": 0.0,
+        "complementarity": 0.0,
+        "dual": 0.25,
+        "gap": -1.1102230246251565e-16
+      }
+    },
+    {
+      "check": "dual_infimum_and_domain",
+      "result": "passed",
+      "detail": "17 multipliers in [0,3]; coordinate clipping and separate bound solver agree, q<=1/4; parabola used only through mu=1."
+    },
+    {
+      "check": "active_sets_all_regimes",
+      "result": "passed",
+      "detail": "Budget solutions independently satisfy all KKT equations including lower-bound multipliers."
+    },
+    {
+      "check": "budget_sensitivity",
+      "result": "passed",
+      "detail": "Central differences confirm v prime=-mu, including the differentiable switches."
+    },
+    {
+      "check": "all_stationary_points",
+      "result": "passed",
+      "detail": "Three disjoint brackets cross-check polynomial roots; cubic degree exhausts real candidates; coercivity proves existence."
+    },
+    {
+      "check": "saddle_and_degenerate_hessian",
+      "result": "passed",
+      "detail": "Explicit directions and +/-x^4 show insufficiency of zero gradient and semidefinite Hessian."
+    },
+    {
+      "check": "quadratic_GD_factors",
+      "result": "passed",
+      "detail": "Exact powers cross-check all iterates at final step; alpha=0.1 does not decay, 0.105 diverges."
+    },
+    {
+      "check": "descent_lemma",
+      "result": "passed",
+      "detail": "100 deterministic test cases complement direct quadratic derivation; not a proof for arbitrary functions."
+    },
+    {
+      "check": "Newton_SPD_quadratic",
+      "result": "passed",
+      "detail": "Independent linear solve reaches the exact quadratic minimizer."
+    },
+    {
+      "check": "Newton_negative_curvature",
+      "result": "passed",
+      "detail": "Both directional derivative and actual objective increase at x=0.1."
+    },
+    {
+      "check": "residual_Jacobian",
+      "result": "passed",
+      "detail": "Analytic derivatives agree with independent centered differences."
+    },
+    {
+      "check": "full_vs_Gauss_Newton_Hessian",
+      "result": "passed",
+      "detail": "Finite differences verify the residual curvature term; it is nonzero for the specified model."
+    },
+    {
+      "check": "nonlinear_fit_cross_solver",
+      "result": "passed",
+      "detail": "Profile out amplitude exactly, scan rate grid then scalar refine; confirms candidate, not certified global optimization."
+    },
+    {
+      "check": "KKT_qualification_counterexample",
+      "result": "passed",
+      "detail": "Unique feasible minimizer for min x, x^2<=0 has no stationarity multiplier."
+    },
+    {
+      "check": "projection_and_boundary",
+      "result": "passed",
+      "detail": "Independent projections and boundary fixed point distinguish ordinary from projected gradient."
+    },
+    {
+      "check": "quadratic_penalty",
+      "result": "passed",
+      "detail": "Analytic stationarity and independent scalar solver verify finite-parameter violation."
+    },
+    {
+      "check": "log_barrier",
+      "result": "passed",
+      "detail": "Exact quadratic root verifies stationarity, strict interior and perturbed complementarity."
+    },
+    {
+      "check": "L1_soft_threshold",
+      "result": "passed",
+      "detail": "Subgradient conditions and independent dense one-dimensional comparisons."
+    },
+    {
+      "check": "ridge_and_subgradient_ascent",
+      "result": "passed",
+      "detail": "Ridge gradient vanishes; valid subgradient +1 at |x| minimum makes any positive step increase the value."
+    },
+    {
+      "check": "SGD_exact_enumeration",
+      "result": "passed",
+      "detail": "All 16 four-step paths independently match both second-moment formulas."
+    },
+    {
+      "check": "SGD_seeded_reproduction",
+      "result": "passed",
+      "detail": "512 trajectories agree with exact moments within stated finite-sample check; not a general convergence proof."
+    },
+    {
+      "check": "coordinate_scaling",
+      "result": "passed",
+      "detail": "Exact congruence and independent condition numbers verify equivalent parameterization."
+    },
+    {
+      "check": "absolute_stopping_counterexample",
+      "result": "passed",
+      "detail": "A scaled objective passes a chosen absolute gradient threshold while distance remains sqrt(2)."
+    },
+    {
+      "check": "directional_derivative",
+      "result": "passed",
+      "detail": "Three step sizes independently check sign, Jacobian orientation and objective derivative."
+    }
+  ],
+  "scope": "Specified models only; calculations supplement analytic arguments; professional review pending."
+}
