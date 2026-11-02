@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "check_groups": 20,
+  "checks": [
+    {
+      "check": "Correlation versus absolute agreement",
+      "result": "passed",
+      "r": 1,
+      "mean_shift": 12,
+      "RMSE": 12
+    },
+    {
+      "check": "Classical variance decomposition under zero covariance",
+      "result": "passed",
+      "reliability": 0.8,
+      "error_SD": 5
+    },
+    {
+      "check": "Simpson reversal and equal-context standardization",
+      "result": "passed",
+      "pooled": [
+        0.82,
+        0.35
+      ],
+      "equal_weight": [
+        0.5,
+        0.575
+      ]
+    },
+    {
+      "check": "Psychometric threshold root and midpoint",
+      "result": "passed",
+      "threshold_75": 5.100057930726861,
+      "midpoint_correct": 0.74
+    },
+    {
+      "check": "Lapse-mixture definition conversion",
+      "result": "passed",
+      "random_response_probability": 0.04,
+      "upper_deficit": 0.02
+    },
+    {
+      "check": "SDT rates by independent density quadrature",
+      "result": "passed",
+      "noise_mean": 0,
+      "signal_mean": 1.5,
+      "common_SD": 1
+    },
+    {
+      "check": "SDT sensitivity invariant versus criterion changes",
+      "result": "passed",
+      "max_dprime_error": 4.529709940470639e-14
+    },
+    {
+      "check": "RW finite pretraining against rational solution",
+      "result": "passed",
+      "V_A_20": 0.9884707849539315
+    },
+    {
+      "check": "RW compound exact error recursion and invariant",
+      "result": "passed",
+      "V_B_15": 0.0057618970911349305
+    },
+    {
+      "check": "RW baseline and exact versus finite blocking",
+      "result": "passed",
+      "baseline_B": 0.499764907507712,
+      "finite_pretraining_B": 0.0057618970911349505
+    },
+    {
+      "check": "Sequential-update counterexample",
+      "result": "passed",
+      "incorrect_sequential_B": 0.005117752252951838,
+      "difference": -0.0006441448381831125
+    },
+    {
+      "check": "Bayes probability by enumerated frequency table",
+      "result": "passed",
+      "posterior": 0.3076923076923077
+    },
+    {
+      "check": "DDM analytic moments versus independent boundary-value equations",
+      "result": "passed",
+      "max_absolute_error": 4.306555112520982e-13,
+      "generator": "0.5 u_second + u_first",
+      "boundaries": "+-a",
+      "nondecision_s": 0.3
+    },
+    {
+      "check": "DDM evidence-unit scaling and total time",
+      "result": "passed",
+      "correct": [
+        0.7310585786300049,
+        0.8807970779778823,
+        0.9820137900379085
+      ],
+      "mean_total_RT_s": [
+        0.5310585786300048,
+        1.061594155955765,
+        2.2280551601516336
+      ]
+    },
+    {
+      "check": "Normal-distribution overlap by independent quadrature",
+      "result": "passed",
+      "overlap": 0.8025873486341526
+    },
+    {
+      "check": "Cohort arithmetic and distinct comparison targets",
+      "result": "passed",
+      "cross_sectional_difference": 14,
+      "within_cohort_20year_change": -4
+    },
+    {
+      "check": "Cluster mean variance by explicit 1000x1000 covariance matrix",
+      "result": "passed",
+      "SE": 0.06928203230275509,
+      "naive_SE": 0.03162277660168379,
+      "design_effect": 4.8,
+      "variance_equivalent_N": 208.33333333333343
+    },
+    {
+      "check": "Repeat and participant-count limits",
+      "result": "passed",
+      "infinite_repeat_SE_limit": 0.06324555320336758
+    },
+    {
+      "check": "Scientific figures and course sketch XML",
+      "result": "passed",
+      "scientific_figures": 10,
+      "course_sketches": 1
+    },
+    {
+      "check": "Scoped source cache identities",
+      "result": "passed",
+      "records": 25,
+      "original_HTTP_files": 23,
+      "web_reader_texts": 2,
+      "scanned_chapter_targeted_visual_review": true
+    }
+  ],
+  "scope": "Specified teaching models and evidence identities, not empirical replication, clinical validation or external professional review"
+}

@@ -1,0 +1,168 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted concept, source, analytic and numerical audit complete; professional review pending",
+  "check_groups": 20,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 25,
+    "by_kind": {
+      "OpenStax_author_textbook": 1,
+      "Noba_author_textbook": 15,
+      "research_paper": 6,
+      "original_theory": 1,
+      "official_statement": 1,
+      "official_code": 1
+    },
+    "original_HTTP_files": 23,
+    "web_reader_text_extractions": 2,
+    "scanned_RW_chapter": "38-page scan; targeted printed pages74–76 visually checked"
+  },
+  "typecheck": {
+    "files": 225,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 314,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 27523,
+    "equations": 528,
+    "searchableConcepts": 137,
+    "wikiConcepts": 137,
+    "knowledgeAreas": 7,
+    "typedRelationships": 953,
+    "wikiCrossLinks": 1483,
+    "chineseCharacters": 956348,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "Local production build; not production browser screenshot",
+    "desktop": {
+      "codeExamples": 3,
+      "displaySizes": [
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        }
+      ],
+      "displays": 3,
+      "figures": 10,
+      "finalWording": true,
+      "h1": "心理学",
+      "math": 3,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rawTexCaptions": 0,
+      "references": 25,
+      "rootWidth": 1265,
+      "scrollWidth": 1265,
+      "title": "心理学 · Psychology · n³ Hearingpedia",
+      "unexpectedEmphasis": 0
+    },
+    "mobile": {
+      "displaySizes": [
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        }
+      ],
+      "inlineMathOutside": 0,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rootWidth": 375,
+      "scrollWidth": 375
+    },
+    "learn": {
+      "cards": 20,
+      "folded": 0,
+      "newCard": {
+        "href": "/n3-hearingpedia/concepts/psychology/",
+        "imageLoaded": 267,
+        "title": "心理学"
+      },
+      "rootWidth": 1265,
+      "scrollWidth": 1265
+    },
+    "companions": [
+      {
+        "backLinks": 1,
+        "h1": "心理声学"
+      },
+      {
+        "backLinks": 1,
+        "h1": "听觉努力"
+      }
+    ],
+    "search": {
+      "articleResults": [
+        {
+          "href": "/n3-hearingpedia/concepts/psychology/",
+          "rank": 1,
+          "title": "心理学"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/psychoacoustics/",
+          "rank": 2,
+          "title": "心理声学"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/li-liang/",
+          "rank": 3,
+          "title": "李量"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/albert-bregman/",
+          "rank": 4,
+          "title": "阿尔伯特·布雷格曼"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/lloyd-jeffress/",
+          "rank": 5,
+          "title": "Lloyd Jeffress"
+        }
+      ],
+      "query": "心理学",
+      "articleResultRank": 1
+    },
+    "viewport_reset": true,
+    "navigation_notes": "Course-card click verified; companion URLs and reciprocal DOM links verified by direct navigation"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "db17c5a1846f6324474a22ab9c7350a026fa12f0",
+  "limitations": [
+    "No external professional reviewer",
+    "Teaching examples, not participant data or clinical assessment",
+    "Checks verify specified model implementation; not empirical replication or proof of psychological mechanisms",
+    "Historical results retain source-specific samples, materials and task conditions",
+    "Two source hashes identify web-reader text rather than unavailable original HTTP bytes",
+    "Baseline build chunk-size and Pagefind notices remain"
+  ]
+}

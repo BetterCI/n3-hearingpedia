@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('psychology','psychoacoustics','application','以受控声音和行为任务研究感知、判断与心理测量。',3),
+  link('psychology','auditory-attention','application','把选择、维持与切换落实为可检验任务，区分输入与回答。',3),
+  link('psychology','listening-effort','application','区分成绩、主观费力、目标价值、实际投入与疲劳。',3),
+  link('psychology','speech-perception','application','把声学线索、语言经验、语境和决策要求分开。',3),
+  link('psychology','signal-detection-theory','related','在明确模型假设下区分敏感性与回答偏向。',3),
+  link('psychology','computational-neuroscience','related','行为功能与可计算机制相互约束，不把预测自动当因果。',3),
+  link('psychology','biophysics','related','生物实现、物理量与心理构念属于相互约束的解释层次。',2),
+  link('psychology','probability-theory','related','条件概率、发生率与抽样帮助理解判断和测量。',2),
+  link('psychology','mathematical-statistics','related','推断单位、效应区间和重复结构决定结论范围。',3),
+  link('psychology','auditory-scene-analysis','application','声源分组与目标选择既关联又不能混同。',2),
   link('differential-equations-and-dynamical-systems','calculus','related','用导数、积分和局部近似建立演化方程、初值与误差尺度。',3),
   link('differential-equations-and-dynamical-systems','linear-algebra','related','矩阵指数、特征值、重根和状态坐标支持线性演化分析。',3),
   link('differential-equations-and-dynamical-systems','mathematical-physics-methods','related','初边值、分离变量和模态连接连续场的定解问题。',3),

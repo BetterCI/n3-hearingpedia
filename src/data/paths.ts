@@ -72,6 +72,7 @@ export const learningPaths = [
   {id:'optimization-methods-foundations',title:'最优化方法：从建模到最优性验证',english:'Optimization from modeling to verification',description:'定义目标与可行域，理解凸性、梯度、曲率、KKT和近端方法，再核对步长、缩放与停止条件。',slugs:['optimization-methods']},
   {id:'control-theory-foundations',title:'控制理论：从反馈理解稳定与动态设计',english:'Control theory from feedback to dynamic design',description:'从反馈、稳定、根轨迹与裕度进入PID、状态反馈、观测器和LQR，核对时延、噪声、饱和与采样条件。',slugs:['control-theory']},
   {id:'differential-equations-and-dynamical-systems-foundations',title:'微分方程与动力系统：从变化率理解演化结构',english:'Differential equations and dynamical systems from rates to evolution',description:'从初值和存在唯一性进入相图、能量、极限环与分岔，再核对混沌、偏微分方程和计算证据。',slugs:['differential-equations-and-dynamical-systems']},
+  {id:'psychology-foundations',title:'心理学：从心理与行为理解可检验的解释',english:'Psychology from mind and behavior to testable explanation',description:'从构念、测量和实验进入感知、学习、认知、情绪、发展及社会文化，区分表现、机制与因果。',slugs:['psychology']},
 ];
 
 export const allLearningPaths = [
