@@ -1,0 +1,210 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted definitions, source, analytic and numerical audit complete; professional review pending",
+  "check_groups": 26,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 17,
+    "by_kind": {
+      "original_paper": 7,
+      "official_documentation": 10
+    },
+    "original_HTTP_files": 17,
+    "text_extraction_methods": {
+      "pypdf text extraction": 6,
+      "Scanned report; scoped visual inspection of PDF pages 3–8; no OCR text claimed": 1,
+      "HTML main article text": 10
+    },
+    "PyWavelets_documentation": "stable snapshot checked 2026-11-02; local runtime 1.8.0; newer precision keyword not used"
+  },
+  "typecheck": {
+    "files": 229,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 318,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 27952,
+    "equations": 543,
+    "searchableConcepts": 139,
+    "wikiConcepts": 139,
+    "knowledgeAreas": 7,
+    "typedRelationships": 973,
+    "wikiCrossLinks": 1507,
+    "chineseCharacters": 972740,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "Local production build; not production browser screenshot",
+    "desktop": {
+      "codeExamples": 3,
+      "displaySizes": [
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        }
+      ],
+      "displays": 11,
+      "figures": 10,
+      "h1": "小波分析",
+      "math": 11,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rawTexCaptions": 0,
+      "references": 17,
+      "rootWidth": 1265,
+      "scrollWidth": 1265,
+      "title": "小波分析 · Wavelet Analysis · n³ Hearingpedia",
+      "unexpectedEmphasis": 0
+    },
+    "mobile": {
+      "displaySizes": [
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        }
+      ],
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rootWidth": 375,
+      "scrollWidth": 375
+    },
+    "learn": {
+      "cards": 22,
+      "foldedLists": 0,
+      "newCard": {
+        "href": "/n3-hearingpedia/concepts/wavelet-analysis/",
+        "image": "/n3-hearingpedia/figures/foundation-courses/wavelet-analysis.svg",
+        "imageLoaded": 614
+      }
+    },
+    "companions": [
+      {
+        "backLinks": 1,
+        "title": "数字信号处理"
+      },
+      {
+        "backLinks": 1,
+        "title": "信号与系统"
+      }
+    ],
+    "search": {
+      "articleResultRank": 1,
+      "query": "小波分析",
+      "topResults": [
+        {
+          "href": "/n3-hearingpedia/concepts/wavelet-analysis/",
+          "title": "小波分析"
+        }
+      ]
+    },
+    "courseNavigation": {
+      "h1": "小波分析",
+      "url": "http://127.0.0.1:4323/n3-hearingpedia/concepts/wavelet-analysis/"
+    }
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "pywavelets": "1.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "2b02d60a5c70dfa501870dd0179ef012593ff012",
+  "limitations": [
+    "External professional review pending",
+    "Specified mathematical and synthetic examples; not participant, neural or speech benchmark measurements",
+    "Donoho report visually inspected in scoped opening pages; no OCR or full-report text extraction claimed",
+    "Physical CWT uses direct quadrature, not identical discretization to PyWavelets integrated-wavelet implementation",
+    "No complete coherence estimator, empirical significance pipeline or real-time device implemented",
+    "Baseline build chunk-size and Pagefind notices remain"
+  ]
+}

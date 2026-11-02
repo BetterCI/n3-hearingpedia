@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('wavelet-analysis','signals-and-systems','related','以变换、卷积和时频观察为基础，深入随尺度变化的局部表示。',3),
+  link('wavelet-analysis','digital-signal-processing','related','分析合成滤波、抽取、插值和有限边界支持快速离散小波。',3),
+  link('wavelet-analysis','linear-algebra','related','正交矩阵、内积和Parseval等式解释有限Haar变换。',3),
+  link('wavelet-analysis','functional-analysis','related','L2空间、正交分解、基和对偶结构约束反演与能量。',3),
+  link('wavelet-analysis','mathematical-physics-methods','related','傅里叶表示与局部多尺度展开提供不同基函数视角。',2),
+  link('wavelet-analysis','spectrum-and-power-spectral-density','related','区分尺度频率、系数功率、归一化与PSD单位。',3),
+  link('wavelet-analysis','fir-and-iir-filters','related','FIR分析合成配对、相位、支持与完全重建有关。',3),
+  link('wavelet-analysis','mathematical-statistics','related','背景模型、平滑、多重检验与独立单位限定显著性解释。',3),
+  link('wavelet-analysis','auditory-filter','related','小波尺度与听觉滤波器带宽属于不同定义，不默认生物对应。',2),
+  link('wavelet-analysis','deep-learning','related','固定小波散射与学习滤波器、时频前端及任务评价可比较。',2),
   link('deep-learning','machine-learning','related','配套理解任务、损失、数据划分、指标与模型选择；本篇深入多层表示和训练。',3),
   link('deep-learning','linear-algebra','related','矩阵形状、共享变换、转置和Jacobian支持网络计算。',3),
   link('deep-learning','calculus','related','链式法则与局部导数构成反向传播的计算规则。',3),

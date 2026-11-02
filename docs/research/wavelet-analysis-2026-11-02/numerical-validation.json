@@ -1,0 +1,141 @@
+{
+  "slug": "wavelet-analysis",
+  "check_groups": 26,
+  "checks": [
+    {
+      "name": "Mexican hat zero mean and unit L2 norm",
+      "passed": true
+    },
+    {
+      "name": "Positive-frequency admissibility constant, not double-sided constant",
+      "passed": true,
+      "value": 2.3632718012073552
+    },
+    {
+      "name": "Mexican hat Fourier convention",
+      "passed": true
+    },
+    {
+      "name": "Real-mother CWT energy factor on Gaussian input",
+      "passed": true,
+      "scale_time_integral": 4.188790204786392,
+      "expected": 4.188790204786391
+    },
+    {
+      "name": "Independent analytic Gaussian-Mexican-hat convolution",
+      "passed": true
+    },
+    {
+      "name": "Corrected Morlet zero mean and normalization",
+      "passed": true,
+      "mean": -5.807427292964934e-17,
+      "norm": 1.0000000000000007
+    },
+    {
+      "name": "Dilation preserves L2 norm",
+      "passed": true
+    },
+    {
+      "name": "Physical dt-weighted CWT invariant under sample-rate refinement",
+      "passed": true,
+      "absolute_difference": 7.828822034269695e-17
+    },
+    {
+      "name": "PyWavelets sampling_period alters frequencies, not coefficients",
+      "passed": true,
+      "runtime": "1.8.0"
+    },
+    {
+      "name": "Haar manual coefficients and orthogonal analysis matrix",
+      "passed": true
+    },
+    {
+      "name": "Manual Haar agrees with library coefficients and energy 432",
+      "passed": true
+    },
+    {
+      "name": "Explicit even-phase two-channel filter bank has exactly one-sample delay",
+      "passed": true,
+      "max_error": 8.881784197001252e-16
+    },
+    {
+      "name": "Independent z-domain distortion and alias cancellation",
+      "passed": true
+    },
+    {
+      "name": "db4 four vanishing moments annihilate interior cubic, Haar does not",
+      "passed": true,
+      "max_db4_interior": 1.8821749714348357e-16
+    },
+    {
+      "name": "db4 means four moments and eight taps",
+      "passed": true
+    },
+    {
+      "name": "Biorthogonal PR does not imply ordinary coefficient-energy equality",
+      "passed": true,
+      "ratios": {
+        "db4": 1.0000000000000002,
+        "bior4.4": 1.0344806126415969
+      },
+      "reconstruction": {
+        "db4": 8.881784197001252e-16,
+        "bior4.4": 5.1665338673956285e-12
+      }
+    },
+    {
+      "name": "Four boundary modes each reconstruct with matching analysis and synthesis",
+      "passed": true
+    },
+    {
+      "name": "Fixed-threshold circular SWT equivariance versus decimated DWT",
+      "passed": true,
+      "max_errors": {
+        "dwt": 0.45356297548656727,
+        "swt": 0.0
+      }
+    },
+    {
+      "name": "SWT energy only with stated orthogonal norm-and-trim settings",
+      "passed": true
+    },
+    {
+      "name": "Soft-threshold formula and robust normal MAD constant",
+      "passed": true
+    },
+    {
+      "name": "Reproduced fixed-seed denoising values without tuning to truth",
+      "passed": true,
+      "sigma": 0.2019597143928377,
+      "threshold": 0.7519560817370745,
+      "mse": {
+        "noisy": 0.04046265470493883,
+        "soft": 0.005714698295101921,
+        "hard": 0.004777616749273931
+      }
+    },
+    {
+      "name": "Packet frequency order, energy conservation and nonideal passbands",
+      "passed": true
+    },
+    {
+      "name": "Unsmoothed coherence degenerates to one",
+      "passed": true
+    },
+    {
+      "name": "Independent-test example is numerically correct",
+      "passed": true,
+      "probability": 0.994079470779666
+    },
+    {
+      "name": "All primary-source and official-doc cache hashes match",
+      "passed": true,
+      "files": 17
+    },
+    {
+      "name": "Eleven original SVG files parse",
+      "passed": true
+    }
+  ],
+  "professional_review": "pending"
+}

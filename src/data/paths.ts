@@ -74,6 +74,7 @@ export const learningPaths = [
   {id:'differential-equations-and-dynamical-systems-foundations',title:'微分方程与动力系统：从变化率理解演化结构',english:'Differential equations and dynamical systems from rates to evolution',description:'从初值和存在唯一性进入相图、能量、极限环与分岔，再核对混沌、偏微分方程和计算证据。',slugs:['differential-equations-and-dynamical-systems']},
   {id:'psychology-foundations',title:'心理学：从心理与行为理解可检验的解释',english:'Psychology from mind and behavior to testable explanation',description:'从构念、测量和实验进入感知、学习、认知、情绪、发展及社会文化，区分表现、机制与因果。',slugs:['psychology']},
   {id:'deep-learning-foundations',title:'深度学习：从多层表示到可核对的训练与评价',english:'Deep learning from layered representations to verifiable training and evaluation',description:'与机器学习配套，理解反向传播、稳定训练、卷积、序列、Transformer与生成学习，核查掩码、泛化和延迟。',slugs:['deep-learning']},
+  {id:'wavelet-analysis-foundations',title:'小波分析：从多尺度模板到重建与推断',english:'Wavelet analysis from multiscale templates to reconstruction and inference',description:'理解连续小波、Haar、多分辨分析、滤波器组、边界、去噪和小波包，核查时频图与相干。',slugs:['wavelet-analysis']},
 ];
 
 export const allLearningPaths = [
