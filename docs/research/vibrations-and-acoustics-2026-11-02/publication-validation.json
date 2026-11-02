@@ -1,0 +1,226 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted definitions, source, analytic and numerical audit complete; professional review pending",
+  "check_groups": 38,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 18,
+    "by_kind": {
+      "author_teaching": 15,
+      "official_documentation": 3
+    },
+    "original_HTTP_files": 18,
+    "text_extraction_methods": {
+      "HTML article text": 12,
+      "pypdf text extraction": 5,
+      "pypdf text extraction; handwritten material visually inspected on PDF pages 1–6, text not treated as reliable transcription": 1
+    },
+    "SciPy_documentation": "stable snapshot checked 2026-11-02; local runtime 1.17.1"
+  },
+  "typecheck": {
+    "files": 233,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 322,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 28376,
+    "equations": 565,
+    "searchableConcepts": 141,
+    "wikiConcepts": 141,
+    "knowledgeAreas": 7,
+    "typedRelationships": 993,
+    "wikiCrossLinks": 1530,
+    "chineseCharacters": 987160,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "Local production build; not production browser screenshot",
+    "desktop": {
+      "codeExamples": 3,
+      "displaySizes": [
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        }
+      ],
+      "displays": 12,
+      "figures": 10,
+      "h1": "振动与声学基础",
+      "math": 12,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rawTexCaptions": 0,
+      "references": 18,
+      "rootWidth": 1265,
+      "scrollWidth": 1265,
+      "title": "振动与声学基础 · Fundamentals of Vibrations and Acoustics · n³ Hearingpedia",
+      "unexpectedEmphasis": 0
+    },
+    "mobile": {
+      "displaySizes": [
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        }
+      ],
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rootWidth": 375,
+      "scrollWidth": 375
+    },
+    "companions": [
+      {
+        "backLinks": 1,
+        "title": "微分方程与动力系统"
+      },
+      {
+        "backLinks": 1,
+        "title": "声波与传播"
+      }
+    ],
+    "learn": {
+      "cards": 24,
+      "foldedLists": 0,
+      "newCard": {
+        "href": "/n3-hearingpedia/concepts/vibrations-and-acoustics/",
+        "image": "/n3-hearingpedia/figures/foundation-courses/vibrations-and-acoustics.svg",
+        "imageLoaded": 614
+      }
+    },
+    "courseNavigation": {
+      "h1": "振动与声学基础",
+      "url": "http://127.0.0.1:4323/n3-hearingpedia/concepts/vibrations-and-acoustics/"
+    },
+    "search": {
+      "articleResultRank": 1,
+      "query": "振动与声学基础",
+      "topResults": [
+        {
+          "href": "/n3-hearingpedia/concepts/vibrations-and-acoustics/",
+          "title": "振动与声学基础"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/differential-equations-and-dynamical-systems/",
+          "title": "微分方程与动力系统"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/basilar-membrane/",
+          "title": "基底膜"
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "f9bded5fa1b72312f8337ed60ef3ab83b7c1c43f",
+  "limitations": [
+    "External professional review pending",
+    "Specified ideal models, not device, room or listener measurements",
+    "SI values and approximate air parameters do not imply calibrated recordings",
+    "Ideal boundaries, long-wave lumped models and viscous/proportional damping retain their conditions",
+    "Handwritten tube notes visually inspected in scoped pages; extracted text not treated as faithful transcription",
+    "No REW measurement, actual transducer calibration, absorption or clinical performance test performed",
+    "Baseline build chunk-size and Pagefind notices remain"
+  ]
+}

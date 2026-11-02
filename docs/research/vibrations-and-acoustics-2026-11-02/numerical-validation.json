@@ -1,0 +1,168 @@
+{
+  "slug": "vibrations-and-acoustics",
+  "check_groups": 38,
+  "checks": [
+    {
+      "name": "Underdamped exact initial-value response versus solver",
+      "passed": true
+    },
+    {
+      "name": "Critical-damping exact response",
+      "passed": true
+    },
+    {
+      "name": "Four damping regimes agree with independent matrix exponentials and nonincreasing energy",
+      "passed": true
+    },
+    {
+      "name": "Integrated damping loss matches mechanical energy decrease",
+      "passed": true
+    },
+    {
+      "name": "Mechanical compliance satisfies dynamic stiffness equation",
+      "passed": true
+    },
+    {
+      "name": "Constant-force displacement peak matches conditional formula",
+      "passed": true,
+      "frequency_ratio": 0.9591663046428843
+    },
+    {
+      "name": "High-damping displacement response has no nonzero-frequency peak",
+      "passed": true
+    },
+    {
+      "name": "Velocity peak is at natural frequency for constant-force viscous model",
+      "passed": true
+    },
+    {
+      "name": "Exact velocity half-power roots and Q bandwidth identity",
+      "passed": true
+    },
+    {
+      "name": "Average force-velocity input equals viscous loss",
+      "passed": true
+    },
+    {
+      "name": "Generalized eigenvalues and analytic two-mode frequencies",
+      "passed": true,
+      "frequencies_Hz": [
+        10.065842420897408,
+        15.09876363134611
+      ]
+    },
+    {
+      "name": "Mass orthogonality and diagonal modal stiffness",
+      "passed": true
+    },
+    {
+      "name": "Specified proportional damping diagonalizes with modes",
+      "passed": true
+    },
+    {
+      "name": "Direct dynamic-stiffness response equals modal synthesis",
+      "passed": true,
+      "max_difference_m_per_N": 1.9869968258640557e-16
+    },
+    {
+      "name": "Ideal uniform-piston area-squared impedance and power mapping",
+      "passed": true
+    },
+    {
+      "name": "Double-wave phasors satisfy Euler and continuity with fixed exp(iwt) signs",
+      "passed": true
+    },
+    {
+      "name": "Sinusoidal peak-to-RMS ratio is not a universal composite-wave ratio",
+      "passed": true
+    },
+    {
+      "name": "Time-domain pressure-velocity average matches peak-phasor intensity",
+      "passed": true
+    },
+    {
+      "name": "Pure standing wave stores energy with zero net active intensity",
+      "passed": true
+    },
+    {
+      "name": "Partially reflected field has constant net flux but nonconstant pressure squared",
+      "passed": true
+    },
+    {
+      "name": "Lossless normal-incidence energy conservation over impedance range",
+      "passed": true
+    },
+    {
+      "name": "Interface pressure and signed normal velocity continuity",
+      "passed": true
+    },
+    {
+      "name": "Pressure transmission greater than one with passive power balance",
+      "passed": true
+    },
+    {
+      "name": "SPL and intensity level differ for stated air impedance",
+      "passed": true,
+      "SPL_dB": 93.97940008672037,
+      "intensity_level_dB": 93.85524633909604
+    },
+    {
+      "name": "Two 70 dB cases and ideal point cancellation",
+      "passed": true
+    },
+    {
+      "name": "Coherent pressure sum includes expected cross term",
+      "passed": true
+    },
+    {
+      "name": "Spherical radial velocity from independent pressure derivative",
+      "passed": true
+    },
+    {
+      "name": "Pure outgoing spherical active intensity identity holds even at small kr",
+      "passed": true
+    },
+    {
+      "name": "Spherical reactive-to-active ratio and local impedance sign convention",
+      "passed": true
+    },
+    {
+      "name": "Spherical power conservation and distance-doubling level difference",
+      "passed": true
+    },
+    {
+      "name": "Ideal open-open and closed-open pressure boundary frequencies",
+      "passed": true
+    },
+    {
+      "name": "Tube input impedances from independent forward-backward wave ratio",
+      "passed": true
+    },
+    {
+      "name": "Tube low-frequency compliance and inertance limits",
+      "passed": true
+    },
+    {
+      "name": "Helmholtz port model agrees with independent physical plug mass and spring",
+      "passed": true,
+      "frequency_Hz": 152.98864296010012
+    },
+    {
+      "name": "Two-tap DTFT equals independently evaluated FFT bins",
+      "passed": true
+    },
+    {
+      "name": "Echo extrema and comb spacing",
+      "passed": true
+    },
+    {
+      "name": "Eighteen author/official source cache hashes match records",
+      "passed": true
+    },
+    {
+      "name": "Eleven original SVG assets parse without executable script",
+      "passed": true
+    }
+  ],
+  "professional_review": "pending"
+}

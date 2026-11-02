@@ -1,0 +1,44 @@
+import { readFile,writeFile,access } from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import { references } from '../src/data/references.ts';
+import { vibrationsAcousticsReferences } from '../src/data/vibrations-and-acoustics-references.ts';
+import { knowledgeRelations } from '../src/data/relations.ts';
+import { learningPaths } from '../src/data/paths.ts';
+const slug='vibrations-and-acoustics',record='docs/research/vibrations-and-acoustics-2026-11-02';
+const source=(await readFile('src/content/concepts/'+slug+'.md','utf8')).replaceAll('\r\n','\n');
+const body=source.split('\n---\n').slice(1).join('\n---\n');
+const ids=JSON.parse(source.match(/^references: (.+)$/m)[1]);
+const citations=[...body.matchAll(/\[(\d+)\]\(#ref-([^\s)]+)\)/g)];
+for(const c of citations)assert.equal(ids[Number(c[1])-1],c[2]);
+for(const id of ids){
+  assert(references[id]&&citations.some(c=>c[2]===id),id);
+  assert.equal(references[id].url,vibrationsAcousticsReferences[id].url,'Reference namespace collision: '+id);
+}
+assert.equal(new Set(ids).size,ids.length);
+const links=[...new Set([...body.matchAll(/\]\(\.\.\/([^/]+)\/\)/g)].map(m=>m[1]))];
+for(const target of links)await access('src/content/concepts/'+target+'.md');
+const edges=knowledgeRelations.filter(r=>r.source===slug||r.target===slug);
+assert.equal(edges.filter(r=>r.source===slug).length,10);
+for(const edge of edges){await access('src/content/concepts/'+edge.source+'.md');await access('src/content/concepts/'+edge.target+'.md');}
+assert(learningPaths.some(p=>p.id==='vibrations-and-acoustics-foundations'&&p.slugs.length===1&&p.slugs[0]===slug));
+assert(/^kind: "course"$/m.test(source)&&/^depth: in-depth$/m.test(source)&&/^status: draft$/m.test(source));
+assert(/^reviewer: null$/m.test(source)&&/^reviewed_at: null$/m.test(source));
+assert(body.includes('## 阅读准备与独立阅读'));
+for(const label of ['起步知识。','随用随补。','分层阅读。'])assert(body.includes(label));
+const companion=await readFile('src/content/concepts/differential-equations-and-dynamical-systems.md','utf8');
+assert(companion.includes('](../vibrations-and-acoustics/)'));
+const media=[...new Set([...body.matchAll(/src="(\/n3-hearingpedia\/figures\/vibrations-and-acoustics\/[^"]+)"/g)].map(m=>m[1]))];
+assert.equal(media.length,10);
+for(const path of media)await access('public'+path.replace('/n3-hearingpedia',''));
+const captions=[...body.matchAll(/<figcaption>([\s\S]*?)<\/figcaption>/g)];
+captions.forEach((m,i)=>{assert(m[1].startsWith('图'+(i+1)+'　'));assert(!m[1].includes('$'));});
+const snippets=[...body.matchAll(/```python\n([\s\S]*?)\n```/g)];
+assert.equal(snippets.length,3);
+for(const [i,s]of snippets.entries())await writeFile(record+'/example-'+(i+1)+'.py',s[1]+'\n','utf8');
+await writeFile(record+'/run-examples.py','from pathlib import Path\nimport runpy\nfor i in range(1,4):\n    runpy.run_path(str(Path(__file__).with_name(f"example-{i}.py")), run_name="__main__")\n','utf8');
+const result={slug,chinese_characters:(body.match(/[\u3400-\u9fff]/g)||[]).length,body_characters:body.length,sections:(body.match(/^## /gm)||[]).length,subsections:(body.match(/^### /gm)||[]).length,reference_ids:ids,wiki_links:links,figures:media.length,audio:0,code_examples:snippets.length,knowledge_area:'methods',kind:'course',status:'draft',depth:'in-depth'};
+await writeFile(record+'/content-validation.json',JSON.stringify(result,null,2)+'\n','utf8');
+const map=JSON.parse(await readFile('docs/research/wiki-evidence-map.json','utf8'));
+map.entries=map.entries.filter(e=>e.slug!==slug);map.entries.push(result);map.relations=knowledgeRelations.length;
+await writeFile('docs/research/wiki-evidence-map.json',JSON.stringify(map,null,2)+'\n','utf8');
+console.log(JSON.stringify(result,null,2));

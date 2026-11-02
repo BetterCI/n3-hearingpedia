@@ -9,7 +9,7 @@ aliases: ["声传播", "声波", "声音传播"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-10-29"
+last_updated: "2026-11-02"
 literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -33,6 +33,8 @@ order: 0
 在实际测量中，记录由声源、传播路径与接收设备共同决定。同一扬声器输出经过不同距离、反射或遮挡，可以产生不同波形与频谱。本文进一步展开近远场、测量控制和单反射算例，帮助读者判断理想规律可以解释哪些结果，以及哪些变化需要补充模型或实验。[9](#ref-waves-rew-ir)[17](#ref-waves-goerlitz-2018)
 
 需要进一步推导和计算时，可阅读[波动方程](../wave-equation/)理解初始条件与时间演化，再阅读[亥姆霍兹方程](../helmholtz-equation/)分析单频复声场、边界和模态。
+
+从机械质量、弹性与阻尼出发，系统学习共振、模态、声压与净声强、三类阻抗、分贝和管腔边界，可配合基础课程[振动与声学基础](../vibrations-and-acoustics/)阅读；该篇另用可复算模型核对单位、相位与能量。
 
 ## 声音怎样在介质中传递
 

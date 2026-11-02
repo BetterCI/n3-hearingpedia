@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('vibrations-and-acoustics','differential-equations-and-dynamical-systems','related','自由与强迫振动、初值和能量把微分方程连接到物理声学。',3),
+  link('vibrations-and-acoustics','nonlinear-dynamics','related','本篇建立线性振动与声学近似，便于继续研究非线性共振和自持振荡。',3),
+  link('vibrations-and-acoustics','linear-algebra','related','广义特征值、质量正交与模态叠加组织多自由度响应。',3),
+  link('vibrations-and-acoustics','wave-equation','related','线性声学的动量与连续性导出带初边值条件的波动问题。',3),
+  link('vibrations-and-acoustics','helmholtz-equation','related','单频相量、空间模态及边界进一步连接亥姆霍兹声场问题。',3),
+  link('vibrations-and-acoustics','sound-waves-and-propagation','related','质点运动、平面球面波、近远场及传播条件形成配套解释。',3),
+  link('vibrations-and-acoustics','spectrum-and-power-spectral-density','related','RMS、功率、谱密度与声级参考不同，FFT峰不独自确定模态。',3),
+  link('vibrations-and-acoustics','room-acoustics','related','反射、驻波、路径干涉和能流约束房间测量解释。',3),
+  link('vibrations-and-acoustics','electroacoustic-transducer','related','结构运动、声学负载与端口功率连接换能器。',3),
+  link('vibrations-and-acoustics','circuit-theory','related','机械阻抗、比声阻抗与体积速度端口按明确变量对应电路类比。',3),
   link('nonlinear-dynamics','differential-equations-and-dynamical-systems','related','配套深化局部与全局结构、周期轨道稳定、同步和混沌数值证据。',3),
   link('nonlinear-dynamics','calculus','related','状态导数、局部展开、势函数及慢快时间换元支持推导。',3),
   link('nonlinear-dynamics','linear-algebra','related','Jacobian、特征值、单周期矩阵和QR分解承担不同增长判据。',3),

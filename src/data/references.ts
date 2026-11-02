@@ -1,3 +1,4 @@
+import { vibrationsAcousticsReferences } from './vibrations-and-acoustics-references.ts';
 import { nonlinearDynamicsReferences } from './nonlinear-dynamics-references.ts';
 import { waveletAnalysisReferences } from './wavelet-analysis-references.ts';
 import { deepLearningReferences } from './deep-learning-references.ts';
@@ -108,6 +109,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...vibrationsAcousticsReferences,
   ...nonlinearDynamicsReferences,
   ...waveletAnalysisReferences,
   ...deepLearningReferences,

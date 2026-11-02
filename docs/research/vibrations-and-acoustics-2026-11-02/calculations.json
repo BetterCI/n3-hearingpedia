@@ -1,0 +1,61 @@
+{
+  "mass_kg": 0.02,
+  "stiffness_N_per_m": 80.0,
+  "natural_frequency_Hz": 10.065842420897408,
+  "zeta005": {
+    "displacement_peak_Hz": 10.040646280201592,
+    "velocity_peak_Hz": 10.065842420897408,
+    "Q": 10.0,
+    "velocity_half_power_Hz": [
+      9.57512474875386,
+      10.5817089908436
+    ]
+  },
+  "modal_frequencies_Hz": [
+    10.065842420897408,
+    15.09876363134611
+  ],
+  "modal_mass_orthogonality_error": 1.1102230246251565e-16,
+  "direct_modal_max_difference": 1.9391888634309274e-16,
+  "air": {
+    "rho": 1.2,
+    "c": 343.0,
+    "Z0": 411.59999999999997,
+    "frequency_Hz": 500.0,
+    "wavelength_m": 0.686,
+    "pressure_rms_Pa": 1.0,
+    "velocity_rms_m_per_s": 0.0024295432458697765,
+    "displacement_rms_m": 7.733476340714059e-07,
+    "SPL_dB": 93.97940008672037,
+    "active_intensity_W_per_m2": 0.0024295432458697765,
+    "intensity_level_dB": 93.85524633909604
+  },
+  "interface_ratio3": {
+    "rp": 0.5000000000000001,
+    "tp": 1.5,
+    "reflectance": 0.2500000000000001,
+    "transmittance": 0.75
+  },
+  "two_70dB": {
+    "uncorrelated": 73.01029995663981,
+    "in_phase": 76.02059991327963
+  },
+  "distance_doubling_dB": -6.020599913279624,
+  "tube_length_m": 0.5,
+  "open_open_f1_Hz": 343.0,
+  "closed_open_f1_Hz": 171.5,
+  "resonator": {
+    "area_m2": 0.0003141592653589793,
+    "volume_m3": 0.001,
+    "effective_length_m": 0.04,
+    "inertance_kg_per_m4": 152.78874536821954,
+    "compliance_m3_per_Pa": 7.08321646026174e-09,
+    "frequency_Hz": 152.98864296010012
+  },
+  "echo": {
+    "delay_s": 0.004,
+    "spacing_Hz": 250.0,
+    "peak_relative_dB": 4.082399653118496,
+    "minimum_relative_dB": -7.958800173440752
+  }
+}
