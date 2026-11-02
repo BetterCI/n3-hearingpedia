@@ -1,0 +1,140 @@
+{
+  "scope": "local production build",
+  "source_commit": null,
+  "courses": 13,
+  "course_cards": 13,
+  "folded_course_lists": 0,
+  "records": [
+    {
+      "slug": "linear-algebra",
+      "title": "线性代数",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "ececa5ff9286e47e5aa1a8dfc8f01f04ca9b58500b6e686268563140c12f6b6a",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "probability-theory",
+      "title": "概率论",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "278c4d04db62a138e931ccd6ac3443fabcc55cecf6013b6b029ccf62314e921a",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "complex-analysis",
+      "title": "复变函数",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "a10bffdc6966fbe9a2e7c99f55b34f6eeceddad096a97613f09e4f8cd6d5202b",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "information-theory",
+      "title": "信息论",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "68a8d577283dafae5d3146137ad41a92c55061a31d5f660c86606aeb83774c07",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "chinese-phonetics",
+      "title": "汉语语音学",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "5ef2b1c3ee12df40a4021e315f9bb46ab8f3ca3c53fef1f01ba145bf5f345a07",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "mathematical-statistics",
+      "title": "数理统计",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "8ca6f45f9e3cae82db1ec8af88e0609c938a192bf0daa36bc1775cca8771c83f",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "computational-neuroscience",
+      "title": "计算神经科学",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "cd6f3c4a756f166fdba3249dd675d67749802eddb9d45ad66580c84b235fba8b",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "machine-learning",
+      "title": "机器学习",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "3732a648eb742b5891e86e071ed37d11dc6f4c8572728fa3ed7c4836a1d5f399",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "circuit-theory",
+      "title": "电路原理",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "b0baa9eb3ea3a0cb1888ed09345e7fec1ec882236a835aeea53262e6f19ab304",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "mathematical-physics-methods",
+      "title": "数学物理方法",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "e786e9ad7bbbc0750d4d9ba0ec5e8af1ae60ac2d8a064518f68b6c11fea8c8f0",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "functional-analysis",
+      "title": "泛函分析",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "28a5efa5dbf8edcfcd9bfcc311d5db02cafa568457b55bd83c186c4e77ace7e9",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "biophysics",
+      "title": "生物物理学",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "03387932b6cc2b1bbd3531d5ce87f6c2bae01ae7fefb7ed90edf6d8608560422",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    },
+    {
+      "slug": "signals-and-systems",
+      "title": "信号与系统",
+      "guide_anchor": "阅读准备与独立阅读",
+      "guide_paragraphs": 3,
+      "guide_matches_local_build": true,
+      "guide_text_sha256": "3ac734d572e7f43fadc3eb12ccf312672173bdc60dfef89856edfd00033b998c",
+      "math_errors": 0,
+      "review_status": "pending professional review"
+    }
+  ],
+  "verified": true
+}

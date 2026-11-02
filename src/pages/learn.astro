@@ -44,7 +44,7 @@ const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path
       {mainPaths.map(path=><details class="path-full full-path-details" id={path.id}><summary><span>{path.title}</span><small>{path.slugs.length} 步</small></summary><div class="full-path-body"><p>{path.description}</p><ol class="path-steps">{path.slugs.map((slug,i)=><li><a href={stepUrl(slug,path.id)}><span class="step-index">{String(i+1).padStart(2,'0')}</span><span><strong>{bySlug[slug].data.title}</strong><small>{bySlug[slug].data.english} · {bySlug[slug].data.summary}</small></span><span class="step-arrow" aria-hidden="true">↗</span></a></li>)}</ol></div></details>)}
     </section>
     {foundationPaths.length>0 && <section class="section foundations-section" id="foundations" aria-labelledby="foundations-title">
-      <div class="eyebrow">Supplementary learning</div><h2 id="foundations-title">补充学习：基础课程</h2><p>补足听觉研究中常用的基础知识，从一门课开始阅读。</p>
+      <div class="eyebrow">Supplementary learning</div><h2 id="foundations-title">补充学习：基础课程</h2><p>补足听觉研究中常用的基础知识，从一门课开始阅读。每篇开头说明起步知识、随用随补的小例子和分层读法，相关课程供按需查阅。</p>
       <div class="foundation-grid">
         {foundationEntries.map(({concept,anchor})=><a class="foundation-card" id={anchor} href={url('concepts/'+concept.data.slug)}>
           <img class="foundation-sketch" src={asset('figures/foundation-courses/'+concept.data.slug+'.svg')} alt="" width="320" height="180" loading="lazy" />

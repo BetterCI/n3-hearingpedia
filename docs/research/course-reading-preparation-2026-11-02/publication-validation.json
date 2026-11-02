@@ -1,0 +1,51 @@
+{
+  "scope": "Editorial course-entry revision, not a new full scientific review",
+  "base_commit": "3091c0ab6b54e920f81da8682d45c30979620b02",
+  "courses_updated": 13,
+  "guide_sections_per_course": 1,
+  "guide_paragraphs_per_course": 3,
+  "all_original_scientific_bodies_unchanged": true,
+  "all_reference_ids_unchanged": true,
+  "review_status": "draft; pending professional review",
+  "typecheck": {
+    "files": 211,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "site_verification": {
+    "pages": 300,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 26069,
+    "equations": 511,
+    "searchableConcepts": 130,
+    "wikiConcepts": 130,
+    "knowledgeAreas": 7,
+    "typedRelationships": 883,
+    "wikiCrossLinks": 1395,
+    "chineseCharacters": 900978,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "width": 1265,
+      "document_width": 1265,
+      "sample": "information-theory"
+    },
+    "mobile_390": {
+      "root_width": 375,
+      "document_width": 375,
+      "samples": [
+        "information-theory",
+        "functional-analysis"
+      ]
+    },
+    "toc_link_to_guide_verified": true,
+    "screenshot_scope": "local production build"
+  },
+  "limitations": [
+    "Entry concepts and reading paths help independent reading; advanced proofs and implementations still require the stated mathematical tools",
+    "No external professional review",
+    "Existing build chunk-size and Pagefind notices remain"
+  ]
+}
