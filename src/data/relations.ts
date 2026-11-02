@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('nonlinear-dynamics','differential-equations-and-dynamical-systems','related','配套深化局部与全局结构、周期轨道稳定、同步和混沌数值证据。',3),
+  link('nonlinear-dynamics','calculus','related','状态导数、局部展开、势函数及慢快时间换元支持推导。',3),
+  link('nonlinear-dynamics','linear-algebra','related','Jacobian、特征值、单周期矩阵和QR分解承担不同增长判据。',3),
+  link('nonlinear-dynamics','numerical-analysis','related','积分容差、时长和重正交间隔的稳健性约束有限数值证据。',3),
+  link('nonlinear-dynamics','mathematical-statistics','related','替代数据、零假设、非平稳和独立数据限制实验混沌推断。',3),
+  link('nonlinear-dynamics','computational-neuroscience','related','多稳态、节律和耦合属于可检验模型机制，不由轨道形状直接验证。',3),
+  link('nonlinear-dynamics','biophysics','related','临界振荡、能量输入与耗散需要物理变量、尺度和测量对应。',3),
+  link('nonlinear-dynamics','control-theory','related','反馈可改变稳定与分岔，状态与参数作用仍需分别判断。',3),
+  link('nonlinear-dynamics','phase-locking','related','区分确定性相位约化中的锁定与刺激相关放电的测量含义。',2),
+  link('nonlinear-dynamics','spectrum-and-power-spectral-density','related','谱线、连续谱和功率结构不独自证明确定性混沌。',3),
   link('wavelet-analysis','signals-and-systems','related','以变换、卷积和时频观察为基础，深入随尺度变化的局部表示。',3),
   link('wavelet-analysis','digital-signal-processing','related','分析合成滤波、抽取、插值和有限边界支持快速离散小波。',3),
   link('wavelet-analysis','linear-algebra','related','正交矩阵、内积和Parseval等式解释有限Haar变换。',3),

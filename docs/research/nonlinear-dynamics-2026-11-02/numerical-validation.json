@@ -1,0 +1,176 @@
+{
+  "slug": "nonlinear-dynamics",
+  "check_groups": 31,
+  "checks": [
+    {
+      "name": "Nonlinear superposition fails in specified scalar model",
+      "passed": true
+    },
+    {
+      "name": "Potential derivative is minus squared scalar flow",
+      "passed": true
+    },
+    {
+      "name": "Two attracting equilibria and an unstable separator",
+      "passed": true
+    },
+    {
+      "name": "Specified scalar basins match signed trajectories",
+      "passed": true
+    },
+    {
+      "name": "Cubic fold coordinates and vanishing derivative",
+      "passed": true,
+      "fold_h": 0.3849001794597505
+    },
+    {
+      "name": "Cubic root residuals and counts on both sides of folds",
+      "passed": true
+    },
+    {
+      "name": "Two-parameter cusp fold parametrization",
+      "passed": true
+    },
+    {
+      "name": "Ghost passage time by independent quadrature",
+      "passed": true,
+      "time": 29.4225534860747
+    },
+    {
+      "name": "Hopf radial exact solution versus Cartesian ODE",
+      "passed": true
+    },
+    {
+      "name": "Critical Hopf algebraic decay",
+      "passed": true
+    },
+    {
+      "name": "Full two-dimensional Floquet integration matches neutral and radial multipliers",
+      "passed": true,
+      "multipliers": [
+        0.6703200460356629,
+        1.0000000000000053
+      ]
+    },
+    {
+      "name": "Independent centered-difference Hopf Jacobian",
+      "passed": true
+    },
+    {
+      "name": "Critical resonant cubic-root response and rotating-frame stability",
+      "passed": true
+    },
+    {
+      "name": "Quintic subcritical radii and transverse signs",
+      "passed": true,
+      "radii": [
+        0.42868663844720195,
+        0.9034532450640919
+      ],
+      "derivatives": [
+        0.23245553203367586,
+        -1.0324555320336761
+      ]
+    },
+    {
+      "name": "Cycle saddle-node at mu=-1/4",
+      "passed": true
+    },
+    {
+      "name": "Van der Pol energy balance",
+      "passed": true
+    },
+    {
+      "name": "Slow-fast coordinate and time-rescaling identities",
+      "passed": true
+    },
+    {
+      "name": "Averaged Van der Pol energy gives stated amplitude equation",
+      "passed": true
+    },
+    {
+      "name": "Duffing cubic harmonic projection",
+      "passed": true
+    },
+    {
+      "name": "Harmonic-balance candidates satisfy their approximate algebraic equation",
+      "passed": true,
+      "max_residual": 4.996003610813204e-16
+    },
+    {
+      "name": "Small-amplitude Duffing backbone compared with exact energy quadrature",
+      "passed": true,
+      "exact_frequency": 1.0037418361777424,
+      "approximate_frequency": 1.0037429949942367
+    },
+    {
+      "name": "Adler locked phase and linear relaxation rate",
+      "passed": true
+    },
+    {
+      "name": "Unlocked phase slip rate by one-turn quadrature",
+      "passed": true,
+      "mean_slip": 0.8306623862918077
+    },
+    {
+      "name": "Analytic logistic period-two cycle and multiplier",
+      "passed": true
+    },
+    {
+      "name": "Second period-doubling threshold",
+      "passed": true
+    },
+    {
+      "name": "Specified r=4 estimate near typical ln2, with explicit exceptional fixed point",
+      "passed": true,
+      "finite_estimate": 0.6931030687512817,
+      "typical_value": 0.6931471805599453
+    },
+    {
+      "name": "Lorenz analytic Jacobian and trace",
+      "passed": true
+    },
+    {
+      "name": "Lorenz QR robust to longer duration, finer step, tolerance and reorthogonalization",
+      "passed": true,
+      "base": {
+        "exponents": [
+          0.8910116742956823,
+          -0.003925530529835192,
+          -14.553752806363885
+        ],
+        "duration": 240.0,
+        "burn": 30.0,
+        "interval": 0.5,
+        "rtol": 1e-09,
+        "max_step": 0.04
+      },
+      "alternative": {
+        "exponents": [
+          0.9121103764584103,
+          -0.0011332375932743377,
+          -14.57764380550117
+        ],
+        "duration": 360.0,
+        "burn": 30.0,
+        "interval": 0.25,
+        "rtol": 2e-10,
+        "max_step": 0.02
+      }
+    },
+    {
+      "name": "Liouville determinant identity on independent short variational solve",
+      "passed": true,
+      "log_abs_determinant": -2.7333333333332455
+    },
+    {
+      "name": "Eighteen source file hashes match scoped records",
+      "passed": true
+    },
+    {
+      "name": "Eleven original SVG files parse without executable scripts",
+      "passed": true
+    }
+  ],
+  "professional_review": "pending"
+}

@@ -1,0 +1,206 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted definitions, source, analytic and numerical audit complete; professional review pending",
+  "check_groups": 31,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 18,
+    "by_kind": {
+      "author_lecture": 15,
+      "original_paper": 1,
+      "author_review": 1,
+      "official_documentation": 1
+    },
+    "original_HTTP_files": 18,
+    "text_extraction_methods": {
+      "pypdf text extraction": 17,
+      "HTML main text": 1
+    },
+    "SciPy_documentation": "stable snapshot checked 2026-11-02; local runtime 1.17.1"
+  },
+  "typecheck": {
+    "files": 231,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 320,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 28165,
+    "equations": 553,
+    "searchableConcepts": 140,
+    "wikiConcepts": 140,
+    "knowledgeAreas": 7,
+    "typedRelationships": 983,
+    "wikiCrossLinks": 1517,
+    "chineseCharacters": 980417,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "Local production build; not production browser screenshot",
+    "desktop": {
+      "codeExamples": 3,
+      "displaySizes": [
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        }
+      ],
+      "displays": 10,
+      "figures": 10,
+      "h1": "非线性动力学",
+      "math": 10,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rawTexCaptions": 0,
+      "references": 18,
+      "rootWidth": 1265,
+      "scrollWidth": 1265,
+      "title": "非线性动力学 · Nonlinear Dynamics · n³ Hearingpedia",
+      "unexpectedEmphasis": 0
+    },
+    "mobile": {
+      "displaySizes": [
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        }
+      ],
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rootWidth": 375,
+      "scrollWidth": 375
+    },
+    "companions": [
+      {
+        "backLinks": 1,
+        "title": "微分方程与动力系统"
+      }
+    ],
+    "learn": {
+      "cards": 23,
+      "foldedLists": 0,
+      "newCard": {
+        "href": "/n3-hearingpedia/concepts/nonlinear-dynamics/",
+        "image": "/n3-hearingpedia/figures/foundation-courses/nonlinear-dynamics.svg",
+        "imageLoaded": 614
+      }
+    },
+    "courseNavigation": {
+      "h1": "非线性动力学",
+      "url": "http://127.0.0.1:4323/n3-hearingpedia/concepts/nonlinear-dynamics/"
+    },
+    "search": {
+      "articleResultRank": 2,
+      "query": "非线性动力学",
+      "topResults": [
+        {
+          "href": "/n3-hearingpedia/concepts/differential-equations-and-dynamical-systems/",
+          "title": "微分方程与动力系统"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/nonlinear-dynamics/",
+          "title": "非线性动力学"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/computational-neuroscience/",
+          "title": "计算神经科学"
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "87f88c9fc3aa5ee3c4ce3a7e833d4557ef5d391c",
+  "limitations": [
+    "External professional review pending",
+    "Specified dimensionless mathematical models, not acoustic, physiological or device measurements",
+    "Lorenz finite-time QR and parameter-sensitivity checks do not prove existence of a chaotic attractor",
+    "Harmonic-balance candidates are not exact solutions or independently classified stable branches",
+    "No empirical state reconstruction, surrogate-data significance test or real-time device implemented",
+    "Baseline build chunk-size and Pagefind notices remain"
+  ]
+}

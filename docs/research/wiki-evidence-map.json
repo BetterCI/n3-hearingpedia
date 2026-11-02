@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-02",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 973,
+  "relations": 983,
   "entries": [
     {
       "slug": "cochlea",
@@ -5979,8 +5979,8 @@
     },
     {
       "slug": "differential-equations-and-dynamical-systems",
-      "chinese_characters": 7544,
-      "body_characters": 17693,
+      "chinese_characters": 7616,
+      "body_characters": 17814,
       "sections": 13,
       "subsections": 30,
       "reference_ids": [
@@ -6013,6 +6013,7 @@
       "wiki_links": [
         "control-theory",
         "mathematical-physics-methods",
+        "nonlinear-dynamics",
         "calculus",
         "linear-algebra",
         "probability-theory",
@@ -6175,6 +6176,51 @@
         "numerical-analysis",
         "machine-learning",
         "deep-learning"
+      ],
+      "figures": 10,
+      "audio": 0,
+      "code_examples": 3,
+      "knowledge_area": "methods",
+      "kind": "course",
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "nonlinear-dynamics",
+      "chinese_characters": 7605,
+      "body_characters": 18058,
+      "sections": 16,
+      "subsections": 27,
+      "reference_ids": [
+        "nd-scalar",
+        "nd-phase",
+        "nd-dissipation",
+        "nd-cycles",
+        "nd-hopf",
+        "nd-spectral",
+        "nd-poincare",
+        "nd-strange",
+        "nd-lorenz",
+        "nd-lyapunov",
+        "nd-maps",
+        "nd-intermittency",
+        "nd-normalforms",
+        "nd-weak",
+        "nd-hopf-proof",
+        "nd-cochlea",
+        "nd-surrogates",
+        "nd-ivp"
+      ],
+      "wiki_links": [
+        "differential-equations-and-dynamical-systems",
+        "calculus",
+        "linear-algebra",
+        "numerical-analysis",
+        "mathematical-statistics",
+        "phase-locking",
+        "computational-neuroscience",
+        "biophysics",
+        "control-theory"
       ],
       "figures": 10,
       "audio": 0,
