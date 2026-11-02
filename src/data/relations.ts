@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('control-theory','signals-and-systems','related','传递函数、卷积、状态与频率响应为闭环分析提供表示。',3),
+  link('control-theory','circuit-theory','related','电路动态、反馈与实际传感执行端口连接控制建模。',3),
+  link('control-theory','optimization-methods','related','最优控制与约束设计需要明确代价、动态限制和求解条件。',3),
+  link('control-theory','linear-algebra','related','特征值、秩、正定、坐标变换与矩阵方程支撑状态设计。',3),
+  link('control-theory','calculus','related','微分方程、局部线性化与沿轨迹导数解释动态和稳定性。',3),
+  link('control-theory','numerical-analysis','related','求解精度、模型离散、条件性和独立验证不能由仿真成功替代。',3),
+  link('control-theory','digital-signal-processing','related','采样、保持、时延、有限精度与噪声影响实时数字回路。',3),
+  link('control-theory','computational-neuroscience','application','动态模型的调节与估计不自动确认真实神经机制。',2),
+  link('control-theory','biophysics','application','能量、物理参数和工作点有助于建立可检验的动态模型。',2),
+  link('control-theory','functional-analysis','related','稳定算子、范数与增益界连接输入输出和鲁棒性。',2),
   link('optimization-methods','calculus','related','用导数、梯度和局部近似建立搜索方向与最优性条件。',3),
   link('optimization-methods','linear-algebra','related','正定性、分解、奇异值和最小二乘支持曲率子问题。',3),
   link('optimization-methods','numerical-analysis','related','条件数、舍入、缩放与迭代残差决定数值验证方式。',3),

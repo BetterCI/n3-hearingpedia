@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "check_groups": 26,
+  "checks": [
+    {
+      "check": "proportional_response_and_equilibrium",
+      "result": "passed",
+      "detail": "Piecewise high-accuracy ODE and exact rational steady output 43/50 independently verify the analytic graph."
+    },
+    {
+      "check": "state_transfer_equivalence",
+      "result": "passed",
+      "detail": "Three complex points verify C(sI-A)^-1B versus independently derived scalar denominator."
+    },
+    {
+      "check": "hidden_internal_instability",
+      "result": "passed",
+      "detail": "An uncontrollable/unobservable +1 mode grows while the reduced transfer remains 1/(s+1)."
+    },
+    {
+      "check": "second_order_response",
+      "result": "passed",
+      "detail": "Underdamped trigonometric and overdamped exponential formulas independently match all three plotted responses."
+    },
+    {
+      "check": "peak_time_and_overshoot",
+      "result": "passed",
+      "detail": "Analytic peak time and overshoot agree with independent state propagation at exactly the predicted time."
+    },
+    {
+      "check": "Routh_interval_and_boundary",
+      "result": "passed",
+      "detail": "All first-column signs give 0<K<6; 122 sample root counts and exact factorization at K=6 cross-check."
+    },
+    {
+      "check": "root_locus_step_responses",
+      "result": "passed",
+      "detail": "Independent third-order ODE with explicit forcing verifies all three plotted step responses."
+    },
+    {
+      "check": "S_T_and_disturbance_locations",
+      "result": "passed",
+      "detail": "Independent two-equation interconnection checks reference, input disturbance and measurement-noise signs."
+    },
+    {
+      "check": "pure_delay_magnitude",
+      "result": "passed",
+      "detail": "Exact exponential preserves loop magnitude over the specified frequency range."
+    },
+    {
+      "check": "gain_crossover_and_exact_delay_crossing",
+      "result": "passed",
+      "detail": "Independent bracketed solve finds unity crossing; exact delayed characteristic vanishes at the predicted first boundary."
+    },
+    {
+      "check": "delay_characteristic_pair",
+      "result": "passed",
+      "detail": {
+        "root_at_theta_1": [
+          -0.06482269327328087,
+          1.4808749343311587
+        ],
+        "root_at_theta_1_5": [
+          0.046606665248573195,
+          1.181464027420979
+        ],
+        "scope": "Checks this crossing pair, not all delay roots by finite search."
+      }
+    },
+    {
+      "check": "Nyquist_orientation_and_winding",
+      "result": "passed",
+      "detail": "Both frequency halves, clockwise-positive convention and asymptotic closure give N=0,0,2; numerical corroboration of analytic boundary only."
+    },
+    {
+      "check": "small_gain_example_bound",
+      "result": "passed",
+      "detail": "An independently completed square yields a continuous-frequency bound for W=0.2 and the undelayed stable loop."
+    },
+    {
+      "check": "windup_analytic_segment",
+      "result": "passed",
+      "detail": "Exact saturated trajectory independently verifies delayed recovery through tau=8."
+    },
+    {
+      "check": "windup_independent_integration",
+      "result": "passed",
+      "detail": "Piecewise adaptive ODE and RK4 step halving check saturation transitions and reference boundary."
+    },
+    {
+      "check": "controllability_observability_and_coordinates",
+      "result": "passed",
+      "detail": "Exact determinants and invertible state transformation independently verify structure."
+    },
+    {
+      "check": "pole_placement_closed_form",
+      "result": "passed",
+      "detail": "Hand-derived characteristic coefficients independently confirm both API gains."
+    },
+    {
+      "check": "state_transition_crosscheck",
+      "result": "passed",
+      "detail": "Independent adaptive integration matches exact linear matrix-exponential propagation."
+    },
+    {
+      "check": "observer_noise_transfer",
+      "result": "passed",
+      "detail": "Independent scalar rational expression verifies velocity-estimate noise channel for both pole pairs."
+    },
+    {
+      "check": "observer_noise_and_peaking",
+      "result": "passed",
+      "detail": "Faster example amplifies 10-rad/normalized-time noise more and has initial error peaking; no universal ranking claimed."
+    },
+    {
+      "check": "separation_principle_algebra",
+      "result": "passed",
+      "detail": "Explicit triangular closed-loop matrix has the union of feedback and observer poles."
+    },
+    {
+      "check": "LQR_closed_form_and_stability",
+      "result": "passed",
+      "detail": "Independent analytic Riccati solution, PSD, residual and Hurwitz checks, plus separate Lyapunov cost identity."
+    },
+    {
+      "check": "LQR_direct_cost_integral",
+      "result": "passed",
+      "detail": "Independent scalar adaptive quadrature plus exact tail verifies total infinite-horizon cost for each weight."
+    },
+    {
+      "check": "Lyapunov_identities",
+      "result": "passed",
+      "detail": "SPD linear Lyapunov certificate and exact solution x0/sqrt(1+2*x0^2*t) for x prime=-x^3."
+    },
+    {
+      "check": "ZOH_and_sampling_boundary",
+      "result": "passed",
+      "detail": "Exact integral, API and independent held-input ODE agree; strict stability boundary h=ln(5/3)."
+    },
+    {
+      "check": "interconnection_order_counterexample",
+      "result": "passed",
+      "detail": "Sampling the continuous closed loop is distinct from digital feedback around a ZOH plant."
+    }
+  ],
+  "scope": "Specified normalized teaching models; finite numerical checks complement analytic arguments; professional review pending."
+}

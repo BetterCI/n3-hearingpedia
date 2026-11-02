@@ -70,6 +70,7 @@ export const learningPaths = [
   { id:'calculus-foundations',title:'微积分：从局部变化理解累积与连续模型',english:'Calculus from limits to continuous models',description:'从极限、导数与积分进入基本定理、近似、收敛、多元微分和初值问题，核对条件与数值误差。',slugs:['calculus'] },
   { id:'numerical-analysis-foundations',title:'数值分析：从误差理解可靠的近似计算',english:'Numerical analysis from errors to reliable computation',description:'从浮点、条件数与稳定性进入方程求解、插值、求积、刚性与网格，用独立核对判断结果。',slugs:['numerical-analysis'] },
   {id:'optimization-methods-foundations',title:'最优化方法：从建模到最优性验证',english:'Optimization from modeling to verification',description:'定义目标与可行域，理解凸性、梯度、曲率、KKT和近端方法，再核对步长、缩放与停止条件。',slugs:['optimization-methods']},
+  {id:'control-theory-foundations',title:'控制理论：从反馈理解稳定与动态设计',english:'Control theory from feedback to dynamic design',description:'从反馈、稳定、根轨迹与裕度进入PID、状态反馈、观测器和LQR，核对时延、噪声、饱和与采样条件。',slugs:['control-theory']},
 ];
 
 export const allLearningPaths = [

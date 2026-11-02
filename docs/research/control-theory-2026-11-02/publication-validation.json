@@ -1,0 +1,180 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted source, analytic and numerical audit complete; professional review pending",
+  "numerical_check_groups": 26,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 24,
+    "MIT_Hall_lectures": 12,
+    "MIT_How_Frazzoli_lectures": 6,
+    "LQR_recitation": 1,
+    "MIT_author_Lyapunov_chapter": 1,
+    "MIT_robustness_textbook_chapter": 1,
+    "official_SciPy_pages": 3,
+    "online_documentation_version": "1.18.0"
+  },
+  "typecheck": {
+    "files": 221,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 310,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 27071,
+    "equations": 522,
+    "searchableConcepts": 135,
+    "wikiConcepts": 135,
+    "knowledgeAreas": 7,
+    "typedRelationships": 933,
+    "wikiCrossLinks": 1459,
+    "chineseCharacters": 939067,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "Local production build; not production browser screenshot",
+    "desktop": {
+      "codeExamples": 3,
+      "displaySizes": [
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        }
+      ],
+      "displays": 6,
+      "figures": 10,
+      "h1": "控制理论",
+      "inlineMathOutside": 0,
+      "math": 9,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rawTexCaptions": 0,
+      "references": 24,
+      "rootWidth": 1265,
+      "scrollWidth": 1265,
+      "title": "控制理论 · Control Theory · n³ Hearingpedia",
+      "unexpectedEmphasis": 0
+    },
+    "mobile": {
+      "displaySizes": [
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        }
+      ],
+      "inlineMathOutside": 0,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rootWidth": 375,
+      "scrollWidth": 375
+    },
+    "learn": {
+      "cards": 18,
+      "folded": 0,
+      "newCard": {
+        "href": "/n3-hearingpedia/concepts/control-theory/",
+        "imageLoaded": 320,
+        "title": "控制理论"
+      },
+      "rootWidth": 1265,
+      "scrollWidth": 1265
+    },
+    "companions": [
+      {
+        "backLinks": 1,
+        "h1": "信号与系统"
+      },
+      {
+        "backLinks": 1,
+        "h1": "最优化方法"
+      }
+    ],
+    "search": {
+      "query": "控制理论",
+      "matchingLinks": [
+        {
+          "href": "/n3-hearingpedia/concepts/control-theory/",
+          "text": "控制理论"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/control-theory/#%E5%8F%82%E8%80%83-%E6%8E%A7%E5%88%B6%E5%8A%A8%E4%BD%9C%E4%B8%8E%E6%B5%8B%E9%87%8F%E5%88%86%E5%88%AB%E8%B4%9F%E8%B4%A3%E4%BB%80%E4%B9%88",
+          "text": "参考 控制动作与测量分别负责什么"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/control-theory/#%E5%8F%8D%E9%A6%88%E5%88%A9%E7%94%A8%E4%BF%A1%E6%81%AF-%E4%B9%9F%E5%8F%97%E6%B5%8B%E9%87%8F%E5%92%8C%E6%89%A7%E8%A1%8C%E9%99%90%E5%88%B6",
+          "text": "反馈利用信息 也受测量和执行限制"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/control-theory/#%E7%BB%83%E4%B9%A0%E4%B8%89-%E7%94%A8%E7%B2%BE%E7%A1%AEzoh%E6%A0%B8%E5%AF%B9%E9%87%87%E6%A0%B7%E9%99%90%E5%88%B6",
+          "text": "练习三 用精确ZOH核对采样限制"
+        }
+      ],
+      "matched_entry_position": 2,
+      "observed_top_result": "马大猷",
+      "entry_found": true
+    },
+    "viewport_reset": true
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "bc29908dbb74e46bf3a469e8e6626539a31a7021",
+  "limitations": [
+    "No external professional reviewer",
+    "Normalized teaching models, not hearing/device measurements",
+    "Finite checks complement analytic arguments; no general proof by simulation",
+    "No certified interval bounds or hardware validation",
+    "API version differs from runtime",
+    "Baseline chunk-size and Pagefind notices remain"
+  ]
+}
