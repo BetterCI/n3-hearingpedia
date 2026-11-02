@@ -31,7 +31,7 @@
     "knowledgeAreas": 7,
     "typedRelationships": 903,
     "wikiCrossLinks": 1421,
-    "chineseCharacters": 916243,
+    "chineseCharacters": 916355,
     "brokenLinks": 0
   },
   "browser": {
@@ -99,7 +99,8 @@
         }
       ]
     },
-    "screenshot_scope": "Local production build; production checked separately by HTTP"
+    "screenshot_scope": "Local production build; production checked separately by HTTP",
+    "final_limit_domain_condition_verified": true
   },
   "runtime": {
     "python": "3.11.0",
