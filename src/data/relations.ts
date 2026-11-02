@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('stochastic-processes','signals-and-systems','related','把卷积与频响扩展到随机输入的均值、相关、互谱和稳态条件。',3),
+  link('stochastic-processes','digital-signal-processing','related','采样、混叠、数字滤波及谱估计需同时核对总体模型与有限实现。',3),
+  link('stochastic-processes','probability-theory','related','联合分布、期望、条件化与独立性组织过程的时间依赖。',3),
+  link('stochastic-processes','mathematical-statistics','related','平稳、遍历、估计偏差与有效样本数决定有限记录的推断范围。',3),
+  link('stochastic-processes','spectrum-and-power-spectral-density','related','谱测度、每Hz单位、窗与单侧折叠连接总体PSD及有限估计。',3),
+  link('stochastic-processes','fir-and-iir-filters','related','LTI整形、输出协方差与初态要求约束随机数字滤波。',3),
+  link('stochastic-processes','linear-algebra','related','半正定协方差、Toeplitz矩阵和正交投影支撑线性估计。',3),
+  link('stochastic-processes','computational-neuroscience','related','Poisson计数、状态模型及统计假设不自动等同真实神经机制。',3),
+  link('stochastic-processes','machine-learning','related','序列联合建模和条件估计需保留依赖、验证与可用信息边界。',2),
+  link('stochastic-processes','control-theory','related','噪声驱动、状态估计与因果信息结构连接动态系统。',3),
   link('vibrations-and-acoustics','differential-equations-and-dynamical-systems','related','自由与强迫振动、初值和能量把微分方程连接到物理声学。',3),
   link('vibrations-and-acoustics','nonlinear-dynamics','related','本篇建立线性振动与声学近似，便于继续研究非线性共振和自持振荡。',3),
   link('vibrations-and-acoustics','linear-algebra','related','广义特征值、质量正交与模态叠加组织多自由度响应。',3),

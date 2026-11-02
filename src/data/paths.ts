@@ -77,6 +77,7 @@ export const learningPaths = [
   {id:'wavelet-analysis-foundations',title:'小波分析：从多尺度模板到重建与推断',english:'Wavelet analysis from multiscale templates to reconstruction and inference',description:'理解连续小波、Haar、多分辨分析、滤波器组、边界、去噪和小波包，核查时频图与相干。',slugs:['wavelet-analysis']},
   {id:'nonlinear-dynamics-foundations',title:'非线性动力学：从多稳态到振荡与混沌证据',english:'Nonlinear dynamics from multistability to oscillations and evidence for chaos',description:'配合微分方程与动力系统，理解正规形、滞后、Hopf、周期稳定、慢快振荡、同步与变分指数。',slugs:['nonlinear-dynamics']},
   {id:'vibrations-and-acoustics-foundations',title:'振动与声学基础：从惯性弹性到声波与测量',english:'Vibrations and acoustics from inertia and elasticity to waves and measurement',description:'理解阻尼、共振、模态、声压与能流、阻抗、分贝、反射和管腔共振，核查单位与边界。',slugs:['vibrations-and-acoustics']},
+  {id:'stochastic-processes-foundations',title:'随机过程：从时间依赖到谱与随机滤波',english:'Stochastic processes from temporal dependence to spectra and filtering',description:'配合信号与系统、数字信号处理，理解平稳、遍历、相关、谱、采样、Wiener与事件模型。',slugs:['stochastic-processes']},
 ];
 
 export const allLearningPaths = [

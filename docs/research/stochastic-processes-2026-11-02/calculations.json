@@ -1,0 +1,90 @@
+{
+  "fs_Hz": 1000.0,
+  "AR_coefficient": 0.8,
+  "innovation_variance": 0.3599999999999999,
+  "stationary_variance": 1.0,
+  "mean_N64_variance": 0.1308593811299822,
+  "mean_N64_iid_variance": 0.015625,
+  "mean_N64_effective_independent_count": 7.6417906868037475,
+  "mean_asymptotic_variance_inflation": 9.000000000000002,
+  "moving_average8_output_variance": 0.6048576000000001,
+  "mixture_white": {
+    "ensemble_variance": 2.5,
+    "shared_amplitudes": [
+      1,
+      2
+    ],
+    "conditional_time_powers": [
+      1,
+      4
+    ],
+    "distinct_squared_samples_covariance": 2.25
+  },
+  "random_phase_tone": {
+    "256": {
+      "bin_width_Hz": 3.90625,
+      "peak_Pa2_per_Hz": 0.25600000000000006,
+      "integrated_mean_square": 1.0000000000000002
+    },
+    "1024": {
+      "bin_width_Hz": 0.9765625,
+      "peak_Pa2_per_Hz": 1.0240000000000005,
+      "integrated_mean_square": 1.0000000000000004
+    }
+  },
+  "aliasing": {
+    "original_variance": 1.5,
+    "sampled_variance": 1.5,
+    "antialias_variance": 0.9
+  },
+  "wiener": {
+    "weights": [
+      0.5150018074466803,
+      0.20725388601036274,
+      0.09639715628388966
+    ],
+    "causal3_population_MSE": 0.2575009037233401,
+    "noncausal_population_MSE": 0.20751433915982234,
+    "noisy_MSE": 0.5
+  },
+  "correlation_estimators": {
+    "biased": [
+      1.0,
+      -0.6666666666666666,
+      0.3333333333333333
+    ],
+    "unbiased": [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "unbiased_zero_extended_spectrum_at_cos_quarter": -1.25
+  },
+  "markov": {
+    "transition": [
+      [
+        0.95,
+        0.05
+      ],
+      [
+        0.1,
+        0.9
+      ]
+    ],
+    "stationary": [
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "second_eigenvalue": 0.85
+  },
+  "poisson": {
+    "rate_per_second": 20,
+    "mean_count_at_1s": 20,
+    "variance_count_at_1s": 20
+  },
+  "brownian": {
+    "mean": 0,
+    "variance_at_t": "t",
+    "covariance": "min(s,t)"
+  }
+}

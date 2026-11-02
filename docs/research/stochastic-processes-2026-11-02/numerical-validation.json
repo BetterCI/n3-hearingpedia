@@ -1,0 +1,194 @@
+{
+  "slug": "stochastic-processes",
+  "check_groups": 40,
+  "checks": [
+    {
+      "name": "AR innovation variance gives stationary variance one",
+      "passed": true
+    },
+    {
+      "name": "Specified covariance is symmetric positive definite",
+      "passed": true
+    },
+    {
+      "name": "WSS-not-strict counterexample differs in fourth marginal moment",
+      "passed": true,
+      "Gaussian_fourth_moment": 3.0000000000000053,
+      "Rademacher_fourth_moment": 1.0,
+      "common_mean": 0,
+      "common_variance": 1
+    },
+    {
+      "name": "Shared amplitude white process retains higher-order dependence",
+      "passed": true,
+      "squared_samples_covariance": 2.25
+    },
+    {
+      "name": "Mixture mean is mean-square ergodic but power variance has positive limit",
+      "passed": true,
+      "limiting_power_average_variance": 2.25
+    },
+    {
+      "name": "Exact finite-N mean variance equals covariance quadratic form",
+      "passed": true,
+      "value_N64": 0.1308593811299822,
+      "mean_specific_effective_N": 7.6417906868037475
+    },
+    {
+      "name": "AR large-N variance inflation tends to nine",
+      "passed": true
+    },
+    {
+      "name": "AR PSD from covariance Fourier series matches filter formula",
+      "passed": true
+    },
+    {
+      "name": "Per-Hz PSD integrates to stationary variance",
+      "passed": true,
+      "integral": 0.9999999999999993
+    },
+    {
+      "name": "Spectral inversion recovers several covariance lags",
+      "passed": true
+    },
+    {
+      "name": "Real AR spectrum is even and nonnegative",
+      "passed": true
+    },
+    {
+      "name": "Eight-point filter frequency response agrees with independent polynomial evaluation",
+      "passed": true
+    },
+    {
+      "name": "Filtered variance by spectral integral, covariance matrix and finite average formula",
+      "passed": true,
+      "output_variance": 0.6048575999999993
+    },
+    {
+      "name": "White per-Hz and normalized-angular densities have correct variance scaling",
+      "passed": true
+    },
+    {
+      "name": "Uniform random phase gives stated stationary tone covariance and line masses",
+      "passed": true,
+      "line_mass_each": 0.5,
+      "total_mean_square": 1
+    },
+    {
+      "name": "Two tone record lengths change peak height but preserve integrated mean square",
+      "passed": true
+    },
+    {
+      "name": "Constant mean produces DC spectral mass, not a record-length-invariant peak density",
+      "passed": true
+    },
+    {
+      "name": "Physical-Hz alias sum preserves variance in specified bandlimited model",
+      "passed": true,
+      "variance": 1.5
+    },
+    {
+      "name": "Ideal antialias passband deletes out-of-band variance",
+      "passed": true
+    },
+    {
+      "name": "SciPy CSD orientation matches S_YX for a circular delay semantic check",
+      "passed": true,
+      "max_error": 1.0496159097249428e-14
+    },
+    {
+      "name": "One unaveraged segment yields unit sample coherence even for unrelated draws",
+      "passed": true
+    },
+    {
+      "name": "Causal normal equation has unique positive-definite solution",
+      "passed": true
+    },
+    {
+      "name": "Population quadratic risk and error-observation orthogonality agree",
+      "passed": true,
+      "population_MSE": 0.2575009037233401
+    },
+    {
+      "name": "Independent coefficient perturbations increase the specified convex risk",
+      "passed": true
+    },
+    {
+      "name": "Noncausal Wiener spectral integral agrees with independent closed-form integral",
+      "passed": true,
+      "closed_form_MSE": 0.20751433915982234
+    },
+    {
+      "name": "Causal risk decreases with more past observations and stays above full-time noncausal risk",
+      "passed": true,
+      "causal_population_risks": [
+        0.33333333333333337,
+        0.2575009037233401,
+        0.2557891556525085
+      ]
+    },
+    {
+      "name": "Fixed-seed stationary AR initialization moment cross-check",
+      "passed": true,
+      "empirical_mean": 0.0006372399652584729,
+      "empirical_variance": 1.0074049621851622,
+      "empirical_lag3_second_moment": 0.5151112024831347
+    },
+    {
+      "name": "Poisson mean and variance, and covariance time dependence",
+      "passed": true
+    },
+    {
+      "name": "Poisson zero-count probability matches exponential waiting survival",
+      "passed": true
+    },
+    {
+      "name": "Brownian covariance from independent increment construction is min(s,t)",
+      "passed": true
+    },
+    {
+      "name": "Markov rows, stationary law and eigenvalues",
+      "passed": true
+    },
+    {
+      "name": "Markov transient law and stationary indicator covariance",
+      "passed": true
+    },
+    {
+      "name": "Fixed-denominator correlation zero-extension equals nonnegative DTFT power",
+      "passed": true
+    },
+    {
+      "name": "Unbiased lag estimate with zero-extension need not define a nonnegative spectrum",
+      "passed": true,
+      "spectral_value": -1.25
+    },
+    {
+      "name": "Exact finite Markov enumeration verifies lag-unbiasedness under known zero mean",
+      "passed": true
+    },
+    {
+      "name": "Fixed-seed white Gaussian periodogram fluctuation matches interior-bin law",
+      "passed": true,
+      "mean_ratio": 1.0191353608999705,
+      "variance_ratio": 1.055563199281325
+    },
+    {
+      "name": "Window density Parseval integral gives weighted second moment",
+      "passed": true
+    },
+    {
+      "name": "Welch matches independent segment-window-normalization-and-fold calculation",
+      "passed": true
+    },
+    {
+      "name": "Eighteen scoped author/official source hashes match cached originals",
+      "passed": true
+    },
+    {
+      "name": "Eleven original SVGs parse without executable script",
+      "passed": true
+    }
+  ],
+  "professional_review": "pending"
+}
