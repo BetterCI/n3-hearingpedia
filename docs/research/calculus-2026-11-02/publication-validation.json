@@ -1,0 +1,119 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted textbook, mathematical and numerical audit complete; professional review pending",
+  "numerical_check_groups": 23,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 22,
+    "OpenStax_sections": 20,
+    "independent_textbook_series": 1,
+    "official_SciPy_API_pages": 2,
+    "online_documentation_version": "1.18.0"
+  },
+  "typecheck": {
+    "files": 215,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 304,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 26476,
+    "equations": 511,
+    "searchableConcepts": 132,
+    "wikiConcepts": 132,
+    "knowledgeAreas": 7,
+    "typedRelationships": 903,
+    "wikiCrossLinks": 1421,
+    "chineseCharacters": 916243,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "captionErrors": 0,
+      "code": 3,
+      "errors": 0,
+      "figures": 10,
+      "h1": "微积分",
+      "headings": [
+        "阅读准备与独立阅读",
+        "极限描述附近的行为 连续还要核对点值",
+        "导数是局部变化率 不是两个零相除",
+        "求导规则怎样连接模型与极值",
+        "Taylor近似必须同时说明余项",
+        "定积分是有条件的累积极限",
+        "微积分基本定理连接变化与累积",
+        "反常积分和级数都要检查收敛",
+        "多元微分区分单方向变化与整体近似",
+        "重积分把局部密度与空间范围一起累积",
+        "微分方程把变化规律与初值放在一起",
+        "从连续公式到数值结果要保留误差"
+      ],
+      "math": 14,
+      "refs": 22,
+      "scrollWidth": 1265,
+      "title": "微积分 · Calculus · n³ Hearingpedia",
+      "unexpectedEm": [],
+      "width": 1265
+    },
+    "mobile": {
+      "inlineMathOutsideRoot": 0,
+      "paragraphOverflow": [],
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "courses": {
+      "box": {
+        "bottom": 532.8645935058594,
+        "height": 230.02084350585935,
+        "left": 22,
+        "right": 352.66668701171875,
+        "top": 302.84375,
+        "width": 330.66668701171875,
+        "x": 22,
+        "y": 302.84375
+      },
+      "card": "基础课程 · 深度讲解微积分Calculus从极限、导数与积分进入近似、多元变化和微分方程，理解条件、单位与数值误差。阅读词条 ↗",
+      "cards": 15,
+      "folded": 0,
+      "image": 320,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "search": {
+      "error": true,
+      "results": [
+        {
+          "href": "/n3-hearingpedia/concepts/calculus/",
+          "title": "微积分"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/calculus/#%E5%BE%AE%E7%A7%AF%E5%88%86%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%E8%BF%9E%E6%8E%A5%E5%8F%98%E5%8C%96%E4%B8%8E%E7%B4%AF%E7%A7%AF",
+          "title": "微积分基本定理连接变化与累积"
+        }
+      ]
+    },
+    "screenshot_scope": "Local production build; production checked separately by HTTP"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "f15b2db7fca1da1ef306d0face8fc4c8bfe8b4e9",
+  "limitations": [
+    "No external professional review",
+    "Specified teaching models, not listener or device measurements",
+    "Finite numerical tests complement mathematical arguments; not general proofs",
+    "Online API version differs from tested runtime",
+    "Existing chunk-size and Pagefind notices remain"
+  ]
+}

@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('calculus','signals-and-systems','related','用变化率、累积与初值理解连续输入输出和微分方程。',3),
+  link('calculus','digital-signal-processing','related','区分连续导数积分与有限差分求积，保留采样间隔和数值误差。',3),
+  link('calculus','mathematical-physics-methods','related','为连续场、边界、重积分和微分方程提供基础。',3),
+  link('calculus','complex-analysis','related','区分实变量光滑性、Taylor近似与更强的复解析性。',2),
+  link('calculus','functional-analysis','related','把积分、级数与函数收敛放入更一般空间与算子框架。',2),
+  link('calculus','probability-theory','related','密度归一化、期望与变量替换需要积分及收敛条件。',3),
+  link('calculus','mathematical-statistics','related','局部灵敏度与协方差传播连接估计和误差分析。',2),
+  link('calculus','machine-learning','related','梯度、线性化和曲率用于优化，并须说明坐标尺度。',2),
+  link('calculus','biophysics','application','用导数、累积与初值理解膜、电路和物理输运模型。',2),
+  link('calculus','computational-neuroscience','application','连续动力学与数值求解需同时核对初值和步长稳定性。',3),
   link('digital-signal-processing','signals-and-systems','related','配套基础课程：从卷积、频响与采样关系进入规格、算法和验证。',3),
   link('digital-signal-processing','fir-and-iir-filters','related','把滤波原理落实为设计、SOS、流式状态及有限精度检查。',3),
   link('digital-signal-processing','spectrum-and-power-spectral-density','related','区分幅度、周期图、PSD、窗增益及等效噪声带宽。',3),

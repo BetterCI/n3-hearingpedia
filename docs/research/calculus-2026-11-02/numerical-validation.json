@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "check_groups": 23,
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "checks": [
+    {
+      "check": "Exact rational epsilon-delta inequality examples",
+      "status": "passed",
+      "proof": "General inequality and quantifier order stated in article"
+    },
+    {
+      "check": "Changed point limit / continuity / absolute-value cusp",
+      "status": "passed"
+    },
+    {
+      "check": "Gaussian derivative / complex step / secant convergence",
+      "status": "passed",
+      "derivative_Pa_per_s": -303.2653298563167
+    },
+    {
+      "check": "Envelope product / phase chain rule / physical seconds",
+      "status": "passed"
+    },
+    {
+      "check": "Gaussian derivative maximum and Lipschitz-bound examples",
+      "status": "passed",
+      "bound_Pa_per_s": 303.2653298563167
+    },
+    {
+      "check": "Taylor polynomial / integral remainder / Lagrange upper bounds",
+      "status": "passed"
+    },
+    {
+      "check": "Flat smooth function derivative structure",
+      "status": "passed",
+      "orders_algebraically_generated": 8,
+      "proof_scope": "All-order induction and exponential domination explained in scientific audit; no finite check claimed as proof"
+    },
+    {
+      "check": "Exact midpoint formula / nonuniform Riemann lower and upper sums",
+      "status": "passed"
+    },
+    {
+      "check": "FTC cumulative function / signed area / absolute area / square and RMS",
+      "status": "passed"
+    },
+    {
+      "check": "Substitution with time Jacobian / integration-by-parts boundary term",
+      "status": "passed"
+    },
+    {
+      "check": "Improper truncation identities / separate divergent sides vs symmetric principal value",
+      "status": "passed"
+    },
+    {
+      "check": "Geometric series / harmonic divergence grouping / convergent square-series tails",
+      "status": "passed"
+    },
+    {
+      "check": "Axis partial derivatives / diagonal discontinuity counterexample",
+      "status": "passed"
+    },
+    {
+      "check": "Quadratic gradient / Hessian / directional derivative / unique global minimum",
+      "status": "passed"
+    },
+    {
+      "check": "Coordinate scaling / Euclidean steepest-direction convention",
+      "status": "passed"
+    },
+    {
+      "check": "Exact linear covariance rule / correlated Monte Carlo",
+      "status": "passed",
+      "predicted_variance": 0.00256,
+      "observed_variance": 0.0025644673322557467
+    },
+    {
+      "check": "Continuous rectangle double integral / both integration orders",
+      "status": "passed"
+    },
+    {
+      "check": "Polar Jacobian / Cartesian disk quadrature / radial integral / normalization",
+      "status": "passed",
+      "disk_integral": 6.213385423352814
+    },
+    {
+      "check": "Linear initial value / residual / RK45 vs analytic",
+      "status": "passed",
+      "maximum_absolute_error": 1.9231038983491544e-10
+    },
+    {
+      "check": "Continuous nonlinear RHS / two exact solutions with identical initial value",
+      "status": "passed"
+    },
+    {
+      "check": "Euler exact recurrence / stable and unstable steps / neutral boundary",
+      "status": "passed"
+    },
+    {
+      "check": "Exact trapezoid/Simpson errors / finite difference orders / independent noise amplification",
+      "status": "passed",
+      "maximum_relative_SD_deviation": 0.0020766618065264364
+    },
+    {
+      "check": "22 retrieved source records / 10 figure XML files / native course sketch",
+      "status": "passed"
+    }
+  ],
+  "limitations": "Finite specified checks complement the stated mathematical arguments; not proofs by plotting, external professional review, or hearing/device validation."
+}

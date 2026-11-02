@@ -1,0 +1,104 @@
+{
+  "gaussian": {
+    "amplitude_Pa": 1,
+    "tau_s": 0.002,
+    "tangent_t_s": 0.002,
+    "derivative_Pa_per_s": -303.2653298563167,
+    "secant_h_s": [
+      0.002,
+      0.001,
+      0.0002,
+      2e-05
+    ],
+    "secant_slopes_Pa_per_s": [
+      -235.59768823801036,
+      -281.87819235428367,
+      -302.2811653646201,
+      -303.2552464350579
+    ]
+  },
+  "taylor_exp_minus": {
+    "u": 0.2,
+    "linear": 0.8,
+    "exact": 0.8187307530779818,
+    "linear_absolute_error": 0.018730753077981777,
+    "linear_error_bound": 0.020000000000000004
+  },
+  "riemann_x_squared": [
+    {
+      "N": 4,
+      "midpoint": 0.328125,
+      "exact": 0.3333333333333333
+    },
+    {
+      "N": 16,
+      "midpoint": 0.3330078125,
+      "exact": 0.3333333333333333
+    },
+    {
+      "N": 64,
+      "midpoint": 0.33331298828125,
+      "exact": 0.3333333333333333
+    }
+  ],
+  "cycle": {
+    "T": 0.01,
+    "signed_integral": 4.336808689942018e-19,
+    "square_integral": 0.005,
+    "absolute_integral_exact": 0.006366197723675814,
+    "RMS": 0.7071067811865476
+  },
+  "gradient_at_2_and_point25": [
+    2.0,
+    6.0
+  ],
+  "double_integral": {
+    "sigma": 1,
+    "R": 3,
+    "disk_integral": 6.213385423352993,
+    "whole_plane": 6.283185307179586
+  },
+  "quadrature_x_fourth": [
+    {
+      "intervals": 8,
+      "trapezoid": 0.2052001953125,
+      "Simpson": 0.20003255208333331
+    },
+    {
+      "intervals": 16,
+      "trapezoid": 0.20130157470703125,
+      "Simpson": 0.2000020345052083
+    },
+    {
+      "intervals": 32,
+      "trapezoid": 0.20032548904418945,
+      "Simpson": 0.2000001271565755
+    },
+    {
+      "intervals": 64,
+      "trapezoid": 0.20008137822151184,
+      "Simpson": 0.20000000794728595
+    }
+  ],
+  "ode": {
+    "tau_s": 0.005,
+    "initial_value": 0.4,
+    "RK45_max_absolute_error": 1.9231038983491544e-10,
+    "Euler_h_s": [
+      0.001,
+      0.008,
+      0.012
+    ],
+    "Euler_h_over_tau": [
+      0.2,
+      1.6,
+      2.4
+    ]
+  },
+  "noise_difference": {
+    "sigma": 1e-06,
+    "seed": 20261102,
+    "draws": 100000,
+    "maximum_relative_SD_deviation": 0.0020766618065264364
+  }
+}
