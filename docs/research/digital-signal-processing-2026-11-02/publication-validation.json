@@ -1,0 +1,75 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted primary-source and independent numerical audit complete; professional review pending",
+  "sources": {
+    "total": 22,
+    "MIT_course_PDFs": 12,
+    "university_adaptive_filter_lecture": 1,
+    "official_SciPy_API_pages": 9,
+    "online_documentation_version": "1.18.0"
+  },
+  "numerical_check_groups": 19,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "typecheck": {
+    "files": 213,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 302,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 26271,
+    "equations": 511,
+    "searchableConcepts": 131,
+    "wikiConcepts": 131,
+    "knowledgeAreas": 7,
+    "typedRelationships": 893,
+    "wikiCrossLinks": 1407,
+    "chineseCharacters": 908883,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "root_width": 1265,
+      "document_width": 1265
+    },
+    "mobile_390": {
+      "root_width": 375,
+      "document_width": 375,
+      "inline_equations_outside_root": 0
+    },
+    "figures": 10,
+    "references": 22,
+    "katex_equations": 13,
+    "katex_errors": 0,
+    "unexpected_emphasis": 0,
+    "raw_tex_captions": 0,
+    "foundation_cards": 14,
+    "foundation_folded_lists": 0,
+    "new_thumbnail_natural_width": 320,
+    "companion_links_verified_both_directions": true,
+    "search_query": "数字信号处理",
+    "search_first_result": "/n3-hearingpedia/concepts/digital-signal-processing/",
+    "screenshots_scope": "Local production build; production deployment verified separately by HTTP"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "863f208c0af7e7356d89e13de910769dae318822",
+  "limitations": [
+    "No external professional review",
+    "Original specified teaching models, not device or listener measurements",
+    "Online API version differs from tested runtime; parameters explicitly supplied",
+    "Existing chunk-size and Pagefind notices remain"
+  ]
+}

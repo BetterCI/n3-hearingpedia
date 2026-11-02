@@ -66,6 +66,7 @@ export const learningPaths = [
   { id:'functional-analysis-foundations',title:'泛函分析：从空间与收敛理解算子和方程',english:'Functional analysis from spaces to operators',description:'从范数、完备与投影进入对偶、弱收敛和谱，再用测量、变分与逆问题理解稳定性。',slugs:['functional-analysis'] },
   { id:'biophysics-foundations',title:'生物物理学：从能量与输运理解膜和细胞',english:'Biophysical foundations of computational neuroscience',description:'配合计算神经科学，从热运动、扩散与电化学进入膜、通道、电缆、力学和听觉转导。',slugs:['biophysics'] },
   { id:'signals-and-systems-foundations',title:'信号与系统：从输入输出理解卷积与变换',english:'Signals and systems from time to frequency',description:'从信号、系统性质与初始状态进入卷积和频率响应，再以变换、采样和反馈连接听觉研究。',slugs:['signals-and-systems'] },
+  { id:'digital-signal-processing-foundations',title:'数字信号处理：从规格实现并验证数字算法',english:'Digital signal processing from specifications to implementation',description:'配套信号与系统，学习谱估计、滤波、分块、STFT、多速率、有限精度和自适应处理。',slugs:['digital-signal-processing'] },
 ];
 
 export const allLearningPaths = [

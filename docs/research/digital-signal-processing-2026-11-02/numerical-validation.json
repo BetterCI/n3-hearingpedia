@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "check_groups": 19,
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "checks": [
+    {
+      "check": "DFT definition / inverse / Parseval",
+      "status": "passed",
+      "N": 31
+    },
+    {
+      "check": "Zero padding / direct finite DTFT",
+      "status": "passed",
+      "original_length": 31,
+      "FFT_length": 1024
+    },
+    {
+      "check": "Periodic Hann / coherent gain / ENBW / endpoint amplitudes",
+      "status": "passed",
+      "ENBW_Hz": 93.75
+    },
+    {
+      "check": "PSD / spectrum / weighted mean square",
+      "status": "passed",
+      "FFT_lengths": [
+        256,
+        511,
+        1024
+      ],
+      "weighted_ms": 1.4435460738592836,
+      "unweighted_ms": 1.355588280568525
+    },
+    {
+      "check": "Welch explicit segment averaging",
+      "status": "passed",
+      "segments": 6,
+      "overlap_samples": 128
+    },
+    {
+      "check": "Difference equation / feedback sign / a0 normalization",
+      "status": "passed"
+    },
+    {
+      "check": "FIR sinc construction / symmetry / phase slope / half amplitude",
+      "status": "passed",
+      "group_delay_samples": 64,
+      "cutoff_magnitude": 0.5000029596572215
+    },
+    {
+      "check": "Butterworth prototype / prewarp / independent pole product",
+      "status": "passed",
+      "maximum_pole_radius": 0.7836145621017275,
+      "cutoff_magnitude": 0.7071067811865467
+    },
+    {
+      "check": "SOS independent recurrence / state continuity / reset counterexample",
+      "status": "passed",
+      "block_sizes": [
+        1,
+        64,
+        127,
+        400
+      ]
+    },
+    {
+      "check": "Forward/backward internal response / squared magnitude",
+      "status": "passed",
+      "single_cutoff_dB": -3.0102999566398223,
+      "double_cutoff_dB": -6.020599913279645
+    },
+    {
+      "check": "OLA vs direct / OLS / partial block / complete tails",
+      "status": "passed",
+      "input_length": 257,
+      "FIR_length": 129,
+      "output_length": 385,
+      "OLA_blocks": [
+        1,
+        32,
+        64,
+        100,
+        512
+      ]
+    },
+    {
+      "check": "STFT convention / independent API / normalized WOLA / NOLA failure",
+      "status": "passed",
+      "max_reconstruction_error": 4.440892098500626e-16
+    },
+    {
+      "check": "Polyphase vs explicit upsample / filter / downsample",
+      "status": "passed",
+      "ratios": [
+        "3/2",
+        "2/5",
+        "1/2",
+        "5/1"
+      ]
+    },
+    {
+      "check": "Rate conversion / exact alias / filtered central amplitude",
+      "status": "passed",
+      "filtered_alias_amplitude": 2.781794721446948e-06,
+      "filtered_pass_amplitude": 0.799999932020584
+    },
+    {
+      "check": "Quantizer no-overload bound / uniform-model variance / periodic error / overload counterexample",
+      "status": "passed",
+      "conditional_variance": 0.005208333333333333,
+      "error_autocorrelation_lag32": 0.9374999999999999
+    },
+    {
+      "check": "Coefficient-only rounding / impulse and step recurrence",
+      "status": "passed",
+      "original_a": 0.9997,
+      "rounded_a": 1.0
+    },
+    {
+      "check": "Real NLMS loss gradient / zero input normalization",
+      "status": "passed"
+    },
+    {
+      "check": "Frozen NLMS / separate validation / two reference targets",
+      "status": "passed",
+      "coefficient_RMSE": 0.006409054667865713,
+      "validation_model_RMSE": 0.005163996212845521,
+      "validation_observation_RMSE": 0.0216562218675223
+    },
+    {
+      "check": "Source retrieval records / 10 original figure XML / card SVG",
+      "status": "passed",
+      "sources": 22,
+      "figures": 10
+    }
+  ],
+  "limitations": "Finite numerical cross-checks of the specified teaching examples; not external peer review, all-parameter proofs, device measurements or perceptual validation."
+}

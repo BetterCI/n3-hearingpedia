@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('digital-signal-processing','signals-and-systems','related','配套基础课程：从卷积、频响与采样关系进入规格、算法和验证。',3),
+  link('digital-signal-processing','fir-and-iir-filters','related','把滤波原理落实为设计、SOS、流式状态及有限精度检查。',3),
+  link('digital-signal-processing','spectrum-and-power-spectral-density','related','区分幅度、周期图、PSD、窗增益及等效噪声带宽。',3),
+  link('digital-signal-processing','spectrogram','related','用STFT的窗长、步长、归一化与重建解释时频图。',3),
+  link('digital-signal-processing','phase-and-group-delay','related','区分线性相位延迟、块等待与离线双向处理。',3),
+  link('digital-signal-processing','minimum-phase-system','related','连接零极点、相位与可实现逆滤波的边界。',3),
+  link('digital-signal-processing','linear-algebra','related','DFT、卷积与自适应读数可表示为向量和矩阵运算。',3),
+  link('digital-signal-processing','probability-theory','related','谱估计、量化模型及自适应更新需要明确随机假设。',3),
+  link('digital-signal-processing','hearing-aid','application','数字滤波、重采样与反馈处理须结合设备延迟和声学验证。',3),
+  link('digital-signal-processing','auditory-computational-models','application','数值滤波是模型实现工具，算法拟合不自动确认听觉机制。',3),
   link('signals-and-systems','linear-algebra','related','卷积可写成设计矩阵，状态空间和多输入输出响应连接矩阵表示。',3),
   link('signals-and-systems','complex-analysis','related','复频率、极点、收敛域与逆变换共同确定时间方向和响应。',3),
   link('signals-and-systems','circuit-theory','related','由电路元件进入微分方程、初始状态、频率响应和接口负载。',3),

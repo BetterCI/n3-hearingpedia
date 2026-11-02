@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-labelledby="t d">
+<title id="t">数字信号处理简笔画</title><desc id="d">离散样本经过三个滤波抽头，再以频率响应表示其作用。</desc>
+<rect width="320" height="180" fill="#f3f1f8"/><g fill="none" stroke="#79639d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M20 110h73M28 110V85m14 25V61m14 49V77m14 33v14m14-14v25"/><path d="M102 91h21m-6-5 6 5-6 5"/>
+<rect x="132" y="51" width="56" height="80" rx="8"/><path d="M142 108h36m-30 0V87m12 21V67m12 41V94"/>
+<path d="M197 91h21m-6-5 6 5-6 5M228 125h73M231 124V59m4 12h23q12 0 15 24t22 22"/>
+</g><g fill="#79639d"><circle cx="28" cy="85" r="3"/><circle cx="42" cy="61" r="3"/><circle cx="56" cy="77" r="3"/><circle cx="70" cy="124" r="3"/><circle cx="84" cy="135" r="3"/><circle cx="148" cy="87" r="3"/><circle cx="160" cy="67" r="3"/><circle cx="172" cy="94" r="3"/></g>
+<g font-family="sans-serif" font-size="12" fill="#61727d" text-anchor="middle"><text x="56" y="157">x[n]</text><text x="160" y="157">h[n]</text><text x="263" y="157">H(f)</text></g></svg>

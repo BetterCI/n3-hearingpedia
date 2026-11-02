@@ -1,0 +1,81 @@
+{
+  "fs_Hz": 16000.0,
+  "windows": {
+    "矩形窗": {
+      "coherent_gain": 1.0,
+      "ENBW_Hz": 62.5
+    },
+    "周期Hann窗": {
+      "coherent_gain": 0.5,
+      "ENBW_Hz": 93.75
+    }
+  },
+  "FIR": [
+    {
+      "name": "65点Hann",
+      "length": 65,
+      "delay_samples": 32.0,
+      "delay_ms": 2.0,
+      "passband_max_absolute_magnitude_error": 0.00629729687479097,
+      "stopband_attenuation_dB": 43.94559394753034,
+      "cutoff_magnitude": 0.49997389554895477
+    },
+    {
+      "name": "129点Hann",
+      "length": 129,
+      "delay_samples": 64.0,
+      "delay_ms": 4.0,
+      "passband_max_absolute_magnitude_error": 0.0007781786526352974,
+      "stopband_attenuation_dB": 62.106185023519856,
+      "cutoff_magnitude": 0.49999673304197245
+    },
+    {
+      "name": "129点Kaiser β=8.6",
+      "length": 129,
+      "delay_samples": 64.0,
+      "delay_ms": 4.0,
+      "passband_max_absolute_magnitude_error": 4.027810255591291e-05,
+      "stopband_attenuation_dB": 89.2968238489745,
+      "cutoff_magnitude": 0.5000029596572206
+    }
+  ],
+  "IIR": {
+    "order": 6,
+    "cutoff_Hz": 3000,
+    "cutoff_single_magnitude": 0.7071067811865475,
+    "cutoff_forward_backward_magnitude": 0.5
+  },
+  "WOLA": {
+    "window_length": 256,
+    "hop": 64,
+    "nfft": 512,
+    "original_length": 4096,
+    "max_reconstruction_error": 4.440892098500626e-16,
+    "minimum_denominator": 1.4999999999999993
+  },
+  "multirate": {
+    "input_fs_Hz": 32000.0,
+    "output_fs_Hz": 16000.0,
+    "input_tones_Hz": [
+      1000,
+      13000
+    ],
+    "alias_Hz": 3000,
+    "naive_alias_amplitude": 0.5000000000000022,
+    "filtered_alias_amplitude": 2.781794721446948e-06,
+    "filtered_pass_amplitude": 0.799999932020584
+  },
+  "coefficient": {
+    "original_a": 0.9997,
+    "rounded_a": 1.0,
+    "fractional_bits": 10,
+    "coefficient_only_rounding": true
+  },
+  "adaptive": {
+    "mu": 0.2,
+    "epsilon": 1e-06,
+    "coefficient_rmse": 0.006409054667865713,
+    "validation_model_rmse": 0.005163996212845521,
+    "validation_observation_rmse": 0.0216562218675223
+  }
+}
