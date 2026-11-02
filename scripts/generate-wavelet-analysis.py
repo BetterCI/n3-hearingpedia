@@ -89,5 +89,6 @@ for i,(a,col) in enumerate([(.18,B),(.4,G),(.9,P)]):
     t=np.linspace(-3,3,800);ax.plot(t,2.8-i*1.1+.35*m.morlet(t/a).real/np.sqrt(a),color=col,lw=2)
 ax.annotate('',xy=(3.12,.25),xytext=(3.12,3.05),arrowprops=dict(arrowstyle='->',color=M,lw=1.7));ax.text(3.25,1.65,'尺度',rotation=90,ha='center',va='center',color=M)
 ax.text(-3.1,3.15,'小波分析',fontsize=18,fontweight='bold',color=B);fig.tight_layout();path=ROOT/'public/figures/foundation-courses/wavelet-analysis.svg';fig.savefig(path,metadata={'Date':None},transparent=True);plt.close(fig)
+path.write_text('\n'.join(s.rstrip() for s in path.read_text(encoding='utf-8').splitlines())+'\n',encoding='utf-8')
 (REC/'calculations.json').write_text(json.dumps(m.summary(),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(m.summary(),ensure_ascii=False))
