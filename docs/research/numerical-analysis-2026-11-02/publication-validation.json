@@ -1,0 +1,132 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted source, mathematical and numerical audit complete; professional review pending",
+  "numerical_check_groups": 27,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 25,
+    "author_textbook_sections": 20,
+    "independent_textbook_series": 1,
+    "official_SciPy_pages": 5,
+    "online_documentation_version": "1.18.0"
+  },
+  "typecheck": {
+    "files": 217,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 306,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 26677,
+    "equations": 512,
+    "searchableConcepts": 133,
+    "wikiConcepts": 133,
+    "knowledgeAreas": 7,
+    "typedRelationships": 913,
+    "wikiCrossLinks": 1433,
+    "chineseCharacters": 923796,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "desktop": {
+      "code": 3,
+      "display": 1,
+      "errors": 0,
+      "figures": 10,
+      "h1": "数值分析",
+      "headings": [
+        "阅读准备与独立阅读",
+        "数字表示和误差要先有共同尺度",
+        "条件性 稳定性与残差分别说明什么",
+        "线性方程优先考虑分解 结构与主元",
+        "最小二乘要把拟合与参数可辨识性分开",
+        "非线性求根先考虑区间与收敛条件",
+        "插值必须考虑节点 光滑性和形状约束",
+        "数值微积分要检查采样是否解决了问题",
+        "初值问题区分精度 步长稳定性和刚性",
+        "边值离散要同时核对方程 网格和边界",
+        "大矩阵迭代利用结构 也需要停止依据",
+        "用可复算的记录判断结果能否使用"
+      ],
+      "math": 14,
+      "rawTexCaptions": 0,
+      "rectangularDefinition": true,
+      "references": 25,
+      "scrollWidth": 1265,
+      "title": "数值分析 · Numerical Analysis · n³ Hearingpedia",
+      "unexpectedEm": [],
+      "width": 1265
+    },
+    "mobile": {
+      "display": [
+        {
+          "client": 329,
+          "scroll": 329
+        }
+      ],
+      "inlineMathOutsideRoot": 0,
+      "paragraphOverflow": [],
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "courses": {
+      "box": {
+        "bottom": 588.8125152587891,
+        "height": 398.8020935058594,
+        "left": 926.3333740234376,
+        "right": 1190.3333740234375,
+        "top": 190.0104217529297,
+        "width": 264,
+        "x": 926.3333740234376,
+        "y": 190.0104217529297
+      },
+      "cards": 16,
+      "folded": 0,
+      "href": "/n3-hearingpedia/concepts/numerical-analysis/",
+      "image": 320,
+      "scrollWidth": 1265,
+      "width": 1265
+    },
+    "search": {
+      "errorMessageHidden": true,
+      "results": [
+        {
+          "href": "/n3-hearingpedia/concepts/numerical-analysis/",
+          "title": "数值分析"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/numerical-analysis/#%E6%B5%AE%E7%82%B9%E6%95%B0%E5%8F%AA%E6%98%AF%E5%AE%9E%E6%95%B0%E7%9A%84%E6%9C%89%E9%99%90%E9%9B%86%E5%90%88",
+          "title": "浮点数只是实数的有限集合"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/numerical-analysis/#%E6%B6%88%E5%85%83%E4%B8%AD%E7%9A%84%E5%B0%8F%E4%B8%BB%E5%85%83%E5%8F%AF%E8%83%BD%E6%94%BE%E5%A4%A7%E4%B8%AD%E9%97%B4%E8%AF%AF%E5%B7%AE",
+          "title": "消元中的小主元可能放大中间误差"
+        }
+      ]
+    },
+    "companion_entry_click_verified": true,
+    "screenshot_scope": "Local production build; production deployment verified separately by HTTP"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "988c0af7431a1ae5f8c5b52f1ba0e0e111bd25dc",
+  "limitations": [
+    "No external professional reviewer",
+    "Specified teaching examples, not listener/device measurements",
+    "Finite checks complement arguments; no general proof by plotting or certified interval bounds",
+    "Online API differs from tested runtime",
+    "Existing chunk-size and Pagefind notices remain"
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-labelledby="t d">
+<title id="t">数值分析简笔画</title><desc id="d">左侧离散网格上的折线近似，右侧包含同一目标点的区间逐步缩小。</desc>
+<rect width="320" height="180" fill="#f3f1f8"/>
+<g fill="none" stroke="#79639d" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M22 132h117M29 137V35M34 121L54 94L74 74L94 61L114 54L134 50"/>
+<path d="M186 66h116m-116-7v14m116-14v14M207 93h78m-78-7v14m78-14v14M232 120h35m-35-7v14m35-14v14"/>
+<path d="M251 45v91" stroke="#31755e" stroke-dasharray="4 5"/>
+</g><g fill="#79639d"><circle cx="34" cy="121" r="3"/><circle cx="54" cy="94" r="3"/><circle cx="74" cy="74" r="3"/><circle cx="94" cy="61" r="3"/><circle cx="114" cy="54" r="3"/><circle cx="134" cy="50" r="3"/></g>
+<g font-family="Microsoft YaHei,sans-serif" font-size="12" fill="#61727d" text-anchor="middle"><text x="83" y="158">网格近似</text><text x="245" y="158">迭代收敛</text></g></svg>

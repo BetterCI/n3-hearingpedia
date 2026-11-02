@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('numerical-analysis','calculus','related','从连续定义进入差分、求积、离散误差和稳定步长。',3),
+  link('numerical-analysis','linear-algebra','related','分解、范数、条件数、奇异值和稀疏结构支持可靠矩阵计算。',3),
+  link('numerical-analysis','digital-signal-processing','related','有限精度、滤波实现、插值与重采样需要明确误差和数值条件。',3),
+  link('numerical-analysis','mathematical-physics-methods','related','将连续方程、网格和边界转为可核验的数值模型。',3),
+  link('numerical-analysis','functional-analysis','related','把近似空间、算子条件和收敛要求联系起来。',2),
+  link('numerical-analysis','mathematical-statistics','related','分开拟合残差、参数不确定性、正则化偏差及独立验证。',2),
+  link('numerical-analysis','machine-learning','related','最小二乘、优化、缩放和正则化需要数值与统计两层检查。',2),
+  link('numerical-analysis','computational-neuroscience','application','仿真需核对刚性、步长、求解状态与模型误差。',3),
+  link('numerical-analysis','auditory-computational-models','application','数值一致性不自动证明听觉机制或预测的外部有效性。',2),
+  link('numerical-analysis','wave-equation','application','连续声场离散时同时检查波长、网格、边界和数值稳定性。',2),
   link('calculus','signals-and-systems','related','用变化率、累积与初值理解连续输入输出和微分方程。',3),
   link('calculus','digital-signal-processing','related','区分连续导数积分与有限差分求积，保留采样间隔和数值误差。',3),
   link('calculus','mathematical-physics-methods','related','为连续场、边界、重积分和微分方程提供基础。',3),

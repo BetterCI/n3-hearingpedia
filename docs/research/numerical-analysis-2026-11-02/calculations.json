@@ -1,0 +1,189 @@
+{
+  "runtime_precision": {
+    "float64_eps": 2.220446049250313e-16,
+    "unit_roundoff": 1.1102230246251565e-16
+  },
+  "pivot": {
+    "condition": 2.6180339887498953,
+    "unpivoted": [
+      0.0,
+      1.0
+    ],
+    "pivoted": [
+      1.0,
+      1.0
+    ]
+  },
+  "least_squares": {
+    "condition": 346600.42617034767,
+    "perturb_norm": 9.999999999999999e-05,
+    "coefficient_change": 2.1662527149165394,
+    "output_change": 9.99999999999542e-05,
+    "ridge_output_error": 3.597116622151097e-05,
+    "lam": 0.0001
+  },
+  "root": 0.7390851332151612,
+  "Newton_cycle": [
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "Runge": [
+    {
+      "degree": 4,
+      "equally_spaced": 0.438357121894754,
+      "Chebyshev_Lobatto": 0.45998092014774733
+    },
+    {
+      "degree": 8,
+      "equally_spaced": 1.0451765018718595,
+      "Chebyshev_Lobatto": 0.20468245788847506
+    },
+    {
+      "degree": 12,
+      "equally_spaced": 3.663392805417866,
+      "Chebyshev_Lobatto": 0.0843965833493372
+    },
+    {
+      "degree": 16,
+      "equally_spaced": 14.393851285004162,
+      "Chebyshev_Lobatto": 0.03671289906931735
+    },
+    {
+      "degree": 20,
+      "equally_spaced": 59.82230871073956,
+      "Chebyshev_Lobatto": 0.017737824286446657
+    },
+    {
+      "degree": 24,
+      "equally_spaced": 257.2129123363852,
+      "Chebyshev_Lobatto": 0.008165746005524221
+    },
+    {
+      "degree": 28,
+      "equally_spaced": 1131.4204736015047,
+      "Chebyshev_Lobatto": 0.0036525333696837414
+    },
+    {
+      "degree": 32,
+      "equally_spaced": 5058.95984656719,
+      "Chebyshev_Lobatto": 0.0016181898065479872
+    },
+    {
+      "degree": 36,
+      "equally_spaced": 22901.22879937548,
+      "Chebyshev_Lobatto": 0.0007470089313459383
+    },
+    {
+      "degree": 40,
+      "equally_spaced": 104667.72715940657,
+      "Chebyshev_Lobatto": 0.00033987749989372595
+    }
+  ],
+  "spline": {
+    "natural_min": -0.06160550463999999,
+    "pchip_min": 0.0,
+    "pchip_monotone": true
+  },
+  "narrow_integral": {
+    "center": 0.37,
+    "sigma": 0.001,
+    "exact": 0.001772453850905516,
+    "rows": [
+      {
+        "intervals": 16,
+        "value": 8.679964915602112e-13
+      },
+      {
+        "intervals": 32,
+        "value": 4.339982457801056e-13
+      },
+      {
+        "intervals": 64,
+        "value": 2.169991228900528e-13
+      },
+      {
+        "intervals": 128,
+        "value": 2.8671659897284903e-06
+      },
+      {
+        "intervals": 256,
+        "value": 0.0011823476504052015
+      },
+      {
+        "intervals": 512,
+        "value": 0.0015245936327185569
+      },
+      {
+        "intervals": 1024,
+        "value": 0.0017725366045283678
+      },
+      {
+        "intervals": 2048,
+        "value": 0.001772453850905516
+      }
+    ],
+    "blind": 3.7338094734864125e-61,
+    "blind_error_estimate": 6.964640395209306e-61,
+    "informed": 0.0017724538509031036,
+    "informed_error_estimate": 5.610022881438614e-16
+  },
+  "stiff_solvers": [
+    {
+      "method": "RK45",
+      "nfev": 2270,
+      "max_absolute_error": 6.771973221075811e-07
+    },
+    {
+      "method": "Radau",
+      "nfev": 398,
+      "max_absolute_error": 1.5282760567725262e-05
+    }
+  ],
+  "BVP": [
+    {
+      "intervals": 16,
+      "max_absolute_error": 0.003218964440079519,
+      "relative_residual": 3.602058715953626e-15
+    },
+    {
+      "intervals": 32,
+      "max_absolute_error": 0.0008035776793697824,
+      "relative_residual": 1.2815497536527932e-14
+    },
+    {
+      "intervals": 64,
+      "max_absolute_error": 0.00020082180969560604,
+      "relative_residual": 5.2538676893753475e-14
+    },
+    {
+      "intervals": 128,
+      "max_absolute_error": 5.020091591312337e-05,
+      "relative_residual": 2.420661958426148e-13
+    }
+  ],
+  "CG": [
+    {
+      "name": "CG",
+      "iterations": 875,
+      "info": 0,
+      "final_relative_residual": 5.1216121900001925e-11,
+      "relative_forward_error": 8.747501094607988e-08
+    },
+    {
+      "name": "Jacobi_PCG",
+      "iterations": 80,
+      "info": 0,
+      "final_relative_residual": 5.530743080574285e-16,
+      "relative_forward_error": 2.0360961334892724e-14
+    }
+  ]
+}

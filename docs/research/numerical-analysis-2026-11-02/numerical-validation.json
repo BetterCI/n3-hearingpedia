@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "check_groups": 27,
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "checks": [
+    {
+      "check": "float64 spacing / unit roundoff / rounded 1+x",
+      "status": "passed",
+      "epsilon": 2.220446049250313e-16,
+      "unit_roundoff": 1.1102230246251565e-16
+    },
+    {
+      "check": "Cancellation / Decimal reference / log1p",
+      "status": "passed",
+      "maximum_log1p_relative_error": 1.628224874462027e-16
+    },
+    {
+      "check": "Local scalar condition-number approximation",
+      "status": "passed",
+      "condition": 2
+    },
+    {
+      "check": "Residual / normalized scale / condition-bound / nonzero forward-error counterexample",
+      "status": "passed"
+    },
+    {
+      "check": "Unpivoted cancellation / partial pivot / exact rational system",
+      "status": "passed",
+      "condition": 2.6180339887498953,
+      "unpivoted_solution": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "check": "Positive definiteness / Cholesky identity / symmetry alone insufficient",
+      "status": "passed"
+    },
+    {
+      "check": "Thin QR dimensions / orthogonality / normal-equation conditioning",
+      "status": "passed",
+      "condition": 346600.42617034767,
+      "Gram_condition_ratio": 0.9999890945434976
+    },
+    {
+      "check": "Least-squares weak singular direction",
+      "status": "passed",
+      "output_perturbation": 9.999999999999999e-05,
+      "coefficient_change": 2.1662527149165394
+    },
+    {
+      "check": "Augmented ridge vs independent SVD / bias even without observation perturbation",
+      "status": "passed"
+    },
+    {
+      "check": "Bisection interval invariant / width bound",
+      "status": "passed",
+      "reference_root": 0.7390851332151612
+    },
+    {
+      "check": "Newton pre-roundoff quadratic behavior / cos contraction on [0,1]",
+      "status": "passed"
+    },
+    {
+      "check": "Exact Newton two-cycle with nonzero residual",
+      "status": "passed"
+    },
+    {
+      "check": "Interpolation at nodes / independent 80-digit Lagrange oscillation",
+      "status": "passed",
+      "Runge_error_at_point975": 59.822308710727626
+    },
+    {
+      "check": "Natural endpoint curvature / exact polynomial monotonicity test / C1 knot continuity",
+      "status": "passed"
+    },
+    {
+      "check": "Central difference order / independent-noise variance",
+      "status": "passed"
+    },
+    {
+      "check": "Exact trapezoid polynomial error / Richardson leading-term cancellation",
+      "status": "passed"
+    },
+    {
+      "check": "Narrow peak erf expression / localized scaled quadrature",
+      "status": "passed",
+      "integral": 0.001772453850905516
+    },
+    {
+      "check": "Unresolved peak counterexample / coarse-grid plateau / adaptive estimate limitation",
+      "status": "passed",
+      "blind": 3.7338094734864125e-61,
+      "blind_estimate": 6.964640395209306e-61
+    },
+    {
+      "check": "Stiff forced ODE exact solution / initial state / two timescales",
+      "status": "passed"
+    },
+    {
+      "check": "Explicit/implicit recurrences vs independent triangular solves / decay factors",
+      "status": "passed"
+    },
+    {
+      "check": "Euler and RK4 fixed-time global orders / amplification polynomial",
+      "status": "passed"
+    },
+    {
+      "check": "RK45/Radau sampled global errors vs analytic trajectory",
+      "status": "passed",
+      "solvers": [
+        {
+          "method": "RK45",
+          "nfev": 2270,
+          "max_absolute_error": 6.771973221075811e-07
+        },
+        {
+          "method": "Radau",
+          "nfev": 398,
+          "max_absolute_error": 1.5282760567725262e-05
+        }
+      ]
+    },
+    {
+      "check": "Discrete sine eigenvalue / analytic discrete solution / residual vs continuum error",
+      "status": "passed"
+    },
+    {
+      "check": "Nonzero Dirichlet terms / aligned grid errors / observed second order",
+      "status": "passed",
+      "orders": [
+        2.0020872428192216,
+        2.0005215338201543,
+        2.0001303662649175
+      ]
+    },
+    {
+      "check": "SPD CG / inverse Jacobi action / symmetric conditioning / actual stopping",
+      "status": "passed",
+      "iterations": [
+        875,
+        80
+      ]
+    },
+    {
+      "check": "Stationary iteration spectral radius / transient growth counterexample",
+      "status": "passed"
+    },
+    {
+      "check": "25 retrieved source hashes / 10 teaching SVGs / native course sketch",
+      "status": "passed"
+    }
+  ],
+  "limitations": "Specified finite checks complement mathematical arguments; not external professional review, certified interval bounds, or device/listener measurements."
+}
