@@ -1,0 +1,170 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted definitions, source, analytic and numerical audit complete; professional review pending",
+  "check_groups": 24,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 27,
+    "by_kind": {
+      "author_textbook": 13,
+      "original_paper": 11,
+      "official_documentation": 3
+    },
+    "original_HTTP_files": 27,
+    "text_extraction_methods": {
+      "HTML main article text": 16,
+      "pypdf text extraction": 10,
+      "Poppler pdftotext; pypdf font decoding failed": 1
+    },
+    "official_PyTorch_documentation_version": "2.15; interface semantics only, not a runtime dependency"
+  },
+  "typecheck": {
+    "files": 227,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 316,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 27743,
+    "equations": 532,
+    "searchableConcepts": 138,
+    "wikiConcepts": 138,
+    "knowledgeAreas": 7,
+    "typedRelationships": 963,
+    "wikiCrossLinks": 1492,
+    "chineseCharacters": 964902,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "Local production build; not production browser screenshot",
+    "desktop": {
+      "codeExamples": 3,
+      "displaySizes": [
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        }
+      ],
+      "displays": 4,
+      "figures": 10,
+      "h1": "深度学习",
+      "math": 4,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rawTexCaptions": 0,
+      "references": 27,
+      "rootWidth": 1265,
+      "scrollWidth": 1265,
+      "title": "深度学习 · Deep Learning · n³ Hearingpedia",
+      "unexpectedEmphasis": 0
+    },
+    "mobile": {
+      "displaySizes": [
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        }
+      ],
+      "inlineMathOutside": 0,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rootWidth": 375,
+      "scrollWidth": 375
+    },
+    "learn": {
+      "cards": 21,
+      "folded": 0,
+      "newCard": {
+        "href": "/n3-hearingpedia/concepts/deep-learning/",
+        "imageLoaded": 267,
+        "title": "深度学习"
+      },
+      "rootWidth": 1265,
+      "scrollWidth": 1265
+    },
+    "companion": {
+      "backLinks": 1,
+      "h1": "机器学习"
+    },
+    "search": {
+      "articleResults": [
+        {
+          "href": "/n3-hearingpedia/concepts/deep-learning/",
+          "rank": 1,
+          "title": "深度学习"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/manfred-r-schroeder/",
+          "rank": 2,
+          "title": "曼弗雷德·施罗德"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/auditory-computational-models/",
+          "rank": 3,
+          "title": "听觉计算模型"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/temporal-resolution/",
+          "rank": 4,
+          "title": "时域分辨率"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/frequency-resolution/",
+          "rank": 5,
+          "title": "频率分辨率"
+        }
+      ],
+      "query": "深度学习",
+      "articleResultRank": 1
+    },
+    "viewport_reset": true,
+    "navigation_notes": "Course-card click verified; Machine Learning reciprocal DOM link verified by direct navigation; course screenshot taken after native scrolling"
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "5e4f19da40dbc05f41d3ab73a689afa35e35c8ce",
+  "limitations": [
+    "No external professional reviewer",
+    "Specified mathematical and synthetic examples; not participant measurements or real speech benchmark reproduction",
+    "No pretrained weight download, GPU-framework training or reverse diffusion generation performed",
+    "Toy population risk is computed by known-distribution quadrature; not an additional test set or model-selection input",
+    "Generic dense-attention cost and initialization analyses retain their assumptions",
+    "Baseline build chunk-size and Pagefind notices remain"
+  ]
+}

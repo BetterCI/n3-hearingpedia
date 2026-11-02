@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('deep-learning','machine-learning','related','配套理解任务、损失、数据划分、指标与模型选择；本篇深入多层表示和训练。',3),
+  link('deep-learning','linear-algebra','related','矩阵形状、共享变换、转置和Jacobian支持网络计算。',3),
+  link('deep-learning','calculus','related','链式法则与局部导数构成反向传播的计算规则。',3),
+  link('deep-learning','probability-theory','related','条件概率、期望、随机失活和生成分布约束解释。',3),
+  link('deep-learning','optimization-methods','related','梯度、步长、预条件与停止条件服务训练而不自动证明泛化。',3),
+  link('deep-learning','digital-signal-processing','related','采样、时频表示、下采样与因果前端决定声音输入和延迟。',3),
+  link('deep-learning','signals-and-systems','related','结构感受野、时间依赖和滤波与网络的可访问上下文相关。',2),
+  link('deep-learning','auditory-attention','related','区分计算注意力的加权聚合与心理学听觉注意，不默认生物对应。',2),
+  link('deep-learning','computational-neuroscience','related','可预测的层表示需与神经机制、干预及生物实现分别检验。',3),
+  link('deep-learning','mathematical-statistics','related','独立单位、效应精度、验证与校准决定评价的证据范围。',3),
   link('psychology','psychoacoustics','application','以受控声音和行为任务研究感知、判断与心理测量。',3),
   link('psychology','auditory-attention','application','把选择、维持与切换落实为可检验任务，区分输入与回答。',3),
   link('psychology','listening-effort','application','区分成绩、主观费力、目标价值、实际投入与疲劳。',3),

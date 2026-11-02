@@ -1,0 +1,202 @@
+{
+  "status": "passed",
+  "check_groups": 24,
+  "checks": [
+    {
+      "check": "Affine composition and batch-row shape convention",
+      "result": "passed",
+      "batch": 5,
+      "input": 3,
+      "hidden": 4,
+      "output": 2
+    },
+    {
+      "check": "XOR affine infeasibility and explicit nonlinear construction",
+      "result": "passed",
+      "nonlinear_probabilities": [
+        0.017986209962091555,
+        0.9820137900379085,
+        0.9820137900379085,
+        0.017986209962091555
+      ]
+    },
+    {
+      "check": "Nine-parameter backprop versus complex-step and central differences",
+      "result": "passed",
+      "loss": 0.6374177765912967,
+      "complex_step_max_error": 5.551115123125783e-17,
+      "finite_difference_max_error": 9.790598887171598e-12
+    },
+    {
+      "check": "Batch averaging and uniform minibatch-gradient expectation",
+      "result": "passed",
+      "batch_size": 3,
+      "uniform_minibatch_size": 2
+    },
+    {
+      "check": "Masked CE stability and mean denominator",
+      "result": "passed",
+      "valid_positions": 4,
+      "padded_positions": 6,
+      "loss": 0.1269280110429725
+    },
+    {
+      "check": "L2 versus decoupled weight decay under a fixed diagonal preconditioner",
+      "result": "passed",
+      "coupled": [
+        1.91,
+        1.0005
+      ],
+      "decoupled": [
+        1.91,
+        0.9824999999999999
+      ]
+    },
+    {
+      "check": "ReLU moments and He forward scaling assumptions",
+      "result": "passed",
+      "mean": 0.3989422804014326,
+      "second_moment": 0.5000000000000006,
+      "centered_variance": 0.3408450569081053
+    },
+    {
+      "check": "Residual Jacobian, cancellation and fixed scalar products",
+      "result": "passed",
+      "gain_half_100": 7.888609052210118e-31,
+      "gain_1p01_100": 2.7048138294215285
+    },
+    {
+      "check": "BatchNorm-like versus LayerNorm-like statistic axes",
+      "result": "passed",
+      "batch_other_sample_changes_first": true,
+      "per_sample_other_sample_changes_first": false,
+      "eps": 1e-05
+    },
+    {
+      "check": "Inverted-dropout moments and nonlinear non-equivalence",
+      "result": "passed",
+      "sigmoid_random_mean": 0.6903985389889411,
+      "sigmoid_of_mean": 0.7310585786300049
+    },
+    {
+      "check": "Causal cross-correlation versus independent signal implementation",
+      "result": "passed",
+      "kernel": [
+        1.0,
+        -2.0,
+        0.5
+      ],
+      "dilations": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "check": "Future-dependence counterexample for centered filters",
+      "result": "passed",
+      "first_causal_response": 20,
+      "first_centered_response": 19
+    },
+    {
+      "check": "Receptive field by exact reachable offsets",
+      "result": "passed",
+      "sizes": [
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "check": "CTC exact fractions, collapse order and greedy counterexample",
+      "result": "passed",
+      "empty": 0.064,
+      "a": 0.792,
+      "aa": 0.144,
+      "two_frame_greedy_empty_probability": 0.36,
+      "two_frame_a_probability": 0.64
+    },
+    {
+      "check": "CTC forward dynamic programming versus exhaustive path sums",
+      "result": "passed",
+      "label_cases": 32
+    },
+    {
+      "check": "Cross-attention dimensions and softmax shift invariance",
+      "result": "passed",
+      "query_positions": 3,
+      "key_positions": 5,
+      "key_width": 2,
+      "value_width": 4
+    },
+    {
+      "check": "Attention causal prefix and empty-mask guard",
+      "result": "passed",
+      "causal_prefix_max_change": 0.0,
+      "full_prefix_max_change": 5.255288955240157
+    },
+    {
+      "check": "Unpositioned self-attention permutation equivariance",
+      "result": "passed",
+      "position_information_absent": true,
+      "mask_absent": true
+    },
+    {
+      "check": "First Adam step versus finite-difference regression gradient",
+      "result": "passed",
+      "parameters": 97,
+      "max_parameter_error": 1.0987218079794303e-13
+    },
+    {
+      "check": "Validation selection and independent population-risk quadrature",
+      "result": "passed",
+      "selected_step": 600,
+      "selected": [
+        600.0,
+        0.03190549363846297,
+        0.0877386949060892,
+        0.09716549032453253
+      ],
+      "final": [
+        12000.0,
+        0.0006804729111839786,
+        0.1138734444437877,
+        0.13426986556075707
+      ],
+      "max_population_error": 2.7755575615628914e-17
+    },
+    {
+      "check": "Forward diffusion direct Gaussian combination versus recurrence",
+      "result": "passed",
+      "alpha_bar": {
+        "10": 0.8170728068875467,
+        "40": 0.44570040395095073,
+        "100": 0.13261955589475294
+      },
+      "only_forward_chain": true
+    },
+    {
+      "check": "Temperature optimum and exact population cross entropy",
+      "result": "passed",
+      "optimal_temperature": 5.41902258270291,
+      "risk_before": 0.9842503465923143,
+      "risk_after": 0.6730116670092565,
+      "unchanged_expected_accuracy": 0.6
+    },
+    {
+      "check": "Primary source file identities",
+      "result": "passed",
+      "sources": 27,
+      "author_textbook_chapters": 13,
+      "original_papers": 11,
+      "official_documentation": 3
+    },
+    {
+      "check": "Scientific SVG and course sketch structure",
+      "result": "passed",
+      "scientific_figures": 10,
+      "course_sketches": 1
+    }
+  ],
+  "scope": "Specified teaching mathematics, implementation and file identities; not participant validation, benchmark reproduction or external professional review"
+}

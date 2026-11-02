@@ -1,3 +1,4 @@
+import { deepLearningReferences } from './deep-learning-references.ts';
 import { psychologyReferences } from './psychology-references.ts';
 import { differentialEquationsDynamicalSystemsReferences } from './differential-equations-and-dynamical-systems-references.ts';
 import { controlTheoryReferences } from './control-theory-references.ts';
@@ -105,6 +106,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...deepLearningReferences,
   ...psychologyReferences,
   ...differentialEquationsDynamicalSystemsReferences,
   ...controlTheoryReferences,
