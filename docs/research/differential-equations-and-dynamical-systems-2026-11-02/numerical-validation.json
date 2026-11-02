@@ -1,0 +1,164 @@
+{
+  "status": "passed",
+  "check_groups": 30,
+  "checks": [
+    {
+      "check": "logistic_IVP_and_equilibria",
+      "result": "passed",
+      "detail": "Independent ODE matches all four analytic curves; zero and unit equilibria retained."
+    },
+    {
+      "check": "nonunique_waiting_solutions",
+      "result": "passed",
+      "detail": "Piecewise derivatives agree on both sides and at joining times; sqrt RHS has unbounded difference quotient at zero."
+    },
+    {
+      "check": "finite_time_blowup",
+      "result": "passed",
+      "detail": "Exact algebra verifies x prime=x^2 and unbounded limit at tau=1; no continuation through the pole claimed."
+    },
+    {
+      "check": "continuous_dependence_bound",
+      "result": "passed",
+      "detail": "Bounded invariant interval and explicit derivative bound support the finite-time Gronwall inequality."
+    },
+    {
+      "check": "integrating_factor_and_nonhomogeneous_form",
+      "result": "passed",
+      "detail": "A separately chosen first-order linear model verifies particular plus homogeneous structure."
+    },
+    {
+      "check": "exact_resonance",
+      "result": "passed",
+      "detail": "Both displacement and velocity match the independently differentiated resonant closed form."
+    },
+    {
+      "check": "damped_displacement_resonance",
+      "result": "passed",
+      "detail": "Independent scalar maximization checks the peak formula and observation-variable scope."
+    },
+    {
+      "check": "linear_flow_and_semigroup",
+      "result": "passed",
+      "detail": "Independent IVP integrations and matrix-exponential composition check all four phase portraits."
+    },
+    {
+      "check": "phase_classification",
+      "result": "passed",
+      "detail": "Eigenvalue signs and exact center return agree with node/focus/saddle/center labels."
+    },
+    {
+      "check": "Jordan_transient",
+      "result": "passed",
+      "detail": "Exact nilpotent factor gives 10*tau*exp(-tau); negative eigenvalues do not force monotone norm decay."
+    },
+    {
+      "check": "noncommuting_time_dependent_warning",
+      "result": "passed",
+      "detail": "A concrete time-ordered product differs from exp(integral A); constant-matrix formula not generalized blindly."
+    },
+    {
+      "check": "nonhyperbolic_higher_order",
+      "result": "passed",
+      "detail": "Exact +/-x^3 solutions confirm different behavior despite identical Jacobian zero."
+    },
+    {
+      "check": "pendulum_energy_and_trapping",
+      "result": "passed",
+      "detail": "Chain-rule identity, conservation/dissipation and the specified V<2 potential well independently checked."
+    },
+    {
+      "check": "independent_dissipation_integral",
+      "result": "passed",
+      "detail": "RK45 integrated loss plus terminal potential/kinetic energy agrees with initial energy."
+    },
+    {
+      "check": "Hopf_cartesian_vs_radial",
+      "result": "passed",
+      "detail": "Independent full nonlinear Cartesian solve agrees with exact radius and angle on both sides of cycle."
+    },
+    {
+      "check": "radial_parameter_regimes",
+      "result": "passed",
+      "detail": "Stable origin, critical algebraic decay and stable nonzero radius all checked across mu signs."
+    },
+    {
+      "check": "Poincare_period_and_multiplier",
+      "result": "passed",
+      "detail": "Actual upward events verify period pi; independent finite difference of return radius matches exp(-2*pi)."
+    },
+    {
+      "check": "orbital_vs_point_stability",
+      "result": "passed",
+      "detail": "A fixed pi/2 phase offset persists although radii converge; attraction is to the orbit set."
+    },
+    {
+      "check": "bifurcation_branches_and_signs",
+      "result": "passed",
+      "detail": "Real equilibria only for mu>=0 in saddle-node; stability derivatives and pitchfork branches verified directly, avoiding source sign typo."
+    },
+    {
+      "check": "Hopf_linear_crossing",
+      "result": "passed",
+      "detail": "Nonzero angular frequency and real-part derivative one verified; radial cubic supplies the nondegenerate supercritical sign."
+    },
+    {
+      "check": "discrete_two_cycle",
+      "result": "passed",
+      "detail": "Algebraic roots, exact rational multiplier 4/25 and independent iteration agree for r=3.2."
+    },
+    {
+      "check": "map_exceptions_noninvertibility_and_flow_difference",
+      "result": "passed",
+      "detail": "Exact special orbit and symmetric preimages separate map behavior from an ODE time-one flow."
+    },
+    {
+      "check": "finite_bifurcation_and_exponent_scope",
+      "result": "passed",
+      "detail": {
+        "sampled_shape": [
+          140,
+          650
+        ],
+        "finite_average": 0.6931466929548963,
+        "scope": "Finite samples complement established theory; not proof that every initial condition is chaotic."
+      }
+    },
+    {
+      "check": "Lorenz_Jacobian_divergence_equilibria",
+      "result": "passed",
+      "detail": "Independent finite differences and three analytic equilibria verify equations and constant divergence; no chaos inference from divergence alone."
+    },
+    {
+      "check": "short_time_Lorenz_and_variation",
+      "result": "passed",
+      "detail": "Independent algorithms agree at short time; a separate variational solve checks infinitesimal response, without long-time pointwise guarantee."
+    },
+    {
+      "check": "PDE_initial_boundary_and_zero_displacement",
+      "result": "passed",
+      "detail": "Common initial field, fixed ends and the wave half-time zero field verified."
+    },
+    {
+      "check": "PDE_residual_independent_differences",
+      "result": "passed",
+      "detail": "Independent centered space/time differences check both exact modal solutions at interior points."
+    },
+    {
+      "check": "wave_energy_not_displacement",
+      "result": "passed",
+      "detail": "Independent spatial quadrature verifies constant total energy and nonzero half-time velocity."
+    },
+    {
+      "check": "heat_L2_dissipation",
+      "result": "passed",
+      "detail": "Orthogonality formula, independent quadrature and monotone norm decay agree for the fixed-end diffusion example."
+    },
+    {
+      "check": "Euler_stability_and_energy_counterexamples",
+      "result": "passed",
+      "detail": "Fast decay has step restriction; forward Euler multiplies undamped oscillator energy by 1+4h^2 despite exact conservation."
+    }
+  ],
+  "scope": "Specified normalized models; finite computations complement arguments, not general certified proofs; professional review pending."
+}

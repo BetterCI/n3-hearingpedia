@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('differential-equations-and-dynamical-systems','calculus','related','用导数、积分和局部近似建立演化方程、初值与误差尺度。',3),
+  link('differential-equations-and-dynamical-systems','linear-algebra','related','矩阵指数、特征值、重根和状态坐标支持线性演化分析。',3),
+  link('differential-equations-and-dynamical-systems','mathematical-physics-methods','related','初边值、分离变量和模态连接连续场的定解问题。',3),
+  link('differential-equations-and-dynamical-systems','control-theory','related','在理解动态、稳定和状态之后再构造反馈与估计。',3),
+  link('differential-equations-and-dynamical-systems','numerical-analysis','related','求解误差、步长、刚性和长时核验决定数值证据范围。',3),
+  link('differential-equations-and-dynamical-systems','signals-and-systems','related','区分初态演化、外部输入、共振和线性输入输出。',3),
+  link('differential-equations-and-dynamical-systems','computational-neuroscience','application','膜电位和网络轨迹需区分平衡、周期、分岔及模型有效性。',3),
+  link('differential-equations-and-dynamical-systems','biophysics','application','物理量、能量与扩散机制帮助提出可检验的演化模型。',3),
+  link('differential-equations-and-dynamical-systems','functional-analysis','related','函数空间与算子框架解释无限维状态和近似收敛。',2),
+  link('differential-equations-and-dynamical-systems','wave-equation','application','传播与扩散需分别给出场、初始速度、边界及能量。',3),
   link('control-theory','signals-and-systems','related','传递函数、卷积、状态与频率响应为闭环分析提供表示。',3),
   link('control-theory','circuit-theory','related','电路动态、反馈与实际传感执行端口连接控制建模。',3),
   link('control-theory','optimization-methods','related','最优控制与约束设计需要明确代价、动态限制和求解条件。',3),

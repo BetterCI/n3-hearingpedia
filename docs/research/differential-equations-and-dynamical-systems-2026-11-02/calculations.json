@@ -1,0 +1,121 @@
+{
+  "runtime": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1"
+  },
+  "normalization": "tau=t/T0; T0=1 second; all states normalized",
+  "logistic": {
+    "rate": 1.2,
+    "carrying_level": 1.0,
+    "initials": [
+      0.0,
+      0.15,
+      0.6,
+      1.4
+    ]
+  },
+  "nonunique": {
+    "rhs": "2*sqrt(abs(x))",
+    "initial": 0,
+    "waiting_times": [
+      0,
+      1,
+      2
+    ]
+  },
+  "blowup": {
+    "rhs": "x^2",
+    "initial": 1,
+    "maximal_interval": "(-infinity,1)"
+  },
+  "oscillator": {
+    "natural_frequency": 2.0,
+    "forcing": 0.4,
+    "damping": 0.1,
+    "resonant_displacement_peak_frequency": 1.9798989873223332
+  },
+  "nonnormal": {
+    "a": [
+      [
+        -1,
+        10
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "initial": [
+      0,
+      1
+    ],
+    "x1_peak": 3.6787944117144233
+  },
+  "pendulum": {
+    "initial": [
+      1.4,
+      0.0
+    ],
+    "initial_energy": 0.8300328570997589,
+    "final_energy_at_15": 0.002270590978076914,
+    "damping": 0.4,
+    "barrier_energy": 2.0
+  },
+  "hopf": {
+    "mu": 1,
+    "omega": 2,
+    "radius": 1.0,
+    "period": 3.141592653589793,
+    "radial_return_multiplier": 0.0018674427317079893
+  },
+  "logistic_map": {
+    "rate": 3.2,
+    "two_cycle": [
+      0.5130445095326299,
+      0.7994554904673701
+    ],
+    "multiplier": 0.15999999999999837,
+    "r4_finite_average_log_derivative": 0.6931466929548963,
+    "r4_theoretical_typical_exponent": 0.6931471805599453,
+    "exception": [
+      0.25,
+      0.75,
+      0.75
+    ]
+  },
+  "lorenz": {
+    "parameters": [
+      10,
+      28,
+      2.6666666666666665
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "state_at_2": [
+      -8.173499932189094,
+      -9.56202368675337,
+      24.620702049602592
+    ],
+    "divergence": -13.666666666666666,
+    "scope": "Finite trajectory divergence is illustrative, not a proof of chaos."
+  },
+  "pde": {
+    "heat_diffusivity": 0.08,
+    "wave_speed": 1.0,
+    "initial_modes": [
+      1,
+      0.25
+    ],
+    "modes": [
+      1,
+      3
+    ],
+    "boundary": "zero Dirichlet at xi=0,1",
+    "wave_initial_velocity": 0.0,
+    "wave_energy": 3.8553142191755305,
+    "wave_displacement_at_half": 0.0
+  }
+}

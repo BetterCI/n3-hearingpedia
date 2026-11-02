@@ -1,0 +1,155 @@
+{
+  "phase": "pre-publication",
+  "scientific_status": "Targeted source, analytic and numerical audit complete; professional review pending",
+  "numerical_check_groups": 30,
+  "article_examples_run": 3,
+  "figures_visually_inspected": 10,
+  "sources": {
+    "records": 25,
+    "Lebl_author_textbook": 13,
+    "MIT_Rothman_lectures": 9,
+    "MIT_author_Lyapunov_chapter": 1,
+    "CMU_author_Picard_notes": 1,
+    "official_SciPy_pages": 1,
+    "online_documentation_version": "1.18.0"
+  },
+  "typecheck": {
+    "files": 223,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "regression_tests": {
+    "total": 6,
+    "passed": 6
+  },
+  "site_verification": {
+    "pages": 312,
+    "legacyRedirects": 9,
+    "checkedInternalLinks": 27283,
+    "equations": 525,
+    "searchableConcepts": 136,
+    "wikiConcepts": 136,
+    "knowledgeAreas": 7,
+    "typedRelationships": 943,
+    "wikiCrossLinks": 1472,
+    "chineseCharacters": 946719,
+    "brokenLinks": 0
+  },
+  "browser": {
+    "preview": "Local production build; not production browser screenshot",
+    "desktop": {
+      "codeExamples": 3,
+      "displaySizes": [
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        },
+        {
+          "scroll": 789,
+          "width": 789
+        }
+      ],
+      "displays": 3,
+      "figures": 10,
+      "h1": "微分方程与动力系统",
+      "inlineMathOutside": 0,
+      "math": 8,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rawTexCaptions": 0,
+      "references": 25,
+      "rootWidth": 1265,
+      "scrollWidth": 1265,
+      "title": "微分方程与动力系统 · Differential Equations and Dynamical Systems · n³ Hearingpedia",
+      "unexpectedEmphasis": 0
+    },
+    "mobile": {
+      "displaySizes": [
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        },
+        {
+          "scroll": 329,
+          "width": 329
+        }
+      ],
+      "inlineMathOutside": 0,
+      "mathErrors": 0,
+      "overflowingParagraphs": 0,
+      "rootWidth": 375,
+      "scrollWidth": 375
+    },
+    "learn": {
+      "cards": 19,
+      "folded": 0,
+      "newCard": {
+        "href": "/n3-hearingpedia/concepts/differential-equations-and-dynamical-systems/",
+        "imageLoaded": 320,
+        "title": "微分方程与动力系统"
+      },
+      "rootWidth": 1265,
+      "scrollWidth": 1265
+    },
+    "companions": [
+      {
+        "backLinks": 1,
+        "h1": "控制理论"
+      },
+      {
+        "backLinks": 1,
+        "h1": "数学物理方法"
+      }
+    ],
+    "search": {
+      "query": "微分方程与动力系统",
+      "resultCount": 1,
+      "articleResultRank": 1,
+      "article": {
+        "href": "/n3-hearingpedia/concepts/differential-equations-and-dynamical-systems/",
+        "rank": 1,
+        "title": "微分方程与动力系统"
+      },
+      "subresults": [
+        {
+          "href": "/n3-hearingpedia/concepts/differential-equations-and-dynamical-systems/#%E5%85%B1%E6%8C%AF%E5%8F%96%E5%86%B3%E4%BA%8E%E9%98%BB%E5%B0%BC-%E8%BE%93%E5%85%A5%E4%B8%8E%E8%A7%82%E5%AF%9F%E9%87%8F",
+          "title": "共振取决于阻尼 输入与观察量"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/differential-equations-and-dynamical-systems/#%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E4%B8%8E%E8%BD%A8%E9%81%93%E7%9A%84%E5%90%AB%E4%B9%89",
+          "title": "状态空间与轨道的含义"
+        },
+        {
+          "href": "/n3-hearingpedia/concepts/differential-equations-and-dynamical-systems/#%E7%BB%83%E4%B9%A0%E4%B8%89-%E5%8C%BA%E5%88%86ode%E6%B5%81%E5%92%8C%E7%A6%BB%E6%95%A3%E6%98%A0%E5%B0%84%E7%9A%84%E7%A8%B3%E5%AE%9A%E5%88%A4%E6%8D%AE",
+          "title": "练习三 区分ODE流和离散映射的稳定判据"
+        }
+      ]
+    },
+    "viewport_reset": true
+  },
+  "runtime": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.0",
+    "node": "v24.22.1"
+  },
+  "base_commit": "2b4452b637b4aecd9b5949682f7f94fe53d9a039",
+  "limitations": [
+    "No external professional reviewer",
+    "Normalized teaching models, not hearing/device measurements",
+    "Finite checks complement analytic arguments; no general proof by simulation",
+    "No certified interval bounds or hardware validation",
+    "API version differs from runtime",
+    "Baseline chunk-size and Pagefind notices remain"
+  ]
+}
