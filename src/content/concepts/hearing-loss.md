@@ -8,7 +8,7 @@ tags: ["hearing-loss","auditory-phenotype","speech-in-noise","rehabilitation","s
 aliases: ["听力障碍","听觉损失","hearing impairment","hearing difficulty"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-12"
+last_updated: "2026-11-06"
 authors: ["AI 辅助重构"]
 reviewer: null
 reviewed_at: null
@@ -34,6 +34,8 @@ order: 29
 <a href="/n3-hearingpedia/figures/hearing-loss/scenario-living-room-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看听力损失日常交流情景插画"><img src="/n3-hearingpedia/figures/hearing-loss/scenario-living-room-v1-watermarked.png" alt="温暖的家庭客厅里，一名中年女性在书架前回头看向正在交谈的家人，背景有电视和室内活动，呈现日常交流中听到声音却未必听清内容的情景。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
 <figcaption><p><strong>情景插画｜听得见，不一定听得清。</strong> 日常生活中，听力损失者可能察觉到有人说话，却难以完整辨认言语内容。面对说话者时，口型、表情和语境等线索有助于理解交流信息。听力损失的实际影响不仅取决于听阈，还与声音环境、听觉处理能力和交流条件有关。AI 生成的情景示意，不代表特定患者的听力状况。</p></figcaption>
 </figure>
+
+受体活动与神经反应不匹配时的诊断、病因及干预边界，见[听觉神经病谱系障碍（ANSD）](../auditory-neuropathy-spectrum-disorder/)。
 
 ## 类型、病因与病程
 

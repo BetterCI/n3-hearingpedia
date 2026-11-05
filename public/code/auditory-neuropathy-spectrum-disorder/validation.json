@@ -1,0 +1,35 @@
+{
+  "nature": "synthetic teaching signals; no patient data",
+  "sample_rate_hz": 20000,
+  "cm_frequency_hz": 500,
+  "cm_delay_ms": 3,
+  "burst_duration_ms": 8,
+  "artifact_amplitude": 0.65,
+  "blocked_equals_artifact": true,
+  "open_minus_blocked_equals_cm": true,
+  "seed": 20261106,
+  "source_count": 40,
+  "event_counts": [
+    40,
+    40
+  ],
+  "jitter_scale_ms": [
+    0.1,
+    1.0
+  ],
+  "pulse_width_parameter_ms": 0.15,
+  "mean_peaks": [
+    0.8369716578973122,
+    0.19220334910204753
+  ],
+  "integrals_ms": [
+    0.3759942411946501,
+    0.3759942411946501
+  ],
+  "figures": [
+    "measurement-map",
+    "cm-control",
+    "synchrony",
+    "follow-up"
+  ]
+}

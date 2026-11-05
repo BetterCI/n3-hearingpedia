@@ -1063,6 +1063,14 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('frequency-following-response','auditory-pathway','related','皮层下与皮层来源依赖刺激、记录及模型。',3),
   link('frequency-following-response','pitch-perception','related','周期表征与主观音高能力需要独立验证。',3),
   link('frequency-following-response','audiometric-calibration','related','声级、声学延迟与数字时间基准决定可比性。',3),
+  link('auditory-neuropathy-spectrum-disorder','hearing-loss','related','生理表型不能由听力损失程度单独描述。',3),
+  link('auditory-neuropathy-spectrum-disorder','otoacoustic-emissions','related','保留的耳蜗声学活动不等于神经传递完整。',3),
+  link('auditory-neuropathy-spectrum-disorder','auditory-brainstem-response','related','ABR严重异常需结合CM或OAE及伪迹控制。',3),
+  link('auditory-neuropathy-spectrum-disorder','inner-hair-cell','related','OTOF等突触前病因连接受体活动与递质释放。',3),
+  link('auditory-neuropathy-spectrum-disorder','cochlear-synaptopathy','related','突触机制与ANSD临床表型不能直接等同。',3),
+  link('auditory-neuropathy-spectrum-disorder','speech-intelligibility','related','听阈、言语理解及语言发展需要分层评价。',3),
+  link('auditory-neuropathy-spectrum-disorder','hearing-aid','related','可听度改善和交流获益应分别验证。',3),
+  link('auditory-neuropathy-spectrum-disorder','cochlear-implant','related','病变部位及残存神经功能影响电刺激获益。',3),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

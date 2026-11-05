@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-06",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1035,
+  "relations": 1043,
   "entries": [
     {
       "slug": "cochlea",
@@ -1051,8 +1051,8 @@
       "slug": "hearing-loss",
       "knowledge_area": "biology",
       "kind": "condition",
-      "chinese_characters": 6863,
-      "body_characters": 10998,
+      "chinese_characters": 6896,
+      "body_characters": 11089,
       "sections": 10,
       "subsections": 6,
       "reference_ids": [
@@ -1075,6 +1075,7 @@
       ],
       "wiki_links": [
         "loudness",
+        "auditory-neuropathy-spectrum-disorder",
         "temporal-fine-structure",
         "auditory-evoked-potential",
         "spatial-hearing",
@@ -1275,8 +1276,8 @@
       "slug": "auditory-brainstem-response",
       "knowledge_area": "measurement",
       "kind": "physiological-response",
-      "chinese_characters": 8073,
-      "body_characters": 13162,
+      "chinese_characters": 8107,
+      "body_characters": 13255,
       "sections": 13,
       "subsections": 33,
       "reference_ids": [
@@ -1302,7 +1303,8 @@
       ],
       "wiki_links": [
         "auditory-evoked-potential",
-        "frequency-following-response"
+        "frequency-following-response",
+        "auditory-neuropathy-spectrum-disorder"
       ],
       "status": "draft",
       "depth": "in-depth"
@@ -3152,8 +3154,8 @@
       "slug": "otoacoustic-emissions",
       "knowledge_area": "measurement",
       "kind": "test",
-      "chinese_characters": 14450,
-      "body_characters": 25351,
+      "chinese_characters": 14478,
+      "body_characters": 25444,
       "sections": 13,
       "subsections": 35,
       "reference_ids": [
@@ -3190,6 +3192,7 @@
         "outer-hair-cell",
         "cochlea",
         "auditory-brainstem-response",
+        "auditory-neuropathy-spectrum-disorder",
         "phase-and-group-delay",
         "auditory-filter",
         "audiology",
@@ -6519,6 +6522,57 @@
         "speech-intelligibility",
         "listening-effort",
         "auditory-pathway"
+      ],
+      "status": "draft",
+      "depth": "in-depth",
+      "figures": 4,
+      "audio": 0,
+      "code_examples": 1
+    },
+    {
+      "slug": "auditory-neuropathy-spectrum-disorder",
+      "knowledge_area": "biology",
+      "kind": "condition",
+      "chinese_characters": 6851,
+      "body_characters": 12645,
+      "sections": 11,
+      "subsections": 5,
+      "reference_ids": [
+        "core-upgrade-abr-starr",
+        "ansd-bsa-2019",
+        "ansd-rance-1999",
+        "ansd-desiati-2020",
+        "ansd-gcan-2026",
+        "roux-otoferlin-2006",
+        "ansd-santarelli-2015",
+        "ansd-buchman-2006",
+        "ansd-bsa-cm-2019",
+        "ansd-zeng-2006",
+        "ansd-rance-barker-2009",
+        "ansd-birman-2016",
+        "audiology-jcih-2019-summary",
+        "ansd-fda-2026",
+        "ansd-otarmeni-label-2026",
+        "ansd-jiang-2026",
+        "ansd-dboto-2026",
+        "ansd-lv-2024",
+        "six-nidcd-neuropathy"
+      ],
+      "wiki_links": [
+        "otoacoustic-emissions",
+        "auditory-brainstem-response",
+        "cochlea",
+        "auditory-pathway",
+        "hearing-loss",
+        "cochlear-synaptopathy",
+        "outer-hair-cell",
+        "inner-hair-cell",
+        "audiometric-calibration",
+        "hearing-aid",
+        "wide-dynamic-range-compression",
+        "cochlear-implant",
+        "frequency-following-response",
+        "speech-intelligibility"
       ],
       "status": "draft",
       "depth": "in-depth",

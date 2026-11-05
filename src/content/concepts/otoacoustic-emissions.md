@@ -9,7 +9,7 @@ level: ["undergraduate", "graduate"]
 aliases: ["OAE", "耳声发射测量"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -31,6 +31,8 @@ order: 51
 耳声发射首先是一个**耳蜗机械输出指标**，不是听神经动作电位，也不是听者对声音的行为报告。可记录到耳声发射，说明相应刺激条件下存在可测的机械输出及向外传输，但不能证明全部听觉功能正常；未记录到发射，也不等于能够单独确定耳蜗损伤的位置和程度。外耳道、中耳、刺激校准和背景噪声都会影响结果。它与[外毛细胞](../outer-hair-cell/)、[耳蜗](../cochlea/)、听神经和[听觉脑干反应](../auditory-brainstem-response/)的关系，应在这些层级区别下理解。[3](#ref-six-asha-oae)
 
 从使用目的看，耳声发射有三个相互联系的层次：筛查关注是否达到规定的通过条件，诊断性测量关注不同频率和刺激条件下的外围功能，机制研究则利用幅度、相位和延迟检验耳蜗模型。同一个“发射存在”结果，在这三个层次中回答的问题不同。阅读一份报告时，先辨认测试类型、刺激参数、频率轴和噪声底，再讨论其生理意义，通常比只看最终的通过标签更有价值。[3](#ref-six-asha-oae)
+
+OAE保留或后续消失时如何结合CM、ABR和功能评价，详见[听觉神经病谱系障碍（ANSD）](../auditory-neuropathy-spectrum-disorder/)。
 
 ## 生理来源与传播路径
 

@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: ANSD: phenotype, CM artifact controls, presynaptic versus postsynaptic lesions, speech function, hearing aids, cochlear implants, OTOF gene therapy; recent period 2024-01-01 to 2026-11-06
+
+Title: Auditory Neuropathy Spectrum Disorders: From Diagnosis to Treatment: Literature Review and Case Reports
+Abstract: Auditory neuropathy spectrum disorder (ANSD) refers to a range of hearing impairments characterized by deteriorated speech perception, despite relatively preserved pure-tone detection thresholds. Affected individuals usually present with abnormal auditory brainstem responses (ABRs), but normal otoacoustic emissions (OAEs). These electrophysiological characteristics have led to the hypothesis that ANSD may be caused by various dysfunctions at the cochlear inner hair cell (IHC) and spiral ganglion neuron (SGN) levels, while the activity of outer hair cells (OHCs) is preserved, resulting in discrepancies between pure-tone and speech comprehension thresholds. The exact prevalence of ANSD remains unknown; clinical findings show a large variability among subjects with hearing impairment ranging from mild to profound hearing loss. A wide range of prenatal and postnatal etiologies have been proposed. The study of genetics and of the implicated sites of lesion correlated with clinical findings have also led to a better understanding of the molecular mechanisms underlying the various forms of ANSD, and may guide clinicians in better screening, assessment and treatment of ANSD patients. Besid
+Keywords/concepts:
+Venue: Journal of Clinical Medicine
+Year: 2020
+Cited by: 120
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

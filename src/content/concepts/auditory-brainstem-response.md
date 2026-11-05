@@ -25,6 +25,8 @@ depth: in-depth
 
 持续周期编码与瞬态ABR的区别，以及相应的记录和解释边界，见[频率跟随反应（FFR）](../frequency-following-response/)。
 
+ABR缺失而受体活动保留的证据组合、伪迹控制及干预解释，详见[听觉神经病谱系障碍（ANSD）](../auditory-neuropathy-spectrum-disorder/)。
+
 ## 定义与相关技术
 
 ### 短潜伏期诱发响应
