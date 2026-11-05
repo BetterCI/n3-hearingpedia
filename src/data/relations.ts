@@ -1071,6 +1071,14 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('auditory-neuropathy-spectrum-disorder','speech-intelligibility','related','听阈、言语理解及语言发展需要分层评价。',3),
   link('auditory-neuropathy-spectrum-disorder','hearing-aid','related','可听度改善和交流获益应分别验证。',3),
   link('auditory-neuropathy-spectrum-disorder','cochlear-implant','related','病变部位及残存神经功能影响电刺激获益。',3),
+  link('speech-enhancement-and-noise-reduction','spectrogram','related','时频表示连接噪声估计、掩蔽与分析合成。',3),
+  link('speech-enhancement-and-noise-reduction','phase-and-group-delay','related','复数相位决定频谱相加与波形重建。',3),
+  link('speech-enhancement-and-noise-reduction','microphone','related','阵列几何与传感器特性决定可利用的空间信息。',3),
+  link('speech-enhancement-and-noise-reduction','deep-learning','related','训练目标、数据与损失影响增强输出。',3),
+  link('speech-enhancement-and-noise-reduction','objective-speech-evaluation','related','音质与可懂度指标不能混为同一终点。',3),
+  link('speech-enhancement-and-noise-reduction','speech-intelligibility','related','算法获益需要独立行为验证。',3),
+  link('speech-enhancement-and-noise-reduction','hearing-aid','related','完整处理链、延迟与听者共同影响实际收益。',3),
+  link('speech-enhancement-and-noise-reduction','wide-dynamic-range-compression','related','压缩与降噪相互作用，应在完整处理链验证。',3),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

@@ -36,6 +36,8 @@ key_facts:
 
 关于预测分数、参考条件、音质模型与跨材料验证，见[客观语音可懂度与音质评价](../objective-speech-evaluation/)。
 
+处理后的声音更安静为何未必更易懂，以及如何验证增强收益，见[语音增强与降噪](../speech-enhancement-and-noise-reduction/)。
+
 ## 定义与相关概念
 
 ### 辨认语音与理解信息

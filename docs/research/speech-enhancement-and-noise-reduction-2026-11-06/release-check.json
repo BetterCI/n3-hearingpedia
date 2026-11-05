@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-06",
+  "base_commit": "73f89ca69690cd09cc55af82ba0e6ad998026350",
+  "article": {
+    "chinese_characters": 6324,
+    "sections": 10,
+    "subsections": 5,
+    "references": 20,
+    "figures": 4,
+    "status": "draft",
+    "reviewer": null
+  },
+  "checks": {
+    "pnpm_check": "passed: 0 errors, 0 warnings, 0 hints",
+    "pnpm_build": "passed",
+    "pnpm_verify": {
+      "pages": 336,
+      "legacyRedirects": 9,
+      "checkedInternalLinks": 29713,
+      "equations": 606,
+      "searchableConcepts": 148,
+      "wikiConcepts": 148,
+      "knowledgeAreas": 7,
+      "typedRelationships": 1051,
+      "wikiCrossLinks": 1628,
+      "chineseCharacters": 1034321,
+      "brokenLinks": 0
+    },
+    "existing_node_tests": {
+      "passed": 20,
+      "failed": 0
+    },
+    "basilar_membrane_regression": "passed",
+    "citation_order_and_targets": "passed; 20 references and all linked concept files",
+    "analytic_figure_assertions": "passed; see public/code/speech-enhancement-and-noise-reduction/validation.json",
+    "git_diff_check": "passed"
+  },
+  "visual_review": {
+    "desktop": "1280x720; page scrollWidth 1265; 0 KaTeX errors; 20 reference anchors",
+    "mobile": "390x844; page scrollWidth 375; formulas and tables retain local horizontal scrolling when needed",
+    "figure_preview": "PNG glyphs corrected and inspected; SVG rendered in page; original link opened in separate tab",
+    "screenshot": "artifacts/speech-enhancement-preview.png (local, not committed)"
+  },
+  "publication": "Push and deployed site-version.json are verified after commit; this record contains pre-publication checks only."
+}

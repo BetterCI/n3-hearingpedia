@@ -1,0 +1,985 @@
+{
+  "assessor": "AI-assisted semantic screening; not an automated keyword classifier",
+  "date": "2026-11-06",
+  "note": "Discovery relevance only. Actual cited evidence and reading depth are recorded separately in README and reference supports. No full-text review is implied.",
+  "counts": {
+    "Core": 19,
+    "Important": 20,
+    "Background": 18,
+    "Exclude": 24
+  },
+  "records": [
+    {
+      "candidate_number": 1,
+      "title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+      "doi": null,
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 2,
+      "title": "Perceptual evaluation of speech quality (PESQ)-a new method for speech quality assessment of telephone networks and codecs",
+      "doi": "https://doi.org/10.1109/icassp.2001.941023",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 3,
+      "title": "Speech enhancement theory and practice",
+      "doi": null,
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 4,
+      "title": "Auditory Scene Analysis",
+      "doi": "https://doi.org/10.1016/b978-012370880-9.00009-8",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 5,
+      "title": "Microphone Arrays Signal Processing Techniques and Applications",
+      "doi": null,
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 6,
+      "title": "Phase-sensitive and recognition-boosted speech separation using deep recurrent neural networks",
+      "doi": "https://doi.org/10.1109/icassp.2015.7178061",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 7,
+      "title": "On Ideal Binary Mask As the Computational Goal of Auditory Scene Analysis",
+      "doi": "https://doi.org/10.1007/0-387-22794-6_12",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 8,
+      "title": "Cochlear Hearing Loss",
+      "doi": "https://doi.org/10.1002/9780470987889",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 9,
+      "title": "The Perception of Speech Under Adverse Conditions",
+      "doi": "https://doi.org/10.1007/0-387-21575-1_5",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 10,
+      "title": "Deep NMF for speech separation",
+      "doi": "https://doi.org/10.1109/icassp.2015.7177933",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 11,
+      "title": "A deep neural network for time-domain signal reconstruction",
+      "doi": "https://doi.org/10.1109/icassp.2015.7178800",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 12,
+      "title": "Exploring multi-channel features for denoising-autoencoder-based speech enhancement",
+      "doi": "https://doi.org/10.1109/icassp.2015.7177943",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 13,
+      "title": "On the Ideal Ratio Mask as the Goal of Computational Auditory Scene Analysis",
+      "doi": "https://doi.org/10.1007/978-3-642-55016-4_12",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 14,
+      "title": "Nonlinear enhancement of onset for robust speech recognition",
+      "doi": "https://doi.org/10.21437/interspeech.2010-581",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 15,
+      "title": "Adaptive Denoising Autoencoders: A Fine-Tuning Scheme to Learn from Test Mixtures",
+      "doi": "https://doi.org/10.1007/978-3-319-22482-4_12",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 16,
+      "title": "Phase autocorrelation (PAC) derived robust speech features",
+      "doi": "https://doi.org/10.1109/icassp.2003.1202312",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 17,
+      "title": "An auditory based modulation spectral feature for reverberant speech recognition",
+      "doi": "https://doi.org/10.21437/interspeech.2010-225",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 18,
+      "title": "Sound segregation via embedded repetition is robust to inattention.",
+      "doi": "https://doi.org/10.1037/xhp0000147",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 19,
+      "title": "SOBM - a binary mask for noisy speech that optimises an objective intelligibility metric",
+      "doi": "https://doi.org/10.1109/icassp.2015.7178938",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 20,
+      "title": "Spatial hearing: the psychophysics of human sound localization",
+      "doi": "https://doi.org/10.5860/choice.35-0346",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-backward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 21,
+      "title": "Conv-TasNet: Surpassing Ideal Time–Frequency Magnitude Masking for Speech Separation",
+      "doi": "https://doi.org/10.1109/taslp.2019.2915167",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 22,
+      "title": "SDR – Half-baked or Well Done?",
+      "doi": "https://doi.org/10.1109/icassp.2019.8683855",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 23,
+      "title": "Deep Learning for Audio Signal Processing",
+      "doi": "https://doi.org/10.1109/jstsp.2019.2908700",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 24,
+      "title": "Looking to listen at the cocktail party",
+      "doi": "https://doi.org/10.1145/3197517.3201357",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 25,
+      "title": "A comprehensive survey on applications of transformers for deep learning tasks",
+      "doi": "https://doi.org/10.1016/j.eswa.2023.122666",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 26,
+      "title": "TCNN: Temporal Convolutional Neural Network for Real-time Speech Enhancement in the Time Domain",
+      "doi": "https://doi.org/10.1109/icassp.2019.8683634",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 27,
+      "title": "Deep neural network concepts for background subtraction:A systematic review and comparative evaluation",
+      "doi": "https://doi.org/10.1016/j.neunet.2019.04.024",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 28,
+      "title": "Speaker recognition based on deep learning: An overview",
+      "doi": "https://doi.org/10.1016/j.neunet.2021.03.004",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 29,
+      "title": "A review of speaker diarization: Recent advances with deep learning",
+      "doi": "https://doi.org/10.1016/j.csl.2021.101317",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 30,
+      "title": "A survey of sound source localization with deep learning methods",
+      "doi": "https://doi.org/10.1121/10.0011809",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 31,
+      "title": "WHAM!: Extending Speech Separation to Noisy Environments",
+      "doi": "https://doi.org/10.21437/interspeech.2019-2821",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 32,
+      "title": "An Overview of Deep-Learning-Based Audio-Visual Speech Enhancement and Separation",
+      "doi": "https://doi.org/10.1109/taslp.2021.3066303",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 33,
+      "title": "End-to-End Waveform Utterance Enhancement for Direct Evaluation Metrics Optimization by Fully Convolutional Neural Networks",
+      "doi": "https://doi.org/10.1109/taslp.2018.2821903",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 34,
+      "title": "A New Framework for CNN-Based Speech Enhancement in the Time Domain",
+      "doi": "https://doi.org/10.1109/taslp.2019.2913512",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 35,
+      "title": "Wavesplit: End-to-End Speech Separation by Speaker Clustering",
+      "doi": "https://doi.org/10.1109/taslp.2021.3099291",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 36,
+      "title": "Speech Enhancement and Dereverberation With Diffusion-Based Generative Models",
+      "doi": "https://doi.org/10.1109/taslp.2023.3285241",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 37,
+      "title": "MetricGAN+: An Improved Version of MetricGAN for Speech Enhancement",
+      "doi": "https://doi.org/10.21437/interspeech.2021-599",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 38,
+      "title": "SpeakerBeam: Speaker Aware Neural Network for Target Speaker Extraction in Speech Mixtures",
+      "doi": "https://doi.org/10.1109/jstsp.2019.2922820",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 39,
+      "title": "Exploring Speech Enhancement with Generative Adversarial Networks for Robust Speech Recognition",
+      "doi": "https://doi.org/10.1109/icassp.2018.8462581",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 40,
+      "title": "Fullsubnet: A Full-Band and Sub-Band Fusion Model for Real-Time Single-Channel Speech Enhancement",
+      "doi": "https://doi.org/10.1109/icassp39728.2021.9414177",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-forward.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 41,
+      "title": "The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies",
+      "doi": "https://doi.org/10.17613/g7mbr-1s626",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 42,
+      "title": "SoK: The Security-Safety Continuum of Multimodal Foundation Models",
+      "doi": "https://doi.org/10.1145/3846374.3846395",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 43,
+      "title": "From the Rock Floor to the Cloud: A Systematic Review of State-of-the-Art NLP in Battery Life Cycle",
+      "doi": "https://doi.org/10.3390/ai7110459",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 44,
+      "title": "How to Build Digital Humans? From Priors to Photorealistic Avatars",
+      "doi": "https://doi.org/10.1111/cgf.70395",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 45,
+      "title": "Automated Question Answering for Thai Visa Services using GPT-4: System Architecture, Custom Dataset, and Performance Evaluation",
+      "doi": "https://doi.org/10.14456/jait.2026.23",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 46,
+      "title": "Online Game-based Learning via LINE Application to Enhance Parts of Speech Skills of High School Students with Hearing Impairment in the 21st Century",
+      "doi": "https://doi.org/10.14456/jait.2026.26",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 47,
+      "title": "Reframing L2 Pragmatic Competence in the Generative AI Era: A Co-Design-Oriented Critical Curriculum",
+      "doi": "https://doi.org/10.65021/mwsj.v2.i3.61",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 48,
+      "title": "“A Friendly Province to Come and Learn in”: Framing Healthcare Deservingness for International Students in Manitoba",
+      "doi": "https://doi.org/10.1017/s0008423926101371",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 49,
+      "title": "Constructing AI safety: a comparative cognitive-discursive analysis of corporate and regulatory discourses",
+      "doi": "https://doi.org/10.3389/fcomm.2026.1998362",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 50,
+      "title": "Language outcomes in preschool children with hypoxic-ischemic encephalopathy treated with therapeutic hypothermia",
+      "doi": "https://doi.org/10.3389/fped.2026.1944493",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 51,
+      "title": "Development and validation of a voice-based conversational artificial intelligence coaching agent to reduce competitive state anxiety in elite athletes: study protocol for a randomized, analyst-blinded, attention-matched active-controlled trial",
+      "doi": "https://doi.org/10.3389/fdgth.2026.1962543",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 52,
+      "title": "Early functional neuroimaging alterations in pTau217 biomarker-positive older adults",
+      "doi": "https://doi.org/10.3389/fnagi.2026.1960569",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 53,
+      "title": "The digital mannequin: micro-trend mimesis and parasocial identity construction in emerging adult females on Instagram reels",
+      "doi": "https://doi.org/10.3389/fpsyg.2026.1910770",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 54,
+      "title": "Real-Time AI-Based Smart Hearing Protection Prototype for Enhancing Safety Signal Audibility in Work Zones",
+      "doi": "https://doi.org/10.1061/jcemd4.coeng-18904",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 55,
+      "title": "GEPC: Generative-Explanatory Pest Classification with Multi-Modal Priors and Hierarchical Concept Constraints",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11578453/v1",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 56,
+      "title": "Real-world use of transcutaneous spinal neuromodulation combined with activity-based rehabilitation across neurological disorders: a retrospective post-market study",
+      "doi": "https://doi.org/10.3389/fmedt.2026.1984753",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 57,
+      "title": "Adversarial example detection for image captioning models via SPC-verify",
+      "doi": "https://doi.org/10.3389/fcomp.2026.1897185",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 58,
+      "title": "Companionship-oriented conversational AI use and loneliness among community-dwelling older adults: the moderating role of human social connectedness",
+      "doi": "https://doi.org/10.3389/fpubh.2026.2017963",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 59,
+      "title": "Note2Narr: a neuro-symbolic multi-agent system for synthesizing high-fidelity training narratives from sparse counselor notes",
+      "doi": "https://doi.org/10.3389/fpsyt.2026.1948130",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 60,
+      "title": "TEMPO-taVNS: a multimodal platform optimizing thermal, electrical, and mechanical auricular stimulation",
+      "doi": "https://doi.org/10.3389/fnins.2026.1983186",
+      "grade": "Exclude",
+      "reason": "主要研究任务不是目标语音增强；领域或用词重叠不足以支撑本文论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-recent.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 61,
+      "title": "Improved face-to-face communication using noise reduction and speech intelligibility enhancement",
+      "doi": "https://doi.org/10.1109/icassp.2015.7178943",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 62,
+      "title": "An Improved Noise Reduction Technique for Enhancing the Intelligibility of Sinewave Vocoded Speech: Implication in Cochlear Implants",
+      "doi": "https://doi.org/10.1109/access.2022.3232549",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 63,
+      "title": "Intelligibility Enhancement at the Receiving End of the Speech Transmission System — Effects of Far-End Noise Reduction",
+      "doi": "https://doi.org/10.21437/interspeech.2016-144",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "title",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 64,
+      "title": "Speech Enhancement",
+      "doi": "https://doi.org/10.1201/b14529",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 65,
+      "title": "A comparative intelligibility study of single-microphone noise reduction algorithms",
+      "doi": "https://doi.org/10.1121/1.2766778",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 66,
+      "title": "Speech intelligibility in background noise with ideal binary time-frequency masking",
+      "doi": "https://doi.org/10.1121/1.3083233",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 67,
+      "title": "Enhancement of Speech Intelligibility using Binary Mask Based on Noise Constraints",
+      "doi": "https://doi.org/10.35940/ijrte.c5260.098319",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 68,
+      "title": "A Hybrid Approach to Electrolaryngeal Speech Enhancement Based on Noise Reduction and Statistical Excitation Generation",
+      "doi": "https://doi.org/10.1587/transinf.e97.d.1429",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 69,
+      "title": "Speech intelligibility measures for speech enhancement under nonstationary acoustic noise",
+      "doi": "https://doi.org/10.1109/its.2014.6948048",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 70,
+      "title": "INTELLIGIBILITY ENHANCEMENT OF SPEECH IN NOISE",
+      "doi": "https://doi.org/10.25144/16238",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 71,
+      "title": "Speech enhancement based on neural networks improves speech intelligibility in noise for cochlear implant users",
+      "doi": "https://doi.org/10.1016/j.heares.2016.11.012",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 72,
+      "title": "Review: Noise Reduction Techniques for Enhancing Speech",
+      "doi": "https://doi.org/10.24996/ijs.2024.65.10.38",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 73,
+      "title": "Speech enhancement and noise reduction for aviation applications",
+      "doi": null,
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 74,
+      "title": "An algorithm that improves speech intelligibility in noise for normal-hearing listeners",
+      "doi": "https://doi.org/10.1121/1.3184603",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 75,
+      "title": "Speech Intelligibility Enhancement Using Distortion Control",
+      "doi": "https://doi.org/10.4028/www.scientific.net/amr.912-914.1391",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 76,
+      "title": "Speech intelligibility and quality: A comparative study of speech enhancement algorithms",
+      "doi": "https://doi.org/10.1109/issc.2017.7983599",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 77,
+      "title": "Weighted Speech Distortion Losses for Neural-Network-Based Real-Time Speech Enhancement",
+      "doi": "https://doi.org/10.1109/icassp40776.2020.9054254",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 78,
+      "title": "Spectral contrast enhancement improves speech intelligibility in noise for cochlear implants",
+      "doi": "https://doi.org/10.1121/1.4939896",
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 79,
+      "title": "Intelligibility enhancement of synthetic speech in noise",
+      "doi": null,
+      "grade": "Important",
+      "reason": "与掩蔽、空间／目标条件、评价或听觉应用直接相关，但任务或人群比本文主要范围更专门。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 80,
+      "title": "Speech Enhancement for Noise Reductions Using Hybrid Signal Subspace",
+      "doi": "https://doi.org/10.38124/ijisrt/26may223",
+      "grade": "Core",
+      "reason": "直接研究语音增强方法、损失或噪声下可懂度；需原始来源核查后才能用于具体论断。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-search.json"
+      ],
+      "used_from_this_record": false
+    },
+    {
+      "candidate_number": 81,
+      "title": "Supervised Speech Separation Based on Deep Learning: An Overview",
+      "doi": "https://doi.org/10.1109/taslp.2018.2842159",
+      "grade": "Background",
+      "reason": "提供理论、综述或相邻任务背景；核心算法和获益结论优先使用原始研究。",
+      "evidence_basis": "abstract",
+      "discovery_files": [
+        "openalex-seed.json"
+      ],
+      "used_from_this_record": false
+    }
+  ]
+}

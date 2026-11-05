@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-06",
+  "model": "analytic teaching examples, not clinical or speech benchmark data",
+  "wiener_at_zero_db": 0.5,
+  "irm_at_zero_db": 0.7071067811865476,
+  "mse_optimum_gain": 0.5,
+  "mse_minimum": 0.5,
+  "complex_ratio_case_1": 5,
+  "complex_ratio_case_2_real": 0.5,
+  "complex_ratio_case_2_imag": -0.5,
+  "mvdr": [
+    {
+      "frequency_hz": 1000,
+      "distortionless_error": 1.1102230246251565e-16,
+      "mvdr_noise_power": 1.5076875615510357,
+      "delay_sum_noise_power": 8.800377302732521
+    },
+    {
+      "frequency_hz": 3000,
+      "distortionless_error": 1.3877787807814457e-17,
+      "mvdr_noise_power": 0.30453044455161216,
+      "delay_sum_noise_power": 2.0854061692485253
+    }
+  ],
+  "checks_passed": true
+}
