@@ -1,3 +1,4 @@
+import { psychometricFunctionReferences } from './psychometric-function-references.ts';
 import { stochasticProcessesReferences } from './stochastic-processes-references.ts';
 import { vibrationsAcousticsReferences } from './vibrations-and-acoustics-references.ts';
 import { nonlinearDynamicsReferences } from './nonlinear-dynamics-references.ts';
@@ -110,6 +111,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...psychometricFunctionReferences,
   ...stochasticProcessesReferences,
   ...vibrationsAcousticsReferences,
   ...nonlinearDynamicsReferences,
@@ -263,7 +265,7 @@ export const references: Record<string, Reference> = {
   "goupell-2013": {"title":"Effect of mismatched place-of-stimulation on the salience of binaural cues in conditions that simulate bilateral cochlear-implant listening","authors":"Matthew J. Goupell, Corey Stoelb, Alan Kan, Ruth Y. Litovsky","year":"2013","publication":"The Journal of the Acoustical Society of America","doi":"10.1121/1.4792936","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3631247/","access":"abstract","supports":"正常听力声学脉冲模拟中的双耳频率位置失配；融合、侧化与辨别分开评价。"},
   "kan-2013": {"title":"Effect of mismatched place-of-stimulation on binaural fusion and lateralization in bilateral cochlear-implant users","authors":"Alan Kan, Corey Stoelb, Ruth Y. Litovsky, Matthew J. Goupell","year":"2013","publication":"The Journal of the Acoustical Society of America","doi":"10.1121/1.4820889","url":"https://bhsl.wiscweb.wisc.edu/wp-content/uploads/sites/114/2017/03/pub_2013Kanetal_JASA.pdf","access":"fulltext","supports":"参照摘要、双侧 CI 电刺激与融合/侧化任务；真实植入者的跨耳位置失配，不与模拟结果合并。"},
   "yin-2002": {"title":"YIN, a fundamental frequency estimator for speech and music","authors":"Alain de Cheveigné, Hideki Kawahara","year":"2002","publication":"The Journal of the Acoustical Society of America","doi":"10.1121/1.1458024","url":"https://pubmed.ncbi.nlm.nih.gov/12002874/","access":"abstract","supports":"基频估计算法的原始研究入口；差分函数为教学说明，不声称此处实现完整 YIN。"},
-  "wichmann-2001": {"title":"The psychometric function: I. Fitting, sampling, and goodness of fit","authors":"Felix A. Wichmann, N. Jeremy Hill","year":"2001","publication":"Perception &amp; Psychophysics","doi":"10.3758/bf03194544","url":"https://courses.washington.edu/matlab1/pdf/Wichmann_Hill_2001a.pdf","access":"fulltext","supports":"参照拟合、猜测与失误参数、采样及拟合优度；心理测量函数的统计框架，不代替具体测听规则。"},
+  "wichmann-2001": {"title":"The psychometric function: I. Fitting, sampling, and goodness of fit","authors":"Felix A. Wichmann, N. Jeremy Hill","year":"2001","publication":"Perception & Psychophysics, 63(8), 1293–1313","doi":"10.3758/bf03194544","url":"https://courses.washington.edu/matlab1/pdf/Wichmann_Hill_2001a.pdf","access":"fulltext","supports":"参照拟合、猜测与失误参数、采样及拟合优度；心理测量函数的统计框架，不代替具体测听规则。"},
   "levitt-1971": {"title":"Transformed Up-Down Methods in Psychoacoustics","authors":"H. Levitt","year":"1971","publication":"The Journal of the Acoustical Society of America, 49(2B), 467–477","doi":"10.1121/1.1912375","url":"https://bdml.stanford.edu/twiki/pub/Haptics/DetectionThreshold/psychoacoustics.pdf","access":"fulltext","supports":"2026-10-09 已阅读公开原文的基本假设、变换升降规则及估计章节；不同规则对应不同长期目标，有限试次及步长仍影响阈值估计。"},
   "miller-1955": {"title":"An Analysis of Perceptual Confusions Among Some English Consonants","authors":"George A. Miller, Patricia E. Nicely","year":"1955","publication":"The Journal of the Acoustical Society of America","doi":"10.1121/1.1907526","url":"https://www.mpi.nl/publications/item2364425/analysis-perceptual-confusions-among-some-english-consonants","access":"metadata","supports":"经典辅音混淆研究的书目入口；目前不据此重建原始矩阵或报告样本、效应数值。"},
   "viemeister-1979": {"title":"Temporal modulation transfer functions based upon modulation thresholds","authors":"Neal F. Viemeister","year":"1979","publication":"The Journal of the Acoustical Society of America","doi":"10.1121/1.383531","url":"https://pubmed.ncbi.nlm.nih.gov/500975/","access":"abstract","supports":"噪声载波的调制检测阈与 TMTF；用于说明调制检测随速率和刺激条件变化，不能等同于包络编码硬截止。"},

@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: psychometric functions: fitting, lapses, uncertainty and auditory applications
+
+Title: quickpsy: An R Package to Fit Psychometric Functions for Multiple Groups
+Abstract: quickpsy is a package to parametrically fit psychometric functions.In comparison with previous R packages, quickpsy was built to easily fit and plot data for multiple groups.Here, we describe the standard parametric model used to fit psychometric functions and the standard estimation of its parameters using maximum likelihood.We also provide examples of usage of quickpsy, including how allowing the lapse rate to vary can sometimes eliminate the bias in parameter estimation, but not in general.Finally, we describe some implementation details, such as how to avoid the problems associated to round-off errors in the maximisation of the likelihood or the use of closures and non-standard evaluation functions.
+Keywords/concepts:
+Venue: The R Journal
+Year: 2016
+Cited by: 265
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-11-02",
+  "date": "2026-11-06",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1003,
+  "relations": 1010,
   "entries": [
     {
       "slug": "cochlea",
@@ -246,8 +246,8 @@
       "slug": "speech-intelligibility",
       "knowledge_area": "perception",
       "kind": "function",
-      "chinese_characters": 9587,
-      "body_characters": 16478,
+      "chinese_characters": 9630,
+      "body_characters": 16558,
       "sections": 12,
       "subsections": 35,
       "reference_ids": [
@@ -277,6 +277,7 @@
         "xu-tone-2002"
       ],
       "wiki_links": [
+        "psychometric-function",
         "formant",
         "temporal-envelope",
         "temporal-fine-structure",
@@ -665,8 +666,8 @@
       "slug": "speech-reception-threshold",
       "knowledge_area": "measurement",
       "kind": "metric",
-      "chinese_characters": 8535,
-      "body_characters": 17102,
+      "chinese_characters": 8586,
+      "body_characters": 17192,
       "sections": 11,
       "subsections": 30,
       "reference_ids": [
@@ -699,6 +700,7 @@
       "wiki_links": [
         "pure-tone-audiometry",
         "speech-intelligibility",
+        "psychometric-function",
         "mandarin-lexical-tone",
         "zodiac-in-noise",
         "audiometric-calibration",
@@ -2275,8 +2277,8 @@
       "slug": "psychoacoustics",
       "knowledge_area": "perception",
       "kind": "discipline",
-      "chinese_characters": 8109,
-      "body_characters": 15950,
+      "chinese_characters": 8149,
+      "body_characters": 16026,
       "sections": 11,
       "subsections": 24,
       "reference_ids": [
@@ -2303,6 +2305,7 @@
       ],
       "wiki_links": [
         "psychology",
+        "psychometric-function",
         "loudness",
         "fundamental-frequency",
         "pitch-perception",
@@ -3304,8 +3307,8 @@
       "slug": "signal-detection-theory",
       "knowledge_area": "methods",
       "kind": "model",
-      "chinese_characters": 7848,
-      "body_characters": 16265,
+      "chinese_characters": 7893,
+      "body_characters": 16346,
       "sections": 10,
       "subsections": 24,
       "reference_ids": [
@@ -3330,6 +3333,7 @@
       ],
       "wiki_links": [
         "psychoacoustics",
+        "psychometric-function",
         "masking",
         "speech-intelligibility",
         "frequency-resolution",
@@ -6325,6 +6329,50 @@
       "kind": "course",
       "status": "draft",
       "depth": "in-depth"
+    },
+    {
+      "slug": "psychometric-function",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 6367,
+      "body_characters": 13778,
+      "sections": 10,
+      "subsections": 23,
+      "reference_ids": [
+        "wichmann-2001",
+        "psychoacoustics-wichmann-ii-2001",
+        "psychoacoustics-schuett-2016",
+        "pf-prins-2012",
+        "psychoacoustics-stanislaw-1999",
+        "levitt-1971",
+        "psychoacoustics-quest-1983",
+        "pf-shen-richards-2012",
+        "pf-shen-2013",
+        "pf-prins-kingdom-2018",
+        "pf-psignifit-docs",
+        "pf-leek-2001",
+        "pf-wallis-2013",
+        "pf-quickpsy-2016",
+        "psychoacoustics-soranzo-2014"
+      ],
+      "wiki_links": [
+        "psychoacoustics",
+        "signal-detection-theory",
+        "speech-reception-threshold",
+        "hearing-aid",
+        "cochlear-implant",
+        "speech-intelligibility",
+        "listening-effort",
+        "probability-theory",
+        "mathematical-statistics",
+        "masking",
+        "temporal-resolution"
+      ],
+      "status": "draft",
+      "depth": "in-depth",
+      "figures": 4,
+      "audio": 0,
+      "code_examples": 1
     }
   ]
 }

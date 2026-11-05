@@ -25,6 +25,8 @@ key_facts: [{"label":"缩写","value":"SRT"},{"label":"定义","value":"达到�
 
 SRT 是连接[纯音测听](../pure-tone-audiometry/)与[言语可懂度](../speech-intelligibility/)的重要指标。前者主要描述频率相关的检测敏感度；后者涉及声学线索、语言知识、记忆和注意等过程。言语接收阈提供了一种可重复的行为测量，但不会把这些过程全部压缩为一种不依赖任务的“听力能力”。我国现行 GB/T 16296.3-2017 与 ISO 8253-3:2022 分别提供言语测听的国家标准和国际标准框架。[3](#ref-speech-reception-threshold-gb)[2](#ref-speech-reception-threshold-iso)
 
+阈值与斜率、原始正确率与归一化概率，以及拟合区间的共同方法，见[心理测量函数](../psychometric-function/)；具体测试仍需保留材料、任务和校准条件。
+
 ## 定义、名称与相关指标
 
 ### 接收阈、识别阈与检测阈

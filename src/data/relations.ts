@@ -15,6 +15,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('psychometric-function','psychoacoustics','related','以反应概率曲线连接受控刺激、行为任务与测量解释。',3),
+  link('psychometric-function','speech-reception-threshold','related','接收阈是指定概率位置，需保留渐近线、函数与评分定义。',3),
+  link('psychometric-function','speech-intelligibility','related','正确率、目标阈值和斜率提供不同的言语表现比较。',3),
+  link('psychometric-function','signal-detection-theory','related','反应曲线与敏感性及判据需要区分，任务决定纵轴含义。',3),
+  link('psychometric-function','probability-theory','related','Bernoulli和二项分布把有限反应次数连接到条件概率。',2),
+  link('psychometric-function','mathematical-statistics','related','似然、区间、模型比较与层级结构组织行为推断。',3),
+  link('psychometric-function','temporal-resolution','related','时域任务中的阈值和斜率估计需要明确刺激采样。',2),
   link('stochastic-processes','signals-and-systems','related','把卷积与频响扩展到随机输入的均值、相关、互谱和稳态条件。',3),
   link('stochastic-processes','digital-signal-processing','related','采样、混叠、数字滤波及谱估计需同时核对总体模型与有限实现。',3),
   link('stochastic-processes','probability-theory','related','联合分布、期望、条件化与独立性组织过程的时间依赖。',3),

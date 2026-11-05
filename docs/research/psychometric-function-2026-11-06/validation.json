@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-06",
+  "base_commit": "798fc6b",
+  "article": {
+    "chinese_characters": 6367,
+    "sections": 10,
+    "subsections": 23,
+    "figures": 4,
+    "references": 15,
+    "status": "draft",
+    "reviewer": null
+  },
+  "checks": {
+    "pnpm_check": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "pnpm_build": "passed; final content and regenerated figures",
+    "pnpm_verify": {
+      "pages": 326,
+      "checkedInternalLinks": 28793,
+      "searchableConcepts": 143,
+      "brokenLinks": 0
+    },
+    "numeric": "inverse, finite-difference derivative, monotonicity, asymptotes, fixed-design bootstrap and binomial likelihood passed",
+    "visual": "four PNGs inspected; figure2 label overlap corrected; desktop and390px browser view checked; page width375px for390px viewport; long equations scroll within local boxes",
+    "git_diff_check": "passed"
+  },
+  "limitations": [
+    "No named independent professional review; Draft retained.",
+    "Published methods and original simulations distinguished; no participant data.",
+    "Tool documentation checked; psignifit, Palamedes and quickpsy not executed.",
+    "Bootstrap percentile interval conditions on fixed gamma/lambda and design;400 replicates are teaching settings and4 boundary fits are disclosed.",
+    "Bounded citation search; not an exhaustive current review."
+  ]
+}

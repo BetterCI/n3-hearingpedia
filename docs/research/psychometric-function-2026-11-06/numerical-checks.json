@@ -1,0 +1,53 @@
+{
+  "data_kind": "Synthetic Bernoulli responses; no human data",
+  "seed": 20261106,
+  "gamma": 0.5,
+  "lambda": 0.02,
+  "generating_alpha": -6,
+  "generating_beta": 1.5,
+  "levels": [
+    -12.0,
+    -9.0,
+    -6.0,
+    -3.0,
+    0.0
+  ],
+  "trials": [
+    40,
+    40,
+    40,
+    40,
+    40
+  ],
+  "correct": [
+    25,
+    21,
+    32,
+    37,
+    38
+  ],
+  "fitted_alpha": -6.5466596331093685,
+  "fitted_beta": 1.8840353386644841,
+  "threshold_75": -6.389565735273494,
+  "threshold_75_percentile_ci": [
+    -7.979761610768371,
+    -4.918132105341523
+  ],
+  "bootstrap_replicates": 400,
+  "bootstrap_boundary_fits": 4,
+  "negative_log_likelihood_without_binomial_constants": 94.27915434874993,
+  "log_likelihood_with_constants": -10.245135545410264,
+  "deviance": 3.0573464962964247,
+  "analytic_examples": {
+    "threshold_74": -6.0,
+    "threshold_75": -5.874927586591423,
+    "threshold_90": -3.585843131348849,
+    "slope_at_alpha_per_dB": 0.07999999999674934,
+    "lapse_event_fraction_2afc": 0.04,
+    "mixture_slope_at_minus6": 0.0335979473291221
+  },
+  "checks": "inverse, derivative, monotonicity, asymptotes and explicit binomial likelihood pass",
+  "versions": {
+    "numpy": "1.26.4"
+  }
+}
