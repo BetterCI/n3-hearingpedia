@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Auditory FFR: distributed sources, recording controls, polarity, statistics, behavior and recent developments
+
+Title: Evolving perspectives on the sources of the frequency-following response
+Abstract: The auditory frequency-following response (FFR) is a non-invasive index of the fidelity of sound encoding in the brain, and is used to study the integrity, plasticity, and behavioral relevance of the neural encoding of sound. In this Perspective, we review recent evidence suggesting that, in humans, the FFR arises from multiple cortical and subcortical sources, not just subcortically as previously believed, and we illustrate how the FFR to complex sounds can enhance the wider field of auditory neuroscience. Far from being of use only to study basic auditory processes, the FFR is an uncommonly multifaceted response yielding a wealth of information, with much yet to be tapped.
+Keywords/concepts:
+Venue: Nature Communications
+Year: 2019
+Cited by: 208
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

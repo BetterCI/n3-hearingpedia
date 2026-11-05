@@ -1,0 +1,199 @@
+{
+  "scope": "18 focused candidates included; remaining discovery results are unscreened leads, not an exhaustive review",
+  "assessment": "Manual semantic reading using saved judge_relevance prompt",
+  "records": [
+    {
+      "id": "ffr-krizman-2019",
+      "doi": "10.1016/j.heares.2019.107779",
+      "title": "Analyzing the FFR: A tutorial for decoding the richness of auditory function",
+      "studies": "分析FFR成分与极性、抖动、幅度及一致性方法",
+      "grade": "Core",
+      "reason": "为方法章节提供操作定义，而非诊断效能证明",
+      "evidence_basis": "fulltext",
+      "access_notes": "2026-11-06：作者机构PDF第2–4节相关段落：极性、单次记录、触发抖动、时频分析及一致性。数值教学图为独立解析推导，不复制论文实验数据。",
+      "included": true
+    },
+    {
+      "id": "ffr-aiken-2008",
+      "doi": "10.1016/j.heares.2008.08.004",
+      "title": "Envelope and spectral frequency-following responses to vowel sounds",
+      "studies": "比较自然元音反极性相加／相减中的包络和谱成分",
+      "grade": "Core",
+      "reason": "直接支持极性操作，不声称纯来源分离",
+      "evidence_basis": "abstract",
+      "access_notes": "2026-11-06：PubMed摘要：自然元音、反极性加减与基频／共振峰附近谐波；不把操作性分量当作纯解剖来源。",
+      "included": true
+    },
+    {
+      "id": "ffr-bidelman-2018",
+      "doi": "10.1016/j.neuroimage.2018.03.060",
+      "title": "Subcortical sources dominate the neuroelectric auditory frequency-following response to speech",
+      "studies": "用多通道EEG源模型研究语音FFR贡献",
+      "grade": "Core",
+      "reason": "保留与MEG不同的皮层下优势证据",
+      "evidence_basis": "fulltext",
+      "access_notes": "2026-11-06：出版商摘要及可读Introduction、Results/Discussion相关段落：64通道EEG模型中的皮层下优势，限定刺激、成像与源模型条件。",
+      "included": true
+    },
+    {
+      "id": "ffr-gnanateja-2021",
+      "doi": "10.1523/ENEURO.0451-21.2021",
+      "title": "Frequency-Following Responses to Speech Sounds Are Highly Conserved across Species and Contain Cortical Contributions",
+      "studies": "比较人、猕猴及豚鼠头皮与皮层记录",
+      "grade": "Core",
+      "reason": "提供更直接的皮层发生源证据，限制小样本推广",
+      "evidence_basis": "fulltext",
+      "access_notes": "2026-11-06：PMC摘要及Discussion：两名人类颅内受试者、猕猴与豚鼠跨层次记录支持皮层发生源；不能由小样本推出固定皮层百分比。",
+      "included": true
+    },
+    {
+      "id": "ffr-tichko-2017",
+      "doi": "10.1016/j.heares.2017.01.014",
+      "title": "Frequency-dependent fine structure in the frequency-following response: The byproduct of multiple generators",
+      "studies": "研究FFR幅度随频率起伏及多延迟来源模型",
+      "grade": "Core",
+      "reason": "支持相消解释，不从低谷定位病变",
+      "evidence_basis": "abstract",
+      "access_notes": "2026-11-06：摘要与可检索作者论文段落支持不同延迟来源的相长／相消；图1使用自设两等幅来源，不拟合其多源模型。",
+      "included": true
+    },
+    {
+      "id": "ffr-myogenic-2024",
+      "doi": "10.3389/fnins.2024.1422903",
+      "title": "Myogenic artifacts masquerade as neuroplasticity in the auditory frequency-following response",
+      "studies": "操纵眼位和参考位置检查耳后肌对周期响应的污染",
+      "grade": "Core",
+      "reason": "更新必要实验控制，并限制过度否定既往文献",
+      "evidence_basis": "fulltext",
+      "access_notes": "2026-11-06：PMC摘要、Methods及讨论相关段落：眼位、参考电极及100/200 Hz刺激下耳后肌污染；不据此否定全部训练效应，不把颈部参考当通用无伪迹保证。",
+      "included": true
+    },
+    {
+      "id": "ffr-song-retest-2011",
+      "doi": "10.1016/j.clinph.2010.07.009",
+      "title": "Test–retest reliability of the speech-evoked auditory brainstem response",
+      "studies": "比较年轻成人两次语音诱发反应及噪声条件",
+      "grade": "Important",
+      "reason": "重复性必须限定范式与统计含义",
+      "evidence_basis": "fulltext",
+      "access_notes": "2026-11-06：作者PDF摘要与方法入口：年轻成人两次记录、安静与多人语噪；支持条件限定的重复性，不将均值无差异等同个体一致性。",
+      "included": true
+    },
+    {
+      "id": "ffr-krishnan-2005",
+      "doi": "10.1016/j.cogbrainres.2005.05.004",
+      "title": "Encoding of pitch in the human brainstem is sensitive to language experience",
+      "studies": "比较普通话与英语母语者的四声FFR",
+      "grade": "Important",
+      "reason": "历史经验关联证据，不是随机干预",
+      "evidence_basis": "abstract",
+      "access_notes": "2026-11-06：原始摘要：普通话与英语母语者对四声的自相关／谱指标差异；横断面关联，不证明单一脑区或排除背景混杂。",
+      "included": true
+    },
+    {
+      "id": "ffr-song-training-2008",
+      "doi": "10.1162/jocn.2008.20131",
+      "title": "Plasticity in the adult human auditory brainstem following short-term linguistic training",
+      "studies": "观察英语成人词汇声调训练前后的FFR音高跟踪变化",
+      "grade": "Important",
+      "reason": "说明训练研究路线，不宣称临床疗效",
+      "evidence_basis": "abstract",
+      "access_notes": "2026-11-06：PubMed及PMC可检索摘要：英语成人词汇声调训练前后FFR变化；未完整读取全文，不声称随机对照疗效。",
+      "included": true
+    },
+    {
+      "id": "ffr-schuller-2024",
+      "doi": "10.1162/jocn_a_02103",
+      "title": "The Early Subcortical Response at the Fundamental Frequency of Speech Is Temporally Separated from Later Cortical Contributions",
+      "studies": "分析连续语音MEG中早期与较晚的快速响应成分",
+      "grade": "Core",
+      "reason": "更新连续语音及来源时间分离",
+      "evidence_basis": "abstract",
+      "access_notes": "2026-11-06：原始摘要及机构PDF首页：连续语音MEG的早期4–11 ms与较晚20–58 ms成分；仅为该分析的窗口，不作为所有FFR来源分界。",
+      "included": true
+    },
+    {
+      "id": "ffr-rapid-2025",
+      "doi": "10.1101/2025.05.20.655073",
+      "title": "Rapid FFR: A rapid method for obtaining Frequency Following Responses",
+      "studies": "比较连续锯齿刺激单周期平均和常规记录",
+      "grade": "Important",
+      "reason": "新采集方法，保留预印本与样本限制",
+      "evidence_basis": "fulltext",
+      "access_notes": "2026-11-06：PMC预印本摘要与方法入口：128 Hz连续锯齿波、按周期平均、年轻正常听力样本；未核实到正式期刊版本，保留未同行评审标识。",
+      "included": true
+    },
+    {
+      "id": "ffr-danielou-2026",
+      "doi": "10.1111/ejn.70418",
+      "title": "Event-Related Brain Potentials and Frequency-Following Response to Syllables in Newborns and Adults",
+      "studies": "在新生儿和成人中结合FFR与ERP比较音节编码",
+      "grade": "Important",
+      "reason": "近期发育研究，不能建立个体常模",
+      "evidence_basis": "fulltext",
+      "access_notes": "2026-11-06：出版商／PubMed摘要及PMC可检索Methods、Results、Discussion段落：17名足月新生儿与21名成人，F0和共振峰编码成熟不同；不能据此建立婴儿诊断常模。",
+      "included": true
+    },
+    {
+      "id": "ffr-whiteford-2025",
+      "doi": "10.1038/s41467-025-62155-5",
+      "title": "Large-scale multi-site study shows no association between musical training and early auditory neural sound encoding",
+      "studies": "六中心预注册复现音乐训练／能力与早期神经编码关联",
+      "grade": "Core",
+      "reason": "关键阴性证据，平衡经验增强叙事",
+      "evidence_basis": "fulltext",
+      "access_notes": "2026-11-06：出版方可检索正文及作者机构PDF摘要／引言：六中心、超过260人、预注册复现未支持所检验的音乐训练／能力与早期编码关联；不推广为所有音乐神经可塑性均不存在。",
+      "included": true
+    },
+    {
+      "id": "coffey-2019",
+      "doi": "10.1038/s41467-019-13003-w",
+      "studies": "综述FFR皮层与皮层下来源及测量依赖",
+      "grade": "Core",
+      "reason": "用于来源争议的概念框架",
+      "evidence_basis_this_pass": "fulltext",
+      "included": true,
+      "note": "复用既有注册ID；访问范围不自动覆盖既有记录。"
+    },
+    {
+      "id": "skoe-2010",
+      "doi": "10.1097/AUD.0b013e3181cdb272",
+      "studies": "介绍复杂声音诱发反应的记录与分析",
+      "grade": "Background",
+      "reason": "限定cABR和FFR名称及瞬态／持续段关系",
+      "evidence_basis_this_pass": "abstract",
+      "included": true,
+      "note": "复用既有注册ID；访问范围不自动覆盖既有记录。"
+    },
+    {
+      "id": "li-liang-ffr-cortex-2016",
+      "doi": "10.1038/ncomms11070",
+      "studies": "用MEG源分析检验语音FFR皮层贡献",
+      "grade": "Core",
+      "reason": "与EEG证据并列而非相互否定",
+      "evidence_basis_this_pass": "fulltext",
+      "included": true,
+      "note": "复用既有注册ID；访问范围不自动覆盖既有记录。"
+    },
+    {
+      "id": "phase-vinck2010",
+      "doi": "10.1016/j.neuroimage.2010.01.073",
+      "studies": "研究相位统计有限样本偏差并定义PPC",
+      "grade": "Important",
+      "reason": "数学估计方法，不作为FFR发生源证据",
+      "evidence_basis_this_pass": "abstract",
+      "included": true,
+      "note": "复用既有注册ID；访问范围不自动覆盖既有记录。"
+    },
+    {
+      "id": "li-liang-ffr-null-2015",
+      "doi": "10.1016/j.brainres.2015.06.038",
+      "studies": "操纵注意状态检查EFR及皮层alpha变化",
+      "grade": "Important",
+      "reason": "保留注意调制阴性结果",
+      "evidence_basis_this_pass": "abstract",
+      "included": true,
+      "note": "复用既有注册ID；访问范围不自动覆盖既有记录。"
+    }
+  ]
+}

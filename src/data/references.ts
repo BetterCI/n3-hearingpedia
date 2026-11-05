@@ -1,3 +1,4 @@
+import { frequencyFollowingResponseReferences } from './frequency-following-response-references.ts';
 import { objectiveSpeechEvaluationReferences } from './objective-speech-evaluation-references.ts';
 import { wideDynamicRangeCompressionReferences } from './wide-dynamic-range-compression-references.ts';
 import { psychometricFunctionReferences } from './psychometric-function-references.ts';
@@ -113,6 +114,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...frequencyFollowingResponseReferences,
   ...objectiveSpeechEvaluationReferences,
   ...wideDynamicRangeCompressionReferences,
   ...psychometricFunctionReferences,

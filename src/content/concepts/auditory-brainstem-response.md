@@ -7,7 +7,7 @@ categories: ["audiology","neuroscience"]
 tags: ["auditory-brainstem-response"]
 aliases: ["ABR","脑干听觉诱发电位","BAEP","电诱发听觉脑干反应","eABR"]
 status: draft
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 authors: ["AI 辅助编写"]
 references: ["jewett-abr-1971","picton-aep-1974","asha-abr","core-upgrade-abr-gorga","core-upgrade-jcih-2019","verhulst-model-2018","core-upgrade-abr-don","core-upgrade-stapells","core-upgrade-dau-chirp","core-upgrade-bsa-newborn","core-upgrade-jcih-faq","core-upgrade-bsa-current","core-upgrade-bsa-abr-adult","core-upgrade-abr-starr","core-upgrade-abr-human","kujawa-synaptopathy-2009","guest-synaptopathy-2018","widmann-2015","jennings-chirp-2026"]
 batch: 3
@@ -22,6 +22,8 @@ depth: in-depth
 **听觉脑干反应**（auditory brainstem response，ABR）是声音刺激后早期出现的一类[听觉诱发电位](../auditory-evoked-potential/)。它通常通过头部表面电极记录，将多次刺激对应的微小电位平均，从背景脑电和其他噪声中提取可重复波形。ABR 可用于观察早期听觉通路活动，并在规定程序中辅助估计听觉敏感性；它不是直接测量言语理解或日常交流的指标。[1](#ref-jewett-abr-1971)[2](#ref-picton-aep-1974)[3](#ref-asha-abr)
 
 “反应”指生理现象，“检查”指包含刺激、记录、判读和校准的程序。相同名称之下，自动筛查、诊断阈值测量和神经生理研究的目标不同。理解一项 ABR 结果，至少需要明确刺激类型、参考标度、耳别、电极配置、记录质量和判定规则，而不能只读取一张波形的波峰。
+
+持续周期编码与瞬态ABR的区别，以及相应的记录和解释边界，见[频率跟随反应（FFR）](../frequency-following-response/)。
 
 ## 定义与相关技术
 

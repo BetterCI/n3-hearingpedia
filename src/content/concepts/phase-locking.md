@@ -8,7 +8,7 @@ tags: ["相位锁定", "神经锁相", "向量强度", "时序编码", "周期�
 aliases: ["神经锁相", "神经相位锁定", "锁相", "phase locking", "phase synchrony"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-10-10"
+last_updated: "2026-11-06"
 literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -30,6 +30,8 @@ order: 55
 例如，两组响应可以在相同观察时间内产生完全相同数量的放电，却分别集中在声波周期中的固定位置和分散在整个周期。它们的平均放电率相同，携带的周期时间信息却不同。相位锁定因此连接声音的[时域精细结构](../temporal-fine-structure/)、[时域包络](../temporal-envelope/)，以及[音高感知](../pitch-perception/)和[双耳时间差](../interaural-time-difference/)的候选神经机制。[1](#ref-six-heil2015)[3](#ref-six-joris2019)
 
 本文以听神经离散放电对声学周期的锁定为主线，展开其外周机制、统计测量、感知用途和实验解释，再比较人类复合电位、脑电相位一致性与电刺激证据。单纤维动物记录、人类群体响应和行为测量分别回答不同问题；一种指标较大，不自动表示某个听者的音高、言语或空间听觉较好。[4](#ref-verschooten-2019)[5](#ref-coffey-2019)
+
+头皮群体电位中的相位一致性、来源叠加与测量偏差，见[频率跟随反应（FFR）](../frequency-following-response/)。
 
 ## 定义与容易混淆的指标
 

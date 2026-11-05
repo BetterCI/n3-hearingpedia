@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-06",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1027,
+  "relations": 1035,
   "entries": [
     {
       "slug": "cochlea",
@@ -1275,8 +1275,8 @@
       "slug": "auditory-brainstem-response",
       "knowledge_area": "measurement",
       "kind": "physiological-response",
-      "chinese_characters": 8042,
-      "body_characters": 13081,
+      "chinese_characters": 8073,
+      "body_characters": 13162,
       "sections": 13,
       "subsections": 33,
       "reference_ids": [
@@ -1301,7 +1301,8 @@
         "jennings-chirp-2026"
       ],
       "wiki_links": [
-        "auditory-evoked-potential"
+        "auditory-evoked-potential",
+        "frequency-following-response"
       ],
       "status": "draft",
       "depth": "in-depth"
@@ -1310,8 +1311,8 @@
       "slug": "auditory-evoked-potential",
       "knowledge_area": "measurement",
       "kind": "physiological-response",
-      "chinese_characters": 7054,
-      "body_characters": 10742,
+      "chinese_characters": 7079,
+      "body_characters": 10814,
       "sections": 10,
       "subsections": 7,
       "reference_ids": [
@@ -1334,6 +1335,7 @@
         "mtrf-toolbox"
       ],
       "wiki_links": [
+        "frequency-following-response",
         "auditory-brainstem-response",
         "hearing-loss",
         "fundamental-frequency",
@@ -3800,8 +3802,8 @@
       "slug": "phase-locking",
       "knowledge_area": "biology",
       "kind": "mechanism",
-      "chinese_characters": 7536,
-      "body_characters": 14061,
+      "chinese_characters": 7565,
+      "body_characters": 14138,
       "sections": 10,
       "subsections": 24,
       "reference_ids": [
@@ -3832,6 +3834,7 @@
         "temporal-envelope",
         "pitch-perception",
         "interaural-time-difference",
+        "frequency-following-response",
         "cochlea",
         "inner-hair-cell",
         "auditory-pathway",
@@ -6469,6 +6472,53 @@
         "psychometric-function",
         "temporal-envelope",
         "auditory-computational-models"
+      ],
+      "status": "draft",
+      "depth": "in-depth",
+      "figures": 4,
+      "audio": 0,
+      "code_examples": 1
+    },
+    {
+      "slug": "frequency-following-response",
+      "knowledge_area": "measurement",
+      "kind": "physiological-response",
+      "chinese_characters": 7299,
+      "body_characters": 13373,
+      "sections": 11,
+      "subsections": 12,
+      "reference_ids": [
+        "coffey-2019",
+        "ffr-krizman-2019",
+        "skoe-2010",
+        "ffr-aiken-2008",
+        "li-liang-ffr-cortex-2016",
+        "ffr-bidelman-2018",
+        "ffr-gnanateja-2021",
+        "ffr-tichko-2017",
+        "ffr-myogenic-2024",
+        "phase-vinck2010",
+        "ffr-song-retest-2011",
+        "ffr-krishnan-2005",
+        "ffr-song-training-2008",
+        "li-liang-ffr-null-2015",
+        "ffr-schuller-2024",
+        "ffr-rapid-2025",
+        "ffr-danielou-2026",
+        "ffr-whiteford-2025"
+      ],
+      "wiki_links": [
+        "auditory-evoked-potential",
+        "pitch-perception",
+        "auditory-brainstem-response",
+        "temporal-envelope",
+        "temporal-fine-structure",
+        "electroencephalography",
+        "audiometric-calibration",
+        "phase-locking",
+        "speech-intelligibility",
+        "listening-effort",
+        "auditory-pathway"
       ],
       "status": "draft",
       "depth": "in-depth",

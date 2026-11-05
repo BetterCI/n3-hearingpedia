@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-06",
+  "data_type": "Original analytic and synthetic teaching examples; no human data",
+  "sampling_rate_Hz": 20000,
+  "random_seed": 20261106,
+  "simulation_repetitions_per_N": 5000,
+  "checks": {
+    "source_cancellation_250Hz_max_abs": 3.675178358715236e-15,
+    "source_amplitude_500Hz": 2.0,
+    "polarity_sum_error": 1.1102230246251565e-16,
+    "polarity_difference_error": 2.220446049250313e-16,
+    "noise_SD_ratio_N4_to_N1": 0.5,
+    "amplitude_SNR_gain_for_fourfold_N_dB": 6.020599913279624,
+    "jitter_0p2ms_gain_100Hz": 0.9921354055113971,
+    "jitter_0p2ms_gain_1000Hz": 0.4540407387272451,
+    "random_phase_results": [
+      {
+        "N": 4,
+        "mean_squared_PLV": 0.24543887828481034,
+        "theoretical_squared_PLV": 0.25,
+        "mean_PPC": -0.006081495620252887,
+        "monte_carlo_SE_squared_PLV": 0.0030137586372629144
+      },
+      {
+        "N": 8,
+        "mean_squared_PLV": 0.12366560611313798,
+        "theoretical_squared_PLV": 0.125,
+        "mean_PPC": -0.0015250215849851596,
+        "monte_carlo_SE_squared_PLV": 0.0016843360222064847
+      },
+      {
+        "N": 16,
+        "mean_squared_PLV": 0.06140742953504325,
+        "theoretical_squared_PLV": 0.0625,
+        "mean_PPC": -0.0011654084959538632,
+        "monte_carlo_SE_squared_PLV": 0.0008277353804989708
+      },
+      {
+        "N": 32,
+        "mean_squared_PLV": 0.030952010783334656,
+        "theoretical_squared_PLV": 0.03125,
+        "mean_PPC": -0.0003076017720416449,
+        "monte_carlo_SE_squared_PLV": 0.0004225105144365111
+      },
+      {
+        "N": 64,
+        "mean_squared_PLV": 0.015894341949322804,
+        "theoretical_squared_PLV": 0.015625,
+        "mean_PPC": 0.0002736172183596736,
+        "monte_carlo_SE_squared_PLV": 0.00022357958643231702
+      },
+      {
+        "N": 128,
+        "mean_squared_PLV": 0.007947078968746867,
+        "theoretical_squared_PLV": 0.0078125,
+        "mean_PPC": 0.00013563864566613307,
+        "monte_carlo_SE_squared_PLV": 0.00011396042717135028
+      },
+      {
+        "N": 256,
+        "mean_squared_PLV": 0.0038697917058167007,
+        "theoretical_squared_PLV": 0.00390625,
+        "mean_PPC": -3.660126788597846e-05,
+        "monte_carlo_SE_squared_PLV": 5.4975051856690675e-05
+      }
+    ]
+  },
+  "passed": true
+}

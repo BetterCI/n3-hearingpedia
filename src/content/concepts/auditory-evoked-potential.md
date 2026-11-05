@@ -8,7 +8,7 @@ tags: ["auditory-evoked-potential"]
 aliases: ["AEP","AEPs","听觉事件相关电位","auditory ERP"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-06"
+last_updated: "2026-11-06"
 authors: ["AI 辅助编写"]
 references: ["picton-aep-1974","coffey-2019","skoe-2010","asha-hearing-loss","picton-assr-2003","naatanen-2007","polich-2007","widmann-2015","itoh-aep-2026","maris-2007","lalor-speech-2010","osullivan-aad-2015","mo-ci-adaptation-2026","verhulst-model-2018","verhulst-code","amt-verhulst2018","mtrf-toolbox"]
 batch: 3
@@ -22,6 +22,8 @@ key_facts: [{"label":"测量对象","value":"刺激相关电位变化"},{"label"
 **听觉诱发电位**是与听觉刺激或听觉事件相关、可通过电极记录的电位变化的统称，常用缩写为 AEP。它包括从早期听觉通路反应到较晚皮层及任务相关活动的多种响应，可用于研究声音检测、时间编码、变化辨别和注意，也为特定听力评估提供生理证据。[1](#ref-picton-aep-1974)
 
 **脑电图**是记录电活动的方法；**听觉诱发电位**是其中与听觉事件相关的一类响应；**事件相关电位**则是更广的概念，还包括视觉、运动或其他事件相关活动。这些名称对应不同层次。能够记录到某种听觉反应，说明在该刺激与分析条件下存在可测活动，并不自动证明言语理解、认知或日常交流完全正常。
+
+周期性声音的来源、极性控制与分析方法，详见[频率跟随反应（FFR）](../frequency-following-response/)。
 
 ## 记录的是什么
 

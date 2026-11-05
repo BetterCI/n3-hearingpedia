@@ -1055,6 +1055,14 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('objective-speech-evaluation','psychometric-function','related','指数到正确率的映射应独立标定与验证。',3),
   link('objective-speech-evaluation','listening-effort','related','可懂度及音质预测不自动代表努力变化。',3),
   link('objective-speech-evaluation','speech-reception-threshold','related','客观指数不能未经标定转换为行为阈值。',3),
+  link('frequency-following-response','auditory-evoked-potential','related','属于听觉诱发电位，关注持续时间结构。',3),
+  link('frequency-following-response','auditory-brainstem-response','related','持续跟随与瞬态起始反应需要分别分析。',3),
+  link('frequency-following-response','phase-locking','related','群体同步及跨试次一致性连接周期刺激与电位。',3),
+  link('frequency-following-response','temporal-envelope','related','极性相加突出某些包络相关成分。',3),
+  link('frequency-following-response','temporal-fine-structure','related','极性相减保留极性敏感成分，也可能保留伪迹。',3),
+  link('frequency-following-response','auditory-pathway','related','皮层下与皮层来源依赖刺激、记录及模型。',3),
+  link('frequency-following-response','pitch-perception','related','周期表征与主观音高能力需要独立验证。',3),
+  link('frequency-following-response','audiometric-calibration','related','声级、声学延迟与数字时间基准决定可比性。',3),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({
