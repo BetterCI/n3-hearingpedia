@@ -8,7 +8,7 @@ tags: [hilbert, envelope-extraction, modulation]
 aliases: [包络, 时域包络, ENV, Hilbert, 希尔伯特变换, amplitude envelope]
 status: draft
 depth: in-depth
-last_updated: "2026-10-10"
+last_updated: "2026-11-06"
 authors: ["AI 辅助编写"]
 references: ["scipy-hilbert","rosen-1992","smith-2002","shamma-2013","drullman-1994","shannon-1995","zhou-tle-2022","peng-mandarin-2018","gilbert-2006","apoux-2011","swaminathan-2014","viemeister-1979","dau-1997","ananthakrishnan-2022","regev-2025","kubanek-2013","mcclaskey-2024","fuglsang-2024","zhou-f0intfs-2023","tamura-2024"]
 order: 5
@@ -23,6 +23,8 @@ key_facts: [{"label":"含义","value":"幅度随时间的变化"},{"label":"常�
 与包络配对的[时域精细结构](../temporal-fine-structure/)描述同一信号的细致振荡及其相位变化。两者构成一种有用的信号表示，使研究者能够改变声音的幅度起伏或相位结构，考察听者如何利用不同线索。但是，分解出的两部分并不对应两条完全独立的神经通路，也不能简单分配为“包络负责言语、精细结构负责音乐”。听觉滤波、刺激重建和任务要求都会影响最终可用的信息。[3](#ref-smith-2002)[4](#ref-shamma-2013)
 
 时域包络的重要性体现在日常聆听的多个方面：言语中的停顿与发音起止、乐器的起音与衰减，以及噪声背景中声音的间歇性出现，都伴随幅度随时间的变化。对助听器和人工耳蜗而言，怎样保留、压缩或重新传递这些变化，会影响输出声音包含的线索。要判断某种包络处理是否有益，需要同时考虑频带分配、可听度、载波以及实际测量的感知任务。[5](#ref-drullman-1994)[6](#ref-shannon-1995)[7](#ref-zhou-tle-2022)
+
+[宽动态范围压缩](../wide-dynamic-range-compression/)展示时变增益怎样改变包络，并区分增益恢复、有效压缩及混合声音之间的相互作用。
 
 ## 定义与相邻概念
 

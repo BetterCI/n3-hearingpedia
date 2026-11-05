@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: WDRC mechanisms, speech and noise tradeoffs, human outcomes
+
+Title: Signal-to-Noise-Ratio-Aware Dynamic Range Compression in Hearing Aids
+Abstract: Fast-acting dynamic range compression is a level-dependent amplification scheme which aims to restore audibility for hearing-impaired listeners. However, when being applied to noisy speech at positive signal-to-noise ratios (SNRs), the gain function typically changes rapidly over time as it is driven by the short-term fluctuations of the speech signal. This leads to an amplification of the noise components in the speech gaps, which reduces the output SNR and distorts the acoustic properties of the background noise. An adaptive compression scheme is proposed here which utilizes information about the SNR in different frequency channels to adaptively change the characteristics of the compressor. Specifically, fast-acting compression is applied to speech-dominated time-frequency (T-F) units where the SNR is high, while slow-acting compression is used to effectively linearize the processing for noise-dominated T-F units where the SNR is low. A systematic evaluation of this SNR-aware compression scheme showed that the effective compression of speech components embedded in noise was similar to that of a conventional fast-acting system, whereas natural fluctuations in the background noise
+Keywords/concepts:
+Venue: Trends in Hearing
+Year: 2018
+Cited by: 35
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

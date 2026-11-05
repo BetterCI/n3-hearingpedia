@@ -5,10 +5,10 @@ slug: "hearing-aid"
 summary: "通过个体化声学处理改善可听性与交流，系统介绍分频压缩、方向性与降噪、耳道耦合、验配处方、真耳验证、使用获益及公开计算模型。"
 categories: ["hearing-aids","audiology","signal-processing"]
 tags: ["助听器","宽动态范围压缩","真耳测量","方向性麦克风","自助验配","个体化"]
-aliases: ["hearing aids","声学助听器","数字助听器","HA","WDRC"]
+aliases: ["hearing aids","声学助听器","数字助听器","HA"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-12"
+last_updated: "2026-11-06"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -35,6 +35,8 @@ order: 30
 <a href="/n3-hearingpedia/figures/hearing-aid/scenario-flower-market-v1-watermarked.png" target="_blank" rel="noopener" aria-label="查看花市中助听器日常交流情景插画"><img src="/n3-hearingpedia/figures/hearing-aid/scenario-flower-market-v1-watermarked.png" alt="街边花店里，一位佩戴耳背式助听器的老年女性手捧鲜花，与年轻店主面对面交谈；背景有行人和城市街道。" width="1536" height="1024" loading="lazy" decoding="async" /></a>
 <figcaption><p><strong>情景插画｜让更多声音重新融入生活。</strong> 花市中，一位佩戴助听器的女性与店主自然交谈。助听器通过个体化声音处理改善可听性，帮助听力损失者参与日常交流；实际获益还取决于听力状况、设备设置与聆听环境。声音放大并不等于恢复正常听觉。AI 生成的情景示意，不代表特定设备或使用者的实际效果。</p></figcaption>
 </figure>
+
+[宽动态范围压缩](../wide-dynamic-range-compression/)进一步解释声级相关增益、启动与恢复、多通道及噪声中的相互作用，并提供可复算的输入输出和动态示例。
 
 ## 工作原理与装置形式
 

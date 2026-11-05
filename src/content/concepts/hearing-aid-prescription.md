@@ -9,7 +9,7 @@ aliases: ["助听器验配公式", "助听器验配处方", "助听器处方", "
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -27,6 +27,8 @@ order: 31
 处方目标是验配的依据。软件中选择同一处方名称，不保证不同助听器、不同耳塞或不同耳道得到相同输出；实际结果还取决于装置、声学耦合和具体实现。验配因此需要把目标计算与耳内输出验证连接起来，再通过言语任务、舒适度和日常使用评价判断效果。[6](#ref-prescription-dsl-protocols-2005)[7](#ref-asha-hearing-aids-adults)
 
 本文以气导助听器的增益及输出处方为范围，解释澳大利亚国家声学实验室（National Acoustic Laboratories，NAL）的处方系列和期望感觉级（Desired Sensation Level，DSL）方法的主要思路、版本差异及测量坐标，并给出公开线性算法与目标偏差的计算例子。“处方公式”在这里指放大目标的生成方法，与药物处方或设备销售中的“处方／非处方”分类具有不同含义。文中的教学参数用于理解关系，实际验配需使用对应版本、个体资料和验证流程。
+
+处方目标怎样由声级相关增益实现，见[宽动态范围压缩](../wide-dynamic-range-compression/)；该词条区分稳态曲线、动态控制和实际输出验证。
 
 ## 从听力资料到多维目标
 

@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-06",
+  "base_commit": "1c3b31ae52d1fdccab39ca485a4acf55e0cc36cf",
+  "article": {
+    "chinese_characters": 6335,
+    "sections": 10,
+    "subsections": 20,
+    "figures": 4,
+    "references": 19,
+    "status": "draft",
+    "reviewer": null
+  },
+  "checks": {
+    "pnpm_check": {
+      "files": 239,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "pnpm_build": "passed; final source and figures",
+    "pnpm_verify": {
+      "pages": 328,
+      "checkedInternalLinks": 28996,
+      "equations": 588,
+      "searchableConcepts": 144,
+      "typedRelationships": 1019,
+      "wikiCrossLinks": 1571,
+      "brokenLinks": 0
+    },
+    "required_project_tests": {
+      "passed": 20,
+      "failed": 0,
+      "basilar_membrane_validation": "passed"
+    },
+    "bibliography": "19/19 Crossref HTTP 200; five initial429 resolved with sequential retries",
+    "citations": "all inline reference numbers match registry order;19 reference anchors;0 KaTeX errors;4 valid SVG files",
+    "numerical": "demo assertions passed; analytical one-pole response and energy SNR independently checked",
+    "visual": "All four PNGs inspected; missing subscript glyph corrected; desktop screenshot and390x844 mobile viewed; document width375<=390; long formula locally scrolls333px in329px box; TOC and reference9 hash jumps checked; viewport reset"
+  },
+  "build_notes": [
+    "Full-site first content sync emitted KaTeX Unicode-text warnings; new article math annotations contain no Chinese punctuation and render without errors.",
+    "Build emitted chunk-size and Pagefind UI notices; build and verification completed."
+  ],
+  "limitations": [
+    "No named independent professional review; Draft retained.",
+    "Original level-domain teaching calculations, not measured devices, clinical recommendations, or waveform-complete hearing aid models.",
+    "Abstract-only results and metadata-only historical reference explicitly labeled; bounded literature search, not a systematic review.",
+    "openMHA and original participant studies were not executed."
+  ]
+}

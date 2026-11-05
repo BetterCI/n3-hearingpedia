@@ -1,0 +1,78 @@
+{
+  "nature": "Original deterministic teaching calculations; no patient or measured device data",
+  "python": "3.11.0",
+  "numpy": "1.26.4",
+  "matplotlib": "3.8.0",
+  "font": "Microsoft YaHei",
+  "model": {
+    "knee_dB_SPL": 50,
+    "low_level_gain_dB": 30,
+    "compression_ratio": 2,
+    "time_step_ms": 0.1,
+    "attack_tau_ms": 5,
+    "release_tau_ms": [
+      50,
+      500
+    ],
+    "domain": "dB gain smoothing; known input levels; no limiter/filter bank"
+  },
+  "static_input_dB_SPL": [
+    40,
+    50,
+    60,
+    80
+  ],
+  "static_output_dB_SPL": [
+    70,
+    80,
+    85,
+    95
+  ],
+  "attack_gain_after_one_tau_dB": 20.518191617571574,
+  "gain_50ms_after_fall_dB": {
+    "fast": 24.48180838242789,
+    "slow": 16.42743872946047
+  },
+  "output_50ms_after_fall_dB_SPL": {
+    "fast": 74.48180838242789,
+    "slow": 66.42743872946048
+  },
+  "spectral": {
+    "wideband_level_dB_SPL": 70.04321373782642,
+    "shared_gain_dB": 19.97839313108679,
+    "shared_outputs_dB_SPL": [
+      89.97839313108679,
+      69.97839313108679
+    ],
+    "independent_outputs_dB_SPL": [
+      90.0,
+      80.0
+    ]
+  },
+  "mixture": {
+    "relative_speech_powers": [
+      100.0,
+      1.0
+    ],
+    "relative_noise_powers": [
+      1.0,
+      1.0
+    ],
+    "mixture_levels_dB_SPL": [
+      70.04321373782642,
+      53.01029995663981
+    ],
+    "common_gains_dB": [
+      19.97839313108679,
+      28.494850021680094
+    ],
+    "input_SNR_dB": 17.032913781186615,
+    "output_SNR_dB": 11.209906014390448,
+    "within_segment_SNR_dB": [
+      20,
+      0
+    ],
+    "SNR_change_dB": -5.823007766796167
+  },
+  "checks": "All assertions passed: continuity, monotonicity, finite-difference slope, CR, gain/level identity, analytical step response, band contrast, constant-gain SNR invariance, time-weighted SNR change"
+}

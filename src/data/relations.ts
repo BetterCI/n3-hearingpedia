@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('wide-dynamic-range-compression','hearing-aid','application','随声级调节增益，连接可听性、舒适度与完整助听系统。',3),
+  link('wide-dynamic-range-compression','dynamic-range','related','压缩改变输入输出跨度，但残余范围与响度增长需要分别测量。',3),
+  link('wide-dynamic-range-compression','hearing-aid-prescription','related','处方提供多声级频率目标，压缩器实现并需要验证这些目标。',3),
+  link('wide-dynamic-range-compression','real-ear-measurement','measured-by','在个体耳道中验证不同输入水平的声学输出。',3),
+  link('wide-dynamic-range-compression','temporal-envelope','related','动态增益会改变包络与音素之间的相对幅度。',3),
+  link('wide-dynamic-range-compression','speech-intelligibility','related','声学改变、可听度与实际识别需要分别评价。',3),
+  link('wide-dynamic-range-compression','interaural-level-difference','related','两耳独立增益可改变耳间声级差，联动和空间评价相互补充。',2),
+  link('wide-dynamic-range-compression','music-perception','related','音乐的动态、音色与偏好不能直接从言语任务推断。',2),
+  link('wide-dynamic-range-compression','audiometric-calibration','related','输入、数字幅度与耳道输出需通过相容声级坐标连接。',2),
   link('psychometric-function','psychoacoustics','related','以反应概率曲线连接受控刺激、行为任务与测量解释。',3),
   link('psychometric-function','speech-reception-threshold','related','接收阈是指定概率位置，需保留渐近线、函数与评分定义。',3),
   link('psychometric-function','speech-intelligibility','related','正确率、目标阈值和斜率提供不同的言语表现比较。',3),

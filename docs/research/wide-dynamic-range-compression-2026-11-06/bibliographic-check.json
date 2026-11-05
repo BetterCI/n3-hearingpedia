@@ -1,0 +1,1653 @@
+[
+  {
+    "id": "wdrc-kates-2005",
+    "doi": "10.1177/108471380500900202",
+    "status": 200,
+    "title": [
+      "Principles of Digital Dynamic-Range Compression"
+    ],
+    "authors": [
+      {
+        "given": "James M.",
+        "family": "Kates",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Trends in Amplification"
+    ],
+    "volume": "9",
+    "issue": "2",
+    "page": "45-76",
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          3
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2005,
+          3,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>This article provides an overview of dynamic-range compression in digital hearing aids. Digital technology is becoming increasingly common in hearing aids, particularly because of the processing flexibility it offers and the opportunity to create more-effective devices. The focus of the paper is on the algorithms used to build digital compression systems. Of the various approaches that can be used to design a digital hearing aid, this paper considers broadband compression, multi-channel filter banks, a frequency-domain compressor using the FFT, the side-branch design that separates the filtering operation from the frequency analysis, and the frequency-warped version of the side-branch approach that modifies the analysis frequency spacing to more closely match auditory perception. Examples of the compressor frequency resolution, group delay, and compression behavior are provided for the different design approaches.</jats:p>",
+    "previous_error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "wdrc-souza-2002",
+    "doi": "10.1177/108471380200600402",
+    "status": 200,
+    "title": [
+      "Effects of Compression on Speech Acoustics, Intelligibility, and Sound Quality"
+    ],
+    "authors": [
+      {
+        "given": "Pamela E.",
+        "family": "Souza",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "From the Department of Speech and Hearing Sciences, University of Washington, 1417 NE 42nd Street, Seattle, WA 98105"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Trends in Amplification"
+    ],
+    "volume": "6",
+    "issue": "4",
+    "page": "131-165",
+    "published": {
+      "date-parts": [
+        [
+          2002,
+          12
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2002,
+          12,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The topic of compression has been discussed quite extensively in the last 20 years (eg, Braida et al., 1982; Dillon, 1996 , 2000 ; Dreschler, 1992 ; Hickson, 1994 ; Kuk, 2000 and 2002; Kuk and Ludvigsen, 1999 ; Moore, 1990 ; Van Tasell, 1993 ; Venema, 2000 ; Verschuure et al., 1996; Walker and Dillon, 1982 ). However, the latest comprehensive update by this journal was published in 1996 ( Kuk, 1996 ). Since that time, use of compression hearing aids has increased dramatically, from half of hearing aids dispensed only 5 years ago to four out of five hearing aids dispensed today ( Strom, 2002b ). Most of today's digital and digitally programmable hearing aids are compression devices ( Strom, 2002a ). It is probable that within a few years, very few patients will be fit with linear hearing aids. Furthermore, compression has increased in complexity, with greater numbers of parameters under the clinician's control. Ideally, these changes will translate to greater flexibility and precision in fitting and selection. However, they also increase the need for information about the effects of compression amplification on speech perception and speech quality. As evidenced by the large number of sessions at professional conferences on fitting compression hearing aids, clinicians continue to have questions about compression technology and when and how it should be used. How does compression work? Who are the best candidates for this technology? How should adjustable parameters be set to provide optimal speech recognition? What effect will compression have on speech quality? These and other questions continue to drive our interest in this technology. This article reviews the effects of compression on the speech signal and the implications for speech intelligibility, quality, and design of clinical procedures.</jats:p>"
+  },
+  {
+    "id": "moore-compression-speed-2008",
+    "doi": "10.1177/1084713808317819",
+    "status": 200,
+    "title": [
+      "The Choice of Compression Speed in Hearing Aids: Theoretical and Practical Considerations and the Role of Individual Differences"
+    ],
+    "authors": [
+      {
+        "given": "Brian C. J.",
+        "family": "Moore",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Experimental Psychology, University of Cambridge, Cambridge, U.K.,"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Trends in Amplification"
+    ],
+    "volume": "12",
+    "issue": "2",
+    "page": "103-112",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          6
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2008,
+          6,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Compression is used in hearing aids to compensate for the effects of loudness recruitment. This article describes the distinction between, and relative merits of, slow and fast compression systems. A study of Gatehouse and coworkers leads to the following conclusions: (a) The benefit from compression is greatest among individuals who experience a wide range of sound levels within short periods of time, (b) slow compression generally leads to higher listening comfort than fast compression, (c) the benefit from fast compression varies across individuals, and those with high cognitive ability are able to benefit from fast compression to take advantage of temporal dips in a background sound. It is argued that listening in the dips depends on the ability to process the temporal fine structure of sounds. It is proposed that a test of the ability to process temporal fine structure might be useful for selecting compression speed for an individual.</jats:p>"
+  },
+  {
+    "id": "wdrc-jenstad-2005",
+    "doi": "10.1044/1092-4388(2005/045)",
+    "status": 200,
+    "title": [
+      "Quantifying the Effect of Compression Hearing Aid Release Time on Speech Acoustics and Intelligibility"
+    ],
+    "authors": [
+      {
+        "given": "Lorienne M.",
+        "family": "Jenstad",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pamela E.",
+        "family": "Souza",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of Speech, Language, and Hearing Research"
+    ],
+    "volume": "48",
+    "issue": "3",
+    "page": "651-667",
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          6
+        ]
+      ]
+    },
+    "published_online": null,
+    "abstract": "<jats:p>Compression hearing aids have the inherent, and often adjustable, feature of release time from compression. Research to date does not provide a consensus on how to choose or set release time. The current study had 2 purposes: (a) a comprehensive evaluation of the acoustic effects of release time for a single-channel compression system in quiet and (b) an evaluation of the relation between the acoustic changes and speech recognition. The release times under study were 12, 100, and 800 ms. All of the stimuli were VC syllables from the Nonsense Syllable Task spoken by a female talker. The stimuli were processed through a hearing aid simulator at 3 input levels. Two acoustic measures were made on individual syllables: the envelope-difference index and CV ratio. These measurements allowed for quantification of the short-term amplitude characteristics of the speech signal and the changes to these amplitude characteristics caused by compression. The acoustic analyses revealed statistically significant effects among the 3 release times. The size of the effect was dependent on characteristics of the phoneme. Twelve listeners with moderate sensorineural hearing loss were tested for their speech recognition for the same stimuli. Although release time for this single-channel, 3:1 compression ratio system did not directly predict overall intelligibility for these nonsense syllables in quiet, the acoustic measurements reflecting the changes due to release time were significant predictors of phoneme recognition. Increased temporal-envelope distortion was predictive of reduced recognition for some individual phonemes, which is consistent with previous research on the importance of relative amplitude as a cue to syllable recognition for some phonemes.</jats:p>",
+    "previous_error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "wdrc-bor-2008",
+    "doi": "10.1044/1092-4388(2008/07-0009)",
+    "status": 200,
+    "title": [
+      "Multichannel Compression: Effects of Reduced Spectral Contrast on Vowel Identification"
+    ],
+    "authors": [
+      {
+        "given": "Stephanie",
+        "family": "Bor",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pamela",
+        "family": "Souza",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Wright",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of Speech, Language, and Hearing Research"
+    ],
+    "volume": "51",
+    "issue": "5",
+    "page": "1315-1327",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          10
+        ]
+      ]
+    },
+    "published_online": null,
+    "abstract": "<jats:sec>\n            <jats:title>Purpose</jats:title>\n            <jats:p>To clarify if large numbers of wide dynamic range compression channels provide advantages for vowel identification and to measure its acoustic effects.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Methods</jats:title>\n            <jats:p>Eight vowels produced by 12 talkers in the /hVd/ context were compressed using 1, 2, 4, 8, and 16 channels. Formant contrast indices (mean formant peak minus mean formant trough; maximum formant peak minus minimum formant trough) were developed to quantify spectral changes. Twenty listeners with mild to moderately severe sensorineural hearing loss identified the compressed vowels in an 8-alternative forced-choice procedure.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Results</jats:title>\n            <jats:p>Formant contrast measures revealed significant spectral flattening for 6 of the 8 vowels as channel number increased. A significant decrease in vowel identification performance was also observed as spectral contrast decreased.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Conclusions</jats:title>\n            <jats:p>Increasing the number of wide dynamic range compression channels may not be beneficial for all speech signals, and individual vowel identification performance can vary greatly for listeners with similar hearing loss.</jats:p>\n          </jats:sec>",
+    "previous_error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "wdrc-gatehouse-2006",
+    "doi": "10.1080/14992020500429518",
+    "status": 200,
+    "title": [
+      "Linear and nonlinear hearing aid fittings – 1. Patterns of benefit"
+    ],
+    "authors": [
+      {
+        "given": "Stuart",
+        "family": "Gatehouse",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "MRC Institute of Hearing Research, Glasgow Royal Infirmary, Glasgow, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Graham",
+        "family": "Naylor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Oticon A/S Research Centre, Snekkersten, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Claus",
+        "family": "Elberling",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Oticon A/S Research Centre, Snekkersten, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "International Journal of Audiology"
+    ],
+    "volume": "45",
+    "issue": "3",
+    "page": "130-152",
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2009,
+          7,
+          7
+        ]
+      ]
+    },
+    "abstract": null
+  },
+  {
+    "id": "wdrc-may-2018",
+    "doi": "10.1177/2331216518790903",
+    "status": 200,
+    "title": [
+      "Signal-to-Noise-Ratio-Aware Dynamic Range Compression in Hearing Aids"
+    ],
+    "authors": [
+      {
+        "given": "Tobias",
+        "family": "May",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Hearing Systems Group, Department of Electrical Engineering, Technical University of Denmark, Lyngby, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Borys",
+        "family": "Kowalewski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hearing Systems Group, Department of Electrical Engineering, Technical University of Denmark, Lyngby, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Torsten",
+        "family": "Dau",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hearing Systems Group, Department of Electrical Engineering, Technical University of Denmark, Lyngby, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Trends in Hearing"
+    ],
+    "volume": "22",
+    "issue": null,
+    "page": null,
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Fast-acting dynamic range compression is a level-dependent amplification scheme which aims to restore audibility for hearing-impaired listeners. However, when being applied to noisy speech at positive signal-to-noise ratios (SNRs), the gain function typically changes rapidly over time as it is driven by the short-term fluctuations of the speech signal. This leads to an amplification of the noise components in the speech gaps, which reduces the output SNR and distorts the acoustic properties of the background noise. An adaptive compression scheme is proposed here which utilizes information about the SNR in different frequency channels to adaptively change the characteristics of the compressor. Specifically, fast-acting compression is applied to speech-dominated time-frequency (T-F) units where the SNR is high, while slow-acting compression is used to effectively linearize the processing for noise-dominated T-F units where the SNR is low. A systematic evaluation of this SNR-aware compression scheme showed that the effective compression of speech components embedded in noise was similar to that of a conventional fast-acting system, whereas natural fluctuations in the background noise were preserved in a similar way as when a slow-acting compressor was applied.</jats:p>"
+  },
+  {
+    "id": "wdrc-corey-2021",
+    "doi": "10.1121/10.0005314",
+    "status": 200,
+    "title": [
+      "Modeling the effects of dynamic range compression on signals in noise"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3122-124X",
+        "authenticated-orcid": false,
+        "given": "Ryan M.",
+        "family": "Corey",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Electrical and Computer Engineering, University of Illinois Urbana-Champaign , Urbana, Illinois 61801, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9926-7036",
+        "authenticated-orcid": false,
+        "given": "Andrew C.",
+        "family": "Singer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electrical and Computer Engineering, University of Illinois Urbana-Champaign , Urbana, Illinois 61801, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "The Journal of the Acoustical Society of America"
+    ],
+    "volume": "150",
+    "issue": "1",
+    "page": "159-170",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Hearing aids use dynamic range compression (DRC), a form of automatic gain control, to make quiet sounds louder and loud sounds quieter. Compression can improve listening comfort, but it can also cause unwanted distortion in noisy environments. It has been widely reported that DRC performs poorly in noise, but there has been little mathematical analysis of these noise-induced distortion effects. This work introduces a mathematical model to study the behavior of DRC in noise. By making simplifying assumptions about the signal envelopes, we define an effective compression function that models the compression applied to one signal in the presence of another. Using the properties of concave functions, we prove results about DRC that have been previously observed experimentally: that the effective compression applied to each sound in a mixture is weaker than it would have been for the signal alone; that uncorrelated signal envelopes become negatively correlated when compressed as a mixture; and that compression can reduce the long-term signal-to-noise ratio in certain conditions. These theoretical results are supported by software experiments using recorded speech signals.</jats:p>",
+    "previous_error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "wdrc-windle-2025",
+    "doi": "10.1097/AUD.0000000000001716",
+    "status": 200,
+    "title": [
+      "Preference and Outcomes for Fast Versus Slow Compression in Hearing Aids for Older Adults: A Randomized Control Trial"
+    ],
+    "authors": [
+      {
+        "given": "Richard",
+        "family": "Windle",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Audiology Department, Royal Berkshire NHS Foundation Trust, Reading, UK"
+          },
+          {
+            "name": "Division of Psychology, Communication and Human Neuroscience, School of Health Sciences, University of Manchester, Manchester, UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Harvey",
+        "family": "Dillon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Institute for Health and Care Research Manchester Biomedical Research Centre, Manchester, UK"
+          },
+          {
+            "name": "Department of Linguistics, Hearing Cooperative Research Centre, Macquarie University, North Ryde, New South Wales, Australia."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Antje",
+        "family": "Heinrich",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Psychology, Communication and Human Neuroscience, School of Health Sciences, University of Manchester, Manchester, UK"
+          },
+          {
+            "name": "National Institute for Health and Care Research Manchester Biomedical Research Centre, Manchester, UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Ear &amp; Hearing"
+    ],
+    "volume": "47",
+    "issue": "1",
+    "page": "107-119",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          12
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n                    <jats:title>Objectives:</jats:title>\n                    <jats:p>To determine whether normally aging older adults, fitted with hearing aids, report a benefit from, or a preference for, slow or fast-acting compression, and whether this relationship is influenced by cognitive ability, hearing loss, or previous experience with hearing aids.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Design:</jats:title>\n                    <jats:p>A single-blinded, crossover randomized control trial. Fifty-six participants were recruited from the population attending a UK National Health Service (NHS) hearing assessment clinic, both new and experienced hearing aid users. Participants were aged 56 to 85 years, with symmetrical mild-to-moderate hearing loss. Participants trialed hearing aids for 2 months in each of two settings, slow or fast-acting compression. Speech recognition in quiet and in noise were measured, unaided and aided after fitting with each compression setting. A battery of cognitive tests, self-reported hearing aid outcomes and the participant’s preference for the first or second fitting were also collected at the end of the trial.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results:</jats:title>\n                    <jats:p>Seventy-seven percent of participants stated a preference for one of the compression speed settings. A roughly equal number of participants preferred fast or slow-acting compression. Hearing thresholds were the only predictive factor for compression speed preference: the larger the hearing loss, the more likely it was that patients preferred a slower compression speed. Neither cognitive scores nor the degree of experience with hearing aids predicted the preference for either compression speed. Objective benefit, measured by speech understanding in quiet and in noise, was not affected by compression speed.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions:</jats:title>\n                    <jats:p>Participants with a greater degree of hearing loss tended to prefer slow-acting compression. The optimum boundary between the preference for “fast” versus “slow” compression speed was a four-frequency average hearing threshold of 35 dB HL in the better ear. When the default compression speed was set to “fast” for those with an average hearing threshold below 35 dB HL, and to “slow” for those with a greater degree of hearing loss, this setting correctly reflected a user’s preference in about four in five cases. Neither compression speed offered a significant benefit for speech recognition in noise and quiet. Likewise, neither cognitive performance nor previous experience with hearing aids predicted the amount of reported benefit or preference. Limitations to the study included a positive association between hearing threshold and experience with hearing aids. The study also demonstrated a strong association between the preference and the order of compression speed provided, with users tending to prefer the second fitting.</jats:p>\n                  </jats:sec>"
+  },
+  {
+    "id": "wdrc-ellis-2024",
+    "doi": "10.1097/AUD.0000000000001469",
+    "status": 200,
+    "title": [
+      "The Effects of Signal to Noise Ratio, T 60, Wide-Dynamic Range Compression Speed, and Digital Noise Reduction in a Virtual Restaurant Setting"
+    ],
+    "authors": [
+      {
+        "given": "Gregory M.",
+        "family": "Ellis",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Communication Sciences and Disorders, Northwestern University, Evanston, Illinois, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jeff",
+        "family": "Crukley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Data Science and Statistics, Toronto, Ontario, Canada"
+          },
+          {
+            "name": "Department of Speech-Language Pathology, University of Toronto, Toronto, Ontario, Canada"
+          },
+          {
+            "name": "Department of Psychology, Neuroscience, and Behavior, McMaster University, Hamilton, Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pamela E.",
+        "family": "Souza",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Communication Sciences and Disorders, Northwestern University, Evanston, Illinois, USA"
+          },
+          {
+            "name": "Knowles Hearing Center, Evanston, Illinois, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Ear &amp; Hearing"
+    ],
+    "volume": "45",
+    "issue": "3",
+    "page": "760-774",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          23
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:sec>\n            <jats:title>Objectives:</jats:title>\n            <jats:p>Hearing aid processing in realistic listening environments is difficult to study effectively. Often the environment is unpredictable or unknown, such as in wearable aid trials with subjective report by the wearer. Some laboratory experiments create listening environments to exert tight experimental control, but those environments are often limited by physical space, a small number of sound sources, or room absorptive properties. Simulation techniques bridge this gap by providing greater experimental control over listening environments, effectively bringing aspects of the real-world into the laboratory. This project used simulation to study the effects of wide-dynamic range compression (WDRC) and digital noise reduction (DNR) on speech intelligibility in a reverberant environment with six spatialized competing talkers. The primary objective of this study was to determine the efficacy of WDRC and DNR in a complex listening environment using virtual auditory space techniques.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Design:</jats:title>\n            <jats:p>Participants of greatest interest were listeners with hearing impairment. A group of listeners with clinically normal hearing was included to assess the effects of the simulation absent the complex effects of hearing loss. Virtual auditory space techniques were used to simulate a small restaurant listening environment with two different reverberation times (0.8 and 1.8 sec) in a range of signal to noise ratios (SNRs) (−8.5 to 11.5 dB SNR). Six spatialized competing talkers were included to further enhance realism. A hearing aid simulation was used to examine the degree to which speech intelligibility was affected by slow and fast WDRC in conjunction with the presence or absence of DNR. The WDRC and DNR settings were chosen to be reasonable estimates of hearing aids currently available to consumers.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Results:</jats:title>\n            <jats:p>A WDRC × DNR × Hearing Status interaction was observed, such that DNR was beneficial for speech intelligibility when combined with fast WDRC speeds, but DNR was detrimental to speech intelligibility when WDRC speeds were slow. The pattern of the WDRC × DNR interaction was observed for both listener groups. Significant main effects of reverberation time and SNR were observed, indicating better performance with lower reverberation times and more positive SNR.</jats:p>\n          </jats:sec>\n          <jats:sec>\n            <jats:title>Conclusions:</jats:title>\n            <jats:p>DNR reduced low-amplitude noise before WDRC-amplified the low-intensity portions of the signal, negating one potential downside of fast WDRC and leading to an improvement in speech intelligibility in this simulation. These data suggest that, in some real-world environments that include both reverberation and noise, older listeners with hearing impairment may find speech to be more intelligible if DNR is activated when the hearing aid has fast compression time constants. Additional research is needed to determine the appropriate DNR strength and to confirm results in wearable hearing aids and a wider range of listening environments.</jats:p>\n          </jats:sec>"
+  },
+  {
+    "id": "wdrc-zhang-2025",
+    "doi": "10.1177/23312165241309301",
+    "status": 200,
+    "title": [
+      "Neural-WDRC: A Deep Learning Wide Dynamic Range Compression Method Combined With Controllable Noise Reduction for Hearing Aids"
+    ],
+    "authors": [
+      {
+        "given": "Huiyong",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Noise and Vibration Research, Institute of Acoustics, Chinese Academy of Sciences, Beijing, China"
+          },
+          {
+            "name": "University of Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7071-0671",
+        "authenticated-orcid": false,
+        "given": "Brian C. J.",
+        "family": "Moore",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cambridge Hearing Group, Department of Psychology, University of Cambridge, Cambridge, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Feng",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Noise and Vibration Research, Institute of Acoustics, Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mingfang",
+        "family": "Diao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Endoscopic Ear Surgery, Senior Department of Otorhinolaryngology Head and Neck Surgery, The Sixth Medical Center of PLA General Hospital, Beijing, China"
+          },
+          {
+            "name": "National Clinical Medical Research Center for Otolaryngology Diseases, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3002-9798",
+        "authenticated-orcid": false,
+        "given": "Fei",
+        "family": "Ji",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Endoscopic Ear Surgery, Senior Department of Otorhinolaryngology Head and Neck Surgery, The Sixth Medical Center of PLA General Hospital, Beijing, China"
+          },
+          {
+            "name": "State Key Laboratory of Hearing and Balance Science, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaodong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Noise and Vibration Research, Institute of Acoustics, Chinese Academy of Sciences, Beijing, China"
+          },
+          {
+            "name": "University of Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5656-994X",
+        "authenticated-orcid": false,
+        "given": "Chengshi",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Noise and Vibration Research, Institute of Acoustics, Chinese Academy of Sciences, Beijing, China"
+          },
+          {
+            "name": "University of Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Trends in Hearing"
+    ],
+    "volume": "29",
+    "issue": null,
+    "page": null,
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Wide dynamic range compression (WDRC) and noise reduction both play important roles in hearing aids. WDRC provides level-dependent amplification so that the level of sound produced by the hearing aid falls between the hearing threshold and the highest comfortable level of the listener, while noise reduction reduces ambient noise with the goal of improving intelligibility and listening comfort and reducing effort. In most current hearing aids, noise reduction and WDRC are implemented sequentially, but this may lead to distortion of the amplitude modulation patterns of both the speech and the noise. This paper describes a deep learning method, called Neural-WDRC, for implementing both noise reduction and WDRC, employing a two-stage low-complexity network. The network initially estimates the noise alone and the speech alone. Fast-acting compression is applied to the estimated speech and slow-acting compression to the estimated noise, but with a controllable residual noise level to help the user to perceive natural environmental sounds. Neural-WDRC is frame-based, and the output of the current frame is determined only by the current and preceding frames. Neural-WDRC was compared with conventional slow- and fast-acting compression and with signal-to-noise ratio (SNR)-aware compression using objective measures and listening tests based on normal-hearing participants listening to signals processed to simulate the effects of hearing loss and hearing-impaired participants. The objective measures demonstrated that Neural-WDRC effectively reduced negative interactions of speech and noise in highly non-stationary noise scenarios. The listening tests showed that Neural-WDRC was preferred over the other compression methods for speech in non-stationary noises.</jats:p>"
+  },
+  {
+    "id": "wdrc-hassager-2017",
+    "doi": "10.1121/1.4984040",
+    "status": 200,
+    "title": [
+      "Preserving spatial perception in rooms using direct-sound driven dynamic range compression"
+    ],
+    "authors": [
+      {
+        "given": "Henrik Gert",
+        "family": "Hassager",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Hearing Systems Group, Department of Electrical Engineering, Technical University of Denmark , DK-2800 Kongens Lyngby, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tobias",
+        "family": "May",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hearing Systems Group, Department of Electrical Engineering, Technical University of Denmark , DK-2800 Kongens Lyngby, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Wiinberg",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hearing Systems Group, Department of Electrical Engineering, Technical University of Denmark , DK-2800 Kongens Lyngby, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Torsten",
+        "family": "Dau",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Hearing Systems Group, Department of Electrical Engineering, Technical University of Denmark , DK-2800 Kongens Lyngby, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "The Journal of the Acoustical Society of America"
+    ],
+    "volume": "141",
+    "issue": "6",
+    "page": "4556-4566",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Fast-acting hearing-aid compression systems typically distort the auditory cues involved in the spatial perception of sounds in rooms by enhancing low-level reverberant energy portions of the sound relative to the direct sound. The present study investigated the benefit of a direct-sound driven compression system that adaptively selects appropriate time constants to preserve the listener's spatial impression. Specifically, fast-acting compression was maintained for time-frequency units dominated by the direct sound while the processing of the compressor was linearized for time-frequency units dominated by reverberation. This compression scheme was evaluated with normal-hearing listeners who indicated their perceived location and distribution of sound images in the horizontal plane for virtualized speech. The experimental results confirmed that both independent compression at each ear and linked compression across ears resulted in broader, sometimes internalized, sound images as well as image splits. In contrast, the linked direct-sound driven compression system provided the listeners with a spatial perception similar to that obtained with linear processing that served as the reference condition. The independent direct-sound driven compressor created a sense of movement of the sound between the two ears, suggesting that preserving the interaural level differences via linked compression is advantageous with the proposed direct-sound driven compression scheme.</jats:p>",
+    "previous_error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "wdrc-villchur-1973",
+    "doi": "10.1121/1.1913514",
+    "status": 200,
+    "title": [
+      "Signal processing to improve speech intelligibility in perceptive deafness"
+    ],
+    "authors": [
+      {
+        "given": "Edgar",
+        "family": "Villchur",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Foundation for Hearing Aid Research, Woodstock, New York 12498"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "The Journal of the Acoustical Society of America"
+    ],
+    "volume": "53",
+    "issue": "6",
+    "page": "1646-1657",
+    "published": {
+      "date-parts": [
+        [
+          1973,
+          6,
+          1
+        ]
+      ]
+    },
+    "published_online": null,
+    "abstract": "<jats:p>A deaf person with recruitment perceives sound as though listening through a volume expander followed by an attenuator, the expansion ratio and attenuation being typically frequency dependent. (Other perceptive aberrations may also be present, of course.) The subject is often prevented from using enough hearing-aid gain to bring weak consonants into the useful dynamic range of his hearing, because this amount of gain would make lower-frequency, high-amplitude vowels intolerably loud. Such subjects commonly find amplified speech to have poor intelligibility. In a preliminary experiment it is established that recruitment in normal subjects, induced by masking or simulated by expansion of the signal, reduces the intelligibility of amplified speech severely, and that this intelligibility can be largely restored by signal processing. The implication is that recruitment in deaf subjects is a sufficient cause for loss of intelligibility, whether or not there are other causes. In the present experiments, speech is processed by a two-channel amplitude compressor whose frequency-dependent compression ratio is adjusted to compensate the recruitment of the individual subject, and the compressed speech is subjected to frequency-selective amplification similarly adapted to the subject. The aim is to amplify each acoustical element of speech, at each frequency-amplitude coordinate of the speech band, to a relative loudness for the deaf subject corresponding to the relative loudness of that speech element perceived by normals. This processing improved speech recognition, both in quiet and in the presence of competing speech introduced before processing, for six perceptively deaf subjects. Subjects showed an improvement in either initial- or terminal-consonant recognition of at least 22% and as much as 160% at optimum levels in quiet, and from 10% to 229% with speech interference 10 dB below the pre-processed signal.</jats:p>"
+  },
+  {
+    "id": "keidser-nalnl2-2011",
+    "doi": "10.4081/audiores.2011.e24",
+    "status": 200,
+    "title": [
+      "The NAL-NL2 Prescription Procedure"
+    ],
+    "authors": [
+      {
+        "given": "G.",
+        "family": "Keidser",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Dillon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Flax",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Ching",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Brewer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Audiology Research"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "page": "e24",
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          23
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:p>NAL-NL2 is the second generation of prescription procedures from The National Acoustic Laboratories (NAL) for fitting wide dynamic range compression (WDRC) instruments[...]</jats:p>"
+  },
+  {
+    "id": "scollie-dsl5-2005",
+    "doi": "10.1177/108471380500900403",
+    "status": 200,
+    "title": [
+      "The Desired Sensation Level Multistage Input/Output Algorithm"
+    ],
+    "authors": [
+      {
+        "given": "Susan",
+        "family": "Scollie",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Seewald",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leonard",
+        "family": "Cornelisse",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Unitron Hearing, Kitchener, Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sheila",
+        "family": "Moodie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marlene",
+        "family": "Bagatto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Diana",
+        "family": "Laurnagaray",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Audiologia Integral, Bahía Blanca, Argentina"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steve",
+        "family": "Beaulac",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John",
+        "family": "Pumford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Unitron Hearing, Kitchener, Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Trends in Amplification"
+    ],
+    "volume": "9",
+    "issue": "4",
+    "page": "159-197",
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2005,
+          1,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The Desired Sensation Level (DSL) Method was revised to support hearing instrument fitting for infants, young children, and adults who use modern hearing instrument technologies, including multichannel compression, expansion, and multimemory capability. The aims of this revision are to maintain aspects of the previous versions of the DSL Method that have been supported by research, while extending the method to account for adult-child differences in preference and listening requirements. The goals of this version (5.0) include avoiding loudness discomfort, selecting a frequency response that meets audibility requirements, choosing compression characteristics that appropriately match technology to the user's needs, and accommodating the overall prescription to meet individual needs for use in various listening environments. This review summarizes the status of research on the use of the DSL Method with pediatric and adult populations and presents a series of revisions that have been made during the generation of DSL v5.0. This article concludes with case examples that illustrate key differences between the DSL v4.1 and DSL v5.0 prescriptions.</jats:p>"
+  },
+  {
+    "id": "prescription-dsl-protocols-2005",
+    "doi": "10.1177/108471380500900404",
+    "status": 200,
+    "title": [
+      "Clinical Protocols for Hearing Instrument Fitting in the Desired Sensation Level Method"
+    ],
+    "authors": [
+      {
+        "given": "Marlene",
+        "family": "Bagatto",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sheila",
+        "family": "Moodie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Susan",
+        "family": "Scollie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Seewald",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shane",
+        "family": "Moodie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John",
+        "family": "Pumford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Unitron Hearing, Kitchener, Ontario, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. P. Rachel",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Centre for Audiology, Faculty of Health Sciences, University of Western Ontario"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Trends in Amplification"
+    ],
+    "volume": "9",
+    "issue": "4",
+    "page": "199-226",
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2005,
+          1,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>A discussion of the protocols used particularly in the clinical application of the Desired Sensation Level (DSL) Method is presented in this chapter. In the first section, the measurement and application of acoustic transforms is described in terms of their importance in the assessment phase of the amplification fitting process. Specifically, the implications of individual ear canal acoustics and their impact on accurately defining hearing thresholds are discussed. Detailed information about the statistical strength of the real-ear-to-coupler difference (RECD) measurement and how to obtain the measure in young infants is also provided. In addition, the findings of a study that examined the relationship between behavioral and electrophysiologic thresholds in real-ear SPL is described. The second section presents information related to the electroacoustic verification of hearing instruments. The RECD is discussed in relation to its application in simulated measurements of real-ear hearing instrument performance. In particular, the effects of the transducer and coupling method during the RECD measurement are described in terms of their impact on verification measures. The topics of insertion gain, test signals, and venting are also considered. The third section presents three summary tables that outline the hearing instrument fitting process for infants, children, and adults. Overall, this chapter provides both clinical and scientific information about procedures used in the assessment and verification stages of the DSL Method.</jats:p>"
+  },
+  {
+    "id": "croghan-music-2014",
+    "doi": "10.1097/AUD.0000000000000056",
+    "status": 200,
+    "title": [
+      "Music Preferences With Hearing Aids"
+    ],
+    "authors": [
+      {
+        "given": "Naomi B. H.",
+        "family": "Croghan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kathryn H.",
+        "family": "Arehart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James M.",
+        "family": "Kates",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Ear &amp; Hearing"
+    ],
+    "volume": "35",
+    "issue": "5",
+    "page": "e170-e184",
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          9
+        ]
+      ]
+    },
+    "published_online": null,
+    "abstract": null
+  },
+  {
+    "id": "wiggins-seeber-2011",
+    "doi": "10.1121/1.3652887",
+    "status": 200,
+    "title": [
+      "Dynamic-range compression affects the lateral position of sounds"
+    ],
+    "authors": [
+      {
+        "given": "Ian M.",
+        "family": "Wiggins",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "MRC Institute of Hearing Research, University Park , Nottingham, NG7 2RD, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bernhard U.",
+        "family": "Seeber",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MRC Institute of Hearing Research, University Park , Nottingham, NG7 2RD, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "The Journal of the Acoustical Society of America"
+    ],
+    "volume": "130",
+    "issue": "6",
+    "page": "3939-3953",
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          12,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2011,
+          12,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Dynamic-range compression acting independently at each ear in a bilateral hearing-aid or cochlear-implant fitting can alter interaural level differences (ILDs) potentially affecting spatial perception. The influence of compression on the lateral position of sounds was studied in normal-hearing listeners using virtual acoustic stimuli. In a lateralization task, listeners indicated the leftmost and rightmost extents of the auditory event and reported whether they heard (1) a single, stationary image, (2) a moving/gradually broadening image, or (3) a split image. Fast-acting compression significantly affected the perceived position of high-pass sounds. For sounds with abrupt onsets and offsets, compression shifted the entire image to a more central position. For sounds containing gradual onsets and offsets, including speech, compression increased the occurrence of moving and split images by up to 57 percentage points and increased the perceived lateral extent of the auditory event. The severity of the effects was reduced when undisturbed low-frequency binaural cues were made available. At high frequencies, listeners gave increased weight to ILDs relative to interaural time differences carried in the envelope when compression caused ILDs to change dynamically at low rates, although individual differences were apparent. Specific conditions are identified in which compression is likely to affect spatial perception.</jats:p>"
+  },
+  {
+    "id": "kayser-openmha-2022",
+    "doi": "10.1016/j.softx.2021.100953",
+    "status": 200,
+    "title": [
+      "Open community platform for hearing aid algorithm research: open Master Hearing Aid (openMHA)"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8200-992X",
+        "authenticated-orcid": false,
+        "given": "Hendrik",
+        "family": "Kayser",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1806-7364",
+        "authenticated-orcid": false,
+        "given": "Tobias",
+        "family": "Herzke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7989-5112",
+        "authenticated-orcid": false,
+        "given": "Paul",
+        "family": "Maanen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6104-001X",
+        "authenticated-orcid": false,
+        "given": "Max",
+        "family": "Zimmermann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9685-4507",
+        "authenticated-orcid": false,
+        "given": "Giso",
+        "family": "Grimm",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Hohmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "SoftwareX"
+    ],
+    "volume": "17",
+    "issue": null,
+    "page": "100953",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1
+        ]
+      ]
+    },
+    "published_online": null,
+    "abstract": null
+  }
+]

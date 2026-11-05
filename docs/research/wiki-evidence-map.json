@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-06",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1010,
+  "relations": 1019,
   "entries": [
     {
       "slug": "cochlea",
@@ -171,8 +171,8 @@
       "slug": "temporal-envelope",
       "knowledge_area": "sound",
       "kind": "representation",
-      "chinese_characters": 6896,
-      "body_characters": 14015,
+      "chinese_characters": 6938,
+      "body_characters": 14101,
       "sections": 9,
       "subsections": 20,
       "reference_ids": [
@@ -199,6 +199,7 @@
       ],
       "wiki_links": [
         "temporal-fine-structure",
+        "wide-dynamic-range-compression",
         "loudness",
         "amplitude-modulation",
         "auditory-filter",
@@ -1086,8 +1087,8 @@
       "slug": "hearing-aid",
       "knowledge_area": "technology",
       "kind": "technology",
-      "chinese_characters": 8918,
-      "body_characters": 21920,
+      "chinese_characters": 8969,
+      "body_characters": 22016,
       "sections": 12,
       "subsections": 9,
       "reference_ids": [
@@ -1115,6 +1116,7 @@
       ],
       "wiki_links": [
         "cochlea",
+        "wide-dynamic-range-compression",
         "cochlear-implant",
         "hearing-loss",
         "speech-intelligibility",
@@ -1164,8 +1166,8 @@
       "slug": "dynamic-range",
       "knowledge_area": "perception",
       "kind": "quantity",
-      "chinese_characters": 9808,
-      "body_characters": 17829,
+      "chinese_characters": 9850,
+      "body_characters": 17917,
       "sections": 13,
       "subsections": 32,
       "reference_ids": [
@@ -1186,6 +1188,7 @@
         "zeng-compression-2004"
       ],
       "wiki_links": [
+        "wide-dynamic-range-compression",
         "loudness",
         "cochlea",
         "outer-hair-cell",
@@ -2936,8 +2939,8 @@
       "slug": "hearing-aid-prescription",
       "knowledge_area": "technology",
       "kind": "model",
-      "chinese_characters": 8519,
-      "body_characters": 16935,
+      "chinese_characters": 8562,
+      "body_characters": 17023,
       "sections": 11,
       "subsections": 31,
       "reference_ids": [
@@ -2967,6 +2970,7 @@
       ],
       "wiki_links": [
         "hearing-aid",
+        "wide-dynamic-range-compression",
         "pure-tone-audiometry",
         "hearing-loss",
         "dynamic-range",
@@ -6367,6 +6371,54 @@
         "mathematical-statistics",
         "masking",
         "temporal-resolution"
+      ],
+      "status": "draft",
+      "depth": "in-depth",
+      "figures": 4,
+      "audio": 0,
+      "code_examples": 1
+    },
+    {
+      "slug": "wide-dynamic-range-compression",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 6335,
+      "body_characters": 12471,
+      "sections": 10,
+      "subsections": 20,
+      "reference_ids": [
+        "wdrc-kates-2005",
+        "wdrc-souza-2002",
+        "moore-compression-speed-2008",
+        "wdrc-jenstad-2005",
+        "wdrc-bor-2008",
+        "wdrc-gatehouse-2006",
+        "wdrc-may-2018",
+        "wdrc-corey-2021",
+        "wdrc-windle-2025",
+        "wdrc-ellis-2024",
+        "wdrc-zhang-2025",
+        "wdrc-hassager-2017",
+        "wdrc-villchur-1973",
+        "keidser-nalnl2-2011",
+        "scollie-dsl5-2005",
+        "prescription-dsl-protocols-2005",
+        "croghan-music-2014",
+        "wiggins-seeber-2011",
+        "kayser-openmha-2022"
+      ],
+      "wiki_links": [
+        "hearing-aid",
+        "dynamic-range",
+        "hearing-aid-prescription",
+        "outer-hair-cell",
+        "audiometric-calibration",
+        "formant",
+        "speech-intelligibility",
+        "listening-effort",
+        "real-ear-measurement",
+        "interaural-level-difference",
+        "music-perception"
       ],
       "status": "draft",
       "depth": "in-depth",

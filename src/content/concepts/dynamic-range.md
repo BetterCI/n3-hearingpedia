@@ -8,7 +8,7 @@ tags: ["动态范围","响度","响度重振","宽动态范围压缩","电动态
 aliases: ["auditory dynamic range","perceptual dynamic range","residual dynamic range","electrical dynamic range","input dynamic range","听觉动态范围","电动态范围","残余动态范围"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-05"
+last_updated: "2026-11-06"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -30,6 +30,8 @@ order: 32
 **动态范围**（dynamic range）是在明确对象、测量条件及上下界定义后，该对象能够表示、传输、响应或被有效利用的刺激水平跨度。在听觉科学中，这一术语可以描述录音和设备的可用幅度范围、听者从刚能听见到感到不舒适之间的声级范围，也可以描述人工耳蜗从电刺激听阈到上端舒适水平之间的刺激范围。这些范围涉及不同的物理量和判定任务，不能只凭“动态范围”四个字直接比较。[1](#ref-moore-loudness-2014)[8](#ref-zeng-2008)
 
 动态范围首先回答“最低和最高有效水平之间有多宽”，响度增长函数回答“这段范围内的刺激变化怎样转化为响度变化”，强度分辨能力则回答“多大的变化能够被可靠地区分”。三者相互联系，但并不等同。听觉设备把较宽的外部声音范围映射到听者可利用的范围时，还需要兼顾弱声可听性、强声舒适性、言语辨认，以及时域和频谱线索的保留。[1](#ref-moore-loudness-2014)[7](#ref-keidser-nalnl2-2011)
+
+声学助听器怎样改变输入输出跨度，见[宽动态范围压缩](../wide-dynamic-range-compression/)；压缩比、控制速度及多通道处理需要分别说明。
 
 ## 定义与分类
 
