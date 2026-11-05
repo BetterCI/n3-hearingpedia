@@ -75,7 +75,7 @@ export const speechIntelligibilityReferences: Record<string, Reference> = {
     "authors": "Acoustical Society of America / ANSI",
     "year": "1997（2024年重确认）",
     "publication": "ASA/ANSI S3.5-1997 (R2024)",
-    "url": "https://webstore.ansi.org/search/find?cp=1&f1=Standard%2CPackage&f2=2&f3=34&st=asa&v=50",
+    "url": "https://asastandards.org/catalog/",
     "access": "metadata",
     "supports": "标准名称与2024年重确认信息经官方记录核查；未查阅付费全文，正文仅介绍概念性加权结构。"
   },
@@ -94,9 +94,9 @@ export const speechIntelligibilityReferences: Record<string, Reference> = {
     "year": "2011",
     "publication": "IEEE Transactions on Audio, Speech, and Language Processing, 19(7), 2125–2136",
     "doi": "10.1109/TASL.2011.2114881",
-    "url": "https://doi.org/10.1109/TASL.2011.2114881",
-    "access": "abstract",
-    "supports": "核查原论文摘要、模型描述及OpenAlex引文入口；不宣称未测试听者或失真的有效性。"
+    "url": "https://ceestaal.nl/Taal%282011%29.pdf",
+    "access": "fulltext",
+    "supports": "2026-11-06：作者网站论文PDF第II节及式1–6，核对分帧、三分之一倍频程、静音剔除、能量归一化、截断及相关；STOI为指数，不是未经标定的正确率。"
   },
   "jensen-2016": {
     "title": "An Algorithm for Predicting the Intelligibility of Speech Masked by Modulated Noise Maskers",
@@ -116,7 +116,7 @@ export const speechIntelligibilityReferences: Record<string, Reference> = {
     "doi": "10.1016/j.specom.2020.05.001",
     "url": "https://doi.org/10.1016/j.specom.2020.05.001",
     "access": "metadata",
-    "supports": "书目经Crossref核查；模型介绍结合下一篇公开原始研究中的方法描述。"
+    "supports": "书目经Crossref核查；模型介绍结合Kates 2023公开原始研究及Kates与Arehart 2022方法综述，不单凭书目推断结果。"
   },
   "kates-context-2023": {
     "title": "Extending the Hearing-Aid Speech Perception Index (HASPI): Keywords, sentences, and context",
@@ -134,9 +134,9 @@ export const speechIntelligibilityReferences: Record<string, Reference> = {
     "year": "2026",
     "publication": "Trends in Hearing, 30, 23312165261422005",
     "doi": "10.1177/23312165261422005",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41854306/",
-    "access": "abstract",
-    "supports": "核查2026-03-19发表记录和摘要；区分正常听力耳机实验与真实听觉设备验证，保留模型失配结果。"
+    "url": "https://journals.sagepub.com/doi/10.1177/23312165261422005",
+    "access": "fulltext",
+    "supports": "2026-11-06：出版社全文Abstract、Introduction及Models相关段落；正常听力、耳机、无混响数据及映射重新拟合，保留模型失配结果，不推广为临床验证。"
   },
   "rosen-1992": {
     "title": "Temporal information in speech: acoustic, auditory and linguistic aspects",

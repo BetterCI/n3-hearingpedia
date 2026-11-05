@@ -9,7 +9,7 @@ aliases: ["计算听觉模型", "听觉系统计算模型", "computational model
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-10-10"
+last_updated: "2026-11-06"
 literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -34,6 +34,8 @@ order: 57
   </a>
   <figcaption><strong>图 1　模型的终点由研究问题决定。</strong>上排说明一般预测与验证流程，下排区分三类目标。本站原创功能框图，没有解剖比例、统一成熟顺序或测量效应量；内部处理和行为读出可以是多个模块，也可以由一个学习系统联合实现。框架依据 <a href="#ref-acm-comparison">1</a>、<a href="#ref-acm-kell">21</a>。</figcaption>
 </figure>
+
+用于预测识别与听感的模型及其验证边界，见[客观语音可懂度与音质评价](../objective-speech-evaluation/)。
 
 ## 建模目标与解释层级
 

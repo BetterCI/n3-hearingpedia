@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-06",
+  "slug": "objective-speech-evaluation",
+  "chinese_characters": 6467,
+  "sections": 10,
+  "subsections": 15,
+  "references": 20,
+  "inline_citations": 40,
+  "figures": 4,
+  "katex_errors": 0,
+  "doi_records_verified": 13,
+  "status": "draft",
+  "professional_review": false,
+  "browser": {
+    "desktop_width": 1265,
+    "desktop_scroll_width": 1265,
+    "mobile_viewport": 390,
+    "mobile_content_width": 375,
+    "mobile_scroll_width": 375,
+    "math_width": 329,
+    "max_math_scroll_width": 421,
+    "math_overflow": "auto",
+    "toc_navigation": "verified",
+    "reference_navigation": "verified",
+    "all_four_pngs": "visually inspected"
+  },
+  "required_tests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "numerical_checks": "public/figures/objective-speech-evaluation/numerical-checks.json"
+}

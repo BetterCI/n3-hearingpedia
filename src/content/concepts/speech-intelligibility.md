@@ -8,7 +8,7 @@ tags: ["言语识别","信噪比","语音接收阈","心理测量函数","SII","
 aliases: ["语音可懂度","语音清晰度","言语清晰度","语音识别率","正确率"]
 status: "draft"
 depth: in-depth
-last_updated: "2026-10-05"
+last_updated: "2026-11-06"
 literature_checked_at: "2026-10-05"
 authors: ["AI 辅助编写"]
 references: ["asa-definition","plomp-1979","shannon-1995","smith-2002","boothroyd-1988","festen-1990","brungart-2001","hopkins-2008","friesen-2001","hint-1994","mhint-2007","cmnmatrix-2018","wichmann-2001","ansi-sii","steeneken-1980","iec-sti-2020","taal-2011","jensen-2016","haspi-2021","kates-context-2023","fuel-2016","lavandier-2026","rosen-1992","xu-tone-2002"]
@@ -33,6 +33,8 @@ key_facts:
 </figure>
 
 将正确率曲线用于阈值估计或算法比较时，可配合[心理测量函数](../psychometric-function/)核对渐近线、目标概率、斜率与不确定性。
+
+关于预测分数、参考条件、音质模型与跨材料验证，见[客观语音可懂度与音质评价](../objective-speech-evaluation/)。
 
 ## 定义与相关概念
 

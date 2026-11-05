@@ -1047,6 +1047,14 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('harmonicity','cepstrum','related','多谐波的规则间隔支持周期线索；孤立纯音和声源混合不能直接套用浊音周期峰解释。',2),
   link('temporal-envelope','cepstrum','related','倒谱估计的谱包络沿频率变化，与原声音沿时间变化的幅度包络具有不同坐标。',2),
   link('temporal-fine-structure','cepstrum','related','实倒谱舍弃谱相位；复倒谱在相容分支下保留相位相关信息，与 ENV/TFS 分解方法不同。',2),
+  link('objective-speech-evaluation','speech-intelligibility','related','客观预测必须对应明确的行为评分目标。',3),
+  link('objective-speech-evaluation','temporal-envelope','related','STOI与听觉模型以短时包络或调制特征描述语音。',3),
+  link('objective-speech-evaluation','auditory-computational-models','related','听觉前端与经验映射共同限定预测范围。',3),
+  link('objective-speech-evaluation','wide-dynamic-range-compression','related','压缩需要分别评价可听度、识别与音质。',3),
+  link('objective-speech-evaluation','audiometric-calibration','related','听损模型必须明确数字幅度、声级与听力阈值。',3),
+  link('objective-speech-evaluation','psychometric-function','related','指数到正确率的映射应独立标定与验证。',3),
+  link('objective-speech-evaluation','listening-effort','related','可懂度及音质预测不自动代表努力变化。',3),
+  link('objective-speech-evaluation','speech-reception-threshold','related','客观指数不能未经标定转换为行为阈值。',3),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

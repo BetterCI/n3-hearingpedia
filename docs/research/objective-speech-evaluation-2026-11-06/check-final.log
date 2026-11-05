@@ -1,0 +1,30 @@
+$ pnpm stats:check && astro check
+$ node scripts/site-statistics.mjs --check
+README statistics match current source data.
+{
+  "entries": 145,
+  "conceptEntries": 97,
+  "courseEntries": 25,
+  "people": 23,
+  "inDepthConcepts": 80,
+  "knowledgeAreas": 7,
+  "conceptKinds": 21,
+  "registeredReferences": 2232,
+  "relationships": 1027,
+  "learningPaths": 40,
+  "introductoryPaths": 3,
+  "fullLearningPaths": 37,
+  "domains": 13,
+  "draft": 145,
+  "reviewed": 0,
+  "stable": 0,
+  "needsUpdate": 0
+}
+01:44:32 [content] Syncing content
+01:44:33 [content] Synced content
+01:44:33 [types] Generated 3.65s
+01:44:33 [check] Getting diagnostics for Astro files in C:\AI_Lab\n3-hearingpedia-objective-speech...
+Result (241 files):
+- 0 errors
+- 0 warnings
+- 0 hints

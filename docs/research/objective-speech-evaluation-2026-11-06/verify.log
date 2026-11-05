@@ -1,0 +1,17 @@
+$ node scripts/verify.mjs
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Public concept should use general professional wording: objective-speech-evaluation
+    at file:///C:/AI_Lab/n3-hearingpedia-objective-speech/scripts/verify.mjs:178:3 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+[ELIFECYCLE] Command failed with exit code 1.

@@ -1,0 +1,29 @@
+Basilar membrane: DSP, citation and concept-link checks passed.
+✔ uses complete Beijing days, report totals and country report without exposing tokens (8.1122ms)
+✔ rejects mismatched sites, incomplete country reports and placeholder totals (1.4566ms)
+✔ OAuth state requires the app secret and detects tampering (1.6294ms)
+✔ refreshes an expired token, persists the rotated refresh token, and reuses it next run (28.8716ms)
+✔ Baidu failures never print error text containing credentials (0.7641ms)
+✔ keeps both providers separate and lets either provider survive the other failing (0.6732ms)
+✔ same-day updates and an older draft follow publishing history, even with identical commit timestamps (3186.4098ms)
+✔ entries published together and untracked preview entries have deterministic fallback order (1.1932ms)
+✔ a source archive without Git history uses metadata dates (65.2095ms)
+✔ collects all country pages and exports only aggregates (335.2896ms)
+✔ rejects invalid counts and failed requests instead of publishing zero (1.2643ms)
+✔ rejects untrusted endpoints before transmitting token (0.3754ms)
+✔ reports API errors while redacting the configured secret (0.5385ms)
+✔ an incoming route replaces directory navigation and selects matching panels at both ends (1.2514ms)
+✔ a complete route can be selected independently of introductory routes (0.2341ms)
+✔ independent reading, unknown routes and routes absent from this article retain the fallback (0.2936ms)
+✔ renders both providers with independent counts and loads each tracker only once (32.2939ms)
+✔ keeps legacy GoatCounter snapshots working and excludes local previews from both trackers (2.307ms)
+✔ a missing provider remains hidden while the other provider displays its real data (2.0726ms)
+✔ the unified panel stays hidden when neither source has a snapshot (1.5739ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3517.7352

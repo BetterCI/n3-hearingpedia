@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Objective speech intelligibility and quality: target, reference, hearing loss, generalization and validation
+
+Title: An Evaluation of Intrusive Instrumental Intelligibility Metrics
+Abstract: Instrumental intelligibility metrics are commonly used as an alternative to listening tests. This paper evaluates 12 monaural intrusive intelligibility metrics: SII, HEGP, CSII, HASPI, NCM, QSTI, STOI, ESTOI, MIKNN, SIMI, SIIB, and sEPSMcorr. In addition, this paper investigates the ability of intelligibility metrics to generalize to new types of distortions and analyzes why the top performing metrics have high performance. The intelligibility data were obtained from 11 listening tests described in the literature. The stimuli included Dutch, Danish, and English speech that was distorted by additive noise, reverberation, competing talkers, preprocessing enhancement, and postprocessing enhancement. SIIB and HASPI had the highest performance achieving a correlation with listening test scores on average of p = 0.92 and p = 0.89, respectively. The high performance of SIIB may, in part, be the result of SIIBs developers having access to all the intelligibility data considered in the evaluation. The results show that intelligibility metrics tend to perform poorly on datasets that were not used during their development. By modifying the original implementations of SIIB and STOI, the advant
+Keywords/concepts:
+Venue: IEEE/ACM Transactions on Audio Speech and Language Processing
+Year: 2018
+Cited by: 57
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}
