@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-07",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1086,
+  "relations": 1095,
   "entries": [
     {
       "slug": "cochlea",
@@ -4312,8 +4312,8 @@
       "slug": "auditory-computational-models",
       "knowledge_area": "methods",
       "kind": "model",
-      "chinese_characters": 8417,
-      "body_characters": 14982,
+      "chinese_characters": 8445,
+      "body_characters": 15065,
       "sections": 11,
       "subsections": 21,
       "reference_ids": [
@@ -4368,7 +4368,8 @@
         "listening-effort",
         "spectrotemporal-receptive-field",
         "pitch-perception",
-        "cochlear-implant"
+        "cochlear-implant",
+        "electrically-stimulated-auditory-nerve-models"
       ],
       "status": "draft",
       "depth": "in-depth"
@@ -6780,6 +6781,38 @@
         "spectrogram",
         "auditory-filter",
         "auditory-cortex"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "electrically-stimulated-auditory-nerve-models",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 6122,
+      "body_characters": 11205,
+      "sections": 8,
+      "subsections": 12,
+      "reference_ids": [
+        "eanf-rattay",
+        "eanf-comparison",
+        "eanf-goldwyn",
+        "eanf-alifp",
+        "eanf-amt",
+        "eanf-demo",
+        "eanf-miller",
+        "eanf-heffer",
+        "eanf-individual",
+        "eanf-briaire",
+        "eanf-cap",
+        "eanf-eas",
+        "lien-eni-2025"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "auditory-pathway",
+        "channel-interaction",
+        "cochlear-implant-coding-strategies"
       ],
       "status": "draft",
       "depth": "in-depth"

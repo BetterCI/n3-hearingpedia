@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('electrically-stimulated-auditory-nerve-models','auditory-computational-models','related','由空间电场与神经动态机制计算电刺激响应。',2),
+  link('electrically-stimulated-auditory-nerve-models','cochlear-implant','application','连接电极序列与外周神经募集。',2),
+  link('electrically-stimulated-auditory-nerve-models','cochlear-implant-coding-strategies','application','以编码器输出的脉冲列比较神经时序。',2),
+  link('electrically-stimulated-auditory-nerve-models','channel-interaction','mechanism','电场重叠与同一纤维上的历史依赖作用于不同层次。',2),
+  link('electrically-stimulated-auditory-nerve-models','auditory-pathway','related','区分局部兴奋、中央传播和知觉读出。',2),
+  link('electrically-stimulated-auditory-nerve-models','computational-neuroscience','related','电缆、条件放电强度与路径概率分别给出不同可观测量。',2),
+  link('electrically-stimulated-auditory-nerve-models','temporal-limits-encoder','related','比较脉冲输入节律与可传递的神经时序。',2),
+  link('electrically-stimulated-auditory-nerve-models','auditory-evoked-potential','related','单纤维事件到群体电位需要传播和记录模型。',2),
+  link('electrically-stimulated-auditory-nerve-models','cochlear-implant-sound-perception','related','神经募集与听者感知之间需要独立的行为检验。',2),
   link('spectrotemporal-receptive-field','auditory-computational-models','related','提供从声音到神经响应的可检验基线。',2),
   link('spectrotemporal-receptive-field','auditory-cortex','application','用自然声音的谱时特征预测听觉皮层活动。',2),
   link('spectrotemporal-receptive-field','computational-neuroscience','related','连接条件放电率、计数模型与神经编码。',2),
