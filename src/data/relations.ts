@@ -15,6 +15,16 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('speech-envelope-power-spectrum-model','auditory-computational-models','related','把分频包络表征与可懂度决策联结起来。',2),
+  link('speech-envelope-power-spectrum-model','speech-intelligibility','application','用调制域证据预测特定材料的识别表现。',2),
+  link('speech-envelope-power-spectrum-model','auditory-filter','mechanism','在声频通道内提取各自的包络。',2),
+  link('speech-envelope-power-spectrum-model','temporal-envelope','mechanism','分别度量混合声与噪声在各调制频带的起伏功率。',2),
+  link('speech-envelope-power-spectrum-model','amplitude-modulation','related','用调制速率和调制深度区分起伏的快慢与强弱。',2),
+  link('speech-envelope-power-spectrum-model','masking','related','起伏掩蔽声的低谷可形成较高的局部包络比。',2),
+  link('speech-envelope-power-spectrum-model','speech-reception-threshold','related','经材料校准后可在指定正确率上读取声学阈值。',2),
+  link('speech-envelope-power-spectrum-model','psychometric-function','related','将内部指标和多信噪比下的识别正确率联系起来。',2),
+  link('speech-envelope-power-spectrum-model','objective-speech-evaluation','related','比较功率比与短时相关指标的输入和输出。',2),
+  link('speech-envelope-power-spectrum-model','speech-enhancement-and-noise-reduction','application','核对处理后混合声与背景参照的对应关系。',2),
   link('carfac-cochlear-model','auditory-computational-models','related','为模型总览提供可运行的动态耳蜗前端实例。',2),
   link('carfac-cochlear-model','auditory-filter','related','连接滤波器形状、时域实现与非线性。',2),
   link('carfac-cochlear-model','basilar-membrane','related','以级联输出近似部分基底膜相关响应，保留模型单位边界。',2),

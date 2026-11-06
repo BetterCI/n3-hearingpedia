@@ -1,3 +1,4 @@
+import { sepsmReferences } from './sepsm-references.ts';
 import { carfacReferences } from './carfac-references.ts';
 import { speechEnhancementReferences } from './speech-enhancement-references.ts';
 import { hearingScienceJournalReferences } from './hearing-science-journals-references.ts';
@@ -118,6 +119,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...sepsmReferences,
   ...carfacReferences,
   ...speechEnhancementReferences,
   ...hearingScienceJournalReferences,

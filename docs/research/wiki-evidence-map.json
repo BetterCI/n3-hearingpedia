@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1067,
+  "relations": 1077,
   "entries": [
     {
       "slug": "cochlea",
@@ -4312,7 +4312,7 @@
       "knowledge_area": "methods",
       "kind": "model",
       "chinese_characters": 8345,
-      "body_characters": 14820,
+      "body_characters": 14864,
       "sections": 11,
       "subsections": 21,
       "reference_ids": [
@@ -4363,6 +4363,7 @@
         "signal-detection-theory",
         "spatial-hearing",
         "auditory-scene-analysis",
+        "speech-envelope-power-spectrum-model",
         "listening-effort",
         "pitch-perception",
         "cochlear-implant"
@@ -6715,6 +6716,39 @@
         "loudness",
         "pitch-perception",
         "speech-intelligibility"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "speech-envelope-power-spectrum-model",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 5530,
+      "body_characters": 10421,
+      "sections": 8,
+      "subsections": 4,
+      "reference_ids": [
+        "acm-sepsm",
+        "sepsm-mr",
+        "temporal-resolution-ewert",
+        "sepsm-amt11",
+        "sepsm-amt13",
+        "sepsm-thesis",
+        "sepsm-demo",
+        "sepsm-corr",
+        "acm-stoi",
+        "sepsm-periodicity",
+        "sepsm-jansen"
+      ],
+      "wiki_links": [
+        "speech-intelligibility",
+        "amplitude-modulation",
+        "auditory-filter",
+        "temporal-envelope",
+        "speech-reception-threshold",
+        "psychometric-function",
+        "speech-enhancement-and-noise-reduction"
       ],
       "status": "draft",
       "depth": "in-depth"
