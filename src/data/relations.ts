@@ -15,6 +15,18 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('carfac-cochlear-model','auditory-computational-models','related','为模型总览提供可运行的动态耳蜗前端实例。',2),
+  link('carfac-cochlear-model','auditory-filter','related','连接滤波器形状、时域实现与非线性。',2),
+  link('carfac-cochlear-model','basilar-membrane','related','以级联输出近似部分基底膜相关响应，保留模型单位边界。',2),
+  link('carfac-cochlear-model','outer-hair-cell','mechanism','用快速非线性和去阻尼参数近似主动功能。',2),
+  link('carfac-cochlear-model','inner-hair-cell','mechanism','检测、动态状态和平滑形成连续内部表征。',2),
+  link('carfac-cochlear-model','auditory-pathway','related','NAP与听神经单纤维放电需要分层解释。',2),
+  link('carfac-cochlear-model','temporal-envelope','related','比较不同阶段的起伏表征和适应。',2),
+  link('carfac-cochlear-model','tonotopy','related','通道极点频率与物理位置映射需要区分。',2),
+  link('carfac-cochlear-model','hearing-loss','application','通过功能参数提出损伤情景，需独立验证。',2),
+  link('carfac-cochlear-model','wide-dynamic-range-compression','related','区分耳蜗前端压缩与设备动态增益。',2),
+  link('carfac-cochlear-model','signals-and-systems','related','以串联系统、状态和线性近似理解实现。',2),
+  link('carfac-cochlear-model','minimum-phase-system','related','每级附加时延会改变时序与最小相位条件。',2),
   link('hearing-science-journals','audiology','related','按临床问题查找听力评估与干预研究。',2),
   link('hearing-science-journals','psychoacoustics','related','从感知任务追溯刺激和行为测量方法。',2),
   link('hearing-science-journals','mandarin-consonants','related','比较普通话辅音的声学线索与识别实验。',2),

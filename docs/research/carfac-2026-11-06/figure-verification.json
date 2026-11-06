@@ -1,0 +1,44 @@
+{
+  "upstream_commit": "a9fba19ac76c6b8052d1d4a2973f91450fb4d1d8",
+  "source_url": "https://raw.githubusercontent.com/google/carfac/a9fba19ac76c6b8052d1d4a2973f91450fb4d1d8/python/src/carfac/np/carfac.py",
+  "source_sha256": "40efc645f5fa4e661116a5000c7181360b09f5efc81a0ac7908b55fc5abe9861",
+  "numpy": "2.2.6",
+  "matplotlib": "3.10.7",
+  "sample_rate_hz": 22050,
+  "duration_s": 0.12,
+  "tone_hz": 1000,
+  "ramp_s": 0.005,
+  "input_peak_levels_db_re_1": [
+    -80.0,
+    -65.0,
+    -50.0,
+    -35.0,
+    -20.0
+  ],
+  "window_s": [
+    0.07,
+    0.11
+  ],
+  "ihc_style": "two_cap",
+  "use_delay_buffer": false,
+  "n_channels": 71,
+  "channel_index_zero_based": 38,
+  "channel_pole_hz": 992.907958984375,
+  "output_bm_rms": [
+    0.0361745158891267,
+    0.14013949645615273,
+    0.4193245499479206,
+    1.0965655210959908,
+    2.627710776243034
+  ],
+  "local_growth_slopes": [
+    0.784210433134771,
+    0.6346529824819994,
+    0.556645729159698,
+    0.506057300941655
+  ],
+  "preserved_state_max_absolute_error": 0.0,
+  "reset_state_max_absolute_error": 6.3522418310164435,
+  "all_outputs_finite": true,
+  "scope": "Actual pinned NumPy CARFAC with v2 two_cap settings; figure 3b is an independent continuous-time lowpass approximation; no physical SPL calibration, human measurements, or clinical inference."
+}

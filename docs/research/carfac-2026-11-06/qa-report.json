@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-06",
+  "entry": "carfac-cochlear-model",
+  "base_commit": "f3b559d",
+  "editorial_status": "draft; AI-assisted authoring and self-check, no named professional reviewer",
+  "claims_checked": [
+    "CAR and IHC output separation; default NAP is continuous and subtracts its resting baseline",
+    "Open-loop feedback is distinct from disabling the fast nonlinearity",
+    "Pinned-source code contains newer optional synapse configuration; only two_cap was executed",
+    "Amplitude is digital peak dB re 1, not dB SPL; output is model-unit RMS",
+    "Frozen-filter transfer product and continuous lowpass example are explicit approximations",
+    "ohc_health is a functional parameter, not a cell-survival percentage",
+    "2024 version report and 2026 DAL are labelled preprints; no clinical benefit inferred"
+  ],
+  "computational_checks": "Four original figures; upstream checksum verified; finite outputs; unchanged-state chunking matches whole signal exactly; reset-state output differs",
+  "integration_checks": {
+    "typecheck": "0 errors, 0 warnings, 0 hints",
+    "build": "passed with existing bundle-size and historical-redirect indexing notices",
+    "site_verification": {
+      "pages": 340,
+      "searchable_entries": 150,
+      "internal_links": 30037,
+      "broken_links": 0
+    },
+    "content_validation": "14 sources, 4 figures, source IDs, citation numbering including HTML captions, links, evidence map, draft status and 12 typed relations checked",
+    "visual": "Desktop page, 390x844 mobile layout, figures and captions inspected; figure originals open from the article; temporary viewport override reset",
+    "regression": "20 required CI tests passed; basilar-membrane verification passed"
+  },
+  "scope_limits": [
+    "No MATLAB/JAX/C++/AMT/FPGA experiment rerun",
+    "No human data or clinical validation",
+    "Research discovery is bounded and selected sources verified; remaining candidate pool is not a completed systematic review"
+  ]
+}
