@@ -15,6 +15,10 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('hearing-science-journals','audiology','related','按临床问题查找听力评估与干预研究。',2),
+  link('hearing-science-journals','psychoacoustics','related','从感知任务追溯刺激和行为测量方法。',2),
+  link('hearing-science-journals','mandarin-consonants','related','比较普通话辅音的声学线索与识别实验。',2),
+  link('hearing-science-journals','speech-enhancement-and-noise-reduction','related','跨刊比较信号处理与听者实验。',2),
   link('wide-dynamic-range-compression','hearing-aid','application','随声级调节增益，连接可听性、舒适度与完整助听系统。',3),
   link('wide-dynamic-range-compression','dynamic-range','related','压缩改变输入输出跨度，但残余范围与响度增长需要分别测量。',3),
   link('wide-dynamic-range-compression','hearing-aid-prescription','related','处方提供多声级频率目标，压缩器实现并需要验证这些目标。',3),

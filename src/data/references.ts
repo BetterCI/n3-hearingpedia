@@ -1,4 +1,5 @@
 import { speechEnhancementReferences } from './speech-enhancement-references.ts';
+import { hearingScienceJournalReferences } from './hearing-science-journals-references.ts';
 import { auditoryNeuropathyReferences } from './auditory-neuropathy-spectrum-disorder-references.ts';
 import { frequencyFollowingResponseReferences } from './frequency-following-response-references.ts';
 import { objectiveSpeechEvaluationReferences } from './objective-speech-evaluation-references.ts';
@@ -117,6 +118,7 @@ export interface Reference { title: string; authors: string; year: string; publi
 
 export const references: Record<string, Reference> = {
   ...speechEnhancementReferences,
+  ...hearingScienceJournalReferences,
   ...auditoryNeuropathyReferences,
   ...frequencyFollowingResponseReferences,
   ...objectiveSpeechEvaluationReferences,

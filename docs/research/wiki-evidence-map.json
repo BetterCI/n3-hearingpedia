@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-06",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1051,
+  "relations": 1055,
   "entries": [
     {
       "slug": "cochlea",
@@ -6631,6 +6631,44 @@
       "figures": 4,
       "audio": 0,
       "code_examples": 1
+    },
+    {
+      "slug": "hearing-science-journals",
+      "knowledge_area": "methods",
+      "kind": "resource",
+      "chinese_characters": 1762,
+      "body_characters": 3550,
+      "sections": 5,
+      "subsections": 3,
+      "reference_ids": [
+        "journal-hr",
+        "journal-jaro",
+        "journal-jasa",
+        "journal-ear",
+        "journal-ija",
+        "journal-tia",
+        "journal-jslhr",
+        "journal-jphon",
+        "journal-taslp",
+        "journal-jas",
+        "journal-cjo",
+        "journal-sxxb",
+        "se-complex-2016",
+        "brons-noise-reduction-2014",
+        "zjl-confusion-2024"
+      ],
+      "wiki_links": [
+        "cochlea",
+        "psychometric-function",
+        "confusion-matrix",
+        "speech-enhancement-and-noise-reduction",
+        "mandarin-consonants",
+        "cochlear-implant-sound-perception",
+        "frequency-following-response",
+        "auditory-neuropathy-spectrum-disorder",
+        "objective-speech-evaluation"
+      ],
+      "status": "draft"
     }
   ]
 }

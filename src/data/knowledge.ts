@@ -12,6 +12,7 @@ export const kindLabels = {
   course: '基础课程',
   person: '研究人物',
   discipline: '研究领域',
+  resource: '学术资源',
   anatomy: '解剖结构', organization: '组织关系', quantity: '物理量／声学属性',
   representation: '信号表征', phenomenon: '感知现象', 'acoustic-environment': '声学现象与环境', function: '感知功能', linguistic: '语言类别',
   mechanism: '功能机制', condition: '听觉损伤／病理状态', 'physiological-response': '神经生理反应', metric: '评价指标', test: '测量方法／测试',
