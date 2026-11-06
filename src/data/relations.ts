@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('spectrotemporal-receptive-field','auditory-computational-models','related','提供从声音到神经响应的可检验基线。',2),
+  link('spectrotemporal-receptive-field','auditory-cortex','application','用自然声音的谱时特征预测听觉皮层活动。',2),
+  link('spectrotemporal-receptive-field','computational-neuroscience','related','连接条件放电率、计数模型与神经编码。',2),
+  link('spectrotemporal-receptive-field','auditory-filter','mechanism','分带方式定义声谱输入坐标。',2),
+  link('spectrotemporal-receptive-field','spectrogram','related','区分声音特征图与拟合的系数图。',2),
+  link('spectrotemporal-receptive-field','linear-algebra','related','协方差和秩限制决定估计可识别的方向。',2),
+  link('spectrotemporal-receptive-field','machine-learning','related','按刺激分区，独立估计参数和检验外推。',2),
+  link('spectrotemporal-receptive-field','temporal-resolution','related','分箱宽度与滤波窗限制时序解释。',2),
+  link('spectrotemporal-receptive-field','signals-and-systems','related','滞后加权求和与静态非线性串联。',2),
   link('speech-envelope-power-spectrum-model','auditory-computational-models','related','把分频包络表征与可懂度决策联结起来。',2),
   link('speech-envelope-power-spectrum-model','speech-intelligibility','application','用调制域证据预测特定材料的识别表现。',2),
   link('speech-envelope-power-spectrum-model','auditory-filter','mechanism','在声频通道内提取各自的包络。',2),

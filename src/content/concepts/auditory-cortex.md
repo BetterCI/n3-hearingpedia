@@ -104,7 +104,7 @@ Kato 等在清醒小鼠中结合全细胞记录、钙成像和光遗传操纵，
 
 ### 声谱—时间感受野提供可检验的预测
 
-声谱—时间感受野（spectrotemporal receptive field，STRF）描述某些频率特征在不同时间延迟上与神经响应的关系。常见线性模型把声音变成频率—时间表示，再估计各频率和延迟的权重。它能检验哪些输入特征有助于预测响应，并使不同刺激历史下的预测可以计算。[6](#ref-cortex-phonetic-2014)[9](#ref-cortex-integration-2022)
+[声谱—时间感受野](../spectrotemporal-receptive-field/)（spectrotemporal receptive field，STRF）描述某些频率特征在不同时间延迟上与神经响应的关系。常见线性模型把声音变成频率—时间表示，再估计各频率和延迟的权重。它能检验哪些输入特征有助于预测响应，并使不同刺激历史下的预测可以计算。[6](#ref-cortex-phonetic-2014)[9](#ref-cortex-integration-2022)
 
 这种“感受野”是基于特定输入表示、输出和数据拟合的功能模型。用声谱图预测放电、用语音标签预测皮层高频活动，以及用声音特征预测血氧响应，其变量与解释尺度不同。负权重表示在模型条件下的负向贡献，不能直接当作某个抑制性突触；线性模型也可能遗漏非线性整合。[6](#ref-cortex-phonetic-2014)[8](#ref-cortex-modelmatched-2018)
 

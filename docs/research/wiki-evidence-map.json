@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-07",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1077,
+  "relations": 1086,
   "entries": [
     {
       "slug": "cochlea",
@@ -2840,7 +2840,7 @@
       "knowledge_area": "biology",
       "kind": "anatomy",
       "chinese_characters": 9060,
-      "body_characters": 17633,
+      "body_characters": 17672,
       "sections": 10,
       "subsections": 31,
       "reference_ids": [
@@ -2872,6 +2872,7 @@
         "auditory-pathway",
         "tonotopy",
         "amplitude-modulation",
+        "spectrotemporal-receptive-field",
         "auditory-attention",
         "neural-speech-tracking",
         "auditory-plasticity",
@@ -4311,8 +4312,8 @@
       "slug": "auditory-computational-models",
       "knowledge_area": "methods",
       "kind": "model",
-      "chinese_characters": 8345,
-      "body_characters": 14864,
+      "chinese_characters": 8417,
+      "body_characters": 14982,
       "sections": 11,
       "subsections": 21,
       "reference_ids": [
@@ -4365,6 +4366,7 @@
         "auditory-scene-analysis",
         "speech-envelope-power-spectrum-model",
         "listening-effort",
+        "spectrotemporal-receptive-field",
         "pitch-perception",
         "cochlear-implant"
       ],
@@ -6749,6 +6751,35 @@
         "speech-reception-threshold",
         "psychometric-function",
         "speech-enhancement-and-noise-reduction"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "spectrotemporal-receptive-field",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 5812,
+      "body_characters": 10419,
+      "sections": 7,
+      "subsections": 8,
+      "reference_ids": [
+        "cn-strf",
+        "strf-normalization",
+        "cn-encoding",
+        "strf-calabrese",
+        "strf-nems",
+        "strf-reliability",
+        "strf-gain",
+        "cortex-fritz-2003",
+        "cortex-phonetic-2014",
+        "cn-glm",
+        "strf-wingert"
+      ],
+      "wiki_links": [
+        "spectrogram",
+        "auditory-filter",
+        "auditory-cortex"
       ],
       "status": "draft",
       "depth": "in-depth"
