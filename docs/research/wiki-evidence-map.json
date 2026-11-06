@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-07",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1095,
+  "relations": 1107,
   "entries": [
     {
       "slug": "cochlea",
@@ -247,8 +247,8 @@
       "slug": "speech-intelligibility",
       "knowledge_area": "perception",
       "kind": "function",
-      "chinese_characters": 9697,
-      "body_characters": 16717,
+      "chinese_characters": 9736,
+      "body_characters": 16796,
       "sections": 12,
       "subsections": 35,
       "reference_ids": [
@@ -294,10 +294,12 @@
         "vocoder",
         "speech-reception-threshold",
         "confusion-matrix",
+        "speech-intelligibility-models",
         "auditory-filter",
         "listening-effort"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "in-depth"
     },
     {
       "slug": "cochlear-implant",
@@ -4312,8 +4314,8 @@
       "slug": "auditory-computational-models",
       "knowledge_area": "methods",
       "kind": "model",
-      "chinese_characters": 8445,
-      "body_characters": 15065,
+      "chinese_characters": 8502,
+      "body_characters": 15176,
       "sections": 11,
       "subsections": 21,
       "reference_ids": [
@@ -4356,6 +4358,7 @@
         "hearing-aid",
         "loudness",
         "inner-hair-cell",
+        "carney-brainstem-modulation-model",
         "auditory-brainstem-response",
         "cochlear-synaptopathy",
         "temporal-envelope",
@@ -6813,6 +6816,76 @@
         "auditory-pathway",
         "channel-interaction",
         "cochlear-implant-coding-strategies"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "carney-brainstem-modulation-model",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 4289,
+      "body_characters": 8246,
+      "sections": 6,
+      "subsections": 8,
+      "reference_ids": [
+        "carney-sfie",
+        "carney-vowel",
+        "carney-amt",
+        "acm-zilany",
+        "carney-timing",
+        "carney-bandwidth",
+        "carney-timbre",
+        "sim-zaar"
+      ],
+      "wiki_links": [
+        "auditory-pathway",
+        "temporal-envelope",
+        "formant",
+        "amplitude-modulation",
+        "phase-locking",
+        "frequency-following-response",
+        "speech-intelligibility-models"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "speech-intelligibility-models",
+      "knowledge_area": "methods",
+      "kind": "model",
+      "chinese_characters": 4739,
+      "body_characters": 8071,
+      "sections": 5,
+      "subsections": 9,
+      "reference_ids": [
+        "ansi-sii",
+        "sim-esii",
+        "steeneken-1980",
+        "iec-sti-2020",
+        "taal-2011",
+        "jensen-2016",
+        "acm-sepsm",
+        "sepsm-mr",
+        "haspi-2021",
+        "kates-context-2023",
+        "sim-fade",
+        "lavandier-2026",
+        "ose-vankuyk-2018",
+        "cmnmatrix-2018",
+        "sim-amt-stoi",
+        "sim-clarity",
+        "sim-zaar"
+      ],
+      "wiki_links": [
+        "speech-intelligibility",
+        "speech-reception-threshold",
+        "psychometric-function",
+        "speech-envelope-power-spectrum-model",
+        "binaural-intelligibility-level-difference",
+        "carney-brainstem-modulation-model",
+        "objective-speech-evaluation",
+        "speech-enhancement-and-noise-reduction"
       ],
       "status": "draft",
       "depth": "in-depth"

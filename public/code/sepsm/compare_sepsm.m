@@ -1,4 +1,5 @@
-function results = compare_sepsm(spectrum)
+function [results, comparison] = compare_sepsm(spectrum)
+% Request a second output to also compute STOI for the same mixtures.
 % Start AMT 1.6.0 first. Requires Signal Processing Toolbox and the
 % Counting-16-44p1-mono-15secs.wav sample shipped with Audio Toolbox.
 if nargin < 1
@@ -26,6 +27,9 @@ end
 maskers = [carrier, carrier .* (1 - cos(2*pi*4*time))];
 snrs = [-9 -6 -3 0 3];
 values = zeros(numel(snrs)*2,4);
+if nargout > 1
+    stoi = zeros(size(values,1),1);
+end
 for m = 1:2
     unitNoise = maskers(:,m) / rms(maskers(:,m));
     for s = 1:numel(snrs)
@@ -35,9 +39,15 @@ for m = 1:2
         longTerm = joergensen2011(mixture,noise,fs);
         multi = joergensen2013(mixture,noise,fs);
         row = (m-1)*numel(snrs)+s;
+        if nargout > 1
+            stoi(row) = taal2011(target,mixture,fs);
+        end
         values(row,:) = [m,snrs(s),longTerm.SNRenv,multi.SNRenv];
     end
 end
 assert(all(isfinite(values),'all') && all(values(:,3:4)>0,'all'));
 results = array2table(values,'VariableNames',{'masker','acoustic_dB','sEPSM','mr_sEPSM'});
+if nargout > 1
+    comparison = addvars(results,stoi,'NewVariableNames','STOI');
+end
 end

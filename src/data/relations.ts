@@ -15,6 +15,18 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('carney-brainstem-modulation-model','auditory-computational-models','related','从听神经瞬时率构建耳蜗核与下丘的分级计算。',2),
+  link('carney-brainstem-modulation-model','auditory-pathway','mechanism','模型区分耳蜗核与中脑下丘两级。',2),
+  link('carney-brainstem-modulation-model','amplitude-modulation','mechanism','按调制速率扫描固定平均值的驱动。',2),
+  link('carney-brainstem-modulation-model','phase-locking','related','调制同步性与平均放电率是不同的读出。',2),
+  link('carney-brainstem-modulation-model','formant','application','检验共振峰位置与基频起伏的跨通道图样。',2),
+  link('carney-brainstem-modulation-model','speech-intelligibility-models','related','把神经起伏图样与听者识别任务的决策变量相连。',2),
+  link('speech-intelligibility-models','auditory-computational-models','related','对照模型的听觉前端、内部证据与行为映射。',2),
+  link('speech-intelligibility-models','speech-intelligibility','application','在指定言语材料及计分规则下预测识别表现。',2),
+  link('speech-intelligibility-models','speech-reception-threshold','related','从跨信噪比识别曲线读取目标正确率的阈值。',2),
+  link('speech-intelligibility-models','psychometric-function','mechanism','从内部指标推到正确率需要材料标定。',2),
+  link('speech-intelligibility-models','speech-envelope-power-spectrum-model','related','比较以噪声为参照的包络功率模型及其分时扩展。',2),
+  link('speech-intelligibility-models','objective-speech-evaluation','related','区分识别表现与信号质量等评价终点。',2),
   link('electrically-stimulated-auditory-nerve-models','auditory-computational-models','related','由空间电场与神经动态机制计算电刺激响应。',2),
   link('electrically-stimulated-auditory-nerve-models','cochlear-implant','application','连接电极序列与外周神经募集。',2),
   link('electrically-stimulated-auditory-nerve-models','cochlear-implant-coding-strategies','application','以编码器输出的脉冲列比较神经时序。',2),

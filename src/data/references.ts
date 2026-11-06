@@ -1,3 +1,5 @@
+import { speechModelsReferences } from './speech-models-references.ts';
+import { carneyReferences } from './carney-references.ts';
 import { eanfReferences } from './eanf-references.ts';
 import { strfReferences } from './strf-references.ts';
 import { sepsmReferences } from './sepsm-references.ts';
@@ -121,6 +123,8 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...speechModelsReferences,
+  ...carneyReferences,
   ...eanfReferences,
   ...strfReferences,
   ...sepsmReferences,
