@@ -1,0 +1,34 @@
+import {readFile,writeFile,access} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import {createMarkdownProcessor} from '@astrojs/markdown-remark';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import {references} from '../src/data/references.ts';
+
+const slug='cochlear-implant-coding-strategies';
+const source=(await readFile(`src/content/concepts/${slug}.md`,'utf8')).replaceAll('\r\n','\n');
+const body=source.split('\n---\n').slice(1).join('\n---\n');
+const ids=JSON.parse(source.match(/^references: (.+)$/m)[1]);
+for(const [,n,id] of body.matchAll(/\[(\d+)\]\(#ref-([^\s)]+)\)/g)) assert.equal(ids[+n-1],id);
+for(const id of ids) assert(references[id]);
+const assets=[...body.matchAll(/(?:src|href)="(\/n3-hearingpedia\/(?:figures|code)\/[^"#]+)"/g)].map(m=>m[1]);
+for(const asset of assets) await access(asset.replace('/n3-hearingpedia/','public/'));
+const figureCount=new Set(assets.filter(a=>a.endsWith('.svg'))).size;
+assert.equal(figureCount,15);
+for(const letter of 'ABCDEFGHIJK') assert(body.includes(`附图 ${letter}｜`));
+for(const [,target] of body.matchAll(/\]\(\.\.\/([^/]+)\/\)/g)) await access(`src/content/concepts/${target}.md`);
+const processor=await createMarkdownProcessor({remarkPlugins:[remarkMath],rehypePlugins:[[rehypeKatex,{throwOnError:true}]]});
+const html=(await processor.render(body)).code;
+assert(!html.includes('katex-error'));
+const equationCount=(html.match(/class="katex-display"/g)||[]).length;
+const sourceEquationCount=(body.match(/^\$\$\s*$/gm)||[]).length/2;
+assert.equal(equationCount,sourceEquationCount,'Every display equation must render');
+assert(body.includes('## 附录：算法推导、实现顺序与复现细节'));
+assert.equal((body.match(/^### [A-K]．/gm)||[]).length,11);
+const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+const bibliography=ids.map((id,i)=>{const r=references[id];return `<p id="ref-${id}">[${i+1}] ${esc(r.authors)} (${esc(r.year)}). <a href="${esc(r.url)}">${esc(r.title)}</a>. ${esc(r.publication)}。${esc(r.supports)}</p>`;}).join('\n');
+const css=await readFile('node_modules/katex/dist/katex.min.css','utf8');
+const page=`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>人工耳蜗信号处理策略 · 更新预览</title><style>${css.replaceAll('url(fonts/','url(../../node_modules/katex/dist/fonts/')}body{font-family:"Microsoft YaHei",sans-serif;max-width:1050px;margin:32px auto;padding:0 24px;color:#29243a;line-height:1.9}h1,h2,h3{color:#72529b}h2{margin-top:2em;border-bottom:1px solid #ddd}img{width:100%;height:auto}figure{margin:2em 0}figcaption{font-size:14px;color:#6e667b}pre{overflow:auto;padding:20px;background:#f5f2f9;font-size:14px}table{border-collapse:collapse;display:block;overflow:auto}td,th{border:1px solid #ddd;padding:10px;min-width:110px}a{color:#72529b}.katex-display{overflow:auto;padding:8px}a[href^="#ref-"]{font-size:.75em;vertical-align:super}p[id^="ref-"]{font-size:14px}</style><h1>人工耳蜗信号处理策略</h1><p>2026-11-12 更新 · Draft · 尚未完成专业审阅</p>${html}<h2>参考文献与证据范围</h2>${bibliography}</html>`
+ .replaceAll('/n3-hearingpedia/figures/','../../public/figures/').replaceAll('/n3-hearingpedia/code/','../../public/code/').replaceAll(/href="\.\.\/([^/]+)\/"/g,'href="https://betterci.github.io/n3-hearingpedia/concepts/$1/"');
+await writeFile('docs/drafts/ci-coding-preview.html',page);
+console.log(JSON.stringify({equationCount,figures:figureCount,references:ids.length,assetsChecked:assets.length,preview:'docs/drafts/ci-coding-preview.html'},null,2));
