@@ -6,6 +6,7 @@ import NetworkArt from '../components/NetworkArt.astro';
 import RandomConceptFigure from '../components/RandomConceptFigure.astro';
 import DepthBadge from '../components/DepthBadge.astro';
 import FeedbackPanel from '../components/FeedbackPanel.astro';
+import RecruitmentNotice from '../components/RecruitmentNotice.astro';
 import { url } from '../lib/paths';
 import { introductoryPaths } from '../data/paths';
 import IntroPathCards from '../components/IntroPathCards.astro';
@@ -30,6 +31,7 @@ const featured = homepageFeaturedSlugs.map(slug => {
       <a href="https://betterci.github.io/hearing-paper-monitor/" target="_blank" rel="noopener noreferrer">听觉研究论文追踪 <span aria-hidden="true">↗</span></a>
       <span class="partner-description">关注听觉科学的新近研究</span>
     </aside>
+    <RecruitmentNotice />
     <section class="hero">
       <div>
         <div class="eyebrow">A living knowledge network</div>

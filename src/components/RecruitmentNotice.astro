@@ -1,0 +1,96 @@
+---
+const summary = '华南理工大学 ｜ 智能助听与语音增强 · 可穿戴脑电与多模态感知 ｜ 录取专业：物理学或电子信息 ｜ 2027年9月入学，招满即止 ｜ 欢迎对人工智能、信号处理及生物医学交叉研究感兴趣的同学联系孟老师：mengqinglin@scut.edu.cn';
+---
+
+<aside class="recruitment-notice" aria-label="华南理工大学2027年博士招生信息" data-pagefind-ignore>
+  <span class="notice-label">2027博士招生</span>
+  <div class="notice-viewport">
+    <span class="sr-only">{summary}</span>
+    <div class="notice-track" aria-hidden="true">
+      <span>{summary}</span><span>{summary}</span>
+    </div>
+  </div>
+  <button class="notice-pause" type="button" aria-label="暂停招生信息滚动" aria-pressed="false" title="暂停滚动">
+    <svg class="pause-icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2v8M8 2v8" fill="none" stroke="currentColor" stroke-width="1.5" /></svg>
+    <svg class="play-icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="m4 2 6 4-6 4Z" fill="currentColor" /></svg>
+  </button>
+  <button class="notice-details" type="button" aria-haspopup="dialog" aria-controls="recruitment-dialog">详情 <span aria-hidden="true">↗</span></button>
+</aside>
+
+<dialog id="recruitment-dialog" class="recruitment-dialog" aria-labelledby="recruitment-title" data-pagefind-ignore>
+  <div class="recruitment-heading">
+    <h2 id="recruitment-title">2027年博士招生信息</h2>
+    <button class="recruitment-close" type="button" aria-label="关闭招生信息" autofocus>×</button>
+  </div>
+  <p>研究方向：<strong>智能助听与语音增强、可穿戴脑电与多模态感知</strong>，欢迎对人工智能、信号处理及生物医学交叉研究感兴趣的同学申请。</p>
+  <p class="recruitment-facts"><strong>招生单位：华南理工大学。</strong><br /><strong>录取专业：物理学或电子信息。</strong><br /><strong>入学时间：2027年9月，招满即止。</strong></p>
+  <h3>基本要求</h3>
+  <ol>
+    <li>具有物理学、电子信息、通信工程、计算机、自动化、生物医学工程等相关专业背景。</li>
+    <li>具有较好的数学基础，具备一定的编程、信号处理、数据分析或实验研究能力。</li>
+    <li>对相关方向有研究兴趣，具有主动学习、独立思考和团队协作能力，科研态度严谨。</li>
+    <li>具备良好的英文文献阅读能力；有相关科研或项目经历者优先。</li>
+  </ol>
+  <p>感兴趣者欢迎联系<strong>孟老师</strong>，邮件可附个人简历及研究兴趣简介。</p>
+  <p class="recruitment-contact">联系邮箱：<a href="mailto:mengqinglin@scut.edu.cn">mengqinglin@scut.edu.cn</a></p>
+</dialog>
+
+<script>
+  const notice = document.querySelector<HTMLElement>('.recruitment-notice');
+  const pause = notice?.querySelector<HTMLButtonElement>('.notice-pause');
+  const dialog = document.querySelector<HTMLDialogElement>('#recruitment-dialog');
+
+  pause?.addEventListener('click', () => {
+    const paused = pause.getAttribute('aria-pressed') !== 'true';
+    pause.setAttribute('aria-pressed', String(paused));
+    pause.setAttribute('aria-label', paused ? '继续招生信息滚动' : '暂停招生信息滚动');
+    pause.title = paused ? '继续滚动' : '暂停滚动';
+    notice?.classList.toggle('is-paused', paused);
+  });
+
+  if (notice && dialog) {
+    notice.querySelector<HTMLButtonElement>('.notice-details')?.addEventListener('click', () => {
+      dialog.showModal();
+      notice.classList.add('is-reading');
+    });
+    dialog.querySelector<HTMLButtonElement>('.recruitment-close')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('close', () => notice.classList.remove('is-reading'));
+    dialog.addEventListener('click', event => {
+      if (event.target !== dialog) return;
+      const bounds = dialog.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
+    });
+  }
+</script>
+
+<style>
+  .recruitment-notice{display:flex;align-items:center;gap:12px;min-width:0;margin-top:6px;padding:0 12px;min-height:32px;border-bottom:1px solid var(--line);color:var(--muted);font-size:11px;line-height:1.7}
+  .notice-label{flex:none;color:#756b87;white-space:nowrap}
+  .notice-viewport{flex:1;min-width:0;overflow:hidden;mask-image:linear-gradient(to right,transparent,#000 10px,#000 calc(100% - 16px),transparent)}
+  .notice-track{display:flex;width:max-content;animation:recruitment-scroll 72s linear infinite}
+  .notice-track>span{flex:none;padding-right:64px;white-space:nowrap}
+  .recruitment-notice:hover .notice-track,.recruitment-notice:focus-within .notice-track,.is-paused .notice-track,.is-reading .notice-track{animation-play-state:paused}
+  .notice-pause,.notice-details{flex:none;display:inline-flex;align-items:center;justify-content:center;min-height:32px;padding:0;border:0;background:transparent;color:inherit;font-size:11px;white-space:nowrap}
+  .notice-pause{width:26px;margin-right:-6px}
+  .notice-details{gap:5px}
+  .notice-pause:hover,.notice-details:hover{color:var(--accent)}
+  .notice-details:hover{text-decoration:underline}
+  .play-icon{display:none}
+  .is-paused .pause-icon{display:none}
+  .is-paused .play-icon{display:block}
+  @keyframes recruitment-scroll{to{transform:translateX(-50%)}}
+  .recruitment-dialog{position:fixed;inset:0;width:580px;max-width:calc(100vw - 32px);max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);margin:auto;padding:26px;border:1px solid #e1daed;border-radius:14px;background:var(--surface);color:var(--ink);box-shadow:0 24px 80px #21152f30;overflow:auto;font-size:14px;line-height:1.9}
+  .recruitment-dialog::backdrop{background:#25203770;backdrop-filter:blur(3px)}
+  .recruitment-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+  .recruitment-heading h2{font-size:20px;line-height:1.5}
+  .recruitment-close{display:grid;place-items:center;flex:none;width:36px;height:36px;padding:0;border:0;border-radius:6px;background:transparent;color:var(--muted);font:26px/1 system-ui}
+  .recruitment-close:hover{background:var(--accent-light)}
+  .recruitment-facts{margin:18px 0;padding:12px 16px;border-radius:8px;background:var(--accent-light)}
+  .recruitment-dialog h3{font-size:14px;line-height:1.8}
+  .recruitment-dialog ol{padding-left:22px;margin:8px 0 18px}
+  .recruitment-dialog li+li{margin-top:6px}
+  .recruitment-contact{margin-top:8px}
+  .recruitment-contact a{color:var(--accent);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+  @media(max-width:760px){.recruitment-notice{gap:8px;padding:0 8px}.recruitment-dialog{padding:20px;font-size:13px}.recruitment-heading h2{font-size:18px}}
+  @media(prefers-reduced-motion:reduce){.notice-track{animation:none}.notice-track>span+span,.notice-pause{display:none}}
+</style>
