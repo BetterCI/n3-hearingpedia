@@ -1,15 +1,15 @@
 {
   "version": "0.5",
-  "date": "2026-11-07",
+  "date": "2026-11-17",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1107,
+  "relations": 1113,
   "entries": [
     {
       "slug": "cochlea",
       "knowledge_area": "biology",
       "kind": "anatomy",
-      "chinese_characters": 8470,
-      "body_characters": 15535,
+      "chinese_characters": 8469,
+      "body_characters": 15571,
       "sections": 11,
       "subsections": 19,
       "reference_ids": [
@@ -49,7 +49,8 @@
         "pitch-perception",
         "cochlear-synaptopathy",
         "noise-induced-hearing-loss",
-        "cochlear-implant"
+        "cochlear-implant",
+        "gene-therapy-for-hearing-loss"
       ],
       "status": "draft"
     },
@@ -1859,8 +1860,8 @@
       "slug": "inner-hair-cell",
       "knowledge_area": "biology",
       "kind": "anatomy",
-      "chinese_characters": 9996,
-      "body_characters": 18180,
+      "chinese_characters": 9995,
+      "body_characters": 18239,
       "sections": 12,
       "subsections": 36,
       "reference_ids": [
@@ -1922,7 +1923,8 @@
         "pitch-perception",
         "temporal-envelope",
         "temporal-fine-structure",
-        "tonotopy"
+        "tonotopy",
+        "gene-therapy-for-hearing-loss"
       ],
       "status": "draft",
       "depth": "in-depth"
@@ -6886,6 +6888,48 @@
         "carney-brainstem-modulation-model",
         "objective-speech-evaluation",
         "speech-enhancement-and-noise-reduction"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "gene-therapy-for-hearing-loss",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 6612,
+      "body_characters": 11480,
+      "sections": 10,
+      "subsections": 18,
+      "reference_ids": [
+        "gt-roux",
+        "gt-akil",
+        "gt-almoyed",
+        "gt-askew",
+        "gt-gao",
+        "gt-yeh",
+        "gt-dbmouse",
+        "gt-lv",
+        "gt-wang",
+        "gt-anc80",
+        "gt-dboto",
+        "gt-jiang",
+        "gt-sequential",
+        "gt-regeneration",
+        "gt-fda-label",
+        "gt-fda-approval"
+      ],
+      "wiki_links": [
+        "hearing-loss",
+        "cochlea",
+        "inner-hair-cell",
+        "otoacoustic-emissions",
+        "auditory-brainstem-response",
+        "speech-intelligibility",
+        "spatial-hearing",
+        "auditory-plasticity",
+        "hearing-aid",
+        "cochlear-implant",
+        "pure-tone-audiometry"
       ],
       "status": "draft",
       "depth": "in-depth"

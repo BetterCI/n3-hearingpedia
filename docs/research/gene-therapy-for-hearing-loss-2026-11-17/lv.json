@@ -1,0 +1,643 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"AAV1-hOTOF gene therapy for autosomal recessive deafness 9\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "38280389",
+        "source": "MED",
+        "pmid": "38280389",
+        "doi": "10.1016/s0140-6736(23)02874-x",
+        "title": "AAV1-hOTOF gene therapy for autosomal recessive deafness 9: a single-arm trial.",
+        "authorString": "Lv J, Wang H, Cheng X, Chen Y, Wang D, Zhang L, Cao Q, Tang H, Hu S, Gao K, Xun M, Wang J, Wang Z, Zhu B, Cui C, Gao Z, Guo L, Yu S, Jiang L, Yin Y, Zhang J, Chen B, Wang W, Chai R, Chen ZY, Li H, Shu Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lv J",
+              "lastName": "Lv",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China; State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China; Institutes of Biomedical Science, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang H",
+              "lastName": "Wang",
+              "firstName": "Hui",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng X",
+              "lastName": "Cheng",
+              "firstName": "Xiaoting",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Y",
+              "lastName": "Chen",
+              "firstName": "Yuxin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang D",
+              "lastName": "Wang",
+              "firstName": "Daqi",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang L",
+              "lastName": "Zhang",
+              "firstName": "Longlong",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cao Q",
+              "lastName": "Cao",
+              "firstName": "Qi",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang H",
+              "lastName": "Tang",
+              "firstName": "Honghai",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu S",
+              "lastName": "Hu",
+              "firstName": "Shaowei",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao K",
+              "lastName": "Gao",
+              "firstName": "Kaiyu",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Research and Development Department, Shanghai Refreshgene Therapeutics, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xun M",
+              "lastName": "Xun",
+              "firstName": "Mengzhao",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2122-4460"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang J",
+              "lastName": "Wang",
+              "firstName": "Jinghan",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Z",
+              "lastName": "Wang",
+              "firstName": "Zijing",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu B",
+              "lastName": "Zhu",
+              "firstName": "Biyun",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cui C",
+              "lastName": "Cui",
+              "firstName": "Chong",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China; State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China; Institutes of Biomedical Science, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao Z",
+              "lastName": "Gao",
+              "firstName": "Ziwen",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo L",
+              "lastName": "Guo",
+              "firstName": "Luo",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu S",
+              "lastName": "Yu",
+              "firstName": "Sha",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8487-974X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang L",
+              "lastName": "Jiang",
+              "firstName": "Luoying",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China; State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China; Institutes of Biomedical Science, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yin Y",
+              "lastName": "Yin",
+              "firstName": "Yanbo",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang J",
+              "lastName": "Zhang",
+              "firstName": "Jiajia",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China; State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China; Institutes of Biomedical Science, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen B",
+              "lastName": "Chen",
+              "firstName": "Bing",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang W",
+              "lastName": "Wang",
+              "firstName": "Wuqing",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chai R",
+              "lastName": "Chai",
+              "firstName": "Renjie",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "State Key Laboratory of Digital Medical Engineering, Southeast University, Nanjing, China; Department of Otolaryngology Head and Neck Surgery of Zhongda Hospital, Southeast University, Nanjing, China; Advanced Institute for Life and Health, Southeast University, Nanjing, China; Jiangsu Province High-Tech Key Laboratory for Bio-Medical Research, Southeast University, Nanjing, China; Co-Innovation Center of Neuroregeneration, Nantong University, Nantong, China; Department of Neurology of Aerospace Center Hospital, Beijing Institute of Technology, Beijing, China; School of Life Science, Beijing Institute of Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen ZY",
+              "lastName": "Chen",
+              "firstName": "Zheng-Yi",
+              "initials": "ZY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Harvard Medical School, Boston, MA, USA; Graduate Program in Speech and Hearing Bioscience and Technology and Program in Neuroscience, Harvard Medical School, Boston, MA, USA; Eaton-Peabody Laboratory, Massachusetts Eye and Ear, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li H",
+              "lastName": "Li",
+              "firstName": "Huawei",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China; State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China; Institutes of Biomedical Science, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shu Y",
+              "lastName": "Shu",
+              "firstName": "Yilai",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8893-434X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China; State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China; Institutes of Biomedical Science, Fudan University, Shanghai, China. Electronic address: yilai_shu@fudan.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8893-434X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8487-974X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2122-4460"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3600-1243"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10441",
+          "volume": "403",
+          "journalIssueId": 3775694,
+          "dateOfPublication": "2024 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Lancet",
+            "title": "Lancet (London, England)",
+            "essn": "1474-547X",
+            "issn": "0140-6736",
+            "nlmid": "2985213R",
+            "isoabbreviation": "Lancet"
+          },
+          "printPublicationDate": "2024-05-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "2317-2325",
+        "abstractText": "<h4>Background</h4>Autosomal recessive deafness 9, caused by mutations of the OTOF gene, is characterised by congenital or prelingual, severe-to-complete, bilateral hearing loss. However, no pharmacological treatment is currently available for congenital deafness. In this Article, we report the safety and efficacy of gene therapy with an adeno-associated virus (AAV) serotype 1 carrying a human OTOF transgene (AAV1-hOTOF) as a treatment for children with autosomal recessive deafness 9.<h4>Methods</h4>This single-arm, single-centre trial enrolled children (aged 1-18 years) with severe-to-complete hearing loss and confirmed mutations in both alleles of OTOF, and without bilateral cochlear implants. A single injection of AAV1-hOTOF was administered into the cochlea through the round window. The primary endpoint was dose-limiting toxicity at 6 weeks after injection. Auditory function and speech were assessed by appropriate auditory perception evaluation tools. All analyses were done according to the intention-to-treat principle. This trial is registered with Chinese Clinical Trial Registry, ChiCTR2200063181, and is ongoing.<h4>Findings</h4>Between Oct 19, 2022, and June 9, 2023, we screened 425 participants for eligibility and enrolled six children for AAV1-hOTOF gene therapy (one received a dose of 9 × 10<sup>11</sup> vector genomes [vg] and five received 1·5 × 10<sup>12</sup> vg). All participants completed follow-up visits up to week 26. No dose-limiting toxicity or serious adverse events occurred. In total, 48 adverse events were observed; 46 (96%) were grade 1-2 and two (4%) were grade 3 (decreased neutrophil count in one participant). Five children had hearing recovery, shown by a 40-57 dB reduction in the average auditory brainstem response (ABR) thresholds at 0·5-4·0 kHz. In the participant who received the 9 × 10<sup>11</sup> vg dose, the average ABR threshold was improved from greater than 95 dB at baseline to 68 dB at 4 weeks, 53 dB at 13 weeks, and 45 dB at 26 weeks. In those who received 1·5 × 10<sup>12</sup> AAV1-hOTOF, the average ABR thresholds changed from greater than 95 dB at baseline to 48 dB, 38 dB, 40 dB, and 55 dB in four children with hearing recovery at 26 weeks. Speech perception was improved in participants who had hearing recovery.<h4>Interpretation</h4>AAV1-hOTOF gene therapy is safe and efficacious as a novel treatment for children with autosomal recessive deafness 9.<h4>Funding</h4>National Natural Science Foundation of China, National Key R&D Program of China, Science and Technology Commission of Shanghai Municipality, and Shanghai Refreshgene Therapeutics.",
+        "affiliation": "ENT Institute and Otorhinolaryngology Department, Eye & ENT Hospital, Fudan University, Shanghai, China; NHC Key Laboratory of Hearing Medicine, Fudan University, Shanghai, China; State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China; Institutes of Biomedical Science, Fudan University, Shanghai, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "MEEI",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shanghai Municipal Health Commission",
+              "orderIn": 0
+            },
+            {
+              "agency": "Science and Technology Commission of Shanghai Municipality",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shanghai Municipal Education Commission",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fudan University",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Science and Technology of the People&apos;s Republic of China",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dependovirus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deafness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Vectors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genetic Therapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "OTOF protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/S0140-6736(23)02874-X"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "38796197",
+              "reference": "Lancet. 2024 May 25;403(10441):2267-2269. doi: 10.1016/S0140-6736(24)00496-3.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "38796209",
+              "reference": "Lancet. 2024 May 25;403(10441):2292. doi: 10.1016/S0140-6736(24)01040-7.",
+              "type": "Erratum in",
+              "orderIn": 2
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 278,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-05-25",
+        "dateOfCreation": "2024-01-27",
+        "dateOfRevision": "2025-04-04",
+        "electronicPublicationDate": "2024-01-24",
+        "firstPublicationDate": "2024-01-24",
+        "firstIndexDate": "2024-01-28",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

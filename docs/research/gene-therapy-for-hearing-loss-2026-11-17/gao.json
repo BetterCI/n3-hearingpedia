@@ -1,0 +1,835 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"Treatment of autosomal dominant hearing loss by in vivo delivery\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 3,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "29258297",
+        "source": "MED",
+        "pmid": "29258297",
+        "pmcid": "PMC5784267",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5784267"
+          ]
+        },
+        "doi": "10.1038/nature25164",
+        "title": "Treatment of autosomal dominant hearing loss by in vivo delivery of genome editing agents.",
+        "authorString": "Gao X, Tao Y, Lamas V, Huang M, Yeh WH, Pan B, Hu YJ, Hu JH, Thompson DB, Shu Y, Li Y, Wang H, Yang S, Xu Q, Polley DB, Liberman MC, Kong WJ, Holt JR, Chen ZY, Liu DR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gao X",
+              "lastName": "Gao",
+              "firstName": "Xue",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3213-9704"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Howard Hughes Medical Institute, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02141, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tao Y",
+              "lastName": "Tao",
+              "firstName": "Yong",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1351-2094"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  },
+                  {
+                    "affiliation": "Department of Otorhinolaryngology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lamas V",
+              "lastName": "Lamas",
+              "firstName": "Veronica",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang M",
+              "lastName": "Huang",
+              "firstName": "Mingqian",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yeh WH",
+              "lastName": "Yeh",
+              "firstName": "Wei-Hsi",
+              "initials": "WH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Howard Hughes Medical Institute, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02141, USA."
+                  },
+                  {
+                    "affiliation": "Program in Speech and Hearing Bioscience and Technology, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pan B",
+              "lastName": "Pan",
+              "firstName": "Bifeng",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departments of Otolaryngology and Neurology, F.M. Kirby Neurobiology Center Boston Children's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu YJ",
+              "lastName": "Hu",
+              "firstName": "Yu-Juan",
+              "initials": "YJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  },
+                  {
+                    "affiliation": "Department of Otorhinolaryngology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu JH",
+              "lastName": "Hu",
+              "firstName": "Johnny H",
+              "initials": "JH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Howard Hughes Medical Institute, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02141, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thompson DB",
+              "lastName": "Thompson",
+              "firstName": "David B",
+              "initials": "DB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2009-4975"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Howard Hughes Medical Institute, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shu Y",
+              "lastName": "Shu",
+              "firstName": "Yilai",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8893-434X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  },
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Eye and ENT Hospital, Shanghai Medical College, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yamin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biomedical Engineering, Tufts University, Medford, Massachusetts 02155, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang H",
+              "lastName": "Wang",
+              "firstName": "Hongyang",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  },
+                  {
+                    "affiliation": "Department of Otolaryngology & Head Neck Surgery, Key Lab of Hearing Impairment Science of Ministry of Education, Key Lab of Hearing Impairment Prevention and Treatment of Beijing City, Chinese PLA Medical School, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang S",
+              "lastName": "Yang",
+              "firstName": "Shiming",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology & Head Neck Surgery, Key Lab of Hearing Impairment Science of Ministry of Education, Key Lab of Hearing Impairment Prevention and Treatment of Beijing City, Chinese PLA Medical School, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu Q",
+              "lastName": "Xu",
+              "firstName": "Qiaobing",
+              "initials": "Q",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7323-7795"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biomedical Engineering, Tufts University, Medford, Massachusetts 02155, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Polley DB",
+              "lastName": "Polley",
+              "firstName": "Daniel B",
+              "initials": "DB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5120-2409"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liberman MC",
+              "lastName": "Liberman",
+              "firstName": "M Charles",
+              "initials": "MC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1973-1730"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kong WJ",
+              "lastName": "Kong",
+              "firstName": "Wei-Jia",
+              "initials": "WJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5410-2297"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otorhinolaryngology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei 430022, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Holt JR",
+              "lastName": "Holt",
+              "firstName": "Jeffrey R",
+              "initials": "JR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Departments of Otolaryngology and Neurology, F.M. Kirby Neurobiology Center Boston Children's Hospital and Harvard Medical School, Boston, Massachusetts 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen ZY",
+              "lastName": "Chen",
+              "firstName": "Zheng-Yi",
+              "initials": "ZY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology and Program in Neuroscience, Harvard Medical School and Eaton Peabody Laboratory, Massachusetts Eye and Ear Infirmary, Boston, Massachusetts 02114, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu DR",
+              "lastName": "Liu",
+              "firstName": "David R",
+              "initials": "DR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Howard Hughes Medical Institute, Harvard University, Cambridge, Massachusetts 02138, USA."
+                  },
+                  {
+                    "affiliation": "Broad Institute of MIT and Harvard, Cambridge, Massachusetts 02141, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5410-2297"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7323-7795"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8893-434X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1351-2094"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1973-1730"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5120-2409"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2009-4975"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3213-9704"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "recommended_reviews",
+            "related_data",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7687",
+          "volume": "553",
+          "journalIssueId": 2639666,
+          "dateOfPublication": "2018 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Nature",
+            "title": "Nature",
+            "essn": "1476-4687",
+            "issn": "0028-0836",
+            "nlmid": "0410462",
+            "isoabbreviation": "Nature"
+          },
+          "printPublicationDate": "2018-01-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "217-221",
+        "abstractText": "Although genetic factors contribute to almost half of all cases of deafness, treatment options for genetic deafness are limited. We developed a genome-editing approach to target a dominantly inherited form of genetic deafness. Here we show that cationic lipid-mediated in vivo delivery of Cas9-guide RNA complexes can ameliorate hearing loss in a mouse model of human genetic deafness. We designed and validated, both in vitro and in primary fibroblasts, genome editing agents that preferentially disrupt the dominant deafness-associated allele in the Tmc1 (transmembrane channel-like gene family 1) Beethoven (Bth) mouse model, even though the mutant Tmc1<sup>Bth</sup> allele differs from the wild-type allele at only a single base pair. Injection of Cas9-guide RNA-lipid complexes targeting the Tmc1<sup>Bth</sup> allele into the cochlea of neonatal Tmc1<sup>Bth/+</sup> mice substantially reduced progressive hearing loss. We observed higher hair cell survival rates and lower auditory brainstem response thresholds in injected ears than in uninjected ears or ears injected with control complexes that targeted an unrelated gene. Enhanced acoustic startle responses were observed among injected compared to uninjected Tmc1<sup>Bth/+</sup> mice. These findings suggest that protein-RNA complex delivery of target gene-disrupting agents in vivo is a potential strategy for the treatment of some types of autosomal-dominant hearing loss.",
+        "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC000188",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC006908",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC013521",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R35 GM118062",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIBIB NIH HHS",
+              "acronym": "EB",
+              "grantId": "R01 EB022376",
+              "orderIn": 0
+            },
+            {
+              "agency": "NICHD NIH HHS",
+              "acronym": "HD",
+              "grantId": "U54 HD090255",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "P30 DC005209",
+              "orderIn": 0
+            },
+            {
+              "agency": "Howard Hughes Medical Institute",
+              "acronym": "HHMI",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC009836",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cochlea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fibroblasts"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals, Newborn"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing Loss",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Liposomes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Acoustic Stimulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Threshold"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Base Sequence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Evoked Potentials, Auditory, Brain Stem"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genes, Dominant",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alleles"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hair Cells, Auditory",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Therapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "CRISPR-Cas Systems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "CRISPR-Associated Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reflex, Startle"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Editing",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Liposomes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "TMC1 protein, mouse",
+              "registryNumber": "0"
+            },
+            {
+              "name": "CRISPR-Associated Proteins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc5784267?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5784267"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5784267"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/nature25164"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5784267"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5784267?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "29293216",
+              "reference": "Nature. 2017 Dec 21;552(7685):300-301. doi: 10.1038/d41586-017-08722-3.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "29323325",
+              "reference": "Nature. 2018 Jan 11;553(7687):162-163. doi: 10.1038/d41586-017-08645-z.",
+              "type": "Comment in",
+              "orderIn": 2
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 427,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL",
+            "OMIM"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS922776",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "refseq",
+            "uniprot",
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2018-06-05",
+        "dateOfCreation": "2017-12-21",
+        "dateOfRevision": "2026-11-09",
+        "electronicPublicationDate": "2017-12-20",
+        "firstPublicationDate": "2017-12-20",
+        "firstIndexDate": "2017-12-20",
+        "fullTextReceivedDate": "2025-02-05",
+        "embargoDate": "2018-06-20",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

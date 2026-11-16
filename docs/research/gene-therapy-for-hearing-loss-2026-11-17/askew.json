@@ -1,0 +1,405 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"Tmc gene therapy restores auditory function\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 3,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "26157030",
+        "source": "MED",
+        "pmid": "26157030",
+        "pmcid": "PMC7298700",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7298700"
+          ]
+        },
+        "doi": "10.1126/scitranslmed.aab1996",
+        "title": "Tmc gene therapy restores auditory function in deaf mice.",
+        "authorString": "Askew C, Rochat C, Pan B, Asai Y, Ahmed H, Child E, Schneider BL, Aebischer P, Holt JR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Askew C",
+              "lastName": "Askew",
+              "firstName": "Charles",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6131-6602"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA. Neuroscience Graduate Program, University of Virginia, Charlottesville, VA 22908, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rochat C",
+              "lastName": "Rochat",
+              "firstName": "Cylia",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Brain Mind Institute, École Polytechnique Fédérale de Lausanne, Lausanne, CH-1015 Lausanne, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pan B",
+              "lastName": "Pan",
+              "firstName": "Bifeng",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Asai Y",
+              "lastName": "Asai",
+              "firstName": "Yukako",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ahmed H",
+              "lastName": "Ahmed",
+              "firstName": "Hena",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Child E",
+              "lastName": "Child",
+              "firstName": "Erin",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schneider BL",
+              "lastName": "Schneider",
+              "firstName": "Bernard L",
+              "initials": "BL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5485-8748"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Brain Mind Institute, École Polytechnique Fédérale de Lausanne, Lausanne, CH-1015 Lausanne, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Aebischer P",
+              "lastName": "Aebischer",
+              "firstName": "Patrick",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Brain Mind Institute, École Polytechnique Fédérale de Lausanne, Lausanne, CH-1015 Lausanne, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Holt JR",
+              "lastName": "Holt",
+              "firstName": "Jeffrey R",
+              "initials": "JR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA. jeffrey.holt@childrens.harvard.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5485-8748"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6131-6602"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data",
+            "recommended_reviews",
+            "related_data",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "295",
+          "volume": "7",
+          "journalIssueId": 2301614,
+          "dateOfPublication": "2015 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "Sci Transl Med",
+            "title": "Science translational medicine",
+            "essn": "1946-6242",
+            "issn": "1946-6234",
+            "nlmid": "101505086",
+            "isoabbreviation": "Sci Transl Med"
+          },
+          "printPublicationDate": "2015-07-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "295ra108",
+        "abstractText": "Genetic hearing loss accounts for up to 50% of prelingual deafness worldwide, yet there are no biologic treatments currently available. To investigate gene therapy as a potential biologic strategy for restoration of auditory function in patients with genetic hearing loss, we tested a gene augmentation approach in mouse models of genetic deafness. We focused on DFNB7/11 and DFNA36, which are autosomal recessive and dominant deafnesses, respectively, caused by mutations in transmembrane channel-like 1 (TMC1). Mice that carry targeted deletion of Tmc1 or a dominant Tmc1 point mutation, known as Beethoven, are good models for human DFNB7/11 and DFNA36. We screened several adeno-associated viral (AAV) serotypes and promoters and identified AAV2/1 and the chicken β-actin (Cba) promoter as an efficient combination for driving the expression of exogenous Tmc1 in inner hair cells in vivo. Exogenous Tmc1 or its closely related ortholog, Tmc2, were capable of restoring sensory transduction, auditory brainstem responses, and acoustic startle reflexes in otherwise deaf mice, suggesting that gene augmentation with Tmc1 or Tmc2 is well suited for further development as a strategy for restoration of auditory function in deaf patients who carry TMC1 mutations.",
+        "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA. Neuroscience Graduate Program, University of Virginia, Charlottesville, VA 22908, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NICHD NIH HHS",
+              "acronym": "HD",
+              "grantId": "P30 HD018655",
+              "orderIn": 0
+            },
+            {
+              "agency": "Program in Translational Neuroscience and Neuroengineering",
+              "orderIn": 0
+            },
+            {
+              "agency": "Kidz b Kidz Foundation",
+              "orderIn": 0
+            },
+            {
+              "agency": "Bertarelli Foundation",
+              "orderIn": 0
+            },
+            {
+              "agency": "NICHD NIH HHS",
+              "acronym": "HD",
+              "grantId": "P30 HD18655",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Mutant Strains"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dependovirus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deafness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hearing"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genetic Therapy"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "TMC1 protein, mouse",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://infoscience.epfl.ch/handle/20.500.14299/118946"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/scitranslmed.aab1996"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7298700"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7298700?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/scitranslmed.aab1996"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "26157029",
+              "reference": "Sci Transl Med. 2015 Jul 8;7(295):295fs28. doi: 10.1126/scitranslmed.aac7545",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 207,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1598907",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-05-10",
+        "dateOfCreation": "2015-07-10",
+        "dateOfRevision": "2020-06-19",
+        "firstPublicationDate": "2015-07-01",
+        "firstIndexDate": "2015-07-10",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

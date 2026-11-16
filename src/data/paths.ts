@@ -41,6 +41,8 @@ export const introductoryPaths = [
 ];
 
 export const learningPaths = [
+  { id:'gene-therapy',title:'从分子病因理解听觉修复与疗效评价',english:'Gene therapy and hearing outcomes',description:'从听力损失与内毛细胞突触进入基因治疗，再分别评价神经响应、行为听阈和言语功能。',slugs:['hearing-loss','inner-hair-cell','gene-therapy-for-hearing-loss','auditory-brainstem-response','pure-tone-audiometry','speech-intelligibility'] },
+
   { id:'acoustic-equations',title:'从声传播到时域与频域声学建模',english:'Wave equations and acoustic modelling',description:'从压力与质点运动进入守恒推导、初始条件和边界，再连接单频声场、模态、房间与器件。',slugs:['sound-waves-and-propagation','wave-equation','helmholtz-equation','room-acoustics','electroacoustic-transducer'] },
   { id:'microphone',title:'从声学接收到可解释的听觉实验输入',english:'Microphones and auditory measurements',description:'从换能原理进入声路、指向性与噪声，再用频谱、动态范围和校准连接录音、声学测量及言语评价。',slugs:['electroacoustic-transducer','microphone','spectrum-and-power-spectral-density','dynamic-range','audiometric-calibration','speech-intelligibility'] },
   { id:'electroacoustic-transducer',title:'从物理端口理解电声器件与听觉应用',english:'Electroacoustic transducers',description:'从声波和边界进入换能机制、阻抗及负载，再通过动态范围与校准理解实验刺激、助听器和实际言语评价。',slugs:['sound-waves-and-propagation','electroacoustic-transducer','dynamic-range','audiometric-calibration','pure-tone-audiometry','hearing-aid','speech-intelligibility'] },

@@ -1,0 +1,531 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"In vivo base editing restores sensory transduction\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 3,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32493795",
+        "source": "MED",
+        "pmid": "32493795",
+        "pmcid": "PMC8167884",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8167884"
+          ]
+        },
+        "doi": "10.1126/scitranslmed.aay9101",
+        "title": "In vivo base editing restores sensory transduction and transiently improves auditory function in a mouse model of recessive deafness.",
+        "authorString": "Yeh WH, Shubina-Oleinik O, Levy JM, Pan B, Newby GA, Wornow M, Burt R, Chen JC, Holt JR, Liu DR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yeh WH",
+              "lastName": "Yeh",
+              "firstName": "Wei-Hsi",
+              "initials": "WH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7507-8177"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of Harvard and MIT, Cambridge, MA 02142, USA."
+                  },
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138, USA."
+                  },
+                  {
+                    "affiliation": "Program in Speech and Hearing Bioscience and Technology, Harvard Medical School, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shubina-Oleinik O",
+              "lastName": "Shubina-Oleinik",
+              "firstName": "Olga",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2081-1700"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Levy JM",
+              "lastName": "Levy",
+              "firstName": "Jonathan M",
+              "initials": "JM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8061-7953"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of Harvard and MIT, Cambridge, MA 02142, USA."
+                  },
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pan B",
+              "lastName": "Pan",
+              "firstName": "Bifeng",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Newby GA",
+              "lastName": "Newby",
+              "firstName": "Gregory A",
+              "initials": "GA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7869-2615"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of Harvard and MIT, Cambridge, MA 02142, USA."
+                  },
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wornow M",
+              "lastName": "Wornow",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2215-6527"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of Harvard and MIT, Cambridge, MA 02142, USA."
+                  },
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Burt R",
+              "lastName": "Burt",
+              "firstName": "Rachel",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Murdoch Children's Research Institute, The Royal Children's Hospital, Parkville, VIC 3052, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen JC",
+              "lastName": "Chen",
+              "firstName": "Jonathan C",
+              "initials": "JC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4346-0501"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of Harvard and MIT, Cambridge, MA 02142, USA."
+                  },
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Holt JR",
+              "lastName": "Holt",
+              "firstName": "Jeffrey R",
+              "initials": "JR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7182-8011"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA. jeffrey.holt@childrens.harvard.edu drliu@fas.harvard.edu."
+                  },
+                  {
+                    "affiliation": "Department of Neurology, F.M. Kirby Neurobiology Center, Boston Children's Hospital and Harvard Medical School, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu DR",
+              "lastName": "Liu",
+              "firstName": "David R",
+              "initials": "DR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9943-7557"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of Harvard and MIT, Cambridge, MA 02142, USA. jeffrey.holt@childrens.harvard.edu drliu@fas.harvard.edu."
+                  },
+                  {
+                    "affiliation": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138, USA."
+                  },
+                  {
+                    "affiliation": "Howard Hughes Medical Institute, Harvard University, Cambridge, MA 02138, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7507-8177"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7869-2615"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7182-8011"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8061-7953"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9943-7557"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2081-1700"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2215-6527"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4346-0501"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "546",
+          "volume": "12",
+          "journalIssueId": 2963315,
+          "dateOfPublication": "2020 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Sci Transl Med",
+            "title": "Science translational medicine",
+            "essn": "1946-6242",
+            "issn": "1946-6234",
+            "nlmid": "101505086",
+            "isoabbreviation": "Sci Transl Med"
+          },
+          "printPublicationDate": "2020-06-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "eaay9101",
+        "abstractText": "Most genetic diseases arise from recessive point mutations that require correction, rather than disruption, of the pathogenic allele to benefit patients. Base editing has the potential to directly repair point mutations and provide therapeutic restoration of gene function. Mutations of transmembrane channel-like 1 gene (<i>TMC1</i>) can cause dominant or recessive deafness. We developed a base editing strategy to treat Baringo mice, which carry a recessive, loss-of-function point mutation (<i>c.A545G</i>; resulting in the substitution p.Y182C) in Tmc1 that causes deafness. <i>Tmc1</i> encodes a protein that forms mechanosensitive ion channels in sensory hair cells of the inner ear and is required for normal auditory function. We found that sensory hair cells of Baringo mice have a complete loss of auditory sensory transduction. To repair the mutation, we tested several optimized cytosine base editors (CBEmax variants) and guide RNAs in Baringo mouse embryonic fibroblasts. We packaged the most promising CBE, derived from an activation-induced cytidine deaminase (AID), into dual adeno-associated viruses (AAVs) using a split-intein delivery system. The dual AID-CBEmax AAVs were injected into the inner ears of Baringo mice at postnatal day 1. Injected mice showed up to 51% reversion of the <i>Tmc1 c.A545G</i> point mutation to wild-type sequence (<i>c.A545A</i>) in <i>Tmc1</i> transcripts. Repair of <i>Tmc1</i> in vivo restored inner hair cell sensory transduction and hair cell morphology and transiently rescued low-frequency hearing 4 weeks after injection. These findings provide a foundation for a potential one-time treatment for recessive hearing loss and support further development of base editing to correct pathogenic point mutations.",
+        "affiliation": "Merkin Institute of Transformative Technologies in Healthcare, Broad Institute of Harvard and MIT, Cambridge, MA 02142, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIH Office of the Director",
+              "grantId": "U01 AI142756",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC013521",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIH Office of the Director",
+              "grantId": "RM1 HG009490",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIH Office of the Director",
+              "grantId": "UG3 TR002636",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIH Office of the Director",
+              "grantId": "R01 DC013521",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIAID NIH HHS",
+              "acronym": "AI",
+              "grantId": "U01 AI142756",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R35 GM118062",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCATS NIH HHS",
+              "acronym": "TR",
+              "grantId": "UG3 TR002636",
+              "orderIn": 0
+            },
+            {
+              "agency": "Howard Hughes Medical Institute",
+              "acronym": "HHMI",
+              "orderIn": 0
+            },
+            {
+              "agency": "HHMI",
+              "grantId": "Liu investigatorship",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIH Office of the Director",
+              "grantId": "R35 GM118062",
+              "orderIn": 0
+            },
+            {
+              "agency": "NHGRI NIH HHS",
+              "acronym": "HG",
+              "grantId": "RM1 HG009490",
+              "orderIn": 0
+            },
+            {
+              "agency": "NICHD NIH HHS",
+              "acronym": "HD",
+              "grantId": "U54 HD090255",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fibroblasts"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Deafness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Membrane Proteins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hearing",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hair Cells, Auditory"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "TMC1 protein, mouse",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8167884"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/scitranslmed.aay9101"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8167884"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8167884?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/scitranslmed.aay9101"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "32514099",
+              "reference": "Nat Rev Drug Discov. 2020 Jul;19(7):443. doi: 10.1038/d41573-020-00106-z",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 165,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1701929",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject"
+          ]
+        },
+        "dateOfCompletion": "2021-06-23",
+        "dateOfCreation": "2020-06-05",
+        "dateOfRevision": "2021-09-14",
+        "firstPublicationDate": "2020-06-01",
+        "firstIndexDate": "2020-06-05",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

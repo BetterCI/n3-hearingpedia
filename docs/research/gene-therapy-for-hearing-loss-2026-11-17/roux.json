@@ -1,0 +1,547 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1016/j.cell.2006.08.040",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 3,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "17055430",
+        "source": "MED",
+        "pmid": "17055430",
+        "doi": "10.1016/j.cell.2006.08.040",
+        "title": "Otoferlin, defective in a human deafness form, is essential for exocytosis at the auditory ribbon synapse.",
+        "authorString": "Roux I, Safieddine S, Nouvian R, Grati M, Simmler MC, Bahloul A, Perfettini I, Le Gall M, Rostaing P, Hamard G, Triller A, Avan P, Moser T, Petit C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Roux I",
+              "lastName": "Roux",
+              "firstName": "Isabelle",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7527-7520"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Inserm UMRS587, Unité de Génétique des Déficits Sensoriels, Collège de France, Institut Pasteur, 25 rue du Dr Roux, 75015 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Safieddine S",
+              "lastName": "Safieddine",
+              "firstName": "Saaid",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6159-0572"
+              }
+            },
+            {
+              "fullName": "Nouvian R",
+              "lastName": "Nouvian",
+              "firstName": "Régis",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0901-4666"
+              }
+            },
+            {
+              "fullName": "Grati M",
+              "lastName": "Grati",
+              "firstName": "M'hamed",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5149-3245"
+              }
+            },
+            {
+              "fullName": "Simmler MC",
+              "lastName": "Simmler",
+              "firstName": "Marie-Christine",
+              "initials": "MC"
+            },
+            {
+              "fullName": "Bahloul A",
+              "lastName": "Bahloul",
+              "firstName": "Amel",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7042-4616"
+              }
+            },
+            {
+              "fullName": "Perfettini I",
+              "lastName": "Perfettini",
+              "firstName": "Isabelle",
+              "initials": "I"
+            },
+            {
+              "fullName": "Le Gall M",
+              "lastName": "Le Gall",
+              "firstName": "Morgane",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4935-7065"
+              }
+            },
+            {
+              "fullName": "Rostaing P",
+              "lastName": "Rostaing",
+              "firstName": "Philippe",
+              "initials": "P"
+            },
+            {
+              "fullName": "Hamard G",
+              "lastName": "Hamard",
+              "firstName": "Ghislaine",
+              "initials": "G"
+            },
+            {
+              "fullName": "Triller A",
+              "lastName": "Triller",
+              "firstName": "Antoine",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7530-1233"
+              }
+            },
+            {
+              "fullName": "Avan P",
+              "lastName": "Avan",
+              "firstName": "Paul",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1054-1479"
+              }
+            },
+            {
+              "fullName": "Moser T",
+              "lastName": "Moser",
+              "firstName": "Tobias",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7145-0533"
+              }
+            },
+            {
+              "fullName": "Petit C",
+              "lastName": "Petit",
+              "firstName": "Christine",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9069-002X"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5149-3245"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7042-4616"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7145-0533"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7527-7520"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0901-4666"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4935-7065"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6159-0572"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7530-1233"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9069-002X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1054-1479"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "recommended_reviews",
+            "related_data",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "127",
+          "journalIssueId": 1357408,
+          "dateOfPublication": "2006 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2006,
+          "journal": {
+            "medlineAbbreviation": "Cell",
+            "title": "Cell",
+            "essn": "1097-4172",
+            "issn": "0092-8674",
+            "isoabbreviation": "Cell",
+            "nlmid": "0413066"
+          },
+          "printPublicationDate": "2006-10-01"
+        },
+        "pubYear": "2006",
+        "pageInfo": "277-289",
+        "abstractText": "The auditory inner hair cell (IHC) ribbon synapse operates with an exceptional temporal precision and maintains a high level of neurotransmitter release. However, the molecular mechanisms underlying IHC synaptic exocytosis are largely unknown. We studied otoferlin, a predicted C2-domain transmembrane protein, which is defective in a recessive form of human deafness. We show that otoferlin expression in the hair cells correlates with afferent synaptogenesis and find that otoferlin localizes to ribbon-associated synaptic vesicles. Otoferlin binds Ca(2+) and displays Ca(2+)-dependent interactions with the SNARE proteins syntaxin1 and SNAP25. Otoferlin deficient mice (Otof(-/-)) are profoundly deaf. Exocytosis in Otof(-/-) IHCs is almost completely abolished, despite normal ribbon synapse morphogenesis and Ca(2+) current. Thus, otoferlin is essential for a late step of synaptic vesicle exocytosis and may act as the major Ca(2+) sensor triggering membrane fusion at the IHC ribbon synapse.",
+        "affiliation": "Inserm UMRS587, Unité de Génétique des Déficits Sensoriels, Collège de France, Institut Pasteur, 25 rue du Dr Roux, 75015 Paris, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Auditory Pathways",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Synapses",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Synaptic Vesicles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cochlea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Knockout"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deafness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calcium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DF",
+                    "qualifierName": "deficiency"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Exocytosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Fusion"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Synaptic Transmission"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Evoked Potentials, Auditory, Brain Stem"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Synaptosomal-Associated Protein 25",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Syntaxin 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hair Cells, Auditory, Inner",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "synaptosomal-associated protein 25",
+              "registryNumber": "0"
+            },
+            {
+              "name": "syntaxin 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "OTOF protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Calcium",
+              "registryNumber": "SY7Q814VUP"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "http://www.cell.com/article/S0092867406012189/pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.cell.2006.08.040"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1016/j.cell.2006.08.040"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.cell.2006.08.040"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "17055427",
+              "reference": "Cell. 2006 Oct 20;127(2):258-60. doi: 10.1016/j.cell.2006.10.010",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 550,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "OMIM",
+            "UNIPROT"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2006-12-04",
+        "dateOfCreation": "2006-10-24",
+        "dateOfRevision": "2022-03-30",
+        "firstPublicationDate": "2006-10-01",
+        "firstIndexDate": "2008-01-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

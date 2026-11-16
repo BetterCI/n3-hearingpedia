@@ -1,0 +1,1064 @@
+{
+  "version": "6.9",
+  "hitCount": 8,
+  "nextCursorMark": "AoIIQEC1Xyg0OTc2NjI3NQ==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Atoh1%22+AND+TITLE%3A%22Gfi1%22+AND+TITLE%3A%22Pou4f3%22&cursorMark=AoIIQEC1Xyg0OTc2NjI3NQ%3D%3D&resultType=core&pageSize=3&format=json",
+  "request": {
+    "queryString": "TITLE:\"Atoh1\" AND TITLE:\"Gfi1\" AND TITLE:\"Pou4f3\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 3,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39884380",
+        "source": "MED",
+        "pmid": "39884380",
+        "doi": "10.1016/j.neulet.2025.138136",
+        "title": "Co-overexpression of Atoh1, Pou4f3, and Gfi1 enhances the transdifferentiation of supporting cells into hair cells in the neonatal mouse utricle.",
+        "authorString": "Hao MY, Su W, Xu JY, Chen ZR, He L, Guo JY, Liu K, Gong SS, Wang GP.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hao MY",
+              "lastName": "Hao",
+              "firstName": "Ming-Yu",
+              "initials": "MY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Su W",
+              "lastName": "Su",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu JY",
+              "lastName": "Xu",
+              "firstName": "Jun-Yi",
+              "initials": "JY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen ZR",
+              "lastName": "Chen",
+              "firstName": "Zhong-Rui",
+              "initials": "ZR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He L",
+              "lastName": "He",
+              "firstName": "Lu",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo JY",
+              "lastName": "Guo",
+              "firstName": "Jing-Ying",
+              "initials": "JY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu K",
+              "lastName": "Liu",
+              "firstName": "Ke",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gong SS",
+              "lastName": "Gong",
+              "firstName": "Shu-Sheng",
+              "initials": "SS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China. Electronic address: gongss@ccmu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang GP",
+              "lastName": "Wang",
+              "firstName": "Guo-Peng",
+              "initials": "GP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China. Electronic address: guopengwang@ccmu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "849",
+          "journalIssueId": 3898176,
+          "dateOfPublication": "2025 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Neurosci Lett",
+            "title": "Neuroscience letters",
+            "essn": "1872-7972",
+            "issn": "0304-3940",
+            "nlmid": "7600130",
+            "isoabbreviation": "Neurosci Lett"
+          },
+          "printPublicationDate": "2025-02-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "138136",
+        "abstractText": "Hair cells (HCs) are essential for vestibular function, and irreversible damage to vestibular HCs in mammals is closely associated with vertigo. The stimulation of HC regeneration through exogenous gene delivery represents an ideal therapeutic approach for restoring vestibular function. Overexpression of Atoh1, Pou4f3, and Gfi1 (collectively referred to as APG) has demonstrated efficacy in promoting HC regeneration in the cochlea. However, the effects of APG on vestibular HC regeneration remain unclear. Here, we used adeno-associated virus-inner ear (AAVie) as a carrier to deliver APG to the utricles of neonatal mice and assessed the morphology and number of HCs and supporting cells (SCs) by immunofluorescence staining. GLAST<sup>CreERT</sup>;Rosa26<sup>tdTomato</sup> mouse line was used to trace SCs. The results showed that APG overexpression resulted in substantial SC transdifferentiation into HCs in the neonatal mouse utricle. Furthermore, APG overexpression maintained SC number by facilitating SC proliferation. Continuous Atoh1 overexpression caused stereocilia damage, which was alleviated by APG overexpression. This study highlights the potential of regulating multiple transcription factors to promote vestibular HC regeneration.",
+        "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University, Beijing, China; Clinical Center for Hearing Loss, Capital Medical University, Beijing, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Beijing Hospitals Authority",
+              "grantId": "QML20230121",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82371139",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82171131",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82371138",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China",
+              "grantId": "82101210",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Labyrinth Supporting Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Saccule and Utricle",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals, Newborn"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "DNA-Binding Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Homeodomain Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Transcription Factors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Transcription Factor Brn-3C",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hair Cells, Auditory",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cell Transdifferentiation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Basic Helix-Loop-Helix Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Gene therapy",
+            "Regeneration",
+            "Hair cell",
+            "Vestibular",
+            "Atoh1"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Gfi1 protein, mouse",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pou4f3 protein, mouse",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA-Binding Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Transcription Factors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Homeodomain Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "basic helix-loop-helix proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Atoh1 protein, mouse",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Transcription Factor Brn-3C",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.neulet.2025.138136"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2025-05-04",
+        "dateOfCreation": "2025-01-30",
+        "dateOfRevision": "2026-11-06",
+        "electronicPublicationDate": "2025-01-28",
+        "firstPublicationDate": "2025-01-28",
+        "firstIndexDate": "2025-01-31",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39411090",
+        "source": "MED",
+        "pmid": "39411090",
+        "pmcid": "PMC11477985",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11477985"
+          ]
+        },
+        "doi": "10.1093/pnasnexus/pgae445",
+        "title": "Reprogramming with &lt;i&gt;Atoh1&lt;/i&gt;, &lt;i&gt;Gfi1&lt;/i&gt;, and &lt;i&gt;Pou4f3&lt;/i&gt; promotes hair cell regeneration in the adult organ of Corti.",
+        "authorString": "McGovern MM, Ghosh S, Dupuis C, Walters BJ, Groves AK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "McGovern MM",
+              "lastName": "McGovern",
+              "firstName": "Melissa M",
+              "initials": "MM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2254-8782"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ghosh S",
+              "lastName": "Ghosh",
+              "firstName": "Sumana",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of Mississippi Medical Center, Jackson, MS 39216, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dupuis C",
+              "lastName": "Dupuis",
+              "firstName": "Colleen",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA."
+                  },
+                  {
+                    "affiliation": "Program in Genetics and Genomics, Baylor College of Medicine, Houston, TX 77030, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Walters BJ",
+              "lastName": "Walters",
+              "firstName": "Bradley J",
+              "initials": "BJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of Mississippi Medical Center, Jackson, MS 39216, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Groves AK",
+              "lastName": "Groves",
+              "firstName": "Andrew K",
+              "initials": "AK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0784-7998"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030, USA."
+                  },
+                  {
+                    "affiliation": "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA."
+                  },
+                  {
+                    "affiliation": "Program in Genetics and Genomics, Baylor College of Medicine, Houston, TX 77030, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0784-7998"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2254-8782"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "3",
+          "journalIssueId": 3835451,
+          "dateOfPublication": "2024 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "PNAS Nexus",
+            "title": "PNAS nexus",
+            "essn": "2752-6542",
+            "issn": "2752-6542",
+            "nlmid": "9918367777906676",
+            "isoabbreviation": "PNAS Nexus"
+          },
+          "printPublicationDate": "2024-10-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "pgae445",
+        "abstractText": "Cochlear hair cells can be killed by loud noises, ototoxic drugs, and natural aging. Once lost, mammalian hair cells do not naturally regenerate, leading to permanent hearing loss. Since the mammalian cochlea lacks any intrinsic ability to regenerate, genetic reprogramming of cochlear supporting cells that lie adjacent to hair cells is a potential option for hearing restoration therapies. We targeted cochlear supporting cells with three hair cell transcription factors: <i>Atoh1</i>, or <i>Atoh1</i> + <i>Gfi1</i>, or <i>Atoh1</i> + <i>Gfi1</i> + <i>Pou4f3</i> and found that 1- and 2-factor reprogramming is not sufficient to reprogram adult supporting cells into hair cells. However, activation of all three hair cell transcription factors reprogrammed some adult supporting cells into hair cell-like cells. We found that killing endogenous hair cells significantly improved the ability of supporting cells to be reprogrammed and regenerated numerous hair cell-like cells throughout the length of the cochlea. These regenerated hair cell-like cells expressed myosin VIIa and parvalbumin, as well as the mature outer hair cell protein prestin, were innervated, expressed proteins associated with ribbon synapses, and formed rudimentary stereociliary bundles. Finally, we demonstrate that supporting cells remained responsive to transcription factor reprogramming for at least 6 weeks after hair cell damage, suggesting that hair cell reprogramming may be effective in the chronically deafened cochlea.",
+        "affiliation": "Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC014832",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hair cells",
+            "Reprogramming",
+            "inner ear"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1093/pnasnexus/pgae445"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/pnasnexus/pgae445"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11477985"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11477985?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-10-16",
+        "dateOfRevision": "2026-03-07",
+        "electronicPublicationDate": "2024-10-04",
+        "firstPublicationDate": "2024-10-04",
+        "firstIndexDate": "2024-10-16",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "38103445",
+        "source": "MED",
+        "pmid": "38103445",
+        "pmcid": "PMC11223172",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11223172"
+          ]
+        },
+        "doi": "10.1016/j.heares.2023.108916",
+        "title": "Combinatorial Atoh1, Gfi1, Pou4f3, and Six1 gene transfer induces hair cell regeneration in the flat epithelium of mature guinea pigs.",
+        "authorString": "Liu Y, Yang L, Singh S, Beyer LA, Prieskorn DM, Swiderski DL, Groves AK, Raphael Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Liu Y",
+              "lastName": "Liu",
+              "firstName": "Yujie",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kresge Hearing Research Institute, Department of Otolaryngology-Head and Neck Surgery, University of Michigan, Ann Arbor, MI, USA; Department of Otolaryngology-Head and Neck Surgery, Beijing Tongren Hospital, Capital Medical University, Ministry of Education Key Laboratory of Otolaryngology-Head and Neck Surgery, Beijing 100730, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Lin",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kresge Hearing Research Institute, Department of Otolaryngology-Head and Neck Surgery, University of Michigan, Ann Arbor, MI, USA; Department of Otolaryngology-Head and Neck Surgery, Beijing Tiantan Hospital, Capital Medical University, Beijing 100070, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh S",
+              "lastName": "Singh",
+              "firstName": "Sunita",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neuroscience, Baylor College of Medicine, Houston, Texas, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Beyer LA",
+              "lastName": "Beyer",
+              "firstName": "Lisa A",
+              "initials": "LA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0445-9102"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kresge Hearing Research Institute, Department of Otolaryngology-Head and Neck Surgery, University of Michigan, Ann Arbor, MI, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Prieskorn DM",
+              "lastName": "Prieskorn",
+              "firstName": "Diane M",
+              "initials": "DM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kresge Hearing Research Institute, Department of Otolaryngology-Head and Neck Surgery, University of Michigan, Ann Arbor, MI, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Swiderski DL",
+              "lastName": "Swiderski",
+              "firstName": "Donald L",
+              "initials": "DL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kresge Hearing Research Institute, Department of Otolaryngology-Head and Neck Surgery, University of Michigan, Ann Arbor, MI, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Groves AK",
+              "lastName": "Groves",
+              "firstName": "Andrew K",
+              "initials": "AK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neuroscience, Baylor College of Medicine, Houston, Texas, USA; Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, Texas, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Raphael Y",
+              "lastName": "Raphael",
+              "firstName": "Yehoash",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kresge Hearing Research Institute, Department of Otolaryngology-Head and Neck Surgery, University of Michigan, Ann Arbor, MI, USA. Electronic address: yoash@umich.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0445-9102"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "441",
+          "journalIssueId": 3685791,
+          "dateOfPublication": "2024 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Hear Res",
+            "title": "Hearing research",
+            "essn": "1878-5891",
+            "issn": "0378-5955",
+            "nlmid": "7900445",
+            "isoabbreviation": "Hear Res"
+          },
+          "printPublicationDate": "2024-01-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "108916",
+        "abstractText": "Flat epithelium (FE) is a condition characterized by the loss of both hair cells (HCs) and supporting cells and the transformation of the organ of Corti into a simple flat or cuboidal epithelium, which can occur after severe cochlear insults. The transcription factors Gfi1, Atoh1, Pou4f3, and Six1 (GAPS) play key roles in HC differentiation and survival in normal ears. Previous work using a single transcription factor, Atoh1, to induce HC regeneration in mature ears in vivo usually produced very few cells and failed to produce HCs in severely damaged organs of Corti, especially those with FE. Studies in vitro suggested combinations of transcription factors may be more effective than any single factor, thus the current study aims to examine the effect of co-overexpressing GAPS genes in deafened mature guinea pig cochleae with FE. Deafening was achieved through the infusion of neomycin into the perilymph, leading to the formation of FE and substantial degeneration of nerve fibers. Seven days post neomycin treatment, adenovirus vectors carrying GAPS were injected into the scala media and successfully expressed in the FE. One or two months following GAPS inoculation, cells expressing Myosin VIIa were observed in regions under the FE (located at the scala tympani side of the basilar membrane), rather than within the FE. The number of cells, which we define as induced HCs (iHCs), was not significantly different between one and two months, but the larger N at two months made it more apparent that there were significantly more iHCs in GAPS treated animals than in controls. Additionally, qualitative observations indicated that ears with GAPS gene expression in the FE had more nerve fibers than FE without the treatment. In summary, our results showed that co-overexpression of GAPS enhances the potential for HC regeneration in a severe lesion model of FE.",
+        "affiliation": "Kresge Hearing Research Institute, Department of Otolaryngology-Head and Neck Surgery, University of Michigan, Ann Arbor, MI, USA; Department of Otolaryngology-Head and Neck Surgery, Beijing Tongren Hospital, Capital Medical University, Ministry of Education Key Laboratory of Otolaryngology-Head and Neck Surgery, Beijing 100730, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIDCD NIH HHS",
+              "acronym": "DC",
+              "grantId": "R01 DC014832",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cochlea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Epithelium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Guinea Pigs"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neomycin"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Transcription Factors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hair Cells, Auditory",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Basic Helix-Loop-Helix Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cochlea",
+            "Gene transfer",
+            "Adenovirus",
+            "Hair cell regeneration",
+            "Deafness",
+            "Flat Epithelium"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Transcription Factors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "basic helix-loop-helix proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Neomycin",
+              "registryNumber": "I16QD7X297"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.heares.2023.108916"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11223172"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11223172?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.heares.2023.108916"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS2003433",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2023-12-27",
+        "dateOfCreation": "2023-12-16",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2023-11-17",
+        "firstPublicationDate": "2023-11-17",
+        "firstIndexDate": "2023-12-22",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

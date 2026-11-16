@@ -1,0 +1,988 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1038/s41591-026-04505-4",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 3,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42362868",
+        "source": "MED",
+        "pmid": "42362868",
+        "doi": "10.1038/s41591-026-04505-4",
+        "title": "Re-administration of AAV-mediated gene therapy for OTOF-related deafness: a single-arm trial.",
+        "authorString": "Fan X, Zhang L, Gao Z, Han L, Yang P, Wang D, Yu H, Cao Q, Jiang L, Chen X, Zhang X, Cheng X, Chen L, Zhong J, Lv J, Wang W, Dai L, Zhou Z, Shi L, Chen Y, Zhu B, Hu S, Tang H, Chen ZY, Wang W, Chen B, Li H, Shu Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Fan X",
+              "lastName": "Fan",
+              "firstName": "Xintai",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang L",
+              "lastName": "Zhang",
+              "firstName": "Longlong",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao Z",
+              "lastName": "Gao",
+              "firstName": "Ziwen",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Han L",
+              "lastName": "Han",
+              "firstName": "Lei",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang P",
+              "lastName": "Yang",
+              "firstName": "Ping",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang D",
+              "lastName": "Wang",
+              "firstName": "Daqi",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu H",
+              "lastName": "Yu",
+              "firstName": "Hongbing",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-0892-7148"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Affiliated Hospital of Jiujiang University, Jiujiang, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cao Q",
+              "lastName": "Cao",
+              "firstName": "Qi",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang L",
+              "lastName": "Jiang",
+              "firstName": "Luoying",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen X",
+              "lastName": "Chen",
+              "firstName": "Xiaoyun",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8141-4592"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang X",
+              "lastName": "Zhang",
+              "firstName": "Xin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng X",
+              "lastName": "Cheng",
+              "firstName": "Xiaoting",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen L",
+              "lastName": "Chen",
+              "firstName": "Liheng",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhong J",
+              "lastName": "Zhong",
+              "firstName": "Jiake",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0002-0915-1836"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lv J",
+              "lastName": "Lv",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang W",
+              "lastName": "Wang",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dai L",
+              "lastName": "Dai",
+              "firstName": "Liling",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "College of Special Education and Rehabilitation, Binzhou Medical University, Yantai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou Z",
+              "lastName": "Zhou",
+              "firstName": "Ziyi",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Second Xiangya Hospital, Central South University, Changsha, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi L",
+              "lastName": "Shi",
+              "firstName": "Linjie",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen Y",
+              "lastName": "Chen",
+              "firstName": "Yuxin",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhu B",
+              "lastName": "Zhu",
+              "firstName": "Biyun",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-0608-5262"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hu S",
+              "lastName": "Hu",
+              "firstName": "Shaowei",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang H",
+              "lastName": "Tang",
+              "firstName": "Honghai",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen ZY",
+              "lastName": "Chen",
+              "firstName": "Zheng-Yi",
+              "initials": "ZY",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1452-4193"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Eaton-Peabody Laboratories, Department of Otolaryngology-Head and Neck Surgery, Mass Eye & Ear/Harvard Medical School, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang W",
+              "lastName": "Wang",
+              "firstName": "Wuqing",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chen B",
+              "lastName": "Chen",
+              "firstName": "Bing",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0988-9534"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China. bingchen@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China. bingchen@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China. bingchen@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China. bingchen@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China. bingchen@fudan.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li H",
+              "lastName": "Li",
+              "firstName": "Huawei",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5338-6910"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China. hwli@shmu.edu.cn."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China. hwli@shmu.edu.cn."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China. hwli@shmu.edu.cn."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China. hwli@shmu.edu.cn."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China. hwli@shmu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shu Y",
+              "lastName": "Shu",
+              "firstName": "Yilai",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8893-434X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China. yilai_shu@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "Shanghai Key Laboratory of Gene Editing and Cell Therapy for Rare Diseases, Fudan University, Shanghai, China. yilai_shu@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Brain Function and Disorders and MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China. yilai_shu@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "Institutes of Biomedical Sciences, Fudan University, Shanghai, China. yilai_shu@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "NHC Key Laboratory of Hearing Medicine, Shanghai, China. yilai_shu@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "Institute of Medical Genetics and Genomics, Fudan University, Shanghai, China. yilai_shu@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "Shanghai Academy of Natural Sciences (SANS), Shanghai, China. yilai_shu@fudan.edu.cn."
+                  },
+                  {
+                    "affiliation": "FuRong Laboratory, Changsha, China. yilai_shu@fudan.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5338-6910"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8893-434X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0988-9534"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1452-4193"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8141-4592"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-0892-7148"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0002-0915-1836"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-0608-5262"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "32",
+          "journalIssueId": 4243425,
+          "dateOfPublication": "2026 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Nat Med",
+            "title": "Nature medicine",
+            "essn": "1546-170X",
+            "issn": "1078-8956",
+            "nlmid": "9502015",
+            "isoabbreviation": "Nat Med"
+          },
+          "printPublicationDate": "2026-08-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "2846-2856",
+        "abstractText": "Re-administration of adeno-associated virus (AAV)-mediated gene therapy remains challenging due to neutralizing antibodies (NAbs) induced by the initial dose. We previously conducted a single-arm trial showing that single-dose administration of AAV-hOTOF gene therapy in individuals with OTOF-related deafness is safe and leads to hearing improvements. Here we initially demonstrate that AAV1-hOTOF re-administration to the contralateral ear in Otof<sup>-/-</sup> mice with peak serum NAb titers successfully rescued hearing with limited immune activation. After a protocol amendment of our trial, four patients (aged 2.2-3.4 years) with pre-existing NAbs (titers 1:135-1:3,645), who had previously received a single dose of the gene therapy, were enrolled to receive a second dose in the contralateral ear, as part of the ongoing trial, with a follow-up ranging from 26 weeks to 52 weeks. The primary endpoint was the occurrence of dose-limiting toxicities at 6 weeks and secondary endpoints included safety and auditory function. No dose-limiting toxicity occurred within 6 weeks. In the secondary outcomes, the 26-week average auditory brainstem response threshold in the second treated ear improved from >95 dB at baseline to 43 dB, 63 dB, 80 dB and 53 dB in patients 1-4, respectively. Safety assessment showed that all adverse events were grade 1-2, except one grade 3 decreased neutrophil count; no serious adverse events occurred. These data provide preliminary insights on the safety and efficacy of re-administration of AAV1-hOTOF gene therapy in patients with congenital deafness. Longer follow-up and larger cohorts are needed to establish the safety and efficacy of repeated administration of gene therapies. Trial registration no.: ChiCTR2200063181 .",
+        "affiliation": "ENT Institute and Department of Otorhinolaryngology, Eye & ENT Hospital, Fudan University, Shanghai, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Science and Technology Commission of Shanghai Municipality (Shanghai Municipal Science and Technology Commission)",
+              "grantId": "23J31900100",
+              "orderIn": 0
+            },
+            {
+              "agency": "Shanghai Municipal Education Commission",
+              "grantId": "2023ZKZD12",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "82192864",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "82521001",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "82225014",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dependovirus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Deafness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Vectors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Neutralizing",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genetic Therapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Therapy Agents"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antibodies, Neutralizing",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41591-026-04505-4"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2026-08-14",
+        "dateOfCreation": "2026-06-26",
+        "dateOfRevision": "2026-11-05",
+        "electronicPublicationDate": "2026-06-26",
+        "firstPublicationDate": "2026-06-26",
+        "firstIndexDate": "2026-06-27",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"Dual AAV-mediated gene therapy restores hearing in a DFNB9 mouse model\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 3,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30782832",
+        "source": "MED",
+        "pmid": "30782832",
+        "pmcid": "PMC6410774",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6410774"
+          ]
+        },
+        "doi": "10.1073/pnas.1817537116",
+        "title": "Dual AAV-mediated gene therapy restores hearing in a DFNB9 mouse model.",
+        "authorString": "Akil O, Dyka F, Calvet C, Emptoz A, Lahlou G, Nouaille S, Boutet de Monvel J, Hardelin JP, Hauswirth WW, Avan P, Petit C, Safieddine S, Lustig LR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Akil O",
+              "lastName": "Akil",
+              "firstName": "Omar",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6148-1985"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California, San Francisco, CA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dyka F",
+              "lastName": "Dyka",
+              "firstName": "Frank",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology, College of Medicine, University of Florida, Gainesville, FL 32610."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Calvet C",
+              "lastName": "Calvet",
+              "firstName": "Charlotte",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6163-9807"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genetics and Physiology of Hearing Laboratory, Institut Pasteur, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Inserm Unité Mixte de Recherche en Santé 1120, Institut National de la Santé et de la Recherche Médicale, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Complexité du Vivant, Sorbonne Universités, F-75005 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Emptoz A",
+              "lastName": "Emptoz",
+              "firstName": "Alice",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genetics and Physiology of Hearing Laboratory, Institut Pasteur, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Inserm Unité Mixte de Recherche en Santé 1120, Institut National de la Santé et de la Recherche Médicale, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Complexité du Vivant, Sorbonne Universités, F-75005 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lahlou G",
+              "lastName": "Lahlou",
+              "firstName": "Ghizlene",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genetics and Physiology of Hearing Laboratory, Institut Pasteur, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Inserm Unité Mixte de Recherche en Santé 1120, Institut National de la Santé et de la Recherche Médicale, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Complexité du Vivant, Sorbonne Universités, F-75005 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nouaille S",
+              "lastName": "Nouaille",
+              "firstName": "Sylvie",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genetics and Physiology of Hearing Laboratory, Institut Pasteur, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Inserm Unité Mixte de Recherche en Santé 1120, Institut National de la Santé et de la Recherche Médicale, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Complexité du Vivant, Sorbonne Universités, F-75005 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boutet de Monvel J",
+              "lastName": "Boutet de Monvel",
+              "firstName": "Jacques",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genetics and Physiology of Hearing Laboratory, Institut Pasteur, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Inserm Unité Mixte de Recherche en Santé 1120, Institut National de la Santé et de la Recherche Médicale, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Complexité du Vivant, Sorbonne Universités, F-75005 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hardelin JP",
+              "lastName": "Hardelin",
+              "firstName": "Jean-Pierre",
+              "initials": "JP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genetics and Physiology of Hearing Laboratory, Institut Pasteur, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Inserm Unité Mixte de Recherche en Santé 1120, Institut National de la Santé et de la Recherche Médicale, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Complexité du Vivant, Sorbonne Universités, F-75005 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hauswirth WW",
+              "lastName": "Hauswirth",
+              "firstName": "William W",
+              "initials": "WW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3244-4947"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Ophthalmology, College of Medicine, University of Florida, Gainesville, FL 32610."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Avan P",
+              "lastName": "Avan",
+              "firstName": "Paul",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratoire de Biophysique Sensorielle, Faculté de Médecine, Centre Jean Perrin, Université d'Auvergne, 63000 Clermont-Ferrand, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Petit C",
+              "lastName": "Petit",
+              "firstName": "Christine",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9069-002X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genetics and Physiology of Hearing Laboratory, Institut Pasteur, 75015 Paris, France; christine.petit@pasteur.fr saaid.safieddine@pasteur.fr."
+                  },
+                  {
+                    "affiliation": "Inserm Unité Mixte de Recherche en Santé 1120, Institut National de la Santé et de la Recherche Médicale, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Complexité du Vivant, Sorbonne Universités, F-75005 Paris, France."
+                  },
+                  {
+                    "affiliation": "Collège de France, 7505 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Safieddine S",
+              "lastName": "Safieddine",
+              "firstName": "Saaid",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6159-0572"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genetics and Physiology of Hearing Laboratory, Institut Pasteur, 75015 Paris, France; christine.petit@pasteur.fr saaid.safieddine@pasteur.fr."
+                  },
+                  {
+                    "affiliation": "Inserm Unité Mixte de Recherche en Santé 1120, Institut National de la Santé et de la Recherche Médicale, 75015 Paris, France."
+                  },
+                  {
+                    "affiliation": "Complexité du Vivant, Sorbonne Universités, F-75005 Paris, France."
+                  },
+                  {
+                    "affiliation": "Centre National de la Recherche Scientifique, 75794 Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lustig LR",
+              "lastName": "Lustig",
+              "firstName": "Lawrence R",
+              "initials": "LR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Columbia University Medical Center and New York Presbyterian Hospital, New York, NY 10032."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6148-1985"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3244-4947"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6159-0572"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6163-9807"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9069-002X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "full_text",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "10",
+          "volume": "116",
+          "journalIssueId": 2794370,
+          "dateOfPublication": "2019 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+            "title": "Proceedings of the National Academy of Sciences of the United States of America",
+            "essn": "1091-6490",
+            "issn": "0027-8424",
+            "nlmid": "7505876",
+            "isoabbreviation": "Proc Natl Acad Sci U S A"
+          },
+          "printPublicationDate": "2019-03-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "4496-4501",
+        "abstractText": "Autosomal recessive genetic forms (DFNB) account for most cases of profound congenital deafness. Adeno-associated virus (AAV)-based gene therapy is a promising therapeutic option, but is limited by a potentially short therapeutic window and the constrained packaging capacity of the vector. We focus here on the otoferlin gene underlying DFNB9, one of the most frequent genetic forms of congenital deafness. We adopted a dual AAV approach using two different recombinant vectors, one containing the 5' and the other the 3' portions of otoferlin cDNA, which exceed the packaging capacity of the AAV when combined. A single delivery of the vector pair into the mature cochlea of <i>Otof</i><sup>-/-</sup> mutant mice reconstituted the otoferlin cDNA coding sequence through recombination of the 5' and 3' cDNAs, leading to the durable restoration of otoferlin expression in transduced cells and a reversal of the deafness phenotype, raising hopes for future gene therapy trials in DFNB9 patients.",
+        "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of California, San Francisco, CA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred C57BL"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Transgenic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dependovirus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Deafness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Vectors"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genetic Therapy"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Gene therapy",
+            "Deafness",
+            "Otoferlin",
+            "Dfnb9",
+            "Dual Aav"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "OTOF protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.1817537116"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6410774"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6410774?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 252,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "omim",
+            "refseq",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2020-04-06",
+        "dateOfCreation": "2019-02-21",
+        "dateOfRevision": "2020-04-08",
+        "electronicPublicationDate": "2019-02-19",
+        "firstPublicationDate": "2019-02-19",
+        "firstIndexDate": "2019-02-21",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

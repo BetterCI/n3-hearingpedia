@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('gene-therapy-for-hearing-loss','hearing-loss','application','针对特定分子病因与残存细胞条件的听力损失干预。',3),
+  link('gene-therapy-for-hearing-loss','inner-hair-cell','mechanism','OTOF补充以恢复内毛细胞耳畸蛋白相关突触传递为目标。',3),
+  link('gene-therapy-for-hearing-loss','cochlea','related','局部递送需要考虑耳蜗结构、可达性和组织状态。',3),
+  link('gene-therapy-for-hearing-loss','cochlear-implant','related','生物接口修复与电刺激是不同路径，适用条件及效果需分别评价。',3),
+  link('gene-therapy-for-hearing-loss','otoacoustic-emissions','related','外毛细胞相关功能为基线状态提供信息，不证明内毛细胞突触已恢复。',3),
+  link('gene-therapy-for-hearing-loss','auditory-plasticity','related','恢复外周输入后，长期感知使用与语言发展仍需观察。',3),
   link('carney-brainstem-modulation-model','auditory-computational-models','related','从听神经瞬时率构建耳蜗核与下丘的分级计算。',2),
   link('carney-brainstem-modulation-model','auditory-pathway','mechanism','模型区分耳蜗核与中脑下丘两级。',2),
   link('carney-brainstem-modulation-model','amplitude-modulation','mechanism','按调制速率扫描固定平均值的驱动。',2),

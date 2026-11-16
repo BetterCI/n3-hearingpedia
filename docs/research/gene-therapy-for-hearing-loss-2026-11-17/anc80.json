@@ -1,0 +1,638 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1038/s41591-025-03773-w",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40603731",
+        "source": "MED",
+        "pmid": "40603731",
+        "doi": "10.1038/s41591-025-03773-w",
+        "title": "AAV gene therapy for autosomal recessive deafness 9: a single-arm trial.",
+        "authorString": "Qi J, Zhang L, Lu L, Tan F, Cheng C, Lu Y, Dong W, Zhou Y, Fu X, Jiang L, Tan C, Zhang S, Sun S, Song H, Duan M, Zha D, Sun Y, Gao X, Xu L, Zeng FG, Chai R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Qi J",
+              "lastName": "Qi",
+              "firstName": "Jieyu",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Zhongda Hospital, State Key Laboratory of Digital Medical Engineering, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Southeast University, Nanjing, China."
+                  },
+                  {
+                    "affiliation": "Department of Radiology, Zhuhai People's Hospital, The Affiliated Hospital of Beijing Institute of Technology, Advanced Technology Research Institute, School of Life Science, Beijing Institute of Technology, Beijing, China."
+                  },
+                  {
+                    "affiliation": "Co-Innovation Center of Neuroregeneration, Nantong University, Nantong, China."
+                  },
+                  {
+                    "affiliation": "State Key Laboratory of Hearing and Balance Science, Beijing Institute of Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang L",
+              "lastName": "Zhang",
+              "firstName": "Liyan",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Zhongda Hospital, State Key Laboratory of Digital Medical Engineering, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Southeast University, Nanjing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lu L",
+              "lastName": "Lu",
+              "firstName": "Ling",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Zhongda Hospital, State Key Laboratory of Digital Medical Engineering, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Southeast University, Nanjing, China."
+                  },
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Jiangsu Provincial Key Medical Discipline (Laboratory), Nanjing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tan F",
+              "lastName": "Tan",
+              "firstName": "Fangzhi",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Zhongda Hospital, State Key Laboratory of Digital Medical Engineering, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Southeast University, Nanjing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng C",
+              "lastName": "Cheng",
+              "firstName": "Cheng",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Jiangsu Provincial Key Medical Discipline (Laboratory), Nanjing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lu Y",
+              "lastName": "Lu",
+              "firstName": "Yicheng",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Zhongda Hospital, State Key Laboratory of Digital Medical Engineering, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Southeast University, Nanjing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dong W",
+              "lastName": "Dong",
+              "firstName": "Wenxiu",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Otovia Therapeutics Inc., Suzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou Y",
+              "lastName": "Zhou",
+              "firstName": "Yinyi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Radiology, Zhuhai People's Hospital, The Affiliated Hospital of Beijing Institute of Technology, Advanced Technology Research Institute, School of Life Science, Beijing Institute of Technology, Beijing, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fu X",
+              "lastName": "Fu",
+              "firstName": "Xiaolong",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Radiology, Zhuhai People's Hospital, The Affiliated Hospital of Beijing Institute of Technology, Advanced Technology Research Institute, School of Life Science, Beijing Institute of Technology, Beijing, China."
+                  },
+                  {
+                    "affiliation": "Medical Science and Technology Innovation Center, Shandong Provincial Hospital, College of Clinical and Basic Medicine, Shandong First Medical University and Shandong Academy of Medical Sciences, Jinan, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang L",
+              "lastName": "Jiang",
+              "firstName": "Lulu",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Otovia Therapeutics Inc., Suzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tan C",
+              "lastName": "Tan",
+              "firstName": "Chang",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Otovia Therapeutics Inc., Suzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang S",
+              "lastName": "Zhang",
+              "firstName": "Shanzhong",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Otovia Therapeutics Inc., Suzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun S",
+              "lastName": "Sun",
+              "firstName": "Sijie",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Otovia Therapeutics Inc., Suzhou, China."
+                  },
+                  {
+                    "affiliation": "Fosun Health Capital, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Song H",
+              "lastName": "Song",
+              "firstName": "Huaien",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Fosun Health Capital, Shanghai, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duan M",
+              "lastName": "Duan",
+              "firstName": "Maoli",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8437-1583"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China. maoli.duan@ki.se."
+                  },
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery and Audiology and Neurotology, Karolinska University Hospital, Stockholm, Sweden. maoli.duan@ki.se."
+                  },
+                  {
+                    "affiliation": "ENT Division, Department of Clinical Science Intervention and Technology, Karolinska Institute, Stockholm, Sweden. maoli.duan@ki.se."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zha D",
+              "lastName": "Zha",
+              "firstName": "Dingjun",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9380-9209"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otorhinolaryngology Head and Neck Surgery, Xijing Hospital, The Fourth Military Medical University, Xi'an, China. zhadjun@fmmu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sun Y",
+              "lastName": "Sun",
+              "firstName": "Yu",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1771-3715"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otorhinolaryngology, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. sunyu@hust.edu.cn."
+                  },
+                  {
+                    "affiliation": "Hubei Province Clinical Research Center for Deafness and Vertigo, Wuhan, China. sunyu@hust.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gao X",
+              "lastName": "Gao",
+              "firstName": "Xia",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4539-5929"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Nanjing Drum Tower Hospital, Affiliated Hospital of Medical School, Nanjing University, Jiangsu Provincial Key Medical Discipline (Laboratory), Nanjing, China. gaoxia@nju.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu L",
+              "lastName": "Xu",
+              "firstName": "Lei",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8509-6042"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology-Head and Neck Surgery, Shandong Provincial ENT Hospital, Shandong University, Jinan, China. sdphxl@email.sdu.edu.cn."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zeng FG",
+              "lastName": "Zeng",
+              "firstName": "Fan-Gang",
+              "initials": "FG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4325-2780"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Hearing Research, Departments of Anatomy and Neurobiology, Biomedical Engineering, Cognitive Sciences, Otolaryngology-Head and Neck Surgery, University of California Irvine, Irvine, CA, USA. fzeng@uci.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chai R",
+              "lastName": "Chai",
+              "firstName": "Renjie",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3885-543X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Zhongda Hospital, State Key Laboratory of Digital Medical Engineering, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Southeast University, Nanjing, China. renjiec@seu.edu.cn."
+                  },
+                  {
+                    "affiliation": "Department of Radiology, Zhuhai People's Hospital, The Affiliated Hospital of Beijing Institute of Technology, Advanced Technology Research Institute, School of Life Science, Beijing Institute of Technology, Beijing, China. renjiec@seu.edu.cn."
+                  },
+                  {
+                    "affiliation": "Co-Innovation Center of Neuroregeneration, Nantong University, Nantong, China. renjiec@seu.edu.cn."
+                  },
+                  {
+                    "affiliation": "Department of Otolaryngology Head and Neck Surgery, Sichuan Provincial People's Hospital, University of Electronic Science and Technology of China, Chengdu, China. renjiec@seu.edu.cn."
+                  },
+                  {
+                    "affiliation": "Southeast University Shenzhen Research Institute, Shenzhen, China. renjiec@seu.edu.cn."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1771-3715"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3885-543X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4325-2780"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4539-5929"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8437-1583"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8509-6042"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9380-9209"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "31",
+          "journalIssueId": 4018405,
+          "dateOfPublication": "2025 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Nat Med",
+            "title": "Nature medicine",
+            "essn": "1546-170X",
+            "issn": "1078-8956",
+            "nlmid": "9502015",
+            "isoabbreviation": "Nat Med"
+          },
+          "printPublicationDate": "2025-09-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "2917-2926",
+        "abstractText": "Gene therapy for congenital deafness has shown promising results in children but lacks data in older populations. We conducted a single-arm trial of adeno-associated virus (AAV)-OTOF gene therapy using the Anc80L65 capsid in ten participants with autosomal recessive deafness 9 aged 1.5 to 23.9 years at five sites in China. The primary endpoints were safety and tolerability within 5 years, and secondary endpoints assessed auditory function. Initial findings from the ten patients with 6-12 months of follow-up, including one patient who received two injections, revealed that the therapy was well tolerated, with 162 grade I/II adverse events. Decreased neutrophil percentage was the most common event (16 of 162). All ten participants had at least 6 months of follow-up and improved their pure-tone-average hearing level from baseline 106 ± 9 (mean ± s.d.) to 52 ± 30 decibels (dB). Other secondary endpoints showed similar improvements, including the average click auditory brainstem response (ABR) threshold, the tone-burst ABR threshold and the auditory steady-state response (101 ± 1 to 48 ± 26 dB, 91 ± 4 to 57 ± 19 dB and 80 ± 14 to 64 ± 21 dB, respectively). Post hoc analyses were conducted to evaluate the timecourse and factors contributing to the hearing improvement. Therapeutic effect was rapid, taking 1 month to achieve most of the overall hearing improvement. On an individual level, click and tone-burst ABR thresholds, but not the auditory steady-state response, reliably predicted the behavioral pure-tone-average thresholds after 4 months (R<sup>2</sup> = 0.68, 0.73 and 0.17, respectively). An age-dependent therapeutic effect was observed, with optimal outcomes in 5- to 8-year-olds. These preliminary results show that AAV-OTOF was safe and well tolerated in patients ranging from toddlerhood to adulthood. The trial remains ongoing and requires extended follow-up to confirm the long-term safety and efficacy. ClinicalTrials.gov registration: NCT05901480 .",
+        "affiliation": "Department of Otolaryngology Head and Neck Surgery, Zhongda Hospital, State Key Laboratory of Digital Medical Engineering, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Life Sciences and Technology, School of Medicine, Advanced Institute for Life and Health, Southeast University, Nanjing, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "82071053",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "82192862",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "82371162",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Science Foundation of China | National Natural Science Foundation of China-Yunnan Joint Fund (NSFC-Yunnan Joint Fund)",
+              "grantId": "82330033, 82030029, 92468302,92149304",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province (Jiangsu Provincial Natural Science Foundation)",
+              "grantId": "BK20232007",
+              "orderIn": 0
+            },
+            {
+              "agency": "China Postdoctoral Science Foundation",
+              "grantId": "GZB20240145, 2024M750455",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "U23A200440",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "82371161",
+              "orderIn": 0
+            },
+            {
+              "agency": "Natural Science Foundation of Jiangsu Province (Jiangsu Provincial Natural Science Foundation)",
+              "grantId": "SBK2024048796",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Natural Science Foundation of China (National Science Foundation of China)",
+              "grantId": "82071059",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Dependovirus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Deafness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Evoked Potentials, Auditory, Brain Stem"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genes, Recessive"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Genetic Vectors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Genetic Therapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41591-025-03773-w"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 53,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2025-09-17",
+        "dateOfCreation": "2025-07-02",
+        "dateOfRevision": "2026-10-08",
+        "electronicPublicationDate": "2025-07-02",
+        "firstPublicationDate": "2025-07-02",
+        "firstIndexDate": "2025-07-07",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

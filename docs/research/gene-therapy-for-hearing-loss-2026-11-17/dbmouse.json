@@ -1,0 +1,572 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"Functional, sustained recovery of hearing\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 3,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41036103",
+        "source": "MED",
+        "pmid": "41036103",
+        "pmcid": "PMC12481892",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12481892"
+          ]
+        },
+        "doi": "10.1016/j.omtm.2025.101577",
+        "title": "Functional, sustained recovery of hearing in Otoferlin-deficient mice using DB-OTO, a hair-cell-specific AAV-based gene therapy.",
+        "authorString": "Chung Y, Koehler SD, Cancelarich S, Gibson TM, Pregernig G, Becker L, Artinian QA, Goodliffe JW, Pan N, Quigley TM, Senapati A, Slade PG, Smith LM, So KS, Zhang X, Corrales CE, Weber P, Macdonald LE, Zambrowicz B, Economides AN, Kyratsous CA, Burns JC, Palermo AT, Sabin LR, Lee J, Valayannopoulos V, Whitton JP, Drummond MC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chung Y",
+              "lastName": "Chung",
+              "firstName": "Yoojin",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8772-5308"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Koehler SD",
+              "lastName": "Koehler",
+              "firstName": "Seth D",
+              "initials": "SD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cancelarich S",
+              "lastName": "Cancelarich",
+              "firstName": "Sarah",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gibson TM",
+              "lastName": "Gibson",
+              "firstName": "Tyler M",
+              "initials": "TM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pregernig G",
+              "lastName": "Pregernig",
+              "firstName": "Gabriela",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Becker L",
+              "lastName": "Becker",
+              "firstName": "Lars",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Artinian QA",
+              "lastName": "Artinian",
+              "firstName": "Quynh-Anh",
+              "initials": "QA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Goodliffe JW",
+              "lastName": "Goodliffe",
+              "firstName": "Joseph W",
+              "initials": "JW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pan N",
+              "lastName": "Pan",
+              "firstName": "Ning",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Quigley TM",
+              "lastName": "Quigley",
+              "firstName": "Tera M",
+              "initials": "TM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Senapati A",
+              "lastName": "Senapati",
+              "firstName": "Arun",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Slade PG",
+              "lastName": "Slade",
+              "firstName": "Peter G",
+              "initials": "PG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Smith LM",
+              "lastName": "Smith",
+              "firstName": "Lillian M",
+              "initials": "LM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "So KS",
+              "lastName": "So",
+              "firstName": "Kathy S",
+              "initials": "KS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang X",
+              "lastName": "Zhang",
+              "firstName": "Xichun",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Corrales CE",
+              "lastName": "Corrales",
+              "firstName": "C Eduardo",
+              "initials": "CE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  },
+                  {
+                    "affiliation": "Brigham and Women's Hospital, Boston, MA 02115, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Weber P",
+              "lastName": "Weber",
+              "firstName": "Peter",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Boston Medical Center, Boston, MA 02118, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Macdonald LE",
+              "lastName": "Macdonald",
+              "firstName": "Lynn E",
+              "initials": "LE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zambrowicz B",
+              "lastName": "Zambrowicz",
+              "firstName": "Brian",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Economides AN",
+              "lastName": "Economides",
+              "firstName": "Aris N",
+              "initials": "AN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kyratsous CA",
+              "lastName": "Kyratsous",
+              "firstName": "Christos A",
+              "initials": "CA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Burns JC",
+              "lastName": "Burns",
+              "firstName": "Joseph C",
+              "initials": "JC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Palermo AT",
+              "lastName": "Palermo",
+              "firstName": "Adam T",
+              "initials": "AT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sabin LR",
+              "lastName": "Sabin",
+              "firstName": "Leah R",
+              "initials": "LR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee J",
+              "lastName": "Lee",
+              "firstName": "John",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Valayannopoulos V",
+              "lastName": "Valayannopoulos",
+              "firstName": "Vassili",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Whitton JP",
+              "lastName": "Whitton",
+              "firstName": "Jonathon P",
+              "initials": "JP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  },
+                  {
+                    "affiliation": "Decibel Therapeutics, Inc., Boston, MA 02215, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Drummond MC",
+              "lastName": "Drummond",
+              "firstName": "Meghan C",
+              "initials": "MC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8772-5308"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "33",
+          "journalIssueId": 4021060,
+          "dateOfPublication": "2025 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Mol Ther Methods Clin Dev",
+            "title": "Molecular therapy. Methods & clinical development",
+            "essn": "2329-0501",
+            "issn": "2329-0501",
+            "nlmid": "101624857",
+            "isoabbreviation": "Mol Ther Methods Clin Dev"
+          },
+          "printPublicationDate": "2025-12-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "101577",
+        "abstractText": "Biallelic loss-of-function variants in the <i>Otoferlin</i> gene (<i>OTOF</i>) lead to congenital hearing loss in both humans and mice. We developed DB-OTO, a hair-cell-specific adeno-associated virus (AAV)-based dual-vector gene therapy designed to restore hearing in individuals with <i>OTOF</i>-related hearing loss. DB-OTO is composed of two AAV1 vectors that reconstitute a functional <i>OTOF</i> gene expression cassette to form the full-length human <i>OTOF</i> variant 5 (<i>h</i> <i>OTOFv5</i>). A synthetic promoter (<i>mMyo15</i>) based on the murine <i>Myosin 15</i> <i>a</i> gene was engineered to restrict the transgene expression to hair cells. The promoter construct was chosen after comparison of multiple variants using a GFP reporter in <i>ex vivo</i> murine explant models, followed by <i>in vivo</i> studies in wild-type mice and cynomolgus macaques. Comparison between the 1.0 kb <i>mMyo15</i> and a ubiquitous promoter driving expression of <i>h</i> <i>OTOF</i>v5 transgene in mice showed that hair-cell-specific expression is critical for safe expression of otoferlin. DB-OTO induced dose-dependent establishment of auditory brainstem response, and <i>OTOF</i> expression in inner hair cells over a 10-fold dose range sustained for at least 3 months in a mouse model of <i>OTOF</i> deficiency. These data supported the initiation of an ongoing phase I/II clinical trial of DB-OTO in pediatric patients with <i>OTOF</i>-related hearing loss.",
+        "affiliation": "Regeneron Pharmaceuticals, Inc., Tarrytown, NY 10591, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Regeneron Pharmaceuticals",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Gene therapy",
+            "Hearing loss",
+            "AAV",
+            "Deafness",
+            "Auditory Neuropathy",
+            "Otof",
+            "Otoferlin",
+            "Dfnb9",
+            "Dual Vector",
+            "Db-oto"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.omtm.2025.101577"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12481892"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12481892?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 4,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-10-02",
+        "dateOfCreation": "2025-10-02",
+        "dateOfRevision": "2025-10-04",
+        "electronicPublicationDate": "2025-08-25",
+        "firstPublicationDate": "2025-08-25",
+        "firstIndexDate": "2025-10-03",
+        "fullTextReceivedDate": "2025-11-19",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}
