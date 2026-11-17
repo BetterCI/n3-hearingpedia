@@ -10,6 +10,7 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import { resolve, relative, join, sep } from 'node:path';
 import assert from 'node:assert/strict';
+import { verifySitemap } from './verify-sitemap.mjs';
 import { parseFrontmatter } from '@astrojs/markdown-remark';
 import { knowledgeRelations, relationTypes, relationshipsFor } from '../src/data/relations.ts';
 import { knowledgeAreas, kindLabels } from '../src/data/knowledge.ts';
@@ -22,6 +23,7 @@ import { homepageFeaturedSlugs, homepageRecentCount } from '../src/data/homepage
 import { getConceptPublicationRanks, compareConceptPublication } from '../src/lib/concept-publication.ts';
 
 const root = resolve('dist');
+const sitemap = await verifySitemap();
 const base = (process.env.BASE_PATH || '/n3-hearingpedia').replace(/\/$/, '');
 async function walk(folder) {
   const entries = await readdir(folder, { withFileTypes: true });
@@ -272,4 +274,4 @@ assert(entry.languages['zh-cn']?.page_count===expectedConcepts,'Search index mus
 assert(cache.get(join(root,'concepts/amplitude-modulation/index.html')).includes('预印本 · 未同行评审'),'Preprint evidence must be labelled');
 assert(equations>=8,'Expected rendered concept equations');
 if(errors.length) { console.error(errors.join('\n'));process.exit(1); }
-console.log(JSON.stringify({pages:htmlFiles.length,legacyRedirects:mergedConceptRedirects.length,checkedInternalLinks:checkedLinks,equations,searchableConcepts:entry.languages['zh-cn'].page_count,wikiConcepts:wiki.entries.length,knowledgeAreas:knowledgeAreas.length,typedRelationships:knowledgeRelations.length,wikiCrossLinks:wiki.entries.reduce((s,e)=>s+e.wiki_links.length,0),chineseCharacters:wiki.entries.reduce((s,e)=>s+e.chinese_characters,0),brokenLinks:0},null,2));
+console.log(JSON.stringify({pages:htmlFiles.length,...sitemap,legacyRedirects:mergedConceptRedirects.length,checkedInternalLinks:checkedLinks,equations,searchableConcepts:entry.languages['zh-cn'].page_count,wikiConcepts:wiki.entries.length,knowledgeAreas:knowledgeAreas.length,typedRelationships:knowledgeRelations.length,wikiCrossLinks:wiki.entries.reduce((s,e)=>s+e.wiki_links.length,0),chineseCharacters:wiki.entries.reduce((s,e)=>s+e.chinese_characters,0),brokenLinks:0},null,2));

@@ -63,6 +63,14 @@ Temporal 在信号表征与编码术语中优先译为“时域”：时域包�
 
 页面链接、资源和搜索包统一处理仓库子路径。若使用其他部署地址，通过环境变量覆盖 SITE_URL（站点 origin）和 BASE_PATH（路径前缀）；构建、验证与预览应使用相同配置。默认分别为 https://betterci.github.io 和 /n3-hearingpedia。
 
+## 搜索引擎站点地图
+
+每次构建自动生成 [sitemap.xml](https://betterci.github.io/n3-hearingpedia/sitemap.xml)，涵盖全部已发布词条（包括如实标记待审阅的词条）、学科目录和静态内容入口。新增 `.astro` 静态页面、词条或学科会自动进入地图；搜索页、分享页、404、合并跳转和下载资源不进入地图。未来增加其他动态内容路由时，需在 `src/pages/sitemap.xml.ts` 中扩展对应数据源。
+
+词条的 `lastmod` 直接使用 `last_updated`，并在构建时检查日期格式；其他页面省略修改日期，避免定时构建把未变内容标成新更新。页面 head 提供地图发现链接。`pnpm verify` 检查地图覆盖范围、实际生成页面、canonical、重复网址、排除页面与日期一致性。
+
+发布后可将上述完整地图地址提交给搜索引擎站长平台。地图帮助发现网址，不保证收录；当前项目部署在子目录，不在此目录生成无效的 `robots.txt`。如需通过 robots 声明地图，应在 `https://betterci.github.io/robots.txt` 中设置。
+
 ## 普通话辅音语音学基础
 
 2026-10-09 新设同级类目 **普通话辅音感知**。语音学入门内容按阅读主题合并为5篇：普通话辅音、辅音的发音部位、辅音的发音方式、送气与不送气、清音与浊音。声母与音标集中在总论，各音类保留部位或方式小节；旧标题保留为检索别名，9个旧网址跳转到对应小节。学习路径、专题和知识地图同步收拢，全部内容仍为待审阅草稿。来源见[核读记录](docs/research/mandarin-phonetics-2026-10-09/research-notes.md)，合并范围与验收见[合并记录](docs/research/mandarin-phonetics-consolidation-2026-10-09/research-notes.md)。

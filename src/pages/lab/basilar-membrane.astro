@@ -2,7 +2,10 @@
 import { url, asset } from '../../lib/paths';
 import '../../styles/basilar-membrane.css';
 ---
-<!doctype html><html lang="zh-CN" data-pagefind-ignore="all"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>基底膜 3D 实验室 · n³ Hearingpedia</title><meta name="description" content="以本地音频、麦克风和纯音探索基底膜的频位映射与振动响应。"/><link rel="icon" href={asset('favicon.svg')}/></head>
+<!doctype html><html lang="zh-CN" data-pagefind-ignore="all"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>基底膜 3D 实验室 · n³ Hearingpedia</title><meta name="description" content="以本地音频、麦克风和纯音探索基底膜的频位映射与振动响应。"/><link rel="icon" href={asset('favicon.svg')}/>
+{Astro.site && <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />}
+<link rel="sitemap" type="application/xml" href={asset('sitemap.xml')} />
+</head>
 <body><main id="bm-lab" data-worklet={asset('audio/basilar-worklet.js')}>
   <nav><a href={url('lab')}>n³ Hearingpedia / LAB</a><a href={url('concepts/basilar-membrane')}>阅读基底膜深度词条 ↗</a></nav>
   <header><p class="eyebrow">SOUND IN MOTION / 实验 02</p><h1>声音，在这里展开。</h1><p>Basilar membrane · 基底膜三维振动实验</p><p class="intro">声音驱动的并联滤波器组可视化：低频响应偏蜗顶，高频偏蜗底。观察参考频位下的通道输出；本实验不求解流体耦合。</p></header>

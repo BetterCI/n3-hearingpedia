@@ -10,6 +10,8 @@ import '../../styles/spectrogram.css';
     <meta name="theme-color" content="#0c0c16" />
     <meta name="description" content="在浏览器中探索实时语谱图。麦克风、本地音频与合成声音，连接听觉科学与声音的时频结构。" />
     <link rel="icon" type="image/svg+xml" href={asset('favicon.svg')} />
+    {Astro.site && <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />}
+    <link rel="sitemap" type="application/xml" href={asset('sitemap.xml')} />
     <title>实时语谱图 Spectrogram Lab · n³ Hearingpedia</title>
   </head>
   <body>
