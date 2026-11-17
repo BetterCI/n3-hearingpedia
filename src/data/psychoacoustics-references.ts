@@ -22,8 +22,8 @@ export const psychoacousticsReferences: Record<string, Reference> = {
   'psychoacoustics-quest-1983': {
     title: 'Quest: A Bayesian adaptive psychometric method',
     authors: 'Andrew B. Watson; Denis G. Pelli', year: '1983', publication: 'Perception & Psychophysics, 33(2), 113–120',
-    doi: '10.3758/BF03202828', url: 'https://link.springer.com/article/10.3758/BF03202828', access: 'abstract',
-    supports: '核对出版方原始摘要与书目；支持以当前 Bayesian 阈值估计选取刺激的程序思路，不据摘要描述完整实现或比较所有算法效率。',
+    doi: '10.3758/BF03202828', url: 'https://denispelli.com/pubs/watson1983quest.pdf', access: 'fulltext',
+    supports: '2026-11-17：读取作者公开原文PDF，核对固定形状、阈值先验、序贯后验及选点思想；现代软件实现另核官方文档，不推断通用效率排名。',
   },
   'psychoacoustics-wichmann-ii-2001': {
     title: 'The psychometric function: II. Bootstrap-based confidence intervals and sampling',

@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-17",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1113,
+  "relations": 1119,
   "entries": [
     {
       "slug": "cochlea",
@@ -6358,8 +6358,8 @@
       "slug": "psychometric-function",
       "knowledge_area": "methods",
       "kind": "model",
-      "chinese_characters": 6367,
-      "body_characters": 13778,
+      "chinese_characters": 6396,
+      "body_characters": 13854,
       "sections": 10,
       "subsections": 23,
       "reference_ids": [
@@ -6383,6 +6383,7 @@
         "psychoacoustics",
         "signal-detection-theory",
         "speech-reception-threshold",
+        "adaptive-psychophysical-measurement",
         "hearing-aid",
         "cochlear-implant",
         "speech-intelligibility",
@@ -6930,6 +6931,38 @@
         "hearing-aid",
         "cochlear-implant",
         "pure-tone-audiometry"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "adaptive-psychophysical-measurement",
+      "knowledge_area": "methods",
+      "kind": "test",
+      "chinese_characters": 5771,
+      "body_characters": 9976,
+      "sections": 9,
+      "subsections": 17,
+      "reference_ids": [
+        "levitt-1971",
+        "psychoacoustics-soranzo-2014",
+        "psychoacoustics-quest-1983",
+        "adaptive-kontsevich-1999",
+        "adaptive-watson-2017",
+        "pf-shen-2013",
+        "adaptive-psychopy",
+        "pf-shen-richards-2012",
+        "psychoacoustics-wichmann-ii-2001"
+      ],
+      "wiki_links": [
+        "psychometric-function",
+        "signal-detection-theory",
+        "speech-reception-threshold",
+        "audiometric-calibration",
+        "speech-audiometry",
+        "wide-dynamic-range-compression",
+        "frequency-resolution",
+        "temporal-resolution"
       ],
       "status": "draft",
       "depth": "in-depth"

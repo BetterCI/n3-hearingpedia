@@ -1,0 +1,28 @@
+{
+  "target_probability": 0.7071067811865476,
+  "target_db_snr": -6.551692134779385,
+  "trajectory_estimate": -6.25,
+  "repetitions": 500,
+  "success": 500,
+  "failures": 0,
+  "bias_db": -0.4053078652206148,
+  "sd_db": 1.9170292126110149,
+  "rmse_db": 1.9575304507490279,
+  "constant_probability_down_fraction": 0.4987661700038424,
+  "checks": "passed",
+  "parameters": {
+    "gamma": 0.5,
+    "upper_error": 0.02,
+    "alpha_db": -6,
+    "scale_db": 2,
+    "start_db": 2,
+    "step_db": 2,
+    "trials": 100,
+    "min_db": -20,
+    "max_db": 10,
+    "minimum_reversals": 12,
+    "final_reversals": 8
+  },
+  "numpy_version": "1.26.4",
+  "matplotlib_version": "3.8.0"
+}

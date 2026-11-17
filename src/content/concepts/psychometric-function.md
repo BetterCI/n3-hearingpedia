@@ -9,7 +9,7 @@ aliases: ["心理物理函数", "心理计量函数", "psychometric curve", "psy
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-11-06"
+last_updated: "2026-11-17"
 literature_checked_at: "2026-11-06"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -156,6 +156,8 @@ $$
 预实验可用于选择范围，正式实验再按计划随机交错水平或条件，并安排练习与休息。需要估计失误率时，应给上端足够的信息，但不能把“容易刺激”无限提高到不舒适或不符合研究目的的声级。增加试次数是否值得，要由所需参数精度和参与者负担共同决定。
 
 ### 自适应程序优化的是特定目标
+
+阶梯状态、目标正确率、停止规则与可复算模拟见[自适应心理物理测量](../adaptive-psychophysical-measurement/)。
 
 自适应程序依据此前的刺激与回答选择下一试次。[12](#ref-pf-leek-2001)变换升降法常用于跟踪特定正确率附近的水平，QUEST 则利用模型和当前阈值估计更新刺激。程序名称并不能保证完整曲线的所有参数都同样准确；针对阈值的采样，可能只在很窄范围内提供数据。[6](#ref-levitt-1971)[7](#ref-psychoacoustics-quest-1983)
 

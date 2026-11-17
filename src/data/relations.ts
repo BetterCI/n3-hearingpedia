@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link("adaptive-psychophysical-measurement","psychometric-function","related","反应曲线提供阈值定义与自适应选点模型。",2),
+  link("adaptive-psychophysical-measurement","psychoacoustics","related","以行为反应安排后续刺激。",2),
+  link("adaptive-psychophysical-measurement","speech-reception-threshold","related","选点和计分规则共同决定追踪的言语阈值。",2),
+  link("adaptive-psychophysical-measurement","frequency-resolution","related","频率差阈值可以采用自适应测量。",2),
+  link("adaptive-psychophysical-measurement","temporal-resolution","related","间隙阈值依赖刺激条件与自适应程序。",2),
+  link("adaptive-psychophysical-measurement","signal-detection-theory","related","区分反应概率、敏感性和判断标准。",2),
   link('gene-therapy-for-hearing-loss','hearing-loss','application','针对特定分子病因与残存细胞条件的听力损失干预。',3),
   link('gene-therapy-for-hearing-loss','inner-hair-cell','mechanism','OTOF补充以恢复内毛细胞耳畸蛋白相关突触传递为目标。',3),
   link('gene-therapy-for-hearing-loss','cochlea','related','局部递送需要考虑耳蜗结构、可达性和组织状态。',3),

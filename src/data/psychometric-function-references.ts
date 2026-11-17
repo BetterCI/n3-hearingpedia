@@ -16,8 +16,8 @@ export const psychometricFunctionReferences: Record<string, Reference> = {
   'pf-shen-2013': {
     title: 'Comparing adaptive procedures for estimating the psychometric function for an auditory gap detection task',
     authors: 'Yi Shen', year: '2013', publication: 'Attention, Perception, & Psychophysics, 75(4), 771–780',
-    doi: '10.3758/s13414-013-0438-9', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3634902/', access: 'abstract',
-    supports: '2026-11-06：Crossref书目及原始研究摘要/公开索引核对听觉间隙任务中三种程序的比较范围；不报告未经本轮全文核对的样本和效率数值，不当作所有听觉任务的算法排序。',
+    doi: '10.3758/s13414-013-0438-9', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3634902/', access: 'fulltext',
+    supports: '2026-11-17：读取PMC原文摘要及方法、讨论相关段落；四名年轻正常听力听者的间隙任务及混入随机反应的比较，不外推为听觉任务通用排序。',
   },
   'pf-prins-kingdom-2018': {
     title: 'Applying the Model-Comparison Approach to Test Specific Research Hypotheses in Psychophysical Research Using the Palamedes Toolbox',

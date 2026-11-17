@@ -41,6 +41,7 @@ export const introductoryPaths = [
 ];
 
 export const learningPaths = [
+  { id: "adaptive-measurement", title: "从反应曲线到自适应听觉测量", english: "Adaptive auditory measurement", description: "定义任务、目标概率与刺激坐标，再理解选点、停止、估计和误差验证。", slugs: ["psychoacoustics", "signal-detection-theory", "psychometric-function", "adaptive-psychophysical-measurement", "speech-reception-threshold", "temporal-resolution"] },
   { id:'gene-therapy',title:'从分子病因理解听觉修复与疗效评价',english:'Gene therapy and hearing outcomes',description:'从听力损失与内毛细胞突触进入基因治疗，再分别评价神经响应、行为听阈和言语功能。',slugs:['hearing-loss','inner-hair-cell','gene-therapy-for-hearing-loss','auditory-brainstem-response','pure-tone-audiometry','speech-intelligibility'] },
 
   { id:'acoustic-equations',title:'从声传播到时域与频域声学建模',english:'Wave equations and acoustic modelling',description:'从压力与质点运动进入守恒推导、初始条件和边界，再连接单频声场、模态、房间与器件。',slugs:['sound-waves-and-propagation','wave-equation','helmholtz-equation','room-acoustics','electroacoustic-transducer'] },
