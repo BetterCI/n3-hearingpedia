@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-17",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1140,
+  "relations": 1147,
   "entries": [
     {
       "slug": "cochlea",
@@ -1390,8 +1390,8 @@
       "slug": "auditory-attention",
       "knowledge_area": "perception",
       "kind": "function",
-      "chinese_characters": 8872,
-      "body_characters": 17680,
+      "chinese_characters": 8923,
+      "body_characters": 17773,
       "sections": 10,
       "subsections": 27,
       "reference_ids": [
@@ -1437,20 +1437,22 @@
         "binaural-hearing",
         "spatial-hearing",
         "electroencephalography",
+        "auditory-attention-decoding",
         "cochlear-implant",
         "hearing-aid",
         "masking",
         "temporal-resolution",
         "speech-reception-threshold"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "in-depth"
     },
     {
       "slug": "neural-speech-tracking",
       "knowledge_area": "methods",
       "kind": "analysis",
-      "chinese_characters": 9139,
-      "body_characters": 18907,
+      "chinese_characters": 9190,
+      "body_characters": 19001,
       "sections": 9,
       "subsections": 33,
       "reference_ids": [
@@ -1506,13 +1508,15 @@
         "formant",
         "temporal-fine-structure",
         "auditory-evoked-potential",
+        "auditory-attention-decoding",
         "auditory-scene-analysis",
         "spatial-hearing",
         "binaural-hearing",
         "hearing-aid",
         "cochlear-implant"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "in-depth"
     },
     {
       "slug": "auditory-plasticity",
@@ -7085,6 +7089,45 @@
         "cochlear-implant-programming-and-mapping",
         "spatial-hearing",
         "speech-audiometry"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "auditory-attention-decoding",
+      "knowledge_area": "methods",
+      "kind": "analysis",
+      "chinese_characters": 6148,
+      "body_characters": 10479,
+      "sections": 9,
+      "subsections": 22,
+      "reference_ids": [
+        "aad-review-2021",
+        "auditory-attention-mesgarani",
+        "osullivan-aad-2015",
+        "auditory-attention-mtrf",
+        "auditory-attention-methods",
+        "aad-biesmans-2017",
+        "aad-cnn-2021",
+        "neural-speech-tracking-gaze",
+        "aad-yan-2025",
+        "auditory-attention-unsup",
+        "aad-ear-2025",
+        "aad-switch-2026",
+        "auditory-attention-dataset-kul",
+        "auditory-attention-code-mtrf",
+        "ci-brain-separation-2026",
+        "aad-miran-2018"
+      ],
+      "wiki_links": [
+        "auditory-attention",
+        "neural-speech-tracking",
+        "electroencephalography",
+        "temporal-envelope",
+        "confusion-matrix",
+        "speech-enhancement-and-noise-reduction",
+        "hearing-aid",
+        "cochlear-implant"
       ],
       "status": "draft",
       "depth": "in-depth"

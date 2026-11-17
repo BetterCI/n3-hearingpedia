@@ -15,6 +15,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('auditory-attention-decoding','auditory-attention','related','注意选择是预测目标，解码准确率不等于注意能力。',2),
+  link('auditory-attention-decoding','neural-speech-tracking','related','连续响应与语音特征的联系构成候选匹配依据。',2),
+  link('auditory-attention-decoding','electroencephalography','related','记录质量、参考与伪迹限制非侵入式解码。',2),
+  link('auditory-attention-decoding','temporal-envelope','related','包络定义和对齐影响重建与相关比较。',2),
+  link('auditory-attention-decoding','speech-enhancement-and-noise-reduction','related','目标估计需要与候选分离和稳定控制衔接。',2),
+  link('auditory-attention-decoding','hearing-aid','related','神经引导设备还需验证真实聆听获益。',2),
+  link('auditory-attention-decoding','confusion-matrix','related','分类错误分布和机会基线需要分别报告。',2),
   link('auditory-development-and-sensitive-periods','auditory-development','related','敏感期研究经验效应如何随发育阶段改变。',2),
   link('auditory-development-and-sensitive-periods','auditory-plasticity','related','发育阶段的经验依赖与跨年龄学习有不同条件。',2),
   link('auditory-development-and-sensitive-periods','auditory-cortex','related','皮层与丘脑皮层回路提供窗口机制的实验入口。',2),

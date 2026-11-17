@@ -8,7 +8,7 @@ tags: ["neural-speech-tracking"]
 aliases: ["语音神经跟踪", "神经言语追踪", "neural speech tracking", "speech tracking", "皮层语音跟踪"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-07"
+last_updated: "2026-11-17"
 authors: ["AI 辅助编写"]
 references: ["neural-speech-tracking-continuous", "neural-speech-tracking-obleser", "lalor-speech-2010", "neural-speech-tracking-mesgarani", "neural-speech-tracking-golumbic", "neural-speech-tracking-task", "guo-tracking-2026", "neural-speech-tracking-chinese", "neural-speech-tracking-chinese-team", "neural-speech-tracking-haufe", "neural-speech-tracking-speechrate", "neural-speech-tracking-gillis", "neural-speech-tracking-mtrf", "osullivan-aad-2015", "neural-speech-tracking-methods", "neural-speech-tracking-acoustic", "neural-speech-tracking-brodbeck", "neural-speech-tracking-semantic", "neural-speech-tracking-phoneme", "neural-speech-tracking-ding", "neural-speech-tracking-eelbrain", "neural-speech-tracking-code-python", "neural-speech-tracking-code-matlab", "neural-speech-tracking-gaze", "neural-speech-tracking-code-unsup", "neural-speech-tracking-dataset-kul", "neural-speech-tracking-code-mne", "neural-speech-tracking-hierarchyage", "neural-speech-tracking-karuna", "neural-speech-tracking-sle2018", "neural-speech-tracking-ciartifact", "neural-speech-tracking-gaze2024", "neural-speech-tracking-comparison2025", "neural-speech-tracking-code-eelbrain", "neural-speech-tracking-cca", "mo-ci-adaptation-2026", "neural-speech-tracking-vanthornhout", "neural-speech-tracking-lesenfants", "neural-speech-tracking-ci2025"]
 batch: 3
@@ -127,6 +127,8 @@ $$
 </figure>
 
 ## 后向重建与听觉注意解码
+
+[听觉注意力解码](../auditory-attention-decoding/)以独立预测为主线，说明包络重建怎样转成候选选择，以及相关、准确率、泛化与切换延迟为何需要分别验证。
 
 ### 从神经记录重建言语特征
 

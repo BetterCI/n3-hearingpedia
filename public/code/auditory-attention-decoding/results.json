@@ -1,0 +1,150 @@
+{
+  "type": "synthetic teaching example, NOT real EEG",
+  "seed": 20261117,
+  "fs_hz": 32,
+  "channels": 6,
+  "samples_per_trial": 960,
+  "trial_seconds": 30.0,
+  "effective_samples": 952,
+  "future_lags_samples": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "lookahead_ms": 250.0,
+  "train_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "validation_ids": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "test_ids": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "ridge_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "validation_target_correlations": [
+    0.888955579696228,
+    0.8889278136680864,
+    0.8886074344921286,
+    0.8845025486340102,
+    0.8720644523402268
+  ],
+  "selected_lambda": 0.001,
+  "test_results": [
+    {
+      "trial": 12,
+      "target": 0,
+      "correlations": [
+        0.8654517548481332,
+        0.22015686540296558
+      ],
+      "prediction": 0
+    },
+    {
+      "trial": 13,
+      "target": 1,
+      "correlations": [
+        0.2442636351573015,
+        0.8763664300016669
+      ],
+      "prediction": 1
+    },
+    {
+      "trial": 14,
+      "target": 0,
+      "correlations": [
+        0.8824055640396814,
+        0.1640079178477166
+      ],
+      "prediction": 0
+    },
+    {
+      "trial": 15,
+      "target": 1,
+      "correlations": [
+        0.2545886893862877,
+        0.8789491807078826
+      ],
+      "prediction": 1
+    },
+    {
+      "trial": 16,
+      "target": 0,
+      "correlations": [
+        0.8747232051531421,
+        0.10089138136583985
+      ],
+      "prediction": 0
+    },
+    {
+      "trial": 17,
+      "target": 1,
+      "correlations": [
+        0.17360354552965257,
+        0.884664645460543
+      ],
+      "prediction": 1
+    },
+    {
+      "trial": 18,
+      "target": 0,
+      "correlations": [
+        0.8727463809847648,
+        0.2224641644349978
+      ],
+      "prediction": 0
+    },
+    {
+      "trial": 19,
+      "target": 1,
+      "correlations": [
+        0.2346506316044399,
+        0.8791476535943948
+      ],
+      "prediction": 1
+    }
+  ],
+  "test_correct": 8,
+  "checks": [
+    "disjoint trial sets",
+    "lag endpoints remain within trial",
+    "ridge agrees with augmented least squares to 1e-10",
+    "finite test correlations"
+  ],
+  "limitations": [
+    "envelopes and neural mixtures are synthesized",
+    "target contribution intentionally exceeds distractor",
+    "no head or eye artifacts",
+    "offline look-ahead",
+    "not fitted to human data"
+  ]
+}

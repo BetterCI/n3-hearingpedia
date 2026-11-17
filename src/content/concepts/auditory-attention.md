@@ -8,7 +8,7 @@ tags: ["auditory-attention"]
 aliases: ["选择性听觉注意", "selective auditory attention", "auditory attention"]
 status: draft
 depth: in-depth
-last_updated: "2026-10-12"
+last_updated: "2026-11-17"
 authors: ["AI 辅助编写"]
 references: ["auditory-attention-object", "auditory-attention-golumbic", "auditory-attention-continuity", "auditory-attention-hearing", "auditory-attention-fuel", "auditory-attention-escera", "auditory-attention-switch", "auditory-attention-sustained", "auditory-attention-mesgarani", "auditory-attention-osullivan", "auditory-attention-noattention", "auditory-attention-ownname", "auditory-attention-hillyard", "auditory-attention-kerlin", "auditory-attention-methods", "auditory-attention-ding", "auditory-attention-alpha", "auditory-attention-wostmann", "auditory-attention-binding2025", "auditory-attention-matrix2025", "auditory-attention-gaze2024", "auditory-attention-dataset-kul", "auditory-attention-mtrf", "auditory-attention-unsup", "auditory-attention-code-mtrf", "auditory-attention-code-python", "auditory-attention-code-unsup", "auditory-attention-dataset-gaze", "mo-ci-adaptation-2026", "auditory-attention-classroom2025", "auditory-attention-virtual2025"]
 batch: 3
@@ -157,6 +157,8 @@ Ding 与 Simon 的脑磁研究则提供了对象层面加工的证据：当目�
 标签也需要说明来源。指令指定的目标是实验者希望听者关注谁，按键报告是听者报告的状态，行为正确率提供是否完成任务的线索；它们都不是对每个瞬间内在注意的完全观测。尤其在自发切换中，指令、实际转向和按键之间可能有不同延迟，应避免把三者强制设为同一个切换时刻。[15](#ref-auditory-attention-methods)[10](#ref-auditory-attention-osullivan)
 
 ## 听觉注意解码
+
+[听觉注意力解码](../auditory-attention-decoding/)进一步展开候选声源判断、线性与非线性方法、眼动和试次偏差、独立验证及实时控制，并提供合成重建例子。
 
 ### 解码目标与常见方法
 
