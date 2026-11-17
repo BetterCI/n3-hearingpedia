@@ -11,7 +11,7 @@ const concepts = all.filter(c=>c.data.kind!=='course' && c.data.categories.inclu
 const hasCourses = all.some(c=>c.data.kind==='course' && c.data.categories.includes(domain.id));
 const context = all.filter(c=>['cochlear-implant','speech-intelligibility','vocoder'].includes(c.data.slug));
 ---
-<BaseLayout title={`${domain.zh} · ${domain.name}`}>
+<BaseLayout title={`${domain.zh}领域导航 · ${domain.name}`} description={`${domain.zh}（${domain.name}）领域导航：${domain.note} 浏览相关百科词条，连接概念、研究方法与参考文献。`}>
   <div class="container"><div class="breadcrumb"><a href={url('explore')}>Explore</a><span>/</span><span>{domain.zh}</span></div>
     <div class="page-intro" style="padding-top:0"><div class="eyebrow">{domain.name}</div><h1>{domain.zh}</h1><p>{domain.note} 当前收录 {concepts.length} 个词条。</p></div>
     <section class="section">

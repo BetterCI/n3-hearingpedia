@@ -37,7 +37,7 @@ const courseDescriptions: Record<string,string> = {
 };
 const stepUrl = (slug: string, path: string) => url(`concepts/${slug}`) + '?path=' + encodeURIComponent(path);
 ---
-<BaseLayout title="Learn · 学习路径">
+<BaseLayout title="Learn · 学习路径" description="沿听觉科学学习路径组织阅读，从入门问题和前置概念逐步进入听觉机制、语音感知、测量方法与应用，配合基础课程和声学案例学习。">
   <div class="container">
     <div class="page-intro"><div class="eyebrow">Learn together</div><h1>顺着一个问题，逐步深入。</h1><p>从 4 步入门路线开始，先读导言和指定章节；需要完整知识背景时，再选择深入路线。</p></div>
     <section class="section" aria-label="选择入门路线"><IntroPathCards /></section>

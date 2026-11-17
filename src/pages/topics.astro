@@ -14,4 +14,4 @@ const topics=[
  {title:'可校准的远程听力筛查',note:'从标准测量与参考零点进入便携测试，区分校准、验证和筛查。',slugs:['pure-tone-audiometry','audiometric-calibration','speech-reception-threshold','zodiac-in-noise']},
 ];
 ---
-<BaseLayout title="Topics · 研究专题"><div class="container"><div class="page-intro"><div class="eyebrow">Topics</div><h1>从研究任务组织知识。</h1><p>领域回答“属于哪里”，专题回答“为了解决这个问题，我需要读什么”。</p></div><section class="section">{topics.map(topic=><article class="topic-section"><h2>{topic.title}</h2><p>{topic.note}</p><div class="topic-links">{topic.slugs.map(slug=><a href={url(`concepts/${slug}`)}>{bySlug[slug].data.title} ↗</a>)}</div></article>)}</section></div></BaseLayout>
+<BaseLayout title="Topics · 研究专题" description="围绕听觉研究任务串联百科词条，探索频率分析、音高编码、声码器与稀疏语音、普通话语音学、双耳信息利用及可校准的远程听力筛查。"><div class="container"><div class="page-intro"><div class="eyebrow">Topics</div><h1>从研究任务组织知识。</h1><p>领域回答“属于哪里”，专题回答“为了解决这个问题，我需要读什么”。</p></div><section class="section">{topics.map(topic=><article class="topic-section"><h2>{topic.title}</h2><p>{topic.note}</p><div class="topic-links">{topic.slugs.map(slug=><a href={url(`concepts/${slug}`)}>{bySlug[slug].data.title} ↗</a>)}</div></article>)}</section></div></BaseLayout>

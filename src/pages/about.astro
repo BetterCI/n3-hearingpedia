@@ -12,7 +12,7 @@ import { url } from '../lib/paths';
 const concepts = await getCollection('concepts');
 const stats = summarizeSite(concepts);
 ---
-<BaseLayout title="About · 关于项目"><div class="container reading-page"><div class="page-intro"><div class="eyebrow">About n³ Hearingpedia</div><h1>连接听觉科学，<br />让理解有迹可循。</h1><p>面向学生、研究者与专业读者的听觉科学知识网络。</p></div><div class="prose">
+<BaseLayout title="About · 关于项目" description="了解 n³ Hearingpedia 的知识组织、文献核验、AI 协助整理与专业审阅流程，以及词条状态、科学依据和解释边界。"><div class="container reading-page"><div class="page-intro"><div class="eyebrow">About n³ Hearingpedia</div><h1>连接听觉科学，<br />让理解有迹可循。</h1><p>面向学生、研究者与专业读者的听觉科学知识网络。</p></div><div class="prose">
   <h2>从基础概念进入研究问题</h2><p>听觉科学连接声学、生理、感知、工程与临床。本百科通过分层解释、数学关系、实验方法和可追溯文献，帮助读者建立跨领域理解，并为教学、文献阅读与实验设计提供入口。</p>
   <h2>每个概念都应有连接</h2><p>词条从定义和直觉开始，逐步进入机制、变量、实验与应用。领域目录提供分类，学习路径组织阅读顺序，知识地图连接前置概念与相关方法。读者可以从基础开始，也可以直接进入当前研究中遇到的问题。</p>
   <h2>科学依据与解释边界</h2><p>经典研究支持基础解释，新论文补充具体方法和适用条件。真实听者实验、声码器模拟、计算模型与预印本分别说明；信号处理结果不自动等同于生理机制或临床收益。</p><p>参考文献区分可访问全文、摘要、书目及官方方法文档，并注明引用用途。公开标准目录不代替标准全文。定向检索与筛选记录保存在 <a href="https://github.com/BetterCI/n3-hearingpedia/tree/main/docs/research">研究记录</a>中。</p>

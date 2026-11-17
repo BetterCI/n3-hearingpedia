@@ -9,7 +9,7 @@ const concepts=(await getCollection('concepts')).sort((a,b)=>a.data.order-b.data
 const bySlug=Object.fromEntries(concepts.map(c=>[c.data.slug,c]));
 const payload={nodes:concepts.map(c=>({id:c.data.slug,title:c.data.title,english:c.data.english,aliases:c.data.aliases,summary:c.data.summary,kind:kindLabels[c.data.kind],area:c.data.knowledge_area,url:url('concepts/'+c.data.slug)})),edges:knowledgeRelations,areas:knowledgeAreas,types:relationTypes};
 ---
-<BaseLayout title="Map · 三维知识地图"><div class="container">
+<BaseLayout title="Map · 三维知识地图" description="通过三维知识地图探索听觉科学，按知识层面筛选、搜索概念节点，并查看类型、表征、机制、测量、分析与应用之间的关联及对应词条。"><div class="container">
   <div class="page-intro map-intro"><div><div class="eyebrow">An atlas of hearing science</div><h1>知识，在连接中展开。</h1><p>旋转三维网络，穿行于声音、感知与技术之间。选择一个概念，查看它属于什么、描述什么，又怎样被研究。</p></div><div class="atlas-count"><strong>{concepts.length}</strong><span>概念</span><strong>{knowledgeRelations.length}</strong><span>知识关联</span></div></div>
   <section class="atlas" aria-label="三维听觉科学知识网络">
     <div class="atlas-toolbar">

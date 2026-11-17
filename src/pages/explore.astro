@@ -7,7 +7,7 @@ import { knowledgeAreas } from '../data/knowledge';
 import { url } from '../lib/paths';
 const concepts=(await getCollection('concepts')).filter(c=>c.data.kind!=='course').sort((a,b)=>a.data.order-b.data.order);
 ---
-<BaseLayout title="Explore · 知识体系"><div class="container">
+<BaseLayout title="Explore · 知识体系" description="按知识层面和学科领域浏览听觉科学词条，从声音物理量、耳蜗结构与感知功能，进入听觉测试、信号处理、计算模型和研究方法。"><div class="container">
 <div class="page-intro"><div class="eyebrow">A knowledge system for hearing science</div><h1>从声音，到功能与方法。</h1><p>{knowledgeAreas.length} 个知识层面组织 {concepts.length} 个百科词条。学科分类允许交叉，词条类型区分结构、物理量、感知功能、测试指标和模型。</p></div>
 <section class="section"><div class="knowledge-overview">{knowledgeAreas.map(a=><a href={'#'+a.id} style={'--area-color:'+a.color}><span>{a.english}</span><h2>{a.title}</h2><p>{a.note}</p><strong>{concepts.filter(c=>c.data.knowledge_area===a.id).length} 个词条 ↘</strong></a>)}</div></section>
 {knowledgeAreas.map(a=><section class="section" id={a.id}><div class="section-heading"><div><div class="eyebrow">{a.english}</div><h2>{a.title}</h2><p>{a.note}</p></div><a class="text-link" href={url('map')}>三维知识地图 ↗</a></div><div class="concept-grid">{concepts.filter(c=>c.data.knowledge_area===a.id).map(concept=><ConceptCard concept={concept}/>)}</div></section>)}
