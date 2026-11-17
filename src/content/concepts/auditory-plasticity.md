@@ -7,7 +7,7 @@ categories: ["neuroscience", "cochlear-implants"]
 tags: ["auditory-plasticity"]
 aliases: ["auditory neural plasticity", "听觉神经可塑性"]
 status: draft
-last_updated: "2026-10-09"
+last_updated: "2026-11-17"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -33,6 +33,8 @@ depth: in-depth
 **听觉可塑性**（auditory plasticity）是听觉系统在发育、声音经验、任务学习或感觉输入改变之后，调整突触效能、回路响应和信息利用方式的能力。它可以参与儿童听觉功能的形成、成人对声音线索的学习，以及听力下降或设备启用后的适应。变化既可能提高某项功能，也可能只是维持活动水平，或伴随不利的感知结果；“可塑”并不预先规定变化的方向和价值。[1](#ref-schreiner-map-2014)[2](#ref-plasticity-regulation-2020)
 
 本词条讨论从细胞与回路机制到行为结果的联系，重点区分发育与成人变化、经验依赖与输入减少后的调节，以及[人工耳蜗](../cochlear-implant/)使用中的学习。可塑性遍及[听觉通路](../auditory-pathway/)，并不只发生在[听觉皮层](../auditory-cortex/)；行为进步也可能包含注意、语言知识和决策策略的改变。只在一个层次观察到变化，尚不能确定另一个层次发生了什么。[1](#ref-schreiner-map-2014)[2](#ref-plasticity-regulation-2020)
+
+[听觉发育与敏感期](../auditory-development-and-sensitive-periods/)专门展开经验效应的时间约束，区分动物机制、儿童神经响应与语言结局，并说明年龄关联和因果推断的边界。
 
 例如，训练后能更好地辨别两个声音，说明该任务表现改变；训练后某个脑响应增大，说明测得的神经指标改变。若要进一步声称“训练通过重组听觉回路改善了日常交流”，还需建立机制、行为、迁移与实际使用之间的证据链。下面以这些不同问题组织机制与方法，避免把所有变化归入同一个“康复效果”。
 

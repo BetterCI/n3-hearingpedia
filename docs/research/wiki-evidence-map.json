@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-17",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1133,
+  "relations": 1140,
   "entries": [
     {
       "slug": "cochlea",
@@ -1518,8 +1518,8 @@
       "slug": "auditory-plasticity",
       "knowledge_area": "biology",
       "kind": "mechanism",
-      "chinese_characters": 7918,
-      "body_characters": 13650,
+      "chinese_characters": 7971,
+      "body_characters": 13758,
       "sections": 11,
       "subsections": 18,
       "reference_ids": [
@@ -1549,6 +1549,7 @@
         "cochlear-implant",
         "auditory-pathway",
         "auditory-cortex",
+        "auditory-development-and-sensitive-periods",
         "tonotopy",
         "cochlear-implant-sound-perception",
         "neural-speech-tracking",
@@ -4256,8 +4257,8 @@
       "slug": "auditory-development",
       "knowledge_area": "biology",
       "kind": "mechanism",
-      "chinese_characters": 8815,
-      "body_characters": 14826,
+      "chinese_characters": 8874,
+      "body_characters": 14941,
       "sections": 12,
       "subsections": 26,
       "reference_ids": [
@@ -4307,6 +4308,7 @@
         "binaural-integration",
         "auditory-scene-analysis",
         "auditory-attention",
+        "auditory-development-and-sensitive-periods",
         "signal-detection-theory",
         "speech-reception-threshold",
         "hearing-aid",
@@ -7043,6 +7045,46 @@
         "speech-reception-threshold",
         "cochlear-implant-sound-perception",
         "hearing-aid"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "auditory-development-and-sensitive-periods",
+      "knowledge_area": "biology",
+      "kind": "mechanism",
+      "chinese_characters": 6169,
+      "body_characters": 10051,
+      "sections": 10,
+      "subsections": 21,
+      "reference_ids": [
+        "kral-critical-2013",
+        "dev-moore-2007",
+        "dev-partanen-2013",
+        "asp-barkat-2011",
+        "asp-kalish-2020",
+        "asp-chang-2003",
+        "dev-kral-2000",
+        "dev-maye-2002",
+        "dev-kuhl-2003",
+        "sharma-sensitive-2002",
+        "dev-ching-2017",
+        "dev-tomblin-2015",
+        "asp-bilateral-2026",
+        "dev-jcih-2019",
+        "dev-observer-1987",
+        "dev-buss-2017",
+        "bayazitov-adenosine-2024"
+      ],
+      "wiki_links": [
+        "auditory-development",
+        "auditory-plasticity",
+        "cochlea",
+        "speech-perception",
+        "auditory-brainstem-response",
+        "cochlear-implant-programming-and-mapping",
+        "spatial-hearing",
+        "speech-audiometry"
       ],
       "status": "draft",
       "depth": "in-depth"

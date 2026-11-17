@@ -1,3 +1,4 @@
+import { sensitivePeriodReferences } from './sensitive-period-references.ts';
 import { ciProgrammingReferences } from './ci-programming-references.ts';
 import { mandarinVowelsReferences } from './mandarin-vowels-references.ts';
 import { adaptivePsychophysicsReferences } from './adaptive-psychophysics-references.ts';
@@ -127,6 +128,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...sensitivePeriodReferences,
   ...ciProgrammingReferences,
   ...mandarinVowelsReferences,
   ...adaptivePsychophysicsReferences,

@@ -9,7 +9,7 @@ aliases: ["听觉发展", "auditory maturation", "development of hearing"]
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-10-10"
+last_updated: "2026-11-17"
 literature_checked_at: "2026-10-10"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -186,6 +186,8 @@ Leibold 等使用相同的观察者检测范式比较婴儿、学龄儿童和成
 ## 经验、敏感期与声音输入受限
 
 ### 敏感期必须有对象与结局
+
+[听觉发育与敏感期](../auditory-development-and-sensitive-periods/)进一步比较动物回路、婴儿语音学习与人工耳蜗证据，并用教学模型说明经验时点、累计时长和测试年龄为何需要分别分析。
 
 敏感期（sensitive period）指某种经验在一定发展阶段具有较强或不同作用的时间范围。它不是所有听觉和语言技能共享的倒计时。“关键期”有时用于更严格的必要时间窗口，实际文献用法并不完全一致；需要回到刺激、对象和结局，而不只根据名称判断。
 

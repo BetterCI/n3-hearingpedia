@@ -41,6 +41,7 @@ export const introductoryPaths = [
 ];
 
 export const learningPaths = [
+  {id:'auditory-sensitive-periods',title:'听觉敏感期：从早期经验到功能随访',english:'Auditory development and sensitive periods',description:'先了解发育与可塑性，再区分窗口证据、输入恢复和儿童的实际功能。',slugs:['auditory-development','auditory-plasticity','auditory-development-and-sensitive-periods','cochlear-implant','cochlear-implant-programming-and-mapping','speech-audiometry']},
   {id:'ci-programming',title:'人工耳蜗调机：从参数到功能验证',english:'Cochlear implant programming and validation',description:'理解系统与编码，分清上下限、客观和行为证据，再用听觉表现验证个人MAP。',slugs:['cochlear-implant','cochlear-implant-coding-strategies','dynamic-range','cochlear-implant-programming-and-mapping','cochlear-implant-sound-perception','speech-audiometry']},
   { id:'mandarin-vowels', title:'普通话元音与韵母：从拼写到动态声学', english:'Mandarin vowels and finals', description:'区分元音与韵母，恢复拼音分析形式，再理解共振峰轨迹、声调和听者识别。', slugs:['phonetics','mandarin-consonants','mandarin-vowels-and-finals','formant','spectrogram','mandarin-lexical-tone','speech-perception'] },
   { id: "adaptive-measurement", title: "从反应曲线到自适应听觉测量", english: "Adaptive auditory measurement", description: "定义任务、目标概率与刺激坐标，再理解选点、停止、估计和误差验证。", slugs: ["psychoacoustics", "signal-detection-theory", "psychometric-function", "adaptive-psychophysical-measurement", "speech-reception-threshold", "temporal-resolution"] },

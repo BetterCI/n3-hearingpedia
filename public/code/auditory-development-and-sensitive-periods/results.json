@@ -1,0 +1,76 @@
+{
+  "data_type": "synthetic teaching model, not clinical data",
+  "weight": {
+    "baseline": 0.2,
+    "amplitude": 0.8,
+    "center": 3,
+    "scale": 2,
+    "time_unit": "arbitrary, NOT human age"
+  },
+  "intervals": [
+    [
+      2.0,
+      4.0
+    ],
+    [
+      6.0,
+      8.0
+    ]
+  ],
+  "raw_input": [
+    2,
+    2
+  ],
+  "weighted_input": [
+    1.8760992200017355,
+    0.4474846080903897
+  ],
+  "analytic_integrals": [
+    1.8760992205209357,
+    0.44748460798820777
+  ],
+  "design_comparison": {
+    "fixed_test_age": {
+      "start_age": [
+        1.0,
+        3.0
+      ],
+      "test_age": [
+        6.0,
+        6.0
+      ],
+      "experience_years": [
+        5.0,
+        3.0
+      ],
+      "output": [
+        160.0,
+        120.0
+      ]
+    },
+    "fixed_experience": {
+      "start_age": [
+        1.0,
+        3.0
+      ],
+      "test_age": [
+        4.0,
+        6.0
+      ],
+      "experience_years": [
+        3.0,
+        3.0
+      ],
+      "output": [
+        100.0,
+        120.0
+      ]
+    }
+  },
+  "checks": [
+    "numeric quadrature matches independent erf integral within 1e-8",
+    "equal raw input and positive later weight",
+    "both age identities",
+    "comparison outputs 160/120 and 100/120"
+  ]
+}

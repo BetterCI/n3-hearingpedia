@@ -15,6 +15,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('auditory-development-and-sensitive-periods','auditory-development','related','敏感期研究经验效应如何随发育阶段改变。',2),
+  link('auditory-development-and-sensitive-periods','auditory-plasticity','related','发育阶段的经验依赖与跨年龄学习有不同条件。',2),
+  link('auditory-development-and-sensitive-periods','auditory-cortex','related','皮层与丘脑皮层回路提供窗口机制的实验入口。',2),
+  link('auditory-development-and-sensitive-periods','cochlear-implant','related','植入后的神经与功能结局用于研究输入恢复的时序。',2),
+  link('auditory-development-and-sensitive-periods','cochlear-implant-programming-and-mapping','related','有效输入依赖持续验证，不能只看手术日期。',2),
+  link('auditory-development-and-sensitive-periods','speech-perception','related','婴儿语音经验揭示特定输入与学习的关系。',2),
+  link('auditory-development-and-sensitive-periods','spatial-hearing','related','双耳经验历史与定位结局需要独立评价。',2),
   link('cochlear-implant-programming-and-mapping','cochlear-implant','related','个体程序连接植入系统、测量和实际使用。',2),
   link('cochlear-implant-programming-and-mapping','cochlear-implant-coding-strategies','related','编码策略与个人刺激配置共同决定输入实现。',2),
   link('cochlear-implant-programming-and-mapping','cochlear-implant-sound-perception','related','音质和日常感受属于调机验证的独立维度。',2),
