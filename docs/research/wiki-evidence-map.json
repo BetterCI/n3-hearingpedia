@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-17",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1126,
+  "relations": 1133,
   "entries": [
     {
       "slug": "cochlea",
@@ -306,8 +306,8 @@
       "slug": "cochlear-implant",
       "knowledge_area": "technology",
       "kind": "technology",
-      "chinese_characters": 4930,
-      "body_characters": 9183,
+      "chinese_characters": 4986,
+      "body_characters": 9308,
       "sections": 10,
       "subsections": 23,
       "reference_ids": [
@@ -348,6 +348,7 @@
         "temporal-envelope",
         "temporal-limits-encoder",
         "f0-in-tfs",
+        "cochlear-implant-programming-and-mapping",
         "dynamic-range",
         "channel-interaction",
         "tonotopy",
@@ -363,7 +364,8 @@
         "vocoder",
         "get-vocoder"
       ],
-      "status": "draft"
+      "status": "draft",
+      "depth": "in-depth"
     },
     {
       "slug": "temporal-fine-structure",
@@ -7002,6 +7004,44 @@
         "spectrogram",
         "confusion-matrix",
         "speech-perception",
+        "hearing-aid"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "cochlear-implant-programming-and-mapping",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 6626,
+      "body_characters": 10815,
+      "sections": 10,
+      "subsections": 22,
+      "reference_ids": [
+        "cip-aaa-2019",
+        "cip-asha-portal",
+        "zeng-2008",
+        "cip-vaerenberg-2014",
+        "cip-mueller-2025",
+        "cip-cochlear-pulse-2024",
+        "cip-saoji-2021",
+        "cip-devos-2018",
+        "cip-holder-esrt-2023",
+        "cip-holder-mean-2025",
+        "lien-eni-2025",
+        "abf-rct-2026",
+        "cip-morton-remote-2025",
+        "cip-zhou-phase-2020"
+      ],
+      "wiki_links": [
+        "cochlear-implant-coding-strategies",
+        "cochlear-implant",
+        "channel-interaction",
+        "tonotopy",
+        "pure-tone-audiometry",
+        "speech-audiometry",
+        "speech-reception-threshold",
+        "cochlear-implant-sound-perception",
         "hearing-aid"
       ],
       "status": "draft",

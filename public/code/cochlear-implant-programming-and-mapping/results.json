@@ -1,0 +1,69 @@
+{
+  "data_type": "synthetic teaching data; not a clinical recommendation",
+  "mapping": {
+    "T": 20,
+    "U": 100,
+    "input_example": 0.25,
+    "linear_output": 40,
+    "sqrt_output": 60,
+    "channel_lower_arbitrary_units": [
+      18.0,
+      22.0,
+      16.0,
+      25.0,
+      20.0,
+      28.0,
+      21.0,
+      17.0
+    ],
+    "channel_upper_arbitrary_units": [
+      78.0,
+      84.0,
+      72.0,
+      90.0,
+      81.0,
+      96.0,
+      87.0,
+      77.0
+    ]
+  },
+  "pulses": {
+    "current_mA": [
+      0.3,
+      0.15
+    ],
+    "phase_duration_us": [
+      50.0,
+      100.0
+    ],
+    "interphase_gap_us": 10.0,
+    "charge_per_phase_nC": [
+      15.0,
+      15.0
+    ],
+    "net_biphasic_charge_nC": [
+      0.0,
+      0.0
+    ],
+    "event_duration_us": [
+      110.0,
+      210.0
+    ]
+  },
+  "sequential_timing": {
+    "N": 6,
+    "r_per_second": 1000,
+    "occupied_fraction": [
+      0.6599999999999999,
+      1.26
+    ],
+    "assumptions": "non-overlapping rectangular biphasic events; no other overhead"
+  },
+  "checks": {
+    "map_endpoints": true,
+    "map_monotonicity": true,
+    "equal_phase_charge": true,
+    "balanced_biphasic_charge": true,
+    "time_budget": true
+  }
+}

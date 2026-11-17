@@ -8,7 +8,7 @@ tags: [electric-hearing, speech-processor, electrode-array, electrode-neural-int
 aliases: [CI, cochlear implants, 电听觉, 耳蜗植入, 人工耳蜗系统]
 status: draft
 depth: in-depth
-last_updated: "2026-10-05"
+last_updated: "2026-11-17"
 literature_checked_at: "2026-10-05"
 authors: ["AI 辅助初稿"]
 references: ["zeng-2008","wilson-1991","friesen-2001","zhou-tle-2022","zhou-f0intfs-2023","fda-ci-overview-2023","nidcd-ci-2024","buchman-ci-2020","niparko-language-2010","fda-ssd-ahl-2019","ssd-localization-2026","roland-hybrid-2016","sladen-hp-2025","mo-maxima-2023","lien-eni-2025","anatomy-fitting-2026","mo-ci-adaptation-2026","carlyon-temporal-2025","zhou-consonants-2026","bance-bilateral-2025","kan-2013","ci-mixed-itd-2025","abf-rct-2026","guerit-focusing-2026","ci-deepace-2023","ci-speech-music-2026","kan-tle-2021"]
@@ -105,6 +105,8 @@ EAS 利用可保留的低频声学信息与电刺激提供的信息互补。Hybr
 许多策略以[时域包络](../temporal-envelope/)控制输出幅度。精细结构系列及研究中的 [TLE](../temporal-limits-encoder/)、[F0inTFS](../f0-in-tfs/)尝试提供更可利用的周期性或事件线索。TLE 有植入者音高数据，F0inTFS 此处所引研究为正常听力者声码器验证，证据层级须分开。[4](#ref-zhou-tle-2022)[5](#ref-zhou-f0intfs-2023)[27](#ref-kan-tle-2021)
 
 ### MAP 与电动态范围
+
+[人工耳蜗编程与调机](../cochlear-implant-programming-and-mapping/)进一步说明个人MAP的建立与随访：区分行为阈值、上限响度、阻抗、ECAP和eSRT的用途，并通过声场、言语及日常体验验证参数调整。
 
 个体 MAP 将频带、刺激配置、阈值和舒适水平等组织为处理器配置。声学输入范围与电刺激[动态范围](../dynamic-range/)不是同一标度；幅度压缩、相宽、刺激速率和电极配置共同影响响度与可用信息。改变 maxima 或速率后，映射和等响条件也可能改变。[1](#ref-zeng-2008)[14](#ref-mo-maxima-2023)
 

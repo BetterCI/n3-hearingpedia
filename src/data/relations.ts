@@ -15,6 +15,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('cochlear-implant-programming-and-mapping','cochlear-implant','related','个体程序连接植入系统、测量和实际使用。',2),
+  link('cochlear-implant-programming-and-mapping','cochlear-implant-coding-strategies','related','编码策略与个人刺激配置共同决定输入实现。',2),
+  link('cochlear-implant-programming-and-mapping','cochlear-implant-sound-perception','related','音质和日常感受属于调机验证的独立维度。',2),
+  link('cochlear-implant-programming-and-mapping','dynamic-range','related','声学输入范围与电刺激上下限使用不同标度。',2),
+  link('cochlear-implant-programming-and-mapping','channel-interaction','related','电极选择和参数调整需考虑重叠及信息损失。',2),
+  link('cochlear-implant-programming-and-mapping','tonotopy','related','频率分配与电极位置联系个体化映射。',2),
+  link('cochlear-implant-programming-and-mapping','speech-audiometry','related','用规定材料和听觉配置验证功能变化。',2),
   link('mandarin-vowels-and-finals','mandarin-consonants','related','元音与韵母配合辅音构成完整音节分析。',2),
   link('mandarin-vowels-and-finals','mandarin-lexical-tone','related','韵母的音段组成与声调类别需分别描述。',2),
   link('mandarin-vowels-and-finals','formant','related','共振峰空间和动态轨迹描述部分元音音质信息。',2),
