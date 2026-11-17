@@ -15,6 +15,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link('mandarin-vowels-and-finals','mandarin-consonants','related','元音与韵母配合辅音构成完整音节分析。',2),
+  link('mandarin-vowels-and-finals','mandarin-lexical-tone','related','韵母的音段组成与声调类别需分别描述。',2),
+  link('mandarin-vowels-and-finals','formant','related','共振峰空间和动态轨迹描述部分元音音质信息。',2),
+  link('mandarin-vowels-and-finals','phonetics','related','区分拼写、实际音值和音位分析。',2),
+  link('mandarin-vowels-and-finals','chinese-phonetics','related','普通话韵母提供汉语声韵调分析的具体入口。',2),
+  link('mandarin-vowels-and-finals','speech-perception','related','元音识别连接声学线索、语言类别和任务。',2),
+  link('mandarin-vowels-and-finals','spectrogram','related','结合语谱图核查分段和共振峰跟踪。',2),
   link("adaptive-psychophysical-measurement","psychometric-function","related","反应曲线提供阈值定义与自适应选点模型。",2),
   link("adaptive-psychophysical-measurement","psychoacoustics","related","以行为反应安排后续刺激。",2),
   link("adaptive-psychophysical-measurement","speech-reception-threshold","related","选点和计分规则共同决定追踪的言语阈值。",2),

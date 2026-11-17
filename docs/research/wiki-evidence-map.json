@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-17",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1119,
+  "relations": 1126,
   "entries": [
     {
       "slug": "cochlea",
@@ -2247,8 +2247,8 @@
       "slug": "mandarin-consonants",
       "knowledge_area": "mandarin-consonants",
       "kind": "linguistic",
-      "chinese_characters": 3664,
-      "body_characters": 7279,
+      "chinese_characters": 3739,
+      "body_characters": 7411,
       "sections": 7,
       "subsections": 11,
       "reference_ids": [
@@ -2261,8 +2261,10 @@
         "consonant-place-of-articulation",
         "consonant-manner-of-articulation",
         "aspiration",
-        "voicing"
+        "voicing",
+        "mandarin-vowels-and-finals"
       ],
+      "status": "draft",
       "depth": "standard"
     },
     {
@@ -6963,6 +6965,44 @@
         "wide-dynamic-range-compression",
         "frequency-resolution",
         "temporal-resolution"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
+    },
+    {
+      "slug": "mandarin-vowels-and-finals",
+      "knowledge_area": "perception",
+      "kind": "linguistic",
+      "chinese_characters": 6188,
+      "body_characters": 11316,
+      "sections": 10,
+      "subsections": 19,
+      "reference_ids": [
+        "lee-zee-standard-chinese-2003",
+        "hanyu-pinyin-scheme",
+        "phonetics-vowels",
+        "phonetics-phonemes",
+        "ipa-chart-official",
+        "cp-vowels-2001",
+        "cp-rhotics-2024",
+        "mv-hsieh-apical-2026",
+        "formant-kent",
+        "formant-burg",
+        "formant-normalization",
+        "mv-yang-compound-2017",
+        "mv-yang-nlfc-2018"
+      ],
+      "wiki_links": [
+        "phonetics",
+        "mandarin-consonants",
+        "mandarin-lexical-tone",
+        "chinese-phonetics",
+        "formant",
+        "fundamental-frequency",
+        "spectrogram",
+        "confusion-matrix",
+        "speech-perception",
+        "hearing-aid"
       ],
       "status": "draft",
       "depth": "in-depth"

@@ -1,0 +1,44 @@
+{
+  "data_type": "synthetic teaching example; no participant measurements",
+  "samples_per_trajectory": 11,
+  "anchors_F1_F2_Hz": {
+    "衣": [
+      300.0,
+      2400.0
+    ],
+    "鱼": [
+      300.0,
+      1900.0
+    ],
+    "乌": [
+      350.0,
+      800.0
+    ],
+    "阿": [
+      800.0,
+      1300.0
+    ]
+  },
+  "midpoint_F1_F2_Hz": [
+    550.0,
+    1700.0
+  ],
+  "path_length_Hz": {
+    "A": 1077.0329614269008,
+    "B": 1077.0329614269008
+  },
+  "duration_seconds": {
+    "A": 0.2,
+    "B": 0.3
+  },
+  "mean_path_rate_Hz_per_second": {
+    "A": 5385.1648071345035,
+    "B": 3590.109871423003
+  },
+  "checks": {
+    "same_midpoint": true,
+    "opposite_direction": true,
+    "same_path_length": true,
+    "length_equals_endpoint_distance": true
+  }
+}

@@ -8,7 +8,7 @@ tags: ["普通话", "辅音", "声母", "零声母", "国际音标", "IPA", "拼
 aliases: ["普通话辅音系统", "Mandarin consonant system", "普通话声母", "声母表", "普通话声母表", "零声母", "Mandarin syllable initials", "Mandarin initial consonants", "Mandarin initials", "国际音标", "IPA", "普通话辅音的国际音标", "普通话辅音音标", "Mandarin consonant IPA", "IPA transcription of Mandarin consonants", "拼音与国际音标"]
 batch: 3
 status: "draft"
-last_updated: "2026-10-09"
+last_updated: "2026-11-17"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -142,6 +142,8 @@ ji、qi、xi 中的 i 通常表示高前不圆唇元音 [i]；zi、ci、si 及 z
 输出是一份音节转写和分类记录，而不是听力得分。若两位观察者独立标注，可以记录共同能够判断的音节中标签一致的比例，并单列无法判断的项目；不一致时回听原音，检查是否混用了拼音与 IPA、是否遗漏送气标记或标错音节位置。保持说话人、韵母、声调和语速可比，有助于把目标辅音区别与语境变化分开。单凭宽式符号无法确定所有精细舌位，含糊的发音应保留说明，而非强填一个类别。[1](#ref-lee-zee-standard-chinese-2003)[2](#ref-ipa-chart-official)
 
 ## 教学与听觉研究中的应用
+
+完整音节还需要结合[普通话元音与韵母](../mandarin-vowels-and-finals/)理解：韵母可以包含介音和鼻韵尾，拼音字母不能逐个替换为固定音值。该词条进一步说明 iou/uei/uen 的省写、ü 的省点，以及元音共振峰和动态过渡的测量。
 
 教学中可以先隐藏文字听例字，再展示拼音和音标核对。若把 b 写成 [b]，需要纠正的是记写体系与清浊概念；若将“昂”的 ng 放入声母表，需要纠正的是音节位置；若把 ju 的 u 当成 [u]，需要恢复 ü 的拼写规则。三种错误涉及不同知识，不能都归为“辅音没有听清”。
 

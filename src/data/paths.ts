@@ -41,6 +41,7 @@ export const introductoryPaths = [
 ];
 
 export const learningPaths = [
+  { id:'mandarin-vowels', title:'普通话元音与韵母：从拼写到动态声学', english:'Mandarin vowels and finals', description:'区分元音与韵母，恢复拼音分析形式，再理解共振峰轨迹、声调和听者识别。', slugs:['phonetics','mandarin-consonants','mandarin-vowels-and-finals','formant','spectrogram','mandarin-lexical-tone','speech-perception'] },
   { id: "adaptive-measurement", title: "从反应曲线到自适应听觉测量", english: "Adaptive auditory measurement", description: "定义任务、目标概率与刺激坐标，再理解选点、停止、估计和误差验证。", slugs: ["psychoacoustics", "signal-detection-theory", "psychometric-function", "adaptive-psychophysical-measurement", "speech-reception-threshold", "temporal-resolution"] },
   { id:'gene-therapy',title:'从分子病因理解听觉修复与疗效评价',english:'Gene therapy and hearing outcomes',description:'从听力损失与内毛细胞突触进入基因治疗，再分别评价神经响应、行为听阈和言语功能。',slugs:['hearing-loss','inner-hair-cell','gene-therapy-for-hearing-loss','auditory-brainstem-response','pure-tone-audiometry','speech-intelligibility'] },
 
