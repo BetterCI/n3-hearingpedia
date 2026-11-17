@@ -7,6 +7,7 @@ import { references } from '../data/references';
 import packageInfo from '../../package.json';
 import { summarizeSite } from '../lib/site-statistics';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import WechatFollow from '../components/WechatFollow.astro';
 import { url } from '../lib/paths';
 const concepts = await getCollection('concepts');
 const stats = summarizeSite(concepts);
@@ -18,4 +19,15 @@ const stats = summarizeSite(concepts);
   <h2>AI 协助整理，专业审阅完善内容</h2><p>当前有 {stats.draft} 篇待审阅、{stats.reviewed} 篇已审阅、{stats.stable} 篇稳定、{stats.needsUpdate} 篇待更新词条。文献核验与扩充不等于专家认可；Reviewed 和 Stable 状态必须对应实际审阅者和日期。重要论断修改后，应重新检查证据与审阅记录。</p>
   <h2>当前版本</h2><p>v{packageInfo.version} 按百科结构组织 {concepts.length} 个词条，提供 {Object.keys(references).length} 项参考来源、{domains.length} 个学科入口、{knowledgeAreas.length} 个知识层面、{learningPaths.length} 条学习路径、动态三维知识地图和本地搜索。文献更新保留选词依据与核验范围；自动更新和互动实验尚在路线图中。</p><p><a href={url('contribute')}>参与贡献与审阅</a> · <a href={url('learn')}>选择学习路径</a> · <a href="https://github.com/BetterCI/n3-hearingpedia">GitHub 源码</a></p>
   <p>本版更新：新增外耳与中耳传声、双耳强度差、声导抗与鼓室测量、真耳测量四篇深度词条，配16幅原创教学图，并补充文献、知识关系及完整学习路线。<a href="https://github.com/BetterCI/n3-hearingpedia/blob/main/CHANGELOG.md">查看更新记录</a>。</p>
-</div></div></BaseLayout>
+</div>
+<section class="about-wechat" aria-labelledby="about-wechat-title" data-pagefind-ignore>
+  <h2 id="about-wechat-title">关注 n³ 听觉实验室</h2>
+  <p>欢迎通过微信公众号关注 n³ 听觉实验室。</p>
+  <WechatFollow />
+</section>
+</div></BaseLayout>
+<style>
+  .about-wechat{margin-top:40px;padding-top:28px;border-top:1px solid var(--line)}
+  .about-wechat h2{font-size:22px;line-height:1.5}
+  .about-wechat>p{margin:12px 0 20px;color:var(--muted);font-size:14px}
+</style>

@@ -1,0 +1,29 @@
+---
+import { asset } from '../lib/paths';
+interface Props { compact?: boolean; }
+const { compact = false } = Astro.props;
+---
+<div class:list={['wechat-follow', { compact }]} data-pagefind-ignore>
+  <a class="wechat-qr" href={asset('images/n3-auditory-lab-wechat.jpg')} data-wechat-open aria-label="查看 n³ 听觉实验室公众号二维码大图" aria-haspopup="dialog" aria-controls="wechat-dialog">
+    <img src={asset('images/n3-auditory-lab-wechat.jpg')} alt="n³ 听觉实验室微信公众号二维码" width="430" height="430" loading="lazy" />
+  </a>
+  <div class="wechat-caption">
+    <strong>n³ 听觉实验室</strong>
+    <span>微信公众号 · 扫码关注</span>
+    <a href={asset('images/n3-auditory-lab-wechat.jpg')} data-wechat-open aria-haspopup="dialog" aria-controls="wechat-dialog">查看二维码大图 ↗</a>
+  </div>
+</div>
+<style>
+  .wechat-follow{display:flex;align-items:center;flex-wrap:wrap;gap:20px}
+  .wechat-qr{display:block;flex:none;width:172px;padding:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff}
+  .wechat-qr img{display:block;width:100%;height:auto}
+  .wechat-caption{display:flex;flex-direction:column;gap:6px;line-height:1.7}
+  .wechat-caption strong{font-size:15px;font-weight:600;color:var(--ink)}
+  .wechat-caption span{font-size:12px;color:var(--muted)}
+  .wechat-caption a{font-size:12px;color:var(--accent);text-decoration:none}
+  .wechat-caption a:hover{text-decoration:underline;text-underline-offset:3px}
+  .compact{gap:14px}
+  .compact .wechat-qr{width:132px}
+  .compact .wechat-caption strong{font-size:13px}
+  .compact .wechat-caption span,.compact .wechat-caption a{font-size:11px}
+</style>

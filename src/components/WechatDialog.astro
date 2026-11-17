@@ -1,0 +1,49 @@
+---
+import { asset } from '../lib/paths';
+---
+<dialog id="wechat-dialog" class="wechat-dialog" aria-labelledby="wechat-dialog-title" aria-describedby="wechat-dialog-hint" data-pagefind-ignore>
+  <div class="wechat-dialog-heading">
+    <h2 id="wechat-dialog-title">n³ 听觉实验室</h2>
+    <button type="button" class="wechat-close" aria-label="关闭公众号二维码" autofocus>×</button>
+  </div>
+  <p class="wechat-dialog-subtitle">微信公众号 · 扫码关注</p>
+  <img src={asset('images/n3-auditory-lab-wechat.jpg')} alt="n³ 听觉实验室微信公众号二维码" width="430" height="430" loading="lazy" />
+  <a class="button" href={asset('images/n3-auditory-lab-wechat.jpg')} download="n3-auditory-lab-wechat.jpg">保存二维码</a>
+  <p id="wechat-dialog-hint">使用微信扫一扫；手机上也可长按图片保存。</p>
+</dialog>
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('#wechat-dialog');
+  if (dialog && typeof dialog.showModal === 'function') {
+    document.querySelectorAll<HTMLAnchorElement>('[data-wechat-open]').forEach(link => {
+      link.addEventListener('click', event => {
+        if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        dialog.showModal();
+      });
+    });
+    dialog.querySelector<HTMLButtonElement>('.wechat-close')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        dialog.close();
+      }
+    });
+    dialog.addEventListener('click', event => {
+      if (event.target !== dialog) return;
+      const bounds = dialog.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
+    });
+  }
+</script>
+<style>
+  .wechat-dialog{position:fixed;inset:0;width:402px;max-width:calc(100vw - 32px);max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);margin:auto;padding:20px;border:1px solid #e1daed;border-radius:14px;background:#fff;color:var(--ink);box-shadow:0 24px 80px #21152f30;overflow:auto;text-align:center}
+  .wechat-dialog::backdrop{background:#25203770;backdrop-filter:blur(3px)}
+  .wechat-dialog-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left}
+  .wechat-dialog-heading h2{margin:0;font-size:18px;line-height:1.5}
+  .wechat-close{display:grid;place-items:center;flex:none;width:36px;height:36px;padding:0;border:0;border-radius:6px;background:transparent;color:var(--muted);font:26px/1 system-ui;cursor:pointer}
+  .wechat-close:hover{background:var(--accent-light)}
+  .wechat-dialog-subtitle{margin:8px 0 4px;font-size:12px;color:var(--muted)}
+  .wechat-dialog>img{display:block;width:100%;height:auto;margin:0 auto 14px}
+  .wechat-dialog .button{color:var(--accent);font-size:12px}
+  #wechat-dialog-hint{margin:12px 0 0;font-size:11px;line-height:1.8;color:var(--muted)}
+</style>

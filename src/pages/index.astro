@@ -7,7 +7,7 @@ import RandomConceptFigure from '../components/RandomConceptFigure.astro';
 import DepthBadge from '../components/DepthBadge.astro';
 import FeedbackPanel from '../components/FeedbackPanel.astro';
 import RecruitmentNotice from '../components/RecruitmentNotice.astro';
-import { url } from '../lib/paths';
+import { url, asset } from '../lib/paths';
 import { introductoryPaths } from '../data/paths';
 import IntroPathCards from '../components/IntroPathCards.astro';
 import { knowledgeAreas } from '../data/knowledge';
@@ -26,10 +26,11 @@ const featured = homepageFeaturedSlugs.map(slug => {
 ---
 <BaseLayout>
   <div class="container">
-    <aside class="partner-site" aria-label="合作网站">
+    <aside class="partner-site" aria-label="合作网站与微信公众号">
       <span class="partner-label">合作网站</span>
       <a href="https://betterci.github.io/hearing-paper-monitor/" target="_blank" rel="noopener noreferrer">听觉研究论文追踪 <span aria-hidden="true">↗</span></a>
       <span class="partner-description">关注听觉科学的新近研究</span>
+      <a class="wechat-entry" href={asset('images/n3-auditory-lab-wechat.jpg')} data-wechat-open aria-haspopup="dialog" aria-controls="wechat-dialog">微信公众号</a>
     </aside>
     <RecruitmentNotice />
     <section class="hero">
@@ -87,8 +88,9 @@ const featured = homepageFeaturedSlugs.map(slug => {
   .partner-label{color:var(--muted);font-size:11px}
   .partner-site a{color:var(--accent);font-weight:600}
   .partner-site a:hover{text-decoration:underline}
-  .partner-description{color:var(--muted);margin-left:auto;font-size:11px}
-  @media(max-width:760px){.partner-site{gap:6px 14px;padding:11px 14px;margin-top:16px}.partner-description{flex-basis:100%;margin-left:0}}
+  .partner-description{color:var(--muted);font-size:11px}
+  .wechat-entry{margin-left:auto;border-left:1px solid #dcd5eb;padding-left:20px;white-space:nowrap}
+  @media(max-width:760px){.partner-site{gap:6px 14px;padding:11px 14px;margin-top:16px}.partner-description{flex-basis:100%;order:1}.wechat-entry{padding-left:0;border-left:0}}
   .theme-entry-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
   .theme-entry{display:flex;flex-direction:column;padding:21px;border:1px solid var(--line);border-top:3px solid var(--area-color);border-radius:9px;background:var(--surface)}
   .theme-entry>span{font-size:10px;color:var(--muted)}.theme-entry h3{font-size:18px;margin:12px 0}.theme-entry p{font-size:13px;line-height:1.8;color:var(--muted);margin-bottom:18px}.theme-entry strong{font-size:12px;font-weight:500;color:var(--accent);margin-top:auto}
