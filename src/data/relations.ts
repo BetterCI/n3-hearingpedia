@@ -15,6 +15,13 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  {"source": "coherence-and-correlation", "target": "stochastic-processes", "type": "related", "note": "从二阶统计量与平稳性理解相关和互谱。", "strength": 2},
+  {"source": "coherence-and-correlation", "target": "spectrum-and-power-spectral-density", "type": "related", "note": "自谱和复互谱构成相干的归一化基础。", "strength": 2},
+  {"source": "coherence-and-correlation", "target": "binaural-hearing", "type": "related", "note": "区分耳间声压相关、包络相关与知觉任务。", "strength": 2},
+  {"source": "coherence-and-correlation", "target": "neural-speech-tracking", "type": "related", "note": "区分原始相关与独立数据上的模型预测相关。", "strength": 2},
+  {"source": "coherence-and-correlation", "target": "nonlinearity-and-distortion", "type": "related", "note": "确定性非线性依赖可以具有零互相关和零相干。", "strength": 2},
+  {"source": "coherence-and-correlation", "target": "electroencephalography", "type": "related", "note": "共同参考与体积传导影响神经相干解释。", "strength": 2},
+
   {"source": "nonlinearity-and-distortion", "target": "signals-and-systems", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},
   {"source": "nonlinearity-and-distortion", "target": "dynamic-range", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},
   {"source": "nonlinearity-and-distortion", "target": "electroacoustic-transducer", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},

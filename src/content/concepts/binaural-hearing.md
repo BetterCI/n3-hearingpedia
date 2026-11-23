@@ -25,6 +25,8 @@ order: 49
 
 本词条介绍双耳输入、比较机制、主要知觉现象、评价方法和计算模型。[双耳整合](../binaural-integration/)进一步讨论两耳互补信息的组合，[双耳时间差](../interaural-time-difference/)讨论特定声学线索，[双耳可懂度级差](../binaural-intelligibility-level-difference/)讨论规定测试条件间的识别阈值差。拥有两只可工作的耳朵、佩戴两个设备、听成一个声音，以及噪声中言语成绩提高，分别属于不同层面的描述，不能相互替代。[6](#ref-binaural-hearing-kan)[7](#ref-binaural-hearing-jelfs)
 
+[相干与相关](../coherence-and-correlation/)集中说明耳间声压与包络相关、延迟符号及频域相干之间的区别；不同信号表示的指标不能直接互换。
+
 ## 双耳听觉的范围与基本概念
 
 ### 两耳输入与跨耳比较

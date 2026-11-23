@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-11-17",
+  "date": "2026-11-23",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1153,
+  "relations": 1159,
   "entries": [
     {
       "slug": "cochlea",
@@ -1451,8 +1451,8 @@
       "slug": "neural-speech-tracking",
       "knowledge_area": "methods",
       "kind": "analysis",
-      "chinese_characters": 9190,
-      "body_characters": 19001,
+      "chinese_characters": 9237,
+      "body_characters": 19086,
       "sections": 9,
       "subsections": 33,
       "reference_ids": [
@@ -1503,6 +1503,7 @@
         "listening-effort",
         "auditory-plasticity",
         "speech-reception-threshold",
+        "coherence-and-correlation",
         "temporal-envelope",
         "fundamental-frequency",
         "formant",
@@ -2005,8 +2006,8 @@
       "knowledge_area": "perception",
       "kind": "function",
       "status": "draft",
-      "chinese_characters": 9135,
-      "body_characters": 18387,
+      "chinese_characters": 9182,
+      "body_characters": 18186,
       "sections": 11,
       "subsections": 35,
       "reference_ids": [
@@ -2045,6 +2046,7 @@
         "binaural-integration",
         "interaural-time-difference",
         "binaural-intelligibility-level-difference",
+        "coherence-and-correlation",
         "cochlea",
         "temporal-envelope",
         "temporal-fine-structure",
@@ -6321,8 +6323,8 @@
     },
     {
       "slug": "stochastic-processes",
-      "chinese_characters": 6654,
-      "body_characters": 16583,
+      "chinese_characters": 6699,
+      "body_characters": 16665,
       "sections": 17,
       "subsections": 21,
       "reference_ids": [
@@ -6349,6 +6351,7 @@
         "signals-and-systems",
         "digital-signal-processing",
         "probability-theory",
+        "coherence-and-correlation",
         "linear-algebra",
         "calculus",
         "mathematical-statistics",
@@ -7161,6 +7164,45 @@
         "basilar-membrane",
         "otoacoustic-emissions",
         "hearing-aid"
+      ]
+    },
+    {
+      "slug": "coherence-and-correlation",
+      "knowledge_area": "methods",
+      "kind": "analysis",
+      "chinese_characters": 5830,
+      "body_characters": 10762,
+      "sections": 11,
+      "subsections": 16,
+      "reference_ids": [
+        "corr-pearson",
+        "corr-nist",
+        "corr-correlate",
+        "sp-csd",
+        "sp-coherence",
+        "spectrum-welch-1967",
+        "corr-mscohere",
+        "corr-bastos",
+        "corr-culling",
+        "corr-durlach",
+        "corr-brown",
+        "binaural-hearing-correlation",
+        "corr-nolte",
+        "auditory-attention-mtrf"
+      ],
+      "wiki_links": [
+        "stochastic-processes",
+        "spectrum-and-power-spectral-density",
+        "binaural-hearing",
+        "neural-speech-tracking",
+        "nonlinearity-and-distortion",
+        "temporal-envelope",
+        "temporal-fine-structure",
+        "interaural-time-difference",
+        "interaural-level-difference",
+        "masking",
+        "electroencephalography",
+        "auditory-attention-decoding"
       ]
     }
   ]

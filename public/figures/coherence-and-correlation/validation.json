@@ -1,0 +1,15 @@
+{
+  "seed": 20261123,
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "lag_peak_samples": 12,
+  "zero_lag_r": 0.005980469463148007,
+  "linear_filter_coherence_mean_absolute_error": 0.010353241818334375,
+  "estimated_delay_seconds": 0.01200000234066609,
+  "single_fft_max_error": 1.1102230246251565e-15,
+  "independent_noise_mean_coherence": 0.008817546607125299,
+  "symmetric_square_pearson_r": -1.2109435340129875e-16,
+  "gaussian_square_mean_coherence": 0.008259245323106828,
+  "assertions": "passed",
+  "note": "Synthetic demonstration, not experimental evidence or a significance test."
+}
