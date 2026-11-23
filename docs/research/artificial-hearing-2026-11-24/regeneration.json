@@ -1,0 +1,230 @@
+{
+  "key": "regeneration",
+  "query": "DOI:10.1093/pnasnexus/pgae445",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fpnasnexus%2Fpgae445&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "39411090",
+      "source": "MED",
+      "pmid": "39411090",
+      "pmcid": "PMC11477985",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11477985"
+        ]
+      },
+      "doi": "10.1093/pnasnexus/pgae445",
+      "title": "Reprogramming with &lt;i&gt;Atoh1&lt;/i&gt;, &lt;i&gt;Gfi1&lt;/i&gt;, and &lt;i&gt;Pou4f3&lt;/i&gt; promotes hair cell regeneration in the adult organ of Corti.",
+      "authorString": "McGovern MM, Ghosh S, Dupuis C, Walters BJ, Groves AK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "McGovern MM",
+            "lastName": "McGovern",
+            "firstName": "Melissa M",
+            "initials": "MM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2254-8782"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghosh S",
+            "lastName": "Ghosh",
+            "firstName": "Sumana",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of Mississippi Medical Center, Jackson, MS 39216, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dupuis C",
+            "lastName": "Dupuis",
+            "firstName": "Colleen",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA."
+                },
+                {
+                  "affiliation": "Program in Genetics and Genomics, Baylor College of Medicine, Houston, TX 77030, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walters BJ",
+            "lastName": "Walters",
+            "firstName": "Bradley J",
+            "initials": "BJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of Mississippi Medical Center, Jackson, MS 39216, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Groves AK",
+            "lastName": "Groves",
+            "firstName": "Andrew K",
+            "initials": "AK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0784-7998"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030, USA."
+                },
+                {
+                  "affiliation": "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA."
+                },
+                {
+                  "affiliation": "Program in Genetics and Genomics, Baylor College of Medicine, Houston, TX 77030, USA."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0784-7998"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2254-8782"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "10",
+        "volume": "3",
+        "journalIssueId": 3835451,
+        "dateOfPublication": "2024 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 2024,
+        "journal": {
+          "medlineAbbreviation": "PNAS Nexus",
+          "title": "PNAS nexus",
+          "essn": "2752-6542",
+          "issn": "2752-6542",
+          "nlmid": "9918367777906676",
+          "isoabbreviation": "PNAS Nexus"
+        },
+        "printPublicationDate": "2024-10-01"
+      },
+      "pubYear": "2024",
+      "pageInfo": "pgae445",
+      "abstractText": "Cochlear hair cells can be killed by loud noises, ototoxic drugs, and natural aging. Once lost, mammalian hair cells do not naturally regenerate, leading to permanent hearing loss. Since the mammalian cochlea lacks any intrinsic ability to regenerate, genetic reprogramming of cochlear supporting cells that lie adjacent to hair cells is a potential option for hearing restoration therapies. We targeted cochlear supporting cells with three hair cell transcription factors: <i>Atoh1</i>, or <i>Atoh1</i> + <i>Gfi1</i>, or <i>Atoh1</i> + <i>Gfi1</i> + <i>Pou4f3</i> and found that 1- and 2-factor reprogramming is not sufficient to reprogram adult supporting cells into hair cells. However, activation of all three hair cell transcription factors reprogrammed some adult supporting cells into hair cell-like cells. We found that killing endogenous hair cells significantly improved the ability of supporting cells to be reprogrammed and regenerated numerous hair cell-like cells throughout the length of the cochlea. These regenerated hair cell-like cells expressed myosin VIIa and parvalbumin, as well as the mature outer hair cell protein prestin, were innervated, expressed proteins associated with ribbon synapses, and formed rudimentary stereociliary bundles. Finally, we demonstrate that supporting cells remained responsive to transcription factor reprogramming for at least 6 weeks after hair cell damage, suggesting that hair cell reprogramming may be effective in the chronically deafened cochlea.",
+      "affiliation": "Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030, USA.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "R01 DC014832",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Hair cells",
+          "Reprogramming",
+          "inner ear"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1093/pnasnexus/pgae445"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1093/pnasnexus/pgae445"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11477985"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11477985?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 14,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-10-16",
+      "dateOfRevision": "2026-03-07",
+      "electronicPublicationDate": "2024-10-04",
+      "firstPublicationDate": "2024-10-04",
+      "firstIndexDate": "2024-10-16",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    }
+  ]
+}

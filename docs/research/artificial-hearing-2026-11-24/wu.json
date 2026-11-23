@@ -1,0 +1,342 @@
+{
+  "key": "wu",
+  "query": "DOI:10.1097/AUD.0000000000000672",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1097%2FAUD.0000000000000672&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "30379683",
+      "source": "MED",
+      "pmid": "30379683",
+      "pmcid": "PMC6491270",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6491270"
+        ]
+      },
+      "doi": "10.1097/aud.0000000000000672",
+      "title": "Efficacy and Effectiveness of Advanced Hearing Aid Directional and Noise Reduction Technologies for Older Adults With Mild to Moderate Hearing Loss.",
+      "authorString": "Wu YH, Stangl E, Chipara O, Hasan SS, DeVries S, Oleson J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wu YH",
+            "lastName": "Wu",
+            "firstName": "Yu-Hsiang",
+            "initials": "YH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8319-583X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Communication Sciences and Disorders, The University of Iowa, Iowa City, Iowa, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stangl E",
+            "lastName": "Stangl",
+            "firstName": "Elizabeth",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Communication Sciences and Disorders, The University of Iowa, Iowa City, Iowa, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chipara O",
+            "lastName": "Chipara",
+            "firstName": "Octav",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4729-0602"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, The University of Iowa, Iowa City, Iowa, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hasan SS",
+            "lastName": "Hasan",
+            "firstName": "Syed Shabih",
+            "initials": "SS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computer Science, The University of Iowa, Iowa City, Iowa, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "DeVries S",
+            "lastName": "DeVries",
+            "firstName": "Sean",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6902-9763"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biostatistics, The University of Iowa, Iowa City, Iowa, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oleson J",
+            "lastName": "Oleson",
+            "firstName": "Jacob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biostatistics, The University of Iowa, Iowa City, Iowa, USA."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4729-0602"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6902-9763"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8319-583X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "40",
+        "journalIssueId": 2831037,
+        "dateOfPublication": "2019 Jul/Aug",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "Ear Hear",
+          "title": "Ear and hearing",
+          "essn": "1538-4667",
+          "issn": "0196-0202",
+          "nlmid": "8005585",
+          "isoabbreviation": "Ear Hear"
+        },
+        "printPublicationDate": "2019-07-01"
+      },
+      "pubYear": "2019",
+      "pageInfo": "805-822",
+      "abstractText": "<h4>Objectives</h4>The purpose of the present study was to investigate the laboratory efficacy and real-world effectiveness of advanced directional microphones (DM) and digital noise reduction (NR) algorithms (i.e., premium DM/NR features) relative to basic-level DM/NR features of contemporary hearing aids (HAs). The study also examined the effect of premium HAs relative to basic HAs and the effect of DM/NR features relative to no features.<h4>Design</h4>Fifty-four older adults with mild-to-moderate hearing loss completed a single-blinded crossover trial. Two HA models, one a less-expensive, basic-level device (basic HA) and the other a more-expensive, advanced-level device (premium HA), were used. The DM/NR features of the basic HAs (i.e., basic features) were adaptive DMs and gain-reduction NR with fewer channels. In contrast, the DM/NR features of the premium HAs (i.e., premium features) included adaptive DMs and gain-reduction NR with more channels, bilateral beamformers, speech-seeking DMs, pinna-simulation directivity, reverberation reduction, impulse NR, wind NR, and spatial NR. The trial consisted of four conditions, which were factorial combinations of HA model (premium versus basic) and DM/NR feature status (on versus off). To blind participants regarding the HA technology, no technology details were disclosed and minimal training on how to use the features was provided. In each condition, participants wore bilateral HAs for 5 weeks. Outcomes regarding speech understanding, listening effort, sound quality, localization, and HA satisfaction were measured using laboratory tests, retrospective self-reports (i.e., standardized questionnaires), and in-situ self-reports (i.e., self-reports completed in the real world in real time). A smartphone-based ecological momentary assessment system was used to collect in-situ self-reports.<h4>Results</h4>Laboratory efficacy data generally supported the benefit of premium DM/NR features relative to basic DM/NR, premium HAs relative to basic HAs, and DM/NR features relative to no DM/NR in improving speech understanding and localization performance. Laboratory data also indicated that DM/NR features could improve listening effort and sound quality compared with no features for both basic- and premium-level HAs. For real-world effectiveness, in-situ self-reports first indicated that noisy or very noisy situations did not occur very often in participants' daily lives (10.9% of the time). Although both retrospective and in-situ self-reports indicated that participants were more satisfied with HAs equipped with DM/NR features than without, there was no strong evidence to support the benefit of premium DM/NR features and premium HAs over basic DM/NR features and basic HAs, respectively.<h4>Conclusions</h4>Although premium DM/NR features and premium HAs outperformed their basic-level counterparts in well-controlled laboratory test conditions, the benefits were not observed in the real world. In contrast, the effect of DM/NR features relative to no features was robust both in the laboratory and in the real world. Therefore, the present study suggests that although both premium and basic DM/NR technologies evaluated in the study have the potential to improve HA outcomes, older adults with mild-to-moderate hearing loss are unlikely to perceive the additional benefits provided by the premium DM/NR features in their daily lives. Limitations concerning the study's generalizability (e.g., participant's lifestyle) are discussed.",
+      "affiliation": "Department of Communication Sciences and Disorders, The University of Iowa, Iowa City, Iowa, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "P50 DC000242",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "R03 DC012551",
+            "orderIn": 0
+          },
+          {
+            "agency": "ACL HHS",
+            "acronym": "ACL",
+            "grantId": "90RE5020",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Loss, Sensorineural",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "RH",
+                  "qualifierName": "rehabilitation"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Treatment Outcome"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Severity of Illness Index"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cross-Over Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Single-Blind Method"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hearing Aids"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Sound Localization"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Noise"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Signal Processing, Computer-Assisted"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged, 80 and over"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ecological Momentary Assessment"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Unpaywall",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6491270"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1097/AUD.0000000000000672"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6491270"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6491270?pdf=render"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1097/aud.0000000000000672"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 74,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "Y",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "Y",
+      "manuscriptId": "NIHMS1506241",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2020-01-20",
+      "dateOfCreation": "2018-11-01",
+      "dateOfRevision": "2025-05-30",
+      "firstPublicationDate": "2019-07-01",
+      "firstIndexDate": "2018-11-01",
+      "fullTextReceivedDate": "2025-02-04",
+      "embargoDate": "2020-07-01",
+      "hasEvaluations": "N"
+    }
+  ]
+}

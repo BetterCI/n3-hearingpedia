@@ -1,0 +1,298 @@
+{
+  "key": "brons",
+  "query": "DOI:10.1177/2331216514553924",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1177%2F2331216514553924&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "25315377",
+      "source": "MED",
+      "pmid": "25315377",
+      "pmcid": "PMC4227664",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4227664"
+        ]
+      },
+      "doi": "10.1177/2331216514553924",
+      "title": "Effects of noise reduction on speech intelligibility, perceived listening effort, and personal preference in hearing-impaired listeners.",
+      "authorString": "Brons I, Houben R, Dreschler WA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Brons I",
+            "lastName": "Brons",
+            "firstName": "Inge",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Clinical and Experimental Audiology, Academic Medical Center, Amsterdam, The Netherlands I.Brons@amc.uva.nl."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Houben R",
+            "lastName": "Houben",
+            "firstName": "Rolph",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Clinical and Experimental Audiology, Academic Medical Center, Amsterdam, The Netherlands."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dreschler WA",
+            "lastName": "Dreschler",
+            "firstName": "Wouter A",
+            "initials": "WA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Clinical and Experimental Audiology, Academic Medical Center, Amsterdam, The Netherlands."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8626-9195"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "volume": "18",
+        "journalIssueId": 2474475,
+        "dateOfPublication": "2014 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 2014,
+        "journal": {
+          "medlineAbbreviation": "Trends Hear",
+          "title": "Trends in hearing",
+          "essn": "2331-2165",
+          "issn": "2331-2165",
+          "nlmid": "101635698",
+          "isoabbreviation": "Trends Hear"
+        },
+        "printPublicationDate": "2014-10-01"
+      },
+      "pubYear": "2014",
+      "pageInfo": "2331216514553924",
+      "abstractText": "This study evaluates the perceptual effects of single-microphone noise reduction in hearing aids. Twenty subjects with moderate sensorineural hearing loss listened to speech in babble noise processed via noise reduction from three different linearly fitted hearing aids. Subjects performed (a) speech-intelligibility tests, (b) listening-effort ratings, and (c) paired-comparison ratings on noise annoyance, speech naturalness, and overall preference. The perceptual effects of noise reduction differ between hearing aids. The results agree well with those of normal-hearing listeners in a previous study. None of the noise-reduction algorithms improved speech intelligibility, but all reduced the annoyance of noise. The noise reduction that scored best with respect to noise annoyance and preference had the worst intelligibility scores. The trade-off between intelligibility and listening comfort shows that preference measurements might be useful in addition to intelligibility measurements in the selection of noise reduction. Additionally, this trade-off should be taken into consideration to create realistic expectations in hearing-aid users.",
+      "affiliation": "Clinical and Experimental Audiology, Academic Medical Center, Amsterdam, The Netherlands I.Brons@amc.uva.nl.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Loss, Sensorineural",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DI",
+                  "qualifierName": "diagnosis"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PX",
+                  "qualifierName": "psychology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "RH",
+                  "qualifierName": "rehabilitation"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Audiometry, Speech"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Acoustic Stimulation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Severity of Illness Index"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Equipment Design"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hearing Aids"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Intelligibility"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Irritable Mood"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Perceptual Masking"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Noise",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "AE",
+                  "qualifierName": "adverse effects"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PC",
+                  "qualifierName": "prevention & control"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Patient Preference"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Persons with Hearing Disabilities",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PX",
+                  "qualifierName": "psychology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "RH",
+                  "qualifierName": "rehabilitation"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "preference",
+          "Hearing aids",
+          "Intelligibility",
+          "Noise Reduction",
+          "Perceived Listening Effort"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/2331216514553924"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1177/2331216514553924"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4227664"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4227664?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 46,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2015-01-26",
+      "dateOfCreation": "2014-10-16",
+      "dateOfRevision": "2025-01-03",
+      "electronicPublicationDate": "2014-10-13",
+      "firstPublicationDate": "2014-10-13",
+      "firstIndexDate": "2014-10-17",
+      "fullTextReceivedDate": "2020-07-11",
+      "hasEvaluations": "N"
+    }
+  ]
+}

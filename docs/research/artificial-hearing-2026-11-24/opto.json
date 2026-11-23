@@ -1,0 +1,408 @@
+{
+  "key": "opto",
+  "query": "EXT_ID:31036812 AND SRC:MED",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31036812+AND+SRC%3AMED&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "31036812",
+      "source": "MED",
+      "pmid": "31036812",
+      "pmcid": "PMC6488702",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6488702"
+        ]
+      },
+      "doi": "10.1038/s41467-019-09980-7",
+      "title": "Near physiological spectral selectivity of cochlear optogenetics.",
+      "authorString": "Dieter A, Duque-Afonso CJ, Rankovic V, Jeschke M, Moser T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dieter A",
+            "lastName": "Dieter",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9154-4833"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Auditory Neuroscience and InnerEarLab, University Medical Center Göttingen, 37075, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Göttingen Graduate School for Neurosciences and Molecular Biosciences, University of Göttingen, 37075, Göttingen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Duque-Afonso CJ",
+            "lastName": "Duque-Afonso",
+            "firstName": "Carlos J",
+            "initials": "CJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2689-6194"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Auditory Neuroscience and InnerEarLab, University Medical Center Göttingen, 37075, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Göttingen Graduate School for Neurosciences and Molecular Biosciences, University of Göttingen, 37075, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Auditory Neuroscience Group, Max Planck Institute for Experimental Medicine, 37075, Göttingen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rankovic V",
+            "lastName": "Rankovic",
+            "firstName": "Vladan",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0285-5232"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Auditory Neuroscience and InnerEarLab, University Medical Center Göttingen, 37075, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Auditory Neuroscience and Optogenetics Laboratory, German Primate Center, 37077, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Restorative Cochlear Genomics Group, Auditory Neuroscience and Optogenetics Laboratory, German Primate Center, 37077, Göttingen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jeschke M",
+            "lastName": "Jeschke",
+            "firstName": "Marcus",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9109-8765"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Auditory Neuroscience and InnerEarLab, University Medical Center Göttingen, 37075, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Auditory Neuroscience and Optogenetics Laboratory, German Primate Center, 37077, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Cognitive Hearing in Primates Group, Auditory Neuroscience and Optogenetics Laboratory, German Primate Center, 37077, Göttingen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moser T",
+            "lastName": "Moser",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7145-0533"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Auditory Neuroscience and InnerEarLab, University Medical Center Göttingen, 37075, Göttingen, Germany. tmoser@gwdg.de."
+                },
+                {
+                  "affiliation": "Göttingen Graduate School for Neurosciences and Molecular Biosciences, University of Göttingen, 37075, Göttingen, Germany. tmoser@gwdg.de."
+                },
+                {
+                  "affiliation": "Auditory Neuroscience Group, Max Planck Institute for Experimental Medicine, 37075, Göttingen, Germany. tmoser@gwdg.de."
+                },
+                {
+                  "affiliation": "Auditory Neuroscience and Optogenetics Laboratory, German Primate Center, 37077, Göttingen, Germany. tmoser@gwdg.de."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7145-0533"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9109-8765"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9154-4833"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0285-5232"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2689-6194"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "10",
+        "journalIssueId": 2799472,
+        "dateOfPublication": "2019 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "Nat Commun",
+          "title": "Nature communications",
+          "essn": "2041-1723",
+          "issn": "2041-1723",
+          "nlmid": "101528555",
+          "isoabbreviation": "Nat Commun"
+        },
+        "printPublicationDate": "2019-04-01"
+      },
+      "pubYear": "2019",
+      "pageInfo": "1962",
+      "abstractText": "Cochlear implants (CIs) electrically stimulate spiral ganglion neurons (SGNs) and partially restore hearing to half a million CI users. However, wide current spread from intracochlear electrodes limits spatial selectivity (i.e. spectral resolution) of electrical CIs. Optogenetic stimulation might become an alternative, since light can be confined in space, promising artificial sound encoding with increased spectral selectivity. Here we compare spectral selectivity of optogenetic, electric, and acoustic stimulation by multi-channel recordings in the inferior colliculus (IC) of gerbils. When projecting light onto tonotopically distinct SGNs, we observe corresponding tonotopically ordered IC activity. An activity-based comparison reveals that spectral selectivity of optogenetic stimulation is indistinguishable from acoustic stimulation for modest intensities. Moreover, optogenetic stimulation outperforms bipolar electric stimulation at medium and high intensities and monopolar electric stimulation at all intensities. In conclusion, we demonstrate better spectral selectivity of optogenetic over electric SGN stimulation, suggesting the potential for improved hearing restoration by optical CIs.",
+      "affiliation": "Institute for Auditory Neuroscience and InnerEarLab, University Medical Center Göttingen, 37075, Göttingen, Germany.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "670759",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Spiral Ganglion",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "SU",
+                  "qualifierName": "surgery"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Neurons",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CY",
+                  "qualifierName": "cytology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cochlea",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "SU",
+                  "qualifierName": "surgery"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gerbillinae"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cochlear Implantation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cochlear Implants"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Inferior Colliculi",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CY",
+                  "qualifierName": "cytology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Optogenetics",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MT",
+                  "qualifierName": "methods"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.nature.com/articles/s41467-019-09980-7.pdf"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.nature.com/articles/s41467-019-09980-7.pdf"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.nature.com/articles/s41467-019-09980-7.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41467-019-09980-7"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6488702"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6488702?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 69,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2019-05-13",
+      "dateOfCreation": "2019-05-01",
+      "dateOfRevision": "2021-01-09",
+      "electronicPublicationDate": "2019-04-29",
+      "firstPublicationDate": "2019-04-29",
+      "firstIndexDate": "2019-05-01",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N"
+    }
+  ]
+}

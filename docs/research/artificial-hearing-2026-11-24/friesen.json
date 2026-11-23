@@ -1,0 +1,225 @@
+{
+  "key": "friesen",
+  "query": "DOI:10.1121/1.1381538",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1121%2F1.1381538&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "11519582",
+      "source": "MED",
+      "pmid": "11519582",
+      "doi": "10.1121/1.1381538",
+      "title": "Speech recognition in noise as a function of the number of spectral channels: comparison of acoustic hearing and cochlear implants.",
+      "authorString": "Friesen LM, Shannon RV, Baskent D, Wang X.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Friesen LM",
+            "lastName": "Friesen",
+            "firstName": "L M",
+            "initials": "LM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Auditory Implants and Perception, House Ear Institute, Los Angeles, California 90057, USA. lfriesen@hei.org"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shannon RV",
+            "lastName": "Shannon",
+            "firstName": "R V",
+            "initials": "RV"
+          },
+          {
+            "fullName": "Baskent D",
+            "lastName": "Baskent",
+            "firstName": "D",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6560-1451"
+            }
+          },
+          {
+            "fullName": "Wang X",
+            "lastName": "Wang",
+            "firstName": "X",
+            "initials": "X"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6560-1451"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "110",
+        "journalIssueId": 1002472,
+        "dateOfPublication": "2001 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2001,
+        "journal": {
+          "medlineAbbreviation": "J Acoust Soc Am",
+          "title": "The Journal of the Acoustical Society of America",
+          "essn": "1520-8524",
+          "issn": "0001-4966",
+          "nlmid": "7503051",
+          "isoabbreviation": "J Acoust Soc Am"
+        },
+        "printPublicationDate": "2001-08-01"
+      },
+      "pubYear": "2001",
+      "pageInfo": "1150-1163",
+      "abstractText": "Speech recognition was measured as a function of spectral resolution (number of spectral channels) and speech-to-noise ratio in normal-hearing (NH) and cochlear-implant (CI) listeners. Vowel, consonant, word, and sentence recognition were measured in five normal-hearing listeners, ten listeners with the Nucleus-22 cochlear implant, and nine listeners with the Advanced Bionics Clarion cochlear implant. Recognition was measured as a function of the number of spectral channels (noise bands or electrodes) at signal-to-noise ratios of + 15, + 10, +5, 0 dB, and in quiet. Performance with three different speech processing strategies (SPEAK, CIS, and SAS) was similar across all conditions, and improved as the number of electrodes increased (up to seven or eight) for all conditions. For all noise levels, vowel and consonant recognition with the SPEAK speech processor did not improve with more than seven electrodes, while for normal-hearing listeners, performance continued to increase up to at least 20 channels. Speech recognition on more difficult speech materials (word and sentence recognition) showed a marginally significant increase in Nucleus-22 listeners from seven to ten electrodes. The average implant score on all processing strategies was poorer than scores of NH listeners with similar processing. However, the best CI scores were similar to the normal-hearing scores for that condition (up to seven channels). CI listeners with the highest performance level increased in performance as the number of electrodes increased up to seven, while CI listeners with low levels of speech recognition did not increase in performance as the number of electrodes was increased beyond four. These results quantify the effect of number of spectral channels on speech recognition in noise and demonstrate that most CI subjects are not able to fully utilize the spectral information provided by the number of electrodes used in their implant.",
+      "affiliation": "Department of Auditory Implants and Perception, House Ear Institute, Los Angeles, California 90057, USA. lfriesen@hei.org",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Comparative Study",
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "N01-DC-92100",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "R01-DC-01526",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Prosthesis Design"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Sound Spectrography"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Cochlear Implants"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Perceptual Masking"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Pitch Discrimination"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Acoustics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Reference Values"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phonetics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged, 80 and over"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1121/1.1381538"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 750,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2001-10-04",
+      "dateOfCreation": "2001-08-25",
+      "dateOfRevision": "2022-03-09",
+      "firstPublicationDate": "2001-08-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  ]
+}

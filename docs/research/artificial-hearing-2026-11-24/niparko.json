@@ -1,0 +1,798 @@
+{
+  "key": "niparko",
+  "query": "TITLE:\"Spoken language development in children following cochlear implantation\"",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Spoken+language+development+in+children+following+cochlear+implantation%22&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "20407059",
+      "source": "MED",
+      "pmid": "20407059",
+      "pmcid": "PMC3073449",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3073449"
+        ]
+      },
+      "doi": "10.1001/jama.2010.451",
+      "title": "Spoken language development in children following cochlear implantation.",
+      "authorString": "Niparko JK, Tobey EA, Thal DJ, Eisenberg LS, Wang NY, Quittner AL, Fink NE, CDaCI Investigative Team.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Niparko JK",
+            "lastName": "Niparko",
+            "firstName": "John K",
+            "initials": "JK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Otolaryngology, Johns Hopkins University School of Medicine, Baltimore, Maryland, USA. jnipark1@jhmi.edu"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tobey EA",
+            "lastName": "Tobey",
+            "firstName": "Emily A",
+            "initials": "EA"
+          },
+          {
+            "fullName": "Thal DJ",
+            "lastName": "Thal",
+            "firstName": "Donna J",
+            "initials": "DJ"
+          },
+          {
+            "fullName": "Eisenberg LS",
+            "lastName": "Eisenberg",
+            "firstName": "Laurie S",
+            "initials": "LS"
+          },
+          {
+            "fullName": "Wang NY",
+            "lastName": "Wang",
+            "firstName": "Nae-Yuh",
+            "initials": "NY"
+          },
+          {
+            "fullName": "Quittner AL",
+            "lastName": "Quittner",
+            "firstName": "Alexandra L",
+            "initials": "AL"
+          },
+          {
+            "fullName": "Fink NE",
+            "lastName": "Fink",
+            "firstName": "Nancy E",
+            "initials": "NE"
+          },
+          {
+            "collectiveName": "CDaCI Investigative Team"
+          }
+        ]
+      },
+      "investigatorList": {
+        "investigator": [
+          {
+            "fullName": "Eisenberg LS",
+            "lastName": "Eisenberg",
+            "firstName": "Laurie S",
+            "initials": "LS"
+          },
+          {
+            "fullName": "Johnson K",
+            "lastName": "Johnson",
+            "firstName": "Karen",
+            "initials": "K"
+          },
+          {
+            "fullName": "Critton T",
+            "lastName": "Critton",
+            "firstName": "Traci",
+            "initials": "T"
+          },
+          {
+            "fullName": "DesJardin J",
+            "lastName": "DesJardin",
+            "firstName": "Jean",
+            "initials": "J"
+          },
+          {
+            "fullName": "Gillinger M",
+            "lastName": "Gillinger",
+            "firstName": "Melinda",
+            "initials": "M"
+          },
+          {
+            "fullName": "Luxford W",
+            "lastName": "Luxford",
+            "firstName": "William",
+            "initials": "W"
+          },
+          {
+            "fullName": "Martinez A",
+            "lastName": "Martinez",
+            "firstName": "Amy",
+            "initials": "A"
+          },
+          {
+            "fullName": "Mebane L",
+            "lastName": "Mebane",
+            "firstName": "Louise",
+            "initials": "L"
+          },
+          {
+            "fullName": "Regnery J",
+            "lastName": "Regnery",
+            "firstName": "Jennifer",
+            "initials": "J"
+          },
+          {
+            "fullName": "Visser-Dumont L",
+            "lastName": "Visser-Dumont",
+            "firstName": "Leslie",
+            "initials": "L"
+          },
+          {
+            "fullName": "Niparko JK",
+            "lastName": "Niparko",
+            "firstName": "John K",
+            "initials": "JK"
+          },
+          {
+            "fullName": "Bowditch S",
+            "lastName": "Bowditch",
+            "firstName": "Steve",
+            "initials": "S"
+          },
+          {
+            "fullName": "Chinnici J",
+            "lastName": "Chinnici",
+            "firstName": "Jill",
+            "initials": "J"
+          },
+          {
+            "fullName": "Clark J",
+            "lastName": "Clark",
+            "firstName": "James",
+            "initials": "J"
+          },
+          {
+            "fullName": "Francis H",
+            "lastName": "Francis",
+            "firstName": "Howard",
+            "initials": "H"
+          },
+          {
+            "fullName": "Mertes J",
+            "lastName": "Mertes",
+            "firstName": "Jennifer",
+            "initials": "J"
+          },
+          {
+            "fullName": "Ostrander R",
+            "lastName": "Ostrander",
+            "firstName": "Rick",
+            "initials": "R"
+          },
+          {
+            "fullName": "Yeagle J",
+            "lastName": "Yeagle",
+            "firstName": "Jennifer",
+            "initials": "J"
+          },
+          {
+            "fullName": "Visaya J",
+            "lastName": "Visaya",
+            "firstName": "Jiovani",
+            "initials": "J"
+          },
+          {
+            "fullName": "Coresh J",
+            "lastName": "Coresh",
+            "firstName": "Josef",
+            "initials": "J"
+          },
+          {
+            "fullName": "Mellon N",
+            "lastName": "Mellon",
+            "firstName": "Nancy",
+            "initials": "N"
+          },
+          {
+            "fullName": "Kane MO",
+            "lastName": "Kane",
+            "firstName": "Mary O'Leary",
+            "initials": "MO"
+          },
+          {
+            "fullName": "Wainscott S",
+            "lastName": "Wainscott",
+            "firstName": "Sarah",
+            "initials": "S"
+          },
+          {
+            "fullName": "Wallace J",
+            "lastName": "Wallace",
+            "firstName": "Jennifer",
+            "initials": "J"
+          },
+          {
+            "fullName": "Hodges A",
+            "lastName": "Hodges",
+            "firstName": "Annelle",
+            "initials": "A"
+          },
+          {
+            "fullName": "Balkany T",
+            "lastName": "Balkany",
+            "firstName": "Thomas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Lopez A",
+            "lastName": "Lopez",
+            "firstName": "Alina",
+            "initials": "A"
+          },
+          {
+            "fullName": "Goodwin L",
+            "lastName": "Goodwin",
+            "firstName": "Leslie",
+            "initials": "L"
+          },
+          {
+            "fullName": "Payne S",
+            "lastName": "Payne",
+            "firstName": "Stacy",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zwolan T",
+            "lastName": "Zwolan",
+            "firstName": "Teresa",
+            "initials": "T"
+          },
+          {
+            "fullName": "Donaldson A",
+            "lastName": "Donaldson",
+            "firstName": "Amy",
+            "initials": "A"
+          },
+          {
+            "fullName": "Arts HA",
+            "lastName": "Arts",
+            "firstName": "H Alexander",
+            "initials": "HA"
+          },
+          {
+            "fullName": "Butler B",
+            "lastName": "Butler",
+            "firstName": "Brandi",
+            "initials": "B"
+          },
+          {
+            "fullName": "El-Kashlam H",
+            "lastName": "El-Kashlam",
+            "firstName": "Hussam",
+            "initials": "H"
+          },
+          {
+            "fullName": "Heavner K",
+            "lastName": "Heavner",
+            "firstName": "Krista",
+            "initials": "K"
+          },
+          {
+            "fullName": "O'Sullivan MB",
+            "lastName": "O'Sullivan",
+            "firstName": "Mary Beth",
+            "initials": "MB"
+          },
+          {
+            "fullName": "Telian S",
+            "lastName": "Telian",
+            "firstName": "Steve",
+            "initials": "S"
+          },
+          {
+            "fullName": "Thomas E",
+            "lastName": "Thomas",
+            "firstName": "Ellen",
+            "initials": "E"
+          },
+          {
+            "fullName": "Vereb A",
+            "lastName": "Vereb",
+            "firstName": "Anita",
+            "initials": "A"
+          },
+          {
+            "fullName": "Brown CJ",
+            "lastName": "Brown",
+            "firstName": "Carolyn J",
+            "initials": "CJ"
+          },
+          {
+            "fullName": "Teagle HF",
+            "lastName": "Teagle",
+            "firstName": "Holly F B",
+            "initials": "HF"
+          },
+          {
+            "fullName": "Buchman CA",
+            "lastName": "Buchman",
+            "firstName": "Craig A",
+            "initials": "CA"
+          },
+          {
+            "fullName": "Zdanski C",
+            "lastName": "Zdanski",
+            "firstName": "Carlton",
+            "initials": "C"
+          },
+          {
+            "fullName": "Eskridge H",
+            "lastName": "Eskridge",
+            "firstName": "Hannah",
+            "initials": "H"
+          },
+          {
+            "fullName": "Pillsbury HC",
+            "lastName": "Pillsbury",
+            "firstName": "Harold C",
+            "initials": "HC"
+          },
+          {
+            "fullName": "Tobey EA",
+            "lastName": "Tobey",
+            "firstName": "Emily A",
+            "initials": "EA"
+          },
+          {
+            "fullName": "Loy B",
+            "lastName": "Loy",
+            "firstName": "Betty",
+            "initials": "B"
+          },
+          {
+            "fullName": "Bauer P",
+            "lastName": "Bauer",
+            "firstName": "Paul",
+            "initials": "P"
+          },
+          {
+            "fullName": "Boyd A",
+            "lastName": "Boyd",
+            "firstName": "Angela",
+            "initials": "A"
+          },
+          {
+            "fullName": "Cantu L",
+            "lastName": "Cantu",
+            "firstName": "Laura",
+            "initials": "L"
+          },
+          {
+            "fullName": "Cokely C",
+            "lastName": "Cokely",
+            "firstName": "Carol",
+            "initials": "C"
+          },
+          {
+            "fullName": "Florence S",
+            "lastName": "Florence",
+            "firstName": "Sarah",
+            "initials": "S"
+          },
+          {
+            "fullName": "Gisclair J",
+            "lastName": "Gisclair",
+            "firstName": "Janee",
+            "initials": "J"
+          },
+          {
+            "fullName": "Levitan L",
+            "lastName": "Levitan",
+            "firstName": "Laura",
+            "initials": "L"
+          },
+          {
+            "fullName": "Penrad J",
+            "lastName": "Penrad",
+            "firstName": "Joy",
+            "initials": "J"
+          },
+          {
+            "fullName": "Raby S",
+            "lastName": "Raby",
+            "firstName": "Shannon",
+            "initials": "S"
+          },
+          {
+            "fullName": "Rasmus J",
+            "lastName": "Rasmus",
+            "firstName": "Jamie",
+            "initials": "J"
+          },
+          {
+            "fullName": "Roland P",
+            "lastName": "Roland",
+            "firstName": "Peter",
+            "initials": "P"
+          },
+          {
+            "fullName": "MacFadyen H",
+            "lastName": "MacFadyen",
+            "firstName": "Heather",
+            "initials": "H"
+          },
+          {
+            "fullName": "Pearson D",
+            "lastName": "Pearson",
+            "firstName": "Donise",
+            "initials": "D"
+          },
+          {
+            "fullName": "Rekart DM",
+            "lastName": "Rekart",
+            "firstName": "Deborah M",
+            "initials": "DM"
+          },
+          {
+            "fullName": "Sacar L",
+            "lastName": "Sacar",
+            "firstName": "Lauren",
+            "initials": "L"
+          },
+          {
+            "fullName": "Sweeney M",
+            "lastName": "Sweeney",
+            "firstName": "Melissa",
+            "initials": "M"
+          },
+          {
+            "fullName": "Wagner L",
+            "lastName": "Wagner",
+            "firstName": "Linsey",
+            "initials": "L"
+          },
+          {
+            "fullName": "Weissner N",
+            "lastName": "Weissner",
+            "firstName": "Nicole",
+            "initials": "N"
+          },
+          {
+            "fullName": "Williams B",
+            "lastName": "Williams",
+            "firstName": "Berkley",
+            "initials": "B"
+          },
+          {
+            "fullName": "Fink NE",
+            "lastName": "Fink",
+            "firstName": "Nancy E",
+            "initials": "NE"
+          },
+          {
+            "fullName": "Bayton P",
+            "lastName": "Bayton",
+            "firstName": "Patricia",
+            "initials": "P"
+          },
+          {
+            "fullName": "Habtemarian D",
+            "lastName": "Habtemarian",
+            "firstName": "Daniel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Powe NR",
+            "lastName": "Powe",
+            "firstName": "Neil R",
+            "initials": "NR"
+          },
+          {
+            "fullName": "Vilche T",
+            "lastName": "Vilche",
+            "firstName": "Thelma",
+            "initials": "T"
+          },
+          {
+            "fullName": "Wang NY",
+            "lastName": "Wang",
+            "firstName": "Nae-Yuh",
+            "initials": "NY"
+          },
+          {
+            "fullName": "Quittner AL",
+            "lastName": "Quittner",
+            "firstName": "Alexandra L",
+            "initials": "AL"
+          },
+          {
+            "fullName": "Barker D",
+            "lastName": "Barker",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Leibach P",
+            "lastName": "Leibach",
+            "firstName": "Pam",
+            "initials": "P"
+          },
+          {
+            "fullName": "Cruz I",
+            "lastName": "Cruz",
+            "firstName": "Ivette",
+            "initials": "I"
+          },
+          {
+            "fullName": "Niparko JK",
+            "lastName": "Niparko",
+            "firstName": "John K",
+            "initials": "JK"
+          },
+          {
+            "fullName": "Eisenberg LS",
+            "lastName": "Eisenberg",
+            "firstName": "Laurie S",
+            "initials": "LS"
+          },
+          {
+            "fullName": "Fink NE",
+            "lastName": "Fink",
+            "firstName": "Nancy E",
+            "initials": "NE"
+          },
+          {
+            "fullName": "Quittner AL",
+            "lastName": "Quittner",
+            "firstName": "Alexandra L",
+            "initials": "AL"
+          },
+          {
+            "fullName": "Thal D",
+            "lastName": "Thal",
+            "firstName": "Donna",
+            "initials": "D"
+          },
+          {
+            "fullName": "Tobey EA",
+            "lastName": "Tobey",
+            "firstName": "Emily A",
+            "initials": "EA"
+          },
+          {
+            "fullName": "Wang NY",
+            "lastName": "Wang",
+            "firstName": "Nae-Yuh",
+            "initials": "NY"
+          },
+          {
+            "fullName": "Cohen N",
+            "lastName": "Cohen",
+            "firstName": "Noel",
+            "initials": "N"
+          },
+          {
+            "fullName": "Evans J",
+            "lastName": "Evans",
+            "firstName": "Julia",
+            "initials": "J"
+          },
+          {
+            "fullName": "Geers A",
+            "lastName": "Geers",
+            "firstName": "Ann",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kirk KI",
+            "lastName": "Kirk",
+            "firstName": "Karen Iler",
+            "initials": "KI"
+          },
+          {
+            "fullName": "Lalwani A",
+            "lastName": "Lalwani",
+            "firstName": "Anil",
+            "initials": "A"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6513-9730"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "15",
+        "volume": "303",
+        "journalIssueId": 1724879,
+        "dateOfPublication": "2010 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2010,
+        "journal": {
+          "medlineAbbreviation": "JAMA",
+          "title": "JAMA",
+          "essn": "1538-3598",
+          "issn": "0098-7484",
+          "nlmid": "7501160",
+          "isoabbreviation": "JAMA"
+        },
+        "printPublicationDate": "2010-04-01"
+      },
+      "pubYear": "2010",
+      "pageInfo": "1498-1506",
+      "abstractText": "<h4>Context</h4>Cochlear implantation is a surgical alternative to traditional amplification (hearing aids) that can facilitate spoken language development in young children with severe to profound sensorineural hearing loss (SNHL).<h4>Objective</h4>To prospectively assess spoken language acquisition following cochlear implantation in young children.<h4>Design, setting, and participants</h4>Prospective, longitudinal, and multidimensional assessment of spoken language development over a 3-year period in children who underwent cochlear implantation before 5 years of age (n = 188) from 6 US centers and hearing children of similar ages (n = 97) from 2 preschools recruited between November 2002 and December 2004. Follow-up completed between November 2005 and May 2008.<h4>Main outcome measures</h4>Performance on measures of spoken language comprehension and expression (Reynell Developmental Language Scales).<h4>Results</h4>Children undergoing cochlear implantation showed greater improvement in spoken language performance (10.4; 95% confidence interval [CI], 9.6-11.2 points per year in comprehension; 8.4; 95% CI, 7.8-9.0 in expression) than would be predicted by their preimplantation baseline scores (5.4; 95% CI, 4.1-6.7, comprehension; 5.8; 95% CI, 4.6-7.0, expression), although mean scores were not restored to age-appropriate levels after 3 years. Younger age at cochlear implantation was associated with significantly steeper rate increases in comprehension (1.1; 95% CI, 0.5-1.7 points per year younger) and expression (1.0; 95% CI, 0.6-1.5 points per year younger). Similarly, each 1-year shorter history of hearing deficit was associated with steeper rate increases in comprehension (0.8; 95% CI, 0.2-1.2 points per year shorter) and expression (0.6; 95% CI, 0.2-1.0 points per year shorter). In multivariable analyses, greater residual hearing prior to cochlear implantation, higher ratings of parent-child interactions, and higher socioeconomic status were associated with greater rates of improvement in comprehension and expression.<h4>Conclusion</h4>The use of cochlear implants in young children was associated with better spoken language learning than would be predicted from their preimplantation scores.",
+      "affiliation": "Department of Otolaryngology, Johns Hopkins University School of Medicine, Baltimore, Maryland, USA. jnipark1@jhmi.edu",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "R01 DC004797",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Loss, Sensorineural"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Case-Control Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Prospective Studies"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Cochlear Implants"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Language Development"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child, Preschool"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Infant"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "html",
+            "site": "jama.ama-assn.org",
+            "url": "http://jama.ama-assn.org/cgi/content/full/303/15/1498"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "pdf",
+            "site": "jama.ama-assn.org",
+            "url": "http://jama.ama-assn.org/cgi/reprint/303/15/1498.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "abs",
+            "site": "jama.ama-assn.org",
+            "url": "http://jama.ama-assn.org/cgi/content/abstract/303/15/1498"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1001/jama.2010.451"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3073449"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3073449?pdf=render"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1001/jama.2010.451"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 749,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "Y",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "Y",
+      "manuscriptId": "NIHMS209999",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2010-04-22",
+      "dateOfCreation": "2010-04-22",
+      "dateOfRevision": "2025-05-29",
+      "firstPublicationDate": "2010-04-01",
+      "firstIndexDate": "2010-04-23",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    }
+  ]
+}

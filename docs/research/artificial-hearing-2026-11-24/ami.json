@@ -1,0 +1,238 @@
+{
+  "key": "ami",
+  "query": "EXT_ID:16936570 AND SRC:MED",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16936570+AND+SRC%3AMED&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "16936570",
+      "source": "MED",
+      "pmid": "16936570",
+      "doi": "10.1097/01.mao.0000232010.01116.e9",
+      "title": "The auditory midbrain implant: a new auditory prosthesis for neural deafness-concept and device description.",
+      "authorString": "Lenarz T, Lim HH, Reuter G, Patrick JF, Lenarz M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lenarz T",
+            "lastName": "Lenarz",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Otorhinolaryngology Department, Medical University of Hannover, Germany. thomas.lenarz@t-online.de"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lim HH",
+            "lastName": "Lim",
+            "firstName": "Hubert H",
+            "initials": "HH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5653-9679"
+            }
+          },
+          {
+            "fullName": "Reuter G",
+            "lastName": "Reuter",
+            "firstName": "Guenter",
+            "initials": "G"
+          },
+          {
+            "fullName": "Patrick JF",
+            "lastName": "Patrick",
+            "firstName": "James F",
+            "initials": "JF"
+          },
+          {
+            "fullName": "Lenarz M",
+            "lastName": "Lenarz",
+            "firstName": "Minoo",
+            "initials": "M"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5653-9679"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "27",
+        "journalIssueId": 1344610,
+        "dateOfPublication": "2006 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2006,
+        "journal": {
+          "medlineAbbreviation": "Otol Neurotol",
+          "title": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
+          "essn": "1537-4505",
+          "issn": "1531-7129",
+          "nlmid": "100961504",
+          "isoabbreviation": "Otol Neurotol"
+        },
+        "printPublicationDate": "2006-09-01"
+      },
+      "pubYear": "2006",
+      "pageInfo": "838-843",
+      "abstractText": "The auditory midbrain implant (AMI) is a new central auditory prosthesis designed for penetrating stimulation of the human inferior colliculus. The major group of candidates for the AMI consists of neurofibromatosis type 2 (NF2) patients who develop neural deafness because of growth and/or surgical removal of bilateral acoustic neuromas. Because of the absence of a viable auditory nerve, these patients cannot benefit from cochlear implants. An alternative solution has been the auditory brainstem implant (ABI), which stimulates the cochlear nucleus. However, speech perception performance in NF2 ABI patients has been limited. The fact that the ABI is able to produce high levels of speech perception in nontumor patients (with inaccessible cochleae or posttraumatic damage to the cochlear nerve) suggests that limitations in ABI performance in NF2 patients may be associated with cochlear nucleus damage caused by the tumors or the tumor removal process. Thus, stimulation of the auditory midbrain proximal to the damaged cochlear nucleus may be a better alternative for hearing restoration in NF2 patients. We propose the central nucleus of the inferior colliculus (ICC) as the potential site. A penetrating electrode array aligned along the well-defined tonotopic gradient of the ICC should selectively activate different frequency regions, which is an important elementfor supporting good speech understanding. The goal of this article is to present the ICC as an alternative site for an auditory implant for NF2 patients and to describe the design of the first human prototype AMI. Practical considerations for implementation of the AMI will also be discussed.",
+      "affiliation": "Otorhinolaryngology Department, Medical University of Hannover, Germany. thomas.lenarz@t-online.de",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Neuroma, Acoustic",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ET",
+                  "qualifierName": "etiology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "SU",
+                  "qualifierName": "surgery"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Neurofibromatosis 2",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Loss, Sensorineural",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ET",
+                  "qualifierName": "etiology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "TH",
+                  "qualifierName": "therapy"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Treatment Outcome"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Auditory Brain Stem Implants"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Prostheses and Implants"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Algorithms"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Inferior Colliculi",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "SU",
+                  "qualifierName": "surgery"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1097/01.mao.0000232010.01116.e9"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 60,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2007-08-06",
+      "dateOfCreation": "2006-08-29",
+      "dateOfRevision": "2007-11-15",
+      "firstPublicationDate": "2006-09-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  ]
+}

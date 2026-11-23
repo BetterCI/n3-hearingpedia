@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-24",
+  "base_commit": "d7ff490a2379a035d5a4a803f96a11336e50cf4d",
+  "entry": "artificial-hearing",
+  "content_status": "draft",
+  "check": {"errors": 0, "warnings": 0, "hints": 0},
+  "basilar_membrane_verification": "passed",
+  "required_tests": {"passed": 20, "failed": 0},
+  "build": "passed",
+  "verify": {"pages": 381, "sitemapConcepts": 170, "checkedInternalLinks": 36277, "searchableConcepts": 170, "typedRelationships": 1216, "brokenLinks": 0},
+  "entry_validation": {"references": 21, "figures": 3, "body_han_characters": 8251, "internal_links": 22, "unrendered_citations": 0},
+  "layout_css_widths": [1440, 390],
+  "horizontal_overflow": false,
+  "scope": "Only artificial-hearing files and their incremental shared registration/statistics changes; based on current remote main.",
+  "professional_review": "not claimed",
+  "stage": "pre-push verification; remote workflow is checked separately after push"
+}

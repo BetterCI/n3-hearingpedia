@@ -15,6 +15,17 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link("artificial-hearing","cochlear-implant","related","植入式神经听觉假体是人工听觉的核心实例。",3),
+  link("artificial-hearing","hearing-aid","related","广义范围包括利用残余生物听觉的声学助听装置。",3),
+  link("artificial-hearing","gene-therapy-for-hearing-loss","related","扩展讨论技术促成的生物听觉恢复，保留术语边界。",3),
+  link("artificial-hearing","auditory-computational-models","related","机器功能实现与生物机制解释具有不同研究目标。",2),
+  link("artificial-hearing","machine-learning","related","机器学习可实现声音任务并参与人用装置的前端处理。",2),
+  link("artificial-hearing","auditory-pathway","related","介入位置决定被绕过的过程及需要保留的下游结构。",2),
+  link("artificial-hearing","cochlear-implant-coding-strategies","related","比较声音信息怎样映射为神经刺激。",2),
+  link("artificial-hearing","auditory-plasticity","related","提供输入之后仍需考虑听者的经验与适应。",2),
+  link("artificial-hearing","speech-intelligibility","related","言语识别是功能评价之一，不代表全部听觉体验。",2),
+  link("artificial-hearing","speech-reception-threshold","related","噪声中达到目标正确率所需的信噪比可用于条件比较。",2),
+  link("artificial-hearing","listening-effort","related","聆听努力与识别正确率分别评价。",2),
   link("hearing-aid-types","hearing-aid","related","按部件位置、耳道耦合与信号路由理解装置形式。",3),
   link("hearing-aid-types","hearing-aid-prescription","related","先明确目标输出，再核查外形与耦合能否实现。",3),
   link("hearing-aid-types","real-ear-measurement","related","结构和耦合选择需要实际耳内输出验证。",3),

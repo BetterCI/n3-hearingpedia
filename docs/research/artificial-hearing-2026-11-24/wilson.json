@@ -1,0 +1,165 @@
+{
+  "key": "wilson",
+  "query": "EXT_ID:1857418 AND SRC:MED",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A1857418+AND+SRC%3AMED&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "1857418",
+      "source": "MED",
+      "pmid": "1857418",
+      "doi": "10.1038/352236a0",
+      "title": "Better speech recognition with cochlear implants.",
+      "authorString": "Wilson BS, Finley CC, Lawson DT, Wolford RD, Eddington DK, Rabinowitz WM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wilson BS",
+            "lastName": "Wilson",
+            "firstName": "B S",
+            "initials": "BS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neuroscience Program, Research Triangle Institute, Research Triangle Park, North Carolina 27709."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Finley CC",
+            "lastName": "Finley",
+            "firstName": "C C",
+            "initials": "CC"
+          },
+          {
+            "fullName": "Lawson DT",
+            "lastName": "Lawson",
+            "firstName": "D T",
+            "initials": "DT"
+          },
+          {
+            "fullName": "Wolford RD",
+            "lastName": "Wolford",
+            "firstName": "R D",
+            "initials": "RD"
+          },
+          {
+            "fullName": "Eddington DK",
+            "lastName": "Eddington",
+            "firstName": "D K",
+            "initials": "DK"
+          },
+          {
+            "fullName": "Rabinowitz WM",
+            "lastName": "Rabinowitz",
+            "firstName": "W M",
+            "initials": "WM"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6332",
+        "volume": "352",
+        "journalIssueId": 855784,
+        "dateOfPublication": "1991 Jul",
+        "monthOfPublication": 7,
+        "yearOfPublication": 1991,
+        "journal": {
+          "medlineAbbreviation": "Nature",
+          "title": "Nature",
+          "essn": "1476-4687",
+          "issn": "0028-0836",
+          "nlmid": "0410462",
+          "isoabbreviation": "Nature"
+        },
+        "printPublicationDate": "1991-07-01"
+      },
+      "pubYear": "1991",
+      "pageInfo": "236-238",
+      "abstractText": "HIGH levels of speech recognition have been achieved with a new sound processing strategy for multielectrode cochlear implants. A cochlear implant system consists of one or more implanted electrodes for direct electrical activation of the auditory nerve, an external speech processor that transforms a microphone input into stimuli for each electrode, and a transcutaneous (rf-link) or percutaneous (direct) connection between the processor and the electrodes. We report here the comparison of the new strategy and a standard clinical processor. The standard compressed analogue (CA) processor presented analogue waveforms simultaneously to all electrodes, whereas the new continuous interleaved sampling (CIS) strategy presented brief pulses to each electrode in a nonoverlapping sequence. Seven experienced implant users, selected for their excellent performance with the CA processor, participated as subjects. The new strategy produced large improvements in the scores of speech reception tests for all subjects. These results have important implications for the treatment of deafness and for minimal representations of speech at the auditory periphery.",
+      "affiliation": "Neuroscience Program, Research Triangle Institute, Research Triangle Park, North Carolina 27709.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Comparative Study",
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Tests"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Prosthesis Design"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Cochlear Implants"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Intelligibility"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/352236a0"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 682,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "1991-08-28",
+      "dateOfCreation": "1991-07-18",
+      "dateOfRevision": "2022-03-10",
+      "firstPublicationDate": "1991-07-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  ]
+}

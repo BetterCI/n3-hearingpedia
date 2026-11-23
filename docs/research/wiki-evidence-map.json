@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-24",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1205,
+  "relations": 1216,
   "entries": [
     {
       "slug": "cochlea",
@@ -7442,6 +7442,64 @@
         "speech-audiometry",
         "hearing-and-hearing-aid-self-report"
       ]
+    },
+    {
+      "slug": "artificial-hearing",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 8251,
+      "body_characters": 13495,
+      "sections": 10,
+      "subsections": 23,
+      "reference_ids": [
+        "nidcd-ci-2024",
+        "ah-hearing-aids",
+        "zeng-2008",
+        "wilson-1991",
+        "ah-abi",
+        "ah-ami",
+        "shannon-1995",
+        "brons-noise-reduction-2014",
+        "wu-hearing-aid-features-2019",
+        "gt-roux",
+        "gt-almoyed",
+        "gt-jiang",
+        "gt-fda-label",
+        "gt-fda-approval",
+        "gt-regeneration",
+        "ah-audioset",
+        "acm-kell",
+        "ah-opto",
+        "niparko-language-2010",
+        "roland-hybrid-2016",
+        "friesen-2001"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "hearing-aid",
+        "cochlea",
+        "auditory-pathway",
+        "pure-tone-audiometry",
+        "tonotopy",
+        "wide-dynamic-range-compression",
+        "speech-enhancement-and-noise-reduction",
+        "real-ear-measurement",
+        "gene-therapy-for-hearing-loss",
+        "inner-hair-cell",
+        "auditory-computational-models",
+        "auditory-brainstem-response",
+        "speech-intelligibility",
+        "listening-effort",
+        "speech-reception-threshold",
+        "psychometric-function",
+        "cochlear-implant-coding-strategies",
+        "channel-interaction",
+        "auditory-plasticity",
+        "machine-learning",
+        "auditory-scene-analysis"
+      ],
+      "status": "draft",
+      "depth": "in-depth"
     }
   ]
 }

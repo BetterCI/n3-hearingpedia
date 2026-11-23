@@ -1,0 +1,363 @@
+{
+  "key": "hybrid",
+  "query": "DOI:10.1002/lary.25451",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1002%2Flary.25451&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "26152811",
+      "source": "MED",
+      "pmid": "26152811",
+      "pmcid": "PMC4704985",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4704985"
+        ]
+      },
+      "doi": "10.1002/lary.25451",
+      "title": "United States multicenter clinical trial of the cochlear nucleus hybrid implant system.",
+      "authorString": "Roland JT, Gantz BJ, Waltzman SB, Parkinson AJ, Multicenter Clinical Trial Group.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Roland JT Jr",
+            "lastName": "Roland",
+            "firstName": "J Thomas",
+            "initials": "JT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Otolaryngology-Head and Neck Surgery, New York University, New York, New York."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gantz BJ",
+            "lastName": "Gantz",
+            "firstName": "Bruce J",
+            "initials": "BJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Otolaryngology-Head and Neck Surgery, University of Iowa, Iowa City, Iowa."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waltzman SB",
+            "lastName": "Waltzman",
+            "firstName": "Susan B",
+            "initials": "SB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7569-392X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Otolaryngology-Head and Neck Surgery, New York University, New York, New York."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parkinson AJ",
+            "lastName": "Parkinson",
+            "firstName": "Aaron J",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Washington Medical Center, Seattle, Washington, U.S.A."
+                }
+              ]
+            }
+          },
+          {
+            "collectiveName": "Multicenter Clinical Trial Group"
+          }
+        ]
+      },
+      "investigatorList": {
+        "investigator": [
+          {
+            "fullName": "Herzog J",
+            "lastName": "Herzog",
+            "firstName": "Jacques",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2535-4086"
+            }
+          },
+          {
+            "fullName": "Baker S",
+            "lastName": "Baker",
+            "firstName": "Stanley",
+            "initials": "S"
+          },
+          {
+            "fullName": "Driscoll C",
+            "lastName": "Driscoll",
+            "firstName": "Colin",
+            "initials": "C"
+          },
+          {
+            "fullName": "Luetje C",
+            "lastName": "Luetje",
+            "firstName": "Charles",
+            "initials": "C"
+          },
+          {
+            "fullName": "Roland J Jr",
+            "lastName": "Roland",
+            "firstName": "J  Thomas",
+            "initials": "J"
+          },
+          {
+            "fullName": "Micco A",
+            "lastName": "Micco",
+            "firstName": "Alan",
+            "initials": "A"
+          },
+          {
+            "fullName": "Welling B",
+            "lastName": "Welling",
+            "firstName": "Bradley",
+            "initials": "B"
+          },
+          {
+            "fullName": "Kelsall DC",
+            "lastName": "Kelsall",
+            "firstName": "David C",
+            "initials": "DC"
+          },
+          {
+            "fullName": "Samy R",
+            "lastName": "Samy",
+            "firstName": "Ravi",
+            "initials": "R"
+          },
+          {
+            "fullName": "Gantz B",
+            "lastName": "Gantz",
+            "firstName": "Bruce",
+            "initials": "B"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7569-392X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9916-6048"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1181-4651"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2535-4086"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "126",
+        "journalIssueId": 2364076,
+        "dateOfPublication": "2016 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "Laryngoscope",
+          "title": "The Laryngoscope",
+          "essn": "1531-4995",
+          "issn": "0023-852X",
+          "nlmid": "8607378",
+          "isoabbreviation": "Laryngoscope"
+        },
+        "printPublicationDate": "2016-01-01"
+      },
+      "pubYear": "2016",
+      "pageInfo": "175-181",
+      "abstractText": "<h4>Objectives/hypothesis</h4>To evaluate the safety and efficacy of acoustic and electric sound processing for individuals with significant residual low-frequency hearing and severe-to-profound high-frequency sensorineural hearing loss.<h4>Study design</h4>Prospective, single-arm repeated measures, single-subject design.<h4>Methods</h4>Fifty individuals, ≥ 18 years old, with low-frequency hearing and severe high-frequency loss were implanted with the Cochlear Nucleus Hybrid L24 implant at 10 investigational sites. Preoperatively, subjects demonstrated consonant-nucleus-consonant word scores of 10% through 60% in the ear to be implanted. Subjects were assessed prospectively, preoperatively, and postoperatively on coprimary endpoints of consonant-nucleus-consonant words, AzBio sentences in noise, and self-assessment measures.<h4>Results</h4>Significant mean improvements were observed for coprimary endpoints: consonant-nucleus-consonant words (35.8 percentage points) and AzBio sentences in noise (32.0 percentage points), both at P < 0.001. Ninety-six percent of subjects performed equal or better on speech in quiet and 90% in noise. Eighty-two percent of subjects showed improved performance on speech in quiet and 74% in noise. Self-assessments were positive, corroborating speech perception results.<h4>Conclusion</h4>The Nucleus Hybrid System provides significant improvements in speech intelligibility in quiet and noise for individuals with severe high-frequency loss and some low-frequency hearing. This device expands indications to hearing-impaired individuals who perform poorly with amplification due to bilateral high-frequency hearing loss and who previously were not implant candidates.",
+      "affiliation": "Department of Otolaryngology-Head and Neck Surgery, New York University, New York, New York.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "P50 DC000242",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Loss, Sensorineural",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "RH",
+                  "qualifierName": "rehabilitation"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Treatment Outcome"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Prospective Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Prosthesis Design"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Cochlear Implants"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Quality of Life"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged, 80 and over"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "United States"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Cochlear implant",
+          "Hearing Preservation",
+          "Hearing In Noise",
+          "Electric-acoustic Stimulation",
+          "Bimodal Stimulation",
+          "Hybrid Cochlear Implant"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1002/lary.25451"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4704985"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4704985?pdf=render"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34514589",
+            "reference": "Laryngoscope. 2021 Oct;131(10):2398. doi: 10.1002/lary.29822.",
+            "type": "Erratum in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 118,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "Y",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "Y",
+      "manuscriptId": "NIHMS739193",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2016-06-20",
+      "dateOfCreation": "2015-07-09",
+      "dateOfRevision": "2026-05-18",
+      "electronicPublicationDate": "2015-07-07",
+      "firstPublicationDate": "2015-07-07",
+      "firstIndexDate": "2015-07-14",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    }
+  ]
+}

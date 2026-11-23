@@ -1,0 +1,185 @@
+{
+  "key": "shannon",
+  "query": "TITLE:\"Speech recognition with primarily temporal cues\"",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Speech+recognition+with+primarily+temporal+cues%22&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "7569981",
+      "source": "MED",
+      "pmid": "7569981",
+      "doi": "10.1126/science.270.5234.303",
+      "title": "Speech recognition with primarily temporal cues.",
+      "authorString": "Shannon RV, Zeng FG, Kamath V, Wygonski J, Ekelid M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shannon RV",
+            "lastName": "Shannon",
+            "firstName": "R V",
+            "initials": "RV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "House Ear Institute, Los Angeles, CA 90057, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zeng FG",
+            "lastName": "Zeng",
+            "firstName": "F G",
+            "initials": "FG"
+          },
+          {
+            "fullName": "Kamath V",
+            "lastName": "Kamath",
+            "firstName": "V",
+            "initials": "V"
+          },
+          {
+            "fullName": "Wygonski J",
+            "lastName": "Wygonski",
+            "firstName": "J",
+            "initials": "J"
+          },
+          {
+            "fullName": "Ekelid M",
+            "lastName": "Ekelid",
+            "firstName": "M",
+            "initials": "M"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5234",
+        "volume": "270",
+        "journalIssueId": 892289,
+        "dateOfPublication": "1995 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 1995,
+        "journal": {
+          "medlineAbbreviation": "Science",
+          "title": "Science (New York, N.Y.)",
+          "essn": "1095-9203",
+          "issn": "0036-8075",
+          "nlmid": "0404511",
+          "isoabbreviation": "Science"
+        },
+        "printPublicationDate": "1995-10-01"
+      },
+      "pubYear": "1995",
+      "pageInfo": "303-304",
+      "abstractText": "Nearly perfect speech recognition was observed under conditions of greatly reduced spectral information. Temporal envelopes of speech were extracted from broad frequency bands and were used to modulate noises of the same bandwidths. This manipulation preserved temporal envelope cues in each band but restricted the listener to severely degraded information on the distribution of spectral energy. The identification of consonants, vowels, and words in simple sentences improved markedly as the number of bands increased; high speech recognition performance was obtained with only three bands of modulated noise. Thus, the presentation of a dynamic temporal pattern in only a few broad spectral regions is sufficient for the recognition of speech.",
+      "affiliation": "House Ear Institute, Los Angeles, CA 90057, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDCD NIH HHS",
+            "acronym": "DC",
+            "grantId": "R01 DCO1526",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Temporal Lobe",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cues"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Auditory Threshold"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Speech Perception"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Noise"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1126/science.270.5234.303"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2037,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "1995-11-13",
+      "dateOfCreation": "1995-10-13",
+      "dateOfRevision": "2022-04-08",
+      "firstPublicationDate": "1995-10-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    }
+  ]
+}

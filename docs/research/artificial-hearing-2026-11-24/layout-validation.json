@@ -1,0 +1,47 @@
+{
+  "url": "http://127.0.0.1:4349/n3-hearingpedia/concepts/artificial-hearing/",
+  "checks": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "images": [
+        {
+          "loaded": true,
+          "width": 790
+        },
+        {
+          "loaded": true,
+          "width": 790
+        },
+        {
+          "loaded": true,
+          "width": 790
+        }
+      ],
+      "math": 9,
+      "tables": 2
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "loaded": true,
+          "width": 346
+        },
+        {
+          "loaded": true,
+          "width": 346
+        },
+        {
+          "loaded": true,
+          "width": 346
+        }
+      ],
+      "math": 9,
+      "tables": 2
+    }
+  ]
+}

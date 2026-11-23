@@ -1,0 +1,293 @@
+{
+  "key": "abi",
+  "query": "EXT_ID:19546832 AND SRC:MED",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19546832+AND+SRC%3AMED&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "19546832",
+      "source": "MED",
+      "pmid": "19546832",
+      "doi": "10.1097/mao.0b013e3181a864f2",
+      "title": "Outcomes in nontumor adults fitted with the auditory brainstem implant: 10 years' experience.",
+      "authorString": "Colletti V, Shannon R, Carner M, Veronese S, Colletti L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Colletti V",
+            "lastName": "Colletti",
+            "firstName": "Vittorio",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ENT Department, University of Verona, Verona, Italy. vittoriocolletti@yahoo.com"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shannon R",
+            "lastName": "Shannon",
+            "firstName": "Robert",
+            "initials": "R"
+          },
+          {
+            "fullName": "Carner M",
+            "lastName": "Carner",
+            "firstName": "Marco",
+            "initials": "M"
+          },
+          {
+            "fullName": "Veronese S",
+            "lastName": "Veronese",
+            "firstName": "Sheila",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6707-3306"
+            }
+          },
+          {
+            "fullName": "Colletti L",
+            "lastName": "Colletti",
+            "firstName": "Liliana",
+            "initials": "L"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8089-5681"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6707-3306"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "30",
+        "journalIssueId": 1638863,
+        "dateOfPublication": "2009 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2009,
+        "journal": {
+          "medlineAbbreviation": "Otol Neurotol",
+          "title": "Otology & neurotology : official publication of the American Otological Society, American Neurotology Society [and] European Academy of Otology and Neurotology",
+          "essn": "1537-4505",
+          "issn": "1531-7129",
+          "nlmid": "100961504",
+          "isoabbreviation": "Otol Neurotol"
+        },
+        "printPublicationDate": "2009-08-01"
+      },
+      "pubYear": "2009",
+      "pageInfo": "614-618",
+      "abstractText": "<h4>Objectives</h4>Recently, open-set speech recognition performance has been observed with electric stimulation of the brainstem in some nontumor (NT) patients. These outcomes require that we reevaluate the criteria for patient selection and the rationale for expanding the application for the auditory brainstem implant (ABI) to NT adult patients with profound hearing loss. This study presents results from up to 10 years in adults, with analysis based on cause.<h4>Materials and methods</h4>In our Department, from April 1997 to September 2007, ABIs have been implanted in 112 patients (83 adults and 29 children) with tumor (T) and NT disorders. Of the 112 patients, 15 have previously had a cochlear implant elsewhere with no sound detection. This article presents speech recognition results from the 80 patients (32 neurofibromatosis type 2 and 48 NT) who had achieved at least 1-year follow-up. The retrosigmoid approach was used in all NT patients, and the retrosigmoid-transmeatal approach was used in all T patients.<h4>Results</h4>All patients had a functioning implantation, and no complications were observed during the operation, activation, or long-term use of the ABI. At the most recent follow-up, NT adults scored from 10 to 100% in open-set speech perception tests (average, 59%), and T patients scored from 5 to 31% (average, 10%). The differences between these results are statistically significant (p = 0.0007). The best performance was observed in patients who lost their nerve VIII from head trauma or severe ossification. Lowest performance (although still highly beneficial to the patient) was observed in patients with neurologic disorders, neuropathy, and cochlear malformations.<h4>Conclusion</h4>Our experience clearly indicates that the ABI is an effective tool for hearing rehabilitation in patients with profound hearing loss who cannot be fitted with cochlear implants.",
+      "affiliation": "ENT Department, University of Verona, Verona, Italy. vittoriocolletti@yahoo.com",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cochlear Nerve",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cochlea",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "AB",
+                  "qualifierName": "abnormalities"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Loss",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PX",
+                  "qualifierName": "psychology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "SU",
+                  "qualifierName": "surgery"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cochlear Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "SU",
+                  "qualifierName": "surgery"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Peripheral Nervous System Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "SU",
+                  "qualifierName": "surgery"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Craniocerebral Trauma",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "SU",
+                  "qualifierName": "surgery"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hearing Tests"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Treatment Outcome"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Auditory Brain Stem Implantation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Retrospective Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Follow-Up Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "abs",
+            "site": "www.otology-neurotology.com",
+            "url": "http://content.wkhealth.com/linkback/openurl?issn=1531-7129&volume=30&issue=5&spage=614"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1097/MAO.0b013e3181a864f2"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 85,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2009-10-13",
+      "dateOfCreation": "2009-06-24",
+      "dateOfRevision": "2009-07-29",
+      "firstPublicationDate": "2009-08-01",
+      "firstIndexDate": "2009-10-14",
+      "hasEvaluations": "N"
+    }
+  ]
+}

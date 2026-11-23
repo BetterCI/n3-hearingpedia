@@ -1,0 +1,409 @@
+{
+  "key": "almoyed",
+  "query": "DOI:10.15252/emmm.201809396",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.15252%2Femmm.201809396&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "30509897",
+      "source": "MED",
+      "pmid": "30509897",
+      "pmcid": "PMC6328916",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6328916"
+        ]
+      },
+      "doi": "10.15252/emmm.201809396",
+      "title": "A dual-AAV approach restores fast exocytosis and partially rescues auditory function in deaf otoferlin knock-out mice.",
+      "authorString": "Al-Moyed H, Cepeda AP, Jung S, Moser T, Kügler S, Reisinger E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Al-Moyed H",
+            "lastName": "Al-Moyed",
+            "firstName": "Hanan",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biology of Cochlear Neurotransmission Group, Department of Otorhinolaryngology, University Medical Center Göttingen, and Collaborative Research Center 889, University of Göttingen, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Göttingen Graduate School for Neurosciences, Biophysics, and Molecular Biosciences, University of Göttingen, Göttingen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cepeda AP",
+            "lastName": "Cepeda",
+            "firstName": "Andreia P",
+            "initials": "AP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7197-1168"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biology of Cochlear Neurotransmission Group, Department of Otorhinolaryngology, University Medical Center Göttingen, and Collaborative Research Center 889, University of Göttingen, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Göttingen Graduate School for Neurosciences, Biophysics, and Molecular Biosciences, University of Göttingen, Göttingen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jung S",
+            "lastName": "Jung",
+            "firstName": "SangYong",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Auditory Neurosciences and InnerEarLab, University Medical Center Göttingen, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Synaptic Nanophysiology Group, Max Planck Institute for Biophysical Chemistry, Göttingen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moser T",
+            "lastName": "Moser",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7145-0533"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Göttingen Graduate School for Neurosciences, Biophysics, and Molecular Biosciences, University of Göttingen, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Institute for Auditory Neurosciences and InnerEarLab, University Medical Center Göttingen, Göttingen, Germany."
+                },
+                {
+                  "affiliation": "Synaptic Nanophysiology Group, Max Planck Institute for Biophysical Chemistry, Göttingen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kügler S",
+            "lastName": "Kügler",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5130-2012"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center Nanoscale Microscopy and Physiology of the Brain (CNMPB), Department of Neurology, University Medical Center Göttingen, Göttingen, Germany sebastian.kuegler@med.uni-goettingen.de ellen.reisinger@med.uni-goettingen.de."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reisinger E",
+            "lastName": "Reisinger",
+            "firstName": "Ellen",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3739-7569"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biology of Cochlear Neurotransmission Group, Department of Otorhinolaryngology, University Medical Center Göttingen, and Collaborative Research Center 889, University of Göttingen, Göttingen, Germany sebastian.kuegler@med.uni-goettingen.de ellen.reisinger@med.uni-goettingen.de."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7145-0533"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5130-2012"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7197-1168"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3739-7569"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "11",
+        "journalIssueId": 2770235,
+        "dateOfPublication": "2019 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "EMBO Mol Med",
+          "title": "EMBO molecular medicine",
+          "essn": "1757-4684",
+          "issn": "1757-4676",
+          "nlmid": "101487380",
+          "isoabbreviation": "EMBO Mol Med"
+        },
+        "printPublicationDate": "2019-01-01"
+      },
+      "pubYear": "2019",
+      "pageInfo": "e9396",
+      "abstractText": "Normal hearing and synaptic transmission at afferent auditory inner hair cell (IHC) synapses require otoferlin. Deafness DFNB9, caused by mutations in the <i>OTOF</i> gene encoding otoferlin, might be treated by transferring wild-type otoferlin cDNA into IHCs, which is difficult due to the large size of this transgene. In this study, we generated two adeno-associated viruses (AAVs), each containing half of the otoferlin cDNA Co-injecting these dual-AAV2/6 half-vectors into the cochleae of 6- to 7-day-old otoferlin knock-out (<i>Otof</i><sup>-/-</sup>) mice led to the expression of full-length otoferlin in up to 50% of IHCs. In the cochlea, otoferlin was selectively expressed in auditory hair cells. Dual-AAV transduction of <i>Otof</i><sup>-/-</sup> IHCs fully restored fast exocytosis, while otoferlin-dependent vesicle replenishment reached 35-50% of wild-type levels. The loss of 40% of synaptic ribbons in these IHCs could not be prevented, indicating a role of otoferlin in early synapse maturation. Acoustic clicks evoked auditory brainstem responses with thresholds of 40-60 dB. Therefore, we propose that gene delivery mediated by dual-AAV vectors might be suitable to treat deafness forms caused by mutations in large genes such as <i>OTOF</i>.",
+      "affiliation": "Molecular Biology of Cochlear Neurotransmission Group, Department of Otorhinolaryngology, University Medical Center Göttingen, and Collaborative Research Center 889, University of Göttingen, Göttingen, Germany.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Goettingen Graduate School for Neuroscience, Biophysics and Molecular Biosciences",
+            "orderIn": 0
+          },
+          {
+            "agency": "University Medical Center Goettingen",
+            "orderIn": 0
+          },
+          {
+            "agency": "Center for Nanoscale Microscopy and Physiology of the Brain",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "CNMPB",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "SFB889",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mice, Knockout"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Dependovirus",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Deafness",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "TH",
+                  "qualifierName": "therapy"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Membrane Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "DF",
+                  "qualifierName": "deficiency"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Treatment Outcome"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Transduction, Genetic"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Exocytosis"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genetic Vectors"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hair Cells, Auditory, Inner",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genetic Therapy",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MT",
+                  "qualifierName": "methods"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Gene therapy",
+          "Deafness",
+          "inner ear",
+          "Inner Hair Cell",
+          "Hearing Restoration"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Membrane Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "otoferlin protein, mouse",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.15252/emmm.201809396"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6328916"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6328916?pdf=render"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "30573543",
+            "reference": "EMBO Mol Med. 2019 Jan;11(1):e9995. doi: 10.15252/emmm.201809995",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 179,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "omim",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2019-08-06",
+      "dateOfCreation": "2018-12-05",
+      "dateOfRevision": "2020-03-09",
+      "firstPublicationDate": "2019-01-01",
+      "firstIndexDate": "2018-12-05",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N"
+    }
+  ]
+}

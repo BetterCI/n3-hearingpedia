@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-24",
+  "entry": "artificial-hearing",
+  "status": "draft",
+  "chinese_characters": 8251,
+  "references": 21,
+  "figures": 3,
+  "pnpm_check": {"passed": true, "errors": 0, "warnings": 0, "hints": 1, "hint_scope": "existing remote-microphone-scenario render-integration.mjs unused root variable"},
+  "source_verification": "passed",
+  "pnpm_build": "passed",
+  "pnpm_verify": {
+    "passed": true,
+    "pages": 332,
+    "sitemapConcepts": 150,
+    "searchableConcepts": 150,
+    "checkedInternalLinks": 31244,
+    "brokenLinks": 0
+  },
+  "visual_validation": {
+    "viewports_css_px": [1440, 390],
+    "standalone_preview": "checked",
+    "built_page": "checked",
+    "horizontal_overflow": false,
+    "figures_loaded": 3,
+    "katex_nodes": 9,
+    "caption_reference_links": [4, 5, 0],
+    "unrendered_markdown_citations": false,
+    "note": "Final layout-*.png screenshots show the built page; preview-*.png are superseded initial CLI-window captures."
+  },
+  "teaching_calculation": "script assertions passed; no participant data",
+  "professional_review": "not performed",
+  "deployment": "not performed"
+}

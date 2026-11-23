@@ -1,0 +1,10 @@
+{
+  "data_type": "hypothetical teaching model, no participant data",
+  "model": "100/(1+exp(-k*(snr-theta)))",
+  "k_per_dB": 0.5,
+  "theta_A_dB": -2,
+  "theta_B_dB": 2,
+  "P_A_at_0_percent": 73.10585786300048,
+  "P_B_at_0_percent": 26.894142136999513,
+  "SRT_difference_dB": 4
+}

@@ -1,0 +1,343 @@
+{
+  "key": "kell",
+  "query": "DOI:10.1016/j.neuron.2018.03.044",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.neuron.2018.03.044&format=json&resultType=core&pageSize=3",
+  "checked_at": "2026-11-24",
+  "records": [
+    {
+      "id": "29681533",
+      "source": "MED",
+      "pmid": "29681533",
+      "doi": "10.1016/j.neuron.2018.03.044",
+      "title": "A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy.",
+      "authorString": "Kell AJE, Yamins DLK, Shook EN, Norman-Haignere SV, McDermott JH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kell AJE",
+            "lastName": "Kell",
+            "firstName": "Alexander J E",
+            "initials": "AJE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Brain and Cognitive Science, MIT, Cambridge, MA, USA; Center for Brains, Minds, and Machines, MIT, Cambridge, MA, USA. Electronic address: alexkell@mit.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yamins DLK",
+            "lastName": "Yamins",
+            "firstName": "Daniel L K",
+            "initials": "DLK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Psychology and Computer Science, Stanford University, Stanford, CA, USA; Stanford Neurosciences Institute, Stanford, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shook EN",
+            "lastName": "Shook",
+            "firstName": "Erica N",
+            "initials": "EN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Brain and Cognitive Science, MIT, Cambridge, MA, USA; Center for Brains, Minds, and Machines, MIT, Cambridge, MA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Norman-Haignere SV",
+            "lastName": "Norman-Haignere",
+            "firstName": "Sam V",
+            "initials": "SV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Brain and Cognitive Science, MIT, Cambridge, MA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McDermott JH",
+            "lastName": "McDermott",
+            "firstName": "Josh H",
+            "initials": "JH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3965-2503"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Brain and Cognitive Science, MIT, Cambridge, MA, USA; Center for Brains, Minds, and Machines, MIT, Cambridge, MA, USA; Program in Speech and Hearing Biosciences and Technology, Harvard University, Cambridge, MA, USA. Electronic address: jhm@mit.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3965-2503"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "98",
+        "journalIssueId": 2679527,
+        "dateOfPublication": "2018 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2018,
+        "journal": {
+          "medlineAbbreviation": "Neuron",
+          "title": "Neuron",
+          "essn": "1097-4199",
+          "issn": "0896-6273",
+          "nlmid": "8809320",
+          "isoabbreviation": "Neuron"
+        },
+        "printPublicationDate": "2018-05-01"
+      },
+      "pubYear": "2018",
+      "pageInfo": "630-644.e16",
+      "abstractText": "A core goal of auditory neuroscience is to build quantitative models that predict cortical responses to natural sounds. Reasoning that a complete model of auditory cortex must solve ecologically relevant tasks, we optimized hierarchical neural networks for speech and music recognition. The best-performing network contained separate music and speech pathways following early shared processing, potentially replicating human cortical organization. The network performed both tasks as well as humans and exhibited human-like errors despite not being optimized to do so, suggesting common constraints on network and human performance. The network predicted fMRI voxel responses substantially better than traditional spectrotemporal filter models throughout auditory cortex. It also provided a quantitative signature of cortical representational hierarchy-primary and non-primary responses were best predicted by intermediate and late network layers, respectively. The results suggest that task optimization provides a powerful set of tools for modeling sensory systems.",
+      "affiliation": "Department of Brain and Cognitive Science, MIT, Cambridge, MA, USA; Center for Brains, Minds, and Machines, MIT, Cambridge, MA, USA. Electronic address: alexkell@mit.edu.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "DOE Computational Science Graduate Fellowship",
+            "grantId": "DE-FG02-97ER25308",
+            "orderIn": 0
+          },
+          {
+            "agency": "McDonnell Scholar Award",
+            "orderIn": 0
+          },
+          {
+            "agency": "NSF",
+            "grantId": "BCS-1634050",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIH",
+            "grantId": "NEI-R01 EY014970",
+            "orderIn": 0
+          },
+          {
+            "agency": "NVIDIA Corporation",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Auditory Cortex",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "DG",
+                  "qualifierName": "diagnostic imaging"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nerve Net",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "DG",
+                  "qualifierName": "diagnostic imaging"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Magnetic Resonance Imaging",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MT",
+                  "qualifierName": "methods"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Acoustic Stimulation",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MT",
+                  "qualifierName": "methods"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Psychomotor Performance",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Forecasting"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Young Adult"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "fMRI",
+          "Hierarchy",
+          "auditory cortex",
+          "Word Recognition",
+          "Human Auditory Cortex",
+          "Convolutional Neural Network",
+          "Natural Sounds",
+          "Deep Learning",
+          "Encoding Models",
+          "Deep Neural Network"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.neuron.2018.03.044"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "31341311",
+            "reference": "Nature. 2019 Jul;571(7766):S15-S17. doi: 10.1038/d41586-019-02212-4",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 406,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2019-07-15",
+      "dateOfCreation": "2018-04-24",
+      "dateOfRevision": "2019-07-15",
+      "electronicPublicationDate": "2018-04-19",
+      "firstPublicationDate": "2018-04-19",
+      "firstIndexDate": "2018-04-23",
+      "hasEvaluations": "N"
+    }
+  ]
+}
