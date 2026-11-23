@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-24",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1181,
+  "relations": 1189,
   "entries": [
     {
       "slug": "cochlea",
@@ -1573,8 +1573,8 @@
       "slug": "listening-effort",
       "knowledge_area": "perception",
       "kind": "function",
-      "chinese_characters": 9914,
-      "body_characters": 19020,
+      "chinese_characters": 9938,
+      "body_characters": 19089,
       "sections": 10,
       "subsections": 30,
       "reference_ids": [
@@ -1622,6 +1622,7 @@
         "speech-intelligibility",
         "speech-reception-threshold",
         "psychology",
+        "hearing-and-hearing-aid-self-report",
         "auditory-attention",
         "neural-speech-tracking",
         "hearing-loss",
@@ -4203,8 +4204,8 @@
       "slug": "auditory-aging",
       "knowledge_area": "biology",
       "kind": "mechanism",
-      "chinese_characters": 8288,
-      "body_characters": 14198,
+      "chinese_characters": 8315,
+      "body_characters": 14271,
       "sections": 12,
       "subsections": 27,
       "reference_ids": [
@@ -4237,6 +4238,7 @@
         "auditory-pathway",
         "speech-perception",
         "hearing-loss",
+        "hearing-and-hearing-aid-self-report",
         "noise-induced-hearing-loss",
         "outer-hair-cell",
         "inner-hair-cell",
@@ -7254,8 +7256,8 @@
       "slug": "hearing-aid-benefit-and-outcomes",
       "knowledge_area": "measurement",
       "kind": "test",
-      "chinese_characters": 6843,
-      "body_characters": 10528,
+      "chinese_characters": 6873,
+      "body_characters": 10607,
       "sections": 11,
       "subsections": 24,
       "reference_ids": [
@@ -7280,6 +7282,7 @@
         "hearing-aid",
         "real-ear-measurement",
         "audibility-and-aided-audibility",
+        "hearing-and-hearing-aid-self-report",
         "speech-reception-threshold",
         "speech-audiometry",
         "hearing-aid-prescription",
@@ -7321,6 +7324,44 @@
         "real-ear-measurement",
         "masking",
         "wide-dynamic-range-compression"
+      ]
+    },
+    {
+      "slug": "hearing-and-hearing-aid-self-report",
+      "knowledge_area": "measurement",
+      "kind": "test",
+      "chinese_characters": 6016,
+      "body_characters": 10051,
+      "sections": 9,
+      "subsections": 17,
+      "reference_ids": [
+        "hsr-fda",
+        "hao-aphab",
+        "hao-aphab-manual",
+        "hsr-ssq",
+        "hsr-ssq12",
+        "aging-cassarly-2020",
+        "hao-cosi",
+        "hao-ioi",
+        "hsr-sadl",
+        "hsr-sadl-manual",
+        "hsr-cosmin-content",
+        "hsr-cosmin-report",
+        "hao-baseline-2025",
+        "hsr-hku",
+        "hao-ema-2026",
+        "hsr-core-toolkit"
+      ],
+      "wiki_links": [
+        "pure-tone-audiometry",
+        "real-ear-measurement",
+        "speech-audiometry",
+        "audibility-and-aided-audibility",
+        "hearing-aid-benefit-and-outcomes",
+        "listening-effort",
+        "auditory-aging",
+        "coherence-and-correlation",
+        "mathematical-statistics"
       ]
     }
   ]

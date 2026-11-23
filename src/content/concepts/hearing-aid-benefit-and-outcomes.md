@@ -33,6 +33,8 @@ order: 1130
 
 关于声学线索能否被获取，以及SII为何不能代替识别正确率，见[可听度与助听可听度](../audibility-and-aided-audibility/)。
 
+自评工具的选择、计分方向、变化解释和中文版本问题，见[听觉和助听自评](../hearing-and-hearing-aid-self-report/)。
+
 ## 从个人目标定义要评估的效果
 
 ### 把笼统愿望转成可追踪情境

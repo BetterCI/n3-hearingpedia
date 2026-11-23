@@ -1211,6 +1211,14 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('audibility-and-aided-audibility','hearing-aid-prescription','related','处方匹配与可听度是互补判断。',2),
   link('audibility-and-aided-audibility','hearing-aid-benefit-and-outcomes','related','可听度是多维效果评估的一环。',2),
   link('audibility-and-aided-audibility','masking','related','噪声改变可用线索与阈值限制。',2),
+  link('hearing-and-hearing-aid-self-report','hearing-aid-benefit-and-outcomes','related','自评提供日常功能和个人目标的结局。',2),
+  link('hearing-and-hearing-aid-self-report','speech-audiometry','related','任务表现与日常自评互补。',2),
+  link('hearing-and-hearing-aid-self-report','real-ear-measurement','related','输出验证不能替代生活体验。',2),
+  link('hearing-and-hearing-aid-self-report','listening-effort','related','自评可记录任务负担与体验。',2),
+  link('hearing-and-hearing-aid-self-report','auditory-aging','related','听觉影响与参与需要适龄工具。',2),
+  link('hearing-and-hearing-aid-self-report','coherence-and-correlation','related','重测相关不等于数值一致。',2),
+  link('hearing-and-hearing-aid-self-report','mathematical-statistics','related','变化解释需要误差与测量模型。',2),
+  link('hearing-and-hearing-aid-self-report','audibility-and-aided-audibility','related','声学获取与主观结局不同。',2),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

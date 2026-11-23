@@ -88,7 +88,7 @@ export const learningPaths = [
   {id:'wavelet-analysis-foundations',title:'小波分析：从多尺度模板到重建与推断',english:'Wavelet analysis from multiscale templates to reconstruction and inference',description:'理解连续小波、Haar、多分辨分析、滤波器组、边界、去噪和小波包，核查时频图与相干。',slugs:['wavelet-analysis']},
   { id:'mathematical-physics-methods-foundations',title:'数学物理方法：从定解问题理解场与模态',english:'Methods of mathematical physics from models to solutions',description:'从方程、边界与几何进入分离变量、特殊函数、变换及格林函数，再以能量和数值方法核验。',slugs:['mathematical-physics-methods'] },
   { id:'functional-analysis-foundations',title:'泛函分析：从空间与收敛理解算子和方程',english:'Functional analysis from spaces to operators',description:'从范数、完备与投影进入对偶、弱收敛和谱，再用测量、变分与逆问题理解稳定性。',slugs:['functional-analysis'] },
-  {id:'hearing-aid-outcomes',title:'从验配目标到助听效果',english:'From fitting targets to hearing aid outcomes',description:'连接处方、输出验证、言语测试与生活结局，解释获益、误差和随访。',slugs:['hearing-aid','hearing-aid-prescription','real-ear-measurement','audibility-and-aided-audibility','speech-audiometry','hearing-aid-benefit-and-outcomes','listening-effort']},
+  {id:'hearing-aid-outcomes',title:'从验配目标到助听效果',english:'From fitting targets to hearing aid outcomes',description:'连接处方、输出验证、言语测试与生活结局，解释获益、误差和随访。',slugs:['hearing-aid','hearing-aid-prescription','real-ear-measurement','audibility-and-aided-audibility','speech-audiometry','hearing-and-hearing-aid-self-report','hearing-aid-benefit-and-outcomes','listening-effort']},
 ];
 
 export const allLearningPaths = [
