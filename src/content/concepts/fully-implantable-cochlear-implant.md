@@ -21,7 +21,7 @@ key_facts:
   - {label: "输入路线", value: "皮下声传感与利用外中耳振动的植入式传感是不同方案"}
   - {label: "核心约束", value: "输入信噪比、身体噪声、功耗、充电与长期封装可靠性"}
   - {label: "解释边界", value: "全植入不等于无充电、无外部附件或恢复正常听觉"}
-references: ["zeng-2008", "tici-briggs-2008", "tici-mem-2022", "tici-drum-2024", "tici-acclaim-design", "tici-medel-2025", "tici-cochlear-2026", "tici-acclaim-2024", "tici-unico-launch", "tici-unico-faq", "tici-cochlear-update", "tici-elevate", "tici-acclaim-registry", "tici-acclaim-module", "tici-fda-mri", "tici-fda-breakthrough"]
+references: ["zeng-2008", "tici-briggs-2008", "tici-mem-2022", "tici-drum-2024", "tici-acclaim-design", "tici-medel-2025", "tici-cochlear-2026", "tici-acclaim-2024", "tici-unico-launch", "tici-unico-faq", "tici-cochlear-update", "tici-elevate", "tici-acclaim-registry", "tici-acclaim-module", "tici-fda-mri", "tici-fda-breakthrough", "tici-china-lecheng-2026", "tici-lecheng-rules-2023"]
 order: 1160
 ---
 
@@ -30,6 +30,8 @@ order: 1160
 “全植入”描述日常听觉运行方式，不表示此后完全不需要外部设备。无线充电、遥控、临床调机、诊断通信或可选的外部备用处理器，仍可能属于整个系统。全植入也不要求所有部件装在同一个外壳里：一体化封装和由植入导线连接的多个模块，都可以实现这一功能目标。
 
 截至**2026年11月24日**，不同路线所处阶段已经不同。MED-EL于2026年9月宣布TICI UNICO获得CE标志并在欧洲逐步上市；其11月官方说明仍注明尚未获FDA批准。Cochlear和Envoy的相关系统则仍有进行中的研究与监管程序。不能再把整个领域统一描述为“尚无商业产品”，也不能把某地区上市推成全球可用。[9](#ref-tici-unico-launch)[10](#ref-tici-unico-faq)[11](#ref-tici-cochlear-update)[14](#ref-tici-acclaim-module)
+
+中国方面，TICI UNICO已于2026年11月20日在海南博鳌乐城完成中国首发；11月22日的现场报道说明，国内患者可依托乐城特许药械政策在当地使用。中国境内的特许使用进展应单独记录，不能仅用是否取得全国注册证明来概括。[17](#ref-tici-china-lecheng-2026)
 
 ## 全植入究竟改变了什么
 
@@ -196,10 +198,19 @@ Cochlear研究系统的十人研究于2025年在线发表、2026年正式刊出�
 | 路线或系统 | 可核对状态 | 必须保留的边界 |
 | --- | --- | --- |
 | MED-EL TICI UNICO | 2026年9月29日宣布获得CE标志并逐步进入欧洲市场；11月FAQ仍注明未获FDA批准 | CE相关市场可用性不等于美国或中国批准；不将产品发布当作独立疗效比较 |
+| TICI UNICO：中国博鳌乐城 | 2026年11月20日中国首发；11月22日现场报道明确国内患者可依托特许药械政策在乐城使用 | 乐城特许使用与全国注册上市分别记录；首发报道未披露具体植入病例日期、医院和例数 |
 | Cochlear TICI研究计划 | 2026年9月公告称ELEVATE与ENTERPRISE完成招募，继续随访；ELEVATE注册为进行中、不再招募 | 公司仍说明商业可用需监管评价；注册计划人数不等于已完成随访人数 |
 | Envoy Acclaim | 关键试验NCT06699797为进行中、不再招募；2026年10月公告提交模块化PMA第二模块 | 研究许可、突破性器械资格和提交申请均不等于上市批准 |
 
-对应来源为MED-EL公告与FAQ、Cochlear公告和ELEVATE注册，以及Acclaim注册和PMA进展公告。[9](#ref-tici-unico-launch)[10](#ref-tici-unico-faq)[11](#ref-tici-cochlear-update)[12](#ref-tici-elevate)[13](#ref-tici-acclaim-registry)[14](#ref-tici-acclaim-module)
+对应来源为MED-EL公告与FAQ、Cochlear公告和ELEVATE注册、Acclaim注册和PMA进展公告，以及乐城中国首发现场报道。[9](#ref-tici-unico-launch)[10](#ref-tici-unico-faq)[11](#ref-tici-cochlear-update)[12](#ref-tici-elevate)[13](#ref-tici-acclaim-registry)[14](#ref-tici-acclaim-module)[17](#ref-tici-china-lecheng-2026)
+
+### 中国进展：乐城特许使用与全国注册
+
+2026年11月22日，南海网、南国都市报记者报道TICI UNICO在乐城的中国首发活动，并采访MED-EL大中华区负责人，明确介绍了国内患者通过乐城特许药械政策使用该系统的路径。因此，“尚未取得全国注册证明”不能被解释成“中国境内没有使用渠道”。该报道同时提到后续开展真实世界临床研究、积累中国患者数据的计划；计划本身不等于已有公开的中国长期随访结果。[17](#ref-tici-china-lecheng-2026)
+
+海南省公布的管理规定对临床急需进口医疗器械设置专门路径，要求在申请使用的指定医疗机构用于特定医疗目的；符合要求的真实世界数据可以作为注册申报资料。这与全国注册上市是不同的监管阶段，特许使用也不应自动写成临床试验。[18](#ref-tici-lecheng-rules-2023)
+
+截至本次核验，已确认中国首发和乐城使用路径，但所查首发报道没有给出已完成植入的具体医院、手术日期、病例数和结局。因此本文不据“首发”推定“首例手术已完成”，也不据病例细节尚未核实而否定国内已开展植入的可能。后续病例进展应以医院、研究登记或具体临床报告补充。
 
 ### 监管阶段与科学证据各自说明什么
 
@@ -207,7 +218,7 @@ Cochlear研究系统的十人研究于2025年在线发表、2026年正式刊出�
 
 上市也不终止研究。长期可靠性、儿童和复杂病例、不同语言、不同生活方式及成本仍可能需要更多资料。反过来，发表一篇同行评议论文也不自动赋予上市资格。论文、注册记录、监管文件与企业公告分别承担研究解释、计划追踪、法定状态和产品沟通的作用。
 
-本次核验没有取得这些型号在中国的注册证明，因此不据欧洲发布推断中国已获批或可常规购买。这里表达的是证据范围，不能把一次检索未找到记录当成全球不存在批准的证明。
+本次核验未取得这些型号的中国全国注册证明；已核实的乐城使用路径如上，应与全国常规供应范围分别表述。不能把未取得注册证明写成中国没有临床应用，也不能把特许使用或单例植入直接推成全国常规可用。
 
 ## 选择与效果评估需要关注哪些问题
 
