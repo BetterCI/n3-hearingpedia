@@ -1219,6 +1219,14 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('hearing-and-hearing-aid-self-report','coherence-and-correlation','related','重测相关不等于数值一致。',2),
   link('hearing-and-hearing-aid-self-report','mathematical-statistics','related','变化解释需要误差与测量模型。',2),
   link('hearing-and-hearing-aid-self-report','audibility-and-aided-audibility','related','声学获取与主观结局不同。',2),
+  link('fully-implantable-cochlear-implant','cochlear-implant','related','全植入是人工耳蜗的一类系统形态。',2),
+  link('fully-implantable-cochlear-implant','microphone','related','植入声传感决定输入质量。',2),
+  link('fully-implantable-cochlear-implant','outer-middle-ear-transmission','related','中耳传感路线依赖自然机械输入。',2),
+  link('fully-implantable-cochlear-implant','cochlear-implant-coding-strategies','related','体内处理仍需要声音编码与刺激策略。',2),
+  link('fully-implantable-cochlear-implant','cochlear-implant-programming-and-mapping','related','输入与电刺激需要分别验证。',2),
+  link('fully-implantable-cochlear-implant','speech-enhancement-and-noise-reduction','related','身体噪声抑制与外界噪声处理机制不同。',2),
+  link('fully-implantable-cochlear-implant','hearing-and-hearing-aid-self-report','related','日常使用与个人目标需要自评。',2),
+  link('fully-implantable-cochlear-implant','cochlear-implant-sound-perception','related','使用形态不等于恢复正常声音感知。',2),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

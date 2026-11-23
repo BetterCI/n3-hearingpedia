@@ -1,0 +1,38 @@
+{
+  "data_type": "synthetic teaching examples; no product specifications",
+  "input_target": [
+    1.0,
+    0.25,
+    1.0
+  ],
+  "output_noise": [
+    0.1,
+    0.1,
+    0.4
+  ],
+  "snr_db": [
+    20.0,
+    7.958800173440752,
+    7.958800173440752
+  ],
+  "energy_mwh": 120,
+  "runtime_h_at_5_8_mw": [
+    24,
+    15
+  ],
+  "net_charge_mw": [
+    25.0,
+    45.0,
+    65.0
+  ],
+  "ideal_charge_h": [
+    4.8,
+    2.6666666666666665,
+    1.8461538461538463
+  ],
+  "figure_pixels": [
+    1104,
+    864
+  ],
+  "assertions": "passed"
+}

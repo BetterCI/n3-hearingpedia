@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-24",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1189,
+  "relations": 1197,
   "entries": [
     {
       "slug": "cochlea",
@@ -307,8 +307,8 @@
       "slug": "cochlear-implant",
       "knowledge_area": "technology",
       "kind": "technology",
-      "chinese_characters": 4986,
-      "body_characters": 9308,
+      "chinese_characters": 5027,
+      "body_characters": 9395,
       "sections": 10,
       "subsections": 23,
       "reference_ids": [
@@ -343,6 +343,7 @@
       "wiki_links": [
         "hearing-aid",
         "hearing-loss",
+        "fully-implantable-cochlear-implant",
         "cochlea",
         "cochlear-implant-coding-strategies",
         "n-of-m-coding",
@@ -4596,8 +4597,8 @@
       "slug": "microphone",
       "knowledge_area": "technology",
       "kind": "technology",
-      "chinese_characters": 7445,
-      "body_characters": 14838,
+      "chinese_characters": 7477,
+      "body_characters": 14915,
       "sections": 12,
       "subsections": 21,
       "reference_ids": [
@@ -4625,6 +4626,7 @@
       ],
       "wiki_links": [
         "electroacoustic-transducer",
+        "fully-implantable-cochlear-implant",
         "dynamic-range",
         "audiometric-calibration",
         "temporal-envelope",
@@ -7032,8 +7034,8 @@
       "slug": "cochlear-implant-programming-and-mapping",
       "knowledge_area": "technology",
       "kind": "technology",
-      "chinese_characters": 6626,
-      "body_characters": 10815,
+      "chinese_characters": 6651,
+      "body_characters": 10884,
       "sections": 10,
       "subsections": 22,
       "reference_ids": [
@@ -7054,6 +7056,7 @@
       ],
       "wiki_links": [
         "cochlear-implant-coding-strategies",
+        "fully-implantable-cochlear-implant",
         "cochlear-implant",
         "channel-interaction",
         "tonotopy",
@@ -7362,6 +7365,45 @@
         "auditory-aging",
         "coherence-and-correlation",
         "mathematical-statistics"
+      ]
+    },
+    {
+      "slug": "fully-implantable-cochlear-implant",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 6562,
+      "body_characters": 10964,
+      "sections": 10,
+      "subsections": 19,
+      "reference_ids": [
+        "zeng-2008",
+        "tici-briggs-2008",
+        "tici-mem-2022",
+        "tici-drum-2024",
+        "tici-acclaim-design",
+        "tici-medel-2025",
+        "tici-cochlear-2026",
+        "tici-acclaim-2024",
+        "tici-unico-launch",
+        "tici-unico-faq",
+        "tici-cochlear-update",
+        "tici-elevate",
+        "tici-acclaim-registry",
+        "tici-acclaim-module",
+        "tici-fda-mri",
+        "tici-fda-breakthrough"
+      ],
+      "wiki_links": [
+        "cochlear-implant",
+        "microphone",
+        "speech-enhancement-and-noise-reduction",
+        "cochlear-implant-coding-strategies",
+        "channel-interaction",
+        "cochlear-implant-programming-and-mapping",
+        "speech-audiometry",
+        "hearing-and-hearing-aid-self-report",
+        "cochlear-implant-sound-perception",
+        "outer-middle-ear-transmission"
       ]
     }
   ]

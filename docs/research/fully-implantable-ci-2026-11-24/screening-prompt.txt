@@ -1,0 +1,19 @@
+Assess this paper's semantic relevance to the research topic.
+
+Research topic: Totally implantable cochlear implants: sensing, body noise, energy, reliability, clinical evidence and dated regional regulatory status
+
+Title: Rehabilitation of human hearing with a totally implantable cochlear implant: a feasibility study
+Abstract:
+Keywords/concepts:
+Venue: Communications Medicine
+Year: 2025
+Cited by: not retained; not a quality score
+
+First state in one sentence what the paper actually studies. Then assign exactly one grade:
+- Core: directly investigates the central research question.
+- Important: substantively related evidence, method, population, or application.
+- Background: useful but indirect context, theory, tool, or review.
+- Exclude: outside scope or only superficial keyword overlap.
+
+Do not classify by keyword overlap alone. Return valid JSON:
+{"studies": "...", "grade": "Core|Important|Background|Exclude", "reason": "...", "evidence_basis": "title|abstract|full_text"}

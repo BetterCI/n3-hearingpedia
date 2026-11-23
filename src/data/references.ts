@@ -1,3 +1,4 @@
+import { fullyImplantableCIReferences } from './fully-implantable-ci-references.ts';
 import { hearingSelfReportReferences } from './hearing-self-report-references.ts';
 import { audibilityReferences } from './audibility-references.ts';
 import { hearingAidOutcomesReferences } from './hearing-aid-outcomes-references.ts';
@@ -135,6 +136,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...fullyImplantableCIReferences,
   ...hearingSelfReportReferences,
   ...audibilityReferences,
   ...hearingAidOutcomesReferences,
