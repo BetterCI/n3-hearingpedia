@@ -1196,6 +1196,13 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('speech-enhancement-and-noise-reduction','speech-intelligibility','related','算法获益需要独立行为验证。',3),
   link('speech-enhancement-and-noise-reduction','hearing-aid','related','完整处理链、延迟与听者共同影响实际收益。',3),
   link('speech-enhancement-and-noise-reduction','wide-dynamic-range-compression','related','压缩与降噪相互作用，应在完整处理链验证。',3),
+  link('hearing-aid-benefit-and-outcomes','hearing-aid','related','整体效果连接装置处理与康复目标。',2),
+  link('hearing-aid-benefit-and-outcomes','real-ear-measurement','related','输出验证与实际功能结局提供互补证据。',2),
+  link('hearing-aid-benefit-and-outcomes','speech-audiometry','related','行为获益依赖材料、条件与测量误差。',2),
+  link('hearing-aid-benefit-and-outcomes','listening-effort','related','相同识别成绩可能伴随不同努力。',2),
+  link('hearing-aid-benefit-and-outcomes','hearing-aid-prescription','related','处方目标不能直接替代生活效果。',2),
+  link('hearing-aid-benefit-and-outcomes','speech-intelligibility','related','助听后表现与相对改善必须分别解释。',2),
+  link('hearing-aid-benefit-and-outcomes','mathematical-statistics','related','可靠性、差值和研究设计影响效果推断。',2),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

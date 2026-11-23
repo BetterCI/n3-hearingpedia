@@ -1,0 +1,17 @@
+{
+  "data_type": "synthetic teaching examples, not clinical thresholds",
+  "percentage_point_benefit": [
+    10,
+    30
+  ],
+  "binomial_se_percentage_points": [
+    8.0,
+    5.656854249492381,
+    4.0
+  ],
+  "assumed_SEM": 4,
+  "MDC95": 11.087434329005065,
+  "difference_in_changes": 15,
+  "SRT_benefit_dB": 3,
+  "assertions": "passed"
+}

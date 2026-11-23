@@ -1,3 +1,4 @@
+import { hearingAidOutcomesReferences } from './hearing-aid-outcomes-references.ts';
 import { airBoneConductionReferences } from './air-bone-conduction-references.ts';
 import { coherenceCorrelationReferences } from './coherence-correlation-references.ts';
 import { nonlinearityReferences } from './nonlinearity-references.ts';
@@ -132,6 +133,7 @@ import { pitchReferences } from './pitch-references.ts';
 export interface Reference { title: string; authors: string; year: string; publication: string; doi?: string; url: string; access: 'fulltext' | 'abstract' | 'metadata' | 'documentation'; supports: string; publicationType?: 'preprint'; }
 
 export const references: Record<string, Reference> = {
+  ...hearingAidOutcomesReferences,
   ...airBoneConductionReferences,
   ...coherenceCorrelationReferences,
   ...nonlinearityReferences,

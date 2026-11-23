@@ -1,8 +1,8 @@
 {
   "version": "0.5",
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1166,
+  "relations": 1173,
   "entries": [
     {
       "slug": "cochlea",
@@ -1097,8 +1097,8 @@
       "slug": "hearing-aid",
       "knowledge_area": "technology",
       "kind": "technology",
-      "chinese_characters": 9002,
-      "body_characters": 22100,
+      "chinese_characters": 9034,
+      "body_characters": 22177,
       "sections": 12,
       "subsections": 9,
       "reference_ids": [
@@ -1128,6 +1128,7 @@
         "cochlea",
         "wide-dynamic-range-compression",
         "speech-enhancement-and-noise-reduction",
+        "hearing-aid-benefit-and-outcomes",
         "cochlear-implant",
         "hearing-loss",
         "speech-intelligibility",
@@ -3124,8 +3125,8 @@
       "slug": "speech-audiometry",
       "knowledge_area": "measurement",
       "kind": "test",
-      "chinese_characters": 8975,
-      "body_characters": 14847,
+      "chinese_characters": 9001,
+      "body_characters": 14920,
       "sections": 12,
       "subsections": 34,
       "reference_ids": [
@@ -3160,6 +3161,7 @@
         "speech-reception-threshold",
         "speech-intelligibility",
         "speech-redundancy",
+        "hearing-aid-benefit-and-outcomes",
         "audiometric-calibration",
         "hearing-aid",
         "cochlear-implant",
@@ -4825,8 +4827,8 @@
       "slug": "real-ear-measurement",
       "knowledge_area": "measurement",
       "kind": "test",
-      "chinese_characters": 6697,
-      "body_characters": 12153,
+      "chinese_characters": 6722,
+      "body_characters": 12222,
       "sections": 11,
       "subsections": 6,
       "reference_ids": [
@@ -4855,6 +4857,7 @@
       ],
       "wiki_links": [
         "hearing-aid",
+        "hearing-aid-benefit-and-outcomes",
         "outer-middle-ear-transmission",
         "hearing-aid-prescription",
         "acoustic-immittance-tympanometry",
@@ -7243,6 +7246,42 @@
         "auditory-pathway",
         "cochlear-implant",
         "acoustic-immittance-tympanometry"
+      ]
+    },
+    {
+      "slug": "hearing-aid-benefit-and-outcomes",
+      "knowledge_area": "measurement",
+      "kind": "test",
+      "chinese_characters": 6809,
+      "body_characters": 10450,
+      "sections": 11,
+      "subsections": 24,
+      "reference_ids": [
+        "asha-hearing-aids-adults",
+        "hao-cosi",
+        "hao-aphab",
+        "hao-aphab-manual",
+        "hao-ioi",
+        "speech-audiometry-carney-2007",
+        "hao-baseline-2025",
+        "fuel-2016",
+        "aging-humes-2017",
+        "de-sousa-self-fitting-2023",
+        "wu-hearing-aid-service-2025",
+        "hao-ema-2026",
+        "hao-nice",
+        "hao-core",
+        "achieve-2023",
+        "achieve-communication-2024"
+      ],
+      "wiki_links": [
+        "hearing-aid",
+        "real-ear-measurement",
+        "speech-reception-threshold",
+        "speech-audiometry",
+        "hearing-aid-prescription",
+        "frequency-resolution",
+        "listening-effort"
       ]
     }
   ]
