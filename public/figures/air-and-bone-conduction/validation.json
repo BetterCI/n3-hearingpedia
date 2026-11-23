@@ -1,0 +1,70 @@
+{
+  "data_type": "synthetic educational examples; no patient data",
+  "audiogram_frequencies_Hz": [
+    500,
+    1000,
+    2000,
+    4000
+  ],
+  "air_bone_gaps_dB": {
+    "传导性模式：骨导相对保留": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "感音神经性模式：两条曲线共同升高": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "混合性模式：骨导升高，同时仍有差值": [
+      30,
+      30,
+      30,
+      30
+    ]
+  },
+  "cross_hearing": {
+    "test_AC_dBHL": 70,
+    "test_BC_dBHL": 40,
+    "other_BC_dBHL": 10,
+    "assumed_AC_IA_dB": 40,
+    "assumed_BC_IA_dB": 0,
+    "unmasked_AC_dBHL": 50,
+    "unmasked_BC_dBHL": 10,
+    "apparent_gap_dB": 40,
+    "true_gap_dB": 30
+  },
+  "plateau": {
+    "relative_masker_increment_dB": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70
+    ],
+    "tone_threshold_dBHL": [
+      10,
+      20,
+      30,
+      40,
+      40,
+      40,
+      50,
+      60
+    ],
+    "clinical_setting_values": false
+  },
+  "unit_pressure_phasor_difference": {
+    "same_phase": 0.0,
+    "opposite_phase": 2.0
+  },
+  "assertions": "passed",
+  "numpy": "1.26.4",
+  "matplotlib": "3.8.0"
+}

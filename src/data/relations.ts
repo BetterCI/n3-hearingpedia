@@ -15,6 +15,14 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  {"source": "air-and-bone-conduction", "target": "outer-middle-ear-transmission", "type": "related", "note": "两类输入共享部分机械结构，但驱动路径及敏感性不同。", "strength": 2},
+  {"source": "air-and-bone-conduction", "target": "pure-tone-audiometry", "type": "related", "note": "同频率、耳别明确的气骨导阈值构成气骨导差。", "strength": 2},
+  {"source": "air-and-bone-conduction", "target": "audiometric-calibration", "type": "related", "note": "气导声压与骨导振动力使用不同参考零点和耦合条件。", "strength": 2},
+  {"source": "air-and-bone-conduction", "target": "hearing-loss", "type": "related", "note": "气骨导模式帮助识别传导性成分，但不单独确诊病因。", "strength": 2},
+  {"source": "air-and-bone-conduction", "target": "acoustic-immittance-tympanometry", "type": "related", "note": "声导抗提供与气骨导差互补的机械功能证据。", "strength": 2},
+  {"source": "air-and-bone-conduction", "target": "electroacoustic-transducer", "type": "related", "note": "耳机和骨导振子的输出及负载限制测量。", "strength": 2},
+  {"source": "air-and-bone-conduction", "target": "binaural-hearing", "type": "related", "note": "跨耳传播影响耳别验证；骨导转送不等于恢复独立双耳输入。", "strength": 2},
+
   {"source": "coherence-and-correlation", "target": "stochastic-processes", "type": "related", "note": "从二阶统计量与平稳性理解相关和互谱。", "strength": 2},
   {"source": "coherence-and-correlation", "target": "spectrum-and-power-spectral-density", "type": "related", "note": "自谱和复互谱构成相干的归一化基础。", "strength": 2},
   {"source": "coherence-and-correlation", "target": "binaural-hearing", "type": "related", "note": "区分耳间声压相关、包络相关与知觉任务。", "strength": 2},

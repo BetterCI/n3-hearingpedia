@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-23",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1159,
+  "relations": 1166,
   "entries": [
     {
       "slug": "cochlea",
@@ -723,8 +723,8 @@
       "slug": "pure-tone-audiometry",
       "knowledge_area": "measurement",
       "kind": "test",
-      "chinese_characters": 7537,
-      "body_characters": 15232,
+      "chinese_characters": 7580,
+      "body_characters": 15312,
       "sections": 10,
       "subsections": 24,
       "reference_ids": [
@@ -754,6 +754,7 @@
         "pure-tone-audiometry-carhart"
       ],
       "wiki_links": [
+        "air-and-bone-conduction",
         "loudness",
         "dynamic-range",
         "masking",
@@ -1057,8 +1058,8 @@
       "slug": "hearing-loss",
       "knowledge_area": "biology",
       "kind": "condition",
-      "chinese_characters": 6896,
-      "body_characters": 11089,
+      "chinese_characters": 6943,
+      "body_characters": 11171,
       "sections": 10,
       "subsections": 6,
       "reference_ids": [
@@ -1082,6 +1083,7 @@
       "wiki_links": [
         "loudness",
         "auditory-neuropathy-spectrum-disorder",
+        "air-and-bone-conduction",
         "temporal-fine-structure",
         "auditory-evoked-potential",
         "spatial-hearing",
@@ -4680,8 +4682,8 @@
       "slug": "outer-middle-ear-transmission",
       "knowledge_area": "biology",
       "kind": "mechanism",
-      "chinese_characters": 7500,
-      "body_characters": 13438,
+      "chinese_characters": 7544,
+      "body_characters": 13516,
       "sections": 11,
       "subsections": 9,
       "reference_ids": [
@@ -4711,6 +4713,7 @@
       "wiki_links": [
         "sound-waves-and-propagation",
         "cochlea",
+        "air-and-bone-conduction",
         "interaural-level-difference",
         "spatial-hearing",
         "acoustic-immittance-tympanometry",
@@ -7203,6 +7206,43 @@
         "masking",
         "electroencephalography",
         "auditory-attention-decoding"
+      ]
+    },
+    {
+      "slug": "air-and-bone-conduction",
+      "knowledge_area": "biology",
+      "kind": "mechanism",
+      "chinese_characters": 6316,
+      "body_characters": 10411,
+      "sections": 11,
+      "subsections": 21,
+      "reference_ids": [
+        "nidcd-hearing-2022",
+        "abc-model",
+        "abc-transmission",
+        "stieger-bone-2018",
+        "pure-tone-audiometry-iso3891",
+        "pure-tone-audiometry-iso3893",
+        "pure-tone-audiometry-asha",
+        "pure-tone-audiometry-bsa",
+        "pure-tone-audiometry-symbols",
+        "abc-occlusion",
+        "abc-carhart",
+        "abc-third-window",
+        "abc-false-gap",
+        "abc-rinne",
+        "binaural-hearing-cros",
+        "abc-position",
+        "abc-scds-consensus"
+      ],
+      "wiki_links": [
+        "outer-middle-ear-transmission",
+        "pure-tone-audiometry",
+        "audiometric-calibration",
+        "hearing-loss",
+        "auditory-pathway",
+        "cochlear-implant",
+        "acoustic-immittance-tympanometry"
       ]
     }
   ]

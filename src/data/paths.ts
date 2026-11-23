@@ -41,6 +41,7 @@ export const introductoryPaths = [
 ];
 
 export const learningPaths = [
+  {id:'air-bone-conduction',title:'从传声路径理解气骨导测量',english:'Air and bone conduction',description:'从外中耳力学进入骨导机制、校准、气骨导差与跨耳掩蔽。',slugs:['outer-middle-ear-transmission','air-and-bone-conduction','audiometric-calibration','pure-tone-audiometry','hearing-loss','acoustic-immittance-tympanometry']},
   {id:'coherence-correlation',title:'从相关走向频域相干',english:'Correlation and coherence',description:'从随机过程和互谱理解时延、线性联系与听觉应用中的解释边界。',slugs:['stochastic-processes','spectrum-and-power-spectral-density','coherence-and-correlation','binaural-hearing','neural-speech-tracking']},
   {id:'nonlinearity',title:'从线性系统理解非线性与失真',english:'Nonlinearity and distortion',description:'从输入输出与频谱进入压缩、谐波、互调和测量。',slugs:['signals-and-systems','nonlinearity-and-distortion','wide-dynamic-range-compression','cochlea']},
   {id:'auditory-attention-decoding',title:'听觉注意力解码：从神经跟踪到可信预测',english:'Auditory attention decoding',description:'理解注意和脑电，建立特征匹配，再核查独立验证与听觉设备中的控制效果。',slugs:['auditory-attention','electroencephalography','neural-speech-tracking','auditory-attention-decoding','speech-enhancement-and-noise-reduction','hearing-aid']},
