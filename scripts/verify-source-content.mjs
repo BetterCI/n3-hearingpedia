@@ -26,7 +26,7 @@ for(const e of wiki.entries){
  assert(e.chinese_characters>=1000&&e.sections>=4&&e.subsections>=3,e.slug);
  assert(body.trimStart().startsWith('**'),e.slug);
  assert(!/\n## [^\n]+\n\s*(?=## |$)/.test(body),e.slug);
- assert(!/课题组|组内|成员/.test(source),e.slug);
+ assert(!/课题组|组内(?!相关|设计)|成员/.test(source),e.slug);
  assert(knowledgeAreas.some(a=>a.id===e.knowledge_area)&&e.kind in kindLabels,e.slug);
  for(const id of refIDs)assert(references[id],id);
  for(const [_,n,id] of body.matchAll(/\[(\d+)\]\(#ref-([^\s)]+)/g)){assert.equal(refIDs[Number(n)-1],id,e.slug);citations++;}

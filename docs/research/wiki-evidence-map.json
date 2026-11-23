@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-17",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1147,
+  "relations": 1153,
   "entries": [
     {
       "slug": "cochlea",
@@ -7131,6 +7131,37 @@
       ],
       "status": "draft",
       "depth": "in-depth"
+    },
+    {
+      "slug": "nonlinearity-and-distortion",
+      "knowledge_area": "sound",
+      "kind": "phenomenon",
+      "chinese_characters": 4194,
+      "body_characters": 7142,
+      "sections": 9,
+      "subsections": 19,
+      "reference_ids": [
+        "ndist-mit",
+        "ndist-smith",
+        "ndist-ap",
+        "ndist-ti",
+        "ndist-robles"
+      ],
+      "wiki_links": [
+        "signals-and-systems",
+        "spectrum-and-power-spectral-density",
+        "dynamic-range",
+        "cochlea",
+        "phase-and-group-delay",
+        "wide-dynamic-range-compression",
+        "pure-and-complex-tones",
+        "temporal-envelope",
+        "digital-signal-processing",
+        "outer-hair-cell",
+        "basilar-membrane",
+        "otoacoustic-emissions",
+        "hearing-aid"
+      ]
     }
   ]
 }

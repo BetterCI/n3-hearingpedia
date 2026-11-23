@@ -15,6 +15,12 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  {"source": "nonlinearity-and-distortion", "target": "signals-and-systems", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},
+  {"source": "nonlinearity-and-distortion", "target": "dynamic-range", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},
+  {"source": "nonlinearity-and-distortion", "target": "electroacoustic-transducer", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},
+  {"source": "nonlinearity-and-distortion", "target": "cochlea", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},
+  {"source": "nonlinearity-and-distortion", "target": "wide-dynamic-range-compression", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},
+  {"source": "nonlinearity-and-distortion", "target": "spectrum-and-power-spectral-density", "type": "related", "note": "连接输入输出性质、失真测量与具体系统的解释。", "strength": 2},
   link('auditory-attention-decoding','auditory-attention','related','注意选择是预测目标，解码准确率不等于注意能力。',2),
   link('auditory-attention-decoding','neural-speech-tracking','related','连续响应与语音特征的联系构成候选匹配依据。',2),
   link('auditory-attention-decoding','electroencephalography','related','记录质量、参考与伪迹限制非侵入式解码。',2),
