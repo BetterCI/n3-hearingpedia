@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-24",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1173,
+  "relations": 1181,
   "entries": [
     {
       "slug": "cochlea",
@@ -248,8 +248,8 @@
       "slug": "speech-intelligibility",
       "knowledge_area": "perception",
       "kind": "function",
-      "chinese_characters": 9736,
-      "body_characters": 16796,
+      "chinese_characters": 9762,
+      "body_characters": 16867,
       "sections": 12,
       "subsections": 35,
       "reference_ids": [
@@ -282,6 +282,7 @@
         "psychometric-function",
         "objective-speech-evaluation",
         "speech-enhancement-and-noise-reduction",
+        "audibility-and-aided-audibility",
         "formant",
         "temporal-envelope",
         "temporal-fine-structure",
@@ -4827,8 +4828,8 @@
       "slug": "real-ear-measurement",
       "knowledge_area": "measurement",
       "kind": "test",
-      "chinese_characters": 6722,
-      "body_characters": 12222,
+      "chinese_characters": 6751,
+      "body_characters": 12295,
       "sections": 11,
       "subsections": 6,
       "reference_ids": [
@@ -4858,6 +4859,7 @@
       "wiki_links": [
         "hearing-aid",
         "hearing-aid-benefit-and-outcomes",
+        "audibility-and-aided-audibility",
         "outer-middle-ear-transmission",
         "hearing-aid-prescription",
         "acoustic-immittance-tympanometry",
@@ -7252,8 +7254,8 @@
       "slug": "hearing-aid-benefit-and-outcomes",
       "knowledge_area": "measurement",
       "kind": "test",
-      "chinese_characters": 6809,
-      "body_characters": 10450,
+      "chinese_characters": 6843,
+      "body_characters": 10528,
       "sections": 11,
       "subsections": 24,
       "reference_ids": [
@@ -7277,11 +7279,48 @@
       "wiki_links": [
         "hearing-aid",
         "real-ear-measurement",
+        "audibility-and-aided-audibility",
         "speech-reception-threshold",
         "speech-audiometry",
         "hearing-aid-prescription",
         "frequency-resolution",
         "listening-effort"
+      ]
+    },
+    {
+      "slug": "audibility-and-aided-audibility",
+      "knowledge_area": "measurement",
+      "kind": "metric",
+      "chinese_characters": 6219,
+      "body_characters": 10756,
+      "sections": 10,
+      "subsections": 21,
+      "reference_ids": [
+        "asha-hearing-aids-adults",
+        "ansi-sii",
+        "aud-sii-working-group",
+        "aud-pavlovic-1987",
+        "bsa-rem-2018",
+        "prescription-dsl-protocols-2005",
+        "holube-ists-2010",
+        "aud-kuk-threshold-2003",
+        "aud-sii-code",
+        "wiseman-sii-tutorial-2025",
+        "aud-longitudinal-2015",
+        "wiseman-fitting-criteria-2024",
+        "aud-risk-2023",
+        "prescription-task-audibility-2023",
+        "aud-dots-2026",
+        "aud-low-high-2025"
+      ],
+      "wiki_links": [
+        "speech-intelligibility",
+        "listening-effort",
+        "hearing-aid-benefit-and-outcomes",
+        "audiometric-calibration",
+        "real-ear-measurement",
+        "masking",
+        "wide-dynamic-range-compression"
       ]
     }
   ]

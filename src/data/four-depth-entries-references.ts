@@ -674,7 +674,7 @@ export const fourDepthEntriesReferences: Record<string, Reference> = {
     "publication": "Am J Audiol 34(3):467-483",
     "doi": "10.1044/2025_aja-24-00267",
     "url": "https://doi.org/10.1044/2025_aja-24-00267",
-    "access": "abstract",
-    "supports": "教程摘要；儿童SII的计算框架、可听性用途及案例，不把SII当作识别正确率。"
+    "access": "fulltext",
+    "supports": "2026-11-24补读PMC正文定义、计算、验证及频率降低相关段；儿童SII的用途和频带映射限制，不把SII当作识别正确率或跨装置通用指标。"
   }
 };

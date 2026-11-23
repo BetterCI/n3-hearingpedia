@@ -1203,6 +1203,14 @@ export const knowledgeRelations: KnowledgeRelation[] = [
   link('hearing-aid-benefit-and-outcomes','hearing-aid-prescription','related','处方目标不能直接替代生活效果。',2),
   link('hearing-aid-benefit-and-outcomes','speech-intelligibility','related','助听后表现与相对改善必须分别解释。',2),
   link('hearing-aid-benefit-and-outcomes','mathematical-statistics','related','可靠性、差值和研究设计影响效果推断。',2),
+  link('audibility-and-aided-audibility','hearing-aid','related','输出与听阈共同影响助听可听度。',2),
+  link('audibility-and-aided-audibility','real-ear-measurement','related','实际输出验证提供可听度估计的声学依据。',2),
+  link('audibility-and-aided-audibility','speech-intelligibility','related','声学获取与行为识别不同。',2),
+  link('audibility-and-aided-audibility','audiometric-calibration','related','阈值和输出必须使用相容声学参照。',2),
+  link('audibility-and-aided-audibility','wide-dynamic-range-compression','related','非线性增益使可听度依赖输入声级。',2),
+  link('audibility-and-aided-audibility','hearing-aid-prescription','related','处方匹配与可听度是互补判断。',2),
+  link('audibility-and-aided-audibility','hearing-aid-benefit-and-outcomes','related','可听度是多维效果评估的一环。',2),
+  link('audibility-and-aided-audibility','masking','related','噪声改变可用线索与阈值限制。',2),
 ];
 export function relationshipsFor(slug: string) {
   return knowledgeRelations.filter(r => r.source === slug || r.target === slug).map(r => ({

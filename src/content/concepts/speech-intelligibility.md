@@ -38,6 +38,8 @@ key_facts:
 
 处理后的声音更安静为何未必更易懂，以及如何验证增强收益，见[语音增强与降噪](../speech-enhancement-and-noise-reduction/)。
 
+关于听阈、言语频带和助听SII的专门解释，见[可听度与助听可听度](../audibility-and-aided-audibility/)。
+
 ## 定义与相关概念
 
 ### 辨认语音与理解信息

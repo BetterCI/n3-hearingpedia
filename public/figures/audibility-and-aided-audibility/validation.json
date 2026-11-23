@@ -1,0 +1,45 @@
+{
+  "model": "synthetic teaching examples; NOT ANSI SII",
+  "weights": [
+    0.2,
+    0.5,
+    0.3
+  ],
+  "fractions": [
+    [
+      0.8,
+      0.3,
+      0.0
+    ],
+    [
+      1.0,
+      0.7,
+      0.4
+    ],
+    [
+      1.0,
+      0.8,
+      0.0
+    ],
+    [
+      0.0,
+      0.6,
+      1.0
+    ]
+  ],
+  "Q": [
+    0.31000000000000005,
+    0.67,
+    0.6000000000000001,
+    0.6
+  ],
+  "Q_gain": 0.36,
+  "threshold_conversion_dB_SPL": 55,
+  "sensation_margin_dB": 10,
+  "two_60_dB_bands_total": 63.01029995663981,
+  "same_threshold_outputs_at_60_dB_SPL": [
+    90,
+    70
+  ],
+  "assertions": "passed"
+}
