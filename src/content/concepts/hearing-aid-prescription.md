@@ -9,7 +9,7 @@ aliases: ["助听器验配公式", "助听器验配处方", "助听器处方", "
 level: ["undergraduate", "graduate"]
 status: "draft"
 depth: "in-depth"
-last_updated: "2026-11-06"
+last_updated: "2026-11-24"
 literature_checked_at: "2026-10-09"
 authors: ["AI 辅助编写"]
 reviewer: null
@@ -339,3 +339,5 @@ NAL-NL3官方描述纳入现实验配数据和用户反馈。[17](#ref-prescript
 ### 按问题选择阅读入口
 
 理解装置处理可读[助听器](../hearing-aid/)；理解听阈和坐标可读[听力学](../audiology/)、[测听校准](../audiometric-calibration/)与[纯音测听](../pure-tone-audiometry/)；理解上下界和感知可读[动态范围](../dynamic-range/)与[响度](../loudness/)；评价功能时结合[言语可懂度](../speech-intelligibility/)和[言语接收阈值](../speech-reception-threshold/)。处方论文、验证方法和获益研究应配套阅读，才能判断一张目标曲线如何进入实际聆听。
+
+目标能否实现还取决于受话器、外形和耳道耦合。不同结构的比较见[助听器类型](../hearing-aid-types/)，选择后仍需核查实际耳内输出。

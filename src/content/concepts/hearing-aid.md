@@ -8,7 +8,7 @@ tags: ["助听器","宽动态范围压缩","真耳测量","方向性麦克风","
 aliases: ["hearing aids","声学助听器","数字助听器","HA"]
 status: draft
 depth: in-depth
-last_updated: "2026-11-06"
+last_updated: "2026-11-24"
 authors: ["AI 辅助编写"]
 reviewer: null
 reviewed_at: null
@@ -246,3 +246,5 @@ $$
 研究前沿还包括低延迟目标言语分离、动态多说话人追踪、保留空间线索的双耳增强，以及把实验室模型与真实生活反馈联系起来。需要解决的并非只有预测准确率，还包括实时计算资源、耳道声学、目标选择错误和跨场景稳定性。对中文使用者，普通话汉语声调、多人交谈和语言材料特征也应进入验证，而不能仅依据外语句子测试推断全部日常获益。[11](#ref-clarity-toolkit)[21](#ref-tasnim-ml-hearingaid-2024)[2](#ref-keidser-nalnl2-2011)
 
 助听器相关概念可沿两条路径继续阅读：从[听力损失](../hearing-loss/)、[响度](../loudness/)和[动态范围](../dynamic-range/)理解补偿依据；从[听觉滤波器](../auditory-filter/)、[时域包络](../temporal-envelope/)、[空间听觉](../spatial-hearing/)与[言语可懂度](../speech-intelligibility/)理解处理改变了哪些线索、又应如何评价这些变化。
+
+各类装置的定义、部件位置、典型适用条件及结构示意，见[助听器类型](../hearing-aid-types/)；外形、开放程度与跨耳路由需要分别描述。

@@ -2,7 +2,7 @@
   "version": "0.5",
   "date": "2026-11-24",
   "schema": "Editorial knowledge links and encyclopedia sections; not a universal formal ontology",
-  "relations": 1197,
+  "relations": 1205,
   "entries": [
     {
       "slug": "cochlea",
@@ -1099,8 +1099,8 @@
       "slug": "hearing-aid",
       "knowledge_area": "technology",
       "kind": "technology",
-      "chinese_characters": 9034,
-      "body_characters": 22177,
+      "chinese_characters": 9079,
+      "body_characters": 22254,
       "sections": 12,
       "subsections": 9,
       "reference_ids": [
@@ -1140,7 +1140,8 @@
         "spatial-hearing",
         "mandarin-lexical-tone",
         "loudness",
-        "auditory-filter"
+        "auditory-filter",
+        "hearing-aid-types"
       ],
       "status": "draft"
     },
@@ -2968,8 +2969,8 @@
       "slug": "hearing-aid-prescription",
       "knowledge_area": "technology",
       "kind": "model",
-      "chinese_characters": 8562,
-      "body_characters": 17023,
+      "chinese_characters": 8608,
+      "body_characters": 17099,
       "sections": 11,
       "subsections": 31,
       "reference_ids": [
@@ -3010,7 +3011,8 @@
         "listening-effort",
         "audiology",
         "audiometric-calibration",
-        "speech-reception-threshold"
+        "speech-reception-threshold",
+        "hearing-aid-types"
       ],
       "status": "draft",
       "depth": "in-depth"
@@ -7406,6 +7408,39 @@
         "hearing-and-hearing-aid-self-report",
         "cochlear-implant-sound-perception",
         "outer-middle-ear-transmission"
+      ]
+    },
+    {
+      "slug": "hearing-aid-types",
+      "knowledge_area": "technology",
+      "kind": "technology",
+      "chinese_characters": 6190,
+      "body_characters": 10988,
+      "sections": 8,
+      "subsections": 17,
+      "reference_ids": [
+        "nidcd-hearing-aids",
+        "asha-hearing-aids-adults",
+        "types-nhs-hearing-aids",
+        "winkler-open-fitting-2016",
+        "types-aaa-pediatric-2013",
+        "binaural-hearing-cros",
+        "types-aao-bone-conduction",
+        "types-implant-consensus-2022",
+        "fda-otc-hearing-aids"
+      ],
+      "wiki_links": [
+        "hearing-aid",
+        "hearing-aid-prescription",
+        "real-ear-measurement",
+        "hearing-loss",
+        "hearing-aid-benefit-and-outcomes",
+        "binaural-hearing",
+        "air-and-bone-conduction",
+        "cochlear-implant",
+        "pure-tone-audiometry",
+        "speech-audiometry",
+        "hearing-and-hearing-aid-self-report"
       ]
     }
   ]

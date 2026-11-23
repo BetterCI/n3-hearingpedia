@@ -15,6 +15,15 @@ export interface KnowledgeRelation { source: string; target: string; type: Relat
 // Learning order is maintained separately; line widths are 0.7 / 1.6 / 2.8 screen pixels.
 const link = (source: string, target: string, type: RelationType, note: string, strength: 1 | 2 | 3): KnowledgeRelation => ({ source, target, type, note, strength });
 export const knowledgeRelations: KnowledgeRelation[] = [
+  link("hearing-aid-types","hearing-aid","related","按部件位置、耳道耦合与信号路由理解装置形式。",3),
+  link("hearing-aid-types","hearing-aid-prescription","related","先明确目标输出，再核查外形与耦合能否实现。",3),
+  link("hearing-aid-types","real-ear-measurement","related","结构和耦合选择需要实际耳内输出验证。",3),
+  link("hearing-aid-types","hearing-loss","related","分耳听觉条件和频率分布影响候选方案。",3),
+  link("hearing-aid-types","binaural-hearing","related","区分两耳独立输入与CROS跨耳转送。",3),
+  link("hearing-aid-types","air-and-bone-conduction","related","传声途径与装置外形属于不同分类维度。",2),
+  link("hearing-aid-types","hearing-aid-benefit-and-outcomes","related","类型适用性还需操作、交流和日常获益评价。",2),
+  link("hearing-aid-types","cochlear-implant","related","比较声学或机械补偿与电刺激的系统边界。",2),
+
   {"source": "air-and-bone-conduction", "target": "outer-middle-ear-transmission", "type": "related", "note": "两类输入共享部分机械结构，但驱动路径及敏感性不同。", "strength": 2},
   {"source": "air-and-bone-conduction", "target": "pure-tone-audiometry", "type": "related", "note": "同频率、耳别明确的气骨导阈值构成气骨导差。", "strength": 2},
   {"source": "air-and-bone-conduction", "target": "audiometric-calibration", "type": "related", "note": "气导声压与骨导振动力使用不同参考零点和耦合条件。", "strength": 2},

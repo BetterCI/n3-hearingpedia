@@ -1,0 +1,29 @@
+{
+  "font": "Microsoft YaHei",
+  "figures": 4,
+  "data": "original conceptual diagrams; no patient data; not to scale",
+  "dimensions": {
+    "01-styles": [
+      1440,
+      960
+    ],
+    "02-bte-ric": [
+      1440,
+      720
+    ],
+    "03-coupling": [
+      1440,
+      840
+    ],
+    "04-routing": [
+      1440,
+      960
+    ]
+  },
+  "invariants": [
+    "BTE receiver behind ear; RIC receiver in canal",
+    "all coupling panels use an in-canal receiver",
+    "CROS/BiCROS output only to better ear in these examples",
+    "arrows do not encode benefit or sound level"
+  ]
+}

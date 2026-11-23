@@ -226,9 +226,9 @@ export const attentionBinauralTemporalReferences: Record<string, Reference> = {
     "authors": "Peters JPM, van Heteren JAA, Wendrich AW, van Zanten GA, Grolman W, Stokroos RJ, Smit AL.",
     "year": "2021",
     "publication": "PloS one",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34644322/",
-    "access": "abstract",
-    "supports": "原始摘要及书目：单侧失聪 CINGLE 随机研究，转送与植入结果的空间配置及短期范围；不作个体治疗建议。",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8513831/",
+    "access": "fulltext",
+    "supports": "2026-11-24 阅读公开全文的摘要、Study design、噪声中言语结果及讨论：成人单侧聋的空间配置依赖；随机分配CI或试用顺序后，BCD/CROS/不治疗由参与者选择，最终四组不全为直接随机分组。不作个体治疗建议。",
     "doi": "10.1371/journal.pone.0257447"
   },
   "binaural-hearing-amt-lindemann": {
